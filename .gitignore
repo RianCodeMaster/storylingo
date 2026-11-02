@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+
+# IDE
+.idea/
+.vscode/
