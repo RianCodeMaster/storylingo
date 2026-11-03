@@ -8,8 +8,10 @@ import { feedback, narrate, PHRASES, speak, stopSpeaking } from "@/lib/speech";
 import { finishSession, recordAnswer, recordLookup, startSession } from "@/lib/story";
 import type { GlossEntry, Question, Story, Target } from "@/lib/types";
 import InteractiveText, { WordSheet, type Tapped } from "./InteractiveText";
+import WordsIntro, { type WordResults } from "./WordsIntro";
 
 type Phase =
+  | { kind: "words" } // the core words and the listening game, before everything else
   | { kind: "intro" }
   | { kind: "scene"; s: number }
   | { kind: "question"; s: number; queue: number[] } // queue[0] is the question being asked
@@ -70,7 +72,7 @@ function QuestionView(props: {
 export default function Player({ story, userId }: { story: Story; userId: string }) {
   // `base` is the learner's language (texts around the story), `lang` below the story's own language.
   const { lang: base, dict, fill, plural } = useI18n();
-  const [phase, setPhase] = useState<Phase>({ kind: "intro" });
+  const [phase, setPhase] = useState<Phase>({ kind: story.words.length ? "words" : "intro" });
   const [line, setLine] = useState<string | null>(null);
   // A session starts when the learner presses "Begin", so just opening a story leaves no empty sessions.
   const [sessionId, setSessionId] = useState<string | null>(null);
@@ -96,6 +98,13 @@ export default function Player({ story, userId }: { story: Story; userId: string
     for (const scene of story.scenes) for (const e of scene.glossary ?? []) if (!map.has(e.word.toLowerCase())) map.set(e.word.toLowerCase(), e);
     return map;
   });
+  const [coreIds] = useState(() => new Set(story.words.map((w) => w.lexeme_id)));
+
+  // The listening game counts like answers: its words enter review when the story is finished.
+  function wordsDone(wordResults: WordResults) {
+    for (const [id, r] of wordResults) results.current.set(id, r);
+    setPhase({ kind: "intro" });
+  }
 
   function tap(t: Tapped) {
     setTapped(t);
@@ -169,7 +178,8 @@ export default function Player({ story, userId }: { story: Story; userId: string
       startSession(userId, story.id).then(setSessionId).catch((e) => setError(e.message));
       return setPhase({ kind: "scene", s: 0 });
     }
-    const questions = phase.kind === "done" ? [] : story.scenes[phase.s].questions;
+    if (phase.kind === "words" || phase.kind === "done") return;
+    const questions = story.scenes[phase.s].questions;
     if (phase.kind === "scene") {
       const { queue, skipped } = start(questions, circling.current);
       noteSkipped(skipped);
@@ -201,6 +211,8 @@ export default function Player({ story, userId }: { story: Story; userId: string
       </div>
       {error && <p className="card">{fill(dict.story.saveFailed, { error })}</p>}
       {skipNote && <p className="skip-note">{skipNote}</p>}
+
+      {phase.kind === "words" && <WordsIntro title={story.title} words={story.words} lang={lang} onDone={wordsDone} />}
 
       {phase.kind === "intro" && (
         <>
@@ -238,7 +250,7 @@ export default function Player({ story, userId }: { story: Story; userId: string
           )}
           <div className="card">
             <p className="story-text">
-              <InteractiveText text={story.scenes[phase.s].text} targets={story.targets} words={words} onTap={tap} />
+              <InteractiveText text={story.scenes[phase.s].text} targets={story.targets} words={words} core={coreIds} onTap={tap} />
             </p>
             {showTranslation && <p className="muted">{story.scenes[phase.s].translation}</p>}
           </div>

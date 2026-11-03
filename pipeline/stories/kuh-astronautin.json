@@ -37,7 +37,11 @@
     "glossary_output_tokens": 20653,
     "voice_version": "voice-v1",
     "voice_input_tokens": 577,
-    "voice_output_tokens": 1576
+    "voice_output_tokens": 1576,
+    "core_version": "core-v1",
+    "core_input_tokens": 1794,
+    "core_output_tokens": 1702,
+    "localize_words_nl_output_tokens": 159
   },
   "story": {
     "title": "Mathilde will Astronautin werden",
@@ -1097,6 +1101,32 @@
           }
         ]
       }
+    ],
+    "core_words": [
+      {
+        "lemma": "die Kuh",
+        "image_prompt": "a small brown cow standing in a green field"
+      },
+      {
+        "lemma": "die Milchkanne",
+        "image_prompt": "a metal milk can with a handle and a lid"
+      },
+      {
+        "lemma": "die Rakete",
+        "image_prompt": "a tall homemade rocket standing on a farm"
+      },
+      {
+        "lemma": "der Bauer",
+        "image_prompt": "a farmer standing in a field holding a pitchfork"
+      },
+      {
+        "lemma": "der Misthaufen",
+        "image_prompt": "a pile of manure on a farm"
+      },
+      {
+        "lemma": "der Traum",
+        "image_prompt": "a sleeping person with a dream bubble showing a moon and stars"
+      }
     ]
   },
   "localizations": {
@@ -1109,13 +1139,16 @@
       },
       "targets": {
         "als": {
-          "gloss": "toen (één keer in het verleden)"
+          "gloss": "toen (één keer in het verleden)",
+          "note": null
         },
         "nachdem": {
-          "gloss": "nadat"
+          "gloss": "nadat",
+          "note": null
         },
         "freute sich auf": {
-          "gloss": "verheugde zich op"
+          "gloss": "verheugde zich op",
+          "note": null
         }
       },
       "scenes": [
@@ -1283,7 +1316,15 @@
             "Morgen": "ochtend"
           }
         }
-      ]
+      ],
+      "words": {
+        "die Kuh": "de koe",
+        "die Milchkanne": "de melkkan",
+        "die Rakete": "de raket",
+        "der Bauer": "de boer",
+        "der Misthaufen": "de mesthoop",
+        "der Traum": "de droom"
+      }
     }
   }
 }

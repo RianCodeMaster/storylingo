@@ -72,11 +72,18 @@ class Scene(BaseModel):
     voice: list[VoiceLine] = []
 
 
+class CoreWord(BaseModel):
+    """One of the few words that carry the plot, taught with a picture before the story."""
+    lemma: str                     # dictionary form, as in a scene glossary: 'der Käfig'
+    image_prompt: str              # English: one simple picture of the word
+
+
 class Story(BaseModel):
     title: str                     # in the target language
     summary: str                   # in English: the source for every Localization
     gestures: list[Gesture]
     scenes: list[Scene]
+    core_words: list[CoreWord] = []
 
 
 class TargetMeaning(BaseModel):
@@ -95,6 +102,7 @@ class Localization(BaseModel):
     gestures: dict[str, str]       # concept -> how to act it out
     targets: dict[str, TargetMeaning]  # target text -> meaning
     scenes: list[SceneLocalization]
+    words: dict[str, str] = {}     # core word lemma -> its general meaning ('der Käfig' -> 'de kooi')
 
 
 def occurs(text: str, phrase: str) -> int:

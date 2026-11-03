@@ -5,6 +5,7 @@
     python storylingo.py show <slug>                           read the story in the terminal
     python storylingo.py reload <slug>                         after editing stories/<slug>.json by hand
     python storylingo.py glossary <slug>                       (re)make the tap-a-word glossary, also for published stories
+    python storylingo.py core <slug>                           (re)choose the ~6 core words taught with a picture before the story
     python storylingo.py localize <slug> <base>                translation, word meanings and gestures for one base language
     python storylingo.py localize-all <base>                   the same for every story whose language that base learns
     python storylingo.py voice <slug>                          (re)choose an emotion per sentence for the narrator
@@ -25,9 +26,10 @@ load_dotenv(Path(__file__).parent / ".env")
 
 import db  # noqa: E402  (reads DATABASE_URL, so .env must be loaded first)
 import media  # noqa: E402
+from core import add_core_words
 from glossary import add_glossary
 from llm import write_story
-from localize import localize
+from localize import localize, localize_words
 from models import Brief, Localization, Story
 from prompts import PROMPT_VERSION
 from voice import add_voice
@@ -80,6 +82,8 @@ def show(brief: Brief, story: Story, localizations: Localizations) -> None:
     if loc:
         for text, meaning in loc.targets.items():
             print(f"  {text} = {meaning.gloss}" + (f"  ({meaning.note})" if meaning.note else ""))
+    if story.core_words:
+        print("  core words: " + ", ".join(f"{w.lemma}={loc.words.get(w.lemma, '?') if loc else '?'}" for w in story.core_words))
     for i, scene in enumerate(story.scenes, 1):
         scene_loc = loc.scenes[i - 1] if loc else None
         print(f"\n--- Scene {i} ---\n{scene.text}" + (f"\n  ({scene_loc.translation})" if scene_loc else ""))
@@ -123,6 +127,18 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
             reference = reference or item
         elif reference is None and provider_name == "gemini":
             reference = media.download(scene["image_path"])
+
+    # A picture per core word. Words are shared between stories, so they live under words/<language>/.
+    prompts = {w.lemma: w.image_prompt for w in story.core_words}
+    for lexeme_id, lemma, image_id in db.core_word_plan(slug) if do_images else []:
+        if image_id is None and lemma in prompts:
+            print(f"  word: {lemma}")
+            item = media.retry(lambda: maker.picture(prompts[lemma]))
+            full = f"words/{language}/{lexeme_id}.{media.extension(item.mime_type)}"
+            media.upload(full, item)
+            made += 1
+            db.link_asset("lexemes", "image_asset_id", lexeme_id,
+                          db.save_asset("image", full, item.mime_type, item.provider, item.model))
 
     for scene in scenes if do_audio else []:
         n = scene["position"]
@@ -185,7 +201,8 @@ def main(argv: list[str]) -> None:
         brief = Brief.model_validate(yaml.safe_load(Path(arg).read_text(encoding="utf-8")))
         print(f"Writing '{brief.slug}' with DeepSeek...")
         story, usage = write_story(brief)
-        generation = {"prompt_version": PROMPT_VERSION, **usage, **add_glossary(brief, story), **add_voice(story)}
+        generation = {"prompt_version": PROMPT_VERSION, **usage, **add_glossary(brief, story)}
+        generation.update({**add_core_words(brief, story), **add_voice(story)})
         localizations: Localizations = {}
         for base in db.pair_bases(brief.language):
             add_localization(brief, story, generation, localizations, base)
@@ -213,6 +230,18 @@ def main(argv: list[str]) -> None:
         for base, loc in localizations.items():
             db.save_localization(brief, story, base, loc)
         print(f"Glossary updated for '{arg}'.")
+    elif command == "core":
+        brief, story, generation, localizations = read(arg)
+        generation.update(add_core_words(brief, story))
+        # Only the new words need meanings: the checked translations stay as they are.
+        for base, loc in localizations.items():
+            loc.words, usage = localize_words(brief, story, base)
+            generation.update(usage)
+        save(brief, story, generation, localizations)
+        db.update_core_words(brief, story)
+        for base, loc in localizations.items():
+            db.save_localization(brief, story, base, loc)
+        print(f"Core words updated for '{arg}'. Pictures: python storylingo.py media {arg} local images")
     elif command == "localize":
         if len(argv) < 3:
             raise SystemExit(__doc__)

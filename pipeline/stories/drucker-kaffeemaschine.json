@@ -37,7 +37,11 @@
     "glossary_output_tokens": 19911,
     "voice_version": "voice-v1",
     "voice_input_tokens": 635,
-    "voice_output_tokens": 2144
+    "voice_output_tokens": 2144,
+    "core_version": "core-v1",
+    "core_input_tokens": 2002,
+    "core_output_tokens": 485,
+    "localize_words_nl_output_tokens": 254
   },
   "story": {
     "title": "Klaus, der Drucker mit dem großen Herzen",
@@ -1176,6 +1180,32 @@
           }
         ]
       }
+    ],
+    "core_words": [
+      {
+        "lemma": "der Drucker",
+        "image_prompt": "a white office printer with paper coming out"
+      },
+      {
+        "lemma": "die Kaffeemaschine",
+        "image_prompt": "a shiny coffee machine with a cup under the spout"
+      },
+      {
+        "lemma": "der Liebesbrief",
+        "image_prompt": "a sealed envelope with a red heart sticker, no writing"
+      },
+      {
+        "lemma": "das Herz",
+        "image_prompt": "a simple red heart shape"
+      },
+      {
+        "lemma": "der Stecker",
+        "image_prompt": "a hand pulling an electrical plug out of a wall socket"
+      },
+      {
+        "lemma": "der Toaster",
+        "image_prompt": "a small kitchen toaster with two slices of bread"
+      }
     ]
   },
   "localizations": {
@@ -1188,13 +1218,16 @@
       },
       "targets": {
         "weil": {
-          "gloss": "omdat (werkwoord achteraan)"
+          "gloss": "omdat (werkwoord achteraan)",
+          "note": null
         },
         "damit": {
-          "gloss": "zodat (werkwoord achteraan)"
+          "gloss": "zodat (werkwoord achteraan)",
+          "note": null
         },
         "trotzdem": {
-          "gloss": "toch / desondanks"
+          "gloss": "toch / desondanks",
+          "note": null
         }
       },
       "scenes": [
@@ -1372,7 +1405,15 @@
             "Toaster": "broodrooster"
           }
         }
-      ]
+      ],
+      "words": {
+        "der Drucker": "de printer",
+        "die Kaffeemaschine": "de koffiemachine",
+        "der Liebesbrief": "de liefdesbrief",
+        "das Herz": "het hart",
+        "der Stecker": "de stekker",
+        "der Toaster": "de toaster"
+      }
     }
   }
 }

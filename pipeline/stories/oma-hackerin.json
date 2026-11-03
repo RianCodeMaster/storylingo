@@ -37,7 +37,11 @@
     "glossary_output_tokens": 15492,
     "voice_version": "voice-v1",
     "voice_input_tokens": 629,
-    "voice_output_tokens": 1189
+    "voice_output_tokens": 1189,
+    "core_version": "core-v1",
+    "core_input_tokens": 1926,
+    "core_output_tokens": 1262,
+    "localize_words_nl_output_tokens": 264
   },
   "story": {
     "title": "Oma Hilde und der WLAN-Code von Berlin",
@@ -1144,6 +1148,32 @@
           }
         ]
       }
+    ],
+    "core_words": [
+      {
+        "lemma": "die Hackerin",
+        "image_prompt": "a woman in a hoodie typing on a laptop at night"
+      },
+      {
+        "lemma": "der WLAN-Code",
+        "image_prompt": "a wifi router with signal waves and a floating key symbol"
+      },
+      {
+        "lemma": "die Stadt",
+        "image_prompt": "a city skyline with many buildings"
+      },
+      {
+        "lemma": "die Katze",
+        "image_prompt": "a cat sitting on a laptop keyboard"
+      },
+      {
+        "lemma": "die Tastatur",
+        "image_prompt": "a computer keyboard"
+      },
+      {
+        "lemma": "vergessen",
+        "image_prompt": "an older woman with a confused expression and a missing puzzle piece above her head"
+      }
     ]
   },
   "localizations": {
@@ -1156,13 +1186,16 @@
       },
       "targets": {
         "obwohl": {
-          "gloss": "hoewel (werkwoord achteraan)"
+          "gloss": "hoewel (werkwoord achteraan)",
+          "note": null
         },
         "hätte gern": {
-          "gloss": "zou graag hebben"
+          "gloss": "zou graag hebben",
+          "note": null
         },
         "würde gern": {
-          "gloss": "zou graag (doen)"
+          "gloss": "zou graag (doen)",
+          "note": null
         }
       },
       "scenes": [
@@ -1338,7 +1371,15 @@
             "ihren": "hun"
           }
         }
-      ]
+      ],
+      "words": {
+        "die Hackerin": "de hackster",
+        "der WLAN-Code": "de wificode",
+        "die Stadt": "de stad",
+        "die Katze": "de kat",
+        "die Tastatur": "het toetsenbord",
+        "vergessen": "vergeten"
+      }
     }
   }
 }

@@ -115,6 +115,10 @@ export default function Review() {
         <Context card={card} />
         {revealed && (
           <>
+            {card.imageUrl && (
+              // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
+              <img className="word-picture" src={card.imageUrl} alt="" />
+            )}
             <p className="sheet-gloss">{card.gloss}</p>
             {card.gesture && <p className="muted">{fill(dict.common.gesture, { gesture: card.gesture })}</p>}
           </>

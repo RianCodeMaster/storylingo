@@ -24,11 +24,13 @@ export default function InteractiveText({
   text,
   targets,
   words,
+  core,
   onTap,
 }: {
   text: string;
   targets: Target[];
   words: Map<string, GlossEntry>;
+  core?: Set<string>; // lexeme ids of the story's core words, taught before the story
   onTap: (t: Tapped) => void;
 }) {
   const targetPattern = targets.length ? new RegExp(`(${targets.map((t) => escape(t.text)).join("|")})`, "gi") : null;
@@ -67,7 +69,7 @@ export default function InteractiveText({
           return (
             <span
               key={`${i}-${j}`}
-              className="word"
+              className={core?.has(entry.lexeme_id) ? "word core" : "word"}
               role="button"
               tabIndex={0}
               onClick={() => onTap({ lexemeId: entry.lexeme_id, lemma: entry.lemma, gloss: entry.gloss })}

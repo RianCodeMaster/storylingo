@@ -40,7 +40,12 @@
     "voice_output_tokens": 905,
     "localize_en_version": "localize-v1",
     "localize_en_input_tokens": 1233,
-    "localize_en_output_tokens": 5537
+    "localize_en_output_tokens": 5537,
+    "core_version": "core-v1",
+    "core_input_tokens": 1396,
+    "core_output_tokens": 1424,
+    "localize_words_en_output_tokens": 322,
+    "localize_words_nl_output_tokens": 180
   },
   "story": {
     "title": "Hamster Hugo geht zur Börse",
@@ -920,6 +925,32 @@
           }
         ]
       }
+    ],
+    "core_words": [
+      {
+        "lemma": "der Hamster",
+        "image_prompt": "a small hamster standing on its hind legs"
+      },
+      {
+        "lemma": "der Käfig",
+        "image_prompt": "a small metal cage with a water bottle and bedding"
+      },
+      {
+        "lemma": "die Börse",
+        "image_prompt": "a busy stock exchange floor with people and large blank screens"
+      },
+      {
+        "lemma": "die Banane",
+        "image_prompt": "a single ripe yellow banana"
+      },
+      {
+        "lemma": "die Angst",
+        "image_prompt": "a frightened child with wide eyes and hands near the face"
+      },
+      {
+        "lemma": "die Bananenschale",
+        "image_prompt": "a yellow banana peel lying on a table"
+      }
     ]
   },
   "localizations": {
@@ -1075,7 +1106,15 @@
             "handeln": "trade"
           }
         }
-      ]
+      ],
+      "words": {
+        "der Hamster": "the hamster",
+        "der Käfig": "the cage",
+        "die Börse": "the stock exchange",
+        "die Banane": "the banana",
+        "die Angst": "the fear",
+        "die Bananenschale": "the banana peel"
+      }
     },
     "nl": {
       "summary": "Hamster Hugo wil rijk worden op de beurs, maar hij kan de cijfers niet lezen, hij is bang voor de mensen en hij eet per ongeluk 1000 bananen op.",
@@ -1229,7 +1268,15 @@
             "handeln": "handelen"
           }
         }
-      ]
+      ],
+      "words": {
+        "der Hamster": "de hamster",
+        "der Käfig": "de kooi",
+        "die Börse": "de beurs",
+        "die Banane": "de banaan",
+        "die Angst": "de angst",
+        "die Bananenschale": "de bananenschil"
+      }
     }
   }
 }

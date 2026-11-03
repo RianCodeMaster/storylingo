@@ -74,9 +74,38 @@ def load_story(brief: Brief, story: Story, generation: dict, localizations: dict
                        values (%s, %s, %s, %s, %s, %s, %s)""",
                     (scene_id, q_pos, q.kind, q.prompt, Jsonb(q.options), Jsonb(q.answer), lexeme_ids.get(q.target)),
                 )
+        _save_core_words(cur, story_id, brief, story)
         for base, localization in localizations.items():
             _save_localization(cur, story_id, brief, story, base, localization)
         return str(story_id)
+
+
+def update_core_words(brief: Brief, story: Story) -> None:
+    """Replace the core words of a story that is already in the database, also when published."""
+    with connect() as conn, conn.cursor() as cur:
+        _save_core_words(cur, _story_id(cur, brief.slug), brief, story)
+
+
+def _save_core_words(cur, story_id, brief: Brief, story: Story) -> None:
+    # Core words are glossary words, so their lexemes exist once the scenes are in.
+    cur.execute("delete from story_words where story_id = %s", (story_id,))
+    for position, word in enumerate(story.core_words, 1):
+        cur.execute(
+            """insert into story_words (story_id, lexeme_id, position)
+               select %s, id, %s from lexemes where language_code = %s and text = %s""",
+            (story_id, position, brief.language, word.lemma),
+        )
+
+
+def core_word_plan(slug: str) -> list[tuple[str, str, str | None]]:
+    """The core words of a story in order: (lexeme id, lemma, picture asset id or None)."""
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            """select l.id, l.text, l.image_asset_id from story_words w join lexemes l on l.id = w.lexeme_id
+               where w.story_id = %s order by w.position""",
+            (_story_id(cur, slug),),
+        )
+        return [(str(r[0]), r[1], r[2]) for r in cur.fetchall()]
 
 
 def save_localization(brief: Brief, story: Story, base: str, localization: Localization) -> None:
@@ -114,6 +143,14 @@ def _save_localization(cur, story_id, brief: Brief, story: Story, base: str, loc
                select id, %s, %s, %s from lexemes where language_code = %s and text = %s
                on conflict (lexeme_id, base_language) do update set gloss = excluded.gloss, note = excluded.note""",
             (base, meaning.gloss, meaning.note, brief.language, text),
+        )
+    # A core word's general meaning beats the meaning it happened to have in its first sentence.
+    for lemma, gloss in loc.words.items():
+        cur.execute(
+            """insert into lexeme_glosses (lexeme_id, base_language, gloss)
+               select id, %s, %s from lexemes where language_code = %s and text = %s
+               on conflict (lexeme_id, base_language) do update set gloss = excluded.gloss""",
+            (base, gloss, brief.language, lemma),
         )
     for concept, description in loc.gestures.items():
         if description:
@@ -225,7 +262,7 @@ def save_asset(kind: str, path: str, mime_type: str, provider: str, model: str) 
 def link_asset(table: str, column: str, row_id: str, asset_id: str) -> None:
     assert (table, column) in {
         ("scenes", "image_asset_id"), ("scenes", "audio_asset_id"),
-        ("questions", "audio_asset_id"), ("lexemes", "audio_asset_id"),
+        ("questions", "audio_asset_id"), ("lexemes", "audio_asset_id"), ("lexemes", "image_asset_id"),
     }
     with connect() as conn, conn.cursor() as cur:
         cur.execute(f"update {table} set {column} = %s where id = %s", (asset_id, row_id))

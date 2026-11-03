@@ -19,6 +19,7 @@ export interface ReviewCard extends SrsState {
   emoji: string | null;
   gesture: string | null;
   audioUrl: string | null;
+  imageUrl: string | null; // core words have a picture
   /** A sentence from a story where the learner met this word, and the form it had there. */
   sentence: string | null;
   form: string | null;
@@ -31,6 +32,7 @@ interface StateRow extends SrsState {
     language_code: string;
     lexeme_glosses: { gloss: string }[];
     audio: AssetRef;
+    image: AssetRef;
     concepts: One<{ gestures: One<{ emoji: string | null; gesture_localizations: { description: string }[] }> }>;
   }>;
 }
@@ -75,6 +77,7 @@ export async function loadDue(base: string): Promise<ReviewCard[]> {
       .select(
         `lexeme_id, exposures, correct, ease, interval_days,
          lexemes ( text, language_code, lexeme_glosses ( gloss ), audio:assets!audio_asset_id ( id, storage_path ),
+                   image:assets!image_asset_id ( id, storage_path ),
                    concepts ( gestures ( emoji, gesture_localizations ( description ) ) ) )`,
       )
       .eq("lexemes.lexeme_glosses.base_language", base)
@@ -100,6 +103,7 @@ export async function loadDue(base: string): Promise<ReviewCard[]> {
       emoji: gesture?.emoji ?? null,
       gesture: gesture?.gesture_localizations[0]?.description ?? null,
       audioUrl: assetUrl(lexeme.audio),
+      imageUrl: assetUrl(lexeme.image),
       sentence: ctx?.sentence ?? null,
       form: ctx?.form ?? lexeme.text,
       exposures: row.exposures,

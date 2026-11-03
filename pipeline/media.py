@@ -85,6 +85,9 @@ class Gemini:
             raise SystemExit(f"No Gemini {kind} model found; set GEMINI_{kind.upper()}_MODEL.")
         return candidates[0]
 
+    def picture(self, prompt: str) -> Media:
+        return self.image(f"One simple picture, a single subject on a plain background: {prompt}", None)
+
     def image(self, prompt: str, reference: Media | None) -> Media:
         from google.genai import types
 
@@ -167,6 +170,16 @@ class Local(Localgen):
         data = self._post("image", {"prompt": f"{prompt}. {self.STYLE}", "negative_prompt": self.NEGATIVE, "seed": 1234})
         return Media(data, "image/png", "local", "sdxl-base-1.0")
 
+    WORD_STYLE = "simple cartoon sticker, one subject in the centre, thick clean outlines, bright warm colours, plain light background"
+
+    def picture(self, prompt: str) -> Media:
+        """A square picture of one word: smaller and simpler than a scene, so it reads at a glance."""
+        data = self._post("image", {
+            "prompt": f"{prompt}. {self.WORD_STYLE}", "negative_prompt": self.NEGATIVE,
+            "seed": 1234, "width": 768, "height": 768, "steps": 24,
+        })
+        return Media(data, "image/png", "local", "sdxl-base-1.0")
+
 
 class Piper(Localgen):
     """Native-speaker voices; each sentence gets the style that voices.yaml gives its emotion."""
@@ -189,6 +202,9 @@ class Piper(Localgen):
 class Fake:
     def image(self, prompt: str, reference: Media | None) -> Media:
         return Media(_png(64, 48, (0, 214, 143)), "image/png", "fake", "placeholder")
+
+    def picture(self, prompt: str) -> Media:
+        return Media(_png(48, 48, (255, 196, 0)), "image/png", "fake", "placeholder")
 
     def speech(self, text: str, kind: str, lines: list[dict] | None, voice: dict) -> Media:
         return Media(_wav(b"\x00\x00" * 24000), "audio/wav", "fake", "silence")

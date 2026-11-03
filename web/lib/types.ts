@@ -39,6 +39,15 @@ export interface Target {
   gesture: string | null;
 }
 
+/** One of the few words that carry the plot, taught with a picture before the story. */
+export interface CoreWord {
+  lexeme_id: string;
+  text: string;
+  gloss: string | null;
+  image_url: string | null;
+  audio_url: string | null;
+}
+
 export interface Story {
   id: string;
   title: string;
@@ -46,6 +55,7 @@ export interface Story {
   cefr_level: string;
   language_code: string;
   targets: Target[];
+  words: CoreWord[];
   scenes: Scene[];
 }
 

@@ -30,8 +30,9 @@ C:\dev\storylingo\
 ```
 
 **Phase 1 specifics:** everything runs locally (Docker + `supabase start`). Each browser gets an anonymous
-learner account. Gestures are emoji plus a description. A story passes four DeepSeek rounds: story + questions,
-glossary (tap any word), voice direction (an emotion per sentence), and localize (per base language). Images and narration are made locally and
+learner account. Gestures are emoji plus a description. A story passes five DeepSeek rounds: story + questions,
+glossary (tap any word), core words (~6, taught with a picture before the story, then reviewed), voice direction
+(an emotion per sentence), and localize (per base language). Images and narration are made locally and
 linked through `assets`; the app falls back to the browser voice when a file is missing.
 
 ## Stack (fixed — change only by explicit decision)

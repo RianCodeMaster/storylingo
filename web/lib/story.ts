@@ -1,6 +1,6 @@
 import { type AssetRef, assetUrl, type One, one } from "./assets";
 import { supabase } from "./supabase";
-import type { GlossEntry, Question, Scene, Story, StoryCard, Target } from "./types";
+import type { CoreWord, GlossEntry, Question, Scene, Story, StoryCard, Target } from "./types";
 
 // The story itself is in the target language; everything in the learner's own language comes from the
 // *_localizations and lexeme_glosses rows of their base language (docs/meertaligheid.md).
@@ -26,6 +26,9 @@ interface Row extends Omit<StoryCard, "summary"> {
       concepts: One<{ gestures: One<{ emoji: string | null; gesture_localizations: { description: string }[] }> }>;
     }>;
   }[];
+  story_words: {
+    lexemes: One<{ id: string; text: string; lexeme_glosses: { gloss: string }[]; image: AssetRef; audio: AssetRef }>;
+  }[];
   scenes: SceneRow[];
 }
 
@@ -49,6 +52,9 @@ export async function loadStory(id: string, base: string): Promise<Story> {
        story_localizations ( summary ),
        story_targets ( lexemes ( id, text, lexeme_glosses ( gloss, note ),
                                  concepts ( gestures ( emoji, gesture_localizations ( description ) ) ) ) ),
+       story_words ( position, lexemes ( id, text, lexeme_glosses ( gloss ),
+                                         image:assets!image_asset_id ( id, storage_path ),
+                                         audio:assets!audio_asset_id ( id, storage_path ) ) ),
        scenes ( id, position, text, glossary, scene_localizations ( translation, glosses ),
                 image:assets!image_asset_id ( id, storage_path ), audio:assets!audio_asset_id ( id, storage_path ),
                 questions ( id, position, kind, prompt, options, answer, lexeme_id,
@@ -58,7 +64,9 @@ export async function loadStory(id: string, base: string): Promise<Story> {
     .eq("story_localizations.base_language", base)
     .eq("story_targets.lexemes.lexeme_glosses.base_language", base)
     .eq("story_targets.lexemes.concepts.gestures.gesture_localizations.base_language", base)
+    .eq("story_words.lexemes.lexeme_glosses.base_language", base)
     .eq("scenes.scene_localizations.base_language", base)
+    .order("position", { referencedTable: "story_words" })
     .order("position", { referencedTable: "scenes" })
     .order("position", { referencedTable: "scenes.questions" })
     .single<Row>();
@@ -92,8 +100,20 @@ export async function loadStory(id: string, base: string): Promise<Story> {
     };
   });
 
+  const words: CoreWord[] = data.story_words
+    .map((sw) => one(sw.lexemes))
+    .filter((l) => l !== null)
+    .map((l) => ({
+      lexeme_id: l.id,
+      text: l.text,
+      gloss: l.lexeme_glosses[0]?.gloss ?? null,
+      image_url: assetUrl(l.image),
+      audio_url: assetUrl(l.audio),
+    }));
+
   const { id: storyId, title, cefr_level, language_code } = data;
-  return { id: storyId, title, cefr_level, language_code, summary: data.story_localizations[0]?.summary ?? null, targets, scenes };
+  const summary = data.story_localizations[0]?.summary ?? null;
+  return { id: storyId, title, cefr_level, language_code, summary, targets, words, scenes };
 }
 
 export async function startSession(userId: string, storyId: string): Promise<string> {

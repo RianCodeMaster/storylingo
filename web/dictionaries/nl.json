@@ -34,6 +34,14 @@
       "other": "{n} opgezochte woorden komen morgen terug in je herhaling."
     }
   },
+  "words": {
+    "progress": "Woord {n} van {total}",
+    "hint": "Kijk, luister en zeg elk woord hardop na. Deze woorden kom je zo tegen in het verhaal.",
+    "next": "Volgende →",
+    "toGame": "Luisterspel →",
+    "game": "Welk plaatje hoor je?",
+    "score": "{correct} van {total} meteen goed"
+  },
   "word": {
     "meaningOf": "Betekenis van {word}",
     "speak": "Uitspreken",

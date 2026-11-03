@@ -35,6 +35,9 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 
 - Bij `generate` maakt DeepSeek ook een woordenlijst: elk woord in de app is aan te tikken.
   Voor een ouder verhaal: `storylingo.py glossary <slug>`.
+- Bij `generate` kiest DeepSeek ook de **kernwoorden**: zo'n 6 woorden die het verhaal dragen. In de app leer je
+  ze vóór het verhaal (plaatje, stem, betekenis), daarna volgt een luisterspel en dan gaan ze je herhaling in.
+  Opnieuw kiezen: `storylingo.py core <slug>`. De plaatjes tekent `media` (zie hieronder).
 - Bij `generate` kiest DeepSeek ook per zin een emotie voor de verteller. Opnieuw: `storylingo.py voice <slug>`.
 - Het verhaal zelf is alleen in de doeltaal. Vertaling, woordbetekenissen en gebaaruitleg komen per basistaal
   (`localize`). `generate` doet dat vanzelf voor elke basistaal met een paar op `beta` of `live`. Met de hand:
