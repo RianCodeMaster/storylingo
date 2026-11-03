@@ -1,19 +1,6 @@
+import { type AssetRef, assetUrl, type One, one } from "./assets";
 import { supabase } from "./supabase";
 import type { Question, Scene, Story, Target } from "./types";
-
-type One<T> = T | T[] | null;
-const one = <T,>(v: One<T>): T | null => (Array.isArray(v) ? (v[0] ?? null) : v);
-
-type AssetRef = One<{ id: string; storage_path: string }>;
-
-/**
- * Public URL of a generated file, through the same /sb route the rest of the app uses.
- * The asset id is added as a version: a remade file keeps its path, and browsers cache files for an hour.
- */
-function assetUrl(ref: AssetRef): string | null {
-  const asset = one(ref);
-  return asset ? `${window.location.origin}/sb/storage/v1/object/public/assets/${asset.storage_path}?v=${asset.id}` : null;
-}
 
 interface SceneRow extends Omit<Scene, "image_url" | "audio_url" | "questions"> {
   image: AssetRef;

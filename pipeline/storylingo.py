@@ -108,6 +108,19 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
             if q["audio_asset_id"] is None:
                 item = media.retry(lambda: maker.speech(q["prompt"], language, "question"))
                 db.link_asset("questions", "audio_asset_id", q["id"], store("audio", f"scene-{n}-q{q['position']}", item))
+
+    # Every word on its own, for the review screen. Words are shared between stories, so they live
+    # under words/<language>/ and are made only once.
+    words = db.words_without_audio(slug) if do_audio else []
+    if words:
+        print(f"  {len(words)} words")
+    for lexeme_id, text in words:
+        item = media.retry(lambda: maker.speech(text, language, "word"))
+        full = f"words/{language}/{lexeme_id}.{media.extension(item.mime_type)}"
+        media.upload(full, item)
+        made += 1
+        db.link_asset("lexemes", "audio_asset_id", lexeme_id,
+                      db.save_asset("audio", full, item.mime_type, item.provider, item.model))
     print(f"Done: {made} new files for '{slug}'.")
 
 

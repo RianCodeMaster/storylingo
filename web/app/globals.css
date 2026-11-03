@@ -191,6 +191,21 @@ mark {
   flex: 1;
 }
 
+.review-card {
+  align-items: center;
+  text-align: center;
+  padding: 32px 20px;
+}
+
+.review-word {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.review-banner {
+  border-color: var(--accent);
+}
+
 .sheet-gloss {
   font-size: 1.2rem;
   color: var(--accent);

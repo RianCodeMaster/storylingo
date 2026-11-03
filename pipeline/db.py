@@ -135,6 +135,22 @@ def media_plan(slug: str) -> list[dict]:
         return scenes
 
 
+def words_without_audio(slug: str) -> list[tuple[str, str]]:
+    """Lexemes of a story (targets and glossary words) that cannot be heard yet: (id, text)."""
+    with connect() as conn, conn.cursor() as cur:
+        story_id = _story_id(cur, slug)
+        cur.execute(
+            """select l.id, l.text from lexemes l
+               where l.audio_asset_id is null
+                 and (l.id in (select lexeme_id from story_targets where story_id = %s)
+                      or l.id::text in (select jsonb_array_elements(glossary)->>'lexeme_id'
+                                        from scenes where story_id = %s))
+               order by l.text""",
+            (story_id, story_id),
+        )
+        return [(str(r[0]), r[1]) for r in cur.fetchall()]
+
+
 def save_asset(kind: str, path: str, mime_type: str, provider: str, model: str) -> str:
     with connect() as conn, conn.cursor() as cur:
         cur.execute(
@@ -148,7 +164,10 @@ def save_asset(kind: str, path: str, mime_type: str, provider: str, model: str) 
 
 
 def link_asset(table: str, column: str, row_id: str, asset_id: str) -> None:
-    assert (table, column) in {("scenes", "image_asset_id"), ("scenes", "audio_asset_id"), ("questions", "audio_asset_id")}
+    assert (table, column) in {
+        ("scenes", "image_asset_id"), ("scenes", "audio_asset_id"),
+        ("questions", "audio_asset_id"), ("lexemes", "audio_asset_id"),
+    }
     with connect() as conn, conn.cursor() as cur:
         cur.execute(f"update {table} set {column} = %s where id = %s", (asset_id, row_id))
 
