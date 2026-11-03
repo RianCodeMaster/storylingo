@@ -13,7 +13,7 @@ Taal leren met absurde verhalen, gebaren en circling-vragen (TPRS). Fase 1 draai
    ```bash
    npm run dev -- -H 0.0.0.0
    ```
-   Open http://localhost:3000. Op je telefoon (zelfde wifi): `http://<ip-van-je-pc>:3000`.
+   Open http://localhost:3000 (je komt vanzelf op `/nl`). Op je telefoon (zelfde wifi): `http://<ip-van-je-pc>:3000`.
 
 Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 
@@ -36,6 +36,10 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 - Bij `generate` maakt DeepSeek ook een woordenlijst: elk woord in de app is aan te tikken.
   Voor een ouder verhaal: `storylingo.py glossary <slug>`.
 - Bij `generate` kiest DeepSeek ook per zin een emotie voor de verteller. Opnieuw: `storylingo.py voice <slug>`.
+- Het verhaal zelf is alleen in de doeltaal. Vertaling, woordbetekenissen en gebaaruitleg komen per basistaal
+  (`localize`). `generate` doet dat vanzelf voor elke basistaal met een paar op `beta` of `live`. Met de hand:
+  `storylingo.py localize <slug> <basistaal>`, of voor alle verhalen `storylingo.py localize-all <basistaal>`.
+  Zie [docs/meertaligheid.md](docs/meertaligheid.md).
 - **Beelden en stem, gratis op je eigen laptop.** Start eerst de lokale generator in een apart venster (in `pipeline`):
   ```bash
   .venv-local/Scripts/python localgen/server.py

@@ -4,7 +4,7 @@ import os
 import psycopg
 from psycopg.types.json import Jsonb
 
-from models import Brief, Scene, Story
+from models import Brief, Localization, Scene, Story
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres:postgres@127.0.0.1:54322/postgres")
 
@@ -13,8 +13,8 @@ def connect() -> psycopg.Connection:
     return psycopg.connect(DATABASE_URL)
 
 
-def load_story(brief: Brief, story: Story, generation: dict) -> str:
-    """Insert the story as a draft in one transaction. A draft with the same slug is replaced."""
+def load_story(brief: Brief, story: Story, generation: dict, localizations: dict[str, Localization]) -> str:
+    """Insert the story and its base-language layers as a draft in one transaction. A draft with the same slug is replaced."""
     with connect() as conn, conn.cursor() as cur:
         cur.execute("select id, status from stories where generation->>'slug' = %s", (brief.slug,))
         existing = cur.fetchone()
@@ -37,22 +37,22 @@ def load_story(brief: Brief, story: Story, generation: dict) -> str:
                 if g := gestures.get(t.concept):
                     # Keep an existing gesture: the learner's body memory must stay the same.
                     cur.execute(
-                        "insert into gestures (concept_id, description, emoji) values (%s, %s, %s) on conflict (concept_id) do nothing",
-                        (concept_id, g.description, g.emoji),
+                        "insert into gestures (concept_id, emoji) values (%s, %s) on conflict (concept_id) do nothing",
+                        (concept_id, g.emoji),
                     )
             cur.execute(
-                """insert into lexemes (language_code, concept_id, kind, text, gloss, cefr_level)
-                   values (%s, %s, %s, %s, %s, %s)
-                   on conflict (language_code, text) do update set gloss = excluded.gloss
+                """insert into lexemes (language_code, concept_id, kind, text, cefr_level)
+                   values (%s, %s, %s, %s, %s)
+                   on conflict (language_code, text) do update set concept_id = coalesce(lexemes.concept_id, excluded.concept_id)
                    returning id""",
-                (brief.language, concept_id, t.kind, t.text, t.gloss, brief.level),
+                (brief.language, concept_id, t.kind, t.text, brief.level),
             )
             lexeme_ids[t.text] = cur.fetchone()[0]
 
         cur.execute(
-            """insert into stories (language_code, cefr_level, title, summary, generation)
-               values (%s, %s, %s, %s, %s) returning id""",
-            (brief.language, brief.level, story.title, story.summary,
+            """insert into stories (language_code, cefr_level, title, generation)
+               values (%s, %s, %s, %s) returning id""",
+            (brief.language, brief.level, story.title,
              Jsonb({"slug": brief.slug, "brief": brief.model_dump(), **generation})),
         )
         story_id = cur.fetchone()[0]
@@ -62,9 +62,9 @@ def load_story(brief: Brief, story: Story, generation: dict) -> str:
 
         for position, scene in enumerate(story.scenes, 1):
             cur.execute(
-                """insert into scenes (story_id, position, text, translation, image_prompt, glossary)
-                   values (%s, %s, %s, %s, %s, %s) returning id""",
-                (story_id, position, scene.text, scene.translation, scene.image_prompt,
+                """insert into scenes (story_id, position, text, image_prompt, glossary)
+                   values (%s, %s, %s, %s, %s) returning id""",
+                (story_id, position, scene.text, scene.image_prompt,
                  Jsonb(_glossary_rows(cur, brief.language, scene))),
             )
             scene_id = cur.fetchone()[0]
@@ -74,7 +74,66 @@ def load_story(brief: Brief, story: Story, generation: dict) -> str:
                        values (%s, %s, %s, %s, %s, %s, %s)""",
                     (scene_id, q_pos, q.kind, q.prompt, Jsonb(q.options), Jsonb(q.answer), lexeme_ids.get(q.target)),
                 )
+        for base, localization in localizations.items():
+            _save_localization(cur, story_id, brief, story, base, localization)
         return str(story_id)
+
+
+def save_localization(brief: Brief, story: Story, base: str, localization: Localization) -> None:
+    """Add or replace one base-language layer of a story that is already in the database, also when published."""
+    with connect() as conn, conn.cursor() as cur:
+        _save_localization(cur, _story_id(cur, brief.slug), brief, story, base, localization)
+
+
+def _save_localization(cur, story_id, brief: Brief, story: Story, base: str, loc: Localization) -> None:
+    cur.execute(
+        """insert into story_localizations (story_id, base_language, summary) values (%s, %s, %s)
+           on conflict (story_id, base_language) do update set summary = excluded.summary""",
+        (story_id, base, loc.summary),
+    )
+    for position, (scene, scene_loc) in enumerate(zip(story.scenes, loc.scenes), 1):
+        cur.execute(
+            """insert into scene_localizations (scene_id, base_language, translation, glosses)
+               select id, %s, %s, %s from scenes where story_id = %s and position = %s
+               on conflict (scene_id, base_language) do update
+                 set translation = excluded.translation, glosses = excluded.glosses""",
+            (base, scene_loc.translation, Jsonb(scene_loc.glosses), story_id, position),
+        )
+        # The first meaning a word gets is its general meaning on the review screen.
+        for entry in scene.glossary:
+            if gloss := scene_loc.glosses.get(entry.word):
+                cur.execute(
+                    """insert into lexeme_glosses (lexeme_id, base_language, gloss)
+                       select id, %s, %s from lexemes where language_code = %s and text = %s
+                       on conflict do nothing""",
+                    (base, gloss, brief.language, entry.lemma),
+                )
+    for text, meaning in loc.targets.items():
+        cur.execute(
+            """insert into lexeme_glosses (lexeme_id, base_language, gloss, note)
+               select id, %s, %s, %s from lexemes where language_code = %s and text = %s
+               on conflict (lexeme_id, base_language) do update set gloss = excluded.gloss, note = excluded.note""",
+            (base, meaning.gloss, meaning.note, brief.language, text),
+        )
+    for concept, description in loc.gestures.items():
+        if description:
+            # Like the gesture itself, its explanation stays as it was first written.
+            cur.execute(
+                """insert into gesture_localizations (gesture_id, base_language, description)
+                   select g.id, %s, %s from gestures g join concepts c on c.id = g.concept_id where c.key = %s
+                   on conflict do nothing""",
+                (base, description, concept),
+            )
+
+
+def pair_bases(target: str, statuses: tuple[str, ...] = ("beta", "live")) -> list[str]:
+    """The base languages that learn this target language, in pairs with one of these statuses."""
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            "select base_language from language_pairs where target_language = %s and status = any(%s) order by 1",
+            (target, list(statuses)),
+        )
+        return [r[0] for r in cur.fetchall()]
 
 
 def _glossary_rows(cur, language: str, scene: Scene) -> list[dict]:
@@ -82,13 +141,13 @@ def _glossary_rows(cur, language: str, scene: Scene) -> list[dict]:
     rows = []
     for e in scene.glossary:
         cur.execute(
-            """insert into lexemes (language_code, kind, text, gloss, cefr_level)
-               values (%s, 'word', %s, %s, %s)
+            """insert into lexemes (language_code, kind, text, cefr_level)
+               values (%s, 'word', %s, %s)
                on conflict (language_code, text) do update set text = excluded.text
                returning id""",
-            (language, e.lemma, e.gloss, e.level),
+            (language, e.lemma, e.level),
         )
-        rows.append({"word": e.word, "lemma": e.lemma, "gloss": e.gloss, "lexeme_id": str(cur.fetchone()[0])})
+        rows.append({"word": e.word, "lemma": e.lemma, "lexeme_id": str(cur.fetchone()[0])})
     return rows
 
 

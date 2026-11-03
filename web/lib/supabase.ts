@@ -14,17 +14,20 @@ export function supabase(): SupabaseClient {
 
 let learner: Promise<string> | null = null;
 
-/** Make sure there is a signed-in learner with a profile. Phase 1 uses an anonymous account per browser. */
-export function ensureLearner(): Promise<string> {
+/**
+ * Make sure there is a signed-in learner with a profile. Phase 1 uses an anonymous account per browser.
+ * A new profile gets the base language of the pages it signed up on.
+ */
+export function ensureLearner(base: string): Promise<string> {
   // Share one sign-in between simultaneous callers, otherwise each would create its own anonymous account.
-  learner ??= signInLearner().catch((e) => {
+  learner ??= signInLearner(base).catch((e) => {
     learner = null;
     throw e;
   });
   return learner;
 }
 
-async function signInLearner(): Promise<string> {
+async function signInLearner(base: string): Promise<string> {
   const sb = supabase();
   // getUser checks with the server, so a stale browser session (e.g. after a database reset) is replaced.
   const { data, error: userError } = await sb.auth.getUser();
@@ -37,7 +40,7 @@ async function signInLearner(): Promise<string> {
   }
   const { error } = await sb
     .from("profiles")
-    .upsert({ id: userId, native_language_code: "nl" }, { onConflict: "id", ignoreDuplicates: true });
+    .upsert({ id: userId, native_language_code: base }, { onConflict: "id", ignoreDuplicates: true });
   if (error) throw error;
   return userId;
 }

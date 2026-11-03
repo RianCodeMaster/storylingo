@@ -28,10 +28,10 @@ interface StateRow extends SrsState {
   lexeme_id: string;
   lexemes: One<{
     text: string;
-    gloss: string | null;
     language_code: string;
+    lexeme_glosses: { gloss: string }[];
     audio: AssetRef;
-    concepts: One<{ gestures: One<{ emoji: string | null; description: string }> }>;
+    concepts: One<{ gestures: One<{ emoji: string | null; gesture_localizations: { description: string }[] }> }>;
   }>;
 }
 
@@ -67,15 +67,18 @@ async function contexts(): Promise<Map<string, { sentence: string; form: string 
   return found;
 }
 
-export async function loadDue(): Promise<ReviewCard[]> {
+/** Today's cards, with meanings and gestures in the learner's base language. */
+export async function loadDue(base: string): Promise<ReviewCard[]> {
   const [{ data, error }, context] = await Promise.all([
     supabase()
       .from("user_lexeme_state")
       .select(
         `lexeme_id, exposures, correct, ease, interval_days,
-         lexemes ( text, gloss, language_code, audio:assets!audio_asset_id ( id, storage_path ),
-                   concepts ( gestures ( emoji, description ) ) )`,
+         lexemes ( text, language_code, lexeme_glosses ( gloss ), audio:assets!audio_asset_id ( id, storage_path ),
+                   concepts ( gestures ( emoji, gesture_localizations ( description ) ) ) )`,
       )
+      .eq("lexemes.lexeme_glosses.base_language", base)
+      .eq("lexemes.concepts.gestures.gesture_localizations.base_language", base)
       .lte("due_at", endOfToday())
       .order("due_at")
       .returns<StateRow[]>(),
@@ -93,9 +96,9 @@ export async function loadDue(): Promise<ReviewCard[]> {
       lexemeId: row.lexeme_id,
       language: lexeme.language_code,
       text: lexeme.text,
-      gloss: lexeme.gloss,
+      gloss: lexeme.lexeme_glosses[0]?.gloss ?? null,
       emoji: gesture?.emoji ?? null,
-      gesture: gesture?.description ?? null,
+      gesture: gesture?.gesture_localizations[0]?.description ?? null,
       audioUrl: assetUrl(lexeme.audio),
       sentence: ctx?.sentence ?? null,
       form: ctx?.form ?? lexeme.text,

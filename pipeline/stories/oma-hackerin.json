@@ -2,7 +2,6 @@
   "brief": {
     "slug": "oma-hackerin",
     "language": "de",
-    "learner_language": "nl",
     "level": "B1",
     "theme": "Een oma van 92 is stiekem de beste hacker van Duitsland en wil het wifi-wachtwoord van de hele stad veranderen",
     "scenes": 5,
@@ -63,7 +62,6 @@
     "scenes": [
       {
         "text": "Oma Hilde ist 92 Jahre alt und wohnt in Berlin. Sie trinkt Tee und strickt gern, obwohl sie eigentlich keine Zeit hat. Denn Oma Hilde ist die beste Hackerin von Deutschland — obwohl niemand das weiß. Sie hätte gern den WLAN-Code von der ganzen Stadt.",
-        "translation": "Oma Hilde is 92 jaar en woont in Berlijn. Ze drinkt graag thee en breit graag, hoewel ze eigenlijk geen tijd heeft. Want Oma Hilde is de beste hacker van Duitsland — hoewel niemand dat weet. Ze zou graag het wifiwachtwoord van heel de stad hebben.",
         "image_prompt": "Cartoon: a tiny 92-year-old woman with big round glasses, white hair in a bun, a purple knitted cardigan and a walking stick, sitting in a cosy Berlin flat with a teapot and knitting on the table — and a laptop glowing secretly under her knitting.",
         "questions": [
           {
@@ -123,169 +121,141 @@
           {
             "word": "Oma",
             "lemma": "die Oma",
-            "gloss": "oma",
             "level": "A1"
           },
           {
             "word": "ist",
             "lemma": "sein",
-            "gloss": "is",
             "level": "A1"
           },
           {
             "word": "Jahre",
             "lemma": "das Jahr",
-            "gloss": "jaar",
             "level": "A1"
           },
           {
             "word": "alt",
             "lemma": "alt",
-            "gloss": "oud",
             "level": "A1"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "wohnt",
             "lemma": "wohnen",
-            "gloss": "woont",
             "level": "A1"
           },
           {
             "word": "in",
             "lemma": "in",
-            "gloss": "in",
             "level": "A1"
           },
           {
             "word": "Sie",
             "lemma": "sie",
-            "gloss": "zij",
             "level": "A1"
           },
           {
             "word": "trinkt",
             "lemma": "trinken",
-            "gloss": "drinkt",
             "level": "A1"
           },
           {
             "word": "Tee",
             "lemma": "der Tee",
-            "gloss": "thee",
             "level": "A1"
           },
           {
             "word": "strickt",
             "lemma": "stricken",
-            "gloss": "breit",
             "level": "A2"
           },
           {
             "word": "gern",
             "lemma": "gern",
-            "gloss": "graag",
             "level": "A1"
           },
           {
             "word": "obwohl",
             "lemma": "obwohl",
-            "gloss": "hoewel",
             "level": "B1"
           },
           {
             "word": "eigentlich",
             "lemma": "eigentlich",
-            "gloss": "eigenlijk",
             "level": "B1"
           },
           {
             "word": "keine",
             "lemma": "kein",
-            "gloss": "geen",
             "level": "A1"
           },
           {
             "word": "Zeit",
             "lemma": "die Zeit",
-            "gloss": "tijd",
             "level": "A1"
           },
           {
             "word": "hat",
             "lemma": "haben",
-            "gloss": "heeft",
             "level": "A1"
           },
           {
             "word": "Denn",
             "lemma": "denn",
-            "gloss": "want",
             "level": "A2"
           },
           {
             "word": "beste",
             "lemma": "gut",
-            "gloss": "beste",
             "level": "A1"
           },
           {
             "word": "Hackerin",
             "lemma": "die Hackerin",
-            "gloss": "hacker (vrouw)",
             "level": "B1"
           },
           {
             "word": "von",
             "lemma": "von",
-            "gloss": "van",
             "level": "A1"
           },
           {
             "word": "niemand",
             "lemma": "niemand",
-            "gloss": "niemand",
             "level": "A2"
           },
           {
             "word": "das",
             "lemma": "das",
-            "gloss": "dat",
             "level": "A1"
           },
           {
             "word": "weiß",
             "lemma": "wissen",
-            "gloss": "weet",
             "level": "A1"
           },
           {
             "word": "hätte",
             "lemma": "haben",
-            "gloss": "zou graag hebben",
             "level": "A1"
           },
           {
             "word": "WLAN-Code",
             "lemma": "der WLAN-Code",
-            "gloss": "wifi-code",
             "level": "A2"
           },
           {
             "word": "ganzen",
             "lemma": "ganz",
-            "gloss": "hele",
             "level": "A2"
           },
           {
             "word": "Stadt",
             "lemma": "die Stadt",
-            "gloss": "stad",
             "level": "A1"
           }
         ],
@@ -310,7 +280,6 @@
       },
       {
         "text": "Der WLAN-Code von Berlin ist tausend Zeichen lang, und das macht Oma Hilde wütend. Sie würde gern den Code von der ganzen Stadt ändern. Aber der Bürgermeister sagt: „Das darfst du nicht!“ — obwohl Hilde viel besser hackt als er.",
-        "translation": "Het wifiwachtwoord van Berlijn is duizend tekens lang, en daar wordt Oma Hilde woedend van. Ze zou graag de code van heel de stad veranderen. Maar de burgemeester zegt: 'Dat mag je niet doen!' — hoewel Hilde veel beter hackt dan hij.",
         "image_prompt": "Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan, furious, waving her walking stick in front of the Berlin town hall at a huge poster showing a 1000-character wifi code, while a fat laughing mayor points at her.",
         "questions": [
           {
@@ -359,175 +328,146 @@
           {
             "word": "WLAN-Code",
             "lemma": "der WLAN-Code",
-            "gloss": "wifi-code",
             "level": "A2"
           },
           {
             "word": "von",
             "lemma": "von",
-            "gloss": "van",
             "level": "A1"
           },
           {
             "word": "ist",
             "lemma": "sein",
-            "gloss": "is",
             "level": "A1"
           },
           {
             "word": "Zeichen",
             "lemma": "das Zeichen",
-            "gloss": "teken",
             "level": "A2"
           },
           {
             "word": "lang",
             "lemma": "lang",
-            "gloss": "lang",
             "level": "A1"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "das",
             "lemma": "das",
-            "gloss": "dat",
             "level": "A1"
           },
           {
             "word": "macht",
             "lemma": "machen",
-            "gloss": "maakt",
             "level": "A1"
           },
           {
             "word": "Oma",
             "lemma": "die Oma",
-            "gloss": "oma",
             "level": "A1"
           },
           {
             "word": "wütend",
             "lemma": "wütend",
-            "gloss": "boos",
             "level": "B1"
           },
           {
             "word": "Sie",
             "lemma": "sie",
-            "gloss": "zij",
             "level": "A1"
           },
           {
             "word": "würde",
             "lemma": "werden",
-            "gloss": "zou",
             "level": "A1"
           },
           {
             "word": "gern",
             "lemma": "gern",
-            "gloss": "graag",
             "level": "A1"
           },
           {
             "word": "Code",
             "lemma": "der Code",
-            "gloss": "code",
             "level": "A2"
           },
           {
             "word": "ganzen",
             "lemma": "ganz",
-            "gloss": "hele",
             "level": "A2"
           },
           {
             "word": "Stadt",
             "lemma": "die Stadt",
-            "gloss": "stad",
             "level": "A1"
           },
           {
             "word": "ändern",
             "lemma": "ändern",
-            "gloss": "veranderen",
             "level": "A2"
           },
           {
             "word": "Aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "Bürgermeister",
             "lemma": "der Bürgermeister",
-            "gloss": "burgemeester",
             "level": "B1"
           },
           {
             "word": "sagt",
             "lemma": "sagen",
-            "gloss": "zegt",
             "level": "A1"
           },
           {
             "word": "darfst",
             "lemma": "dürfen",
-            "gloss": "mag",
             "level": "A2"
           },
           {
             "word": "du",
             "lemma": "du",
-            "gloss": "jij",
             "level": "A1"
           },
           {
             "word": "nicht",
             "lemma": "nicht",
-            "gloss": "niet",
             "level": "A1"
           },
           {
             "word": "obwohl",
             "lemma": "obwohl",
-            "gloss": "hoewel",
             "level": "B1"
           },
           {
             "word": "viel",
             "lemma": "viel",
-            "gloss": "veel",
             "level": "A1"
           },
           {
             "word": "besser",
             "lemma": "gut",
-            "gloss": "beter",
             "level": "A1"
           },
           {
             "word": "hackt",
             "lemma": "hacken",
-            "gloss": "hackt",
             "level": "B1"
           },
           {
             "word": "als",
             "lemma": "als",
-            "gloss": "dan",
             "level": "A1"
           },
           {
             "word": "er",
             "lemma": "er",
-            "gloss": "hij",
             "level": "A1"
           }
         ],
@@ -548,7 +488,6 @@
       },
       {
         "text": "Um drei Uhr morgens sitzt Hilde vor ihrem kleinen Laptop. Sie würde gern schlafen, aber sie arbeitet weiter, obwohl ihre Katze laut protestiert. Sie hätte gern einen starken Kaffee, aber sie hat nur 1000 Tassen Tee.",
-        "translation": "Om drie uur 's nachts zit Hilde voor haar kleine laptop. Ze zou graag slapen, maar ze werkt door, hoewel haar kat luid protesteert. Ze zou graag een sterke koffie hebben, maar ze heeft alleen 1000 koppen thee.",
         "image_prompt": "Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan at 3 a.m. at a tiny glowing laptop in a dark kitchen, surrounded by 1000 teacups, while a fat cat on the table loudly protests.",
         "questions": [
           {
@@ -597,163 +536,136 @@
           {
             "word": "Um",
             "lemma": "um",
-            "gloss": "om",
             "level": "A1"
           },
           {
             "word": "Uhr",
             "lemma": "die Uhr",
-            "gloss": "uur",
             "level": "A1"
           },
           {
             "word": "morgens",
             "lemma": "morgens",
-            "gloss": "s ochtends",
             "level": "A2"
           },
           {
             "word": "sitzt",
             "lemma": "sitzen",
-            "gloss": "zit",
             "level": "A1"
           },
           {
             "word": "vor",
             "lemma": "vor",
-            "gloss": "voor",
             "level": "A1"
           },
           {
             "word": "ihrem",
             "lemma": "ihr",
-            "gloss": "haar",
             "level": "A1"
           },
           {
             "word": "kleinen",
             "lemma": "klein",
-            "gloss": "kleine",
             "level": "A1"
           },
           {
             "word": "Laptop",
             "lemma": "der Laptop",
-            "gloss": "laptop",
             "level": "A2"
           },
           {
             "word": "Sie",
             "lemma": "sie",
-            "gloss": "zij",
             "level": "A1"
           },
           {
             "word": "würde",
             "lemma": "werden",
-            "gloss": "zou",
             "level": "A1"
           },
           {
             "word": "gern",
             "lemma": "gern",
-            "gloss": "graag",
             "level": "A1"
           },
           {
             "word": "schlafen",
             "lemma": "schlafen",
-            "gloss": "slapen",
             "level": "A1"
           },
           {
             "word": "aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "arbeitet",
             "lemma": "arbeiten",
-            "gloss": "werkt",
             "level": "A1"
           },
           {
             "word": "weiter",
             "lemma": "weiter",
-            "gloss": "verder",
             "level": "A2"
           },
           {
             "word": "obwohl",
             "lemma": "obwohl",
-            "gloss": "hoewel",
             "level": "B1"
           },
           {
             "word": "ihre",
             "lemma": "ihr",
-            "gloss": "haar",
             "level": "A1"
           },
           {
             "word": "Katze",
             "lemma": "die Katze",
-            "gloss": "kat",
             "level": "A1"
           },
           {
             "word": "laut",
             "lemma": "laut",
-            "gloss": "luid",
             "level": "A2"
           },
           {
             "word": "protestiert",
             "lemma": "protestieren",
-            "gloss": "protesteert",
             "level": "B1"
           },
           {
             "word": "hätte",
             "lemma": "haben",
-            "gloss": "zou graag hebben",
             "level": "A1"
           },
           {
             "word": "starken",
             "lemma": "stark",
-            "gloss": "sterke",
             "level": "A2"
           },
           {
             "word": "Kaffee",
             "lemma": "der Kaffee",
-            "gloss": "koffie",
             "level": "A1"
           },
           {
             "word": "hat",
             "lemma": "haben",
-            "gloss": "heeft",
             "level": "A1"
           },
           {
             "word": "nur",
             "lemma": "nur",
-            "gloss": "alleen",
             "level": "A1"
           },
           {
             "word": "Tassen",
             "lemma": "die Tasse",
-            "gloss": "kopjes",
             "level": "A1"
           },
           {
             "word": "Tee",
             "lemma": "der Tee",
-            "gloss": "thee",
             "level": "A1"
           }
         ],
@@ -774,7 +686,6 @@
       },
       {
         "text": "Obwohl der Code tausend Zeichen hat, ist Hilde in zehn Minuten drin. Sie würde gern etwas Mutiges machen, und darum ändert sie den Code von der ganzen Stadt. Der neue Code ist: „HILDE123“. Plötzlich ist die ganze Stadt offline — 1000 Menschen stehen auf der Straße und schreien.",
-        "translation": "Hoewel de code duizend tekens heeft, zit Hilde er binnen tien minuten in. Ze zou graag iets dappers doen, en daarom verandert ze de code van heel de stad. De nieuwe code is: 'HILDE123'. Plotseling is de hele stad offline — 1000 mensen staan op straat te schreeuwen.",
         "image_prompt": "Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan, arms up in victory, a giant green code 'HILDE123' glowing on her screen, and through the window the whole city goes dark with 1000 people standing in the street.",
         "questions": [
           {
@@ -823,175 +734,146 @@
           {
             "word": "Obwohl",
             "lemma": "obwohl",
-            "gloss": "hoewel",
             "level": "B1"
           },
           {
             "word": "Code",
             "lemma": "der Code",
-            "gloss": "code",
             "level": "A2"
           },
           {
             "word": "Zeichen",
             "lemma": "das Zeichen",
-            "gloss": "teken",
             "level": "A2"
           },
           {
             "word": "hat",
             "lemma": "haben",
-            "gloss": "heeft",
             "level": "A1"
           },
           {
             "word": "ist",
             "lemma": "sein",
-            "gloss": "is",
             "level": "A1"
           },
           {
             "word": "in",
             "lemma": "in",
-            "gloss": "in",
             "level": "A1"
           },
           {
             "word": "Minuten",
             "lemma": "die Minute",
-            "gloss": "minuten",
             "level": "A1"
           },
           {
             "word": "drin",
             "lemma": "drin",
-            "gloss": "erin",
             "level": "A2"
           },
           {
             "word": "Sie",
             "lemma": "sie",
-            "gloss": "zij",
             "level": "A1"
           },
           {
             "word": "würde",
             "lemma": "werden",
-            "gloss": "zou",
             "level": "A1"
           },
           {
             "word": "gern",
             "lemma": "gern",
-            "gloss": "graag",
             "level": "A1"
           },
           {
             "word": "etwas",
             "lemma": "etwas",
-            "gloss": "iets",
             "level": "A2"
           },
           {
             "word": "Mutiges",
             "lemma": "mutig",
-            "gloss": "moedigs",
             "level": "B1"
           },
           {
             "word": "machen",
             "lemma": "machen",
-            "gloss": "doen",
             "level": "A1"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "darum",
             "lemma": "darum",
-            "gloss": "daarom",
             "level": "A2"
           },
           {
             "word": "ändert",
             "lemma": "ändern",
-            "gloss": "verandert",
             "level": "A2"
           },
           {
             "word": "von",
             "lemma": "von",
-            "gloss": "van",
             "level": "A1"
           },
           {
             "word": "ganzen",
             "lemma": "ganz",
-            "gloss": "hele",
             "level": "A2"
           },
           {
             "word": "Stadt",
             "lemma": "die Stadt",
-            "gloss": "stad",
             "level": "A1"
           },
           {
             "word": "neue",
             "lemma": "neu",
-            "gloss": "nieuwe",
             "level": "A1"
           },
           {
             "word": "Plötzlich",
             "lemma": "plötzlich",
-            "gloss": "plotseling",
             "level": "A2"
           },
           {
             "word": "ganze",
             "lemma": "ganz",
-            "gloss": "hele",
             "level": "A2"
           },
           {
             "word": "offline",
             "lemma": "offline",
-            "gloss": "offline",
             "level": "A2"
           },
           {
             "word": "Menschen",
             "lemma": "der Mensch",
-            "gloss": "mensen",
             "level": "A1"
           },
           {
             "word": "stehen",
             "lemma": "stehen",
-            "gloss": "staan",
             "level": "A1"
           },
           {
             "word": "auf",
             "lemma": "auf",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "Straße",
             "lemma": "die Straße",
-            "gloss": "straat",
             "level": "A1"
           },
           {
             "word": "schreien",
             "lemma": "schreien",
-            "gloss": "schreeuwen",
             "level": "A2"
           }
         ],
@@ -1016,7 +898,6 @@
       },
       {
         "text": "1000 Menschen stehen vor Hildes Tür, und alle hätten gern den neuen Code. Hilde würde gern helfen, aber sie hat den Code selbst vergessen. Da springt ihre Katze auf die Tastatur und tippt: „HILDE123“. Die Stadt hat wieder WLAN, und Oma Hilde hätte gern ein bisschen Ruhe — aber jetzt kennen alle ihren Code.",
-        "translation": "1000 mensen staan voor Hildes deur, en allemaal zouden ze graag de nieuwe code hebben. Hilde zou graag helpen, maar ze is de code zelf vergeten. Dan springt haar kat op het toetsenbord en typt: 'HILDE123'. De stad heeft weer wifi, en Oma Hilde zou graag een beetje rust hebben — maar nu kent iedereen haar code.",
         "image_prompt": "Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan standing in her doorway with 1000 people in the street holding up phones, while a small cat types 'HILDE123' on a laptop keyboard with its paws; the old woman looks tired but relieved.",
         "questions": [
           {
@@ -1076,205 +957,171 @@
           {
             "word": "Menschen",
             "lemma": "der Mensch",
-            "gloss": "mensen",
             "level": "A1"
           },
           {
             "word": "stehen",
             "lemma": "stehen",
-            "gloss": "staan",
             "level": "A1"
           },
           {
             "word": "vor",
             "lemma": "vor",
-            "gloss": "voor",
             "level": "A1"
           },
           {
             "word": "Tür",
             "lemma": "die Tür",
-            "gloss": "deur",
             "level": "A1"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "alle",
             "lemma": "alle",
-            "gloss": "alle",
             "level": "A2"
           },
           {
             "word": "hätten",
             "lemma": "haben",
-            "gloss": "zouden graag hebben",
             "level": "A1"
           },
           {
             "word": "gern",
             "lemma": "gern",
-            "gloss": "graag",
             "level": "A1"
           },
           {
             "word": "neuen",
             "lemma": "neu",
-            "gloss": "nieuwe",
             "level": "A1"
           },
           {
             "word": "Code",
             "lemma": "der Code",
-            "gloss": "code",
             "level": "A2"
           },
           {
             "word": "würde",
             "lemma": "werden",
-            "gloss": "zou",
             "level": "A1"
           },
           {
             "word": "helfen",
             "lemma": "helfen",
-            "gloss": "helpen",
             "level": "A1"
           },
           {
             "word": "aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "sie",
             "lemma": "sie",
-            "gloss": "zij",
             "level": "A1"
           },
           {
             "word": "hat",
             "lemma": "haben",
-            "gloss": "heeft",
             "level": "A1"
           },
           {
             "word": "selbst",
             "lemma": "selbst",
-            "gloss": "zelf",
             "level": "A2"
           },
           {
             "word": "vergessen",
             "lemma": "vergessen",
-            "gloss": "vergeten",
             "level": "A2"
           },
           {
             "word": "Da",
             "lemma": "da",
-            "gloss": "toen",
             "level": "A2"
           },
           {
             "word": "springt",
             "lemma": "springen",
-            "gloss": "springt",
             "level": "A2"
           },
           {
             "word": "ihre",
             "lemma": "ihr",
-            "gloss": "haar",
             "level": "A1"
           },
           {
             "word": "Katze",
             "lemma": "die Katze",
-            "gloss": "kat",
             "level": "A1"
           },
           {
             "word": "auf",
             "lemma": "auf",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "Tastatur",
             "lemma": "die Tastatur",
-            "gloss": "toetsenbord",
             "level": "A2"
           },
           {
             "word": "tippt",
             "lemma": "tippen",
-            "gloss": "typt",
             "level": "A2"
           },
           {
             "word": "Stadt",
             "lemma": "die Stadt",
-            "gloss": "stad",
             "level": "A1"
           },
           {
             "word": "wieder",
             "lemma": "wieder",
-            "gloss": "weer",
             "level": "A1"
           },
           {
             "word": "WLAN",
             "lemma": "das WLAN",
-            "gloss": "wifi",
             "level": "A2"
           },
           {
             "word": "Oma",
             "lemma": "die Oma",
-            "gloss": "oma",
             "level": "A1"
           },
           {
             "word": "hätte",
             "lemma": "haben",
-            "gloss": "zou graag hebben",
             "level": "A1"
           },
           {
             "word": "bisschen",
             "lemma": "bisschen",
-            "gloss": "beetje",
             "level": "A2"
           },
           {
             "word": "Ruhe",
             "lemma": "die Ruhe",
-            "gloss": "rust",
             "level": "A2"
           },
           {
             "word": "jetzt",
             "lemma": "jetzt",
-            "gloss": "nu",
             "level": "A1"
           },
           {
             "word": "kennen",
             "lemma": "kennen",
-            "gloss": "kennen",
             "level": "A2"
           },
           {
             "word": "ihren",
             "lemma": "ihr",
-            "gloss": "hun",
             "level": "A1"
           }
         ],
@@ -1298,5 +1145,200 @@
         ]
       }
     ]
+  },
+  "localizations": {
+    "nl": {
+      "summary": "Oma Hilde (92) is stiekem de beste hacker van Duitsland en verandert het wifiwachtwoord van heel de stad — maar dan vergeet ze haar eigen code.",
+      "gestures": {
+        "although": "Je trekt met één hand je wenkbrauw hoog op en duwt met de andere hand je kin omhoog, met een gezicht van: 'Echt? Toch!'",
+        "would_like_to_have": "Je strekt beide handen smekend vooruit naar een gigantische denkbeeldige taart die net te ver weg staat.",
+        "would_like_to_do": "Je springt op een denkbeeldige fiets en trapt wild in de lucht met een hongerige blik naar avontuur."
+      },
+      "targets": {
+        "obwohl": {
+          "gloss": "hoewel (werkwoord achteraan)"
+        },
+        "hätte gern": {
+          "gloss": "zou graag hebben"
+        },
+        "würde gern": {
+          "gloss": "zou graag (doen)"
+        }
+      },
+      "scenes": [
+        {
+          "translation": "Oma Hilde is 92 jaar en woont in Berlijn. Ze drinkt graag thee en breit graag, hoewel ze eigenlijk geen tijd heeft. Want Oma Hilde is de beste hacker van Duitsland — hoewel niemand dat weet. Ze zou graag het wifiwachtwoord van heel de stad hebben.",
+          "glosses": {
+            "Oma": "oma",
+            "ist": "is",
+            "Jahre": "jaar",
+            "alt": "oud",
+            "und": "en",
+            "wohnt": "woont",
+            "in": "in",
+            "Sie": "zij",
+            "trinkt": "drinkt",
+            "Tee": "thee",
+            "strickt": "breit",
+            "gern": "graag",
+            "obwohl": "hoewel",
+            "eigentlich": "eigenlijk",
+            "keine": "geen",
+            "Zeit": "tijd",
+            "hat": "heeft",
+            "Denn": "want",
+            "beste": "beste",
+            "Hackerin": "hacker (vrouw)",
+            "von": "van",
+            "niemand": "niemand",
+            "das": "dat",
+            "weiß": "weet",
+            "hätte": "zou graag hebben",
+            "WLAN-Code": "wifi-code",
+            "ganzen": "hele",
+            "Stadt": "stad"
+          }
+        },
+        {
+          "translation": "Het wifiwachtwoord van Berlijn is duizend tekens lang, en daar wordt Oma Hilde woedend van. Ze zou graag de code van heel de stad veranderen. Maar de burgemeester zegt: 'Dat mag je niet doen!' — hoewel Hilde veel beter hackt dan hij.",
+          "glosses": {
+            "WLAN-Code": "wifi-code",
+            "von": "van",
+            "ist": "is",
+            "Zeichen": "teken",
+            "lang": "lang",
+            "und": "en",
+            "das": "dat",
+            "macht": "maakt",
+            "Oma": "oma",
+            "wütend": "boos",
+            "Sie": "zij",
+            "würde": "zou",
+            "gern": "graag",
+            "Code": "code",
+            "ganzen": "hele",
+            "Stadt": "stad",
+            "ändern": "veranderen",
+            "Aber": "maar",
+            "Bürgermeister": "burgemeester",
+            "sagt": "zegt",
+            "darfst": "mag",
+            "du": "jij",
+            "nicht": "niet",
+            "obwohl": "hoewel",
+            "viel": "veel",
+            "besser": "beter",
+            "hackt": "hackt",
+            "als": "dan",
+            "er": "hij"
+          }
+        },
+        {
+          "translation": "Om drie uur 's nachts zit Hilde voor haar kleine laptop. Ze zou graag slapen, maar ze werkt door, hoewel haar kat luid protesteert. Ze zou graag een sterke koffie hebben, maar ze heeft alleen 1000 koppen thee.",
+          "glosses": {
+            "Um": "om",
+            "Uhr": "uur",
+            "morgens": "s ochtends",
+            "sitzt": "zit",
+            "vor": "voor",
+            "ihrem": "haar",
+            "kleinen": "kleine",
+            "Laptop": "laptop",
+            "Sie": "zij",
+            "würde": "zou",
+            "gern": "graag",
+            "schlafen": "slapen",
+            "aber": "maar",
+            "arbeitet": "werkt",
+            "weiter": "verder",
+            "obwohl": "hoewel",
+            "ihre": "haar",
+            "Katze": "kat",
+            "laut": "luid",
+            "protestiert": "protesteert",
+            "hätte": "zou graag hebben",
+            "starken": "sterke",
+            "Kaffee": "koffie",
+            "hat": "heeft",
+            "nur": "alleen",
+            "Tassen": "kopjes",
+            "Tee": "thee"
+          }
+        },
+        {
+          "translation": "Hoewel de code duizend tekens heeft, zit Hilde er binnen tien minuten in. Ze zou graag iets dappers doen, en daarom verandert ze de code van heel de stad. De nieuwe code is: 'HILDE123'. Plotseling is de hele stad offline — 1000 mensen staan op straat te schreeuwen.",
+          "glosses": {
+            "Obwohl": "hoewel",
+            "Code": "code",
+            "Zeichen": "teken",
+            "hat": "heeft",
+            "ist": "is",
+            "in": "in",
+            "Minuten": "minuten",
+            "drin": "erin",
+            "Sie": "zij",
+            "würde": "zou",
+            "gern": "graag",
+            "etwas": "iets",
+            "Mutiges": "moedigs",
+            "machen": "doen",
+            "und": "en",
+            "darum": "daarom",
+            "ändert": "verandert",
+            "von": "van",
+            "ganzen": "hele",
+            "Stadt": "stad",
+            "neue": "nieuwe",
+            "Plötzlich": "plotseling",
+            "ganze": "hele",
+            "offline": "offline",
+            "Menschen": "mensen",
+            "stehen": "staan",
+            "auf": "op",
+            "Straße": "straat",
+            "schreien": "schreeuwen"
+          }
+        },
+        {
+          "translation": "1000 mensen staan voor Hildes deur, en allemaal zouden ze graag de nieuwe code hebben. Hilde zou graag helpen, maar ze is de code zelf vergeten. Dan springt haar kat op het toetsenbord en typt: 'HILDE123'. De stad heeft weer wifi, en Oma Hilde zou graag een beetje rust hebben — maar nu kent iedereen haar code.",
+          "glosses": {
+            "Menschen": "mensen",
+            "stehen": "staan",
+            "vor": "voor",
+            "Tür": "deur",
+            "und": "en",
+            "alle": "alle",
+            "hätten": "zouden graag hebben",
+            "gern": "graag",
+            "neuen": "nieuwe",
+            "Code": "code",
+            "würde": "zou",
+            "helfen": "helpen",
+            "aber": "maar",
+            "sie": "zij",
+            "hat": "heeft",
+            "selbst": "zelf",
+            "vergessen": "vergeten",
+            "Da": "toen",
+            "springt": "springt",
+            "ihre": "haar",
+            "Katze": "kat",
+            "auf": "op",
+            "Tastatur": "toetsenbord",
+            "tippt": "typt",
+            "Stadt": "stad",
+            "wieder": "weer",
+            "WLAN": "wifi",
+            "Oma": "oma",
+            "hätte": "zou graag hebben",
+            "bisschen": "beetje",
+            "Ruhe": "rust",
+            "jetzt": "nu",
+            "kennen": "kennen",
+            "ihren": "hun"
+          }
+        }
+      ]
+    }
   }
 }

@@ -11,10 +11,11 @@ export interface Question {
   audio_url: string | null;
 }
 
+/** A tappable word: the word comes with the story, its meaning from the learner's base language. */
 export interface GlossEntry {
   word: string;
   lemma: string;
-  gloss: string;
+  gloss: string | null;
   lexeme_id: string;
 }
 
@@ -33,6 +34,7 @@ export interface Target {
   id: string;
   text: string;
   gloss: string | null;
+  note: string | null; // grammar tip that fits the base language
   emoji: string | null;
   gesture: string | null;
 }

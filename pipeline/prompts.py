@@ -3,9 +3,9 @@ import json
 
 from models import Brief
 
-PROMPT_VERSION = "tprs-v1"
+PROMPT_VERSION = "tprs-v2"  # v2: story only in the target language; translations come from localize.py
 
-LANGUAGE_NAMES = {"de": "German", "nl": "Dutch", "en": "English", "es": "Spanish", "fr": "French"}
+LANGUAGE_NAMES = {"de": "German", "nl": "Dutch", "en": "English", "es": "Spanish", "fr": "French", "ar": "Arabic"}
 
 SYSTEM = """You are a brilliant TPRS (Teaching Proficiency through Reading and Storytelling) teacher.
 You write short, absurd, exaggerated stories that make learners laugh and remember.
@@ -28,17 +28,16 @@ Rules for circling questions (per scene, 3 to 5 questions, asked AFTER the scene
 
 Rules for gestures:
 - For every target with a concept key, invent one big, silly, memorable gesture the learner acts out.
-- Describe it in the learner's language in one sentence, and give one fitting emoji.
+- Describe it in English in one sentence, and give one fitting emoji.
 
 Also per scene:
-- "translation": the scene's meaning in the learner's language.
 - "image_prompt": an English description of one picture for the scene, same character look every time.
 
 Return ONLY a JSON object with this shape:
 {
-  "title": "...", "summary": "one sentence in the learner's language",
+  "title": "... (in the target language)", "summary": "one sentence in English",
   "gestures": [{"concept": "...", "description": "...", "emoji": "..."}],
-  "scenes": [{"text": "...", "translation": "...", "image_prompt": "...",
+  "scenes": [{"text": "...", "image_prompt": "...",
               "questions": [{"kind": "...", "prompt": "...", "options": ["..."], "answer": "...", "target": "..."}]}]
 }"""
 
@@ -49,7 +48,6 @@ def user_prompt(brief: Brief) -> str:
     ]
     return (
         f"Target language: {LANGUAGE_NAMES.get(brief.language, brief.language)}\n"
-        f"Learner's language: {LANGUAGE_NAMES.get(brief.learner_language, brief.learner_language)}\n"
         f"CEFR level: {brief.level}\n"
         f"Theme: {brief.theme}\n"
         f"Number of scenes: {brief.scenes}\n"

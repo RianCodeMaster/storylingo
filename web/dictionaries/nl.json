@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "description": "Leer een taal met gekke verhalen, gebaren en vragen."
+  },
+  "common": {
+    "error": "Er ging iets mis: {error}",
+    "back": "← Terug naar de verhalen",
+    "loading": "Laden…",
+    "again": "🔊 Nog een keer",
+    "gesture": "Gebaar: {gesture}"
+  },
+  "home": {
+    "tagline": "Gekke verhalen, grote gebaren, heel veel vragen.",
+    "due": { "one": "🔁 {n} woord om te herhalen", "other": "🔁 {n} woorden om te herhalen" },
+    "dueHint": "Even herhalen voordat je een nieuw verhaal begint.",
+    "empty": "Nog geen gepubliceerde verhalen."
+  },
+  "story": {
+    "loading": "Verhaal laden…",
+    "saveFailed": "Opslaan mislukt: {error}",
+    "gesturesIntro": "Eerst de gebaren. Doe ze echt na, groot en overdreven: je lichaam onthoudt mee.",
+    "pronounce": "Spreek {word} uit",
+    "begin": "Begin het verhaal",
+    "scene": "Scène {n} / {total}",
+    "questionsLeft": { "one": "Scène {n} · nog {left} vraag", "other": "Scène {n} · nog {left} vragen" },
+    "tell": "🔊 Vertel",
+    "meaning": "👁 Betekenis",
+    "toQuestions": "Vragen →",
+    "skipped": "✓ {names} zit erin: die vragen sla ik over.",
+    "score": "{correct} van {total} goed",
+    "gesturesOnceMore": "Doe de gebaren nog één keer na voordat je stopt.",
+    "lookups": {
+      "one": "{n} opgezocht woord komt morgen terug in je herhaling.",
+      "other": "{n} opgezochte woorden komen morgen terug in je herhaling."
+    }
+  },
+  "word": {
+    "meaningOf": "Betekenis van {word}",
+    "speak": "Uitspreken",
+    "close": "Sluiten"
+  },
+  "review": {
+    "title": "Herhalen",
+    "loading": "Herhaling laden…",
+    "nothing": "Niets te herhalen vandaag 🎉",
+    "nothingHint": "Woorden die je opzoekt of fout beantwoordt in een verhaal, komen hier vanzelf terug.",
+    "done": "Klaar! 🎉",
+    "tally": "{good} wist je · {hard} twijfel · {again} nog niet",
+    "doneHint": "Wat je wist, zie je pas over een paar dagen terug. Wat je niet wist, morgen weer.",
+    "reveal": "Toon betekenis",
+    "again": "Wist ik niet",
+    "hard": "Twijfel",
+    "good": "Wist ik"
+  }
+}

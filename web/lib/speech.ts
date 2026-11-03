@@ -45,24 +45,32 @@ export function narrate(audioUrl: string | null, text: string, language: string)
   player.play().catch(() => speak(text, language));
 }
 
-// Spoken once per language by the pipeline (storylingo.py feedback <lang>); counts match FEEDBACK there.
-const FEEDBACK = {
-  yes: ["Ja! Genau!", "Richtig! Super!", "Fantastisch!", "Ja, ja, ja!"],
-  no: ["Nein, nein, nein!", "Oh nein!"],
+/**
+ * The teacher's own words in the target language: the story stays immersive whatever the learner's base language.
+ * yes/no are spoken once per language by the pipeline (storylingo.py feedback <lang>); counts match FEEDBACK there.
+ */
+export const PHRASES: Record<string, { yes: string[]; no: string[]; next: string; done: string }> = {
+  de: {
+    yes: ["Ja! Genau!", "Richtig! Super!", "Fantastisch!", "Ja, ja, ja!"],
+    no: ["Nein, nein, nein!", "Oh nein!"],
+    next: "Weiter",
+    done: "Fertig!",
+  },
 };
 
 // Raise when the clips are made again (storylingo.py feedback), so browsers fetch the new files.
 const FEEDBACK_VERSION = 3;
 
-/** React to an answer in the story's native voice; the browser voice only if the clip is missing. */
-export function feedback(correct: boolean, language: string) {
-  const lines = correct ? FEEDBACK.yes : FEEDBACK.no;
+/** React to an answer in the story's native voice; the browser voice only if the clip is missing. Returns the line. */
+export function feedback(correct: boolean, language: string): string {
+  const lines = correct ? PHRASES[language].yes : PHRASES[language].no;
   const n = Math.floor(Math.random() * lines.length);
   const url = `${window.location.origin}/sb/storage/v1/object/public/assets/feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.wav?v=${FEEDBACK_VERSION}`;
   stopSpeaking();
   player ??= new Audio();
   player.src = url;
   player.play().catch(() => speak(lines[n], language, correct ? "cheer" : "oops"));
+  return lines[n];
 }
 
 export function stopSpeaking() {

@@ -1,4 +1,8 @@
-"""The shapes that flow through the pipeline: a brief goes in, a story comes out."""
+"""The shapes that flow through the pipeline: a brief goes in, a story comes out.
+
+A story is written in its target language and is the same for every learner. What a learner reads in their
+own (base) language lives in a Localization, one per base language, made afterwards (localize.py).
+"""
 import re
 from typing import Literal
 
@@ -10,15 +14,14 @@ Level = Literal["A1", "A2", "B1", "B2", "C1", "C2"]
 class Target(BaseModel):
     """A structure the story must practise, as written in the brief."""
     text: str                      # 'wollte'
-    gloss: str                     # 'wilde'
+    gloss: str | None = None       # hint for the story writer, any language ('wanted'); learners see Localization.targets
     concept: str | None = None     # language-neutral key, e.g. 'want'; None for pure grammar
     kind: Literal["word", "phrase", "structure"] = "word"
 
 
 class Brief(BaseModel):
     slug: str
-    language: str = "de"
-    learner_language: str = "nl"
+    language: str = "de"           # the target language
     level: Level = "A2"
     theme: str
     scenes: int = Field(5, ge=3, le=8)
@@ -27,7 +30,7 @@ class Brief(BaseModel):
 
 class Gesture(BaseModel):
     concept: str
-    description: str               # how to act it out, in the learner's language
+    description: str               # how to act it out, in English: the source for every Localization
     emoji: str
 
 
@@ -49,7 +52,6 @@ class GlossEntry(BaseModel):
     """One tappable word in a scene."""
     word: str                      # exactly as written in the scene, e.g. 'Käfig'
     lemma: str                     # dictionary form, nouns with article: 'der Käfig'
-    gloss: str                     # meaning in this context, in the learner's language
     level: Level = "A2"
 
 
@@ -64,7 +66,6 @@ class VoiceLine(BaseModel):
 
 class Scene(BaseModel):
     text: str
-    translation: str
     image_prompt: str
     questions: list[Question] = Field(min_length=2)
     glossary: list[GlossEntry] = []
@@ -72,10 +73,28 @@ class Scene(BaseModel):
 
 
 class Story(BaseModel):
-    title: str
-    summary: str
+    title: str                     # in the target language
+    summary: str                   # in English: the source for every Localization
     gestures: list[Gesture]
     scenes: list[Scene]
+
+
+class TargetMeaning(BaseModel):
+    gloss: str                     # 'hoewel'
+    note: str | None = None        # 'verb at the end, just like in Dutch'
+
+
+class SceneLocalization(BaseModel):
+    translation: str
+    glosses: dict[str, str] = {}   # word as written in the scene -> meaning in this sentence
+
+
+class Localization(BaseModel):
+    """Everything a learner reads in their own language, for one story and one base language."""
+    summary: str
+    gestures: dict[str, str]       # concept -> how to act it out
+    targets: dict[str, TargetMeaning]  # target text -> meaning
+    scenes: list[SceneLocalization]
 
 
 def occurs(text: str, phrase: str) -> int:

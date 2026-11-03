@@ -1,5 +1,6 @@
 "use client";
 
+import { useI18n } from "@/lib/i18n";
 import type { GlossEntry, Target } from "@/lib/types";
 
 /** What the learner tapped: a glossary word, or one of the story's target structures. */
@@ -7,6 +8,7 @@ export interface Tapped {
   lexemeId: string;
   lemma: string;
   gloss: string | null;
+  note?: string | null;
   emoji?: string | null;
   gesture?: string | null;
 }
@@ -33,7 +35,8 @@ export default function InteractiveText({
   const chunks = targetPattern ? text.split(targetPattern) : [text];
 
   return (
-    <>
+    // The story keeps its own writing direction, also inside a right-to-left app.
+    <span dir="ltr">
       {chunks.map((chunk, i) => {
         const target = targets.find((t) => t.text.toLowerCase() === chunk.toLowerCase());
         if (target) {
@@ -43,7 +46,14 @@ export default function InteractiveText({
               role="button"
               tabIndex={0}
               onClick={() =>
-                onTap({ lexemeId: target.id, lemma: target.text, gloss: target.gloss, emoji: target.emoji, gesture: target.gesture })
+                onTap({
+                  lexemeId: target.id,
+                  lemma: target.text,
+                  gloss: target.gloss,
+                  note: target.note,
+                  emoji: target.emoji,
+                  gesture: target.gesture,
+                })
               }
             >
               {chunk}
@@ -67,28 +77,30 @@ export default function InteractiveText({
           );
         });
       })}
-    </>
+    </span>
   );
 }
 
 /** Bottom sheet with the meaning of the tapped word. */
 export function WordSheet({ tapped, onSpeak, onClose }: { tapped: Tapped; onSpeak: () => void; onClose: () => void }) {
+  const { dict, fill } = useI18n();
   return (
-    <div className="sheet" role="dialog" aria-label={`Betekenis van ${tapped.lemma}`}>
+    <div className="sheet" role="dialog" aria-label={fill(dict.word.meaningOf, { word: tapped.lemma })}>
       <div className="sheet-head">
-        <strong className="story-text">
+        <strong className="story-text" dir="ltr">
           {tapped.emoji && `${tapped.emoji} `}
           {tapped.lemma}
         </strong>
-        <button aria-label="Uitspreken" onClick={onSpeak}>
+        <button aria-label={dict.word.speak} onClick={onSpeak}>
           🔊
         </button>
-        <button aria-label="Sluiten" onClick={onClose}>
+        <button aria-label={dict.word.close} onClick={onClose}>
           ✕
         </button>
       </div>
       {tapped.gloss && <p className="sheet-gloss">{tapped.gloss}</p>}
-      {tapped.gesture && <p className="muted">Gebaar: {tapped.gesture}</p>}
+      {tapped.note && <p className="muted">{tapped.note}</p>}
+      {tapped.gesture && <p className="muted">{fill(dict.common.gesture, { gesture: tapped.gesture })}</p>}
     </div>
   );
 }

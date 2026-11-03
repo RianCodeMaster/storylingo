@@ -1,42 +1,64 @@
 import { type AssetRef, assetUrl, type One, one } from "./assets";
 import { supabase } from "./supabase";
-import type { Question, Scene, Story, Target } from "./types";
+import type { GlossEntry, Question, Scene, Story, StoryCard, Target } from "./types";
 
-interface SceneRow extends Omit<Scene, "image_url" | "audio_url" | "questions"> {
+// The story itself is in the target language; everything in the learner's own language comes from the
+// *_localizations and lexeme_glosses rows of their base language (docs/meertaligheid.md).
+
+interface SceneRow {
+  id: string;
+  position: number;
+  text: string;
+  glossary: Omit<GlossEntry, "gloss">[];
+  scene_localizations: { translation: string; glosses: Record<string, string> }[];
   image: AssetRef;
   audio: AssetRef;
   questions: (Omit<Question, "audio_url"> & { audio: AssetRef })[];
 }
 
-interface Row {
-  id: string;
-  title: string;
-  summary: string | null;
-  cefr_level: string;
-  language_code: string;
+interface Row extends Omit<StoryCard, "summary"> {
+  story_localizations: { summary: string | null }[];
   story_targets: {
     lexemes: One<{
       id: string;
       text: string;
-      gloss: string | null;
-      concepts: One<{ gestures: One<{ description: string; emoji: string | null }> }>;
+      lexeme_glosses: { gloss: string; note: string | null }[];
+      concepts: One<{ gestures: One<{ emoji: string | null; gesture_localizations: { description: string }[] }> }>;
     }>;
   }[];
   scenes: SceneRow[];
 }
 
-export async function loadStory(id: string): Promise<Story> {
+/** The published stories that have a layer in this base language, newest first. */
+export async function listStories(base: string): Promise<StoryCard[]> {
+  const { data, error } = await supabase()
+    .from("stories")
+    .select("id, title, cefr_level, language_code, story_localizations!inner ( summary )")
+    .eq("story_localizations.base_language", base)
+    .order("published_at", { ascending: false })
+    .returns<Row[]>();
+  if (error) throw error;
+  return data.map(({ story_localizations, ...s }) => ({ ...s, summary: story_localizations[0]?.summary ?? null }));
+}
+
+export async function loadStory(id: string, base: string): Promise<Story> {
   const { data, error } = await supabase()
     .from("stories")
     .select(
-      `id, title, summary, cefr_level, language_code,
-       story_targets ( lexemes ( id, text, gloss, concepts ( gestures ( description, emoji ) ) ) ),
-       scenes ( id, position, text, translation, glossary,
+      `id, title, cefr_level, language_code,
+       story_localizations ( summary ),
+       story_targets ( lexemes ( id, text, lexeme_glosses ( gloss, note ),
+                                 concepts ( gestures ( emoji, gesture_localizations ( description ) ) ) ) ),
+       scenes ( id, position, text, glossary, scene_localizations ( translation, glosses ),
                 image:assets!image_asset_id ( id, storage_path ), audio:assets!audio_asset_id ( id, storage_path ),
                 questions ( id, position, kind, prompt, options, answer, lexeme_id,
                             audio:assets!audio_asset_id ( id, storage_path ) ) )`,
     )
     .eq("id", id)
+    .eq("story_localizations.base_language", base)
+    .eq("story_targets.lexemes.lexeme_glosses.base_language", base)
+    .eq("story_targets.lexemes.concepts.gestures.gesture_localizations.base_language", base)
+    .eq("scenes.scene_localizations.base_language", base)
     .order("position", { referencedTable: "scenes" })
     .order("position", { referencedTable: "scenes.questions" })
     .single<Row>();
@@ -47,17 +69,31 @@ export async function loadStory(id: string): Promise<Story> {
     .filter((l) => l !== null)
     .map((l) => {
       const gesture = one(one(l.concepts)?.gestures ?? null);
-      return { id: l.id, text: l.text, gloss: l.gloss, emoji: gesture?.emoji ?? null, gesture: gesture?.description ?? null };
+      const meaning = l.lexeme_glosses[0];
+      return {
+        id: l.id,
+        text: l.text,
+        gloss: meaning?.gloss ?? null,
+        note: meaning?.note ?? null,
+        emoji: gesture?.emoji ?? null,
+        gesture: gesture?.gesture_localizations[0]?.description ?? null,
+      };
     });
 
-  const scenes: Scene[] = data.scenes.map(({ image, audio, questions, ...scene }) => ({
-    ...scene,
-    image_url: assetUrl(image),
-    audio_url: assetUrl(audio),
-    questions: questions.map(({ audio: qAudio, ...q }) => ({ ...q, audio_url: assetUrl(qAudio) })),
-  }));
+  const scenes: Scene[] = data.scenes.map(({ image, audio, questions, glossary, scene_localizations, ...scene }) => {
+    const local = scene_localizations[0];
+    return {
+      ...scene,
+      translation: local?.translation ?? null,
+      glossary: glossary.map((e) => ({ ...e, gloss: local?.glosses[e.word] ?? null })),
+      image_url: assetUrl(image),
+      audio_url: assetUrl(audio),
+      questions: questions.map(({ audio: qAudio, ...q }) => ({ ...q, audio_url: assetUrl(qAudio) })),
+    };
+  });
 
-  return { ...data, targets, scenes };
+  const { id: storyId, title, cefr_level, language_code } = data;
+  return { id: storyId, title, cefr_level, language_code, summary: data.story_localizations[0]?.summary ?? null, targets, scenes };
 }
 
 export async function startSession(userId: string, storyId: string): Promise<string> {

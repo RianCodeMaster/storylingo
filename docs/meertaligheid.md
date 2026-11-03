@@ -1,6 +1,8 @@
 # Meertaligheid: ontwerp en stappenplan
 
-> Status: **ontwerp, nog niet gebouwd** (2026-11-03). Vandaag kan de app één taalpaar: Nederlands → Duits.
+> Status (2026-11-03): **Stap 0 is gebouwd.** Basistaal en doeltaal staan los van elkaar in database, pipeline en
+> app. Live is één taalpaar: Nederlands → Duits. Het verhaal over Hugo de hamster heeft als test ook al een Engelse laag.
+> De secties hieronder met "(gepland)" beschrijven het ontwerp zoals het nu gebouwd is.
 
 ## Het idee in één alinea
 
@@ -138,9 +140,11 @@ Arabier krijgt een andere vergelijking. De brief krijgt geen `learner_language` 
 
 ## Stappenplan
 
-### Stap 0 — Eenmalig: het datamodel ombouwen
+### Stap 0 — Eenmalig: het datamodel ombouwen ✅ gedaan
 
-Doe dit **voordat** er veel meer verhalen bijkomen: dan blijft de migratie klein en kun je het makkelijk testen.
+Gebouwd op 2026-11-03: migraties `20261103180000_base_language_layer.sql` (nieuwe laag + NL-teksten overgezet) en
+`20261103190000_drop_single_language_columns.sql` (oude kolommen weg), `pipeline/localize.py`, `app/[lang]/`,
+`web/dictionaries/nl.json`, `web/proxy.ts`. Wat er gedaan is:
 
 1. Migratie schrijven met de nieuwe tabellen, en de bestaande NL-teksten erin overzetten (`base_language = 'nl'`).
 2. Pipeline: `generate` zonder vertaling, nieuw commando `localize`. `pipeline/stories/*.json` krijgt per basistaal
@@ -155,9 +159,10 @@ Daarna is er twee soorten werk, en een taalpaar is altijd een combinatie van die
 
 Goedkoop: geen stem, geen beelden, alleen tekst.
 
-1. Rij in `languages` met `is_base = true` (en `direction = 'rtl'` voor Arabisch).
+1. Rij in `languages` met `is_base = true` (en `direction = 'rtl'` voor Arabisch), via een nieuwe migratie.
 2. Woordenboek `web/dictionaries/<code>.json`: kopieer `nl.json`, laat DeepSeek of Claude een eerste vertaling maken,
-   en laat een moedertaalspreker het nalezen. Dit is je verkooppraat; fouten kosten klanten.
+   en laat een moedertaalspreker het nalezen. Dit is je verkooppraat; fouten kosten klanten. Zet de taal erbij in
+   `web/app/[lang]/dictionaries.ts` en `LOCALES` in `web/proxy.ts`.
 3. Rij in `language_pairs` met status `planned` voor elk paar dat je wilt.
 4. `storylingo.py localize-all <code>`: alle bestaande verhalen krijgen een laag in die taal.
 5. Steekproef nalezen: een paar verhalen, vooral de uitleg bij de doelstructuren.
@@ -173,7 +178,8 @@ Duurder: hier zit het echte werk.
    Let op: alleen de Duitse Piper-stem heeft emoties. Voor Spaans en Engels moet je kiezen tussen een vlakke
    gratis stem en een betaalde dienst met emotie (bijv. ElevenLabs); de pipeline is daar al op voorbereid
    (één klasse in `media.py`, één regel in `voices.yaml`).
-2. **Feedbackzinnen** ("¡Sí! ¡Exacto!") toevoegen in `FEEDBACK` in `storylingo.py`, dan `storylingo.py feedback <code>`.
+2. **Zinnen van de leraar** ("¡Sí! ¡Exacto!", "Siguiente", "¡Terminado!") toevoegen in `FEEDBACK` in
+   `storylingo.py` en in `PHRASES` in `web/lib/speech.ts`, dan `storylingo.py feedback <code>`.
 3. **Taal in de pipeline**: naam in `LANGUAGE_NAMES` (`prompts.py`), en controleer of DeepSeek goed schrijft in die
    taal. Bij Duits maakte het fouten ("der beste Hacker" voor een vrouw), dus elke doeltaal heeft een moedertaalcheck nodig.
 4. **Curriculum**: per niveau (A1–B2) de doelstructuren van die taal op een rij. Daaruit maak je de briefs.

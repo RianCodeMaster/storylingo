@@ -2,7 +2,6 @@
   "brief": {
     "slug": "kuh-astronautin",
     "language": "de",
-    "learner_language": "nl",
     "level": "B1",
     "theme": "Een koe uit Beieren wil astronaut worden en bouwt een raket van melkbussen",
     "scenes": 5,
@@ -63,7 +62,6 @@
     "scenes": [
       {
         "text": "Mathilde war eine kleine Kuh aus Bayern. Sie stand jeden Tag auf einer großen Wiese und aß Gras. Als sie eines Abends den Mond sah, sagte sie: „Ich will Astronautin werden!“ Ihre Freunde lachten laut.",
-        "translation": "Mathilde was een kleine koe uit Beieren. Ze stond elke dag op een grote weide en at gras. Toen ze op een avond de maan zag, zei ze: 'Ik wil astronaut worden!' Haar vrienden lachten hard.",
         "image_prompt": "A small brown-and-white cow with a red collar and a brass bell, big dreamy eyes, standing on a green Bavarian meadow at dusk, looking up at a huge full moon, other cows laughing in the background.",
         "questions": [
           {
@@ -112,163 +110,136 @@
           {
             "word": "war",
             "lemma": "sein",
-            "gloss": "was",
             "level": "A1"
           },
           {
             "word": "kleine",
             "lemma": "klein",
-            "gloss": "kleine",
             "level": "A1"
           },
           {
             "word": "Kuh",
             "lemma": "die Kuh",
-            "gloss": "koe",
             "level": "A1"
           },
           {
             "word": "aus",
             "lemma": "aus",
-            "gloss": "uit",
             "level": "A1"
           },
           {
             "word": "Sie",
             "lemma": "sie",
-            "gloss": "zij",
             "level": "A1"
           },
           {
             "word": "stand",
             "lemma": "stehen",
-            "gloss": "stond",
             "level": "A1"
           },
           {
             "word": "jeden",
             "lemma": "jeder",
-            "gloss": "elke",
             "level": "A1"
           },
           {
             "word": "Tag",
             "lemma": "der Tag",
-            "gloss": "dag",
             "level": "A1"
           },
           {
             "word": "auf",
             "lemma": "auf",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "großen",
             "lemma": "groß",
-            "gloss": "grote",
             "level": "A1"
           },
           {
             "word": "Wiese",
             "lemma": "die Wiese",
-            "gloss": "weide",
             "level": "A2"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "aß",
             "lemma": "essen",
-            "gloss": "at",
             "level": "A1"
           },
           {
             "word": "Gras",
             "lemma": "das Gras",
-            "gloss": "gras",
             "level": "A1"
           },
           {
             "word": "Als",
             "lemma": "als",
-            "gloss": "toen",
             "level": "A1"
           },
           {
             "word": "Abends",
             "lemma": "der Abend",
-            "gloss": "avond",
             "level": "A1"
           },
           {
             "word": "Mond",
             "lemma": "der Mond",
-            "gloss": "maan",
             "level": "A1"
           },
           {
             "word": "sah",
             "lemma": "sehen",
-            "gloss": "zag",
             "level": "A1"
           },
           {
             "word": "sagte",
             "lemma": "sagen",
-            "gloss": "zei",
             "level": "A1"
           },
           {
             "word": "Ich",
             "lemma": "ich",
-            "gloss": "ik",
             "level": "A1"
           },
           {
             "word": "will",
             "lemma": "wollen",
-            "gloss": "wil",
             "level": "A1"
           },
           {
             "word": "Astronautin",
             "lemma": "die Astronautin",
-            "gloss": "astronaute",
             "level": "A2"
           },
           {
             "word": "werden",
             "lemma": "werden",
-            "gloss": "worden",
             "level": "A1"
           },
           {
             "word": "Ihre",
             "lemma": "ihr",
-            "gloss": "haar",
             "level": "A1"
           },
           {
             "word": "Freunde",
             "lemma": "der Freund",
-            "gloss": "vrienden",
             "level": "A1"
           },
           {
             "word": "lachten",
             "lemma": "lachen",
-            "gloss": "lachten",
             "level": "A1"
           },
           {
             "word": "laut",
             "lemma": "laut",
-            "gloss": "hard",
             "level": "A1"
           }
         ],
@@ -289,7 +260,6 @@
       },
       {
         "text": "Mathilde sammelte alte Milchkannen auf dem ganzen Bauernhof. Nachdem sie hundert Kannen gesammelt hatte, baute sie eine große Rakete. Als die Rakete fertig war, tanzte sie und freute sich auf ihren ersten Flug. Der Bauer war wütend, weil seine Milch weg war.",
-        "translation": "Mathilde verzamelde oude melkbussen op de hele boerderij. Nadat ze honderd bussen had verzameld, bouwde ze een grote raket. Toen de raket klaar was, danste ze en verheugde ze zich op haar eerste vlucht. De boer was woedend, omdat zijn melk weg was.",
         "image_prompt": "The same small brown-and-white cow with red collar and brass bell, proudly standing next to a tall wobbly rocket built from many shiny milk cans, a farmyard behind her, an angry farmer waving his arms in the distance.",
         "questions": [
           {
@@ -349,181 +319,151 @@
           {
             "word": "sammelte",
             "lemma": "sammeln",
-            "gloss": "verzamelde",
             "level": "A2"
           },
           {
             "word": "alte",
             "lemma": "alt",
-            "gloss": "oude",
             "level": "A1"
           },
           {
             "word": "Milchkannen",
             "lemma": "die Milchkanne",
-            "gloss": "melkbussen",
             "level": "A2"
           },
           {
             "word": "auf",
             "lemma": "auf",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "ganzen",
             "lemma": "ganz",
-            "gloss": "hele",
             "level": "A2"
           },
           {
             "word": "Bauernhof",
             "lemma": "der Bauernhof",
-            "gloss": "boerderij",
             "level": "A2"
           },
           {
             "word": "Nachdem",
             "lemma": "nachdem",
-            "gloss": "nadat",
             "level": "B1"
           },
           {
             "word": "sie",
             "lemma": "sie",
-            "gloss": "ze",
             "level": "A1"
           },
           {
             "word": "Kannen",
             "lemma": "die Kanne",
-            "gloss": "bussen",
             "level": "A2"
           },
           {
             "word": "gesammelt",
             "lemma": "sammeln",
-            "gloss": "verzameld",
             "level": "A2"
           },
           {
             "word": "hatte",
             "lemma": "haben",
-            "gloss": "had",
             "level": "A1"
           },
           {
             "word": "baute",
             "lemma": "bauen",
-            "gloss": "bouwde",
             "level": "A2"
           },
           {
             "word": "große",
             "lemma": "groß",
-            "gloss": "grote",
             "level": "A1"
           },
           {
             "word": "Rakete",
             "lemma": "die Rakete",
-            "gloss": "raket",
             "level": "A2"
           },
           {
             "word": "Als",
             "lemma": "als",
-            "gloss": "toen",
             "level": "A1"
           },
           {
             "word": "fertig",
             "lemma": "fertig",
-            "gloss": "klaar",
             "level": "A2"
           },
           {
             "word": "war",
             "lemma": "sein",
-            "gloss": "was",
             "level": "A1"
           },
           {
             "word": "tanzte",
             "lemma": "tanzen",
-            "gloss": "danste",
             "level": "A1"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "freute",
             "lemma": "sich freuen",
-            "gloss": "verheugde zich",
             "level": "A2"
           },
           {
             "word": "sich",
             "lemma": "sich",
-            "gloss": "zich",
             "level": "A2"
           },
           {
             "word": "ihren",
             "lemma": "ihr",
-            "gloss": "haar",
             "level": "A1"
           },
           {
             "word": "ersten",
             "lemma": "erste",
-            "gloss": "eerste",
             "level": "A1"
           },
           {
             "word": "Flug",
             "lemma": "der Flug",
-            "gloss": "vlucht",
             "level": "A2"
           },
           {
             "word": "Bauer",
             "lemma": "der Bauer",
-            "gloss": "boer",
             "level": "A2"
           },
           {
             "word": "wütend",
             "lemma": "wütend",
-            "gloss": "boos",
             "level": "A2"
           },
           {
             "word": "weil",
             "lemma": "weil",
-            "gloss": "omdat",
             "level": "A1"
           },
           {
             "word": "seine",
             "lemma": "sein",
-            "gloss": "zijn",
             "level": "A1"
           },
           {
             "word": "Milch",
             "lemma": "die Milch",
-            "gloss": "melk",
             "level": "A1"
           },
           {
             "word": "weg",
             "lemma": "weg",
-            "gloss": "weg",
             "level": "A2"
           }
         ],
@@ -548,7 +488,6 @@
       },
       {
         "text": "Für den Flug brauchte Mathilde tausend Liter Milch. Als niemand hinsah, trank sie die ganze Milch aus. Nachdem sie alles getrunken hatte, war der Tank leer. Aber Mathilde freute sich auf den Flug.",
-        "translation": "Voor de vlucht had Mathilde duizend liter melk nodig. Toen niemand keek, dronk ze alle melk op. Nadat ze alles gedronken had, was de tank leeg. Maar Mathilde verheugde zich op de vlucht.",
         "image_prompt": "The same small brown-and-white cow with red collar and brass bell, with a huge round belly, drinking from an enormous milk can next to her milk-can rocket, empty cans lying all around, stars in the evening sky.",
         "questions": [
           {
@@ -597,139 +536,116 @@
           {
             "word": "Für",
             "lemma": "für",
-            "gloss": "voor",
             "level": "A1"
           },
           {
             "word": "Flug",
             "lemma": "der Flug",
-            "gloss": "vlucht",
             "level": "A2"
           },
           {
             "word": "brauchte",
             "lemma": "brauchen",
-            "gloss": "had nodig",
             "level": "A2"
           },
           {
             "word": "Liter",
             "lemma": "der Liter",
-            "gloss": "liter",
             "level": "A2"
           },
           {
             "word": "Milch",
             "lemma": "die Milch",
-            "gloss": "melk",
             "level": "A1"
           },
           {
             "word": "Als",
             "lemma": "als",
-            "gloss": "toen",
             "level": "A1"
           },
           {
             "word": "niemand",
             "lemma": "niemand",
-            "gloss": "niemand",
             "level": "A2"
           },
           {
             "word": "hinsah",
             "lemma": "hinsehen",
-            "gloss": "keek",
             "level": "B1"
           },
           {
             "word": "trank",
             "lemma": "trinken",
-            "gloss": "dronk",
             "level": "A1"
           },
           {
             "word": "sie",
             "lemma": "sie",
-            "gloss": "ze",
             "level": "A1"
           },
           {
             "word": "ganze",
             "lemma": "ganz",
-            "gloss": "hele",
             "level": "A2"
           },
           {
             "word": "aus",
             "lemma": "aus",
-            "gloss": "leeg",
             "level": "A1"
           },
           {
             "word": "Nachdem",
             "lemma": "nachdem",
-            "gloss": "nadat",
             "level": "B1"
           },
           {
             "word": "alles",
             "lemma": "alles",
-            "gloss": "alles",
             "level": "A2"
           },
           {
             "word": "getrunken",
             "lemma": "trinken",
-            "gloss": "gedronken",
             "level": "A1"
           },
           {
             "word": "hatte",
             "lemma": "haben",
-            "gloss": "had",
             "level": "A1"
           },
           {
             "word": "war",
             "lemma": "sein",
-            "gloss": "was",
             "level": "A1"
           },
           {
             "word": "Tank",
             "lemma": "der Tank",
-            "gloss": "tank",
             "level": "A2"
           },
           {
             "word": "leer",
             "lemma": "leer",
-            "gloss": "leeg",
             "level": "A2"
           },
           {
             "word": "Aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "freute",
             "lemma": "sich freuen",
-            "gloss": "verheugde zich",
             "level": "A2"
           },
           {
             "word": "sich",
             "lemma": "sich",
-            "gloss": "zich",
             "level": "A2"
           },
           {
             "word": "auf",
             "lemma": "auf",
-            "gloss": "op",
             "level": "A1"
           }
         ],
@@ -754,7 +670,6 @@
       },
       {
         "text": "Als Mathilde den roten Knopf drückte, passierte nichts. Nachdem sie dreimal laut „Muh!“ gerufen hatte, machte die Rakete nur ein kleines „Puff“. Die Rakete flog zwei Meter hoch und landete im Misthaufen. Mathilde war sehr wütend.",
-        "translation": "Toen Mathilde op de rode knop drukte, gebeurde er niets. Nadat ze drie keer hard 'Moe!' had geroepen, maakte de raket alleen een klein 'Puf'. De raket vloog twee meter hoog en landde in de mesthoop. Mathilde was heel woedend.",
         "image_prompt": "The same small brown-and-white cow with red collar and brass bell, sitting furious and covered in straw in a big manure pile, a milk-can rocket tipped over next to her with a tiny puff of smoke, farmyard at night.",
         "questions": [
           {
@@ -803,157 +718,131 @@
           {
             "word": "Als",
             "lemma": "als",
-            "gloss": "toen",
             "level": "A1"
           },
           {
             "word": "roten",
             "lemma": "rot",
-            "gloss": "rode",
             "level": "A1"
           },
           {
             "word": "Knopf",
             "lemma": "der Knopf",
-            "gloss": "knop",
             "level": "A2"
           },
           {
             "word": "drückte",
             "lemma": "drücken",
-            "gloss": "drukte",
             "level": "A2"
           },
           {
             "word": "passierte",
             "lemma": "passieren",
-            "gloss": "gebeurde",
             "level": "A2"
           },
           {
             "word": "nichts",
             "lemma": "nichts",
-            "gloss": "niets",
             "level": "A1"
           },
           {
             "word": "Nachdem",
             "lemma": "nachdem",
-            "gloss": "nadat",
             "level": "B1"
           },
           {
             "word": "sie",
             "lemma": "sie",
-            "gloss": "ze",
             "level": "A1"
           },
           {
             "word": "laut",
             "lemma": "laut",
-            "gloss": "hard",
             "level": "A1"
           },
           {
             "word": "gerufen",
             "lemma": "rufen",
-            "gloss": "geroepen",
             "level": "A2"
           },
           {
             "word": "hatte",
             "lemma": "haben",
-            "gloss": "had",
             "level": "A1"
           },
           {
             "word": "machte",
             "lemma": "machen",
-            "gloss": "maakte",
             "level": "A1"
           },
           {
             "word": "Rakete",
             "lemma": "die Rakete",
-            "gloss": "raket",
             "level": "A2"
           },
           {
             "word": "nur",
             "lemma": "nur",
-            "gloss": "alleen",
             "level": "A1"
           },
           {
             "word": "kleines",
             "lemma": "klein",
-            "gloss": "klein",
             "level": "A1"
           },
           {
             "word": "Puff",
             "lemma": "das Puff",
-            "gloss": "puf",
             "level": "B1"
           },
           {
             "word": "flog",
             "lemma": "fliegen",
-            "gloss": "vloog",
             "level": "A2"
           },
           {
             "word": "Meter",
             "lemma": "der Meter",
-            "gloss": "meter",
             "level": "A2"
           },
           {
             "word": "hoch",
             "lemma": "hoch",
-            "gloss": "hoog",
             "level": "A1"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "landete",
             "lemma": "landen",
-            "gloss": "landde",
             "level": "A2"
           },
           {
             "word": "im",
             "lemma": "in dem",
-            "gloss": "in de",
             "level": "A1"
           },
           {
             "word": "Misthaufen",
             "lemma": "der Misthaufen",
-            "gloss": "mesthoop",
             "level": "B1"
           },
           {
             "word": "war",
             "lemma": "sein",
-            "gloss": "was",
             "level": "A1"
           },
           {
             "word": "sehr",
             "lemma": "sehr",
-            "gloss": "zeer",
             "level": "A1"
           },
           {
             "word": "wütend",
             "lemma": "wütend",
-            "gloss": "boos",
             "level": "A2"
           }
         ],
@@ -978,7 +867,6 @@
       },
       {
         "text": "Als der Bauer Mathilde im Misthaufen sah, lachte er laut. Nachdem er ihr eine alte Badewanne gezeigt hatte, baute er mit ihr eine neue Rakete. Am Abend flogen sie zusammen zum Mond — aber nur im Traum. Mathilde freute sich auf den nächsten Morgen.",
-        "translation": "Toen de boer Mathilde in de mesthoop zag, lachte hij hard. Nadat hij haar een oude badkuip had laten zien, bouwde hij samen met haar een nieuwe raket. 's Avonds vlogen ze samen naar de maan — maar alleen in een droom. Mathilde verheugde zich op de volgende ochtend.",
         "image_prompt": "The same small brown-and-white cow with red collar and brass bell, smiling and sleeping in an old bathtub rocket with the farmer beside her, both dreaming of flying to the moon, warm morning light.",
         "questions": [
           {
@@ -1027,199 +915,166 @@
           {
             "word": "Als",
             "lemma": "als",
-            "gloss": "toen",
             "level": "A1"
           },
           {
             "word": "Bauer",
             "lemma": "der Bauer",
-            "gloss": "boer",
             "level": "A2"
           },
           {
             "word": "im",
             "lemma": "in dem",
-            "gloss": "in de",
             "level": "A1"
           },
           {
             "word": "Misthaufen",
             "lemma": "der Misthaufen",
-            "gloss": "mesthoop",
             "level": "B1"
           },
           {
             "word": "sah",
             "lemma": "sehen",
-            "gloss": "zag",
             "level": "A1"
           },
           {
             "word": "lachte",
             "lemma": "lachen",
-            "gloss": "lachte",
             "level": "A1"
           },
           {
             "word": "er",
             "lemma": "er",
-            "gloss": "hij",
             "level": "A1"
           },
           {
             "word": "laut",
             "lemma": "laut",
-            "gloss": "hard",
             "level": "A1"
           },
           {
             "word": "Nachdem",
             "lemma": "nachdem",
-            "gloss": "nadat",
             "level": "B1"
           },
           {
             "word": "ihr",
             "lemma": "sie",
-            "gloss": "haar",
             "level": "A1"
           },
           {
             "word": "alte",
             "lemma": "alt",
-            "gloss": "oude",
             "level": "A1"
           },
           {
             "word": "Badewanne",
             "lemma": "die Badewanne",
-            "gloss": "badkuip",
             "level": "A2"
           },
           {
             "word": "gezeigt",
             "lemma": "zeigen",
-            "gloss": "getoond",
             "level": "A2"
           },
           {
             "word": "hatte",
             "lemma": "haben",
-            "gloss": "had",
             "level": "A1"
           },
           {
             "word": "baute",
             "lemma": "bauen",
-            "gloss": "bouwde",
             "level": "A2"
           },
           {
             "word": "mit",
             "lemma": "mit",
-            "gloss": "met",
             "level": "A1"
           },
           {
             "word": "neue",
             "lemma": "neu",
-            "gloss": "nieuwe",
             "level": "A1"
           },
           {
             "word": "Rakete",
             "lemma": "die Rakete",
-            "gloss": "raket",
             "level": "A2"
           },
           {
             "word": "Am",
             "lemma": "an dem",
-            "gloss": "'s avonds",
             "level": "A1"
           },
           {
             "word": "Abend",
             "lemma": "der Abend",
-            "gloss": "avond",
             "level": "A1"
           },
           {
             "word": "flogen",
             "lemma": "fliegen",
-            "gloss": "vlogen",
             "level": "A2"
           },
           {
             "word": "sie",
             "lemma": "sie",
-            "gloss": "ze",
             "level": "A1"
           },
           {
             "word": "zusammen",
             "lemma": "zusammen",
-            "gloss": "samen",
             "level": "A2"
           },
           {
             "word": "zum",
             "lemma": "zu dem",
-            "gloss": "naar de",
             "level": "A1"
           },
           {
             "word": "Mond",
             "lemma": "der Mond",
-            "gloss": "maan",
             "level": "A1"
           },
           {
             "word": "aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "nur",
             "lemma": "nur",
-            "gloss": "alleen",
             "level": "A1"
           },
           {
             "word": "Traum",
             "lemma": "der Traum",
-            "gloss": "droom",
             "level": "A2"
           },
           {
             "word": "freute",
             "lemma": "sich freuen",
-            "gloss": "verheugde zich",
             "level": "A2"
           },
           {
             "word": "sich",
             "lemma": "sich",
-            "gloss": "zich",
             "level": "A2"
           },
           {
             "word": "auf",
             "lemma": "auf",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "nächsten",
             "lemma": "nächste",
-            "gloss": "volgende",
             "level": "A2"
           },
           {
             "word": "Morgen",
             "lemma": "der Morgen",
-            "gloss": "ochtend",
             "level": "A1"
           }
         ],
@@ -1243,5 +1098,192 @@
         ]
       }
     ]
+  },
+  "localizations": {
+    "nl": {
+      "summary": "Een Beierse koe bouwt een raket van melkbussen om astronaut te worden, maar het loopt anders dan ze denkt.",
+      "gestures": {
+        "when_past": "Doe alsof je met je vinger op een grote denkbeeldige klok tikt die precies één keer 'TIKS' zegt, en houd je hand daarna stil in de lucht: het gebeurde maar één keer.",
+        "after": "Wijs met je duim over je schouder naar achteren en klap dan hard één keer in je handen: eerst dat, en dan pas dat.",
+        "look_forward": "Wrijf in je handen, kijk met een grote glimlach naar de hemel en spring één keer op van plezier."
+      },
+      "targets": {
+        "als": {
+          "gloss": "toen (één keer in het verleden)"
+        },
+        "nachdem": {
+          "gloss": "nadat"
+        },
+        "freute sich auf": {
+          "gloss": "verheugde zich op"
+        }
+      },
+      "scenes": [
+        {
+          "translation": "Mathilde was een kleine koe uit Beieren. Ze stond elke dag op een grote weide en at gras. Toen ze op een avond de maan zag, zei ze: 'Ik wil astronaut worden!' Haar vrienden lachten hard.",
+          "glosses": {
+            "war": "was",
+            "kleine": "kleine",
+            "Kuh": "koe",
+            "aus": "uit",
+            "Sie": "zij",
+            "stand": "stond",
+            "jeden": "elke",
+            "Tag": "dag",
+            "auf": "op",
+            "großen": "grote",
+            "Wiese": "weide",
+            "und": "en",
+            "aß": "at",
+            "Gras": "gras",
+            "Als": "toen",
+            "Abends": "avond",
+            "Mond": "maan",
+            "sah": "zag",
+            "sagte": "zei",
+            "Ich": "ik",
+            "will": "wil",
+            "Astronautin": "astronaute",
+            "werden": "worden",
+            "Ihre": "haar",
+            "Freunde": "vrienden",
+            "lachten": "lachten",
+            "laut": "hard"
+          }
+        },
+        {
+          "translation": "Mathilde verzamelde oude melkbussen op de hele boerderij. Nadat ze honderd bussen had verzameld, bouwde ze een grote raket. Toen de raket klaar was, danste ze en verheugde ze zich op haar eerste vlucht. De boer was woedend, omdat zijn melk weg was.",
+          "glosses": {
+            "sammelte": "verzamelde",
+            "alte": "oude",
+            "Milchkannen": "melkbussen",
+            "auf": "op",
+            "ganzen": "hele",
+            "Bauernhof": "boerderij",
+            "Nachdem": "nadat",
+            "sie": "ze",
+            "Kannen": "bussen",
+            "gesammelt": "verzameld",
+            "hatte": "had",
+            "baute": "bouwde",
+            "große": "grote",
+            "Rakete": "raket",
+            "Als": "toen",
+            "fertig": "klaar",
+            "war": "was",
+            "tanzte": "danste",
+            "und": "en",
+            "freute": "verheugde zich",
+            "sich": "zich",
+            "ihren": "haar",
+            "ersten": "eerste",
+            "Flug": "vlucht",
+            "Bauer": "boer",
+            "wütend": "boos",
+            "weil": "omdat",
+            "seine": "zijn",
+            "Milch": "melk",
+            "weg": "weg"
+          }
+        },
+        {
+          "translation": "Voor de vlucht had Mathilde duizend liter melk nodig. Toen niemand keek, dronk ze alle melk op. Nadat ze alles gedronken had, was de tank leeg. Maar Mathilde verheugde zich op de vlucht.",
+          "glosses": {
+            "Für": "voor",
+            "Flug": "vlucht",
+            "brauchte": "had nodig",
+            "Liter": "liter",
+            "Milch": "melk",
+            "Als": "toen",
+            "niemand": "niemand",
+            "hinsah": "keek",
+            "trank": "dronk",
+            "sie": "ze",
+            "ganze": "hele",
+            "aus": "leeg",
+            "Nachdem": "nadat",
+            "alles": "alles",
+            "getrunken": "gedronken",
+            "hatte": "had",
+            "war": "was",
+            "Tank": "tank",
+            "leer": "leeg",
+            "Aber": "maar",
+            "freute": "verheugde zich",
+            "sich": "zich",
+            "auf": "op"
+          }
+        },
+        {
+          "translation": "Toen Mathilde op de rode knop drukte, gebeurde er niets. Nadat ze drie keer hard 'Moe!' had geroepen, maakte de raket alleen een klein 'Puf'. De raket vloog twee meter hoog en landde in de mesthoop. Mathilde was heel woedend.",
+          "glosses": {
+            "Als": "toen",
+            "roten": "rode",
+            "Knopf": "knop",
+            "drückte": "drukte",
+            "passierte": "gebeurde",
+            "nichts": "niets",
+            "Nachdem": "nadat",
+            "sie": "ze",
+            "laut": "hard",
+            "gerufen": "geroepen",
+            "hatte": "had",
+            "machte": "maakte",
+            "Rakete": "raket",
+            "nur": "alleen",
+            "kleines": "klein",
+            "Puff": "puf",
+            "flog": "vloog",
+            "Meter": "meter",
+            "hoch": "hoog",
+            "und": "en",
+            "landete": "landde",
+            "im": "in de",
+            "Misthaufen": "mesthoop",
+            "war": "was",
+            "sehr": "zeer",
+            "wütend": "boos"
+          }
+        },
+        {
+          "translation": "Toen de boer Mathilde in de mesthoop zag, lachte hij hard. Nadat hij haar een oude badkuip had laten zien, bouwde hij samen met haar een nieuwe raket. 's Avonds vlogen ze samen naar de maan — maar alleen in een droom. Mathilde verheugde zich op de volgende ochtend.",
+          "glosses": {
+            "Als": "toen",
+            "Bauer": "boer",
+            "im": "in de",
+            "Misthaufen": "mesthoop",
+            "sah": "zag",
+            "lachte": "lachte",
+            "er": "hij",
+            "laut": "hard",
+            "Nachdem": "nadat",
+            "ihr": "haar",
+            "alte": "oude",
+            "Badewanne": "badkuip",
+            "gezeigt": "getoond",
+            "hatte": "had",
+            "baute": "bouwde",
+            "mit": "met",
+            "neue": "nieuwe",
+            "Rakete": "raket",
+            "Am": "'s avonds",
+            "Abend": "avond",
+            "flogen": "vlogen",
+            "sie": "ze",
+            "zusammen": "samen",
+            "zum": "naar de",
+            "Mond": "maan",
+            "aber": "maar",
+            "nur": "alleen",
+            "Traum": "droom",
+            "freute": "verheugde zich",
+            "sich": "zich",
+            "auf": "op",
+            "nächsten": "volgende",
+            "Morgen": "ochtend"
+          }
+        }
+      ]
+    }
   }
 }

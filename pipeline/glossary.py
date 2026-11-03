@@ -1,4 +1,4 @@
-"""Second LLM pass: a meaning for every word in every scene, so the learner can tap any word."""
+"""Second LLM pass: every tappable word in every scene with its dictionary form. Meanings come from localize.py."""
 import json
 
 from pydantic import TypeAdapter, ValidationError
@@ -7,7 +7,7 @@ from llm import MODEL, client
 from models import Brief, GlossEntry, Story, occurs
 from prompts import LANGUAGE_NAMES
 
-GLOSSARY_VERSION = "glossary-v1"
+GLOSSARY_VERSION = "glossary-v2"  # v2: no meanings; those are per base language (localize.py)
 
 SYSTEM = """You make a learner's dictionary for a short story.
 For every scene, list every word in the scene text a learner could tap: nouns, verbs, adjectives, adverbs,
@@ -16,10 +16,9 @@ prepositions, conjunctions and pronouns. Skip names and numbers. Each different 
 Per entry:
 - "word": the word exactly as written in the scene (same spelling and capitals).
 - "lemma": the dictionary form. Nouns with their article (der/die/das), verbs as infinitive.
-- "gloss": the meaning in this sentence, in the learner's language, 1 to 4 words.
 - "level": the CEFR level of the lemma (A1, A2, B1, B2, C1, C2).
 
-Return ONLY JSON: {"scenes": [{"position": 1, "words": [{"word": "...", "lemma": "...", "gloss": "...", "level": "A1"}]}]}"""
+Return ONLY JSON: {"scenes": [{"position": 1, "words": [{"word": "...", "lemma": "...", "level": "A1"}]}]}"""
 
 _entries = TypeAdapter(list[GlossEntry])
 
@@ -33,7 +32,6 @@ def add_glossary(brief: Brief, story: Story) -> dict:
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": (
                 f"Story language: {LANGUAGE_NAMES.get(brief.language, brief.language)}\n"
-                f"Learner's language: {LANGUAGE_NAMES.get(brief.learner_language, brief.learner_language)}\n"
                 f"Scenes: {json.dumps(scenes, ensure_ascii=False)}"
             )},
         ],

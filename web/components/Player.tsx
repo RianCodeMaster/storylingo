@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { advance, Circling, start } from "@/lib/circling";
-import { feedback, narrate, speak, stopSpeaking } from "@/lib/speech";
+import { useI18n } from "@/lib/i18n";
+import { feedback, narrate, PHRASES, speak, stopSpeaking } from "@/lib/speech";
 import { finishSession, recordAnswer, recordLookup, startSession } from "@/lib/story";
 import type { GlossEntry, Question, Story, Target } from "@/lib/types";
 import InteractiveText, { WordSheet, type Tapped } from "./InteractiveText";
@@ -23,10 +24,12 @@ function QuestionView(props: {
   onTap: (t: Tapped) => void;
   lang: string;
   picked: string | null;
+  line: string | null; // what the teacher just said about the answer
   onAnswer: (option: string) => void;
   onNext: () => void;
 }) {
   const { question, picked } = props;
+  const { dict } = useI18n();
   return (
     <>
       <span className="badge">{props.label}</span>
@@ -34,9 +37,9 @@ function QuestionView(props: {
         <p className="story-text">
           <InteractiveText text={question.prompt} targets={props.targets} words={props.words} onTap={props.onTap} />
         </p>
-        <button onClick={() => narrate(question.audio_url, question.prompt, props.lang)}>🔊 Nog een keer</button>
+        <button onClick={() => narrate(question.audio_url, question.prompt, props.lang)}>{dict.common.again}</button>
       </div>
-      <div className="row">
+      <div className="row" dir="ltr">
         {question.options.map((option) => (
           <button
             key={option}
@@ -52,9 +55,11 @@ function QuestionView(props: {
       </div>
       {picked && (
         <>
-          <p className="big-feedback">{picked === question.answer ? "Ja! Genau! 🎉" : `Nein! ${question.answer}`}</p>
+          <p className="big-feedback" dir="ltr">
+            {picked === question.answer ? `${props.line} 🎉` : `${props.line} → ${question.answer}`}
+          </p>
           <button className="primary" onClick={props.onNext}>
-            Weiter →
+            {PHRASES[props.lang].next} →
           </button>
         </>
       )}
@@ -63,7 +68,10 @@ function QuestionView(props: {
 }
 
 export default function Player({ story, userId }: { story: Story; userId: string }) {
+  // `base` is the learner's language (texts around the story), `lang` below the story's own language.
+  const { lang: base, dict, fill, plural } = useI18n();
   const [phase, setPhase] = useState<Phase>({ kind: "intro" });
+  const [line, setLine] = useState<string | null>(null);
   // A session starts when the learner presses "Begin", so just opening a story leaves no empty sessions.
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [showTranslation, setShowTranslation] = useState(false);
@@ -135,7 +143,7 @@ export default function Player({ story, userId }: { story: Story; userId: string
     // Keep the pace up: after a right answer, move on by itself.
     if (correct) autoNext.current = setTimeout(() => nextRef.current(), 1600);
     setScore((s) => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
-    feedback(correct, lang);
+    setLine(feedback(correct, lang));
     if (question.lexeme_id) {
       const r = results.current.get(question.lexeme_id) ?? { seen: 0, correct: 0 };
       results.current.set(question.lexeme_id, { seen: r.seen + 1, correct: r.correct + (correct ? 1 : 0) });
@@ -147,7 +155,7 @@ export default function Player({ story, userId }: { story: Story; userId: string
 
   function noteSkipped(lexemeIds: string[]) {
     const names = lexemeIds.map((id) => story.targets.find((t) => t.id === id)?.text).filter(Boolean);
-    if (names.length) setSkipNote(`✓ ${names.join(", ")} zit erin: die vragen sla ik over.`);
+    if (names.length) setSkipNote(fill(dict.story.skipped, { names: names.join(", ") }));
   }
 
   function next() {
@@ -191,38 +199,37 @@ export default function Player({ story, userId }: { story: Story; userId: string
       <div className="progress">
         <div style={{ width: `${progress * 100}%` }} />
       </div>
-      {error && <p className="card">Opslaan mislukt: {error}</p>}
+      {error && <p className="card">{fill(dict.story.saveFailed, { error })}</p>}
       {skipNote && <p className="skip-note">{skipNote}</p>}
 
       {phase.kind === "intro" && (
         <>
-          <h1>{story.title}</h1>
-          <p className="muted">Eerst de gebaren. Doe ze echt na, groot en overdreven: je lichaam onthoudt mee.</p>
+          <h1 dir="ltr">{story.title}</h1>
+          <p className="muted">{dict.story.gesturesIntro}</p>
           {story.targets.map((t) => (
             <div key={t.id} className="card gesture">
               <span className="emoji">{t.emoji ?? "✋"}</span>
               <div>
                 <strong>
-                  {t.text} = {t.gloss}
+                  <bdi>{t.text}</bdi> = {t.gloss}
                 </strong>
+                {t.note && <p className="muted">{t.note}</p>}
                 {t.gesture && <p className="muted">{t.gesture}</p>}
               </div>
-              <button aria-label={`Spreek ${t.text} uit`} onClick={() => speak(t.text, lang, "cheer")}>
+              <button aria-label={fill(dict.story.pronounce, { word: t.text })} onClick={() => speak(t.text, lang, "cheer")}>
                 🔊
               </button>
             </div>
           ))}
           <button className="primary" onClick={next}>
-            Begin het verhaal
+            {dict.story.begin}
           </button>
         </>
       )}
 
       {phase.kind === "scene" && (
         <>
-          <span className="badge">
-            Scène {phase.s + 1} / {story.scenes.length}
-          </span>
+          <span className="badge">{fill(dict.story.scene, { n: phase.s + 1, total: story.scenes.length })}</span>
           {story.scenes[phase.s].image_url && (
             <div className="scene-image">
               {/* eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage */}
@@ -237,11 +244,11 @@ export default function Player({ story, userId }: { story: Story; userId: string
           </div>
           <div className="row">
             <button onClick={() => narrate(story.scenes[phase.s].audio_url, story.scenes[phase.s].text, lang)}>
-              🔊 Vertel
+              {dict.story.tell}
             </button>
-            <button onClick={() => setShowTranslation((v) => !v)}>👁 Betekenis</button>
+            <button onClick={() => setShowTranslation((v) => !v)}>{dict.story.meaning}</button>
             <button className="primary" onClick={next}>
-              Vragen →
+              {dict.story.toQuestions}
             </button>
           </div>
         </>
@@ -249,13 +256,14 @@ export default function Player({ story, userId }: { story: Story; userId: string
 
       {phase.kind === "question" && (
         <QuestionView
-          label={`Scène ${phase.s + 1} · nog ${phase.queue.length} ${phase.queue.length === 1 ? "vraag" : "vragen"}`}
+          label={plural(dict.story.questionsLeft, phase.queue.length, { n: phase.s + 1, left: phase.queue.length })}
           question={story.scenes[phase.s].questions[phase.queue[0]]}
           targets={story.targets}
           words={words}
           onTap={tap}
           lang={lang}
           picked={picked}
+          line={line}
           onAnswer={answer}
           onNext={next}
         />
@@ -263,21 +271,19 @@ export default function Player({ story, userId }: { story: Story; userId: string
 
       {phase.kind === "done" && (
         <div className="card">
-          <h1>Fertig! 🎉</h1>
-          <p className="story-text">
-            {score.correct} van {score.total} goed
-          </p>
-          <p className="muted">Doe de gebaren nog één keer na voordat je stopt.</p>
-          <div className="row">
+          <h1 dir="ltr">{PHRASES[lang].done} 🎉</h1>
+          <p className="story-text">{fill(dict.story.score, { correct: score.correct, total: score.total })}</p>
+          <p className="muted">{dict.story.gesturesOnceMore}</p>
+          <div className="row" dir="ltr">
             {story.targets.map((t) => (
               <span key={t.id} className="badge">
                 {t.emoji} {t.text}
               </span>
             ))}
           </div>
-          {lookups > 0 && <p className="muted">{lookups} opgezochte woorden komen morgen terug in je herhaling.</p>}
-          <Link href="/" className="muted">
-            ← Terug naar de verhalen
+          {lookups > 0 && <p className="muted">{plural(dict.story.lookups, lookups)}</p>}
+          <Link href={`/${base}`} className="muted">
+            {dict.common.back}
           </Link>
         </div>
       )}

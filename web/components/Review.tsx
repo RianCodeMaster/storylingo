@@ -2,14 +2,15 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useI18n } from "@/lib/i18n";
 import { type Grade, loadDue, nextState, type ReviewCard, saveGrade } from "@/lib/review";
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner } from "@/lib/supabase";
 
-const GRADES: { grade: Grade; label: string; className: string }[] = [
-  { grade: "again", label: "Wist ik niet", className: "wrong" },
-  { grade: "hard", label: "Twijfel", className: "" },
-  { grade: "good", label: "Wist ik", className: "correct" },
+const GRADES: { grade: Grade; className: string }[] = [
+  { grade: "again", className: "wrong" },
+  { grade: "hard", className: "" },
+  { grade: "good", className: "correct" },
 ];
 
 /** The story sentence with the reviewed word in bold. */
@@ -17,9 +18,9 @@ function Context({ card }: { card: ReviewCard }) {
   if (!card.sentence) return null;
   const form = card.form ?? card.text;
   const at = card.sentence.toLowerCase().indexOf(form.toLowerCase());
-  if (at < 0) return <p className="muted">{card.sentence}</p>;
+  if (at < 0) return <p className="muted" dir="ltr">{card.sentence}</p>;
   return (
-    <p className="muted">
+    <p className="muted" dir="ltr">
       {card.sentence.slice(0, at)}
       <mark>{card.sentence.slice(at, at + form.length)}</mark>
       {card.sentence.slice(at + form.length)}
@@ -28,6 +29,7 @@ function Context({ card }: { card: ReviewCard }) {
 }
 
 export default function Review() {
+  const { lang, dict, fill } = useI18n();
   const [userId, setUserId] = useState<string | null>(null);
   const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const [index, setIndex] = useState(0);
@@ -37,10 +39,10 @@ export default function Review() {
 
   useEffect(() => {
     (async () => {
-      setUserId(await ensureLearner());
-      setQueue(await loadDue());
+      setUserId(await ensureLearner(lang));
+      setQueue(await loadDue(lang));
     })().catch((e) => setError(String(e.message ?? e)));
-  }, []);
+  }, [lang]);
 
   const card = queue?.[index];
 
@@ -61,18 +63,24 @@ export default function Review() {
     setIndex((i) => i + 1);
   }
 
-  if (error) return <main><p className="card">Er ging iets mis: {error}</p></main>;
-  if (!queue) return <main><p className="muted">Herhaling laden…</p></main>;
+  const back = (
+    <Link href={`/${lang}`} className="muted">
+      {dict.common.back}
+    </Link>
+  );
+
+  if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
+  if (!queue) return <main><p className="muted">{dict.review.loading}</p></main>;
 
   if (queue.length === 0) {
     return (
       <main>
-        <h1>Herhalen</h1>
+        <h1>{dict.review.title}</h1>
         <div className="card">
-          <p className="story-text">Niets te herhalen vandaag 🎉</p>
-          <p className="muted">Woorden die je opzoekt of fout beantwoordt in een verhaal, komen hier vanzelf terug.</p>
+          <p className="story-text">{dict.review.nothing}</p>
+          <p className="muted">{dict.review.nothingHint}</p>
         </div>
-        <Link href="/" className="muted">← Terug naar de verhalen</Link>
+        {back}
       </main>
     );
   }
@@ -80,14 +88,12 @@ export default function Review() {
   if (!card) {
     return (
       <main>
-        <h1>Klaar! 🎉</h1>
+        <h1>{dict.review.done}</h1>
         <div className="card">
-          <p className="story-text">
-            {tally.good} wist je · {tally.hard} twijfel · {tally.again} nog niet
-          </p>
-          <p className="muted">Wat je wist, zie je pas over een paar dagen terug. Wat je niet wist, morgen weer.</p>
+          <p className="story-text">{fill(dict.review.tally, tally)}</p>
+          <p className="muted">{dict.review.doneHint}</p>
         </div>
-        <Link href="/" className="muted">← Terug naar de verhalen</Link>
+        {back}
       </main>
     );
   }
@@ -101,16 +107,16 @@ export default function Review() {
         {index + 1} / {queue.length}
       </span>
       <div className="card review-card">
-        <p className="review-word">
+        <p className="review-word" dir="ltr">
           {card.emoji && `${card.emoji} `}
           {card.text}
         </p>
-        <button onClick={() => narrate(card.audioUrl, card.text, card.language)}>🔊 Nog een keer</button>
+        <button onClick={() => narrate(card.audioUrl, card.text, card.language)}>{dict.common.again}</button>
         <Context card={card} />
         {revealed && (
           <>
             <p className="sheet-gloss">{card.gloss}</p>
-            {card.gesture && <p className="muted">Gebaar: {card.gesture}</p>}
+            {card.gesture && <p className="muted">{fill(dict.common.gesture, { gesture: card.gesture })}</p>}
           </>
         )}
       </div>
@@ -118,13 +124,13 @@ export default function Review() {
         <div className="row">
           {GRADES.map((g) => (
             <button key={g.grade} className={`option ${g.className}`} onClick={() => answer(g.grade)}>
-              {g.label}
+              {dict.review[g.grade]}
             </button>
           ))}
         </div>
       ) : (
         <button className="primary" onClick={() => setRevealed(true)}>
-          Toon betekenis
+          {dict.review.reveal}
         </button>
       )}
     </main>

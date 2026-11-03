@@ -2,7 +2,6 @@
   "brief": {
     "slug": "hamster-boerse",
     "language": "de",
-    "learner_language": "nl",
     "level": "A2",
     "theme": "Een hamster wil op de beurs handelen, maar alles gaat mis",
     "scenes": 5,
@@ -38,7 +37,10 @@
     "glossary_output_tokens": 11972,
     "voice_version": "voice-v1",
     "voice_input_tokens": 499,
-    "voice_output_tokens": 905
+    "voice_output_tokens": 905,
+    "localize_en_version": "localize-v1",
+    "localize_en_input_tokens": 1233,
+    "localize_en_output_tokens": 5537
   },
   "story": {
     "title": "Hamster Hugo geht zur Börse",
@@ -63,7 +65,6 @@
     "scenes": [
       {
         "text": "Hugo ist ein kleiner Hamster. Er wohnt in einem Käfig in einer Wohnung. Aber Hugo wollte immer reich sein. Er wollte an der Börse handeln.",
-        "translation": "Hugo is een kleine hamster. Hij woont in een kooi in een flat. Maar Hugo wilde altijd rijk zijn. Hij wilde op de beurs handelen.",
         "image_prompt": "A tiny golden hamster named Hugo with a red scarf and round glasses, standing in a small cage in a simple apartment, dreaming with a big smile and a thought bubble full of gold coins and stock charts.",
         "questions": [
           {
@@ -112,97 +113,81 @@
           {
             "word": "ist",
             "lemma": "sein",
-            "gloss": "is",
             "level": "A1"
           },
           {
             "word": "kleiner",
             "lemma": "klein",
-            "gloss": "kleine",
             "level": "A1"
           },
           {
             "word": "Hamster",
             "lemma": "der Hamster",
-            "gloss": "hamster",
             "level": "A2"
           },
           {
             "word": "Er",
             "lemma": "er",
-            "gloss": "hij",
             "level": "A1"
           },
           {
             "word": "wohnt",
             "lemma": "wohnen",
-            "gloss": "woont",
             "level": "A1"
           },
           {
             "word": "in",
             "lemma": "in",
-            "gloss": "in",
             "level": "A1"
           },
           {
             "word": "Käfig",
             "lemma": "der Käfig",
-            "gloss": "kooi",
             "level": "A2"
           },
           {
             "word": "Wohnung",
             "lemma": "die Wohnung",
-            "gloss": "woning",
             "level": "A1"
           },
           {
             "word": "Aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "wollte",
             "lemma": "wollen",
-            "gloss": "wilde",
             "level": "A1"
           },
           {
             "word": "immer",
             "lemma": "immer",
-            "gloss": "altijd",
             "level": "A1"
           },
           {
             "word": "reich",
             "lemma": "reich",
-            "gloss": "rijk",
             "level": "A1"
           },
           {
             "word": "sein",
             "lemma": "sein",
-            "gloss": "zijn",
             "level": "A1"
           },
           {
             "word": "an",
             "lemma": "an",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "Börse",
             "lemma": "die Börse",
-            "gloss": "beurs",
             "level": "A2"
           },
           {
             "word": "handeln",
             "lemma": "handeln",
-            "gloss": "handelen",
             "level": "B1"
           }
         ],
@@ -227,7 +212,6 @@
       },
       {
         "text": "Am Montag ging Hugo zur Börse. Er hatte einen winzigen Laptop in seiner Tasche. Die Zahlen waren sehr schnell, und er konnte nicht lesen. Er hatte Angst vor den großen Menschen.",
-        "translation": "Op maandag ging Hugo naar de beurs. Hij had een piepkleine laptop in zijn tas. De cijfers gingen heel snel, en hij kon niet lezen. Hij was bang voor de grote mensen.",
         "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, standing on the floor of a huge stock exchange building between enormous men in suits, holding a very small laptop, looking very small and scared, many big green numbers on screens in the background.",
         "questions": [
           {
@@ -276,145 +260,121 @@
           {
             "word": "Am",
             "lemma": "an",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "Montag",
             "lemma": "der Montag",
-            "gloss": "maandag",
             "level": "A1"
           },
           {
             "word": "ging",
             "lemma": "gehen",
-            "gloss": "ging",
             "level": "A1"
           },
           {
             "word": "zur",
             "lemma": "zu",
-            "gloss": "naar",
             "level": "A1"
           },
           {
             "word": "Börse",
             "lemma": "die Börse",
-            "gloss": "beurs",
             "level": "A2"
           },
           {
             "word": "Er",
             "lemma": "er",
-            "gloss": "hij",
             "level": "A1"
           },
           {
             "word": "hatte",
             "lemma": "haben",
-            "gloss": "had",
             "level": "A1"
           },
           {
             "word": "winzigen",
             "lemma": "winzig",
-            "gloss": "piepkleine",
             "level": "B1"
           },
           {
             "word": "Laptop",
             "lemma": "der Laptop",
-            "gloss": "laptop",
             "level": "A2"
           },
           {
             "word": "in",
             "lemma": "in",
-            "gloss": "in",
             "level": "A1"
           },
           {
             "word": "seiner",
             "lemma": "sein",
-            "gloss": "zijn",
             "level": "A1"
           },
           {
             "word": "Tasche",
             "lemma": "die Tasche",
-            "gloss": "tas",
             "level": "A1"
           },
           {
             "word": "Zahlen",
             "lemma": "die Zahl",
-            "gloss": "cijfers",
             "level": "A2"
           },
           {
             "word": "waren",
             "lemma": "sein",
-            "gloss": "waren",
             "level": "A1"
           },
           {
             "word": "sehr",
             "lemma": "sehr",
-            "gloss": "heel",
             "level": "A1"
           },
           {
             "word": "schnell",
             "lemma": "schnell",
-            "gloss": "snel",
             "level": "A1"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "konnte",
             "lemma": "können",
-            "gloss": "konnte",
             "level": "A1"
           },
           {
             "word": "nicht",
             "lemma": "nicht",
-            "gloss": "niet",
             "level": "A1"
           },
           {
             "word": "lesen",
             "lemma": "lesen",
-            "gloss": "lezen",
             "level": "A1"
           },
           {
             "word": "Angst",
             "lemma": "die Angst",
-            "gloss": "angst",
             "level": "A2"
           },
           {
             "word": "vor",
             "lemma": "vor",
-            "gloss": "voor",
             "level": "A1"
           },
           {
             "word": "großen",
             "lemma": "groß",
-            "gloss": "grote",
             "level": "A1"
           },
           {
             "word": "Menschen",
             "lemma": "der Mensch",
-            "gloss": "mensen",
             "level": "A1"
           }
         ],
@@ -439,7 +399,6 @@
       },
       {
         "text": "Ein Mann sagte: „Kauf Bananen-Aktien!“ Hugo wollte alles kaufen. Er kaufte 1000 Bananen. Die Bananen lagen im Käfig, und Hugo konnte nicht schlafen.",
-        "translation": "Een man zei: 'Koop bananenaandelen!' Hugo wilde alles kopen. Hij kocht 1000 bananen. De bananen lagen in de kooi, en Hugo kon niet slapen.",
         "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, sitting in his small cage completely filled with a mountain of 1000 yellow bananas, one banana on his head, wide awake eyes, a tiny laptop showing a banana stock chart.",
         "questions": [
           {
@@ -489,103 +448,86 @@
           {
             "word": "Mann",
             "lemma": "der Mann",
-            "gloss": "man",
             "level": "A1"
           },
           {
             "word": "sagte",
             "lemma": "sagen",
-            "gloss": "zei",
             "level": "A1"
           },
           {
             "word": "Kauf",
             "lemma": "kaufen",
-            "gloss": "koop",
             "level": "A1"
           },
           {
             "word": "Bananen-Aktien",
             "lemma": "die Bananen-Aktie",
-            "gloss": "bananenaandelen",
             "level": "B1"
           },
           {
             "word": "wollte",
             "lemma": "wollen",
-            "gloss": "wilde",
             "level": "A1"
           },
           {
             "word": "alles",
             "lemma": "alles",
-            "gloss": "alles",
             "level": "A1"
           },
           {
             "word": "kaufen",
             "lemma": "kaufen",
-            "gloss": "kopen",
             "level": "A1"
           },
           {
             "word": "Er",
             "lemma": "er",
-            "gloss": "hij",
             "level": "A1"
           },
           {
             "word": "kaufte",
             "lemma": "kaufen",
-            "gloss": "kocht",
             "level": "A1"
           },
           {
             "word": "Bananen",
             "lemma": "die Banane",
-            "gloss": "bananen",
             "level": "A1"
           },
           {
             "word": "lagen",
             "lemma": "liegen",
-            "gloss": "lagen",
             "level": "A1"
           },
           {
             "word": "im",
             "lemma": "in",
-            "gloss": "in",
             "level": "A1"
           },
           {
             "word": "Käfig",
             "lemma": "der Käfig",
-            "gloss": "kooi",
             "level": "A2"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "konnte",
             "lemma": "können",
-            "gloss": "konnte",
             "level": "A1"
           },
           {
             "word": "nicht",
             "lemma": "nicht",
-            "gloss": "niet",
             "level": "A1"
           },
           {
             "word": "schlafen",
             "lemma": "schlafen",
-            "gloss": "slapen",
             "level": "A1"
           }
         ],
@@ -606,7 +548,6 @@
       },
       {
         "text": "Am Dienstag fielen die Preise. Hugo wollte verkaufen, aber er konnte nicht. Er hatte Angst und weinte sehr. „Ich hatte Angst“, sagte er zu seiner Mutter.",
-        "translation": "Op dinsdag zakten de prijzen. Hugo wilde verkopen, maar hij kon niet. Hij was bang en huilde heel erg. 'Ik was bang', zei hij tegen zijn moeder.",
         "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, crying big tears in front of the tiny laptop, a red falling arrow on the screen, his mother (a bigger hamster with a blue scarf) patting his head, bananas around them.",
         "questions": [
           {
@@ -655,121 +596,101 @@
           {
             "word": "Am",
             "lemma": "an",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "Dienstag",
             "lemma": "der Dienstag",
-            "gloss": "dinsdag",
             "level": "A1"
           },
           {
             "word": "fielen",
             "lemma": "fallen",
-            "gloss": "daalden",
             "level": "A2"
           },
           {
             "word": "Preise",
             "lemma": "der Preis",
-            "gloss": "prijzen",
             "level": "A2"
           },
           {
             "word": "wollte",
             "lemma": "wollen",
-            "gloss": "wilde",
             "level": "A1"
           },
           {
             "word": "verkaufen",
             "lemma": "verkaufen",
-            "gloss": "verkopen",
             "level": "A1"
           },
           {
             "word": "aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "er",
             "lemma": "er",
-            "gloss": "hij",
             "level": "A1"
           },
           {
             "word": "konnte",
             "lemma": "können",
-            "gloss": "konnte",
             "level": "A1"
           },
           {
             "word": "nicht",
             "lemma": "nicht",
-            "gloss": "niet",
             "level": "A1"
           },
           {
             "word": "hatte",
             "lemma": "haben",
-            "gloss": "had",
             "level": "A1"
           },
           {
             "word": "Angst",
             "lemma": "die Angst",
-            "gloss": "angst",
             "level": "A2"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "weinte",
             "lemma": "weinen",
-            "gloss": "huilde",
             "level": "A1"
           },
           {
             "word": "sehr",
             "lemma": "sehr",
-            "gloss": "heel",
             "level": "A1"
           },
           {
             "word": "Ich",
             "lemma": "ich",
-            "gloss": "ik",
             "level": "A1"
           },
           {
             "word": "sagte",
             "lemma": "sagen",
-            "gloss": "zei",
             "level": "A1"
           },
           {
             "word": "zu",
             "lemma": "zu",
-            "gloss": "tegen",
             "level": "A1"
           },
           {
             "word": "seiner",
             "lemma": "sein",
-            "gloss": "zijn",
             "level": "A1"
           },
           {
             "word": "Mutter",
             "lemma": "die Mutter",
-            "gloss": "moeder",
             "level": "A1"
           }
         ],
@@ -794,7 +715,6 @@
       },
       {
         "text": "In der Nacht hatte Hugo Angst und aß alle 1000 Bananen. Am Morgen kostete eine Banane 1000 Euro, aber Hugo hatte nur noch Bananenschalen. Eine Firma kaufte die Schalen für eine Million Euro. Jetzt wollte Hugo nicht mehr an der Börse handeln.",
-        "translation": "In de nacht was Hugo bang en at hij alle 1000 bananen op. De volgende ochtend kostte een banaan 1000 euro, maar Hugo had alleen nog bananenschillen. Een bedrijf kocht de schillen voor een miljoen euro. Nu wilde Hugo niet meer op de beurs handelen.",
         "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, sitting in a cage full of banana peels, his tummy very round, holding a cheque for one million euros, a big happy grin, tiny laptop closed on the side.",
         "questions": [
           {
@@ -843,169 +763,141 @@
           {
             "word": "In",
             "lemma": "in",
-            "gloss": "in",
             "level": "A1"
           },
           {
             "word": "Nacht",
             "lemma": "die Nacht",
-            "gloss": "nacht",
             "level": "A1"
           },
           {
             "word": "hatte",
             "lemma": "haben",
-            "gloss": "had",
             "level": "A1"
           },
           {
             "word": "Angst",
             "lemma": "die Angst",
-            "gloss": "angst",
             "level": "A2"
           },
           {
             "word": "und",
             "lemma": "und",
-            "gloss": "en",
             "level": "A1"
           },
           {
             "word": "aß",
             "lemma": "essen",
-            "gloss": "at",
             "level": "A1"
           },
           {
             "word": "alle",
             "lemma": "all",
-            "gloss": "alle",
             "level": "A1"
           },
           {
             "word": "Bananen",
             "lemma": "die Banane",
-            "gloss": "bananen",
             "level": "A1"
           },
           {
             "word": "Am",
             "lemma": "an",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "Morgen",
             "lemma": "der Morgen",
-            "gloss": "ochtend",
             "level": "A1"
           },
           {
             "word": "kostete",
             "lemma": "kosten",
-            "gloss": "kostte",
             "level": "A1"
           },
           {
             "word": "Banane",
             "lemma": "die Banane",
-            "gloss": "banaan",
             "level": "A1"
           },
           {
             "word": "Euro",
             "lemma": "der Euro",
-            "gloss": "euro",
             "level": "A1"
           },
           {
             "word": "aber",
             "lemma": "aber",
-            "gloss": "maar",
             "level": "A1"
           },
           {
             "word": "nur",
             "lemma": "nur",
-            "gloss": "alleen",
             "level": "A1"
           },
           {
             "word": "noch",
             "lemma": "noch",
-            "gloss": "nog",
             "level": "A1"
           },
           {
             "word": "Bananenschalen",
             "lemma": "die Bananenschale",
-            "gloss": "bananenschillen",
             "level": "B1"
           },
           {
             "word": "Firma",
             "lemma": "die Firma",
-            "gloss": "bedrijf",
             "level": "A2"
           },
           {
             "word": "kaufte",
             "lemma": "kaufen",
-            "gloss": "kocht",
             "level": "A1"
           },
           {
             "word": "Schalen",
             "lemma": "die Schale",
-            "gloss": "schillen",
             "level": "A2"
           },
           {
             "word": "für",
             "lemma": "für",
-            "gloss": "voor",
             "level": "A1"
           },
           {
             "word": "Jetzt",
             "lemma": "jetzt",
-            "gloss": "nu",
             "level": "A1"
           },
           {
             "word": "wollte",
             "lemma": "wollen",
-            "gloss": "wilde",
             "level": "A1"
           },
           {
             "word": "nicht",
             "lemma": "nicht",
-            "gloss": "niet",
             "level": "A1"
           },
           {
             "word": "mehr",
             "lemma": "mehr",
-            "gloss": "meer",
             "level": "A1"
           },
           {
             "word": "an",
             "lemma": "an",
-            "gloss": "op",
             "level": "A1"
           },
           {
             "word": "Börse",
             "lemma": "die Börse",
-            "gloss": "beurs",
             "level": "A2"
           },
           {
             "word": "handeln",
             "lemma": "handeln",
-            "gloss": "handelen",
             "level": "B1"
           }
         ],
@@ -1029,5 +921,315 @@
         ]
       }
     ]
+  },
+  "localizations": {
+    "en": {
+      "summary": "Hugo the hamster wants to get rich on the stock market, but he cannot read the numbers, is afraid of people, and accidentally eats 1,000 bananas.",
+      "gestures": {
+        "want": "Stretch both arms forward with big grabbing hands and a hungry face, as if you really want to grab something.",
+        "cannot": "Wave both hands quickly in front of your face and shake your head wildly, as if saying: no, no, I can't!",
+        "afraid": "Hug yourself, tremble a little, and open your eyes very wide."
+      },
+      "targets": {
+        "wollte": {
+          "gloss": "wanted",
+          "note": "German 'wollte' is the simple past of 'wollen'; English uses 'wanted'."
+        },
+        "konnte nicht": {
+          "gloss": "could not",
+          "note": "German puts 'nicht' after the modal verb, like English 'could not'."
+        },
+        "hatte Angst": {
+          "gloss": "was afraid",
+          "note": "German says 'had fear' with 'haben'; English says 'was afraid'."
+        }
+      },
+      "scenes": [
+        {
+          "translation": "Hugo is a small hamster. He lives in a cage in an apartment. But Hugo always wanted to be rich. He wanted to trade on the stock market.",
+          "glosses": {
+            "ist": "is",
+            "kleiner": "small",
+            "Hamster": "hamster",
+            "Er": "he",
+            "wohnt": "lives",
+            "in": "in",
+            "Käfig": "cage",
+            "Wohnung": "apartment",
+            "Aber": "but",
+            "wollte": "wanted",
+            "immer": "always",
+            "reich": "rich",
+            "sein": "to be",
+            "an": "at",
+            "Börse": "stock market",
+            "handeln": "trade"
+          }
+        },
+        {
+          "translation": "On Monday Hugo went to the stock market. He had a tiny laptop in his bag. The numbers changed very fast, and he could not read them. He was afraid of the big people.",
+          "glosses": {
+            "Am": "on",
+            "Montag": "Monday",
+            "ging": "went",
+            "zur": "to the",
+            "Börse": "stock market",
+            "Er": "he",
+            "hatte": "had",
+            "winzigen": "tiny",
+            "Laptop": "laptop",
+            "in": "in",
+            "seiner": "his",
+            "Tasche": "bag",
+            "Zahlen": "numbers",
+            "waren": "were",
+            "sehr": "very",
+            "schnell": "fast",
+            "und": "and",
+            "konnte": "could",
+            "nicht": "not",
+            "lesen": "read",
+            "Angst": "fear",
+            "vor": "of",
+            "großen": "big",
+            "Menschen": "people"
+          }
+        },
+        {
+          "translation": "A man said, \"Buy banana shares!\" Hugo wanted to buy everything. He bought 1,000 bananas. The bananas lay in the cage, and Hugo could not sleep.",
+          "glosses": {
+            "Mann": "man",
+            "sagte": "said",
+            "Kauf": "buy",
+            "Bananen-Aktien": "banana shares",
+            "wollte": "wanted",
+            "alles": "everything",
+            "kaufen": "to buy",
+            "Er": "he",
+            "kaufte": "bought",
+            "Bananen": "bananas",
+            "lagen": "lay",
+            "im": "in the",
+            "Käfig": "cage",
+            "und": "and",
+            "konnte": "could",
+            "nicht": "not",
+            "schlafen": "sleep"
+          }
+        },
+        {
+          "translation": "On Tuesday the prices fell. Hugo wanted to sell, but he could not. He was afraid and cried a lot. \"I was afraid,\" he said to his mother.",
+          "glosses": {
+            "Am": "on",
+            "Dienstag": "Tuesday",
+            "fielen": "fell",
+            "Preise": "prices",
+            "wollte": "wanted",
+            "verkaufen": "to sell",
+            "aber": "but",
+            "er": "he",
+            "konnte": "could",
+            "nicht": "not",
+            "hatte": "had",
+            "Angst": "fear",
+            "und": "and",
+            "weinte": "cried",
+            "sehr": "very",
+            "Ich": "I",
+            "sagte": "said",
+            "zu": "to",
+            "seiner": "his",
+            "Mutter": "mother"
+          }
+        },
+        {
+          "translation": "At night Hugo was afraid and ate all 1,000 bananas. In the morning one banana cost 1,000 euros, but Hugo had only banana peels left. A company bought the peels for one million euros. Now Hugo did not want to trade on the stock market anymore.",
+          "glosses": {
+            "In": "in",
+            "Nacht": "night",
+            "hatte": "had",
+            "Angst": "fear",
+            "und": "and",
+            "aß": "ate",
+            "alle": "all",
+            "Bananen": "bananas",
+            "Am": "on",
+            "Morgen": "morning",
+            "kostete": "cost",
+            "Banane": "banana",
+            "Euro": "euros",
+            "aber": "but",
+            "nur": "only",
+            "noch": "left",
+            "Bananenschalen": "banana peels",
+            "Firma": "company",
+            "kaufte": "bought",
+            "Schalen": "peels",
+            "für": "for",
+            "Jetzt": "now",
+            "wollte": "wanted",
+            "nicht": "not",
+            "mehr": "anymore",
+            "an": "at",
+            "Börse": "stock market",
+            "handeln": "trade"
+          }
+        }
+      ]
+    },
+    "nl": {
+      "summary": "Hamster Hugo wil rijk worden op de beurs, maar hij kan de cijfers niet lezen, hij is bang voor de mensen en hij eet per ongeluk 1000 bananen op.",
+      "gestures": {
+        "want": "Strek beide armen ver voor je uit met grote grijphanden en een hongerig gezicht, alsof je iets heel graag wilt pakken.",
+        "cannot": "Zwaai met beide handen vlak voor je gezicht heen en weer en schud wild je hoofd, alsof je zegt: nee, nee, dat lukt niet!",
+        "afraid": "Sla je armen om jezelf heen, ga een beetje bibberen en zet je ogen heel wijd open."
+      },
+      "targets": {
+        "wollte": {
+          "gloss": "wilde",
+          "note": null
+        },
+        "konnte nicht": {
+          "gloss": "kon niet",
+          "note": null
+        },
+        "hatte Angst": {
+          "gloss": "was bang",
+          "note": null
+        }
+      },
+      "scenes": [
+        {
+          "translation": "Hugo is een kleine hamster. Hij woont in een kooi in een flat. Maar Hugo wilde altijd rijk zijn. Hij wilde op de beurs handelen.",
+          "glosses": {
+            "ist": "is",
+            "kleiner": "kleine",
+            "Hamster": "hamster",
+            "Er": "hij",
+            "wohnt": "woont",
+            "in": "in",
+            "Käfig": "kooi",
+            "Wohnung": "woning",
+            "Aber": "maar",
+            "wollte": "wilde",
+            "immer": "altijd",
+            "reich": "rijk",
+            "sein": "zijn",
+            "an": "op",
+            "Börse": "beurs",
+            "handeln": "handelen"
+          }
+        },
+        {
+          "translation": "Op maandag ging Hugo naar de beurs. Hij had een piepkleine laptop in zijn tas. De cijfers gingen heel snel, en hij kon niet lezen. Hij was bang voor de grote mensen.",
+          "glosses": {
+            "Am": "op",
+            "Montag": "maandag",
+            "ging": "ging",
+            "zur": "naar",
+            "Börse": "beurs",
+            "Er": "hij",
+            "hatte": "had",
+            "winzigen": "piepkleine",
+            "Laptop": "laptop",
+            "in": "in",
+            "seiner": "zijn",
+            "Tasche": "tas",
+            "Zahlen": "cijfers",
+            "waren": "waren",
+            "sehr": "heel",
+            "schnell": "snel",
+            "und": "en",
+            "konnte": "konnte",
+            "nicht": "niet",
+            "lesen": "lezen",
+            "Angst": "angst",
+            "vor": "voor",
+            "großen": "grote",
+            "Menschen": "mensen"
+          }
+        },
+        {
+          "translation": "Een man zei: 'Koop bananenaandelen!' Hugo wilde alles kopen. Hij kocht 1000 bananen. De bananen lagen in de kooi, en Hugo kon niet slapen.",
+          "glosses": {
+            "Mann": "man",
+            "sagte": "zei",
+            "Kauf": "koop",
+            "Bananen-Aktien": "bananenaandelen",
+            "wollte": "wilde",
+            "alles": "alles",
+            "kaufen": "kopen",
+            "Er": "hij",
+            "kaufte": "kocht",
+            "Bananen": "bananen",
+            "lagen": "lagen",
+            "im": "in",
+            "Käfig": "kooi",
+            "und": "en",
+            "konnte": "konnte",
+            "nicht": "niet",
+            "schlafen": "slapen"
+          }
+        },
+        {
+          "translation": "Op dinsdag zakten de prijzen. Hugo wilde verkopen, maar hij kon niet. Hij was bang en huilde heel erg. 'Ik was bang', zei hij tegen zijn moeder.",
+          "glosses": {
+            "Am": "op",
+            "Dienstag": "dinsdag",
+            "fielen": "daalden",
+            "Preise": "prijzen",
+            "wollte": "wilde",
+            "verkaufen": "verkopen",
+            "aber": "maar",
+            "er": "hij",
+            "konnte": "konnte",
+            "nicht": "niet",
+            "hatte": "had",
+            "Angst": "angst",
+            "und": "en",
+            "weinte": "huilde",
+            "sehr": "heel",
+            "Ich": "ik",
+            "sagte": "zei",
+            "zu": "tegen",
+            "seiner": "zijn",
+            "Mutter": "moeder"
+          }
+        },
+        {
+          "translation": "In de nacht was Hugo bang en at hij alle 1000 bananen op. De volgende ochtend kostte een banaan 1000 euro, maar Hugo had alleen nog bananenschillen. Een bedrijf kocht de schillen voor een miljoen euro. Nu wilde Hugo niet meer op de beurs handelen.",
+          "glosses": {
+            "In": "in",
+            "Nacht": "nacht",
+            "hatte": "had",
+            "Angst": "angst",
+            "und": "en",
+            "aß": "at",
+            "alle": "alle",
+            "Bananen": "bananen",
+            "Am": "op",
+            "Morgen": "ochtend",
+            "kostete": "kostte",
+            "Banane": "banaan",
+            "Euro": "euro",
+            "aber": "maar",
+            "nur": "alleen",
+            "noch": "nog",
+            "Bananenschalen": "bananenschillen",
+            "Firma": "bedrijf",
+            "kaufte": "kocht",
+            "Schalen": "schillen",
+            "für": "voor",
+            "Jetzt": "nu",
+            "wollte": "wilde",
+            "nicht": "niet",
+            "mehr": "meer",
+            "an": "op",
+            "Börse": "beurs",
+            "handeln": "handelen"
+          }
+        }
+      ]
+    }
   }
 }

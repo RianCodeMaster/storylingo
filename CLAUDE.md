@@ -30,8 +30,8 @@ C:\dev\storylingo\
 ```
 
 **Phase 1 specifics:** everything runs locally (Docker + `supabase start`). Each browser gets an anonymous
-learner account. Gestures are emoji plus a description. A story passes three DeepSeek rounds: story + questions,
-glossary (tap any word), voice direction (an emotion per sentence). Images and narration are made locally and
+learner account. Gestures are emoji plus a description. A story passes four DeepSeek rounds: story + questions,
+glossary (tap any word), voice direction (an emotion per sentence), and localize (per base language). Images and narration are made locally and
 linked through `assets`; the app falls back to the browser voice when a file is missing.
 
 ## Stack (fixed — change only by explicit decision)
@@ -57,4 +57,16 @@ linked through `assets`; the app falls back to the browser voice when a file is 
 
 ## Languages
 
-Base language (app, translations) and target language (stories) are separate. Design and steps, not built yet: `docs/meertaligheid.md`. New content must not hard-code Dutch.
+Base language (app, translations, explanations) and target language (stories, images, audio) are separate layers;
+design and steps for new languages in `docs/meertaligheid.md`.
+
+- Database: the story tables hold the target language only. Everything a learner reads in their own language is in
+  `story_localizations`, `scene_localizations`, `lexeme_glosses` and `gesture_localizations`, keyed by `base_language`.
+  `language_pairs.status` (planned/beta/live) decides what is on offer.
+- Pipeline: `generate` writes the story in the target language (gestures and summary in English as the source), then
+  `localize.py` makes the layer for every base language of a beta/live pair. `stories/<slug>.json` has a
+  `localizations` block per base language.
+- App: all pages under `app/[lang]/` (the base language); `proxy.ts` redirects. UI text only from
+  `web/dictionaries/<lang>.json` through `useI18n()`; words the teacher says in the target language from `PHRASES`
+  in `lib/speech.ts`. Story text keeps `dir="ltr"` so a right-to-left app works.
+- Never hard-code Dutch (or any language) in new code or prompts.
