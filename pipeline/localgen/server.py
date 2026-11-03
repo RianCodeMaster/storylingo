@@ -6,7 +6,7 @@ because the ML libraries pin their own versions. The pipeline talks to it like t
     .venv-local/Scripts/python localgen/server.py        then:  storylingo.py media <slug>
 
 POST /image   {"prompt", "negative_prompt", "seed", "width", "height", "steps"} -> image/png  (SDXL, GPU)
-POST /speech  {"lines": [{"text", "emotion"}], "language"}                      -> audio/wav  (Piper, CPU)
+POST /speech  {"lines": [{"text", "style": {"model", "speaker", ...}}], "pause"}  -> audio/wav  (Piper, CPU)
 GET  /health
 
 Images run on the GPU, speech on the CPU, so the two never compete for the 8 GB of GPU memory.
@@ -22,8 +22,6 @@ import torch
 PORT = int(os.environ.get("LOCALGEN_PORT", "8765"))
 IMAGE_MODEL = os.environ.get("LOCALGEN_IMAGE_MODEL", "stabilityai/stable-diffusion-xl-base-1.0")
 PIPER_DIR = os.path.join(os.path.dirname(__file__), "..", "voices", "piper")
-# A native speaker who recorded every emotion. Download: python -m piper.download_voices --data-dir voices/piper <name>
-PIPER_VOICES = {"de": "de_DE-thorsten_emotional-medium"}
 
 _image_pipe = None
 _voices: dict[str, object] = {}
@@ -59,33 +57,43 @@ def image(req: dict) -> bytes:
     return buffer.getvalue()
 
 
+def _piper(model: str):
+    from piper import PiperVoice
+
+    if model not in _voices:
+        _voices[model] = PiperVoice.load(os.path.join(PIPER_DIR, f"{model}.onnx"))
+    return _voices[model]
+
+
 def speech(req: dict) -> bytes:
-    """Native-speaker voice, each sentence with its own emotion, joined with short pauses."""
-    from piper import PiperVoice, SynthesisConfig
+    """Piper: each sentence in its own style (model, emotion speaker, tempo), joined with short pauses.
 
-    language = req.get("language", "de")
-    if language not in PIPER_VOICES:
-        raise ValueError(f"no voice configured for language '{language}' (see PIPER_VOICES)")
-    name = PIPER_VOICES[language]
-    if name not in _voices:
-        _voices[name] = PiperVoice.load(os.path.join(PIPER_DIR, f"{name}.onnx"))
-    voice = _voices[name]
-    speakers = voice.config.speaker_id_map
-    rate = voice.config.sample_rate
-    pause = b"\x00\x00" * int(rate * 0.4)
+    Which style fits which emotion is decided by the pipeline (voices.yaml), so this server knows no languages.
+    """
+    from piper import SynthesisConfig
 
-    frames = []
+    frames, rate = [], None
     for line in req["lines"]:
+        style = line["style"]
+        voice = _piper(style["model"])
+        if rate not in (None, voice.config.sample_rate):
+            raise ValueError("all models in one recording need the same sample rate")
+        rate = voice.config.sample_rate
+        speaker = style.get("speaker")
         buffer = io.BytesIO()
         with wave.open(buffer, "wb") as w:
             config = SynthesisConfig(
-                speaker_id=speakers.get(line.get("emotion"), speakers["neutral"]),
-                length_scale=float(req.get("length_scale", 1.1)),  # slightly slower than natural, for learners
+                speaker_id=voice.config.speaker_id_map[speaker] if speaker else None,
+                # Above 1 is slower. Too slow stretches every sound and makes the words fall apart.
+                length_scale=style.get("length_scale"),
+                # Freedom in sound lengths: higher gives a more flowing rhythm.
+                noise_w_scale=style.get("noise_w_scale"),
+                noise_scale=style.get("noise_scale"),
             )
             voice.synthesize_wav(line["text"], w, config)
         buffer.seek(0)
         with wave.open(buffer) as r:
-            frames += [r.readframes(r.getnframes()), pause]
+            frames += [r.readframes(r.getnframes()), b"\x00\x00" * int(rate * float(req.get("pause", 0.4)))]
 
     out = io.BytesIO()
     with wave.open(out, "wb") as w:

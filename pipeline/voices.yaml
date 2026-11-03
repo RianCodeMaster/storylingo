@@ -1,0 +1,31 @@
+# The narrator of every language you can learn. One block per language.
+#
+# The story marks each sentence with an emotion (voice.py); the profile decides how this voice speaks it.
+# Swap a voice by editing its block, then remake the audio:
+#     storylingo.py media-clear <slug> audio   +   storylingo.py media <slug>      (every story)
+#     storylingo.py feedback <language>                                             (and raise FEEDBACK_VERSION in web/lib/speech.ts)
+#
+# provider:  piper   free, on this machine (localgen/server.py). Models: python -m piper.download_voices --data-dir voices/piper <name>
+#            gemini  paid (GEMINI_API_KEY with credit)
+#            New provider (e.g. ElevenLabs): one class with a speech() method in media.py, registered in SPEAKERS.
+# settings:  used for every style unless the style says otherwise.
+# styles:    emotion -> how to speak it. Emotions without a style use "neutral". Emotions: amused, angry,
+#            disgusted, neutral, sleepy, surprised, whisper (models.py).
+# question / word:  the emotion for circling questions and for single words on the review screen.
+# pause:     seconds of silence between sentences.
+
+de:
+  provider: piper
+  pause: 0.5
+  question: amused
+  word: neutral
+  settings: {length_scale: 1.1, noise_w_scale: 1.0, noise_scale: 0.6}
+  styles:
+    # Most sentences: the high-quality Thorsten, the most fluent. The same speaker recorded the emotions below.
+    neutral:   {model: de_DE-thorsten-high, length_scale: 1.15, noise_w_scale: 0.9}
+    amused:    {model: de_DE-thorsten_emotional-medium, speaker: amused}
+    angry:     {model: de_DE-thorsten_emotional-medium, speaker: angry}
+    disgusted: {model: de_DE-thorsten_emotional-medium, speaker: disgusted}
+    sleepy:    {model: de_DE-thorsten_emotional-medium, speaker: sleepy}
+    surprised: {model: de_DE-thorsten_emotional-medium, speaker: surprised}
+    whisper:   {model: de_DE-thorsten_emotional-medium, speaker: whisper}

@@ -51,11 +51,14 @@ const FEEDBACK = {
   no: ["Nein, nein, nein!", "Oh nein!"],
 };
 
+// Raise when the clips are made again (storylingo.py feedback), so browsers fetch the new files.
+const FEEDBACK_VERSION = 3;
+
 /** React to an answer in the story's native voice; the browser voice only if the clip is missing. */
 export function feedback(correct: boolean, language: string) {
   const lines = correct ? FEEDBACK.yes : FEEDBACK.no;
   const n = Math.floor(Math.random() * lines.length);
-  const url = `${window.location.origin}/sb/storage/v1/object/public/assets/feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.wav`;
+  const url = `${window.location.origin}/sb/storage/v1/object/public/assets/feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.wav?v=${FEEDBACK_VERSION}`;
   stopSpeaking();
   player ??= new Audio();
   player.src = url;

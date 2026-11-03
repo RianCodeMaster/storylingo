@@ -2,7 +2,7 @@
 #   py -3.11 -m venv .venv-local
 #   .venv-local/Scripts/python -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 #   .venv-local/Scripts/python -m pip install -r localgen/requirements.txt
-#   .venv-local/Scripts/python -m piper.download_voices --data-dir voices/piper de_DE-thorsten_emotional-medium
+#   .venv-local/Scripts/python -m piper.download_voices --data-dir voices/piper de_DE-thorsten_emotional-medium de_DE-thorsten-high   (every model in voices.yaml)
 diffusers==0.36.0
 transformers==5.2.0
 accelerate==1.15.0

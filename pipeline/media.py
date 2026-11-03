@@ -1,9 +1,13 @@
 """Images and narration for a story: generated once, uploaded to Supabase Storage, linked through `assets`.
 
-Providers:
-- "local":  free, on this machine (localgen/server.py): SDXL images on the GPU, Piper native voices with emotions.
-- "gemini": paid alternative: images with one reference character, steerable voice. Needs GEMINI_API_KEY with credit.
+Images come from the provider named on the command line:
+- "local":  free, on this machine (localgen/server.py): SDXL on the GPU.
+- "gemini": paid alternative with one reference character. Needs GEMINI_API_KEY with credit.
 - "fake":   placeholder files, to test the plumbing (storage, database, app) without any model.
+
+Speech comes from the narrator of the story's language in voices.yaml, so changing a voice is a config edit.
+Every speaker has the same method: speech(text, kind, lines, voice) -> Media, where kind is "story",
+"question" or "word" and lines are the sentences with their emotion (only for story narration).
 """
 import array
 import io
@@ -15,7 +19,9 @@ import zlib
 from dataclasses import dataclass
 
 import httpx
+import yaml
 
+VOICES_FILE = os.path.join(os.path.dirname(__file__), "voices.yaml")
 STORAGE_URL = os.environ.get("SUPABASE_URL", "http://127.0.0.1:54321")
 BUCKET = "assets"
 
@@ -102,10 +108,11 @@ class Gemini:
                 return Media(part.inline_data.data, part.inline_data.mime_type or "image/png", "gemini", self.image_model)
         raise RuntimeError("Gemini returned no image")
 
-    def speech(self, text: str, language: str, style: str, lines: list[dict] | None = None) -> Media:
+    def speech(self, text: str, kind: str, lines: list[dict] | None, voice: dict) -> Media:
         from google.genai import types
 
-        direction = VOICE_DIRECTIONS[language][style]
+        language = voice["language"]
+        direction = VOICE_DIRECTIONS[language]["question" if kind == "question" else "story"]
         speech_config = types.SpeechConfig(
             language_code=LANGUAGE_CODES.get(language, language),
             voice_config=types.VoiceConfig(prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=self.voice)),
@@ -132,14 +139,9 @@ class Gemini:
 
 
 # ---------------------------------------------------------------------------
-# Local GPU (localgen/server.py): free and unlimited, slightly lower image quality
+# Local (localgen/server.py): free and unlimited, slightly lower image quality
 # ---------------------------------------------------------------------------
-class Local:
-    # SDXL reads only about 75 words, so the scene comes first and the style stays short.
-    STYLE = "cartoon illustration for a children's story, thick clean outlines, bright warm colours, big expressive faces, simple background"
-    NEGATIVE = "text, letters, words, watermark, signature, photo, realistic, blurry, deformed, extra limbs, extra fingers"
-    QUESTION_EMOTION = "amused"  # the teacher asks with a smile
-
+class Localgen:
     def __init__(self):
         self.url = os.environ.get("LOCALGEN_URL", "http://127.0.0.1:8765")
         try:
@@ -154,17 +156,31 @@ class Local:
             raise RuntimeError(f"localgen {route}: {response.text}")
         return response.content
 
+
+class Local(Localgen):
+    # SDXL reads only about 75 words, so the scene comes first and the style stays short.
+    STYLE = "cartoon illustration for a children's story, thick clean outlines, bright warm colours, big expressive faces, simple background"
+    NEGATIVE = "text, letters, words, watermark, signature, photo, realistic, blurry, deformed, extra limbs, extra fingers"
+
     def image(self, prompt: str, reference: Media | None) -> Media:
         # Same seed for every scene of every story: keeps the drawing style steady.
         data = self._post("image", {"prompt": f"{prompt}. {self.STYLE}", "negative_prompt": self.NEGATIVE, "seed": 1234})
         return Media(data, "image/png", "local", "sdxl-base-1.0")
 
-    def speech(self, text: str, language: str, style: str, lines: list[dict] | None = None) -> Media:
-        """Piper: a native speaker per language, each sentence spoken with its own emotion."""
-        if not lines:
-            lines = [{"text": text, "emotion": self.QUESTION_EMOTION if style == "question" else "neutral"}]
-        data = self._post("speech", {"lines": lines, "language": language})
-        return Media(data, "audio/wav", "local", "piper")
+
+class Piper(Localgen):
+    """Native-speaker voices; each sentence gets the style that voices.yaml gives its emotion."""
+
+    def speech(self, text: str, kind: str, lines: list[dict] | None, voice: dict) -> Media:
+        lines = lines or [{"text": text, "emotion": voice[kind] if kind in ("question", "word") else "neutral"}]
+        styles = voice["styles"]
+        styled = [
+            {"text": line["text"], "style": {**voice.get("settings", {}), **styles.get(line["emotion"], styles["neutral"])}}
+            for line in lines
+        ]
+        data = self._post("speech", {"lines": styled, "pause": voice.get("pause", 0.4)})
+        models = sorted({line["style"]["model"] for line in styled})
+        return Media(data, "audio/wav", "piper", "+".join(models))
 
 
 # ---------------------------------------------------------------------------
@@ -174,7 +190,7 @@ class Fake:
     def image(self, prompt: str, reference: Media | None) -> Media:
         return Media(_png(64, 48, (0, 214, 143)), "image/png", "fake", "placeholder")
 
-    def speech(self, text: str, language: str, style: str, lines: list[dict] | None = None) -> Media:
+    def speech(self, text: str, kind: str, lines: list[dict] | None, voice: dict) -> Media:
         return Media(_wav(b"\x00\x00" * 24000), "audio/wav", "fake", "silence")
 
 
@@ -193,7 +209,25 @@ def retry(make, attempts: int = 6, wait: float = 20.0):
 
 
 def provider(name: str):
+    """The image maker named on the command line."""
     return {"gemini": Gemini, "local": Local, "fake": Fake}[name]()
+
+
+SPEAKERS = {"piper": Piper, "gemini": Gemini, "fake": Fake}
+
+
+def voice(language: str) -> dict:
+    """The narrator profile of a language, from voices.yaml."""
+    with open(VOICES_FILE, encoding="utf-8") as f:
+        voices = yaml.safe_load(f)
+    if language not in voices:
+        raise SystemExit(f"No voice for '{language}' in voices.yaml.")
+    return {**voices[language], "language": language}
+
+
+def speaker(voice: dict, fake: bool = False):
+    """The engine that speaks with this voice; fake when testing the plumbing."""
+    return Fake() if fake else SPEAKERS[voice["provider"]]()
 
 
 # ---------------------------------------------------------------------------

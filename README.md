@@ -42,6 +42,8 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
   ```
   en dan `storylingo.py media <slug>`. Eerst alle beelden (SDXL op je GPU, ~30 s per stuk), daarna alle audio
   (Piper: Thorsten, Duitse moedertaalspreker, met de emotie per zin; een paar seconden voor het hele verhaal).
+- **Stem per taal:** `pipeline/voices.yaml`. Daar staat welk model welke emotie spreekt, het tempo en de pauzes.
+  Andere stem (of later ElevenLabs)? Pas dat bestand aan en spreek alles opnieuw in (zie de uitleg bovenin het bestand).
   Afgebroken? Draai het opnieuw: het maakt alleen wat nog ontbreekt.
   Weghalen: `storylingo.py media-clear <slug> [images|audio]`. Zonder audio gebruikt de app de browserstem.
 - Eerste keer `.venv-local` opzetten: zie `pipeline/localgen/requirements.txt` (Python 3.11, PyTorch met CUDA, ~8 GB downloads).
@@ -59,3 +61,7 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 - Database bekijken: Supabase Studio op http://127.0.0.1:54323
 - Eerste keer Python opzetten (in `pipeline`): `py -3.14 -m venv .venv` en `.venv/Scripts/python -m pip install -r requirements.txt`
 - `DEEPSEEK_API_KEY` moet als omgevingsvariabele gezet zijn (zie `pipeline/.env.example`).
+
+## Meer talen
+
+Ontwerp en stappenplan voor nieuwe basis- en doeltalen: [docs/meertaligheid.md](docs/meertaligheid.md).

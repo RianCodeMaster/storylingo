@@ -5,7 +5,7 @@
     python storylingo.py reload <slug>                         after editing stories/<slug>.json by hand
     python storylingo.py glossary <slug>                       (re)make the tap-a-word glossary, also for published stories
     python storylingo.py voice <slug>                          (re)choose an emotion per sentence for the narrator
-    python storylingo.py media <slug> [local|gemini|fake] [images|audio]   images + narration (default local, both)
+    python storylingo.py media <slug> [local|gemini|fake] [images|audio]   images (from that provider) + narration (voices.yaml)
     python storylingo.py media-clear <slug> [images|audio]     remove images and/or narration of a story
     python storylingo.py feedback <language>                   the spoken "Ja! Genau!" / "Nein!" reactions, once per language
     python storylingo.py publish <slug>                        make it visible in the app
@@ -67,12 +67,15 @@ def show(brief: Brief, story: Story) -> None:
 
 def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
     """Fill in whatever images and audio a story is still missing. Safe to run again after an error."""
-    maker = media.provider(provider_name)
     brief, story, _ = read(slug)
     language = brief.language
-    # Per-sentence emotions live in the story file; scenes are matched by position.
-    voice = {i: [v.model_dump() for v in s.voice] for i, s in enumerate(story.scenes, 1)}
     do_images, do_audio = only in (None, "images"), only in (None, "audio")
+    maker = media.provider(provider_name) if do_images else None
+    # The voice comes from voices.yaml, whatever made the images.
+    voice = media.voice(language)
+    speaker = media.speaker(voice, fake=provider_name == "fake") if do_audio else None
+    # Per-sentence emotions live in the story file; scenes are matched by position.
+    lines = {i: [v.model_dump() for v in s.voice] for i, s in enumerate(story.scenes, 1)}
     reference = None
     made = 0
 
@@ -99,7 +102,7 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
         n = scene["position"]
         if scene["audio_asset_id"] is None:
             print(f"  scene {n}: narration")
-            item = media.retry(lambda: maker.speech(scene["text"], language, "story", voice.get(n)))
+            item = media.retry(lambda: speaker.speech(scene["text"], "story", lines.get(n), voice))
             db.link_asset("scenes", "audio_asset_id", scene["id"], store("audio", f"scene-{n}", item))
 
     # Questions last: with a small daily quota the whole story gets narrated first.
@@ -107,7 +110,7 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
         n = scene["position"]
         for q in scene["questions"]:
             if q["audio_asset_id"] is None:
-                item = media.retry(lambda: maker.speech(q["prompt"], language, "question"))
+                item = media.retry(lambda: speaker.speech(q["prompt"], "question", None, voice))
                 db.link_asset("questions", "audio_asset_id", q["id"], store("audio", f"scene-{n}-q{q['position']}", item))
 
     # Every word on its own, for the review screen. Words are shared between stories, so they live
@@ -116,7 +119,7 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
     if words:
         print(f"  {len(words)} words")
     for lexeme_id, text in words:
-        item = media.retry(lambda: maker.speech(text, language, "word"))
+        item = media.retry(lambda: speaker.speech(text, "word", None, voice))
         full = f"words/{language}/{lexeme_id}.{media.extension(item.mime_type)}"
         media.upload(full, item)
         made += 1
@@ -126,7 +129,8 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
 
 
 # Short reactions after an answer, spoken once per language and shared by every story.
-# The app plays feedback/<lang>/yes-<n>.wav and no-<n>.wav; keep the counts in sync with web/lib/speech.ts.
+# The app plays feedback/<lang>/yes-<n>.wav and no-<n>.wav; keep the counts in sync with web/lib/speech.ts
+# and raise FEEDBACK_VERSION there after remaking them.
 FEEDBACK = {
     "de": {
         "yes": [("Ja! Genau!", "amused"), ("Richtig! Super!", "surprised"), ("Fantastisch!", "amused"), ("Ja, ja, ja!", "surprised")],
@@ -136,10 +140,11 @@ FEEDBACK = {
 
 
 def make_feedback(language: str) -> None:
-    maker = media.provider("local")
+    voice = media.voice(language)
+    speaker = media.speaker(voice)
     for kind, lines in FEEDBACK[language].items():
         for i, (text, emotion) in enumerate(lines, 1):
-            item = maker.speech(text, language, "story", [{"text": text, "emotion": emotion}])
+            item = speaker.speech(text, "story", [{"text": text, "emotion": emotion}], voice)
             media.upload(f"feedback/{language}/{kind}-{i}.wav", item)
             print(f"  {kind}-{i}: {text} ({emotion})")
 

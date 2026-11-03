@@ -42,7 +42,7 @@ linked through `assets`; the app falls back to the browser voice when a file is 
 | App | Next.js PWA on Vercel |
 | Content pipeline | Python, run locally |
 | Story text | DeepSeek (owner has a key); quality judged by owner review |
-| Voice | Piper, local CPU: a native speaker per language with per-sentence emotion (German: `thorsten_emotional`). Rejected: Chatterbox (American accent, hallucinations), Gemini free tier (10 calls/day) |
+| Voice | Per target language in `pipeline/voices.yaml` (provider, model per emotion, tempo); swapping a voice is a config edit. German: Piper Thorsten, `thorsten-high` for neutral lines and `thorsten_emotional` for the rest. Rejected: Chatterbox (American accent, hallucinations), Gemini free tier (10 calls/day) |
 | Images | SDXL base 1.0, local GPU (RTX 3080 8 GB, CPU offload). Gemini image is the paid alternative (needs credit) |
 | Payments | Stripe (web sale, Stripe Tax on) — not before there are other users |
 
@@ -54,3 +54,7 @@ linked through `assets`; the app falls back to the browser voice when a file is 
 - Row Level Security is on for **every** table. Users only see their own rows in learner tables.
 - Generated files live in `assets` with provider, model and cost, so cost per story stays measurable.
 - Secrets only in `.env` (git-ignored). Never put API keys in the web app.
+
+## Languages
+
+Base language (app, translations) and target language (stories) are separate. Design and steps, not built yet: `docs/meertaligheid.md`. New content must not hard-code Dutch.
