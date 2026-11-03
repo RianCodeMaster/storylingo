@@ -1,0 +1,1247 @@
+{
+  "brief": {
+    "slug": "kuh-astronautin",
+    "language": "de",
+    "learner_language": "nl",
+    "level": "B1",
+    "theme": "Een koe uit Beieren wil astronaut worden en bouwt een raket van melkbussen",
+    "scenes": 5,
+    "targets": [
+      {
+        "text": "als",
+        "gloss": "toen (één keer in het verleden)",
+        "concept": "when_past",
+        "kind": "word"
+      },
+      {
+        "text": "nachdem",
+        "gloss": "nadat",
+        "concept": "after",
+        "kind": "word"
+      },
+      {
+        "text": "freute sich auf",
+        "gloss": "verheugde zich op",
+        "concept": "look_forward",
+        "kind": "phrase"
+      }
+    ]
+  },
+  "generation": {
+    "prompt_version": "tprs-v1",
+    "model": "deepseek-flash",
+    "attempts": 2,
+    "input_tokens": 3948,
+    "output_tokens": 9201,
+    "glossary_version": "glossary-v1",
+    "glossary_input_tokens": 642,
+    "glossary_output_tokens": 20653,
+    "voice_version": "voice-v1",
+    "voice_input_tokens": 577,
+    "voice_output_tokens": 1576
+  },
+  "story": {
+    "title": "Mathilde will Astronautin werden",
+    "summary": "Een Beierse koe bouwt een raket van melkbussen om astronaut te worden, maar het loopt anders dan ze denkt.",
+    "gestures": [
+      {
+        "concept": "when_past",
+        "description": "Doe alsof je met je vinger op een grote denkbeeldige klok tikt die precies één keer 'TIKS' zegt, en houd je hand daarna stil in de lucht: het gebeurde maar één keer.",
+        "emoji": "⏱️"
+      },
+      {
+        "concept": "after",
+        "description": "Wijs met je duim over je schouder naar achteren en klap dan hard één keer in je handen: eerst dat, en dan pas dat.",
+        "emoji": "➡️"
+      },
+      {
+        "concept": "look_forward",
+        "description": "Wrijf in je handen, kijk met een grote glimlach naar de hemel en spring één keer op van plezier.",
+        "emoji": "🤩"
+      }
+    ],
+    "scenes": [
+      {
+        "text": "Mathilde war eine kleine Kuh aus Bayern. Sie stand jeden Tag auf einer großen Wiese und aß Gras. Als sie eines Abends den Mond sah, sagte sie: „Ich will Astronautin werden!“ Ihre Freunde lachten laut.",
+        "translation": "Mathilde was een kleine koe uit Beieren. Ze stond elke dag op een grote weide en at gras. Toen ze op een avond de maan zag, zei ze: 'Ik wil astronaut worden!' Haar vrienden lachten hard.",
+        "image_prompt": "A small brown-and-white cow with a red collar and a brass bell, big dreamy eyes, standing on a green Bavarian meadow at dusk, looking up at a huge full moon, other cows laughing in the background.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "War Mathilde eine Kuh aus Bayern?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Wer sagte: „Ich will Astronautin werden!“?",
+            "options": [
+              "Mathilde",
+              "Der Bauer",
+              "Der Mond"
+            ],
+            "answer": "Mathilde",
+            "target": null
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was wollte Mathilde, als sie den Mond sah?",
+            "options": [
+              "Sie wollte Astronautin werden",
+              "Sie wollte schlafen"
+            ],
+            "answer": "Sie wollte Astronautin werden",
+            "target": "als"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Waren ihre Freunde traurig oder lachten sie?",
+            "options": [
+              "Sie lachten",
+              "Sie waren traurig"
+            ],
+            "answer": "Sie lachten",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "war",
+            "lemma": "sein",
+            "gloss": "was",
+            "level": "A1"
+          },
+          {
+            "word": "kleine",
+            "lemma": "klein",
+            "gloss": "kleine",
+            "level": "A1"
+          },
+          {
+            "word": "Kuh",
+            "lemma": "die Kuh",
+            "gloss": "koe",
+            "level": "A1"
+          },
+          {
+            "word": "aus",
+            "lemma": "aus",
+            "gloss": "uit",
+            "level": "A1"
+          },
+          {
+            "word": "Sie",
+            "lemma": "sie",
+            "gloss": "zij",
+            "level": "A1"
+          },
+          {
+            "word": "stand",
+            "lemma": "stehen",
+            "gloss": "stond",
+            "level": "A1"
+          },
+          {
+            "word": "jeden",
+            "lemma": "jeder",
+            "gloss": "elke",
+            "level": "A1"
+          },
+          {
+            "word": "Tag",
+            "lemma": "der Tag",
+            "gloss": "dag",
+            "level": "A1"
+          },
+          {
+            "word": "auf",
+            "lemma": "auf",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "großen",
+            "lemma": "groß",
+            "gloss": "grote",
+            "level": "A1"
+          },
+          {
+            "word": "Wiese",
+            "lemma": "die Wiese",
+            "gloss": "weide",
+            "level": "A2"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "aß",
+            "lemma": "essen",
+            "gloss": "at",
+            "level": "A1"
+          },
+          {
+            "word": "Gras",
+            "lemma": "das Gras",
+            "gloss": "gras",
+            "level": "A1"
+          },
+          {
+            "word": "Als",
+            "lemma": "als",
+            "gloss": "toen",
+            "level": "A1"
+          },
+          {
+            "word": "Abends",
+            "lemma": "der Abend",
+            "gloss": "avond",
+            "level": "A1"
+          },
+          {
+            "word": "Mond",
+            "lemma": "der Mond",
+            "gloss": "maan",
+            "level": "A1"
+          },
+          {
+            "word": "sah",
+            "lemma": "sehen",
+            "gloss": "zag",
+            "level": "A1"
+          },
+          {
+            "word": "sagte",
+            "lemma": "sagen",
+            "gloss": "zei",
+            "level": "A1"
+          },
+          {
+            "word": "Ich",
+            "lemma": "ich",
+            "gloss": "ik",
+            "level": "A1"
+          },
+          {
+            "word": "will",
+            "lemma": "wollen",
+            "gloss": "wil",
+            "level": "A1"
+          },
+          {
+            "word": "Astronautin",
+            "lemma": "die Astronautin",
+            "gloss": "astronaute",
+            "level": "A2"
+          },
+          {
+            "word": "werden",
+            "lemma": "werden",
+            "gloss": "worden",
+            "level": "A1"
+          },
+          {
+            "word": "Ihre",
+            "lemma": "ihr",
+            "gloss": "haar",
+            "level": "A1"
+          },
+          {
+            "word": "Freunde",
+            "lemma": "der Freund",
+            "gloss": "vrienden",
+            "level": "A1"
+          },
+          {
+            "word": "lachten",
+            "lemma": "lachen",
+            "gloss": "lachten",
+            "level": "A1"
+          },
+          {
+            "word": "laut",
+            "lemma": "laut",
+            "gloss": "hard",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Mathilde war eine kleine Kuh aus Bayern.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Sie stand jeden Tag auf einer großen Wiese und aß Gras.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Als sie eines Abends den Mond sah, sagte sie: „Ich will Astronautin werden!“ Ihre Freunde lachten laut.",
+            "emotion": "amused"
+          }
+        ]
+      },
+      {
+        "text": "Mathilde sammelte alte Milchkannen auf dem ganzen Bauernhof. Nachdem sie hundert Kannen gesammelt hatte, baute sie eine große Rakete. Als die Rakete fertig war, tanzte sie und freute sich auf ihren ersten Flug. Der Bauer war wütend, weil seine Milch weg war.",
+        "translation": "Mathilde verzamelde oude melkbussen op de hele boerderij. Nadat ze honderd bussen had verzameld, bouwde ze een grote raket. Toen de raket klaar was, danste ze en verheugde ze zich op haar eerste vlucht. De boer was woedend, omdat zijn melk weg was.",
+        "image_prompt": "The same small brown-and-white cow with red collar and brass bell, proudly standing next to a tall wobbly rocket built from many shiny milk cans, a farmyard behind her, an angry farmer waving his arms in the distance.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "Sammelte Mathilde alte Milchkannen?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Wie viele Kannen sammelte Mathilde?",
+            "options": [
+              "Hundert",
+              "Drei",
+              "Tausend"
+            ],
+            "answer": "Hundert",
+            "target": "nachdem"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was baute sie, nachdem sie die Kannen gesammelt hatte?",
+            "options": [
+              "eine Rakete",
+              "ein Haus"
+            ],
+            "answer": "eine Rakete",
+            "target": "nachdem"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Worauf freute sich Mathilde?",
+            "options": [
+              "auf ihren ersten Flug",
+              "auf das Gras"
+            ],
+            "answer": "auf ihren ersten Flug",
+            "target": "freute sich auf"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Wer war wütend?",
+            "options": [
+              "Der Bauer",
+              "Mathilde",
+              "Die Freunde"
+            ],
+            "answer": "Der Bauer",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "sammelte",
+            "lemma": "sammeln",
+            "gloss": "verzamelde",
+            "level": "A2"
+          },
+          {
+            "word": "alte",
+            "lemma": "alt",
+            "gloss": "oude",
+            "level": "A1"
+          },
+          {
+            "word": "Milchkannen",
+            "lemma": "die Milchkanne",
+            "gloss": "melkbussen",
+            "level": "A2"
+          },
+          {
+            "word": "auf",
+            "lemma": "auf",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "ganzen",
+            "lemma": "ganz",
+            "gloss": "hele",
+            "level": "A2"
+          },
+          {
+            "word": "Bauernhof",
+            "lemma": "der Bauernhof",
+            "gloss": "boerderij",
+            "level": "A2"
+          },
+          {
+            "word": "Nachdem",
+            "lemma": "nachdem",
+            "gloss": "nadat",
+            "level": "B1"
+          },
+          {
+            "word": "sie",
+            "lemma": "sie",
+            "gloss": "ze",
+            "level": "A1"
+          },
+          {
+            "word": "Kannen",
+            "lemma": "die Kanne",
+            "gloss": "bussen",
+            "level": "A2"
+          },
+          {
+            "word": "gesammelt",
+            "lemma": "sammeln",
+            "gloss": "verzameld",
+            "level": "A2"
+          },
+          {
+            "word": "hatte",
+            "lemma": "haben",
+            "gloss": "had",
+            "level": "A1"
+          },
+          {
+            "word": "baute",
+            "lemma": "bauen",
+            "gloss": "bouwde",
+            "level": "A2"
+          },
+          {
+            "word": "große",
+            "lemma": "groß",
+            "gloss": "grote",
+            "level": "A1"
+          },
+          {
+            "word": "Rakete",
+            "lemma": "die Rakete",
+            "gloss": "raket",
+            "level": "A2"
+          },
+          {
+            "word": "Als",
+            "lemma": "als",
+            "gloss": "toen",
+            "level": "A1"
+          },
+          {
+            "word": "fertig",
+            "lemma": "fertig",
+            "gloss": "klaar",
+            "level": "A2"
+          },
+          {
+            "word": "war",
+            "lemma": "sein",
+            "gloss": "was",
+            "level": "A1"
+          },
+          {
+            "word": "tanzte",
+            "lemma": "tanzen",
+            "gloss": "danste",
+            "level": "A1"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "freute",
+            "lemma": "sich freuen",
+            "gloss": "verheugde zich",
+            "level": "A2"
+          },
+          {
+            "word": "sich",
+            "lemma": "sich",
+            "gloss": "zich",
+            "level": "A2"
+          },
+          {
+            "word": "ihren",
+            "lemma": "ihr",
+            "gloss": "haar",
+            "level": "A1"
+          },
+          {
+            "word": "ersten",
+            "lemma": "erste",
+            "gloss": "eerste",
+            "level": "A1"
+          },
+          {
+            "word": "Flug",
+            "lemma": "der Flug",
+            "gloss": "vlucht",
+            "level": "A2"
+          },
+          {
+            "word": "Bauer",
+            "lemma": "der Bauer",
+            "gloss": "boer",
+            "level": "A2"
+          },
+          {
+            "word": "wütend",
+            "lemma": "wütend",
+            "gloss": "boos",
+            "level": "A2"
+          },
+          {
+            "word": "weil",
+            "lemma": "weil",
+            "gloss": "omdat",
+            "level": "A1"
+          },
+          {
+            "word": "seine",
+            "lemma": "sein",
+            "gloss": "zijn",
+            "level": "A1"
+          },
+          {
+            "word": "Milch",
+            "lemma": "die Milch",
+            "gloss": "melk",
+            "level": "A1"
+          },
+          {
+            "word": "weg",
+            "lemma": "weg",
+            "gloss": "weg",
+            "level": "A2"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Mathilde sammelte alte Milchkannen auf dem ganzen Bauernhof.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Nachdem sie hundert Kannen gesammelt hatte, baute sie eine große Rakete.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Als die Rakete fertig war, tanzte sie und freute sich auf ihren ersten Flug.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Der Bauer war wütend, weil seine Milch weg war.",
+            "emotion": "angry"
+          }
+        ]
+      },
+      {
+        "text": "Für den Flug brauchte Mathilde tausend Liter Milch. Als niemand hinsah, trank sie die ganze Milch aus. Nachdem sie alles getrunken hatte, war der Tank leer. Aber Mathilde freute sich auf den Flug.",
+        "translation": "Voor de vlucht had Mathilde duizend liter melk nodig. Toen niemand keek, dronk ze alle melk op. Nadat ze alles gedronken had, was de tank leeg. Maar Mathilde verheugde zich op de vlucht.",
+        "image_prompt": "The same small brown-and-white cow with red collar and brass bell, with a huge round belly, drinking from an enormous milk can next to her milk-can rocket, empty cans lying all around, stars in the evening sky.",
+        "questions": [
+          {
+            "kind": "who_what",
+            "prompt": "Wie viel Milch brauchte Mathilde?",
+            "options": [
+              "Tausend Liter",
+              "Zwei Liter",
+              "Hundert Liter"
+            ],
+            "answer": "Tausend Liter",
+            "target": null
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Trank Mathilde die Milch selbst aus?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": "als"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was war, nachdem sie alles getrunken hatte?",
+            "options": [
+              "Der Tank war leer",
+              "Die Rakete war voll"
+            ],
+            "answer": "Der Tank war leer",
+            "target": "nachdem"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Worauf freute sich Mathilde trotzdem?",
+            "options": [
+              "auf den Flug",
+              "auf das Essen"
+            ],
+            "answer": "auf den Flug",
+            "target": "freute sich auf"
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Für",
+            "lemma": "für",
+            "gloss": "voor",
+            "level": "A1"
+          },
+          {
+            "word": "Flug",
+            "lemma": "der Flug",
+            "gloss": "vlucht",
+            "level": "A2"
+          },
+          {
+            "word": "brauchte",
+            "lemma": "brauchen",
+            "gloss": "had nodig",
+            "level": "A2"
+          },
+          {
+            "word": "Liter",
+            "lemma": "der Liter",
+            "gloss": "liter",
+            "level": "A2"
+          },
+          {
+            "word": "Milch",
+            "lemma": "die Milch",
+            "gloss": "melk",
+            "level": "A1"
+          },
+          {
+            "word": "Als",
+            "lemma": "als",
+            "gloss": "toen",
+            "level": "A1"
+          },
+          {
+            "word": "niemand",
+            "lemma": "niemand",
+            "gloss": "niemand",
+            "level": "A2"
+          },
+          {
+            "word": "hinsah",
+            "lemma": "hinsehen",
+            "gloss": "keek",
+            "level": "B1"
+          },
+          {
+            "word": "trank",
+            "lemma": "trinken",
+            "gloss": "dronk",
+            "level": "A1"
+          },
+          {
+            "word": "sie",
+            "lemma": "sie",
+            "gloss": "ze",
+            "level": "A1"
+          },
+          {
+            "word": "ganze",
+            "lemma": "ganz",
+            "gloss": "hele",
+            "level": "A2"
+          },
+          {
+            "word": "aus",
+            "lemma": "aus",
+            "gloss": "leeg",
+            "level": "A1"
+          },
+          {
+            "word": "Nachdem",
+            "lemma": "nachdem",
+            "gloss": "nadat",
+            "level": "B1"
+          },
+          {
+            "word": "alles",
+            "lemma": "alles",
+            "gloss": "alles",
+            "level": "A2"
+          },
+          {
+            "word": "getrunken",
+            "lemma": "trinken",
+            "gloss": "gedronken",
+            "level": "A1"
+          },
+          {
+            "word": "hatte",
+            "lemma": "haben",
+            "gloss": "had",
+            "level": "A1"
+          },
+          {
+            "word": "war",
+            "lemma": "sein",
+            "gloss": "was",
+            "level": "A1"
+          },
+          {
+            "word": "Tank",
+            "lemma": "der Tank",
+            "gloss": "tank",
+            "level": "A2"
+          },
+          {
+            "word": "leer",
+            "lemma": "leer",
+            "gloss": "leeg",
+            "level": "A2"
+          },
+          {
+            "word": "Aber",
+            "lemma": "aber",
+            "gloss": "maar",
+            "level": "A1"
+          },
+          {
+            "word": "freute",
+            "lemma": "sich freuen",
+            "gloss": "verheugde zich",
+            "level": "A2"
+          },
+          {
+            "word": "sich",
+            "lemma": "sich",
+            "gloss": "zich",
+            "level": "A2"
+          },
+          {
+            "word": "auf",
+            "lemma": "auf",
+            "gloss": "op",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Für den Flug brauchte Mathilde tausend Liter Milch.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Als niemand hinsah, trank sie die ganze Milch aus.",
+            "emotion": "whisper"
+          },
+          {
+            "text": "Nachdem sie alles getrunken hatte, war der Tank leer.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Aber Mathilde freute sich auf den Flug.",
+            "emotion": "amused"
+          }
+        ]
+      },
+      {
+        "text": "Als Mathilde den roten Knopf drückte, passierte nichts. Nachdem sie dreimal laut „Muh!“ gerufen hatte, machte die Rakete nur ein kleines „Puff“. Die Rakete flog zwei Meter hoch und landete im Misthaufen. Mathilde war sehr wütend.",
+        "translation": "Toen Mathilde op de rode knop drukte, gebeurde er niets. Nadat ze drie keer hard 'Moe!' had geroepen, maakte de raket alleen een klein 'Puf'. De raket vloog twee meter hoog en landde in de mesthoop. Mathilde was heel woedend.",
+        "image_prompt": "The same small brown-and-white cow with red collar and brass bell, sitting furious and covered in straw in a big manure pile, a milk-can rocket tipped over next to her with a tiny puff of smoke, farmyard at night.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "Passierte etwas, als Mathilde den Knopf drückte?",
+            "options": [
+              "Nein",
+              "Ja"
+            ],
+            "answer": "Nein",
+            "target": "als"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Was machte die Rakete, nachdem Mathilde dreimal gerufen hatte?",
+            "options": [
+              "ein kleines „Puff“",
+              "ein großes Feuer",
+              "laute Musik"
+            ],
+            "answer": "ein kleines „Puff“",
+            "target": "nachdem"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Wo landete die Rakete?",
+            "options": [
+              "im Misthaufen",
+              "auf dem Mond"
+            ],
+            "answer": "im Misthaufen",
+            "target": null
+          },
+          {
+            "kind": "either_or",
+            "prompt": "War Mathilde glücklich oder wütend?",
+            "options": [
+              "wütend",
+              "glücklich"
+            ],
+            "answer": "wütend",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Als",
+            "lemma": "als",
+            "gloss": "toen",
+            "level": "A1"
+          },
+          {
+            "word": "roten",
+            "lemma": "rot",
+            "gloss": "rode",
+            "level": "A1"
+          },
+          {
+            "word": "Knopf",
+            "lemma": "der Knopf",
+            "gloss": "knop",
+            "level": "A2"
+          },
+          {
+            "word": "drückte",
+            "lemma": "drücken",
+            "gloss": "drukte",
+            "level": "A2"
+          },
+          {
+            "word": "passierte",
+            "lemma": "passieren",
+            "gloss": "gebeurde",
+            "level": "A2"
+          },
+          {
+            "word": "nichts",
+            "lemma": "nichts",
+            "gloss": "niets",
+            "level": "A1"
+          },
+          {
+            "word": "Nachdem",
+            "lemma": "nachdem",
+            "gloss": "nadat",
+            "level": "B1"
+          },
+          {
+            "word": "sie",
+            "lemma": "sie",
+            "gloss": "ze",
+            "level": "A1"
+          },
+          {
+            "word": "laut",
+            "lemma": "laut",
+            "gloss": "hard",
+            "level": "A1"
+          },
+          {
+            "word": "gerufen",
+            "lemma": "rufen",
+            "gloss": "geroepen",
+            "level": "A2"
+          },
+          {
+            "word": "hatte",
+            "lemma": "haben",
+            "gloss": "had",
+            "level": "A1"
+          },
+          {
+            "word": "machte",
+            "lemma": "machen",
+            "gloss": "maakte",
+            "level": "A1"
+          },
+          {
+            "word": "Rakete",
+            "lemma": "die Rakete",
+            "gloss": "raket",
+            "level": "A2"
+          },
+          {
+            "word": "nur",
+            "lemma": "nur",
+            "gloss": "alleen",
+            "level": "A1"
+          },
+          {
+            "word": "kleines",
+            "lemma": "klein",
+            "gloss": "klein",
+            "level": "A1"
+          },
+          {
+            "word": "Puff",
+            "lemma": "das Puff",
+            "gloss": "puf",
+            "level": "B1"
+          },
+          {
+            "word": "flog",
+            "lemma": "fliegen",
+            "gloss": "vloog",
+            "level": "A2"
+          },
+          {
+            "word": "Meter",
+            "lemma": "der Meter",
+            "gloss": "meter",
+            "level": "A2"
+          },
+          {
+            "word": "hoch",
+            "lemma": "hoch",
+            "gloss": "hoog",
+            "level": "A1"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "landete",
+            "lemma": "landen",
+            "gloss": "landde",
+            "level": "A2"
+          },
+          {
+            "word": "im",
+            "lemma": "in dem",
+            "gloss": "in de",
+            "level": "A1"
+          },
+          {
+            "word": "Misthaufen",
+            "lemma": "der Misthaufen",
+            "gloss": "mesthoop",
+            "level": "B1"
+          },
+          {
+            "word": "war",
+            "lemma": "sein",
+            "gloss": "was",
+            "level": "A1"
+          },
+          {
+            "word": "sehr",
+            "lemma": "sehr",
+            "gloss": "zeer",
+            "level": "A1"
+          },
+          {
+            "word": "wütend",
+            "lemma": "wütend",
+            "gloss": "boos",
+            "level": "A2"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Als Mathilde den roten Knopf drückte, passierte nichts.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Nachdem sie dreimal laut „Muh!“ gerufen hatte, machte die Rakete nur ein kleines „Puff“.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Die Rakete flog zwei Meter hoch und landete im Misthaufen.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Mathilde war sehr wütend.",
+            "emotion": "angry"
+          }
+        ]
+      },
+      {
+        "text": "Als der Bauer Mathilde im Misthaufen sah, lachte er laut. Nachdem er ihr eine alte Badewanne gezeigt hatte, baute er mit ihr eine neue Rakete. Am Abend flogen sie zusammen zum Mond — aber nur im Traum. Mathilde freute sich auf den nächsten Morgen.",
+        "translation": "Toen de boer Mathilde in de mesthoop zag, lachte hij hard. Nadat hij haar een oude badkuip had laten zien, bouwde hij samen met haar een nieuwe raket. 's Avonds vlogen ze samen naar de maan — maar alleen in een droom. Mathilde verheugde zich op de volgende ochtend.",
+        "image_prompt": "The same small brown-and-white cow with red collar and brass bell, smiling and sleeping in an old bathtub rocket with the farmer beside her, both dreaming of flying to the moon, warm morning light.",
+        "questions": [
+          {
+            "kind": "who_what",
+            "prompt": "Wer lachte laut?",
+            "options": [
+              "Der Bauer",
+              "Mathilde",
+              "Der Mond"
+            ],
+            "answer": "Der Bauer",
+            "target": "als"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was zeigte der Bauer Mathilde?",
+            "options": [
+              "eine alte Badewanne",
+              "einen neuen Eimer"
+            ],
+            "answer": "eine alte Badewanne",
+            "target": "nachdem"
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Flogen sie wirklich zum Mond?",
+            "options": [
+              "Nein",
+              "Ja"
+            ],
+            "answer": "Nein",
+            "target": null
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Worauf freute sich Mathilde am Ende?",
+            "options": [
+              "auf den nächsten Morgen",
+              "auf den Mond"
+            ],
+            "answer": "auf den nächsten Morgen",
+            "target": "freute sich auf"
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Als",
+            "lemma": "als",
+            "gloss": "toen",
+            "level": "A1"
+          },
+          {
+            "word": "Bauer",
+            "lemma": "der Bauer",
+            "gloss": "boer",
+            "level": "A2"
+          },
+          {
+            "word": "im",
+            "lemma": "in dem",
+            "gloss": "in de",
+            "level": "A1"
+          },
+          {
+            "word": "Misthaufen",
+            "lemma": "der Misthaufen",
+            "gloss": "mesthoop",
+            "level": "B1"
+          },
+          {
+            "word": "sah",
+            "lemma": "sehen",
+            "gloss": "zag",
+            "level": "A1"
+          },
+          {
+            "word": "lachte",
+            "lemma": "lachen",
+            "gloss": "lachte",
+            "level": "A1"
+          },
+          {
+            "word": "er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "laut",
+            "lemma": "laut",
+            "gloss": "hard",
+            "level": "A1"
+          },
+          {
+            "word": "Nachdem",
+            "lemma": "nachdem",
+            "gloss": "nadat",
+            "level": "B1"
+          },
+          {
+            "word": "ihr",
+            "lemma": "sie",
+            "gloss": "haar",
+            "level": "A1"
+          },
+          {
+            "word": "alte",
+            "lemma": "alt",
+            "gloss": "oude",
+            "level": "A1"
+          },
+          {
+            "word": "Badewanne",
+            "lemma": "die Badewanne",
+            "gloss": "badkuip",
+            "level": "A2"
+          },
+          {
+            "word": "gezeigt",
+            "lemma": "zeigen",
+            "gloss": "getoond",
+            "level": "A2"
+          },
+          {
+            "word": "hatte",
+            "lemma": "haben",
+            "gloss": "had",
+            "level": "A1"
+          },
+          {
+            "word": "baute",
+            "lemma": "bauen",
+            "gloss": "bouwde",
+            "level": "A2"
+          },
+          {
+            "word": "mit",
+            "lemma": "mit",
+            "gloss": "met",
+            "level": "A1"
+          },
+          {
+            "word": "neue",
+            "lemma": "neu",
+            "gloss": "nieuwe",
+            "level": "A1"
+          },
+          {
+            "word": "Rakete",
+            "lemma": "die Rakete",
+            "gloss": "raket",
+            "level": "A2"
+          },
+          {
+            "word": "Am",
+            "lemma": "an dem",
+            "gloss": "'s avonds",
+            "level": "A1"
+          },
+          {
+            "word": "Abend",
+            "lemma": "der Abend",
+            "gloss": "avond",
+            "level": "A1"
+          },
+          {
+            "word": "flogen",
+            "lemma": "fliegen",
+            "gloss": "vlogen",
+            "level": "A2"
+          },
+          {
+            "word": "sie",
+            "lemma": "sie",
+            "gloss": "ze",
+            "level": "A1"
+          },
+          {
+            "word": "zusammen",
+            "lemma": "zusammen",
+            "gloss": "samen",
+            "level": "A2"
+          },
+          {
+            "word": "zum",
+            "lemma": "zu dem",
+            "gloss": "naar de",
+            "level": "A1"
+          },
+          {
+            "word": "Mond",
+            "lemma": "der Mond",
+            "gloss": "maan",
+            "level": "A1"
+          },
+          {
+            "word": "aber",
+            "lemma": "aber",
+            "gloss": "maar",
+            "level": "A1"
+          },
+          {
+            "word": "nur",
+            "lemma": "nur",
+            "gloss": "alleen",
+            "level": "A1"
+          },
+          {
+            "word": "Traum",
+            "lemma": "der Traum",
+            "gloss": "droom",
+            "level": "A2"
+          },
+          {
+            "word": "freute",
+            "lemma": "sich freuen",
+            "gloss": "verheugde zich",
+            "level": "A2"
+          },
+          {
+            "word": "sich",
+            "lemma": "sich",
+            "gloss": "zich",
+            "level": "A2"
+          },
+          {
+            "word": "auf",
+            "lemma": "auf",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "nächsten",
+            "lemma": "nächste",
+            "gloss": "volgende",
+            "level": "A2"
+          },
+          {
+            "word": "Morgen",
+            "lemma": "der Morgen",
+            "gloss": "ochtend",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Als der Bauer Mathilde im Misthaufen sah, lachte er laut.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Nachdem er ihr eine alte Badewanne gezeigt hatte, baute er mit ihr eine neue Rakete.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Am Abend flogen sie zusammen zum Mond — aber nur im Traum.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Mathilde freute sich auf den nächsten Morgen.",
+            "emotion": "amused"
+          }
+        ]
+      }
+    ]
+  }
+}

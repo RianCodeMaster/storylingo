@@ -1,0 +1,18 @@
+# B1: telling a story in the past with time clauses.
+slug: kuh-astronautin
+language: de
+learner_language: nl
+level: B1
+theme: Een koe uit Beieren wil astronaut worden en bouwt een raket van melkbussen
+scenes: 5
+targets:
+  - text: als
+    gloss: toen (één keer in het verleden)
+    concept: when_past
+  - text: nachdem
+    gloss: nadat
+    concept: after
+  - text: freute sich auf
+    gloss: verheugde zich op
+    concept: look_forward
+    kind: phrase

@@ -1,0 +1,1336 @@
+{
+  "brief": {
+    "slug": "drucker-kaffeemaschine",
+    "language": "de",
+    "learner_language": "nl",
+    "level": "B1",
+    "theme": "Op een IT-kantoor wordt de printer verliefd op de koffiemachine, maar de systeembeheerder wil de printer vervangen",
+    "scenes": 5,
+    "targets": [
+      {
+        "text": "weil",
+        "gloss": "omdat (werkwoord achteraan)",
+        "concept": "because",
+        "kind": "word"
+      },
+      {
+        "text": "damit",
+        "gloss": "zodat (werkwoord achteraan)",
+        "concept": "so_that",
+        "kind": "word"
+      },
+      {
+        "text": "trotzdem",
+        "gloss": "toch / desondanks",
+        "concept": "nevertheless",
+        "kind": "word"
+      }
+    ]
+  },
+  "generation": {
+    "prompt_version": "tprs-v1",
+    "model": "deepseek-flash",
+    "attempts": 1,
+    "input_tokens": 672,
+    "output_tokens": 7836,
+    "glossary_version": "glossary-v1",
+    "glossary_input_tokens": 699,
+    "glossary_output_tokens": 19911,
+    "voice_version": "voice-v1",
+    "voice_input_tokens": 635,
+    "voice_output_tokens": 2144
+  },
+  "story": {
+    "title": "Klaus, der Drucker mit dem großen Herzen",
+    "summary": "Printer Klaus wordt smoorverliefd op koffiemachine Kiki, print duizend liefdesbrieven, en de systeembeheerder wil hem vervangen — maar Kiki blijkt heel andere plannen te hebben.",
+    "gestures": [
+      {
+        "concept": "because",
+        "description": "Doe je hand als een trechter bij je mond en knik langzaam achterover met je hoofd, alsof je zegt: 'omdat... ja, dáárom!'",
+        "emoji": "🤔"
+      },
+      {
+        "concept": "so_that",
+        "description": "Houd je handen als een kommetje en schuif ze met wijde ogen naar voren, alsof je het doel aan iemand cadeau doet.",
+        "emoji": "🎯"
+      },
+      {
+        "concept": "nevertheless",
+        "description": "Zet je handen in je zij, stamp één keer hard op de vloer en steek je kin omhoog als een eigenwijze peuter.",
+        "emoji": "😤"
+      }
+    ],
+    "scenes": [
+      {
+        "text": "Klaus ist ein Drucker. Er arbeitet in einem großen IT-Büro in Berlin und liebt die Kaffeemaschine Kiki, weil sie so warm und schön ist. Er kann nicht sprechen, weil er nur ein Drucker ist. Deshalb druckt er jeden Morgen einen Liebesbrief, damit Kiki ihn lesen kann.",
+        "translation": "Klaus is een printer. Hij werkt in een groot IT-kantoor in Berlijn en is verliefd op koffiemachine Kiki, omdat ze zo warm en mooi is. Hij kan niet praten, omdat hij maar een printer is. Daarom print hij elke ochtend een liefdesbrief, zodat Kiki hem kan lezen.",
+        "image_prompt": "Klaus, a small white office printer with two round googly eyes and a red heart sticker on his front panel, sits on a desk in a bright Berlin IT office and prints a page covered in little hearts; next to him stands a shiny red coffee machine with long eyelashes, smiling.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "Liebt Klaus die Kaffeemaschine Kiki?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": null
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was ist Klaus: ein Drucker oder eine Kaffeemaschine?",
+            "options": [
+              "ein Drucker",
+              "eine Kaffeemaschine"
+            ],
+            "answer": "ein Drucker",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Warum kann Klaus nicht sprechen?",
+            "options": [
+              "weil er nur ein Drucker ist",
+              "weil er schüchtern ist",
+              "weil er krank ist"
+            ],
+            "answer": "weil er nur ein Drucker ist",
+            "target": "weil"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Warum druckt Klaus jeden Morgen einen Liebesbrief?",
+            "options": [
+              "damit Kiki ihn lesen kann",
+              "damit er Hunger hat",
+              "damit er müde wird"
+            ],
+            "answer": "damit Kiki ihn lesen kann",
+            "target": "damit"
+          }
+        ],
+        "glossary": [
+          {
+            "word": "ist",
+            "lemma": "sein",
+            "gloss": "is",
+            "level": "A1"
+          },
+          {
+            "word": "Drucker",
+            "lemma": "der Drucker",
+            "gloss": "printer",
+            "level": "A2"
+          },
+          {
+            "word": "Er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "arbeitet",
+            "lemma": "arbeiten",
+            "gloss": "werkt",
+            "level": "A1"
+          },
+          {
+            "word": "in",
+            "lemma": "in",
+            "gloss": "in",
+            "level": "A1"
+          },
+          {
+            "word": "großen",
+            "lemma": "groß",
+            "gloss": "grote",
+            "level": "A1"
+          },
+          {
+            "word": "IT-Büro",
+            "lemma": "das IT-Büro",
+            "gloss": "IT-kantoor",
+            "level": "B1"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "liebt",
+            "lemma": "lieben",
+            "gloss": "houdt van",
+            "level": "A1"
+          },
+          {
+            "word": "Kaffeemaschine",
+            "lemma": "die Kaffeemaschine",
+            "gloss": "koffiemachine",
+            "level": "A2"
+          },
+          {
+            "word": "weil",
+            "lemma": "weil",
+            "gloss": "omdat",
+            "level": "A1"
+          },
+          {
+            "word": "sie",
+            "lemma": "sie",
+            "gloss": "zij",
+            "level": "A1"
+          },
+          {
+            "word": "so",
+            "lemma": "so",
+            "gloss": "zo",
+            "level": "A1"
+          },
+          {
+            "word": "warm",
+            "lemma": "warm",
+            "gloss": "warm",
+            "level": "A1"
+          },
+          {
+            "word": "schön",
+            "lemma": "schön",
+            "gloss": "mooi",
+            "level": "A1"
+          },
+          {
+            "word": "kann",
+            "lemma": "können",
+            "gloss": "kan",
+            "level": "A1"
+          },
+          {
+            "word": "nicht",
+            "lemma": "nicht",
+            "gloss": "niet",
+            "level": "A1"
+          },
+          {
+            "word": "sprechen",
+            "lemma": "sprechen",
+            "gloss": "spreken",
+            "level": "A1"
+          },
+          {
+            "word": "nur",
+            "lemma": "nur",
+            "gloss": "alleen",
+            "level": "A1"
+          },
+          {
+            "word": "Deshalb",
+            "lemma": "deshalb",
+            "gloss": "daarom",
+            "level": "A2"
+          },
+          {
+            "word": "druckt",
+            "lemma": "drucken",
+            "gloss": "drukt",
+            "level": "A2"
+          },
+          {
+            "word": "jeden",
+            "lemma": "jeder",
+            "gloss": "elke",
+            "level": "A2"
+          },
+          {
+            "word": "Morgen",
+            "lemma": "der Morgen",
+            "gloss": "ochtend",
+            "level": "A1"
+          },
+          {
+            "word": "Liebesbrief",
+            "lemma": "der Liebesbrief",
+            "gloss": "liefdesbrief",
+            "level": "B1"
+          },
+          {
+            "word": "damit",
+            "lemma": "damit",
+            "gloss": "zodat",
+            "level": "A2"
+          },
+          {
+            "word": "ihn",
+            "lemma": "er",
+            "gloss": "hem",
+            "level": "A1"
+          },
+          {
+            "word": "lesen",
+            "lemma": "lesen",
+            "gloss": "lezen",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Klaus ist ein Drucker.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Er arbeitet in einem großen IT-Büro in Berlin und liebt die Kaffeemaschine Kiki, weil sie so warm und schön ist.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Er kann nicht sprechen, weil er nur ein Drucker ist.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Deshalb druckt er jeden Morgen einen Liebesbrief, damit Kiki ihn lesen kann.",
+            "emotion": "whisper"
+          }
+        ]
+      },
+      {
+        "text": "Klaus druckt 1000 Seiten Liebesbriefe, damit Kiki jedes Wort lesen kann. Die Kollegen sind wütend, weil das ganze Büro jetzt weiß ist. Trotzdem druckt Klaus weiter. Er druckt ein Herz, so groß wie ein Tisch.",
+        "translation": "Klaus print 1000 pagina's liefdesbrieven, zodat Kiki elk woord kan lezen. De collega's zijn woedend, omdat het hele kantoor nu wit is. Toch print Klaus door. Hij print een hart, zo groot als een tafel.",
+        "image_prompt": "Klaus, a small white office printer with two round googly eyes and a red heart sticker on his front panel, shoots a gigantic paper heart as big as a table across the office; angry colleagues with paper hats stand knee-deep in white paper while the red coffee machine with long eyelashes giggles in the corner.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "Sind die Kollegen wütend?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Wie viele Seiten Liebesbriefe druckt Klaus?",
+            "options": [
+              "1000 Seiten",
+              "10 Seiten",
+              "3 Seiten"
+            ],
+            "answer": "1000 Seiten",
+            "target": null
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Warum sind die Kollegen wütend?",
+            "options": [
+              "weil das ganze Büro jetzt weiß ist",
+              "weil der Kaffee kalt ist"
+            ],
+            "answer": "weil das ganze Büro jetzt weiß ist",
+            "target": "weil"
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Hört Klaus auf zu drucken?",
+            "options": [
+              "Nein",
+              "Ja"
+            ],
+            "answer": "Nein",
+            "target": "trotzdem"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Was druckt Klaus am Ende?",
+            "options": [
+              "ein Herz, so groß wie ein Tisch",
+              "einen Kuchen",
+              "einen Vertrag"
+            ],
+            "answer": "ein Herz, so groß wie ein Tisch",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "druckt",
+            "lemma": "drucken",
+            "gloss": "drukt",
+            "level": "A2"
+          },
+          {
+            "word": "Seiten",
+            "lemma": "die Seite",
+            "gloss": "pagina's",
+            "level": "A2"
+          },
+          {
+            "word": "Liebesbriefe",
+            "lemma": "der Liebesbrief",
+            "gloss": "liefdesbrieven",
+            "level": "B1"
+          },
+          {
+            "word": "damit",
+            "lemma": "damit",
+            "gloss": "zodat",
+            "level": "A2"
+          },
+          {
+            "word": "jedes",
+            "lemma": "jeder",
+            "gloss": "elk",
+            "level": "A2"
+          },
+          {
+            "word": "Wort",
+            "lemma": "das Wort",
+            "gloss": "woord",
+            "level": "A1"
+          },
+          {
+            "word": "lesen",
+            "lemma": "lesen",
+            "gloss": "lezen",
+            "level": "A1"
+          },
+          {
+            "word": "kann",
+            "lemma": "können",
+            "gloss": "kan",
+            "level": "A1"
+          },
+          {
+            "word": "Kollegen",
+            "lemma": "der Kollege",
+            "gloss": "collega's",
+            "level": "A2"
+          },
+          {
+            "word": "sind",
+            "lemma": "sein",
+            "gloss": "zijn",
+            "level": "A1"
+          },
+          {
+            "word": "wütend",
+            "lemma": "wütend",
+            "gloss": "boos",
+            "level": "B1"
+          },
+          {
+            "word": "weil",
+            "lemma": "weil",
+            "gloss": "omdat",
+            "level": "A1"
+          },
+          {
+            "word": "ganze",
+            "lemma": "ganz",
+            "gloss": "hele",
+            "level": "A2"
+          },
+          {
+            "word": "Büro",
+            "lemma": "das Büro",
+            "gloss": "kantoor",
+            "level": "A2"
+          },
+          {
+            "word": "jetzt",
+            "lemma": "jetzt",
+            "gloss": "nu",
+            "level": "A1"
+          },
+          {
+            "word": "weiß",
+            "lemma": "weiß",
+            "gloss": "wit",
+            "level": "A1"
+          },
+          {
+            "word": "ist",
+            "lemma": "sein",
+            "gloss": "is",
+            "level": "A1"
+          },
+          {
+            "word": "Trotzdem",
+            "lemma": "trotzdem",
+            "gloss": "toch",
+            "level": "A2"
+          },
+          {
+            "word": "weiter",
+            "lemma": "weiter",
+            "gloss": "verder",
+            "level": "A2"
+          },
+          {
+            "word": "Er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "Herz",
+            "lemma": "das Herz",
+            "gloss": "hart",
+            "level": "A2"
+          },
+          {
+            "word": "so",
+            "lemma": "so",
+            "gloss": "zo",
+            "level": "A1"
+          },
+          {
+            "word": "groß",
+            "lemma": "groß",
+            "gloss": "groot",
+            "level": "A1"
+          },
+          {
+            "word": "wie",
+            "lemma": "wie",
+            "gloss": "zoals",
+            "level": "A1"
+          },
+          {
+            "word": "Tisch",
+            "lemma": "der Tisch",
+            "gloss": "tafel",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Klaus druckt 1000 Seiten Liebesbriefe, damit Kiki jedes Wort lesen kann.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Die Kollegen sind wütend, weil das ganze Büro jetzt weiß ist.",
+            "emotion": "angry"
+          },
+          {
+            "text": "Trotzdem druckt Klaus weiter.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Er druckt ein Herz, so groß wie ein Tisch.",
+            "emotion": "surprised"
+          }
+        ]
+      },
+      {
+        "text": "Herr Stirn ist der Systemadministrator. Er sagt: „Ich will diesen Drucker ersetzen, weil er völlig verrückt ist.“ Er bestellt einen neuen Drucker, damit Klaus endlich verschwindet. Trotzdem druckt Klaus jeden Tag weiter.",
+        "translation": "Meneer Stirn is de systeembeheerder. Hij zegt: 'Ik wil deze printer vervangen, omdat hij volledig gek is.' Hij bestelt een nieuwe printer, zodat Klaus eindelijk verdwijnt. Toch print Klaus elke dag door.",
+        "image_prompt": "A tall thin system administrator with round glasses, a grey shirt and a clipboard stands in front of the small white printer Klaus, who has two round googly eyes and a red heart sticker on his front panel; a laptop shows an order form for a new printer, and the red coffee machine with long eyelashes watches from the side.",
+        "questions": [
+          {
+            "kind": "who_what",
+            "prompt": "Wer ist Herr Stirn?",
+            "options": [
+              "der Systemadministrator",
+              "der Chef",
+              "ein Kollege"
+            ],
+            "answer": "der Systemadministrator",
+            "target": null
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was will Herr Stirn?",
+            "options": [
+              "den Drucker ersetzen",
+              "die Kaffeemaschine kaufen"
+            ],
+            "answer": "den Drucker ersetzen",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Warum will Herr Stirn den Drucker ersetzen?",
+            "options": [
+              "weil er völlig verrückt ist",
+              "weil er zu langsam ist",
+              "weil er zu alt ist"
+            ],
+            "answer": "weil er völlig verrückt ist",
+            "target": "weil"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Warum bestellt Herr Stirn einen neuen Drucker?",
+            "options": [
+              "damit Klaus endlich verschwindet",
+              "damit Kiki glücklich ist",
+              "damit das Büro schöner wird"
+            ],
+            "answer": "damit Klaus endlich verschwindet",
+            "target": "damit"
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Druckt Klaus trotzdem weiter?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": "trotzdem"
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Herr",
+            "lemma": "der Herr",
+            "gloss": "meneer",
+            "level": "A1"
+          },
+          {
+            "word": "ist",
+            "lemma": "sein",
+            "gloss": "is",
+            "level": "A1"
+          },
+          {
+            "word": "Systemadministrator",
+            "lemma": "der Systemadministrator",
+            "gloss": "systeembeheerder",
+            "level": "C1"
+          },
+          {
+            "word": "Er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "sagt",
+            "lemma": "sagen",
+            "gloss": "zegt",
+            "level": "A1"
+          },
+          {
+            "word": "Ich",
+            "lemma": "ich",
+            "gloss": "ik",
+            "level": "A1"
+          },
+          {
+            "word": "will",
+            "lemma": "wollen",
+            "gloss": "wil",
+            "level": "A1"
+          },
+          {
+            "word": "diesen",
+            "lemma": "dieser",
+            "gloss": "deze",
+            "level": "A2"
+          },
+          {
+            "word": "Drucker",
+            "lemma": "der Drucker",
+            "gloss": "printer",
+            "level": "A2"
+          },
+          {
+            "word": "ersetzen",
+            "lemma": "ersetzen",
+            "gloss": "vervangen",
+            "level": "B2"
+          },
+          {
+            "word": "weil",
+            "lemma": "weil",
+            "gloss": "omdat",
+            "level": "A1"
+          },
+          {
+            "word": "völlig",
+            "lemma": "völlig",
+            "gloss": "helemaal",
+            "level": "B1"
+          },
+          {
+            "word": "verrückt",
+            "lemma": "verrückt",
+            "gloss": "gek",
+            "level": "B1"
+          },
+          {
+            "word": "bestellt",
+            "lemma": "bestellen",
+            "gloss": "bestelt",
+            "level": "A2"
+          },
+          {
+            "word": "neuen",
+            "lemma": "neu",
+            "gloss": "nieuwe",
+            "level": "A1"
+          },
+          {
+            "word": "damit",
+            "lemma": "damit",
+            "gloss": "zodat",
+            "level": "A2"
+          },
+          {
+            "word": "endlich",
+            "lemma": "endlich",
+            "gloss": "eindelijk",
+            "level": "A2"
+          },
+          {
+            "word": "verschwindet",
+            "lemma": "verschwinden",
+            "gloss": "verdwijnt",
+            "level": "B1"
+          },
+          {
+            "word": "Trotzdem",
+            "lemma": "trotzdem",
+            "gloss": "toch",
+            "level": "A2"
+          },
+          {
+            "word": "druckt",
+            "lemma": "drucken",
+            "gloss": "drukt",
+            "level": "A2"
+          },
+          {
+            "word": "jeden",
+            "lemma": "jeder",
+            "gloss": "elke",
+            "level": "A2"
+          },
+          {
+            "word": "Tag",
+            "lemma": "der Tag",
+            "gloss": "dag",
+            "level": "A1"
+          },
+          {
+            "word": "weiter",
+            "lemma": "weiter",
+            "gloss": "verder",
+            "level": "A2"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Herr Stirn ist der Systemadministrator.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Er sagt: „Ich will diesen Drucker ersetzen, weil er völlig verrückt ist.“ Er bestellt einen neuen Drucker, damit Klaus endlich verschwindet.",
+            "emotion": "angry"
+          },
+          {
+            "text": "Trotzdem druckt Klaus jeden Tag weiter.",
+            "emotion": "amused"
+          }
+        ]
+      },
+      {
+        "text": "Am Montag kommt der neue Drucker Kevin. Klaus hat große Angst, weil er Kiki nicht verlieren will. Er druckt 1000 Seiten in einer Minute, damit alle sehen: Er ist der beste Drucker der Welt. Trotzdem zieht Herr Stirn den Stecker heraus.",
+        "translation": "Op maandag komt de nieuwe printer Kevin. Klaus heeft grote angst, omdat hij Kiki niet wil verliezen. Hij print 1000 pagina's in één minuut, zodat iedereen ziet: hij is de beste printer van de wereld. Toch trekt meneer Stirn de stekker eruit.",
+        "image_prompt": "The small white printer Klaus with two round googly eyes and a red heart sticker on his front panel spits out a tall tower of paper at lightning speed, while a huge shiny black printer named Kevin with sunglasses stands next to him; the tall system administrator with round glasses pulls the plug, and the red coffee machine with long eyelashes looks worried.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "Kommt der neue Drucker am Montag?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": null
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Wie heißt der neue Drucker?",
+            "options": [
+              "Kevin",
+              "Klaus"
+            ],
+            "answer": "Kevin",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Warum hat Klaus große Angst?",
+            "options": [
+              "weil er Kiki nicht verlieren will",
+              "weil er kaputt ist",
+              "weil Montag ist"
+            ],
+            "answer": "weil er Kiki nicht verlieren will",
+            "target": "weil"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Warum druckt Klaus 1000 Seiten in einer Minute?",
+            "options": [
+              "damit alle sehen: Er ist der beste Drucker der Welt",
+              "damit Kiki Kaffee bekommt",
+              "damit Herr Stirn zufrieden ist"
+            ],
+            "answer": "damit alle sehen: Er ist der beste Drucker der Welt",
+            "target": "damit"
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Zieht Herr Stirn trotzdem den Stecker heraus?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": "trotzdem"
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Am",
+            "lemma": "an",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "Montag",
+            "lemma": "der Montag",
+            "gloss": "maandag",
+            "level": "A1"
+          },
+          {
+            "word": "kommt",
+            "lemma": "kommen",
+            "gloss": "komt",
+            "level": "A1"
+          },
+          {
+            "word": "neue",
+            "lemma": "neu",
+            "gloss": "nieuwe",
+            "level": "A1"
+          },
+          {
+            "word": "Drucker",
+            "lemma": "der Drucker",
+            "gloss": "printer",
+            "level": "A2"
+          },
+          {
+            "word": "hat",
+            "lemma": "haben",
+            "gloss": "heeft",
+            "level": "A1"
+          },
+          {
+            "word": "große",
+            "lemma": "groß",
+            "gloss": "grote",
+            "level": "A1"
+          },
+          {
+            "word": "Angst",
+            "lemma": "die Angst",
+            "gloss": "angst",
+            "level": "A1"
+          },
+          {
+            "word": "weil",
+            "lemma": "weil",
+            "gloss": "omdat",
+            "level": "A1"
+          },
+          {
+            "word": "er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "nicht",
+            "lemma": "nicht",
+            "gloss": "niet",
+            "level": "A1"
+          },
+          {
+            "word": "verlieren",
+            "lemma": "verlieren",
+            "gloss": "verliezen",
+            "level": "A2"
+          },
+          {
+            "word": "will",
+            "lemma": "wollen",
+            "gloss": "wil",
+            "level": "A1"
+          },
+          {
+            "word": "druckt",
+            "lemma": "drucken",
+            "gloss": "drukt",
+            "level": "A2"
+          },
+          {
+            "word": "Seiten",
+            "lemma": "die Seite",
+            "gloss": "pagina's",
+            "level": "A2"
+          },
+          {
+            "word": "in",
+            "lemma": "in",
+            "gloss": "in",
+            "level": "A1"
+          },
+          {
+            "word": "Minute",
+            "lemma": "die Minute",
+            "gloss": "minuut",
+            "level": "A2"
+          },
+          {
+            "word": "damit",
+            "lemma": "damit",
+            "gloss": "zodat",
+            "level": "A2"
+          },
+          {
+            "word": "alle",
+            "lemma": "alle",
+            "gloss": "alle",
+            "level": "A1"
+          },
+          {
+            "word": "sehen",
+            "lemma": "sehen",
+            "gloss": "zien",
+            "level": "A1"
+          },
+          {
+            "word": "ist",
+            "lemma": "sein",
+            "gloss": "is",
+            "level": "A1"
+          },
+          {
+            "word": "beste",
+            "lemma": "gut",
+            "gloss": "beste",
+            "level": "A1"
+          },
+          {
+            "word": "Welt",
+            "lemma": "die Welt",
+            "gloss": "wereld",
+            "level": "A2"
+          },
+          {
+            "word": "Trotzdem",
+            "lemma": "trotzdem",
+            "gloss": "toch",
+            "level": "A2"
+          },
+          {
+            "word": "zieht",
+            "lemma": "ziehen",
+            "gloss": "trekt",
+            "level": "A2"
+          },
+          {
+            "word": "Herr",
+            "lemma": "der Herr",
+            "gloss": "meneer",
+            "level": "A1"
+          },
+          {
+            "word": "Stecker",
+            "lemma": "der Stecker",
+            "gloss": "stekker",
+            "level": "B1"
+          },
+          {
+            "word": "heraus",
+            "lemma": "heraus",
+            "gloss": "eruit",
+            "level": "A2"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Am Montag kommt der neue Drucker Kevin.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Klaus hat große Angst, weil er Kiki nicht verlieren will.",
+            "emotion": "whisper"
+          },
+          {
+            "text": "Er druckt 1000 Seiten in einer Minute, damit alle sehen: Er ist der beste Drucker der Welt.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Trotzdem zieht Herr Stirn den Stecker heraus.",
+            "emotion": "angry"
+          }
+        ]
+      },
+      {
+        "text": "Plötzlich wird Kiki sehr heiß und spuckt Kaffee auf Herrn Stirn, weil er Klaus wehtut. Der Chef kommt und ruft: „Klaus bleibt für immer, damit das Büro nie langweilig wird!“ Trotzdem ist die Geschichte noch nicht zu Ende: Kiki sieht den neuen Drucker Kevin und schreibt mit Kaffeeschaum: „Du bist auch süß.“ Klaus ist nur fünf Minuten traurig und druckt dann einen Liebesbrief für den Toaster.",
+        "translation": "Plots wordt Kiki heel heet en spuugt koffie over meneer Stirn, omdat hij Klaus pijn doet. De baas komt en roept: 'Klaus blijft voor altijd, zodat het kantoor nooit saai wordt!' Toch is het verhaal nog niet voorbij: Kiki ziet de nieuwe printer Kevin en schrijft met koffieschuim: 'Jij bent ook schattig.' Klaus is maar vijf minuten verdrietig en print dan een liefdesbrief voor de broodrooster.",
+        "image_prompt": "The red coffee machine with long eyelashes sprays a fountain of brown coffee over the tall system administrator with round glasses, who waves his arms; the small white printer Klaus with two round googly eyes and a red heart sticker on his front panel happily prints a love letter for a tiny silver toaster with blinking eyes, while the boss laughs in the doorway.",
+        "questions": [
+          {
+            "kind": "who_what",
+            "prompt": "Warum wird Kiki plötzlich so heiß?",
+            "options": [
+              "weil Herr Stirn Klaus wehtut",
+              "weil sie Kaffee kocht",
+              "weil es Sommer ist"
+            ],
+            "answer": "weil Herr Stirn Klaus wehtut",
+            "target": "weil"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Was macht Kiki in diesem Moment?",
+            "options": [
+              "Sie spuckt Kaffee auf Herrn Stirn",
+              "Sie druckt einen Brief",
+              "Sie schläft ein"
+            ],
+            "answer": "Sie spuckt Kaffee auf Herrn Stirn",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Warum bleibt Klaus im Büro?",
+            "options": [
+              "damit das Büro nie langweilig wird",
+              "damit Kiki Kaffee hat",
+              "damit Kevin kommt"
+            ],
+            "answer": "damit das Büro nie langweilig wird",
+            "target": "damit"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was sagt der Chef?",
+            "options": [
+              "Klaus bleibt für immer",
+              "Kevin bleibt für immer"
+            ],
+            "answer": "Klaus bleibt für immer",
+            "target": "trotzdem"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Für wen druckt Klaus am Ende einen Liebesbrief?",
+            "options": [
+              "für den Toaster",
+              "für Kiki",
+              "für Herrn Stirn"
+            ],
+            "answer": "für den Toaster",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Plötzlich",
+            "lemma": "plötzlich",
+            "gloss": "plotseling",
+            "level": "A2"
+          },
+          {
+            "word": "wird",
+            "lemma": "werden",
+            "gloss": "wordt",
+            "level": "A1"
+          },
+          {
+            "word": "sehr",
+            "lemma": "sehr",
+            "gloss": "heel",
+            "level": "A1"
+          },
+          {
+            "word": "heiß",
+            "lemma": "heiß",
+            "gloss": "heet",
+            "level": "A1"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "spuckt",
+            "lemma": "spucken",
+            "gloss": "spuwt",
+            "level": "B1"
+          },
+          {
+            "word": "Kaffee",
+            "lemma": "der Kaffee",
+            "gloss": "koffie",
+            "level": "A1"
+          },
+          {
+            "word": "auf",
+            "lemma": "auf",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "Herrn",
+            "lemma": "der Herr",
+            "gloss": "meneer",
+            "level": "A1"
+          },
+          {
+            "word": "weil",
+            "lemma": "weil",
+            "gloss": "omdat",
+            "level": "A1"
+          },
+          {
+            "word": "er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "wehtut",
+            "lemma": "wehtun",
+            "gloss": "doet pijn",
+            "level": "B1"
+          },
+          {
+            "word": "Chef",
+            "lemma": "der Chef",
+            "gloss": "baas",
+            "level": "A2"
+          },
+          {
+            "word": "kommt",
+            "lemma": "kommen",
+            "gloss": "komt",
+            "level": "A1"
+          },
+          {
+            "word": "ruft",
+            "lemma": "rufen",
+            "gloss": "roept",
+            "level": "A2"
+          },
+          {
+            "word": "bleibt",
+            "lemma": "bleiben",
+            "gloss": "blijft",
+            "level": "A2"
+          },
+          {
+            "word": "für",
+            "lemma": "für",
+            "gloss": "voor",
+            "level": "A1"
+          },
+          {
+            "word": "immer",
+            "lemma": "immer",
+            "gloss": "altijd",
+            "level": "A1"
+          },
+          {
+            "word": "damit",
+            "lemma": "damit",
+            "gloss": "zodat",
+            "level": "A2"
+          },
+          {
+            "word": "Büro",
+            "lemma": "das Büro",
+            "gloss": "kantoor",
+            "level": "A2"
+          },
+          {
+            "word": "nie",
+            "lemma": "nie",
+            "gloss": "nooit",
+            "level": "A1"
+          },
+          {
+            "word": "langweilig",
+            "lemma": "langweilig",
+            "gloss": "saai",
+            "level": "B1"
+          },
+          {
+            "word": "Trotzdem",
+            "lemma": "trotzdem",
+            "gloss": "toch",
+            "level": "A2"
+          },
+          {
+            "word": "ist",
+            "lemma": "sein",
+            "gloss": "is",
+            "level": "A1"
+          },
+          {
+            "word": "Geschichte",
+            "lemma": "die Geschichte",
+            "gloss": "verhaal",
+            "level": "A2"
+          },
+          {
+            "word": "noch",
+            "lemma": "noch",
+            "gloss": "nog",
+            "level": "A1"
+          },
+          {
+            "word": "nicht",
+            "lemma": "nicht",
+            "gloss": "niet",
+            "level": "A1"
+          },
+          {
+            "word": "zu",
+            "lemma": "zu",
+            "gloss": "tot",
+            "level": "A1"
+          },
+          {
+            "word": "Ende",
+            "lemma": "das Ende",
+            "gloss": "einde",
+            "level": "A2"
+          },
+          {
+            "word": "sieht",
+            "lemma": "sehen",
+            "gloss": "ziet",
+            "level": "A1"
+          },
+          {
+            "word": "neuen",
+            "lemma": "neu",
+            "gloss": "nieuwe",
+            "level": "A1"
+          },
+          {
+            "word": "Drucker",
+            "lemma": "der Drucker",
+            "gloss": "printer",
+            "level": "A2"
+          },
+          {
+            "word": "schreibt",
+            "lemma": "schreiben",
+            "gloss": "schrijft",
+            "level": "A1"
+          },
+          {
+            "word": "mit",
+            "lemma": "mit",
+            "gloss": "met",
+            "level": "A1"
+          },
+          {
+            "word": "Kaffeeschaum",
+            "lemma": "der Kaffeeschaum",
+            "gloss": "koffieschuim",
+            "level": "B2"
+          },
+          {
+            "word": "Du",
+            "lemma": "du",
+            "gloss": "jij",
+            "level": "A1"
+          },
+          {
+            "word": "bist",
+            "lemma": "sein",
+            "gloss": "bent",
+            "level": "A1"
+          },
+          {
+            "word": "auch",
+            "lemma": "auch",
+            "gloss": "ook",
+            "level": "A1"
+          },
+          {
+            "word": "süß",
+            "lemma": "süß",
+            "gloss": "lief",
+            "level": "A1"
+          },
+          {
+            "word": "nur",
+            "lemma": "nur",
+            "gloss": "alleen",
+            "level": "A1"
+          },
+          {
+            "word": "Minuten",
+            "lemma": "die Minute",
+            "gloss": "minuten",
+            "level": "A2"
+          },
+          {
+            "word": "traurig",
+            "lemma": "traurig",
+            "gloss": "verdrietig",
+            "level": "A1"
+          },
+          {
+            "word": "druckt",
+            "lemma": "drucken",
+            "gloss": "drukt",
+            "level": "A2"
+          },
+          {
+            "word": "dann",
+            "lemma": "dann",
+            "gloss": "dan",
+            "level": "A1"
+          },
+          {
+            "word": "Liebesbrief",
+            "lemma": "der Liebesbrief",
+            "gloss": "liefdesbrief",
+            "level": "B1"
+          },
+          {
+            "word": "Toaster",
+            "lemma": "der Toaster",
+            "gloss": "broodrooster",
+            "level": "A2"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Plötzlich wird Kiki sehr heiß und spuckt Kaffee auf Herrn Stirn, weil er Klaus wehtut.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Der Chef kommt und ruft: „Klaus bleibt für immer, damit das Büro nie langweilig wird!“ Trotzdem ist die Geschichte noch nicht zu Ende: Kiki sieht den neuen Drucker Kevin und schreibt mit Kaffeeschaum: „Du bist auch süß.“ Klaus ist nur fünf Minuten traurig und druckt dann einen Liebesbrief für den Toaster.",
+            "emotion": "amused"
+          }
+        ]
+      }
+    ]
+  }
+}

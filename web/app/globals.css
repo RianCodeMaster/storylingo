@@ -191,6 +191,12 @@ mark {
   flex: 1;
 }
 
+.skip-note {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
 .review-card {
   align-items: center;
   text-align: center;

@@ -1,0 +1,19 @@
+# B1: wishes with Konjunktiv II, and "obwohl".
+slug: oma-hackerin
+language: de
+learner_language: nl
+level: B1
+theme: Een oma van 92 is stiekem de beste hacker van Duitsland en wil het wifi-wachtwoord van de hele stad veranderen
+scenes: 5
+targets:
+  - text: obwohl
+    gloss: hoewel (werkwoord achteraan)
+    concept: although
+  - text: hätte gern
+    gloss: zou graag hebben
+    concept: would_like_to_have
+    kind: phrase
+  - text: würde gern
+    gloss: zou graag (doen)
+    concept: would_like_to_do
+    kind: phrase

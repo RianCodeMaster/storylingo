@@ -1,0 +1,17 @@
+# B1: subordinate clauses with the verb at the end, and "trotzdem".
+slug: drucker-kaffeemaschine
+language: de
+learner_language: nl
+level: B1
+theme: Op een IT-kantoor wordt de printer verliefd op de koffiemachine, maar de systeembeheerder wil de printer vervangen
+scenes: 5
+targets:
+  - text: weil
+    gloss: omdat (werkwoord achteraan)
+    concept: because
+  - text: damit
+    gloss: zodat (werkwoord achteraan)
+    concept: so_that
+  - text: trotzdem
+    gloss: toch / desondanks
+    concept: nevertheless

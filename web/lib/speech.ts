@@ -45,6 +45,23 @@ export function narrate(audioUrl: string | null, text: string, language: string)
   player.play().catch(() => speak(text, language));
 }
 
+// Spoken once per language by the pipeline (storylingo.py feedback <lang>); counts match FEEDBACK there.
+const FEEDBACK = {
+  yes: ["Ja! Genau!", "Richtig! Super!", "Fantastisch!", "Ja, ja, ja!"],
+  no: ["Nein, nein, nein!", "Oh nein!"],
+};
+
+/** React to an answer in the story's native voice; the browser voice only if the clip is missing. */
+export function feedback(correct: boolean, language: string) {
+  const lines = correct ? FEEDBACK.yes : FEEDBACK.no;
+  const n = Math.floor(Math.random() * lines.length);
+  const url = `${window.location.origin}/sb/storage/v1/object/public/assets/feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.wav`;
+  stopSpeaking();
+  player ??= new Audio();
+  player.src = url;
+  player.play().catch(() => speak(lines[n], language, correct ? "cheer" : "oops"));
+}
+
 export function stopSpeaking() {
   if (typeof window !== "undefined" && "speechSynthesis" in window) window.speechSynthesis.cancel();
   player?.pause();

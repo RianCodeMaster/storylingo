@@ -15,8 +15,7 @@ import io
 import json
 import os
 import wave
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from threading import Lock
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import torch
 
@@ -26,7 +25,6 @@ PIPER_DIR = os.path.join(os.path.dirname(__file__), "..", "voices", "piper")
 # A native speaker who recorded every emotion. Download: python -m piper.download_voices --data-dir voices/piper <name>
 PIPER_VOICES = {"de": "de_DE-thorsten_emotional-medium"}
 
-_lock = Lock()  # one generation at a time: the hardware is the bottleneck anyway
 _image_pipe = None
 _voices: dict[str, object] = {}
 
@@ -119,8 +117,7 @@ class Handler(BaseHTTPRequestHandler):
         make, content_type = routes[self.path]
         try:
             req = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
-            with _lock:
-                body = make(req)
+            body = make(req)
             self._send(200, body, content_type)
         except Exception as e:  # report the error to the pipeline instead of dropping the connection
             self._send(500, f"{type(e).__name__}: {e}".encode(), "text/plain")
@@ -128,4 +125,5 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     print(f"localgen on http://127.0.0.1:{PORT}  (cuda: {torch.cuda.is_available()})", flush=True)
-    ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
+    # One thread for every request: GPU work from changing threads crashed the process on this laptop.
+    HTTPServer(("127.0.0.1", PORT), Handler).serve_forever()

@@ -47,6 +47,13 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 - Eerste keer `.venv-local` opzetten: zie `pipeline/localgen/requirements.txt` (Python 3.11, PyTorch met CUDA, ~8 GB downloads).
 - Betaald alternatief: `storylingo.py media <slug> gemini` met `GEMINI_API_KEY` en tegoed in `pipeline/.env`.
 
+## In de les
+
+- **Circling past zich aan:** twee snelle, goede antwoorden over dezelfde structuur en de rest van die vragen
+  wordt overgeslagen; een fout antwoord komt aan het eind van de scène nog één keer terug.
+- Na een goed antwoord gaat de les vanzelf door. De reacties ("Ja! Genau!", "Nein, nein, nein!") spreekt Thorsten
+  één keer per taal in: `storylingo.py feedback de`.
+
 ## Handig
 
 - Database bekijken: Supabase Studio op http://127.0.0.1:54323

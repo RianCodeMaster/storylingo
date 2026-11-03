@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { narrate, speak, stopSpeaking } from "@/lib/speech";
+import { advance, Circling, start } from "@/lib/circling";
+import { feedback, narrate, speak, stopSpeaking } from "@/lib/speech";
 import { finishSession, recordAnswer, recordLookup, startSession } from "@/lib/story";
 import type { GlossEntry, Question, Story, Target } from "@/lib/types";
 import InteractiveText, { WordSheet, type Tapped } from "./InteractiveText";
@@ -10,10 +11,9 @@ import InteractiveText, { WordSheet, type Tapped } from "./InteractiveText";
 type Phase =
   | { kind: "intro" }
   | { kind: "scene"; s: number }
-  | { kind: "question"; s: number; q: number }
+  | { kind: "question"; s: number; queue: number[] } // queue[0] is the question being asked
   | { kind: "done" };
 
-const CHEERS = ["Ja! Genau!", "Richtig! Super!", "Fantastisch!", "Ja, ja, ja!"];
 
 function QuestionView(props: {
   label: string;
@@ -72,9 +72,14 @@ export default function Player({ story, userId }: { story: Story; userId: string
   const [error, setError] = useState<string | null>(null);
   const [tapped, setTapped] = useState<Tapped | null>(null);
   const [lookups, setLookups] = useState(0);
+  const [skipNote, setSkipNote] = useState<string | null>(null);
   const askedAt = useRef(0);
   const results = useRef(new Map<string, { seen: number; correct: number }>());
   const lookedUp = useRef(new Set<string>());
+  const circling = useRef(new Circling());
+  const repeated = useRef(new Set<string>()); // questions already sent back once after a wrong answer
+  const circleBack = useRef(false);
+  const autoNext = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lang = story.language_code;
 
   // Every glossary word of the story, so words in questions are tappable too.
@@ -95,8 +100,13 @@ export default function Player({ story, userId }: { story: Story; userId: string
     recordLookup(userId, t.lexemeId, sceneId, sessionId).catch((e) => setError(e.message));
   }
 
-  const totalQuestions = story.scenes.reduce((n, s) => n + s.questions.length, 0);
-  const progress = phase.kind === "done" ? 1 : score.total / Math.max(1, totalQuestions);
+  // Progress by scene: with skipped and repeated questions, a question count would jump around.
+  const scenes = story.scenes.length;
+  const progress =
+    phase.kind === "done" ? 1
+    : phase.kind === "scene" ? phase.s / scenes
+    : phase.kind === "question" ? (phase.s + 1 - phase.queue.length / (story.scenes[phase.s].questions.length + 1)) / scenes
+    : 0;
 
   // Tell each scene and ask each question automatically, like a teacher in front of the class.
   useEffect(() => {
@@ -106,7 +116,7 @@ export default function Player({ story, userId }: { story: Story; userId: string
     }
     if (phase.kind === "question") {
       askedAt.current = Date.now();
-      const question = story.scenes[phase.s].questions[phase.q];
+      const question = story.scenes[phase.s].questions[phase.queue[0]];
       narrate(question.audio_url, question.prompt, lang);
     }
     return stopSpeaking;
@@ -114,41 +124,67 @@ export default function Player({ story, userId }: { story: Story; userId: string
 
   function answer(option: string) {
     if (phase.kind !== "question" || picked) return;
-    const question = story.scenes[phase.s].questions[phase.q];
+    const question = story.scenes[phase.s].questions[phase.queue[0]];
     const correct = option === question.answer;
+    const responseMs = Date.now() - askedAt.current;
     setPicked(option);
+    circling.current.record(question.lexeme_id, correct, responseMs);
+    // Circle back: the same question once more at the end of this scene (added when moving on).
+    circleBack.current = !correct && !repeated.current.has(question.id);
+    if (circleBack.current) repeated.current.add(question.id);
+    // Keep the pace up: after a right answer, move on by itself.
+    if (correct) autoNext.current = setTimeout(() => nextRef.current(), 1600);
     setScore((s) => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
-    speak(
-      correct ? `${CHEERS[Math.floor(Math.random() * CHEERS.length)]} ${question.answer}!` : `Nein! ${question.answer}!`,
-      lang,
-      correct ? "cheer" : "oops",
-    );
+    feedback(correct, lang);
     if (question.lexeme_id) {
       const r = results.current.get(question.lexeme_id) ?? { seen: 0, correct: 0 };
       results.current.set(question.lexeme_id, { seen: r.seen + 1, correct: r.correct + (correct ? 1 : 0) });
     }
     if (sessionId) {
-      recordAnswer(sessionId, question.id, option, correct, Date.now() - askedAt.current).catch((e) => setError(e.message));
+      recordAnswer(sessionId, question.id, option, correct, responseMs).catch((e) => setError(e.message));
     }
   }
 
+  function noteSkipped(lexemeIds: string[]) {
+    const names = lexemeIds.map((id) => story.targets.find((t) => t.id === id)?.text).filter(Boolean);
+    if (names.length) setSkipNote(`✓ ${names.join(", ")} zit erin: die vragen sla ik over.`);
+  }
+
   function next() {
+    if (autoNext.current) clearTimeout(autoNext.current);
+    autoNext.current = null;
     setPicked(null);
     setShowTranslation(false);
     setTapped(null);
+    setSkipNote(null);
     if (phase.kind === "intro") {
       startSession(userId, story.id).then(setSessionId).catch((e) => setError(e.message));
       return setPhase({ kind: "scene", s: 0 });
     }
-    if (phase.kind === "scene") return setPhase({ kind: "question", s: phase.s, q: 0 });
-    if (phase.kind === "question") {
-      const scene = story.scenes[phase.s];
-      if (phase.q + 1 < scene.questions.length) return setPhase({ ...phase, q: phase.q + 1 });
-      if (phase.s + 1 < story.scenes.length) return setPhase({ kind: "scene", s: phase.s + 1 });
-      setPhase({ kind: "done" });
-      if (sessionId) finishSession(sessionId, userId, results.current).catch((e) => setError(e.message));
+    const questions = phase.kind === "done" ? [] : story.scenes[phase.s].questions;
+    if (phase.kind === "scene") {
+      const { queue, skipped } = start(questions, circling.current);
+      noteSkipped(skipped);
+      if (queue.length) return setPhase({ kind: "question", s: phase.s, queue });
+    } else if (phase.kind === "question") {
+      const current = circleBack.current ? [...phase.queue, phase.queue[0]] : phase.queue;
+      circleBack.current = false;
+      const { queue, skipped } = advance(current, questions, circling.current);
+      noteSkipped(skipped);
+      if (queue.length) return setPhase({ ...phase, queue });
+    } else {
+      return;
     }
+    if (phase.s + 1 < story.scenes.length) return setPhase({ kind: "scene", s: phase.s + 1 });
+    setPhase({ kind: "done" });
+    if (sessionId) finishSession(sessionId, userId, results.current).catch((e) => setError(e.message));
   }
+
+  // The auto-advance timer must call the latest next(), not the one from the render that started it.
+  const nextRef = useRef(next);
+  useEffect(() => {
+    nextRef.current = next;
+  });
 
   return (
     <main>
@@ -156,6 +192,7 @@ export default function Player({ story, userId }: { story: Story; userId: string
         <div style={{ width: `${progress * 100}%` }} />
       </div>
       {error && <p className="card">Opslaan mislukt: {error}</p>}
+      {skipNote && <p className="skip-note">{skipNote}</p>}
 
       {phase.kind === "intro" && (
         <>
@@ -212,8 +249,8 @@ export default function Player({ story, userId }: { story: Story; userId: string
 
       {phase.kind === "question" && (
         <QuestionView
-          label={`Scène ${phase.s + 1} · vraag ${phase.q + 1} / ${story.scenes[phase.s].questions.length}`}
-          question={story.scenes[phase.s].questions[phase.q]}
+          label={`Scène ${phase.s + 1} · nog ${phase.queue.length} ${phase.queue.length === 1 ? "vraag" : "vragen"}`}
+          question={story.scenes[phase.s].questions[phase.queue[0]]}
           targets={story.targets}
           words={words}
           onTap={tap}

@@ -7,6 +7,7 @@
     python storylingo.py voice <slug>                          (re)choose an emotion per sentence for the narrator
     python storylingo.py media <slug> [local|gemini|fake] [images|audio]   images + narration (default local, both)
     python storylingo.py media-clear <slug> [images|audio]     remove images and/or narration of a story
+    python storylingo.py feedback <language>                   the spoken "Ja! Genau!" / "Nein!" reactions, once per language
     python storylingo.py publish <slug>                        make it visible in the app
     python storylingo.py list
 """
@@ -124,6 +125,25 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
     print(f"Done: {made} new files for '{slug}'.")
 
 
+# Short reactions after an answer, spoken once per language and shared by every story.
+# The app plays feedback/<lang>/yes-<n>.wav and no-<n>.wav; keep the counts in sync with web/lib/speech.ts.
+FEEDBACK = {
+    "de": {
+        "yes": [("Ja! Genau!", "amused"), ("Richtig! Super!", "surprised"), ("Fantastisch!", "amused"), ("Ja, ja, ja!", "surprised")],
+        "no": [("Nein, nein, nein!", "surprised"), ("Oh nein!", "surprised")],
+    },
+}
+
+
+def make_feedback(language: str) -> None:
+    maker = media.provider("local")
+    for kind, lines in FEEDBACK[language].items():
+        for i, (text, emotion) in enumerate(lines, 1):
+            item = maker.speech(text, language, "story", [{"text": text, "emotion": emotion}])
+            media.upload(f"feedback/{language}/{kind}-{i}.wav", item)
+            print(f"  {kind}-{i}: {text} ({emotion})")
+
+
 def main(argv: list[str]) -> None:
     command = argv[0] if argv else None
     arg = argv[1] if len(argv) > 1 else None
@@ -164,6 +184,8 @@ def main(argv: list[str]) -> None:
             make_media(arg, argv[2] if len(argv) > 2 else "local", argv[3] if len(argv) > 3 else None)
         except Exception as e:  # provider errors (billing, quota) should read as a message, not a traceback
             raise SystemExit(f"Stopped: {e}\nEverything made so far is saved; run the same command again to continue.")
+    elif command == "feedback":
+        make_feedback(arg)
     elif command == "media-clear":
         print(f"Removed {db.clear_media(arg, argv[2] if len(argv) > 2 else None)} assets from '{arg}'.")
     elif command == "publish":
