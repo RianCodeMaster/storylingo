@@ -20,10 +20,19 @@ redesign. **Pace:** build one step at a time and explain each file; the owner re
 ```
 C:\dev\storylingo\
 ├── CLAUDE.md
-├── supabase/migrations/   # SQL schema, one migration per change, never edit an applied migration
-├── pipeline/              # (later) Python content pipeline
-└── web/                   # (later) Next.js PWA
+├── README.md              # how to start everything and add a story (Dutch, for the owner)
+├── supabase/
+│   ├── config.toml        # local Supabase: anonymous sign-in on, public 'assets' bucket
+│   └── migrations/        # SQL schema, one migration per change, never edit an applied migration
+├── pipeline/              # Python content pipeline: briefs/ -> DeepSeek -> stories/*.json -> database
+│   └── localgen/          # local generation server (own venv .venv-local): SDXL images, Piper voices
+└── web/                   # Next.js PWA; reaches local Supabase through the /sb rewrite
 ```
+
+**Phase 1 specifics:** everything runs locally (Docker + `supabase start`). Each browser gets an anonymous
+learner account. Gestures are emoji plus a description. A story passes three DeepSeek rounds: story + questions,
+glossary (tap any word), voice direction (an emotion per sentence). Images and narration are made locally and
+linked through `assets`; the app falls back to the browser voice when a file is missing.
 
 ## Stack (fixed — change only by explicit decision)
 
@@ -33,8 +42,8 @@ C:\dev\storylingo\
 | App | Next.js PWA on Vercel |
 | Content pipeline | Python, run locally |
 | Story text | DeepSeek (owner has a key); quality judged by owner review |
-| Voice | Steerable TTS (OpenAI gpt-4o-mini-tts or Gemini TTS); ElevenLabs only as a comparison |
-| Images | Gemini image model for consistent characters; FLUX schnell for simple icons |
+| Voice | Piper, local CPU: a native speaker per language with per-sentence emotion (German: `thorsten_emotional`). Rejected: Chatterbox (American accent, hallucinations), Gemini free tier (10 calls/day) |
+| Images | SDXL base 1.0, local GPU (RTX 3080 8 GB, CPU offload). Gemini image is the paid alternative (needs credit) |
 | Payments | Stripe (web sale, Stripe Tax on) — not before there are other users |
 
 ## Data model rules

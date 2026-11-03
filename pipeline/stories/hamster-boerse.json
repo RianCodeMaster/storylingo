@@ -1,0 +1,1033 @@
+{
+  "brief": {
+    "slug": "hamster-boerse",
+    "language": "de",
+    "learner_language": "nl",
+    "level": "A2",
+    "theme": "Een hamster wil op de beurs handelen, maar alles gaat mis",
+    "scenes": 5,
+    "targets": [
+      {
+        "text": "wollte",
+        "gloss": "wilde",
+        "concept": "want",
+        "kind": "word"
+      },
+      {
+        "text": "konnte nicht",
+        "gloss": "kon niet",
+        "concept": "cannot",
+        "kind": "phrase"
+      },
+      {
+        "text": "hatte Angst",
+        "gloss": "was bang",
+        "concept": "afraid",
+        "kind": "phrase"
+      }
+    ]
+  },
+  "generation": {
+    "prompt_version": "tprs-v1",
+    "model": "deepseek-flash",
+    "attempts": 1,
+    "input_tokens": 638,
+    "output_tokens": 4566,
+    "glossary_version": "glossary-v1",
+    "glossary_input_tokens": 564,
+    "glossary_output_tokens": 11972,
+    "voice_version": "voice-v1",
+    "voice_input_tokens": 499,
+    "voice_output_tokens": 905
+  },
+  "story": {
+    "title": "Hamster Hugo geht zur Börse",
+    "summary": "Hamster Hugo wil rijk worden op de beurs, maar hij kan de cijfers niet lezen, hij is bang voor de mensen en hij eet per ongeluk 1000 bananen op.",
+    "gestures": [
+      {
+        "concept": "want",
+        "description": "Strek beide armen ver voor je uit met grote grijphanden en een hongerig gezicht, alsof je iets heel graag wilt pakken.",
+        "emoji": "🤲"
+      },
+      {
+        "concept": "cannot",
+        "description": "Zwaai met beide handen vlak voor je gezicht heen en weer en schud wild je hoofd, alsof je zegt: nee, nee, dat lukt niet!",
+        "emoji": "🙅"
+      },
+      {
+        "concept": "afraid",
+        "description": "Sla je armen om jezelf heen, ga een beetje bibberen en zet je ogen heel wijd open.",
+        "emoji": "😨"
+      }
+    ],
+    "scenes": [
+      {
+        "text": "Hugo ist ein kleiner Hamster. Er wohnt in einem Käfig in einer Wohnung. Aber Hugo wollte immer reich sein. Er wollte an der Börse handeln.",
+        "translation": "Hugo is een kleine hamster. Hij woont in een kooi in een flat. Maar Hugo wilde altijd rijk zijn. Hij wilde op de beurs handelen.",
+        "image_prompt": "A tiny golden hamster named Hugo with a red scarf and round glasses, standing in a small cage in a simple apartment, dreaming with a big smile and a thought bubble full of gold coins and stock charts.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "Wollte Hugo reich sein?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": "wollte"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Wohnt Hugo in einem Haus oder in einem Käfig?",
+            "options": [
+              "in einem Haus",
+              "in einem Käfig"
+            ],
+            "answer": "in einem Käfig",
+            "target": null
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Wer wollte an der Börse handeln?",
+            "options": [
+              "ein Hund",
+              "Hugo",
+              "ein Mann"
+            ],
+            "answer": "Hugo",
+            "target": "wollte"
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Ist Hugo ein großer Hamster?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Nein",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "ist",
+            "lemma": "sein",
+            "gloss": "is",
+            "level": "A1"
+          },
+          {
+            "word": "kleiner",
+            "lemma": "klein",
+            "gloss": "kleine",
+            "level": "A1"
+          },
+          {
+            "word": "Hamster",
+            "lemma": "der Hamster",
+            "gloss": "hamster",
+            "level": "A2"
+          },
+          {
+            "word": "Er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "wohnt",
+            "lemma": "wohnen",
+            "gloss": "woont",
+            "level": "A1"
+          },
+          {
+            "word": "in",
+            "lemma": "in",
+            "gloss": "in",
+            "level": "A1"
+          },
+          {
+            "word": "Käfig",
+            "lemma": "der Käfig",
+            "gloss": "kooi",
+            "level": "A2"
+          },
+          {
+            "word": "Wohnung",
+            "lemma": "die Wohnung",
+            "gloss": "woning",
+            "level": "A1"
+          },
+          {
+            "word": "Aber",
+            "lemma": "aber",
+            "gloss": "maar",
+            "level": "A1"
+          },
+          {
+            "word": "wollte",
+            "lemma": "wollen",
+            "gloss": "wilde",
+            "level": "A1"
+          },
+          {
+            "word": "immer",
+            "lemma": "immer",
+            "gloss": "altijd",
+            "level": "A1"
+          },
+          {
+            "word": "reich",
+            "lemma": "reich",
+            "gloss": "rijk",
+            "level": "A1"
+          },
+          {
+            "word": "sein",
+            "lemma": "sein",
+            "gloss": "zijn",
+            "level": "A1"
+          },
+          {
+            "word": "an",
+            "lemma": "an",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "Börse",
+            "lemma": "die Börse",
+            "gloss": "beurs",
+            "level": "A2"
+          },
+          {
+            "word": "handeln",
+            "lemma": "handeln",
+            "gloss": "handelen",
+            "level": "B1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Hugo ist ein kleiner Hamster.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Er wohnt in einem Käfig in einer Wohnung.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Aber Hugo wollte immer reich sein.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Er wollte an der Börse handeln.",
+            "emotion": "surprised"
+          }
+        ]
+      },
+      {
+        "text": "Am Montag ging Hugo zur Börse. Er hatte einen winzigen Laptop in seiner Tasche. Die Zahlen waren sehr schnell, und er konnte nicht lesen. Er hatte Angst vor den großen Menschen.",
+        "translation": "Op maandag ging Hugo naar de beurs. Hij had een piepkleine laptop in zijn tas. De cijfers gingen heel snel, en hij kon niet lezen. Hij was bang voor de grote mensen.",
+        "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, standing on the floor of a huge stock exchange building between enormous men in suits, holding a very small laptop, looking very small and scared, many big green numbers on screens in the background.",
+        "questions": [
+          {
+            "kind": "who_what",
+            "prompt": "Wohin ging Hugo am Montag?",
+            "options": [
+              "zur Börse",
+              "zum Zoo",
+              "zum Supermarkt"
+            ],
+            "answer": "zur Börse",
+            "target": null
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Konnte Hugo die Zahlen lesen?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Nein",
+            "target": "konnte nicht"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Hatte Hugo Angst vor den Menschen oder vor dem Laptop?",
+            "options": [
+              "vor den Menschen",
+              "vor dem Laptop"
+            ],
+            "answer": "vor den Menschen",
+            "target": "hatte Angst"
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Hatte Hugo einen winzigen Laptop?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Am",
+            "lemma": "an",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "Montag",
+            "lemma": "der Montag",
+            "gloss": "maandag",
+            "level": "A1"
+          },
+          {
+            "word": "ging",
+            "lemma": "gehen",
+            "gloss": "ging",
+            "level": "A1"
+          },
+          {
+            "word": "zur",
+            "lemma": "zu",
+            "gloss": "naar",
+            "level": "A1"
+          },
+          {
+            "word": "Börse",
+            "lemma": "die Börse",
+            "gloss": "beurs",
+            "level": "A2"
+          },
+          {
+            "word": "Er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "hatte",
+            "lemma": "haben",
+            "gloss": "had",
+            "level": "A1"
+          },
+          {
+            "word": "winzigen",
+            "lemma": "winzig",
+            "gloss": "piepkleine",
+            "level": "B1"
+          },
+          {
+            "word": "Laptop",
+            "lemma": "der Laptop",
+            "gloss": "laptop",
+            "level": "A2"
+          },
+          {
+            "word": "in",
+            "lemma": "in",
+            "gloss": "in",
+            "level": "A1"
+          },
+          {
+            "word": "seiner",
+            "lemma": "sein",
+            "gloss": "zijn",
+            "level": "A1"
+          },
+          {
+            "word": "Tasche",
+            "lemma": "die Tasche",
+            "gloss": "tas",
+            "level": "A1"
+          },
+          {
+            "word": "Zahlen",
+            "lemma": "die Zahl",
+            "gloss": "cijfers",
+            "level": "A2"
+          },
+          {
+            "word": "waren",
+            "lemma": "sein",
+            "gloss": "waren",
+            "level": "A1"
+          },
+          {
+            "word": "sehr",
+            "lemma": "sehr",
+            "gloss": "heel",
+            "level": "A1"
+          },
+          {
+            "word": "schnell",
+            "lemma": "schnell",
+            "gloss": "snel",
+            "level": "A1"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "konnte",
+            "lemma": "können",
+            "gloss": "konnte",
+            "level": "A1"
+          },
+          {
+            "word": "nicht",
+            "lemma": "nicht",
+            "gloss": "niet",
+            "level": "A1"
+          },
+          {
+            "word": "lesen",
+            "lemma": "lesen",
+            "gloss": "lezen",
+            "level": "A1"
+          },
+          {
+            "word": "Angst",
+            "lemma": "die Angst",
+            "gloss": "angst",
+            "level": "A2"
+          },
+          {
+            "word": "vor",
+            "lemma": "vor",
+            "gloss": "voor",
+            "level": "A1"
+          },
+          {
+            "word": "großen",
+            "lemma": "groß",
+            "gloss": "grote",
+            "level": "A1"
+          },
+          {
+            "word": "Menschen",
+            "lemma": "der Mensch",
+            "gloss": "mensen",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Am Montag ging Hugo zur Börse.",
+            "emotion": "neutral"
+          },
+          {
+            "text": "Er hatte einen winzigen Laptop in seiner Tasche.",
+            "emotion": "amused"
+          },
+          {
+            "text": "Die Zahlen waren sehr schnell, und er konnte nicht lesen.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Er hatte Angst vor den großen Menschen.",
+            "emotion": "whisper"
+          }
+        ]
+      },
+      {
+        "text": "Ein Mann sagte: „Kauf Bananen-Aktien!“ Hugo wollte alles kaufen. Er kaufte 1000 Bananen. Die Bananen lagen im Käfig, und Hugo konnte nicht schlafen.",
+        "translation": "Een man zei: 'Koop bananenaandelen!' Hugo wilde alles kopen. Hij kocht 1000 bananen. De bananen lagen in de kooi, en Hugo kon niet slapen.",
+        "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, sitting in his small cage completely filled with a mountain of 1000 yellow bananas, one banana on his head, wide awake eyes, a tiny laptop showing a banana stock chart.",
+        "questions": [
+          {
+            "kind": "who_what",
+            "prompt": "Was kaufte Hugo?",
+            "options": [
+              "1000 Bananen",
+              "1000 Äpfel",
+              "einen Laptop"
+            ],
+            "answer": "1000 Bananen",
+            "target": null
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Wollte Hugo alles kaufen?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": "wollte"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Konnte Hugo schlafen oder nicht schlafen?",
+            "options": [
+              "schlafen",
+              "nicht schlafen"
+            ],
+            "answer": "nicht schlafen",
+            "target": "konnte nicht"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Wer sagte „Kauf Bananen-Aktien“?",
+            "options": [
+              "ein Mann",
+              "Hugo",
+              "eine Frau"
+            ],
+            "answer": "ein Mann",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Mann",
+            "lemma": "der Mann",
+            "gloss": "man",
+            "level": "A1"
+          },
+          {
+            "word": "sagte",
+            "lemma": "sagen",
+            "gloss": "zei",
+            "level": "A1"
+          },
+          {
+            "word": "Kauf",
+            "lemma": "kaufen",
+            "gloss": "koop",
+            "level": "A1"
+          },
+          {
+            "word": "Bananen-Aktien",
+            "lemma": "die Bananen-Aktie",
+            "gloss": "bananenaandelen",
+            "level": "B1"
+          },
+          {
+            "word": "wollte",
+            "lemma": "wollen",
+            "gloss": "wilde",
+            "level": "A1"
+          },
+          {
+            "word": "alles",
+            "lemma": "alles",
+            "gloss": "alles",
+            "level": "A1"
+          },
+          {
+            "word": "kaufen",
+            "lemma": "kaufen",
+            "gloss": "kopen",
+            "level": "A1"
+          },
+          {
+            "word": "Er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "kaufte",
+            "lemma": "kaufen",
+            "gloss": "kocht",
+            "level": "A1"
+          },
+          {
+            "word": "Bananen",
+            "lemma": "die Banane",
+            "gloss": "bananen",
+            "level": "A1"
+          },
+          {
+            "word": "lagen",
+            "lemma": "liegen",
+            "gloss": "lagen",
+            "level": "A1"
+          },
+          {
+            "word": "im",
+            "lemma": "in",
+            "gloss": "in",
+            "level": "A1"
+          },
+          {
+            "word": "Käfig",
+            "lemma": "der Käfig",
+            "gloss": "kooi",
+            "level": "A2"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "konnte",
+            "lemma": "können",
+            "gloss": "konnte",
+            "level": "A1"
+          },
+          {
+            "word": "nicht",
+            "lemma": "nicht",
+            "gloss": "niet",
+            "level": "A1"
+          },
+          {
+            "word": "schlafen",
+            "lemma": "schlafen",
+            "gloss": "slapen",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Ein Mann sagte: „Kauf Bananen-Aktien!“ Hugo wollte alles kaufen.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Er kaufte 1000 Bananen.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Die Bananen lagen im Käfig, und Hugo konnte nicht schlafen.",
+            "emotion": "sleepy"
+          }
+        ]
+      },
+      {
+        "text": "Am Dienstag fielen die Preise. Hugo wollte verkaufen, aber er konnte nicht. Er hatte Angst und weinte sehr. „Ich hatte Angst“, sagte er zu seiner Mutter.",
+        "translation": "Op dinsdag zakten de prijzen. Hugo wilde verkopen, maar hij kon niet. Hij was bang en huilde heel erg. 'Ik was bang', zei hij tegen zijn moeder.",
+        "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, crying big tears in front of the tiny laptop, a red falling arrow on the screen, his mother (a bigger hamster with a blue scarf) patting his head, bananas around them.",
+        "questions": [
+          {
+            "kind": "yes_no",
+            "prompt": "Wollte Hugo verkaufen?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": "wollte"
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Konnte Hugo verkaufen?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Nein",
+            "target": "konnte nicht"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Hatte Hugo Angst oder war er froh?",
+            "options": [
+              "Angst",
+              "froh"
+            ],
+            "answer": "Angst",
+            "target": "hatte Angst"
+          },
+          {
+            "kind": "who_what",
+            "prompt": "Zu wem sagte Hugo „Ich hatte Angst“?",
+            "options": [
+              "zu seiner Mutter",
+              "zu dem Mann",
+              "zu dem Hund"
+            ],
+            "answer": "zu seiner Mutter",
+            "target": null
+          }
+        ],
+        "glossary": [
+          {
+            "word": "Am",
+            "lemma": "an",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "Dienstag",
+            "lemma": "der Dienstag",
+            "gloss": "dinsdag",
+            "level": "A1"
+          },
+          {
+            "word": "fielen",
+            "lemma": "fallen",
+            "gloss": "daalden",
+            "level": "A2"
+          },
+          {
+            "word": "Preise",
+            "lemma": "der Preis",
+            "gloss": "prijzen",
+            "level": "A2"
+          },
+          {
+            "word": "wollte",
+            "lemma": "wollen",
+            "gloss": "wilde",
+            "level": "A1"
+          },
+          {
+            "word": "verkaufen",
+            "lemma": "verkaufen",
+            "gloss": "verkopen",
+            "level": "A1"
+          },
+          {
+            "word": "aber",
+            "lemma": "aber",
+            "gloss": "maar",
+            "level": "A1"
+          },
+          {
+            "word": "er",
+            "lemma": "er",
+            "gloss": "hij",
+            "level": "A1"
+          },
+          {
+            "word": "konnte",
+            "lemma": "können",
+            "gloss": "konnte",
+            "level": "A1"
+          },
+          {
+            "word": "nicht",
+            "lemma": "nicht",
+            "gloss": "niet",
+            "level": "A1"
+          },
+          {
+            "word": "hatte",
+            "lemma": "haben",
+            "gloss": "had",
+            "level": "A1"
+          },
+          {
+            "word": "Angst",
+            "lemma": "die Angst",
+            "gloss": "angst",
+            "level": "A2"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "weinte",
+            "lemma": "weinen",
+            "gloss": "huilde",
+            "level": "A1"
+          },
+          {
+            "word": "sehr",
+            "lemma": "sehr",
+            "gloss": "heel",
+            "level": "A1"
+          },
+          {
+            "word": "Ich",
+            "lemma": "ich",
+            "gloss": "ik",
+            "level": "A1"
+          },
+          {
+            "word": "sagte",
+            "lemma": "sagen",
+            "gloss": "zei",
+            "level": "A1"
+          },
+          {
+            "word": "zu",
+            "lemma": "zu",
+            "gloss": "tegen",
+            "level": "A1"
+          },
+          {
+            "word": "seiner",
+            "lemma": "sein",
+            "gloss": "zijn",
+            "level": "A1"
+          },
+          {
+            "word": "Mutter",
+            "lemma": "die Mutter",
+            "gloss": "moeder",
+            "level": "A1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "Am Dienstag fielen die Preise.",
+            "emotion": "angry"
+          },
+          {
+            "text": "Hugo wollte verkaufen, aber er konnte nicht.",
+            "emotion": "angry"
+          },
+          {
+            "text": "Er hatte Angst und weinte sehr.",
+            "emotion": "whisper"
+          },
+          {
+            "text": "„Ich hatte Angst“, sagte er zu seiner Mutter.",
+            "emotion": "whisper"
+          }
+        ]
+      },
+      {
+        "text": "In der Nacht hatte Hugo Angst und aß alle 1000 Bananen. Am Morgen kostete eine Banane 1000 Euro, aber Hugo hatte nur noch Bananenschalen. Eine Firma kaufte die Schalen für eine Million Euro. Jetzt wollte Hugo nicht mehr an der Börse handeln.",
+        "translation": "In de nacht was Hugo bang en at hij alle 1000 bananen op. De volgende ochtend kostte een banaan 1000 euro, maar Hugo had alleen nog bananenschillen. Een bedrijf kocht de schillen voor een miljoen euro. Nu wilde Hugo niet meer op de beurs handelen.",
+        "image_prompt": "The same tiny golden hamster Hugo with red scarf and round glasses, sitting in a cage full of banana peels, his tummy very round, holding a cheque for one million euros, a big happy grin, tiny laptop closed on the side.",
+        "questions": [
+          {
+            "kind": "who_what",
+            "prompt": "Was machte Hugo in der Nacht?",
+            "options": [
+              "Er aß 1000 Bananen",
+              "Er schlief",
+              "Er kaufte Aktien"
+            ],
+            "answer": "Er aß 1000 Bananen",
+            "target": null
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Hatte Hugo in der Nacht Angst?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Ja",
+            "target": "hatte Angst"
+          },
+          {
+            "kind": "either_or",
+            "prompt": "Was hatte Hugo am Morgen: Bananen oder Bananenschalen?",
+            "options": [
+              "Bananen",
+              "Bananenschalen"
+            ],
+            "answer": "Bananenschalen",
+            "target": null
+          },
+          {
+            "kind": "yes_no",
+            "prompt": "Wollte Hugo am Ende an der Börse handeln?",
+            "options": [
+              "Ja",
+              "Nein"
+            ],
+            "answer": "Nein",
+            "target": "wollte"
+          }
+        ],
+        "glossary": [
+          {
+            "word": "In",
+            "lemma": "in",
+            "gloss": "in",
+            "level": "A1"
+          },
+          {
+            "word": "Nacht",
+            "lemma": "die Nacht",
+            "gloss": "nacht",
+            "level": "A1"
+          },
+          {
+            "word": "hatte",
+            "lemma": "haben",
+            "gloss": "had",
+            "level": "A1"
+          },
+          {
+            "word": "Angst",
+            "lemma": "die Angst",
+            "gloss": "angst",
+            "level": "A2"
+          },
+          {
+            "word": "und",
+            "lemma": "und",
+            "gloss": "en",
+            "level": "A1"
+          },
+          {
+            "word": "aß",
+            "lemma": "essen",
+            "gloss": "at",
+            "level": "A1"
+          },
+          {
+            "word": "alle",
+            "lemma": "all",
+            "gloss": "alle",
+            "level": "A1"
+          },
+          {
+            "word": "Bananen",
+            "lemma": "die Banane",
+            "gloss": "bananen",
+            "level": "A1"
+          },
+          {
+            "word": "Am",
+            "lemma": "an",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "Morgen",
+            "lemma": "der Morgen",
+            "gloss": "ochtend",
+            "level": "A1"
+          },
+          {
+            "word": "kostete",
+            "lemma": "kosten",
+            "gloss": "kostte",
+            "level": "A1"
+          },
+          {
+            "word": "Banane",
+            "lemma": "die Banane",
+            "gloss": "banaan",
+            "level": "A1"
+          },
+          {
+            "word": "Euro",
+            "lemma": "der Euro",
+            "gloss": "euro",
+            "level": "A1"
+          },
+          {
+            "word": "aber",
+            "lemma": "aber",
+            "gloss": "maar",
+            "level": "A1"
+          },
+          {
+            "word": "nur",
+            "lemma": "nur",
+            "gloss": "alleen",
+            "level": "A1"
+          },
+          {
+            "word": "noch",
+            "lemma": "noch",
+            "gloss": "nog",
+            "level": "A1"
+          },
+          {
+            "word": "Bananenschalen",
+            "lemma": "die Bananenschale",
+            "gloss": "bananenschillen",
+            "level": "B1"
+          },
+          {
+            "word": "Firma",
+            "lemma": "die Firma",
+            "gloss": "bedrijf",
+            "level": "A2"
+          },
+          {
+            "word": "kaufte",
+            "lemma": "kaufen",
+            "gloss": "kocht",
+            "level": "A1"
+          },
+          {
+            "word": "Schalen",
+            "lemma": "die Schale",
+            "gloss": "schillen",
+            "level": "A2"
+          },
+          {
+            "word": "für",
+            "lemma": "für",
+            "gloss": "voor",
+            "level": "A1"
+          },
+          {
+            "word": "Jetzt",
+            "lemma": "jetzt",
+            "gloss": "nu",
+            "level": "A1"
+          },
+          {
+            "word": "wollte",
+            "lemma": "wollen",
+            "gloss": "wilde",
+            "level": "A1"
+          },
+          {
+            "word": "nicht",
+            "lemma": "nicht",
+            "gloss": "niet",
+            "level": "A1"
+          },
+          {
+            "word": "mehr",
+            "lemma": "mehr",
+            "gloss": "meer",
+            "level": "A1"
+          },
+          {
+            "word": "an",
+            "lemma": "an",
+            "gloss": "op",
+            "level": "A1"
+          },
+          {
+            "word": "Börse",
+            "lemma": "die Börse",
+            "gloss": "beurs",
+            "level": "A2"
+          },
+          {
+            "word": "handeln",
+            "lemma": "handeln",
+            "gloss": "handelen",
+            "level": "B1"
+          }
+        ],
+        "voice": [
+          {
+            "text": "In der Nacht hatte Hugo Angst und aß alle 1000 Bananen.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Am Morgen kostete eine Banane 1000 Euro, aber Hugo hatte nur noch Bananenschalen.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Eine Firma kaufte die Schalen für eine Million Euro.",
+            "emotion": "surprised"
+          },
+          {
+            "text": "Jetzt wollte Hugo nicht mehr an der Börse handeln.",
+            "emotion": "amused"
+          }
+        ]
+      }
+    ]
+  }
+}

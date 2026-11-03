@@ -10,6 +10,7 @@ out/
 
 # Python
 .venv/
+.venv-local/
 __pycache__/
 *.pyc
 
@@ -20,3 +21,8 @@ supabase/.branches/
 # IDE
 .idea/
 .vscode/
+
+# Local audio checks
+pipeline/*.wav
+pipeline/*.png
+pipeline/voices/
