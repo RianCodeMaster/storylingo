@@ -4,7 +4,8 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "StoryLingo",
     short_name: "StoryLingo",
-    description: "Leer een taal met gekke verhalen, gebaren en vragen.",
+    // One manifest for every base language, so in English; each page has its own description in its language.
+    description: "Learn a language with crazy stories, gestures and questions.",
     start_url: "/",
     display: "standalone",
     background_color: "#0F172A",

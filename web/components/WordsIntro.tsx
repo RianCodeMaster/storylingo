@@ -127,7 +127,7 @@ export default function WordsIntro({
       </div>
       {missed && (
         <button className="primary" onClick={() => advance(step.queue, true)}>
-          {PHRASES[lang].next} →
+          {PHRASES[lang].next} <span className="arrow">→</span>
         </button>
       )}
       <p className="muted">{fill(dict.words.score, { correct: firstTry, total: words.length })}</p>

@@ -73,3 +73,6 @@ design and steps for new languages in `docs/meertaligheid.md`.
   `web/dictionaries/<lang>.json` through `useI18n()`; words the teacher says in the target language from `PHRASES`
   in `lib/speech.ts`. Story text keeps `dir="ltr"` so a right-to-left app works.
 - Never hard-code Dutch (or any language) in new code or prompts.
+- Base languages now: nl (live), en and ar (beta). `storylingo.py check <base>` must say "complete" before a base
+  language goes live; it checks the dictionary against nl.json (keys, placeholders, plural forms), the app setup,
+  every story file and the database. Right-to-left pages keep German text left to right (`dir="ltr"`, `p.story-text`).

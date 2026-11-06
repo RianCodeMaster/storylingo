@@ -157,20 +157,36 @@ Daarna is er twee soorten werk, en een taalpaar is altijd een combinatie van die
 
 ### Een nieuwe **basistaal** toevoegen (bijv. Engels, Arabisch, Duits)
 
-Goedkoop: geen stem, geen beelden, alleen tekst. **Engels is zo toegevoegd op 2026-11-06** (`en.json`, alle vier
-verhalen gelokaliseerd, paar en→de op `beta` via `20261106090000_open_en_de.sql`); nog te doen: stap 5 en 8.
+Goedkoop: geen stem, geen beelden, alleen tekst. **Gedaan:** Engels en Arabisch (2026-11-06), allebei op `beta`;
+nog te doen voor allebei: stap 6 en 9.
 
-1. Rij in `languages` met `is_base = true` (en `direction = 'rtl'` voor Arabisch), via een nieuwe migratie.
-2. Woordenboek `web/dictionaries/<code>.json`: kopieer `nl.json`, laat DeepSeek of Claude een eerste vertaling maken,
-   en laat een moedertaalspreker het nalezen. Dit is je verkooppraat; fouten kosten klanten. Zet de taal erbij in
-   `web/app/[lang]/dictionaries.ts` en in `LOCALES` en `LOCALE_NAMES` in `web/lib/locales.ts` (de naam in de taal
-   zelf: "العربية", niet "Arabisch"). Dan staat hij vanzelf in het taalmenu op de startpagina.
-3. Rij in `language_pairs` met status `planned` voor elk paar dat je wilt.
-4. `storylingo.py localize-all <code>`: alle bestaande verhalen krijgen een laag in die taal.
-5. Steekproef nalezen: een paar verhalen, vooral de uitleg bij de doelstructuren.
-6. Zelf testen als leerling met die basistaal (bij Arabisch ook: spiegelt alles goed, is de tekst leesbaar).
-7. Paar op `beta` (alleen voor jou of testers), daarna op `live`.
-8. Verkooppagina, prijs en juridische teksten (voorwaarden, privacy) in die taal.
+Alles wat een leerling in zijn eigen taal leest, komt uit precies twee bronnen:
+
+| Bron | Wat | Gemaakt door |
+|---|---|---|
+| `web/dictionaries/<code>.json` | elke knop, melding en uitleg in de app, met meervoudsvormen | met de hand / Claude, nalezen |
+| de basislaag per verhaal | samenvatting, vertaling per scène, betekenis van elk aantikbaar woord, betekenis + grammaticatip per doelstructuur, gebaaruitleg, kernwoorden | `localize` (DeepSeek) |
+
+Daar hoort één controle bij: **`storylingo.py check <code>`**. Die test het woordenboek tegen `nl.json` (elke tekst
+aanwezig, niets leeg, dezelfde `{plekhouders}`, alle meervoudsvormen die de taal nodig heeft: Arabisch heeft er zes),
+of de app de taal kent, of elk verhaalbestand een complete laag heeft, en of de database alles heeft wat de app leest.
+Hij eindigt met "complete" of met een lijst wat ontbreekt en hoe je het oplost. `localize` vult zelf al gaten: wat
+DeepSeek vergeet, vraagt hij daarna nog maximaal twee keer los na.
+
+1. Migratie: `languages.is_base = true` (en `direction = 'rtl'` voor een taal als Arabisch) en een rij in
+   `language_pairs` per paar, status `beta`.
+2. Woordenboek `web/dictionaries/<code>.json`: kopieer `nl.json` en vertaal het. Pijlen die "verder" betekenen wijzen
+   in een rechts-naar-linkstaal naar links (`التالي ←`).
+3. Zet de taal in `web/app/[lang]/dictionaries.ts` en in `LOCALES` en `LOCALE_NAMES` in `web/lib/locales.ts` (de naam
+   in de taal zelf: "العربية", niet "Arabisch"). Dan staat hij vanzelf in het taalmenu. Een schrift dat Jakarta niet
+   heeft (Arabisch, later bijv. Russisch) krijgt een eigen font in `app/[lang]/layout.tsx`, zoals Noto Sans Arabic.
+4. `storylingo.py localize-all <code>`: alle bestaande verhalen krijgen een laag in die taal (een paar cent).
+5. `storylingo.py check <code>` tot hij "complete" zegt.
+6. Moedertaalspreker laat nalezen: het woordenboek helemaal, en een paar verhalen, vooral de grammaticatips. Dit is je
+   verkooppraat; fouten kosten klanten.
+7. Zelf testen als leerling in die taal (bij rechts-naar-links ook: spiegelt alles, loopt het schrift aan elkaar).
+8. Paar op `live`.
+9. Verkooppagina, prijs en juridische teksten (voorwaarden, privacy) in die taal.
 
 ### Een nieuwe **doeltaal** toevoegen (bijv. Spaans, Engels, Frans)
 

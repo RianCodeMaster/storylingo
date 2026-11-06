@@ -13,7 +13,7 @@ Taal leren met absurde verhalen, gebaren en circling-vragen (TPRS). Fase 1 draai
    ```bash
    npm run dev -- -H 0.0.0.0
    ```
-   Open http://localhost:3000. Je komt op de taal van je browser (`/nl` of `/en`); bovenaan de startpagina kies je
+   Open http://localhost:3000. Je komt op de taal van je browser (`/nl`, `/en` of `/ar`); bovenaan de startpagina kies je
    een andere taal, en die keuze onthoudt de app. Op je telefoon (zelfde wifi): `http://<ip-van-je-pc>:3000`.
 
 Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
@@ -44,6 +44,8 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
   (`localize`). `generate` doet dat vanzelf voor elke basistaal met een paar op `beta` of `live`. Met de hand:
   `storylingo.py localize <slug> <basistaal>`, of voor alle verhalen `storylingo.py localize-all <basistaal>`.
   Zie [docs/meertaligheid.md](docs/meertaligheid.md).
+- **Is een basistaal compleet?** `storylingo.py check <basistaal>` (bijv. `check ar`) controleert alle app-teksten,
+  elk verhaal en de database, en zegt precies wat er ontbreekt.
 - **Beelden en stem, gratis op je eigen laptop.** Start eerst de lokale generator in een apart venster (in `pipeline`):
   ```bash
   .venv-local/Scripts/python localgen/server.py

@@ -173,6 +173,13 @@ def pair_bases(target: str, statuses: tuple[str, ...] = ("beta", "live")) -> lis
         return [r[0] for r in cur.fetchall()]
 
 
+def pair_targets(base: str) -> list[str]:
+    """The target languages this base language is paired with, whatever the pair's status."""
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute("select target_language from language_pairs where base_language = %s order by 1", (base,))
+        return [r[0] for r in cur.fetchall()]
+
+
 def _glossary_rows(cur, language: str, scene: Scene) -> list[dict]:
     """Every glossary lemma becomes a lexeme, so a tapped word can enter the learner's review queue."""
     rows = []
@@ -308,3 +315,59 @@ def list_stories() -> list[tuple]:
                from stories order by created_at"""
         )
         return cur.fetchall()
+
+
+def base_gaps(base: str) -> list[str]:
+    """What the app would miss for learners with this base language, read from the database itself."""
+    problems = []
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute("select is_base from languages where code = %s", (base,))
+        row = cur.fetchone()
+        if not row:
+            return [f"no row in languages for '{base}'"]
+        if not row[0]:
+            problems.append(f"languages.is_base is false for '{base}'")
+        cur.execute("select target_language, status from language_pairs where base_language = %s", (base,))
+        pairs = cur.fetchall()
+        if not pairs:
+            problems.append(f"no language_pairs with base '{base}'")
+        # Every check below is per story: (story title, what is missing).
+        checks = {
+            "no story layer (summary)": """
+                select s.title from stories s where s.id = any(%(ids)s) and not exists
+                  (select 1 from story_localizations l where l.story_id = s.id and l.base_language = %(base)s)""",
+            "scenes without translation": """
+                select s.title || ' #' || sc.position from scenes sc join stories s on s.id = sc.story_id
+                where s.id = any(%(ids)s) and not exists
+                  (select 1 from scene_localizations l where l.scene_id = sc.id and l.base_language = %(base)s
+                   and l.translation <> '')""",
+            "target structures without meaning": """
+                select s.title || ': ' || x.text from story_targets t join stories s on s.id = t.story_id
+                join lexemes x on x.id = t.lexeme_id where s.id = any(%(ids)s) and not exists
+                  (select 1 from lexeme_glosses g where g.lexeme_id = x.id and g.base_language = %(base)s)""",
+            "gestures without explanation": """
+                select s.title || ': ' || x.text from story_targets t join stories s on s.id = t.story_id
+                join lexemes x on x.id = t.lexeme_id join gestures ge on ge.concept_id = x.concept_id
+                where s.id = any(%(ids)s) and not exists
+                  (select 1 from gesture_localizations l where l.gesture_id = ge.id and l.base_language = %(base)s)""",
+            "core words without meaning": """
+                select s.title || ': ' || x.text from story_words w join stories s on s.id = w.story_id
+                join lexemes x on x.id = w.lexeme_id where s.id = any(%(ids)s) and not exists
+                  (select 1 from lexeme_glosses g where g.lexeme_id = x.id and g.base_language = %(base)s)""",
+            "glossary words without meaning (review cards)": """
+                select distinct s.title || ': ' || (e->>'lemma') from scenes sc join stories s on s.id = sc.story_id,
+                jsonb_array_elements(sc.glossary) e where s.id = any(%(ids)s) and not exists
+                  (select 1 from lexeme_glosses g where g.lexeme_id = (e->>'lexeme_id')::uuid
+                   and g.base_language = %(base)s)""",
+        }
+        cur.execute(
+            "select array_agg(id) from stories where status = 'published' and language_code = any(%s)",
+            ([t for t, _ in pairs],),
+        )
+        ids = cur.fetchone()[0] or []
+        for label, sql in checks.items():
+            cur.execute(sql, {"ids": ids, "base": base})
+            rows = [r[0] for r in cur.fetchall()]
+            if rows:
+                problems.append(f"{label}: {len(rows)} -> " + ", ".join(rows[:5]) + (" …" if len(rows) > 5 else ""))
+    return problems

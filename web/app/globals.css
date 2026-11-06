@@ -312,3 +312,30 @@ button.mic.listening {
   font-size: 0.85rem;
   gap: 12px;
 }
+
+/* Right-to-left pages: "forward" points left. */
+[dir="rtl"] .arrow {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+/* Arabic pages: Arabic letters from Noto Sans Arabic, Latin ones (the German story) still from Jakarta. */
+html[lang="ar"] body {
+  font-family: var(--font-arabic), var(--font-jakarta), system-ui, sans-serif;
+}
+
+/* The story itself (German, marked dir="ltr") looks the same whatever the learner's language. */
+html[lang="ar"] [dir="ltr"] {
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+/* A German title on a right-to-left page still starts where the page starts. */
+html[dir="rtl"] h1[dir="ltr"] {
+  text-align: right;
+}
+
+/* German paragraphs read left to right, also inside a right-to-left page. */
+[dir="rtl"] p.story-text {
+  direction: ltr;
+  text-align: left;
+}

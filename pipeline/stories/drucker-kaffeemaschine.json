@@ -44,7 +44,10 @@
     "localize_words_nl_output_tokens": 254,
     "localize_en_version": "localize-v1",
     "localize_en_input_tokens": 1660,
-    "localize_en_output_tokens": 7975
+    "localize_en_output_tokens": 7975,
+    "localize_ar_version": "localize-v2",
+    "localize_ar_input_tokens": 1694,
+    "localize_ar_output_tokens": 7968
   },
   "story": {
     "title": "Klaus, der Drucker mit dem großen Herzen",
@@ -1212,6 +1215,212 @@
     ]
   },
   "localizations": {
+    "ar": {
+      "summary": "تقع الطابعة كلاوس في حب آلة القهوة كيكي، فتطبع ألف رسالة حب، ويريد مدير النظام استبدالها، لكن لكيكي خططًا أخرى.",
+      "gestures": {
+        "because": "ضع يدك كقمع عند فمك وأمِل رأسك ببطء إلى الخلف كأنك تقول: لأن... لهذا السبب!",
+        "so_that": "اجعل يديك كوعاء وادفعهما إلى الأمام بعينين واسعتين كأنك تقدم الهدف لشخص.",
+        "nevertheless": "ضع يديك على خصرك، واضرب الأرض بقدمك مرة بقوة، وارفع ذقنك كطفل عنيد."
+      },
+      "targets": {
+        "weil": {
+          "gloss": "لأن",
+          "note": "في الألمانية بعد weil يأتي الفعل في آخر الجملة الثانوية، بخلاف العربية."
+        },
+        "damit": {
+          "gloss": "لكي",
+          "note": "بعد damit يأتي الفعل غالبًا في آخر الجملة، وتشبه لكي في العربية."
+        },
+        "trotzdem": {
+          "gloss": "رغم ذلك",
+          "note": "trotzdem تبدأ الجملة عادة ويأتي الفعل بعدها مباشرة، بخلاف رغم أن."
+        }
+      },
+      "scenes": [
+        {
+          "translation": "كلاوس طابعة. يعمل في مكتب تقنية معلومات كبير في برلين ويحب آلة القهوة كيكي لأنها دافئة وجميلة جدًا. لا يستطيع الكلام لأنه طابعة فقط. لذلك يطبع كل صباح رسالة حب لكي تقرأها كيكي.",
+          "glosses": {
+            "ist": "هو",
+            "Drucker": "طابعة",
+            "Er": "هو",
+            "arbeitet": "يعمل",
+            "in": "في",
+            "großen": "كبير",
+            "IT-Büro": "مكتب تقنية معلومات",
+            "und": "و",
+            "liebt": "يحب",
+            "Kaffeemaschine": "آلة القهوة",
+            "weil": "لأن",
+            "sie": "هي",
+            "so": "جدًا",
+            "warm": "دافئة",
+            "schön": "جميلة",
+            "kann": "يستطيع",
+            "nicht": "لا",
+            "sprechen": "يتكلم",
+            "nur": "فقط",
+            "Deshalb": "لذلك",
+            "druckt": "يطبع",
+            "jeden": "كل",
+            "Morgen": "صباح",
+            "Liebesbrief": "رسالة حب",
+            "damit": "لكي",
+            "ihn": "إياه",
+            "lesen": "تقرأ"
+          }
+        },
+        {
+          "translation": "يطبع كلاوس 1000 صفحة من رسائل الحب لكي تستطيع كيكي قراءة كل كلمة. الزملاء غاضبون لأن المكتب كله أصبح أبيض الآن. ومع ذلك يواصل كلاوس الطباعة. يطبع قلبًا كبيرًا مثل طاولة.",
+          "glosses": {
+            "druckt": "يطبع",
+            "Seiten": "صفحات",
+            "Liebesbriefe": "رسائل حب",
+            "damit": "لكي",
+            "jedes": "كل",
+            "Wort": "كلمة",
+            "lesen": "تقرأ",
+            "kann": "تستطيع",
+            "Kollegen": "الزملاء",
+            "sind": "هم",
+            "wütend": "غاضبون",
+            "weil": "لأن",
+            "ganze": "كامل",
+            "Büro": "المكتب",
+            "jetzt": "الآن",
+            "weiß": "أبيض",
+            "ist": "هو",
+            "Trotzdem": "رغم ذلك",
+            "weiter": "يواصل",
+            "Er": "هو",
+            "Herz": "قلبًا",
+            "so": "بهذا",
+            "groß": "كبيرًا",
+            "wie": "مثل",
+            "Tisch": "طاولة"
+          }
+        },
+        {
+          "translation": "السيد شتيرن هو مدير النظام. يقول: أريد استبدال هذه الطابعة لأنها مجنونة تمامًا. يطلب طابعة جديدة لكي يختفي كلاوس أخيرًا. ومع ذلك يواصل كلاوس الطباعة كل يوم.",
+          "glosses": {
+            "Herr": "السيد",
+            "ist": "هو",
+            "Systemadministrator": "مدير النظام",
+            "Er": "هو",
+            "sagt": "يقول",
+            "Ich": "أنا",
+            "will": "أريد",
+            "diesen": "هذه",
+            "Drucker": "الطابعة",
+            "ersetzen": "أستبدل",
+            "weil": "لأن",
+            "völlig": "تمامًا",
+            "verrückt": "مجنونة",
+            "bestellt": "يطلب",
+            "neuen": "جديدة",
+            "damit": "لكي",
+            "endlich": "أخيرًا",
+            "verschwindet": "يختفي",
+            "Trotzdem": "رغم ذلك",
+            "druckt": "يطبع",
+            "jeden": "كل",
+            "Tag": "يوم",
+            "weiter": "يواصل"
+          }
+        },
+        {
+          "translation": "يوم الاثنين تصل الطابعة الجديدة كيفن. كلاوس خائف جدًا لأنه لا يريد أن يفقد كيكي. يطبع 1000 صفحة في دقيقة لكي يرى الجميع أنه أفضل طابعة في العالم. ومع ذلك يسحب السيد شتيرن القابس.",
+          "glosses": {
+            "Am": "في",
+            "Montag": "الاثنين",
+            "kommt": "تصل",
+            "neue": "الجديدة",
+            "Drucker": "الطابعة",
+            "hat": "لديه",
+            "große": "شديدة",
+            "Angst": "خوف",
+            "weil": "لأن",
+            "er": "هو",
+            "nicht": "لا",
+            "verlieren": "يفقد",
+            "will": "يريد",
+            "druckt": "يطبع",
+            "Seiten": "صفحات",
+            "in": "في",
+            "Minute": "دقيقة",
+            "damit": "لكي",
+            "alle": "الجميع",
+            "sehen": "يرون",
+            "ist": "هو",
+            "beste": "أفضل",
+            "Welt": "العالم",
+            "Trotzdem": "رغم ذلك",
+            "zieht": "يسحب",
+            "Herr": "السيد",
+            "Stecker": "القابس",
+            "heraus": "خارجًا"
+          }
+        },
+        {
+          "translation": "فجأة تصبح كيكي ساخنة جدًا وتبصق قهوة على السيد شتيرن لأنه يؤذي كلاوس. يأتي الرئيس ويصرخ: يبقى كلاوس إلى الأبد لكي لا يشعر المكتب بالملل أبدًا! ومع ذلك، القصة لم تنتهِ بعد: ترى كيكي الطابعة الجديدة كيفن وتكتب برغوة القهوة: أنت لطيف أيضًا. كلاوس حزين خمس دقائق فقط ثم يطبع رسالة حب للمحمصة.",
+          "glosses": {
+            "Plötzlich": "فجأة",
+            "wird": "تصبح",
+            "sehr": "جدًا",
+            "heiß": "ساخنة",
+            "und": "و",
+            "spuckt": "تبصق",
+            "Kaffee": "قهوة",
+            "auf": "على",
+            "Herrn": "السيد",
+            "weil": "لأن",
+            "er": "هو",
+            "wehtut": "يؤذي",
+            "Chef": "الرئيس",
+            "kommt": "يأتي",
+            "ruft": "يصرخ",
+            "bleibt": "يبقى",
+            "für": "إلى",
+            "immer": "الأبد",
+            "damit": "لكي",
+            "Büro": "المكتب",
+            "nie": "أبدًا",
+            "langweilig": "مملًا",
+            "Trotzdem": "رغم ذلك",
+            "ist": "هو",
+            "Geschichte": "القصة",
+            "noch": "بعد",
+            "nicht": "لم",
+            "zu": "إلى",
+            "Ende": "النهاية",
+            "sieht": "ترى",
+            "neuen": "الجديدة",
+            "Drucker": "الطابعة",
+            "schreibt": "تكتب",
+            "mit": "بـ",
+            "Kaffeeschaum": "رغوة القهوة",
+            "Du": "أنت",
+            "bist": "تكون",
+            "auch": "أيضًا",
+            "süß": "لطيف",
+            "nur": "فقط",
+            "Minuten": "دقائق",
+            "traurig": "حزين",
+            "druckt": "يطبع",
+            "dann": "ثم",
+            "Liebesbrief": "رسالة حب",
+            "Toaster": "المحمصة"
+          }
+        }
+      ],
+      "words": {
+        "der Drucker": "الطابعة",
+        "die Kaffeemaschine": "آلة القهوة",
+        "der Liebesbrief": "رسالة الحب",
+        "das Herz": "القلب",
+        "der Stecker": "القابس",
+        "der Toaster": "المحمصة"
+      }
+    },
     "en": {
       "summary": "Printer Klaus falls hopelessly in love with coffee machine Kiki, prints a thousand love letters, and the system administrator wants to replace him — but Kiki has very different plans.",
       "gestures": {

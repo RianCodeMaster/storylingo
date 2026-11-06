@@ -6,6 +6,7 @@ import { DEFAULT_LOCALE } from "@/lib/locales";
 const dictionaries = {
   nl: () => import("@/dictionaries/nl.json").then((module) => module.default),
   en: () => import("@/dictionaries/en.json").then((module) => module.default),
+  ar: () => import("@/dictionaries/ar.json").then((module) => module.default),
 };
 
 export type Locale = keyof typeof dictionaries;

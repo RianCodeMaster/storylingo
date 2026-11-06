@@ -8,6 +8,7 @@
     python storylingo.py core <slug>                           (re)choose the ~6 core words taught with a picture before the story
     python storylingo.py localize <slug> <base>                translation, word meanings and gestures for one base language
     python storylingo.py localize-all <base>                   the same for every story whose language that base learns
+    python storylingo.py check <base>                          is a base language complete (app texts, stories, database)?
     python storylingo.py voice <slug>                          (re)choose an emotion per sentence for the narrator
     python storylingo.py media <slug> [local|gemini|fake] [images|audio]   images (from that provider) + narration (voices.yaml)
     python storylingo.py media-clear <slug> [images|audio]     remove images and/or narration of a story
@@ -26,6 +27,7 @@ load_dotenv(Path(__file__).parent / ".env")
 
 import db  # noqa: E402  (reads DATABASE_URL, so .env must be loaded first)
 import media  # noqa: E402
+from check import check
 from core import add_core_words
 from glossary import add_glossary
 from llm import write_story
@@ -259,6 +261,15 @@ def main(argv: list[str]) -> None:
             add_localization(brief, story, generation, localizations, arg)
             save(brief, story, generation, localizations)
             db.save_localization(brief, story, arg, localizations[arg])
+    elif command == "check":
+        targets = set(db.pair_targets(arg))
+        stories = {}
+        for path in sorted(STORIES.glob("*.json")):
+            brief, story, generation, localizations = read(path.stem)
+            if brief.language in targets:
+                stories[path.stem] = (brief, story, localizations)
+        if not check(arg, stories):
+            raise SystemExit(1)
     elif command == "voice":
         brief, story, generation, localizations = read(arg)
         generation.update(add_voice(story))

@@ -91,7 +91,7 @@ function QuestionView(props: {
             {picked === question.answer ? `${props.line} 🎉` : `${props.line} → ${question.answer}`}
           </p>
           <button className="primary" onClick={props.onNext}>
-            {PHRASES[props.lang].next} →
+            {PHRASES[props.lang].next} <span className="arrow">→</span>
           </button>
         </>
       )}
