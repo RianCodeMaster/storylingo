@@ -44,6 +44,13 @@ export async function listStories(base: string): Promise<StoryCard[]> {
   return data.map(({ story_localizations, ...s }) => ({ ...s, summary: story_localizations[0]?.summary ?? null }));
 }
 
+/** The stories this learner has played to the end at least once. */
+export async function finishedStories(): Promise<Set<string>> {
+  const { data, error } = await supabase().from("sessions").select("story_id").not("completed_at", "is", null);
+  if (error) throw error;
+  return new Set(data.map((s) => s.story_id as string));
+}
+
 export async function loadStory(id: string, base: string): Promise<Story> {
   const { data, error } = await supabase()
     .from("stories")

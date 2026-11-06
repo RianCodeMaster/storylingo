@@ -13,7 +13,9 @@
     "tagline": "Gekke verhalen, grote gebaren, heel veel vragen.",
     "due": { "one": "🔁 {n} woord om te herhalen", "other": "🔁 {n} woorden om te herhalen" },
     "dueHint": "Even herhalen voordat je een nieuw verhaal begint.",
-    "empty": "Nog geen gepubliceerde verhalen."
+    "empty": "Nog geen gepubliceerde verhalen.",
+    "finished": "✓ Uitgespeeld · tik om opnieuw te doen",
+    "language": "Taal van de app"
   },
   "story": {
     "loading": "Verhaal laden…",
@@ -28,6 +30,14 @@
     "toQuestions": "Vragen →",
     "skipped": "✓ {names} zit erin: die vragen sla ik over.",
     "score": "{correct} van {total} goed",
+    "speak": "🎤 Zeg het",
+    "listening": "🎤 Ik luister…",
+    "autoListen": "Elke vraag hardop",
+    "notMatched": "Dat herken ik niet als een van de antwoorden. Zeg het nog eens, of tik.",
+    "nothingHeard": "Ik hoorde niets. Zeg het nog eens, of tik.",
+    "micBlocked": "Geen toegang tot je microfoon. Sta het toe in je browser om hardop te antwoorden.",
+    "micFailed": "Spraakherkenning werkt nu niet in deze browser. Tik je antwoord.",
+    "playAgain": "↻ Nog een keer spelen",
     "gesturesOnceMore": "Doe de gebaren nog één keer na voordat je stopt.",
     "lookups": {
       "one": "{n} opgezocht woord komt morgen terug in je herhaling.",

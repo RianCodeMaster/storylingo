@@ -288,3 +288,27 @@ mark {
   object-fit: cover;
   border-radius: 10px;
 }
+
+/* Answering out loud: the microphone pulses while it listens. */
+button.mic.listening {
+  border-color: var(--accent);
+  animation: pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Language menu on the home page: the current language in bold, the others as links. */
+.languages {
+  font-size: 0.85rem;
+  gap: 12px;
+}

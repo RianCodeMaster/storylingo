@@ -3,7 +3,7 @@
  * Later the pipeline produces expressive audio files and this becomes the fallback.
  */
 
-const LANG_TAGS: Record<string, string> = { de: "de-DE", nl: "nl-NL", es: "es-ES", fr: "fr-FR", en: "en-US" };
+export const LANG_TAGS: Record<string, string> = { de: "de-DE", nl: "nl-NL", es: "es-ES", fr: "fr-FR", en: "en-US" };
 
 function pickVoice(tag: string): SpeechSynthesisVoice | undefined {
   const voices = window.speechSynthesis.getVoices().filter((v) => v.lang.replace("_", "-").startsWith(tag));
@@ -11,7 +11,7 @@ function pickVoice(tag: string): SpeechSynthesisVoice | undefined {
   return voices.find((v) => /natural|online|google/i.test(v.name)) ?? voices[0];
 }
 
-export function speak(text: string, language: string, mood: "story" | "cheer" | "oops" = "story") {
+export function speak(text: string, language: string, mood: "story" | "cheer" | "oops" = "story", onEnd?: () => void) {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
   const synth = window.speechSynthesis;
   synth.cancel();
@@ -31,18 +31,23 @@ export function speak(text: string, language: string, mood: "story" | "cheer" | 
     utterance.rate = 0.9;
     utterance.pitch = 0.7;
   }
+  if (onEnd) utterance.onend = onEnd;
   synth.speak(utterance);
 }
 
 let player: HTMLAudioElement | null = null;
 
-/** Play the generated narration when there is one; otherwise fall back to the browser voice. */
-export function narrate(audioUrl: string | null, text: string, language: string) {
+/**
+ * Play the generated narration when there is one; otherwise fall back to the browser voice.
+ * `onEnd` runs when it finished playing, not when it was stopped (used to start listening for an answer).
+ */
+export function narrate(audioUrl: string | null, text: string, language: string, onEnd?: () => void) {
   stopSpeaking();
-  if (!audioUrl) return speak(text, language);
+  if (!audioUrl) return speak(text, language, "story", onEnd);
   player ??= new Audio();
+  player.onended = onEnd ?? null;
   player.src = audioUrl;
-  player.play().catch(() => speak(text, language));
+  player.play().catch(() => speak(text, language, "story", onEnd));
 }
 
 /**
@@ -68,6 +73,7 @@ export function feedback(correct: boolean, language: string): string {
   const url = `${window.location.origin}/sb/storage/v1/object/public/assets/feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.wav?v=${FEEDBACK_VERSION}`;
   stopSpeaking();
   player ??= new Audio();
+  player.onended = null;
   player.src = url;
   player.play().catch(() => speak(lines[n], language, correct ? "cheer" : "oops"));
   return lines[n];

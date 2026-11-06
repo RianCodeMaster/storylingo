@@ -13,6 +13,7 @@ export default function StoryLoader() {
   const { lang, dict, fill } = useI18n();
   const [ready, setReady] = useState<{ story: Story; userId: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [round, setRound] = useState(0); // a new key starts the story from the beginning
 
   useEffect(() => {
     (async () => {
@@ -24,5 +25,5 @@ export default function StoryLoader() {
 
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
   if (!ready) return <main><p className="muted">{dict.story.loading}</p></main>;
-  return <Player {...ready} />;
+  return <Player key={round} {...ready} onRestart={() => setRound((r) => r + 1)} />;
 }

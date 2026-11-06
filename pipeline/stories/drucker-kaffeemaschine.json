@@ -41,7 +41,10 @@
     "core_version": "core-v1",
     "core_input_tokens": 2002,
     "core_output_tokens": 485,
-    "localize_words_nl_output_tokens": 254
+    "localize_words_nl_output_tokens": 254,
+    "localize_en_version": "localize-v1",
+    "localize_en_input_tokens": 1660,
+    "localize_en_output_tokens": 7975
   },
   "story": {
     "title": "Klaus, der Drucker mit dem großen Herzen",
@@ -1209,6 +1212,212 @@
     ]
   },
   "localizations": {
+    "en": {
+      "summary": "Printer Klaus falls hopelessly in love with coffee machine Kiki, prints a thousand love letters, and the system administrator wants to replace him — but Kiki has very different plans.",
+      "gestures": {
+        "because": "Make a funnel with your hand at your mouth and slowly nod your head back as if saying, 'because... yes, that's why!'",
+        "so_that": "Cup your hands and push them forward with wide eyes, as if handing the goal to someone.",
+        "nevertheless": "Put your hands on your hips, stamp once hard on the floor, and lift your chin like a stubborn toddler."
+      },
+      "targets": {
+        "weil": {
+          "gloss": "because",
+          "note": "Subordinating conjunction: the verb goes to the end, unlike in English."
+        },
+        "damit": {
+          "gloss": "so that",
+          "note": "Subordinating conjunction: the verb goes to the end."
+        },
+        "trotzdem": {
+          "gloss": "nevertheless",
+          "note": "Adverb: it starts the clause and the verb comes second."
+        }
+      },
+      "scenes": [
+        {
+          "translation": "Klaus is a printer. He works in a big IT office in Berlin and loves the coffee machine Kiki because she is so warm and beautiful. He cannot speak because he is only a printer. So every morning he prints a love letter so that Kiki can read it.",
+          "glosses": {
+            "ist": "is",
+            "Drucker": "printer",
+            "Er": "he",
+            "arbeitet": "works",
+            "in": "in",
+            "großen": "big",
+            "IT-Büro": "IT office",
+            "und": "and",
+            "liebt": "loves",
+            "Kaffeemaschine": "coffee machine",
+            "weil": "because",
+            "sie": "she",
+            "so": "so",
+            "warm": "warm",
+            "schön": "beautiful",
+            "kann": "can",
+            "nicht": "not",
+            "sprechen": "speak",
+            "nur": "only",
+            "Deshalb": "therefore",
+            "druckt": "prints",
+            "jeden": "every",
+            "Morgen": "morning",
+            "Liebesbrief": "love letter",
+            "damit": "so that",
+            "ihn": "it",
+            "lesen": "read"
+          }
+        },
+        {
+          "translation": "Klaus prints 1,000 pages of love letters so that Kiki can read every word. The colleagues are angry because the whole office is now white. Nevertheless, Klaus keeps printing. He prints a heart as big as a table.",
+          "glosses": {
+            "druckt": "prints",
+            "Seiten": "pages",
+            "Liebesbriefe": "love letters",
+            "damit": "so that",
+            "jedes": "every",
+            "Wort": "word",
+            "lesen": "read",
+            "kann": "can",
+            "Kollegen": "colleagues",
+            "sind": "are",
+            "wütend": "angry",
+            "weil": "because",
+            "ganze": "whole",
+            "Büro": "office",
+            "jetzt": "now",
+            "weiß": "white",
+            "ist": "is",
+            "Trotzdem": "nevertheless",
+            "weiter": "continues",
+            "Er": "he",
+            "Herz": "heart",
+            "so": "as",
+            "groß": "big",
+            "wie": "as",
+            "Tisch": "table"
+          }
+        },
+        {
+          "translation": "Mr. Stirn is the system administrator. He says, 'I want to replace this printer because it is completely crazy.' He orders a new printer so that Klaus finally disappears. Nevertheless, Klaus keeps printing every day.",
+          "glosses": {
+            "Herr": "Mr.",
+            "ist": "is",
+            "Systemadministrator": "system administrator",
+            "Er": "he",
+            "sagt": "says",
+            "Ich": "I",
+            "will": "want",
+            "diesen": "this",
+            "Drucker": "printer",
+            "ersetzen": "replace",
+            "weil": "because",
+            "völlig": "completely",
+            "verrückt": "crazy",
+            "bestellt": "orders",
+            "neuen": "new",
+            "damit": "so that",
+            "endlich": "finally",
+            "verschwindet": "disappears",
+            "Trotzdem": "nevertheless",
+            "druckt": "prints",
+            "jeden": "every",
+            "Tag": "day",
+            "weiter": "continues"
+          }
+        },
+        {
+          "translation": "On Monday the new printer Kevin arrives. Klaus is very afraid because he does not want to lose Kiki. He prints 1,000 pages in a minute so that everyone can see: he is the best printer in the world. Nevertheless, Mr. Stirn pulls out the plug.",
+          "glosses": {
+            "Am": "on",
+            "Montag": "Monday",
+            "kommt": "arrives",
+            "neue": "new",
+            "Drucker": "printer",
+            "hat": "has",
+            "große": "great",
+            "Angst": "fear",
+            "weil": "because",
+            "er": "he",
+            "nicht": "not",
+            "verlieren": "lose",
+            "will": "wants",
+            "druckt": "prints",
+            "Seiten": "pages",
+            "in": "in",
+            "Minute": "minute",
+            "damit": "so that",
+            "alle": "everyone",
+            "sehen": "see",
+            "ist": "is",
+            "beste": "best",
+            "Welt": "world",
+            "Trotzdem": "nevertheless",
+            "zieht": "pulls",
+            "Herr": "Mr.",
+            "Stecker": "plug",
+            "heraus": "out"
+          }
+        },
+        {
+          "translation": "Suddenly Kiki gets very hot and spits coffee on Mr. Stirn because he is hurting Klaus. The boss comes and shouts, 'Klaus stays forever so that the office never gets boring!' Nevertheless, the story is not over yet: Kiki sees the new printer Kevin and writes with coffee foam, 'You're sweet too.' Klaus is sad for only five minutes and then prints a love letter for the toaster.",
+          "glosses": {
+            "Plötzlich": "suddenly",
+            "wird": "becomes",
+            "sehr": "very",
+            "heiß": "hot",
+            "und": "and",
+            "spuckt": "spits",
+            "Kaffee": "coffee",
+            "auf": "on",
+            "Herrn": "Mr.",
+            "weil": "because",
+            "er": "he",
+            "wehtut": "hurts",
+            "Chef": "boss",
+            "kommt": "comes",
+            "ruft": "shouts",
+            "bleibt": "stays",
+            "für": "for",
+            "immer": "forever",
+            "damit": "so that",
+            "Büro": "office",
+            "nie": "never",
+            "langweilig": "boring",
+            "Trotzdem": "nevertheless",
+            "ist": "is",
+            "Geschichte": "story",
+            "noch": "yet",
+            "nicht": "not",
+            "zu": "to",
+            "Ende": "end",
+            "sieht": "sees",
+            "neuen": "new",
+            "Drucker": "printer",
+            "schreibt": "writes",
+            "mit": "with",
+            "Kaffeeschaum": "coffee foam",
+            "Du": "you",
+            "bist": "are",
+            "auch": "also",
+            "süß": "sweet",
+            "nur": "only",
+            "Minuten": "minutes",
+            "traurig": "sad",
+            "druckt": "prints",
+            "dann": "then",
+            "Liebesbrief": "love letter",
+            "Toaster": "toaster"
+          }
+        }
+      ],
+      "words": {
+        "der Drucker": "the printer",
+        "die Kaffeemaschine": "the coffee machine",
+        "der Liebesbrief": "the love letter",
+        "das Herz": "the heart",
+        "der Stecker": "the plug",
+        "der Toaster": "the toaster"
+      }
+    },
     "nl": {
       "summary": "Printer Klaus wordt smoorverliefd op koffiemachine Kiki, print duizend liefdesbrieven, en de systeembeheerder wil hem vervangen — maar Kiki blijkt heel andere plannen te hebben.",
       "gestures": {

@@ -157,12 +157,14 @@ Daarna is er twee soorten werk, en een taalpaar is altijd een combinatie van die
 
 ### Een nieuwe **basistaal** toevoegen (bijv. Engels, Arabisch, Duits)
 
-Goedkoop: geen stem, geen beelden, alleen tekst.
+Goedkoop: geen stem, geen beelden, alleen tekst. **Engels is zo toegevoegd op 2026-11-06** (`en.json`, alle vier
+verhalen gelokaliseerd, paar en→de op `beta` via `20261106090000_open_en_de.sql`); nog te doen: stap 5 en 8.
 
 1. Rij in `languages` met `is_base = true` (en `direction = 'rtl'` voor Arabisch), via een nieuwe migratie.
 2. Woordenboek `web/dictionaries/<code>.json`: kopieer `nl.json`, laat DeepSeek of Claude een eerste vertaling maken,
    en laat een moedertaalspreker het nalezen. Dit is je verkooppraat; fouten kosten klanten. Zet de taal erbij in
-   `web/app/[lang]/dictionaries.ts` en `LOCALES` in `web/proxy.ts`.
+   `web/app/[lang]/dictionaries.ts` en in `LOCALES` en `LOCALE_NAMES` in `web/lib/locales.ts` (de naam in de taal
+   zelf: "العربية", niet "Arabisch"). Dan staat hij vanzelf in het taalmenu op de startpagina.
 3. Rij in `language_pairs` met status `planned` voor elk paar dat je wilt.
 4. `storylingo.py localize-all <code>`: alle bestaande verhalen krijgen een laag in die taal.
 5. Steekproef nalezen: een paar verhalen, vooral de uitleg bij de doelstructuren.
@@ -180,6 +182,8 @@ Duurder: hier zit het echte werk.
    (één klasse in `media.py`, één regel in `voices.yaml`).
 2. **Zinnen van de leraar** ("¡Sí! ¡Exacto!", "Siguiente", "¡Terminado!") toevoegen in `FEEDBACK` in
    `storylingo.py` en in `PHRASES` in `web/lib/speech.ts`, dan `storylingo.py feedback <code>`.
+   Voor hardop antwoorden: getallen en ja/nee-varianten van die taal in `WORDS` in `web/lib/listen.ts`
+   (de herkenner schrijft "1000" waar het verhaal "tausend" heeft), en de taalcode in `LANG_TAGS` (`speech.ts`).
 3. **Taal in de pipeline**: naam in `LANGUAGE_NAMES` (`prompts.py`), en controleer of DeepSeek goed schrijft in die
    taal. Bij Duits maakte het fouten ("der beste Hacker" voor een vrouw), dus elke doeltaal heeft een moedertaalcheck nodig.
 4. **Curriculum**: per niveau (A1–B2) de doelstructuren van die taal op een rij. Daaruit maak je de briefs.

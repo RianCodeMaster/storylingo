@@ -13,7 +13,8 @@ Taal leren met absurde verhalen, gebaren en circling-vragen (TPRS). Fase 1 draai
    ```bash
    npm run dev -- -H 0.0.0.0
    ```
-   Open http://localhost:3000 (je komt vanzelf op `/nl`). Op je telefoon (zelfde wifi): `http://<ip-van-je-pc>:3000`.
+   Open http://localhost:3000. Je komt op de taal van je browser (`/nl` of `/en`); bovenaan de startpagina kies je
+   een andere taal, en die keuze onthoudt de app. Op je telefoon (zelfde wifi): `http://<ip-van-je-pc>:3000`.
 
 Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 
@@ -60,6 +61,11 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 
 - **Circling past zich aan:** twee snelle, goede antwoorden over dezelfde structuur en de rest van die vragen
   wordt overgeslagen; een fout antwoord komt aan het eind van de scène nog één keer terug.
+- **Hardop antwoorden:** onder elke vraag staat 🎤 *Zeg het*. Zet je *Elke vraag hardop* aan, dan gaat de microfoon
+  vanzelf open zodra de vraag gesteld is. De spraakherkenning van de browser (gratis, geen AI) hoeft alleen te bepalen
+  welk van de bekende antwoorden je zei: "Käfig" of "in einem Käfig" zijn allebei goed. Werkt in Chrome, Edge en
+  Safari, niet in Firefox. De microfoon mag alleen op `localhost` of via https, dus op je telefoon via
+  `http://<ip>:3000` zie je de knop niet (wel zodra de app online staat).
 - Na een goed antwoord gaat de les vanzelf door. De reacties ("Ja! Genau!", "Nein, nein, nein!") spreekt Thorsten
   één keer per taal in: `storylingo.py feedback de`.
 

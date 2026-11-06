@@ -33,7 +33,9 @@ C:\dev\storylingo\
 learner account. Gestures are emoji plus a description. A story passes five DeepSeek rounds: story + questions,
 glossary (tap any word), core words (~6, taught with a picture before the story, then reviewed), voice direction
 (an emotion per sentence), and localize (per base language). Images and narration are made locally and
-linked through `assets`; the app falls back to the browser voice when a file is missing.
+linked through `assets`; the app falls back to the browser voice when a file is missing. Learners can answer the circling
+questions out loud: the browser's speech recognition (`web/lib/listen.ts`) only picks which known option was said,
+so no LLM and no extra content.
 
 ## Stack (fixed — change only by explicit decision)
 

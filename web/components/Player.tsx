@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { advance, Circling, start } from "@/lib/circling";
 import { useI18n } from "@/lib/i18n";
+import { canListen, listen, matchAnswer, type ListenError } from "@/lib/listen";
 import { feedback, narrate, PHRASES, speak, stopSpeaking } from "@/lib/speech";
 import { finishSession, recordAnswer, recordLookup, startSession } from "@/lib/story";
 import type { GlossEntry, Question, Story, Target } from "@/lib/types";
@@ -17,6 +18,9 @@ type Phase =
   | { kind: "question"; s: number; queue: number[] } // queue[0] is the question being asked
   | { kind: "done" };
 
+type Heard = { text: string; matched: boolean };
+
+const VOICE_KEY = "storylingo.voice";
 
 function QuestionView(props: {
   label: string;
@@ -29,6 +33,13 @@ function QuestionView(props: {
   line: string | null; // what the teacher just said about the answer
   onAnswer: (option: string) => void;
   onNext: () => void;
+  mic: boolean; // this browser can listen
+  voice: boolean; // listen by itself after every question
+  listening: boolean;
+  heard: Heard | null;
+  listenError: ListenError;
+  onListen: () => void;
+  onToggleVoice: () => void;
 }) {
   const { question, picked } = props;
   const { dict } = useI18n();
@@ -55,6 +66,25 @@ function QuestionView(props: {
           </button>
         ))}
       </div>
+      {props.mic && !picked && (
+        <div className="row">
+          <button className={`mic ${props.listening ? "listening" : ""}`} disabled={props.listening} onClick={props.onListen}>
+            {props.listening ? dict.story.listening : dict.story.speak}
+          </button>
+          <label className="muted toggle">
+            <input type="checkbox" checked={props.voice} onChange={props.onToggleVoice} /> {dict.story.autoListen}
+          </label>
+        </div>
+      )}
+      {props.heard?.text && (
+        <p className="muted" dir="ltr">
+          🎤 &quot;{props.heard.text}&quot;
+        </p>
+      )}
+      {props.heard && !props.heard.matched && !picked && (
+        <p className="muted">{props.heard.text ? dict.story.notMatched : dict.story.nothingHeard}</p>
+      )}
+      {props.listenError && <p className="muted">{props.listenError === "blocked" ? dict.story.micBlocked : dict.story.micFailed}</p>}
       {picked && (
         <>
           <p className="big-feedback" dir="ltr">
@@ -69,7 +99,7 @@ function QuestionView(props: {
   );
 }
 
-export default function Player({ story, userId }: { story: Story; userId: string }) {
+export default function Player({ story, userId, onRestart }: { story: Story; userId: string; onRestart: () => void }) {
   // `base` is the learner's language (texts around the story), `lang` below the story's own language.
   const { lang: base, dict, fill, plural } = useI18n();
   const [phase, setPhase] = useState<Phase>({ kind: story.words.length ? "words" : "intro" });
@@ -90,6 +120,17 @@ export default function Player({ story, userId }: { story: Story; userId: string
   const repeated = useRef(new Set<string>()); // questions already sent back once after a wrong answer
   const circleBack = useRef(false);
   const autoNext = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Answering out loud: `voice` is the learner's choice (kept in this browser), `asking` the question on screen.
+  const [mic, setMic] = useState(false);
+  const [voice, setVoice] = useState(false);
+  const [listening, setListening] = useState(false);
+  const [heard, setHeard] = useState<Heard | null>(null);
+  const [listenError, setListenError] = useState<ListenError>(null);
+  const voiceRef = useRef(false);
+  const asking = useRef<string | null>(null);
+  const stopListen = useRef<(() => void) | null>(null);
+  const answerRef = useRef<(option: string) => void>(() => {});
+  const listenRef = useRef<(question: Question) => void>(() => {});
   const lang = story.language_code;
 
   // Every glossary word of the story, so words in questions are tappable too.
@@ -125,6 +166,61 @@ export default function Player({ story, userId }: { story: Story; userId: string
     : phase.kind === "question" ? (phase.s + 1 - phase.queue.length / (story.scenes[phase.s].questions.length + 1)) / scenes
     : 0;
 
+  // Known only in the browser, so read after the first render.
+  useEffect(() => {
+    let saved = false;
+    try {
+      saved = localStorage.getItem(VOICE_KEY) === "1";
+    } catch {}
+    voiceRef.current = saved && canListen();
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only values, unknown during server render
+    setMic(canListen());
+    setVoice(voiceRef.current);
+  }, []);
+
+  function stopListening() {
+    stopListen.current?.();
+    stopListen.current = null;
+    setListening(false);
+  }
+
+  /** Listen for the answer to this question; a recognised answer counts exactly like a tap. */
+  function listenFor(question: Question) {
+    stopListen.current?.();
+    setHeard(null);
+    setListenError(null);
+    setListening(true);
+    stopListen.current = listen(
+      lang,
+      (alternatives) => {
+        if (asking.current !== question.id) return;
+        const option = matchAnswer(alternatives, question.options, lang);
+        setHeard({ text: alternatives[0] ?? "", matched: option !== null });
+        if (option) answerRef.current(option);
+      },
+      (error) => {
+        stopListen.current = null;
+        setListening(false);
+        setListenError(error);
+        if (error === "blocked") {
+          voiceRef.current = false;
+          setVoice(false);
+        }
+      },
+    );
+  }
+
+  function toggleVoice() {
+    const on = !voice;
+    voiceRef.current = on;
+    setVoice(on);
+    try {
+      localStorage.setItem(VOICE_KEY, on ? "1" : "0");
+    } catch {}
+    if (!on) return stopListening();
+    if (phase.kind === "question" && !picked) listenFor(story.scenes[phase.s].questions[phase.queue[0]]);
+  }
+
   // Tell each scene and ask each question automatically, like a teacher in front of the class.
   useEffect(() => {
     if (phase.kind === "scene") {
@@ -134,13 +230,23 @@ export default function Player({ story, userId }: { story: Story; userId: string
     if (phase.kind === "question") {
       askedAt.current = Date.now();
       const question = story.scenes[phase.s].questions[phase.queue[0]];
-      narrate(question.audio_url, question.prompt, lang);
+      asking.current = question.id;
+      // With voice on, the microphone opens once the question has been asked (not during it: it would hear itself).
+      narrate(question.audio_url, question.prompt, lang, () => {
+        if (voiceRef.current && asking.current === question.id) listenRef.current(question);
+      });
     }
-    return stopSpeaking;
+    return () => {
+      stopSpeaking();
+      asking.current = null;
+      stopListen.current?.();
+      stopListen.current = null;
+    };
   }, [phase, story, lang]);
 
   function answer(option: string) {
     if (phase.kind !== "question" || picked) return;
+    stopListening();
     const question = story.scenes[phase.s].questions[phase.queue[0]];
     const correct = option === question.answer;
     const responseMs = Date.now() - askedAt.current;
@@ -174,6 +280,9 @@ export default function Player({ story, userId }: { story: Story; userId: string
     setShowTranslation(false);
     setTapped(null);
     setSkipNote(null);
+    setHeard(null);
+    setListenError(null);
+    stopListening();
     if (phase.kind === "intro") {
       startSession(userId, story.id).then(setSessionId).catch((e) => setError(e.message));
       return setPhase({ kind: "scene", s: 0 });
@@ -198,10 +307,12 @@ export default function Player({ story, userId }: { story: Story; userId: string
     if (sessionId) finishSession(sessionId, userId, results.current).catch((e) => setError(e.message));
   }
 
-  // The auto-advance timer must call the latest next(), not the one from the render that started it.
+  // Timers and the microphone call back later: they must use the latest functions, not those of an old render.
   const nextRef = useRef(next);
   useEffect(() => {
     nextRef.current = next;
+    answerRef.current = answer;
+    listenRef.current = listenFor;
   });
 
   return (
@@ -278,6 +389,13 @@ export default function Player({ story, userId }: { story: Story; userId: string
           line={line}
           onAnswer={answer}
           onNext={next}
+          mic={mic}
+          voice={voice}
+          listening={listening}
+          heard={heard}
+          listenError={listenError}
+          onListen={() => listenFor(story.scenes[phase.s].questions[phase.queue[0]])}
+          onToggleVoice={toggleVoice}
         />
       )}
 
@@ -294,6 +412,9 @@ export default function Player({ story, userId }: { story: Story; userId: string
             ))}
           </div>
           {lookups > 0 && <p className="muted">{plural(dict.story.lookups, lookups)}</p>}
+          <button className="primary" onClick={onRestart}>
+            {dict.story.playAgain}
+          </button>
           <Link href={`/${base}`} className="muted">
             {dict.common.back}
           </Link>

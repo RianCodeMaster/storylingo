@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "description": "Learn a language with crazy stories, gestures and questions."
+  },
+  "common": {
+    "error": "Something went wrong: {error}",
+    "back": "← Back to the stories",
+    "loading": "Loading…",
+    "again": "🔊 Once more",
+    "gesture": "Gesture: {gesture}"
+  },
+  "home": {
+    "tagline": "Crazy stories, big gestures, lots of questions.",
+    "due": { "one": "🔁 {n} word to review", "other": "🔁 {n} words to review" },
+    "dueHint": "A quick review before you start a new story.",
+    "empty": "No published stories yet.",
+    "finished": "✓ Finished · tap to play again",
+    "language": "App language"
+  },
+  "story": {
+    "loading": "Loading story…",
+    "saveFailed": "Saving failed: {error}",
+    "gesturesIntro": "First the gestures. Really act them out, big and exaggerated: your body helps you remember.",
+    "pronounce": "Pronounce {word}",
+    "begin": "Start the story",
+    "scene": "Scene {n} / {total}",
+    "questionsLeft": { "one": "Scene {n} · {left} question left", "other": "Scene {n} · {left} questions left" },
+    "tell": "🔊 Tell",
+    "meaning": "👁 Meaning",
+    "toQuestions": "Questions →",
+    "skipped": "✓ You've got {names}: I'll skip those questions.",
+    "score": "{correct} of {total} correct",
+    "speak": "🎤 Say it",
+    "listening": "🎤 Listening…",
+    "autoListen": "Answer every question out loud",
+    "notMatched": "I don't recognise that as one of the answers. Say it again, or tap.",
+    "nothingHeard": "I didn't hear anything. Say it again, or tap.",
+    "micBlocked": "No access to your microphone. Allow it in your browser to answer out loud.",
+    "micFailed": "Speech recognition isn't working in this browser right now. Tap your answer.",
+    "playAgain": "↻ Play again",
+    "gesturesOnceMore": "Do the gestures one more time before you stop.",
+    "lookups": {
+      "one": "{n} word you looked up comes back in your review tomorrow.",
+      "other": "{n} words you looked up come back in your review tomorrow."
+    }
+  },
+  "words": {
+    "progress": "Word {n} of {total}",
+    "hint": "Look, listen and say each word out loud. You'll meet these words in the story.",
+    "next": "Next →",
+    "toGame": "Listening game →",
+    "game": "Which picture do you hear?",
+    "score": "{correct} of {total} right first time"
+  },
+  "word": {
+    "meaningOf": "Meaning of {word}",
+    "speak": "Pronounce",
+    "close": "Close"
+  },
+  "review": {
+    "title": "Review",
+    "loading": "Loading review…",
+    "nothing": "Nothing to review today 🎉",
+    "nothingHint": "Words you look up or answer wrong in a story come back here by themselves.",
+    "done": "Done! 🎉",
+    "tally": "{good} known · {hard} unsure · {again} not yet",
+    "doneHint": "What you knew comes back in a few days. What you didn't know, tomorrow.",
+    "reveal": "Show meaning",
+    "again": "Didn't know",
+    "hard": "Unsure",
+    "good": "Knew it"
+  }
+}
