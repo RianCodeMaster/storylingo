@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
-import { canListen, listen, wordsHeard } from "@/lib/listen";
+import { canListen, listen, wordsHeard, type StopListening } from "@/lib/listen";
 import { canRecord, record, type Recording } from "@/lib/record";
 import { playPart, stopSpeaking } from "@/lib/speech";
 import type { Sentence, Story } from "@/lib/types";
@@ -54,7 +54,9 @@ export default function Shadowing({ lines, lang, onDone }: { lines: ShadowLine[]
   const [heard, setHeard] = useState<boolean[] | null>(null);
   const [blocked, setBlocked] = useState(false);
   const [mic, setMic] = useState(false);
+  const [closing, setClosing] = useState(false); // recording done, waiting for the microphone to be free
   const own = useRef<HTMLAudioElement | null>(null);
+  const recognition = useRef<StopListening | null>(null);
   const line = lines[i];
   const words = line.text.split(/\s+/).filter(Boolean);
 
@@ -73,21 +75,58 @@ export default function Shadowing({ lines, lang, onDone }: { lines: ShadowLine[]
   // A recording lives only as long as its sentence is on screen.
   useEffect(() => () => void (mine && URL.revokeObjectURL(mine)), [mine]);
 
-  async function start() {
+  // Leaving (skip, or the last sentence) stops everything that still plays or listens.
+  useEffect(
+    () => () => {
+      silence();
+      recognition.current?.();
+    },
+    [],
+  );
+
+  /** Only one voice at a time: every button first stops whatever is playing. */
+  function silence() {
     stopSpeaking();
+    if (own.current) {
+      own.current.onended = null;
+      own.current.pause();
+    }
+  }
+
+  function hearNarrator() {
+    silence();
+    playPart(line.audioUrl, line.start, line.end);
+  }
+
+  async function start() {
+    silence();
     setHeard(null);
     setMine(null);
     try {
       // Room for a slower learner: the narrator's length and a half, plus a moment to begin.
       const r = await record((line.end - line.start) * 1500 + 1500);
       setRecording(r);
-      if (canListen()) listen(lang, (alternatives) => setHeard(wordsHeard(line.text, alternatives, lang)), () => {});
+      let recognized = () => {};
+      const ended = new Promise<void>((resolve) => (recognized = resolve));
+      recognition.current = canListen()
+        ? listen(lang, (alternatives) => setHeard(wordsHeard(line.text, alternatives, lang)), () => recognized())
+        : null;
+      if (!recognition.current) recognized();
       const url = await r.done;
       setRecording(null);
+      setClosing(true);
+      // Play nothing while a microphone is still open: Windows then turns other sound down to 20% and a Bluetooth
+      // headset switches to call mode, so playback sounds broken. Let the recognizer finish and let go first.
+      recognition.current?.finish();
+      await Promise.race([ended, new Promise((resolve) => setTimeout(resolve, 2000))]);
+      recognition.current?.();
+      recognition.current = null;
+      setClosing(false);
       setMine(url);
       playMine(url);
     } catch {
       setRecording(null);
+      setClosing(false);
       setBlocked(true);
     }
   }
@@ -95,8 +134,7 @@ export default function Shadowing({ lines, lang, onDone }: { lines: ShadowLine[]
   // Yourself first, then the narrator once more: the difference is easiest to hear right after each other.
   function playMine(url = mine) {
     if (!url) return;
-    stopSpeaking();
-    own.current?.pause();
+    silence();
     own.current = new Audio(url);
     own.current.onended = () => playPart(line.audioUrl, line.start, line.end);
     own.current.play().catch(() => {});
@@ -104,7 +142,9 @@ export default function Shadowing({ lines, lang, onDone }: { lines: ShadowLine[]
 
   function next() {
     recording?.stop();
-    own.current?.pause();
+    recognition.current?.(); // a late result must not colour the next sentence
+    recognition.current = null;
+    silence();
     setMine(null);
     setHeard(null);
     if (i + 1 < lines.length) setI(i + 1);
@@ -124,9 +164,13 @@ export default function Shadowing({ lines, lang, onDone }: { lines: ShadowLine[]
           ))}
         </p>
         <div className="row">
-          <button onClick={() => playPart(line.audioUrl, line.start, line.end)}>{dict.shadow.listen}</button>
+          <button onClick={hearNarrator}>{dict.shadow.listen}</button>
           {mic && !blocked && (
-            <button className={`mic ${recording ? "listening" : ""}`} onClick={recording ? recording.stop : start}>
+            <button
+              className={`mic ${recording ? "listening" : ""}`}
+              disabled={closing}
+              onClick={recording ? recording.stop : start}
+            >
               {recording ? dict.shadow.stop : dict.shadow.record}
             </button>
           )}

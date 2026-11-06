@@ -14,6 +14,7 @@ interface Recognition {
   onerror: ((e: { error: string }) => void) | null;
   onend: (() => void) | null;
   start(): void;
+  stop(): void;
   abort(): void;
 }
 
@@ -30,15 +31,22 @@ export function canListen(): boolean {
 
 export type ListenError = "blocked" | "failed" | null;
 
+/** Calling it stops listening at once, without a result; `finish()` stops gracefully: the result still comes. */
+export type StopListening = (() => void) & { finish: () => void };
+
 /**
  * Listen for one answer. `onHeard` gets every alternative the recognizer offers (best first), or none when it heard
- * nothing; `onEnd` comes last, with an error when listening was impossible. Returns a function that stops listening.
+ * nothing; `onEnd` comes last, with an error when listening was impossible. The microphone is free after `onEnd`.
  */
-export function listen(language: string, onHeard: (alternatives: string[]) => void, onEnd: (error: ListenError) => void) {
+export function listen(
+  language: string,
+  onHeard: (alternatives: string[]) => void,
+  onEnd: (error: ListenError) => void,
+): StopListening {
   const Recognizer = recognizer();
   if (!Recognizer) {
     onEnd("failed");
-    return () => {};
+    return Object.assign(() => {}, { finish: () => {} });
   }
   const r = new Recognizer();
   r.lang = LANG_TAGS[language] ?? language;
@@ -59,11 +67,12 @@ export function listen(language: string, onHeard: (alternatives: string[]) => vo
     onEnd(error);
   };
   r.start();
-  return () => {
+  const stop = () => {
     r.onresult = null;
     r.onend = null;
     r.abort();
   };
+  return Object.assign(stop, { finish: () => r.stop() });
 }
 
 // Recognizers write numbers as digits ("1000"), stories often as words ("Tausend"), and learners say "nee" for "nein".

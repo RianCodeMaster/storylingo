@@ -35,8 +35,10 @@ export const viewport: Viewport = {
 export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   const { locale, dict } = await getDictionary();
   return (
-    <html lang={locale} dir={direction(locale)} className={`${jakarta.variable} ${arabic.variable}`}>
-      <body>
+    // Browser extensions (Grammarly, translators) add attributes to <html> and <body> before React starts;
+    // suppressHydrationWarning ignores those two elements only, not the app inside them.
+    <html lang={locale} dir={direction(locale)} className={`${jakarta.variable} ${arabic.variable}`} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <I18nProvider lang={locale} dict={dict}>
           {children}
         </I18nProvider>
