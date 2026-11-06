@@ -7,6 +7,7 @@ because the ML libraries pin their own versions. The pipeline talks to it like t
 
 POST /image   {"prompt", "negative_prompt", "seed", "width", "height", "steps"} -> image/png  (SDXL, GPU)
 POST /speech  {"lines": [{"text", "style": {"model", "speaker", ...}}], "pause"}  -> audio/wav  (Piper, CPU)
+              header X-Marks: [[start, end], ...] in seconds, one pair per line (for repeating one sentence)
 GET  /health
 
 Images run on the GPU, speech on the CPU, so the two never compete for the 8 GB of GPU memory.
@@ -65,14 +66,14 @@ def _piper(model: str):
     return _voices[model]
 
 
-def speech(req: dict) -> bytes:
+def speech(req: dict) -> tuple[bytes, dict]:
     """Piper: each sentence in its own style (model, emotion speaker, tempo), joined with short pauses.
 
     Which style fits which emotion is decided by the pipeline (voices.yaml), so this server knows no languages.
     """
     from piper import SynthesisConfig
 
-    frames, rate = [], None
+    frames, rate, marks, at = [], None, [], 0
     for line in req["lines"]:
         style = line["style"]
         voice = _piper(style["model"])
@@ -93,7 +94,10 @@ def speech(req: dict) -> bytes:
             voice.synthesize_wav(line["text"], w, config)
         buffer.seek(0)
         with wave.open(buffer) as r:
-            frames += [r.readframes(r.getnframes()), b"\x00\x00" * int(rate * float(req.get("pause", 0.4)))]
+            n, pause = r.getnframes(), int(rate * float(req.get("pause", 0.4)))
+            frames += [r.readframes(n), b"\x00\x00" * pause]
+        marks.append([round(at / rate, 3), round((at + n) / rate, 3)])
+        at += n + pause
 
     out = io.BytesIO()
     with wave.open(out, "wb") as w:
@@ -101,13 +105,15 @@ def speech(req: dict) -> bytes:
         w.setsampwidth(2)
         w.setframerate(rate)
         w.writeframes(b"".join(frames[:-1]))
-    return out.getvalue()
+    return out.getvalue(), {"X-Marks": json.dumps(marks)}
 
 
 class Handler(BaseHTTPRequestHandler):
-    def _send(self, status: int, body: bytes, content_type: str):
+    def _send(self, status: int, body: bytes, content_type: str, headers: dict | None = None):
         self.send_response(status)
         self.send_header("Content-Type", content_type)
+        for name, value in (headers or {}).items():
+            self.send_header(name, value)
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
@@ -125,8 +131,9 @@ class Handler(BaseHTTPRequestHandler):
         make, content_type = routes[self.path]
         try:
             req = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
-            body = make(req)
-            self._send(200, body, content_type)
+            result = make(req)
+            body, headers = result if isinstance(result, tuple) else (result, None)
+            self._send(200, body, content_type, headers)
         except Exception as e:  # report the error to the pipeline instead of dropping the connection
             self._send(500, f"{type(e).__name__}: {e}".encode(), "text/plain")
 

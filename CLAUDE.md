@@ -35,7 +35,9 @@ glossary (tap any word), core words (~6, taught with a picture before the story,
 (an emotion per sentence), and localize (per base language). Images and narration are made locally and
 linked through `assets`; the app falls back to the browser voice when a file is missing. Learners can answer the circling
 questions out loud: the browser's speech recognition (`web/lib/listen.ts`) only picks which known option was said,
-so no LLM and no extra content.
+so no LLM and no extra content. After the last questions comes shadowing (`components/Shadowing.tsx`): a few
+short sentences with a target structure, played out of the scene audio by the sentence times that localgen returns
+and `assets.marks` keeps; the learner's recording stays in the browser.
 
 ## Stack (fixed — change only by explicit decision)
 

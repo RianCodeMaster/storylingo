@@ -254,14 +254,15 @@ def words_without_audio(slug: str) -> list[tuple[str, str]]:
         return [(str(r[0]), r[1]) for r in cur.fetchall()]
 
 
-def save_asset(kind: str, path: str, mime_type: str, provider: str, model: str) -> str:
+def save_asset(kind: str, path: str, mime_type: str, provider: str, model: str, marks: list | None = None) -> str:
     with connect() as conn, conn.cursor() as cur:
         cur.execute(
-            """insert into assets (kind, storage_path, mime_type, provider, model) values (%s, %s, %s, %s, %s)
+            """insert into assets (kind, storage_path, mime_type, provider, model, marks) values (%s, %s, %s, %s, %s, %s)
                on conflict (storage_path) do update
-                 set mime_type = excluded.mime_type, provider = excluded.provider, model = excluded.model, created_at = now()
+                 set mime_type = excluded.mime_type, provider = excluded.provider, model = excluded.model,
+                     marks = excluded.marks, created_at = now()
                returning id""",
-            (kind, path, mime_type, provider, model),
+            (kind, path, mime_type, provider, model, Jsonb(marks) if marks else None),
         )
         return cur.fetchone()[0]
 

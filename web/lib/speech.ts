@@ -79,7 +79,34 @@ export function feedback(correct: boolean, language: string): string {
   return lines[n];
 }
 
+/** Play one sentence out of a scene's narration (start and end in seconds), for the learner to repeat. */
+export function playPart(audioUrl: string, start: number, end: number, onEnd?: () => void) {
+  stopSpeaking();
+  player ??= new Audio();
+  const p = player;
+  p.onended = null;
+  const go = () => {
+    p.currentTime = start;
+    p.ontimeupdate = () => {
+      if (p.currentTime < end) return;
+      p.pause();
+      p.ontimeupdate = null;
+      onEnd?.();
+    };
+    p.play().catch(() => {});
+  };
+  if (p.src === audioUrl && p.readyState >= 1) return go();
+  p.onloadedmetadata = () => {
+    p.onloadedmetadata = null;
+    go();
+  };
+  p.src = audioUrl;
+}
+
 export function stopSpeaking() {
   if (typeof window !== "undefined" && "speechSynthesis" in window) window.speechSynthesis.cancel();
-  player?.pause();
+  if (!player) return;
+  player.pause();
+  player.ontimeupdate = null;
+  player.onloadedmetadata = null;
 }

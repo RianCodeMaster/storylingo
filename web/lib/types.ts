@@ -19,6 +19,13 @@ export interface GlossEntry {
   lexeme_id: string;
 }
 
+/** One sentence of a scene's narration: where it starts and ends in the audio, in seconds. */
+export interface Sentence {
+  text: string;
+  start: number;
+  end: number;
+}
+
 export interface Scene {
   id: string;
   position: number;
@@ -27,6 +34,7 @@ export interface Scene {
   glossary: GlossEntry[];
   image_url: string | null;
   audio_url: string | null;
+  sentences: Sentence[]; // empty when the narration has no sentence marks
   questions: Question[];
 }
 

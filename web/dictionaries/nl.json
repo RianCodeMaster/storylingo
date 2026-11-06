@@ -11,7 +11,10 @@
   },
   "home": {
     "tagline": "Gekke verhalen, grote gebaren, heel veel vragen.",
-    "due": { "one": "🔁 {n} woord om te herhalen", "other": "🔁 {n} woorden om te herhalen" },
+    "due": {
+      "one": "🔁 {n} woord om te herhalen",
+      "other": "🔁 {n} woorden om te herhalen"
+    },
     "dueHint": "Even herhalen voordat je een nieuw verhaal begint.",
     "empty": "Nog geen gepubliceerde verhalen.",
     "finished": "✓ Uitgespeeld · tik om opnieuw te doen",
@@ -24,7 +27,10 @@
     "pronounce": "Spreek {word} uit",
     "begin": "Begin het verhaal",
     "scene": "Scène {n} / {total}",
-    "questionsLeft": { "one": "Scène {n} · nog {left} vraag", "other": "Scène {n} · nog {left} vragen" },
+    "questionsLeft": {
+      "one": "Scène {n} · nog {left} vraag",
+      "other": "Scène {n} · nog {left} vragen"
+    },
     "tell": "🔊 Vertel",
     "meaning": "👁 Betekenis",
     "toQuestions": "Vragen →",
@@ -51,6 +57,19 @@
     "toGame": "Luisterspel →",
     "game": "Welk plaatje hoor je?",
     "score": "{correct} van {total} meteen goed"
+  },
+  "shadow": {
+    "progress": "Nazeggen · zin {n} van {total}",
+    "hint": "Luister, druk op 🎤 en zeg de zin meteen na: zelfde tempo, zelfde melodie. Daarna hoor je jezelf en dan de verteller.",
+    "sayAloud": "Luister en zeg de zin hardop na: zelfde tempo, zelfde melodie.",
+    "listen": "🔊 Luister",
+    "record": "🎤 Zeg het na",
+    "stop": "⏹ Stop",
+    "mine": "▶ Jouw stem",
+    "heard": "{n} van {total} woorden duidelijk verstaan",
+    "next": "Volgende zin →",
+    "finish": "Klaar →",
+    "skip": "Nazeggen overslaan"
   },
   "word": {
     "meaningOf": "Betekenis van {word}",

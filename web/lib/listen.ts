@@ -137,6 +137,21 @@ export function matchAnswer(alternatives: string[], options: string[], language:
   return options[scores.indexOf(top)];
 }
 
+/**
+ * Shadowing: which words of the sentence did the recognizer hear? One flag per word of `sentence.split(" ")`,
+ * from the alternative that heard the most. A rough mirror of how clear the learner was, not a grade.
+ */
+export function wordsHeard(sentence: string, alternatives: string[], language: string): boolean[] {
+  const parts = sentence.split(/\s+/).filter(Boolean);
+  let best = parts.map(() => false);
+  for (const alternative of alternatives) {
+    const heard = words(alternative, language);
+    const flags = parts.map((part) => words(part, language).every((w) => heard.some((h) => same(h, w))));
+    if (flags.filter(Boolean).length > best.filter(Boolean).length) best = flags;
+  }
+  return best;
+}
+
 function compare(a: number[], b: number[]): number {
   for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) return a[i] - b[i];
   return 0;

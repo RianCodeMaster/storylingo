@@ -11,7 +11,10 @@
   },
   "home": {
     "tagline": "Crazy stories, big gestures, lots of questions.",
-    "due": { "one": "🔁 {n} word to review", "other": "🔁 {n} words to review" },
+    "due": {
+      "one": "🔁 {n} word to review",
+      "other": "🔁 {n} words to review"
+    },
     "dueHint": "A quick review before you start a new story.",
     "empty": "No published stories yet.",
     "finished": "✓ Finished · tap to play again",
@@ -24,7 +27,10 @@
     "pronounce": "Pronounce {word}",
     "begin": "Start the story",
     "scene": "Scene {n} / {total}",
-    "questionsLeft": { "one": "Scene {n} · {left} question left", "other": "Scene {n} · {left} questions left" },
+    "questionsLeft": {
+      "one": "Scene {n} · {left} question left",
+      "other": "Scene {n} · {left} questions left"
+    },
     "tell": "🔊 Tell",
     "meaning": "👁 Meaning",
     "toQuestions": "Questions →",
@@ -51,6 +57,19 @@
     "toGame": "Listening game →",
     "game": "Which picture do you hear?",
     "score": "{correct} of {total} right first time"
+  },
+  "shadow": {
+    "progress": "Shadowing · sentence {n} of {total}",
+    "hint": "Listen, press 🎤 and repeat the sentence straight away: same pace, same melody. Then you hear yourself, then the narrator.",
+    "sayAloud": "Listen and repeat the sentence out loud: same pace, same melody.",
+    "listen": "🔊 Listen",
+    "record": "🎤 Repeat it",
+    "stop": "⏹ Stop",
+    "mine": "▶ Your voice",
+    "heard": "{n} of {total} words came across clearly",
+    "next": "Next sentence →",
+    "finish": "Done →",
+    "skip": "Skip shadowing"
   },
   "word": {
     "meaningOf": "Meaning of {word}",

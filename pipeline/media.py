@@ -11,6 +11,7 @@ Every speaker has the same method: speech(text, kind, lines, voice) -> Media, wh
 """
 import array
 import io
+import json
 import os
 import struct
 import time
@@ -54,6 +55,7 @@ class Media:
     mime_type: str
     provider: str
     model: str
+    marks: list[dict] | None = None  # narration: [{"text", "start", "end"}] per sentence, for repeating one sentence
 
 
 # ---------------------------------------------------------------------------
@@ -152,12 +154,12 @@ class Localgen:
         except httpx.HTTPError:
             raise SystemExit(f"Local generator not running at {self.url}. Start it: .venv-local/Scripts/python localgen/server.py")
 
-    def _post(self, route: str, body: dict) -> bytes:
+    def _post(self, route: str, body: dict) -> httpx.Response:
         # The first call loads a model, which takes a while.
         response = httpx.post(f"{self.url}/{route}", json=body, timeout=600)
         if response.status_code != 200:
             raise RuntimeError(f"localgen {route}: {response.text}")
-        return response.content
+        return response
 
 
 class Local(Localgen):
@@ -167,7 +169,7 @@ class Local(Localgen):
 
     def image(self, prompt: str, reference: Media | None) -> Media:
         # Same seed for every scene of every story: keeps the drawing style steady.
-        data = self._post("image", {"prompt": f"{prompt}. {self.STYLE}", "negative_prompt": self.NEGATIVE, "seed": 1234})
+        data = self._post("image", {"prompt": f"{prompt}. {self.STYLE}", "negative_prompt": self.NEGATIVE, "seed": 1234}).content
         return Media(data, "image/png", "local", "sdxl-base-1.0")
 
     WORD_STYLE = "simple cartoon sticker, one subject in the centre, thick clean outlines, bright warm colours, plain light background"
@@ -177,7 +179,7 @@ class Local(Localgen):
         data = self._post("image", {
             "prompt": f"{prompt}. {self.WORD_STYLE}", "negative_prompt": self.NEGATIVE,
             "seed": 1234, "width": 768, "height": 768, "steps": 24,
-        })
+        }).content
         return Media(data, "image/png", "local", "sdxl-base-1.0")
 
 
@@ -191,9 +193,12 @@ class Piper(Localgen):
             {"text": line["text"], "style": {**voice.get("settings", {}), **styles.get(line["emotion"], styles["neutral"])}}
             for line in lines
         ]
-        data = self._post("speech", {"lines": styled, "pause": voice.get("pause", 0.4)})
+        response = self._post("speech", {"lines": styled, "pause": voice.get("pause", 0.4)})
         models = sorted({line["style"]["model"] for line in styled})
-        return Media(data, "audio/wav", "piper", "+".join(models))
+        # Where each sentence starts and ends, so the app can play one sentence for the learner to repeat.
+        times = json.loads(response.headers.get("x-marks", "[]"))
+        marks = [{"text": line["text"], "start": s, "end": e} for line, (s, e) in zip(lines, times)] or None
+        return Media(response.content, "audio/wav", "piper", "+".join(models), marks)
 
 
 # ---------------------------------------------------------------------------

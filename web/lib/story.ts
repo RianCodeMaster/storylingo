@@ -1,6 +1,6 @@
 import { type AssetRef, assetUrl, type One, one } from "./assets";
 import { supabase } from "./supabase";
-import type { CoreWord, GlossEntry, Question, Scene, Story, StoryCard, Target } from "./types";
+import type { CoreWord, GlossEntry, Question, Scene, Sentence, Story, StoryCard, Target } from "./types";
 
 // The story itself is in the target language; everything in the learner's own language comes from the
 // *_localizations and lexeme_glosses rows of their base language (docs/meertaligheid.md).
@@ -12,7 +12,7 @@ interface SceneRow {
   glossary: Omit<GlossEntry, "gloss">[];
   scene_localizations: { translation: string; glosses: Record<string, string> }[];
   image: AssetRef;
-  audio: AssetRef;
+  audio: One<{ id: string; storage_path: string; marks: Sentence[] | null }>;
   questions: (Omit<Question, "audio_url"> & { audio: AssetRef })[];
 }
 
@@ -63,7 +63,7 @@ export async function loadStory(id: string, base: string): Promise<Story> {
                                          image:assets!image_asset_id ( id, storage_path ),
                                          audio:assets!audio_asset_id ( id, storage_path ) ) ),
        scenes ( id, position, text, glossary, scene_localizations ( translation, glosses ),
-                image:assets!image_asset_id ( id, storage_path ), audio:assets!audio_asset_id ( id, storage_path ),
+                image:assets!image_asset_id ( id, storage_path ), audio:assets!audio_asset_id ( id, storage_path, marks ),
                 questions ( id, position, kind, prompt, options, answer, lexeme_id,
                             audio:assets!audio_asset_id ( id, storage_path ) ) )`,
     )
@@ -103,6 +103,7 @@ export async function loadStory(id: string, base: string): Promise<Story> {
       glossary: glossary.map((e) => ({ ...e, gloss: local?.glosses[e.word] ?? null })),
       image_url: assetUrl(image),
       audio_url: assetUrl(audio),
+      sentences: one(audio)?.marks ?? [],
       questions: questions.map(({ audio: qAudio, ...q }) => ({ ...q, audio_url: assetUrl(qAudio) })),
     };
   });

@@ -116,7 +116,7 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
         full = f"stories/{slug}/{path}.{media.extension(item.mime_type)}"
         media.upload(full, item)
         made += 1
-        return db.save_asset(kind, full, item.mime_type, item.provider, item.model)
+        return db.save_asset(kind, full, item.mime_type, item.provider, item.model, item.marks)
 
     # All images first, then all audio: a local GPU then switches models only once.
     scenes = db.media_plan(slug)

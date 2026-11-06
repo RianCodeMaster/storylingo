@@ -9,6 +9,7 @@ import { feedback, narrate, PHRASES, speak, stopSpeaking } from "@/lib/speech";
 import { finishSession, recordAnswer, recordLookup, startSession } from "@/lib/story";
 import type { GlossEntry, Question, Story, Target } from "@/lib/types";
 import InteractiveText, { WordSheet, type Tapped } from "./InteractiveText";
+import Shadowing, { pickLines } from "./Shadowing";
 import WordsIntro, { type WordResults } from "./WordsIntro";
 
 type Phase =
@@ -16,6 +17,7 @@ type Phase =
   | { kind: "intro" }
   | { kind: "scene"; s: number }
   | { kind: "question"; s: number; queue: number[] } // queue[0] is the question being asked
+  | { kind: "shadow" } // repeat a few sentences after the narrator, after the last questions
   | { kind: "done" };
 
 type Heard = { text: string; matched: boolean };
@@ -140,6 +142,7 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
     return map;
   });
   const [coreIds] = useState(() => new Set(story.words.map((w) => w.lexeme_id)));
+  const [shadowLines] = useState(() => pickLines(story));
 
   // The listening game counts like answers: its words enter review when the story is finished.
   function wordsDone(wordResults: WordResults) {
@@ -161,7 +164,7 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
   // Progress by scene: with skipped and repeated questions, a question count would jump around.
   const scenes = story.scenes.length;
   const progress =
-    phase.kind === "done" ? 1
+    phase.kind === "done" || phase.kind === "shadow" ? 1
     : phase.kind === "scene" ? phase.s / scenes
     : phase.kind === "question" ? (phase.s + 1 - phase.queue.length / (story.scenes[phase.s].questions.length + 1)) / scenes
     : 0;
@@ -287,7 +290,7 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
       startSession(userId, story.id).then(setSessionId).catch((e) => setError(e.message));
       return setPhase({ kind: "scene", s: 0 });
     }
-    if (phase.kind === "words" || phase.kind === "done") return;
+    if (phase.kind === "words" || phase.kind === "shadow" || phase.kind === "done") return;
     const questions = story.scenes[phase.s].questions;
     if (phase.kind === "scene") {
       const { queue, skipped } = start(questions, circling.current);
@@ -303,7 +306,8 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
       return;
     }
     if (phase.s + 1 < story.scenes.length) return setPhase({ kind: "scene", s: phase.s + 1 });
-    setPhase({ kind: "done" });
+    // The story counts as finished here: what comes after (shadowing) is extra and may be skipped.
+    setPhase({ kind: shadowLines.length ? "shadow" : "done" });
     if (sessionId) finishSession(sessionId, userId, results.current).catch((e) => setError(e.message));
   }
 
@@ -398,6 +402,8 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
           onToggleVoice={toggleVoice}
         />
       )}
+
+      {phase.kind === "shadow" && <Shadowing lines={shadowLines} lang={lang} onDone={() => setPhase({ kind: "done" })} />}
 
       {phase.kind === "done" && (
         <div className="card">

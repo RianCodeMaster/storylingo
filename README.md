@@ -68,6 +68,11 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
   welk van de bekende antwoorden je zei: "Käfig" of "in einem Käfig" zijn allebei goed. Werkt in Chrome, Edge en
   Safari, niet in Firefox. De microfoon mag alleen op `localhost` of via https, dus op je telefoon via
   `http://<ip>:3000` zie je de knop niet (wel zodra de app online staat).
+- **Nazeggen (shadowing):** na de laatste vragen zeg je zo'n zes zinnen na: korte zinnen waarin de doelstructuren zitten.
+  Je hoort de zin, neemt jezelf op (blijft in je browser, wordt nergens bewaard) en hoort daarna jezelf en de verteller
+  vlak na elkaar. De spraakherkenning laat zien welke woorden duidelijk overkwamen. Overslaan mag; het verhaal telt
+  al als uitgespeeld. Dit werkt omdat `media` bij elke vertelling de begin- en eindtijd per zin bewaart
+  (`assets.marks`); oudere audio zonder tijden: `media-clear <slug> audio` en opnieuw `media <slug>`.
 - Na een goed antwoord gaat de les vanzelf door. De reacties ("Ja! Genau!", "Nein, nein, nein!") spreekt Thorsten
   één keer per taal in: `storylingo.py feedback de`.
 

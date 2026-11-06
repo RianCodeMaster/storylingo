@@ -339,3 +339,19 @@ html[dir="rtl"] h1[dir="ltr"] {
   direction: ltr;
   text-align: left;
 }
+
+/* Shadowing: words the recognizer heard clearly, and the ones it missed. */
+.heard {
+  color: var(--primary);
+}
+
+.missed {
+  text-decoration: underline dotted var(--accent);
+  text-underline-offset: 4px;
+}
+
+button.link {
+  background: none;
+  border: none;
+  padding: 4px;
+}
