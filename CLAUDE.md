@@ -24,6 +24,7 @@ C:\dev\storylingo\
 ├── content/               # ALL content, as files: the source of truth (the database is a copy)
 │   ├── languages/         # <code>.yaml: everything about one language (voice, teacher phrases, recognition, …)
 │   ├── editions/          # <slug>.yaml: one niche at its own address (base, target, welcome texts, color, story tags)
+│   ├── curriculum/        # <lang>.yaml: which structures (with concept) each CEFR level teaches
 │   ├── briefs/<lang>/     # input for `generate`
 │   └── stories/<lang>/<slug>/  # story.yaml (target language) + <base>.yaml per base language
 ├── supabase/
@@ -78,6 +79,12 @@ and `storylingo.py check` must end with "complete and in sync"; every problem it
   - Another voice (e.g. ElevenLabs): edit `voice:` in the language file → `media` per story.
   - New edition (niche): copy a file in `content/editions/`, change slug, languages, texts, color, tags → `sync` →
     `check` (it reports missing stories or translations for that pair).
+- **Levels:** a story's targets must be in `content/curriculum/<lang>.yaml` at its level or below, with the same
+  concept; `check` fails otherwise and warns (⚠) when >10% of non-core words are above the level. Learners have a
+  level per edition (`enrollments`), chosen on the welcome page, raised when they finished their level; never a lock.
+- **Accounts:** one login per person (`profiles`), everything else per edition: `enrollments` (level, later purchases)
+  and `sessions.edition`. No enrollment means a first visit. Editions never show each other: `/` and draft editions
+  only when `showsEverything()` (development or `SHOW_EDITIONS=1`); the `editions` table is not readable via the API.
 - **Editions:** the app lives under `app/[edition]/` (/duits, /almanya …); the edition fixes base and target language,
   so there is no language menu. `/` is an overview for the owner (`app/(hub)/`), never used in marketing. Language
   pairs follow the editions (`sync`). The method (three pillars, six principles under "why it works") is the same in

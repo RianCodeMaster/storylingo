@@ -50,7 +50,9 @@ def store(doc: StoryDoc) -> None:
 
 
 def sync(slug: str | None = None) -> None:
-    for change in db.sync_languages(languages.all_languages()) + db.sync_pairs(editions.pairs()):
+    changes = db.sync_languages(languages.all_languages())
+    changes += db.sync_editions(editions.all_editions()) + db.sync_pairs(editions.pairs())
+    for change in changes:
         print(f"  {change}")
     if languages.write_web():
         print("  web/lib/languages.json updated")

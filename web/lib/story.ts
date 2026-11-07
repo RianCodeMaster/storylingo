@@ -133,10 +133,11 @@ export async function loadStory(id: string, base: string): Promise<Story> {
   return { id: storyId, title, cefr_level, language_code, summary, targets, words, scenes };
 }
 
-export async function startSession(userId: string, storyId: string): Promise<string> {
+/** A play session, in the edition it happened in (a story can be in several editions). */
+export async function startSession(userId: string, storyId: string, edition: string): Promise<string> {
   const { data, error } = await supabase()
     .from("sessions")
-    .insert({ user_id: userId, story_id: storyId })
+    .insert({ user_id: userId, story_id: storyId, edition })
     .select("id")
     .single();
   if (error) throw error;

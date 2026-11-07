@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import { EDITIONS } from "@/lib/editions";
+import { notFound } from "next/navigation";
+import { EDITIONS, showsEverything } from "@/lib/editions";
 import { direction, LANGUAGES, script } from "@/lib/locales";
 
 /**
@@ -8,6 +9,7 @@ import { direction, LANGUAGES, script } from "@/lib/locales";
  * address of its own edition (/almanya, /spaans …), so learners only ever see the app made for them.
  */
 export default function Hub() {
+  if (!showsEverything()) notFound();
   // Grouped by the language learned, then by name.
   const editions = Object.values(EDITIONS).sort((a, b) => a.target.localeCompare(b.target) || a.slug.localeCompare(b.slug));
   return (

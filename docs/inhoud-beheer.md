@@ -205,5 +205,34 @@ weghalen verborg haar met haar 4 antwoorden; een nieuwe vraag kreeg een nieuwe s
 Een scène herschrijven liet `media` precies 2 bestanden maken en `localize` alleen die scène vertalen.
 5. ✅ **Edities**: `content/editions/<slug>.yaml`, de app per adres (`/duits`, `/almanya` …) met een eigen
    welkomstpagina, `/` als overzicht. Taalparen volgen uit de edities.
-6. **Spaans** als eerste nieuwe doeltaal via deze route (stem: sharvard vrouw, Spaans uit Spanje).
-7. **Accounts** (na de overstap naar de cloud).
+6. ✅ **Spaans** als eerste nieuwe doeltaal via deze route (stem: sharvard vrouw, Spaans uit Spanje).
+7. ✅ **Niveaus** (2026-11-07), zie hieronder.
+8. **Accounts**: de basis staat (zie hieronder); inloggen met e-mail komt na de overstap naar de cloud.
+
+## Niveaus
+
+- **Inhoud.** Elk verhaal heeft één niveau (`level` in `story.yaml`). Per doeltaal zegt
+  `content/curriculum/<taal>.yaml` welke structuren bij welk niveau horen, met hun concept (dus hun gebaar).
+  `check` geeft een fout als een doelstructuur niet in het curriculum staat, boven het niveau van het verhaal ligt,
+  of een ander concept heeft. Hij waarschuwt (⚠, geen fout) als meer dan 10% van de woorden die een leerling
+  onvoorbereid tegenkomt boven het niveau ligt; kernwoorden tellen niet mee, die worden vooraf aangeleerd. De
+  woordniveaus komen van het LLM en zijn streng, daarom alleen een waarschuwing.
+- **Leerling.** Bij een eerste bezoek vraagt het welkomstscherm hoe goed iemand de taal al kent (alleen niveaus waar
+  verhalen voor zijn) en start het eerste verhaal op dat niveau. Daarna ziet de leerling zijn niveau, het volgende
+  verhaal en de verhalen per niveau met voortgang; heeft hij alles van zijn niveau gedaan, dan stelt de app het
+  volgende niveau voor. Geen sloten: elk verhaal blijft open, en het niveau is altijd zelf te wijzigen.
+
+## Accounts en scheiding per editie
+
+Eén persoon heeft één login (`auth.users` / `profiles`), maar alles wat hij doet hoort bij een editie:
+
+- `editions` (tabel, door `sync` uit de bestanden) en `enrollments` (persoon × editie: niveau, start; later wat hij
+  gekocht heeft). Geen inschrijving = eerste bezoek = welkomstscherm.
+- `sessions.edition`: in welke editie een verhaal gespeeld werd. Herhaling volgt de doeltaal van de editie.
+- Nu anonieme accounts per browser; straks zet "Bewaar je voortgang" het anonieme account om in een e-mailaccount,
+  met alles erbij. Betalen (Stripe) komt per editie aan de inschrijving te hangen.
+
+**Edities blijven van elkaar gescheiden.** Het overzicht op `/` en edities op `draft` bestaan alleen voor jou (lokaal,
+of online met `SHOW_EDITIONS=1`); in productie geven ze 404 en staan ze niet in zoekmachines. De tabel `editions` is
+niet leesbaar via de database-API. Een leerling ziet zo alleen de app van zijn eigen niche. Later krijgt elke editie
+een eigen domein, wat ook de inlog per merk scheidt.

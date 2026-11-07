@@ -454,3 +454,55 @@ a.cta {
 .edition-badge {
   background: var(--primary);
 }
+
+/* Levels: the question on a first visit, the learner's level, the next story, and stories grouped per level. */
+.level-choice {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.level-choice legend {
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.level-choice button.chosen {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.level-bar {
+  align-items: center;
+}
+
+.level-bar select {
+  font: inherit;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+.next-story {
+  border-color: var(--primary);
+}
+
+.level-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.level-group h2 {
+  font-size: 1.1rem;
+  margin: 12px 0 0;
+}
+
+.level-group.current h2 {
+  color: var(--primary);
+}

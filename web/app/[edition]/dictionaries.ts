@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { edition as editionParam } from "next/root-params";
-import { EDITIONS, isEdition } from "@/lib/editions";
+import { EDITIONS, isEdition, showsEverything } from "@/lib/editions";
 import type { Dictionary } from "@/lib/i18n";
 
 /**
@@ -12,6 +12,8 @@ export async function getEdition() {
   const slug = await editionParam();
   if (!isEdition(slug)) notFound();
   const edition = EDITIONS[slug];
+  // A draft edition exists only for the owner.
+  if (edition.status === "draft" && !showsEverything()) notFound();
   const dict = (await import(`@/dictionaries/${edition.base}.json`)).default as Dictionary;
   return { edition, dict };
 }

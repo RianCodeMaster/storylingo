@@ -19,3 +19,9 @@ export interface Edition {
 
 export const EDITIONS = editions as Record<string, Edition>;
 export const isEdition = (slug: string | undefined): slug is string => !!slug && slug in EDITIONS;
+
+/**
+ * Whether the owner's view is on: the overview at / and draft editions. On while developing, or with SHOW_EDITIONS=1;
+ * off in production, so a learner never finds another edition (each niche is marketed as its own app).
+ */
+export const showsEverything = () => process.env.NODE_ENV !== "production" || process.env.SHOW_EDITIONS === "1";

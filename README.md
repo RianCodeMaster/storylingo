@@ -41,6 +41,12 @@ Na elke wijziging in `content/` (in `pipeline`):
 `storylingo.py check` of alles compleet is, en per probleem welk commando het oplost (bijvoorbeeld `media` voor
 een opname die niet meer bij zijn tekst past, of `localize` voor een vertaling van een herschreven scène).
 
+## Niveaus
+
+Elk verhaal heeft een niveau (A1–C2). `content/curriculum/<taal>.yaml` zegt welke structuren bij welk niveau horen;
+`check` bewaakt dat elk verhaal daarbij past. In de app kiest een nieuwe leerling bij de start hoe goed hij de taal al
+kent, ziet hij daarna zijn niveau en zijn volgende verhaal, en stelt de app het volgende niveau voor als hij klaar is.
+
 ## Een nieuw verhaal maken
 
 1. Kopieer een brief in `content/briefs/de/` en pas thema, niveau, tags en doelstructuren aan.

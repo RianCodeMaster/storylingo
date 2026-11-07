@@ -64,6 +64,33 @@
       }
     }
   },
+  "level": {
+    "question": "How well do you know the language?",
+    "options": {
+      "A1": "Not at all yet",
+      "A2": "A little",
+      "B1": "Quite well",
+      "B2": "Well",
+      "C1": "Very well",
+      "C2": "Fluently"
+    },
+    "names": {
+      "A1": "Beginner",
+      "A2": "Elementary",
+      "B1": "Intermediate",
+      "B2": "Upper intermediate",
+      "C1": "Advanced",
+      "C2": "Proficient"
+    },
+    "yours": "Your level",
+    "change": "Another level",
+    "progress": "{done} of {total} finished",
+    "next": "Next story",
+    "ready": "Ready for {level}?",
+    "readyHint": "You've finished every story at {current}.",
+    "readyButton": "Go to {level}",
+    "allDone": "You've finished every story. New ones are on their way."
+  },
   "story": {
     "loading": "Loading story…",
     "saveFailed": "Saving failed: {error}",

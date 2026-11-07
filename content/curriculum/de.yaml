@@ -1,0 +1,25 @@
+# German: the structures stories practise, per level. Briefs take 2-3 of these (content/briefs/de/).
+# `check` makes sure every story's targets are listed here at the story's level or below.
+# concept: the language-neutral meaning that owns the gesture; Spanish reuses them (curriculum/es.yaml).
+A1:
+  - {text: will, gloss: wil, concept: want}
+  - {text: kann nicht, gloss: kan niet, concept: cannot}
+  - {text: mag, gloss: houdt van / vindt lekker, concept: like}
+  - {text: hat, gloss: heeft, concept: have}
+  - {text: es gibt, gloss: er is / er zijn, concept: there_is}
+A2:
+  - {text: wollte, gloss: wilde, concept: want}
+  - {text: konnte nicht, gloss: kon niet, concept: cannot}
+  - {text: hatte Angst, gloss: was bang, concept: afraid}
+  - {text: weil, gloss: omdat, concept: because}
+  - {text: plötzlich, gloss: plotseling, concept: suddenly}
+  - {text: endlich, gloss: eindelijk, concept: finally}
+B1:
+  - {text: obwohl, gloss: hoewel, concept: although}
+  - {text: trotzdem, gloss: toch, concept: nevertheless}
+  - {text: damit, gloss: zodat, concept: so_that}
+  - {text: hätte gern, gloss: zou graag hebben, concept: would_like_to_have}
+  - {text: würde gern, gloss: zou graag, concept: would_like_to_do}
+  - {text: als, gloss: toen (één keer), concept: when_past}
+  - {text: nachdem, gloss: nadat, concept: after}
+  - {text: freute sich auf, gloss: verheugde zich op, concept: look_forward}

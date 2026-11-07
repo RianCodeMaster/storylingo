@@ -22,6 +22,7 @@ import editions
 import languages
 from localize import count, gaps
 from mediajobs import media_jobs
+from curriculum import above, curriculum
 from models import check_story
 
 WEB = Path(__file__).parent.parent / "web"
@@ -90,6 +91,43 @@ def story_rules(doc) -> list[str]:
     return [f"{doc.slug}: {p}" for p in problems]
 
 
+# Words above the story's level, as a share of the words a learner meets unprepared (core words are taught first).
+# Comprehensible input asks for well over 90% known words; the glossary's levels come from the LLM and run strict,
+# so this only warns.
+MAX_ABOVE_LEVEL = 0.10
+
+
+def level_problems(doc) -> list[str]:
+    """Every target belongs to the curriculum at the story's level or below, with the curriculum's concept."""
+    known = curriculum(doc.brief.language)
+    if known is None:
+        return [f"{doc.slug}: no content/curriculum/{doc.brief.language}.yaml (copy one and list what each level teaches)"]
+    problems = []
+    for t in doc.brief.targets:
+        entry = known.get(t.text)
+        if entry is None:
+            problems.append(f"{doc.slug}: target '{t.text}' is not in content/curriculum/{doc.brief.language}.yaml "
+                            f"(add it at its level, or pick a structure that is)")
+        elif above(entry.level, doc.brief.level):
+            problems.append(f"{doc.slug}: target '{t.text}' is {entry.level}, the story is {doc.brief.level} "
+                            f"(raise the story's level, or pick an easier structure)")
+        elif entry.target.concept != t.concept:
+            problems.append(f"{doc.slug}: target '{t.text}' has concept '{t.concept}', the curriculum says "
+                            f"'{entry.target.concept}' (one meaning, one gesture: make them the same)")
+    return problems
+
+
+def level_warnings(doc) -> list[str]:
+    core = {w.lemma for w in doc.story.core_words}
+    words = [e for scene in doc.story.scenes for e in scene.glossary if e.lemma not in core]
+    hard = sorted({e.lemma for e in words if above(e.level, doc.brief.level)})
+    share = sum(1 for e in words if above(e.level, doc.brief.level)) / max(1, len(words))
+    if share <= MAX_ABOVE_LEVEL:
+        return []
+    return [f"{doc.slug} ({doc.brief.level}): {share:.0%} of the words are above its level: {', '.join(hard[:12])}"
+            f"{' …' if len(hard) > 12 else ''}  (simpler words in story.yaml, a core word, or a higher level)"]
+
+
 def translation_gaps(doc, base: str) -> list[str]:
     gap = gaps(doc.brief, doc.story, doc.localizations.get(base))
     if not gap:
@@ -139,6 +177,7 @@ def check(base: str | None = None) -> bool:
         stories = [doc for doc in stories if base in offered[doc.slug]]
 
     areas["content files"] = [p for doc in stories for p in story_rules(doc)]
+    areas["levels"] = [p for doc in stories for p in level_problems(doc)]
     areas["editions"] = edition_gaps(stories) if not base else []
     areas["app setup"] = [p for b in bases for p in app_gaps(b)]
     areas["app texts"] = [f"[{b}] {p}" for b in bases for p in dictionary_gaps(b)]
@@ -158,6 +197,12 @@ def check(base: str | None = None) -> bool:
         print(f"{'✓' if not problems else '✗'} {area}" + (f": {len(problems)} problem(s)" if problems else ""))
         for p in problems:
             print(f"    {p}")
+    # Worth a look, but not wrong: they do not make the check fail.
+    warnings = [w for doc in stories for w in level_warnings(doc)]
+    if warnings:
+        print(f"⚠ level of the words: {len(warnings)} story(ies) to look at")
+        for w in warnings:
+            print(f"    {w}")
     ok = not any(areas.values())
     what = f"'{base}'" if base else "Everything"
     print(f"\n{what} is {'complete and in sync' if ok else 'NOT complete'}.")

@@ -33,6 +33,31 @@ def sync_languages(languages: dict) -> list[str]:
     return changes
 
 
+def sync_editions(editions: dict) -> list[str]:
+    """Make the editions table match content/editions. One removed from the files becomes a draft (learners may be
+    enrolled in it, so its row stays)."""
+    changes = []
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute("select slug, status, base_language, target_language, name from editions")
+        old = {r[0]: r[1:] for r in cur.fetchall()}
+        for slug, e in editions.items():
+            row = (e.status, e.base, e.target, e.name)
+            if old.pop(slug, None) == row:
+                continue
+            cur.execute(
+                """insert into editions (slug, status, base_language, target_language, name) values (%s, %s, %s, %s, %s)
+                   on conflict (slug) do update set status = excluded.status, base_language = excluded.base_language,
+                     target_language = excluded.target_language, name = excluded.name""",
+                (slug, *row),
+            )
+            changes.append(f"edition {slug}")
+        for slug, (status, *_) in old.items():
+            if status != "draft":
+                cur.execute("update editions set status = 'draft' where slug = %s", (slug,))
+                changes.append(f"edition {slug}: no longer in content/editions, now draft")
+    return changes
+
+
 def sync_pairs(pairs: dict[tuple[str, str], str]) -> list[str]:
     """Make language_pairs follow the editions: a pair without an edition goes back to planned."""
     changes = []

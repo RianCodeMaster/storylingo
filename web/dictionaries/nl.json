@@ -64,6 +64,33 @@
       }
     }
   },
+  "level": {
+    "question": "Hoe goed ken je de taal al?",
+    "options": {
+      "A1": "Nog helemaal niet",
+      "A2": "Een beetje",
+      "B1": "Best goed",
+      "B2": "Goed",
+      "C1": "Heel goed",
+      "C2": "Vloeiend"
+    },
+    "names": {
+      "A1": "Beginner",
+      "A2": "Basis",
+      "B1": "Gevorderd",
+      "B2": "Ver gevorderd",
+      "C1": "Vaardig",
+      "C2": "Meester"
+    },
+    "yours": "Jouw niveau",
+    "change": "Ander niveau",
+    "progress": "{done} van {total} uitgespeeld",
+    "next": "Volgende verhaal",
+    "ready": "Klaar voor {level}?",
+    "readyHint": "Je hebt alle verhalen van {current} uitgespeeld.",
+    "readyButton": "Naar {level}",
+    "allDone": "Je hebt alle verhalen uitgespeeld. Er komen er nieuwe bij."
+  },
   "story": {
     "loading": "Verhaal laden…",
     "saveFailed": "Opslaan mislukt: {error}",
