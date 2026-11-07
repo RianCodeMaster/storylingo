@@ -1,0 +1,403 @@
+# Phrases for the phrases section, in learning order: the most useful first. Every edition with this target language
+# shows them. Edit freely (a changed text is a new phrase: it needs a meaning again, `localize-phrases` adds it),
+# then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
+- text: ¿Me puedes echar una mano?
+  hint: Can you give me a hand?
+- text: Estoy en camino.
+  hint: I'm on my way.
+- text: Ya casi llego.
+  hint: I'm almost there.
+- text: Lo siento, no puedo.
+  hint: Sorry, I can't.
+- text: ¿Te viene bien el viernes?
+  hint: Does Friday work for you?
+- text: Me viene bien el martes.
+  hint: Tuesday works for me.
+- text: No me apetece.
+  hint: I don't feel like it.
+- text: ¿Te apetece un café?
+  hint: Do you feel like a coffee?
+- text: Estoy agotado.
+  hint: I'm exhausted.
+- text: Estoy preocupado.
+  hint: I'm worried.
+- text: Me da vergüenza.
+  hint: I'm embarrassed.
+- text: No me lo puedo creer.
+  hint: I can't believe it.
+- text: ¿Qué te parece?
+  hint: What do you think?
+- text: Me parece bien.
+  hint: Sounds good to me.
+- text: No me parece bien.
+  hint: I don't think that's okay.
+- text: Creo que sí.
+  hint: I think so.
+- text: Creo que no.
+  hint: I don't think so.
+- text: No estoy seguro.
+  hint: I'm not sure.
+- text: Yo también.
+  hint: Me too.
+- text: Yo tampoco.
+  hint: Me neither.
+- text: ¿Qué pasa?
+  hint: What's going on?
+- text: Hasta pronto.
+  hint: See you soon.
+- text: Que te vaya bien.
+  hint: All the best.
+- text: ¿Puedo hacerte una pregunta?
+  hint: Can I ask you a question?
+- text: Tengo una duda.
+  hint: I have a question.
+- text: ¿Me lo explicas otra vez?
+  hint: Can you explain it again?
+- text: No lo entiendo.
+  hint: I don't understand it.
+- text: Sin hielo, por favor.
+  hint: No ice, please.
+- text: Con leche, por favor.
+  hint: With milk, please.
+- text: ¿Tienen postre?
+  hint: Do you have dessert?
+- text: ¿Puedo pagar por separado?
+  hint: Can I pay separately?
+- text: Pagamos a medias.
+  hint: Let's split the bill.
+- text: Invito yo.
+  hint: It's on me.
+- text: Está buenísimo.
+  hint: It's delicious.
+- text: No me gusta nada.
+  hint: I don't like it at all.
+- text: Me encanta.
+  hint: I love it.
+- text: ¿Puedo aparcar aquí?
+  hint: Can I park here?
+- text: ¿Tengo que hacer transbordo?
+  hint: Do I need to transfer?
+- text: ¿De qué andén sale?
+  hint: Which platform does it leave from?
+- text: El autobús llega tarde.
+  hint: The bus is late.
+- text: ¿Dónde está el mercado?
+  hint: Where is the market?
+- text: ¿Tienen algo más barato?
+  hint: Do you have something cheaper?
+- text: Tengo que enviar un correo.
+  hint: I have to send an email.
+- text: Estoy en una llamada.
+  hint: I'm on a call.
+- text: ¿Tienes un bolígrafo?
+  hint: Do you have a pen?
+- text: No tengo conexión.
+  hint: I don't have connection.
+- text: Hay una fuga de agua.
+  hint: There's a water leak.
+- text: Tengo que llamar al fontanero.
+  hint: I have to call the plumber.
+- text: Tengo dolor de muelas.
+  hint: I have a toothache.
+- text: Necesito una cita con el médico.
+  hint: I need a doctor's appointment.
+- text: ¿Me cobras, por favor?
+  hint: Can I pay now, please?
+- text: ¿Hay que pedir cita?
+  hint: Do I need an appointment?
+- text: ¿Qué autobús tengo que coger?
+  hint: Which bus should I take?
+- text: ¿Dónde tengo que bajar?
+  hint: Where do I need to get off?
+- text: No me siento bien.
+  hint: I don't feel well.
+- text: ¿Dónde tengo que firmar?
+  hint: Where do I have to sign?
+- text: ¿Me puede dar un recibo?
+  hint: Can you give me a receipt?
+- text: ¿Puedo cambiarlo por otro?
+  hint: Can I exchange it for another?
+- text: ¿Cuántas paradas faltan?
+  hint: How many stops are left?
+- text: ¿Se puede ir andando?
+  hint: Can you walk there?
+- text: Quería cambiar mi cita.
+  hint: I wanted to change my appointment.
+- text: ¿Cuándo tengo que volver?
+  hint: When do I have to come back?
+- text: Me he hecho daño en el pie.
+  hint: I've hurt my foot.
+- text: ¿Cada cuánto tengo que tomarlo?
+  hint: How often must I take it?
+- text: Me duele al respirar.
+  hint: It hurts when I breathe.
+- text: ¿Dónde recojo el paquete?
+  hint: Where do I collect the parcel?
+- text: ¿Hay que hacer transbordo?
+  hint: Do I need to change lines?
+- text: He perdido el tren.
+  hint: I've missed the train.
+- text: El tren lleva retraso.
+  hint: The train is delayed.
+- text: Me queda un poco grande.
+  hint: It's a bit big for me.
+- text: ¿Tienen probadores?
+  hint: Do you have fitting rooms?
+- text: ¿Cuál es la fecha de caducidad?
+  hint: What's the expiry date?
+- text: Necesito una factura, por favor.
+  hint: I need an invoice, please.
+- text: ¿A nombre de quién?
+  hint: In whose name?
+- text: ¿Me lo puede envolver?
+  hint: Can you wrap it for me?
+- text: Soy alérgico a la penicilina.
+  hint: I'm allergic to penicillin.
+- text: ¿Tengo que tomar algo?
+  hint: Do I have to take anything?
+- text: ¿Puedo hacer deporte?
+  hint: Can I do sport?
+- text: Está a diez minutos andando.
+  hint: It's ten minutes on foot.
+- text: Trabajo de lunes a viernes.
+  hint: I work Monday to Friday.
+- text: Tengo el día libre.
+  hint: I have the day off.
+- text: Salgo a las seis.
+  hint: I leave at six.
+- text: No llego a tiempo.
+  hint: I won't arrive on time.
+- text: Me tengo que ir.
+  hint: I have to go.
+- text: ¿Quieres venir a cenar?
+  hint: Do you want to come to dinner?
+- text: Me lo he pasado muy bien.
+  hint: I had a really good time.
+- text: Estoy un poco nervioso.
+  hint: I'm a bit nervous.
+- text: Me siento fatal.
+  hint: I feel terrible.
+- text: Estoy muy estresado.
+  hint: I'm very stressed.
+- text: Se me ha olvidado.
+  hint: I've forgotten.
+- text: No encuentro mis llaves.
+  hint: I can't find my keys.
+- text: ¿Me dejas tu cargador?
+  hint: Can I borrow your charger?
+- text: Se ha roto un vaso.
+  hint: A glass has broken.
+- text: ¿Puedes bajar el volumen?
+  hint: Can you turn the volume down?
+- text: Hace un día estupendo.
+  hint: It's a lovely day.
+- text: ¿Qué hay para cenar?
+  hint: What's for dinner?
+- text: Hay que comprar leche.
+  hint: We need to buy milk.
+- text: ¿Me queda bien?
+  hint: Does it suit me?
+- text: ¿Puedo pagar con el móvil?
+  hint: Can I pay by phone?
+- text: Voy a casa de un amigo.
+  hint: I'm going to a friend's house.
+- text: ¿Qué tal todo?
+  hint: How's everything?
+- text: ¿Nos tomamos algo?
+  hint: Shall we grab a drink?
+- text: ¿Te apetece salir?
+  hint: Do you feel like going out?
+- text: ¿Qué haces este finde?
+  hint: What are you doing this weekend?
+- text: ¿Me pones un café?
+  hint: Could I have a coffee?
+- text: Para mí, lo mismo.
+  hint: Same for me.
+- text: ¿Tenéis algo sin gluten?
+  hint: Do you have gluten-free options?
+- text: Soy alérgico a los frutos secos.
+  hint: I'm allergic to nuts.
+- text: ¿Me lo pones para llevar?
+  hint: Can I have it to take away?
+- text: ¿Puedo pagar con Bizum?
+  hint: Can I pay with Bizum?
+- text: ¿Me das una bolsa?
+  hint: Can I have a bag?
+- text: ¿Dónde están los probadores?
+  hint: Where are the fitting rooms?
+- text: ¿Lo tienes en otra talla?
+  hint: Do you have it in another size?
+- text: ¿Me lo cambias por otra talla?
+  hint: Can you change it for another size?
+- text: ¿Me puede dar cambio?
+  hint: Can you give me change?
+- text: Quiero pedir hora con el médico.
+  hint: I want a doctor's appointment.
+- text: Me duele aquí.
+  hint: It hurts here.
+- text: Soy alérgico al polen.
+  hint: I'm allergic to pollen.
+- text: ¿Tengo que guardar reposo?
+  hint: Do I need to rest?
+- text: Me siento mareado.
+  hint: I feel dizzy.
+- text: ¿Este tren para en Valencia?
+  hint: Does this train stop in Valencia?
+- text: ¿Dónde puedo validar el billete?
+  hint: Where can I validate the ticket?
+- text: Perdón, me he equivocado de tren.
+  hint: Sorry, I got on the wrong train.
+- text: ¿Está lejos de aquí?
+  hint: Is it far from here?
+- text: Se ha ido la luz.
+  hint: The power has gone out.
+- text: Hay una gotera en el techo.
+  hint: There's a leak in the ceiling.
+- text: Me he dejado las llaves dentro.
+  hint: I've left my keys inside.
+- text: El váter está atascado.
+  hint: The toilet is blocked.
+- text: ¿Puedes cerrar la ventana?
+  hint: Can you close the window?
+- text: ¿Podemos hablar un momento?
+  hint: Can we talk for a moment?
+- text: No puedo ir a la reunión.
+  hint: I can't attend the meeting.
+- text: Voy a llegar un poco tarde.
+  hint: I'll be a little late.
+- text: ¿Me mandas el archivo?
+  hint: Can you send me the file?
+- text: Te escribo por correo.
+  hint: I'll write to you by email.
+- text: ¿A qué hora es la reunión?
+  hint: What time is the meeting?
+- text: Estoy de vacaciones.
+  hint: I'm on holiday.
+- text: No te he oído bien.
+  hint: I didn't hear you well.
+- text: ¿Me lo pones por escrito?
+  hint: Can you put it in writing?
+- text: ¿Tienes un momento?
+  hint: Do you have a moment?
+- text: ¿Me dejas pasar?
+  hint: Can I get past?
+- text: Me siento solo.
+  hint: I feel lonely.
+- text: Estoy harto.
+  hint: I'm fed up.
+- text: Me preocupa un poco.
+  hint: It worries me a little.
+- text: Estoy de buen humor.
+  hint: I'm in a good mood.
+- text: ¿Qué tal el fin de semana?
+  hint: How was your weekend?
+- text: Que lo paséis bien.
+  hint: Have a good time.
+- text: Gracias por invitarme.
+  hint: Thanks for inviting me.
+- text: Lo siento, no era mi intención.
+  hint: Sorry, I didn't mean it.
+- text: ¿Me lo puedes explicar?
+  hint: Can you explain it to me?
+- text: ¿Puedo hacer una llamada?
+  hint: Can I make a call?
+- text: ¿Me pones un poco más?
+  hint: Can I have a bit more?
+- text: ¿Puedo pagar a plazos?
+  hint: Can I pay in instalments?
+- text: Quiero hacer una devolución.
+  hint: I want to return this item.
+- text: Estoy buscando una talla más.
+  hint: I'm looking for a bigger size.
+- text: ¿Lo tienen en otro color?
+  hint: Do you have it in another colour?
+- text: Tengo que terminar esto hoy.
+  hint: I have to finish this today.
+- text: ¿Puedo salir antes hoy?
+  hint: Can I leave early today?
+- text: Necesito el día libre.
+  hint: I need the day off.
+- text: ¿Me firmas aquí?
+  hint: Can you sign here?
+- text: No sé cómo hacerlo.
+  hint: I don't know how to do it.
+- text: Ya he terminado.
+  hint: I've already finished.
+- text: Todavía no he empezado.
+  hint: I haven't started yet.
+- text: Te lo envío ahora.
+  hint: I'll send it to you now.
+- text: ¿Me lo confirmas, por favor?
+  hint: Can you confirm it, please?
+- text: ¿Este autobús va a la estación?
+  hint: Does this bus go to the station?
+- text: Quiero un abono de diez viajes.
+  hint: I want a ten-trip travel card.
+- text: ¿Puedo llevar esta maleta?
+  hint: Can I take this suitcase?
+- text: ¿Esta línea va al aeropuerto?
+  hint: Does this line go to the airport?
+- text: Me he dejado el paraguas en el tren.
+  hint: I left my umbrella on the train.
+- text: ¿Puedes sacar la basura?
+  hint: Can you take out the rubbish?
+- text: La lavadora no funciona.
+  hint: The washing machine isn't working.
+- text: Se ha estropeado la nevera.
+  hint: The fridge has broken down.
+- text: El baño está ocupado.
+  hint: The bathroom is occupied.
+- text: El vecino hace mucho ruido.
+  hint: The neighbour makes a lot of noise.
+- text: Tengo que llamar al casero.
+  hint: I have to call the landlord.
+- text: ¿Puedes bajar la persiana?
+  hint: Can you lower the blind?
+- text: Me duele al tragar.
+  hint: It hurts when I swallow.
+- text: Tengo la tensión alta.
+  hint: I have high blood pressure.
+- text: ¿Puedo tomar ibuprofeno?
+  hint: Can I take ibuprofen?
+- text: Me he cortado el dedo.
+  hint: I've cut my finger.
+- text: ¿Dónde está la sala de espera?
+  hint: Where is the waiting room?
+- text: Me han dado la baja.
+  hint: I've been signed off sick.
+- text: ¡Qué interesante!
+  hint: How interesting!
+- text: No me lo esperaba.
+  hint: I wasn't expecting that.
+- text: ¡Qué buena idea!
+  hint: What a good idea!
+- text: Claro que sí.
+  hint: Of course.
+- text: Eso no es verdad.
+  hint: That's not true.
+- text: Estoy de acuerdo contigo.
+  hint: I agree with you.
+- text: No estoy de acuerdo.
+  hint: I don't agree.
+- text: ¡Qué va!
+  hint: No way!
+- text: Menos mal.
+  hint: Thank goodness.
+- text: No puede ser.
+  hint: It can't be.
+- text: Gracias por avisarme.
+  hint: Thanks for letting me know.
+- text: Perdona por el retraso.
+  hint: Sorry I'm late.
+- text: Muchas gracias por todo.
+  hint: Thanks very much for everything.
+- text: ¿Hay que reservar?
+  hint: Do you need to book?
+- text: ¿Tienes hora?
+  hint: Do you have the time?
+- text: ¿Cuánto tiempo llevas aquí?
+  hint: How long have you been here?
+- text: ¿Cómo se pronuncia esto?
+  hint: How do you pronounce this?
+- text: ¿Dónde se puede aparcar?
+  hint: Where can you park?

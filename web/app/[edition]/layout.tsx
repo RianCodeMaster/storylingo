@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_Arabic, Plus_Jakarta_Sans } from "next/font/google";
 import type { CSSProperties } from "react";
+import { DevToolsProvider } from "@/lib/devtools";
 import { EDITIONS } from "@/lib/editions";
 import { I18nProvider } from "@/lib/i18n";
 import "../globals.css";
@@ -52,7 +53,7 @@ export default async function EditionLayout({ children }: LayoutProps<"/[edition
     >
       <body suppressHydrationWarning>
         <I18nProvider lang={base} dict={dict} edition={edition}>
-          {children}
+          <DevToolsProvider>{children}</DevToolsProvider>
         </I18nProvider>
       </body>
     </html>

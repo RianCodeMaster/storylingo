@@ -9,6 +9,9 @@ import json
 
 from models import Scene, Story
 
+# Part of every recording's fingerprint: changing the format (or its bit rate) remakes all audio.
+AUDIO_FORMAT = "mp3-64"
+
 
 def _hash(*parts) -> str:
     return hashlib.sha256(json.dumps(parts, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
@@ -16,12 +19,12 @@ def _hash(*parts) -> str:
 
 def narration(scene: Scene, voice: dict) -> str:
     """A scene's audio: its sentences with their emotions, spoken by this voice."""
-    return _hash("narration", scene.text, [line.model_dump() for line in scene.voice], voice)
+    return _hash("narration", scene.text, [line.model_dump() for line in scene.voice], voice, AUDIO_FORMAT)
 
 
 def spoken(text: str, kind: str, voice: dict) -> str:
     """A question or a single word, spoken by this voice."""
-    return _hash(kind, text, voice)
+    return _hash(kind, text, voice, AUDIO_FORMAT)
 
 
 def picture(prompt: str) -> str:

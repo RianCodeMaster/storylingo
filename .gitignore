@@ -2,6 +2,7 @@
 .env
 .env.*
 !.env.example
+!.env.*.example
 
 # Node / Next.js
 node_modules/
@@ -26,3 +27,6 @@ supabase/.branches/
 pipeline/*.wav
 pipeline/*.png
 pipeline/voices/
+
+# Pictures and recordings exported for the cloud (storylingo.py media-export)
+pipeline/media-export/

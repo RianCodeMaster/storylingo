@@ -1,0 +1,602 @@
+# What each phrase means for learners with this base language. Made by `storylingo.py localize-phrases`; corrections
+# by hand are welcome (then: storylingo.py sync).
+Guten Morgen.: صباح الخير.
+Guten Tag.: مرحبًا.
+Hallo, wie geht's?: مرحبًا، كيف حالك؟
+Mir geht es gut.: أنا بخير.
+Danke, gut.: شكرًا، بخير.
+Auf Wiedersehen.: إلى اللقاء.
+Tschüss, bis später.: إلى اللقاء، أراك لاحقًا.
+Bitte schön.: على الرحب والسعة.
+Entschuldigung, ich habe eine Frage.: عذرًا، لدي سؤال.
+Wie bitte?: عفوًا؟
+Ich verstehe nicht.: لا أفهم.
+Sprechen Sie Englisch?: هل تتحدث الإنجليزية؟
+Können Sie das wiederholen?: هل يمكنك تكرار ذلك؟
+Wie heißt du?: ما اسمك؟
+Ich heiße Anna.: اسمي آنا.
+Ich komme aus Deutschland.: أنا من ألمانيا.
+Ich wohne hier.: أسكن هنا.
+Wie geht es Ihnen?: كيف حال حضرتك؟
+Danke, und Ihnen?: شكرًا، وحضرتك؟
+Es tut mir leid.: أنا آسف.
+Kein Problem.: لا مشكلة.
+Ich möchte einen Kaffee, bitte.: أريد قهوة، من فضلك.
+Was kostet das?: بكم هذا؟
+Das ist zu teuer.: هذا غالٍ جدًا.
+Ich nehme das.: سآخذ هذا.
+Haben Sie das in groß?: هل لديك هذا بمقاس كبير؟
+Die Rechnung, bitte.: الحساب، من فضلك.
+Wo ist der Bahnhof?: أين محطة القطار؟
+Wie komme ich zum Zentrum?: كيف أصل إلى المركز؟
+Wann fährt der Zug?: متى يغادر القطار؟
+Eine Fahrkarte nach Berlin, bitte.: تذكرة واحدة إلى برلين، من فضلك.
+Ich habe einen Termin.: لدي موعد.
+Können Sie mir helfen?: هل يمكنك مساعدتي؟
+Ich brauche einen Arzt.: أحتاج إلى طبيب.
+Ich fühle mich nicht gut.: لا أشعر أنني بحالة جيدة.
+Wo tut es weh?: أين تشعر بالألم؟
+Ich habe Kopfschmerzen.: أشعر بصداع.
+Ich bin krank.: أنا مريض.
+Gute Besserung!: أتمنى لك الشفاء العاجل.
+Ich arbeite hier.: أعمل هنا.
+Ich habe keine Zeit.: ليس لدي وقت.
+Bis morgen.: أراك غدًا.
+Viel Glück!: حظًا سعيدًا!
+Herzlichen Glückwunsch!: تهانينا!
+Freut mich, Sie kennenzulernen.: سعيد بلقائك.
+Wie spät ist es?: كم الساعة؟
+Ich bin müde.: أنا متعب.
+Ich habe Hunger.: أنا جائع.
+Ich habe Durst.: أنا عطشان.
+Ich mag das.: يعجبني هذا.
+Guten Abend.: مساء الخير.
+Gute Nacht.: تصبح على خير.
+Bis bald.: أراك قريبًا.
+Wie ist Ihr Name?: ما اسم حضرتك؟
+Woher kommen Sie?: من أين أنت؟
+Ich spreche kein Deutsch.: لا أتحدث الألمانية.
+Ich spreche ein bisschen Deutsch.: أتحدث الألمانية قليلًا.
+Wie sagt man das?: كيف يقال هذا؟
+Was bedeutet das?: ماذا يعني هذا؟
+Sprechen Sie langsam, bitte.: تحدث ببطء، من فضلك.
+Ich weiß nicht.: لا أعرف.
+Ich brauche Hilfe.: أحتاج إلى مساعدة.
+Wo ist die Toilette?: أين الحمام؟
+Wo ist der Supermarkt?: أين السوبرماركت؟
+Ich möchte bezahlen.: أريد أن أدفع.
+Kann ich mit Karte zahlen?: هل يمكنني الدفع بالبطاقة؟
+Das ist alles.: هذا كل شيء.
+Ich möchte ein Wasser, bitte.: أريد ماءً، من فضلك.
+Die Speisekarte, bitte.: قائمة الطعام، من فضلك.
+Ich esse kein Fleisch.: لا آكل اللحم.
+Das schmeckt gut.: هذا لذيذ.
+Ich bin satt.: أنا شبعان.
+Ich brauche einen Termin.: أحتاج إلى موعد.
+Wann haben Sie Zeit?: متى لديك وقت؟
+Ich komme später.: سآتي لاحقًا.
+Ich bin zu spät.: لقد تأخرت.
+Wo ist mein Zimmer?: أين غرفتي؟
+Wann kommt der Bus?: متى تأتي الحافلة؟
+Muss ich umsteigen?: هل عليّ التبديل؟
+Ich möchte aussteigen.: أريد أن أنزل.
+Ist dieser Platz frei?: هل هذا المقعد فارغ؟
+Ich suche mein Hotel.: أبحث عن فندقي.
+Ich gehe nach Hause.: أنا ذاهب إلى البيت.
+Ich bin zu Hause.: أنا في البيت.
+Ich komme gleich.: سأصل بعد قليل.
+Kann ich Ihnen helfen?: هل يمكنني مساعدتكم؟
+Was machst du?: ماذا تفعل؟
+Wie war dein Tag?: كيف كان يومك؟
+Mir ist kalt.: أشعر بالبرد.
+Ich habe Angst.: أنا خائف.
+Ich bin glücklich.: أنا سعيد.
+Ich bin traurig.: أنا حزين.
+Das ist gut.: هذا جيد.
+Ich muss gehen.: يجب أن أذهب.
+Ich muss arbeiten.: يجب أن أعمل.
+Ich bin beschäftigt.: أنا مشغول.
+Wann beginnt der Kurs?: متى تبدأ الدورة؟
+Wo ist das Büro?: أين المكتب؟
+Kann ich hereinkommen?: هل يمكنني الدخول؟
+Können Sie das erklären?: هل يمكنكم شرح ذلك؟
+Einen Moment, bitte.: لحظة من فضلك.
+Wie heißt das auf Deutsch?: ماذا يسمى هذا بالألمانية؟
+Wie schreibt man das?: كيف يُكتب ذلك؟
+Können Sie mir das zeigen?: هل يمكنكم أن تروني ذلك؟
+Wo finde ich das?: أين أجد ذلك؟
+Wie lange dauert das?: كم يستغرق هذا؟
+Ich möchte einen Termin machen.: أود حجز موعد.
+Wann haben Sie geöffnet?: متى تفتحون؟
+Ich schaue nur, danke.: أنا أتفرج فقط، شكراً.
+Wo ist die Kasse?: أين الصندوق؟
+Kann ich das umtauschen?: هل يمكنني استبدال هذا؟
+Haben Sie eine Tüte?: هل لديكم كيس؟
+Zusammen oder getrennt?: معاً أم منفصل؟
+Noch einen Kaffee, bitte.: قهوة أخرى، من فضلك.
+Kann ich bitte bestellen?: هل يمكنني الطلب من فضلك؟
+Ich hätte gern ein Brot.: أود رغيف خبز.
+Das ist zu klein.: هذا صغير جداً.
+Das passt gut.: هذا يناسب جيداً.
+Ich brauche eine Quittung.: أحتاج إيصالاً.
+Ist das im Angebot?: هل هذا ضمن التخفيضات؟
+Wo muss ich unterschreiben?: أين يجب أن أوقع؟
+Ich warte hier.: أنتظر هنا.
+Können wir später sprechen?: هل يمكننا التحدث لاحقاً؟
+Wann ist die Pause?: متى الاستراحة؟
+Ich mache eine Pause.: سأخذ استراحة.
+Ich habe Schmerzen.: أشعر بالألم.
+Hier tut es weh.: هنا يؤلمني.
+Ich habe Fieber.: عندي حمى.
+Gibt es hier eine Apotheke?: هل توجد صيدلية هنا؟
+Ich muss zum Arzt.: يجب أن أذهب إلى الطبيب.
+Wann kann ich kommen?: متى يمكنني القدوم؟
+Wo ist der Ausgang?: أين المخرج؟
+Wo ist Gleis drei?: أين رصيف رقم ثلاثة؟
+Wie lange fährt der Zug?: كم يستغرق القطار؟
+Ich steige hier aus.: سأنزل هنا.
+Bitte halten Sie hier.: توقفوا هنا من فضلك.
+Wo ist die Haltestelle?: أين المحطة؟
+Fährt dieser Bus zum Bahnhof?: هل يذهب هذا الباص إلى محطة القطار؟
+Wo muss ich aussteigen?: أين يجب أن أنزل؟
+Ist der Zug pünktlich?: هل القطار في الموعد؟
+Wo sind die Schlüssel?: أين المفاتيح؟
+Die Tür ist offen.: الباب مفتوح.
+Kannst du das Licht anmachen?: هل يمكنك تشغيل الضوء؟
+Ich muss aufräumen.: يجب أن أرتب.
+Das freut mich.: هذا يسعدني.
+Das ist schade.: هذا مؤسف.
+Keine Sorge.: لا تقلق.
+Alles klar.: حسناً.
+Das stimmt.: هذا صحيح.
+Ich bin einverstanden.: أنا موافق.
+Wie kann ich Ihnen helfen?: كيف يمكنني مساعدتكم؟
+Darf ich Sie etwas fragen?: هل يمكنني أن أسألكم شيئاً؟
+Sprechen Sie Deutsch?: هل تتحدثون الألمانية؟
+Ich spreche nur wenig Deutsch.: أتحدث الألمانية قليلاً فقط.
+Einen Moment, ich schaue nach.: لحظة، سأتحقق.
+Können Sie kurz warten?: هل يمكنكم الانتظار قليلاً؟
+Ich bin gleich zurück.: سأعود بعد قليل.
+Vielen Dank für Ihre Hilfe.: شكراً جزيلاً على مساعدتكم.
+Bitte sehr, gern geschehen.: على الرحب والسعة.
+Entschuldigung, ich bin spät dran.: عذراً، أنا متأخر.
+Tut mir leid, ich kann nicht.: عذراً، لا أستطيع الحضور.
+Kein Problem, das mache ich.: لا مشكلة، سأتولى الأمر.
+Alles gut, danke.: كل شيء بخير، شكراً.
+Das ist sehr nett.: هذا لطف كبير منك.
+Ich freue mich.: يسعدني ذلك.
+Was kostet das zusammen?: كم يكلف هذا إجمالاً؟
+Haben Sie das auch in Blau?: هل لديكم هذا باللون الأزرق أيضاً؟
+Ich möchte das kaufen.: أود شراء هذا.
+Kann ich das anprobieren?: هل يمكنني تجربة هذا؟
+Das passt mir nicht.: هذا لا يناسبني.
+Haben Sie eine andere Größe?: هل لديكم مقاس آخر؟
+Kann ich das zurückgeben?: هل يمكنني إرجاع هذا؟
+Bar oder mit Karte?: نقداً أم بالبطاقة؟
+Ich zahle mit Karte.: سأدفع بالبطاقة.
+Kann ich bitte zahlen?: هل يمكنني الدفع من فضلك؟
+Ich hätte gern etwas zu trinken.: أود شيئاً للشرب من فضلك.
+Was haben Sie zu essen?: ما الطعام المتوفر لديكم؟
+Das Essen war sehr gut.: كان الطعام لذيذاً جداً.
+Ohne Fleisch, bitte.: بدون لحم، من فضلك.
+Noch ein Wasser, bitte.: ماء آخر، من فضلك.
+Wann kommt der nächste Bus?: متى يأتي الباص التالي؟
+Wo ist die Bushaltestelle?: أين موقف الباص؟
+Wie viele Stationen sind es?: كم عدد المحطات؟
+Muss ich hier umsteigen?: هل عليّ تغيير الخط هنا؟
+Hin und zurück, bitte.: ذهاب وعودة، من فضلك.
+Ich möchte eine Fahrkarte kaufen.: أود شراء تذكرة.
+Ist dieser Sitz frei?: هل هذا المقعد فارغ؟
+Bitte halten Sie an.: توقف من فضلك.
+Ich habe den Bus verpasst.: فاتني الباص.
+Können Sie mir den Weg zeigen?: هل يمكنك أن تدلني على الطريق؟
+Ich habe mich verlaufen.: لقد ضللت الطريق.
+Mir ist schlecht.: أشعر بالغثيان.
+Ich habe Halsschmerzen.: حلقي يؤلمني.
+Ich brauche einen Arzttermin.: أحتاج موعداً عند الطبيب.
+Ich habe eine Allergie.: لدي حساسية.
+Ich bin neu hier.: أنا جديد هنا.
+Ich arbeite im Büro.: أعمل في مكتب.
+Ich habe Pause.: أنا في استراحة.
+Das gefällt mir.: هذا يعجبني.
+Ich brauche Ruhe.: أحتاج إلى الهدوء.
+Schönen Tag noch.: أتمنى لك يوماً سعيداً.
+Mach's gut.: اعتنِ بنفسك.
+Alles Gute.: كل التوفيق.
+Gute Reise.: رحلة سعيدة.
+Nehmen Sie Platz.: تفضل بالجلوس.
+Ich brauche noch etwas Zeit.: أحتاج مزيداً من الوقت.
+Könnten Sie das bitte buchstabieren?: هل يمكنك تهجئة ذلك من فضلك؟
+Können Sie mir das aufschreiben?: هل يمكنك كتابة ذلك لي؟
+Ich habe es nicht verstanden.: لم أفهم ذلك.
+Das ist ja toll.: هذا رائع!
+Das glaube ich nicht.: لا أصدق ذلك.
+Das ist mir egal.: لا يهمني.
+Das macht nichts.: لا بأس.
+Das ist nicht schlimm.: هذا ليس سيئاً.
+Das ist eine gute Idee.: هذه فكرة جيدة.
+Das stimmt nicht.: هذا غير صحيح.
+Ich bin mir nicht sicher.: لست متأكداً.
+Ich glaube schon.: أعتقد ذلك.
+Ich glaube nicht.: لا أعتقد ذلك.
+Was ist passiert?: ماذا حدث؟
+Wie meinen Sie das?: ماذا تقصد بذلك؟
+Haben Sie noch Fragen?: هل لديك أي أسئلة أخرى؟
+Ist alles in Ordnung?: هل كل شيء على ما يرام؟
+Geht es Ihnen gut?: هل حضرتك بخير؟
+Brauchen Sie noch etwas.: هل تحتاج شيئاً آخر؟
+Wann treffen wir uns?: متى نتقابل؟
+Wo treffen wir uns?: أين نتقابل؟
+Um wie viel Uhr.: في أي ساعة؟
+Ich suche ein Geschenk.: أبحث عن هدية.
+Wo ist die Umkleidekabine?: أين غرفة القياس؟
+Passt es Ihnen.: هل يناسب حضرتك؟
+Kann ich das später abholen?: هل يمكنني استلام هذا لاحقاً؟
+Ich habe eine Besprechung.: لدي اجتماع.
+Ich rufe Sie später zurück.: سأعاود الاتصال بك لاحقاً.
+Ich muss den Termin verschieben.: عليّ تأجيل الموعد.
+Ich arbeite von zu Hause.: أعمل من المنزل.
+Ich habe eine Erkältung.: أعاني من نزلة برد.
+Ich bin allergisch gegen Nüsse.: لدي حساسية من المكسرات.
+Ich brauche ein Rezept.: أحتاج وصفة طبية.
+Ich habe Rückenschmerzen.: أعاني من ألم في الظهر.
+Wo muss ich umsteigen?: أين يجب أن أبدّل الوسيلة؟
+Wie komme ich zum Flughafen?: كيف أصل إلى المطار؟
+Wann kommt der Zug an?: متى يصل القطار؟
+Hat der Zug Verspätung?: هل القطار متأخر؟
+Wo ist der Fahrkartenautomat?: أين ماكينة بيع التذاكر؟
+Ich muss noch einkaufen.: ما زال عليّ أن أتسوق.
+Die Heizung funktioniert nicht.: التدفئة لا تعمل.
+Ich habe den Schlüssel verloren.: لقد أضعت المفتاح.
+Ich habe keine Lust.: لست في مزاج لذلك.
+Ich bin sehr froh.: أنا سعيد جدًا.
+Was darf es für Sie sein?: ماذا تفضل؟
+Stimmt so, danke.: احتفظ بالباقي، شكرًا.
+Ich bezahle bar.: سأدفع نقدًا.
+Ich habe kein Kleingeld.: ليس لدي فكة.
+Ich hätte gern noch etwas.: أود المزيد من فضلك.
+Können Sie mir etwas empfehlen?: هل يمكنك أن تنصحني بشيء؟
+Das ist eine gute Frage.: هذا سؤال جيد.
+Das kann ich verstehen.: يمكنني فهم ذلك.
+Das ist nicht so wichtig.: هذا ليس مهمًا جدًا.
+Das macht keinen Sinn.: هذا لا معنى له.
+Ich bin zufrieden.: أنا راضٍ.
+Ich bin wütend.: أنا غاضب.
+Ich bin überrascht.: أنا متفاجئ.
+Ich habe gute Laune.: أنا في مزاج جيد.
+Alles wird gut.: كل شيء سيكون بخير.
+Das nervt mich.: هذا يزعجني.
+Wo ist der nächste Geldautomat?: أين أقرب صراف آلي؟
+Ich brauche eine andere Farbe.: أحتاج لونًا آخر.
+Die Hose ist mir zu lang.: البنطال طويل جدًا عليّ.
+Ich nehme zwei Stück.: سآخذ قطعتين.
+Ich möchte etwas gegen Kopfschmerzen.: أريد شيئًا لصداع الرأس.
+Ich brauche eine Krankschreibung.: أحتاج شهادة مرضية.
+Können Sie mir etwas verschreiben?: هل يمكنك أن تصف لي دواءً؟
+Wann soll ich wieder kommen?: متى يجب أن أعود؟
+Mir ist schwindelig.: أشعر بالدوار.
+Ich habe Bauchschmerzen.: أشعر بألم في البطن.
+Ich fühle mich sehr schwach.: أشعر بضعف شديد.
+Ich habe mich verletzt.: لقد جرحت نفسي.
+Mein Arm tut weh.: ذراعي تؤلمني.
+Ich fahre mit dem Zug.: أنا ذاهب بالقطار.
+Ich nehme die Straßenbahn.: سآخذ الترام.
+Ich steige am Hauptbahnhof um.: أغيّر القطار في المحطة الرئيسية.
+Der Bus kommt in zehn Minuten.: ستأتي الحافلة بعد عشر دقائق.
+Kannst du bitte das Fenster schließen?: هل يمكنك إغلاق النافذة من فضلك؟
+Kannst du bitte das Licht ausmachen?: هل يمكنك إطفاء الضوء من فضلك؟
+Die Waschmaschine ist kaputt.: الغسالة معطلة.
+Der Kühlschrank ist leer.: الثلاجة فارغة.
+Die Tür ist abgeschlossen.: الباب مقفل.
+Die Miete ist zu hoch.: الإيجار مرتفع جدًا.
+Ich suche eine neue Wohnung.: أبحث عن شقة جديدة.
+Ich habe viel Arbeit.: لدي عمل كثير.
+Ich schicke dir die Datei.: سأرسل لك الملف.
+Hast du die E-Mail gelesen?: هل قرأت البريد الإلكتروني؟
+Ich habe die Datei nicht gefunden.: لم أجد الملف.
+Ich bin im Urlaub.: أنا في إجازة.
+Ich muss früher gehen.: يجب أن أذهب مبكرًا.
+Kannst du das bitte prüfen?: هل يمكنك التحقق من ذلك من فضلك؟
+Ich habe das Formular ausgefüllt.: لقد ملأت النموذج.
+Unterschreiben Sie hier, bitte.: وقّع هنا من فضلك.
+Ich brauche eine Kopie.: أحتاج نسخة.
+Entschuldigung, wo geht es hier zur Toilette?: عذرًا، أين الحمام من هنا؟
+Können Sie mir bitte helfen?: هل يمكنك مساعدتي من فضلك؟
+Ich verstehe das leider nicht.: للأسف لا أفهم ذلك.
+Könnten Sie das bitte langsamer sagen?: هل يمكنك قول ذلك ببطء أكثر من فضلك؟
+Wie komme ich am besten dorthin?: ما أفضل طريقة للوصول إلى هناك؟
+Gibt es hier in der Nähe eine Bank?: هل يوجد بنك قريب من هنا؟
+Ich möchte bitte die Rechnung.: أريد الفاتورة من فضلك.
+Das habe ich nicht bestellt.: لم أطلب هذا.
+Mein Essen ist leider kalt.: طعامي بارد للأسف.
+Können wir den Termin verschieben?: هل يمكننا تأجيل الموعد؟
+Ich möchte einen Termin vereinbaren.: أود تحديد موعد.
+Ich melde mich später bei Ihnen.: سأتواصل معكم لاحقًا.
+Bitte rufen Sie mich zurück.: من فضلك اتصل بي مرة أخرى.
+Können Sie mir eine E-Mail schicken?: هل يمكنك أن ترسل لي بريدًا إلكترونيًا؟
+Ich habe die Unterlagen dabei.: أحمل المستندات معي.
+Kann ich das Formular später abgeben?: هل يمكنني تسليم النموذج لاحقًا؟
+Wann ist mein Termin?: متى موعدي؟
+Ich habe seit gestern Fieber.: عندي حمى منذ أمس.
+Es tut hier sehr weh.: يؤلمني هنا كثيرًا.
+Können Sie mir etwas dagegen geben?: هل يمكنك إعطائي شيئًا لهذا؟
+Muss ich das Medikament täglich nehmen?: هل يجب أن أتناول هذا الدواء يوميًا؟
+Der Zug hat leider Verspätung.: للأسف، القطار متأخر.
+Von welchem Gleis fährt der Zug?: من أي رصيف يغادر القطار؟
+Wie lange dauert die Fahrt?: كم تستغرق الرحلة؟
+Ich möchte die Fahrkarte zurückgeben.: أريد إرجاع التذكرة.
+Wo kann ich ein Taxi bekommen?: أين يمكنني أن أجد سيارة أجرة؟
+Bitte fahren Sie mich zum Bahnhof.: من فضلك أوصلني إلى محطة القطار.
+Hält dieser Bus am Marktplatz?: هل يتوقف هذا الباص عند ساحة السوق؟
+Wann fährt der nächste Zug nach Berlin?: متى ينطلق القطار التالي إلى برلين؟
+Ich suche eine Wohnung mit zwei Zimmern.: أبحث عن شقة من غرفتين.
+Wie hoch ist die Kaution?: كم يبلغ التأمين؟
+Wann kann ich die Wohnung sehen?: متى يمكنني معاينة الشقة؟
+Können Sie das bitte reparieren?: هل يمكنكم إصلاح هذا من فضلكم؟
+Der Aufzug funktioniert nicht.: المصعد لا يعمل.
+Ich habe mich ausgesperrt.: لقد أغلقت بابي وبقيت في الخارج.
+Es ist sehr laut hier.: هنا صاخب جدًا.
+Können Sie mir das noch einmal sagen?: هل يمكنكم إخباري بذلك مرة أخرى؟
+Ich weiß es leider auch nicht.: للأسف، أنا لا أعرف ذلك أيضًا.
+Vielen Dank, das ist sehr freundlich.: شكرًا جزيلاً، هذا لطف كبير.
+Entschuldigung, ich habe Sie nicht verstanden.: عذرًا، لم أفهم ما قلتم.
+Darf ich kurz stören?: هل يمكنني أن أقاطعكم لحظة؟
+Haben Sie kurz Zeit für mich?: هل لديكم لحظة من وقتكم؟
+Ich habe eine Frage zum Formular.: لدي سؤال بخصوص النموذج.
+Können wir das später besprechen?: هل يمكننا مناقشة ذلك لاحقًا؟
+Ich bin anderer Meinung.: لدي رأي مختلف.
+Das kann ich gut verstehen.: أتفهم ذلك جيدًا.
+Guten Appetit!: بالهناء والشفاء!
+Schönes Wochenende!: عطلة أسبوع سعيدة!
+Hast du am Wochenende Zeit?: هل أنت متفرغ في عطلة نهاية الأسبوع؟
+Wollen wir zusammen Mittagessen?: هل نتناول الغداء معًا؟
+Entschuldigung, ich suche den Bahnhof.: عذرًا، أنا أبحث عن محطة القطار.
+Ich verstehe nur ein bisschen Deutsch.: أفهم الألمانية قليلاً فقط.
+Kann ich einen Termin bekommen?: هل يمكنني الحصول على موعد؟
+Bitte rufen Sie mich heute an.: من فضلكم اتصلوا بي اليوم.
+Was kostet das pro Kilo?: كم سعر الكيلو من هذا؟
+Die Größe passt mir nicht.: المقاس لا يناسبني.
+Ich nehme das mit.: سآخذه معي.
+Ich fühle mich sehr krank.: أشعر أنني مريض جدًا.
+Ich habe seit gestern Husten.: أعاني من السعال منذ أمس.
+Mein Hals tut sehr weh.: حلقي يؤلمني كثيرًا.
+Ich vertrage keine Milch.: لا أتحمل الحليب.
+Wann soll ich das Medikament nehmen?: متى يجب أن أتناول الدواء؟
+Ich bin stark erkältet.: لدي زكام شديد.
+Ich habe Ohrenschmerzen.: أشعر بألم في أذني.
+Ich habe eine Frage zum Vertrag.: لدي سؤال بخصوص العقد.
+Ich schicke Ihnen die Unterlagen.: سأرسل لكم المستندات.
+Der Termin passt mir gut.: الموعد يناسبني.
+Ich bin heute nicht im Büro.: لن أكون في المكتب اليوم.
+Ich habe den Termin notiert.: لقد دوّنت الموعد.
+Ich brauche Ihre Unterschrift.: أحتاج إلى توقيعكم.
+Wann ist die Besprechung?: متى الاجتماع؟
+Fährt dieser Zug nach München?: هل يذهب هذا القطار إلى ميونخ؟
+Der Zug fällt leider aus.: للأسف، أُلغي القطار.
+Wo ist die nächste Haltestelle?: أين أقرب محطة؟
+Die Lampe ist kaputt.: المصباح معطل.
+Kannst du bitte den Müll rausbringen?: هل يمكنك إخراج القمامة من فضلك؟
+Ich muss noch staubsaugen.: لا يزال عليّ أن أنظف بالمكنسة الكهربائية.
+Das Fenster ist noch offen.: النافذة ما زالت مفتوحة.
+Der Wasserhahn tropft.: الصنبور يقطر.
+Ich habe meinen Schlüssel vergessen.: نسيت مفتاحي.
+Mach bitte die Musik leiser.: من فضلك اخفض صوت الموسيقى.
+Ich muss die Wohnung putzen.: يجب أن أنظف الشقة.
+Die Nachbarn sind sehr laut.: الجيران مزعجون جدًا.
+Ich freue mich sehr darauf.: أنا متشوق لذلك كثيرًا.
+Das ärgert mich sehr.: هذا يغضبني كثيرًا.
+Ich mache mir Sorgen.: أنا قلق.
+Ich bin sehr enttäuscht.: أنا محبط جدًا.
+Ich bin etwas nervös.: أنا متوتر قليلًا.
+Ich habe keine Angst.: لست خائفًا.
+Das gefällt mir überhaupt nicht.: هذا لا يعجبني على الإطلاق.
+Ich bin damit nicht zufrieden.: لست راضيًا عن ذلك.
+Ich bin sehr dankbar.: أنا ممتن جدًا.
+Es geht mir schon besser.: حالي أفضل الآن.
+Was machst du am Wochenende?: ماذا تفعل في عطلة نهاية الأسبوع؟
+Hast du heute Abend Zeit?: هل أنت متفرغ هذا المساء؟
+Was möchtest du trinken?: ماذا تريد أن تشرب؟
+Möchtest du mitkommen?: هل تريد أن تأتي معنا؟
+Kannst du mir den Zucker geben?: هل يمكنك أن تمرر لي السكر؟
+Wie oft fährt der Bus?: كم مرة يمر الباص؟
+Ich möchte mich beschweren.: أريد تقديم شكوى.
+Ich wollte fragen, ob Sie Zeit haben.: كنت أود أن أسأل إن كان لديك وقت.
+Könnten Sie mir das bitte erklären?: هل يمكنك من فضلك أن تشرح لي ذلك؟
+Ich hätte eine kurze Frage.: لدي سؤال قصير.
+Können Sie mir ein Beispiel geben?: هل يمكنك أن تعطيني مثالاً؟
+Ich habe die E-Mail nicht bekommen.: لم أستلم البريد الإلكتروني.
+Kann ich eine Nachricht hinterlassen?: هل يمكنني ترك رسالة؟
+Das habe ich mir schon gedacht.: لقد توقعت ذلك بالفعل.
+Ich bin total gestresst.: أنا متوتر للغاية.
+Ich drücke dir die Daumen.: أتمنى لك التوفيق.
+Mach dir keine Gedanken.: لا تقلق.
+Ich muss den Termin absagen.: يجب أن ألغي الموعد.
+Ich melde mich heute krank.: سأبلغ اليوم بأنني مريض.
+Kann ich morgen freinehmen?: هل يمكنني أخذ يوم عطلة غداً؟
+Die Datei lässt sich nicht öffnen.: لا يمكن فتح الملف.
+Der Drucker funktioniert nicht.: الطابعة لا تعمل.
+Das ist ein Missverständnis.: هذا سوء تفاهم.
+Ich kümmere mich darum.: سأتولى الأمر.
+Kann ich das Formular per E-Mail schicken?: هل يمكنني إرسال النموذج بالبريد الإلكتروني؟
+Können Sie mir eine Bestätigung geben?: هل يمكنك أن تعطيني تأكيداً؟
+Die Rechnung ist noch nicht bezahlt.: لم يتم دفع الفاتورة بعد.
+Der Abfluss ist verstopft.: المصرف مسدود.
+Die Tür lässt sich nicht öffnen.: لا يمكن فتح الباب.
+Ich muss noch den Abwasch machen.: ما زلت بحاجة إلى غسل الأطباق.
+Kannst du bitte die Wäsche machen?: هل يمكنك من فضلك أن تغسل الملابس؟
+Wir bekommen am Wochenende Besuch.: سيكون لدينا ضيوف في عطلة نهاية الأسبوع.
+Ich habe kein Internet.: ليس لدي إنترنت.
+Ich habe mich geschnitten.: لقد جرحت نفسي.
+Ich bin gestern gestürzt.: لقد سقطت أمس.
+Es wird immer schlimmer.: الأمر يزداد سوءاً.
+Ich brauche eine Überweisung.: أحتاج إلى إحالة طبية.
+Rufen Sie bitte einen Krankenwagen.: اتصل بالإسعاف من فضلك.
+Es ist ein Notfall.: إنها حالة طارئة.
+Ich suche etwas für meine Mutter.: أبحث عن شيء لأمي.
+Ist das im Moment reduziert?: هل هذا معروض بخصم الآن؟
+Das ist ein Sonderangebot.: هذا عرض خاص.
+Ich habe es mir anders überlegt.: لقد غيرت رأيي.
+Ich nehme doch das andere.: سآخذ الآخر بدلاً من ذلك.
+Können Sie das einpacken?: هل يمكنك تغليف هذا؟
+Muss ich die Fahrkarte entwerten?: هل يجب أن أختم التذكرة؟
+Hält der Zug in Mannheim?: هل يتوقف القطار في مانهايم؟
+Ich bin im falschen Zug.: أنا في القطار الخطأ.
+Ich muss den Anschluss bekommen.: يجب أن ألحق بالقطار الموصل.
+Kann ich die Fahrkarte stornieren?: هل يمكنني إلغاء التذكرة؟
+Ich möchte einen Tisch reservieren.: أود حجز طاولة.
+Können wir draußen sitzen?: هل يمكننا الجلوس في الخارج؟
+Die Rechnung stimmt nicht.: الفاتورة غير صحيحة.
+Ist das Frühstück inklusive?: هل الفطور مشمول؟
+Hast du Lust, etwas zu machen?: هل تود أن نفعل شيئاً؟
+Ich habe leider schon etwas vor.: للأسف لدي خطط مسبقة.
+Vielleicht ein anderes Mal.: ربما في مرة أخرى.
+Schön, dich zu sehen.: سعيد بلقائك.
+Lange nicht gesehen, wie geht's?: لم نتقابل منذ وقت طويل، كيف حالك؟
+Bis später, ich muss los.: أراك لاحقاً، يجب أن أذهب.
+Wir sehen uns morgen.: نراك غداً.
+Kannst du mir einen Gefallen tun?: هل يمكنك أن تسدي لي خدمة؟
+Würdest du mir bitte helfen?: هل يمكنك مساعدتي من فضلك؟
+Es tut mir leid, das war mein Fehler.: أعتذر، كان ذلك خطئي.
+Kein Problem, ich erledige das.: لا مشكلة، سأتولى ذلك.
+Danke, das war sehr hilfreich.: شكراً، كان ذلك مفيداً جداً.
+Entschuldigen Sie die Störung.: أعتذر على الإزعاج.
+Kann ich Ihnen behilflich sein?: هل يمكنني مساعدتك؟
+Könnten Sie mir den Weg beschreiben?: هل يمكنك أن تصف لي الطريق؟
+Hätten Sie nächste Woche einen Termin frei?: هل لديك موعد شاغر الأسبوع القادم؟
+Ich möchte ein Paket abholen.: أود استلام طرد.
+Was empfehlen Sie mir?: ماذا تنصحني؟
+Ich möchte das gerne umtauschen.: أود استبدال هذا.
+Ich bin mit dem Essen nicht zufrieden.: لست راضياً عن الطعام.
+Könnten wir bitte getrennt bezahlen?: هل يمكننا الدفع بشكل منفصل من فضلك؟
+Ich bin sehr erleichtert.: أشعر بارتياح كبير.
+Ich habe eine Frage zum Projekt.: لدي سؤال حول المشروع.
+Können wir das im Meeting besprechen?: هل يمكننا مناقشة ذلك في الاجتماع؟
+Ich bin heute den ganzen Tag erreichbar.: يمكن التواصل معي طوال اليوم.
+Ich melde mich nach der Besprechung.: سأتواصل معك بعد الاجتماع.
+Haben Sie die E-Mail erhalten?: هل استلمت البريد الإلكتروني؟
+Ich brauche das bis morgen.: أحتاج ذلك بحلول الغد.
+Wann können wir das besprechen?: متى يمكننا مناقشة ذلك؟
+Ich bin im Homeoffice erreichbar.: يمكن التواصل معي وأنا أعمل من المنزل.
+Könnten Sie mir das schriftlich geben?: هل يمكنك إعطائي ذلك كتابياً؟
+Ich habe den Bericht noch nicht fertig.: لم أنته من التقرير بعد.
+Ich habe seit drei Tagen Kopfschmerzen.: أعاني من صداع منذ ثلاثة أيام.
+Ich vertrage das Medikament nicht.: لا أتحمل هذا الدواء.
+Wie oft soll ich die Tabletten nehmen?: كم مرة يجب أن أتناول الأقراص؟
+Mein Rücken tut immer noch weh.: ما زال ظهري يؤلمني.
+Ich bin gegen Penicillin allergisch.: لدي حساسية من البنسلين.
+Können Sie mich bitte krank schreiben?: هل يمكنك أن تعطيني إجازة مرضية من فضلك؟
+Ich nehme jeden Tag diese Tabletten.: أتناول هذه الأقراص كل يوم.
+Das überrascht mich wirklich.: هذا يفاجئني حقًا.
+Muss ich hier auf den Bus warten?: هل عليّ انتظار الحافلة هنا؟
+Wie lange brauche ich bis zum Zentrum?: كم يستغرق الوصول إلى المركز؟
+Fährt dieser Zug über Stuttgart?: هل يمر هذا القطار بشتوتغارت؟
+Können Sie mich am Flughafen abholen?: هل يمكنك اصطحابي من المطار؟
+Wann fährt die nächste U-Bahn?: متى يغادر المترو التالي؟
+Ist dieser Zug direkt nach Hamburg?: هل هذا القطار مباشر إلى هامبورغ؟
+Wir müssen noch die Küche putzen.: ما زال علينا تنظيف المطبخ.
+Die Heizung wird einfach nicht warm.: التدفئة لا تسخن إطلاقًا.
+Ich habe die Tür abgeschlossen.: لقد أغلقت الباب بالمفتاح.
+Ich muss noch die Wäsche aufhängen.: ما زال عليّ أن أنشر الغسيل.
+Ich fühle mich etwas einsam.: أشعر ببعض الوحدة.
+Das macht mich wirklich wütend.: هذا يغضبني حقًا.
+Ich bin froh, dass du da bist.: أنا سعيد لوجودك هنا.
+Könnten Sie mir kurz helfen?: هل يمكنك مساعدتي قليلًا؟
+Kann ich Sie kurz sprechen?: هل يمكنني التحدث إليك قليلًا؟
+Würde es Ihnen morgen passen?: هل يناسبك غدًا؟
+Bitte geben Sie mir kurz Bescheid.: أرجو أن تخبرني باختصار.
+Ich schaffe es leider nicht pünktlich.: للأسف لن أتمكن من الوصول في الوقت المحدد.
+Ich sitze gerade im Stau.: أنا عالق في الزحام الآن.
+Die Verbindung ist gerade schlecht.: الاتصال سيئ حاليًا.
+Könnten Sie mich bitte durchstellen?: هل يمكنك تحويلي من فضلك؟
+Ich rufe später noch einmal an.: سأتصل مرة أخرى لاحقًا.
+Ich bin heute nicht erreichbar.: لا يمكن الوصول إليّ اليوم.
+Können wir den Termin bestätigen?: هل يمكننا تأكيد الموعد؟
+Ich verschiebe den Termin auf morgen.: سأؤجل الموعد إلى الغد.
+Können wir das im Meeting klären?: هل يمكننا توضيح ذلك في الاجتماع؟
+Ich schicke Ihnen die Datei nachher.: سأرسل لك الملف بعد قليل.
+Können Sie das schriftlich bestätigen?: هل يمكنك تأكيد ذلك كتابيًا؟
+Ich muss heute früher Schluss machen.: يجب أن أنتهي اليوم مبكرًا.
+Ich vertrete heute meine Kollegin.: أنا أنوب عن زميلتي اليوم.
+Ich schaue mich nur etwas um.: أنا فقط ألقي نظرة.
+Wo finde ich die Milch?: أين أجد الحليب؟
+Haben Sie das in einer anderen Farbe?: هل لديك هذا بلون آخر؟
+Ich hätte gern zwei davon.: أود اثنين من هذه.
+Ich probiere es eine Nummer größer.: سأجربه مقاسًا أكبر.
+Ich nehme sonst nichts.: لن آخذ شيئًا آخر.
+Haben Sie etwas Preiswerteres?: هل لديك شيء أرخص؟
+Das ist leider nicht vorrätig.: للأسف هذا غير متوفر في المخزون.
+Hält dieser Bus am Hauptbahnhof?: هل تتوقف هذه الحافلة عند المحطة المركزية؟
+Ich habe den Anschluss verpasst.: لقد فاتني القطار التالي.
+Ich brauche eine Monatskarte.: أحتاج بطاقة شهرية.
+Der Fahrkartenautomat nimmt kein Bargeld.: ماكينة التذاكر لا تقبل النقد.
+Ich möchte den Anschlusszug erreichen.: أريد اللحاق بالقطار التالي.
+Könnten Sie mich am Bahnhof abholen?: هل يمكنك اصطحابي من المحطة؟
+Ich bin heute noch nicht ganz fit.: لست بحالة جيدة تمامًا اليوم.
+Ich habe Probleme beim Atmen.: أعاني من مشكلة في التنفس.
+Ich habe mich erkältet.: أصبت بنزلة برد.
+Wann soll ich zur Kontrolle kommen?: متى يجب أن آتي للفحص؟
+Ich habe eine Überweisung vom Hausarzt.: لدي إحالة من طبيب الأسرة.
+Ich habe seit Tagen Rückenschmerzen.: أعاني من آلام الظهر منذ أيام.
+Kannst du bitte die Tür abschließen?: هل يمكنك إغلاق الباب بالمفتاح من فضلك؟
+Können wir die Heizung etwas aufdrehen?: هل يمكننا رفع التدفئة قليلًا؟
+Ich habe den Schlüssel im Schloss gelassen.: لقد تركت المفتاح في القفل.
+Das Fenster lässt sich nicht schließen.: النافذة لا تُغلق.
+Ich muss noch die Wäsche zusammenlegen.: ما زال عليّ طي الغسيل.
+Kannst du noch Brot mitbringen?: هل يمكنك إحضار بعض الخبز أيضًا؟
+Ich freue mich für dich.: أنا سعيد من أجلك.
+Das hat mich sehr gefreut.: لقد أسعدني ذلك كثيرًا.
+Ich bin völlig erschöpft.: أنا منهك تمامًا.
+Ich fühle mich etwas überfordert.: أشعر أنني مُثقل قليلًا.
+Ich kann das gut nachvollziehen.: أتفهم ذلك جيدًا.
+Das ist mir wirklich unangenehm.: هذا يحرجني حقًا.
+Ich ärgere mich über mich selbst.: أنا منزعج من نفسي.
+Was hältst du davon?: ما رأيك في ذلك؟
+Das kommt darauf an.: هذا يعتمد على الموقف.
+Kannst du mir kurz helfen?: هل يمكنك مساعدتي سريعًا؟
+Könnten Sie das bitte wiederholen?: هل يمكنك إعادة ذلك من فضلك؟
+Ich verstehe, was Sie meinen.: أفهم ما تقصده.
+Ich bin nicht sicher, ob das stimmt.: لست متأكدًا مما إذا كان ذلك صحيحًا.
+Lass uns später darüber sprechen.: لنتحدث عن ذلك لاحقًا.
+Ich muss mich beeilen.: عليّ أن أسرع.
+Das ist mir zu kompliziert.: هذا معقد جدًا بالنسبة لي.
+Können wir das anders machen?: هل يمكننا فعل ذلك بطريقة مختلفة؟
+Ich würde lieber zu Hause bleiben.: أفضّل البقاء في المنزل.
+Es wäre schön, wenn du mitkommst.: سيكون جميلاً لو أتيت معنا.
+Können Sie mir einen Tipp geben?: هل يمكنك أن تعطيني نصيحة؟
+Ich kenne mich hier nicht aus.: لا أعرف هذه المنطقة.
+Können Sie mir den Weg erklären?: هل يمكنك أن تشرح لي الطريق؟
+Können Sie mir das auf der Karte zeigen?: هل يمكنك أن تريني ذلك على الخريطة؟
+Wie weit ist es von hier?: كم يبعد هذا من هنا؟
+Zu Fuß sind es zehn Minuten.: عشر دقائق سيراً على الأقدام.
+Wo ist die nächste Apotheke?: أين أقرب صيدلية؟
+Wann fährt der nächste Zug?: متى يغادر القطار التالي؟
+Ist dieser Zug direkt?: هل هذا القطار مباشر؟
+Ich habe den Zug verpasst.: فاتني القطار.
+Kann ich hier umsteigen?: هل يمكنني تغيير القطار هنا؟
+Ich habe einen Termin um drei.: لدي موعد الساعة الثالثة.
+Haben Sie das Formular erhalten?: هل استلمت النموذج؟
+Ich bin heute im Homeoffice.: أعمل من المنزل اليوم.
+Die Leitung ist besetzt.: الخط مشغول.
+Ich habe mich verwählt.: لقد اتصلت برقم خاطئ.
+Können Sie lauter sprechen?: هل يمكنك التحدث بصوت أعلى؟
+Ich verstehe Sie schlecht.: بالكاد أفهمك.
+Ich melde mich bei Ihnen.: سأتواصل معك.
+Ich werde das sofort prüfen.: سأتحقق من ذلك فوراً.
+Können wir das auf morgen verschieben?: هل يمكننا تأجيل ذلك إلى الغد؟
+Ich habe einen Fehler gemacht.: لقد ارتكبت خطأ.
+Das war nicht meine Absicht.: لم يكن هذا قصدي.
+Bitte entschuldigen Sie die Verspätung.: أعتذر عن التأخير.
+Ich habe starke Schmerzen.: لدي ألم شديد.
+Können Sie mir ein Medikament empfehlen?: هل يمكنك أن توصي لي بدواء؟
+Ich nehme bereits Medikamente.: أنا أتناول أدوية بالفعل.
+Ich habe einen Arzttermin.: لدي موعد مع الطبيب.
+Wie hoch ist die Miete?: كم قيمة الإيجار؟
+Wann kann ich einziehen?: متى يمكنني الانتقال للسكن؟
+Das ist sehr nett von dir.: هذا لطف كبير منك.
+Ich freue mich auf das Wochenende.: أتطلع إلى عطلة نهاية الأسبوع.
+Ich fühle mich heute etwas müde.: أشعر ببعض التعب اليوم.
+Ich muss eine kurze Pause machen.: يجب أن آخذ استراحة قصيرة.
+Wir sollten eine Pause machen.: يجب أن نأخذ استراحة.
+Ich kann mich nicht konzentrieren.: لا أستطيع التركيز.
+Ich bin in fünf Minuten fertig.: سأكون جاهزاً خلال خمس دقائق.
+Ich muss noch etwas erledigen.: ما زال لدي شيء يجب إنجازه.

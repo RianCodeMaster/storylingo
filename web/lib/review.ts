@@ -4,7 +4,7 @@ import type { GlossEntry } from "./types";
 
 export type Grade = "again" | "hard" | "good";
 
-interface SrsState {
+export interface SrsState {
   exposures: number;
   correct: number;
   ease: number;
@@ -141,7 +141,10 @@ export function nextState(card: SrsState, grade: Grade): SrsState {
 }
 
 /** Save an answer. `next` comes from nextState, so the caller can keep using the new state right away. */
-export async function saveGrade(userId: string, card: ReviewCard, grade: Grade, next: SrsState) {
+/** A fresh lexeme's state, before its first answer. */
+export const NEW_STATE: SrsState = { exposures: 0, correct: 0, ease: 2.5, interval_days: 0 };
+
+export async function saveGrade(userId: string, card: { lexemeId: string }, grade: Grade, next: SrsState) {
   const sb = supabase();
   const due = new Date(Date.now() + next.interval_days * 24 * 60 * 60 * 1000).toISOString();
   const [state, log] = await Promise.all([

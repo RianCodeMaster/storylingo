@@ -7,7 +7,8 @@ import { type Grade, loadDue, nextState, type ReviewCard, saveGrade } from "@/li
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner } from "@/lib/supabase";
 
-const GRADES: { grade: Grade; className: string }[] = [
+/** The three answers to "did you know it?", shared with the phrases section. */
+export const GRADES: { grade: Grade; className: string }[] = [
   { grade: "again", className: "wrong" },
   { grade: "hard", className: "" },
   { grade: "good", className: "correct" },

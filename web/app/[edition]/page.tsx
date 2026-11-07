@@ -2,11 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useDevActions } from "@/lib/devtools";
 import { type Enrollment, getEnrollment, LEVELS, type Level, setLevel } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
+import { phraseProgress, type PhraseProgress } from "@/lib/phrases";
 import { countDue } from "@/lib/review";
 import { finishedStories, listStories } from "@/lib/story";
-import { ensureLearner } from "@/lib/supabase";
+import { ensureLearner, supabase } from "@/lib/supabase";
 import type { StoryCard } from "@/lib/types";
 
 const PRINCIPLES = ["input", "bizarre", "body", "picture", "speak", "timing"] as const;
@@ -58,21 +60,39 @@ export default function Home() {
   const [enrollment, setEnrollment] = useState<Enrollment | null | undefined>(undefined);
   const [choice, setChoice] = useState<string | null>(null);
   const [due, setDue] = useState(0);
+  const [phrases, setPhrases] = useState<PhraseProgress>({});
   const [finished, setFinished] = useState<Set<string>>(new Set());
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     (async () => {
       setUserId(await ensureLearner(lang));
-      const [enrolled, dueCount, done, list] = await Promise.all([
+      const [enrolled, dueCount, done, list, phraseCounts] = await Promise.all([
         getEnrollment(edition.slug), countDue(edition.target), finishedStories(), listStories(edition),
+        phraseProgress(edition.target),
       ]);
+      setPhrases(phraseCounts);
       setDue(dueCount);
       setFinished(done);
       setStories(list);
       setEnrollment(enrolled);
     })().catch((e) => setError(String(e.message ?? e)));
   }, [lang, edition]);
+
+  // Test tools (development only): finish the stories of your level at once, to see "ready for the next level?".
+  useDevActions([
+    {
+      label: "Alle verhalen van mijn niveau uitgespeeld",
+      run: async () => {
+        if (!userId || !enrollment || !stories) return;
+        const rows = stories
+          .filter((s) => s.cefr_level === enrollment.level)
+          .map((s) => ({ user_id: userId, story_id: s.id, edition: edition.slug, completed_at: new Date().toISOString() }));
+        await supabase().from("sessions").insert(rows);
+        window.location.reload();
+      },
+    },
+  ]);
 
   async function choose(level: string) {
     if (!userId) return null;
@@ -160,6 +180,18 @@ export default function Home() {
           <span className="muted">{dict.home.dueHint}</span>
         </Link>
       )}
+
+      {(() => {
+        // The phrases section, at the learner's level (it goes up to B1).
+        const level = phrases[mine] ? mine : Object.keys(phrases).sort().at(-1);
+        const p = level ? phrases[level] : undefined;
+        return p ? (
+          <Link href={`${home}/phrases`} className="card phrases-card">
+            <strong>💬 {dict.phrases.title}</strong>
+            <span className="muted">{fill(dict.phrases.homeHint, { learned: p.learned, total: p.total, level: level! })}</span>
+          </Link>
+        ) : null;
+      })()}
 
       {next ? (
         <Link href={`${home}/story/${next.id}`} className="card next-story">

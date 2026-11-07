@@ -47,6 +47,23 @@ Elk verhaal heeft een niveau (A1–C2). `content/curriculum/<taal>.yaml` zegt we
 `check` bewaakt dat elk verhaal daarbij past. In de app kiest een nieuwe leerling bij de start hoe goed hij de taal al
 kent, ziet hij daarna zijn niveau en zijn volgende verhaal, en stelt de app het volgende niveau voor als hij klaar is.
 
+## Zinnen
+
+Naast de verhalen heeft elke editie een onderdeel **Zinnen**: per doeltaal de 200 meest gebruikte zinsdelen van A1,
+A2 en B1 (`content/phrases/<taal>/A1.yaml` …), voor alle edities met die doeltaal hetzelfde. In de app leer je ze tien
+tegelijk (horen, lezen, nazeggen, betekenis) met daarna een luistertoets; daarna komen ze terug in de herhaling, naast
+de woorden uit de verhalen.
+
+```bash
+.venv/Scripts/python storylingo.py phrases de A2            # DeepSeek vult het niveau aan tot 200
+.venv/Scripts/python storylingo.py localize-phrases de nl   # betekenissen voor één basistaal
+.venv/Scripts/python storylingo.py sync                     # in de database
+.venv/Scripts/python storylingo.py media-phrases de         # inspreken (alleen wat ontbreekt of veranderd is)
+```
+
+Een zin aanpassen: in het niveaubestand de tekst wijzigen, `localize-phrases` (hij vertaalt alleen de nieuwe tekst),
+`sync`, `media-phrases`. `check` bewaakt volle niveaus, geen dubbelingen, betekenissen en opnames.
+
 ## Een nieuw verhaal maken
 
 1. Kopieer een brief in `content/briefs/de/` en pas thema, niveau, tags en doelstructuren aan.
@@ -118,6 +135,11 @@ gewist.
 - Database bekijken: Supabase Studio op http://127.0.0.1:54323
 - Eerste keer Python opzetten (in `pipeline`): `py -3.14 -m venv .venv` en `.venv/Scripts/python -m pip install -r requirements.txt`
 - `DEEPSEEK_API_KEY` moet als omgevingsvariabele gezet zijn (zie `pipeline/.env.example`).
+
+## Online (Supabase + Vercel)
+
+Hoe de overstap gaat en wat jij en Claude ieder doen: [docs/cloud.md](docs/cloud.md). Daarna werkt elk commando ook
+op de cloud met `--cloud` erachter (bijv. `storylingo.py sync --cloud`).
 
 ## Meer talen
 

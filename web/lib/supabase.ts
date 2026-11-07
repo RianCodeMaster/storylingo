@@ -2,12 +2,23 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
 let client: SupabaseClient | null = null;
 
-/** Browser client. Talks to Supabase through the /sb rewrite on the app's own origin. */
+/**
+ * Where Supabase is. Online: its own address (NEXT_PUBLIC_SUPABASE_URL), so pictures and audio come straight from
+ * Supabase's CDN. Locally: through the /sb rewrite on the app's own origin, so a phone on the home network works too.
+ */
+export function supabaseUrl(): string {
+  return process.env.NEXT_PUBLIC_SUPABASE_URL || `${window.location.origin}/sb`;
+}
+
+/** A public file in the assets bucket (images, narration, the teacher's reactions). */
+export const publicFile = (path: string) => `${supabaseUrl()}/storage/v1/object/public/assets/${path}`;
+
+/** Browser client. */
 export function supabase(): SupabaseClient {
   if (!client) {
     const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
     if (!key) throw new Error("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY is not set (see web/.env.example)");
-    client = createClient(`${window.location.origin}/sb`, key);
+    client = createClient(supabaseUrl(), key);
   }
   return client;
 }

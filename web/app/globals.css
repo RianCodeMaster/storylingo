@@ -506,3 +506,54 @@ a.cta {
 .level-group.current h2 {
   color: var(--primary);
 }
+
+/* Phrases: the level and the direction the learner chose. */
+button.chosen-level {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* The phrases card on an edition's home. */
+.phrases-card {
+  border-inline-start: 4px solid var(--primary);
+}
+
+/* Test tools (development only, lib/devtools.tsx): a small button bottom right, its jumps above it. */
+.devtools {
+  position: fixed;
+  /* Always right, also on right-to-left pages: a tool for the owner, not part of the learner's layout. */
+  right: 16px;
+  bottom: 16px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.devtools-toggle {
+  border-radius: 999px;
+  padding: 8px 12px;
+}
+
+.devtools-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px dashed var(--accent);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.devtools-panel button {
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  text-align: start;
+}
+
+.review-word.answer {
+  color: var(--primary);
+}

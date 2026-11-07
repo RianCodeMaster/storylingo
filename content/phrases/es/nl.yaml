@@ -1,0 +1,602 @@
+# What each phrase means for learners with this base language. Made by `storylingo.py localize-phrases`; corrections
+# by hand are welcome (then: storylingo.py sync).
+Hola, ¿qué tal?: Hallo, hoe gaat het?
+Buenos días.: Goedemorgen.
+Buenas tardes.: Goedemiddag.
+Buenas noches.: Goedenavond/goedenacht.
+Adiós, hasta luego.: Dag, tot later.
+Por favor.: Alstublieft.
+Muchas gracias.: Heel erg bedankt.
+De nada.: Graag gedaan.
+Perdón, ¿dónde está el baño?: Pardon, waar is het toilet?
+No entiendo.: Ik begrijp het niet.
+¿Puede repetir, por favor?: Kunt u het alstublieft herhalen?
+¿Habla inglés?: Spreekt u Engels?
+No hablo mucho español.: Ik spreek niet veel Spaans.
+¿Cómo se dice esto?: Hoe zeg je dit?
+¿Cuánto cuesta?: Hoeveel kost het?
+Quiero esto, por favor.: Ik wil dit graag.
+La cuenta, por favor.: De rekening, alstublieft.
+¿Tiene una mesa para dos?: Heeft u een tafel voor twee?
+Sin azúcar, por favor.: Zonder suiker, alstublieft.
+¿Puedo pagar con tarjeta?: Kan ik met kaart betalen?
+¿Dónde está la parada?: Waar is de halte?
+Un billete de ida, por favor.: Een enkeltje, alstublieft.
+¿A qué hora sale el tren?: Hoe laat vertrekt de trein?
+Quiero ir al centro.: Ik wil naar het centrum.
+Tengo una reserva.: Ik heb een reservering.
+¿Hay Wi-Fi?: Is er wifi?
+Necesito ayuda.: Ik heb hulp nodig.
+Me encuentro mal.: Ik voel me niet goed.
+Me duele la cabeza.: Ik heb hoofdpijn.
+Tengo fiebre.: Ik heb koorts.
+Quiero pedir cita.: Ik wil een afspraak maken.
+¿Dónde está la farmacia?: Waar is de apotheek?
+Estoy bien, gracias.: Het gaat goed, bedankt.
+Tengo hambre.: Ik heb honger.
+¿Cómo te llamas?: Hoe heet je?
+Mucho gusto.: Aangenaam.
+¿De dónde eres?: Waar kom je vandaan?
+Estoy en casa.: Ik ben thuis.
+¿En qué trabajas?: Wat voor werk doe je?
+Hablo un poco de español.: Ik spreek een beetje Spaans.
+¿Puedes ayudarme?: Kun je me helpen?
+Por supuesto.: Natuurlijk.
+Vale, de acuerdo.: Oké, goed.
+Lo siento mucho.: Het spijt me heel erg.
+No pasa nada.: Geen probleem.
+¿Qué hora es?: Hoe laat is het?
+A la derecha.: Naar rechts.
+A la izquierda.: Naar links.
+Todo recto.: Recht vooruit.
+¿Dónde está el supermercado?: Waar is de supermarkt?
+No sé.: Ik weet het niet.
+¿Cómo estás?: Hoe gaat het met je?
+Más despacio, por favor.: Langzamer, alstublieft.
+Un momento, por favor.: Een momentje, alstublieft.
+¿Qué significa esto?: Wat betekent dit?
+¿Puede hablar más despacio?: Kunt u langzamer praten?
+Quiero un café con leche.: Ik wil een koffie met melk.
+Un agua sin gas, por favor.: Een plat water, alstublieft.
+¿Cuánto es todo?: Hoeveel is het in totaal?
+Solo estoy mirando.: Ik kijk alleen even.
+¿Tiene otra talla?: Heeft u een andere maat?
+Quiero devolver esto.: Ik wil dit retourneren.
+Para llevar, por favor.: Om mee te nemen, alstublieft.
+¿Tienen menú del día?: Heeft u een dagmenu?
+Una bolsa, por favor.: Een tasje, alstublieft.
+Tengo una reunión.: Ik heb een vergadering.
+¿A qué hora empieza?: Hoe laat begint het?
+Trabajo en una oficina.: Ik werk op een kantoor.
+¿Dónde está la sala de reuniones?: Waar is de vergaderruimte?
+Necesito imprimir esto.: Ik moet dit printen.
+¿Me puede enviar un correo?: Kunt u mij een e-mail sturen?
+Estoy en la oficina.: Ik ben op kantoor.
+¿Tienes cinco minutos?: Heb je vijf minuten?
+Me duele el estómago.: Ik heb buikpijn.
+Necesito un médico.: Ik heb een dokter nodig.
+¿Dónde está el centro de salud?: Waar is het gezondheidscentrum?
+Tengo tos.: Ik moet hoesten.
+Me siento mejor.: Ik voel me beter.
+Tengo dolor de garganta.: Ik heb keelpijn.
+¿Dónde está la estación de tren?: Waar is het treinstation?
+Un billete de ida y vuelta.: Een retourtje.
+¿Este autobús va al centro?: Gaat deze bus naar het centrum?
+¿A qué hora llega?: Hoe laat komt hij aan?
+Pare aquí, por favor.: Stop hier, alstublieft.
+¿Cuánto tarda?: Hoe lang duurt het?
+¿Dónde puedo comprar un billete?: Waar kan ik een kaartje kopen?
+¿Puedo usar el baño?: Mag ik het toilet gebruiken?
+No hay agua caliente.: Er is geen warm water.
+Vivo en un piso.: Ik woon in een appartement.
+¿Puedo abrir la ventana?: Mag ik het raam openen?
+Está muy lejos.: Het is heel ver.
+Estoy muy cansado.: Ik ben heel moe.
+Tengo mucho sueño.: Ik ben heel slaperig.
+Estoy contento.: Ik ben blij.
+No me gusta.: Ik vind het niet leuk.
+Me gusta mucho.: Ik vind het heel leuk.
+Qué bien.: Wat goed.
+Qué pena.: Wat jammer.
+¿Dónde vives?: Waar woon je?
+¿Cuántos años tienes?: Hoe oud ben je?
+¿A qué hora abre?: Hoe laat gaat het open?
+¿A qué hora cierra?: Hoe laat gaat het dicht?
+¿Puedo pagar en efectivo?: Kan ik contant betalen?
+¿Dónde hay un cajero?: Waar is hier een pinautomaat?
+Quiero sacar dinero.: Ik wil geld opnemen.
+Me he perdido.: Ik ben verdwaald.
+¿Puede avisarme al llegar?: Kunt u het me laten weten wanneer we aankomen?
+¿Este tren va a Madrid?: Gaat deze trein naar Madrid?
+¿Tengo que cambiar de línea?: Moet ik overstappen?
+¿Cuál es la próxima parada?: Wat is de volgende halte?
+¿Está libre este asiento?: Is deze stoel vrij?
+¿Puedo sentarme aquí?: Mag ik hier zitten?
+Bajo en la próxima.: Ik stap bij de volgende uit.
+¿Dónde está la caja?: Waar is de kassa?
+¿Me trae la carta, por favor?: Kunt u mij de menukaart brengen, alstublieft?
+¿Me pone un café, por favor?: Mag ik een koffie, alstublieft?
+Una caña, por favor.: Een klein biertje, alstublieft.
+La cuenta está mal.: De rekening klopt niet.
+¿Qué me recomienda?: Wat raadt u mij aan?
+Tengo una pregunta.: Ik heb een vraag.
+¿Puedes enviarme el archivo?: Kun je mij het bestand sturen?
+La reunión es a las diez.: De vergadering is om tien uur.
+Estoy en una reunión.: Ik ben in een vergadering.
+Te llamo luego.: Ik bel je later.
+El ordenador no funciona.: De computer werkt niet.
+¿Cuál es la contraseña del wifi?: Wat is het wachtwoord van de wifi?
+Hace mucho frío.: Het is heel koud.
+Hace mucho calor.: Het is heel warm.
+La calefacción no funciona.: De verwarming werkt niet.
+El grifo no funciona.: De kraan werkt niet.
+¿Dónde está el contenedor?: Waar is de vuilniscontainer?
+Tengo mareos.: Ik ben duizelig.
+Tengo un resfriado.: Ik ben verkouden.
+No puedo dormir.: Ik kan niet slapen.
+Necesito una receta.: Ik heb een recept nodig.
+¿Es grave?: Is het erg?
+Tengo miedo.: Ik ben bang.
+Me alegro mucho.: Ik ben er heel blij mee.
+No me importa.: Ik vind het niet erg.
+Me da igual.: Het maakt me niet uit.
+Tienes razón.: Je hebt gelijk.
+¿En serio?: Echt waar?
+Qué raro.: Wat raar.
+Estoy triste.: Ik ben verdrietig.
+¿A qué hora quedamos?: Hoe laat spreken we af?
+Nos vemos en la puerta.: Tot bij de deur.
+Ya estoy aquí.: Ik ben er nu.
+Llego tarde, lo siento.: Het spijt me, ik ben laat.
+Trabajo desde casa.: Ik werk thuis.
+Vivo en el tercero.: Ik woon op de derde verdieping.
+No hay problema.: Geen probleem.
+No te preocupes.: Maak je geen zorgen.
+¿Estás bien?: Gaat het goed?
+¿Qué te pasa?: Wat is er met je?
+¿Me puede ayudar?: Kunt u mij helpen?
+¿Me puedes decir?: Kun je het me zeggen?
+No entiendo nada.: Ik begrijp er niets van.
+¿Cómo se escribe?: Hoe schrijf je dat?
+¿Qué quiere decir?: Wat betekent het?
+Entiendo un poco.: Ik begrijp een beetje.
+¿Hablas español?: Spreek je Spaans?
+Hablo inglés.: Ik spreek Engels.
+No, gracias.: Nee, dank je.
+Sí, por favor.: Ja, graag.
+Hasta mañana.: Tot morgen.
+Nos vemos.: Tot ziens.
+Que tengas un buen día.: Fijne dag.
+No hay de qué.: Graag gedaan.
+Muy amable.: Heel aardig.
+Bien, ¿y tú?: Goed, en jij?
+Nada más, gracias.: Niets meer, dank je.
+Eso es todo.: Dat is alles.
+¿Algo más?: Nog iets?
+¿Aceptan tarjeta?: Kan ik met kaart betalen?
+Es demasiado caro.: Het is te duur.
+¿Me lo puedo probar?: Mag ik het passen?
+Me lo llevo.: Ik neem het.
+Un cortado, por favor.: Een cortado, graag.
+Un vaso de agua, por favor.: Een glas water, graag.
+¿Tienes tiempo?: Heb je tijd?
+No tengo tiempo.: Ik heb geen tijd.
+Estoy ocupado.: Ik heb het druk.
+Estoy libre.: Ik ben vrij.
+El wifi no funciona.: De wifi werkt niet.
+¿Dónde está el metro?: Waar is de metro?
+¿Qué línea es?: Welke lijn is het?
+¿Tengo que cambiar?: Moet ik overstappen?
+¿Este metro va al centro?: Gaat deze metro naar het centrum?
+Aquí me bajo.: Hier stap ik uit.
+Me duele mucho.: Het doet veel pijn.
+Tengo dolor de espalda.: Ik heb rugpijn.
+Necesito una ambulancia.: Ik heb een ambulance nodig.
+Es una emergencia.: Het is een noodgeval.
+¿Dónde está el hospital?: Waar is het ziekenhuis?
+¿Dónde está el ascensor?: Waar is de lift?
+El ascensor no funciona.: De lift werkt niet.
+No hay luz.: Er is geen stroom.
+Tengo frío.: Ik heb het koud.
+Tengo calor.: Ik heb het warm.
+Tengo sed.: Ik heb dorst.
+¿Me puedes echar una mano?: Kun je me een handje helpen?
+Estoy en camino.: Ik ben onderweg.
+Ya casi llego.: Ik ben er bijna.
+Lo siento, no puedo.: Sorry, ik kan niet.
+¿Te viene bien el viernes?: Komt vrijdag je goed uit?
+Me viene bien el martes.: Dinsdag komt me goed uit.
+No me apetece.: Ik heb er geen zin in.
+¿Te apetece un café?: Heb je zin in een kopje koffie?
+Estoy agotado.: Ik ben uitgeput.
+Estoy preocupado.: Ik maak me zorgen.
+Me da vergüenza.: Ik schaam me.
+No me lo puedo creer.: Ik kan het niet geloven.
+¿Qué te parece?: Wat vind je ervan?
+Me parece bien.: Dat lijkt me goed.
+No me parece bien.: Dat lijkt me niet goed.
+Creo que sí.: Ik denk het wel.
+Creo que no.: Ik denk het niet.
+No estoy seguro.: Ik weet het niet zeker.
+Yo también.: Ik ook.
+Yo tampoco.: Ik ook niet.
+¿Qué pasa?: Wat is er aan de hand?
+Hasta pronto.: Tot snel.
+Que te vaya bien.: Het ga je goed.
+¿Puedo hacerte una pregunta?: Mag ik je iets vragen?
+Tengo una duda.: Ik heb een vraag.
+¿Me lo explicas otra vez?: Kun je het me nog eens uitleggen?
+No lo entiendo.: Ik begrijp het niet.
+Sin hielo, por favor.: Zonder ijs, graag.
+Con leche, por favor.: Met melk, graag.
+¿Tienen postre?: Hebt u dessert?
+¿Puedo pagar por separado?: Kan ik apart betalen?
+Pagamos a medias.: We delen de rekening.
+Invito yo.: Ik trakteer.
+Está buenísimo.: Het is heerlijk.
+No me gusta nada.: Ik vind het helemaal niets.
+Me encanta.: Ik vind het geweldig.
+¿Puedo aparcar aquí?: Mag ik hier parkeren?
+¿Tengo que hacer transbordo?: Moet ik overstappen?
+¿De qué andén sale?: Van welk perron vertrekt het?
+El autobús llega tarde.: De bus is te laat.
+¿Dónde está el mercado?: Waar is de markt?
+¿Tienen algo más barato?: Heeft u iets goedkopers?
+Tengo que enviar un correo.: Ik moet een e-mail sturen.
+Estoy en una llamada.: Ik ben aan de telefoon.
+¿Tienes un bolígrafo?: Heb je een pen?
+No tengo conexión.: Ik heb geen verbinding.
+Hay una fuga de agua.: Er is een waterlek.
+Tengo que llamar al fontanero.: Ik moet de loodgieter bellen.
+Tengo dolor de muelas.: Ik heb kiespijn.
+Necesito una cita con el médico.: Ik heb een doktersafspraak nodig.
+¿Me cobras, por favor?: Kan ik afrekenen, alsjeblieft?
+¿Hay que pedir cita?: Moet ik een afspraak maken?
+¿Qué autobús tengo que coger?: Welke bus moet ik nemen?
+¿Dónde tengo que bajar?: Waar moet ik uitstappen?
+No me siento bien.: Ik voel me niet goed.
+¿Dónde tengo que firmar?: Waar moet ik tekenen?
+¿Me puede dar un recibo?: Kunt u mij een bon geven?
+¿Puedo cambiarlo por otro?: Kan ik het voor een ander ruilen?
+¿Cuántas paradas faltan?: Hoeveel haltes zijn er nog?
+¿Se puede ir andando?: Kun je er naartoe lopen?
+Quería cambiar mi cita.: Ik wilde mijn afspraak wijzigen.
+¿Cuándo tengo que volver?: Wanneer moet ik terugkomen?
+Me he hecho daño en el pie.: Ik heb mijn voet bezeerd.
+¿Cada cuánto tengo que tomarlo?: Hoe vaak moet ik het innemen?
+Me duele al respirar.: Het doet pijn als ik ademhaal.
+¿Dónde recojo el paquete?: Waar haal ik het pakket op?
+¿Hay que hacer transbordo?: Moet ik overstappen?
+He perdido el tren.: Ik heb de trein gemist.
+El tren lleva retraso.: De trein heeft vertraging.
+Me queda un poco grande.: Hij is een beetje te groot voor mij.
+¿Tienen probadores?: Heeft u pashokjes?
+¿Cuál es la fecha de caducidad?: Wat is de houdbaarheidsdatum?
+Necesito una factura, por favor.: Ik heb een factuur nodig, alstublieft.
+¿A nombre de quién?: Op wiens naam?
+¿Me lo puede envolver?: Kunt u het voor mij inpakken?
+Soy alérgico a la penicilina.: Ik ben allergisch voor penicilline.
+¿Tengo que tomar algo?: Moet ik iets innemen?
+¿Puedo hacer deporte?: Mag ik sporten?
+Está a diez minutos andando.: Het is tien minuten lopen.
+Trabajo de lunes a viernes.: Ik werk van maandag tot vrijdag.
+Tengo el día libre.: Ik heb een vrije dag.
+Salgo a las seis.: Ik ga om zes uur weg.
+No llego a tiempo.: Ik kom niet op tijd.
+Me tengo que ir.: Ik moet gaan.
+¿Quieres venir a cenar?: Wil je komen eten?
+Me lo he pasado muy bien.: Ik heb het heel leuk gehad.
+Estoy un poco nervioso.: Ik ben een beetje zenuwachtig.
+Me siento fatal.: Ik voel me verschrikkelijk.
+Estoy muy estresado.: Ik ben heel gestrest.
+Se me ha olvidado.: Ik ben het vergeten.
+No encuentro mis llaves.: Ik kan mijn sleutels niet vinden.
+¿Me dejas tu cargador?: Mag ik je oplader lenen?
+Se ha roto un vaso.: Er is een glas gebroken.
+¿Puedes bajar el volumen?: Kun je het volume lager zetten?
+Hace un día estupendo.: Het is een heerlijke dag.
+¿Qué hay para cenar?: Wat eten we vanavond?
+Hay que comprar leche.: We moeten melk kopen.
+¿Me queda bien?: Staat het me?
+¿Puedo pagar con el móvil?: Kan ik met mijn mobiel betalen?
+Voy a casa de un amigo.: Ik ga naar een vriend.
+¿Qué tal todo?: Hoe gaat het?
+¿Nos tomamos algo?: Zullen we iets gaan drinken?
+¿Te apetece salir?: Heb je zin om uit te gaan?
+¿Qué haces este finde?: Wat doe je dit weekend?
+¿Me pones un café?: Doe mij maar een koffie.
+Para mí, lo mismo.: Voor mij hetzelfde.
+¿Tenéis algo sin gluten?: Hebben jullie iets zonder gluten?
+Soy alérgico a los frutos secos.: Ik ben allergisch voor noten.
+¿Me lo pones para llevar?: Kan ik dat meenemen?
+¿Puedo pagar con Bizum?: Kan ik met Bizum betalen?
+¿Me das una bolsa?: Mag ik een tasje?
+¿Dónde están los probadores?: Waar zijn de pashokjes?
+¿Lo tienes en otra talla?: Heb je het in een andere maat?
+¿Me lo cambias por otra talla?: Kun je het voor een andere maat omruilen?
+¿Me puede dar cambio?: Kunt u mij wisselgeld geven?
+Quiero pedir hora con el médico.: Ik wil een afspraak met de dokter maken.
+Me duele aquí.: Het doet hier pijn.
+Soy alérgico al polen.: Ik ben allergisch voor pollen.
+¿Tengo que guardar reposo?: Moet ik rust houden?
+Me siento mareado.: Ik voel me duizelig.
+¿Este tren para en Valencia?: Stopt deze trein in Valencia?
+¿Dónde puedo validar el billete?: Waar kan ik het ticket valideren?
+Perdón, me he equivocado de tren.: Sorry, ik ben in de verkeerde trein gestapt.
+¿Está lejos de aquí?: Is het ver hier vandaan?
+Se ha ido la luz.: De stroom is uitgevallen.
+Hay una gotera en el techo.: Er zit een lek in het plafond.
+Me he dejado las llaves dentro.: Ik heb mijn sleutels binnen laten liggen.
+El váter está atascado.: Het toilet is verstopt.
+¿Puedes cerrar la ventana?: Kun je het raam dichtdoen?
+¿Podemos hablar un momento?: Kunnen we even praten?
+No puedo ir a la reunión.: Ik kan niet naar de vergadering komen.
+Voy a llegar un poco tarde.: Ik kom iets later.
+¿Me mandas el archivo?: Stuur je me het bestand?
+Te escribo por correo.: Ik mail je.
+¿A qué hora es la reunión?: Hoe laat is de vergadering?
+Estoy de vacaciones.: Ik ben met vakantie.
+No te he oído bien.: Ik heb je niet goed gehoord.
+¿Me lo pones por escrito?: Kun je het op papier zetten?
+¿Tienes un momento?: Heb je even?
+¿Me dejas pasar?: Mag ik er even langs?
+Me siento solo.: Ik voel me eenzaam.
+Estoy harto.: Ik ben het zat.
+Me preocupa un poco.: Het baart me een beetje zorgen.
+Estoy de buen humor.: Ik ben in een goede bui.
+¿Qué tal el fin de semana?: Hoe was je weekend?
+Que lo paséis bien.: Veel plezier.
+Gracias por invitarme.: Bedankt voor de uitnodiging.
+Lo siento, no era mi intención.: Sorry, dat was niet mijn bedoeling.
+¿Me lo puedes explicar?: Kun je het me uitleggen?
+¿Puedo hacer una llamada?: Mag ik even bellen?
+¿Me pones un poco más?: Mag ik nog een beetje?
+¿Puedo pagar a plazos?: Kan ik in termijnen betalen?
+Quiero hacer una devolución.: Ik wil dit retourneren.
+Estoy buscando una talla más.: Ik zoek een maat groter.
+¿Lo tienen en otro color?: Hebt u het in een andere kleur?
+Tengo que terminar esto hoy.: Ik moet dit vandaag afmaken.
+¿Puedo salir antes hoy?: Mag ik vandaag eerder weg?
+Necesito el día libre.: Ik heb een vrije dag nodig.
+¿Me firmas aquí?: Kun je hier voor me tekenen?
+No sé cómo hacerlo.: Ik weet niet hoe dat moet.
+Ya he terminado.: Ik ben al klaar.
+Todavía no he empezado.: Ik ben nog niet begonnen.
+Te lo envío ahora.: Ik stuur het je nu.
+¿Me lo confirmas, por favor?: Kun je het bevestigen, alsjeblieft?
+¿Este autobús va a la estación?: Gaat deze bus naar het station?
+Quiero un abono de diez viajes.: Ik wil een tienrittenkaart.
+¿Puedo llevar esta maleta?: Mag ik deze koffer meenemen?
+¿Esta línea va al aeropuerto?: Gaat deze lijn naar de luchthaven?
+Me he dejado el paraguas en el tren.: Ik heb mijn paraplu in de trein laten liggen.
+¿Puedes sacar la basura?: Kun je het vuilnis buitenzetten?
+La lavadora no funciona.: De wasmachine doet het niet.
+Se ha estropeado la nevera.: De koelkast is kapot.
+El baño está ocupado.: Het toilet is bezet.
+El vecino hace mucho ruido.: De buurman maakt veel lawaai.
+Tengo que llamar al casero.: Ik moet de verhuurder bellen.
+¿Puedes bajar la persiana?: Kun je het rolluik naar beneden doen?
+Me duele al tragar.: Het doet pijn als ik slik.
+Tengo la tensión alta.: Ik heb een hoge bloeddruk.
+¿Puedo tomar ibuprofeno?: Mag ik ibuprofen nemen?
+Me he cortado el dedo.: Ik heb mijn vinger gesneden.
+¿Dónde está la sala de espera?: Waar is de wachtkamer?
+Me han dado la baja.: Ik ben ziek gemeld.
+¡Qué interesante!: Wat interessant!
+No me lo esperaba.: Dat had ik niet verwacht.
+¡Qué buena idea!: Wat een goed idee!
+Claro que sí.: Natuurlijk.
+Eso no es verdad.: Dat is niet waar.
+Estoy de acuerdo contigo.: Ik ben het met je eens.
+No estoy de acuerdo.: Ik ben het er niet mee eens.
+¡Qué va!: Echt niet!
+Menos mal.: Gelukkig maar.
+No puede ser.: Dat kan niet.
+Gracias por avisarme.: Bedankt dat je het laat weten.
+Perdona por el retraso.: Sorry dat ik te laat ben.
+Muchas gracias por todo.: Heel erg bedankt voor alles.
+¿Hay que reservar?: Moet je reserveren?
+¿Tienes hora?: Weet je hoe laat het is?
+¿Cuánto tiempo llevas aquí?: Hoe lang ben je hier al?
+¿Cómo se pronuncia esto?: Hoe spreek je dit uit?
+¿Dónde se puede aparcar?: Waar kun je parkeren?
+¿Cómo va todo?: Hoe gaat het ermee?
+¿Qué me cuentas?: Wat is er nieuw?
+¿A qué te dedicas?: Wat doe je voor werk?
+¿Qué opinas?: Wat vind je ervan?
+En mi opinión...: Naar mijn mening...
+No tengo ni idea.: Ik heb geen flauw idee.
+No me convence.: Het overtuigt me niet.
+Eso es verdad.: Dat is waar.
+No tienes razón.: Je hebt ongelijk.
+Como quieras.: Zoals je wilt.
+Depende del día.: Het hangt van de dag af.
+Me encantaría, pero no puedo.: Ik zou graag willen, maar het kan niet.
+¿Te apetece tomar algo?: Heb je zin om iets te drinken?
+¿Quedamos otro día?: Zullen we een andere keer afspreken?
+Ya te digo algo.: Ik laat het je nog weten.
+Te aviso cuando llegue.: Ik laat het je weten wanneer ik aankom.
+¿Dónde quedamos?: Waar spreken we af?
+Voy con retraso.: Ik ben laat.
+Me viene fatal.: Het komt me heel slecht uit.
+Me molesta un poco.: Het stoort me een beetje.
+Qué fastidio.: Wat vervelend.
+Qué mala suerte.: Wat een pech.
+Lo mismo digo.: Insgelijks.
+Que te mejores.: Beterschap.
+Cuídate mucho.: Zorg goed voor jezelf.
+Recuerdos a tu familia.: Doe de groeten aan je familie.
+Ha sido un placer.: Het was me een genoegen.
+Ya nos veremos.: We zien elkaar nog wel.
+Pásate por casa.: Kom eens bij me langs.
+¿Te vienes a comer?: Kom je mee eten?
+Te invito a un café.: Ik trakteer je op een koffie.
+Me apunto.: Ik doe mee.
+Cuenta conmigo.: Reken op mij.
+Ya te contaré.: Ik vertel het je nog wel.
+Tengo ganas de verte.: Ik kijk ernaar uit je te zien.
+Me da pereza.: Ik heb er geen zin in.
+No es para tanto.: Zo erg is het niet.
+Estoy hasta arriba.: Ik heb het hartstikke druk.
+Estoy liado.: Ik heb het druk.
+No doy abasto.: Ik kan het niet bijbenen.
+¿Puedes revisar esto?: Kun je dit nakijken?
+Te adjunto el documento.: Ik voeg het document bij.
+¿Me lo puedes deletrear?: Kun je het voor me spellen?
+¿A qué te refieres?: Wat bedoel je?
+Me cuesta entender.: Ik vind het moeilijk te begrijpen.
+Estoy aprendiendo español.: Ik leer Spaans.
+¿Puedes hablar más alto?: Kun je harder praten?
+La línea se oye mal.: De verbinding is slecht.
+¿Qué planes tienes?: Wat zijn je plannen?
+Lo he pasado fatal.: Ik heb het verschrikkelijk gehad.
+¿Me echa una mano, por favor?: Kunt u me even helpen, alstublieft?
+¿Cómo te ha ido?: Hoe ging het?
+No me puedo quejar.: Ik kan niet klagen.
+Tengo mucho trabajo.: Ik heb veel werk.
+Que aproveche.: Eet smakelijk.
+¿Me cobra cuando pueda?: Mag ik afrekenen wanneer het u uitkomt?
+¿Voy bien para el centro?: Is dit de goede kant op naar het centrum?
+¿Este autobús para en el centro?: Stopt deze bus in het centrum?
+¿Qué línea tengo que coger?: Welke lijn moet ik nemen?
+¿Cuántas paradas quedan?: Hoeveel haltes zijn er nog?
+Me he pasado de parada.: Ik ben mijn halte voorbij.
+Me he equivocado de línea.: Ik heb de verkeerde lijn genomen.
+¿Hay que validar el billete?: Moet je het kaartje valideren?
+¿Este asiento está ocupado?: Is deze stoel bezet?
+¿Me hace un descuento?: Kunt u me korting geven?
+El datáfono no funciona.: Het pinapparaat werkt niet.
+¿Me da el ticket, por favor?: Mag ik de bon, alstublieft?
+¿Lo tiene en azul?: Hebt u het in blauw?
+Me queda corto.: Het is te kort voor me.
+Me queda un poco justo.: Het zit een beetje strak.
+Me han cobrado dos veces.: Ik heb twee keer moeten betalen.
+Quiero hacer una reclamación.: Ik wil een klacht indienen.
+¿Qué lleva la sopa?: Wat zit er in de soep?
+Esto no es lo que pedí.: Dit heb ik niet besteld.
+La comida está fría.: Het eten is koud.
+Sin cebolla, por favor.: Zonder ui, alstublieft.
+¿Nos trae más pan?: Kunt u ons meer brood brengen?
+¿Tienen algo para la tos?: Hebt u iets tegen hoesten?
+¿Es sin receta?: Is het zonder recept verkrijgbaar?
+Tengo cita con el médico.: Ik heb een afspraak bij de dokter.
+¿Cuántas pastillas al día?: Hoeveel pillen per dag?
+Me he torcido el tobillo.: Ik heb mijn enkel verstuikt.
+Tengo la nariz tapada.: Mijn neus zit verstopt.
+¿Dónde tengo que entregar esto?: Waar moet ik dit inleveren?
+¿Quién se encarga de esto?: Wie houdt zich hiermee bezig?
+Lo tengo casi terminado.: Ik heb het bijna af.
+La reunión se ha cancelado.: De vergadering is geannuleerd.
+Te confirmo mañana.: Ik bevestig het morgen.
+Me encargo yo.: Ik regel het.
+No me ha llegado el archivo.: Ik heb het bestand niet ontvangen.
+Estoy de mal humor.: Ik ben in een slecht humeur.
+No tengo ganas de salir.: Ik heb geen zin om uit te gaan.
+Me ha hecho mucha ilusión.: Ik was er heel blij mee.
+Ya me encuentro mejor.: Ik voel me al beter.
+Prefiero quedarme en casa.: Ik blijf liever thuis.
+Lo hemos pasado muy bien.: We hebben het heel leuk gehad.
+Se ha roto la lavadora.: De wasmachine is kapot.
+El enchufe no funciona.: Het stopcontact werkt niet.
+La puerta no cierra.: De deur gaat niet dicht.
+El grifo gotea.: De kraan druppelt.
+Perdona, no te he entendido.: Sorry, ik heb je niet verstaan.
+No me ha quedado claro.: Het is me niet duidelijk.
+¿Me lo puedes repetir?: Kun je het voor me herhalen?
+¿Puedes hablar más despacio?: Kun je wat langzamer praten?
+Me temo que no.: Ik ben bang van niet.
+La verdad es que no.: Eerlijk gezegd niet.
+De todas formas.: Hoe dan ook.
+Por si acaso.: Voor de zekerheid.
+Puede que sí.: Misschien wel.
+No creo que pueda.: Ik denk niet dat ik het kan.
+Ojalá pudiera.: Ik wou dat ik het kon.
+Ya veremos.: We zien wel.
+Merece la pena.: Het is de moeite waard.
+No tiene sentido.: Het slaat nergens op.
+Me suena mucho.: Dat komt me heel bekend voor.
+No te lo tomes a mal.: Vat het niet verkeerd op.
+No hay manera.: Het lukt maar niet.
+Estoy deseando verte.: Ik kijk ernaar uit je te zien.
+Hace mucho que no te veo.: Ik heb je in geen eeuwen gezien.
+Me apetece mucho.: Ik heb er veel zin in.
+Me preocupa bastante.: Het baart me behoorlijk zorgen.
+Estoy un poco agobiado.: Ik ben een beetje gestrest.
+No me encuentro bien.: Ik voel me niet goed.
+Tengo dolor de oído.: Ik heb oorpijn.
+Me he hecho daño.: Ik heb me bezeerd.
+Tengo que pedir cita.: Ik moet een afspraak maken.
+¿Me puede recetar algo?: Kunt u me iets voorschrijven?
+¿Cada cuánto me lo tomo?: Hoe vaak moet ik het innemen?
+Me encuentro mareado.: Ik voel me duizelig.
+Te lo envío por correo.: Ik stuur het je per e-mail.
+Lo tengo casi listo.: Ik heb het bijna klaar.
+Me pongo con ello ahora.: Ik ga er nu mee aan de slag.
+¿Para cuándo lo necesitas?: Voor wanneer heb je het nodig?
+No me da tiempo.: Ik heb niet genoeg tijd.
+¿Te viene bien mañana?: Is morgen goed voor je?
+La reunión se ha retrasado.: De vergadering is vertraagd.
+Me encargo de eso.: Ik regel dat.
+Necesito hablar contigo.: Ik moet met je praten.
+Estoy hasta arriba de trabajo.: Ik zit tot over mijn oren in het werk.
+¿Me lo puede envolver para regalo?: Kunt u het als cadeau inpakken?
+¿Tienen esto en otra talla?: Hebben jullie dit in een andere maat?
+¿Puedo probármelo?: Mag ik het passen?
+No me queda bien.: Het past me niet goed.
+¿Me lo pones en una bolsa?: Kun je het in een zak doen?
+¿Me tengo que bajar aquí?: Moet ik hier uitstappen?
+¿Cuánto tarda en llegar?: Hoe lang duurt het voordat het aankomt?
+He perdido el autobús.: Ik heb de bus gemist.
+Hay una gotera.: Er is een lekkage.
+El fregadero está atascado.: De gootsteen is verstopt.
+El vecino pone la música muy alta.: De buurman zet de muziek heel hard.
+¿Me puedes hacer un favor?: Kun je me een plezier doen?
+¿Me lo vuelves a explicar?: Kun je het me nog eens uitleggen?
+No me he enterado de nada.: Ik heb er niets van begrepen.
+¿Qué quieres decir con eso?: Wat bedoel je daarmee?
+Me lo apunto, gracias.: Ik noteer het, dank je.
+¿Te importa si abro la ventana?: Vind je het erg als ik het raam open?
+¿Podrías pasarme la sal?: Zou je me het zout kunnen aangeven?
+¿Me dejas usar tu cargador?: Mag ik je oplader gebruiken?
+¿Puedes bajar un poco la música?: Kun je de muziek wat zachter zetten?
+¿Me echas una mano con esto?: Kun je me hiermee een handje helpen?
+¿Me lo cambias por otro color?: Kan ik dit ruilen voor een andere kleur?
+¿Me das una bolsa más grande?: Mag ik een grotere tas?
+¿Puedo pagar con dos tarjetas?: Kan ik met twee kaarten betalen?
+¿Me haces un descuento?: Kun je me korting geven?
+¿Lo tienen en la talla cuarenta?: Hebt u dit in maat veertig?
+¿Puedo devolverlo si no me queda?: Kan ik het retourneren als het niet past?
+¿Me puedes pasar el informe?: Kun je me het rapport sturen?
+Te lo mando en cuanto pueda.: Ik stuur het je zodra ik kan.
+¿Podemos dejar la reunión para mañana?: Kunnen we de vergadering naar morgen verplaatsen?
+No me ha llegado tu correo.: Ik heb je e-mail niet ontvangen.
+¿Me confirmas que lo has recibido?: Kun je bevestigen dat je het hebt ontvangen?
+Lo siento, no he podido terminarlo.: Sorry, ik heb het niet kunnen afmaken.
+Voy a pedir el día libre.: Ik ga een vrije dag aanvragen.
+Se me ha pasado por completo.: Het is me helemaal ontschoten.
+Me duele desde ayer por la mañana.: Het doet al pijn sinds gisterochtend.
+¿Tengo que pedir cita para el análisis?: Moet ik een afspraak maken voor het bloedonderzoek?
+Me he quedado sin medicación.: Mijn medicatie is op.
+¿Es normal que me duela tanto?: Is het normaal dat het zo veel pijn doet?
+¿Dónde recojo los resultados?: Waar kan ik de resultaten ophalen?
+¿Me tengo que cambiar de línea?: Moet ik overstappen?
+¿Cuánto tarda en llegar al centro?: Hoe lang duurt het om in het centrum te komen?
+¿Me avisas cuando lleguemos?: Zeg je het me als we aankomen?
+¿Dónde está la máquina de billetes?: Waar is de kaartautomaat?
+He perdido el último autobús.: Ik heb de laatste bus gemist.
+El grifo sigue goteando.: De kraan druppelt nog steeds.
+¿Puedes llamar al fontanero mañana?: Kun je morgen de loodgieter bellen?
+La nevera hace un ruido raro.: De koelkast maakt een raar geluid.
+Se ha estropeado el microondas.: De magnetron is kapot.
+Hay que cambiar la bombilla.: We moeten de lamp vervangen.
+Estoy un poco decepcionado con el resultado.: Ik ben een beetje teleurgesteld in het resultaat.
+Me molesta que no me avisen.: Het stoort me dat ze het niet laten weten.
+Estoy nervioso por la entrevista.: Ik ben zenuwachtig voor het interview.
+Me siento un poco fuera de lugar.: Ik voel me een beetje niet op mijn plek.
+Me alegro de que estés mejor.: Ik ben blij dat het beter met je gaat.
+¿Me puedes recomendar un sitio para comer?: Kun je me een plek aanraden om te eten?
+¿Tienen mesas en la terraza?: Hebben jullie tafels op het terras?
+¿Me pones otra bebida, por favor?: Mag ik nog een drankje, alstublieft?
+¿Esto lleva cebolla?: Zit hier ui in?
+Soy vegetariano, ¿tienen alguna opción?: Ik ben vegetariër, hebben jullie vegetarische opties?
+¿Puedo pedir para llevar?: Kan ik iets meenemen?

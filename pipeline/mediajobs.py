@@ -5,11 +5,22 @@ import languages
 from content import StoryDoc
 
 
+def phrase_jobs(language: str) -> list[dict]:
+    """The recording of every phrase. Like a single word (same kind, same place), so a phrase that is also a story's
+    glossary word has one recording, not two."""
+    voice = languages.voice(language)
+    return [
+        {"what": "word", "label": f"phrase {text}", "have": have, "want": fingerprint.spoken(text, "word", voice),
+         "text": text, "path": f"words/{language}/{lexeme_id}", "link": ("lexemes", "audio_asset_id", lexeme_id)}
+        for lexeme_id, text, have in db.phrase_plan(language)
+    ]
+
+
 def media_jobs(doc: StoryDoc) -> list[dict]:
     """
     Every picture and recording a story needs, with the fingerprint it should have (`want`) and has now (`have`,
     None when missing). `media` makes the ones where they differ; `check` counts them.
-    Files are named by key (s2q3.wav), so reordering scenes or questions never mixes them up.
+    Files are named by key (s2q3.mp3), so reordering scenes or questions never mixes them up.
     """
     story, language = doc.story, doc.brief.language
     voice = languages.voice(language)

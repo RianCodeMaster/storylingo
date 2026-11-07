@@ -3,6 +3,7 @@
  * Later the pipeline produces expressive audio files and this becomes the fallback.
  */
 import { LANGUAGES } from "./locales";
+import { publicFile } from "./supabase";
 
 /** The speech code of a language (de-DE), from its language file. */
 export const speechTag = (language: string) => LANGUAGES[language]?.speechTag ?? language;
@@ -60,13 +61,13 @@ export function narrate(audioUrl: string | null, text: string, language: string,
 export const phrases = (language: string) => LANGUAGES[language].teacher!;
 
 // Raise when the clips are made again (storylingo.py feedback), so browsers fetch the new files.
-const FEEDBACK_VERSION = 3;
+const FEEDBACK_VERSION = 4;
 
 /** React to an answer in the story's native voice; the browser voice only if the clip is missing. Returns the line. */
 export function feedback(correct: boolean, language: string): string {
   const lines = correct ? phrases(language).yes : phrases(language).no;
   const n = Math.floor(Math.random() * lines.length);
-  const url = `${window.location.origin}/sb/storage/v1/object/public/assets/feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.wav?v=${FEEDBACK_VERSION}`;
+  const url = `${publicFile(`feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.mp3`)}?v=${FEEDBACK_VERSION}`;
   stopSpeaking();
   player ??= new Audio();
   player.onended = null;

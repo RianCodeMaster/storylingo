@@ -1,0 +1,403 @@
+# Phrases for the phrases section, in learning order: the most useful first. Every edition with this target language
+# shows them. Edit freely (a changed text is a new phrase: it needs a meaning again, `localize-phrases` adds it),
+# then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
+- text: Guten Morgen.
+  hint: Good morning
+- text: Guten Tag.
+  hint: Hello / good day
+- text: Hallo, wie geht's?
+  hint: Hello, how are you?
+- text: Mir geht es gut.
+  hint: I'm fine
+- text: Danke, gut.
+  hint: Thanks, good
+- text: Auf Wiedersehen.
+  hint: Goodbye
+- text: Tschüss, bis später.
+  hint: Bye, see you later
+- text: Bitte schön.
+  hint: You're welcome / here you are
+- text: Entschuldigung, ich habe eine Frage.
+  hint: Excuse me, I have a question
+- text: Wie bitte?
+  hint: Pardon?
+- text: Ich verstehe nicht.
+  hint: I don't understand
+- text: Sprechen Sie Englisch?
+  hint: Do you speak English?
+- text: Können Sie das wiederholen?
+  hint: Can you repeat that?
+- text: Wie heißt du?
+  hint: What's your name? informal
+- text: Ich heiße Anna.
+  hint: My name is Anna
+- text: Ich komme aus Deutschland.
+  hint: I come from Germany
+- text: Ich wohne hier.
+  hint: I live here
+- text: Wie geht es Ihnen?
+  hint: How are you? formal
+- text: Danke, und Ihnen?
+  hint: Thanks, and you? formal
+- text: Es tut mir leid.
+  hint: I'm sorry
+- text: Kein Problem.
+  hint: No problem
+- text: Ich möchte einen Kaffee, bitte.
+  hint: I'd like a coffee, please
+- text: Was kostet das?
+  hint: How much is that?
+- text: Das ist zu teuer.
+  hint: That's too expensive
+- text: Ich nehme das.
+  hint: I'll take that
+- text: Haben Sie das in groß?
+  hint: Do you have this in large?
+- text: Die Rechnung, bitte.
+  hint: The bill, please
+- text: Wo ist der Bahnhof?
+  hint: Where is the train station?
+- text: Wie komme ich zum Zentrum?
+  hint: How do I get to the center?
+- text: Wann fährt der Zug?
+  hint: When does the train leave?
+- text: Eine Fahrkarte nach Berlin, bitte.
+  hint: One ticket to Berlin, please
+- text: Ich habe einen Termin.
+  hint: I have an appointment
+- text: Können Sie mir helfen?
+  hint: Can you help me?
+- text: Ich brauche einen Arzt.
+  hint: I need a doctor
+- text: Ich fühle mich nicht gut.
+  hint: I don't feel well
+- text: Wo tut es weh?
+  hint: Where does it hurt?
+- text: Ich habe Kopfschmerzen.
+  hint: I have a headache
+- text: Ich bin krank.
+  hint: I am sick
+- text: Gute Besserung!
+  hint: Get well soon
+- text: Ich arbeite hier.
+  hint: I work here
+- text: Ich habe keine Zeit.
+  hint: I have no time
+- text: Bis morgen.
+  hint: See you tomorrow
+- text: Viel Glück!
+  hint: Good luck
+- text: Herzlichen Glückwunsch!
+  hint: Congratulations
+- text: Freut mich, Sie kennenzulernen.
+  hint: Nice to meet you
+- text: Wie spät ist es?
+  hint: What time is it?
+- text: Ich bin müde.
+  hint: I am tired
+- text: Ich habe Hunger.
+  hint: I am hungry
+- text: Ich habe Durst.
+  hint: I am thirsty
+- text: Ich mag das.
+  hint: I like that
+- text: Guten Abend.
+  hint: Good evening; greeting when you arrive
+- text: Gute Nacht.
+  hint: Good night; said before going to bed
+- text: Bis bald.
+  hint: See you soon; informal goodbye
+- text: Wie ist Ihr Name?
+  hint: What is your name? formal
+- text: Woher kommen Sie?
+  hint: Where are you from? formal
+- text: Ich spreche kein Deutsch.
+  hint: I do not speak German
+- text: Ich spreche ein bisschen Deutsch.
+  hint: I speak a little German
+- text: Wie sagt man das?
+  hint: How do you say that?
+- text: Was bedeutet das?
+  hint: What does that mean?
+- text: Sprechen Sie langsam, bitte.
+  hint: Please speak slowly
+- text: Ich weiß nicht.
+  hint: I do not know
+- text: Ich brauche Hilfe.
+  hint: I need help
+- text: Wo ist die Toilette?
+  hint: Where is the toilet?
+- text: Wo ist der Supermarkt?
+  hint: Where is the supermarket?
+- text: Ich möchte bezahlen.
+  hint: I would like to pay
+- text: Kann ich mit Karte zahlen?
+  hint: Can I pay by card?
+- text: Das ist alles.
+  hint: That is all; in a shop
+- text: Ich möchte ein Wasser, bitte.
+  hint: I would like a water, please
+- text: Die Speisekarte, bitte.
+  hint: The menu, please
+- text: Ich esse kein Fleisch.
+  hint: I do not eat meat
+- text: Das schmeckt gut.
+  hint: It tastes good
+- text: Ich bin satt.
+  hint: I am full; after eating
+- text: Ich brauche einen Termin.
+  hint: I need an appointment
+- text: Wann haben Sie Zeit?
+  hint: When do you have time? formal
+- text: Ich komme später.
+  hint: I will come later
+- text: Ich bin zu spät.
+  hint: I am late
+- text: Wo ist mein Zimmer?
+  hint: Where is my room?
+- text: Wann kommt der Bus?
+  hint: When does the bus come?
+- text: Muss ich umsteigen?
+  hint: Do I have to change?
+- text: Ich möchte aussteigen.
+  hint: I want to get off
+- text: Ist dieser Platz frei?
+  hint: Is this seat free?
+- text: Ich suche mein Hotel.
+  hint: I am looking for my hotel
+- text: Ich gehe nach Hause.
+  hint: I am going home
+- text: Ich bin zu Hause.
+  hint: I am at home
+- text: Ich komme gleich.
+  hint: I am coming soon
+- text: Kann ich Ihnen helfen?
+  hint: Can I help you? formal
+- text: Was machst du?
+  hint: What are you doing? informal
+- text: Wie war dein Tag?
+  hint: How was your day?
+- text: Mir ist kalt.
+  hint: I am cold; feeling cold
+- text: Ich habe Angst.
+  hint: I am afraid
+- text: Ich bin glücklich.
+  hint: I am happy
+- text: Ich bin traurig.
+  hint: I am sad
+- text: Das ist gut.
+  hint: That is good
+- text: Ich muss gehen.
+  hint: I have to go
+- text: Ich muss arbeiten.
+  hint: I have to work
+- text: Ich bin beschäftigt.
+  hint: I am busy
+- text: Wann beginnt der Kurs?
+  hint: When does the course start?
+- text: Wo ist das Büro?
+  hint: Where is the office?
+- text: Kann ich hereinkommen?
+  hint: May I come in?
+- text: Können Sie das erklären?
+  hint: Can you explain that? formal
+- text: Einen Moment, bitte.
+  hint: One moment please
+- text: Wie heißt das auf Deutsch?
+  hint: What is that called in German?
+- text: Wie schreibt man das?
+  hint: How do you spell that?
+- text: Können Sie mir das zeigen?
+  hint: Can you show me that?
+- text: Wo finde ich das?
+  hint: Where can I find that?
+- text: Wie lange dauert das?
+  hint: How long does that take?
+- text: Ich möchte einen Termin machen.
+  hint: I'd like to make an appointment
+- text: Wann haben Sie geöffnet?
+  hint: When are you open?
+- text: Ich schaue nur, danke.
+  hint: I'm just looking, thanks
+- text: Wo ist die Kasse?
+  hint: Where is the checkout?
+- text: Kann ich das umtauschen?
+  hint: Can I exchange this?
+- text: Haben Sie eine Tüte?
+  hint: Do you have a bag?
+- text: Zusammen oder getrennt?
+  hint: Together or separate?
+- text: Noch einen Kaffee, bitte.
+  hint: Another coffee please
+- text: Kann ich bitte bestellen?
+  hint: Can I order please?
+- text: Ich hätte gern ein Brot.
+  hint: I'd like a loaf of bread
+- text: Das ist zu klein.
+  hint: This is too small
+- text: Das passt gut.
+  hint: That fits well
+- text: Ich brauche eine Quittung.
+  hint: I need a receipt
+- text: Ist das im Angebot?
+  hint: Is this on sale?
+- text: Wo muss ich unterschreiben?
+  hint: Where do I sign?
+- text: Ich warte hier.
+  hint: I'm waiting here
+- text: Können wir später sprechen?
+  hint: Can we talk later?
+- text: Wann ist die Pause?
+  hint: When is the break?
+- text: Ich mache eine Pause.
+  hint: I'm taking a break
+- text: Ich habe Schmerzen.
+  hint: I have pain
+- text: Hier tut es weh.
+  hint: It hurts here
+- text: Ich habe Fieber.
+  hint: I have a fever
+- text: Gibt es hier eine Apotheke?
+  hint: Is there a pharmacy here?
+- text: Ich muss zum Arzt.
+  hint: I have to go to the doctor
+- text: Wann kann ich kommen?
+  hint: When can I come?
+- text: Wo ist der Ausgang?
+  hint: Where is the exit?
+- text: Wo ist Gleis drei?
+  hint: Where is platform three?
+- text: Wie lange fährt der Zug?
+  hint: How long does the train take?
+- text: Ich steige hier aus.
+  hint: I'm getting off here
+- text: Bitte halten Sie hier.
+  hint: Please stop here
+- text: Wo ist die Haltestelle?
+  hint: Where is the stop?
+- text: Fährt dieser Bus zum Bahnhof?
+  hint: Does this bus go to the station?
+- text: Wo muss ich aussteigen?
+  hint: Where do I have to get off?
+- text: Ist der Zug pünktlich?
+  hint: Is the train on time?
+- text: Wo sind die Schlüssel?
+  hint: Where are the keys?
+- text: Die Tür ist offen.
+  hint: The door is open
+- text: Kannst du das Licht anmachen?
+  hint: Can you turn on the light?
+- text: Ich muss aufräumen.
+  hint: I have to tidy up
+- text: Das freut mich.
+  hint: I'm glad
+- text: Das ist schade.
+  hint: That's a pity
+- text: Keine Sorge.
+  hint: No worries
+- text: Alles klar.
+  hint: All right
+- text: Das stimmt.
+  hint: That's right
+- text: Ich bin einverstanden.
+  hint: I agree
+- text: Wie kann ich Ihnen helfen?
+  hint: How can I help you?
+- text: Darf ich Sie etwas fragen?
+  hint: May I ask you something?
+- text: Sprechen Sie Deutsch?
+  hint: Do you speak German?
+- text: Ich spreche nur wenig Deutsch.
+  hint: I speak only a little German.
+- text: Einen Moment, ich schaue nach.
+  hint: One moment, I will check.
+- text: Können Sie kurz warten?
+  hint: Can you wait a moment?
+- text: Ich bin gleich zurück.
+  hint: I will be back soon.
+- text: Vielen Dank für Ihre Hilfe.
+  hint: Thank you for your help.
+- text: Bitte sehr, gern geschehen.
+  hint: You're welcome, glad to help.
+- text: Entschuldigung, ich bin spät dran.
+  hint: Sorry, I am running late.
+- text: Tut mir leid, ich kann nicht.
+  hint: Sorry, I cannot come.
+- text: Kein Problem, das mache ich.
+  hint: No problem, I will do it.
+- text: Alles gut, danke.
+  hint: All good, thanks.
+- text: Das ist sehr nett.
+  hint: That is very kind.
+- text: Ich freue mich.
+  hint: I am happy about it.
+- text: Was kostet das zusammen?
+  hint: What is the total cost?
+- text: Haben Sie das auch in Blau?
+  hint: Do you have this in blue?
+- text: Ich möchte das kaufen.
+  hint: I would like to buy this.
+- text: Kann ich das anprobieren?
+  hint: Can I try this on?
+- text: Das passt mir nicht.
+  hint: This does not fit me.
+- text: Haben Sie eine andere Größe?
+  hint: Do you have another size?
+- text: Kann ich das zurückgeben?
+  hint: Can I return this?
+- text: Bar oder mit Karte?
+  hint: Cash or by card?
+- text: Ich zahle mit Karte.
+  hint: I am paying by card.
+- text: Kann ich bitte zahlen?
+  hint: Can I pay, please?
+- text: Ich hätte gern etwas zu trinken.
+  hint: I would like something to drink.
+- text: Was haben Sie zu essen?
+  hint: What food do you have?
+- text: Das Essen war sehr gut.
+  hint: The food was very good.
+- text: Ohne Fleisch, bitte.
+  hint: Without meat, please.
+- text: Noch ein Wasser, bitte.
+  hint: Another water, please.
+- text: Wann kommt der nächste Bus?
+  hint: When is the next bus?
+- text: Wo ist die Bushaltestelle?
+  hint: Where is the bus stop?
+- text: Wie viele Stationen sind es?
+  hint: How many stops is it?
+- text: Muss ich hier umsteigen?
+  hint: Do I have to change here?
+- text: Hin und zurück, bitte.
+  hint: Return ticket, please.
+- text: Ich möchte eine Fahrkarte kaufen.
+  hint: I would like to buy a ticket.
+- text: Ist dieser Sitz frei?
+  hint: Is this seat free?
+- text: Bitte halten Sie an.
+  hint: Please stop here.
+- text: Ich habe den Bus verpasst.
+  hint: I missed the bus.
+- text: Können Sie mir den Weg zeigen?
+  hint: Can you show me the way?
+- text: Ich habe mich verlaufen.
+  hint: I am lost.
+- text: Mir ist schlecht.
+  hint: I feel sick.
+- text: Ich habe Halsschmerzen.
+  hint: I have a sore throat.
+- text: Ich brauche einen Arzttermin.
+  hint: I need a doctor's appointment.
+- text: Ich habe eine Allergie.
+  hint: I have an allergy.
+- text: Ich bin neu hier.
+  hint: I am new here.
+- text: Ich arbeite im Büro.
+  hint: I work in an office.
+- text: Ich habe Pause.
+  hint: I am on a break.
+- text: Das gefällt mir.
+  hint: I like that.
+- text: Ich brauche Ruhe.
+  hint: I need quiet.

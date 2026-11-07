@@ -14,12 +14,28 @@
     python storylingo.py media-clear <slug> [images|audio]     forget the images and/or narration of a story
     python storylingo.py feedback <language>                   the teacher's spoken "Ja! Genau!" / "Nein!", once per language
     python storylingo.py list                                  every story in the database
+    python storylingo.py phrases <language> <level>            DeepSeek drafts the level's phrases (up to 200) in content/phrases/
+    python storylingo.py localize-phrases <language> <base>    their meanings for one base language
+    python storylingo.py media-phrases <language>              their recordings (missing or out of date)
+    python storylingo.py media-export                          copy every picture and recording out of the local database
+    python storylingo.py media-import --cloud                  … and into the cloud (instead of making them again)
+
+Add --cloud to any command to work on the cloud project (pipeline/.env.cloud) instead of the local one (pipeline/.env).
+Content always comes from content/; only the database and storage it writes to change. See docs/cloud.md.
 """
 import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
 
+# Local by default; --cloud writes to the cloud project instead (docs/cloud.md).
+CLOUD = "--cloud" in sys.argv
+if CLOUD:
+    sys.argv.remove("--cloud")
+    if not (Path(__file__).parent / ".env.cloud").exists():
+        raise SystemExit("--cloud needs pipeline/.env.cloud (copy .env.cloud.example; see docs/cloud.md).")
+    load_dotenv(Path(__file__).parent / ".env.cloud", override=True)
+    print("== CLOUD ==")
 load_dotenv(Path(__file__).parent / ".env")
 
 import content  # noqa: E402
@@ -27,6 +43,8 @@ import db  # noqa: E402  (reads DATABASE_URL, so .env must be loaded first)
 import editions  # noqa: E402
 import languages  # noqa: E402
 import media  # noqa: E402
+import phrases  # noqa: E402
+import transfer  # noqa: E402
 import yamlio  # noqa: E402
 from check import check  # noqa: E402
 from content import StoryDoc  # noqa: E402
@@ -34,7 +52,7 @@ from core import add_core_words  # noqa: E402
 from glossary import add_glossary  # noqa: E402
 from llm import write_story  # noqa: E402
 from localize import localize, localize_words  # noqa: E402
-from mediajobs import media_jobs  # noqa: E402
+from mediajobs import media_jobs, phrase_jobs  # noqa: E402
 from models import Brief, Localization, Story  # noqa: E402
 from prompts import PROMPT_VERSION  # noqa: E402
 from voice import add_voice  # noqa: E402
@@ -58,6 +76,10 @@ def sync(slug: str | None = None) -> None:
         print("  web/lib/languages.json updated")
     if editions.write_web():
         print("  web/lib/editions.json updated")
+    for language in phrases.languages_with_phrases() if not slug else []:
+        bases = [b for b in languages.all_languages() if languages.get(b).is_base]
+        changes = db.sync_phrases(language, phrases.all_sets(language), {b: phrases.meanings(language, b) for b in bases})
+        print(f"  phrases {language}: " + (", ".join(changes) if changes else "up to date"))
     docs = [content.read(slug)] if slug else content.all_stories()
     for doc in docs:
         # A scene or question added by hand may have no key yet: give it one in the file first.
@@ -95,12 +117,17 @@ def show(brief: Brief, story: Story, localizations: dict[str, Localization]) -> 
     print()
 
 
-def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
-    """Make every image and recording that is missing or out of date. Safe to run again after an error."""
-    doc = content.read(slug)
-    voice = languages.voice(doc.brief.language)
+def make_media(slug: str, provider_name: str, only: str | None = None, language: str | None = None) -> None:
+    """
+    Make every image and recording that is missing or out of date. Safe to run again after an error.
+    With `language` (and no slug): the recordings of that language's phrases.
+    """
+    doc = content.read(slug) if slug else None
+    voice = languages.voice(doc.brief.language if doc else language)
     wanted = {"images": ("image", "picture"), "audio": ("narration", "question", "word")}
-    todo = [j for j in media_jobs(doc) if j["have"] != j["want"] and (only is None or j["what"] in wanted[only])]
+    jobs = media_jobs(doc) if doc else phrase_jobs(language)
+    todo = [j for j in jobs if j["have"] != j["want"] and (only is None or j["what"] in wanted[only])]
+    slug = slug or f"{language} phrases"
     if not todo:
         print(f"Nothing to make for '{slug}': every image and recording matches its text and voice.")
         return
@@ -131,7 +158,7 @@ def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
 
 def make_feedback(language: str) -> None:
     """The teacher's short reactions after an answer (teacher.yes / teacher.no in the language file), spoken once per
-    language and shared by every story. The app plays feedback/<lang>/yes-<n>.wav and no-<n>.wav; raise
+    language and shared by every story. The app plays feedback/<lang>/yes-<n>.mp3 and no-<n>.mp3; raise
     FEEDBACK_VERSION in web/lib/speech.ts after remaking them."""
     voice = languages.voice(language)
     speaker = media.speaker(voice)
@@ -139,14 +166,14 @@ def make_feedback(language: str) -> None:
     for kind, lines in (("yes", teacher.yes), ("no", teacher.no)):
         for i, line in enumerate(lines, 1):
             item = speaker.speech(line.text, "story", [{"text": line.text, "emotion": line.emotion}], voice)
-            media.upload(f"feedback/{language}/{kind}-{i}.wav", item)
+            media.upload(f"feedback/{language}/{kind}-{i}.{media.extension(item.mime_type)}", item)
             print(f"  {kind}-{i}: {line.text} ({line.emotion})")
 
 
 def main(argv: list[str]) -> None:
     command = argv[0] if argv else None
     arg = argv[1] if len(argv) > 1 else None
-    if command not in ("list", "sync", "check") and not arg:
+    if command not in ("list", "sync", "check", "media-export", "media-import") and not arg:
         raise SystemExit(__doc__)
 
     if command == "sync":
@@ -217,6 +244,28 @@ def main(argv: list[str]) -> None:
         make_feedback(arg)
     elif command == "media-clear":
         print(f"Removed {db.clear_media(arg, argv[2] if len(argv) > 2 else None)} assets from '{arg}'.")
+    elif command == "phrases":
+        if len(argv) < 3:
+            raise SystemExit(__doc__)
+        phrases.generate(arg, argv[2])
+        print(f"Read content/phrases/{arg}/{argv[2]}.yaml, then: localize-phrases, sync, media-phrases {arg}")
+    elif command == "localize-phrases":
+        if len(argv) < 3:
+            raise SystemExit(__doc__)
+        phrases.localize(arg, argv[2])
+    elif command == "media-phrases":
+        try:
+            make_media(None, "local", "audio", language=arg)
+        except Exception as e:
+            raise SystemExit(f"Stopped: {e}\nEverything made so far is saved; run the same command again to continue.")
+    elif command == "media-export":
+        if CLOUD:
+            raise SystemExit("Export from the local project: run it without --cloud.")
+        transfer.export()
+    elif command == "media-import":
+        if not CLOUD:
+            raise SystemExit("Import into the cloud project: add --cloud.")
+        transfer.import_()
     elif command == "list":
         for slug, status, level, title, scenes in db.list_stories():
             print(f"{status:10} {level}  {slug:30} {title} ({scenes} scenes)")

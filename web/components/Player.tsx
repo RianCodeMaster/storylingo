@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { advance, Circling, start } from "@/lib/circling";
+import { useDevActions } from "@/lib/devtools";
 import { useI18n } from "@/lib/i18n";
 import { canListen, listen, matchAnswer, type ListenError } from "@/lib/listen";
 import { feedback, narrate, phrases, speak, stopSpeaking } from "@/lib/speech";
@@ -21,6 +22,9 @@ type Phase =
   | { kind: "done" };
 
 type Heard = { text: string; matched: boolean };
+
+/** How long ago a moment was, in ms: the time a learner took to answer. */
+const msSince = (moment: number) => Date.now() - moment;
 
 const VOICE_KEY = "storylingo.voice";
 
@@ -252,7 +256,7 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
     stopListening();
     const question = story.scenes[phase.s].questions[phase.queue[0]];
     const correct = option === question.answer;
-    const responseMs = Date.now() - askedAt.current;
+    const responseMs = msSince(askedAt.current);
     setPicked(option);
     circling.current.record(question.lexeme_id, correct, responseMs);
     // Circle back: the same question once more at the end of this scene (added when moving on).
@@ -276,7 +280,8 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
     if (names.length) setSkipNote(fill(dict.story.skipped, { names: names.join(", ") }));
   }
 
-  function next() {
+  /** Clear what belongs to the screen being left. */
+  function leave() {
     if (autoNext.current) clearTimeout(autoNext.current);
     autoNext.current = null;
     setPicked(null);
@@ -286,6 +291,29 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
     setHeard(null);
     setListenError(null);
     stopListening();
+  }
+
+  // Test tools (development only): straight to any part of the story. A session starts as when you press Begin.
+  function jump(to: Phase) {
+    leave();
+    if (!sessionId && (to.kind === "scene" || to.kind === "question")) {
+      startSession(userId, story.id, edition.slug).then(setSessionId).catch((e) => setError(e.message));
+    }
+    setPhase(to);
+  }
+  useDevActions([
+    { label: "Kernwoorden", run: () => jump({ kind: "words" }) },
+    { label: "Gebaren", run: () => jump({ kind: "intro" }) },
+    ...story.scenes.flatMap((scene, s) => [
+      { label: `Scène ${s + 1}`, run: () => jump({ kind: "scene", s }) },
+      { label: `Vragen scène ${s + 1}`, run: () => jump({ kind: "question", s, queue: scene.questions.map((_, q) => q) }) },
+    ]),
+    { label: "Nazeggen", run: () => jump(shadowLines.length ? { kind: "shadow" } : { kind: "done" }) },
+    { label: "Einde", run: () => jump({ kind: "done" }) },
+  ]);
+
+  function next() {
+    leave();
     if (phase.kind === "intro") {
       startSession(userId, story.id, edition.slug).then(setSessionId).catch((e) => setError(e.message));
       return setPhase({ kind: "scene", s: 0 });

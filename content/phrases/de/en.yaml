@@ -1,0 +1,602 @@
+# What each phrase means for learners with this base language. Made by `storylingo.py localize-phrases`; corrections
+# by hand are welcome (then: storylingo.py sync).
+Guten Morgen.: Good morning.
+Guten Tag.: Hello.
+Hallo, wie geht's?: Hi, how are you?
+Mir geht es gut.: I'm fine.
+Danke, gut.: Thanks, good.
+Auf Wiedersehen.: Goodbye.
+Tschüss, bis später.: Bye, see you later.
+Bitte schön.: You're welcome.
+Entschuldigung, ich habe eine Frage.: Excuse me, I have a question.
+Wie bitte?: Pardon?
+Ich verstehe nicht.: I don't understand.
+Sprechen Sie Englisch?: Do you speak English?
+Können Sie das wiederholen?: Can you repeat that?
+Wie heißt du?: What's your name?
+Ich heiße Anna.: My name is Anna.
+Ich komme aus Deutschland.: I'm from Germany.
+Ich wohne hier.: I live here.
+Wie geht es Ihnen?: How are you?
+Danke, und Ihnen?: Thanks, and you?
+Es tut mir leid.: I'm sorry.
+Kein Problem.: No problem.
+Ich möchte einen Kaffee, bitte.: I'd like a coffee, please.
+Was kostet das?: How much is that?
+Das ist zu teuer.: That's too expensive.
+Ich nehme das.: I'll take that.
+Haben Sie das in groß?: Do you have this in large?
+Die Rechnung, bitte.: The bill, please.
+Wo ist der Bahnhof?: Where is the train station?
+Wie komme ich zum Zentrum?: How do I get to the center?
+Wann fährt der Zug?: When does the train leave?
+Eine Fahrkarte nach Berlin, bitte.: One ticket to Berlin, please.
+Ich habe einen Termin.: I have an appointment.
+Können Sie mir helfen?: Can you help me?
+Ich brauche einen Arzt.: I need a doctor.
+Ich fühle mich nicht gut.: I don't feel well.
+Wo tut es weh?: Where does it hurt?
+Ich habe Kopfschmerzen.: I have a headache.
+Ich bin krank.: I'm sick.
+Gute Besserung!: Get well soon!
+Ich arbeite hier.: I work here.
+Ich habe keine Zeit.: I don't have time.
+Bis morgen.: See you tomorrow.
+Viel Glück!: Good luck!
+Herzlichen Glückwunsch!: Congratulations!
+Freut mich, Sie kennenzulernen.: Nice to meet you.
+Wie spät ist es?: What time is it?
+Ich bin müde.: I'm tired.
+Ich habe Hunger.: I'm hungry.
+Ich habe Durst.: I'm thirsty.
+Ich mag das.: I like that.
+Guten Abend.: Good evening.
+Gute Nacht.: Good night.
+Bis bald.: See you soon.
+Wie ist Ihr Name?: What is your name?
+Woher kommen Sie?: Where are you from?
+Ich spreche kein Deutsch.: I don't speak German.
+Ich spreche ein bisschen Deutsch.: I speak a little German.
+Wie sagt man das?: How do you say that?
+Was bedeutet das?: What does that mean?
+Sprechen Sie langsam, bitte.: Please speak slowly.
+Ich weiß nicht.: I don't know.
+Ich brauche Hilfe.: I need help.
+Wo ist die Toilette?: Where is the toilet?
+Wo ist der Supermarkt?: Where is the supermarket?
+Ich möchte bezahlen.: I'd like to pay.
+Kann ich mit Karte zahlen?: Can I pay by card?
+Das ist alles.: That's all.
+Ich möchte ein Wasser, bitte.: I'd like a water, please.
+Die Speisekarte, bitte.: The menu, please.
+Ich esse kein Fleisch.: I don't eat meat.
+Das schmeckt gut.: It tastes good.
+Ich bin satt.: I'm full.
+Ich brauche einen Termin.: I need an appointment.
+Wann haben Sie Zeit?: When do you have time?
+Ich komme später.: I'll come later.
+Ich bin zu spät.: I'm late.
+Wo ist mein Zimmer?: Where is my room?
+Wann kommt der Bus?: When does the bus come?
+Muss ich umsteigen?: Do I have to change?
+Ich möchte aussteigen.: I want to get off.
+Ist dieser Platz frei?: Is this seat free?
+Ich suche mein Hotel.: I'm looking for my hotel.
+Ich gehe nach Hause.: I'm going home.
+Ich bin zu Hause.: I'm at home.
+Ich komme gleich.: I'll be right there.
+Kann ich Ihnen helfen?: Can I help you?
+Was machst du?: What are you doing?
+Wie war dein Tag?: How was your day?
+Mir ist kalt.: I'm cold.
+Ich habe Angst.: I'm afraid.
+Ich bin glücklich.: I'm happy.
+Ich bin traurig.: I'm sad.
+Das ist gut.: That's good.
+Ich muss gehen.: I have to go.
+Ich muss arbeiten.: I have to work.
+Ich bin beschäftigt.: I'm busy.
+Wann beginnt der Kurs?: When does the course start?
+Wo ist das Büro?: Where is the office?
+Kann ich hereinkommen?: May I come in?
+Können Sie das erklären?: Can you explain that?
+Einen Moment, bitte.: One moment, please.
+Wie heißt das auf Deutsch?: What's that called in German?
+Wie schreibt man das?: How do you spell that?
+Können Sie mir das zeigen?: Can you show me that?
+Wo finde ich das?: Where can I find that?
+Wie lange dauert das?: How long does that take?
+Ich möchte einen Termin machen.: I'd like to make an appointment.
+Wann haben Sie geöffnet?: When are you open?
+Ich schaue nur, danke.: I'm just looking, thanks.
+Wo ist die Kasse?: Where is the checkout?
+Kann ich das umtauschen?: Can I exchange this?
+Haben Sie eine Tüte?: Do you have a bag?
+Zusammen oder getrennt?: Together or separate?
+Noch einen Kaffee, bitte.: Another coffee, please.
+Kann ich bitte bestellen?: Can I order, please?
+Ich hätte gern ein Brot.: I'd like a loaf of bread.
+Das ist zu klein.: This is too small.
+Das passt gut.: That fits well.
+Ich brauche eine Quittung.: I need a receipt.
+Ist das im Angebot?: Is this on sale?
+Wo muss ich unterschreiben?: Where do I sign?
+Ich warte hier.: I'm waiting here.
+Können wir später sprechen?: Can we talk later?
+Wann ist die Pause?: When is the break?
+Ich mache eine Pause.: I'm taking a break.
+Ich habe Schmerzen.: I'm in pain.
+Hier tut es weh.: It hurts here.
+Ich habe Fieber.: I have a fever.
+Gibt es hier eine Apotheke?: Is there a pharmacy here?
+Ich muss zum Arzt.: I have to go to the doctor.
+Wann kann ich kommen?: When can I come?
+Wo ist der Ausgang?: Where is the exit?
+Wo ist Gleis drei?: Where is platform three?
+Wie lange fährt der Zug?: How long does the train take?
+Ich steige hier aus.: I'm getting off here.
+Bitte halten Sie hier.: Please stop here.
+Wo ist die Haltestelle?: Where is the stop?
+Fährt dieser Bus zum Bahnhof?: Does this bus go to the station?
+Wo muss ich aussteigen?: Where do I have to get off?
+Ist der Zug pünktlich?: Is the train on time?
+Wo sind die Schlüssel?: Where are the keys?
+Die Tür ist offen.: The door is open.
+Kannst du das Licht anmachen?: Can you turn on the light?
+Ich muss aufräumen.: I have to tidy up.
+Das freut mich.: I'm glad.
+Das ist schade.: That's a pity.
+Keine Sorge.: No worries.
+Alles klar.: All right.
+Das stimmt.: That's right.
+Ich bin einverstanden.: I agree.
+Wie kann ich Ihnen helfen?: How can I help you?
+Darf ich Sie etwas fragen?: May I ask you something?
+Sprechen Sie Deutsch?: Do you speak German?
+Ich spreche nur wenig Deutsch.: I only speak a little German.
+Einen Moment, ich schaue nach.: One moment, I'll check.
+Können Sie kurz warten?: Can you wait a moment?
+Ich bin gleich zurück.: I'll be right back.
+Vielen Dank für Ihre Hilfe.: Thank you for your help.
+Bitte sehr, gern geschehen.: You're welcome, glad to help.
+Entschuldigung, ich bin spät dran.: Sorry, I'm running late.
+Tut mir leid, ich kann nicht.: Sorry, I can't come.
+Kein Problem, das mache ich.: No problem, I'll do it.
+Alles gut, danke.: All good, thanks.
+Das ist sehr nett.: That's very kind.
+Ich freue mich.: I'm happy about it.
+Was kostet das zusammen?: How much is that altogether?
+Haben Sie das auch in Blau?: Do you have this in blue as well?
+Ich möchte das kaufen.: I'd like to buy this.
+Kann ich das anprobieren?: Can I try this on?
+Das passt mir nicht.: This doesn't fit me.
+Haben Sie eine andere Größe?: Do you have another size?
+Kann ich das zurückgeben?: Can I return this?
+Bar oder mit Karte?: Cash or card?
+Ich zahle mit Karte.: I'm paying by card.
+Kann ich bitte zahlen?: Can I pay, please?
+Ich hätte gern etwas zu trinken.: I'd like something to drink.
+Was haben Sie zu essen?: What food do you have?
+Das Essen war sehr gut.: The food was very good.
+Ohne Fleisch, bitte.: Without meat, please.
+Noch ein Wasser, bitte.: Another water, please.
+Wann kommt der nächste Bus?: When is the next bus?
+Wo ist die Bushaltestelle?: Where is the bus stop?
+Wie viele Stationen sind es?: How many stops is it?
+Muss ich hier umsteigen?: Do I have to change here?
+Hin und zurück, bitte.: Return ticket, please.
+Ich möchte eine Fahrkarte kaufen.: I'd like to buy a ticket.
+Ist dieser Sitz frei?: Is this seat free?
+Bitte halten Sie an.: Please stop here.
+Ich habe den Bus verpasst.: I missed the bus.
+Können Sie mir den Weg zeigen?: Can you show me the way?
+Ich habe mich verlaufen.: I'm lost.
+Mir ist schlecht.: I feel sick.
+Ich habe Halsschmerzen.: I have a sore throat.
+Ich brauche einen Arzttermin.: I need a doctor's appointment.
+Ich habe eine Allergie.: I have an allergy.
+Ich bin neu hier.: I'm new here.
+Ich arbeite im Büro.: I work in an office.
+Ich habe Pause.: I'm on a break.
+Das gefällt mir.: I like that.
+Ich brauche Ruhe.: I need some quiet.
+Schönen Tag noch.: Have a nice day.
+Mach's gut.: Take care.
+Alles Gute.: All the best.
+Gute Reise.: Have a good trip.
+Nehmen Sie Platz.: Please take a seat.
+Ich brauche noch etwas Zeit.: I need a little more time.
+Könnten Sie das bitte buchstabieren?: Could you spell that, please?
+Können Sie mir das aufschreiben?: Can you write that down for me?
+Ich habe es nicht verstanden.: I didn't understand that.
+Das ist ja toll.: That's great.
+Das glaube ich nicht.: I don't believe that.
+Das ist mir egal.: I don't care.
+Das macht nichts.: That's okay.
+Das ist nicht schlimm.: That's not bad.
+Das ist eine gute Idee.: That's a good idea.
+Das stimmt nicht.: That's not true.
+Ich bin mir nicht sicher.: I'm not sure.
+Ich glaube schon.: I think so.
+Ich glaube nicht.: I don't think so.
+Was ist passiert?: What happened?
+Wie meinen Sie das?: What do you mean by that?
+Haben Sie noch Fragen?: Do you have any more questions?
+Ist alles in Ordnung?: Is everything okay?
+Geht es Ihnen gut?: Are you well?
+Brauchen Sie noch etwas.: Do you need anything else?
+Wann treffen wir uns?: When shall we meet?
+Wo treffen wir uns?: Where shall we meet?
+Um wie viel Uhr.: At what time?
+Ich suche ein Geschenk.: I'm looking for a gift.
+Wo ist die Umkleidekabine?: Where is the fitting room?
+Passt es Ihnen.: Does it fit you?
+Kann ich das später abholen?: Can I pick that up later?
+Ich habe eine Besprechung.: I have a meeting.
+Ich rufe Sie später zurück.: I'll call you back later.
+Ich muss den Termin verschieben.: I have to postpone the appointment.
+Ich arbeite von zu Hause.: I work from home.
+Ich habe eine Erkältung.: I have a cold.
+Ich bin allergisch gegen Nüsse.: I'm allergic to nuts.
+Ich brauche ein Rezept.: I need a prescription.
+Ich habe Rückenschmerzen.: I have back pain.
+Wo muss ich umsteigen?: Where do I have to change?
+Wie komme ich zum Flughafen?: How do I get to the airport?
+Wann kommt der Zug an?: When does the train arrive?
+Hat der Zug Verspätung?: Is the train delayed?
+Wo ist der Fahrkartenautomat?: Where is the ticket machine?
+Ich muss noch einkaufen.: I still have to go shopping.
+Die Heizung funktioniert nicht.: The heating isn't working.
+Ich habe den Schlüssel verloren.: I've lost the key.
+Ich habe keine Lust.: I don't feel like it.
+Ich bin sehr froh.: I'm very glad.
+Was darf es für Sie sein?: What would you like?
+Stimmt so, danke.: Keep the change, thanks.
+Ich bezahle bar.: I'm paying cash.
+Ich habe kein Kleingeld.: I don't have any small change.
+Ich hätte gern noch etwas.: I'd like a little more.
+Können Sie mir etwas empfehlen?: Can you recommend something?
+Das ist eine gute Frage.: That's a good question.
+Das kann ich verstehen.: I can understand that.
+Das ist nicht so wichtig.: That's not so important.
+Das macht keinen Sinn.: That doesn't make sense.
+Ich bin zufrieden.: I'm satisfied.
+Ich bin wütend.: I'm angry.
+Ich bin überrascht.: I'm surprised.
+Ich habe gute Laune.: I'm in a good mood.
+Alles wird gut.: Everything will be fine.
+Das nervt mich.: That annoys me.
+Wo ist der nächste Geldautomat?: Where is the nearest ATM?
+Ich brauche eine andere Farbe.: I need another color.
+Die Hose ist mir zu lang.: The trousers are too long for me.
+Ich nehme zwei Stück.: I'll take two.
+Ich möchte etwas gegen Kopfschmerzen.: I'd like something for a headache.
+Ich brauche eine Krankschreibung.: I need a sick note.
+Können Sie mir etwas verschreiben?: Can you prescribe me something?
+Wann soll ich wieder kommen?: When should I come back?
+Mir ist schwindelig.: I feel dizzy.
+Ich habe Bauchschmerzen.: I have a stomach ache.
+Ich fühle mich sehr schwach.: I feel very weak.
+Ich habe mich verletzt.: I hurt myself.
+Mein Arm tut weh.: My arm hurts.
+Ich fahre mit dem Zug.: I'm going by train.
+Ich nehme die Straßenbahn.: I'll take the tram.
+Ich steige am Hauptbahnhof um.: I transfer at the main station.
+Der Bus kommt in zehn Minuten.: The bus will be here in ten minutes.
+Kannst du bitte das Fenster schließen?: Can you please close the window?
+Kannst du bitte das Licht ausmachen?: Can you please turn off the light?
+Die Waschmaschine ist kaputt.: The washing machine is broken.
+Der Kühlschrank ist leer.: The fridge is empty.
+Die Tür ist abgeschlossen.: The door is locked.
+Die Miete ist zu hoch.: The rent is too high.
+Ich suche eine neue Wohnung.: I'm looking for a new apartment.
+Ich habe viel Arbeit.: I have a lot of work.
+Ich schicke dir die Datei.: I'll send you the file.
+Hast du die E-Mail gelesen?: Did you read the email?
+Ich habe die Datei nicht gefunden.: I didn't find the file.
+Ich bin im Urlaub.: I'm on vacation.
+Ich muss früher gehen.: I have to leave earlier.
+Kannst du das bitte prüfen?: Can you please check that?
+Ich habe das Formular ausgefüllt.: I filled out the form.
+Unterschreiben Sie hier, bitte.: Sign here, please.
+Ich brauche eine Kopie.: I need a copy.
+Entschuldigung, wo geht es hier zur Toilette?: Excuse me, where is the toilet?
+Können Sie mir bitte helfen?: Can you please help me?
+Ich verstehe das leider nicht.: I don't understand that, sorry.
+Könnten Sie das bitte langsamer sagen?: Could you please say that more slowly?
+Wie komme ich am besten dorthin?: What's the best way to get there?
+Gibt es hier in der Nähe eine Bank?: Is there a bank nearby?
+Ich möchte bitte die Rechnung.: I'd like the bill, please.
+Das habe ich nicht bestellt.: I didn't order this.
+Mein Essen ist leider kalt.: My food is cold, unfortunately.
+Können wir den Termin verschieben?: Can we move the appointment?
+Ich möchte einen Termin vereinbaren.: I'd like to arrange an appointment.
+Ich melde mich später bei Ihnen.: I'll get back to you later.
+Bitte rufen Sie mich zurück.: Please call me back.
+Können Sie mir eine E-Mail schicken?: Can you send me an email?
+Ich habe die Unterlagen dabei.: I have the documents with me.
+Kann ich das Formular später abgeben?: Can I hand in the form later?
+Wann ist mein Termin?: When is my appointment?
+Ich habe seit gestern Fieber.: I've had a fever since yesterday.
+Es tut hier sehr weh.: It hurts a lot here.
+Können Sie mir etwas dagegen geben?: Can you give me something for it?
+Muss ich das Medikament täglich nehmen?: Do I have to take this medicine every day?
+Der Zug hat leider Verspätung.: Unfortunately, the train is delayed.
+Von welchem Gleis fährt der Zug?: Which platform does the train leave from?
+Wie lange dauert die Fahrt?: How long does the journey take?
+Ich möchte die Fahrkarte zurückgeben.: I'd like to return this ticket.
+Wo kann ich ein Taxi bekommen?: Where can I get a taxi?
+Bitte fahren Sie mich zum Bahnhof.: Please drive me to the station.
+Hält dieser Bus am Marktplatz?: Does this bus stop at Marktplatz?
+Wann fährt der nächste Zug nach Berlin?: When is the next train to Berlin?
+Ich suche eine Wohnung mit zwei Zimmern.: I'm looking for a two-room flat.
+Wie hoch ist die Kaution?: How much is the deposit?
+Wann kann ich die Wohnung sehen?: When can I see the flat?
+Können Sie das bitte reparieren?: Can you repair that, please?
+Der Aufzug funktioniert nicht.: The elevator isn't working.
+Ich habe mich ausgesperrt.: I've locked myself out.
+Es ist sehr laut hier.: It's very loud here.
+Können Sie mir das noch einmal sagen?: Can you tell me that again?
+Ich weiß es leider auch nicht.: I don't know either, sorry.
+Vielen Dank, das ist sehr freundlich.: Thank you, that's very kind.
+Entschuldigung, ich habe Sie nicht verstanden.: Sorry, I didn't understand you.
+Darf ich kurz stören?: May I disturb you briefly?
+Haben Sie kurz Zeit für mich?: Do you have a moment for me?
+Ich habe eine Frage zum Formular.: I have a question about the form.
+Können wir das später besprechen?: Can we discuss that later?
+Ich bin anderer Meinung.: I have a different opinion.
+Das kann ich gut verstehen.: I can understand that well.
+Guten Appetit!: Enjoy your meal!
+Schönes Wochenende!: Have a nice weekend!
+Hast du am Wochenende Zeit?: Are you free at the weekend?
+Wollen wir zusammen Mittagessen?: Shall we have lunch together?
+Entschuldigung, ich suche den Bahnhof.: Excuse me, I'm looking for the station.
+Ich verstehe nur ein bisschen Deutsch.: I only understand a little German.
+Kann ich einen Termin bekommen?: Can I get an appointment?
+Bitte rufen Sie mich heute an.: Please call me today.
+Was kostet das pro Kilo?: How much is it per kilo?
+Die Größe passt mir nicht.: The size doesn't fit me.
+Ich nehme das mit.: I'll take it with me.
+Ich fühle mich sehr krank.: I feel very ill.
+Ich habe seit gestern Husten.: I've had a cough since yesterday.
+Mein Hals tut sehr weh.: My throat hurts a lot.
+Ich vertrage keine Milch.: I can't tolerate milk.
+Wann soll ich das Medikament nehmen?: When should I take the medicine?
+Ich bin stark erkältet.: I have a bad cold.
+Ich habe Ohrenschmerzen.: I have an earache.
+Ich habe eine Frage zum Vertrag.: I have a question about the contract.
+Ich schicke Ihnen die Unterlagen.: I'll send you the documents.
+Der Termin passt mir gut.: The appointment suits me well.
+Ich bin heute nicht im Büro.: I'm not in the office today.
+Ich habe den Termin notiert.: I've noted the appointment.
+Ich brauche Ihre Unterschrift.: I need your signature.
+Wann ist die Besprechung?: When is the meeting?
+Fährt dieser Zug nach München?: Does this train go to Munich?
+Der Zug fällt leider aus.: Unfortunately, the train is cancelled.
+Wo ist die nächste Haltestelle?: Where is the nearest stop?
+Die Lampe ist kaputt.: The lamp is broken.
+Kannst du bitte den Müll rausbringen?: Can you please take out the rubbish?
+Ich muss noch staubsaugen.: I still have to vacuum.
+Das Fenster ist noch offen.: The window is still open.
+Der Wasserhahn tropft.: The tap is dripping.
+Ich habe meinen Schlüssel vergessen.: I forgot my key.
+Mach bitte die Musik leiser.: Please turn the music down.
+Ich muss die Wohnung putzen.: I have to clean the flat.
+Die Nachbarn sind sehr laut.: The neighbours are very loud.
+Ich freue mich sehr darauf.: I'm really looking forward to it.
+Das ärgert mich sehr.: That really annoys me.
+Ich mache mir Sorgen.: I'm worried.
+Ich bin sehr enttäuscht.: I'm very disappointed.
+Ich bin etwas nervös.: I'm a bit nervous.
+Ich habe keine Angst.: I'm not afraid.
+Das gefällt mir überhaupt nicht.: I don't like that at all.
+Ich bin damit nicht zufrieden.: I'm not satisfied with it.
+Ich bin sehr dankbar.: I'm very grateful.
+Es geht mir schon besser.: I'm feeling better already.
+Was machst du am Wochenende?: What are you doing at the weekend?
+Hast du heute Abend Zeit?: Do you have time this evening?
+Was möchtest du trinken?: What would you like to drink?
+Möchtest du mitkommen?: Would you like to come along?
+Kannst du mir den Zucker geben?: Can you pass me the sugar?
+Wie oft fährt der Bus?: How often does the bus run?
+Ich möchte mich beschweren.: I want to make a complaint.
+Ich wollte fragen, ob Sie Zeit haben.: I was wondering if you have time.
+Könnten Sie mir das bitte erklären?: Could you please explain that to me?
+Ich hätte eine kurze Frage.: I have a quick question.
+Können Sie mir ein Beispiel geben?: Can you give me an example?
+Ich habe die E-Mail nicht bekommen.: I didn't get the email.
+Kann ich eine Nachricht hinterlassen?: Can I leave a message?
+Das habe ich mir schon gedacht.: I thought so.
+Ich bin total gestresst.: I'm totally stressed out.
+Ich drücke dir die Daumen.: I'm keeping my fingers crossed for you.
+Mach dir keine Gedanken.: Don't worry about it.
+Ich muss den Termin absagen.: I need to cancel the appointment.
+Ich melde mich heute krank.: I'm calling in sick today.
+Kann ich morgen freinehmen?: Can I take tomorrow off?
+Die Datei lässt sich nicht öffnen.: The file won't open.
+Der Drucker funktioniert nicht.: The printer isn't working.
+Das ist ein Missverständnis.: It's a misunderstanding.
+Ich kümmere mich darum.: I'll take care of it.
+Kann ich das Formular per E-Mail schicken?: Can I send the form by email?
+Können Sie mir eine Bestätigung geben?: Can you give me written confirmation?
+Die Rechnung ist noch nicht bezahlt.: The bill hasn't been paid yet.
+Der Abfluss ist verstopft.: The drain is blocked.
+Die Tür lässt sich nicht öffnen.: The door won't open.
+Ich muss noch den Abwasch machen.: I still have to do the dishes.
+Kannst du bitte die Wäsche machen?: Can you please do the laundry?
+Wir bekommen am Wochenende Besuch.: We're having visitors this weekend.
+Ich habe kein Internet.: I don't have internet.
+Ich habe mich geschnitten.: I cut myself.
+Ich bin gestern gestürzt.: I fell yesterday.
+Es wird immer schlimmer.: It's getting worse and worse.
+Ich brauche eine Überweisung.: I need a referral.
+Rufen Sie bitte einen Krankenwagen.: Please call an ambulance.
+Es ist ein Notfall.: It's an emergency.
+Ich suche etwas für meine Mutter.: I'm looking for something for my mother.
+Ist das im Moment reduziert?: Is this on sale right now?
+Das ist ein Sonderangebot.: That's a special offer.
+Ich habe es mir anders überlegt.: I changed my mind.
+Ich nehme doch das andere.: I'll take the other one instead.
+Können Sie das einpacken?: Can you wrap it?
+Muss ich die Fahrkarte entwerten?: Do I need to validate the ticket?
+Hält der Zug in Mannheim?: Does the train stop in Mannheim?
+Ich bin im falschen Zug.: I'm on the wrong train.
+Ich muss den Anschluss bekommen.: I need to make my connection.
+Kann ich die Fahrkarte stornieren?: Can I cancel the ticket?
+Ich möchte einen Tisch reservieren.: I'd like to reserve a table.
+Können wir draußen sitzen?: Can we sit outside?
+Die Rechnung stimmt nicht.: The bill is incorrect.
+Ist das Frühstück inklusive?: Is breakfast included?
+Hast du Lust, etwas zu machen?: Do you feel like doing something?
+Ich habe leider schon etwas vor.: Sorry, I already have plans.
+Vielleicht ein anderes Mal.: Maybe another time.
+Schön, dich zu sehen.: Nice to see you.
+Lange nicht gesehen, wie geht's?: Long time no see, how are you?
+Bis später, ich muss los.: See you later, I have to go.
+Wir sehen uns morgen.: See you tomorrow.
+Kannst du mir einen Gefallen tun?: Can you do me a favor?
+Würdest du mir bitte helfen?: Would you please help me?
+Es tut mir leid, das war mein Fehler.: I'm sorry, that was my fault.
+Kein Problem, ich erledige das.: No problem, I'll handle it.
+Danke, das war sehr hilfreich.: Thanks, that was very helpful.
+Entschuldigen Sie die Störung.: Sorry to bother you.
+Kann ich Ihnen behilflich sein?: Can I help you?
+Könnten Sie mir den Weg beschreiben?: Could you give me directions?
+Hätten Sie nächste Woche einen Termin frei?: Do you have any appointments available next week?
+Ich möchte ein Paket abholen.: I'd like to pick up a package.
+Was empfehlen Sie mir?: What do you recommend?
+Ich möchte das gerne umtauschen.: I'd like to exchange this.
+Ich bin mit dem Essen nicht zufrieden.: I'm not happy with the food.
+Könnten wir bitte getrennt bezahlen?: Could we pay separately, please?
+Ich bin sehr erleichtert.: I'm very relieved.
+Ich habe eine Frage zum Projekt.: I have a question about the project.
+Können wir das im Meeting besprechen?: Can we discuss that in the meeting?
+Ich bin heute den ganzen Tag erreichbar.: I'm available all day today.
+Ich melde mich nach der Besprechung.: I'll get back to you after the meeting.
+Haben Sie die E-Mail erhalten?: Did you receive the email?
+Ich brauche das bis morgen.: I need it by tomorrow.
+Wann können wir das besprechen?: When can we discuss that?
+Ich bin im Homeoffice erreichbar.: I'm available while working from home.
+Könnten Sie mir das schriftlich geben?: Could you give me that in writing?
+Ich habe den Bericht noch nicht fertig.: I haven't finished the report yet.
+Ich habe seit drei Tagen Kopfschmerzen.: I've had a headache for three days.
+Ich vertrage das Medikament nicht.: I can't tolerate the medication.
+Wie oft soll ich die Tabletten nehmen?: How often should I take the tablets?
+Mein Rücken tut immer noch weh.: My back still hurts.
+Ich bin gegen Penicillin allergisch.: I'm allergic to penicillin.
+Können Sie mich bitte krank schreiben?: Can you sign me off sick, please?
+Ich nehme jeden Tag diese Tabletten.: I take these tablets every day.
+Das überrascht mich wirklich.: That really surprises me.
+Muss ich hier auf den Bus warten?: Do I have to wait here for the bus?
+Wie lange brauche ich bis zum Zentrum?: How long does it take to get to the center?
+Fährt dieser Zug über Stuttgart?: Does this train go via Stuttgart?
+Können Sie mich am Flughafen abholen?: Can you pick me up at the airport?
+Wann fährt die nächste U-Bahn?: When does the next subway leave?
+Ist dieser Zug direkt nach Hamburg?: Is this train direct to Hamburg?
+Wir müssen noch die Küche putzen.: We still have to clean the kitchen.
+Die Heizung wird einfach nicht warm.: The heating just won't get warm.
+Ich habe die Tür abgeschlossen.: I've locked the door.
+Ich muss noch die Wäsche aufhängen.: I still have to hang up the laundry.
+Ich fühle mich etwas einsam.: I feel a bit lonely.
+Das macht mich wirklich wütend.: That really makes me angry.
+Ich bin froh, dass du da bist.: I'm glad you're here.
+Könnten Sie mir kurz helfen?: Could you help me for a moment?
+Kann ich Sie kurz sprechen?: Can I have a quick word with you?
+Würde es Ihnen morgen passen?: Would tomorrow work for you?
+Bitte geben Sie mir kurz Bescheid.: Please let me know as soon as you can.
+Ich schaffe es leider nicht pünktlich.: Unfortunately, I won't make it on time.
+Ich sitze gerade im Stau.: I'm stuck in traffic right now.
+Die Verbindung ist gerade schlecht.: The connection is bad right now.
+Könnten Sie mich bitte durchstellen?: Could you put me through, please?
+Ich rufe später noch einmal an.: I'll call again later.
+Ich bin heute nicht erreichbar.: I'm not available today.
+Können wir den Termin bestätigen?: Can we confirm the appointment?
+Ich verschiebe den Termin auf morgen.: I'm postponing the appointment until tomorrow.
+Können wir das im Meeting klären?: Can we clarify that in the meeting?
+Ich schicke Ihnen die Datei nachher.: I'll send you the file later.
+Können Sie das schriftlich bestätigen?: Can you confirm that in writing?
+Ich muss heute früher Schluss machen.: I need to finish early today.
+Ich vertrete heute meine Kollegin.: I'm covering for my colleague today.
+Ich schaue mich nur etwas um.: I'm just looking around.
+Wo finde ich die Milch?: Where can I find the milk?
+Haben Sie das in einer anderen Farbe?: Do you have this in another color?
+Ich hätte gern zwei davon.: I'd like two of those.
+Ich probiere es eine Nummer größer.: I'll try it one size bigger.
+Ich nehme sonst nichts.: I don't need anything else.
+Haben Sie etwas Preiswerteres?: Do you have something cheaper?
+Das ist leider nicht vorrätig.: Unfortunately, it's out of stock.
+Hält dieser Bus am Hauptbahnhof?: Does this bus stop at the main station?
+Ich habe den Anschluss verpasst.: I missed the connection.
+Ich brauche eine Monatskarte.: I need a monthly ticket.
+Der Fahrkartenautomat nimmt kein Bargeld.: The ticket machine doesn't take cash.
+Ich möchte den Anschlusszug erreichen.: I want to catch the connecting train.
+Könnten Sie mich am Bahnhof abholen?: Could you pick me up at the station?
+Ich bin heute noch nicht ganz fit.: I'm not fully well today.
+Ich habe Probleme beim Atmen.: I have trouble breathing.
+Ich habe mich erkältet.: I've caught a cold.
+Wann soll ich zur Kontrolle kommen?: When should I come for a check-up?
+Ich habe eine Überweisung vom Hausarzt.: I have a referral from my GP.
+Ich habe seit Tagen Rückenschmerzen.: I've had back pain for days.
+Kannst du bitte die Tür abschließen?: Can you lock the door, please?
+Können wir die Heizung etwas aufdrehen?: Can we turn the heating up a bit?
+Ich habe den Schlüssel im Schloss gelassen.: I left the key in the lock.
+Das Fenster lässt sich nicht schließen.: The window won't close.
+Ich muss noch die Wäsche zusammenlegen.: I still need to fold the laundry.
+Kannst du noch Brot mitbringen?: Can you bring some bread too?
+Ich freue mich für dich.: I'm happy for you.
+Das hat mich sehr gefreut.: That made me very happy.
+Ich bin völlig erschöpft.: I'm completely exhausted.
+Ich fühle mich etwas überfordert.: I feel a bit overwhelmed.
+Ich kann das gut nachvollziehen.: I can totally understand that.
+Das ist mir wirklich unangenehm.: That's really awkward for me.
+Ich ärgere mich über mich selbst.: I'm annoyed at myself.
+Was hältst du davon?: What do you think of it?
+Das kommt darauf an.: It depends.
+Kannst du mir kurz helfen?: Can you help me for a moment?
+Könnten Sie das bitte wiederholen?: Could you please repeat that?
+Ich verstehe, was Sie meinen.: I see what you mean.
+Ich bin nicht sicher, ob das stimmt.: I'm not sure that's true.
+Lass uns später darüber sprechen.: Let's talk about it later.
+Ich muss mich beeilen.: I need to hurry.
+Das ist mir zu kompliziert.: That's too complicated for me.
+Können wir das anders machen?: Can we do it differently?
+Ich würde lieber zu Hause bleiben.: I'd rather stay home.
+Es wäre schön, wenn du mitkommst.: It would be nice if you came along.
+Können Sie mir einen Tipp geben?: Could you give me some advice?
+Ich kenne mich hier nicht aus.: I'm not familiar with this area.
+Können Sie mir den Weg erklären?: Could you give me directions?
+Können Sie mir das auf der Karte zeigen?: Could you show me on the map?
+Wie weit ist es von hier?: How far is it from here?
+Zu Fuß sind es zehn Minuten.: It's a ten-minute walk.
+Wo ist die nächste Apotheke?: Where is the nearest pharmacy?
+Wann fährt der nächste Zug?: When does the next train leave?
+Ist dieser Zug direkt?: Is this train direct?
+Ich habe den Zug verpasst.: I missed the train.
+Kann ich hier umsteigen?: Can I change trains here?
+Ich habe einen Termin um drei.: I have an appointment at three.
+Haben Sie das Formular erhalten?: Did you receive the form?
+Ich bin heute im Homeoffice.: I'm working from home today.
+Die Leitung ist besetzt.: The line is busy.
+Ich habe mich verwählt.: I dialed the wrong number.
+Können Sie lauter sprechen?: Could you speak louder?
+Ich verstehe Sie schlecht.: I can hardly understand you.
+Ich melde mich bei Ihnen.: I'll get back to you.
+Ich werde das sofort prüfen.: I'll check that right away.
+Können wir das auf morgen verschieben?: Can we postpone it until tomorrow?
+Ich habe einen Fehler gemacht.: I made a mistake.
+Das war nicht meine Absicht.: That wasn't my intention.
+Bitte entschuldigen Sie die Verspätung.: Sorry for being late.
+Ich habe starke Schmerzen.: I'm in a lot of pain.
+Können Sie mir ein Medikament empfehlen?: Can you recommend a medication?
+Ich nehme bereits Medikamente.: I'm already taking medication.
+Ich habe einen Arzttermin.: I have a doctor's appointment.
+Wie hoch ist die Miete?: How much is the rent?
+Wann kann ich einziehen?: When can I move in?
+Das ist sehr nett von dir.: That's very kind of you.
+Ich freue mich auf das Wochenende.: I'm looking forward to the weekend.
+Ich fühle mich heute etwas müde.: I feel a bit tired today.
+Ich muss eine kurze Pause machen.: I need to take a short break.
+Wir sollten eine Pause machen.: We should take a break.
+Ich kann mich nicht konzentrieren.: I can't concentrate.
+Ich bin in fünf Minuten fertig.: I'll be ready in five minutes.
+Ich muss noch etwas erledigen.: I still have something to take care of.

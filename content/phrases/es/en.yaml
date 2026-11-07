@@ -1,0 +1,602 @@
+# What each phrase means for learners with this base language. Made by `storylingo.py localize-phrases`; corrections
+# by hand are welcome (then: storylingo.py sync).
+Hola, ¿qué tal?: Hi, how are you?
+Buenos días.: Good morning.
+Buenas tardes.: Good afternoon.
+Buenas noches.: Good evening.
+Adiós, hasta luego.: Goodbye, see you later.
+Por favor.: Please.
+Muchas gracias.: Thank you very much.
+De nada.: You're welcome.
+Perdón, ¿dónde está el baño?: Excuse me, where is the bathroom?
+No entiendo.: I don't understand.
+¿Puede repetir, por favor?: Could you repeat that, please?
+¿Habla inglés?: Do you speak English?
+No hablo mucho español.: I don't speak much Spanish.
+¿Cómo se dice esto?: How do you say this?
+¿Cuánto cuesta?: How much does it cost?
+Quiero esto, por favor.: I'd like this, please.
+La cuenta, por favor.: The bill, please.
+¿Tiene una mesa para dos?: Do you have a table for two?
+Sin azúcar, por favor.: No sugar, please.
+¿Puedo pagar con tarjeta?: Can I pay by card?
+¿Dónde está la parada?: Where is the stop?
+Un billete de ida, por favor.: A one-way ticket, please.
+¿A qué hora sale el tren?: What time does the train leave?
+Quiero ir al centro.: I want to go downtown.
+Tengo una reserva.: I have a reservation.
+¿Hay Wi-Fi?: Is there Wi-Fi?
+Necesito ayuda.: I need help.
+Me encuentro mal.: I feel unwell.
+Me duele la cabeza.: My head hurts.
+Tengo fiebre.: I have a fever.
+Quiero pedir cita.: I'd like to make an appointment.
+¿Dónde está la farmacia?: Where is the pharmacy?
+Estoy bien, gracias.: I'm fine, thanks.
+Tengo hambre.: I'm hungry.
+¿Cómo te llamas?: What's your name?
+Mucho gusto.: Nice to meet you.
+¿De dónde eres?: Where are you from?
+Estoy en casa.: I'm at home.
+¿En qué trabajas?: What do you do for work?
+Hablo un poco de español.: I speak a little Spanish.
+¿Puedes ayudarme?: Can you help me?
+Por supuesto.: Of course.
+Vale, de acuerdo.: OK, agreed.
+Lo siento mucho.: I'm very sorry.
+No pasa nada.: It's okay, no problem.
+¿Qué hora es?: What time is it?
+A la derecha.: To the right.
+A la izquierda.: To the left.
+Todo recto.: Straight ahead.
+¿Dónde está el supermercado?: Where is the supermarket?
+No sé.: I don't know.
+¿Cómo estás?: How are you?
+Más despacio, por favor.: More slowly, please.
+Un momento, por favor.: One moment, please.
+¿Qué significa esto?: What does this mean?
+¿Puede hablar más despacio?: Could you speak more slowly?
+Quiero un café con leche.: I'd like a coffee with milk.
+Un agua sin gas, por favor.: Still water, please.
+¿Cuánto es todo?: How much is it altogether?
+Solo estoy mirando.: I'm just looking.
+¿Tiene otra talla?: Do you have another size?
+Quiero devolver esto.: I'd like to return this.
+Para llevar, por favor.: To take away, please.
+¿Tienen menú del día?: Do you have a set menu?
+Una bolsa, por favor.: A bag, please.
+Tengo una reunión.: I have a meeting.
+¿A qué hora empieza?: What time does it start?
+Trabajo en una oficina.: I work in an office.
+¿Dónde está la sala de reuniones?: Where is the meeting room?
+Necesito imprimir esto.: I need to print this.
+¿Me puede enviar un correo?: Can you send me an email?
+Estoy en la oficina.: I'm at the office.
+¿Tienes cinco minutos?: Do you have five minutes?
+Me duele el estómago.: My stomach hurts.
+Necesito un médico.: I need a doctor.
+¿Dónde está el centro de salud?: Where is the health centre?
+Tengo tos.: I have a cough.
+Me siento mejor.: I feel better.
+Tengo dolor de garganta.: I have a sore throat.
+¿Dónde está la estación de tren?: Where is the train station?
+Un billete de ida y vuelta.: A return ticket.
+¿Este autobús va al centro?: Does this bus go to the centre?
+¿A qué hora llega?: What time does it arrive?
+Pare aquí, por favor.: Stop here, please.
+¿Cuánto tarda?: How long does it take?
+¿Dónde puedo comprar un billete?: Where can I buy a ticket?
+¿Puedo usar el baño?: Can I use the bathroom?
+No hay agua caliente.: There is no hot water.
+Vivo en un piso.: I live in a flat.
+¿Puedo abrir la ventana?: Can I open the window?
+Está muy lejos.: It's very far.
+Estoy muy cansado.: I'm very tired.
+Tengo mucho sueño.: I'm very sleepy.
+Estoy contento.: I'm happy.
+No me gusta.: I don't like it.
+Me gusta mucho.: I like it a lot.
+Qué bien.: That's great.
+Qué pena.: What a shame.
+¿Dónde vives?: Where do you live?
+¿Cuántos años tienes?: How old are you?
+¿A qué hora abre?: What time does it open?
+¿A qué hora cierra?: What time does it close?
+¿Puedo pagar en efectivo?: Can I pay in cash?
+¿Dónde hay un cajero?: Where is there a cash machine?
+Quiero sacar dinero.: I want to withdraw money.
+Me he perdido.: I'm lost.
+¿Puede avisarme al llegar?: Can you tell me when we arrive?
+¿Este tren va a Madrid?: Does this train go to Madrid?
+¿Tengo que cambiar de línea?: Do I have to change lines?
+¿Cuál es la próxima parada?: What's the next stop?
+¿Está libre este asiento?: Is this seat free?
+¿Puedo sentarme aquí?: Can I sit here?
+Bajo en la próxima.: I'm getting off at the next stop.
+¿Dónde está la caja?: Where is the checkout?
+¿Me trae la carta, por favor?: Could you bring the menu, please?
+¿Me pone un café, por favor?: Could I have a coffee, please?
+Una caña, por favor.: A small beer, please.
+La cuenta está mal.: The bill is wrong.
+¿Qué me recomienda?: What do you recommend?
+Tengo una pregunta.: I have a question.
+¿Puedes enviarme el archivo?: Can you send me the file?
+La reunión es a las diez.: The meeting is at ten.
+Estoy en una reunión.: I'm in a meeting.
+Te llamo luego.: I'll call you later.
+El ordenador no funciona.: The computer doesn't work.
+¿Cuál es la contraseña del wifi?: What's the Wi-Fi password?
+Hace mucho frío.: It's very cold.
+Hace mucho calor.: It's very hot.
+La calefacción no funciona.: The heating doesn't work.
+El grifo no funciona.: The tap doesn't work.
+¿Dónde está el contenedor?: Where is the rubbish container?
+Tengo mareos.: I feel dizzy.
+Tengo un resfriado.: I have a cold.
+No puedo dormir.: I can't sleep.
+Necesito una receta.: I need a prescription.
+¿Es grave?: Is it serious?
+Tengo miedo.: I'm scared.
+Me alegro mucho.: I'm very happy about it.
+No me importa.: I don't mind.
+Me da igual.: It's all the same to me.
+Tienes razón.: You're right.
+¿En serio?: Really?
+Qué raro.: How strange.
+Estoy triste.: I'm sad.
+¿A qué hora quedamos?: What time shall we meet?
+Nos vemos en la puerta.: See you at the door.
+Ya estoy aquí.: I'm here now.
+Llego tarde, lo siento.: I'm late, sorry.
+Trabajo desde casa.: I work from home.
+Vivo en el tercero.: I live on the third floor.
+No hay problema.: No problem.
+No te preocupes.: Don't worry.
+¿Estás bien?: Are you okay?
+¿Qué te pasa?: What's wrong?
+¿Me puede ayudar?: Can you help me?
+¿Me puedes decir?: Can you tell me?
+No entiendo nada.: I don't understand anything.
+¿Cómo se escribe?: How do you spell it?
+¿Qué quiere decir?: What does it mean?
+Entiendo un poco.: I understand a little.
+¿Hablas español?: Do you speak Spanish?
+Hablo inglés.: I speak English.
+No, gracias.: No, thank you.
+Sí, por favor.: Yes, please.
+Hasta mañana.: See you tomorrow.
+Nos vemos.: See you.
+Que tengas un buen día.: Have a good day.
+No hay de qué.: Don't mention it.
+Muy amable.: Very kind of you.
+Bien, ¿y tú?: Fine, and you?
+Nada más, gracias.: Nothing else, thanks.
+Eso es todo.: That's all.
+¿Algo más?: Anything else?
+¿Aceptan tarjeta?: Do you accept cards?
+Es demasiado caro.: It's too expensive.
+¿Me lo puedo probar?: Can I try it on?
+Me lo llevo.: I'll take it.
+Un cortado, por favor.: A cortado, please.
+Un vaso de agua, por favor.: A glass of water, please.
+¿Tienes tiempo?: Do you have time?
+No tengo tiempo.: I don't have time.
+Estoy ocupado.: I'm busy.
+Estoy libre.: I'm free.
+El wifi no funciona.: The Wi-Fi doesn't work.
+¿Dónde está el metro?: Where is the metro?
+¿Qué línea es?: Which line is it?
+¿Tengo que cambiar?: Do I have to change?
+¿Este metro va al centro?: Does this metro go downtown?
+Aquí me bajo.: I get off here.
+Me duele mucho.: It hurts a lot.
+Tengo dolor de espalda.: I have back pain.
+Necesito una ambulancia.: I need an ambulance.
+Es una emergencia.: It's an emergency.
+¿Dónde está el hospital?: Where is the hospital?
+¿Dónde está el ascensor?: Where is the elevator?
+El ascensor no funciona.: The elevator doesn't work.
+No hay luz.: There's no power.
+Tengo frío.: I'm cold.
+Tengo calor.: I'm hot.
+Tengo sed.: I'm thirsty.
+¿Me puedes echar una mano?: Can you give me a hand?
+Estoy en camino.: I'm on my way.
+Ya casi llego.: I'm almost there.
+Lo siento, no puedo.: Sorry, I can't.
+¿Te viene bien el viernes?: Does Friday work for you?
+Me viene bien el martes.: Tuesday works for me.
+No me apetece.: I don't feel like it.
+¿Te apetece un café?: Do you feel like a coffee?
+Estoy agotado.: I'm exhausted.
+Estoy preocupado.: I'm worried.
+Me da vergüenza.: I'm embarrassed.
+No me lo puedo creer.: I can't believe it.
+¿Qué te parece?: What do you think?
+Me parece bien.: Sounds good to me.
+No me parece bien.: I don't think that's okay.
+Creo que sí.: I think so.
+Creo que no.: I don't think so.
+No estoy seguro.: I'm not sure.
+Yo también.: Me too.
+Yo tampoco.: Me neither.
+¿Qué pasa?: What's going on?
+Hasta pronto.: See you soon.
+Que te vaya bien.: All the best.
+¿Puedo hacerte una pregunta?: Can I ask you a question?
+Tengo una duda.: I have a question.
+¿Me lo explicas otra vez?: Can you explain it again?
+No lo entiendo.: I don't understand it.
+Sin hielo, por favor.: No ice, please.
+Con leche, por favor.: With milk, please.
+¿Tienen postre?: Do you have dessert?
+¿Puedo pagar por separado?: Can I pay separately?
+Pagamos a medias.: Let's split the bill.
+Invito yo.: It's on me.
+Está buenísimo.: It's delicious.
+No me gusta nada.: I don't like it at all.
+Me encanta.: I love it.
+¿Puedo aparcar aquí?: Can I park here?
+¿Tengo que hacer transbordo?: Do I need to transfer?
+¿De qué andén sale?: Which platform does it leave from?
+El autobús llega tarde.: The bus is late.
+¿Dónde está el mercado?: Where's the market?
+¿Tienen algo más barato?: Do you have anything cheaper?
+Tengo que enviar un correo.: I need to send an email.
+Estoy en una llamada.: I'm on a call.
+¿Tienes un bolígrafo?: Do you have a pen?
+No tengo conexión.: I don't have a connection.
+Hay una fuga de agua.: There's a water leak.
+Tengo que llamar al fontanero.: I need to call the plumber.
+Tengo dolor de muelas.: I have a toothache.
+Necesito una cita con el médico.: I need a doctor's appointment.
+¿Me cobras, por favor?: Can I pay, please?
+¿Hay que pedir cita?: Do I need an appointment?
+¿Qué autobús tengo que coger?: Which bus should I take?
+¿Dónde tengo que bajar?: Where do I need to get off?
+No me siento bien.: I don't feel well.
+¿Dónde tengo que firmar?: Where do I need to sign?
+¿Me puede dar un recibo?: Can you give me a receipt?
+¿Puedo cambiarlo por otro?: Can I exchange it for another one?
+¿Cuántas paradas faltan?: How many stops are left?
+¿Se puede ir andando?: Can you walk there?
+Quería cambiar mi cita.: I'd like to change my appointment.
+¿Cuándo tengo que volver?: When do I need to come back?
+Me he hecho daño en el pie.: I've hurt my foot.
+¿Cada cuánto tengo que tomarlo?: How often do I need to take it?
+Me duele al respirar.: It hurts when I breathe.
+¿Dónde recojo el paquete?: Where do I collect the parcel?
+¿Hay que hacer transbordo?: Do I need to change lines?
+He perdido el tren.: I've missed the train.
+El tren lleva retraso.: The train is delayed.
+Me queda un poco grande.: It's a bit big for me.
+¿Tienen probadores?: Do you have fitting rooms?
+¿Cuál es la fecha de caducidad?: What's the expiry date?
+Necesito una factura, por favor.: I need an invoice, please.
+¿A nombre de quién?: In whose name?
+¿Me lo puede envolver?: Can you wrap it for me?
+Soy alérgico a la penicilina.: I'm allergic to penicillin.
+¿Tengo que tomar algo?: Do I need to take anything?
+¿Puedo hacer deporte?: Can I exercise?
+Está a diez minutos andando.: It's a ten-minute walk.
+Trabajo de lunes a viernes.: I work Monday to Friday.
+Tengo el día libre.: I have the day off.
+Salgo a las seis.: I leave at six.
+No llego a tiempo.: I won't arrive on time.
+Me tengo que ir.: I have to go.
+¿Quieres venir a cenar?: Do you want to come for dinner?
+Me lo he pasado muy bien.: I had a really good time.
+Estoy un poco nervioso.: I'm a bit nervous.
+Me siento fatal.: I feel terrible.
+Estoy muy estresado.: I'm very stressed.
+Se me ha olvidado.: I've forgotten.
+No encuentro mis llaves.: I can't find my keys.
+¿Me dejas tu cargador?: Can I borrow your charger?
+Se ha roto un vaso.: A glass broke.
+¿Puedes bajar el volumen?: Can you turn the volume down?
+Hace un día estupendo.: It's a lovely day.
+¿Qué hay para cenar?: What's for dinner?
+Hay que comprar leche.: We need to buy milk.
+¿Me queda bien?: Does it suit me?
+¿Puedo pagar con el móvil?: Can I pay by phone?
+Voy a casa de un amigo.: I'm going to a friend's house.
+¿Qué tal todo?: How's everything?
+¿Nos tomamos algo?: Shall we grab a drink?
+¿Te apetece salir?: Do you feel like going out?
+¿Qué haces este finde?: What are you doing this weekend?
+¿Me pones un café?: Could I have a coffee?
+Para mí, lo mismo.: Same for me.
+¿Tenéis algo sin gluten?: Do you have gluten-free options?
+Soy alérgico a los frutos secos.: I'm allergic to nuts.
+¿Me lo pones para llevar?: Can I have it to take away?
+¿Puedo pagar con Bizum?: Can I pay with Bizum?
+¿Me das una bolsa?: Can I have a bag?
+¿Dónde están los probadores?: Where are the fitting rooms?
+¿Lo tienes en otra talla?: Do you have it in another size?
+¿Me lo cambias por otra talla?: Can you exchange it for another size?
+¿Me puede dar cambio?: Can you give me change?
+Quiero pedir hora con el médico.: I want to make a doctor's appointment.
+Me duele aquí.: It hurts here.
+Soy alérgico al polen.: I'm allergic to pollen.
+¿Tengo que guardar reposo?: Do I need to rest?
+Me siento mareado.: I feel dizzy.
+¿Este tren para en Valencia?: Does this train stop in Valencia?
+¿Dónde puedo validar el billete?: Where can I validate the ticket?
+Perdón, me he equivocado de tren.: Sorry, I got on the wrong train.
+¿Está lejos de aquí?: Is it far from here?
+Se ha ido la luz.: The power has gone out.
+Hay una gotera en el techo.: There's a leak in the ceiling.
+Me he dejado las llaves dentro.: I've left my keys inside.
+El váter está atascado.: The toilet is blocked.
+¿Puedes cerrar la ventana?: Can you close the window?
+¿Podemos hablar un momento?: Can we talk for a moment?
+No puedo ir a la reunión.: I can't attend the meeting.
+Voy a llegar un poco tarde.: I'll be a little late.
+¿Me mandas el archivo?: Can you send me the file?
+Te escribo por correo.: I'll write to you by email.
+¿A qué hora es la reunión?: What time is the meeting?
+Estoy de vacaciones.: I'm on holiday.
+No te he oído bien.: I didn't hear you well.
+¿Me lo pones por escrito?: Can you put it in writing?
+¿Tienes un momento?: Do you have a moment?
+¿Me dejas pasar?: Can I get past?
+Me siento solo.: I feel lonely.
+Estoy harto.: I'm fed up.
+Me preocupa un poco.: It worries me a little.
+Estoy de buen humor.: I'm in a good mood.
+¿Qué tal el fin de semana?: How was your weekend?
+Que lo paséis bien.: Have a good time.
+Gracias por invitarme.: Thanks for inviting me.
+Lo siento, no era mi intención.: Sorry, I didn't mean it.
+¿Me lo puedes explicar?: Can you explain it to me?
+¿Puedo hacer una llamada?: Can I make a call?
+¿Me pones un poco más?: Can I have a bit more?
+¿Puedo pagar a plazos?: Can I pay in instalments?
+Quiero hacer una devolución.: I want to return this item.
+Estoy buscando una talla más.: I'm looking for a bigger size.
+¿Lo tienen en otro color?: Do you have it in another colour?
+Tengo que terminar esto hoy.: I have to finish this today.
+¿Puedo salir antes hoy?: Can I leave early today?
+Necesito el día libre.: I need the day off.
+¿Me firmas aquí?: Can you sign here?
+No sé cómo hacerlo.: I don't know how to do it.
+Ya he terminado.: I've already finished.
+Todavía no he empezado.: I haven't started yet.
+Te lo envío ahora.: I'll send it to you now.
+¿Me lo confirmas, por favor?: Can you confirm it, please?
+¿Este autobús va a la estación?: Does this bus go to the station?
+Quiero un abono de diez viajes.: I want a ten-trip travel card.
+¿Puedo llevar esta maleta?: Can I take this suitcase?
+¿Esta línea va al aeropuerto?: Does this line go to the airport?
+Me he dejado el paraguas en el tren.: I left my umbrella on the train.
+¿Puedes sacar la basura?: Can you take out the rubbish?
+La lavadora no funciona.: The washing machine isn't working.
+Se ha estropeado la nevera.: The fridge has broken down.
+El baño está ocupado.: The bathroom is occupied.
+El vecino hace mucho ruido.: The neighbour makes a lot of noise.
+Tengo que llamar al casero.: I have to call the landlord.
+¿Puedes bajar la persiana?: Can you lower the blind?
+Me duele al tragar.: It hurts when I swallow.
+Tengo la tensión alta.: I have high blood pressure.
+¿Puedo tomar ibuprofeno?: Can I take ibuprofen?
+Me he cortado el dedo.: I've cut my finger.
+¿Dónde está la sala de espera?: Where is the waiting room?
+Me han dado la baja.: I've been signed off sick.
+¡Qué interesante!: How interesting!
+No me lo esperaba.: I wasn't expecting that.
+¡Qué buena idea!: What a good idea!
+Claro que sí.: Of course.
+Eso no es verdad.: That's not true.
+Estoy de acuerdo contigo.: I agree with you.
+No estoy de acuerdo.: I don't agree.
+¡Qué va!: No way!
+Menos mal.: Thank goodness.
+No puede ser.: It can't be.
+Gracias por avisarme.: Thanks for letting me know.
+Perdona por el retraso.: Sorry I'm late.
+Muchas gracias por todo.: Thanks very much for everything.
+¿Hay que reservar?: Do you need to book?
+¿Tienes hora?: Do you have the time?
+¿Cuánto tiempo llevas aquí?: How long have you been here?
+¿Cómo se pronuncia esto?: How do you pronounce this?
+¿Dónde se puede aparcar?: Where can you park?
+¿Cómo va todo?: How's everything going?
+¿Qué me cuentas?: What's new with you?
+¿A qué te dedicas?: What do you do for a living?
+¿Qué opinas?: What do you think?
+En mi opinión...: In my opinion...
+No tengo ni idea.: I have no idea.
+No me convence.: I'm not convinced.
+Eso es verdad.: That's true.
+No tienes razón.: You're wrong.
+Como quieras.: Whatever you like.
+Depende del día.: It depends on the day.
+Me encantaría, pero no puedo.: I'd love to, but I can't.
+¿Te apetece tomar algo?: Do you fancy a drink?
+¿Quedamos otro día?: Shall we meet another day?
+Ya te digo algo.: I'll let you know.
+Te aviso cuando llegue.: I'll let you know when I arrive.
+¿Dónde quedamos?: Where shall we meet?
+Voy con retraso.: I'm running late.
+Me viene fatal.: That's a really bad time for me.
+Me molesta un poco.: It bothers me a bit.
+Qué fastidio.: What a nuisance.
+Qué mala suerte.: What bad luck.
+Lo mismo digo.: Same to you.
+Que te mejores.: Get well soon.
+Cuídate mucho.: Take good care.
+Recuerdos a tu familia.: Give my regards to your family.
+Ha sido un placer.: It's been a pleasure.
+Ya nos veremos.: See you around.
+Pásate por casa.: Come round to my place.
+¿Te vienes a comer?: Are you coming for lunch?
+Te invito a un café.: I'll buy you a coffee.
+Me apunto.: I'm in.
+Cuenta conmigo.: Count on me.
+Ya te contaré.: I'll tell you later.
+Tengo ganas de verte.: I'm looking forward to seeing you.
+Me da pereza.: I can't be bothered.
+No es para tanto.: It's not that bad.
+Estoy hasta arriba.: I'm swamped.
+Estoy liado.: I'm tied up.
+No doy abasto.: I can't keep up.
+¿Puedes revisar esto?: Can you check this?
+Te adjunto el documento.: I've attached the document.
+¿Me lo puedes deletrear?: Can you spell it for me?
+¿A qué te refieres?: What do you mean?
+Me cuesta entender.: I find it hard to understand.
+Estoy aprendiendo español.: I'm learning Spanish.
+¿Puedes hablar más alto?: Can you speak louder?
+La línea se oye mal.: The line is bad.
+¿Qué planes tienes?: What are your plans?
+Lo he pasado fatal.: I had a terrible time.
+¿Me echa una mano, por favor?: Could you give me a hand, please?
+¿Cómo te ha ido?: How did it go?
+No me puedo quejar.: I can't complain.
+Tengo mucho trabajo.: I have a lot of work.
+Que aproveche.: Enjoy your meal.
+¿Me cobra cuando pueda?: Could I pay when you get a chance?
+¿Voy bien para el centro?: Am I going the right way for downtown?
+¿Este autobús para en el centro?: Does this bus stop downtown?
+¿Qué línea tengo que coger?: Which line should I take?
+¿Cuántas paradas quedan?: How many stops are left?
+Me he pasado de parada.: I missed my stop.
+Me he equivocado de línea.: I took the wrong line.
+¿Hay que validar el billete?: Do I need to validate the ticket?
+¿Este asiento está ocupado?: Is this seat taken?
+¿Me hace un descuento?: Can you give me a discount?
+El datáfono no funciona.: The card machine is not working.
+¿Me da el ticket, por favor?: Can I have the receipt, please?
+¿Lo tiene en azul?: Do you have it in blue?
+Me queda corto.: It's too short on me.
+Me queda un poco justo.: It's a bit tight.
+Me han cobrado dos veces.: I've been charged twice.
+Quiero hacer una reclamación.: I want to make a complaint.
+¿Qué lleva la sopa?: What's in the soup?
+Esto no es lo que pedí.: This isn't what I ordered.
+La comida está fría.: The food is cold.
+Sin cebolla, por favor.: No onion, please.
+¿Nos trae más pan?: Could you bring us more bread?
+¿Tienen algo para la tos?: Do you have something for a cough?
+¿Es sin receta?: Is it over the counter?
+Tengo cita con el médico.: I have a doctor's appointment.
+¿Cuántas pastillas al día?: How many pills a day?
+Me he torcido el tobillo.: I've twisted my ankle.
+Tengo la nariz tapada.: My nose is blocked.
+¿Dónde tengo que entregar esto?: Where should I hand this in?
+¿Quién se encarga de esto?: Who's handling this?
+Lo tengo casi terminado.: I've almost finished it.
+La reunión se ha cancelado.: The meeting has been cancelled.
+Te confirmo mañana.: I'll confirm tomorrow.
+Me encargo yo.: I'll handle it.
+No me ha llegado el archivo.: The file didn't arrive.
+Estoy de mal humor.: I'm in a bad mood.
+No tengo ganas de salir.: I don't feel like going out.
+Me ha hecho mucha ilusión.: It made me very happy.
+Ya me encuentro mejor.: I feel better now.
+Prefiero quedarme en casa.: I prefer to stay home.
+Lo hemos pasado muy bien.: We had a really good time.
+Se ha roto la lavadora.: The washing machine has broken down.
+El enchufe no funciona.: The socket isn't working.
+La puerta no cierra.: The door doesn't close.
+El grifo gotea.: The tap is dripping.
+Perdona, no te he entendido.: Sorry, I didn't understand you.
+No me ha quedado claro.: It wasn't clear to me.
+¿Me lo puedes repetir?: Can you repeat it for me?
+¿Puedes hablar más despacio?: Can you speak more slowly?
+Me temo que no.: I'm afraid not.
+La verdad es que no.: To be honest, no.
+De todas formas.: Anyway.
+Por si acaso.: Just in case.
+Puede que sí.: Maybe so.
+No creo que pueda.: I don't think I can.
+Ojalá pudiera.: I wish I could.
+Ya veremos.: We'll see.
+Merece la pena.: It's worth it.
+No tiene sentido.: It doesn't make sense.
+Me suena mucho.: It rings a bell.
+No te lo tomes a mal.: Don't take it the wrong way.
+No hay manera.: There's no way.
+Estoy deseando verte.: I'm looking forward to seeing you.
+Hace mucho que no te veo.: I haven't seen you for ages.
+Me apetece mucho.: I really feel like it.
+Me preocupa bastante.: It worries me quite a lot.
+Estoy un poco agobiado.: I'm a bit stressed out.
+No me encuentro bien.: I don't feel well.
+Tengo dolor de oído.: I have an earache.
+Me he hecho daño.: I've hurt myself.
+Tengo que pedir cita.: I need to make an appointment.
+¿Me puede recetar algo?: Can you prescribe me something?
+¿Cada cuánto me lo tomo?: How often do I take it?
+Me encuentro mareado.: I feel dizzy.
+Te lo envío por correo.: I'll send it by email.
+Lo tengo casi listo.: I've almost got it ready.
+Me pongo con ello ahora.: I'll get on with it now.
+¿Para cuándo lo necesitas?: When do you need it by?
+No me da tiempo.: I don't have enough time.
+¿Te viene bien mañana?: Does tomorrow suit you?
+La reunión se ha retrasado.: The meeting has been delayed.
+Me encargo de eso.: I'll take care of that.
+Necesito hablar contigo.: I need to talk to you.
+Estoy hasta arriba de trabajo.: I'm swamped with work.
+¿Me lo puede envolver para regalo?: Can you gift-wrap it?
+¿Tienen esto en otra talla?: Do you have this in another size?
+¿Puedo probármelo?: Can I try it on?
+No me queda bien.: It doesn't fit me well.
+¿Me lo pones en una bolsa?: Can you put it in a bag?
+¿Me tengo que bajar aquí?: Do I need to get off here?
+¿Cuánto tarda en llegar?: How long does it take to arrive?
+He perdido el autobús.: I've missed the bus.
+Hay una gotera.: There's a leak.
+El fregadero está atascado.: The sink is blocked.
+El vecino pone la música muy alta.: The neighbour plays music very loud.
+¿Me puedes hacer un favor?: Can you do me a favour?
+¿Me lo vuelves a explicar?: Can you explain it to me again?
+No me he enterado de nada.: I didn't understand anything.
+¿Qué quieres decir con eso?: What do you mean by that?
+Me lo apunto, gracias.: I'll note it down, thanks.
+¿Te importa si abro la ventana?: Do you mind if I open the window?
+¿Podrías pasarme la sal?: Could you pass me the salt?
+¿Me dejas usar tu cargador?: Can I use your charger?
+¿Puedes bajar un poco la música?: Can you turn the music down a bit?
+¿Me echas una mano con esto?: Can you give me a hand with this?
+¿Me lo cambias por otro color?: Can I exchange it for another colour?
+¿Me das una bolsa más grande?: Can I have a bigger bag?
+¿Puedo pagar con dos tarjetas?: Can I pay with two cards?
+¿Me haces un descuento?: Can you give me a discount?
+¿Lo tienen en la talla cuarenta?: Do you have it in size forty?
+¿Puedo devolverlo si no me queda?: Can I return it if it doesn't fit?
+¿Me puedes pasar el informe?: Can you send me the report?
+Te lo mando en cuanto pueda.: I'll send it to you as soon as I can.
+¿Podemos dejar la reunión para mañana?: Can we postpone the meeting until tomorrow?
+No me ha llegado tu correo.: I didn't get your email.
+¿Me confirmas que lo has recibido?: Can you confirm you've received it?
+Lo siento, no he podido terminarlo.: Sorry, I couldn't finish it.
+Voy a pedir el día libre.: I'm going to ask for the day off.
+Se me ha pasado por completo.: It completely slipped my mind.
+Me duele desde ayer por la mañana.: It's been hurting since yesterday morning.
+¿Tengo que pedir cita para el análisis?: Do I need an appointment for the blood test?
+Me he quedado sin medicación.: I've run out of medication.
+¿Es normal que me duela tanto?: Is it normal for it to hurt so much?
+¿Dónde recojo los resultados?: Where do I collect the results?
+¿Me tengo que cambiar de línea?: Do I have to change lines?
+¿Cuánto tarda en llegar al centro?: How long does it take to get to the centre?
+¿Me avisas cuando lleguemos?: Will you let me know when we arrive?
+¿Dónde está la máquina de billetes?: Where is the ticket machine?
+He perdido el último autobús.: I missed the last bus.
+El grifo sigue goteando.: The tap is still dripping.
+¿Puedes llamar al fontanero mañana?: Can you call the plumber tomorrow?
+La nevera hace un ruido raro.: The fridge is making a strange noise.
+Se ha estropeado el microondas.: The microwave has broken.
+Hay que cambiar la bombilla.: We need to change the bulb.
+Estoy un poco decepcionado con el resultado.: I'm a bit disappointed with the result.
+Me molesta que no me avisen.: It bothers me that they don't let me know.
+Estoy nervioso por la entrevista.: I'm nervous about the interview.
+Me siento un poco fuera de lugar.: I feel a bit out of place.
+Me alegro de que estés mejor.: I'm glad you're feeling better.
+¿Me puedes recomendar un sitio para comer?: Can you recommend a place to eat?
+¿Tienen mesas en la terraza?: Do you have tables outside?
+¿Me pones otra bebida, por favor?: Could I have another drink, please?
+¿Esto lleva cebolla?: Does this have onion in it?
+Soy vegetariano, ¿tienen alguna opción?: I'm vegetarian, do you have any options?
+¿Puedo pedir para llevar?: Can I order takeaway?

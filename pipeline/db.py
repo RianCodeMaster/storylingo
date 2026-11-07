@@ -33,6 +33,71 @@ def sync_languages(languages: dict) -> list[str]:
     return changes
 
 
+def sync_phrases(language: str, sets: dict, meanings: dict[str, dict[str, str]], dry_run: bool = False) -> list[str]:
+    """
+    Make the phrases of one target language match content/phrases/<language>/: a lexeme (kind 'phrase') per phrase,
+    its level and place in `phrases`, its meaning per base language in lexeme_glosses. A phrase removed from the files
+    leaves the section; its lexeme stays, so learners keep what they practised.
+    """
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            "select l.text, p.level, p.position from phrases p join lexemes l on l.id = p.lexeme_id where l.language_code = %s",
+            (language,),
+        )
+        old = {text: (str(level), position) for text, level, position in cur.fetchall()}
+        wanted = {}
+        for level, items in sets.items():
+            for position, phrase in enumerate(items, 1):
+                wanted[phrase.text] = (level, position)
+        changed = sum(1 for t, v in wanted.items() if old.get(t) != v)
+        removed = [t for t in old if t not in wanted]
+        for text, (level, position) in wanted.items():
+            cur.execute(
+                """insert into lexemes (language_code, kind, text, cefr_level) values (%s, 'phrase', %s, %s)
+                   on conflict (language_code, text) do update set text = excluded.text returning id""",
+                (language, text, level),
+            )
+            lexeme_id = cur.fetchone()[0]
+            cur.execute(
+                """insert into phrases (lexeme_id, level, position) values (%s, %s, %s)
+                   on conflict (lexeme_id) do update set level = excluded.level, position = excluded.position""",
+                (lexeme_id, level, position),
+            )
+            for base, found in meanings.items():
+                if gloss := found.get(text):
+                    cur.execute(
+                        """insert into lexeme_glosses (lexeme_id, base_language, gloss) values (%s, %s, %s)
+                           on conflict (lexeme_id, base_language) do update set gloss = excluded.gloss""",
+                        (lexeme_id, base, gloss),
+                    )
+        if removed:
+            cur.execute(
+                """delete from phrases p using lexemes l
+                   where l.id = p.lexeme_id and l.language_code = %s and l.text = any(%s)""",
+                (language, removed),
+            )
+        if dry_run:
+            conn.rollback()
+    changes = []
+    if changed:
+        changes.append(f"{changed} phrases new or moved")
+    if removed:
+        changes.append(f"{len(removed)} phrases removed")
+    return changes
+
+
+def phrase_plan(language: str) -> list[tuple[str, str, str | None]]:
+    """Every phrase of a language: (lexeme id, text, fingerprint of its audio or None)."""
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            """select l.id, l.text, a.fingerprint from phrases p join lexemes l on l.id = p.lexeme_id
+               left join assets a on a.id = l.audio_asset_id
+               where l.language_code = %s order by p.level, p.position""",
+            (language,),
+        )
+        return [(str(r[0]), r[1], r[2]) for r in cur.fetchall()]
+
+
 def sync_editions(editions: dict) -> list[str]:
     """Make the editions table match content/editions. One removed from the files becomes a draft (learners may be
     enrolled in it, so its row stays)."""

@@ -20,8 +20,9 @@ import content
 import db
 import editions
 import languages
+import phrases
 from localize import count, gaps
-from mediajobs import media_jobs
+from mediajobs import media_jobs, phrase_jobs
 from curriculum import above, curriculum
 from models import check_story
 
@@ -161,6 +162,24 @@ def edition_gaps(stories) -> list[str]:
     return problems
 
 
+def phrase_problems(bases: list[str]) -> list[str]:
+    """Every target language an edition teaches has its phrases: full levels, meanings, in the database, recorded."""
+    problems = []
+    targets = sorted({e.target for e in editions.all_editions().values() if e.status != "draft"})
+    for language in targets:
+        offered = [b for b in db.pair_bases(language) if b in bases]
+        problems += phrases.gaps(language, offered)
+        sets = phrases.all_sets(language)
+        meanings = {b: phrases.meanings(language, b) for b in offered}
+        if sets and (changes := db.sync_phrases(language, sets, meanings, dry_run=True)):
+            problems.append(f"{language}: database differs ({', '.join(changes)})  (fix: storylingo.py sync)")
+        todo = [j for j in phrase_jobs(language) if j["have"] != j["want"]]
+        if todo:
+            problems.append(f"{language}: {len(todo)} phrases without an up-to-date recording "
+                            f"(fix: storylingo.py media-phrases {language})")
+    return problems
+
+
 def check(base: str | None = None) -> bool:
     """Print every problem per area; True when there are none."""
     areas: dict[str, list[str]] = {}
@@ -192,6 +211,7 @@ def check(base: str | None = None) -> bool:
                   for slug in db.stories_not_in({doc.slug for doc in stories})]
     areas["database"] = drift + [f"[{b}] {p}" for b in bases for p in db.base_gaps(b)]
     areas["media"] = [p for doc in stories for p in media_gaps(doc)]
+    areas["phrases"] = phrase_problems(bases)
 
     for area, problems in areas.items():
         print(f"{'✓' if not problems else '✗'} {area}" + (f": {len(problems)} problem(s)" if problems else ""))

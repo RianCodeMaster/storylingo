@@ -183,11 +183,21 @@ export async function recordLookup(userId: string, lexemeId: string, sceneId: st
  * Close the session and update spaced-repetition state per practised structure.
  * All correct in this session: the next review moves further away. Any mistake: review again tomorrow.
  */
-export async function finishSession(sessionId: string, userId: string, results: Map<string, { seen: number; correct: number }>) {
-  const sb = supabase();
-  const { error } = await sb.from("sessions").update({ completed_at: new Date().toISOString() }).eq("id", sessionId);
+export type Results = Map<string, { seen: number; correct: number }>;
+
+export async function finishSession(sessionId: string, userId: string, results: Results) {
+  const { error } = await supabase().from("sessions").update({ completed_at: new Date().toISOString() }).eq("id", sessionId);
   if (error) throw error;
+  await saveResults(userId, results);
+}
+
+/**
+ * Practice results (lexeme -> times seen and right) into spaced repetition: everything right pushes the next review
+ * further away, a mistake brings it back tomorrow. Shared by stories and the phrases section.
+ */
+export async function saveResults(userId: string, results: Results) {
   if (results.size === 0) return;
+  const sb = supabase();
 
   const ids = [...results.keys()];
   const { data: existing, error: readError } = await sb

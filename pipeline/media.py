@@ -20,6 +20,7 @@ import zlib
 from dataclasses import dataclass
 
 import httpx
+import lameenc
 import yaml
 
 STORAGE_URL = os.environ.get("SUPABASE_URL", "http://127.0.0.1:54321")
@@ -139,7 +140,7 @@ class Gemini:
             # Models without a system instruction: director's notes and transcript as clearly separate parts.
             response = call(f"### REGIEANWEISUNG (nicht vorlesen)\n{direction}\n\n### TRANSKRIPT\n{text}", None)
         pcm = response.candidates[0].content.parts[0].inline_data.data
-        return Media(_wav(_trim_tail(pcm)), "audio/wav", "gemini", f"{self.tts_model}/{self.voice}")
+        return Media(mp3(_wav(_trim_tail(pcm))), "audio/mpeg", "gemini", f"{self.tts_model}/{self.voice}")
 
 
 # ---------------------------------------------------------------------------
@@ -197,7 +198,7 @@ class Piper(Localgen):
         # Where each sentence starts and ends, so the app can play one sentence for the learner to repeat.
         times = json.loads(response.headers.get("x-marks", "[]"))
         marks = [{"text": line["text"], "start": s, "end": e} for line, (s, e) in zip(lines, times)] or None
-        return Media(response.content, "audio/wav", "piper", "+".join(models), marks)
+        return Media(mp3(response.content), "audio/mpeg", "piper", "+".join(models), marks)
 
 
 # ---------------------------------------------------------------------------
@@ -211,7 +212,7 @@ class Fake:
         return Media(_png(48, 48, (255, 196, 0)), "image/png", "fake", "placeholder")
 
     def speech(self, text: str, kind: str, lines: list[dict] | None, voice: dict) -> Media:
-        return Media(_wav(b"\x00\x00" * 24000), "audio/wav", "fake", "silence")
+        return Media(mp3(_wav(b"\x00\x00" * 24000)), "audio/mpeg", "fake", "silence")
 
 
 def retry(make, attempts: int = 6, wait: float = 20.0):
@@ -271,6 +272,25 @@ def extension(mime_type: str) -> str:
 # ---------------------------------------------------------------------------
 # File formats
 # ---------------------------------------------------------------------------
+# Speech needs little: 64 kbit/s mono is about a fifth of Piper's WAV and keeps pronunciation crisp.
+# Every learner downloads every story, so this decides the monthly traffic (docs/cloud.md).
+MP3_KBPS = 64
+
+
+def mp3(wav_data: bytes) -> bytes:
+    """Any voice's WAV as MP3: the one format the app gets, whatever made the speech."""
+    with wave.open(io.BytesIO(wav_data)) as w:
+        if w.getsampwidth() != 2:
+            raise ValueError("expected 16-bit audio")
+        encoder = lameenc.Encoder()
+        encoder.set_bit_rate(MP3_KBPS)
+        encoder.set_in_sample_rate(w.getframerate())
+        encoder.set_channels(w.getnchannels())
+        encoder.set_quality(2)  # 2 = high quality, 7 = fast
+        frames = w.readframes(w.getnframes())
+    return bytes(encoder.encode(frames) + encoder.flush())
+
+
 def _wav(pcm: bytes, rate: int = 24000) -> bytes:
     """Gemini speech is raw 16-bit mono PCM; browsers need a WAV header around it."""
     buffer = io.BytesIO()

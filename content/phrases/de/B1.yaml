@@ -1,0 +1,403 @@
+# Phrases for the phrases section, in learning order: the most useful first. Every edition with this target language
+# shows them. Edit freely (a changed text is a new phrase: it needs a meaning again, `localize-phrases` adds it),
+# then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
+- text: Ich wollte fragen, ob Sie Zeit haben.
+  hint: Polite way to ask if someone has time
+- text: Könnten Sie mir das bitte erklären?
+  hint: Ask for an explanation
+- text: Ich hätte eine kurze Frage.
+  hint: Say you have a quick question
+- text: Können Sie mir ein Beispiel geben?
+  hint: Ask someone for an example
+- text: Ich habe die E-Mail nicht bekommen.
+  hint: You did not receive the email
+- text: Kann ich eine Nachricht hinterlassen?
+  hint: Leave a message on the phone
+- text: Das habe ich mir schon gedacht.
+  hint: You already suspected that
+- text: Ich bin total gestresst.
+  hint: Say you are very stressed
+- text: Ich drücke dir die Daumen.
+  hint: Encourage someone
+- text: Mach dir keine Gedanken.
+  hint: Tell someone not to worry
+- text: Ich muss den Termin absagen.
+  hint: Cancel an appointment
+- text: Ich melde mich heute krank.
+  hint: Tell work you are sick
+- text: Kann ich morgen freinehmen?
+  hint: Ask for a day off tomorrow
+- text: Die Datei lässt sich nicht öffnen.
+  hint: The file will not open
+- text: Der Drucker funktioniert nicht.
+  hint: The printer is not working
+- text: Das ist ein Missverständnis.
+  hint: Say it is a misunderstanding
+- text: Ich kümmere mich darum.
+  hint: Say you will take care of it
+- text: Kann ich das Formular per E-Mail schicken?
+  hint: Ask to send form by email
+- text: Können Sie mir eine Bestätigung geben?
+  hint: Ask for written confirmation
+- text: Die Rechnung ist noch nicht bezahlt.
+  hint: Bill has not been paid yet
+- text: Der Abfluss ist verstopft.
+  hint: The drain is blocked
+- text: Die Tür lässt sich nicht öffnen.
+  hint: The door will not open
+- text: Ich muss noch den Abwasch machen.
+  hint: You still need to wash dishes
+- text: Kannst du bitte die Wäsche machen?
+  hint: Ask someone to do laundry
+- text: Wir bekommen am Wochenende Besuch.
+  hint: You are having visitors this weekend
+- text: Ich habe kein Internet.
+  hint: Say you have no internet
+- text: Ich habe mich geschnitten.
+  hint: Say you cut yourself
+- text: Ich bin gestern gestürzt.
+  hint: Say you fell yesterday
+- text: Es wird immer schlimmer.
+  hint: It is getting worse
+- text: Ich brauche eine Überweisung.
+  hint: Ask for a doctor's referral
+- text: Rufen Sie bitte einen Krankenwagen.
+  hint: Call an ambulance
+- text: Es ist ein Notfall.
+  hint: Say this is an emergency
+- text: Ich suche etwas für meine Mutter.
+  hint: You are looking for a gift
+- text: Ist das im Moment reduziert?
+  hint: Ask if it is on sale now
+- text: Das ist ein Sonderangebot.
+  hint: Say it is a special offer
+- text: Ich habe es mir anders überlegt.
+  hint: Say you changed your mind
+- text: Ich nehme doch das andere.
+  hint: You will take the other one
+- text: Können Sie das einpacken?
+  hint: Ask them to wrap it
+- text: Muss ich die Fahrkarte entwerten?
+  hint: Ask if ticket needs validating
+- text: Hält der Zug in Mannheim?
+  hint: Ask if train stops in Mannheim
+- text: Ich bin im falschen Zug.
+  hint: Say you are on wrong train
+- text: Ich muss den Anschluss bekommen.
+  hint: Say you need the connection
+- text: Kann ich die Fahrkarte stornieren?
+  hint: Ask if ticket can be cancelled
+- text: Ich möchte einen Tisch reservieren.
+  hint: Book a table at a restaurant
+- text: Können wir draußen sitzen?
+  hint: Ask to sit outside
+- text: Die Rechnung stimmt nicht.
+  hint: The bill is not correct
+- text: Ist das Frühstück inklusive?
+  hint: Ask if breakfast is included
+- text: Hast du Lust, etwas zu machen?
+  hint: Invite someone to do something
+- text: Ich habe leider schon etwas vor.
+  hint: Say you already have plans
+- text: Vielleicht ein anderes Mal.
+  hint: Suggest another time
+- text: Schön, dich zu sehen.
+  hint: Nice to see you
+- text: Lange nicht gesehen, wie geht's?
+  hint: Long time no see, how are you?
+- text: Bis später, ich muss los.
+  hint: See you later, I have to go
+- text: Wir sehen uns morgen.
+  hint: See you tomorrow
+- text: Kannst du mir einen Gefallen tun?
+  hint: Can you do me a favor?
+- text: Würdest du mir bitte helfen?
+  hint: Would you please help me?
+- text: Es tut mir leid, das war mein Fehler.
+  hint: Sorry, that was my fault
+- text: Kein Problem, ich erledige das.
+  hint: No problem, I'll handle it
+- text: Danke, das war sehr hilfreich.
+  hint: Thanks, that was very helpful
+- text: Entschuldigen Sie die Störung.
+  hint: Sorry to bother you
+- text: Kann ich Ihnen behilflich sein?
+  hint: Can I help you?
+- text: Könnten Sie mir den Weg beschreiben?
+  hint: Could you describe the way?
+- text: Hätten Sie nächste Woche einen Termin frei?
+  hint: Do you have an appointment next week?
+- text: Ich möchte ein Paket abholen.
+  hint: I'd like to pick up a parcel
+- text: Was empfehlen Sie mir?
+  hint: What do you recommend?
+- text: Ich möchte das gerne umtauschen.
+  hint: I'd like to exchange this
+- text: Ich bin mit dem Essen nicht zufrieden.
+  hint: I'm not happy with the food
+- text: Könnten wir bitte getrennt bezahlen?
+  hint: Could we pay separately?
+- text: Ich bin sehr erleichtert.
+  hint: I'm very relieved
+- text: Ich habe eine Frage zum Projekt.
+  hint: I have a question about the project
+- text: Können wir das im Meeting besprechen?
+  hint: Can we discuss that in the meeting?
+- text: Ich bin heute den ganzen Tag erreichbar.
+  hint: I'm reachable all day today
+- text: Ich melde mich nach der Besprechung.
+  hint: I'll get back after the meeting
+- text: Haben Sie die E-Mail erhalten?
+  hint: Did you receive the email?
+- text: Ich brauche das bis morgen.
+  hint: I need it by tomorrow
+- text: Wann können wir das besprechen?
+  hint: When can we discuss that?
+- text: Ich bin im Homeoffice erreichbar.
+  hint: I'm reachable in home office
+- text: Könnten Sie mir das schriftlich geben?
+  hint: Could you give me that in writing?
+- text: Ich habe den Bericht noch nicht fertig.
+  hint: I haven't finished the report yet
+- text: Ich habe seit drei Tagen Kopfschmerzen.
+  hint: I've had a headache for three days
+- text: Ich vertrage das Medikament nicht.
+  hint: I can't tolerate the medication
+- text: Wie oft soll ich die Tabletten nehmen?
+  hint: How often should I take the tablets?
+- text: Mein Rücken tut immer noch weh.
+  hint: My back still hurts
+- text: Ich bin gegen Penicillin allergisch.
+  hint: I'm allergic to penicillin
+- text: Können Sie mich bitte krank schreiben?
+  hint: Can you sign me off sick?
+- text: Ich nehme jeden Tag diese Tabletten.
+  hint: I take these tablets every day
+- text: Das überrascht mich wirklich.
+  hint: That really surprises me
+- text: Muss ich hier auf den Bus warten?
+  hint: Must I wait here for the bus?
+- text: Wie lange brauche ich bis zum Zentrum?
+  hint: How long to the center?
+- text: Fährt dieser Zug über Stuttgart?
+  hint: Does this train go via Stuttgart?
+- text: Können Sie mich am Flughafen abholen?
+  hint: Can you pick me up at the airport?
+- text: Wann fährt die nächste U-Bahn?
+  hint: When does the next subway leave?
+- text: Ist dieser Zug direkt nach Hamburg?
+  hint: Is this train direct to Hamburg?
+- text: Wir müssen noch die Küche putzen.
+  hint: We still have to clean the kitchen
+- text: Die Heizung wird einfach nicht warm.
+  hint: The heating just won't get warm
+- text: Ich habe die Tür abgeschlossen.
+  hint: I have locked the door
+- text: Ich muss noch die Wäsche aufhängen.
+  hint: I still have to hang the laundry
+- text: Ich fühle mich etwas einsam.
+  hint: I feel a bit lonely
+- text: Das macht mich wirklich wütend.
+  hint: That really makes me angry
+- text: Ich bin froh, dass du da bist.
+  hint: I'm glad you're here
+- text: Könnten Sie mir kurz helfen?
+  hint: Could you help me briefly?
+- text: Kann ich Sie kurz sprechen?
+  hint: Can I speak to you briefly?
+- text: Würde es Ihnen morgen passen?
+  hint: Would tomorrow suit you?
+- text: Bitte geben Sie mir kurz Bescheid.
+  hint: Please let me know briefly
+- text: Ich schaffe es leider nicht pünktlich.
+  hint: I won't make it on time
+- text: Ich sitze gerade im Stau.
+  hint: I'm stuck in traffic now
+- text: Die Verbindung ist gerade schlecht.
+  hint: The connection is bad now
+- text: Könnten Sie mich bitte durchstellen?
+  hint: Could you put me through?
+- text: Ich rufe später noch einmal an.
+  hint: I'll call again later
+- text: Ich bin heute nicht erreichbar.
+  hint: I'm not available today
+- text: Können wir den Termin bestätigen?
+  hint: Can we confirm the appointment?
+- text: Ich verschiebe den Termin auf morgen.
+  hint: I'm moving appointment to tomorrow
+- text: Können wir das im Meeting klären?
+  hint: Can we clarify that in meeting?
+- text: Ich schicke Ihnen die Datei nachher.
+  hint: I'll send you the file later
+- text: Können Sie das schriftlich bestätigen?
+  hint: Can you confirm that in writing?
+- text: Ich muss heute früher Schluss machen.
+  hint: I need to finish early today
+- text: Ich vertrete heute meine Kollegin.
+  hint: I'm covering for my colleague today
+- text: Ich schaue mich nur etwas um.
+  hint: I'm just looking around
+- text: Wo finde ich die Milch?
+  hint: Where can I find the milk?
+- text: Haben Sie das in einer anderen Farbe?
+  hint: Do you have this in another color?
+- text: Ich hätte gern zwei davon.
+  hint: I would like two of those
+- text: Ich probiere es eine Nummer größer.
+  hint: I'll try it one size bigger
+- text: Ich nehme sonst nichts.
+  hint: I don't need anything else
+- text: Haben Sie etwas Preiswerteres?
+  hint: Do you have something cheaper?
+- text: Das ist leider nicht vorrätig.
+  hint: Unfortunately, it's out of stock
+- text: Hält dieser Bus am Hauptbahnhof?
+  hint: Does this bus stop at main station?
+- text: Ich habe den Anschluss verpasst.
+  hint: I missed the connection
+- text: Ich brauche eine Monatskarte.
+  hint: I need a monthly ticket
+- text: Der Fahrkartenautomat nimmt kein Bargeld.
+  hint: Ticket machine doesn't take cash
+- text: Ich möchte den Anschlusszug erreichen.
+  hint: I want to catch the connection train
+- text: Könnten Sie mich am Bahnhof abholen?
+  hint: Could you pick me up at station?
+- text: Ich bin heute noch nicht ganz fit.
+  hint: I'm not fully well today
+- text: Ich habe Probleme beim Atmen.
+  hint: I have trouble breathing
+- text: Ich habe mich erkältet.
+  hint: I've caught a cold
+- text: Wann soll ich zur Kontrolle kommen?
+  hint: When should I come for check-up?
+- text: Ich habe eine Überweisung vom Hausarzt.
+  hint: I have a referral from my GP
+- text: Ich habe seit Tagen Rückenschmerzen.
+  hint: I've had back pain for days
+- text: Kannst du bitte die Tür abschließen?
+  hint: Can you lock the door please?
+- text: Können wir die Heizung etwas aufdrehen?
+  hint: Can we turn the heating up a bit?
+- text: Ich habe den Schlüssel im Schloss gelassen.
+  hint: I left the key in the lock
+- text: Das Fenster lässt sich nicht schließen.
+  hint: The window won't close
+- text: Ich muss noch die Wäsche zusammenlegen.
+  hint: I still need to fold the laundry
+- text: Kannst du noch Brot mitbringen?
+  hint: Can you bring some bread too?
+- text: Ich freue mich für dich.
+  hint: I'm happy for you
+- text: Das hat mich sehr gefreut.
+  hint: That made me very happy
+- text: Ich bin völlig erschöpft.
+  hint: I'm completely exhausted
+- text: Ich fühle mich etwas überfordert.
+  hint: I feel a bit overwhelmed
+- text: Ich kann das gut nachvollziehen.
+  hint: I can understand that well
+- text: Das ist mir wirklich unangenehm.
+  hint: That's really awkward for me
+- text: Ich ärgere mich über mich selbst.
+  hint: I'm annoyed at myself
+- text: Was hältst du davon?
+  hint: Asking what someone thinks
+- text: Das kommt darauf an.
+  hint: It depends on the situation
+- text: Kannst du mir kurz helfen?
+  hint: Can you help me quickly?
+- text: Könnten Sie das bitte wiederholen?
+  hint: Please say that again
+- text: Ich verstehe, was Sie meinen.
+  hint: I see what you mean
+- text: Ich bin nicht sicher, ob das stimmt.
+  hint: I'm not sure that's true
+- text: Lass uns später darüber sprechen.
+  hint: Let's talk about it later
+- text: Ich muss mich beeilen.
+  hint: I need to hurry
+- text: Das ist mir zu kompliziert.
+  hint: That's too complicated for me
+- text: Können wir das anders machen?
+  hint: Can we do it differently?
+- text: Ich würde lieber zu Hause bleiben.
+  hint: I would rather stay home
+- text: Es wäre schön, wenn du mitkommst.
+  hint: It would be nice if you came
+- text: Können Sie mir einen Tipp geben?
+  hint: Can you give me advice?
+- text: Ich kenne mich hier nicht aus.
+  hint: I don't know this area
+- text: Können Sie mir den Weg erklären?
+  hint: Please explain the way
+- text: Können Sie mir das auf der Karte zeigen?
+  hint: Show me on the map
+- text: Wie weit ist es von hier?
+  hint: How far is it from here?
+- text: Zu Fuß sind es zehn Minuten.
+  hint: It's ten minutes on foot
+- text: Wo ist die nächste Apotheke?
+  hint: Where is the nearest pharmacy?
+- text: Wann fährt der nächste Zug?
+  hint: When does the next train leave?
+- text: Ist dieser Zug direkt?
+  hint: Is this train direct?
+- text: Ich habe den Zug verpasst.
+  hint: I missed the train
+- text: Kann ich hier umsteigen?
+  hint: Can I change trains here?
+- text: Ich habe einen Termin um drei.
+  hint: I have an appointment at three
+- text: Haben Sie das Formular erhalten?
+  hint: Did you receive the form?
+- text: Ich bin heute im Homeoffice.
+  hint: I'm working from home today
+- text: Die Leitung ist besetzt.
+  hint: The line is busy
+- text: Ich habe mich verwählt.
+  hint: I dialed the wrong number
+- text: Können Sie lauter sprechen?
+  hint: Can you speak more loudly?
+- text: Ich verstehe Sie schlecht.
+  hint: I can hardly understand you
+- text: Ich melde mich bei Ihnen.
+  hint: I'll get back to you
+- text: Ich werde das sofort prüfen.
+  hint: I'll check that right away
+- text: Können wir das auf morgen verschieben?
+  hint: Can we postpone it to tomorrow?
+- text: Ich habe einen Fehler gemacht.
+  hint: I made a mistake
+- text: Das war nicht meine Absicht.
+  hint: That wasn't my intention
+- text: Bitte entschuldigen Sie die Verspätung.
+  hint: Sorry for being late
+- text: Ich habe starke Schmerzen.
+  hint: I have severe pain
+- text: Können Sie mir ein Medikament empfehlen?
+  hint: Can you recommend a medicine?
+- text: Ich nehme bereits Medikamente.
+  hint: I already take medication
+- text: Ich habe einen Arzttermin.
+  hint: I have a doctor's appointment
+- text: Wie hoch ist die Miete?
+  hint: How much is the rent?
+- text: Wann kann ich einziehen?
+  hint: When can I move in?
+- text: Das ist sehr nett von dir.
+  hint: That's very kind of you
+- text: Ich freue mich auf das Wochenende.
+  hint: I'm looking forward to the weekend
+- text: Ich fühle mich heute etwas müde.
+  hint: I feel a bit tired today
+- text: Ich muss eine kurze Pause machen.
+  hint: I need to take a short break
+- text: Wir sollten eine Pause machen.
+  hint: We should take a break
+- text: Ich kann mich nicht konzentrieren.
+  hint: I can't concentrate
+- text: Ich bin in fünf Minuten fertig.
+  hint: I'll be ready in five minutes
+- text: Ich muss noch etwas erledigen.
+  hint: I still have something to do
