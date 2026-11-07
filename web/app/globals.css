@@ -320,7 +320,8 @@ button.mic.listening {
 }
 
 /* Pages in Arabic script: Arabic letters from Noto Sans Arabic, Latin ones (the German story) still from Jakarta. */
-html[data-script="arabic"] body {
+html[data-script="arabic"] body,
+div[data-script="arabic"] {
   font-family: var(--font-arabic), var(--font-jakarta), system-ui, sans-serif;
 }
 
@@ -354,4 +355,102 @@ button.link {
   background: none;
   border: none;
   padding: 4px;
+}
+
+/* Editions: the welcome of a first visit. Short and calm; one button in the edition's color. */
+.edition-name {
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.welcome {
+  gap: 18px;
+  padding-top: 8vh;
+}
+
+.tagline {
+  font-size: 2.2rem;
+  line-height: 1.15;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.pillars {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+a.cta {
+  display: block;
+  text-align: center;
+  background: var(--primary);
+  color: var(--bg);
+  font-weight: 800;
+  font-size: 1.1rem;
+  padding: 16px;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+.small {
+  font-size: 0.85rem;
+}
+
+.welcome .small {
+  text-align: center;
+  margin-top: -8px;
+}
+
+/* "Why it works": one line until tapped, then six short reasons with the research term beside them. */
+.why summary {
+  cursor: pointer;
+  color: #94a3b8;
+}
+
+.why summary strong {
+  color: var(--primary);
+}
+
+.why dl {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 14px 0 0;
+}
+
+.why dt {
+  font-weight: 800;
+}
+
+.why dd {
+  margin: 2px 0 0;
+  color: #cbd5e1;
+}
+
+.why .term {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0 8px;
+  margin-inline-start: 4px;
+}
+
+/* The overview at /: every edition in its own color. */
+.edition-card {
+  border-inline-start: 4px solid var(--primary);
+}
+
+.edition-badge {
+  background: var(--primary);
 }

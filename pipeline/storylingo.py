@@ -24,6 +24,7 @@ load_dotenv(Path(__file__).parent / ".env")
 
 import content  # noqa: E402
 import db  # noqa: E402  (reads DATABASE_URL, so .env must be loaded first)
+import editions  # noqa: E402
 import languages  # noqa: E402
 import media  # noqa: E402
 import yamlio  # noqa: E402
@@ -49,10 +50,12 @@ def store(doc: StoryDoc) -> None:
 
 
 def sync(slug: str | None = None) -> None:
-    for change in db.sync_languages(languages.all_languages()):
+    for change in db.sync_languages(languages.all_languages()) + db.sync_pairs(editions.pairs()):
         print(f"  {change}")
     if languages.write_web():
         print("  web/lib/languages.json updated")
+    if editions.write_web():
+        print("  web/lib/editions.json updated")
     docs = [content.read(slug)] if slug else content.all_stories()
     for doc in docs:
         # A scene or question added by hand may have no key yet: give it one in the file first.

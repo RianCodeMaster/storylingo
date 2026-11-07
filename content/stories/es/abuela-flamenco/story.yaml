@@ -1,0 +1,735 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: abuela-flamenco
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A2
+  theme: La abuela Carmen, de 92 años, de Sevilla, quería ser una estrella del flamenco, pero tenía miedo del escenario; por
+    fin baila en la televisión con sus zapatos de 1960
+  scenes: 5
+  targets:
+  - text: quería
+    gloss: wilde
+    concept: want
+    kind: word
+  - text: tenía miedo
+    gloss: was bang
+    concept: afraid
+    kind: phrase
+  - text: por fin
+    gloss: eindelijk
+    concept: finally
+    kind: phrase
+story:
+  title: La abuela Carmen baila por fin en la tele
+  summary: Carmen, a 92-year-old grandmother from Seville, wants to be a flamenco star but is afraid of the stage, until her
+    enormous cat helps her dance on TV in her tiny 1960 shoes.
+  gestures:
+  - concept: want
+    description: Open both arms wide in front of you and pull the air into your chest with a greedy face, like you are grabbing
+      exactly what you want.
+    emoji: 🤲
+  - concept: afraid
+    description: Hug yourself tightly, shake like jelly and open your eyes very wide with a scared face.
+    emoji: 😨
+  - concept: finally
+    description: Throw both arms up in the air, look up at the sky and shout '¡por fin!' like you just won the lottery.
+    emoji: 🎉
+  scenes:
+  - key: s1
+    text: 'Carmen tenía 92 años y vivía en Sevilla con su gato, un gato enorme y naranja. Carmen quería ser una estrella del
+      flamenco. Pero tenía miedo del escenario y tenía miedo de la gente. Un día, su nieto vio un anuncio en la televisión:
+      «Buscamos estrellas del flamenco».'
+    image_prompt: 'Abuela Carmen: a tiny 92-year-old Spanish woman with short white curly hair, big round glasses and a red
+      polka-dot flamenco dress, sitting in a small Seville kitchen next to an enormous fat orange cat; on the television there
+      is a big sign saying flamenco stars.'
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Carmen quería ser una estrella del flamenco?
+      options: [sí, "no"]
+      answer: sí
+      target: quería
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Carmen tenía miedo del escenario o del gato?
+      options: [del escenario, del gato]
+      answer: del escenario
+      target: tenía miedo
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Quién vio el anuncio en la televisión?
+      options: [el nieto, el gato, Carmen]
+      answer: el nieto
+    - key: s1q4
+      kind: who_what
+      prompt: ¿Cuántos años tenía Carmen?
+      options: [92 años, 29 años, 1000 años]
+      answer: 92 años
+    glossary:
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: años
+      lemma: el año
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: vivía
+      lemma: vivir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: naranja
+      lemma: naranja
+      level: A2
+    - word: quería
+      lemma: querer
+      level: A1
+    - word: ser
+      lemma: ser
+      level: A1
+    - word: estrella
+      lemma: la estrella
+      level: A2
+    - word: del
+      lemma: de + el
+      level: A1
+    - word: flamenco
+      lemma: el flamenco
+      level: B1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: miedo
+      lemma: el miedo
+      level: A2
+    - word: escenario
+      lemma: el escenario
+      level: B1
+    - word: de
+      lemma: de
+      level: A1
+    - word: gente
+      lemma: la gente
+      level: A2
+    - word: día
+      lemma: el día
+      level: A1
+    - word: nieto
+      lemma: el nieto
+      level: A2
+    - word: vio
+      lemma: ver
+      level: A1
+    - word: anuncio
+      lemma: el anuncio
+      level: B1
+    - word: televisión
+      lemma: la televisión
+      level: A2
+    - word: Buscamos
+      lemma: buscar
+      level: A2
+    - word: estrellas
+      lemma: la estrella
+      level: A2
+    voice:
+    - text: Carmen tenía 92 años y vivía en Sevilla con su gato, un gato enorme y naranja.
+      emotion: surprised
+    - text: Carmen quería ser una estrella del flamenco.
+      emotion: amused
+    - text: Pero tenía miedo del escenario y tenía miedo de la gente.
+      emotion: whisper
+    - text: 'Un día, su nieto vio un anuncio en la televisión: «Buscamos estrellas del flamenco».'
+      emotion: surprised
+  - key: s2
+    text: 'Carmen quería ir al programa de televisión y quería bailar delante de todo el mundo. Pero tenía miedo: ¡tenía miedo
+      de 1000 cosas! En la cocina bailaba con 1000 plátanos y con su gato enorme. «Quiero bailar en la tele», dijo Carmen,
+      y lloró un poco.'
+    image_prompt: 'Abuela Carmen: a tiny 92-year-old Spanish woman with short white curly hair, big round glasses and a red
+      polka-dot flamenco dress, dancing in her kitchen with a mountain of 1000 yellow bananas and an enormous fat orange cat;
+      she looks nervous.'
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿Carmen quería bailar delante de todo el mundo?
+      options: [sí, "no"]
+      answer: sí
+      target: quería
+    - key: s2q2
+      kind: either_or
+      prompt: ¿Carmen tenía miedo de 1000 cosas o de 2 cosas?
+      options: [de 1000 cosas, de 2 cosas]
+      answer: de 1000 cosas
+      target: tenía miedo
+    - key: s2q3
+      kind: who_what
+      prompt: ¿Con qué bailaba Carmen en la cocina?
+      options: [con 1000 plátanos, con 1000 zapatos, con su nieto]
+      answer: con 1000 plátanos
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿Carmen llamó a la televisión?
+      options: [sí, "no"]
+      answer: "no"
+    glossary:
+    - word: quería
+      lemma: querer
+      level: A1
+    - word: ir
+      lemma: ir
+      level: A1
+    - word: al
+      lemma: a + el
+      level: A1
+    - word: programa
+      lemma: el programa
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: televisión
+      lemma: la televisión
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: bailar
+      lemma: bailar
+      level: A1
+    - word: delante
+      lemma: delante
+      level: A2
+    - word: todo
+      lemma: todo
+      level: A1
+    - word: mundo
+      lemma: el mundo
+      level: A1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: miedo
+      lemma: el miedo
+      level: A2
+    - word: cosas
+      lemma: la cosa
+      level: A1
+    - word: En
+      lemma: en
+      level: A1
+    - word: cocina
+      lemma: la cocina
+      level: A1
+    - word: bailaba
+      lemma: bailar
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: plátanos
+      lemma: el plátano
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: Quiero
+      lemma: querer
+      level: A1
+    - word: tele
+      lemma: la tele
+      level: A2
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: lloró
+      lemma: llorar
+      level: A1
+    - word: poco
+      lemma: poco
+      level: A1
+    voice:
+    - text: Carmen quería ir al programa de televisión y quería bailar delante de todo el mundo.
+      emotion: neutral
+    - text: 'Pero tenía miedo: ¡tenía miedo de 1000 cosas!'
+      emotion: surprised
+    - text: En la cocina bailaba con 1000 plátanos y con su gato enorme.
+      emotion: amused
+    - text: «Quiero bailar en la tele», dijo Carmen, y lloró un poco.
+      emotion: whisper
+  - key: s3
+    text: 'Su nieto llamó a la televisión: «Mi abuela quiere bailar». El hombre de la tele dijo: «¡Vale! Mañana, por fin,
+      tu abuela baila en la tele». Pero había un problema: los zapatos de Carmen eran de 1960 y eran muy pequeños. Carmen
+      tenía miedo, y su gato enorme lamía sus zapatos pequeños.'
+    image_prompt: 'Abuela Carmen: a tiny 92-year-old Spanish woman with short white curly hair, big round glasses and a red
+      polka-dot flamenco dress, holding a pair of very small old black 1960s shoes, while an enormous fat orange cat licks
+      the shoes; her grandson talks on the phone.'
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿El nieto llamó a la televisión?
+      options: [sí, "no"]
+      answer: sí
+    - key: s3q2
+      kind: either_or
+      prompt: ¿Los zapatos de Carmen eran grandes o pequeños?
+      options: [grandes, pequeños]
+      answer: pequeños
+    - key: s3q3
+      kind: who_what
+      prompt: ¿Quién dijo «por fin tu abuela baila en la tele»?
+      options: [el hombre de la tele, el gato, el nieto]
+      answer: el hombre de la tele
+      target: por fin
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿Carmen tenía miedo?
+      options: [sí, "no"]
+      answer: sí
+      target: tenía miedo
+    - key: s3q5
+      kind: who_what
+      prompt: ¿De qué año eran los zapatos de Carmen?
+      options: [de 1960, de 2020, de 1900]
+      answer: de 1960
+    glossary:
+    - word: Su
+      lemma: su
+      level: A1
+    - word: nieto
+      lemma: el nieto
+      level: A2
+    - word: llamó
+      lemma: llamar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: televisión
+      lemma: la televisión
+      level: A2
+    - word: Mi
+      lemma: mi
+      level: A1
+    - word: abuela
+      lemma: la abuela
+      level: A1
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: bailar
+      lemma: bailar
+      level: A1
+    - word: hombre
+      lemma: el hombre
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: tele
+      lemma: la tele
+      level: A2
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: Mañana
+      lemma: mañana
+      level: A1
+    - word: por
+      lemma: por
+      level: A1
+    - word: fin
+      lemma: el fin
+      level: A2
+    - word: tu
+      lemma: tu
+      level: A1
+    - word: baila
+      lemma: bailar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: había
+      lemma: haber
+      level: A2
+    - word: problema
+      lemma: el problema
+      level: A2
+    - word: zapatos
+      lemma: el zapato
+      level: A1
+    - word: eran
+      lemma: ser
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: pequeños
+      lemma: pequeño
+      level: A1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: miedo
+      lemma: el miedo
+      level: A2
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: lamía
+      lemma: lamer
+      level: B1
+    - word: sus
+      lemma: su
+      level: A1
+    voice:
+    - text: 'Su nieto llamó a la televisión: «Mi abuela quiere bailar».'
+      emotion: neutral
+    - text: 'El hombre de la tele dijo: «¡Vale!'
+      emotion: surprised
+    - text: Mañana, por fin, tu abuela baila en la tele».
+      emotion: neutral
+    - text: 'Pero había un problema: los zapatos de Carmen eran de 1960 y eran muy pequeños.'
+      emotion: angry
+    - text: Carmen tenía miedo, y su gato enorme lamía sus zapatos pequeños.
+      emotion: whisper
+  - key: s4
+    text: 'Por fin llegó el día: Carmen estaba en el escenario de la tele, con 1000 focos y 1000 personas. Carmen tenía miedo,
+      ¡mucho miedo! Pero su gato enorme estaba con ella, y Carmen quería bailar. Quería bailar de verdad. «¡Por fin!», dijo
+      Carmen, y bailó con sus zapatos pequeños de 1960.'
+    image_prompt: 'Abuela Carmen: a tiny 92-year-old Spanish woman with short white curly hair, big round glasses and a red
+      polka-dot flamenco dress, standing on a bright TV stage with 1000 spotlights and a big audience, dancing in tiny black
+      1960s shoes next to an enormous fat orange cat.'
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿Carmen estaba en el escenario de la tele?
+      options: [sí, "no"]
+      answer: sí
+    - key: s4q2
+      kind: either_or
+      prompt: ¿Carmen tenía miedo o estaba contenta?
+      options: [tenía miedo, estaba contenta]
+      answer: tenía miedo
+      target: tenía miedo
+    - key: s4q3
+      kind: who_what
+      prompt: ¿Quién estaba con Carmen en el escenario?
+      options: [su gato enorme, su nieto, el hombre de la tele]
+      answer: su gato enorme
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Carmen bailó por fin en la tele?
+      options: [sí, "no"]
+      answer: sí
+      target: por fin
+    - key: s4q5
+      kind: who_what
+      prompt: ¿Qué quería Carmen?
+      options: [bailar de verdad, dormir, comer plátanos]
+      answer: bailar de verdad
+      target: quería
+    glossary:
+    - word: Por
+      lemma: por
+      level: A1
+    - word: fin
+      lemma: el fin
+      level: A2
+    - word: llegó
+      lemma: llegar
+      level: A1
+    - word: día
+      lemma: el día
+      level: A1
+    - word: estaba
+      lemma: estar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: escenario
+      lemma: el escenario
+      level: B1
+    - word: de
+      lemma: de
+      level: A1
+    - word: tele
+      lemma: la tele
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: focos
+      lemma: el foco
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: personas
+      lemma: la persona
+      level: A1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: miedo
+      lemma: el miedo
+      level: A2
+    - word: mucho
+      lemma: mucho
+      level: A1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: ella
+      lemma: ella
+      level: A1
+    - word: quería
+      lemma: querer
+      level: A1
+    - word: bailar
+      lemma: bailar
+      level: A1
+    - word: verdad
+      lemma: la verdad
+      level: A2
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: bailó
+      lemma: bailar
+      level: A1
+    - word: sus
+      lemma: su
+      level: A1
+    - word: zapatos
+      lemma: el zapato
+      level: A1
+    - word: pequeños
+      lemma: pequeño
+      level: A1
+    voice:
+    - text: 'Por fin llegó el día: Carmen estaba en el escenario de la tele, con 1000 focos y 1000 personas.'
+      emotion: surprised
+    - text: Carmen tenía miedo, ¡mucho miedo!
+      emotion: whisper
+    - text: Pero su gato enorme estaba con ella, y Carmen quería bailar.
+      emotion: amused
+    - text: Quería bailar de verdad.
+      emotion: neutral
+    - text: «¡Por fin!», dijo Carmen, y bailó con sus zapatos pequeños de 1960.
+      emotion: surprised
+  - key: s5
+    text: 'Carmen bailó en la tele y el público gritó: «¡Olé!». Por fin, la abuela Carmen era una estrella del flamenco. Pero
+      había una sorpresa: la verdadera estrella era su gato enorme, que tenía un contrato de 1000 euros. Y entonces Carmen
+      tenía miedo... ¡de su gato famoso!'
+    image_prompt: 'Abuela Carmen: a tiny 92-year-old Spanish woman with short white curly hair, big round glasses and a red
+      polka-dot flamenco dress, applauding on a TV stage while an enormous fat orange cat wears a golden star medal and signs
+      a big contract with 1000 euros written on it.'
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿El público gritó «¡Olé!»?
+      options: [sí, "no"]
+      answer: sí
+    - key: s5q2
+      kind: either_or
+      prompt: ¿La verdadera estrella era Carmen o su gato?
+      options: [Carmen, su gato]
+      answer: su gato
+    - key: s5q3
+      kind: who_what
+      prompt: ¿Quién tenía un contrato de 1000 euros?
+      options: [el gato, Carmen, el nieto]
+      answer: el gato
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Carmen tenía miedo de su gato famoso?
+      options: [sí, "no"]
+      answer: sí
+      target: tenía miedo
+    - key: s5q5
+      kind: yes_no
+      prompt: ¿Por fin Carmen era una estrella del flamenco?
+      options: [sí, "no"]
+      answer: sí
+      target: por fin
+    glossary:
+    - word: bailó
+      lemma: bailar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: tele
+      lemma: la tele
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: público
+      lemma: el público
+      level: B1
+    - word: gritó
+      lemma: gritar
+      level: A2
+    - word: Por
+      lemma: por
+      level: A1
+    - word: fin
+      lemma: el fin
+      level: A2
+    - word: abuela
+      lemma: la abuela
+      level: A1
+    - word: era
+      lemma: ser
+      level: A1
+    - word: estrella
+      lemma: la estrella
+      level: A2
+    - word: del
+      lemma: de + el
+      level: A1
+    - word: flamenco
+      lemma: el flamenco
+      level: B1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: había
+      lemma: haber
+      level: A2
+    - word: sorpresa
+      lemma: la sorpresa
+      level: A2
+    - word: verdadera
+      lemma: verdadero
+      level: A2
+    - word: su
+      lemma: su
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: contrato
+      lemma: el contrato
+      level: B1
+    - word: de
+      lemma: de
+      level: A1
+    - word: euros
+      lemma: el euro
+      level: A1
+    - word: entonces
+      lemma: entonces
+      level: A2
+    - word: miedo
+      lemma: el miedo
+      level: A2
+    - word: famoso
+      lemma: famoso
+      level: A2
+    voice:
+    - text: 'Carmen bailó en la tele y el público gritó: «¡Olé!».'
+      emotion: amused
+    - text: Por fin, la abuela Carmen era una estrella del flamenco.
+      emotion: neutral
+    - text: 'Pero había una sorpresa: la verdadera estrella era su gato enorme, que tenía un contrato de 1000 euros.'
+      emotion: surprised
+    - text: Y entonces Carmen tenía miedo...
+      emotion: whisper
+    - text: ¡de su gato famoso!
+      emotion: surprised
+  core_words:
+  - lemma: el gato
+    image_prompt: a large orange cat sitting on a chair
+  - lemma: bailar
+    image_prompt: a person dancing with arms raised
+  - lemma: la televisión
+    image_prompt: a television set on a small table
+  - lemma: el escenario
+    image_prompt: a brightly lit stage with a microphone
+  - lemma: el zapato
+    image_prompt: a pair of small old shoes
+  - lemma: el flamenco
+    image_prompt: a flamenco dancer in a red dress
+generation:
+  prompt_version: tprs-v2
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 646
+  output_tokens: 6338
+  glossary_version: glossary-v2
+  glossary_input_tokens: 695
+  glossary_output_tokens: 15591
+  core_version: core-v1
+  core_input_tokens: 1642
+  core_output_tokens: 1286
+  voice_version: voice-v1
+  voice_input_tokens: 675
+  voice_output_tokens: 781
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1429
+  localize_ar_output_tokens: 13647
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1429
+  localize_en_output_tokens: 11110
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1885
+  localize_nl_output_tokens: 15253

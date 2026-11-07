@@ -1,0 +1,136 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: An enormous octopus in Valencia wants to cook the world's biggest paella, but with eight arms everything flies away,
+  so he sells flying rice instead.
+summary_source: 688bae9af18186d1
+gestures:
+  want: Hug a giant invisible paella, rub your tummy, and stretch both arms out toward it with a hungry smile.
+  cannot: Wave all your fingers like eight octopus arms, then cross both arms in a big X and shake your head no.
+  like: Pat your heart with both hands, make a big happy smile, and wiggle like a happy octopus.
+targets:
+  quiere:
+    gloss: wants
+    note: Spanish verb endings show who; 'quiere' can mean 'he wants' or 'she wants'.
+  no puede:
+    gloss: cannot
+    note: Spanish puts 'no' before the verb, as in 'no puede' = 'cannot'.
+  le gusta:
+    gloss: likes it
+    note: Literally 'it is pleasing to him/her'; English uses 'likes' the other way round.
+scenes:
+- key: s1
+  source: 91dbfbdc9de4849b
+  translation: Paco is an enormous octopus. He lives in Valencia. Paco likes paella. Paco wants to cook the biggest paella
+    in the world.
+  glosses:
+    es: is
+    pulpo: octopus
+    enorme: enormous
+    Vive: he lives
+    en: in
+    A: to
+    le: to him
+    gusta: likes
+    paella: paella
+    quiere: wants
+    cocinar: to cook
+    más: most
+    grande: big
+    del: of the
+    mundo: world
+- key: s2
+  source: 30292c32d8094f7f
+  translation: 'Paco goes to the market. He buys 1000 kilos of rice. Paco wants to cook his enormous paella. But he cannot:
+    he has eight arms.'
+  glosses:
+    va: goes
+    al: to the
+    mercado: market
+    Compra: he buys
+    kilos: kilos
+    de: of
+    arroz: rice
+    quiere: wants
+    cocinar: to cook
+    su: his
+    paella: paella
+    enorme: enormous
+    Pero: but
+    "no": not
+    puede: can
+    tiene: he has
+    brazos: arms
+- key: s3
+  source: 782d9e9519013c84
+  translation: Paco puts the rice in the paella. Paco likes the fire. Paco wants to move the rice. But he cannot, and the
+    rice flies.
+  glosses:
+    pone: puts
+    arroz: rice
+    en: in
+    paella: paella
+    A: to
+    le: to him
+    gusta: likes
+    fuego: fire
+    quiere: wants
+    mover: to stir
+    Pero: but
+    "no": not
+    puede: can
+    "y": and
+    vuela: flies
+- key: s4
+  source: e72570ddd1023819
+  translation: Paco moves the paella with eight arms. The rice flies through the air. Paco likes the flying rice. Paco wants
+    to stop, but he cannot.
+  glosses:
+    mueve: moves
+    paella: paella
+    con: with
+    brazos: arms
+    arroz: rice
+    vuela: flies
+    por: through
+    aire: air
+    A: to
+    le: to him
+    gusta: likes
+    volador: flying
+    quiere: wants
+    parar: to stop
+    pero: but
+    "no": not
+    puede: can
+- key: s5
+  source: c43b9ce9bc76c019
+  translation: 'Paco cannot cook the biggest paella. He is sad. But Paco likes a new idea: he wants to sell flying rice. People
+    like it.'
+  glosses:
+    "no": not
+    puede: can
+    cocinar: to cook
+    paella: paella
+    más: most
+    grande: big
+    Está: he is
+    triste: sad
+    Pero: but
+    a: to
+    le: to him
+    gusta: likes
+    idea: idea
+    nueva: new
+    quiere: wants
+    vender: to sell
+    arroz: rice
+    volador: flying
+    gente: people
+words:
+  el pulpo: the octopus
+  la paella: the paella
+  cocinar: to cook
+  el arroz: the rice
+  el brazo: the arm
+  volar: to fly

@@ -1,0 +1,11 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+slug: abuela-flamenco
+language: es
+level: A2
+tags: [algemeen]
+theme: La abuela Carmen, de 92 años, de Sevilla, quería ser una estrella del flamenco, pero tenía miedo del escenario; por fin baila en la televisión con sus zapatos de 1960
+scenes: 5
+targets:
+  - {text: quería, gloss: wilde, concept: want}
+  - {text: tenía miedo, gloss: was bang, concept: afraid, kind: phrase}
+  - {text: por fin, gloss: eindelijk, concept: finally, kind: phrase}

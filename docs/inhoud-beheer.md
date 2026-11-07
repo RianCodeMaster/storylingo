@@ -203,5 +203,7 @@ Gebouwd op 2026-11-07. Wat tijdens het bouwen anders uitviel dan hierboven besch
 Proef op het al gespeelde hamsterverhaal: een vraag aanpassen hield haar 5 antwoorden; een beantwoorde vraag
 weghalen verborg haar met haar 4 antwoorden; een nieuwe vraag kreeg een nieuwe sleutel; terugzetten herstelde alles.
 Een scène herschrijven liet `media` precies 2 bestanden maken en `localize` alleen die scène vertalen.
-5. **Spaans** als eerste taal via deze route (stem: sharvard vrouw, Spaans uit Spanje).
-6. **Edities** (bestanden + de app die per adres een editie toont) en **accounts**.
+5. ✅ **Edities**: `content/editions/<slug>.yaml`, de app per adres (`/duits`, `/almanya` …) met een eigen
+   welkomstpagina, `/` als overzicht. Taalparen volgen uit de edities.
+6. **Spaans** als eerste nieuwe doeltaal via deze route (stem: sharvard vrouw, Spaans uit Spanje).
+7. **Accounts** (na de overstap naar de cloud).

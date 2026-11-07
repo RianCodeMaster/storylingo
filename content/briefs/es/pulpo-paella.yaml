@@ -1,0 +1,11 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+slug: pulpo-paella
+language: es
+level: A1
+tags: [algemeen]
+theme: Un pulpo enorme en Valencia quiere cocinar la paella más grande del mundo, pero no puede, porque tiene ocho brazos y todo sale volando
+scenes: 5
+targets:
+  - {text: quiere, gloss: wil, concept: want}
+  - {text: no puede, gloss: kan niet, concept: cannot, kind: phrase}
+  - {text: le gusta, gloss: houdt van, concept: like, kind: phrase}

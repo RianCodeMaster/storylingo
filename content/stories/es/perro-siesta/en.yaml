@@ -1,0 +1,161 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: A tiny dog in Madrid cannot nap because of noisy neighbours, finds the perfect quiet place, and discovers it is a
+  concert stage.
+summary_source: 7d6a533ebc4acf6c
+gestures:
+  cannot: Push both hands against an invisible wall in front of you and shake your head slowly.
+  suddenly: Jump on the spot, throw your arms wide open and open your eyes very big.
+  went: Walk two fingers across your other palm, step by step.
+targets:
+  no podía:
+    gloss: couldn't
+    note: Spanish 'podía' is imperfect for an ongoing inability; English uses 'couldn't'.
+  de repente:
+    gloss: suddenly
+    note: '''De repente'' is a set phrase; English ''suddenly'' is one word.'
+  fue a:
+    gloss: went to
+    note: Spanish 'ir' is irregular; 'fue' means 'went'.
+scenes:
+- key: s1
+  source: ecdfb7d2bc97d52a
+  translation: 'Pepito was a very small dog. He lived in Madrid, in a flat with his family. Every day he wanted to take a
+    nap, but he couldn''t sleep. The neighbours made a lot of noise: music, drills and a baby who was screaming.'
+  glosses:
+    era: was
+    perro: dog
+    muy: very
+    pequeño: small
+    Vivía: he lived
+    en: in
+    piso: flat
+    con: with
+    su: his
+    familia: family
+    Todos: Every
+    días: days
+    quería: wanted
+    dormir: to sleep
+    siesta: nap
+    pero: but
+    "no": not
+    podía: could
+    vecinos: neighbours
+    hacían: made
+    mucho: a lot of
+    ruido: noise
+    música: music
+    taladros: drills
+    "y": and
+    bebé: baby
+    que: who
+    gritaba: was shouting
+- key: s2
+  source: 8768239b20011a6c
+  translation: Pepito couldn't sleep on the sofa. He couldn't sleep in the bed. He couldn't sleep in the bathroom. One day,
+    suddenly, he heard silence in the hallway.
+  glosses:
+    "no": not
+    podía: couldn't
+    dormir: to sleep
+    en: in/on
+    sofá: sofa
+    cama: bed
+    baño: bathroom
+    día: day
+    de: of
+    repente: sudden
+    escuchó: heard
+    silencio: silence
+    pasillo: hallway
+- key: s3
+  source: c27cf5c01d4c7352
+  translation: Pepito went out to the street. He went to a park, but there were 200 children. Then he went to the library,
+    but a man was singing very loudly. Suddenly, he saw a big, quiet door.
+  glosses:
+    fue: went
+    a: to
+    calle: street
+    parque: park
+    pero: but
+    había: there were
+    niños: children
+    Después: then
+    biblioteca: library
+    señor: man
+    cantaba: was singing
+    muy: very
+    fuerte: loudly
+    De: of
+    repente: sudden
+    vio: saw
+    puerta: door
+    grande: big
+    "y": and
+    tranquila: quiet
+- key: s4
+  source: 02dcb96ce6a05a3d
+  translation: 'Pepito went to the door and went in. The place was huge, dark and perfect. There was a big bed in the centre.
+    Suddenly, Pepito couldn''t believe it: what silence!'
+  glosses:
+    fue: went
+    a: to
+    puerta: door
+    "y": and
+    entró: went in
+    lugar: place
+    era: was
+    enorme: huge
+    oscuro: dark
+    perfecto: perfect
+    Había: there was
+    cama: bed
+    grande: big
+    en: in
+    centro: centre
+    De: of
+    repente: sudden
+    "no": not
+    podía: could
+    creerlo: believe it
+    qué: what
+    silencio: silence
+- key: s5
+  source: cab779f17baebc0e
+  translation: 'Pepito fell asleep on the big bed. Suddenly, many lights and 1,000 people shouted: ''Concert!'' Pepito couldn''t
+    sleep there. He went home and took a nap with earplugs.'
+  glosses:
+    se: reflexive pronoun
+    durmió: fell asleep
+    en: "on"
+    cama: bed
+    grande: big
+    De: of (in 'suddenly')
+    repente: sudden (in 'suddenly')
+    muchas: many
+    luces: lights
+    "y": and
+    personas: people
+    gritaron: shouted
+    Concierto: Concert!
+    "no": not
+    podía: could
+    dormir: sleep
+    allí: there
+    Fue: he went
+    a: to
+    casa: home
+    siesta: nap
+    con: with
+    tapones: earplugs
+    para: for
+    oídos: ears
+words:
+  el perro: the dog
+  la siesta: the nap
+  el ruido: the noise
+  la biblioteca: the library
+  el concierto: the concert
+  el tapón: the earplug

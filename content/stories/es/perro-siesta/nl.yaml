@@ -1,0 +1,162 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Een heel klein hondje in Madrid kan door lawaaiige buren geen dutje doen, vindt een perfecte rustige plek en ontdekt
+  dat het een concertpodium is.
+summary_source: 7d6a533ebc4acf6c
+gestures:
+  cannot: Duw beide handen tegen een onzichtbare muur voor je en schud langzaam je hoofd, als een hondje dat er niet door
+    kan.
+  suddenly: Spring ter plekke, gooi je armen wijd open en zet je ogen groot, alsof er net een verrassing voor je ontplofte.
+  went: Laat twee vingers stap voor stap over je andere handpalm lopen, als een hondje dat naar een nieuwe plek marcheert.
+targets:
+  no podía:
+    gloss: kon niet
+    note: Spaans gebruikt 'podía' voor een toestand in het verleden; Nederlands zegt vaak 'kon'.
+  de repente:
+    gloss: opeens
+    note: Vaste uitdrukking; Nederlands 'opeens' staat ook vaak vooraan.
+  fue a:
+    gloss: ging naar
+    note: '''Fue'' is verleden tijd van ''ir''; net als Nederlands ''ging naar''.'
+scenes:
+- key: s1
+  source: ecdfb7d2bc97d52a
+  translation: 'Pepito was een heel kleine hond. Hij woonde in Madrid, in een appartement met zijn familie. Elke dag wilde
+    hij een dutje doen, maar hij kon niet slapen. De buren maakten veel lawaai: muziek, boormachines en een baby die schreeuwde.'
+  glosses:
+    era: was
+    perro: hond
+    muy: heel
+    pequeño: klein
+    Vivía: woonde
+    en: in
+    piso: appartement
+    con: met
+    su: zijn
+    familia: familie
+    Todos: alle
+    días: dagen
+    quería: wilde
+    dormir: slapen
+    siesta: dutje
+    pero: maar
+    "no": niet
+    podía: kon
+    vecinos: buren
+    hacían: maakten
+    mucho: veel
+    ruido: lawaai
+    música: muziek
+    taladros: boormachines
+    "y": en
+    bebé: baby
+    que: die
+    gritaba: schreeuwde
+- key: s2
+  source: 8768239b20011a6c
+  translation: Pepito kon niet slapen op de bank. Hij kon niet slapen in bed. Hij kon niet slapen in de badkamer. Op een dag
+    hoorde hij opeens stilte in de gang.
+  glosses:
+    "no": niet
+    podía: kon
+    dormir: slapen
+    en: op
+    sofá: bank
+    cama: bed
+    baño: badkamer
+    día: dag
+    de: van
+    repente: plotseling
+    escuchó: hoorde
+    silencio: stilte
+    pasillo: gang
+- key: s3
+  source: c27cf5c01d4c7352
+  translation: Pepito ging naar buiten. Hij ging naar een park, maar daar waren 200 kinderen. Daarna ging hij naar de bibliotheek,
+    maar een meneer zong heel hard. Opeens zag hij een grote, rustige deur.
+  glosses:
+    fue: ging
+    a: naar
+    calle: buiten
+    parque: park
+    pero: maar
+    había: waren
+    niños: kinderen
+    Después: daarna
+    biblioteca: bibliotheek
+    señor: meneer
+    cantaba: zong
+    muy: heel
+    fuerte: hard
+    De: van
+    repente: plotseling
+    vio: zag
+    puerta: deur
+    grande: groot
+    "y": en
+    tranquila: rustig
+- key: s4
+  source: 02dcb96ce6a05a3d
+  translation: 'Pepito ging naar de deur en ging naar binnen. De plek was enorm, donker en perfect. In het midden stond een
+    groot bed. Opeens kon Pepito het niet geloven: wat een stilte!'
+  glosses:
+    fue: ging
+    a: naar
+    puerta: deur
+    "y": en
+    entró: ging binnen
+    lugar: plek
+    era: was
+    enorme: enorm
+    oscuro: donker
+    perfecto: perfect
+    Había: stond
+    cama: bed
+    grande: groot
+    en: in
+    centro: midden
+    De: van
+    repente: plotseling
+    "no": niet
+    podía: kon
+    creerlo: geloven
+    qué: wat een
+    silencio: stilte
+- key: s5
+  source: cab779f17baebc0e
+  translation: 'Pepito viel in slaap op het grote bed. Plotseling waren er veel lichten en schreeuwden 1000 mensen: ''Concert!''
+    Pepito kon daar niet slapen. Hij ging naar huis en deed een dutje met oordoppen in.'
+  glosses:
+    se: zich
+    durmió: viel in slaap
+    en: in
+    cama: bed
+    grande: groot
+    De: van (in frase)
+    repente: plotseling
+    muchas: veel
+    luces: lichten
+    "y": en
+    personas: mensen
+    gritaron: schreeuwden
+    Concierto: concert
+    "no": niet
+    podía: kon
+    dormir: slapen
+    allí: daar
+    Fue: ging
+    a: naar
+    casa: huis
+    siesta: dutje
+    con: met
+    tapones: oordoppen
+    para: voor
+    oídos: oren
+words:
+  el perro: de hond
+  la siesta: het dutje
+  el ruido: het lawaai
+  la biblioteca: de bibliotheek
+  el concierto: het concert
+  el tapón: de oordop

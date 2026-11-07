@@ -1,0 +1,13 @@
+# Edition: English speakers learning Spanish (Spain). See duits.yaml for every field.
+slug: spanish
+status: beta
+base: en
+target: es
+name: Spanish Stories
+tagline: Spanish that sticks.
+intro: Short, crazy stories in Spanish. You act out the gestures, answer out loud and repeat after the narrator. Five minutes a day.
+color: "#ff5e7e"
+stories:
+  tags: [algemeen]
+  levels: [A1, A2, B1, B2]
+domain: null

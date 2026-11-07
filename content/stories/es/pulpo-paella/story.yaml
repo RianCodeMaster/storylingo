@@ -1,0 +1,519 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: pulpo-paella
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A1
+  theme: Un pulpo enorme en Valencia quiere cocinar la paella más grande del mundo, pero no puede, porque tiene ocho brazos
+    y todo sale volando
+  scenes: 5
+  targets:
+  - text: quiere
+    gloss: wil
+    concept: want
+    kind: word
+  - text: no puede
+    gloss: kan niet
+    concept: cannot
+    kind: phrase
+  - text: le gusta
+    gloss: houdt van
+    concept: like
+    kind: phrase
+story:
+  title: Paco y la paella voladora
+  summary: An enormous octopus in Valencia wants to cook the world's biggest paella, but with eight arms everything flies
+    away, so he sells flying rice instead.
+  gestures:
+  - concept: want
+    description: Hug a giant invisible paella, rub your tummy, and stretch both arms out toward it with a hungry smile.
+    emoji: 🤤
+  - concept: cannot
+    description: Wave all your fingers like eight octopus arms, then cross both arms in a big X and shake your head no.
+    emoji: 🙅
+  - concept: like
+    description: Pat your heart with both hands, make a big happy smile, and wiggle like a happy octopus.
+    emoji: 🥰
+  scenes:
+  - key: s1
+    text: Paco es un pulpo enorme. Vive en Valencia. A Paco le gusta la paella. Paco quiere cocinar la paella más grande del
+      mundo.
+    image_prompt: Paco, a giant orange octopus with big friendly eyes, a small white chef hat, and a red apron, stands in
+      a sunny Valencia plaza next to a tiny paella pan, looking excited.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Paco quiere cocinar la paella más grande del mundo?
+      options: [sí, "no"]
+      answer: sí
+      target: quiere
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Paco es un pulpo o un gato?
+      options: [un pulpo, un gato]
+      answer: un pulpo
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Dónde vive Paco?
+      options: [en Valencia, en Madrid, en Roma]
+      answer: en Valencia
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿A Paco le gusta la paella?
+      options: [sí, "no"]
+      answer: sí
+      target: le gusta
+    glossary:
+    - word: es
+      lemma: ser
+      level: A1
+    - word: pulpo
+      lemma: el pulpo
+      level: A2
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: Vive
+      lemma: vivir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: A
+      lemma: a
+      level: A1
+    - word: le
+      lemma: le
+      level: A2
+    - word: gusta
+      lemma: gustar
+      level: A1
+    - word: paella
+      lemma: la paella
+      level: A2
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: cocinar
+      lemma: cocinar
+      level: A1
+    - word: más
+      lemma: más
+      level: A1
+    - word: grande
+      lemma: grande
+      level: A1
+    - word: del
+      lemma: de
+      level: A1
+    - word: mundo
+      lemma: el mundo
+      level: A2
+    voice:
+    - text: Paco es un pulpo enorme.
+      emotion: surprised
+    - text: Vive en Valencia.
+      emotion: neutral
+    - text: A Paco le gusta la paella.
+      emotion: amused
+    - text: Paco quiere cocinar la paella más grande del mundo.
+      emotion: surprised
+  - key: s2
+    text: 'Paco va al mercado. Compra 1000 kilos de arroz. Paco quiere cocinar su paella enorme. Pero no puede: tiene ocho
+      brazos.'
+    image_prompt: Paco, a giant orange octopus with big friendly eyes, a small white chef hat, and a red apron, stands in
+      a busy Valencia market beside a mountain of rice bags, trying to hold many bags with his eight arms.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿Paco compra arroz?
+      options: [sí, "no"]
+      answer: sí
+    - key: s2q2
+      kind: who_what
+      prompt: ¿Cuántos kilos de arroz compra Paco?
+      options: [1000 kilos, 10 kilos, 2 kilos]
+      answer: 1000 kilos
+    - key: s2q3
+      kind: either_or
+      prompt: ¿Paco quiere cocinar una paella o una sopa?
+      options: [una paella, una sopa]
+      answer: una paella
+      target: quiere
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿Paco puede cocinar?
+      options: [sí, "no"]
+      answer: "no"
+      target: no puede
+    glossary:
+    - word: va
+      lemma: ir
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: mercado
+      lemma: el mercado
+      level: A2
+    - word: Compra
+      lemma: comprar
+      level: A1
+    - word: kilos
+      lemma: el kilo
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: arroz
+      lemma: el arroz
+      level: A2
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: cocinar
+      lemma: cocinar
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: paella
+      lemma: la paella
+      level: A2
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: puede
+      lemma: poder
+      level: A1
+    - word: tiene
+      lemma: tener
+      level: A1
+    - word: brazos
+      lemma: el brazo
+      level: A2
+    voice:
+    - text: Paco va al mercado.
+      emotion: neutral
+    - text: Compra 1000 kilos de arroz.
+      emotion: surprised
+    - text: Paco quiere cocinar su paella enorme.
+      emotion: amused
+    - text: 'Pero no puede: tiene ocho brazos.'
+      emotion: surprised
+  - key: s3
+    text: Paco pone el arroz en la paella. A Paco le gusta el fuego. Paco quiere mover el arroz. Pero no puede, y el arroz
+      vuela.
+    image_prompt: Paco, a giant orange octopus with big friendly eyes, a small white chef hat, and a red apron, stands by
+      a huge paella pan over a fire in Valencia, with rice flying up into the air around him.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿A Paco le gusta el fuego?
+      options: [sí, "no"]
+      answer: sí
+      target: le gusta
+    - key: s3q2
+      kind: either_or
+      prompt: ¿Paco quiere mover el arroz o el fuego?
+      options: [el arroz, el fuego]
+      answer: el arroz
+      target: quiere
+    - key: s3q3
+      kind: who_what
+      prompt: ¿Qué vuela?
+      options: [el arroz, la paella, el fuego]
+      answer: el arroz
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿Paco puede mover el arroz?
+      options: [sí, "no"]
+      answer: "no"
+      target: no puede
+    glossary:
+    - word: pone
+      lemma: poner
+      level: A2
+    - word: arroz
+      lemma: el arroz
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: paella
+      lemma: la paella
+      level: A2
+    - word: A
+      lemma: a
+      level: A1
+    - word: le
+      lemma: le
+      level: A2
+    - word: gusta
+      lemma: gustar
+      level: A1
+    - word: fuego
+      lemma: el fuego
+      level: A2
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: mover
+      lemma: mover
+      level: A2
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: puede
+      lemma: poder
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: vuela
+      lemma: volar
+      level: A2
+    voice:
+    - text: Paco pone el arroz en la paella.
+      emotion: neutral
+    - text: A Paco le gusta el fuego.
+      emotion: amused
+    - text: Paco quiere mover el arroz.
+      emotion: neutral
+    - text: Pero no puede, y el arroz vuela.
+      emotion: surprised
+  - key: s4
+    text: Paco mueve la paella con ocho brazos. El arroz vuela por el aire. A Paco le gusta el arroz volador. Paco quiere
+      parar, pero no puede.
+    image_prompt: Paco, a giant orange octopus with big friendly eyes, a small white chef hat, and a red apron, waves all
+      eight arms over a huge paella pan while rice flies everywhere in a funny chaotic cloud.
+    questions:
+    - key: s4q1
+      kind: who_what
+      prompt: ¿Con cuántos brazos mueve Paco la paella?
+      options: [ocho brazos, dos brazos, cinco brazos]
+      answer: ocho brazos
+    - key: s4q2
+      kind: yes_no
+      prompt: ¿A Paco le gusta el arroz volador?
+      options: [sí, "no"]
+      answer: sí
+      target: le gusta
+    - key: s4q3
+      kind: either_or
+      prompt: ¿Paco quiere parar o quiere cantar?
+      options: [parar, cantar]
+      answer: parar
+      target: quiere
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Paco puede parar?
+      options: [sí, "no"]
+      answer: "no"
+      target: no puede
+    glossary:
+    - word: mueve
+      lemma: mover
+      level: A2
+    - word: paella
+      lemma: la paella
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: brazos
+      lemma: el brazo
+      level: A2
+    - word: arroz
+      lemma: el arroz
+      level: A2
+    - word: vuela
+      lemma: volar
+      level: A2
+    - word: por
+      lemma: por
+      level: A1
+    - word: aire
+      lemma: el aire
+      level: A2
+    - word: A
+      lemma: a
+      level: A1
+    - word: le
+      lemma: le
+      level: A2
+    - word: gusta
+      lemma: gustar
+      level: A1
+    - word: volador
+      lemma: volador
+      level: B1
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: parar
+      lemma: parar
+      level: A2
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: puede
+      lemma: poder
+      level: A1
+    voice:
+    - text: Paco mueve la paella con ocho brazos.
+      emotion: amused
+    - text: El arroz vuela por el aire.
+      emotion: surprised
+    - text: A Paco le gusta el arroz volador.
+      emotion: amused
+    - text: Paco quiere parar, pero no puede.
+      emotion: angry
+  - key: s5
+    text: 'Paco no puede cocinar la paella más grande. Está triste. Pero a Paco le gusta una idea nueva: quiere vender arroz
+      volador. A la gente le gusta.'
+    image_prompt: Paco, a giant orange octopus with big friendly eyes, a small white chef hat, and a red apron, stands happily
+      in a Valencia street with a little sign for flying rice while people catch rice in the air and smile.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿Paco puede cocinar la paella más grande?
+      options: [sí, "no"]
+      answer: "no"
+      target: no puede
+    - key: s5q2
+      kind: who_what
+      prompt: ¿Cómo está Paco?
+      options: [triste, contento, enfadado]
+      answer: triste
+    - key: s5q3
+      kind: either_or
+      prompt: ¿Paco quiere vender arroz volador o paella?
+      options: [arroz volador, paella]
+      answer: arroz volador
+      target: quiere
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿A la gente le gusta el arroz volador?
+      options: [sí, "no"]
+      answer: sí
+      target: le gusta
+    glossary:
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: puede
+      lemma: poder
+      level: A1
+    - word: cocinar
+      lemma: cocinar
+      level: A1
+    - word: paella
+      lemma: la paella
+      level: A2
+    - word: más
+      lemma: más
+      level: A1
+    - word: grande
+      lemma: grande
+      level: A1
+    - word: Está
+      lemma: estar
+      level: A1
+    - word: triste
+      lemma: triste
+      level: A2
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: le
+      lemma: le
+      level: A2
+    - word: gusta
+      lemma: gustar
+      level: A1
+    - word: idea
+      lemma: la idea
+      level: A2
+    - word: nueva
+      lemma: nuevo
+      level: A2
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: vender
+      lemma: vender
+      level: A2
+    - word: arroz
+      lemma: el arroz
+      level: A2
+    - word: volador
+      lemma: volador
+      level: B1
+    - word: gente
+      lemma: la gente
+      level: A2
+    voice:
+    - text: Paco no puede cocinar la paella más grande.
+      emotion: angry
+    - text: Está triste.
+      emotion: whisper
+    - text: 'Pero a Paco le gusta una idea nueva: quiere vender arroz volador.'
+      emotion: surprised
+    - text: A la gente le gusta.
+      emotion: amused
+  core_words:
+  - lemma: el pulpo
+    image_prompt: a large octopus in the sea
+  - lemma: la paella
+    image_prompt: a large pan of paella with rice and seafood
+  - lemma: cocinar
+    image_prompt: a person cooking food in a pan on a stove
+  - lemma: el arroz
+    image_prompt: a bowl full of white rice
+  - lemma: el brazo
+    image_prompt: a single human arm
+  - lemma: volar
+    image_prompt: a bird flying in the sky
+generation:
+  prompt_version: tprs-v2
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 626
+  output_tokens: 6707
+  glossary_version: glossary-v2
+  glossary_input_tokens: 489
+  glossary_output_tokens: 9548
+  core_version: core-v1
+  core_input_tokens: 1067
+  core_output_tokens: 629
+  voice_version: voice-v1
+  voice_input_tokens: 460
+  voice_output_tokens: 866
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1148
+  localize_ar_output_tokens: 4277
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1148
+  localize_en_output_tokens: 5027
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1148
+  localize_nl_output_tokens: 5395

@@ -1,0 +1,599 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: perro-siesta
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A2
+  theme: Un perro pequeño en Madrid no podía dormir la siesta porque los vecinos hacían ruido; de repente encuentra el lugar
+    perfecto, pero es el escenario de un concierto
+  scenes: 5
+  targets:
+  - text: no podía
+    gloss: kon niet
+    concept: cannot
+    kind: phrase
+  - text: de repente
+    gloss: plotseling
+    concept: suddenly
+    kind: phrase
+  - text: fue a
+    gloss: ging naar
+    concept: went
+    kind: phrase
+story:
+  title: Pepito no podía dormir la siesta
+  summary: A tiny dog in Madrid cannot nap because of noisy neighbours, finds the perfect quiet place, and discovers it is
+    a concert stage.
+  gestures:
+  - concept: cannot
+    description: Push both hands against an invisible wall in front of you and shake your head slowly, like a tiny dog who
+      cannot get through.
+    emoji: 🙅
+  - concept: suddenly
+    description: Jump on the spot, throw your arms wide open and open your eyes very big, as if a surprise just exploded in
+      front of you.
+    emoji: 😲
+  - concept: went
+    description: Walk two fingers across the palm of your other hand, step by step, like a little dog marching to a new place.
+    emoji: 🚶
+  scenes:
+  - key: s1
+    text: 'Pepito era un perro muy pequeño. Vivía en Madrid, en un piso con su familia. Todos los días quería dormir la siesta,
+      pero no podía dormir. Los vecinos hacían mucho ruido: música, taladros y un bebé que gritaba.'
+    image_prompt: A tiny white chihuahua named Pepito with a red collar and one floppy ear sits on a sofa in a small Madrid
+      flat, looking tired, while a big noisy speaker and a drill shake the walls.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Pepito era un perro muy pequeño?
+      options: [sí, "no"]
+      answer: sí
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Dónde vivía Pepito?
+      options: [en Madrid, en Barcelona]
+      answer: en Madrid
+    - key: s1q3
+      kind: yes_no
+      prompt: ¿Pepito podía dormir la siesta?
+      options: [sí, "no"]
+      answer: "no"
+      target: no podía
+    - key: s1q4
+      kind: who_what
+      prompt: ¿Quién hacía mucho ruido?
+      options: [los vecinos, los gatos, Pepito]
+      answer: los vecinos
+    glossary:
+    - word: era
+      lemma: ser
+      level: A1
+    - word: perro
+      lemma: el perro
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: pequeño
+      lemma: pequeño
+      level: A1
+    - word: Vivía
+      lemma: vivir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: piso
+      lemma: el piso
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: familia
+      lemma: la familia
+      level: A1
+    - word: Todos
+      lemma: todo
+      level: A1
+    - word: días
+      lemma: el día
+      level: A1
+    - word: quería
+      lemma: querer
+      level: A1
+    - word: dormir
+      lemma: dormir
+      level: A1
+    - word: siesta
+      lemma: la siesta
+      level: A2
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: podía
+      lemma: poder
+      level: A1
+    - word: vecinos
+      lemma: el vecino
+      level: A2
+    - word: hacían
+      lemma: hacer
+      level: A1
+    - word: mucho
+      lemma: mucho
+      level: A1
+    - word: ruido
+      lemma: el ruido
+      level: A2
+    - word: música
+      lemma: la música
+      level: A1
+    - word: taladros
+      lemma: el taladro
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: bebé
+      lemma: el bebé
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: gritaba
+      lemma: gritar
+      level: A2
+    voice:
+    - text: Pepito era un perro muy pequeño.
+      emotion: amused
+    - text: Vivía en Madrid, en un piso con su familia.
+      emotion: neutral
+    - text: Todos los días quería dormir la siesta, pero no podía dormir.
+      emotion: sleepy
+    - text: 'Los vecinos hacían mucho ruido: música, taladros y un bebé que gritaba.'
+      emotion: angry
+  - key: s2
+    text: Pepito no podía dormir en el sofá. No podía dormir en la cama. No podía dormir en el baño. Un día, de repente, escuchó
+      silencio en el pasillo.
+    image_prompt: The same tiny white chihuahua with a red collar and one floppy ear tries three places in the flat — sofa,
+      bed and bathroom — with crossed-out thought bubbles, then pricks up his ears at a quiet corridor.
+    questions:
+    - key: s2q1
+      kind: who_what
+      prompt: ¿Dónde no podía dormir Pepito?
+      options: [en el sofá, en el parque, en el coche]
+      answer: en el sofá
+      target: no podía
+    - key: s2q2
+      kind: yes_no
+      prompt: ¿Podía dormir Pepito en el baño?
+      options: [sí, "no"]
+      answer: "no"
+      target: no podía
+    - key: s2q3
+      kind: either_or
+      prompt: ¿Qué escuchó Pepito de repente?
+      options: [silencio, música]
+      answer: silencio
+      target: de repente
+    - key: s2q4
+      kind: who_what
+      prompt: ¿Dónde escuchó Pepito silencio?
+      options: [en el pasillo, en la cocina, en la calle]
+      answer: en el pasillo
+    glossary:
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: podía
+      lemma: poder
+      level: A1
+    - word: dormir
+      lemma: dormir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: sofá
+      lemma: el sofá
+      level: A2
+    - word: cama
+      lemma: la cama
+      level: A1
+    - word: baño
+      lemma: el baño
+      level: A1
+    - word: día
+      lemma: el día
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: repente
+      lemma: el repente
+      level: B1
+    - word: escuchó
+      lemma: escuchar
+      level: A2
+    - word: silencio
+      lemma: el silencio
+      level: A2
+    - word: pasillo
+      lemma: el pasillo
+      level: A2
+    voice:
+    - text: Pepito no podía dormir en el sofá.
+      emotion: sleepy
+    - text: No podía dormir en la cama.
+      emotion: sleepy
+    - text: No podía dormir en el baño.
+      emotion: sleepy
+    - text: Un día, de repente, escuchó silencio en el pasillo.
+      emotion: surprised
+  - key: s3
+    text: Pepito fue a la calle. Fue a un parque, pero había 200 niños. Después fue a la biblioteca, pero un señor cantaba
+      muy fuerte. De repente, vio una puerta grande y tranquila.
+    image_prompt: The same tiny white chihuahua with a red collar and one floppy ear walks down a Madrid street, passes a
+      park full of 200 shouting children, peeks into a library, and spots a huge quiet door.
+    questions:
+    - key: s3q1
+      kind: either_or
+      prompt: ¿Pepito fue a la calle o fue al jardín?
+      options: [fue a la calle, fue al jardín]
+      answer: fue a la calle
+      target: fue a
+    - key: s3q2
+      kind: who_what
+      prompt: ¿Cuántos niños había en el parque?
+      options: [200 niños, 20 niños, 2 niños]
+      answer: 200 niños
+    - key: s3q3
+      kind: yes_no
+      prompt: ¿Había un señor que cantaba en la biblioteca?
+      options: [sí, "no"]
+      answer: sí
+    - key: s3q4
+      kind: either_or
+      prompt: ¿De repente vio una puerta grande o una ventana pequeña?
+      options: [una puerta grande, una ventana pequeña]
+      answer: una puerta grande
+      target: de repente
+    glossary:
+    - word: fue
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: calle
+      lemma: la calle
+      level: A1
+    - word: parque
+      lemma: el parque
+      level: A1
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: había
+      lemma: haber
+      level: A1
+    - word: niños
+      lemma: el niño
+      level: A1
+    - word: Después
+      lemma: después
+      level: A2
+    - word: biblioteca
+      lemma: la biblioteca
+      level: A2
+    - word: señor
+      lemma: el señor
+      level: A1
+    - word: cantaba
+      lemma: cantar
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: fuerte
+      lemma: fuerte
+      level: A2
+    - word: De
+      lemma: de
+      level: A1
+    - word: repente
+      lemma: el repente
+      level: B1
+    - word: vio
+      lemma: ver
+      level: A1
+    - word: puerta
+      lemma: la puerta
+      level: A1
+    - word: grande
+      lemma: grande
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: tranquila
+      lemma: tranquilo
+      level: A2
+    voice:
+    - text: Pepito fue a la calle.
+      emotion: neutral
+    - text: Fue a un parque, pero había 200 niños.
+      emotion: surprised
+    - text: Después fue a la biblioteca, pero un señor cantaba muy fuerte.
+      emotion: angry
+    - text: De repente, vio una puerta grande y tranquila.
+      emotion: surprised
+  - key: s4
+    text: 'Pepito fue a la puerta y entró. El lugar era enorme, oscuro y perfecto. Había una cama grande en el centro. De
+      repente, Pepito no podía creerlo: ¡qué silencio!'
+    image_prompt: The same tiny white chihuahua with a red collar and one floppy ear stands inside a huge dark concert hall,
+      looking extremely happy at a big bed in the middle of the stage.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿Pepito fue a la puerta grande?
+      options: [sí, "no"]
+      answer: sí
+      target: fue a
+    - key: s4q2
+      kind: either_or
+      prompt: ¿El lugar era oscuro o luminoso?
+      options: [oscuro, luminoso]
+      answer: oscuro
+    - key: s4q3
+      kind: who_what
+      prompt: ¿Qué había en el centro del lugar?
+      options: [una cama grande, una mesa pequeña, un piano]
+      answer: una cama grande
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿De repente Pepito no podía creerlo?
+      options: [sí, "no"]
+      answer: sí
+      target: no podía
+    glossary:
+    - word: fue
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: puerta
+      lemma: la puerta
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: entró
+      lemma: entrar
+      level: A2
+    - word: lugar
+      lemma: el lugar
+      level: A2
+    - word: era
+      lemma: ser
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: oscuro
+      lemma: oscuro
+      level: A2
+    - word: perfecto
+      lemma: perfecto
+      level: A2
+    - word: Había
+      lemma: haber
+      level: A1
+    - word: cama
+      lemma: la cama
+      level: A1
+    - word: grande
+      lemma: grande
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: centro
+      lemma: el centro
+      level: A1
+    - word: De
+      lemma: de
+      level: A1
+    - word: repente
+      lemma: el repente
+      level: B1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: podía
+      lemma: poder
+      level: A1
+    - word: creerlo
+      lemma: creer
+      level: A2
+    - word: qué
+      lemma: qué
+      level: A1
+    - word: silencio
+      lemma: el silencio
+      level: A2
+    voice:
+    - text: Pepito fue a la puerta y entró.
+      emotion: neutral
+    - text: El lugar era enorme, oscuro y perfecto.
+      emotion: whisper
+    - text: Había una cama grande en el centro.
+      emotion: neutral
+    - text: 'De repente, Pepito no podía creerlo: ¡qué silencio!'
+      emotion: surprised
+  - key: s5
+    text: 'Pepito se durmió en la cama grande. De repente, muchas luces y 1000 personas gritaron: «¡Concierto!». Pepito no
+      podía dormir allí. Fue a casa y durmió la siesta con tapones para los oídos.'
+    image_prompt: The same tiny white chihuahua with a red collar and one floppy ear sleeps on a stage bed while spotlights
+      shine and 1000 people scream; in the next picture he snores at home wearing big orange earplugs.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: ¿Cuántas personas gritaron?
+      options: [1000 personas, 100 personas, 10 personas]
+      answer: 1000 personas
+    - key: s5q2
+      kind: yes_no
+      prompt: ¿Pepito podía dormir en el concierto?
+      options: [sí, "no"]
+      answer: "no"
+      target: no podía
+    - key: s5q3
+      kind: either_or
+      prompt: ¿Pepito fue a casa o fue a la playa?
+      options: [fue a casa, fue a la playa]
+      answer: fue a casa
+      target: fue a
+    - key: s5q4
+      kind: either_or
+      prompt: ¿Qué usó Pepito para dormir?
+      options: [tapones para los oídos, una almohada]
+      answer: tapones para los oídos
+    - key: s5q5
+      kind: yes_no
+      prompt: ¿De repente había muchas luces?
+      options: [sí, "no"]
+      answer: sí
+      target: de repente
+    glossary:
+    - word: se
+      lemma: se
+      level: A1
+    - word: durmió
+      lemma: dormir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: cama
+      lemma: la cama
+      level: A1
+    - word: grande
+      lemma: grande
+      level: A1
+    - word: De
+      lemma: de
+      level: A1
+    - word: repente
+      lemma: el repente
+      level: B1
+    - word: muchas
+      lemma: mucho
+      level: A1
+    - word: luces
+      lemma: la luz
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: personas
+      lemma: la persona
+      level: A1
+    - word: gritaron
+      lemma: gritar
+      level: A2
+    - word: Concierto
+      lemma: el concierto
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: podía
+      lemma: poder
+      level: A1
+    - word: dormir
+      lemma: dormir
+      level: A1
+    - word: allí
+      lemma: allí
+      level: A1
+    - word: Fue
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: casa
+      lemma: la casa
+      level: A1
+    - word: siesta
+      lemma: la siesta
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: tapones
+      lemma: el tapón
+      level: B1
+    - word: para
+      lemma: para
+      level: A1
+    - word: oídos
+      lemma: el oído
+      level: B1
+    voice:
+    - text: Pepito se durmió en la cama grande.
+      emotion: sleepy
+    - text: 'De repente, muchas luces y 1000 personas gritaron: «¡Concierto!».'
+      emotion: surprised
+    - text: Pepito no podía dormir allí.
+      emotion: angry
+    - text: Fue a casa y durmió la siesta con tapones para los oídos.
+      emotion: amused
+  core_words:
+  - lemma: el perro
+    image_prompt: a small brown dog standing and looking up
+  - lemma: la siesta
+    image_prompt: a person lying on a sofa with eyes closed during the day
+  - lemma: el ruido
+    image_prompt: a person banging a pot with a spoon, with jagged sound lines around it
+  - lemma: la biblioteca
+    image_prompt: a quiet library with tall bookshelves and a reading table
+  - lemma: el concierto
+    image_prompt: a crowd with raised hands in front of a stage with colorful lights
+  - lemma: el tapón
+    image_prompt: a pair of orange foam earplugs
+generation:
+  prompt_version: tprs-v2
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 638
+  output_tokens: 4138
+  glossary_version: glossary-v2
+  glossary_input_tokens: 570
+  glossary_output_tokens: 14701
+  core_version: core-v1
+  core_input_tokens: 1546
+  core_output_tokens: 1827
+  voice_version: voice-v1
+  voice_input_tokens: 543
+  voice_output_tokens: 800
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 729
+  localize_ar_output_tokens: 6290
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 729
+  localize_en_output_tokens: 7672
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 729
+  localize_nl_output_tokens: 6875

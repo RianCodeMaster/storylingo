@@ -29,7 +29,7 @@ function Context({ card }: { card: ReviewCard }) {
 }
 
 export default function Review() {
-  const { lang, dict, fill } = useI18n();
+  const { lang, dict, fill, edition, home } = useI18n();
   const [userId, setUserId] = useState<string | null>(null);
   const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const [index, setIndex] = useState(0);
@@ -40,9 +40,9 @@ export default function Review() {
   useEffect(() => {
     (async () => {
       setUserId(await ensureLearner(lang));
-      setQueue(await loadDue(lang));
+      setQueue(await loadDue(lang, edition.target));
     })().catch((e) => setError(String(e.message ?? e)));
-  }, [lang]);
+  }, [lang, edition.target]);
 
   const card = queue?.[index];
 
@@ -64,7 +64,7 @@ export default function Review() {
   }
 
   const back = (
-    <Link href={`/${lang}`} className="muted">
+    <Link href={home} className="muted">
       {dict.common.back}
     </Link>
   );

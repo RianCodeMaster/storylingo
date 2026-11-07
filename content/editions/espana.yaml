@@ -1,0 +1,13 @@
+# Edition: Arabic speakers living in Spain. See duits.yaml. The Arabic texts still need a native speaker's review.
+slug: espana
+status: beta
+base: ar
+target: es
+name: الإسبانية بالقصص
+tagline: إسبانية تبقى في الذاكرة.
+intro: قصص قصيرة ومضحكة عن الحياة في إسبانيا. تؤدي الإيماءات، وتجيب بصوت عالٍ، وتردد بعد الراوي. خمس دقائق يوميًا.
+color: "#f4a261"
+stories:
+  tags: [algemeen]
+  levels: [A1, A2, B1]
+domain: null

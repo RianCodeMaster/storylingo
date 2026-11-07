@@ -1,0 +1,19 @@
+# Spanish (Spain): the structures stories practise, per level. Briefs take 2-3 of these (content/briefs/es/).
+# concept: reuse the German ones where the meaning is the same (want, cannot, afraid): one gesture for both languages.
+A1:
+  - {text: quiere, gloss: wil, concept: want}
+  - {text: no puede, gloss: kan niet, concept: cannot}
+  - {text: le gusta, gloss: houdt van / vindt leuk, concept: like}
+  - {text: tiene, gloss: heeft, concept: have}
+  - {text: hay, gloss: er is / er zijn, concept: there_is}
+A2:
+  - {text: quería, gloss: wilde, concept: want}
+  - {text: no podía, gloss: kon niet, concept: cannot}
+  - {text: tenía miedo, gloss: was bang, concept: afraid}
+  - {text: de repente, gloss: plotseling, concept: suddenly}
+  - {text: por fin, gloss: eindelijk, concept: finally}
+  - {text: fue a, gloss: ging naar, concept: went}
+B1:
+  - {text: aunque, gloss: hoewel, concept: although}
+  - {text: para que, gloss: zodat, concept: so_that}
+  - {text: si pudiera, gloss: als ik kon, concept: if_could}

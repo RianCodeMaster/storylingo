@@ -1,0 +1,200 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: كارمن، جدة تبلغ 92 عامًا من إشبيلية، تريد أن تصبح نجمة فلامنكو لكنها تخاف من المسرح، حتى يساعدها قطها الضخم على الرقص
+  على التلفاز بحذائها الصغير من 1960.
+summary_source: bb2215589c84c4d6
+gestures:
+  want: افتح ذراعيك على اتساعهما أمامك واسحب الهواء إلى صدرك بوجه طامع، كأنك تلتقط ما تريده بالضبط.
+  afraid: احتضن نفسك بقوة وارتجف كالجلّي وافتح عينيك جدًا بوجه خائف.
+  finally: ارفع ذراعيك في الهواء وانظر إلى السماء واصرخ «أخيرًا!» كأنك ربحت اليانصيب.
+targets:
+  quería:
+    gloss: كانت تريد
+    note: الماضي الناقص «quería» يعني «كانت تريد».
+  tenía miedo:
+    gloss: كانت خائفة
+    note: الإسبانية تقول حرفيًا «تملك خوفًا»؛ العربية تقول «خافت/كانت خائفة».
+  por fin:
+    gloss: أخيرًا
+    note: تركيب من كلمتين يعني «في النهاية/أخيرًا».
+scenes:
+- key: s1
+  source: fe2159a4bd996955
+  translation: 'كانت كارمن في الثانية والتسعين من عمرها، وتعيش في إشبيلية مع قطها، قط ضخم برتقالي اللون. كانت كارمن تريد أن
+    تصبح نجمة فلامنكو. لكنها كانت تخاف من المسرح وتخاف من الناس. وفي يوم من الأيام، رأى حفيدها إعلانًا في التلفزيون: «نبحث
+    عن نجوم فلامنكو».'
+  glosses:
+    tenía: كان عمرها
+    años: عامًا
+    "y": و
+    vivía: كانت تعيش
+    en: في
+    con: مع
+    su: الخاص بها
+    gato: القط
+    enorme: الضخم
+    naranja: برتقالي
+    quería: كانت تريد
+    ser: أن تكون
+    estrella: نجمة
+    del: من الـ
+    flamenco: الفلامنكو
+    Pero: لكن
+    miedo: خوف
+    escenario: المسرح
+    de: من
+    gente: الناس
+    día: يوم
+    nieto: الحفيد
+    vio: رأى
+    anuncio: إعلانًا
+    televisión: التلفزيون
+    Buscamos: نبحث عن
+    estrellas: نجوم
+- key: s2
+  source: 3f1d788b7bb2289d
+  translation: 'كانت كارمن تريد الذهاب إلى برنامج تلفزيوني وتريد أن ترقص أمام الجميع. لكنها كانت خائفة: كانت تخاف من ألف شيء!
+    في المطبخ كانت ترقص مع ألف موزة ومع قطها الضخم. قالت كارمن: «أريد أن أرقص في التلفزيون»، وبكت قليلًا.'
+  glosses:
+    quería: كانت تريد
+    ir: أن تذهب
+    al: إلى الـ
+    programa: البرنامج
+    de: الـ (إضافة)
+    televisión: التلفزيون
+    "y": و
+    bailar: أن ترقص
+    delante: أمام
+    todo: كل
+    mundo: العالم
+    Pero: لكن
+    tenía: كانت لديها
+    miedo: خوف
+    cosas: أشياء
+    En: في
+    cocina: المطبخ
+    bailaba: كانت ترقص
+    con: مع
+    plátanos: موزات
+    su: الخاص بها
+    gato: القط
+    enorme: الضخم
+    Quiero: أريد
+    tele: التلفزيون
+    dijo: قالت
+    lloró: بكت
+    poco: قليلًا
+- key: s3
+  source: 7f5f8c076f2f13b5
+  translation: 'اتصل حفيدها بالتلفزيون: «جدتي تريد أن ترقص». قال رجل التلفزيون: «حسنًا! غدًا، أخيرًا، سترقص جدتك في التلفزيون».
+    لكن كانت هناك مشكلة: حذاء كارمن كان من عام 1960 وكان صغيرًا جدًا. كانت كارمن خائفة، وقطها الضخم كان يلعق حذاءها الصغير.'
+  glosses:
+    Su: الخاص بها
+    nieto: الحفيد
+    llamó: اتصل
+    a: بـ
+    televisión: التلفزيون
+    Mi: الخاصة بي
+    abuela: الجدة
+    quiere: تريد
+    bailar: أن ترقص
+    hombre: الرجل
+    de: الـ (إضافة)
+    tele: التلفزيون
+    dijo: قال
+    Mañana: غدًا
+    por: بـ
+    fin: النهاية
+    tu: الخاصة بك
+    baila: ترقص
+    en: في
+    Pero: لكن
+    había: كان هناك
+    problema: مشكلة
+    zapatos: الأحذية
+    eran: كانت
+    "y": و
+    muy: جدًا
+    pequeños: صغيرة
+    tenía: كانت لديها
+    miedo: خوف
+    gato: القط
+    enorme: الضخم
+    lamía: كان يلعق
+    sus: الخاصة بها
+- key: s4
+  source: 0e9de9ed2c2f1aa7
+  translation: 'أخيرًا جاء اليوم: كانت كارمن على مسرح التلفزيون، مع ألف ضوء وألف شخص. كانت كارمن خائفة، خوفًا شديدًا! لكن
+    قطها الضخم كان معها، وكانت كارمن تريد أن ترقص. كانت تريد أن ترقص حقًّا. قالت كارمن: «أخيرًا!»، ورقصت بحذائها الصغير من
+    عام 1960.'
+  glosses:
+    Por: بـ
+    fin: النهاية
+    llegó: جاء
+    día: اليوم
+    estaba: كانت
+    en: على
+    escenario: المسرح
+    de: الـ (إضافة)
+    tele: التلفزيون
+    con: مع
+    focos: أضواء
+    "y": و
+    personas: أشخاص
+    tenía: كانت لديها
+    miedo: خوف
+    mucho: شديدًا
+    Pero: لكن
+    su: الخاص بها
+    gato: القط
+    enorme: الضخم
+    ella: هي
+    quería: كانت تريد
+    bailar: أن ترقص
+    verdad: الحقيقة
+    dijo: قالت
+    bailó: رقصت
+    sus: الخاصة بها
+    zapatos: حذاء
+    pequeños: الصغيرة
+- key: s5
+  source: 9295b364e387ea4a
+  translation: 'رقصت كارمن في التلفزيون وصرخ الجمهور: «أولي!». أخيرًا، أصبحت الجدة كارمن نجمة فلامنكو. لكن كانت هناك مفاجأة:
+    النجمة الحقيقية كانت قطها الضخم، الذي كان لديه عقد بقيمة 1000 يورو. وعندها كانت كارمن خائفة... من قطها الشهير!'
+  glosses:
+    bailó: رقصت
+    en: في
+    tele: التلفزيون
+    "y": و
+    público: الجمهور
+    gritó: صرخ
+    Por: بـ
+    fin: النهاية
+    abuela: الجدة
+    era: كانت
+    estrella: نجمة
+    del: الـ (إضافة)
+    flamenco: الفلامنكو
+    Pero: لكن
+    había: كان هناك
+    sorpresa: مفاجأة
+    verdadera: الحقيقية
+    su: الخاص بها
+    gato: القط
+    enorme: الضخم
+    que: الذي
+    tenía: كان لديه
+    contrato: عقد
+    de: بقيمة
+    euros: يورو
+    entonces: عندها
+    miedo: خوف
+    famoso: الشهير
+words:
+  bailar: يرقص
+  el gato: القط
+  la televisión: التلفاز
+  el escenario: المسرح
+  el zapato: الحذاء
+  el flamenco: الفلامنكو

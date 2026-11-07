@@ -44,10 +44,12 @@ function endOfToday(): string {
   return d.toISOString();
 }
 
-export async function countDue(): Promise<number> {
+/** Words due today in this target language: an edition only reviews its own language. */
+export async function countDue(target: string): Promise<number> {
   const { count, error } = await supabase()
     .from("user_lexeme_state")
-    .select("lexeme_id", { count: "exact", head: true })
+    .select("lexeme_id, lexemes!inner ( language_code )", { count: "exact", head: true })
+    .eq("lexemes.language_code", target)
     .lte("due_at", endOfToday());
   if (error) throw error;
   return count ?? 0;
@@ -69,17 +71,18 @@ async function contexts(): Promise<Map<string, { sentence: string; form: string 
   return found;
 }
 
-/** Today's cards, with meanings and gestures in the learner's base language. */
-export async function loadDue(base: string): Promise<ReviewCard[]> {
+/** Today's cards in the target language, with meanings and gestures in the learner's base language. */
+export async function loadDue(base: string, target: string): Promise<ReviewCard[]> {
   const [{ data, error }, context] = await Promise.all([
     supabase()
       .from("user_lexeme_state")
       .select(
         `lexeme_id, exposures, correct, ease, interval_days,
-         lexemes ( text, language_code, lexeme_glosses ( gloss ), audio:assets!audio_asset_id ( id, storage_path ),
+         lexemes!inner ( text, language_code, lexeme_glosses ( gloss ), audio:assets!audio_asset_id ( id, storage_path ),
                    image:assets!image_asset_id ( id, storage_path ),
                    concepts ( gestures ( emoji, gesture_localizations ( description ) ) ) )`,
       )
+      .eq("lexemes.language_code", target)
       .eq("lexemes.lexeme_glosses.base_language", base)
       .eq("lexemes.concepts.gestures.gesture_localizations.base_language", base)
       .lte("due_at", endOfToday())

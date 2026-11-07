@@ -103,7 +103,7 @@ function QuestionView(props: {
 
 export default function Player({ story, userId, onRestart }: { story: Story; userId: string; onRestart: () => void }) {
   // `base` is the learner's language (texts around the story), `lang` below the story's own language.
-  const { lang: base, dict, fill, plural } = useI18n();
+  const { dict, fill, plural, home } = useI18n();
   const [phase, setPhase] = useState<Phase>({ kind: story.words.length ? "words" : "intro" });
   const [line, setLine] = useState<string | null>(null);
   // A session starts when the learner presses "Begin", so just opening a story leaves no empty sessions.
@@ -421,7 +421,7 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
           <button className="primary" onClick={onRestart}>
             {dict.story.playAgain}
           </button>
-          <Link href={`/${base}`} className="muted">
+          <Link href={home} className="muted">
             {dict.common.back}
           </Link>
         </div>

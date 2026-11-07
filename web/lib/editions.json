@@ -1,0 +1,140 @@
+{
+  "almanya": {
+    "slug": "almanya",
+    "status": "beta",
+    "base": "ar",
+    "target": "de",
+    "name": "الألمانية بالقصص",
+    "tagline": "ألمانية تبقى في الذاكرة.",
+    "intro": "قصص قصيرة ومضحكة عن الحياة في ألمانيا. تؤدي الإيماءات، وتجيب بصوت عالٍ، وتردد بعد الراوي. خمس دقائق يوميًا.",
+    "color": "#2ec4b6",
+    "stories": {
+      "tags": [
+        "algemeen",
+        "alltag",
+        "behoerde",
+        "werk",
+        "geld",
+        "techniek",
+        "dieren"
+      ],
+      "levels": [
+        "A1",
+        "A2",
+        "B1"
+      ]
+    }
+  },
+  "duits": {
+    "slug": "duits",
+    "status": "live",
+    "base": "nl",
+    "target": "de",
+    "name": "Duits met verhalen",
+    "tagline": "Duits dat blijft hangen.",
+    "intro": "Korte, gekke verhalen in het Duits. Je doet de gebaren, antwoordt hardop en spreekt na. Vijf minuten per dag.",
+    "color": "#00d68f",
+    "stories": {
+      "tags": [
+        "algemeen",
+        "geld",
+        "werk",
+        "techniek",
+        "dieren"
+      ],
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ]
+    }
+  },
+  "espana": {
+    "slug": "espana",
+    "status": "beta",
+    "base": "ar",
+    "target": "es",
+    "name": "الإسبانية بالقصص",
+    "tagline": "إسبانية تبقى في الذاكرة.",
+    "intro": "قصص قصيرة ومضحكة عن الحياة في إسبانيا. تؤدي الإيماءات، وتجيب بصوت عالٍ، وتردد بعد الراوي. خمس دقائق يوميًا.",
+    "color": "#f4a261",
+    "stories": {
+      "tags": [
+        "algemeen"
+      ],
+      "levels": [
+        "A1",
+        "A2",
+        "B1"
+      ]
+    }
+  },
+  "german": {
+    "slug": "german",
+    "status": "beta",
+    "base": "en",
+    "target": "de",
+    "name": "German Stories",
+    "tagline": "German that sticks.",
+    "intro": "Short, crazy stories in German. You act out the gestures, answer out loud and repeat after the narrator. Five minutes a day.",
+    "color": "#4f9dff",
+    "stories": {
+      "tags": [
+        "algemeen",
+        "geld",
+        "werk",
+        "techniek",
+        "dieren"
+      ],
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ]
+    }
+  },
+  "spaans": {
+    "slug": "spaans",
+    "status": "beta",
+    "base": "nl",
+    "target": "es",
+    "name": "Spaans met verhalen",
+    "tagline": "Spaans dat blijft hangen.",
+    "intro": "Korte, gekke verhalen in het Spaans. Je doet de gebaren, antwoordt hardop en spreekt na. Vijf minuten per dag.",
+    "color": "#ff7849",
+    "stories": {
+      "tags": [
+        "algemeen"
+      ],
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ]
+    }
+  },
+  "spanish": {
+    "slug": "spanish",
+    "status": "beta",
+    "base": "en",
+    "target": "es",
+    "name": "Spanish Stories",
+    "tagline": "Spanish that sticks.",
+    "intro": "Short, crazy stories in Spanish. You act out the gestures, answer out loud and repeat after the narrator. Five minutes a day.",
+    "color": "#ff5e7e",
+    "stories": {
+      "tags": [
+        "algemeen"
+      ],
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ]
+    }
+  }
+}

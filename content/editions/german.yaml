@@ -1,0 +1,13 @@
+# Edition: English speakers learning German. See duits.yaml for every field.
+slug: german
+status: beta
+base: en
+target: de
+name: German Stories
+tagline: German that sticks.
+intro: Short, crazy stories in German. You act out the gestures, answer out loud and repeat after the narrator. Five minutes a day.
+color: "#4f9dff"
+stories:
+  tags: [algemeen, geld, werk, techniek, dieren]
+  levels: [A1, A2, B1, B2]
+domain: null

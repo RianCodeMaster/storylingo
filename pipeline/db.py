@@ -33,6 +33,24 @@ def sync_languages(languages: dict) -> list[str]:
     return changes
 
 
+def sync_pairs(pairs: dict[tuple[str, str], str]) -> list[str]:
+    """Make language_pairs follow the editions: a pair without an edition goes back to planned."""
+    changes = []
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute("select base_language, target_language, status from language_pairs")
+        old = {(b, t): s for b, t, s in cur.fetchall()}
+        for (base, target), status in {**{k: "planned" for k in old}, **pairs}.items():
+            if old.get((base, target)) == status:
+                continue
+            cur.execute(
+                """insert into language_pairs (base_language, target_language, status) values (%s, %s, %s)
+                   on conflict (base_language, target_language) do update set status = excluded.status""",
+                (base, target, status),
+            )
+            changes.append(f"pair {base}->{target}: {old.get((base, target), 'new')} -> {status}")
+    return changes
+
+
 def sync_story(doc, dry_run: bool = False) -> list[str]:
     """
     Make the database copy of one story match its files (content.StoryDoc), in place and in one transaction.

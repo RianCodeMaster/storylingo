@@ -123,7 +123,7 @@ def web_data() -> dict:
                 "done": lang.teacher.done,
             }
         if lang.recognition:
-            data[code]["recognition"] = {_plain(k): v for k, v in lang.recognition.items()}
+            data[code]["recognition"] = {_plain(k): _plain(v) for k, v in lang.recognition.items()}
     return data
 
 

@@ -1,0 +1,204 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Carmen, a 92-year-old grandmother from Seville, wants to be a flamenco star but is afraid of the stage, until her
+  enormous cat helps her dance on TV in her tiny 1960 shoes.
+summary_source: bb2215589c84c4d6
+gestures:
+  want: Open both arms wide in front of you and pull the air into your chest with a greedy face, like you are grabbing exactly
+    what you want.
+  afraid: Hug yourself tightly, shake like jelly and open your eyes very wide with a scared face.
+  finally: Throw both arms up in the air, look up at the sky and shout '¡por fin!' like you just won the lottery.
+targets:
+  quería:
+    gloss: wanted
+    note: 'Imperfect past: it describes a past wish or background, like English ''wanted'' here; compare preterite ''quise''.'
+  tenía miedo:
+    gloss: was afraid
+    note: Spanish uses tener miedo ('have fear'), not ser miedo; 'tenía' is imperfect 'was'.
+  por fin:
+    gloss: finally / at last
+    note: Fixed phrase; unlike English 'finally', it often stresses a long wait.
+scenes:
+- key: s1
+  source: fe2159a4bd996955
+  translation: 'Carmen was 92 years old and lived in Seville with her cat, a huge orange cat. Carmen wanted to be a flamenco
+    star. But she was afraid of the stage and afraid of people. One day, her grandson saw an advertisement on television:
+    ''We are looking for flamenco stars.'''
+  glosses:
+    tenía: had / was
+    años: years
+    "y": and
+    vivía: lived
+    en: in
+    con: with
+    su: her
+    gato: cat
+    enorme: huge
+    naranja: orange
+    quería: wanted
+    ser: to be
+    estrella: star
+    del: of the
+    flamenco: flamenco
+    Pero: but
+    miedo: fear
+    escenario: stage
+    de: of / from
+    gente: people
+    día: day
+    nieto: grandson
+    vio: saw
+    anuncio: advertisement
+    televisión: television
+    Buscamos: we look for
+    estrellas: stars
+- key: s2
+  source: 3f1d788b7bb2289d
+  translation: 'Carmen wanted to go on the TV programme and wanted to dance in front of everyone. But she was afraid: she
+    was afraid of 1,000 things! In the kitchen she danced with 1,000 bananas and with her huge cat. ''I want to dance on TV,''
+    said Carmen, and she cried a little.'
+  glosses:
+    quería: wanted
+    ir: to go
+    al: to the
+    programa: programme
+    de: of
+    televisión: television
+    "y": and
+    bailar: to dance
+    delante: in front
+    todo: all
+    mundo: world
+    Pero: but
+    tenía: had / was
+    miedo: fear
+    cosas: things
+    En: in
+    cocina: kitchen
+    bailaba: used to dance
+    con: with
+    plátanos: bananas
+    su: her
+    gato: cat
+    enorme: huge
+    Quiero: I want
+    tele: TV
+    dijo: said
+    lloró: cried
+    poco: a little
+- key: s3
+  source: 7f5f8c076f2f13b5
+  translation: 'Her grandson called the TV station: ''My grandmother wants to dance.'' The man from the TV said: ''OK! Tomorrow,
+    at last, your grandmother dances on TV.'' But there was a problem: Carmen''s shoes were from 1960 and were very small.
+    Carmen was afraid, and her huge cat was licking her small shoes.'
+  glosses:
+    Su: her
+    nieto: grandson
+    llamó: called
+    a: to
+    televisión: television
+    Mi: my
+    abuela: grandmother
+    quiere: wants
+    bailar: to dance
+    hombre: man
+    de: from / of
+    tele: TV
+    dijo: said
+    Mañana: tomorrow
+    por: by / for
+    fin: end
+    tu: your
+    baila: dances
+    en: on / in
+    Pero: but
+    había: there was
+    problema: problem
+    zapatos: shoes
+    eran: were
+    "y": and
+    muy: very
+    pequeños: small
+    tenía: had / was
+    miedo: fear
+    gato: cat
+    enorme: huge
+    lamía: was licking
+    sus: her
+- key: s4
+  source: 0e9de9ed2c2f1aa7
+  translation: 'At last the day arrived: Carmen was on the TV stage, with 1,000 spotlights and 1,000 people. Carmen was afraid,
+    very afraid! But her huge cat was with her, and Carmen wanted to dance. She wanted to dance for real. ''At last!'' said
+    Carmen, and she danced in her small 1960 shoes.'
+  glosses:
+    Por: for (with 'fin')
+    fin: end
+    llegó: arrived
+    día: day
+    estaba: was
+    en: "on"
+    escenario: stage
+    de: of
+    tele: TV
+    con: with
+    focos: spotlights
+    "y": and
+    personas: people
+    tenía: had / was
+    miedo: fear
+    mucho: a lot
+    Pero: but
+    su: her
+    gato: cat
+    enorme: huge
+    ella: her / she
+    quería: wanted
+    bailar: to dance
+    verdad: truth
+    dijo: said
+    bailó: danced
+    sus: her
+    zapatos: shoes
+    pequeños: small
+- key: s5
+  source: 9295b364e387ea4a
+  translation: 'Carmen danced on TV and the audience shouted: ''Olé!'' At last, Grandma Carmen was a flamenco star. But there
+    was a surprise: the real star was her huge cat, who had a contract for 1,000 euros. And then Carmen was afraid... of her
+    famous cat!'
+  glosses:
+    bailó: danced
+    en: "on"
+    tele: TV
+    "y": and
+    público: audience
+    gritó: shouted
+    Por: for (with 'fin')
+    fin: end
+    abuela: grandmother
+    era: was
+    estrella: star
+    del: of the
+    flamenco: flamenco
+    Pero: but
+    había: there was
+    sorpresa: surprise
+    verdadera: real
+    su: her
+    gato: cat
+    enorme: huge
+    que: who / that
+    tenía: had
+    contrato: contract
+    de: for / of
+    euros: euros
+    entonces: then
+    miedo: fear
+    famoso: famous
+words:
+  bailar: to dance
+  el gato: the cat
+  la televisión: the television
+  el escenario: the stage
+  el zapato: the shoe
+  el flamenco: flamenco music/dance

@@ -1,0 +1,131 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: أخطبوط ضخم في بلنسية يريد أن يطهو أكبر بايلا في العالم، لكنه بأذرعه الثماني يجعل كل شيء يطير، فيبيع أرزًا طائرًا.
+summary_source: 688bae9af18186d1
+gestures:
+  want: احتضن بايلا خيالية كبيرة، افرك بطنك، ومدّ ذراعيك نحوها بابتسامة جائعة.
+  cannot: حرّك أصابعك كأنها ثمانية أذرع أخطبوط، ثم اعقد ذراعيك على شكل إكس وحرّك رأسك بالنفي.
+  like: ربّت على قلبك بيديك، ابتسم ابتسامة كبيرة، وتمايل مثل أخطبوط سعيد.
+targets:
+  quiere:
+    gloss: يريد
+    note: في الإسبانية «quiere» للغائب، وفي العربية «يريد» تتغير حسب الشخص.
+  no puede:
+    gloss: لا يستطيع
+    note: النفي «no» قبل الفعل، مثل «لا» قبل الفعل في العربية.
+  le gusta:
+    gloss: يحب / تعجبه
+    note: التركيب «le gusta» يوافق الشيء المعجب به، مثل «يعجبه» في العربية.
+scenes:
+- key: s1
+  source: 91dbfbdc9de4849b
+  translation: باكو أخطبوط ضخم. يعيش في بلنسية. باكو يحب البايلا. باكو يريد أن يطهو أكبر بايلا في العالم.
+  glosses:
+    es: هو
+    pulpo: أخطبوط
+    enorme: ضخم
+    Vive: يعيش
+    en: في
+    A: علامة المفعول غير المباشر
+    le: ضمير المفعول غير المباشر
+    gusta: تعجبه / يحب
+    paella: البايلا
+    quiere: يريد
+    cocinar: يطهو
+    más: أكثر
+    grande: كبيرة
+    del: من الـ
+    mundo: العالم
+- key: s2
+  source: 30292c32d8094f7f
+  translation: 'يذهب باكو إلى السوق. يشتري 1000 كيلوغرام من الأرز. باكو يريد أن يطهو بايلاه الضخمة. لكنه لا يستطيع: لديه ثمانية
+    أذرع.'
+  glosses:
+    va: يذهب
+    al: إلى الـ
+    mercado: السوق
+    Compra: يشتري
+    kilos: كيلوغرامات
+    de: من
+    arroz: الأرز
+    quiere: يريد
+    cocinar: يطهو
+    su: ضمير الملكية
+    paella: البايلا
+    enorme: الضخمة
+    Pero: لكن
+    "no": لا
+    puede: يستطيع
+    tiene: لديه
+    brazos: أذرع
+- key: s3
+  source: 782d9e9519013c84
+  translation: باكو يضع الأرز في البايلا. باكو يحب النار. باكو يريد أن يحرك الأرز. لكنه لا يستطيع، والأرز يطير.
+  glosses:
+    pone: يضع
+    arroz: الأرز
+    en: في
+    paella: البايلا
+    A: علامة المفعول غير المباشر
+    le: ضمير المفعول غير المباشر
+    gusta: تعجبه / يحب
+    fuego: النار
+    quiere: يريد
+    mover: يحرك
+    Pero: لكن
+    "no": لا
+    puede: يستطيع
+    "y": و
+    vuela: يطير
+- key: s4
+  source: e72570ddd1023819
+  translation: باكو يحرك البايلا بثمانية أذرع. الأرز يطير في الهواء. باكو يحب الأرز الطائر. باكو يريد أن يتوقف، لكنه لا يستطيع.
+  glosses:
+    mueve: يحرك
+    paella: البايلا
+    con: بـ
+    brazos: أذرع
+    arroz: الأرز
+    vuela: يطير
+    por: في / عبر
+    aire: الهواء
+    A: علامة المفعول غير المباشر
+    le: ضمير المفعول غير المباشر
+    gusta: تعجبه / يحب
+    volador: الطائر
+    quiere: يريد
+    parar: يتوقف
+    pero: لكن
+    "no": لا
+    puede: يستطيع
+- key: s5
+  source: c43b9ce9bc76c019
+  translation: 'باكو لا يستطيع أن يطهو أكبر بايلا. هو حزين. لكن باكو يحب فكرة جديدة: يريد أن يبيع أرزًا طائرًا. الناس يحبونها.'
+  glosses:
+    "no": لا
+    puede: يستطيع
+    cocinar: يطهو
+    paella: البايلا
+    más: الأكثر / أكثر
+    grande: كبيرة
+    Está: هو / يوجد
+    triste: حزين
+    Pero: لكن
+    a: علامة المفعول غير المباشر
+    le: ضمير المفعول غير المباشر
+    gusta: تعجبه / يحب
+    idea: فكرة
+    nueva: جديدة
+    quiere: يريد
+    vender: يبيع
+    arroz: الأرز
+    volador: الطائر
+    gente: الناس
+words:
+  el pulpo: الأخطبوط
+  la paella: البايلا
+  cocinar: يطهو
+  el arroz: الأرز
+  el brazo: الذراع
+  volar: يطير

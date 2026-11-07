@@ -1,0 +1,14 @@
+# Edition: Arabic speakers new in Germany (daily life, offices, work, towards the B1 exam). See duits.yaml.
+# The Arabic texts still need a native speaker's review.
+slug: almanya
+status: beta
+base: ar
+target: de
+name: الألمانية بالقصص
+tagline: ألمانية تبقى في الذاكرة.
+intro: قصص قصيرة ومضحكة عن الحياة في ألمانيا. تؤدي الإيماءات، وتجيب بصوت عالٍ، وتردد بعد الراوي. خمس دقائق يوميًا.
+color: "#2ec4b6"
+stories:
+  tags: [algemeen, alltag, behoerde, werk, geld, techniek, dieren]
+  levels: [A1, A2, B1]
+domain: null

@@ -1,21 +1,15 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { DEFAULT_LOCALE, isLocale as known, LOCALE_COOKIE, LOCALES } from "./lib/locales";
 
-/** The learner's own choice from the language menu, otherwise the best match from the browser's Accept-Language. */
-function pickLocale(request: NextRequest): string {
-  const chosen = request.cookies.get(LOCALE_COOKIE)?.value;
-  if (known(chosen)) return chosen;
-  const wanted = (request.headers.get("accept-language") ?? "")
-    .split(",")
-    .map((part) => part.split(";")[0].trim().slice(0, 2).toLowerCase());
-  return wanted.find(known) ?? DEFAULT_LOCALE;
-}
+// Before editions, pages lived under a base language. Old links (bookmarks, the phone's home screen) land on the
+// edition that speaks that language and teaches German.
+const OLD_LANGUAGE_PATHS: Record<string, string> = { nl: "duits", en: "german", ar: "almanya" };
 
-/** Every page lives under a base language: /story/123 becomes /nl/story/123. */
+/** /nl/story/123 becomes /duits/story/123. Every other path is an edition or the overview at /. */
 export function proxy(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  if (LOCALES.some((locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`))) return;
-  request.nextUrl.pathname = `/${pickLocale(request)}${pathname === "/" ? "" : pathname}`;
+  const [, first, ...rest] = request.nextUrl.pathname.split("/");
+  const edition = OLD_LANGUAGE_PATHS[first];
+  if (!edition) return;
+  request.nextUrl.pathname = ["", edition, ...rest].join("/");
   return NextResponse.redirect(request.nextUrl);
 }
 

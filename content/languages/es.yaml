@@ -1,0 +1,55 @@
+# Spanish (Spain), a language you can learn. See de.yaml for what every field means.
+# Voice: Piper sharvard (female), flat (no emotions); davefx (male) is the alternative. Later ElevenLabs.
+
+code: es
+name: Español
+english: Spanish (Spain)
+roles: [target]
+direction: ltr
+script: latin
+speech_tag: es-ES
+plural_forms: [one, many, other]
+
+teacher:
+  yes:
+    - {text: "¡Sí! ¡Exacto!"}
+    - {text: "¡Muy bien!"}
+    - {text: "¡Fantástico!"}
+    - {text: "¡Sí, sí, sí!"}
+  no:
+    - {text: "¡No, no, no!"}
+    - {text: "¡Oh, no!"}
+  next: Siguiente
+  done: ¡Terminado!
+
+recognition:
+  uno: "1"
+  una: "1"
+  dos: "2"
+  tres: "3"
+  cuatro: "4"
+  cinco: "5"
+  seis: "6"
+  siete: "7"
+  ocho: "8"
+  nueve: "9"
+  diez: "10"
+  once: "11"
+  doce: "12"
+  veinte: "20"
+  cien: "100"
+  ciento: "100"
+  mil: "1000"
+  si: sí
+  vale: sí
+  claro: sí
+
+voice:
+  provider: piper
+  pause: 0.5
+  question: neutral
+  word: neutral
+  settings: {length_scale: 1.1, noise_w_scale: 0.9}
+  styles:
+    neutral: {model: es_ES-sharvard-medium, speaker: F}
+    # Alternative, the male voice:  neutral: {model: es_ES-davefx-medium}

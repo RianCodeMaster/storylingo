@@ -1,0 +1,160 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: كلب صغير في مدريد لا يستطيع أخذ قيلولة بسبب جيرانه المزعجين، فيجد مكانًا هادئًا مثاليًا، ثم يكتشف أنه مسرح حفل موسيقي.
+summary_source: 7d6a533ebc4acf6c
+gestures:
+  cannot: ادفع يديك كأنهما تلمسان جدارًا خفيًا وحرّك رأسك ببطء، مثل كلب صغير لا يستطيع المرور.
+  suddenly: اقفز في مكانك وافتح ذراعيك وافتح عينيك كثيرًا كأن مفاجأة ظهرت فجأة.
+  went: امشِ بإصبعين على راحة يدك خطوة خطوة، مثل كلب صغير يمشي إلى مكان جديد.
+targets:
+  no podía:
+    gloss: لم يستطع
+    note: الماضي الناقص مقابل «لم يستطع» في العربية.
+  de repente:
+    gloss: فجأة
+    note: عبارة ظرفية مثل «فجأة» في العربية.
+  fue a:
+    gloss: ذهب إلى
+    note: فعل ir في الماضي + a + مكان، مثل «ذهب إلى».
+scenes:
+- key: s1
+  source: ecdfb7d2bc97d52a
+  translation: 'كان بيبيتو كلبًا صغيرًا جدًا. كان يعيش في مدريد، في شقة مع عائلته. كل يوم كان يريد أن يأخذ قيلولة، لكنه لم
+    يستطع النوم. كان الجيران يصنعون ضجيجًا كثيرًا: موسيقى، ومثاقب، وطفل صغير يصرخ.'
+  glosses:
+    era: كان
+    perro: كلب
+    muy: جدًا
+    pequeño: صغير
+    Vivía: كان يعيش
+    en: في
+    piso: شقة
+    con: مع
+    su: الخاص به
+    familia: عائلة
+    Todos: كل
+    días: أيام
+    quería: كان يريد
+    dormir: ينام
+    siesta: قيلولة
+    pero: لكن
+    "no": لا
+    podía: كان يستطيع
+    vecinos: الجيران
+    hacían: كانوا يصنعون
+    mucho: كثيرًا
+    ruido: ضجيجًا
+    música: موسيقى
+    taladros: مثاقب
+    "y": و
+    bebé: طفل صغير
+    que: الذي
+    gritaba: كان يصرخ
+- key: s2
+  source: 8768239b20011a6c
+  translation: لم يستطع بيبيتو النوم على الأريكة. لم يستطع النوم على السرير. لم يستطع النوم في الحمام. وفي يوم من الأيام،
+    سمع فجأة صمتًا في الممر.
+  glosses:
+    "no": لا
+    podía: كان يستطيع
+    dormir: ينام
+    en: في/على
+    sofá: أريكة
+    cama: سرير
+    baño: حمام
+    día: يوم
+    de: من
+    repente: فجأة
+    escuchó: سمع
+    silencio: صمت
+    pasillo: ممر
+- key: s3
+  source: c27cf5c01d4c7352
+  translation: ذهب بيبيتو إلى الشارع. ذهب إلى حديقة، لكن كان هناك 200 طفل. بعد ذلك ذهب إلى المكتبة، لكن رجلًا كان يغني بصوت
+    عالٍ. وفجأة، رأى بابًا كبيرًا وهادئًا.
+  glosses:
+    fue: ذهب
+    a: إلى
+    calle: الشارع
+    parque: حديقة
+    pero: لكن
+    había: كان هناك
+    niños: أطفال
+    Después: بعد ذلك
+    biblioteca: مكتبة
+    señor: رجل
+    cantaba: كان يغني
+    muy: جدًا
+    fuerte: بصوت عال
+    De: من
+    repente: فجأة
+    vio: رأى
+    puerta: بابًا
+    grande: كبير
+    "y": و
+    tranquila: هادئًا
+- key: s4
+  source: 02dcb96ce6a05a3d
+  translation: 'ذهب بيبيتو إلى الباب ودخل. كان المكان ضخمًا ومظلمًا ومثاليًا. كان هناك سرير كبير في الوسط. وفجأة، لم يستطع
+    بيبيتو أن يصدق: يا له من صمت!'
+  glosses:
+    fue: ذهب
+    a: إلى
+    puerta: الباب
+    "y": و
+    entró: دخل
+    lugar: مكان
+    era: كان
+    enorme: ضخم
+    oscuro: مظلم
+    perfecto: مثالي
+    Había: كان هناك
+    cama: سرير
+    grande: كبير
+    en: في
+    centro: الوسط
+    De: من
+    repente: فجأة
+    "no": لا
+    podía: كان يستطيع
+    creerlo: يصدقه
+    qué: يا له من
+    silencio: صمت
+- key: s5
+  source: cab779f17baebc0e
+  translation: 'نام بيبيتو على السرير الكبير. فجأة، أضاءت أضواء كثيرة وصرخ 1000 شخص: «حفل موسيقي!». لم يستطع بيبيتو النوم
+    هناك. عاد إلى البيت ونام القيلولة مع سدادات للأذنين.'
+  glosses:
+    se: نفسه
+    durmió: نام
+    en: على
+    cama: السرير
+    grande: الكبير
+    De: من
+    repente: فجأة
+    muchas: كثيرة
+    luces: أضواء
+    "y": و
+    personas: أشخاص
+    gritaron: صرخوا
+    Concierto: حفل موسيقي
+    "no": لم
+    podía: كان يستطيع
+    dormir: ينام
+    allí: هناك
+    Fue: ذهب
+    a: إلى
+    casa: البيت
+    siesta: قيلولة
+    con: مع
+    tapones: سدادات
+    para: لـ
+    oídos: الأذنين
+words:
+  el perro: الكلب
+  la siesta: القيلولة
+  el ruido: الضجيج
+  la biblioteca: المكتبة
+  el concierto: الحفل الموسيقي
+  el tapón: السدادة

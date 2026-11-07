@@ -10,7 +10,6 @@
     "gesture": "Gesture: {gesture}"
   },
   "home": {
-    "tagline": "Crazy stories, big gestures, lots of questions.",
     "due": {
       "one": "🔁 {n} word to review",
       "other": "🔁 {n} words to review"
@@ -18,7 +17,52 @@
     "dueHint": "A quick review before you start a new story.",
     "empty": "No published stories yet.",
     "finished": "✓ Finished · tap to play again",
-    "language": "App language"
+    "yourStories": "Your stories"
+  },
+  "welcome": {
+    "start": "Start your first story",
+    "free": "Free, no account needed",
+    "soon": "The first stories are on their way.",
+    "choose": "Or pick a story yourself",
+    "pillars": {
+      "words": "Six words with pictures",
+      "speak": "Answer questions out loud",
+      "review": "Review at the right moment"
+    },
+    "method": "Built on six principles from language and memory research.",
+    "why": "Why it works",
+    "principles": {
+      "input": {
+        "title": "Understanding first",
+        "line": "You hear language you can just understand. That's how you learned your first language.",
+        "term": "Comprehensible input"
+      },
+      "bizarre": {
+        "title": "Weird sticks",
+        "line": "You won't forget a hamster on the stock market.",
+        "term": "Bizarreness effect"
+      },
+      "body": {
+        "title": "Your body remembers",
+        "line": "Every new structure comes with a gesture you act out.",
+        "term": "Enactment effect"
+      },
+      "picture": {
+        "title": "Word plus picture",
+        "line": "Every key word gets its own picture.",
+        "term": "Dual coding"
+      },
+      "speak": {
+        "title": "Speak yourself",
+        "line": "You answer out loud and repeat after the narrator.",
+        "term": "Retrieval practice, shadowing"
+      },
+      "timing": {
+        "title": "Review on time",
+        "line": "What you're about to forget comes back right then.",
+        "term": "Spaced repetition"
+      }
+    }
   },
   "story": {
     "loading": "Loading story…",

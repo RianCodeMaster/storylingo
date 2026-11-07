@@ -1,0 +1,23 @@
+# An edition: the app as one niche sees it, at its own address (/duits). Copy this file for a new niche.
+#
+# status:   draft (only you, by URL) / beta (testing) / live (sold). The language pair base -> target is on offer
+#           as long as one edition of it is beta or live; `storylingo.py generate` then translates new stories into it.
+# name, tagline, intro: the welcome page, in the base language. Short and concrete: who it is for, what it gives.
+#           The method (three pillars, "why it works") is the same everywhere: web/dictionaries/<base>.json, welcome.
+# color:    the edition's main color (buttons, progress, highlights).
+# stories:  which published stories of the target language belong here: any of these tags, at one of these levels.
+# domain:   later its own domain name, e.g. duits-met-verhalen.nl (same app).
+# After editing: storylingo.py sync, then storylingo.py check.
+
+slug: duits
+status: live
+base: nl
+target: de
+name: Duits met verhalen
+tagline: Duits dat blijft hangen.
+intro: Korte, gekke verhalen in het Duits. Je doet de gebaren, antwoordt hardop en spreekt na. Vijf minuten per dag.
+color: "#00d68f"
+stories:
+  tags: [algemeen, geld, werk, techniek, dieren]
+  levels: [A1, A2, B1, B2]
+domain: null

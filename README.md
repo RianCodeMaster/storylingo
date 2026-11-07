@@ -13,8 +13,8 @@ Taal leren met absurde verhalen, gebaren en circling-vragen (TPRS). Fase 1 draai
    ```bash
    npm run dev -- -H 0.0.0.0
    ```
-   Open http://localhost:3000. Je komt op de taal van je browser (`/nl`, `/en` of `/ar`); bovenaan de startpagina kies je
-   een andere taal, en die keuze onthoudt de app. Op je telefoon (zelfde wifi): `http://<ip-van-je-pc>:3000`.
+   Open http://localhost:3000: het overzicht van alle **edities**. Elke editie heeft een eigen adres (`/duits`,
+   `/almanya`, `/spaans` …) met een eigen welkomstpagina, taal en kleur; marketing linkt alleen naar dat adres. Op je telefoon (zelfde wifi): `http://<ip-van-je-pc>:3000`.
 
 Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 
@@ -25,6 +25,7 @@ Alle inhoud staat als leesbare bestanden in **`content/`**; de database is een k
 
 ```
 content/languages/<code>.yaml          alles van één taal: naam, richting, stem, zinnen van de leraar, getallen
+content/editions/<slug>.yaml           één niche: basistaal, doeltaal, naam, slogan, intro, kleur, welke verhalen
 content/briefs/<taal>/<slug>.yaml      de opdracht voor een nieuw verhaal
 content/stories/<taal>/<slug>/         één verhaal: story.yaml (verhaal + vragen) en <basistaal>.yaml (vertalingen)
 web/dictionaries/<code>.json           de knoppen en meldingen van de app

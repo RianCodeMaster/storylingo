@@ -18,6 +18,7 @@ from pathlib import Path
 
 import content
 import db
+import editions
 import languages
 from localize import count, gaps
 from mediajobs import media_jobs
@@ -107,11 +108,27 @@ def media_gaps(doc) -> list[str]:
             f"  (fix: storylingo.py media {doc.slug})"]
 
 
+def edition_gaps(stories) -> list[str]:
+    problems = []
+    if not editions.WEB_FILE.exists() or editions.WEB_FILE.read_text(encoding="utf-8") != editions.web_json():
+        problems.append("web/lib/editions.json is out of date (fix: storylingo.py sync)")
+    for e in editions.all_editions().values():
+        if e.status == "draft":
+            continue
+        mine = [d for d in stories if d.status == "published" and d.brief.language == e.target
+                and set(d.tags) & set(e.stories.tags) and d.brief.level in e.stories.levels]
+        if not mine:
+            problems.append(f"{e.slug} ({e.status}): no published {e.target} story with tags {e.stories.tags} "
+                            f"at {e.stories.levels} (fix: write a brief in content/briefs/{e.target}/ and generate it)")
+    return problems
+
+
 def check(base: str | None = None) -> bool:
     """Print every problem per area; True when there are none."""
     areas: dict[str, list[str]] = {}
     try:
         all_languages = languages.all_languages()
+        editions.all_editions()
         stories = content.all_stories()
     except SystemExit as e:  # a file that does not read stops everything else
         print(f"✗ content files\n    {e}")
@@ -122,6 +139,7 @@ def check(base: str | None = None) -> bool:
         stories = [doc for doc in stories if base in offered[doc.slug]]
 
     areas["content files"] = [p for doc in stories for p in story_rules(doc)]
+    areas["editions"] = edition_gaps(stories) if not base else []
     areas["app setup"] = [p for b in bases for p in app_gaps(b)]
     areas["app texts"] = [f"[{b}] {p}" for b in bases for p in dictionary_gaps(b)]
     areas["translations"] = [p for doc in stories for b in sorted(offered[doc.slug]) if b in bases

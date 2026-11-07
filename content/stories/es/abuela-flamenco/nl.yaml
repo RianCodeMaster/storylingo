@@ -1,0 +1,203 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Carmen, een 92-jarige oma uit Sevilla, wil een flamencoster worden maar is bang voor het podium, tot haar enorme
+  kat haar op tv laat dansen in haar kleine schoenen uit 1960.
+summary_source: bb2215589c84c4d6
+gestures:
+  want: Open je armen wijd voor je en trek de lucht met een hebberig gezicht naar je borst, alsof je precies pakt wat je wilt.
+  afraid: Sla je armen stevig om jezelf, bibber als pudding en zet je ogen heel wijd op met een bang gezicht.
+  finally: Gooi je armen in de lucht, kijk naar boven en roep '¡por fin!' alsof je net de loterij hebt gewonnen.
+targets:
+  quería:
+    gloss: wilde
+    note: Onvoltooid verleden tijd, net als Nederlands 'wilde'.
+  tenía miedo:
+    gloss: was bang
+    note: Letterlijk 'had angst'; Nederlands zegt 'was bang'.
+  por fin:
+    gloss: eindelijk
+    note: Vaste uitdrukking; in het Nederlands één woord.
+scenes:
+- key: s1
+  source: fe2159a4bd996955
+  translation: 'Carmen was 92 en woonde in Sevilla met haar kat, een enorme oranje kat. Carmen wilde een flamencoster worden.
+    Maar ze was bang voor het podium en bang voor mensen. Op een dag zag haar kleinzoon een advertentie op televisie: ''We
+    zoeken flamencosterren''.'
+  glosses:
+    tenía: had
+    años: jaar
+    "y": en
+    vivía: woonde
+    en: in
+    con: met
+    su: haar
+    gato: kat
+    enorme: enorme
+    naranja: oranje
+    quería: wilde
+    ser: worden
+    estrella: ster
+    del: voor het
+    flamenco: flamenco
+    Pero: maar
+    miedo: bang
+    escenario: podium
+    de: voor
+    gente: mensen
+    día: dag
+    nieto: kleinzoon
+    vio: zag
+    anuncio: advertentie
+    televisión: televisie
+    Buscamos: we zoeken
+    estrellas: sterren
+- key: s2
+  source: 3f1d788b7bb2289d
+  translation: 'Carmen wilde naar het televisieprogramma en ze wilde voor iedereen dansen. Maar ze was bang: ze was bang voor
+    wel 1000 dingen! In de keuken danste ze met 1000 bananen en met haar enorme kat. ''Ik wil op tv dansen,'' zei Carmen,
+    en ze huilde een beetje.'
+  glosses:
+    quería: wilde
+    ir: gaan
+    al: naar de
+    de: van
+    televisión: televisie
+    "y": en
+    bailar: dansen
+    delante: voor
+    todo: hele
+    mundo: wereld
+    Pero: maar
+    tenía: had
+    miedo: bang
+    cosas: dingen
+    En: in
+    cocina: keuken
+    bailaba: danste
+    con: met
+    plátanos: bananen
+    su: haar
+    gato: kat
+    enorme: enorme
+    Quiero: ik wil
+    tele: tv
+    dijo: zei
+    lloró: huilde
+    poco: beetje
+    programa: televisieprogramma
+- key: s3
+  source: 7f5f8c076f2f13b5
+  translation: 'Haar kleinzoon belde de televisie: ''Mijn oma wil dansen.'' De man van de tv zei: ''Oké! Morgen danst je oma
+    eindelijk op tv.'' Maar er was een probleem: Carmen''s schoenen waren uit 1960 en ze waren heel klein. Carmen was bang,
+    en haar enorme kat likte aan haar kleine schoenen.'
+  glosses:
+    Su: haar
+    nieto: kleinzoon
+    llamó: belde
+    a: naar
+    televisión: televisie
+    Mi: mijn
+    abuela: oma
+    quiere: wil
+    bailar: dansen
+    hombre: man
+    de: van
+    tele: tv
+    dijo: zei
+    Mañana: morgen
+    por: voor
+    fin: einde
+    tu: jouw
+    baila: danst
+    en: op
+    Pero: maar
+    había: er was
+    problema: probleem
+    zapatos: schoenen
+    eran: waren
+    "y": en
+    muy: heel
+    pequeños: klein
+    tenía: was
+    miedo: bang
+    gato: kat
+    enorme: enorme
+    lamía: likte
+    sus: haar
+- key: s4
+  source: 0e9de9ed2c2f1aa7
+  translation: 'Eindelijk kwam de dag: Carmen stond op het podium van de tv, met 1000 schijnwerpers en 1000 mensen. Carmen
+    was bang, heel bang! Maar haar enorme kat was bij haar, en Carmen wilde dansen. Ze wilde echt dansen. ''Eindelijk!'' zei
+    Carmen, en ze danste in haar kleine schoenen uit 1960.'
+  glosses:
+    Por: voor
+    fin: einde
+    llegó: kwam
+    día: dag
+    estaba: stond
+    en: op
+    escenario: podium
+    de: van
+    tele: tv
+    con: met
+    focos: schijnwerpers
+    "y": en
+    personas: mensen
+    tenía: was
+    miedo: bang
+    mucho: heel
+    Pero: maar
+    su: haar
+    gato: kat
+    enorme: enorme
+    ella: haar
+    quería: wilde
+    bailar: dansen
+    verdad: echt
+    dijo: zei
+    bailó: danste
+    sus: haar
+    zapatos: schoenen
+    pequeños: kleine
+- key: s5
+  source: 9295b364e387ea4a
+  translation: 'Carmen danste op tv en het publiek riep: ''Olé!'' Eindelijk was oma Carmen een flamencoster. Maar er was een
+    verrassing: de echte ster was haar enorme kat, die een contract van 1000 euro had. En toen was Carmen bang... voor haar
+    beroemde kat!'
+  glosses:
+    bailó: danste
+    en: op
+    tele: tv
+    "y": en
+    público: publiek
+    gritó: riep
+    Por: voor
+    fin: einde
+    abuela: oma
+    era: was
+    estrella: ster
+    del: van de
+    flamenco: flamenco
+    Pero: maar
+    había: er was
+    sorpresa: verrassing
+    verdadera: echte
+    su: haar
+    gato: kat
+    enorme: enorme
+    que: die
+    tenía: had
+    contrato: contract
+    de: van
+    euros: euro
+    entonces: toen
+    miedo: bang
+    famoso: beroemde
+words:
+  bailar: dansen
+  el gato: de kat
+  la televisión: de televisie
+  el escenario: het podium
+  el zapato: de schoen
+  el flamenco: de flamenco

@@ -60,6 +60,50 @@
     "base": true,
     "target": false
   },
+  "es": {
+    "name": "Español",
+    "direction": "ltr",
+    "script": "latin",
+    "speechTag": "es-ES",
+    "base": false,
+    "target": true,
+    "teacher": {
+      "yes": [
+        "¡Sí! ¡Exacto!",
+        "¡Muy bien!",
+        "¡Fantástico!",
+        "¡Sí, sí, sí!"
+      ],
+      "no": [
+        "¡No, no, no!",
+        "¡Oh, no!"
+      ],
+      "next": "Siguiente",
+      "done": "¡Terminado!"
+    },
+    "recognition": {
+      "uno": "1",
+      "una": "1",
+      "dos": "2",
+      "tres": "3",
+      "cuatro": "4",
+      "cinco": "5",
+      "seis": "6",
+      "siete": "7",
+      "ocho": "8",
+      "nueve": "9",
+      "diez": "10",
+      "once": "11",
+      "doce": "12",
+      "veinte": "20",
+      "cien": "100",
+      "ciento": "100",
+      "mil": "1000",
+      "si": "si",
+      "vale": "si",
+      "claro": "si"
+    }
+  },
   "nl": {
     "name": "Nederlands",
     "direction": "ltr",

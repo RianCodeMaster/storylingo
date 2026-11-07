@@ -1,0 +1,11 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+slug: perro-siesta
+language: es
+level: A2
+tags: [algemeen]
+theme: Un perro pequeño en Madrid no podía dormir la siesta porque los vecinos hacían ruido; de repente encuentra el lugar perfecto, pero es el escenario de un concierto
+scenes: 5
+targets:
+  - {text: no podía, gloss: kon niet, concept: cannot, kind: phrase}
+  - {text: de repente, gloss: plotseling, concept: suddenly, kind: phrase}
+  - {text: fue a, gloss: ging naar, concept: went, kind: phrase}

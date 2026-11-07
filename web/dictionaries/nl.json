@@ -10,7 +10,6 @@
     "gesture": "Gebaar: {gesture}"
   },
   "home": {
-    "tagline": "Gekke verhalen, grote gebaren, heel veel vragen.",
     "due": {
       "one": "🔁 {n} woord om te herhalen",
       "other": "🔁 {n} woorden om te herhalen"
@@ -18,7 +17,52 @@
     "dueHint": "Even herhalen voordat je een nieuw verhaal begint.",
     "empty": "Nog geen gepubliceerde verhalen.",
     "finished": "✓ Uitgespeeld · tik om opnieuw te doen",
-    "language": "Taal van de app"
+    "yourStories": "Jouw verhalen"
+  },
+  "welcome": {
+    "start": "Begin je eerste verhaal",
+    "free": "Gratis, zonder account",
+    "soon": "De eerste verhalen komen eraan.",
+    "choose": "Of kies zelf een verhaal",
+    "pillars": {
+      "words": "Zes woorden met plaatje",
+      "speak": "Vragen hardop beantwoorden",
+      "review": "Herhaling op het juiste moment"
+    },
+    "method": "Gebouwd op zes principes uit taal- en geheugenonderzoek.",
+    "why": "Waarom het werkt",
+    "principles": {
+      "input": {
+        "title": "Eerst begrijpen",
+        "line": "Je hoort taal die je nét begrijpt. Zo leerde je ook je moedertaal.",
+        "term": "Comprehensible input"
+      },
+      "bizarre": {
+        "title": "Gek blijft hangen",
+        "line": "Een hamster op de beurs vergeet je niet.",
+        "term": "Bizarreness-effect"
+      },
+      "body": {
+        "title": "Je lichaam onthoudt mee",
+        "line": "Bij elke nieuwe structuur doe je een gebaar.",
+        "term": "Enactment-effect"
+      },
+      "picture": {
+        "title": "Woord plus beeld",
+        "line": "Elk kernwoord krijgt een plaatje.",
+        "term": "Dual coding"
+      },
+      "speak": {
+        "title": "Zelf spreken",
+        "line": "Je antwoordt hardop en spreekt de verteller na.",
+        "term": "Retrieval practice, shadowing"
+      },
+      "timing": {
+        "title": "Herhalen op tijd",
+        "line": "Wat je bijna vergeet, komt precies dan terug.",
+        "term": "Spaced repetition"
+      }
+    }
   },
   "story": {
     "loading": "Verhaal laden…",

@@ -17,20 +17,7 @@ export interface Language {
 }
 
 export const LANGUAGES = languages as Record<string, Language>;
-export const DEFAULT_LOCALE = "nl";
 
-/** The base languages, the default first: the proxy, the pages and the language menu. */
-export const LOCALES = Object.keys(LANGUAGES)
-  .filter((code) => LANGUAGES[code].base)
-  .sort((a, b) => Number(b === DEFAULT_LOCALE) - Number(a === DEFAULT_LOCALE));
-
-export const isLocale = (code: string | undefined): code is string => !!code && LOCALES.includes(code);
+// Which language a page speaks follows from its edition (lib/editions.ts), so there is no language menu.
 export const direction = (code: string) => LANGUAGES[code]?.direction ?? "ltr";
 export const script = (code: string) => LANGUAGES[code]?.script ?? "latin";
-
-/** Set when the learner picks a language in the menu; the proxy prefers it over the browser's language. */
-export const LOCALE_COOKIE = "lang";
-
-export function rememberLocale(locale: string) {
-  document.cookie = `${LOCALE_COOKIE}=${locale}; path=/; max-age=${60 * 60 * 24 * 365}; samesite=lax`;
-}

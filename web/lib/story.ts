@@ -1,4 +1,5 @@
 import { type AssetRef, assetUrl, type One, one } from "./assets";
+import type { Edition } from "./editions";
 import { supabase } from "./supabase";
 import type { CoreWord, GlossEntry, Question, Scene, Sentence, Story, StoryCard, Target } from "./types";
 
@@ -32,13 +33,20 @@ interface Row extends Omit<StoryCard, "summary"> {
   scenes: SceneRow[];
 }
 
-/** The published stories that have a layer in this base language, newest first. */
-export async function listStories(base: string): Promise<StoryCard[]> {
+/**
+ * The published stories of an edition: its target language, one of its tags and levels, and a layer in its base
+ * language. Easiest first, so the first one is where a new learner starts.
+ */
+export async function listStories(edition: Edition): Promise<StoryCard[]> {
   const { data, error } = await supabase()
     .from("stories")
     .select("id, title, cefr_level, language_code, story_localizations!inner ( summary )")
-    .eq("story_localizations.base_language", base)
-    .order("published_at", { ascending: false })
+    .eq("story_localizations.base_language", edition.base)
+    .eq("language_code", edition.target)
+    .overlaps("tags", edition.stories.tags)
+    .in("cefr_level", edition.stories.levels)
+    .order("cefr_level")
+    .order("published_at")
     .returns<Row[]>();
   if (error) throw error;
   return data.map(({ story_localizations, ...s }) => ({ ...s, summary: story_localizations[0]?.summary ?? null }));

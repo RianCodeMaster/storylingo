@@ -1,0 +1,13 @@
+# Edition: Dutch speakers learning Spanish (Spain). See duits.yaml for every field.
+slug: spaans
+status: beta
+base: nl
+target: es
+name: Spaans met verhalen
+tagline: Spaans dat blijft hangen.
+intro: Korte, gekke verhalen in het Spaans. Je doet de gebaren, antwoordt hardop en spreekt na. Vijf minuten per dag.
+color: "#ff7849"
+stories:
+  tags: [algemeen]
+  levels: [A1, A2, B1, B2]
+domain: null

@@ -1,9 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_Arabic, Plus_Jakarta_Sans } from "next/font/google";
+import type { CSSProperties } from "react";
+import { EDITIONS } from "@/lib/editions";
 import { I18nProvider } from "@/lib/i18n";
 import "../globals.css";
-import { direction, LOCALES, script } from "@/lib/locales";
-import { getDictionary } from "./dictionaries";
+import { direction, script } from "@/lib/locales";
+import { getEdition } from "./dictionaries";
 
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
@@ -19,34 +21,37 @@ const arabic = Noto_Sans_Arabic({
   adjustFontFallback: false,
 });
 
-// Every base language is its own set of pages: /nl/…, later /en/… and /ar/….
+// Every edition is its own set of pages: /duits/…, /almanya/…, /spaans/….
 export function generateStaticParams() {
-  return LOCALES.map((lang) => ({ lang }));
+  return Object.keys(EDITIONS).map((edition) => ({ edition }));
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const { dict } = await getDictionary();
-  return { title: "StoryLingo", description: dict.meta.description, icons: { icon: "/icon.svg" } };
+  const { edition } = await getEdition();
+  return { title: edition.name, description: edition.tagline, icons: { icon: "/icon.svg" } };
 }
 
 export const viewport: Viewport = {
   themeColor: "#0F172A",
 };
 
-export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
-  const { locale, dict } = await getDictionary();
+export default async function EditionLayout({ children }: LayoutProps<"/[edition]">) {
+  const { edition, dict } = await getEdition();
+  const base = edition.base;
   return (
     // Browser extensions (Grammarly, translators) add attributes to <html> and <body> before React starts;
     // suppressHydrationWarning ignores those two elements only, not the app inside them.
     <html
-      lang={locale}
-      dir={direction(locale)}
-      data-script={script(locale)}
+      lang={base}
+      dir={direction(base)}
+      data-script={script(base)}
       className={`${jakarta.variable} ${arabic.variable}`}
+      // The edition's own color for buttons, progress and highlights.
+      style={{ "--primary": edition.color } as CSSProperties}
       suppressHydrationWarning
     >
       <body suppressHydrationWarning>
-        <I18nProvider lang={locale} dict={dict}>
+        <I18nProvider lang={base} dict={dict} edition={edition}>
           {children}
         </I18nProvider>
       </body>

@@ -1,0 +1,136 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Een enorme octopus in Valencia wil de grootste paella ter wereld koken, maar met acht armen vliegt alles weg, dus
+  verkoopt hij vliegende rijst.
+summary_source: 688bae9af18186d1
+gestures:
+  want: Omhels een denkbeeldige reuzenpaella, wrijf over je buik en strek je armen hongerig uit.
+  cannot: Beweeg al je vingers als acht octopusarmen, kruis dan je armen in een grote X en schud nee.
+  like: Klop met beide handen op je hart, lach breed en wiebel als een blije octopus.
+targets:
+  quiere:
+    gloss: wil
+    note: Spaans gebruikt 'quiere' voor hij/zij; Nederlands zegt 'hij/zij wil'.
+  no puede:
+    gloss: kan niet
+    note: In het Spaans staat 'no' vóór het werkwoord; in het Nederlands zeg je 'kan niet'.
+  le gusta:
+    gloss: houdt van
+    note: Letterlijk 'het bevalt hem/haar'; Nederlands zegt 'hij/zij houdt van'.
+scenes:
+- key: s1
+  source: 91dbfbdc9de4849b
+  translation: Paco is een enorme octopus. Hij woont in Valencia. Paco houdt van paella. Paco wil de grootste paella ter wereld
+    koken.
+  glosses:
+    es: is
+    pulpo: octopus
+    enorme: enorme
+    Vive: woont
+    en: in
+    A: voor
+    le: hem
+    gusta: bevalt
+    paella: paella
+    quiere: wil
+    cocinar: koken
+    más: meest
+    grande: groot
+    del: van de
+    mundo: wereld
+- key: s2
+  source: 30292c32d8094f7f
+  translation: 'Paco gaat naar de markt. Hij koopt 1000 kilo rijst. Paco wil zijn enorme paella koken. Maar hij kan het niet:
+    hij heeft acht armen.'
+  glosses:
+    va: gaat
+    al: naar de
+    mercado: markt
+    Compra: koopt
+    kilos: kilo
+    de: van
+    arroz: rijst
+    quiere: wil
+    cocinar: koken
+    su: zijn
+    paella: paella
+    enorme: enorme
+    Pero: maar
+    "no": niet
+    puede: kan
+    tiene: heeft
+    brazos: armen
+- key: s3
+  source: 782d9e9519013c84
+  translation: Paco doet de rijst in de paella. Paco houdt van vuur. Paco wil de rijst roeren. Maar hij kan het niet, en de
+    rijst vliegt weg.
+  glosses:
+    pone: doet
+    arroz: rijst
+    en: in
+    paella: paella
+    A: voor
+    le: hem
+    gusta: bevalt
+    fuego: vuur
+    quiere: wil
+    mover: roeren
+    Pero: maar
+    "no": niet
+    puede: kan
+    "y": en
+    vuela: vliegt weg
+- key: s4
+  source: e72570ddd1023819
+  translation: Paco beweegt de paella met acht armen. De rijst vliegt door de lucht. Paco houdt van vliegende rijst. Paco
+    wil stoppen, maar hij kan het niet.
+  glosses:
+    mueve: beweegt
+    paella: paella
+    con: met
+    brazos: armen
+    arroz: rijst
+    vuela: vliegt
+    por: door
+    aire: lucht
+    A: voor
+    le: hem
+    gusta: bevalt
+    volador: vliegend
+    quiere: wil
+    parar: stoppen
+    pero: maar
+    "no": niet
+    puede: kan
+- key: s5
+  source: c43b9ce9bc76c019
+  translation: 'Paco kan de grootste paella niet koken. Hij is verdrietig. Maar Paco vindt een nieuw idee leuk: hij wil vliegende
+    rijst verkopen. De mensen vinden het leuk.'
+  glosses:
+    "no": niet
+    puede: kan
+    cocinar: koken
+    paella: paella
+    más: meest
+    grande: groot
+    Está: is
+    triste: verdrietig
+    Pero: maar
+    a: voor
+    le: hem
+    gusta: bevalt
+    idea: idee
+    nueva: nieuwe
+    quiere: wil
+    vender: verkopen
+    arroz: rijst
+    volador: vliegende
+    gente: mensen
+words:
+  el pulpo: de octopus
+  la paella: de paella
+  cocinar: koken
+  el arroz: de rijst
+  el brazo: de arm
+  volar: vliegen
