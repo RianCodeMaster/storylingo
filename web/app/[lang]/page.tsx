@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
-import { LOCALE_NAMES, LOCALES, rememberLocale } from "@/lib/locales";
+import { LANGUAGES, LOCALES, rememberLocale } from "@/lib/locales";
 import { countDue } from "@/lib/review";
 import { finishedStories, listStories } from "@/lib/story";
 import { ensureLearner } from "@/lib/supabase";
@@ -32,10 +32,10 @@ export default function Home() {
       <nav className="row languages" aria-label={dict.home.language}>
         {LOCALES.map((code) =>
           code === lang ? (
-            <strong key={code}>{LOCALE_NAMES[code]}</strong>
+            <strong key={code}>{LANGUAGES[code].name}</strong>
           ) : (
             <Link key={code} href={`/${code}`} lang={code} className="muted" onClick={() => rememberLocale(code)}>
-              {LOCALE_NAMES[code]}
+              {LANGUAGES[code].name}
             </Link>
           ),
         )}

@@ -1,0 +1,206 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). scenes follow story.yaml in order.
+summary: Printer Klaus wordt smoorverliefd op koffiemachine Kiki, print duizend liefdesbrieven, en de systeembeheerder wil
+  hem vervangen — maar Kiki blijkt heel andere plannen te hebben.
+summary_source: 9f31d5b98ae940fe
+gestures:
+  because: 'Doe je hand als een trechter bij je mond en knik langzaam achterover met je hoofd, alsof je zegt: ''omdat... ja,
+    dáárom!'''
+  so_that: Houd je handen als een kommetje en schuif ze met wijde ogen naar voren, alsof je het doel aan iemand cadeau doet.
+  nevertheless: Zet je handen in je zij, stamp één keer hard op de vloer en steek je kin omhoog als een eigenwijze peuter.
+targets:
+  weil:
+    gloss: omdat (werkwoord achteraan)
+    note: null
+  damit:
+    gloss: zodat (werkwoord achteraan)
+    note: null
+  trotzdem:
+    gloss: toch / desondanks
+    note: null
+scenes:
+- key: s1
+  source: f73280f46e7a70e8
+  translation: Klaus is een printer. Hij werkt in een groot IT-kantoor in Berlijn en is verliefd op koffiemachine Kiki, omdat
+    ze zo warm en mooi is. Hij kan niet praten, omdat hij maar een printer is. Daarom print hij elke ochtend een liefdesbrief,
+    zodat Kiki hem kan lezen.
+  glosses:
+    ist: is
+    Drucker: printer
+    Er: hij
+    arbeitet: werkt
+    in: in
+    großen: grote
+    IT-Büro: IT-kantoor
+    und: en
+    liebt: houdt van
+    Kaffeemaschine: koffiemachine
+    weil: omdat
+    sie: zij
+    so: zo
+    warm: warm
+    schön: mooi
+    kann: kan
+    nicht: niet
+    sprechen: spreken
+    nur: alleen
+    Deshalb: daarom
+    druckt: drukt
+    jeden: elke
+    Morgen: ochtend
+    Liebesbrief: liefdesbrief
+    damit: zodat
+    ihn: hem
+    lesen: lezen
+- key: s2
+  source: 3ba11d8c2cb1fb54
+  translation: Klaus print 1000 pagina's liefdesbrieven, zodat Kiki elk woord kan lezen. De collega's zijn woedend, omdat
+    het hele kantoor nu wit is. Toch print Klaus door. Hij print een hart, zo groot als een tafel.
+  glosses:
+    druckt: drukt
+    Seiten: pagina's
+    Liebesbriefe: liefdesbrieven
+    damit: zodat
+    jedes: elk
+    Wort: woord
+    lesen: lezen
+    kann: kan
+    Kollegen: collega's
+    sind: zijn
+    wütend: boos
+    weil: omdat
+    ganze: hele
+    Büro: kantoor
+    jetzt: nu
+    weiß: wit
+    ist: is
+    Trotzdem: toch
+    weiter: verder
+    Er: hij
+    Herz: hart
+    so: zo
+    groß: groot
+    wie: zoals
+    Tisch: tafel
+- key: s3
+  source: 75b8e25bf42fd80e
+  translation: 'Meneer Stirn is de systeembeheerder. Hij zegt: ''Ik wil deze printer vervangen, omdat hij volledig gek is.''
+    Hij bestelt een nieuwe printer, zodat Klaus eindelijk verdwijnt. Toch print Klaus elke dag door.'
+  glosses:
+    Herr: meneer
+    ist: is
+    Systemadministrator: systeembeheerder
+    Er: hij
+    sagt: zegt
+    Ich: ik
+    will: wil
+    diesen: deze
+    Drucker: printer
+    ersetzen: vervangen
+    weil: omdat
+    völlig: helemaal
+    verrückt: gek
+    bestellt: bestelt
+    neuen: nieuwe
+    damit: zodat
+    endlich: eindelijk
+    verschwindet: verdwijnt
+    Trotzdem: toch
+    druckt: drukt
+    jeden: elke
+    Tag: dag
+    weiter: verder
+- key: s4
+  source: 1c2df21ca1327807
+  translation: 'Op maandag komt de nieuwe printer Kevin. Klaus heeft grote angst, omdat hij Kiki niet wil verliezen. Hij print
+    1000 pagina''s in één minuut, zodat iedereen ziet: hij is de beste printer van de wereld. Toch trekt meneer Stirn de stekker
+    eruit.'
+  glosses:
+    Am: op
+    Montag: maandag
+    kommt: komt
+    neue: nieuwe
+    Drucker: printer
+    hat: heeft
+    große: grote
+    Angst: angst
+    weil: omdat
+    er: hij
+    nicht: niet
+    verlieren: verliezen
+    will: wil
+    druckt: drukt
+    Seiten: pagina's
+    in: in
+    Minute: minuut
+    damit: zodat
+    alle: alle
+    sehen: zien
+    ist: is
+    beste: beste
+    Welt: wereld
+    Trotzdem: toch
+    zieht: trekt
+    Herr: meneer
+    Stecker: stekker
+    heraus: eruit
+- key: s5
+  source: b8ee5a468ba0fbfc
+  translation: 'Plots wordt Kiki heel heet en spuugt koffie over meneer Stirn, omdat hij Klaus pijn doet. De baas komt en
+    roept: ''Klaus blijft voor altijd, zodat het kantoor nooit saai wordt!'' Toch is het verhaal nog niet voorbij: Kiki ziet
+    de nieuwe printer Kevin en schrijft met koffieschuim: ''Jij bent ook schattig.'' Klaus is maar vijf minuten verdrietig
+    en print dan een liefdesbrief voor de broodrooster.'
+  glosses:
+    Plötzlich: plotseling
+    wird: wordt
+    sehr: heel
+    heiß: heet
+    und: en
+    spuckt: spuwt
+    Kaffee: koffie
+    auf: op
+    Herrn: meneer
+    weil: omdat
+    er: hij
+    wehtut: doet pijn
+    Chef: baas
+    kommt: komt
+    ruft: roept
+    bleibt: blijft
+    für: voor
+    immer: altijd
+    damit: zodat
+    Büro: kantoor
+    nie: nooit
+    langweilig: saai
+    Trotzdem: toch
+    ist: is
+    Geschichte: verhaal
+    noch: nog
+    nicht: niet
+    zu: tot
+    Ende: einde
+    sieht: ziet
+    neuen: nieuwe
+    Drucker: printer
+    schreibt: schrijft
+    mit: met
+    Kaffeeschaum: koffieschuim
+    Du: jij
+    bist: bent
+    auch: ook
+    süß: lief
+    nur: alleen
+    Minuten: minuten
+    traurig: verdrietig
+    druckt: drukt
+    dann: dan
+    Liebesbrief: liefdesbrief
+    Toaster: broodrooster
+words:
+  der Drucker: de printer
+  die Kaffeemaschine: de koffiemachine
+  der Liebesbrief: de liefdesbrief
+  das Herz: het hart
+  der Stecker: de stekker
+  der Toaster: de toaster

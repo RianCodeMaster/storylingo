@@ -1,0 +1,159 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Hugo the hamster wants to get rich on the stock market, but he cannot read the numbers, is afraid of people, and
+  accidentally eats 1,000 bananas.
+summary_source: 286a2ab4b9de8823
+gestures:
+  want: Stretch both arms forward with big grabbing hands and a hungry face, as if you really want to grab something.
+  cannot: 'Wave both hands quickly in front of your face and shake your head wildly, as if saying: no, no, I can''t!'
+  afraid: Hug yourself, tremble a little, and open your eyes very wide.
+targets:
+  wollte:
+    gloss: wanted
+    note: German 'wollte' is the simple past of 'wollen'; English uses 'wanted'.
+  konnte nicht:
+    gloss: could not
+    note: German puts 'nicht' after the modal verb, like English 'could not'.
+  hatte Angst:
+    gloss: was afraid
+    note: German says 'had fear' with 'haben'; English says 'was afraid'.
+scenes:
+- key: s1
+  source: 534dbfd379d7fcba
+  translation: Hugo is a small hamster. He lives in a cage in an apartment. But Hugo always wanted to be rich. He wanted to
+    trade on the stock market.
+  glosses:
+    ist: is
+    kleiner: small
+    Hamster: hamster
+    Er: he
+    wohnt: lives
+    in: in
+    Käfig: cage
+    Wohnung: apartment
+    Aber: but
+    wollte: wanted
+    immer: always
+    reich: rich
+    sein: to be
+    an: at
+    Börse: stock market
+    handeln: trade
+- key: s2
+  source: 8f5041a8f0832df4
+  translation: On Monday Hugo went to the stock market. He had a tiny laptop in his bag. The numbers changed very fast, and
+    he could not read them. He was afraid of the big people.
+  glosses:
+    Am: "on"
+    Montag: Monday
+    ging: went
+    zur: to the
+    Börse: stock market
+    Er: he
+    hatte: had
+    winzigen: tiny
+    Laptop: laptop
+    in: in
+    seiner: his
+    Tasche: bag
+    Zahlen: numbers
+    waren: were
+    sehr: very
+    schnell: fast
+    und: and
+    konnte: could
+    nicht: not
+    lesen: read
+    Angst: fear
+    vor: of
+    großen: big
+    Menschen: people
+- key: s3
+  source: 1362f31539fba5b6
+  translation: A man said, "Buy banana shares!" Hugo wanted to buy everything. He bought 1,000 bananas. The bananas lay in
+    the cage, and Hugo could not sleep.
+  glosses:
+    Mann: man
+    sagte: said
+    Kauf: buy
+    Bananen-Aktien: banana shares
+    wollte: wanted
+    alles: everything
+    kaufen: to buy
+    Er: he
+    kaufte: bought
+    Bananen: bananas
+    lagen: lay
+    im: in the
+    Käfig: cage
+    und: and
+    konnte: could
+    nicht: not
+    schlafen: sleep
+- key: s4
+  source: 0f40657408a9777b
+  translation: On Tuesday the prices fell. Hugo wanted to sell, but he could not. He was afraid and cried a lot. "I was afraid,"
+    he said to his mother.
+  glosses:
+    Am: "on"
+    Dienstag: Tuesday
+    fielen: fell
+    Preise: prices
+    wollte: wanted
+    verkaufen: to sell
+    aber: but
+    er: he
+    konnte: could
+    nicht: not
+    hatte: had
+    Angst: fear
+    und: and
+    weinte: cried
+    sehr: very
+    Ich: I
+    sagte: said
+    zu: to
+    seiner: his
+    Mutter: mother
+- key: s5
+  source: 77c1eb9f872b1194
+  translation: At night Hugo was afraid and ate all 1,000 bananas. In the morning one banana cost 1,000 euros, but Hugo had
+    only banana peels left. A company bought the peels for one million euros. Now Hugo did not want to trade on the stock
+    market anymore.
+  glosses:
+    In: in
+    Nacht: night
+    hatte: had
+    Angst: fear
+    und: and
+    aß: ate
+    alle: all
+    Bananen: bananas
+    Am: "on"
+    Morgen: morning
+    kostete: cost
+    Banane: banana
+    Euro: euros
+    aber: but
+    nur: only
+    noch: left
+    Bananenschalen: banana peels
+    Firma: company
+    kaufte: bought
+    Schalen: peels
+    für: for
+    Jetzt: now
+    wollte: wanted
+    nicht: not
+    mehr: anymore
+    an: at
+    Börse: stock market
+    handeln: trade
+words:
+  der Hamster: the hamster
+  der Käfig: the cage
+  die Börse: the stock exchange
+  die Banane: the banana
+  die Angst: the fear
+  die Bananenschale: the banana peel

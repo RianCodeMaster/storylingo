@@ -49,7 +49,7 @@ paar dingen zijn nog stilzwijgend Nederlands:
 | brief `learner_language` | het verhaal wordt in één keer mét NL-vertaling gemaakt | eerst doeltaal, daarna vertalen per basistaal |
 | startscherm | toont alle verhalen | alleen verhalen in je doeltaal met een laag in je basistaal |
 
-Wat **al** goed staat: de stem is per doeltaal instelbaar (`pipeline/voices.yaml`), audio en beelden horen bij het
+Wat **al** goed staat: de stem is per doeltaal instelbaar (toen `pipeline/voices.yaml`, nu `content/languages/<code>.yaml`), audio en beelden horen bij het
 verhaal en niet bij de basistaal, en herhaling (`user_lexeme_state`, `reviews`) hangt aan woorden van de doeltaal.
 
 ## Het nieuwe datamodel (gepland)
@@ -173,39 +173,42 @@ of de app de taal kent, of elk verhaalbestand een complete laag heeft, en of de 
 Hij eindigt met "complete" of met een lijst wat ontbreekt en hoe je het oplost. `localize` vult zelf al gaten: wat
 DeepSeek vergeet, vraagt hij daarna nog maximaal twee keer los na.
 
-1. Migratie: `languages.is_base = true` (en `direction = 'rtl'` voor een taal als Arabisch) en een rij in
-   `language_pairs` per paar, status `beta`.
+Sinds 2026-11-07 staat alles van één taal in **één bestand**, `content/languages/<code>.yaml`
+([inhoud-beheer.md](inhoud-beheer.md)); de app, de pipeline en de database lezen het daaruit.
+
+1. `content/languages/<code>.yaml`: kopieer `nl.yaml` (naam in de taal zelf: "العربية", niet "Arabisch";
+   `direction: rtl` en `script: arabic` voor Arabisch; de meervoudsvormen van de taal).
 2. Woordenboek `web/dictionaries/<code>.json`: kopieer `nl.json` en vertaal het. Pijlen die "verder" betekenen wijzen
-   in een rechts-naar-linkstaal naar links (`التالي ←`).
-3. Zet de taal in `web/app/[lang]/dictionaries.ts` en in `LOCALES` en `LOCALE_NAMES` in `web/lib/locales.ts` (de naam
-   in de taal zelf: "العربية", niet "Arabisch"). Dan staat hij vanzelf in het taalmenu. Een schrift dat Jakarta niet
-   heeft (Arabisch, later bijv. Russisch) krijgt een eigen font in `app/[lang]/layout.tsx`, zoals Noto Sans Arabic.
-4. `storylingo.py localize-all <code>`: alle bestaande verhalen krijgen een laag in die taal (een paar cent).
-5. `storylingo.py check <code>` tot hij "complete" zegt.
-6. Moedertaalspreker laat nalezen: het woordenboek helemaal, en een paar verhalen, vooral de grammaticatips. Dit is je
+   in een rechts-naar-linkstaal naar links (`التالي ←`). Een schrift dat Jakarta niet heeft en dat er nog niet is
+   (bijv. Russisch) krijgt een font in `web/app/[lang]/layout.tsx`, zoals Noto Sans Arabic voor `script: arabic`.
+3. `storylingo.py sync`: de taal staat in de database en in het taalmenu van de app.
+4. Een rij in `language_pairs` per paar, status `beta` (via een migratie; straks via de edities).
+5. `storylingo.py localize-all <code>`: alle bestaande verhalen krijgen een laag in die taal (een paar cent).
+6. `storylingo.py check <code>` tot hij "complete and in sync" zegt.
+7. Moedertaalspreker laat nalezen: het woordenboek helemaal, en een paar verhalen, vooral de grammaticatips. Dit is je
    verkooppraat; fouten kosten klanten.
-7. Zelf testen als leerling in die taal (bij rechts-naar-links ook: spiegelt alles, loopt het schrift aan elkaar).
-8. Paar op `live`.
-9. Verkooppagina, prijs en juridische teksten (voorwaarden, privacy) in die taal.
+8. Zelf testen als leerling in die taal (bij rechts-naar-links ook: spiegelt alles, loopt het schrift aan elkaar).
+9. Paar op `live`, en verkooppagina, prijs en juridische teksten (voorwaarden, privacy) in die taal.
 
 ### Een nieuwe **doeltaal** toevoegen (bijv. Spaans, Engels, Frans)
 
-Duurder: hier zit het echte werk.
+Duurder: hier zit het echte werk. Alles van de taal zelf staat weer in één bestand: kopieer
+`content/languages/de.yaml` (de uitleg staat bovenin).
 
-1. **Stem kiezen.** Voeg een blok toe in `pipeline/voices.yaml`, download de stem, maak testclips en luister.
-   Let op: alleen de Duitse Piper-stem heeft emoties. Voor Spaans en Engels moet je kiezen tussen een vlakke
-   gratis stem en een betaalde dienst met emotie (bijv. ElevenLabs); de pipeline is daar al op voorbereid
-   (één klasse in `media.py`, één regel in `voices.yaml`).
-2. **Zinnen van de leraar** ("¡Sí! ¡Exacto!", "Siguiente", "¡Terminado!") toevoegen in `FEEDBACK` in
-   `storylingo.py` en in `PHRASES` in `web/lib/speech.ts`, dan `storylingo.py feedback <code>`.
-   Voor hardop antwoorden: getallen en ja/nee-varianten van die taal in `WORDS` in `web/lib/listen.ts`
-   (de herkenner schrijft "1000" waar het verhaal "tausend" heeft), en de taalcode in `LANG_TAGS` (`speech.ts`).
-3. **Taal in de pipeline**: naam in `LANGUAGE_NAMES` (`prompts.py`), en controleer of DeepSeek goed schrijft in die
-   taal. Bij Duits maakte het fouten ("der beste Hacker" voor een vrouw), dus elke doeltaal heeft een moedertaalcheck nodig.
-4. **Curriculum**: per niveau (A1–B2) de doelstructuren van die taal op een rij. Daaruit maak je de briefs.
-5. **Startvoorraad**: zo'n 15 verhalen genereren, nalezen, beelden en audio maken, publiceren.
-6. **Lokaliseren** naar alle basistalen waarvoor je een paar wilt (`generate` doet dit voortaan vanzelf).
-7. Rij in `languages` met `is_target = true`, paren op `beta`, zelf testen, daarna `live`.
+1. **Stem kiezen.** Download twee of drie stemmen, maak testclips met dezelfde tekst en luister. Zet de gekozen stem
+   in het blok `voice:`. Let op: alleen de Duitse Piper-stem heeft emoties; een vlakke stem krijgt alleen `neutral`.
+   Later ElevenLabs: een andere `provider` in dat blok (en één klasse in `pipeline/media.py`).
+2. **Zinnen van de leraar** onder `teacher:` ("¡Sí! ¡Exacto!", "Siguiente", "¡Terminado!"), dan
+   `storylingo.py sync` en `storylingo.py feedback <code>`.
+3. **Hardop antwoorden:** `speech_tag` (es-ES) en onder `recognition:` de getallen en ja/nee-varianten die de
+   herkenner anders schrijft dan het verhaal ("1000" waar het verhaal "mil" heeft).
+4. **Controleer of DeepSeek goed schrijft in die taal.** Bij Duits maakte het fouten ("der beste Hacker" voor een
+   vrouw), dus elke doeltaal heeft een moedertaalcheck nodig.
+5. **Curriculum**: per niveau (A1–B2) de doelstructuren van die taal op een rij. Daaruit maak je de briefs in
+   `content/briefs/<code>/`.
+6. **Startvoorraad**: verhalen genereren, nalezen, beelden en audio maken, publiceren.
+7. **Lokaliseren** naar alle basistalen waarvoor je een paar wilt (`generate` doet dit vanzelf voor paren op beta/live).
+8. Paren op `beta`, zelf testen, `check`, daarna `live`.
 
 ### Een nieuw **paar** van twee talen die er al zijn
 

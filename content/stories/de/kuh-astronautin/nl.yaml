@@ -1,0 +1,193 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). scenes follow story.yaml in order.
+summary: Een Beierse koe bouwt een raket van melkbussen om astronaut te worden, maar het loopt anders dan ze denkt.
+summary_source: 66198ad9b438b4b5
+gestures:
+  when_past: 'Doe alsof je met je vinger op een grote denkbeeldige klok tikt die precies één keer ''TIKS'' zegt, en houd je
+    hand daarna stil in de lucht: het gebeurde maar één keer.'
+  after: 'Wijs met je duim over je schouder naar achteren en klap dan hard één keer in je handen: eerst dat, en dan pas dat.'
+  look_forward: Wrijf in je handen, kijk met een grote glimlach naar de hemel en spring één keer op van plezier.
+targets:
+  als:
+    gloss: toen (één keer in het verleden)
+    note: null
+  nachdem:
+    gloss: nadat
+    note: null
+  freute sich auf:
+    gloss: verheugde zich op
+    note: null
+scenes:
+- key: s1
+  source: 5e79272c4d6269dc
+  translation: 'Mathilde was een kleine koe uit Beieren. Ze stond elke dag op een grote weide en at gras. Toen ze op een avond
+    de maan zag, zei ze: ''Ik wil astronaut worden!'' Haar vrienden lachten hard.'
+  glosses:
+    war: was
+    kleine: kleine
+    Kuh: koe
+    aus: uit
+    Sie: zij
+    stand: stond
+    jeden: elke
+    Tag: dag
+    auf: op
+    großen: grote
+    Wiese: weide
+    und: en
+    aß: at
+    Gras: gras
+    Als: toen
+    Abends: avond
+    Mond: maan
+    sah: zag
+    sagte: zei
+    Ich: ik
+    will: wil
+    Astronautin: astronaute
+    werden: worden
+    Ihre: haar
+    Freunde: vrienden
+    lachten: lachten
+    laut: hard
+- key: s2
+  source: 717db76c2d7f14f3
+  translation: Mathilde verzamelde oude melkbussen op de hele boerderij. Nadat ze honderd bussen had verzameld, bouwde ze
+    een grote raket. Toen de raket klaar was, danste ze en verheugde ze zich op haar eerste vlucht. De boer was woedend, omdat
+    zijn melk weg was.
+  glosses:
+    sammelte: verzamelde
+    alte: oude
+    Milchkannen: melkbussen
+    auf: op
+    ganzen: hele
+    Bauernhof: boerderij
+    Nachdem: nadat
+    sie: ze
+    Kannen: bussen
+    gesammelt: verzameld
+    hatte: had
+    baute: bouwde
+    große: grote
+    Rakete: raket
+    Als: toen
+    fertig: klaar
+    war: was
+    tanzte: danste
+    und: en
+    freute: verheugde zich
+    sich: zich
+    ihren: haar
+    ersten: eerste
+    Flug: vlucht
+    Bauer: boer
+    wütend: boos
+    weil: omdat
+    seine: zijn
+    Milch: melk
+    weg: weg
+- key: s3
+  source: 82544482c93bbd97
+  translation: Voor de vlucht had Mathilde duizend liter melk nodig. Toen niemand keek, dronk ze alle melk op. Nadat ze alles
+    gedronken had, was de tank leeg. Maar Mathilde verheugde zich op de vlucht.
+  glosses:
+    Für: voor
+    Flug: vlucht
+    brauchte: had nodig
+    Liter: liter
+    Milch: melk
+    Als: toen
+    niemand: niemand
+    hinsah: keek
+    trank: dronk
+    sie: ze
+    ganze: hele
+    aus: leeg
+    Nachdem: nadat
+    alles: alles
+    getrunken: gedronken
+    hatte: had
+    war: was
+    Tank: tank
+    leer: leeg
+    Aber: maar
+    freute: verheugde zich
+    sich: zich
+    auf: op
+- key: s4
+  source: 087ce01be0232af8
+  translation: Toen Mathilde op de rode knop drukte, gebeurde er niets. Nadat ze drie keer hard 'Moe!' had geroepen, maakte
+    de raket alleen een klein 'Puf'. De raket vloog twee meter hoog en landde in de mesthoop. Mathilde was heel woedend.
+  glosses:
+    Als: toen
+    roten: rode
+    Knopf: knop
+    drückte: drukte
+    passierte: gebeurde
+    nichts: niets
+    Nachdem: nadat
+    sie: ze
+    laut: hard
+    gerufen: geroepen
+    hatte: had
+    machte: maakte
+    Rakete: raket
+    nur: alleen
+    kleines: klein
+    Puff: puf
+    flog: vloog
+    Meter: meter
+    hoch: hoog
+    und: en
+    landete: landde
+    im: in de
+    Misthaufen: mesthoop
+    war: was
+    sehr: zeer
+    wütend: boos
+- key: s5
+  source: ec3d0d5ec1b8630f
+  translation: Toen de boer Mathilde in de mesthoop zag, lachte hij hard. Nadat hij haar een oude badkuip had laten zien,
+    bouwde hij samen met haar een nieuwe raket. 's Avonds vlogen ze samen naar de maan — maar alleen in een droom. Mathilde
+    verheugde zich op de volgende ochtend.
+  glosses:
+    Als: toen
+    Bauer: boer
+    im: in de
+    Misthaufen: mesthoop
+    sah: zag
+    lachte: lachte
+    er: hij
+    laut: hard
+    Nachdem: nadat
+    ihr: haar
+    alte: oude
+    Badewanne: badkuip
+    gezeigt: getoond
+    hatte: had
+    baute: bouwde
+    mit: met
+    neue: nieuwe
+    Rakete: raket
+    Am: '''s avonds'
+    Abend: avond
+    flogen: vlogen
+    sie: ze
+    zusammen: samen
+    zum: naar de
+    Mond: maan
+    aber: maar
+    nur: alleen
+    Traum: droom
+    freute: verheugde zich
+    sich: zich
+    auf: op
+    nächsten: volgende
+    Morgen: ochtend
+words:
+  die Kuh: de koe
+  die Milchkanne: de melkkan
+  die Rakete: de raket
+  der Bauer: de boer
+  der Misthaufen: de mesthoop
+  der Traum: de droom

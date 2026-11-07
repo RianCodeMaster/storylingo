@@ -73,6 +73,7 @@ export async function loadStory(id: string, base: string): Promise<Story> {
     .eq("story_targets.lexemes.concepts.gestures.gesture_localizations.base_language", base)
     .eq("story_words.lexemes.lexeme_glosses.base_language", base)
     .eq("scenes.scene_localizations.base_language", base)
+    .eq("scenes.questions.retired", false) // removed from story.yaml after learners answered them
     .order("position", { referencedTable: "story_words" })
     .order("position", { referencedTable: "scenes" })
     .order("position", { referencedTable: "scenes.questions" })

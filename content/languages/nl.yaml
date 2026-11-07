@@ -1,0 +1,16 @@
+# A language the app SPEAKS (base): buttons, translations, word meanings, grammar tips.
+# Copy this file for a new base language, then:
+#   1. web/dictionaries/<code>.json: copy nl.json and translate every text (all plural forms of the language)
+#   2. storylingo.py sync, then storylingo.py localize-all <code>, then storylingo.py check <code>
+#
+# script:        latin or arabic; another script (e.g. cyrillic) also needs a font in web/app/[lang]/layout.tsx.
+# plural_forms:  the forms Intl.PluralRules gives for this language (CLDR); check makes sure the dictionary has them.
+
+code: nl
+name: Nederlands
+english: Dutch
+roles: [base]
+direction: ltr
+script: latin
+speech_tag: nl-NL
+plural_forms: [one, other]

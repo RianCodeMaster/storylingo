@@ -5,7 +5,7 @@ from pydantic import TypeAdapter, ValidationError
 
 from llm import MODEL, client
 from models import Brief, GlossEntry, Story, occurs
-from prompts import LANGUAGE_NAMES
+from languages import english
 
 GLOSSARY_VERSION = "glossary-v2"  # v2: no meanings; those are per base language (localize.py)
 
@@ -31,7 +31,7 @@ def add_glossary(brief: Brief, story: Story) -> dict:
         messages=[
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": (
-                f"Story language: {LANGUAGE_NAMES.get(brief.language, brief.language)}\n"
+                f"Story language: {english(brief.language)}\n"
                 f"Scenes: {json.dumps(scenes, ensure_ascii=False)}"
             )},
         ],

@@ -1,0 +1,205 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Oma Hilde (92) is stiekem de beste hacker van Duitsland en verandert het wifiwachtwoord van heel de stad — maar dan
+  vergeet ze haar eigen code.
+summary_source: 133ece3fde626b8a
+gestures:
+  although: 'Je trekt met één hand je wenkbrauw hoog op en duwt met de andere hand je kin omhoog, met een gezicht van: ''Echt?
+    Toch!'''
+  would_like_to_have: Je strekt beide handen smekend vooruit naar een gigantische denkbeeldige taart die net te ver weg staat.
+  would_like_to_do: Je springt op een denkbeeldige fiets en trapt wild in de lucht met een hongerige blik naar avontuur.
+targets:
+  obwohl:
+    gloss: hoewel (werkwoord achteraan)
+    note: null
+  hätte gern:
+    gloss: zou graag hebben
+    note: null
+  würde gern:
+    gloss: zou graag (doen)
+    note: null
+scenes:
+- key: s1
+  source: 930507d70f3b8ac2
+  translation: Oma Hilde is 92 jaar en woont in Berlijn. Ze drinkt graag thee en breit graag, hoewel ze eigenlijk geen tijd
+    heeft. Want Oma Hilde is de beste hacker van Duitsland — hoewel niemand dat weet. Ze zou graag het wifiwachtwoord van
+    heel de stad hebben.
+  glosses:
+    Oma: oma
+    ist: is
+    Jahre: jaar
+    alt: oud
+    und: en
+    wohnt: woont
+    in: in
+    Sie: zij
+    trinkt: drinkt
+    Tee: thee
+    strickt: breit
+    gern: graag
+    obwohl: hoewel
+    eigentlich: eigenlijk
+    keine: geen
+    Zeit: tijd
+    hat: heeft
+    Denn: want
+    beste: beste
+    Hackerin: hacker (vrouw)
+    von: van
+    niemand: niemand
+    das: dat
+    weiß: weet
+    hätte: zou graag hebben
+    WLAN-Code: wifi-code
+    ganzen: hele
+    Stadt: stad
+- key: s2
+  source: e2f01ebae879a7b9
+  translation: 'Het wifiwachtwoord van Berlijn is duizend tekens lang, en daar wordt Oma Hilde woedend van. Ze zou graag de
+    code van heel de stad veranderen. Maar de burgemeester zegt: ''Dat mag je niet doen!'' — hoewel Hilde veel beter hackt
+    dan hij.'
+  glosses:
+    WLAN-Code: wifi-code
+    von: van
+    ist: is
+    Zeichen: teken
+    lang: lang
+    und: en
+    das: dat
+    macht: maakt
+    Oma: oma
+    wütend: boos
+    Sie: zij
+    würde: zou
+    gern: graag
+    Code: code
+    ganzen: hele
+    Stadt: stad
+    ändern: veranderen
+    Aber: maar
+    Bürgermeister: burgemeester
+    sagt: zegt
+    darfst: mag
+    du: jij
+    nicht: niet
+    obwohl: hoewel
+    viel: veel
+    besser: beter
+    hackt: hackt
+    als: dan
+    er: hij
+- key: s3
+  source: d0bf2e68429af38b
+  translation: Om drie uur 's nachts zit Hilde voor haar kleine laptop. Ze zou graag slapen, maar ze werkt door, hoewel haar
+    kat luid protesteert. Ze zou graag een sterke koffie hebben, maar ze heeft alleen 1000 koppen thee.
+  glosses:
+    Um: om
+    Uhr: uur
+    morgens: s ochtends
+    sitzt: zit
+    vor: voor
+    ihrem: haar
+    kleinen: kleine
+    Laptop: laptop
+    Sie: zij
+    würde: zou
+    gern: graag
+    schlafen: slapen
+    aber: maar
+    arbeitet: werkt
+    weiter: verder
+    obwohl: hoewel
+    ihre: haar
+    Katze: kat
+    laut: luid
+    protestiert: protesteert
+    hätte: zou graag hebben
+    starken: sterke
+    Kaffee: koffie
+    hat: heeft
+    nur: alleen
+    Tassen: kopjes
+    Tee: thee
+- key: s4
+  source: 3901cfc8cc401105
+  translation: 'Hoewel de code duizend tekens heeft, zit Hilde er binnen tien minuten in. Ze zou graag iets dappers doen,
+    en daarom verandert ze de code van heel de stad. De nieuwe code is: ''HILDE123''. Plotseling is de hele stad offline —
+    1000 mensen staan op straat te schreeuwen.'
+  glosses:
+    Obwohl: hoewel
+    Code: code
+    Zeichen: teken
+    hat: heeft
+    ist: is
+    in: in
+    Minuten: minuten
+    drin: erin
+    Sie: zij
+    würde: zou
+    gern: graag
+    etwas: iets
+    Mutiges: moedigs
+    machen: doen
+    und: en
+    darum: daarom
+    ändert: verandert
+    von: van
+    ganzen: hele
+    Stadt: stad
+    neue: nieuwe
+    Plötzlich: plotseling
+    ganze: hele
+    offline: offline
+    Menschen: mensen
+    stehen: staan
+    auf: op
+    Straße: straat
+    schreien: schreeuwen
+- key: s5
+  source: 7829af5453213b0f
+  translation: '1000 mensen staan voor Hildes deur, en allemaal zouden ze graag de nieuwe code hebben. Hilde zou graag helpen,
+    maar ze is de code zelf vergeten. Dan springt haar kat op het toetsenbord en typt: ''HILDE123''. De stad heeft weer wifi,
+    en Oma Hilde zou graag een beetje rust hebben — maar nu kent iedereen haar code.'
+  glosses:
+    Menschen: mensen
+    stehen: staan
+    vor: voor
+    Tür: deur
+    und: en
+    alle: alle
+    hätten: zouden graag hebben
+    gern: graag
+    neuen: nieuwe
+    Code: code
+    würde: zou
+    helfen: helpen
+    aber: maar
+    sie: zij
+    hat: heeft
+    selbst: zelf
+    vergessen: vergeten
+    Da: toen
+    springt: springt
+    ihre: haar
+    Katze: kat
+    auf: op
+    Tastatur: toetsenbord
+    tippt: typt
+    Stadt: stad
+    wieder: weer
+    WLAN: wifi
+    Oma: oma
+    hätte: zou graag hebben
+    bisschen: beetje
+    Ruhe: rust
+    jetzt: nu
+    kennen: kennen
+    ihren: hun
+words:
+  die Hackerin: de hackster
+  der WLAN-Code: de wificode
+  die Stadt: de stad
+  die Katze: de kat
+  die Tastatur: het toetsenbord
+  vergessen: vergeten

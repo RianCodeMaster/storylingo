@@ -1,0 +1,203 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). scenes follow story.yaml in order.
+summary: Oma Hilde, 92, is secretly Germany's best hacker and changes the Wi-Fi code of the whole city, but then she forgets
+  her own code.
+summary_source: 133ece3fde626b8a
+gestures:
+  although: Raise one eyebrow and push your chin up with the other hand, with a face saying 'Really? Yet!'
+  would_like_to_have: Reach both hands out pleadingly toward a giant imaginary cake that is just too far away.
+  would_like_to_do: Jump onto an imaginary bike and pedal wildly in the air with a hungry look for adventure.
+targets:
+  obwohl:
+    gloss: although
+    note: Verb goes last, unlike English 'although'.
+  hätte gern:
+    gloss: would like to have
+    note: '''hätte'' is subjunctive, like English ''would like''.'
+  würde gern:
+    gloss: would like to
+    note: Uses 'würde' + infinitive, like English 'would'.
+scenes:
+- key: s1
+  source: 930507d70f3b8ac2
+  translation: Grandma Hilde is 92 years old and lives in Berlin. She likes drinking tea and knitting, although she actually
+    has no time. Because Grandma Hilde is Germany's best hacker, although nobody knows it. She would like to have the Wi-Fi
+    code for the whole city.
+  glosses:
+    Oma: grandma
+    ist: is
+    Jahre: years
+    alt: old
+    und: and
+    wohnt: lives
+    in: in
+    Sie: she
+    trinkt: drinks
+    Tee: tea
+    strickt: knits
+    gern: likes to
+    obwohl: although
+    eigentlich: actually
+    keine: "no"
+    Zeit: time
+    hat: has
+    Denn: because
+    beste: best
+    Hackerin: hacker
+    von: of
+    niemand: nobody
+    das: it
+    weiß: knows
+    hätte: would like
+    WLAN-Code: Wi-Fi code
+    ganzen: whole
+    Stadt: city
+- key: s2
+  source: e2f01ebae879a7b9
+  translation: 'The Wi-Fi code for Berlin is a thousand characters long, and that makes Grandma Hilde angry. She would like
+    to change the code for the whole city. But the mayor says: ''You are not allowed to!'' although Hilde hacks much better
+    than he does.'
+  glosses:
+    WLAN-Code: Wi-Fi code
+    von: of
+    ist: is
+    Zeichen: characters
+    lang: long
+    und: and
+    das: that
+    macht: makes
+    Oma: grandma
+    wütend: angry
+    Sie: she
+    würde: would
+    gern: like to
+    Code: code
+    ganzen: whole
+    Stadt: city
+    ändern: change
+    Aber: but
+    Bürgermeister: mayor
+    sagt: says
+    darfst: are allowed
+    du: you
+    nicht: not
+    obwohl: although
+    viel: much
+    besser: better
+    hackt: hacks
+    als: than
+    er: he
+- key: s3
+  source: d0bf2e68429af38b
+  translation: At three in the morning Hilde sits in front of her small laptop. She would like to sleep, but she keeps working,
+    although her cat protests loudly. She would like a strong coffee, but she has only 1,000 cups of tea.
+  glosses:
+    Um: at
+    Uhr: o'clock
+    morgens: in the morning
+    sitzt: sits
+    vor: in front of
+    ihrem: her
+    kleinen: small
+    Laptop: laptop
+    Sie: she
+    würde: would
+    gern: like to
+    schlafen: sleep
+    aber: but
+    arbeitet: works
+    weiter: "on"
+    obwohl: although
+    ihre: her
+    Katze: cat
+    laut: loudly
+    protestiert: protests
+    hätte: would like
+    starken: strong
+    Kaffee: coffee
+    hat: has
+    nur: only
+    Tassen: cups
+    Tee: tea
+- key: s4
+  source: 3901cfc8cc401105
+  translation: 'Although the code has a thousand characters, Hilde is in within ten minutes. She would like to do something
+    brave, and so she changes the code for the whole city. The new code is ''HILDE123''. Suddenly the whole city is offline:
+    1,000 people stand on the street and scream.'
+  glosses:
+    Obwohl: although
+    Code: code
+    Zeichen: characters
+    hat: has
+    ist: is
+    in: in
+    Minuten: minutes
+    drin: inside
+    Sie: she
+    würde: would
+    gern: like to
+    etwas: something
+    Mutiges: brave
+    machen: do
+    und: and
+    darum: therefore
+    ändert: changes
+    von: of
+    ganzen: whole
+    Stadt: city
+    neue: new
+    Plötzlich: suddenly
+    ganze: whole
+    offline: offline
+    Menschen: people
+    stehen: stand
+    auf: "on"
+    Straße: street
+    schreien: scream
+- key: s5
+  source: 7829af5453213b0f
+  translation: 1,000 people stand at Hilde's door, and they would all like the new code. Hilde would like to help, but she
+    has forgotten the code herself. Then her cat jumps onto the keyboard and types 'HILDE123'. The city has Wi-Fi again, and
+    Grandma Hilde would like a little peace, but now everyone knows her code.
+  glosses:
+    Menschen: people
+    stehen: stand
+    vor: in front of
+    Tür: door
+    und: and
+    alle: all
+    hätten: would like
+    gern: like to
+    neuen: new
+    Code: code
+    würde: would
+    helfen: help
+    aber: but
+    sie: she
+    hat: has
+    selbst: herself
+    vergessen: forgotten
+    Da: then
+    springt: jumps
+    ihre: her
+    Katze: cat
+    auf: onto
+    Tastatur: keyboard
+    tippt: types
+    Stadt: city
+    wieder: again
+    WLAN: Wi-Fi
+    Oma: grandma
+    hätte: would like
+    bisschen: a little
+    Ruhe: peace
+    jetzt: now
+    kennen: know
+    ihren: her
+words:
+  die Hackerin: the female hacker
+  der WLAN-Code: the Wi-Fi code
+  die Stadt: the city
+  die Katze: the cat
+  die Tastatur: the keyboard
+  vergessen: to forget

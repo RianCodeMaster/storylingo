@@ -18,43 +18,73 @@ Taal leren met absurde verhalen, gebaren en circling-vragen (TPRS). Fase 1 draai
 
 Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
 
+## Waar alles staat
+
+Alle inhoud staat als leesbare bestanden in **`content/`**; de database is een kopie. Hoe en waarom:
+[docs/inhoud-beheer.md](docs/inhoud-beheer.md).
+
+```
+content/languages/<code>.yaml          alles van één taal: naam, richting, stem, zinnen van de leraar, getallen
+content/briefs/<taal>/<slug>.yaml      de opdracht voor een nieuw verhaal
+content/stories/<taal>/<slug>/         één verhaal: story.yaml (verhaal + vragen) en <basistaal>.yaml (vertalingen)
+web/dictionaries/<code>.json           de knoppen en meldingen van de app
+```
+
+Na elke wijziging in `content/` (in `pipeline`):
+
+```bash
+.venv/Scripts/python storylingo.py sync
+```
+
+`sync` zet de database gelijk aan de bestanden, op zijn plek: de voortgang van leerlingen blijft. Daarna zegt
+`storylingo.py check` of alles compleet is, en per probleem welk commando het oplost (bijvoorbeeld `media` voor
+een opname die niet meer bij zijn tekst past, of `localize` voor een vertaling van een herschreven scène).
+
 ## Een nieuw verhaal maken
 
-1. Kopieer een brief in `pipeline/briefs/` en pas thema en doelstructuren aan.
+1. Kopieer een brief in `content/briefs/de/` en pas thema, niveau, tags en doelstructuren aan.
 2. In `pipeline`:
    ```bash
-   .venv/Scripts/python storylingo.py generate briefs/<naam>.yaml
+   .venv/Scripts/python storylingo.py generate ../content/briefs/de/<naam>.yaml
    ```
-   DeepSeek schrijft het verhaal, het script controleert het (elke structuur minstens 3x, antwoorden kloppen)
-   en zet het als **concept** in de database. Het verhaal staat ook in `pipeline/stories/<slug>.json`.
-3. Lees het. Iets aanpassen? Bewerk de JSON en draai `storylingo.py reload <slug>`.
-4. Tevreden: `storylingo.py publish <slug>`. Nu staat het in de app.
+   DeepSeek schrijft het verhaal, het script controleert het (elke structuur minstens 3x, antwoorden kloppen),
+   maakt woordenlijst, kernwoorden, emoties en vertalingen, en zet het als **concept** in `content/stories/de/<slug>/`
+   en in de database.
+3. Lees het (`storylingo.py show <slug>`). Iets aanpassen? Bewerk `story.yaml` en draai `sync`.
+4. Beelden en stem: `storylingo.py media <slug>` (zie hieronder).
+5. Tevreden: `storylingo.py publish <slug>` (zet `status: published` in het bestand en synchroniseert). Nu staat het in
+   de app.
 
-`storylingo.py list` toont alle verhalen en hun status.
+**Een vraag aanpassen, toevoegen of weghalen** in een verhaal dat al gespeeld is: bewerk `story.yaml`, dan `sync` en
+`media`. Een vraag houdt zijn sleutel (`s2q3`), dus de antwoordgeschiedenis blijft eraan hangen. Een nieuwe vraag mag
+zonder sleutel; `sync` geeft hem er een. Een weggehaalde vraag die al beantwoord is, wordt verborgen in plaats van
+gewist.
+
+`storylingo.py list` toont alle verhalen in de database en hun status.
 
 ## Woordenlijst, beelden en stem
 
 - Bij `generate` maakt DeepSeek ook een woordenlijst: elk woord in de app is aan te tikken.
-  Voor een ouder verhaal: `storylingo.py glossary <slug>`.
+  Opnieuw (bijv. na het herschrijven van een scène): `storylingo.py glossary <slug>`.
 - Bij `generate` kiest DeepSeek ook de **kernwoorden**: zo'n 6 woorden die het verhaal dragen. In de app leer je
   ze vóór het verhaal (plaatje, stem, betekenis), daarna volgt een luisterspel en dan gaan ze je herhaling in.
   Opnieuw kiezen: `storylingo.py core <slug>`. De plaatjes tekent `media` (zie hieronder).
 - Bij `generate` kiest DeepSeek ook per zin een emotie voor de verteller. Opnieuw: `storylingo.py voice <slug>`.
 - Het verhaal zelf is alleen in de doeltaal. Vertaling, woordbetekenissen en gebaaruitleg komen per basistaal
   (`localize`). `generate` doet dat vanzelf voor elke basistaal met een paar op `beta` of `live`. Met de hand:
-  `storylingo.py localize <slug> <basistaal>`, of voor alle verhalen `storylingo.py localize-all <basistaal>`.
-  Zie [docs/meertaligheid.md](docs/meertaligheid.md).
-- **Is een basistaal compleet?** `storylingo.py check <basistaal>` (bijv. `check ar`) controleert alle app-teksten,
-  elk verhaal en de database, en zegt precies wat er ontbreekt.
+  `storylingo.py localize <slug> <basistaal>`, of voor alle verhalen `storylingo.py localize-all <basistaal>`. Een
+  bestaande vertaling wordt alleen aangevuld waar iets ontbreekt of verouderd is; helemaal opnieuw: verwijder eerst
+  `<basistaal>.yaml`. Zie [docs/meertaligheid.md](docs/meertaligheid.md).
 - **Beelden en stem, gratis op je eigen laptop.** Start eerst de lokale generator in een apart venster (in `pipeline`):
   ```bash
   .venv-local/Scripts/python localgen/server.py
   ```
-  en dan `storylingo.py media <slug>`. Eerst alle beelden (SDXL op je GPU, ~30 s per stuk), daarna alle audio
-  (Piper: Thorsten, Duitse moedertaalspreker, met de emotie per zin; een paar seconden voor het hele verhaal).
-- **Stem per taal:** `pipeline/voices.yaml`. Daar staat welk model welke emotie spreekt, het tempo en de pauzes.
-  Andere stem (of later ElevenLabs)? Pas dat bestand aan en spreek alles opnieuw in (zie de uitleg bovenin het bestand).
-  Afgebroken? Draai het opnieuw: het maakt alleen wat nog ontbreekt.
+  en dan `storylingo.py media <slug>`. Het maakt alleen wat **ontbreekt of verouderd is**: elk beeld en elke opname
+  onthoudt van welke tekst en welke stem het gemaakt is. Vraag aangepast? Alleen die vraag. Afgebroken? Draai het
+  opnieuw. Beelden met SDXL op je GPU (~30 s per stuk), audio met Piper (een paar seconden voor een heel verhaal).
+- **Stem per taal:** het blok `voice:` in `content/languages/<code>.yaml` (model per emotie, tempo, pauzes; uitleg
+  bovenin `de.yaml`). Andere stem (of later ElevenLabs)? Pas dat blok aan en draai `media` per verhaal: alles van die
+  taal wordt opnieuw ingesproken, omdat de stem in de vingerafdruk zit.
   Weghalen: `storylingo.py media-clear <slug> [images|audio]`. Zonder audio gebruikt de app de browserstem.
 - Eerste keer `.venv-local` opzetten: zie `pipeline/localgen/requirements.txt` (Python 3.11, PyTorch met CUDA, ~8 GB downloads).
 - Betaald alternatief: `storylingo.py media <slug> gemini` met `GEMINI_API_KEY` en tegoed in `pipeline/.env`.
@@ -73,8 +103,8 @@ Stoppen: `npx supabase@3.0.0 stop` (je data blijft bewaard).
   vlak na elkaar. De spraakherkenning laat zien welke woorden duidelijk overkwamen. Overslaan mag; het verhaal telt
   al als uitgespeeld. Dit werkt omdat `media` bij elke vertelling de begin- en eindtijd per zin bewaart
   (`assets.marks`); oudere audio zonder tijden: `media-clear <slug> audio` en opnieuw `media <slug>`.
-- Na een goed antwoord gaat de les vanzelf door. De reacties ("Ja! Genau!", "Nein, nein, nein!") spreekt Thorsten
-  één keer per taal in: `storylingo.py feedback de`.
+- Na een goed antwoord gaat de les vanzelf door. De reacties ("Ja! Genau!", "Nein, nein, nein!") staan onder
+  `teacher:` in het taalbestand en worden één keer per taal ingesproken: `storylingo.py feedback de`.
 
 ## Handig
 

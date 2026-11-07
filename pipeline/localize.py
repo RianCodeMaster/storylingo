@@ -9,8 +9,9 @@ import json
 from pydantic import ValidationError
 
 from llm import MODEL, client
+from fingerprint import scene_source, summary_source
 from models import Brief, Localization, SceneLocalization, Story, TargetMeaning
-from prompts import LANGUAGE_NAMES
+from languages import english
 
 LOCALIZE_VERSION = "localize-v2"
 REPAIR_ROUNDS = 2
@@ -36,22 +37,25 @@ WORDS_SYSTEM = """Give the general meaning of each word for a language learner, 
 1 to 4 words, nouns with their article. Return ONLY JSON: {"words": {"<word exactly as given>": "meaning"}}"""
 
 
-def localize(brief: Brief, story: Story, base: str) -> tuple[Localization, dict]:
+def localize(brief: Brief, story: Story, base: str, existing: Localization | None = None) -> tuple[Localization, dict]:
     """
-    Make the base-language layer of one story. Returns it with usage stats.
+    Make or update the base-language layer of one story. Returns it with usage stats.
 
-    A model sometimes forgets a word or a tip. Whatever is missing after the first answer is asked again on its own
-    (at most REPAIR_ROUNDS times), so a layer is complete instead of silently full of holes.
+    With an existing layer only what is missing or out of date is asked for (a rewritten scene, a new question word,
+    a new core word); everything else stays as it was checked. A model sometimes forgets a word or a tip: whatever is
+    still missing after an answer is asked again on its own (at most REPAIR_ROUNDS times).
+    To translate a story again from scratch, delete its <base>.yaml first.
     """
     if base == brief.language:
         raise SystemExit(f"'{base}' is the story's own language.")
-    loc = Localization(
+    loc = existing.model_copy(deep=True) if existing else Localization(
         summary="", gestures={}, targets={}, words={},
-        scenes=[SceneLocalization(translation="", glosses={}) for _ in story.scenes],
+        scenes=[SceneLocalization(key=s.key, translation="", glosses={}) for s in story.scenes],
     )
-    payload = {
-        "story_language": LANGUAGE_NAMES.get(brief.language, brief.language),
-        "learner_language": LANGUAGE_NAMES.get(base, base),
+    _drop_stale(story, loc)
+    full = {
+        "story_language": english(brief.language),
+        "learner_language": english(base),
         "level": brief.level,
         "summary": story.summary,
         "gestures": {g.concept: g.description for g in story.gestures},
@@ -62,6 +66,11 @@ def localize(brief: Brief, story: Story, base: str) -> tuple[Localization, dict]
         ],
         "core_words": [w.lemma for w in story.core_words],
     }
+    gap = gaps(brief, story, loc)
+    if not gap:
+        print(f"  localize {base}: up to date")
+        return loc, {}
+    payload = full if existing is None else _repair_payload(full, gap, story)
     tokens_in = tokens_out = 0
     for round_ in range(1 + REPAIR_ROUNDS):
         response = client().chat.completions.create(
@@ -80,7 +89,7 @@ def localize(brief: Brief, story: Story, base: str) -> tuple[Localization, dict]
         if not gap:
             break
         print(f"  localize {base}: {count(gap)} missing, asking again")
-        payload = _repair_payload(payload, gap, story)
+        payload = _repair_payload(full, gap, story)
 
     gap = gaps(brief, story, loc)
     print(f"  localize {base}: {sum(len(s.glosses) for s in loc.scenes)} words, {count(gap)} missing"
@@ -90,6 +99,24 @@ def localize(brief: Brief, story: Story, base: str) -> tuple[Localization, dict]
         f"localize_{base}_input_tokens": tokens_in,
         f"localize_{base}_output_tokens": tokens_out,
     }
+
+
+def _drop_stale(story: Story, loc: Localization) -> None:
+    """Empty the parts whose source changed since they were translated, so they are asked for again."""
+    if loc.summary_source and loc.summary_source != summary_source(story):
+        loc.summary, loc.summary_source = "", None
+    for scene, scene_loc in zip(story.scenes, loc.scenes):
+        if scene_loc.source and scene_loc.source != scene_source(scene):
+            scene_loc.translation, scene_loc.glosses, scene_loc.source = "", {}, None
+
+
+def _stamp(story: Story, loc: Localization) -> None:
+    """Record what the complete parts were translated from."""
+    if loc.summary:
+        loc.summary_source = summary_source(story)
+    for scene, scene_loc in zip(story.scenes, loc.scenes):
+        if scene_loc.translation:
+            scene_loc.source = scene_source(scene)
 
 
 def _merge(loc: Localization, data: dict, brief: Brief, story: Story) -> None:
@@ -115,6 +142,7 @@ def _merge(loc: Localization, data: dict, brief: Brief, story: Story) -> None:
             if word in words and gloss and word not in scene_loc.glosses:
                 scene_loc.glosses[word] = str(gloss)
     loc.words = {**_known(data, story), **loc.words}
+    _stamp(story, loc)
 
 
 def gaps(brief: Brief, story: Story, loc: Localization | None) -> dict:
@@ -122,7 +150,7 @@ def gaps(brief: Brief, story: Story, loc: Localization | None) -> dict:
     if loc is None:
         return {"layer": "missing"}
     gap: dict = {}
-    if not loc.summary:
+    if not loc.summary or (loc.summary_source and loc.summary_source != summary_source(story)):
         gap["summary"] = True
     if missing := [g.concept for g in story.gestures if not loc.gestures.get(g.concept)]:
         gap["gestures"] = missing
@@ -134,6 +162,9 @@ def gaps(brief: Brief, story: Story, loc: Localization | None) -> dict:
     for i, scene in enumerate(story.scenes, 1):
         scene_loc = loc.scenes[i - 1] if i <= len(loc.scenes) else None
         hole = {}
+        # A scene rewritten after it was translated counts as not translated at all.
+        if scene_loc and scene_loc.source and scene_loc.source != scene_source(scene):
+            scene_loc = None
         if not scene_loc or not scene_loc.translation:
             hole["translation"] = True
         if words := [e.word for e in scene.glossary if not scene_loc or not scene_loc.glosses.get(e.word)]:
@@ -178,8 +209,8 @@ def localize_words(brief: Brief, story: Story, base: str) -> tuple[dict[str, str
         messages=[
             {"role": "system", "content": WORDS_SYSTEM},
             {"role": "user", "content": json.dumps({
-                "word_language": LANGUAGE_NAMES.get(brief.language, brief.language),
-                "learner_language": LANGUAGE_NAMES.get(base, base),
+                "word_language": english(brief.language),
+                "learner_language": english(base),
                 "words": [w.lemma for w in story.core_words],
             }, ensure_ascii=False)},
         ],

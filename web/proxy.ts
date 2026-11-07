@@ -1,7 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { DEFAULT_LOCALE, LOCALE_COOKIE, LOCALES } from "./lib/locales";
-
-const known = (code: string | undefined): code is string => !!code && (LOCALES as readonly string[]).includes(code);
+import { DEFAULT_LOCALE, isLocale as known, LOCALE_COOKIE, LOCALES } from "./lib/locales";
 
 /** The learner's own choice from the language menu, otherwise the best match from the browser's Accept-Language. */
 function pickLocale(request: NextRequest): string {

@@ -1,28 +1,31 @@
-"""Is a base language complete? Everything a learner reads in their own language, checked in one go.
+"""Is everything complete and in sync? One command, every area, and for each problem the command that fixes it.
 
-    python storylingo.py check <base>
+    python storylingo.py check          everything
+    python storylingo.py check <base>   only what learners with that base language need
 
-1. The app texts: web/dictionaries/<base>.json has every key of nl.json, nothing empty, the same {placeholders},
-   and every plural form that language needs (Arabic has six).
-2. The app knows the language: lib/locales.ts and app/[lang]/dictionaries.ts.
-3. Every story file (pipeline/stories) of a target language this base is paired with has a complete layer.
-4. The database: the language is a base language, has pairs, and every published story has its texts there.
+1. Content files: every language and story file reads without errors; stories pass their own rules
+   (each target at least 3x, core words are glossary words).
+2. App setup: web/lib/languages.json matches the language files.
+3. Base languages: web/dictionaries/<base>.json has every text of nl.json, nothing empty, the same {placeholders}
+   and every plural form the language needs (Arabic has six).
+4. Translations: every story has a complete, up-to-date layer for each base language it is offered in.
+5. Database: matches the files (a dry run of sync), and has what the app reads for each base language.
+6. Media: every picture and recording exists and matches its text and voice.
 """
 import json
 import re
 from pathlib import Path
 
+import content
 import db
+import languages
 from localize import count, gaps
+from mediajobs import media_jobs
+from models import check_story
 
 WEB = Path(__file__).parent.parent / "web"
 REFERENCE = "nl"
 PLURAL_KEYS = {"zero", "one", "two", "few", "many", "other"}
-# The forms Intl.PluralRules gives for each language (CLDR); the app picks one per number.
-PLURAL_FORMS = {
-    "nl": {"one", "other"}, "en": {"one", "other"}, "de": {"one", "other"}, "es": {"one", "many", "other"},
-    "fr": {"one", "many", "other"}, "ar": {"zero", "one", "two", "few", "many", "other"},
-}
 
 
 def _texts(node, path=""):
@@ -53,7 +56,7 @@ def dictionary_gaps(base: str) -> list[str]:
             continue
         wanted = _placeholders(json.dumps(reference[key], ensure_ascii=False))
         if isinstance(text, dict):
-            forms = PLURAL_FORMS.get(base, {"other"})
+            forms = set(languages.get(base).plural_forms)  # the forms Intl.PluralRules gives this language
             if missing := forms - set(text):
                 problems.append(f"{key}: plural forms missing {sorted(missing)}")
             values = list(text.values())
@@ -68,40 +71,76 @@ def dictionary_gaps(base: str) -> list[str]:
 
 
 def app_gaps(base: str) -> list[str]:
+    if base not in languages.all_languages():
+        return [f"no content/languages/{base}.yaml (copy nl.yaml)"]
     problems = []
-    locales = (WEB / "lib" / "locales.ts").read_text(encoding="utf-8")
-    if not re.search(rf'LOCALES = \[[^\]]*"{base}"', locales):
-        problems.append(f'"{base}" not in LOCALES in web/lib/locales.ts')
-    if not re.search(rf"LOCALE_NAMES[^\n]*\b{base}:", locales):
-        problems.append(f"no name for '{base}' in LOCALE_NAMES in web/lib/locales.ts")
-    if f"  {base}: () => import" not in (WEB / "app" / "[lang]" / "dictionaries.ts").read_text(encoding="utf-8"):
-        problems.append(f"'{base}' not in web/app/[lang]/dictionaries.ts")
+    if not languages.get(base).is_base:
+        problems.append(f"content/languages/{base}.yaml: roles has no 'base'")
+    if not languages.WEB_FILE.exists() or languages.WEB_FILE.read_text(encoding="utf-8") != languages.web_json():
+        problems.append("web/lib/languages.json is out of date (fix: storylingo.py sync)")
     return problems
 
 
-def story_gaps(base: str, stories: dict) -> list[str]:
-    """stories: slug -> (brief, story, localizations), for every story file whose language pairs with this base."""
-    problems = []
-    for slug, (brief, story, localizations) in stories.items():
-        gap = gaps(brief, story, localizations.get(base))
-        if gap:
-            problems.append(f"{slug}: {count(gap)} missing -> {json.dumps(gap, ensure_ascii=False)[:300]}"
-                            f"  (fix: storylingo.py localize {slug} {base})")
-    return problems
+def story_rules(doc) -> list[str]:
+    problems = check_story(doc.brief, doc.story)
+    lemmas = {e.lemma for scene in doc.story.scenes for e in scene.glossary}
+    problems += [f"core word '{w.lemma}' is not a glossary word (fix: storylingo.py core {doc.slug})"
+                 for w in doc.story.core_words if w.lemma not in lemmas]
+    return [f"{doc.slug}: {p}" for p in problems]
 
 
-def check(base: str, stories: dict) -> bool:
-    """Print every problem per area; True when the base language is complete."""
-    complete = True
-    for area, problems in [
-        ("app texts", dictionary_gaps(base)),
-        ("app setup", app_gaps(base)),
-        ("story files", story_gaps(base, stories)),
-        ("database", db.base_gaps(base)),
-    ]:
+def translation_gaps(doc, base: str) -> list[str]:
+    gap = gaps(doc.brief, doc.story, doc.localizations.get(base))
+    if not gap:
+        return []
+    return [f"{doc.slug} [{base}]: {count(gap)} missing or out of date -> {json.dumps(gap, ensure_ascii=False)[:200]}"
+            f"  (fix: storylingo.py localize {doc.slug} {base})"]
+
+
+def media_gaps(doc) -> list[str]:
+    todo = [j for j in media_jobs(doc) if j["have"] != j["want"]]
+    if not todo:
+        return []
+    missing = sum(1 for j in todo if j["have"] is None)
+    labels = ", ".join(j["label"] for j in todo[:4]) + (" …" if len(todo) > 4 else "")
+    return [f"{doc.slug}: {missing} missing, {len(todo) - missing} out of date ({labels})"
+            f"  (fix: storylingo.py media {doc.slug})"]
+
+
+def check(base: str | None = None) -> bool:
+    """Print every problem per area; True when there are none."""
+    areas: dict[str, list[str]] = {}
+    try:
+        all_languages = languages.all_languages()
+        stories = content.all_stories()
+    except SystemExit as e:  # a file that does not read stops everything else
+        print(f"✗ content files\n    {e}")
+        return False
+    bases = [base] if base else [c for c, lang in all_languages.items() if lang.is_base]
+    offered = {doc.slug: set(db.pair_bases(doc.brief.language)) for doc in stories}
+    if base:
+        stories = [doc for doc in stories if base in offered[doc.slug]]
+
+    areas["content files"] = [p for doc in stories for p in story_rules(doc)]
+    areas["app setup"] = [p for b in bases for p in app_gaps(b)]
+    areas["app texts"] = [f"[{b}] {p}" for b in bases for p in dictionary_gaps(b)]
+    areas["translations"] = [p for doc in stories for b in sorted(offered[doc.slug]) if b in bases
+                             for p in translation_gaps(doc, b)]
+    drift = []
+    for doc in stories:
+        if changes := db.sync_story(doc, dry_run=True):
+            drift.append(f"{doc.slug}: database differs ({', '.join(changes)})  (fix: storylingo.py sync)")
+    if not base:
+        drift += [f"{slug}: in the database but not in content/ (put the folder back, or remove it by hand)"
+                  for slug in db.stories_not_in({doc.slug for doc in stories})]
+    areas["database"] = drift + [f"[{b}] {p}" for b in bases for p in db.base_gaps(b)]
+    areas["media"] = [p for doc in stories for p in media_gaps(doc)]
+
+    for area, problems in areas.items():
         print(f"{'✓' if not problems else '✗'} {area}" + (f": {len(problems)} problem(s)" if problems else ""))
         for p in problems:
             print(f"    {p}")
-        complete = complete and not problems
-    print(f"\n'{base}' is {'complete' if complete else 'NOT complete'}.")
-    return complete
+    ok = not any(areas.values())
+    what = f"'{base}'" if base else "Everything"
+    print(f"\n{what} is {'complete and in sync' if ok else 'NOT complete'}.")
+    return ok

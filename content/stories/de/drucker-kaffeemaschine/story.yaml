@@ -1,0 +1,749 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: drucker-kaffeemaschine
+status: published
+tags: [algemeen, werk]
+brief:
+  language: de
+  level: B1
+  theme: Op een IT-kantoor wordt de printer verliefd op de koffiemachine, maar de systeembeheerder wil de printer vervangen
+  scenes: 5
+  targets:
+  - text: weil
+    gloss: omdat (werkwoord achteraan)
+    concept: because
+    kind: word
+  - text: damit
+    gloss: zodat (werkwoord achteraan)
+    concept: so_that
+    kind: word
+  - text: trotzdem
+    gloss: toch / desondanks
+    concept: nevertheless
+    kind: word
+story:
+  title: Klaus, der Drucker mit dem großen Herzen
+  summary: Printer Klaus wordt smoorverliefd op koffiemachine Kiki, print duizend liefdesbrieven, en de systeembeheerder wil
+    hem vervangen — maar Kiki blijkt heel andere plannen te hebben.
+  gestures:
+  - concept: because
+    description: 'Doe je hand als een trechter bij je mond en knik langzaam achterover met je hoofd, alsof je zegt: ''omdat...
+      ja, dáárom!'''
+    emoji: 🤔
+  - concept: so_that
+    description: Houd je handen als een kommetje en schuif ze met wijde ogen naar voren, alsof je het doel aan iemand cadeau
+      doet.
+    emoji: 🎯
+  - concept: nevertheless
+    description: Zet je handen in je zij, stamp één keer hard op de vloer en steek je kin omhoog als een eigenwijze peuter.
+    emoji: 😤
+  scenes:
+  - key: s1
+    text: Klaus ist ein Drucker. Er arbeitet in einem großen IT-Büro in Berlin und liebt die Kaffeemaschine Kiki, weil sie
+      so warm und schön ist. Er kann nicht sprechen, weil er nur ein Drucker ist. Deshalb druckt er jeden Morgen einen Liebesbrief,
+      damit Kiki ihn lesen kann.
+    image_prompt: Klaus, a small white office printer with two round googly eyes and a red heart sticker on his front panel,
+      sits on a desk in a bright Berlin IT office and prints a page covered in little hearts; next to him stands a shiny red
+      coffee machine with long eyelashes, smiling.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Liebt Klaus die Kaffeemaschine Kiki?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s1q2
+      kind: either_or
+      prompt: 'Was ist Klaus: ein Drucker oder eine Kaffeemaschine?'
+      options: [ein Drucker, eine Kaffeemaschine]
+      answer: ein Drucker
+    - key: s1q3
+      kind: who_what
+      prompt: Warum kann Klaus nicht sprechen?
+      options: [weil er nur ein Drucker ist, weil er schüchtern ist, weil er krank ist]
+      answer: weil er nur ein Drucker ist
+      target: weil
+    - key: s1q4
+      kind: who_what
+      prompt: Warum druckt Klaus jeden Morgen einen Liebesbrief?
+      options: [damit Kiki ihn lesen kann, damit er Hunger hat, damit er müde wird]
+      answer: damit Kiki ihn lesen kann
+      target: damit
+    glossary:
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Drucker
+      lemma: der Drucker
+      level: A2
+    - word: Er
+      lemma: er
+      level: A1
+    - word: arbeitet
+      lemma: arbeiten
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: großen
+      lemma: groß
+      level: A1
+    - word: IT-Büro
+      lemma: das IT-Büro
+      level: B1
+    - word: und
+      lemma: und
+      level: A1
+    - word: liebt
+      lemma: lieben
+      level: A1
+    - word: Kaffeemaschine
+      lemma: die Kaffeemaschine
+      level: A2
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: so
+      lemma: so
+      level: A1
+    - word: warm
+      lemma: warm
+      level: A1
+    - word: schön
+      lemma: schön
+      level: A1
+    - word: kann
+      lemma: können
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: sprechen
+      lemma: sprechen
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: Deshalb
+      lemma: deshalb
+      level: A2
+    - word: druckt
+      lemma: drucken
+      level: A2
+    - word: jeden
+      lemma: jeder
+      level: A2
+    - word: Morgen
+      lemma: der Morgen
+      level: A1
+    - word: Liebesbrief
+      lemma: der Liebesbrief
+      level: B1
+    - word: damit
+      lemma: damit
+      level: A2
+    - word: ihn
+      lemma: er
+      level: A1
+    - word: lesen
+      lemma: lesen
+      level: A1
+    voice:
+    - text: Klaus ist ein Drucker.
+      emotion: neutral
+    - text: Er arbeitet in einem großen IT-Büro in Berlin und liebt die Kaffeemaschine Kiki, weil sie so warm und schön ist.
+      emotion: amused
+    - text: Er kann nicht sprechen, weil er nur ein Drucker ist.
+      emotion: neutral
+    - text: Deshalb druckt er jeden Morgen einen Liebesbrief, damit Kiki ihn lesen kann.
+      emotion: whisper
+  - key: s2
+    text: Klaus druckt 1000 Seiten Liebesbriefe, damit Kiki jedes Wort lesen kann. Die Kollegen sind wütend, weil das ganze
+      Büro jetzt weiß ist. Trotzdem druckt Klaus weiter. Er druckt ein Herz, so groß wie ein Tisch.
+    image_prompt: Klaus, a small white office printer with two round googly eyes and a red heart sticker on his front panel,
+      shoots a gigantic paper heart as big as a table across the office; angry colleagues with paper hats stand knee-deep
+      in white paper while the red coffee machine with long eyelashes giggles in the corner.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Sind die Kollegen wütend?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s2q2
+      kind: who_what
+      prompt: Wie viele Seiten Liebesbriefe druckt Klaus?
+      options: [1000 Seiten, 10 Seiten, 3 Seiten]
+      answer: 1000 Seiten
+    - key: s2q3
+      kind: either_or
+      prompt: Warum sind die Kollegen wütend?
+      options: [weil das ganze Büro jetzt weiß ist, weil der Kaffee kalt ist]
+      answer: weil das ganze Büro jetzt weiß ist
+      target: weil
+    - key: s2q4
+      kind: yes_no
+      prompt: Hört Klaus auf zu drucken?
+      options: [Nein, Ja]
+      answer: Nein
+      target: trotzdem
+    - key: s2q5
+      kind: who_what
+      prompt: Was druckt Klaus am Ende?
+      options: ['ein Herz, so groß wie ein Tisch', einen Kuchen, einen Vertrag]
+      answer: ein Herz, so groß wie ein Tisch
+    glossary:
+    - word: druckt
+      lemma: drucken
+      level: A2
+    - word: Seiten
+      lemma: die Seite
+      level: A2
+    - word: Liebesbriefe
+      lemma: der Liebesbrief
+      level: B1
+    - word: damit
+      lemma: damit
+      level: A2
+    - word: jedes
+      lemma: jeder
+      level: A2
+    - word: Wort
+      lemma: das Wort
+      level: A1
+    - word: lesen
+      lemma: lesen
+      level: A1
+    - word: kann
+      lemma: können
+      level: A1
+    - word: Kollegen
+      lemma: der Kollege
+      level: A2
+    - word: sind
+      lemma: sein
+      level: A1
+    - word: wütend
+      lemma: wütend
+      level: B1
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: ganze
+      lemma: ganz
+      level: A2
+    - word: Büro
+      lemma: das Büro
+      level: A2
+    - word: jetzt
+      lemma: jetzt
+      level: A1
+    - word: weiß
+      lemma: weiß
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Trotzdem
+      lemma: trotzdem
+      level: A2
+    - word: weiter
+      lemma: weiter
+      level: A2
+    - word: Er
+      lemma: er
+      level: A1
+    - word: Herz
+      lemma: das Herz
+      level: A2
+    - word: so
+      lemma: so
+      level: A1
+    - word: groß
+      lemma: groß
+      level: A1
+    - word: wie
+      lemma: wie
+      level: A1
+    - word: Tisch
+      lemma: der Tisch
+      level: A1
+    voice:
+    - text: Klaus druckt 1000 Seiten Liebesbriefe, damit Kiki jedes Wort lesen kann.
+      emotion: surprised
+    - text: Die Kollegen sind wütend, weil das ganze Büro jetzt weiß ist.
+      emotion: angry
+    - text: Trotzdem druckt Klaus weiter.
+      emotion: amused
+    - text: Er druckt ein Herz, so groß wie ein Tisch.
+      emotion: surprised
+  - key: s3
+    text: 'Herr Stirn ist der Systemadministrator. Er sagt: „Ich will diesen Drucker ersetzen, weil er völlig verrückt ist.“
+      Er bestellt einen neuen Drucker, damit Klaus endlich verschwindet. Trotzdem druckt Klaus jeden Tag weiter.'
+    image_prompt: A tall thin system administrator with round glasses, a grey shirt and a clipboard stands in front of the
+      small white printer Klaus, who has two round googly eyes and a red heart sticker on his front panel; a laptop shows
+      an order form for a new printer, and the red coffee machine with long eyelashes watches from the side.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: Wer ist Herr Stirn?
+      options: [der Systemadministrator, der Chef, ein Kollege]
+      answer: der Systemadministrator
+    - key: s3q2
+      kind: either_or
+      prompt: Was will Herr Stirn?
+      options: [den Drucker ersetzen, die Kaffeemaschine kaufen]
+      answer: den Drucker ersetzen
+    - key: s3q3
+      kind: who_what
+      prompt: Warum will Herr Stirn den Drucker ersetzen?
+      options: [weil er völlig verrückt ist, weil er zu langsam ist, weil er zu alt ist]
+      answer: weil er völlig verrückt ist
+      target: weil
+    - key: s3q4
+      kind: who_what
+      prompt: Warum bestellt Herr Stirn einen neuen Drucker?
+      options:
+      - damit Klaus endlich verschwindet
+      - damit Kiki glücklich ist
+      - damit das Büro schöner wird
+      answer: damit Klaus endlich verschwindet
+      target: damit
+    - key: s3q5
+      kind: yes_no
+      prompt: Druckt Klaus trotzdem weiter?
+      options: [Ja, Nein]
+      answer: Ja
+      target: trotzdem
+    glossary:
+    - word: Herr
+      lemma: der Herr
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Systemadministrator
+      lemma: der Systemadministrator
+      level: C1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: sagt
+      lemma: sagen
+      level: A1
+    - word: Ich
+      lemma: ich
+      level: A1
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: diesen
+      lemma: dieser
+      level: A2
+    - word: Drucker
+      lemma: der Drucker
+      level: A2
+    - word: ersetzen
+      lemma: ersetzen
+      level: B2
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: völlig
+      lemma: völlig
+      level: B1
+    - word: verrückt
+      lemma: verrückt
+      level: B1
+    - word: bestellt
+      lemma: bestellen
+      level: A2
+    - word: neuen
+      lemma: neu
+      level: A1
+    - word: damit
+      lemma: damit
+      level: A2
+    - word: endlich
+      lemma: endlich
+      level: A2
+    - word: verschwindet
+      lemma: verschwinden
+      level: B1
+    - word: Trotzdem
+      lemma: trotzdem
+      level: A2
+    - word: druckt
+      lemma: drucken
+      level: A2
+    - word: jeden
+      lemma: jeder
+      level: A2
+    - word: Tag
+      lemma: der Tag
+      level: A1
+    - word: weiter
+      lemma: weiter
+      level: A2
+    voice:
+    - text: Herr Stirn ist der Systemadministrator.
+      emotion: neutral
+    - text: 'Er sagt: „Ich will diesen Drucker ersetzen, weil er völlig verrückt ist.“ Er bestellt einen neuen Drucker, damit
+        Klaus endlich verschwindet.'
+      emotion: angry
+    - text: Trotzdem druckt Klaus jeden Tag weiter.
+      emotion: amused
+  - key: s4
+    text: 'Am Montag kommt der neue Drucker Kevin. Klaus hat große Angst, weil er Kiki nicht verlieren will. Er druckt 1000
+      Seiten in einer Minute, damit alle sehen: Er ist der beste Drucker der Welt. Trotzdem zieht Herr Stirn den Stecker heraus.'
+    image_prompt: The small white printer Klaus with two round googly eyes and a red heart sticker on his front panel spits
+      out a tall tower of paper at lightning speed, while a huge shiny black printer named Kevin with sunglasses stands next
+      to him; the tall system administrator with round glasses pulls the plug, and the red coffee machine with long eyelashes
+      looks worried.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Kommt der neue Drucker am Montag?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s4q2
+      kind: either_or
+      prompt: Wie heißt der neue Drucker?
+      options: [Kevin, Klaus]
+      answer: Kevin
+    - key: s4q3
+      kind: who_what
+      prompt: Warum hat Klaus große Angst?
+      options: [weil er Kiki nicht verlieren will, weil er kaputt ist, weil Montag ist]
+      answer: weil er Kiki nicht verlieren will
+      target: weil
+    - key: s4q4
+      kind: who_what
+      prompt: Warum druckt Klaus 1000 Seiten in einer Minute?
+      options:
+      - 'damit alle sehen: Er ist der beste Drucker der Welt'
+      - damit Kiki Kaffee bekommt
+      - damit Herr Stirn zufrieden ist
+      answer: 'damit alle sehen: Er ist der beste Drucker der Welt'
+      target: damit
+    - key: s4q5
+      kind: yes_no
+      prompt: Zieht Herr Stirn trotzdem den Stecker heraus?
+      options: [Ja, Nein]
+      answer: Ja
+      target: trotzdem
+    glossary:
+    - word: Am
+      lemma: an
+      level: A1
+    - word: Montag
+      lemma: der Montag
+      level: A1
+    - word: kommt
+      lemma: kommen
+      level: A1
+    - word: neue
+      lemma: neu
+      level: A1
+    - word: Drucker
+      lemma: der Drucker
+      level: A2
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: große
+      lemma: groß
+      level: A1
+    - word: Angst
+      lemma: die Angst
+      level: A1
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: er
+      lemma: er
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: verlieren
+      lemma: verlieren
+      level: A2
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: druckt
+      lemma: drucken
+      level: A2
+    - word: Seiten
+      lemma: die Seite
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: Minute
+      lemma: die Minute
+      level: A2
+    - word: damit
+      lemma: damit
+      level: A2
+    - word: alle
+      lemma: alle
+      level: A1
+    - word: sehen
+      lemma: sehen
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: beste
+      lemma: gut
+      level: A1
+    - word: Welt
+      lemma: die Welt
+      level: A2
+    - word: Trotzdem
+      lemma: trotzdem
+      level: A2
+    - word: zieht
+      lemma: ziehen
+      level: A2
+    - word: Herr
+      lemma: der Herr
+      level: A1
+    - word: Stecker
+      lemma: der Stecker
+      level: B1
+    - word: heraus
+      lemma: heraus
+      level: A2
+    voice:
+    - text: Am Montag kommt der neue Drucker Kevin.
+      emotion: neutral
+    - text: Klaus hat große Angst, weil er Kiki nicht verlieren will.
+      emotion: whisper
+    - text: 'Er druckt 1000 Seiten in einer Minute, damit alle sehen: Er ist der beste Drucker der Welt.'
+      emotion: surprised
+    - text: Trotzdem zieht Herr Stirn den Stecker heraus.
+      emotion: angry
+  - key: s5
+    text: 'Plötzlich wird Kiki sehr heiß und spuckt Kaffee auf Herrn Stirn, weil er Klaus wehtut. Der Chef kommt und ruft:
+      „Klaus bleibt für immer, damit das Büro nie langweilig wird!“ Trotzdem ist die Geschichte noch nicht zu Ende: Kiki sieht
+      den neuen Drucker Kevin und schreibt mit Kaffeeschaum: „Du bist auch süß.“ Klaus ist nur fünf Minuten traurig und druckt
+      dann einen Liebesbrief für den Toaster.'
+    image_prompt: The red coffee machine with long eyelashes sprays a fountain of brown coffee over the tall system administrator
+      with round glasses, who waves his arms; the small white printer Klaus with two round googly eyes and a red heart sticker
+      on his front panel happily prints a love letter for a tiny silver toaster with blinking eyes, while the boss laughs
+      in the doorway.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Warum wird Kiki plötzlich so heiß?
+      options: [weil Herr Stirn Klaus wehtut, weil sie Kaffee kocht, weil es Sommer ist]
+      answer: weil Herr Stirn Klaus wehtut
+      target: weil
+    - key: s5q2
+      kind: who_what
+      prompt: Was macht Kiki in diesem Moment?
+      options: [Sie spuckt Kaffee auf Herrn Stirn, Sie druckt einen Brief, Sie schläft ein]
+      answer: Sie spuckt Kaffee auf Herrn Stirn
+    - key: s5q3
+      kind: who_what
+      prompt: Warum bleibt Klaus im Büro?
+      options: [damit das Büro nie langweilig wird, damit Kiki Kaffee hat, damit Kevin kommt]
+      answer: damit das Büro nie langweilig wird
+      target: damit
+    - key: s5q4
+      kind: either_or
+      prompt: Was sagt der Chef?
+      options: [Klaus bleibt für immer, Kevin bleibt für immer]
+      answer: Klaus bleibt für immer
+      target: trotzdem
+    - key: s5q5
+      kind: who_what
+      prompt: Für wen druckt Klaus am Ende einen Liebesbrief?
+      options: [für den Toaster, für Kiki, für Herrn Stirn]
+      answer: für den Toaster
+    glossary:
+    - word: Plötzlich
+      lemma: plötzlich
+      level: A2
+    - word: wird
+      lemma: werden
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: heiß
+      lemma: heiß
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: spuckt
+      lemma: spucken
+      level: B1
+    - word: Kaffee
+      lemma: der Kaffee
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Herrn
+      lemma: der Herr
+      level: A1
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: er
+      lemma: er
+      level: A1
+    - word: wehtut
+      lemma: wehtun
+      level: B1
+    - word: Chef
+      lemma: der Chef
+      level: A2
+    - word: kommt
+      lemma: kommen
+      level: A1
+    - word: ruft
+      lemma: rufen
+      level: A2
+    - word: bleibt
+      lemma: bleiben
+      level: A2
+    - word: für
+      lemma: für
+      level: A1
+    - word: immer
+      lemma: immer
+      level: A1
+    - word: damit
+      lemma: damit
+      level: A2
+    - word: Büro
+      lemma: das Büro
+      level: A2
+    - word: nie
+      lemma: nie
+      level: A1
+    - word: langweilig
+      lemma: langweilig
+      level: B1
+    - word: Trotzdem
+      lemma: trotzdem
+      level: A2
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Geschichte
+      lemma: die Geschichte
+      level: A2
+    - word: noch
+      lemma: noch
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: zu
+      lemma: zu
+      level: A1
+    - word: Ende
+      lemma: das Ende
+      level: A2
+    - word: sieht
+      lemma: sehen
+      level: A1
+    - word: neuen
+      lemma: neu
+      level: A1
+    - word: Drucker
+      lemma: der Drucker
+      level: A2
+    - word: schreibt
+      lemma: schreiben
+      level: A1
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: Kaffeeschaum
+      lemma: der Kaffeeschaum
+      level: B2
+    - word: Du
+      lemma: du
+      level: A1
+    - word: bist
+      lemma: sein
+      level: A1
+    - word: auch
+      lemma: auch
+      level: A1
+    - word: süß
+      lemma: süß
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: Minuten
+      lemma: die Minute
+      level: A2
+    - word: traurig
+      lemma: traurig
+      level: A1
+    - word: druckt
+      lemma: drucken
+      level: A2
+    - word: dann
+      lemma: dann
+      level: A1
+    - word: Liebesbrief
+      lemma: der Liebesbrief
+      level: B1
+    - word: Toaster
+      lemma: der Toaster
+      level: A2
+    voice:
+    - text: Plötzlich wird Kiki sehr heiß und spuckt Kaffee auf Herrn Stirn, weil er Klaus wehtut.
+      emotion: surprised
+    - text: 'Der Chef kommt und ruft: „Klaus bleibt für immer, damit das Büro nie langweilig wird!“ Trotzdem ist die Geschichte
+        noch nicht zu Ende: Kiki sieht den neuen Drucker Kevin und schreibt mit Kaffeeschaum: „Du bist auch süß.“ Klaus ist
+        nur fünf Minuten traurig und druckt dann einen Liebesbrief für den Toaster.'
+      emotion: amused
+  core_words:
+  - lemma: der Drucker
+    image_prompt: a white office printer with paper coming out
+  - lemma: die Kaffeemaschine
+    image_prompt: a shiny coffee machine with a cup under the spout
+  - lemma: der Liebesbrief
+    image_prompt: a sealed envelope with a red heart sticker, no writing
+  - lemma: das Herz
+    image_prompt: a simple red heart shape
+  - lemma: der Stecker
+    image_prompt: a hand pulling an electrical plug out of a wall socket
+  - lemma: der Toaster
+    image_prompt: a small kitchen toaster with two slices of bread
+generation:
+  prompt_version: tprs-v1
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 672
+  output_tokens: 7836
+  glossary_version: glossary-v1
+  glossary_input_tokens: 699
+  glossary_output_tokens: 19911
+  voice_version: voice-v1
+  voice_input_tokens: 635
+  voice_output_tokens: 2144
+  core_version: core-v1
+  core_input_tokens: 2002
+  core_output_tokens: 485
+  localize_words_nl_output_tokens: 254
+  localize_en_version: localize-v1
+  localize_en_input_tokens: 1660
+  localize_en_output_tokens: 7975
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1694
+  localize_ar_output_tokens: 7968

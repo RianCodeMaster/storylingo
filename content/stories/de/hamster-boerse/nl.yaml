@@ -1,0 +1,160 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Hamster Hugo wil rijk worden op de beurs, maar hij kan de cijfers niet lezen, hij is bang voor de mensen en hij eet
+  per ongeluk 1000 bananen op.
+summary_source: 286a2ab4b9de8823
+gestures:
+  want: Strek beide armen ver voor je uit met grote grijphanden en een hongerig gezicht, alsof je iets heel graag wilt pakken.
+  cannot: 'Zwaai met beide handen vlak voor je gezicht heen en weer en schud wild je hoofd, alsof je zegt: nee, nee, dat lukt
+    niet!'
+  afraid: Sla je armen om jezelf heen, ga een beetje bibberen en zet je ogen heel wijd open.
+targets:
+  wollte:
+    gloss: wilde
+    note: null
+  konnte nicht:
+    gloss: kon niet
+    note: null
+  hatte Angst:
+    gloss: was bang
+    note: null
+scenes:
+- key: s1
+  source: 534dbfd379d7fcba
+  translation: Hugo is een kleine hamster. Hij woont in een kooi in een flat. Maar Hugo wilde altijd rijk zijn. Hij wilde
+    op de beurs handelen.
+  glosses:
+    ist: is
+    kleiner: kleine
+    Hamster: hamster
+    Er: hij
+    wohnt: woont
+    in: in
+    Käfig: kooi
+    Wohnung: woning
+    Aber: maar
+    wollte: wilde
+    immer: altijd
+    reich: rijk
+    sein: zijn
+    an: op
+    Börse: beurs
+    handeln: handelen
+- key: s2
+  source: 8f5041a8f0832df4
+  translation: Op maandag ging Hugo naar de beurs. Hij had een piepkleine laptop in zijn tas. De cijfers gingen heel snel,
+    en hij kon niet lezen. Hij was bang voor de grote mensen.
+  glosses:
+    Am: op
+    Montag: maandag
+    ging: ging
+    zur: naar
+    Börse: beurs
+    Er: hij
+    hatte: had
+    winzigen: piepkleine
+    Laptop: laptop
+    in: in
+    seiner: zijn
+    Tasche: tas
+    Zahlen: cijfers
+    waren: waren
+    sehr: heel
+    schnell: snel
+    und: en
+    konnte: konnte
+    nicht: niet
+    lesen: lezen
+    Angst: angst
+    vor: voor
+    großen: grote
+    Menschen: mensen
+- key: s3
+  source: 1362f31539fba5b6
+  translation: 'Een man zei: ''Koop bananenaandelen!'' Hugo wilde alles kopen. Hij kocht 1000 bananen. De bananen lagen in
+    de kooi, en Hugo kon niet slapen.'
+  glosses:
+    Mann: man
+    sagte: zei
+    Kauf: koop
+    Bananen-Aktien: bananenaandelen
+    wollte: wilde
+    alles: alles
+    kaufen: kopen
+    Er: hij
+    kaufte: kocht
+    Bananen: bananen
+    lagen: lagen
+    im: in
+    Käfig: kooi
+    und: en
+    konnte: konnte
+    nicht: niet
+    schlafen: slapen
+- key: s4
+  source: 0f40657408a9777b
+  translation: Op dinsdag zakten de prijzen. Hugo wilde verkopen, maar hij kon niet. Hij was bang en huilde heel erg. 'Ik
+    was bang', zei hij tegen zijn moeder.
+  glosses:
+    Am: op
+    Dienstag: dinsdag
+    fielen: daalden
+    Preise: prijzen
+    wollte: wilde
+    verkaufen: verkopen
+    aber: maar
+    er: hij
+    konnte: konnte
+    nicht: niet
+    hatte: had
+    Angst: angst
+    und: en
+    weinte: huilde
+    sehr: heel
+    Ich: ik
+    sagte: zei
+    zu: tegen
+    seiner: zijn
+    Mutter: moeder
+- key: s5
+  source: 77c1eb9f872b1194
+  translation: In de nacht was Hugo bang en at hij alle 1000 bananen op. De volgende ochtend kostte een banaan 1000 euro,
+    maar Hugo had alleen nog bananenschillen. Een bedrijf kocht de schillen voor een miljoen euro. Nu wilde Hugo niet meer
+    op de beurs handelen.
+  glosses:
+    In: in
+    Nacht: nacht
+    hatte: had
+    Angst: angst
+    und: en
+    aß: at
+    alle: alle
+    Bananen: bananen
+    Am: op
+    Morgen: ochtend
+    kostete: kostte
+    Banane: banaan
+    Euro: euro
+    aber: maar
+    nur: alleen
+    noch: nog
+    Bananenschalen: bananenschillen
+    Firma: bedrijf
+    kaufte: kocht
+    Schalen: schillen
+    für: voor
+    Jetzt: nu
+    wollte: wilde
+    nicht: niet
+    mehr: meer
+    an: op
+    Börse: beurs
+    handeln: handelen
+words:
+  der Hamster: de hamster
+  der Käfig: de kooi
+  die Börse: de beurs
+  die Banane: de banaan
+  die Angst: de angst
+  die Bananenschale: de bananenschil

@@ -1,0 +1,80 @@
+# A language you can LEARN (target). Copy this file for a new target language.
+#
+# Everything about a language lives here, nowhere else: the app, the pipeline and the database read it
+# (storylingo.py sync writes the database rows and web/lib/languages.json).
+#
+# voice:     the narrator. Swap a voice (e.g. ElevenLabs) by editing this block; `storylingo.py media` then remakes
+#            every recording of this language, because each recording remembers the voice it was made with.
+#   provider:  piper   free, on this machine (localgen/server.py).
+#                      Models: .venv-local/Scripts/python -m piper.download_voices --data-dir voices/piper <name>
+#              gemini  paid (GEMINI_API_KEY with credit)
+#              New provider: one class with a speech() method in pipeline/media.py, registered in SPEAKERS.
+#   settings:  used for every style unless the style says otherwise.
+#   styles:    emotion -> how to speak it. Emotions without a style use "neutral".
+#              Emotions: amused, angry, disgusted, neutral, sleepy, surprised, whisper (pipeline/models.py).
+#   question / word:  the emotion for circling questions and for single words.
+#   pause:     seconds of silence between sentences.
+# teacher:   what the teacher says in this language. yes/no are recorded once (storylingo.py feedback <code>);
+#            after changing them, run that again.
+# recognition: words the speech recognizer writes differently from the stories (numbers as digits, "nee" for "nein").
+#            Written naturally; accents and case do not matter.
+
+code: de
+name: Deutsch
+english: German
+roles: [target]
+direction: ltr
+script: latin
+speech_tag: de-DE
+plural_forms: [one, other]
+
+teacher:
+  yes:
+    - {text: "Ja! Genau!", emotion: amused}
+    - {text: "Richtig! Super!", emotion: surprised}
+    - {text: "Fantastisch!", emotion: amused}
+    - {text: "Ja, ja, ja!", emotion: surprised}
+  no:
+    - {text: "Nein, nein, nein!", emotion: surprised}
+    - {text: "Oh nein!", emotion: surprised}
+  next: Weiter
+  done: Fertig!
+
+recognition:
+  eins: "1"
+  zwei: "2"
+  drei: "3"
+  vier: "4"
+  fünf: "5"
+  sechs: "6"
+  sieben: "7"
+  acht: "8"
+  neun: "9"
+  zehn: "10"
+  elf: "11"
+  zwölf: "12"
+  zwanzig: "20"
+  hundert: "100"
+  einhundert: "100"
+  tausend: "1000"
+  eintausend: "1000"
+  nee: nein
+  no: nein
+  jo: ja
+  jawohl: ja
+
+voice:
+  provider: piper
+  pause: 0.5
+  question: amused
+  word: neutral
+  settings: {length_scale: 1.1, noise_w_scale: 1.0, noise_scale: 0.6}
+  styles:
+    # Most sentences: the high-quality Thorsten, the most fluent. The same speaker recorded the emotions below.
+    neutral:   {model: de_DE-thorsten-high, length_scale: 1.15, noise_w_scale: 0.9}
+    amused:    {model: de_DE-thorsten_emotional-medium, speaker: amused}
+    angry:     {model: de_DE-thorsten_emotional-medium, speaker: angry}
+    disgusted: {model: de_DE-thorsten_emotional-medium, speaker: disgusted}
+    sleepy:    {model: de_DE-thorsten_emotional-medium, speaker: sleepy}
+    surprised: {model: de_DE-thorsten_emotional-medium, speaker: surprised}
+    whisper:   {model: de_DE-thorsten_emotional-medium, speaker: whisper}

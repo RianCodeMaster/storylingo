@@ -1,0 +1,9 @@
+# Base language. See nl.yaml for what each field means.
+code: en
+name: English
+english: English
+roles: [base]
+direction: ltr
+script: latin
+speech_tag: en-US
+plural_forms: [one, other]

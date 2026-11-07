@@ -2,7 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Noto_Sans_Arabic, Plus_Jakarta_Sans } from "next/font/google";
 import { I18nProvider } from "@/lib/i18n";
 import "../globals.css";
-import { direction, getDictionary, locales } from "./dictionaries";
+import { direction, LOCALES, script } from "@/lib/locales";
+import { getDictionary } from "./dictionaries";
 
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
@@ -20,7 +21,7 @@ const arabic = Noto_Sans_Arabic({
 
 // Every base language is its own set of pages: /nl/…, later /en/… and /ar/….
 export function generateStaticParams() {
-  return locales.map((lang) => ({ lang }));
+  return LOCALES.map((lang) => ({ lang }));
 }
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -37,7 +38,13 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   return (
     // Browser extensions (Grammarly, translators) add attributes to <html> and <body> before React starts;
     // suppressHydrationWarning ignores those two elements only, not the app inside them.
-    <html lang={locale} dir={direction(locale)} className={`${jakarta.variable} ${arabic.variable}`} suppressHydrationWarning>
+    <html
+      lang={locale}
+      dir={direction(locale)}
+      data-script={script(locale)}
+      className={`${jakarta.variable} ${arabic.variable}`}
+      suppressHydrationWarning
+    >
       <body suppressHydrationWarning>
         <I18nProvider lang={locale} dict={dict}>
           {children}

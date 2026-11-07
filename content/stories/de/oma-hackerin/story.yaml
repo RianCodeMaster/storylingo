@@ -1,0 +1,720 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: oma-hackerin
+status: published
+tags: [algemeen, techniek]
+brief:
+  language: de
+  level: B1
+  theme: Een oma van 92 is stiekem de beste hacker van Duitsland en wil het wifi-wachtwoord van de hele stad veranderen
+  scenes: 5
+  targets:
+  - text: obwohl
+    gloss: hoewel (werkwoord achteraan)
+    concept: although
+    kind: word
+  - text: hätte gern
+    gloss: zou graag hebben
+    concept: would_like_to_have
+    kind: phrase
+  - text: würde gern
+    gloss: zou graag (doen)
+    concept: would_like_to_do
+    kind: phrase
+story:
+  title: Oma Hilde und der WLAN-Code von Berlin
+  summary: Oma Hilde (92) is stiekem de beste hacker van Duitsland en verandert het wifiwachtwoord van heel de stad — maar
+    dan vergeet ze haar eigen code.
+  gestures:
+  - concept: although
+    description: 'Je trekt met één hand je wenkbrauw hoog op en duwt met de andere hand je kin omhoog, met een gezicht van:
+      ''Echt? Toch!'''
+    emoji: 🤨
+  - concept: would_like_to_have
+    description: Je strekt beide handen smekend vooruit naar een gigantische denkbeeldige taart die net te ver weg staat.
+    emoji: 🙏
+  - concept: would_like_to_do
+    description: Je springt op een denkbeeldige fiets en trapt wild in de lucht met een hongerige blik naar avontuur.
+    emoji: 🚴
+  scenes:
+  - key: s1
+    text: Oma Hilde ist 92 Jahre alt und wohnt in Berlin. Sie trinkt Tee und strickt gern, obwohl sie eigentlich keine Zeit
+      hat. Denn Oma Hilde ist die beste Hackerin von Deutschland — obwohl niemand das weiß. Sie hätte gern den WLAN-Code von
+      der ganzen Stadt.
+    image_prompt: 'Cartoon: a tiny 92-year-old woman with big round glasses, white hair in a bun, a purple knitted cardigan
+      and a walking stick, sitting in a cosy Berlin flat with a teapot and knitting on the table — and a laptop glowing secretly
+      under her knitting.'
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Ist Oma Hilde 92 Jahre alt?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s1q2
+      kind: either_or
+      prompt: Wohnt Oma Hilde in Berlin oder in München?
+      options: [in Berlin, in München]
+      answer: in Berlin
+    - key: s1q3
+      kind: who_what
+      prompt: Wer ist die beste Hackerin von Deutschland?
+      options: [Oma Hilde, der Bürgermeister, die Katze]
+      answer: Oma Hilde
+    - key: s1q4
+      kind: yes_no
+      prompt: Ist Oma Hilde der beste Hacker, obwohl sie schon 92 ist?
+      options: [Ja, Nein]
+      answer: Ja
+      target: obwohl
+    - key: s1q5
+      kind: who_what
+      prompt: Was hätte Oma Hilde gern?
+      options: [den WLAN-Code von der ganzen Stadt, einen neuen Tee, ein Fahrrad]
+      answer: den WLAN-Code von der ganzen Stadt
+      target: hätte gern
+    glossary:
+    - word: Oma
+      lemma: die Oma
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Jahre
+      lemma: das Jahr
+      level: A1
+    - word: alt
+      lemma: alt
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: wohnt
+      lemma: wohnen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: trinkt
+      lemma: trinken
+      level: A1
+    - word: Tee
+      lemma: der Tee
+      level: A1
+    - word: strickt
+      lemma: stricken
+      level: A2
+    - word: gern
+      lemma: gern
+      level: A1
+    - word: obwohl
+      lemma: obwohl
+      level: B1
+    - word: eigentlich
+      lemma: eigentlich
+      level: B1
+    - word: keine
+      lemma: kein
+      level: A1
+    - word: Zeit
+      lemma: die Zeit
+      level: A1
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: Denn
+      lemma: denn
+      level: A2
+    - word: beste
+      lemma: gut
+      level: A1
+    - word: Hackerin
+      lemma: die Hackerin
+      level: B1
+    - word: von
+      lemma: von
+      level: A1
+    - word: niemand
+      lemma: niemand
+      level: A2
+    - word: das
+      lemma: das
+      level: A1
+    - word: weiß
+      lemma: wissen
+      level: A1
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: WLAN-Code
+      lemma: der WLAN-Code
+      level: A2
+    - word: ganzen
+      lemma: ganz
+      level: A2
+    - word: Stadt
+      lemma: die Stadt
+      level: A1
+    voice:
+    - text: Oma Hilde ist 92 Jahre alt und wohnt in Berlin.
+      emotion: surprised
+    - text: Sie trinkt Tee und strickt gern, obwohl sie eigentlich keine Zeit hat.
+      emotion: amused
+    - text: Denn Oma Hilde ist die beste Hackerin von Deutschland — obwohl niemand das weiß.
+      emotion: whisper
+    - text: Sie hätte gern den WLAN-Code von der ganzen Stadt.
+      emotion: amused
+  - key: s2
+    text: 'Der WLAN-Code von Berlin ist tausend Zeichen lang, und das macht Oma Hilde wütend. Sie würde gern den Code von
+      der ganzen Stadt ändern. Aber der Bürgermeister sagt: „Das darfst du nicht!“ — obwohl Hilde viel besser hackt als er.'
+    image_prompt: 'Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan, furious, waving her
+      walking stick in front of the Berlin town hall at a huge poster showing a 1000-character wifi code, while a fat laughing
+      mayor points at her.'
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Ist der WLAN-Code von Berlin tausend Zeichen lang?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s2q2
+      kind: either_or
+      prompt: Sagt der Bürgermeister oder die Katze „Das darfst du nicht!“?
+      options: [der Bürgermeister, die Katze]
+      answer: der Bürgermeister
+    - key: s2q3
+      kind: who_what
+      prompt: Was würde Oma Hilde gern ändern?
+      options: [den WLAN-Code von der ganzen Stadt, den Tee, den Bürgermeister]
+      answer: den WLAN-Code von der ganzen Stadt
+      target: würde gern
+    - key: s2q4
+      kind: yes_no
+      prompt: Hackt Hilde besser als der Bürgermeister, obwohl er der Bürgermeister ist?
+      options: [Ja, Nein]
+      answer: Ja
+      target: obwohl
+    glossary:
+    - word: WLAN-Code
+      lemma: der WLAN-Code
+      level: A2
+    - word: von
+      lemma: von
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Zeichen
+      lemma: das Zeichen
+      level: A2
+    - word: lang
+      lemma: lang
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: das
+      lemma: das
+      level: A1
+    - word: macht
+      lemma: machen
+      level: A1
+    - word: Oma
+      lemma: die Oma
+      level: A1
+    - word: wütend
+      lemma: wütend
+      level: B1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: würde
+      lemma: werden
+      level: A1
+    - word: gern
+      lemma: gern
+      level: A1
+    - word: Code
+      lemma: der Code
+      level: A2
+    - word: ganzen
+      lemma: ganz
+      level: A2
+    - word: Stadt
+      lemma: die Stadt
+      level: A1
+    - word: ändern
+      lemma: ändern
+      level: A2
+    - word: Aber
+      lemma: aber
+      level: A1
+    - word: Bürgermeister
+      lemma: der Bürgermeister
+      level: B1
+    - word: sagt
+      lemma: sagen
+      level: A1
+    - word: darfst
+      lemma: dürfen
+      level: A2
+    - word: du
+      lemma: du
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: obwohl
+      lemma: obwohl
+      level: B1
+    - word: viel
+      lemma: viel
+      level: A1
+    - word: besser
+      lemma: gut
+      level: A1
+    - word: hackt
+      lemma: hacken
+      level: B1
+    - word: als
+      lemma: als
+      level: A1
+    - word: er
+      lemma: er
+      level: A1
+    voice:
+    - text: Der WLAN-Code von Berlin ist tausend Zeichen lang, und das macht Oma Hilde wütend.
+      emotion: angry
+    - text: Sie würde gern den Code von der ganzen Stadt ändern.
+      emotion: amused
+    - text: 'Aber der Bürgermeister sagt: „Das darfst du nicht!“ — obwohl Hilde viel besser hackt als er.'
+      emotion: angry
+  - key: s3
+    text: Um drei Uhr morgens sitzt Hilde vor ihrem kleinen Laptop. Sie würde gern schlafen, aber sie arbeitet weiter, obwohl
+      ihre Katze laut protestiert. Sie hätte gern einen starken Kaffee, aber sie hat nur 1000 Tassen Tee.
+    image_prompt: 'Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan at 3 a.m. at a tiny
+      glowing laptop in a dark kitchen, surrounded by 1000 teacups, while a fat cat on the table loudly protests.'
+    questions:
+    - key: s3q1
+      kind: either_or
+      prompt: Sitzt Hilde um drei Uhr morgens am Laptop oder im Bett?
+      options: [am Laptop, im Bett]
+      answer: am Laptop
+    - key: s3q2
+      kind: yes_no
+      prompt: Würde Hilde gern schlafen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: würde gern
+    - key: s3q3
+      kind: who_what
+      prompt: Was hätte Hilde gern?
+      options: [einen starken Kaffee, 1000 Tassen Tee, eine Katze]
+      answer: einen starken Kaffee
+      target: hätte gern
+    - key: s3q4
+      kind: yes_no
+      prompt: Arbeitet Hilde weiter, obwohl ihre Katze protestiert?
+      options: [Ja, Nein]
+      answer: Ja
+      target: obwohl
+    glossary:
+    - word: Um
+      lemma: um
+      level: A1
+    - word: Uhr
+      lemma: die Uhr
+      level: A1
+    - word: morgens
+      lemma: morgens
+      level: A2
+    - word: sitzt
+      lemma: sitzen
+      level: A1
+    - word: vor
+      lemma: vor
+      level: A1
+    - word: ihrem
+      lemma: ihr
+      level: A1
+    - word: kleinen
+      lemma: klein
+      level: A1
+    - word: Laptop
+      lemma: der Laptop
+      level: A2
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: würde
+      lemma: werden
+      level: A1
+    - word: gern
+      lemma: gern
+      level: A1
+    - word: schlafen
+      lemma: schlafen
+      level: A1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: arbeitet
+      lemma: arbeiten
+      level: A1
+    - word: weiter
+      lemma: weiter
+      level: A2
+    - word: obwohl
+      lemma: obwohl
+      level: B1
+    - word: ihre
+      lemma: ihr
+      level: A1
+    - word: Katze
+      lemma: die Katze
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A2
+    - word: protestiert
+      lemma: protestieren
+      level: B1
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: starken
+      lemma: stark
+      level: A2
+    - word: Kaffee
+      lemma: der Kaffee
+      level: A1
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: Tassen
+      lemma: die Tasse
+      level: A1
+    - word: Tee
+      lemma: der Tee
+      level: A1
+    voice:
+    - text: Um drei Uhr morgens sitzt Hilde vor ihrem kleinen Laptop.
+      emotion: sleepy
+    - text: Sie würde gern schlafen, aber sie arbeitet weiter, obwohl ihre Katze laut protestiert.
+      emotion: sleepy
+    - text: Sie hätte gern einen starken Kaffee, aber sie hat nur 1000 Tassen Tee.
+      emotion: surprised
+  - key: s4
+    text: 'Obwohl der Code tausend Zeichen hat, ist Hilde in zehn Minuten drin. Sie würde gern etwas Mutiges machen, und darum
+      ändert sie den Code von der ganzen Stadt. Der neue Code ist: „HILDE123“. Plötzlich ist die ganze Stadt offline — 1000
+      Menschen stehen auf der Straße und schreien.'
+    image_prompt: 'Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan, arms up in victory,
+      a giant green code ''HILDE123'' glowing on her screen, and through the window the whole city goes dark with 1000 people
+      standing in the street.'
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Ist Hilde in zehn Minuten im System, obwohl der Code tausend Zeichen hat?
+      options: [Ja, Nein]
+      answer: Ja
+      target: obwohl
+    - key: s4q2
+      kind: who_what
+      prompt: Wie ist der neue Code?
+      options: [HILDE123, BERLIN123, TEE123]
+      answer: HILDE123
+    - key: s4q3
+      kind: either_or
+      prompt: Ist nach dem Hack die ganze Stadt offline oder online?
+      options: [offline, online]
+      answer: offline
+    - key: s4q4
+      kind: yes_no
+      prompt: Würde Hilde gern etwas Mutiges machen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: würde gern
+    glossary:
+    - word: Obwohl
+      lemma: obwohl
+      level: B1
+    - word: Code
+      lemma: der Code
+      level: A2
+    - word: Zeichen
+      lemma: das Zeichen
+      level: A2
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Minuten
+      lemma: die Minute
+      level: A1
+    - word: drin
+      lemma: drin
+      level: A2
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: würde
+      lemma: werden
+      level: A1
+    - word: gern
+      lemma: gern
+      level: A1
+    - word: etwas
+      lemma: etwas
+      level: A2
+    - word: Mutiges
+      lemma: mutig
+      level: B1
+    - word: machen
+      lemma: machen
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: darum
+      lemma: darum
+      level: A2
+    - word: ändert
+      lemma: ändern
+      level: A2
+    - word: von
+      lemma: von
+      level: A1
+    - word: ganzen
+      lemma: ganz
+      level: A2
+    - word: Stadt
+      lemma: die Stadt
+      level: A1
+    - word: neue
+      lemma: neu
+      level: A1
+    - word: Plötzlich
+      lemma: plötzlich
+      level: A2
+    - word: ganze
+      lemma: ganz
+      level: A2
+    - word: offline
+      lemma: offline
+      level: A2
+    - word: Menschen
+      lemma: der Mensch
+      level: A1
+    - word: stehen
+      lemma: stehen
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Straße
+      lemma: die Straße
+      level: A1
+    - word: schreien
+      lemma: schreien
+      level: A2
+    voice:
+    - text: Obwohl der Code tausend Zeichen hat, ist Hilde in zehn Minuten drin.
+      emotion: surprised
+    - text: Sie würde gern etwas Mutiges machen, und darum ändert sie den Code von der ganzen Stadt.
+      emotion: amused
+    - text: 'Der neue Code ist: „HILDE123“.'
+      emotion: amused
+    - text: Plötzlich ist die ganze Stadt offline — 1000 Menschen stehen auf der Straße und schreien.
+      emotion: surprised
+  - key: s5
+    text: '1000 Menschen stehen vor Hildes Tür, und alle hätten gern den neuen Code. Hilde würde gern helfen, aber sie hat
+      den Code selbst vergessen. Da springt ihre Katze auf die Tastatur und tippt: „HILDE123“. Die Stadt hat wieder WLAN,
+      und Oma Hilde hätte gern ein bisschen Ruhe — aber jetzt kennen alle ihren Code.'
+    image_prompt: 'Cartoon: the same tiny old woman with round glasses, white bun and purple cardigan standing in her doorway
+      with 1000 people in the street holding up phones, while a small cat types ''HILDE123'' on a laptop keyboard with its
+      paws; the old woman looks tired but relieved.'
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Wer steht vor Hildes Tür?
+      options: [1000 Menschen, nur die Katze, der Tee]
+      answer: 1000 Menschen
+    - key: s5q2
+      kind: yes_no
+      prompt: Hat Hilde den neuen Code vergessen?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s5q3
+      kind: who_what
+      prompt: Wer tippt den Code?
+      options: [die Katze, der Bürgermeister, Hilde]
+      answer: die Katze
+    - key: s5q4
+      kind: yes_no
+      prompt: Hätte Hilde gern ein bisschen Ruhe?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hätte gern
+    - key: s5q5
+      kind: either_or
+      prompt: Würde Hilde gern helfen oder gern schlafen?
+      options: [helfen, schlafen]
+      answer: helfen
+      target: würde gern
+    glossary:
+    - word: Menschen
+      lemma: der Mensch
+      level: A1
+    - word: stehen
+      lemma: stehen
+      level: A1
+    - word: vor
+      lemma: vor
+      level: A1
+    - word: Tür
+      lemma: die Tür
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: alle
+      lemma: alle
+      level: A2
+    - word: hätten
+      lemma: haben
+      level: A1
+    - word: gern
+      lemma: gern
+      level: A1
+    - word: neuen
+      lemma: neu
+      level: A1
+    - word: Code
+      lemma: der Code
+      level: A2
+    - word: würde
+      lemma: werden
+      level: A1
+    - word: helfen
+      lemma: helfen
+      level: A1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: selbst
+      lemma: selbst
+      level: A2
+    - word: vergessen
+      lemma: vergessen
+      level: A2
+    - word: Da
+      lemma: da
+      level: A2
+    - word: springt
+      lemma: springen
+      level: A2
+    - word: ihre
+      lemma: ihr
+      level: A1
+    - word: Katze
+      lemma: die Katze
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Tastatur
+      lemma: die Tastatur
+      level: A2
+    - word: tippt
+      lemma: tippen
+      level: A2
+    - word: Stadt
+      lemma: die Stadt
+      level: A1
+    - word: wieder
+      lemma: wieder
+      level: A1
+    - word: WLAN
+      lemma: das WLAN
+      level: A2
+    - word: Oma
+      lemma: die Oma
+      level: A1
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: bisschen
+      lemma: bisschen
+      level: A2
+    - word: Ruhe
+      lemma: die Ruhe
+      level: A2
+    - word: jetzt
+      lemma: jetzt
+      level: A1
+    - word: kennen
+      lemma: kennen
+      level: A2
+    - word: ihren
+      lemma: ihr
+      level: A1
+    voice:
+    - text: 1000 Menschen stehen vor Hildes Tür, und alle hätten gern den neuen Code.
+      emotion: surprised
+    - text: Hilde würde gern helfen, aber sie hat den Code selbst vergessen.
+      emotion: amused
+    - text: 'Da springt ihre Katze auf die Tastatur und tippt: „HILDE123“.'
+      emotion: surprised
+    - text: Die Stadt hat wieder WLAN, und Oma Hilde hätte gern ein bisschen Ruhe — aber jetzt kennen alle ihren Code.
+      emotion: amused
+  core_words:
+  - lemma: die Hackerin
+    image_prompt: a woman in a hoodie typing on a laptop at night
+  - lemma: der WLAN-Code
+    image_prompt: a wifi router with signal waves and a floating key symbol
+  - lemma: die Stadt
+    image_prompt: a city skyline with many buildings
+  - lemma: die Katze
+    image_prompt: a cat sitting on a laptop keyboard
+  - lemma: die Tastatur
+    image_prompt: a computer keyboard
+  - lemma: vergessen
+    image_prompt: an older woman with a confused expression and a missing puzzle piece above her head
+generation:
+  prompt_version: tprs-v1
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 678
+  output_tokens: 5277
+  glossary_version: glossary-v1
+  glossary_input_tokens: 693
+  glossary_output_tokens: 15492
+  voice_version: voice-v1
+  voice_input_tokens: 629
+  voice_output_tokens: 1189
+  core_version: core-v1
+  core_input_tokens: 1926
+  core_output_tokens: 1262
+  localize_words_nl_output_tokens: 264
+  localize_en_version: localize-v1
+  localize_en_input_tokens: 1614
+  localize_en_output_tokens: 7174
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1648
+  localize_ar_output_tokens: 5731

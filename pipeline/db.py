@@ -13,15 +13,40 @@ def connect() -> psycopg.Connection:
     return psycopg.connect(DATABASE_URL)
 
 
-def load_story(brief: Brief, story: Story, generation: dict, localizations: dict[str, Localization]) -> str:
-    """Insert the story and its base-language layers as a draft in one transaction. A draft with the same slug is replaced."""
+def sync_languages(languages: dict) -> list[str]:
+    """Make the languages table match content/languages. Returns what changed."""
+    changes = []
     with connect() as conn, conn.cursor() as cur:
-        cur.execute("select id, status from stories where generation->>'slug' = %s", (brief.slug,))
-        existing = cur.fetchone()
-        if existing and existing[1] != "draft":
-            raise SystemExit(f"Story '{brief.slug}' is already {existing[1]}; refusing to overwrite.")
-        if existing:
-            cur.execute("delete from stories where id = %s", (existing[0],))
+        for code, lang in languages.items():
+            row = (lang.name, lang.direction, lang.is_base, lang.is_target)
+            cur.execute("select name, direction, is_base, is_target from languages where code = %s", (code,))
+            old = cur.fetchone()
+            if old == row:
+                continue
+            cur.execute(
+                """insert into languages (code, name, direction, is_base, is_target) values (%s, %s, %s, %s, %s)
+                   on conflict (code) do update set name = excluded.name, direction = excluded.direction,
+                     is_base = excluded.is_base, is_target = excluded.is_target""",
+                (code, *row),
+            )
+            changes.append(f"language {code}: {'new' if old is None else 'updated'}")
+    return changes
+
+
+def sync_story(doc, dry_run: bool = False) -> list[str]:
+    """
+    Make the database copy of one story match its files (content.StoryDoc), in place and in one transaction.
+    With dry_run the transaction is rolled back: only the list of what would change comes back (for check).
+
+    Scenes and questions are matched by key, so a changed text updates the same row: answers, lookups and media
+    stay attached. A question removed from the file after learners answered it is hidden (retired), not deleted.
+    Returns what changed, for the person running sync.
+    """
+    brief, story = doc.brief, doc.story
+    changes = []
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute("select id, title, status, cefr_level, tags from stories where slug = %s", (doc.slug,))
+        row = cur.fetchone()
 
         # Concepts and gestures are shared across stories and languages: upsert by key.
         gestures = {g.concept: g for g in story.gestures}
@@ -49,41 +74,112 @@ def load_story(brief: Brief, story: Story, generation: dict, localizations: dict
             )
             lexeme_ids[t.text] = cur.fetchone()[0]
 
-        cur.execute(
-            """insert into stories (language_code, cefr_level, title, generation)
-               values (%s, %s, %s, %s) returning id""",
-            (brief.language, brief.level, story.title,
-             Jsonb({"slug": brief.slug, "brief": brief.model_dump(), **generation})),
-        )
-        story_id = cur.fetchone()[0]
+        generation = Jsonb({"brief": brief.model_dump(), **doc.generation})
+        if row is None:
+            cur.execute(
+                """insert into stories (slug, language_code, cefr_level, title, status, tags, generation, published_at)
+                   values (%s, %s, %s, %s, %s, %s, %s, case when %s = 'published' then now() end) returning id""",
+                (doc.slug, brief.language, brief.level, story.title, doc.status, doc.tags, generation, doc.status),
+            )
+            story_id = cur.fetchone()[0]
+            changes.append("new story")
+        else:
+            story_id = row[0]
+            if row[1:] != (story.title, doc.status, brief.level, doc.tags):
+                changes.append("story details" + (f" ({row[2]} -> {doc.status})" if row[2] != doc.status else ""))
+            cur.execute(
+                """update stories set language_code = %s, cefr_level = %s, title = %s, status = %s, tags = %s,
+                     generation = %s,
+                     published_at = case when %s = 'published' then coalesce(published_at, now()) end
+                   where id = %s""",
+                (brief.language, brief.level, story.title, doc.status, doc.tags, generation, doc.status, story_id),
+            )
 
+        cur.execute("delete from story_targets where story_id = %s", (story_id,))
         for lexeme_id in lexeme_ids.values():
             cur.execute("insert into story_targets (story_id, lexeme_id) values (%s, %s)", (story_id, lexeme_id))
 
+        cur.execute("select key, id, text, image_prompt, glossary from scenes where story_id = %s", (story_id,))
+        old_scenes = {r[0]: r[1:] for r in cur.fetchall()}
         for position, scene in enumerate(story.scenes, 1):
-            cur.execute(
-                """insert into scenes (story_id, position, text, image_prompt, glossary)
-                   values (%s, %s, %s, %s, %s) returning id""",
-                (story_id, position, scene.text, scene.image_prompt,
-                 Jsonb(_glossary_rows(cur, brief.language, scene))),
-            )
-            scene_id = cur.fetchone()[0]
-            for q_pos, q in enumerate(scene.questions, 1):
+            glossary = _glossary_rows(cur, brief.language, scene)
+            if scene.key in old_scenes:
+                scene_id, text, prompt, old_glossary = old_scenes.pop(scene.key)
+                if (text, prompt, old_glossary) != (scene.text, scene.image_prompt, glossary):
+                    changes.append(f"scene {scene.key}")
                 cur.execute(
-                    """insert into questions (scene_id, position, kind, prompt, options, answer, lexeme_id)
-                       values (%s, %s, %s, %s, %s, %s, %s)""",
-                    (scene_id, q_pos, q.kind, q.prompt, Jsonb(q.options), Jsonb(q.answer), lexeme_ids.get(q.target)),
+                    "update scenes set position = %s, text = %s, image_prompt = %s, glossary = %s where id = %s",
+                    (position, scene.text, scene.image_prompt, Jsonb(glossary), scene_id),
                 )
+            else:
+                cur.execute(
+                    """insert into scenes (story_id, key, position, text, image_prompt, glossary)
+                       values (%s, %s, %s, %s, %s, %s) returning id""",
+                    (story_id, scene.key, position, scene.text, scene.image_prompt, Jsonb(glossary)),
+                )
+                scene_id = cur.fetchone()[0]
+                changes.append(f"new scene {scene.key}")
+            changes += _sync_questions(cur, scene_id, scene, lexeme_ids)
+        for key, (scene_id, *_) in old_scenes.items():
+            cur.execute("select count(*) from answers a join questions q on q.id = a.question_id where q.scene_id = %s",
+                        (scene_id,))
+            if cur.fetchone()[0]:
+                raise SystemExit(f"{doc.slug}: scene {key} is gone from story.yaml, but learners answered its questions. "
+                                 f"Put it back, or keep it and change its text instead.")
+            cur.execute("delete from scenes where id = %s", (scene_id,))
+            changes.append(f"removed scene {key}")
+
         _save_core_words(cur, story_id, brief, story)
-        for base, localization in localizations.items():
+        for base, localization in doc.localizations.items():
             _save_localization(cur, story_id, brief, story, base, localization)
-        return str(story_id)
+        if dry_run:
+            conn.rollback()
+    return changes
 
 
-def update_core_words(brief: Brief, story: Story) -> None:
-    """Replace the core words of a story that is already in the database, also when published."""
+def stories_not_in(slugs: set[str]) -> list[str]:
+    """Stories in the database without a folder in content/ (removed or renamed by hand)."""
     with connect() as conn, conn.cursor() as cur:
-        _save_core_words(cur, _story_id(cur, brief.slug), brief, story)
+        cur.execute("select slug from stories order by slug")
+        return [r[0] for r in cur.fetchall() if r[0] not in slugs]
+
+
+def _sync_questions(cur, scene_id, scene, lexeme_ids: dict) -> list[str]:
+    changes = []
+    cur.execute("select key, id, kind, prompt, options, answer, lexeme_id, retired from questions where scene_id = %s",
+                (scene_id,))
+    old = {r[0]: r[1:] for r in cur.fetchall()}
+    for position, q in enumerate(scene.questions, 1):
+        values = (q.kind, q.prompt, q.options, q.answer, lexeme_ids.get(q.target))
+        if q.key in old:
+            question_id, *before, retired = old.pop(q.key)
+            if tuple(before) != values or retired:
+                changes.append(f"question {q.key}")
+            cur.execute(
+                """update questions set position = %s, kind = %s, prompt = %s, options = %s, answer = %s,
+                     lexeme_id = %s, retired = false where id = %s""",
+                (position, q.kind, q.prompt, Jsonb(q.options), Jsonb(q.answer), lexeme_ids.get(q.target), question_id),
+            )
+        else:
+            cur.execute(
+                """insert into questions (scene_id, key, position, kind, prompt, options, answer, lexeme_id)
+                   values (%s, %s, %s, %s, %s, %s, %s, %s)""",
+                (scene_id, q.key, position, q.kind, q.prompt, Jsonb(q.options), Jsonb(q.answer),
+                 lexeme_ids.get(q.target)),
+            )
+            changes.append(f"new question {q.key}")
+    # Removed from the file: delete, unless learners answered it; then hide it and keep their history.
+    for n, (key, (question_id, *_, retired)) in enumerate(sorted(old.items()), 1):
+        cur.execute("select exists(select 1 from answers where question_id = %s)", (question_id,))
+        if cur.fetchone()[0]:
+            cur.execute("update questions set retired = true, position = %s where id = %s",
+                        (len(scene.questions) + n, question_id))
+            if not retired:
+                changes.append(f"retired question {key} (answered before, so kept hidden)")
+        else:
+            cur.execute("delete from questions where id = %s", (question_id,))
+            changes.append(f"removed question {key}")
+    return changes
 
 
 def _save_core_words(cur, story_id, brief: Brief, story: Story) -> None:
@@ -98,20 +194,15 @@ def _save_core_words(cur, story_id, brief: Brief, story: Story) -> None:
 
 
 def core_word_plan(slug: str) -> list[tuple[str, str, str | None]]:
-    """The core words of a story in order: (lexeme id, lemma, picture asset id or None)."""
+    """The core words of a story in order: (lexeme id, lemma, fingerprint of its picture or None)."""
     with connect() as conn, conn.cursor() as cur:
         cur.execute(
-            """select l.id, l.text, l.image_asset_id from story_words w join lexemes l on l.id = w.lexeme_id
+            """select l.id, l.text, a.fingerprint from story_words w join lexemes l on l.id = w.lexeme_id
+               left join assets a on a.id = l.image_asset_id
                where w.story_id = %s order by w.position""",
             (_story_id(cur, slug),),
         )
         return [(str(r[0]), r[1], r[2]) for r in cur.fetchall()]
-
-
-def save_localization(brief: Brief, story: Story, base: str, localization: Localization) -> None:
-    """Add or replace one base-language layer of a story that is already in the database, also when published."""
-    with connect() as conn, conn.cursor() as cur:
-        _save_localization(cur, _story_id(cur, brief.slug), brief, story, base, localization)
 
 
 def _save_localization(cur, story_id, brief: Brief, story: Story, base: str, loc: Localization) -> None:
@@ -120,13 +211,13 @@ def _save_localization(cur, story_id, brief: Brief, story: Story, base: str, loc
            on conflict (story_id, base_language) do update set summary = excluded.summary""",
         (story_id, base, loc.summary),
     )
-    for position, (scene, scene_loc) in enumerate(zip(story.scenes, loc.scenes), 1):
+    for scene, scene_loc in zip(story.scenes, loc.scenes):
         cur.execute(
             """insert into scene_localizations (scene_id, base_language, translation, glosses)
-               select id, %s, %s, %s from scenes where story_id = %s and position = %s
+               select id, %s, %s, %s from scenes where story_id = %s and key = %s
                on conflict (scene_id, base_language) do update
                  set translation = excluded.translation, glosses = excluded.glosses""",
-            (base, scene_loc.translation, Jsonb(scene_loc.glosses), story_id, position),
+            (base, scene_loc.translation, Jsonb(scene_loc.glosses), story_id, scene.key),
         )
         # The first meaning a word gets is its general meaning on the review screen.
         for entry in scene.glossary:
@@ -196,73 +287,63 @@ def _glossary_rows(cur, language: str, scene: Scene) -> list[dict]:
 
 
 def _story_id(cur, slug: str) -> str:
-    cur.execute("select id from stories where generation->>'slug' = %s", (slug,))
+    cur.execute("select id from stories where slug = %s", (slug,))
     row = cur.fetchone()
     if not row:
         raise SystemExit(f"No story with slug '{slug}' in the database.")
     return row[0]
 
 
-def update_glossary(brief: Brief, story: Story) -> None:
-    """Replace the glossaries of an existing story in place, also when it is already published."""
-    with connect() as conn, conn.cursor() as cur:
-        story_id = _story_id(cur, brief.slug)
-        for position, scene in enumerate(story.scenes, 1):
-            cur.execute(
-                "update scenes set glossary = %s where story_id = %s and position = %s",
-                (Jsonb(_glossary_rows(cur, brief.language, scene)), story_id, position),
-            )
-
-
 def media_plan(slug: str) -> list[dict]:
-    """Per scene: what it says, and which images and audio it already has."""
+    """Per scene (and its visible questions): its key, and the fingerprints of the image and audio it has now."""
     with connect() as conn, conn.cursor() as cur:
         story_id = _story_id(cur, slug)
         cur.execute(
-            """select sc.id, sc.position, sc.text, sc.image_prompt, sc.image_asset_id, sc.audio_asset_id, img.storage_path
+            """select sc.id, sc.key, img.fingerprint, img.storage_path, aud.fingerprint
                from scenes sc left join assets img on img.id = sc.image_asset_id
+               left join assets aud on aud.id = sc.audio_asset_id
                where sc.story_id = %s order by sc.position""",
             (story_id,),
         )
         scenes = [
-            {"id": r[0], "position": r[1], "text": r[2], "image_prompt": r[3],
-             "image_asset_id": r[4], "audio_asset_id": r[5], "image_path": r[6], "questions": []}
+            {"id": r[0], "key": r[1], "image": r[2], "image_path": r[3], "audio": r[4], "questions": []}
             for r in cur.fetchall()
         ]
         for scene in scenes:
             cur.execute(
-                "select id, position, prompt, audio_asset_id from questions where scene_id = %s order by position",
+                """select q.id, q.key, a.fingerprint from questions q left join assets a on a.id = q.audio_asset_id
+                   where q.scene_id = %s and not q.retired order by q.position""",
                 (scene["id"],),
             )
-            scene["questions"] = [{"id": r[0], "position": r[1], "prompt": r[2], "audio_asset_id": r[3]} for r in cur.fetchall()]
+            scene["questions"] = [{"id": r[0], "key": r[1], "audio": r[2]} for r in cur.fetchall()]
         return scenes
 
 
-def words_without_audio(slug: str) -> list[tuple[str, str]]:
-    """Lexemes of a story (targets and glossary words) that cannot be heard yet: (id, text)."""
+def words_plan(slug: str) -> list[tuple[str, str, str | None]]:
+    """Every word of a story that can be heard alone (targets and glossary words): (id, text, audio fingerprint)."""
     with connect() as conn, conn.cursor() as cur:
         story_id = _story_id(cur, slug)
         cur.execute(
-            """select l.id, l.text from lexemes l
-               where l.audio_asset_id is null
-                 and (l.id in (select lexeme_id from story_targets where story_id = %s)
-                      or l.id::text in (select jsonb_array_elements(glossary)->>'lexeme_id'
-                                        from scenes where story_id = %s))
+            """select l.id, l.text, a.fingerprint from lexemes l left join assets a on a.id = l.audio_asset_id
+               where l.id in (select lexeme_id from story_targets where story_id = %s)
+                  or l.id::text in (select jsonb_array_elements(glossary)->>'lexeme_id' from scenes where story_id = %s)
                order by l.text""",
             (story_id, story_id),
         )
-        return [(str(r[0]), r[1]) for r in cur.fetchall()]
+        return [(str(r[0]), r[1], r[2]) for r in cur.fetchall()]
 
 
-def save_asset(kind: str, path: str, mime_type: str, provider: str, model: str, marks: list | None = None) -> str:
+def save_asset(kind: str, path: str, mime_type: str, provider: str, model: str, marks: list | None = None,
+               fingerprint: str | None = None) -> str:
     with connect() as conn, conn.cursor() as cur:
         cur.execute(
-            """insert into assets (kind, storage_path, mime_type, provider, model, marks) values (%s, %s, %s, %s, %s, %s)
+            """insert into assets (kind, storage_path, mime_type, provider, model, marks, fingerprint)
+               values (%s, %s, %s, %s, %s, %s, %s)
                on conflict (storage_path) do update
                  set mime_type = excluded.mime_type, provider = excluded.provider, model = excluded.model,
-                     marks = excluded.marks, created_at = now()
+                     marks = excluded.marks, fingerprint = excluded.fingerprint, created_at = now()
                returning id""",
-            (kind, path, mime_type, provider, model, Jsonb(marks) if marks else None),
+            (kind, path, mime_type, provider, model, Jsonb(marks) if marks else None, fingerprint),
         )
         return cur.fetchone()[0]
 
@@ -296,24 +377,12 @@ def clear_media(slug: str, only: str | None = None) -> int:
         return cur.rowcount
 
 
-def publish(slug: str) -> None:
-    with connect() as conn, conn.cursor() as cur:
-        cur.execute(
-            "update stories set status = 'published', published_at = now() where generation->>'slug' = %s returning title",
-            (slug,),
-        )
-        row = cur.fetchone()
-        if not row:
-            raise SystemExit(f"No story with slug '{slug}'.")
-        print(f"Published: {row[0]}")
-
-
 def list_stories() -> list[tuple]:
     with connect() as conn, conn.cursor() as cur:
         cur.execute(
-            """select generation->>'slug', status, cefr_level, title,
+            """select slug, status, cefr_level, title,
                       (select count(*) from scenes s where s.story_id = stories.id)
-               from stories order by created_at"""
+               from stories order by slug"""
         )
         return cur.fetchall()
 

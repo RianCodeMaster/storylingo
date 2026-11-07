@@ -7,7 +7,7 @@ import json
 
 from llm import MODEL, client
 from models import Brief, CoreWord, Story
-from prompts import LANGUAGE_NAMES
+from languages import english
 
 CORE_VERSION = "core-v1"
 CORE_WORDS = 6
@@ -30,7 +30,7 @@ def add_core_words(brief: Brief, story: Story) -> dict:
     lemmas = {e.lemma: e.level for s in story.scenes for e in s.glossary}
     targets = {t.text.lower() for t in brief.targets}
     payload = {
-        "language": LANGUAGE_NAMES.get(brief.language, brief.language),
+        "language": english(brief.language),
         "level": brief.level,
         "targets": [t.text for t in brief.targets],
         "story": " ".join(s.text for s in story.scenes),

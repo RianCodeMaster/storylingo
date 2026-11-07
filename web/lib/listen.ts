@@ -3,7 +3,8 @@
  * of the three or four known answers the learner said, so a rough transcript is enough.
  */
 
-import { LANG_TAGS } from "./speech";
+import { LANGUAGES } from "./locales";
+import { speechTag } from "./speech";
 
 // Not in every TypeScript DOM library yet: only the part this file uses.
 interface Recognition {
@@ -49,7 +50,7 @@ export function listen(
     return Object.assign(() => {}, { finish: () => {} });
   }
   const r = new Recognizer();
-  r.lang = LANG_TAGS[language] ?? language;
+  r.lang = speechTag(language);
   r.interimResults = false;
   r.maxAlternatives = 5;
   let heard = false;
@@ -75,17 +76,11 @@ export function listen(
   return Object.assign(stop, { finish: () => r.stop() });
 }
 
-// Recognizers write numbers as digits ("1000"), stories often as words ("Tausend"), and learners say "nee" for "nein".
-const WORDS: Record<string, Record<string, string>> = {
-  de: {
-    eins: "1", zwei: "2", drei: "3", vier: "4", funf: "5", sechs: "6", sieben: "7", acht: "8", neun: "9", zehn: "10",
-    elf: "11", zwolf: "12", zwanzig: "20", hundert: "100", einhundert: "100", tausend: "1000", eintausend: "1000",
-    nee: "nein", no: "nein", jo: "ja", jawohl: "ja",
-  },
-};
+// Recognizers write numbers as digits ("1000"), stories often as words ("Tausend"), and learners say "nee" for "nein":
+// recognition: in content/languages/<code>.yaml.
 
 function words(text: string, language: string): string[] {
-  const map = WORDS[language] ?? {};
+  const map = LANGUAGES[language]?.recognition ?? {};
   return text
     .toLowerCase()
     .replace(/ß/g, "ss")

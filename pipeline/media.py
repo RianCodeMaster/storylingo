@@ -5,7 +5,7 @@ Images come from the provider named on the command line:
 - "gemini": paid alternative with one reference character. Needs GEMINI_API_KEY with credit.
 - "fake":   placeholder files, to test the plumbing (storage, database, app) without any model.
 
-Speech comes from the narrator of the story's language in voices.yaml, so changing a voice is a config edit.
+Speech comes from the narrator in content/languages/<code>.yaml, so changing a voice is a config edit.
 Every speaker has the same method: speech(text, kind, lines, voice) -> Media, where kind is "story",
 "question" or "word" and lines are the sentences with their emotion (only for story narration).
 """
@@ -22,7 +22,6 @@ from dataclasses import dataclass
 import httpx
 import yaml
 
-VOICES_FILE = os.path.join(os.path.dirname(__file__), "voices.yaml")
 STORAGE_URL = os.environ.get("SUPABASE_URL", "http://127.0.0.1:54321")
 BUCKET = "assets"
 
@@ -184,7 +183,7 @@ class Local(Localgen):
 
 
 class Piper(Localgen):
-    """Native-speaker voices; each sentence gets the style that voices.yaml gives its emotion."""
+    """Native-speaker voices; each sentence gets the style that the language file gives its emotion."""
 
     def speech(self, text: str, kind: str, lines: list[dict] | None, voice: dict) -> Media:
         lines = lines or [{"text": text, "emotion": voice[kind] if kind in ("question", "word") else "neutral"}]
@@ -235,15 +234,6 @@ def provider(name: str):
 
 
 SPEAKERS = {"piper": Piper, "gemini": Gemini, "fake": Fake}
-
-
-def voice(language: str) -> dict:
-    """The narrator profile of a language, from voices.yaml."""
-    with open(VOICES_FILE, encoding="utf-8") as f:
-        voices = yaml.safe_load(f)
-    if language not in voices:
-        raise SystemExit(f"No voice for '{language}' in voices.yaml.")
-    return {**voices[language], "language": language}
 
 
 def speaker(voice: dict, fake: bool = False):

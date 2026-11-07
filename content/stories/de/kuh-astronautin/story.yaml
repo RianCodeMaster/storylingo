@@ -1,0 +1,689 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: kuh-astronautin
+status: published
+tags: [algemeen, dieren]
+brief:
+  language: de
+  level: B1
+  theme: Een koe uit Beieren wil astronaut worden en bouwt een raket van melkbussen
+  scenes: 5
+  targets:
+  - text: als
+    gloss: toen (één keer in het verleden)
+    concept: when_past
+    kind: word
+  - text: nachdem
+    gloss: nadat
+    concept: after
+    kind: word
+  - text: freute sich auf
+    gloss: verheugde zich op
+    concept: look_forward
+    kind: phrase
+story:
+  title: Mathilde will Astronautin werden
+  summary: Een Beierse koe bouwt een raket van melkbussen om astronaut te worden, maar het loopt anders dan ze denkt.
+  gestures:
+  - concept: when_past
+    description: 'Doe alsof je met je vinger op een grote denkbeeldige klok tikt die precies één keer ''TIKS'' zegt, en houd
+      je hand daarna stil in de lucht: het gebeurde maar één keer.'
+    emoji: ⏱️
+  - concept: after
+    description: 'Wijs met je duim over je schouder naar achteren en klap dan hard één keer in je handen: eerst dat, en dan
+      pas dat.'
+    emoji: ➡️
+  - concept: look_forward
+    description: Wrijf in je handen, kijk met een grote glimlach naar de hemel en spring één keer op van plezier.
+    emoji: 🤩
+  scenes:
+  - key: s1
+    text: 'Mathilde war eine kleine Kuh aus Bayern. Sie stand jeden Tag auf einer großen Wiese und aß Gras. Als sie eines
+      Abends den Mond sah, sagte sie: „Ich will Astronautin werden!“ Ihre Freunde lachten laut.'
+    image_prompt: A small brown-and-white cow with a red collar and a brass bell, big dreamy eyes, standing on a green Bavarian
+      meadow at dusk, looking up at a huge full moon, other cows laughing in the background.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: War Mathilde eine Kuh aus Bayern?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s1q2
+      kind: who_what
+      prompt: 'Wer sagte: „Ich will Astronautin werden!“?'
+      options: [Mathilde, Der Bauer, Der Mond]
+      answer: Mathilde
+    - key: s1q3
+      kind: either_or
+      prompt: Was wollte Mathilde, als sie den Mond sah?
+      options: [Sie wollte Astronautin werden, Sie wollte schlafen]
+      answer: Sie wollte Astronautin werden
+      target: als
+    - key: s1q4
+      kind: either_or
+      prompt: Waren ihre Freunde traurig oder lachten sie?
+      options: [Sie lachten, Sie waren traurig]
+      answer: Sie lachten
+    glossary:
+    - word: war
+      lemma: sein
+      level: A1
+    - word: kleine
+      lemma: klein
+      level: A1
+    - word: Kuh
+      lemma: die Kuh
+      level: A1
+    - word: aus
+      lemma: aus
+      level: A1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: stand
+      lemma: stehen
+      level: A1
+    - word: jeden
+      lemma: jeder
+      level: A1
+    - word: Tag
+      lemma: der Tag
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: großen
+      lemma: groß
+      level: A1
+    - word: Wiese
+      lemma: die Wiese
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: aß
+      lemma: essen
+      level: A1
+    - word: Gras
+      lemma: das Gras
+      level: A1
+    - word: Als
+      lemma: als
+      level: A1
+    - word: Abends
+      lemma: der Abend
+      level: A1
+    - word: Mond
+      lemma: der Mond
+      level: A1
+    - word: sah
+      lemma: sehen
+      level: A1
+    - word: sagte
+      lemma: sagen
+      level: A1
+    - word: Ich
+      lemma: ich
+      level: A1
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: Astronautin
+      lemma: die Astronautin
+      level: A2
+    - word: werden
+      lemma: werden
+      level: A1
+    - word: Ihre
+      lemma: ihr
+      level: A1
+    - word: Freunde
+      lemma: der Freund
+      level: A1
+    - word: lachten
+      lemma: lachen
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A1
+    voice:
+    - text: Mathilde war eine kleine Kuh aus Bayern.
+      emotion: neutral
+    - text: Sie stand jeden Tag auf einer großen Wiese und aß Gras.
+      emotion: neutral
+    - text: 'Als sie eines Abends den Mond sah, sagte sie: „Ich will Astronautin werden!“ Ihre Freunde lachten laut.'
+      emotion: amused
+  - key: s2
+    text: Mathilde sammelte alte Milchkannen auf dem ganzen Bauernhof. Nachdem sie hundert Kannen gesammelt hatte, baute sie
+      eine große Rakete. Als die Rakete fertig war, tanzte sie und freute sich auf ihren ersten Flug. Der Bauer war wütend,
+      weil seine Milch weg war.
+    image_prompt: The same small brown-and-white cow with red collar and brass bell, proudly standing next to a tall wobbly
+      rocket built from many shiny milk cans, a farmyard behind her, an angry farmer waving his arms in the distance.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Sammelte Mathilde alte Milchkannen?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s2q2
+      kind: who_what
+      prompt: Wie viele Kannen sammelte Mathilde?
+      options: [Hundert, Drei, Tausend]
+      answer: Hundert
+      target: nachdem
+    - key: s2q3
+      kind: either_or
+      prompt: Was baute sie, nachdem sie die Kannen gesammelt hatte?
+      options: [eine Rakete, ein Haus]
+      answer: eine Rakete
+      target: nachdem
+    - key: s2q4
+      kind: either_or
+      prompt: Worauf freute sich Mathilde?
+      options: [auf ihren ersten Flug, auf das Gras]
+      answer: auf ihren ersten Flug
+      target: freute sich auf
+    - key: s2q5
+      kind: who_what
+      prompt: Wer war wütend?
+      options: [Der Bauer, Mathilde, Die Freunde]
+      answer: Der Bauer
+    glossary:
+    - word: sammelte
+      lemma: sammeln
+      level: A2
+    - word: alte
+      lemma: alt
+      level: A1
+    - word: Milchkannen
+      lemma: die Milchkanne
+      level: A2
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: ganzen
+      lemma: ganz
+      level: A2
+    - word: Bauernhof
+      lemma: der Bauernhof
+      level: A2
+    - word: Nachdem
+      lemma: nachdem
+      level: B1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: Kannen
+      lemma: die Kanne
+      level: A2
+    - word: gesammelt
+      lemma: sammeln
+      level: A2
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: baute
+      lemma: bauen
+      level: A2
+    - word: große
+      lemma: groß
+      level: A1
+    - word: Rakete
+      lemma: die Rakete
+      level: A2
+    - word: Als
+      lemma: als
+      level: A1
+    - word: fertig
+      lemma: fertig
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: tanzte
+      lemma: tanzen
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: freute
+      lemma: sich freuen
+      level: A2
+    - word: sich
+      lemma: sich
+      level: A2
+    - word: ihren
+      lemma: ihr
+      level: A1
+    - word: ersten
+      lemma: erste
+      level: A1
+    - word: Flug
+      lemma: der Flug
+      level: A2
+    - word: Bauer
+      lemma: der Bauer
+      level: A2
+    - word: wütend
+      lemma: wütend
+      level: A2
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: seine
+      lemma: sein
+      level: A1
+    - word: Milch
+      lemma: die Milch
+      level: A1
+    - word: weg
+      lemma: weg
+      level: A2
+    voice:
+    - text: Mathilde sammelte alte Milchkannen auf dem ganzen Bauernhof.
+      emotion: neutral
+    - text: Nachdem sie hundert Kannen gesammelt hatte, baute sie eine große Rakete.
+      emotion: surprised
+    - text: Als die Rakete fertig war, tanzte sie und freute sich auf ihren ersten Flug.
+      emotion: amused
+    - text: Der Bauer war wütend, weil seine Milch weg war.
+      emotion: angry
+  - key: s3
+    text: Für den Flug brauchte Mathilde tausend Liter Milch. Als niemand hinsah, trank sie die ganze Milch aus. Nachdem sie
+      alles getrunken hatte, war der Tank leer. Aber Mathilde freute sich auf den Flug.
+    image_prompt: The same small brown-and-white cow with red collar and brass bell, with a huge round belly, drinking from
+      an enormous milk can next to her milk-can rocket, empty cans lying all around, stars in the evening sky.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: Wie viel Milch brauchte Mathilde?
+      options: [Tausend Liter, Zwei Liter, Hundert Liter]
+      answer: Tausend Liter
+    - key: s3q2
+      kind: yes_no
+      prompt: Trank Mathilde die Milch selbst aus?
+      options: [Ja, Nein]
+      answer: Ja
+      target: als
+    - key: s3q3
+      kind: either_or
+      prompt: Was war, nachdem sie alles getrunken hatte?
+      options: [Der Tank war leer, Die Rakete war voll]
+      answer: Der Tank war leer
+      target: nachdem
+    - key: s3q4
+      kind: either_or
+      prompt: Worauf freute sich Mathilde trotzdem?
+      options: [auf den Flug, auf das Essen]
+      answer: auf den Flug
+      target: freute sich auf
+    glossary:
+    - word: Für
+      lemma: für
+      level: A1
+    - word: Flug
+      lemma: der Flug
+      level: A2
+    - word: brauchte
+      lemma: brauchen
+      level: A2
+    - word: Liter
+      lemma: der Liter
+      level: A2
+    - word: Milch
+      lemma: die Milch
+      level: A1
+    - word: Als
+      lemma: als
+      level: A1
+    - word: niemand
+      lemma: niemand
+      level: A2
+    - word: hinsah
+      lemma: hinsehen
+      level: B1
+    - word: trank
+      lemma: trinken
+      level: A1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: ganze
+      lemma: ganz
+      level: A2
+    - word: aus
+      lemma: aus
+      level: A1
+    - word: Nachdem
+      lemma: nachdem
+      level: B1
+    - word: alles
+      lemma: alles
+      level: A2
+    - word: getrunken
+      lemma: trinken
+      level: A1
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: war
+      lemma: sein
+      level: A1
+    - word: Tank
+      lemma: der Tank
+      level: A2
+    - word: leer
+      lemma: leer
+      level: A2
+    - word: Aber
+      lemma: aber
+      level: A1
+    - word: freute
+      lemma: sich freuen
+      level: A2
+    - word: sich
+      lemma: sich
+      level: A2
+    - word: auf
+      lemma: auf
+      level: A1
+    voice:
+    - text: Für den Flug brauchte Mathilde tausend Liter Milch.
+      emotion: surprised
+    - text: Als niemand hinsah, trank sie die ganze Milch aus.
+      emotion: whisper
+    - text: Nachdem sie alles getrunken hatte, war der Tank leer.
+      emotion: neutral
+    - text: Aber Mathilde freute sich auf den Flug.
+      emotion: amused
+  - key: s4
+    text: Als Mathilde den roten Knopf drückte, passierte nichts. Nachdem sie dreimal laut „Muh!“ gerufen hatte, machte die
+      Rakete nur ein kleines „Puff“. Die Rakete flog zwei Meter hoch und landete im Misthaufen. Mathilde war sehr wütend.
+    image_prompt: The same small brown-and-white cow with red collar and brass bell, sitting furious and covered in straw
+      in a big manure pile, a milk-can rocket tipped over next to her with a tiny puff of smoke, farmyard at night.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Passierte etwas, als Mathilde den Knopf drückte?
+      options: [Nein, Ja]
+      answer: Nein
+      target: als
+    - key: s4q2
+      kind: who_what
+      prompt: Was machte die Rakete, nachdem Mathilde dreimal gerufen hatte?
+      options: [ein kleines „Puff“, ein großes Feuer, laute Musik]
+      answer: ein kleines „Puff“
+      target: nachdem
+    - key: s4q3
+      kind: either_or
+      prompt: Wo landete die Rakete?
+      options: [im Misthaufen, auf dem Mond]
+      answer: im Misthaufen
+    - key: s4q4
+      kind: either_or
+      prompt: War Mathilde glücklich oder wütend?
+      options: [wütend, glücklich]
+      answer: wütend
+    glossary:
+    - word: Als
+      lemma: als
+      level: A1
+    - word: roten
+      lemma: rot
+      level: A1
+    - word: Knopf
+      lemma: der Knopf
+      level: A2
+    - word: drückte
+      lemma: drücken
+      level: A2
+    - word: passierte
+      lemma: passieren
+      level: A2
+    - word: nichts
+      lemma: nichts
+      level: A1
+    - word: Nachdem
+      lemma: nachdem
+      level: B1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A1
+    - word: gerufen
+      lemma: rufen
+      level: A2
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: machte
+      lemma: machen
+      level: A1
+    - word: Rakete
+      lemma: die Rakete
+      level: A2
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: kleines
+      lemma: klein
+      level: A1
+    - word: Puff
+      lemma: das Puff
+      level: B1
+    - word: flog
+      lemma: fliegen
+      level: A2
+    - word: Meter
+      lemma: der Meter
+      level: A2
+    - word: hoch
+      lemma: hoch
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: landete
+      lemma: landen
+      level: A2
+    - word: im
+      lemma: in dem
+      level: A1
+    - word: Misthaufen
+      lemma: der Misthaufen
+      level: B1
+    - word: war
+      lemma: sein
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: wütend
+      lemma: wütend
+      level: A2
+    voice:
+    - text: Als Mathilde den roten Knopf drückte, passierte nichts.
+      emotion: neutral
+    - text: Nachdem sie dreimal laut „Muh!“ gerufen hatte, machte die Rakete nur ein kleines „Puff“.
+      emotion: amused
+    - text: Die Rakete flog zwei Meter hoch und landete im Misthaufen.
+      emotion: surprised
+    - text: Mathilde war sehr wütend.
+      emotion: angry
+  - key: s5
+    text: Als der Bauer Mathilde im Misthaufen sah, lachte er laut. Nachdem er ihr eine alte Badewanne gezeigt hatte, baute
+      er mit ihr eine neue Rakete. Am Abend flogen sie zusammen zum Mond — aber nur im Traum. Mathilde freute sich auf den
+      nächsten Morgen.
+    image_prompt: The same small brown-and-white cow with red collar and brass bell, smiling and sleeping in an old bathtub
+      rocket with the farmer beside her, both dreaming of flying to the moon, warm morning light.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Wer lachte laut?
+      options: [Der Bauer, Mathilde, Der Mond]
+      answer: Der Bauer
+      target: als
+    - key: s5q2
+      kind: either_or
+      prompt: Was zeigte der Bauer Mathilde?
+      options: [eine alte Badewanne, einen neuen Eimer]
+      answer: eine alte Badewanne
+      target: nachdem
+    - key: s5q3
+      kind: yes_no
+      prompt: Flogen sie wirklich zum Mond?
+      options: [Nein, Ja]
+      answer: Nein
+    - key: s5q4
+      kind: either_or
+      prompt: Worauf freute sich Mathilde am Ende?
+      options: [auf den nächsten Morgen, auf den Mond]
+      answer: auf den nächsten Morgen
+      target: freute sich auf
+    glossary:
+    - word: Als
+      lemma: als
+      level: A1
+    - word: Bauer
+      lemma: der Bauer
+      level: A2
+    - word: im
+      lemma: in dem
+      level: A1
+    - word: Misthaufen
+      lemma: der Misthaufen
+      level: B1
+    - word: sah
+      lemma: sehen
+      level: A1
+    - word: lachte
+      lemma: lachen
+      level: A1
+    - word: er
+      lemma: er
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A1
+    - word: Nachdem
+      lemma: nachdem
+      level: B1
+    - word: ihr
+      lemma: sie
+      level: A1
+    - word: alte
+      lemma: alt
+      level: A1
+    - word: Badewanne
+      lemma: die Badewanne
+      level: A2
+    - word: gezeigt
+      lemma: zeigen
+      level: A2
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: baute
+      lemma: bauen
+      level: A2
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: neue
+      lemma: neu
+      level: A1
+    - word: Rakete
+      lemma: die Rakete
+      level: A2
+    - word: Am
+      lemma: an dem
+      level: A1
+    - word: Abend
+      lemma: der Abend
+      level: A1
+    - word: flogen
+      lemma: fliegen
+      level: A2
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: zusammen
+      lemma: zusammen
+      level: A2
+    - word: zum
+      lemma: zu dem
+      level: A1
+    - word: Mond
+      lemma: der Mond
+      level: A1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: Traum
+      lemma: der Traum
+      level: A2
+    - word: freute
+      lemma: sich freuen
+      level: A2
+    - word: sich
+      lemma: sich
+      level: A2
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: nächsten
+      lemma: nächste
+      level: A2
+    - word: Morgen
+      lemma: der Morgen
+      level: A1
+    voice:
+    - text: Als der Bauer Mathilde im Misthaufen sah, lachte er laut.
+      emotion: amused
+    - text: Nachdem er ihr eine alte Badewanne gezeigt hatte, baute er mit ihr eine neue Rakete.
+      emotion: neutral
+    - text: Am Abend flogen sie zusammen zum Mond — aber nur im Traum.
+      emotion: surprised
+    - text: Mathilde freute sich auf den nächsten Morgen.
+      emotion: amused
+  core_words:
+  - lemma: die Kuh
+    image_prompt: a small brown cow standing in a green field
+  - lemma: die Milchkanne
+    image_prompt: a metal milk can with a handle and a lid
+  - lemma: die Rakete
+    image_prompt: a tall homemade rocket standing on a farm
+  - lemma: der Bauer
+    image_prompt: a farmer standing in a field holding a pitchfork
+  - lemma: der Misthaufen
+    image_prompt: a pile of manure on a farm
+  - lemma: der Traum
+    image_prompt: a sleeping person with a dream bubble showing a moon and stars
+generation:
+  prompt_version: tprs-v1
+  model: deepseek-flash
+  attempts: 2
+  input_tokens: 3948
+  output_tokens: 9201
+  glossary_version: glossary-v1
+  glossary_input_tokens: 642
+  glossary_output_tokens: 20653
+  voice_version: voice-v1
+  voice_input_tokens: 577
+  voice_output_tokens: 1576
+  core_version: core-v1
+  core_input_tokens: 1794
+  core_output_tokens: 1702
+  localize_words_nl_output_tokens: 159
+  localize_en_version: localize-v1
+  localize_en_input_tokens: 1514
+  localize_en_output_tokens: 5559
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1548
+  localize_ar_output_tokens: 8910

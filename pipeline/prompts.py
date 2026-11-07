@@ -1,11 +1,11 @@
 """The TPRS teacher prompt. Bump PROMPT_VERSION whenever the text changes, so stories stay traceable."""
 import json
 
+from languages import english
 from models import Brief
 
 PROMPT_VERSION = "tprs-v2"  # v2: story only in the target language; translations come from localize.py
 
-LANGUAGE_NAMES = {"de": "German", "nl": "Dutch", "en": "English", "es": "Spanish", "fr": "French", "ar": "Arabic"}
 
 SYSTEM = """You are a brilliant TPRS (Teaching Proficiency through Reading and Storytelling) teacher.
 You write short, absurd, exaggerated stories that make learners laugh and remember.
@@ -47,7 +47,7 @@ def user_prompt(brief: Brief) -> str:
         {"text": t.text, "meaning": t.gloss, "concept": t.concept} for t in brief.targets
     ]
     return (
-        f"Target language: {LANGUAGE_NAMES.get(brief.language, brief.language)}\n"
+        f"Target language: {english(brief.language)}\n"
         f"CEFR level: {brief.level}\n"
         f"Theme: {brief.theme}\n"
         f"Number of scenes: {brief.scenes}\n"

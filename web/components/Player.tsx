@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { advance, Circling, start } from "@/lib/circling";
 import { useI18n } from "@/lib/i18n";
 import { canListen, listen, matchAnswer, type ListenError } from "@/lib/listen";
-import { feedback, narrate, PHRASES, speak, stopSpeaking } from "@/lib/speech";
+import { feedback, narrate, phrases, speak, stopSpeaking } from "@/lib/speech";
 import { finishSession, recordAnswer, recordLookup, startSession } from "@/lib/story";
 import type { GlossEntry, Question, Story, Target } from "@/lib/types";
 import InteractiveText, { WordSheet, type Tapped } from "./InteractiveText";
@@ -93,7 +93,7 @@ function QuestionView(props: {
             {picked === question.answer ? `${props.line} 🎉` : `${props.line} → ${question.answer}`}
           </p>
           <button className="primary" onClick={props.onNext}>
-            {PHRASES[props.lang].next} <span className="arrow">→</span>
+            {phrases(props.lang).next} <span className="arrow">→</span>
           </button>
         </>
       )}
@@ -407,7 +407,7 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
 
       {phase.kind === "done" && (
         <div className="card">
-          <h1 dir="ltr">{PHRASES[lang].done} 🎉</h1>
+          <h1 dir="ltr">{phrases(lang).done} 🎉</h1>
           <p className="story-text">{fill(dict.story.score, { correct: score.correct, total: score.total })}</p>
           <p className="muted">{dict.story.gesturesOnceMore}</p>
           <div className="row" dir="ltr">

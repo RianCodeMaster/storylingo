@@ -35,6 +35,7 @@ class Gesture(BaseModel):
 
 
 class Question(BaseModel):
+    key: str | None = None         # fixed name in story.yaml ('s2q3'): stays when the text changes, so history stays
     kind: Literal["yes_no", "either_or", "who_what", "open"]
     prompt: str
     options: list[str] = Field(min_length=2, max_length=4)
@@ -65,6 +66,7 @@ class VoiceLine(BaseModel):
 
 
 class Scene(BaseModel):
+    key: str | None = None         # fixed name in story.yaml ('s2'), given once by content.assign_keys
     text: str
     image_prompt: str
     questions: list[Question] = Field(min_length=2)
@@ -92,6 +94,8 @@ class TargetMeaning(BaseModel):
 
 
 class SceneLocalization(BaseModel):
+    key: str | None = None         # the scene it belongs to (story.yaml)
+    source: str | None = None      # fingerprint of the scene text it translates: stale when the scene changes
     translation: str
     glosses: dict[str, str] = {}   # word as written in the scene -> meaning in this sentence
 
@@ -99,6 +103,7 @@ class SceneLocalization(BaseModel):
 class Localization(BaseModel):
     """Everything a learner reads in their own language, for one story and one base language."""
     summary: str
+    summary_source: str | None = None  # fingerprint of the English summary it translates
     gestures: dict[str, str]       # concept -> how to act it out
     targets: dict[str, TargetMeaning]  # target text -> meaning
     scenes: list[SceneLocalization]

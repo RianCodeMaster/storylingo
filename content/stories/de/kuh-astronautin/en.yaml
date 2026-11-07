@@ -1,0 +1,193 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). scenes follow story.yaml in order.
+summary: A Bavarian cow builds a rocket out of milk cans to become an astronaut, but things turn out differently than she
+  expects.
+summary_source: 66198ad9b438b4b5
+gestures:
+  when_past: 'Tap an imaginary clock once with your finger and freeze your hand in the air: it happened just one time.'
+  after: 'Point your thumb back over your shoulder, then clap once: first this, then that.'
+  look_forward: Rub your hands, smile up at the sky, and jump once with excitement.
+targets:
+  als:
+    gloss: when
+    note: Use German 'als' for one past event, like English 'when'.
+  nachdem:
+    gloss: after
+    note: '''Nachdem'' often introduces past perfect in German, just as English ''after'' can.'
+  freute sich auf:
+    gloss: looked forward to
+    note: German uses reflexive 'sich freuen auf'; English 'look forward to' has no reflexive.
+scenes:
+- key: s1
+  source: 5e79272c4d6269dc
+  translation: Mathilde was a little cow from Bavaria. Every day she stood in a big meadow and ate grass. When she saw the
+    moon one evening, she said, “I want to become an astronaut!” Her friends laughed loudly.
+  glosses:
+    war: was
+    kleine: little
+    Kuh: cow
+    aus: from
+    Sie: she
+    stand: stood
+    jeden: every
+    Tag: day
+    auf: in
+    großen: big
+    Wiese: meadow
+    und: and
+    aß: ate
+    Gras: grass
+    Als: when
+    Abends: in the evening
+    Mond: moon
+    sah: saw
+    sagte: said
+    Ich: I
+    will: want
+    Astronautin: astronaut
+    werden: become
+    Ihre: her
+    Freunde: friends
+    lachten: laughed
+    laut: loudly
+- key: s2
+  source: 717db76c2d7f14f3
+  translation: Mathilde collected old milk cans from all over the farm. After she had collected a hundred cans, she built
+    a big rocket. When the rocket was finished, she danced and looked forward to her first flight. The farmer was angry because
+    his milk was gone.
+  glosses:
+    sammelte: collected
+    alte: old
+    Milchkannen: milk cans
+    auf: "on"
+    ganzen: whole
+    Bauernhof: farm
+    Nachdem: after
+    sie: she
+    Kannen: cans
+    gesammelt: collected
+    hatte: had
+    baute: built
+    große: big
+    Rakete: rocket
+    Als: when
+    fertig: finished
+    war: was
+    tanzte: danced
+    und: and
+    freute: looked forward
+    sich: reflexive marker
+    ihren: her
+    ersten: first
+    Flug: flight
+    Bauer: farmer
+    wütend: angry
+    weil: because
+    seine: his
+    Milch: milk
+    weg: gone
+- key: s3
+  source: 82544482c93bbd97
+  translation: For the flight Mathilde needed a thousand liters of milk. When nobody was looking, she drank all the milk.
+    After she had drunk everything, the tank was empty. But Mathilde looked forward to the flight.
+  glosses:
+    Für: for
+    Flug: flight
+    brauchte: needed
+    Liter: liters
+    Milch: milk
+    Als: when
+    niemand: nobody
+    hinsah: was looking
+    trank: drank
+    sie: she
+    ganze: all
+    aus: up
+    Nachdem: after
+    alles: everything
+    getrunken: drunk
+    hatte: had
+    war: was
+    Tank: tank
+    leer: empty
+    Aber: but
+    freute: looked forward
+    sich: reflexive marker
+    auf: to
+- key: s4
+  source: 087ce01be0232af8
+  translation: When Mathilde pressed the red button, nothing happened. After she had called “Moo!” loudly three times, the
+    rocket only made a little “puff.” The rocket flew two meters high and landed in the manure pile. Mathilde was very angry.
+  glosses:
+    Als: when
+    roten: red
+    Knopf: button
+    drückte: pressed
+    passierte: happened
+    nichts: nothing
+    Nachdem: after
+    sie: she
+    laut: loudly
+    gerufen: called
+    hatte: had
+    machte: made
+    Rakete: rocket
+    nur: only
+    kleines: small
+    Puff: puff
+    flog: flew
+    Meter: meters
+    hoch: high
+    und: and
+    landete: landed
+    im: in the
+    Misthaufen: manure pile
+    war: was
+    sehr: very
+    wütend: angry
+- key: s5
+  source: ec3d0d5ec1b8630f
+  translation: When the farmer saw Mathilde in the manure pile, he laughed loudly. After he had shown her an old bathtub,
+    he built a new rocket with her. In the evening they flew together to the moon—but only in a dream. Mathilde looked forward
+    to the next morning.
+  glosses:
+    Als: when
+    Bauer: farmer
+    im: in the
+    Misthaufen: manure pile
+    sah: saw
+    lachte: laughed
+    er: he
+    laut: loudly
+    Nachdem: after
+    ihr: her
+    alte: old
+    Badewanne: bathtub
+    gezeigt: shown
+    hatte: had
+    baute: built
+    mit: with
+    neue: new
+    Rakete: rocket
+    Am: in the
+    Abend: evening
+    flogen: flew
+    sie: they
+    zusammen: together
+    zum: to the
+    Mond: moon
+    aber: but
+    nur: only
+    Traum: dream
+    freute: looked forward
+    sich: reflexive marker
+    auf: to
+    nächsten: next
+    Morgen: morning
+words:
+  die Kuh: the cow
+  die Milchkanne: the milk can
+  die Rakete: the rocket
+  der Bauer: the farmer
+  der Misthaufen: the manure pile
+  der Traum: the dream

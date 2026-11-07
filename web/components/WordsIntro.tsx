@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
-import { feedback, narrate, PHRASES, stopSpeaking } from "@/lib/speech";
+import { feedback, narrate, phrases, stopSpeaking } from "@/lib/speech";
 import type { CoreWord } from "@/lib/types";
 
 export type WordResults = Map<string, { seen: number; correct: number }>;
@@ -127,7 +127,7 @@ export default function WordsIntro({
       </div>
       {missed && (
         <button className="primary" onClick={() => advance(step.queue, true)}>
-          {PHRASES[lang].next} <span className="arrow">→</span>
+          {phrases(lang).next} <span className="arrow">→</span>
         </button>
       )}
       <p className="muted">{fill(dict.words.score, { correct: firstTry, total: words.length })}</p>

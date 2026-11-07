@@ -69,7 +69,7 @@ def _piper(model: str):
 def speech(req: dict) -> tuple[bytes, dict]:
     """Piper: each sentence in its own style (model, emotion speaker, tempo), joined with short pauses.
 
-    Which style fits which emotion is decided by the pipeline (voices.yaml), so this server knows no languages.
+    Which style fits which emotion is decided by the pipeline (content/languages/<code>.yaml), so this server knows no languages.
     """
     from piper import SynthesisConfig
 

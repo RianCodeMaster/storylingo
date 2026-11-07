@@ -1,0 +1,9 @@
+# Base language, right to left. See nl.yaml for what each field means.
+code: ar
+name: العربية
+english: Arabic
+roles: [base]
+direction: rtl
+script: arabic
+speech_tag: ar-SA
+plural_forms: [zero, one, two, few, many, other]

@@ -1,80 +1,73 @@
-"""StoryLingo content pipeline.
+"""StoryLingo content pipeline. All content lives in content/ (docs/inhoud-beheer.md); the database is a copy.
 
-    python storylingo.py generate briefs/hamster-boerse.yaml   brief -> DeepSeek -> stories/<slug>.json -> database (draft),
-                                                               translated into every base language of a beta/live pair
+    python storylingo.py sync [slug]                           make the database match content/ (in place: progress stays)
+    python storylingo.py check [base]                          is everything complete and in sync? says how to fix what is not
+    python storylingo.py generate content/briefs/de/<slug>.yaml  brief -> DeepSeek -> content/stories/de/<slug>/ (draft)
     python storylingo.py show <slug>                           read the story in the terminal
-    python storylingo.py reload <slug>                         after editing stories/<slug>.json by hand
-    python storylingo.py glossary <slug>                       (re)make the tap-a-word glossary, also for published stories
+    python storylingo.py publish <slug>                        status: published in story.yaml, then sync
+    python storylingo.py glossary <slug>                       (re)make the tap-a-word glossary
     python storylingo.py core <slug>                           (re)choose the ~6 core words taught with a picture before the story
-    python storylingo.py localize <slug> <base>                translation, word meanings and gestures for one base language
-    python storylingo.py localize-all <base>                   the same for every story whose language that base learns
-    python storylingo.py check <base>                          is a base language complete (app texts, stories, database)?
     python storylingo.py voice <slug>                          (re)choose an emotion per sentence for the narrator
-    python storylingo.py media <slug> [local|gemini|fake] [images|audio]   images (from that provider) + narration (voices.yaml)
-    python storylingo.py media-clear <slug> [images|audio]     remove images and/or narration of a story
-    python storylingo.py feedback <language>                   the spoken "Ja! Genau!" / "Nein!" reactions, once per language
-    python storylingo.py publish <slug>                        make it visible in the app
-    python storylingo.py list
+    python storylingo.py localize <slug> <base>                translations, meanings, tips and gestures for one base language
+    python storylingo.py localize-all <base>                   the same for every story whose language that base learns
+    python storylingo.py media <slug> [local|gemini|fake] [images|audio]   images + narration that are missing or out of date
+    python storylingo.py media-clear <slug> [images|audio]     forget the images and/or narration of a story
+    python storylingo.py feedback <language>                   the teacher's spoken "Ja! Genau!" / "Nein!", once per language
+    python storylingo.py list                                  every story in the database
 """
-import json
 import sys
 from pathlib import Path
 
-import yaml
 from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).parent / ".env")
 
+import content  # noqa: E402
 import db  # noqa: E402  (reads DATABASE_URL, so .env must be loaded first)
+import languages  # noqa: E402
 import media  # noqa: E402
-from check import check
-from core import add_core_words
-from glossary import add_glossary
-from llm import write_story
-from localize import localize, localize_words
-from models import Brief, Localization, Story
-from prompts import PROMPT_VERSION
-from voice import add_voice
+import yamlio  # noqa: E402
+from check import check  # noqa: E402
+from content import StoryDoc  # noqa: E402
+from core import add_core_words  # noqa: E402
+from glossary import add_glossary  # noqa: E402
+from llm import write_story  # noqa: E402
+from localize import localize, localize_words  # noqa: E402
+from mediajobs import media_jobs  # noqa: E402
+from models import Brief, Localization, Story  # noqa: E402
+from prompts import PROMPT_VERSION  # noqa: E402
+from voice import add_voice  # noqa: E402
 
 HERE = Path(__file__).parent
-STORIES = HERE / "stories"
 
 
-def story_file(slug: str) -> Path:
-    return STORIES / f"{slug}.json"
+def store(doc: StoryDoc) -> None:
+    """Write the story files, then bring the database copy in line with them."""
+    folder = content.save(doc)
+    changes = db.sync_story(doc)
+    print(f"Saved {folder.relative_to(content.ROOT)}" + (f"; database: {', '.join(changes)}" if changes else ""))
 
 
-Localizations = dict[str, Localization]
+def sync(slug: str | None = None) -> None:
+    for change in db.sync_languages(languages.all_languages()):
+        print(f"  {change}")
+    if languages.write_web():
+        print("  web/lib/languages.json updated")
+    docs = [content.read(slug)] if slug else content.all_stories()
+    for doc in docs:
+        # A scene or question added by hand may have no key yet: give it one in the file first.
+        if any(not s.key or any(not q.key for q in s.questions) for s in doc.story.scenes):
+            content.save(doc)
+        changes = db.sync_story(doc)
+        print(f"  {doc.brief.language}/{doc.slug}: " + (", ".join(changes) if changes else "up to date"))
 
 
-def save(brief: Brief, story: Story, generation: dict, localizations: Localizations) -> Path:
-    STORIES.mkdir(exist_ok=True)
-    path = story_file(brief.slug)
-    data = {
-        "brief": brief.model_dump(),
-        "generation": generation,
-        "story": story.model_dump(),
-        "localizations": {base: loc.model_dump() for base, loc in sorted(localizations.items())},
-    }
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    return path
+def add_localization(doc: StoryDoc, base: str) -> None:
+    doc.localizations[base], usage = localize(doc.brief, doc.story, base, doc.localizations.get(base))
+    doc.generation.update(usage)
 
 
-def read(slug: str) -> tuple[Brief, Story, dict, Localizations]:
-    path = story_file(slug)
-    if not path.exists():
-        raise SystemExit(f"{path} does not exist.")
-    data = json.loads(path.read_text(encoding="utf-8"))
-    localizations = {base: Localization.model_validate(loc) for base, loc in data.get("localizations", {}).items()}
-    return Brief.model_validate(data["brief"]), Story.model_validate(data["story"]), data["generation"], localizations
-
-
-def add_localization(brief: Brief, story: Story, generation: dict, localizations: Localizations, base: str) -> None:
-    localizations[base], usage = localize(brief, story, base)
-    generation.update(usage)
-
-
-def show(brief: Brief, story: Story, localizations: Localizations) -> None:
+def show(brief: Brief, story: Story, localizations: dict[str, Localization]) -> None:
     # Show the story with the first base-language layer, so it can be read and checked in one go.
     base = next(iter(sorted(localizations)), None)
     loc = localizations.get(base)
@@ -98,183 +91,118 @@ def show(brief: Brief, story: Story, localizations: Localizations) -> None:
 
 
 def make_media(slug: str, provider_name: str, only: str | None = None) -> None:
-    """Fill in whatever images and audio a story is still missing. Safe to run again after an error."""
-    brief, story, _, _ = read(slug)
-    language = brief.language
-    do_images, do_audio = only in (None, "images"), only in (None, "audio")
-    maker = media.provider(provider_name) if do_images else None
-    # The voice comes from voices.yaml, whatever made the images.
-    voice = media.voice(language)
-    speaker = media.speaker(voice, fake=provider_name == "fake") if do_audio else None
-    # Per-sentence emotions live in the story file; scenes are matched by position.
-    lines = {i: [v.model_dump() for v in s.voice] for i, s in enumerate(story.scenes, 1)}
+    """Make every image and recording that is missing or out of date. Safe to run again after an error."""
+    doc = content.read(slug)
+    voice = languages.voice(doc.brief.language)
+    wanted = {"images": ("image", "picture"), "audio": ("narration", "question", "word")}
+    todo = [j for j in media_jobs(doc) if j["have"] != j["want"] and (only is None or j["what"] in wanted[only])]
+    if not todo:
+        print(f"Nothing to make for '{slug}': every image and recording matches its text and voice.")
+        return
+    images = any(j["what"] in ("image", "picture") for j in todo)
+    maker = media.provider(provider_name) if images else None
+    speaker = media.speaker(voice, fake=provider_name == "fake")
+    # The first scene image is the reference for the character's look (Gemini); with a local GPU it is unused.
     reference = None
-    made = 0
-
-    def store(kind: str, path: str, item: media.Media) -> str:
-        nonlocal made
-        full = f"stories/{slug}/{path}.{media.extension(item.mime_type)}"
-        media.upload(full, item)
-        made += 1
-        return db.save_asset(kind, full, item.mime_type, item.provider, item.model, item.marks)
-
-    # All images first, then all audio: a local GPU then switches models only once.
-    scenes = db.media_plan(slug)
-    for scene in scenes if do_images else []:
-        n = scene["position"]
-        if scene["image_asset_id"] is None:
-            print(f"  scene {n}: image")
-            item = media.retry(lambda: maker.image(scene["image_prompt"] or scene["text"], reference))
-            db.link_asset("scenes", "image_asset_id", scene["id"], store("image", f"scene-{n}", item))
+    for job in todo:
+        print(f"  {job['label']}" + (" (out of date)" if job["have"] else ""))
+        if job["what"] == "image":
+            item = media.retry(lambda: maker.image(job["prompt"], reference))
             reference = reference or item
-        elif reference is None and provider_name == "gemini":
-            reference = media.download(scene["image_path"])
-
-    # A picture per core word. Words are shared between stories, so they live under words/<language>/.
-    prompts = {w.lemma: w.image_prompt for w in story.core_words}
-    for lexeme_id, lemma, image_id in db.core_word_plan(slug) if do_images else []:
-        if image_id is None and lemma in prompts:
-            print(f"  word: {lemma}")
-            item = media.retry(lambda: maker.picture(prompts[lemma]))
-            full = f"words/{language}/{lexeme_id}.{media.extension(item.mime_type)}"
-            media.upload(full, item)
-            made += 1
-            db.link_asset("lexemes", "image_asset_id", lexeme_id,
-                          db.save_asset("image", full, item.mime_type, item.provider, item.model))
-
-    for scene in scenes if do_audio else []:
-        n = scene["position"]
-        if scene["audio_asset_id"] is None:
-            print(f"  scene {n}: narration")
-            item = media.retry(lambda: speaker.speech(scene["text"], "story", lines.get(n), voice))
-            db.link_asset("scenes", "audio_asset_id", scene["id"], store("audio", f"scene-{n}", item))
-
-    # Questions last: with a small daily quota the whole story gets narrated first.
-    for scene in scenes if do_audio else []:
-        n = scene["position"]
-        for q in scene["questions"]:
-            if q["audio_asset_id"] is None:
-                item = media.retry(lambda: speaker.speech(q["prompt"], "question", None, voice))
-                db.link_asset("questions", "audio_asset_id", q["id"], store("audio", f"scene-{n}-q{q['position']}", item))
-
-    # Every word on its own, for the review screen. Words are shared between stories, so they live
-    # under words/<language>/ and are made only once.
-    words = db.words_without_audio(slug) if do_audio else []
-    if words:
-        print(f"  {len(words)} words")
-    for lexeme_id, text in words:
-        item = media.retry(lambda: speaker.speech(text, "word", None, voice))
-        full = f"words/{language}/{lexeme_id}.{media.extension(item.mime_type)}"
-        media.upload(full, item)
-        made += 1
-        db.link_asset("lexemes", "audio_asset_id", lexeme_id,
-                      db.save_asset("audio", full, item.mime_type, item.provider, item.model))
-    print(f"Done: {made} new files for '{slug}'.")
-
-
-# Short reactions after an answer, spoken once per language and shared by every story.
-# The app plays feedback/<lang>/yes-<n>.wav and no-<n>.wav; keep the counts in sync with PHRASES in web/lib/speech.ts
-# and raise FEEDBACK_VERSION there after remaking them.
-FEEDBACK = {
-    "de": {
-        "yes": [("Ja! Genau!", "amused"), ("Richtig! Super!", "surprised"), ("Fantastisch!", "amused"), ("Ja, ja, ja!", "surprised")],
-        "no": [("Nein, nein, nein!", "surprised"), ("Oh nein!", "surprised")],
-    },
-}
+        elif job["what"] == "picture":
+            item = media.retry(lambda: maker.picture(job["prompt"]))
+        elif job["what"] == "narration":
+            lines = [v.model_dump() for v in job["scene"].voice]
+            item = media.retry(lambda: speaker.speech(job["scene"].text, "story", lines, voice))
+        else:
+            item = media.retry(lambda: speaker.speech(job["text"], job["what"], None, voice))
+        path = f"{job['path']}.{media.extension(item.mime_type)}"
+        media.upload(path, item)
+        kind = "image" if job["what"] in ("image", "picture") else "audio"
+        asset_id = db.save_asset(kind, path, item.mime_type, item.provider, item.model, item.marks, job["want"])
+        db.link_asset(*job["link"][:2], job["link"][2], asset_id)
+    print(f"Done: {len(todo)} files for '{slug}'.")
 
 
 def make_feedback(language: str) -> None:
-    voice = media.voice(language)
+    """The teacher's short reactions after an answer (teacher.yes / teacher.no in the language file), spoken once per
+    language and shared by every story. The app plays feedback/<lang>/yes-<n>.wav and no-<n>.wav; raise
+    FEEDBACK_VERSION in web/lib/speech.ts after remaking them."""
+    voice = languages.voice(language)
     speaker = media.speaker(voice)
-    for kind, lines in FEEDBACK[language].items():
-        for i, (text, emotion) in enumerate(lines, 1):
-            item = speaker.speech(text, "story", [{"text": text, "emotion": emotion}], voice)
+    teacher = languages.get(language).teacher
+    for kind, lines in (("yes", teacher.yes), ("no", teacher.no)):
+        for i, line in enumerate(lines, 1):
+            item = speaker.speech(line.text, "story", [{"text": line.text, "emotion": line.emotion}], voice)
             media.upload(f"feedback/{language}/{kind}-{i}.wav", item)
-            print(f"  {kind}-{i}: {text} ({emotion})")
+            print(f"  {kind}-{i}: {line.text} ({line.emotion})")
 
 
 def main(argv: list[str]) -> None:
     command = argv[0] if argv else None
     arg = argv[1] if len(argv) > 1 else None
-    if command != "list" and not arg:
+    if command not in ("list", "sync", "check") and not arg:
         raise SystemExit(__doc__)
 
-    if command == "generate":
-        brief = Brief.model_validate(yaml.safe_load(Path(arg).read_text(encoding="utf-8")))
+    if command == "sync":
+        sync(arg)
+    elif command == "check":
+        if not check(arg):
+            raise SystemExit(1)
+    elif command == "generate":
+        data = yamlio.load(Path(arg))
+        tags = data.pop("tags", [])
+        brief = Brief.model_validate(data)
         print(f"Writing '{brief.slug}' with DeepSeek...")
         story, usage = write_story(brief)
-        generation = {"prompt_version": PROMPT_VERSION, **usage, **add_glossary(brief, story)}
-        generation.update({**add_core_words(brief, story), **add_voice(story)})
-        localizations: Localizations = {}
+        doc = StoryDoc(brief, story, "draft", tags, {"prompt_version": PROMPT_VERSION, **usage})
+        doc.generation.update({**add_glossary(brief, story), **add_core_words(brief, story), **add_voice(story)})
         for base in db.pair_bases(brief.language):
-            add_localization(brief, story, generation, localizations, base)
-        path = save(brief, story, generation, localizations)
-        db.load_story(brief, story, generation, localizations)
-        show(brief, story, localizations)
-        print(f"Saved {path.relative_to(HERE)} and loaded as draft. "
-              f"Tokens: {usage['input_tokens']} in / {usage['output_tokens']} out.")
-        print(f"Happy with it?  python storylingo.py publish {brief.slug}")
+            add_localization(doc, base)
+        store(doc)
+        show(brief, story, doc.localizations)
+        print(f"Tokens: {usage['input_tokens']} in / {usage['output_tokens']} out. Read it, edit story.yaml if needed, "
+              f"then: storylingo.py media {brief.slug}  and  storylingo.py publish {brief.slug}")
     elif command == "show":
-        brief, story, _, localizations = read(arg)
-        show(brief, story, localizations)
-    elif command == "reload":
-        brief, story, generation, localizations = read(arg)
-        db.load_story(brief, story, generation, localizations)
-        print(f"Reloaded '{arg}' as draft.")
+        doc = content.read(arg)
+        show(doc.brief, doc.story, doc.localizations)
+    elif command == "publish":
+        doc = content.read(arg)
+        doc.status = "published"
+        store(doc)
     elif command == "glossary":
-        brief, story, generation, localizations = read(arg)
-        generation.update(add_glossary(brief, story))
+        doc = content.read(arg)
+        doc.generation.update(add_glossary(doc.brief, doc.story))
         # New words need new meanings in every base language.
-        for base in list(localizations):
-            add_localization(brief, story, generation, localizations, base)
-        save(brief, story, generation, localizations)
-        db.update_glossary(brief, story)
-        for base, loc in localizations.items():
-            db.save_localization(brief, story, base, loc)
-        print(f"Glossary updated for '{arg}'.")
+        for base in list(doc.localizations):
+            add_localization(doc, base)
+        store(doc)
     elif command == "core":
-        brief, story, generation, localizations = read(arg)
-        generation.update(add_core_words(brief, story))
+        doc = content.read(arg)
+        doc.generation.update(add_core_words(doc.brief, doc.story))
         # Only the new words need meanings: the checked translations stay as they are.
-        for base, loc in localizations.items():
-            loc.words, usage = localize_words(brief, story, base)
-            generation.update(usage)
-        save(brief, story, generation, localizations)
-        db.update_core_words(brief, story)
-        for base, loc in localizations.items():
-            db.save_localization(brief, story, base, loc)
-        print(f"Core words updated for '{arg}'. Pictures: python storylingo.py media {arg} local images")
+        for base, loc in doc.localizations.items():
+            loc.words, usage = localize_words(doc.brief, doc.story, base)
+            doc.generation.update(usage)
+        store(doc)
+        print(f"Pictures for the new words: python storylingo.py media {arg} local images")
+    elif command == "voice":
+        doc = content.read(arg)
+        doc.generation.update(add_voice(doc.story))
+        store(doc)
+        print(f"Remake the narration: python storylingo.py media {arg}")
     elif command == "localize":
         if len(argv) < 3:
             raise SystemExit(__doc__)
-        brief, story, generation, localizations = read(arg)
-        add_localization(brief, story, generation, localizations, argv[2])
-        save(brief, story, generation, localizations)
-        db.save_localization(brief, story, argv[2], localizations[argv[2]])
-        print(f"Localized '{arg}' into '{argv[2]}'. Check it: python storylingo.py show {arg}")
+        doc = content.read(arg)
+        add_localization(doc, argv[2])
+        store(doc)
     elif command == "localize-all":
-        for path in sorted(STORIES.glob("*.json")):
-            brief, story, generation, localizations = read(path.stem)
-            if arg not in db.pair_bases(brief.language, ("planned", "beta", "live")):
-                continue
-            print(f"== {path.stem}")
-            add_localization(brief, story, generation, localizations, arg)
-            save(brief, story, generation, localizations)
-            db.save_localization(brief, story, arg, localizations[arg])
-    elif command == "check":
-        targets = set(db.pair_targets(arg))
-        stories = {}
-        for path in sorted(STORIES.glob("*.json")):
-            brief, story, generation, localizations = read(path.stem)
-            if brief.language in targets:
-                stories[path.stem] = (brief, story, localizations)
-        if not check(arg, stories):
-            raise SystemExit(1)
-    elif command == "voice":
-        brief, story, generation, localizations = read(arg)
-        generation.update(add_voice(story))
-        save(brief, story, generation, localizations)
-        print(f"Voice direction updated for '{arg}'. Remake the audio: media-clear {arg} audio, then media {arg} local")
+        for doc in content.all_stories():
+            if arg in db.pair_bases(doc.brief.language, ("planned", "beta", "live")):
+                print(f"== {doc.slug}")
+                add_localization(doc, arg)
+                store(doc)
     elif command == "media":
         try:
             make_media(arg, argv[2] if len(argv) > 2 else "local", argv[3] if len(argv) > 3 else None)
@@ -284,8 +212,6 @@ def main(argv: list[str]) -> None:
         make_feedback(arg)
     elif command == "media-clear":
         print(f"Removed {db.clear_media(arg, argv[2] if len(argv) > 2 else None)} assets from '{arg}'.")
-    elif command == "publish":
-        db.publish(arg)
     elif command == "list":
         for slug, status, level, title, scenes in db.list_stories():
             print(f"{status:10} {level}  {slug:30} {title} ({scenes} scenes)")
