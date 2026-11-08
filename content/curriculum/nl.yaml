@@ -1,0 +1,20 @@
+# Dutch: the structures stories practise, per level. Briefs take 2-3 of these (content/briefs/nl/).
+# concept: the same as German and Spanish where the meaning is the same (want, cannot, afraid): one gesture for all.
+A1:
+  - {text: wil, gloss: wants, concept: want}
+  - {text: kan niet, gloss: cannot, concept: cannot}
+  - {text: houdt van, gloss: loves / likes, concept: like}
+  - {text: heeft, gloss: has, concept: have}
+  - {text: er is, gloss: there is, concept: there_is}
+A2:
+  - {text: wilde, gloss: wanted, concept: want}
+  - {text: kon niet, gloss: could not, concept: cannot}
+  - {text: was bang, gloss: was afraid, concept: afraid}
+  - {text: omdat, gloss: because, concept: because}
+  - {text: opeens, gloss: suddenly, concept: suddenly}
+  - {text: eindelijk, gloss: finally, concept: finally}
+B1:
+  - {text: hoewel, gloss: although, concept: although}
+  - {text: toch, gloss: nevertheless, concept: nevertheless}
+  - {text: zodat, gloss: so that, concept: so_that}
+  - {text: zou graag, gloss: would like to, concept: would_like_to_do}

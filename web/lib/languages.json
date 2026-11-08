@@ -132,6 +132,50 @@
     "script": "latin",
     "speechTag": "nl-NL",
     "base": true,
-    "target": false
+    "target": true,
+    "teacher": {
+      "yes": [
+        "Ja! Precies!",
+        "Goed zo! Heel goed!",
+        "Ja, natuurlijk!",
+        "Klopt! Super!",
+        "Bravo! Jij bent een genie!",
+        "Ja, ja, ja! Fantastisch!",
+        "Perfect! Ga zo door!",
+        "Ja hoor! Dat weet je al!",
+        "Wauw, wat ben jij snel!"
+      ],
+      "no": [
+        "Nee, nee, nee!",
+        "O nee! Dat is fout.",
+        "Helaas niet.",
+        "Nee! Wat een ramp!",
+        "Hmm, niet helemaal.",
+        "Fout! Maar goed geprobeerd.",
+        "O jee! Dat klopt niet.",
+        "Nee, natuurlijk niet!"
+      ],
+      "next": "Verder",
+      "done": "Klaar!"
+    },
+    "recognition": {
+      "twee": "2",
+      "drie": "3",
+      "vier": "4",
+      "vijf": "5",
+      "zes": "6",
+      "zeven": "7",
+      "acht": "8",
+      "negen": "9",
+      "tien": "10",
+      "elf": "11",
+      "twaalf": "12",
+      "twintig": "20",
+      "honderd": "100",
+      "duizend": "1000",
+      "neen": "nee",
+      "jawel": "ja",
+      "jazeker": "ja"
+    }
   }
 }

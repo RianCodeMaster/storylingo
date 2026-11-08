@@ -1,0 +1,403 @@
+# Phrases for the phrases section, in learning order: the most useful first. Every edition with this target language
+# shows them. Edit freely (a changed text is a new phrase: it needs a meaning again, `localize-phrases` adds it),
+# then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
+- text: Ik heb een probleem.
+  hint: I have a problem; general issue.
+- text: Kunt u mij de weg wijzen?
+  hint: Can you show me the way?
+- text: Waar kan ik afrekenen?
+  hint: Where do I pay?
+- text: Heeft u een tafel voor twee?
+  hint: Do you have a table for two?
+- text: Ik wil graag bestellen.
+  hint: I would like to order.
+- text: Kan ik dit meenemen?
+  hint: Can I take this away?
+- text: Hoeveel moet ik betalen?
+  hint: How much do I pay?
+- text: Kan ik dit laten repareren?
+  hint: Can I have this repaired?
+- text: Wanneer is het klaar?
+  hint: When will it be ready?
+- text: Het werkt niet meer.
+  hint: It no longer works.
+- text: Ik ben mijn pas kwijt.
+  hint: I lost my card/pass.
+- text: Kunt u dat per e-mail sturen?
+  hint: Can you email that to me?
+- text: Ik heb een vraag over de factuur.
+  hint: I have a question about the invoice.
+- text: Wilt u dit ondertekenen?
+  hint: Would you sign this?
+- text: Waar moet ik tekenen?
+  hint: Where do I sign?
+- text: Ik kan niet komen.
+  hint: I cannot come; appointment.
+- text: Ik moet helaas afzeggen.
+  hint: I have to cancel, unfortunately.
+- text: Kan de afspraak later?
+  hint: Can the appointment be later?
+- text: Wanneer heeft u tijd?
+  hint: When do you have time?
+- text: Ik kom voor een controle.
+  hint: I am here for a check-up.
+- text: Ik heb last van mijn maag.
+  hint: My stomach is bothering me.
+- text: Waar kan ik het recept ophalen?
+  hint: Where can I collect the prescription?
+- text: Heeft u iets tegen hoofdpijn?
+  hint: Do you have anything for a headache?
+- text: Ik moet dit dagelijks innemen.
+  hint: I must take this daily.
+- text: Ik ben vandaag niet bereikbaar.
+  hint: I am unavailable today.
+- text: Ik werk vandaag thuis.
+  hint: I am working from home today.
+- text: De vergadering begint om tien uur.
+  hint: The meeting starts at ten.
+- text: Ik ben bijna klaar.
+  hint: I am almost finished.
+- text: Dat regel ik wel.
+  hint: I will arrange it myself.
+- text: Kunt u dit controleren?
+  hint: Can you check this?
+- text: De trein heeft vertraging.
+  hint: The train is delayed.
+- text: Van welk perron vertrekt de trein?
+  hint: Which platform does the train leave?
+- text: Hoe laat komt de bus?
+  hint: What time does the bus come?
+- text: Moet ik hier inchecken?
+  hint: Do I check in here?
+- text: Mag ik hier zitten?
+  hint: May I sit here?
+- text: Kunt u mij waarschuwen?
+  hint: Can you warn me?
+- text: Het is aan de linkerkant.
+  hint: It is on the left side.
+- text: Ga rechtdoor bij het stoplicht.
+  hint: Go straight at the traffic lights.
+- text: Ik ben hier niet bekend.
+  hint: I am not from around here.
+- text: Ik ben de sleutel vergeten.
+  hint: I forgot the key.
+- text: Ik heb me buitengesloten.
+  hint: I locked myself out.
+- text: De verwarming werkt niet.
+  hint: The heating is not working.
+- text: Er is geen warm water.
+  hint: There is no hot water.
+- text: Ik ga boodschappen doen.
+  hint: I am going shopping.
+- text: We hebben geen melk meer.
+  hint: We have no milk left.
+- text: Kun je melk meenemen?
+  hint: Can you bring milk?
+- text: Ik heb er geen zin in.
+  hint: I do not feel like it.
+- text: Het gaat wel.
+  hint: I am doing okay.
+- text: Dat is niet erg.
+  hint: That is not a problem.
+- text: Laat het me weten.
+  hint: Let me know; keep me informed.
+- text: Hoe is het met je?
+  hint: Asking how someone is doing
+- text: Tot de volgende keer.
+  hint: Saying goodbye until next time
+- text: Wat kan ik voor u doen?
+  hint: Offering help in a shop
+- text: Waar kan ik een kaartje kopen?
+  hint: Asking where to buy a ticket
+- text: Gaat deze bus naar het station?
+  hint: Checking bus destination
+- text: Hoe lang moet ik wachten?
+  hint: Asking about waiting time
+- text: Is deze stoel vrij?
+  hint: Asking if seat is free
+- text: Waar is de paskamer?
+  hint: Looking for fitting room
+- text: Hoeveel kosten deze appels?
+  hint: Asking price of apples
+- text: Kun je het inpakken?
+  hint: Asking for gift wrapping
+- text: Hebt u een andere kleur?
+  hint: Asking for another colour
+- text: Mag ik een glas water?
+  hint: Polite request for water
+- text: Waar doet het pijn?
+  hint: Doctor asks about pain
+- text: Hoe vaak moet ik dit innemen?
+  hint: Asking about medicine frequency
+- text: Ik ben allergisch voor penicilline.
+  hint: Telling doctor about allergy
+- text: Waar is de wachtkamer?
+  hint: Looking for waiting room
+- text: Ik kom voor mijn uitslag.
+  hint: At doctor for test results
+- text: Ik zit in een vergadering.
+  hint: Cannot talk; in a meeting
+- text: Kunnen we morgen praten?
+  hint: Suggesting talk tomorrow
+- text: Wanneer is de pauze?
+  hint: Asking when break is
+- text: Waar is de printer?
+  hint: Looking for printer
+- text: Mijn computer is kapot.
+  hint: Reporting broken computer
+- text: Ik ben morgen niet op kantoor.
+  hint: Not in office tomorrow
+- text: Ik heb de e-mail ontvangen.
+  hint: Confirming email received
+- text: Ik heb een vraag over mijn rooster.
+  hint: Question about work schedule
+- text: Kun je de tafel dekken?
+  hint: Asking to set the table
+- text: Kun je het raam openen?
+  hint: Asking to open window
+- text: De sleutel past niet.
+  hint: Key does not fit
+- text: Het water is te warm.
+  hint: Water is too hot
+- text: Kun je de vuilnis buiten zetten?
+  hint: Asking to take out rubbish
+- text: Het licht is kapot.
+  hint: Reporting broken light
+- text: De wasmachine is klaar.
+  hint: Washing machine has finished
+- text: We hebben geen brood meer.
+  hint: No bread left at home
+- text: De buurman maakt veel lawaai.
+  hint: Complaining about neighbour noise
+- text: Kun je de verwarming hoger zetten?
+  hint: Asking to raise heating
+- text: Dat vind ik leuk.
+  hint: Saying you like something
+- text: Ik maak me zorgen.
+  hint: Saying you are worried
+- text: Dat is vervelend.
+  hint: Sympathetic reaction to bad news
+- text: Wat goed van je!
+  hint: Praising someone's achievement
+- text: Wat leuk voor je!
+  hint: Happy for someone
+- text: Ik ben trots op je.
+  hint: Saying you are proud
+- text: Het komt wel goed.
+  hint: Reassuring someone
+- text: Ik heb er zin in.
+  hint: Looking forward to something
+- text: Ik verveel me.
+  hint: Saying you are bored
+- text: Dat maakt me boos.
+  hint: Saying something angers you
+- text: Ik voel me verdrietig.
+  hint: Saying you feel sad
+- text: Ik ben bang dat ik te laat kom.
+  hint: Afraid you will be late
+- text: Wat is er gebeurd?
+  hint: Asking what happened
+- text: Wat moet ik doen?
+  hint: Asking for advice
+- text: Heb je hulp nodig?
+  hint: Offering help
+- text: Hoe gaat het ermee?
+  hint: greeting; how are you doing?
+- text: Hoe was je weekend?
+  hint: small talk; how was your weekend?
+- text: Fijn dat je er bent.
+  hint: welcome; glad you are here
+- text: Kun je me een bericht sturen?
+  hint: request; send me a message
+- text: Kun je me vanavond bellen?
+  hint: request; call me this evening
+- text: Ik hoor het graag van je.
+  hint: say when you want news
+- text: Kun je me een seintje geven?
+  hint: ask for a signal or update
+- text: Waar staat de melk?
+  hint: supermarket; asking where milk is
+- text: Kan ik dit retourneren?
+  hint: shop; can I return this?
+- text: Mag ik met de kaart betalen?
+  hint: shop; pay by card?
+- text: Heeft u deze in maat M?
+  hint: clothes shop; asking for size M
+- text: Waar moet ik betalen?
+  hint: shop; asking where to pay
+- text: Doet u dat in een zakje?
+  hint: shop; ask for a bag
+- text: Kan ik dit laten bezorgen?
+  hint: shop; ask for delivery
+- text: Ik ben even niet beschikbaar.
+  hint: work; I am unavailable now
+- text: Kun je de vergadering verzetten?
+  hint: work; can we move the meeting?
+- text: Ik stuur je de bestanden.
+  hint: work; I will send files
+- text: De deadline is volgende week.
+  hint: work; deadline is next week
+- text: Ik neem een dag vrij.
+  hint: work; take a day off
+- text: Mijn rooster is veranderd.
+  hint: work; my schedule has changed
+- text: Kunnen we even overleggen?
+  hint: work; can we discuss briefly?
+- text: Ik heb een vraag over mijn salaris.
+  hint: work; question about my salary
+- text: Wanneer is de volgende vergadering?
+  hint: work; when is next meeting?
+- text: Ik voel me al dagen niet goed.
+  hint: doctor; I have felt unwell for days
+- text: Ik ben gisteren gevallen.
+  hint: doctor; I fell yesterday
+- text: Ik heb een afspraak bij de dokter.
+  hint: doctor; I have an appointment
+- text: Ik ben allergisch voor noten.
+  hint: doctor; allergy to nuts
+- text: Het doet pijn als ik loop.
+  hint: doctor; it hurts when I walk
+- text: Ik heb een pleister nodig.
+  hint: doctor; I need a bandage
+- text: Welk perron moet ik hebben?
+  hint: station; which platform do I need?
+- text: Is dit de trein naar Rotterdam?
+  hint: train; is this train to Rotterdam?
+- text: Hoe laat gaat de volgende bus?
+  hint: transport; when is next bus?
+- text: Ik wil graag een kaartje kopen.
+  hint: transport; I want to buy a ticket
+- text: Kan ik hier instappen?
+  hint: transport; can I board here?
+- text: De bus is net weg.
+  hint: transport; the bus just left
+- text: Hoe lang duurt het nog?
+  hint: transport; how much longer?
+- text: Ik moet de tram nog halen.
+  hint: transport; I still need the tram
+- text: De kraan lekt.
+  hint: home; the tap is leaking
+- text: Het toilet is verstopt.
+  hint: home; the toilet is blocked
+- text: De stroom is uitgevallen.
+  hint: home; power has gone out
+- text: Kun je de deur opendoen?
+  hint: home; can you open the door?
+- text: Kun je het raam dichtdoen?
+  hint: home; can you close the window?
+- text: Mijn telefoon is bijna leeg.
+  hint: home; my phone is almost dead
+- text: Waar is de oplader?
+  hint: home; where is the charger?
+- text: Ik ben een beetje gestrest.
+  hint: feelings; I am a bit stressed
+- text: Ik ben het ermee eens.
+  hint: opinion; I agree with that
+- text: Ik ben het niet met je eens.
+  hint: opinion; I disagree with you
+- text: Ik maak me zorgen om je.
+  hint: feelings; I am worried about you
+- text: Ik ben bang voor honden.
+  hint: feelings; I am afraid of dogs
+- text: Ik voel me eenzaam.
+  hint: feelings; I feel lonely
+- text: Ik wil graag iets vragen.
+  hint: I'd like to ask something.
+- text: Kunt u mij helpen met dit formulier?
+  hint: Can you help with this form?
+- text: Kan ik vandaag nog terecht?
+  hint: Can I come today?
+- text: Waar kan ik dit inleveren?
+  hint: Where can I hand this in?
+- text: Bedankt voor je hulp.
+  hint: Thanks for your help.
+- text: Dat klinkt goed.
+  hint: That sounds good.
+- text: Kunt u dit voor mij printen?
+  hint: Can you print this for me?
+- text: Ik ben op zoek naar een cadeau.
+  hint: I am looking for a gift.
+- text: Hebt u ook iets goedkopers?
+  hint: Do you have anything cheaper?
+- text: Kan ik dit morgen ophalen?
+  hint: Can I pick this up tomorrow?
+- text: Wanneer wordt het bezorgd?
+  hint: When will it be delivered?
+- text: Ik heb de verkeerde maat gekregen.
+  hint: I got the wrong size.
+- text: Kan ik dit online bestellen?
+  hint: Can I order this online?
+- text: Waar kan ik de auto parkeren?
+  hint: Where can I park the car?
+- text: Hoeveel haltes moet ik nog?
+  hint: How many stops are left?
+- text: Ik heb mijn trein gemist.
+  hint: I missed my train.
+- text: Is dit een directe trein?
+  hint: Is this a direct train?
+- text: Waar kan ik mijn kaart opladen?
+  hint: Where can I top up my card?
+- text: Ik ben op het verkeerde perron.
+  hint: I am on the wrong platform.
+- text: Kan ik mijn ticket annuleren?
+  hint: Can I cancel my ticket?
+- text: Mijn afspraak is om half drie.
+  hint: My appointment is at 2:30.
+- text: Kan ik zonder afspraak komen?
+  hint: Can I come without an appointment?
+- text: Wanneer kan ik langskomen?
+  hint: When can I come by?
+- text: Ik heb geen afspraak.
+  hint: I do not have an appointment.
+- text: Moet ik nog iets betalen?
+  hint: Do I still need to pay?
+- text: Heb ik alles ingevuld?
+  hint: Have I filled in everything?
+- text: Wat is uw achternaam?
+  hint: What is your surname?
+- text: Ik ben het wachtwoord vergeten.
+  hint: I forgot the password.
+- text: Kunt u mij het wachtwoord geven?
+  hint: Can you give me the password?
+- text: De printer doet het niet.
+  hint: The printer is not working.
+- text: Ik heb de bijlage niet ontvangen.
+  hint: I did not receive the attachment.
+- text: Ik stuur je de uitnodiging.
+  hint: I will send you the invitation.
+- text: Kan ik morgen thuiswerken?
+  hint: Can I work from home tomorrow?
+- text: Ik ben na de lunch terug.
+  hint: I will be back after lunch.
+- text: Ik kom er niet uit.
+  hint: I cannot figure it out.
+- text: Kun je me laten zien hoe het werkt?
+  hint: Can you show me how it works?
+- text: Wat moet ik invullen?
+  hint: What should I fill in?
+- text: Waar kan ik mijn jas ophangen?
+  hint: Where can I hang my coat?
+- text: Mag ik mijn telefoon opladen?
+  hint: May I charge my phone?
+- text: De wifi doet het niet.
+  hint: The Wi-Fi is not working.
+- text: Kun je het geluid zachter zetten?
+  hint: Can you turn the sound down?
+- text: Kun je het licht uitdoen?
+  hint: Can you turn off the light?
+- text: Wil je de afwas doen?
+  hint: Will you do the dishes?
+- text: De afvoer is verstopt.
+  hint: The drain is blocked.
+- text: Ik ruik gas.
+  hint: I smell gas.
+- text: Het raam wil niet dicht.
+  hint: The window will not close.
+- text: Dat lijkt me een goed idee.
+  hint: That seems like a good idea.
+- text: Ik begrijp wat je bedoelt.
+  hint: I understand what you mean.
+- text: Het maakt me niet uit.
+  hint: It does not matter to me.
+- text: Goed om je te zien.
+  hint: Good to see you.

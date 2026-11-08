@@ -1,0 +1,11 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+slug: omar-huisarts
+language: nl
+level: A2
+tags: [algemeen, dagelijks]
+theme: Omar wilde naar de huisarts omdat zijn neus groen was, maar hij was bang voor de assistente aan de telefoon; eindelijk blijkt het verf te zijn
+scenes: 5
+targets:
+  - {text: wilde, gloss: wanted, concept: want}
+  - {text: was bang, gloss: was afraid, concept: afraid, kind: phrase}
+  - {text: eindelijk, gloss: finally, concept: finally}

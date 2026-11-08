@@ -1,0 +1,194 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: يوسف لا يعرف ركوب الدراجة، وفجأة عليه أن يوصل كعكة وخزانة تحت المطر لأن الحافلة في إضراب، وكلب ضخم بقبعة صغيرة يزيد
+  الأمر سوءًا.
+summary_source: f48662cd19d32e05
+gestures:
+  cannot: ارسم علامة X بذراعيك أمام صدرك، وحرّك رأسك بالنفي، وتمايل كدراجة على وشك السقوط.
+  because: اضرب جبهتك بيد واحدة ثم أشِر بإصبعك إلى الشيء أمامك إشارة «آه، هذا هو السبب!».
+  suddenly: اقفز وارفع ذراعيك عاليًا وافتح عينيك واسعًا كأن مفاجأة انفجرت في الغرفة.
+targets:
+  kon niet:
+    gloss: لم يستطع
+    note: في الهولندية يأتي niet بعد kon، وفي العربية تأتي «لم» قبل الفعل.
+  omdat:
+    gloss: لأن
+    note: بعد omdat يأتي الفعل غالبًا في آخر الجملة، بخلاف العربية.
+  opeens:
+    gloss: فجأة
+    note: null
+scenes:
+- key: s1
+  source: 693345bc341c9fd1
+  translation: كان يوسف يعيش في هولندا، لكنه لم يكن يستطيع ركوب الدراجة. لم يكن يستطيع ركوب الدراجة لأنه جاء من قرية صغيرة
+    في الجبال. كل يوم كان ينظر إلى كل راكبي الدراجات وكان حزينًا.
+  glosses:
+    woonde: كان يعيش
+    in: في
+    maar: لكن
+    hij: هو
+    kon: كان يستطيع
+    niet: لم
+    fietsen: يركب الدراجة
+    omdat: لأن
+    uit: من
+    klein: صغيرة
+    dorp: قرية
+    bergen: الجبال
+    kwam: جاء
+    Elke: كل
+    dag: يوم
+    keek: كان ينظر
+    naar: إلى
+    alle: كل
+    fietsers: راكبي الدراجات
+    en: و
+    was: كان
+    verdrietig: حزينًا
+- key: s2
+  source: e285149bbd44e062
+  translation: 'في صباح أحد الأيام اتصلت عمته. سألت: «هل تأتي إلى حفلتي؟» قال يوسف: «نعم! لكن الحافلة لا تسير اليوم لأن هناك
+    إضرابًا». فجأة كان عليه أن يركب الدراجة، لأنه كان عليه أن يحضر كعكة وخزانة إلى الحفلة.'
+  glosses:
+    Op: في
+    ochtend: صباح
+    belde: اتصلت
+    zijn: ـه
+    tante: عمة
+    Kom: تأتي
+    je: أنت
+    naar: إلى
+    mijn: ـي
+    feest: حفلة
+    vroeg: سألت
+    ze: هي
+    Maar: لكن
+    bus: الحافلة
+    rijdt: تسير
+    vandaag: اليوم
+    niet: لا
+    omdat: لأن
+    er: هناك
+    staking: إضراب
+    is: يوجد
+    zei: قال
+    Opeens: فجأة
+    moest: كان عليه
+    hij: هو
+    fietsen: يركب الدراجة
+    taart: كعكة
+    en: و
+    kast: خزانة
+    brengen: يحضر
+- key: s3
+  source: 746a1e6c379976ed
+  translation: وضع يوسف الكعكة على رأسه والخزانة على ظهره. جلس على الدراجة، لكنه سقط فورًا في بركة. فجأة بدأ المطر ينزل بغزارة.
+    لم يكن يستطيع ركوب الدراجة لأن الخزانة كانت تزن ألف كيلو.
+  glosses:
+    zette: وضع
+    taart: الكعكة
+    op: على
+    zijn: ـه
+    hoofd: رأس
+    en: و
+    kast: الخزانة
+    rug: ظهر
+    Hij: هو
+    ging: جلس
+    fiets: الدراجة
+    zitten: يجلس
+    maar: لكن
+    viel: سقط
+    meteen: فورًا
+    in: في
+    plas: بركة
+    Opeens: فجأة
+    begon: بدأ
+    het: المطر
+    heel: جدًا
+    hard: بغزارة
+    regenen: تمطر
+    kon: كان يستطيع
+    niet: لم
+    fietsen: يركب الدراجة
+    omdat: لأن
+    kilo: كيلو
+    was: كانت
+- key: s4
+  source: 5593125d7d1141f1
+  translation: 'فجأة جاء كلب ضخم وعليه قبعة صغيرة. قفز الكلب على الخزانة ونبح بصوت عالٍ جدًا. لم يعد يوسف يستطيع ركوب الدراجة
+    لأن الكلب كان ثقيلًا جدًا. صرخ يوسف: «ساعدوني!» فقفز الكلب بعيدًا وهو يحمل الكعكة.'
+  glosses:
+    Opeens: فجأة
+    kwam: جاء
+    er: هناك
+    enorme: ضخم
+    hond: كلب
+    aan: مقبلًا
+    met: مع
+    klein: صغيرة
+    hoedje: قبعة صغيرة
+    op: عليه
+    sprong: قفز
+    kast: الخزانة
+    en: و
+    blafte: نبح
+    heel: جدًا
+    hard: بصوت عالٍ
+    kon: كان يستطيع
+    niet: لم
+    meer: بعد
+    fietsen: يركب الدراجة
+    omdat: لأن
+    te: جدًا
+    zwaar: ثقيل
+    was: كان
+    Help: ساعدوني
+    riep: صرخ
+    weg: بعيدًا
+    taart: الكعكة
+- key: s5
+  source: b4c361a82f84cf7a
+  translation: 'وصل يوسف إلى الحفلة مبللًا ومتعبًا. ضحكت عمته: «الكلب أحضر الكعكة بالفعل!» فجأة جاءت العائلة كلها أيضًا على
+    الدراجات، وفي يدها خزانة. لم يستطع يوسف التوقف عن الضحك لأنه أخيرًا استطاع ركوب الدراجة.'
+  glosses:
+    Nat: مبلل
+    en: و
+    moe: متعب
+    kwam: وصل
+    bij: إلى
+    feest: الحفلة
+    Zijn: خاصته
+    tante: عمته
+    lachte: ضحكت
+    hond: الكلب
+    heeft: قد
+    taart: الكعكة
+    al: بالفعل
+    gebracht: أحضر
+    hele: كل
+    familie: العائلة
+    opeens: فجأة
+    ook: أيضًا
+    op: على
+    fiets: الدراجة
+    met: مع
+    kast: خزانة
+    in: في
+    hand: يد
+    kon: استطاع
+    niet: لم
+    stoppen: يتوقف
+    lachen: الضحك
+    omdat: لأن
+    hij: هو
+    eindelijk: أخيرًا
+    fietsen: يركب الدراجة
+words:
+  fietsen: يركب الدراجة
+  de taart: الكعكة
+  de kast: الخزانة
+  de hond: الكلب
+  de plas: البركة
+  de tante: العمة/الخالة

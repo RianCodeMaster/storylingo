@@ -95,6 +95,27 @@
       ]
     }
   },
+  "hollanda": {
+    "slug": "hollanda",
+    "status": "beta",
+    "base": "ar",
+    "target": "nl",
+    "name": "الهولندية بالقصص",
+    "tagline": "هولندية تبقى في الذاكرة.",
+    "intro": "قصص قصيرة ومضحكة عن الحياة في هولندا. تؤدي الإيماءات، وتجيب بصوت عالٍ، وتردد بعد الراوي. خمس دقائق يوميًا.",
+    "color": "#ff8c42",
+    "stories": {
+      "tags": [
+        "algemeen",
+        "dagelijks"
+      ],
+      "levels": [
+        "A1",
+        "A2",
+        "B1"
+      ]
+    }
+  },
   "spaans": {
     "slug": "spaans",
     "status": "beta",

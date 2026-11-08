@@ -1,0 +1,602 @@
+# What each phrase means for learners with this base language. Made by `storylingo.py localize-phrases`; corrections
+# by hand are welcome (then: storylingo.py sync).
+Goedemorgen, hoe gaat het?: صباح الخير، كيف حالك؟
+Hoi, alles goed?: أهلاً، هل كل شيء بخير؟
+Goed, dank je. En met jou?: بخير، شكراً. وأنت؟
+Tot ziens, fijne dag.: إلى اللقاء، أتمنى لك يوماً سعيداً.
+Dank je wel, heel aardig.: شكراً جزيلاً، هذا لطف منك.
+Graag gedaan, hoor.: على الرحب والسعة.
+Sorry, ik ben laat.: آسف، لقد تأخرت.
+Het spijt me.: أنا آسف.
+Geen probleem.: لا مشكلة.
+Excuseer, mag ik iets vragen?: عذراً، هل يمكنني أن أسأل عن شيء؟
+Ik begrijp het niet.: لا أفهم.
+Kunt u dat herhalen?: هل يمكنك تكرار ذلك؟
+Kunt u langzamer praten?: هل يمكنك التحدث بشكل أبطأ؟
+Wat betekent dat?: ماذا يعني ذلك؟
+Hoe zeg je dat in het Nederlands?: كيف تقول ذلك بالهولندية؟
+Ik spreek een beetje Nederlands.: أتكلم الهولندية قليلاً.
+Kunt u me helpen?: هل يمكنك مساعدتي؟
+Waar is het toilet?: أين الحمام؟
+Hoe laat is het?: كم الساعة؟
+Hoeveel kost dit?: بكم هذا؟
+Dat is te duur.: هذا غالٍ جداً.
+Ik wil dit graag kopen.: أود شراء هذا.
+Kan ik met pin betalen?: هل يمكنني الدفع بالبطاقة؟
+Mag ik een bonnetje?: هل يمكنني الحصول على إيصال؟
+Ik neem deze.: سآخذ هذا.
+Waar is het station?: أين محطة القطار؟
+Hoe kom ik bij het centrum?: كيف أصل إلى وسط المدينة؟
+Een kaartje naar Amsterdam, alstublieft.: تذكرة إلى أمستردام، من فضلك.
+Wanneer gaat de volgende trein?: متى يغادر القطار التالي؟
+Moet ik overstappen?: هل عليّ تغيير القطار؟
+Ik ben de weg kwijt.: لقد ضللت الطريق.
+Ik heb een vraag.: لديّ سؤال.
+Kunt u dat uitleggen?: هل يمكنك شرح ذلك؟
+Ik ben ziek vandaag.: أنا مريض اليوم.
+Ik kom iets later.: سأتأخر قليلاً.
+Ik voel me niet lekker.: أشعر بالتوعك.
+Ik heb hoofdpijn.: لديّ صداع.
+Ik heb een afspraak.: لديّ موعد.
+Waar woon je?: أين تعيش؟
+Ik ben thuis.: أنا في المنزل.
+Wil je koffie?: هل تريد قهوة؟
+Doe de deur dicht, alsjeblieft.: أغلق الباب، من فضلك.
+Ik ga naar bed.: سأذهب إلى النوم.
+Ik ben blij.: أنا سعيد.
+Wat jammer.: يا للأسف.
+Ik weet het niet.: لا أعرف.
+Dat is goed.: هذا جيد.
+Maak je geen zorgen.: لا تقلق.
+Ik ben moe.: أنا متعب.
+Ik moet gaan.: يجب أن أذهب.
+Ja, graag.: نعم، من فضلك.
+Nee, dank u.: لا، شكراً.
+Tot morgen!: أراك غداً!
+Tot straks!: أراك لاحقاً!
+Fijne avond!: أتمنى لك أمسية سعيدة!
+Welterusten!: تصبح على خير!
+Dat klopt.: هذا صحيح.
+Ik denk het wel.: أظن ذلك.
+Ik denk het niet.: لا أظن ذلك.
+Wat bedoel je?: ماذا تقصد؟
+Wat zeg je?: ماذا قلت؟
+Spreekt u Engels?: هل تتحدث الإنجليزية؟
+Veel plezier!: أتمنى لك وقتاً ممتعاً!
+Eet smakelijk!: بالهناء والشفاء!
+Beterschap gewenst.: أتمنى لك الشفاء العاجل.
+Mag ik een koffie, alstublieft?: هل يمكنني الحصول على قهوة، من فضلك؟
+Ik wil graag betalen.: أود الدفع.
+Waar is de kassa?: أين صندوق الدفع؟
+Heeft u een tasje?: هل لديك كيس؟
+Ik kijk even rond.: أنا أتفرج فقط.
+Dat is alles, dank u.: هذا كل شيء، شكراً.
+Kan ik dit ruilen?: هل يمكنني استبدال هذا؟
+Hebt u dit in een andere maat?: هل لديك هذا بمقاس آخر؟
+Waar kan ik pinnen?: أين يمكنني الدفع بالبطاقة؟
+Hoeveel is dat samen?: كم يكون المجموع؟
+Kunt u dat opschrijven?: هل يمكنك كتابة ذلك؟
+Kunt u het spellen?: هل يمكنك تهجئته؟
+Waar is de bushalte?: أين موقف الحافلات؟
+Welke bus gaat naar het centrum?: أي حافلة تذهب إلى وسط المدينة؟
+Hoe laat vertrekt de trein?: متى يغادر القطار؟
+Is dit de goede trein?: هل هذا هو القطار الصحيح؟
+Waar moet ik uitstappen?: أين يجب أن أنزل؟
+Een retourtje, alstublieft.: تذكرة ذهاب وعودة، من فضلك.
+Hoe lang duurt de reis?: كم تستغرق الرحلة؟
+Is het ver lopen?: هل المكان بعيد سيرًا على الأقدام؟
+Waar is de supermarkt?: أين السوبرماركت؟
+Ik ga naar huis.: سأذهب إلى المنزل.
+Ik kom zo.: سآتي بعد قليل.
+Ik zoek mijn sleutels.: أبحث عن مفاتيحي.
+Het is koud hier.: الجو بارد هنا.
+Ik wil een afspraak maken.: أريد تحديد موعد.
+Kan ik vandaag komen?: هل يمكنني المجيء اليوم؟
+Ik heb buikpijn.: عندي ألم في البطن.
+Ik heb keelpijn.: عندي ألم في الحلق.
+Ik heb koorts.: عندي حمى.
+Ik ben allergisch voor pinda's.: لدي حساسية من الفول السوداني.
+Waar is de apotheek?: أين الصيدلية؟
+Moet ik dit innemen?: هل يجب أن أتناول هذا؟
+Het doet hier pijn.: يؤلمني هنا.
+Hebt u even tijd?: هل لديك لحظة؟
+Kan ik u helpen?: هل يمكنني مساعدتك؟
+Sorry, ik versta u niet.: عذرًا، لا أفهمك.
+Een momentje, alstublieft.: لحظة من فضلك.
+Spreekt u Nederlands?: هل تتحدث الهولندية؟
+Goedemiddag, mevrouw.: مساء الخير، سيدتي.
+Tot vanavond.: أراك هذا المساء.
+Fijn weekend.: نهاية أسبوع سعيدة.
+Waarmee kan ik u helpen?: كيف يمكنني مساعدتك؟
+Mag ik wat water, alstublieft?: هل يمكنني الحصول على بعض الماء من فضلك؟
+De rekening, alstublieft.: الفاتورة، من فضلك.
+Waar kan ik dit vinden?: أين يمكنني أن أجد هذا؟
+Kan ik contant betalen?: هل يمكنني الدفع نقدًا؟
+Waar is de tramhalte?: أين موقف الترام؟
+Een enkeltje, alstublieft.: تذكرة ذهاب فقط، من فضلك.
+Ik ben onderweg.: أنا في الطريق.
+Ik ben zo terug.: سأعود بعد قليل.
+Hoe heet je?: ما اسمك؟
+Leuk je te ontmoeten.: سعيد بلقائك.
+Wil je iets drinken?: هل تريد شيئًا لتشربه؟
+Het eten is klaar.: الطعام جاهز.
+Kom binnen, alsjeblieft.: تفضل بالدخول.
+Mag ik even storen?: هل يمكنني أن أقاطعك لحظة؟
+Met wie spreek ik?: مع من أتحدث؟
+Ik stuur u een e-mail.: سأرسل لك بريدًا إلكترونيًا.
+Mag ik de menukaart?: هل يمكنني الحصول على قائمة الطعام؟
+Zonder suiker, alstublieft.: بدون سكر، من فضلك.
+Met melk, alstublieft.: مع الحليب، من فضلك.
+Nog een keer, alstublieft.: مرة أخرى، من فضلك.
+Heeft u dit ook in het blauw?: هل لديك هذا أيضًا باللون الأزرق؟
+Ik zoek een cadeau.: أبحث عن هدية.
+Is dit in de aanbieding?: هل هذا في التخفيضات؟
+Wie is er aan de beurt?: من عليه الدور؟
+Ik ben aan de beurt.: حان دوري.
+Nee, ik kijk alleen.: لا، أنا أتفرج فقط.
+Een half kilo, alstublieft.: نصف كيلو، من فضلك.
+Heeft u nog brood?: هل ما زال لديك خبز؟
+Welke tram moet ik nemen?: أي ترام يجب أن آخذ؟
+Mag ik er langs?: هل يمكنني المرور؟
+Stopt deze trein in Utrecht?: هل يتوقف هذا القطار في أوترخت؟
+Waar is de uitgang?: أين المخرج؟
+Het is om de hoek.: إنه عند المنعطف.
+Doe het licht aan, alsjeblieft.: أشعل النور، من فضلك.
+Ik ben verkouden.: عندي زكام.
+Ik ben misselijk.: أشعر بالغثيان.
+Ik heb pijn in mijn rug.: ظهري يؤلمني.
+Ik slaap slecht.: أنام بشكل سيئ.
+Moet ik terugkomen?: هل يجب أن أعود؟
+Ik voel me beter.: أشعر بتحسن.
+Ik ben zenuwachtig.: أنا متوتر.
+Gefeliciteerd met je verjaardag.: عيد ميلاد سعيد.
+Hoe gaat het met u?: كيف حالك؟
+Tot volgende week.: أراك الأسبوع القادم.
+Tot maandag.: أراك يوم الاثنين.
+Aangenaam kennis te maken.: تشرفنا بمعرفتك.
+Sorry, dat wist ik niet.: عذرًا، لم أكن أعرف ذلك.
+Geen dank.: على الرحب والسعة.
+Alstublieft, uw wisselgeld.: تفضل، هذا باقي المبلغ.
+Heeft u kleingeld?: هل لديك فكة؟
+Ja, hoor.: نعم، بالطبع.
+Natuurlijk, graag.: بالطبع، بكل سرور.
+Prima, dank u.: بخير، شكرًا لك.
+Ik heb geen tijd.: ليس لدي وقت.
+Ik heb het druk.: أنا مشغول.
+Ik ben vandaag vrij.: أنا في إجازة اليوم.
+Ik moet werken.: يجب أن أعمل.
+Ik ben op kantoor.: أنا في المكتب.
+Ik ben later thuis.: سأعود إلى المنزل لاحقًا.
+Waar is de lift?: أين المصعد؟
+Waar is de trap?: أين السلالم؟
+Waar is de ingang?: أين المدخل؟
+Waar is het ziekenhuis?: أين المستشفى؟
+Mag ik naar het toilet?: هل يمكنني استخدام الحمام؟
+Mag ik even zitten?: هل يمكنني الجلوس قليلًا؟
+Ik eet geen vlees.: أنا لا آكل اللحم.
+Ik ben vegetarisch.: أنا نباتي.
+Ik heb geen honger.: لست جائعًا.
+Ik heb dorst.: أنا عطشان.
+Ik ben duizelig.: أشعر بالدوار.
+Ik ben gevallen.: لقد سقطت.
+Ik heb me gesneden.: لقد جرحت نفسي.
+Ik gebruik medicijnen.: أنا أتناول أدوية.
+Wanneer kan ik komen?: متى يمكنني القدوم؟
+Hoe laat is de afspraak?: في أي وقت الموعد؟
+Ik ben aan het werk.: أنا أعمل الآن.
+Ik werk vier dagen.: أعمل أربعة أيام.
+Ik begin om negen uur.: أبدأ في الساعة التاسعة.
+Ik ben klaar met werken.: لقد انتهيت من العمل.
+Ik heb pauze.: أنا في استراحة.
+Ik kom eraan.: أنا قادم.
+Wacht even, alsjeblieft.: انتظر لحظة، من فضلك.
+Bel me later.: اتصل بي لاحقًا.
+Ik bel je terug.: سأعاود الاتصال بك.
+Ik snap het.: لقد فهمت.
+Nee, niet echt.: لا، ليس حقًا.
+Ja, natuurlijk.: نعم، بالطبع.
+Dat is waar.: هذا صحيح.
+Veel succes.: بالتوفيق.
+Fijne dag verder.: أتمنى لك يومًا سعيدًا.
+Tot snel.: أراك قريبًا.
+Doe de groeten.: بلّغ تحياتي لهم.
+Ik heb een probleem.: لدي مشكلة.
+Kunt u mij de weg wijzen?: هل يمكنك أن تدلني على الطريق؟
+Waar kan ik afrekenen?: أين يمكنني الدفع؟
+Heeft u een tafel voor twee?: هل لديك طاولة لشخصين؟
+Ik wil graag bestellen.: أود أن أطلب.
+Kan ik dit meenemen?: هل يمكنني أخذه معي؟
+Hoeveel moet ik betalen?: كم يجب أن أدفع؟
+Kan ik dit laten repareren?: هل يمكن إصلاح هذا؟
+Wanneer is het klaar?: متى سيكون جاهزًا؟
+Het werkt niet meer.: لم يعد يعمل.
+Ik ben mijn pas kwijt.: لقد أضعت بطاقتي.
+Kunt u dat per e-mail sturen?: هل يمكنك إرسال ذلك بالبريد الإلكتروني؟
+Ik heb een vraag over de factuur.: لدي سؤال حول الفاتورة.
+Wilt u dit ondertekenen?: هل يمكنك التوقيع على هذا؟
+Waar moet ik tekenen?: أين يجب أن أوقّع؟
+Ik kan niet komen.: لا يمكنني القدوم.
+Ik moet helaas afzeggen.: للأسف يجب أن ألغي.
+Kan de afspraak later?: هل يمكن تأجيل الموعد؟
+Wanneer heeft u tijd?: متى لديك وقت؟
+Ik kom voor een controle.: جئت من أجل فحص.
+Ik heb last van mijn maag.: معدتي تؤلمني.
+Waar kan ik het recept ophalen?: أين يمكنني استلام الوصفة الطبية؟
+Heeft u iets tegen hoofdpijn?: هل لديك شيء لعلاج الصداع؟
+Ik moet dit dagelijks innemen.: يجب أن أتناول هذا يوميًا.
+Ik ben vandaag niet bereikbaar.: أنا غير متاح اليوم.
+Ik werk vandaag thuis.: أعمل من المنزل اليوم.
+De vergadering begint om tien uur.: يبدأ الاجتماع في الساعة العاشرة.
+Ik ben bijna klaar.: أنا على وشك الانتهاء.
+Dat regel ik wel.: سأرتب ذلك.
+Kunt u dit controleren?: هل يمكنك التحقق من هذا؟
+De trein heeft vertraging.: القطار متأخر.
+Van welk perron vertrekt de trein?: من أي رصيف يغادر القطار؟
+Hoe laat komt de bus?: في أي وقت تأتي الحافلة؟
+Moet ik hier inchecken?: هل يجب علي تسجيل الوصول هنا؟
+Mag ik hier zitten?: هل يمكنني الجلوس هنا؟
+Kunt u mij waarschuwen?: هل يمكنك تنبيهي؟
+Het is aan de linkerkant.: إنه على الجانب الأيسر.
+Ga rechtdoor bij het stoplicht.: امضِ مستقيمًا عند إشارة المرور.
+Ik ben hier niet bekend.: أنا لست من هنا.
+Ik ben de sleutel vergeten.: لقد نسيت المفتاح.
+Ik heb me buitengesloten.: لقد أغلقت الباب وبقيت خارج المنزل.
+De verwarming werkt niet.: التدفئة لا تعمل.
+Er is geen warm water.: لا يوجد ماء ساخن.
+Ik ga boodschappen doen.: سأذهب لشراء البقالة.
+We hebben geen melk meer.: لم يعد لدينا حليب.
+Kun je melk meenemen?: هل يمكنك إحضار حليب؟
+Ik heb er geen zin in.: لست في مزاج لذلك.
+Het gaat wel.: أنا بخير، نوعًا ما.
+Dat is niet erg.: لا بأس.
+Laat het me weten.: أخبرني بذلك.
+Hoe is het met je?: كيف حالك؟
+Tot de volgende keer.: إلى اللقاء في المرة القادمة.
+Wat kan ik voor u doen?: كيف يمكنني مساعدتك؟
+Waar kan ik een kaartje kopen?: أين يمكنني شراء تذكرة؟
+Gaat deze bus naar het station?: هل هذا الباص متجه إلى المحطة؟
+Hoe lang moet ik wachten?: كم يجب أن أنتظر؟
+Is deze stoel vrij?: هل هذا المقعد فارغ؟
+Waar is de paskamer?: أين غرفة القياس؟
+Hoeveel kosten deze appels?: كم سعر هذه التفاحات؟
+Kun je het inpakken?: هل يمكنك تغليفه؟
+Hebt u een andere kleur?: هل لديك لون آخر؟
+Mag ik een glas water?: هل يمكنني الحصول على كوب ماء؟
+Waar doet het pijn?: أين تشعر بالألم؟
+Hoe vaak moet ik dit innemen?: كم مرة عليّ تناول هذا الدواء؟
+Ik ben allergisch voor penicilline.: لدي حساسية من البنسلين.
+Waar is de wachtkamer?: أين غرفة الانتظار؟
+Ik kom voor mijn uitslag.: جئت لمعرفة نتائج فحوصاتي.
+Ik zit in een vergadering.: أنا في اجتماع.
+Kunnen we morgen praten?: هل يمكننا التحدث غدًا؟
+Wanneer is de pauze?: متى الاستراحة؟
+Waar is de printer?: أين الطابعة؟
+Mijn computer is kapot.: حاسوبي معطل.
+Ik ben morgen niet op kantoor.: لن أكون في المكتب غدًا.
+Ik heb de e-mail ontvangen.: لقد استلمت البريد الإلكتروني.
+Ik heb een vraag over mijn rooster.: لدي سؤال بخصوص جدول عملي.
+Kun je de tafel dekken?: هل يمكنك تجهيز المائدة؟
+Kun je het raam openen?: هل يمكنك فتح النافذة؟
+De sleutel past niet.: المفتاح لا يناسب القفل.
+Het water is te warm.: الماء دافئ أكثر من اللازم.
+Kun je de vuilnis buiten zetten?: هل يمكنك إخراج القمامة؟
+Het licht is kapot.: الإضاءة لا تعمل.
+De wasmachine is klaar.: انتهى عمل الغسالة.
+We hebben geen brood meer.: لم يعد لدينا خبز.
+De buurman maakt veel lawaai.: الجار يُحدث ضجيجًا كثيرًا.
+Kun je de verwarming hoger zetten?: هل يمكنك رفع التدفئة؟
+Dat vind ik leuk.: هذا يعجبني.
+Ik maak me zorgen.: أنا قلق.
+Dat is vervelend.: هذا مزعج.
+Wat goed van je!: أحسنت!
+Wat leuk voor je!: كم هذا رائع من أجلك!
+Ik ben trots op je.: أنا فخور بك.
+Het komt wel goed.: سيكون كل شيء على ما يرام.
+Ik heb er zin in.: أنا متحمس لهذا.
+Ik verveel me.: أشعر بالملل.
+Dat maakt me boos.: هذا يغضبني.
+Ik voel me verdrietig.: أشعر بالحزن.
+Ik ben bang dat ik te laat kom.: أخشى أني سأتأخر.
+Wat is er gebeurd?: ماذا حدث؟
+Wat moet ik doen?: ماذا يجب أن أفعل؟
+Heb je hulp nodig?: هل تحتاج إلى مساعدة؟
+Hoe gaat het ermee?: كيف حالك؟
+Hoe was je weekend?: كيف كانت عطلة نهاية أسبوعك؟
+Fijn dat je er bent.: يسعدني أنك هنا.
+Kun je me een bericht sturen?: هل يمكنك أن ترسل لي رسالة؟
+Kun je me vanavond bellen?: هل يمكنك الاتصال بي هذا المساء؟
+Ik hoor het graag van je.: أود أن أسمع منك.
+Kun je me een seintje geven?: هل يمكنك تنبيهي؟
+Waar staat de melk?: أين أجد الحليب؟
+Kan ik dit retourneren?: هل يمكنني إرجاع هذا؟
+Mag ik met de kaart betalen?: هل يمكنني الدفع بالبطاقة؟
+Heeft u deze in maat M?: هل لديك هذا بمقاس M؟
+Waar moet ik betalen?: أين يجب أن أدفع؟
+Doet u dat in een zakje?: هل تضعونه في كيس؟
+Kan ik dit laten bezorgen?: هل يمكنني طلب توصيل هذا؟
+Ik ben even niet beschikbaar.: لست متاحًا الآن.
+Kun je de vergadering verzetten?: هل يمكن إعادة جدولة الاجتماع؟
+Ik stuur je de bestanden.: سأرسل لك الملفات.
+De deadline is volgende week.: الموعد النهائي الأسبوع القادم.
+Ik neem een dag vrij.: سآخذ يوم إجازة.
+Mijn rooster is veranderd.: تغيّر جدول دوامي.
+Kunnen we even overleggen?: هل يمكننا مناقشة الأمر قليلًا؟
+Ik heb een vraag over mijn salaris.: لدي سؤال عن راتبي.
+Wanneer is de volgende vergadering?: متى الاجتماع القادم؟
+Ik voel me al dagen niet goed.: أشعر بتوعك منذ عدة أيام.
+Ik ben gisteren gevallen.: سقطت أمس.
+Ik heb een afspraak bij de dokter.: لدي موعد مع الطبيب.
+Ik ben allergisch voor noten.: لدي حساسية من المكسرات.
+Het doet pijn als ik loop.: يؤلمني عندما أمشي.
+Ik heb een pleister nodig.: أحتاج إلى لاصقة جروح.
+Welk perron moet ik hebben?: أي رصيف يجب أن أتوجه إليه؟
+Is dit de trein naar Rotterdam?: هل هذا القطار المتجه إلى روتردام؟
+Hoe laat gaat de volgende bus?: في أي ساعة تنطلق الحافلة التالية؟
+Ik wil graag een kaartje kopen.: أود شراء تذكرة.
+Kan ik hier instappen?: هل يمكنني الركوب من هنا؟
+De bus is net weg.: لقد غادرت الحافلة للتو.
+Hoe lang duurt het nog?: كم بقي من الوقت؟
+Ik moet de tram nog halen.: لا يزال عليّ اللحاق بالترام.
+De kraan lekt.: الحنفية تسرّب الماء.
+Het toilet is verstopt.: المرحاض مسدود.
+De stroom is uitgevallen.: انقطعت الكهرباء.
+Kun je de deur opendoen?: هل يمكنك فتح الباب؟
+Kun je het raam dichtdoen?: هل يمكنك إغلاق النافذة؟
+Mijn telefoon is bijna leeg.: بطارية هاتفي على وشك النفاد.
+Waar is de oplader?: أين الشاحن؟
+Ik ben een beetje gestrest.: أشعر ببعض التوتر.
+Ik ben het ermee eens.: أوافق على ذلك.
+Ik ben het niet met je eens.: لا أوافقك الرأي.
+Ik maak me zorgen om je.: أنا قلق عليك.
+Ik ben bang voor honden.: أخاف من الكلاب.
+Ik voel me eenzaam.: أشعر بالوحدة.
+Ik wil graag iets vragen.: أود أن أسأل عن شيء.
+Kunt u mij helpen met dit formulier?: هل يمكنك مساعدتي في تعبئة هذا النموذج؟
+Kan ik vandaag nog terecht?: هل يمكنني الحضور اليوم؟
+Waar kan ik dit inleveren?: أين يمكنني تسليم هذا؟
+Bedankt voor je hulp.: شكرًا على مساعدتك.
+Dat klinkt goed.: يبدو ذلك جيدًا.
+Kunt u dit voor mij printen?: هل يمكنك طباعة هذا لي؟
+Ik ben op zoek naar een cadeau.: أبحث عن هدية.
+Hebt u ook iets goedkopers?: هل لديك شيء أرخص؟
+Kan ik dit morgen ophalen?: هل يمكنني استلام هذا غدًا؟
+Wanneer wordt het bezorgd?: متى سيتم توصيله؟
+Ik heb de verkeerde maat gekregen.: لقد استلمت المقاس الخطأ.
+Kan ik dit online bestellen?: هل يمكنني طلب هذا عبر الإنترنت؟
+Waar kan ik de auto parkeren?: أين يمكنني ركن السيارة؟
+Hoeveel haltes moet ik nog?: كم عدد المحطات المتبقية؟
+Ik heb mijn trein gemist.: لقد فاتني قطاري.
+Is dit een directe trein?: هل هذا قطار مباشر؟
+Waar kan ik mijn kaart opladen?: أين يمكنني شحن بطاقتي؟
+Ik ben op het verkeerde perron.: أنا على الرصيف الخطأ.
+Kan ik mijn ticket annuleren?: هل يمكنني إلغاء تذكرتي؟
+Mijn afspraak is om half drie.: موعدي في الثانية والنصف.
+Kan ik zonder afspraak komen?: هل يمكنني المجيء بدون موعد؟
+Wanneer kan ik langskomen?: متى يمكنني الحضور؟
+Ik heb geen afspraak.: ليس لدي موعد.
+Moet ik nog iets betalen?: هل ما زال عليّ دفع شيء؟
+Heb ik alles ingevuld?: هل ملأت كل شيء؟
+Wat is uw achternaam?: ما اسم عائلتك؟
+Ik ben het wachtwoord vergeten.: لقد نسيت كلمة المرور.
+Kunt u mij het wachtwoord geven?: هل يمكنك إعطائي كلمة المرور؟
+De printer doet het niet.: الطابعة لا تعمل.
+Ik heb de bijlage niet ontvangen.: لم أستلم المرفق.
+Ik stuur je de uitnodiging.: سأرسل لك الدعوة.
+Kan ik morgen thuiswerken?: هل يمكنني العمل من المنزل غدًا؟
+Ik ben na de lunch terug.: سأعود بعد الغداء.
+Ik kom er niet uit.: لا أستطيع فهم ذلك.
+Kun je me laten zien hoe het werkt?: هل يمكنك أن تريني كيف يعمل؟
+Wat moet ik invullen?: ماذا يجب أن أملأ؟
+Waar kan ik mijn jas ophangen?: أين يمكنني تعليق معطفي؟
+Mag ik mijn telefoon opladen?: هل يمكنني شحن هاتفي؟
+De wifi doet het niet.: الواي فاي لا يعمل.
+Kun je het geluid zachter zetten?: هل يمكنك تخفيف الصوت؟
+Kun je het licht uitdoen?: هل يمكنك إطفاء الضوء؟
+Wil je de afwas doen?: هل يمكنك غسل الأطباق؟
+De afvoer is verstopt.: المصرف مسدود.
+Ik ruik gas.: أشم رائحة غاز.
+Het raam wil niet dicht.: لا يمكن إغلاق النافذة.
+Dat lijkt me een goed idee.: تبدو لي فكرة جيدة.
+Ik begrijp wat je bedoelt.: أفهم ما تعنيه.
+Het maakt me niet uit.: لا يهمني.
+Goed om je te zien.: من الجيد رؤيتك.
+Tot zo.: أراك بعد قليل.
+Gaat het wel?: هل أنت بخير؟
+Hoe voel je je?: كيف تشعر؟
+Ik heb hulp nodig.: أحتاج إلى المساعدة.
+Ik heb geen idee.: ليس لدي أي فكرة.
+Ik ben het vergeten.: لقد نسيت ذلك.
+Dat is lief van je.: هذا لطف منك.
+Het is druk vandaag.: اليوم مزدحم.
+Ik wil graag afrekenen.: أود الدفع، من فضلك.
+Ik heb een klacht.: لدي شكوى.
+Waar kan ik een klacht indienen?: أين يمكنني تقديم شكوى؟
+Kan ik de afspraak verzetten?: هل يمكنني تغيير الموعد؟
+Ik ben verhinderd.: لا أستطيع الحضور.
+Ik bel over de afspraak.: أتصل بخصوص الموعد.
+Kunt u mij doorverbinden?: هل يمكنكم تحويلي؟
+Mag ik dit passen?: هل يمكنني تجربة هذا؟
+Hoe staat het mij?: كيف يبدو عليّ؟
+Ik neem het niet.: لن آخذه.
+De rekening klopt niet.: الفاتورة غير صحيحة.
+Ik heb te veel betaald.: لقد دفعت أكثر من اللازم.
+Kunt u het bedrag controleren?: هل يمكنكم التحقق من المبلغ؟
+Ik wil graag een terugbetaling.: أود استرداد المبلغ.
+Kan ik apart betalen?: هل يمكننا الدفع بشكل منفصل؟
+Ik heb een droge hoest.: لدي سعال جاف.
+Ik heb pijn op mijn borst.: أشعر بألم في صدري.
+Ik ben kortademig.: أعاني من ضيق في التنفس.
+Ik moet overgeven.: أحتاج إلى التقيؤ.
+Ik heb diarree.: لدي إسهال.
+Ik heb een verstopte neus.: أنفي مسدود.
+Ik ben zwanger.: أنا حامل.
+Moet ik dit met eten innemen?: هل يجب أن أتناوله مع الطعام؟
+Kunt u iets harder praten?: هل يمكنك التحدث بصوت أعلى قليلاً؟
+Hoe schrijf je dat?: كيف تُهجّى ذلك؟
+Waar is de nooduitgang?: أين مخرج الطوارئ؟
+Waar is de roltrap?: أين السلم الكهربائي؟
+Mag ik hier parkeren?: هل يمكنني ركن السيارة هنا؟
+Hoeveel kost het parkeren?: كم تكلفة ركن السيارة؟
+De band is lek.: الإطار مثقوب.
+Ik heb pech.: سيارتي معطلة.
+Waar kan ik tanken?: أين يمكنني التزود بالوقود؟
+Ik kom later terug.: سأعود لاحقاً.
+Ik spreek je later.: سأتحدث معك لاحقاً.
+Ik hoor het wel.: سأعرف لاحقاً.
+Dat is fijn om te horen.: من الجيد سماع ذلك.
+Sterkte ermee.: الله يعينك.
+Goede reis.: رحلة سعيدة.
+Wel thuis.: توصل بالسلامة.
+Ik heb trek.: أنا جائع.
+Het smaakt heerlijk.: طعمه لذيذ.
+Mag ik het recept?: هل يمكنني الحصول على الوصفة؟
+Fijn je te spreken.: سعيد بالتحدث معك.
+Bedankt voor het wachten.: شكراً على الانتظار.
+Sorry voor het ongemak.: أعتذر عن الإزعاج.
+Mag ik me even voorstellen?: هل يمكنني أن أقدم نفسي؟
+Kunt u mij laten weten of het lukt?: هل يمكنكم إبلاغي إذا كان ذلك ممكناً؟
+Kunnen we een andere tijd afspreken?: هل يمكننا الاتفاق على وقت آخر؟
+Hoe werkt deze automaat?: كيف تعمل هذه الآلة؟
+Ik wil graag twee van deze.: أود اثنين من هذه.
+Kunt u mijn bestelling controleren?: هل يمكنكم التحقق من طلبي؟
+Ik heb mijn bestelling nog niet ontvangen.: لم أستلم طلبي بعد.
+Ik heb de verkeerde bestelling gekregen.: لقد استلمت الطلب الخطأ.
+Kunt u het naar mijn adres sturen?: هل يمكنكم إرساله إلى عنواني؟
+Ik heb een vraag over de betaling.: لدي سؤال بخصوص الدفع.
+Kunt u het bedrag terugstorten?: هل يمكنكم إعادة المبلغ؟
+Ik kan de deadline niet halen.: لا أستطيع الالتزام بالموعد النهائي.
+Kun je de vergadering in mijn agenda zetten?: هل يمكنك إضافة الاجتماع إلى تقويمي؟
+Kunt u mij de notulen sturen?: هل يمكنكم إرسال محضر الاجتماع إلي؟
+Kun je me de link sturen?: هل يمكنك إرسال الرابط إلي؟
+Ik heb de e-mail nog niet gelezen.: لم أقرأ البريد الإلكتروني بعد.
+Ik heb een vraag over het project.: لدي سؤال حول المشروع.
+Wil je dit document voor me nakijken?: هل يمكنك مراجعة هذا المستند لي؟
+Ik ben tot drie uur in een vergadering.: سأكون في اجتماع حتى الساعة الثالثة.
+Kun je me na de vergadering bellen?: اتصل بي بعد الاجتماع.
+Ik heb geen toegang tot het systeem.: ليس لدي صلاحية الوصول إلى النظام.
+Mijn computer start niet op.: حاسوبي لا يشتغل.
+Kun je mijn wachtwoord resetten?: هل يمكنك إعادة تعيين كلمة المرور الخاصة بي؟
+Ik voel me een paar dagen niet goed.: لا أشعر أنني بخير منذ بضعة أيام.
+Ik heb moeite met ademen.: أجد صعوبة في التنفس.
+Kunt u mij iets voorschrijven?: هل يمكنكم أن تصفوا لي شيئاً؟
+Moet ik een vervolgafspraak maken?: هل يجب أن أحجز موعداً للمتابعة؟
+Ik heb pijn in mijn oor.: عندي ألم في أذني.
+Ik slik medicijnen voor mijn bloeddruk.: أتناول أدوية لضغط الدم.
+Ik heb een allergische reactie.: عندي رد فعل تحسسي.
+Waar kan ik mijn bloed laten prikken?: أين يمكنني إجراء تحليل دم؟
+Ik moet een afspraak voor de tandarts maken.: عليّ حجز موعد عند طبيب الأسنان.
+Is er een rechtstreekse verbinding?: هل هناك خط مباشر؟
+Hoe vaak rijdt deze bus?: كم مرة تمر هذه الحافلة؟
+Ik moet de laatste trein halen.: عليّ أن ألحق بآخر قطار.
+De trein is net vertrokken.: القطار غادر للتو.
+Waar kan ik mijn OV-chipkaart opladen?: أين يمكنني شحن بطاقة المواصلات؟
+Kunt u mij een taxi bellen?: هل يمكنك طلب سيارة أجرة لي؟
+De cv-ketel maakt een raar geluid.: السخان يصدر صوتًا غريبًا.
+Het water stroomt niet weg.: الماء لا ينصرف.
+Kun je de afwasmachine leeghalen?: هل يمكنك تفريغ غسالة الأطباق؟
+De deur klemt een beetje.: الباب يعلق قليلاً.
+Er is iets mis met de waterleiding.: هناك خلل في أنابيب المياه.
+Dat verbaast me niets.: لا يفاجئني ذلك.
+Dat stelt me gerust.: هذا يطمئنني.
+Ik baal hier enorm van.: أنا منزعج جدًا من هذا.
+Ik ben erg teleurgesteld.: أشعر بخيبة أمل كبيرة.
+Hoe kan ik u bereiken?: كيف يمكنني الوصول إليك؟
+Ik stuur het je vandaag nog.: سأرسله لك اليوم.
+Kun je dat even voor mij checken?: هل يمكنك التحقق من ذلك لي؟
+Ik ben tot vijf uur bereikbaar.: أنا متاح حتى الساعة الخامسة.
+Kunnen we dat later bespreken?: هل يمكننا مناقشة ذلك لاحقًا؟
+Ik heb nog een paar vragen.: لدي بضعة أسئلة أخرى.
+Zou u dat nog eens willen zeggen?: هل يمكنك قول ذلك مرة أخرى؟
+Ik ben er niet zeker van.: لست متأكدًا من ذلك.
+Wat raadt u mij aan?: بماذا تنصحني؟
+Heeft u misschien een momentje?: هل لديك لحظة؟
+Ik kom er zo snel mogelijk aan.: سأصل في أقرب وقت ممكن.
+Laat mij weten wat u beslist.: أخبرني بما تقرره.
+Heeft u dit ook in een grotere maat?: هل لديكم هذا بمقاس أكبر؟
+Waar kan ik dit passen?: أين يمكنني تجربة هذا؟
+Ik wil graag deze retourneren.: أود إرجاع هذا.
+Kan ik dit later ophalen?: هل يمكنني استلام هذا لاحقًا؟
+Is het mogelijk om te bezorgen?: هل التوصيل متاح؟
+Hoe lang is de garantie?: كم مدة الضمان؟
+Ik wil graag contant betalen.: أود الدفع نقدًا.
+Ik zoek iets voor onder de tien euro.: أبحث عن شيء أقل من عشرة يورو.
+Heeft u iets zonder suiker?: هل لديك شيء بدون سكر؟
+Moet ik hier overstappen?: هل يجب أن أغيّر هنا؟
+Is deze trein op tijd?: هل هذا القطار في الموعد؟
+Hoe lang doet de trein erover?: كم يستغرق القطار؟
+Waar moet ik overstappen?: أين عليّ التغيير؟
+Kan ik deze kaart ook gebruiken?: هل يمكنني استخدام هذه البطاقة أيضًا؟
+Ik moet mijn aansluiting halen.: عليّ أن ألحق بالرحلة التالية.
+De trein rijdt vandaag niet.: القطار لا يسير اليوم.
+Hoe laat moet ik vertrekken?: متى يجب أن أغادر؟
+Ik voel me sinds gisteren niet goed.: أشعر بتوعك منذ أمس.
+Moet ik hiervoor een verwijzing hebben?: هل أحتاج إلى إحالة لهذا؟
+Kunt u mij doorverwijzen naar een specialist?: هل يمكنك تحويلي إلى طبيب مختص؟
+Hoe lang moet ik deze medicijnen slikken?: كم من الوقت يجب أن أتناول هذا الدواء؟
+Wat zijn de bijwerkingen?: ما هي الآثار الجانبية؟
+Kunt u mij een recept geven?: هل يمكنك إعطائي وصفة طبية؟
+Kun je de verwarming lager zetten?: هل يمكنك خفض التدفئة؟
+De lamp doet het niet meer.: المصباح لم يعد يعمل.
+Er is iets mis met de verwarming.: هناك خلل في التدفئة.
+Ik moet nog boodschappen doen.: ما زال عليّ شراء البقالة.
+Kun je de afwas even doen?: هل يمكنك غسل الأطباق؟
+Het is hier erg warm.: الجو حار جدًا هنا.
+Dat is heel aardig van u.: هذا لطف كبير منك.
+Ik ben er echt blij mee.: أنا سعيد جدًا به.
+Het spijt me, dat was mijn fout.: أعتذر، كان ذلك خطئي.
+Dat had ik niet verwacht.: لم أكن أتوقع ذلك.
+Dat is precies wat ik bedoel.: هذا بالضبط ما أعنيه.
+Maak je niet druk.: لا تقلق.
+Ik voel me een stuk beter.: أشعر بتحسن كبير.
+Ik ben helemaal uitgeput.: أنا منهك تمامًا.
+Ik ben het zat.: لقد سئمت.
+Zou u mij kunnen helpen?: هل يمكنك مساعدتي؟
+Wat bedoelt u precies?: ماذا تقصد بالضبط؟
+Heb ik het goed begrepen?: هل فهمت بشكل صحيح؟
+Laat maar zitten, hoor.: لا يهم، اترك الأمر.
+Het valt wel mee.: الأمر ليس بهذا السوء.
+Ik doe mijn best.: أبذل قصارى جهدي.
+Kunt u dat voor mij regelen?: هل يمكنك ترتيب ذلك لي؟
+Ik ben nieuw hier.: أنا جديد هنا.
+Kan ik met een creditcard betalen?: هل يمكنني الدفع ببطاقة الائتمان؟
+Hoeveel kost het per kilo?: كم سعر الكيلوغرام؟
+Wilt u een bonnetje?: هل ترغب في إيصال؟
+Ik neem er twee, graag.: سآخذ اثنين، من فضلك.
+Mag ik een tasje, alstublieft?: هل يمكنني الحصول على كيس، من فضلك؟
+Ik zoek iets in het zwart.: أبحث عن شيء باللون الأسود.
+Waar kan ik mijn fiets parkeren?: أين يمكنني ركن دراجتي؟
+Is dit de goede bus?: هل هذه الحافلة الصحيحة؟
+Stopt deze bus bij het ziekenhuis?: هل تتوقف هذه الحافلة عند المستشفى؟
+Hoeveel kost een dagkaart?: كم سعر تذكرة يومية؟
+De bus komt over vijf minuten.: ستصل الحافلة بعد خمس دقائق.
+Ik heb mijn aansluiting gemist.: فاتني الربط.
+Ik heb een vraag over de planning.: لدي سؤال حول التخطيط.
+De vergadering is verplaatst.: تم تغيير موعد الاجتماع.
+Ik ben met verlof.: أنا في إجازة.
+Ik werk vandaag tot vijf uur.: أعمل اليوم حتى الخامسة.
+Kun je de presentatie delen?: هل يمكنك مشاركة العرض التقديمي؟
+Ik heb de opdracht afgerond.: لقد أنجزت المهمة.
+Ik ben er bijna.: أنا على وشك الوصول.
+Het is me gelukt.: تمكنت من ذلك.
+Kun je me een plezier doen?: هل يمكنك أن تسدي لي خدمة؟
+Het raam is kapot.: النافذة مكسورة.
+De verwarming staat te hoog.: التدفئة عالية جداً.
+De stofzuiger doet het niet.: المكنسة الكهربائية لا تعمل.
+De bel doet het niet.: الجرس لا يعمل.
+De was is nog nat.: الغسيل ما زال مبللاً.
+Ik moet nog stofzuigen.: ما زال عليّ أن أنظف بالمكنسة الكهربائية.
+Ik heb pijnstillers nodig.: أحتاج مسكنات الألم.
+Ik heb een ontsteking.: لدي التهاب.
+Ik heb moeite met slikken.: أجد صعوبة في البلع.
+Ik ben flauwgevallen.: لقد أُغمي عليّ.
+Het jeukt erg.: يسبب حكة شديدة.
+Moet ik de kuur afmaken?: هل يجب أن أكمل العلاج؟
+Ik ben opgelucht.: أشعر بالارتياح.
+Ik voel me schuldig.: أشعر بالذنب.
+Daar word ik onzeker van.: هذا يجعلني غير واثق من نفسي.
+Dat doet me verdriet.: هذا يحزنني.
+Ik waardeer dat echt.: أنا أقدر ذلك حقاً.
+Het was gezellig.: كان ذلك ممتعاً ولطيفاً.
+Bedankt voor de uitnodiging.: شكراً على الدعوة.
+Alles goed met je?: هل كل شيء بخير معك؟
+Ik ben blij met uw hulp.: أنا سعيد بمساعدتك.

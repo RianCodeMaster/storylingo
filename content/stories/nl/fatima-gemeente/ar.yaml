@@ -1,0 +1,133 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: فاطمة تريد جواز سفر جديدًا، لكن قطتها السمينة بلويس تأكل الرقم المهم، ثم تُخرجه بتجشؤ في البلدية.
+summary_source: 8a15e78c0c91ed65
+gestures:
+  want: اِحضن كعكة خيالية كبيرة إلى صدرك، وانحنِ للأمام بعينين جائعتين ووافق برأسك بقوة، كأنك تريدها حقًا.
+  cannot: هُزّ يديك المفتوحتين أمام صدرك بحركات سريعة «لا لا لا»، وانفخ خديك، ثم أسقط ذراعيك كأنهما كيسان ثقيلان.
+  have: أخرج ذراعيك كأنك تحمل صندوقًا خياليًا ضخمًا، ثم ربّت على صدرك بفخر وابتسم.
+targets:
+  wil:
+    gloss: يريد
+    note: فعل شاذ، ويأتي بعد الفاعل مثل العربية غالبًا.
+  kan niet:
+    gloss: لا يستطيع
+    note: النفي في الهولندية بعد الفعل، وفي العربية قبل الفعل.
+  heeft:
+    gloss: لديه
+    note: للملكية في العربية «لدى/عند»، وفي الهولندية فعل مستقل.
+scenes:
+- key: s1
+  source: 50ab9cf754f4ea34
+  translation: فاطمة تريد جواز سفر جديدًا. تريد الذهاب إلى البلدية. لكنها تحتاج رقمًا. لدى فاطمة ورقة صغيرة عليها رقم.
+  glosses:
+    wil: تريد
+    nieuw: جديدًا
+    paspoort: جواز سفر
+    Ze: هي
+    naar: إلى
+    gemeente: البلدية
+    Maar: لكن
+    heeft: لديها
+    nummer: رقمًا
+    nodig: محتاجة إليه
+    klein: صغيرة
+    papiertje: ورقة صغيرة
+    met: عليها
+- key: s2
+  source: bb048f41f040a7f2
+  translation: تبحث فاطمة في حقيبتها. لديها حقيبة كبيرة ومعطف صغير. لا تستطيع فاطمة الذهاب إلى البلدية. لا تستطيع بدون رقم.
+  glosses:
+    zoekt: تبحث
+    in: في
+    haar: الخاصة بها
+    tas: حقيبة
+    Ze: هي
+    heeft: لديها
+    grote: كبيرة
+    en: و
+    kleine: صغيرة
+    jas: معطف
+    kan: تستطيع
+    niet: لا
+    naar: إلى
+    gemeente: البلدية
+    zonder: بدون
+    nummer: رقم
+- key: s3
+  source: 780a566e83c0d018
+  translation: القطة بلويس تجلس على الطاولة. في فم بلويس ورقة صغيرة. تريد فاطمة الورقة، لكن بلويس لا يريد إعطاءها. لا تستطيع
+    فاطمة أخذها.
+  glosses:
+    kat: القطة
+    zit: تجلس
+    op: على
+    tafel: الطاولة
+    heeft: لديها
+    papiertje: ورقة صغيرة
+    in: في
+    zijn: خاصته
+    bek: فم
+    wil: يريد/تريد
+    maar: لكن
+    het: إياه
+    niet: لا
+    geven: يعطي
+    kan: تستطيع
+    pakken: تأخذ
+- key: s4
+  source: 9e873867121471ff
+  translation: تأكل بلويس الورقة تمامًا. فاطمة غاضبة جدًا. تريد أن تبكي. ليس لديها الآن رقم، ولا تستطيع الذهاب إلى البلدية.
+  glosses:
+    eet: تأكل
+    papiertje: الورقة الصغيرة
+    op: تمامًا
+    is: تكون
+    heel: جدًا
+    boos: غاضبة
+    Ze: هي
+    wil: تريد
+    huilen: تبكي
+    heeft: لديها
+    nu: الآن
+    geen: لا
+    nummer: رقم
+    en: و
+    kan: تستطيع
+    niet: لا
+    naar: إلى
+    gemeente: البلدية
+- key: s5
+  source: d6d1c2c75cfceaf6
+  translation: 'تذهب فاطمة مع بلويس إلى البلدية رغم ذلك. تقول السيدة: «لديك قطة؟» ثم تتجشأ بلويس، وها هو الرقم: 1000! تضحك
+    السيدة، وتريد فاطمة أن تعطي بلويس ألف سمكة.'
+  glosses:
+    gaat: تذهب
+    toch: رغم ذلك
+    naar: إلى
+    gemeente: البلدية
+    met: مع
+    mevrouw: السيدة
+    zegt: تقول
+    U: أنت (رسمي)
+    heeft: لديك
+    kat: قطة
+    Dan: ثم
+    doet: تُصدر
+    boer: تجشؤ
+    en: و
+    daar: هناك
+    is: هو
+    nummer: الرقم
+    lacht: تضحك
+    wil: تريد
+    vissen: أسماكًا
+    geven: تعطي
+words:
+  het paspoort: جواز السفر
+  de gemeente: البلدية
+  het nummer: الرقم
+  het papiertje: الورقة الصغيرة
+  de kat: القطة
+  de vis: السمكة

@@ -1,0 +1,11 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+slug: fiets-regen
+language: nl
+level: A2
+tags: [algemeen, dagelijks]
+theme: Yusuf kon niet fietsen, maar in Nederland doet iedereen alles op de fiets; opeens moet hij met een taart en een kast door de regen fietsen omdat de bus staakt
+scenes: 5
+targets:
+  - {text: kon niet, gloss: could not, concept: cannot, kind: phrase}
+  - {text: omdat, gloss: because, concept: because}
+  - {text: opeens, gloss: suddenly, concept: suddenly}

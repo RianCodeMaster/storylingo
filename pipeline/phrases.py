@@ -105,6 +105,9 @@ def tidy(language: str, phrase: Phrase) -> Phrase:
     return Phrase(text=text, hint=phrase.hint)
 
 
+# Which variety a learner meets: the one of the editions that teach the language.
+VARIANTS = {"es": " (as spoken in Spain)", "nl": " (as spoken in the Netherlands)"}
+
 GENERATE = """You are an experienced teacher of {language} for adults. List the most useful chunks a learner at CEFR
 {level} needs in daily life: short phrases and fixed expressions people really say (greetings, requests, reactions,
 questions, everyday situations: shops, work, doctor, offices, transport, home, feelings), not single words.
@@ -128,7 +131,7 @@ def generate(language: str, level: str, count: int = PER_LEVEL) -> int:
             messages=[
                 {"role": "system", "content": GENERATE.format(
                     language=english(language), level=level,
-                    variant=" (as spoken in Spain)" if language == "es" else "")},
+                    variant=VARIANTS.get(language, ""))},
                 {"role": "user", "content": json.dumps(
                     {"how_many": want, "known": sorted(known)}, ensure_ascii=False)},
             ],

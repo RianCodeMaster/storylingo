@@ -5,12 +5,68 @@
 #
 # script:        latin or arabic; another script (e.g. cyrillic) also needs a font in web/app/[lang]/layout.tsx.
 # plural_forms:  the forms Intl.PluralRules gives for this language (CLDR); check makes sure the dictionary has them.
+#
+# Dutch is also a language you can LEARN (target, the /hollanda edition): teacher, recognition and voice below.
+# See de.yaml for what those fields mean.
 
 code: nl
 name: Nederlands
 english: Dutch
-roles: [base]
+roles: [base, target]
 direction: ltr
 script: latin
 speech_tag: nl-NL
 plural_forms: [one, other]
+
+teacher:
+  # A mix of plain and playful, all in easy words: heard after every answer, so learners pick them up as phrases.
+  yes:
+    - {text: "Ja! Precies!"}
+    - {text: "Goed zo! Heel goed!"}
+    - {text: "Ja, natuurlijk!"}
+    - {text: "Klopt! Super!"}
+    - {text: "Bravo! Jij bent een genie!"}
+    - {text: "Ja, ja, ja! Fantastisch!"}
+    - {text: "Perfect! Ga zo door!"}
+    - {text: "Ja hoor! Dat weet je al!"}
+    - {text: "Wauw, wat ben jij snel!"}
+  no:
+    - {text: "Nee, nee, nee!"}
+    - {text: "O nee! Dat is fout."}
+    - {text: "Helaas niet."}
+    - {text: "Nee! Wat een ramp!"}
+    - {text: "Hmm, niet helemaal."}
+    - {text: "Fout! Maar goed geprobeerd."}
+    - {text: "O jee! Dat klopt niet."}
+    - {text: "Nee, natuurlijk niet!"}
+  next: Verder
+  done: Klaar!
+
+recognition:
+  twee: "2"
+  drie: "3"
+  vier: "4"
+  vijf: "5"
+  zes: "6"
+  zeven: "7"
+  acht: "8"
+  negen: "9"
+  tien: "10"
+  elf: "11"
+  twaalf: "12"
+  twintig: "20"
+  honderd: "100"
+  duizend: "1000"
+  neen: nee
+  jawel: ja
+  jazeker: ja
+
+voice:
+  provider: piper
+  pause: 0.5
+  question: neutral
+  word: neutral
+  settings: {length_scale: 1.1, noise_w_scale: 0.9}
+  styles:
+    # Pim: Dutch from the Netherlands, flat (no emotions). Later ElevenLabs.
+    neutral: {model: nl_NL-pim-medium}

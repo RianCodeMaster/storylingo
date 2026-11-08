@@ -1,0 +1,403 @@
+# Phrases for the phrases section, in learning order: the most useful first. Every edition with this target language
+# shows them. Edit freely (a changed text is a new phrase: it needs a meaning again, `localize-phrases` adds it),
+# then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
+- text: Goedemorgen, hoe gaat het?
+  hint: Good morning, how are you?
+- text: Hoi, alles goed?
+  hint: Hi, everything okay?
+- text: Goed, dank je. En met jou?
+  hint: Good thanks, and you?
+- text: Tot ziens, fijne dag.
+  hint: Goodbye, have a nice day.
+- text: Dank je wel, heel aardig.
+  hint: Thank you, very kind.
+- text: Graag gedaan, hoor.
+  hint: You're welcome.
+- text: Sorry, ik ben laat.
+  hint: Sorry I'm late.
+- text: Het spijt me.
+  hint: I'm sorry.
+- text: Geen probleem.
+  hint: No problem.
+- text: Excuseer, mag ik iets vragen?
+  hint: Excuse me, may I ask something?
+- text: Ik begrijp het niet.
+  hint: I don't understand.
+- text: Kunt u dat herhalen?
+  hint: Can you repeat that?
+- text: Kunt u langzamer praten?
+  hint: Can you speak more slowly?
+- text: Wat betekent dat?
+  hint: What does that mean?
+- text: Hoe zeg je dat in het Nederlands?
+  hint: How do you say that in Dutch?
+- text: Ik spreek een beetje Nederlands.
+  hint: I speak a little Dutch.
+- text: Kunt u me helpen?
+  hint: Can you help me?
+- text: Waar is het toilet?
+  hint: Where is the toilet?
+- text: Hoe laat is het?
+  hint: What time is it?
+- text: Hoeveel kost dit?
+  hint: How much does this cost?
+- text: Dat is te duur.
+  hint: That's too expensive.
+- text: Ik wil dit graag kopen.
+  hint: I'd like to buy this.
+- text: Kan ik met pin betalen?
+  hint: Can I pay by card?
+- text: Mag ik een bonnetje?
+  hint: May I have a receipt?
+- text: Ik neem deze.
+  hint: I'll take this one.
+- text: Waar is het station?
+  hint: Where is the station?
+- text: Hoe kom ik bij het centrum?
+  hint: How do I get to the center?
+- text: Een kaartje naar Amsterdam, alstublieft.
+  hint: A ticket to Amsterdam, please.
+- text: Wanneer gaat de volgende trein?
+  hint: When does the next train leave?
+- text: Moet ik overstappen?
+  hint: Do I need to transfer?
+- text: Ik ben de weg kwijt.
+  hint: I'm lost.
+- text: Ik heb een vraag.
+  hint: I have a question.
+- text: Kunt u dat uitleggen?
+  hint: Can you explain that?
+- text: Ik ben ziek vandaag.
+  hint: I'm sick today.
+- text: Ik kom iets later.
+  hint: I'll be a little late.
+- text: Ik voel me niet lekker.
+  hint: I don't feel well.
+- text: Ik heb hoofdpijn.
+  hint: I have a headache.
+- text: Ik heb een afspraak.
+  hint: I have an appointment.
+- text: Waar woon je?
+  hint: Where do you live?
+- text: Ik ben thuis.
+  hint: I'm at home.
+- text: Wil je koffie?
+  hint: Do you want coffee?
+- text: Doe de deur dicht, alsjeblieft.
+  hint: Close the door, please.
+- text: Ik ga naar bed.
+  hint: I'm going to bed.
+- text: Ik ben blij.
+  hint: I'm happy.
+- text: Wat jammer.
+  hint: What a shame.
+- text: Ik weet het niet.
+  hint: I don't know.
+- text: Dat is goed.
+  hint: That's good.
+- text: Maak je geen zorgen.
+  hint: Don't worry.
+- text: Ik ben moe.
+  hint: I'm tired.
+- text: Ik moet gaan.
+  hint: I have to go.
+- text: Ja, graag.
+  hint: yes please
+- text: Nee, dank u.
+  hint: no thank you
+- text: Tot morgen!
+  hint: see you tomorrow
+- text: Tot straks!
+  hint: see you later
+- text: Fijne avond!
+  hint: have a nice evening
+- text: Welterusten!
+  hint: good night
+- text: Dat klopt.
+  hint: that's right
+- text: Ik denk het wel.
+  hint: I think so
+- text: Ik denk het niet.
+  hint: I don't think so
+- text: Wat bedoel je?
+  hint: what do you mean
+- text: Wat zeg je?
+  hint: what did you say
+- text: Spreekt u Engels?
+  hint: do you speak English
+- text: Veel plezier!
+  hint: have fun
+- text: Eet smakelijk!
+  hint: enjoy your meal
+- text: Beterschap gewenst.
+  hint: get well soon
+- text: Mag ik een koffie, alstublieft?
+  hint: may I have a coffee please
+- text: Ik wil graag betalen.
+  hint: I'd like to pay
+- text: Waar is de kassa?
+  hint: where is the checkout
+- text: Heeft u een tasje?
+  hint: do you have a bag
+- text: Ik kijk even rond.
+  hint: I'm just looking
+- text: Dat is alles, dank u.
+  hint: that's all, thank you
+- text: Kan ik dit ruilen?
+  hint: can I exchange this
+- text: Hebt u dit in een andere maat?
+  hint: do you have another size
+- text: Waar kan ik pinnen?
+  hint: where can I pay by card
+- text: Hoeveel is dat samen?
+  hint: how much is that together
+- text: Kunt u dat opschrijven?
+  hint: can you write that down
+- text: Kunt u het spellen?
+  hint: can you spell it
+- text: Waar is de bushalte?
+  hint: where is the bus stop
+- text: Welke bus gaat naar het centrum?
+  hint: which bus goes to the centre
+- text: Hoe laat vertrekt de trein?
+  hint: what time does the train leave
+- text: Is dit de goede trein?
+  hint: is this the right train
+- text: Waar moet ik uitstappen?
+  hint: where should I get off
+- text: Een retourtje, alstublieft.
+  hint: a return ticket, please
+- text: Hoe lang duurt de reis?
+  hint: how long is the journey
+- text: Is het ver lopen?
+  hint: is it far on foot
+- text: Waar is de supermarkt?
+  hint: where is the supermarket
+- text: Ik ga naar huis.
+  hint: I'm going home
+- text: Ik kom zo.
+  hint: I'm coming soon
+- text: Ik zoek mijn sleutels.
+  hint: I'm looking for my keys
+- text: Het is koud hier.
+  hint: it's cold here
+- text: Ik wil een afspraak maken.
+  hint: I want to make an appointment
+- text: Kan ik vandaag komen?
+  hint: can I come today
+- text: Ik heb buikpijn.
+  hint: I have stomach ache
+- text: Ik heb keelpijn.
+  hint: I have a sore throat
+- text: Ik heb koorts.
+  hint: I have a fever
+- text: Ik ben allergisch voor pinda's.
+  hint: I'm allergic to peanuts
+- text: Waar is de apotheek?
+  hint: where is the pharmacy
+- text: Moet ik dit innemen?
+  hint: should I take this
+- text: Het doet hier pijn.
+  hint: it hurts here
+- text: Hebt u even tijd?
+  hint: do you have a moment
+- text: Kan ik u helpen?
+  hint: Can I help you?
+- text: Sorry, ik versta u niet.
+  hint: Sorry, I don't understand you
+- text: Een momentje, alstublieft.
+  hint: One moment, please
+- text: Spreekt u Nederlands?
+  hint: Do you speak Dutch?
+- text: Goedemiddag, mevrouw.
+  hint: Good afternoon, madam
+- text: Tot vanavond.
+  hint: See you this evening
+- text: Fijn weekend.
+  hint: Have a good weekend
+- text: Waarmee kan ik u helpen?
+  hint: What can I help you with?
+- text: Mag ik wat water, alstublieft?
+  hint: May I have some water, please?
+- text: De rekening, alstublieft.
+  hint: The bill, please
+- text: Waar kan ik dit vinden?
+  hint: Where can I find this?
+- text: Kan ik contant betalen?
+  hint: Can I pay in cash?
+- text: Waar is de tramhalte?
+  hint: Where is the tram stop?
+- text: Een enkeltje, alstublieft.
+  hint: A one-way ticket, please
+- text: Ik ben onderweg.
+  hint: I am on my way
+- text: Ik ben zo terug.
+  hint: I will be right back
+- text: Hoe heet je?
+  hint: What is your name?
+- text: Leuk je te ontmoeten.
+  hint: Nice to meet you
+- text: Wil je iets drinken?
+  hint: Do you want something to drink?
+- text: Het eten is klaar.
+  hint: The food is ready
+- text: Kom binnen, alsjeblieft.
+  hint: Come in, please
+- text: Mag ik even storen?
+  hint: May I interrupt briefly?
+- text: Met wie spreek ik?
+  hint: Who am I speaking to?
+- text: Ik stuur u een e-mail.
+  hint: I will send you an email
+- text: Mag ik de menukaart?
+  hint: May I have the menu?
+- text: Zonder suiker, alstublieft.
+  hint: Without sugar, please
+- text: Met melk, alstublieft.
+  hint: With milk, please
+- text: Nog een keer, alstublieft.
+  hint: One more time, please
+- text: Heeft u dit ook in het blauw?
+  hint: Do you have this in blue?
+- text: Ik zoek een cadeau.
+  hint: I am looking for a gift
+- text: Is dit in de aanbieding?
+  hint: Is this on sale?
+- text: Wie is er aan de beurt?
+  hint: Whose turn is it?
+- text: Ik ben aan de beurt.
+  hint: It is my turn
+- text: Nee, ik kijk alleen.
+  hint: No, I am just looking
+- text: Een half kilo, alstublieft.
+  hint: Half a kilo, please
+- text: Heeft u nog brood?
+  hint: Do you still have bread?
+- text: Welke tram moet ik nemen?
+  hint: Which tram should I take?
+- text: Mag ik er langs?
+  hint: May I get past?
+- text: Stopt deze trein in Utrecht?
+  hint: Does this train stop in Utrecht?
+- text: Waar is de uitgang?
+  hint: Where is the exit?
+- text: Het is om de hoek.
+  hint: It is around the corner
+- text: Doe het licht aan, alsjeblieft.
+  hint: Turn on the light, please
+- text: Ik ben verkouden.
+  hint: I have a cold
+- text: Ik ben misselijk.
+  hint: I feel nauseous
+- text: Ik heb pijn in mijn rug.
+  hint: My back hurts
+- text: Ik slaap slecht.
+  hint: I sleep badly
+- text: Moet ik terugkomen?
+  hint: Should I come back?
+- text: Ik voel me beter.
+  hint: I feel better
+- text: Ik ben zenuwachtig.
+  hint: I am nervous
+- text: Gefeliciteerd met je verjaardag.
+  hint: Happy birthday
+- text: Hoe gaat het met u?
+  hint: How are you? (formal)
+- text: Tot volgende week.
+  hint: See you next week
+- text: Tot maandag.
+  hint: See you Monday
+- text: Aangenaam kennis te maken.
+  hint: Nice to meet you (formal)
+- text: Sorry, dat wist ik niet.
+  hint: Sorry, I didn't know that
+- text: Geen dank.
+  hint: You're welcome (informal)
+- text: Alstublieft, uw wisselgeld.
+  hint: Here is your change
+- text: Heeft u kleingeld?
+  hint: Do you have change?
+- text: Ja, hoor.
+  hint: Yes, of course (friendly)
+- text: Natuurlijk, graag.
+  hint: Of course, gladly
+- text: Prima, dank u.
+  hint: Fine, thank you
+- text: Ik heb geen tijd.
+  hint: I don't have time
+- text: Ik heb het druk.
+  hint: I'm busy
+- text: Ik ben vandaag vrij.
+  hint: I'm off today
+- text: Ik moet werken.
+  hint: I have to work
+- text: Ik ben op kantoor.
+  hint: I'm at the office
+- text: Ik ben later thuis.
+  hint: I'll be home later
+- text: Waar is de lift?
+  hint: Where is the elevator?
+- text: Waar is de trap?
+  hint: Where are the stairs?
+- text: Waar is de ingang?
+  hint: Where is the entrance?
+- text: Waar is het ziekenhuis?
+  hint: Where is the hospital?
+- text: Mag ik naar het toilet?
+  hint: May I use the toilet?
+- text: Mag ik even zitten?
+  hint: May I sit down?
+- text: Ik eet geen vlees.
+  hint: I don't eat meat
+- text: Ik ben vegetarisch.
+  hint: I am vegetarian
+- text: Ik heb geen honger.
+  hint: I'm not hungry
+- text: Ik heb dorst.
+  hint: I'm thirsty
+- text: Ik ben duizelig.
+  hint: I feel dizzy
+- text: Ik ben gevallen.
+  hint: I have fallen
+- text: Ik heb me gesneden.
+  hint: I cut myself
+- text: Ik gebruik medicijnen.
+  hint: I take medication
+- text: Wanneer kan ik komen?
+  hint: When can I come?
+- text: Hoe laat is de afspraak?
+  hint: What time is the appointment?
+- text: Ik ben aan het werk.
+  hint: I am working
+- text: Ik werk vier dagen.
+  hint: I work four days
+- text: Ik begin om negen uur.
+  hint: I start at nine o'clock
+- text: Ik ben klaar met werken.
+  hint: I'm done with work
+- text: Ik heb pauze.
+  hint: I'm on break
+- text: Ik kom eraan.
+  hint: I'm coming
+- text: Wacht even, alsjeblieft.
+  hint: Wait a moment, please
+- text: Bel me later.
+  hint: Call me later
+- text: Ik bel je terug.
+  hint: I'll call you back
+- text: Ik snap het.
+  hint: I understand
+- text: Nee, niet echt.
+  hint: No, not really
+- text: Ja, natuurlijk.
+  hint: Yes, of course
+- text: Dat is waar.
+  hint: That's true
+- text: Veel succes.
+  hint: Good luck
+- text: Fijne dag verder.
+  hint: Have a nice day
+- text: Tot snel.
+  hint: See you soon
+- text: Doe de groeten.
+  hint: Say hello to them

@@ -1,0 +1,173 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: يستيقظ عمر ذات صباح بأنف أخضر زاهٍ، ويخاف من مساعدة الهاتف الصارمة فلا يطلب المساعدة، ثم يكتشف أخيرًا عند الطبيب
+  أن الأخضر مجرد دهان.
+summary_source: 4700f8f9b2ab5ba0
+gestures:
+  want: احضن آيس كريم خياليًا كبيرًا إلى صدرك وانحنِ للأمام بعينين جوعى، كأنك تريده حقًا.
+  afraid: أمسك ذراعيك حول نفسك وارتجف مثل ورقة صغيرة خائفة بينما أسنانك تصطك.
+  finally: ارفع ذراعيك في الهواء، وأرجِع رأسك للخلف وتنفّس 'آآه' طويلة كأنك انتظرت ألف سنة.
+targets:
+  wilde:
+    gloss: أراد
+    note: في الهولندية يأتي 'wilde' بعد الفاعل غالبًا، وفي العربية 'أراد' فعل كامل.
+  was bang:
+    gloss: كان خائفًا
+    note: في الهولندية 'bang' صفة بعد 'was'، وفي العربية نقول 'كان خائفًا'.
+  eindelijk:
+    gloss: أخيرًا
+    note: ظرف زمن؛ في العربية 'أخيرًا' يمكن أن يقع أول الجملة أو وسطها.
+scenes:
+- key: s1
+  source: b1876dd69af6c2f3
+  translation: استيقظ عمر ونظر في المرآة. كان أنفه أخضر، أخضر جدًا جدًا! أراد أن يذهب إلى طبيب الأسرة، لأن الأنف الأخضر ليس
+    جيدًا. لكنه كان خائفًا من الهاتف.
+  glosses:
+    werd: استيقظ (مع wakker)
+    wakker: مستيقظًا
+    en: و
+    keek: نظر
+    in: في
+    spiegel: المرآة
+    Zijn: أنفه
+    neus: الأنف
+    was: كان
+    groen: أخضر
+    heel: جدًا
+    erg: جدًا
+    Hij: هو
+    wilde: أراد
+    naar: إلى
+    huisarts: طبيب الأسرة
+    want: لأن
+    groene: أخضر
+    is: يكون
+    niet: ليس
+    goed: جيد
+    Maar: لكن
+    bang: خائف
+    voor: من
+    telefoon: الهاتف
+- key: s2
+  source: 8096709d78d52e36
+  translation: 'اتصل عمر بالطبيب العام، وردّت المساعدة: صباح الخير، معك مساعدة الطبيب العام! كان عمر خائفًا، لأن المساعدة
+    بدت صارمة جدًا. أراد أن يقول شيئًا، لكنه لم يقل شيئًا وأغلق الهاتف.'
+  glosses:
+    belde: اتصل
+    huisarts: الطبيب العام
+    en: و
+    assistente: المساعدة
+    nam: ردّت
+    op: ردّت (مع nam)
+    met: مع
+    van: التابعة لـ
+    was: كان
+    bang: خائفًا
+    want: لأن
+    klonk: بدت
+    heel: جدًا
+    streng: صارمة
+    Hij: هو
+    wilde: أراد
+    iets: شيئًا
+    zeggen: يقول
+    maar: لكن
+    zei: قال
+    niets: لا شيء
+    hing: أغلق (مع op)
+- key: s3
+  source: 4dcbd5ab091c5126
+  translation: 'في اليوم التالي كان أنف عمر أكثر خضرة، أخضر جدًا جدًا. كان عمر خائفًا، لكنه أراد أن يتحسن. اتصل مرة أخرى وقالت
+    المساعدة: ''تعال إذن، يا عمر!'' كان عمر متفاجئًا: كانت المساعدة لطيفة!'
+  glosses:
+    volgende: التالي
+    dag: اليوم
+    was: كان
+    neus: الأنف
+    van: التابع لـ
+    nog: أكثر
+    groener: أكثر خضرة
+    heel: جدًا
+    erg: جدًا
+    groen: أخضر
+    bang: خائف
+    maar: لكن
+    hij: هو
+    wilde: أراد
+    beter: أفضل
+    worden: يصبح
+    belde: اتصل
+    weer: مرة أخرى
+    en: و
+    assistente: المساعدة
+    zei: قالت
+    Kom: تعال
+    langs: مرّ/زر
+    verbaasd: متفاجئًا
+    lief: لطيفة
+- key: s4
+  source: 302e68fe8ad9f97c
+  translation: 'عند طبيب الأسرة، جلس عمر في غرفة صغيرة. نظر الطبيب إلى أنفه وسأل: ''ما هذا؟'' أراد عمر أن يبكي، لأنه كان خائفًا.
+    أخيرًا جاء الطبيب بمنشفة بيضاء صغيرة.'
+  glosses:
+    Bij: عند
+    huisarts: طبيب الأسرة
+    zat: جلس
+    in: في
+    kleine: صغيرة
+    kamer: غرفة
+    dokter: الطبيب
+    keek: نظر
+    naar: إلى
+    zijn: أنفه
+    neus: الأنف
+    en: و
+    vroeg: سأل
+    Wat: ما
+    is: هو
+    dit: هذا
+    wilde: أراد
+    huilen: يبكي
+    want: لأن
+    hij: هو
+    was: كان
+    bang: خائف
+    Eindelijk: أخيرًا
+    kwam: جاء
+    met: بـ
+    wit: أبيض
+    doekje: منديل صغير
+- key: s5
+  source: 0fb6f221fc0b3587
+  translation: أصبح المنديل أخضر. لم يكن مرضًا، كان طلاءً! كان عمر قد عمل في البيت بطلاء أخضر. أخيرًا ضحك بصوت عالٍ، وأخيرًا
+    لم يعد خائفًا.
+  glosses:
+    doekje: المنديل الصغير
+    werd: أصبح
+    groen: أخضر
+    Het: هو
+    was: كان
+    geen: ليس
+    ziekte: مرضًا
+    verf: طلاء
+    had: كان قد
+    thuis: في البيت
+    met: بـ
+    groene: أخضر
+    gewerkt: عمل
+    Eindelijk: أخيرًا
+    lachte: ضحك
+    hij: هو
+    hard: بصوت عالٍ
+    en: و
+    niet: لم
+    bang: خائفًا
+    meer: بعد
+words:
+  groen: أخضر
+  de spiegel: المرآة
+  de neus: الأنف
+  de huisarts: طبيب الأسرة
+  de telefoon: الهاتف
+  de verf: الدهان

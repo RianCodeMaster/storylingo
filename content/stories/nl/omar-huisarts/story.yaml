@@ -1,0 +1,620 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: omar-huisarts
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A2
+  theme: Omar wilde naar de huisarts omdat zijn neus groen was, maar hij was bang voor de assistente aan de telefoon; eindelijk
+    blijkt het verf te zijn
+  scenes: 5
+  targets:
+  - text: wilde
+    gloss: wanted
+    concept: want
+    kind: word
+  - text: was bang
+    gloss: was afraid
+    concept: afraid
+    kind: phrase
+  - text: eindelijk
+    gloss: finally
+    concept: finally
+    kind: word
+story:
+  title: Omar en de groene neus
+  summary: Omar wakes up with a bright green nose, is too afraid of the strict phone assistant to ask for help, and finally
+    discovers at the doctor's office that the green is just paint.
+  gestures:
+  - concept: want
+    description: Hug an enormous invisible ice cream to your chest and lean forward with big hungry eyes, like you really,
+      really want it.
+    emoji: 🤤
+  - concept: afraid
+    description: Wrap both arms around yourself and shake like a tiny scared leaf while your teeth chatter.
+    emoji: 😱
+  - concept: finally
+    description: Throw both arms up in the air, tip your head back and sigh a long 'aaah' like you waited a thousand years.
+    emoji: 🎉
+  scenes:
+  - key: s1
+    text: Omar werd wakker en keek in de spiegel. Zijn neus was groen, heel erg groen! Hij wilde naar de huisarts, want een
+      groene neus is niet goed. Maar hij was bang voor de telefoon.
+    image_prompt: Omar, a tall young man with short black curly hair, round glasses, an orange sweater and blue jeans, stands
+      in a small bathroom looking into a mirror with huge shocked eyes; his nose is bright neon green. Bright cartoon style.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Was de neus van Omar groen?
+      options: [Ja, Nee]
+      answer: Ja
+    - key: s1q2
+      kind: either_or
+      prompt: Wilde Omar naar de huisarts of naar de bakker?
+      options: [naar de huisarts, naar de bakker]
+      answer: naar de huisarts
+      target: wilde
+    - key: s1q3
+      kind: yes_no
+      prompt: Was Omar bang voor de telefoon?
+      options: [Ja, Nee]
+      answer: Ja
+      target: was bang
+    - key: s1q4
+      kind: who_what
+      prompt: Wie keek in de spiegel?
+      options: [Omar, de huisarts, de assistente]
+      answer: Omar
+    glossary:
+    - word: werd
+      lemma: worden
+      level: A1
+    - word: wakker
+      lemma: wakker
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: keek
+      lemma: kijken
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: spiegel
+      lemma: de spiegel
+      level: A1
+    - word: Zijn
+      lemma: zijn
+      level: A1
+    - word: neus
+      lemma: de neus
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: groen
+      lemma: groen
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: erg
+      lemma: erg
+      level: A2
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: wilde
+      lemma: willen
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: huisarts
+      lemma: de huisarts
+      level: A2
+    - word: want
+      lemma: want
+      level: A1
+    - word: groene
+      lemma: groen
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: goed
+      lemma: goed
+      level: A1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: bang
+      lemma: bang
+      level: A1
+    - word: voor
+      lemma: voor
+      level: A1
+    - word: telefoon
+      lemma: de telefoon
+      level: A1
+    voice:
+    - text: Omar werd wakker en keek in de spiegel.
+      emotion: sleepy
+    - text: Zijn neus was groen, heel erg groen!
+      emotion: surprised
+    - text: Hij wilde naar de huisarts, want een groene neus is niet goed.
+      emotion: neutral
+    - text: Maar hij was bang voor de telefoon.
+      emotion: whisper
+  - key: s2
+    text: Omar belde de huisarts en de assistente nam op. 'Goedemorgen, met de assistente van de huisarts!' Omar was bang,
+      want de assistente klonk heel streng. Hij wilde iets zeggen, maar hij zei niets en hing op.
+    image_prompt: Omar, the tall young man with black curly hair, round glasses, orange sweater and blue jeans, holds a phone
+      far away from his ear with a terrified face; a giant shadow of a strict woman with a headset fills the wall behind him.
+      Bright cartoon style.
+    questions:
+    - key: s2q1
+      kind: who_what
+      prompt: Wie nam de telefoon op?
+      options: [de assistente, Omar, de dokter]
+      answer: de assistente
+    - key: s2q2
+      kind: yes_no
+      prompt: Was Omar bang?
+      options: [Ja, Nee]
+      answer: Ja
+      target: was bang
+    - key: s2q3
+      kind: either_or
+      prompt: Wilde Omar iets zeggen of wilde Omar slapen?
+      options: [iets zeggen, slapen]
+      answer: iets zeggen
+      target: wilde
+    - key: s2q4
+      kind: yes_no
+      prompt: Hing Omar op?
+      options: [Ja, Nee]
+      answer: Ja
+    glossary:
+    - word: belde
+      lemma: bellen
+      level: A1
+    - word: huisarts
+      lemma: de huisarts
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: assistente
+      lemma: de assistente
+      level: A2
+    - word: nam
+      lemma: opnemen
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: van
+      lemma: van
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: bang
+      lemma: bang
+      level: A1
+    - word: want
+      lemma: want
+      level: A1
+    - word: klonk
+      lemma: klinken
+      level: A2
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: streng
+      lemma: streng
+      level: B1
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: wilde
+      lemma: willen
+      level: A1
+    - word: iets
+      lemma: iets
+      level: A1
+    - word: zeggen
+      lemma: zeggen
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: niets
+      lemma: niets
+      level: A1
+    - word: hing
+      lemma: ophangen
+      level: A2
+    voice:
+    - text: Omar belde de huisarts en de assistente nam op.
+      emotion: neutral
+    - text: '''Goedemorgen, met de assistente van de huisarts!'' Omar was bang, want de assistente klonk heel streng.'
+      emotion: whisper
+    - text: Hij wilde iets zeggen, maar hij zei niets en hing op.
+      emotion: whisper
+  - key: s3
+    text: 'De volgende dag was de neus van Omar nog groener, heel erg groen. Omar was bang, maar hij wilde beter worden. Hij
+      belde weer en de assistente zei: ''Kom maar langs, Omar!'' Omar was verbaasd: de assistente was lief!'
+    image_prompt: Omar, the tall young man with black curly hair, round glasses, orange sweater and blue jeans, looks at his
+      even greener nose in a spoon at the kitchen table, phone in hand, mouth open in surprise; a friendly smiling woman with
+      a headset appears in a speech bubble. Bright cartoon style.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Was de neus van Omar nog groener?
+      options: [Ja, Nee]
+      answer: Ja
+    - key: s3q2
+      kind: either_or
+      prompt: Was Omar bang of was Omar boos?
+      options: [bang, boos]
+      answer: bang
+      target: was bang
+    - key: s3q3
+      kind: who_what
+      prompt: 'Wie zei: ''Kom maar langs, Omar''?'
+      options: [de assistente, de dokter, de buurman]
+      answer: de assistente
+    - key: s3q4
+      kind: yes_no
+      prompt: Wilde Omar beter worden?
+      options: [Ja, Nee]
+      answer: Ja
+      target: wilde
+    glossary:
+    - word: volgende
+      lemma: volgend
+      level: A2
+    - word: dag
+      lemma: de dag
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: neus
+      lemma: de neus
+      level: A1
+    - word: van
+      lemma: van
+      level: A1
+    - word: nog
+      lemma: nog
+      level: A1
+    - word: groener
+      lemma: groen
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: erg
+      lemma: erg
+      level: A2
+    - word: groen
+      lemma: groen
+      level: A1
+    - word: bang
+      lemma: bang
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: wilde
+      lemma: willen
+      level: A1
+    - word: beter
+      lemma: goed
+      level: A1
+    - word: worden
+      lemma: worden
+      level: A1
+    - word: belde
+      lemma: bellen
+      level: A1
+    - word: weer
+      lemma: weer
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: assistente
+      lemma: de assistente
+      level: A2
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: Kom
+      lemma: komen
+      level: A1
+    - word: langs
+      lemma: langs
+      level: A2
+    - word: verbaasd
+      lemma: verbaasd
+      level: B1
+    - word: lief
+      lemma: lief
+      level: A1
+    voice:
+    - text: De volgende dag was de neus van Omar nog groener, heel erg groen.
+      emotion: surprised
+    - text: Omar was bang, maar hij wilde beter worden.
+      emotion: whisper
+    - text: 'Hij belde weer en de assistente zei: ''Kom maar langs, Omar!'' Omar was verbaasd: de assistente was lief!'
+      emotion: surprised
+  - key: s4
+    text: 'Bij de huisarts zat Omar in een kleine kamer. De dokter keek naar zijn neus en vroeg: ''Wat is dit?'' Omar wilde
+      huilen, want hij was bang. Eindelijk kwam de dokter met een wit doekje.'
+    image_prompt: Omar, the tall young man with black curly hair, round glasses, orange sweater and blue jeans, sits on a
+      doctor's table with a giant green nose, tears in his eyes; a small doctor in a white coat holds up a tiny white cloth.
+      Bright cartoon style.
+    questions:
+    - key: s4q1
+      kind: who_what
+      prompt: Wie keek naar de neus van Omar?
+      options: [de dokter, de assistente, Omar]
+      answer: de dokter
+    - key: s4q2
+      kind: either_or
+      prompt: Wilde Omar huilen of wilde Omar lachen?
+      options: [huilen, lachen]
+      answer: huilen
+      target: wilde
+    - key: s4q3
+      kind: yes_no
+      prompt: Was Omar bang?
+      options: [Ja, Nee]
+      answer: Ja
+      target: was bang
+    - key: s4q4
+      kind: yes_no
+      prompt: Kwam de dokter eindelijk met een doekje?
+      options: [Ja, Nee]
+      answer: Ja
+      target: eindelijk
+    glossary:
+    - word: Bij
+      lemma: bij
+      level: A1
+    - word: huisarts
+      lemma: de huisarts
+      level: A2
+    - word: zat
+      lemma: zitten
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: kleine
+      lemma: klein
+      level: A1
+    - word: kamer
+      lemma: de kamer
+      level: A1
+    - word: dokter
+      lemma: de dokter
+      level: A1
+    - word: keek
+      lemma: kijken
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: neus
+      lemma: de neus
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: vroeg
+      lemma: vragen
+      level: A1
+    - word: Wat
+      lemma: wat
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: dit
+      lemma: dit
+      level: A1
+    - word: wilde
+      lemma: willen
+      level: A1
+    - word: huilen
+      lemma: huilen
+      level: A2
+    - word: want
+      lemma: want
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: bang
+      lemma: bang
+      level: A1
+    - word: Eindelijk
+      lemma: eindelijk
+      level: A2
+    - word: kwam
+      lemma: komen
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: wit
+      lemma: wit
+      level: A1
+    - word: doekje
+      lemma: het doekje
+      level: A2
+    voice:
+    - text: Bij de huisarts zat Omar in een kleine kamer.
+      emotion: neutral
+    - text: 'De dokter keek naar zijn neus en vroeg: ''Wat is dit?'' Omar wilde huilen, want hij was bang.'
+      emotion: whisper
+    - text: Eindelijk kwam de dokter met een wit doekje.
+      emotion: neutral
+  - key: s5
+    text: Het doekje werd groen. Het was geen ziekte, het was verf! Omar had thuis met groene verf gewerkt. Eindelijk lachte
+      hij hard, en eindelijk was hij niet bang meer.
+    image_prompt: Omar, the tall young man with black curly hair, round glasses, orange sweater and blue jeans, laughs with
+      his head back while the doctor holds a green-stained white cloth; a paint bucket and brush with green paint stand on
+      the floor. Bright cartoon style.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Was de groene kleur een ziekte?
+      options: [Ja, Nee]
+      answer: Nee
+    - key: s5q2
+      kind: who_what
+      prompt: Wat was er op de neus van Omar?
+      options: [verf, chocolade, soep]
+      answer: verf
+    - key: s5q3
+      kind: either_or
+      prompt: Was Omar eindelijk blij of eindelijk boos?
+      options: [blij, boos]
+      answer: blij
+      target: eindelijk
+    - key: s5q4
+      kind: yes_no
+      prompt: Werkte Omar thuis met groene verf?
+      options: [Ja, Nee]
+      answer: Ja
+    glossary:
+    - word: doekje
+      lemma: het doekje
+      level: A2
+    - word: werd
+      lemma: worden
+      level: A1
+    - word: groen
+      lemma: groen
+      level: A1
+    - word: Het
+      lemma: het
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: ziekte
+      lemma: de ziekte
+      level: A2
+    - word: verf
+      lemma: de verf
+      level: A2
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: thuis
+      lemma: thuis
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: groene
+      lemma: groen
+      level: A1
+    - word: gewerkt
+      lemma: werken
+      level: A1
+    - word: Eindelijk
+      lemma: eindelijk
+      level: A2
+    - word: lachte
+      lemma: lachen
+      level: A2
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: hard
+      lemma: hard
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: bang
+      lemma: bang
+      level: A1
+    - word: meer
+      lemma: meer
+      level: A2
+    voice:
+    - text: Het doekje werd groen.
+      emotion: surprised
+    - text: Het was geen ziekte, het was verf!
+      emotion: surprised
+    - text: Omar had thuis met groene verf gewerkt.
+      emotion: neutral
+    - text: Eindelijk lachte hij hard, en eindelijk was hij niet bang meer.
+      emotion: amused
+  core_words:
+  - lemma: de spiegel
+    image_prompt: a bathroom mirror on a wall
+  - lemma: de neus
+    image_prompt: a close-up of a person's nose
+  - lemma: groen
+    image_prompt: a bright green leaf
+  - lemma: de huisarts
+    image_prompt: a doctor sitting in a small clinic room
+  - lemma: de telefoon
+    image_prompt: a telephone on a table
+  - lemma: de verf
+    image_prompt: a can of green paint with a paintbrush
+generation:
+  prompt_version: tprs-v2
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 630
+  output_tokens: 4073
+  glossary_version: glossary-v2
+  glossary_input_tokens: 560
+  glossary_output_tokens: 14907
+  core_version: core-v1
+  core_input_tokens: 1429
+  core_output_tokens: 558
+  voice_version: voice-v1
+  voice_input_tokens: 536
+  voice_output_tokens: 1154
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 659
+  localize_ar_output_tokens: 7138

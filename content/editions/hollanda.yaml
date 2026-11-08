@@ -1,0 +1,14 @@
+# Edition: Arabic speakers learning Dutch, newly in the Netherlands (municipality, GP, inburgering, work).
+# See duits.yaml for every field. The Arabic texts still need a native speaker's review.
+slug: hollanda
+status: beta
+base: ar
+target: nl
+name: الهولندية بالقصص
+tagline: هولندية تبقى في الذاكرة.
+intro: قصص قصيرة ومضحكة عن الحياة في هولندا. تؤدي الإيماءات، وتجيب بصوت عالٍ، وتردد بعد الراوي. خمس دقائق يوميًا.
+color: "#ff8c42"
+stories:
+  tags: [algemeen, dagelijks]
+  levels: [A1, A2, B1]
+domain: null

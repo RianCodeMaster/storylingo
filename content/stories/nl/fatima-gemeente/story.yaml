@@ -1,0 +1,550 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: fatima-gemeente
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A1
+  theme: Fatima wil een nieuw paspoort halen bij de gemeente, maar ze kan het nummer niet vinden; haar kat Pluis heeft het
+    opgegeten
+  scenes: 5
+  targets:
+  - text: wil
+    gloss: wants
+    concept: want
+    kind: word
+  - text: kan niet
+    gloss: cannot
+    concept: cannot
+    kind: phrase
+  - text: heeft
+    gloss: has
+    concept: have
+    kind: word
+story:
+  title: Fatima, Pluis en het nummer
+  summary: Fatima wants a new passport, but her fat cat Pluis eats the number she needs — until Pluis burps it back up at
+    the town hall.
+  gestures:
+  - concept: want
+    description: Hug an enormous invisible cake to your chest, lean forward with hungry eyes and nod hard, like you really,
+      really want it.
+    emoji: 🤲
+  - concept: cannot
+    description: Shake both flat hands in front of your chest in fast 'no-no-no' motions, puff out your cheeks, then let your
+      arms fall down like heavy bags.
+    emoji: 🙅
+  - concept: have
+    description: Hold both arms out as if carrying a giant invisible box, then pat your chest proudly and grin.
+    emoji: 🎁
+  scenes:
+  - key: s1
+    text: Fatima wil een nieuw paspoort. Ze wil naar de gemeente. Maar ze heeft een nummer nodig. Fatima heeft een klein papiertje
+      met een nummer.
+    image_prompt: A cheerful young woman with a bright yellow headscarf, round glasses and a red coat stands in a small living
+      room, holding up a tiny white paper slip with a big happy smile. Next to her on a table sits a very fat grey tabby cat
+      with one white ear, watching her.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Wil Fatima een nieuw paspoort?
+      options: [ja, nee]
+      answer: ja
+      target: wil
+    - key: s1q2
+      kind: either_or
+      prompt: Wil Fatima naar de gemeente of naar de bakker?
+      options: [naar de gemeente, naar de bakker]
+      answer: naar de gemeente
+      target: wil
+    - key: s1q3
+      kind: who_what
+      prompt: Wat heeft Fatima nodig?
+      options: [een nummer, een kat, een fiets]
+      answer: een nummer
+      target: heeft
+    - key: s1q4
+      kind: yes_no
+      prompt: Heeft Fatima een klein papiertje met een nummer?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    - key: s1q5
+      kind: who_what
+      prompt: Wie wil een nieuw paspoort?
+      options: [Fatima, Pluis, de mevrouw]
+      answer: Fatima
+      target: wil
+    glossary:
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: nieuw
+      lemma: nieuw
+      level: A1
+    - word: paspoort
+      lemma: het paspoort
+      level: A2
+    - word: Ze
+      lemma: zij
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: gemeente
+      lemma: de gemeente
+      level: A2
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: nummer
+      lemma: het nummer
+      level: A2
+    - word: nodig
+      lemma: nodig
+      level: A2
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: papiertje
+      lemma: het papiertje
+      level: A2
+    - word: met
+      lemma: met
+      level: A1
+    voice:
+    - text: Fatima wil een nieuw paspoort.
+      emotion: neutral
+    - text: Ze wil naar de gemeente.
+      emotion: neutral
+    - text: Maar ze heeft een nummer nodig.
+      emotion: surprised
+    - text: Fatima heeft een klein papiertje met een nummer.
+      emotion: amused
+  - key: s2
+    text: Fatima zoekt in haar tas. Ze heeft een grote tas en een kleine jas. Fatima kan niet naar de gemeente. Ze kan niet
+      zonder nummer.
+    image_prompt: The same young woman with the yellow headscarf, round glasses and red coat digs frantically into a huge
+      green bag, pulling out a scarf, a banana and keys. Her small jacket hangs on a chair. The fat grey tabby cat with one
+      white ear sits calmly on the table.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Kan Fatima naar de gemeente?
+      options: [ja, nee]
+      answer: nee
+      target: kan niet
+    - key: s2q2
+      kind: either_or
+      prompt: Zoekt Fatima in haar tas of in de koelkast?
+      options: [in haar tas, in de koelkast]
+      answer: in haar tas
+    - key: s2q3
+      kind: who_what
+      prompt: Wat heeft Fatima?
+      options: [een grote tas, een grote fiets, een grote taart]
+      answer: een grote tas
+      target: heeft
+    - key: s2q4
+      kind: either_or
+      prompt: Kan Fatima naar de gemeente of niet?
+      options: [Fatima kan niet naar de gemeente, Fatima kan wel naar de gemeente]
+      answer: Fatima kan niet naar de gemeente
+      target: kan niet
+    - key: s2q5
+      kind: yes_no
+      prompt: Heeft Fatima een kleine jas?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    glossary:
+    - word: zoekt
+      lemma: zoeken
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: tas
+      lemma: de tas
+      level: A1
+    - word: Ze
+      lemma: zij
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: grote
+      lemma: groot
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: kleine
+      lemma: klein
+      level: A1
+    - word: jas
+      lemma: de jas
+      level: A1
+    - word: kan
+      lemma: kunnen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: gemeente
+      lemma: de gemeente
+      level: A2
+    - word: zonder
+      lemma: zonder
+      level: A2
+    - word: nummer
+      lemma: het nummer
+      level: A2
+    voice:
+    - text: Fatima zoekt in haar tas.
+      emotion: neutral
+    - text: Ze heeft een grote tas en een kleine jas.
+      emotion: amused
+    - text: Fatima kan niet naar de gemeente.
+      emotion: surprised
+    - text: Ze kan niet zonder nummer.
+      emotion: whisper
+  - key: s3
+    text: Pluis de kat zit op de tafel. Pluis heeft een papiertje in zijn bek. Fatima wil het papiertje, maar Pluis wil het
+      niet geven. Fatima kan het niet pakken.
+    image_prompt: The fat grey tabby cat with one white ear sits on a wooden table with a small white paper slip sticking
+      out of its mouth, eyes wide and mischievous. The young woman in the yellow headscarf and red coat reaches out with both
+      hands, shocked, mouth open.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: Wie zit op de tafel?
+      options: [Pluis, Fatima, de mevrouw]
+      answer: Pluis
+    - key: s3q2
+      kind: yes_no
+      prompt: Heeft Pluis een papiertje in zijn bek?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    - key: s3q3
+      kind: either_or
+      prompt: Wil Fatima het papiertje of wil ze een vis?
+      options: [ze wil het papiertje, ze wil een vis]
+      answer: ze wil het papiertje
+      target: wil
+    - key: s3q4
+      kind: yes_no
+      prompt: Kan Fatima het papiertje pakken?
+      options: [ja, nee]
+      answer: nee
+      target: kan niet
+    - key: s3q5
+      kind: either_or
+      prompt: Wil Pluis het papiertje geven of niet?
+      options: [Pluis wil het niet geven, Pluis wil het wel geven]
+      answer: Pluis wil het niet geven
+      target: wil
+    glossary:
+    - word: kat
+      lemma: de kat
+      level: A1
+    - word: zit
+      lemma: zitten
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: tafel
+      lemma: de tafel
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: papiertje
+      lemma: het papiertje
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: bek
+      lemma: de bek
+      level: A2
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: het
+      lemma: het
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: geven
+      lemma: geven
+      level: A1
+    - word: kan
+      lemma: kunnen
+      level: A1
+    - word: pakken
+      lemma: pakken
+      level: A2
+    voice:
+    - text: Pluis de kat zit op de tafel.
+      emotion: amused
+    - text: Pluis heeft een papiertje in zijn bek.
+      emotion: surprised
+    - text: Fatima wil het papiertje, maar Pluis wil het niet geven.
+      emotion: angry
+    - text: Fatima kan het niet pakken.
+      emotion: whisper
+  - key: s4
+    text: Pluis eet het papiertje op. Fatima is heel boos. Ze wil huilen. Ze heeft nu geen nummer en ze kan niet naar de gemeente.
+    image_prompt: The fat grey tabby cat with one white ear gulps down the last corner of the white paper slip on the table,
+      looking smug. The young woman in the yellow headscarf and red coat throws her arms up in despair, big angry eyes, a
+      huge green bag fallen on the floor.
+    questions:
+    - key: s4q1
+      kind: who_what
+      prompt: Wat eet Pluis op?
+      options: [het papiertje, de tafel, een vis]
+      answer: het papiertje
+    - key: s4q2
+      kind: yes_no
+      prompt: Is Fatima boos?
+      options: [ja, nee]
+      answer: ja
+    - key: s4q3
+      kind: who_what
+      prompt: Hoeveel nummers heeft Fatima nu?
+      options: [geen nummer, duizend nummers, twee nummers]
+      answer: geen nummer
+      target: heeft
+    - key: s4q4
+      kind: yes_no
+      prompt: Kan Fatima naar de gemeente?
+      options: [ja, nee]
+      answer: nee
+      target: kan niet
+    - key: s4q5
+      kind: either_or
+      prompt: Wil Fatima lachen of huilen?
+      options: [ze wil huilen, ze wil lachen]
+      answer: ze wil huilen
+      target: wil
+    glossary:
+    - word: eet
+      lemma: eten
+      level: A1
+    - word: papiertje
+      lemma: het papiertje
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: boos
+      lemma: boos
+      level: A1
+    - word: Ze
+      lemma: zij
+      level: A1
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: huilen
+      lemma: huilen
+      level: A2
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: nu
+      lemma: nu
+      level: A1
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: nummer
+      lemma: het nummer
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: kan
+      lemma: kunnen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: gemeente
+      lemma: de gemeente
+      level: A2
+    voice:
+    - text: Pluis eet het papiertje op.
+      emotion: disgusted
+    - text: Fatima is heel boos.
+      emotion: angry
+    - text: Ze wil huilen.
+      emotion: whisper
+    - text: Ze heeft nu geen nummer en ze kan niet naar de gemeente.
+      emotion: surprised
+  - key: s5
+    text: 'Fatima gaat toch naar de gemeente met Pluis. De mevrouw zegt: ''U heeft een kat?'' Dan doet Pluis ''boer'' en daar
+      is het nummer: 1000! De mevrouw lacht, en Fatima wil Pluis duizend vissen geven.'
+    image_prompt: At a town hall desk, the young woman in the yellow headscarf and red coat holds up the fat grey tabby cat
+      with one white ear, who has a tiny paper slip flying out of its mouth with a big '1000' on it. The lady behind the desk
+      laughs with her hand over her mouth.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Wie gaat naar de gemeente?
+      options: [Fatima en Pluis, Fatima en de bakker, Pluis en de mevrouw]
+      answer: Fatima en Pluis
+    - key: s5q2
+      kind: yes_no
+      prompt: Heeft Fatima een kat?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    - key: s5q3
+      kind: who_what
+      prompt: Wat is het nummer?
+      options: ['1000', '10', '1']
+      answer: '1000'
+    - key: s5q4
+      kind: either_or
+      prompt: Doet Pluis 'boer' of 'miauw'?
+      options: [boer, miauw]
+      answer: boer
+    - key: s5q5
+      kind: yes_no
+      prompt: Wil Fatima Pluis duizend vissen geven?
+      options: [ja, nee]
+      answer: ja
+      target: wil
+    glossary:
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: toch
+      lemma: toch
+      level: B1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: gemeente
+      lemma: de gemeente
+      level: A2
+    - word: met
+      lemma: met
+      level: A1
+    - word: mevrouw
+      lemma: de mevrouw
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: U
+      lemma: u
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: kat
+      lemma: de kat
+      level: A1
+    - word: Dan
+      lemma: dan
+      level: A1
+    - word: doet
+      lemma: doen
+      level: A1
+    - word: boer
+      lemma: de boer
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: daar
+      lemma: daar
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: nummer
+      lemma: het nummer
+      level: A2
+    - word: lacht
+      lemma: lachen
+      level: A1
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: vissen
+      lemma: de vis
+      level: A1
+    - word: geven
+      lemma: geven
+      level: A1
+    voice:
+    - text: Fatima gaat toch naar de gemeente met Pluis.
+      emotion: neutral
+    - text: 'De mevrouw zegt: ''U heeft een kat?'' Dan doet Pluis ''boer'' en daar is het nummer: 1000!'
+      emotion: surprised
+    - text: De mevrouw lacht, en Fatima wil Pluis duizend vissen geven.
+      emotion: amused
+  core_words:
+  - lemma: het paspoort
+    image_prompt: a small closed passport booklet with a gold emblem
+  - lemma: de gemeente
+    image_prompt: a town hall building with an entrance and a flag
+  - lemma: het nummer
+    image_prompt: a hand holding a small paper ticket with a barcode
+  - lemma: het papiertje
+    image_prompt: a crumpled small piece of paper
+  - lemma: de kat
+    image_prompt: a cat sitting on a table
+  - lemma: de vis
+    image_prompt: a single fish on a plate
+generation:
+  prompt_version: tprs-v2
+  model: deepseek-flash
+  attempts: 2
+  input_tokens: 3667
+  output_tokens: 8619
+  glossary_version: glossary-v2
+  glossary_input_tokens: 509
+  glossary_output_tokens: 15187
+  core_version: core-v1
+  core_input_tokens: 1184
+  core_output_tokens: 1321
+  voice_version: voice-v1
+  voice_input_tokens: 481
+  voice_output_tokens: 909
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1170
+  localize_ar_output_tokens: 6016

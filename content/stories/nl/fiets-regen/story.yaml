@@ -1,0 +1,687 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: fiets-regen
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A2
+  theme: Yusuf kon niet fietsen, maar in Nederland doet iedereen alles op de fiets; opeens moet hij met een taart en een kast
+    door de regen fietsen omdat de bus staakt
+  scenes: 5
+  targets:
+  - text: kon niet
+    gloss: could not
+    concept: cannot
+    kind: phrase
+  - text: omdat
+    gloss: because
+    concept: because
+    kind: word
+  - text: opeens
+    gloss: suddenly
+    concept: suddenly
+    kind: word
+story:
+  title: Yusuf kon niet fietsen
+  summary: Yusuf, who cannot ride a bike, must suddenly cycle through the rain with a cake and a cupboard because the bus
+    is on strike — and a giant dog with a little hat makes everything worse.
+  gestures:
+  - concept: cannot
+    description: Cross both arms into a big X in front of your chest, shake your head slowly, and wobble like a bike that
+      is about to fall over.
+    emoji: 🙅
+  - concept: because
+    description: Slap your forehead with one hand, then point firmly at the thing in front of you — the big 'a-ha, that is
+      why!' move.
+    emoji: 👉
+  - concept: suddenly
+    description: Jump up, throw both arms in the air and open your eyes wide, like a surprise party just exploded in the room.
+    emoji: 😲
+  scenes:
+  - key: s1
+    text: Yusuf woonde in Nederland, maar hij kon niet fietsen. Hij kon niet fietsen, omdat hij uit een klein dorp in de bergen
+      kwam. Elke dag keek hij naar alle fietsers en hij was verdrietig.
+    image_prompt: Yusuf, a young man with curly black hair, round glasses and a yellow raincoat, stands sadly on a Dutch street
+      corner while a cheerful crowd of cyclists passes by; grey sky, brick houses, one windmill in the background.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Woonde Yusuf in Nederland?
+      options: [ja, nee]
+      answer: ja
+      target: kon niet
+    - key: s1q2
+      kind: either_or
+      prompt: Kon Yusuf niet fietsen omdat hij uit de bergen kwam, of omdat hij te klein was?
+      options: [omdat hij uit de bergen kwam, omdat hij te klein was]
+      answer: omdat hij uit de bergen kwam
+      target: omdat
+    - key: s1q3
+      kind: who_what
+      prompt: Wie keek elke dag naar de fietsers?
+      options: [Yusuf, de tante, de hond]
+      answer: Yusuf
+    - key: s1q4
+      kind: yes_no
+      prompt: Was Yusuf blij?
+      options: [ja, nee]
+      answer: nee
+    glossary:
+    - word: woonde
+      lemma: wonen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: kon
+      lemma: kunnen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: fietsen
+      lemma: fietsen
+      level: A2
+    - word: omdat
+      lemma: omdat
+      level: A1
+    - word: uit
+      lemma: uit
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: dorp
+      lemma: het dorp
+      level: A1
+    - word: bergen
+      lemma: de berg
+      level: A2
+    - word: kwam
+      lemma: komen
+      level: A1
+    - word: Elke
+      lemma: elk
+      level: A2
+    - word: dag
+      lemma: de dag
+      level: A1
+    - word: keek
+      lemma: kijken
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: alle
+      lemma: alle
+      level: A2
+    - word: fietsers
+      lemma: de fietser
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: verdrietig
+      lemma: verdrietig
+      level: A2
+    voice:
+    - text: Yusuf woonde in Nederland, maar hij kon niet fietsen.
+      emotion: surprised
+    - text: Hij kon niet fietsen, omdat hij uit een klein dorp in de bergen kwam.
+      emotion: neutral
+    - text: Elke dag keek hij naar alle fietsers en hij was verdrietig.
+      emotion: whisper
+  - key: s2
+    text: Op een ochtend belde zijn tante. 'Kom je naar mijn feest?' vroeg ze. 'Ja! Maar de bus rijdt vandaag niet, omdat
+      er een staking is,' zei Yusuf. Opeens moest hij fietsen, omdat hij een taart en een kast naar het feest moest brengen.
+    image_prompt: Yusuf with curly black hair, round glasses and yellow raincoat holds a phone in one hand and looks in panic
+      at a big chocolate cake and a wooden cupboard next to him in a small Dutch living room.
+    questions:
+    - key: s2q1
+      kind: who_what
+      prompt: Wie belde er?
+      options: [zijn tante, zijn buurman, de hond]
+      answer: zijn tante
+    - key: s2q2
+      kind: yes_no
+      prompt: Kon Yusuf niet met de bus, omdat er een staking was?
+      options: [ja, nee]
+      answer: ja
+      target: kon niet
+    - key: s2q3
+      kind: either_or
+      prompt: Moest Yusuf opeens fietsen of opeens slapen?
+      options: [opeens fietsen, opeens slapen]
+      answer: opeens fietsen
+      target: opeens
+    - key: s2q4
+      kind: who_what
+      prompt: Wat moest Yusuf naar het feest brengen?
+      options: [een taart en een kast, een taart en een bank, een tafel en een kast]
+      answer: een taart en een kast
+    glossary:
+    - word: Op
+      lemma: op
+      level: A1
+    - word: ochtend
+      lemma: de ochtend
+      level: A1
+    - word: belde
+      lemma: bellen
+      level: A2
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: tante
+      lemma: de tante
+      level: A1
+    - word: Kom
+      lemma: komen
+      level: A1
+    - word: je
+      lemma: jij
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: mijn
+      lemma: mijn
+      level: A1
+    - word: feest
+      lemma: het feest
+      level: A1
+    - word: vroeg
+      lemma: vragen
+      level: A2
+    - word: ze
+      lemma: zij
+      level: A1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: bus
+      lemma: de bus
+      level: A1
+    - word: rijdt
+      lemma: rijden
+      level: A2
+    - word: vandaag
+      lemma: vandaag
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: omdat
+      lemma: omdat
+      level: A1
+    - word: er
+      lemma: er
+      level: A2
+    - word: staking
+      lemma: de staking
+      level: B1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: Opeens
+      lemma: opeens
+      level: A2
+    - word: moest
+      lemma: moeten
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: fietsen
+      lemma: fietsen
+      level: A2
+    - word: taart
+      lemma: de taart
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: kast
+      lemma: de kast
+      level: A2
+    - word: brengen
+      lemma: brengen
+      level: A2
+    voice:
+    - text: Op een ochtend belde zijn tante.
+      emotion: neutral
+    - text: '''Kom je naar mijn feest?'' vroeg ze.'
+      emotion: amused
+    - text: '''Ja!'
+      emotion: surprised
+    - text: Maar de bus rijdt vandaag niet, omdat er een staking is,' zei Yusuf.
+      emotion: angry
+    - text: Opeens moest hij fietsen, omdat hij een taart en een kast naar het feest moest brengen.
+      emotion: surprised
+  - key: s3
+    text: Yusuf zette de taart op zijn hoofd en de kast op zijn rug. Hij ging op de fiets zitten, maar hij viel meteen in
+      een plas. Opeens begon het heel hard te regenen. Hij kon niet fietsen, omdat de kast duizend kilo was.
+    image_prompt: Yusuf with curly black hair, round glasses and yellow raincoat lies in a big puddle with a bicycle, a chocolate
+      cake on his head and a huge wooden cupboard on his back, heavy rain falling on a Dutch street.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Zette Yusuf de taart op zijn hoofd?
+      options: [ja, nee]
+      answer: ja
+    - key: s3q2
+      kind: either_or
+      prompt: Viel Yusuf meteen, of reed hij meteen weg?
+      options: [hij viel meteen, hij reed meteen weg]
+      answer: hij viel meteen
+    - key: s3q3
+      kind: who_what
+      prompt: Wat deed het weer opeens?
+      options: [het begon hard te regenen, het begon te sneeuwen, het begon te waaien]
+      answer: het begon hard te regenen
+      target: opeens
+    - key: s3q4
+      kind: either_or
+      prompt: Kon Yusuf niet fietsen omdat de kast zwaar was, of omdat hij moe was?
+      options: [omdat de kast zwaar was, omdat hij moe was]
+      answer: omdat de kast zwaar was
+      target: omdat
+    glossary:
+    - word: zette
+      lemma: zetten
+      level: A2
+    - word: taart
+      lemma: de taart
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: hoofd
+      lemma: het hoofd
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: kast
+      lemma: de kast
+      level: A2
+    - word: rug
+      lemma: de rug
+      level: A2
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: ging
+      lemma: gaan
+      level: A1
+    - word: fiets
+      lemma: de fiets
+      level: A1
+    - word: zitten
+      lemma: zitten
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: viel
+      lemma: vallen
+      level: A2
+    - word: meteen
+      lemma: meteen
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: plas
+      lemma: de plas
+      level: A2
+    - word: Opeens
+      lemma: opeens
+      level: A2
+    - word: begon
+      lemma: beginnen
+      level: A2
+    - word: het
+      lemma: het
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: hard
+      lemma: hard
+      level: A2
+    - word: regenen
+      lemma: regenen
+      level: A2
+    - word: kon
+      lemma: kunnen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: fietsen
+      lemma: fietsen
+      level: A2
+    - word: omdat
+      lemma: omdat
+      level: A1
+    - word: kilo
+      lemma: de kilo
+      level: A2
+    - word: was
+      lemma: zijn
+      level: A1
+    voice:
+    - text: Yusuf zette de taart op zijn hoofd en de kast op zijn rug.
+      emotion: amused
+    - text: Hij ging op de fiets zitten, maar hij viel meteen in een plas.
+      emotion: disgusted
+    - text: Opeens begon het heel hard te regenen.
+      emotion: surprised
+    - text: Hij kon niet fietsen, omdat de kast duizend kilo was.
+      emotion: surprised
+  - key: s4
+    text: Opeens kwam er een enorme hond aan met een klein hoedje op. De hond sprong op de kast en blafte heel hard. Yusuf
+      kon niet meer fietsen, omdat de hond te zwaar was. 'Help!' riep Yusuf, en de hond sprong weg met de taart.
+    image_prompt: A gigantic friendly dog wearing a tiny hat sits on top of the wooden cupboard on Yusuf's back while Yusuf,
+      in his yellow raincoat and round glasses, tries to stay upright on a small bicycle in the rain.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Kwam er opeens een enorme hond?
+      options: [ja, nee]
+      answer: ja
+      target: opeens
+    - key: s4q2
+      kind: who_what
+      prompt: Wat deed de hond?
+      options: [hij sprong op de kast, hij sliep op de taart, hij fietste weg]
+      answer: hij sprong op de kast
+    - key: s4q3
+      kind: either_or
+      prompt: Kon Yusuf niet meer fietsen omdat de hond te zwaar was, of omdat hij geen fiets had?
+      options: [omdat de hond te zwaar was, omdat hij geen fiets had]
+      answer: omdat de hond te zwaar was
+      target: kon niet
+    - key: s4q4
+      kind: yes_no
+      prompt: Nam de hond de taart mee?
+      options: [ja, nee]
+      answer: ja
+    glossary:
+    - word: Opeens
+      lemma: opeens
+      level: A2
+    - word: kwam
+      lemma: komen
+      level: A1
+    - word: er
+      lemma: er
+      level: A2
+    - word: enorme
+      lemma: enorm
+      level: B1
+    - word: hond
+      lemma: de hond
+      level: A1
+    - word: aan
+      lemma: aan
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: hoedje
+      lemma: het hoedje
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: sprong
+      lemma: springen
+      level: A2
+    - word: kast
+      lemma: de kast
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: blafte
+      lemma: blaffen
+      level: A2
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: hard
+      lemma: hard
+      level: A2
+    - word: kon
+      lemma: kunnen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: meer
+      lemma: meer
+      level: A1
+    - word: fietsen
+      lemma: fietsen
+      level: A2
+    - word: omdat
+      lemma: omdat
+      level: A1
+    - word: te
+      lemma: te
+      level: A1
+    - word: zwaar
+      lemma: zwaar
+      level: A2
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: Help
+      lemma: helpen
+      level: A1
+    - word: riep
+      lemma: roepen
+      level: A2
+    - word: weg
+      lemma: weg
+      level: A2
+    - word: taart
+      lemma: de taart
+      level: A2
+    voice:
+    - text: Opeens kwam er een enorme hond aan met een klein hoedje op.
+      emotion: surprised
+    - text: De hond sprong op de kast en blafte heel hard.
+      emotion: angry
+    - text: Yusuf kon niet meer fietsen, omdat de hond te zwaar was.
+      emotion: surprised
+    - text: '''Help!'' riep Yusuf, en de hond sprong weg met de taart.'
+      emotion: surprised
+  - key: s5
+    text: 'Nat en moe kwam Yusuf bij het feest. Zijn tante lachte: ''De hond heeft de taart al gebracht!'' De hele familie
+      kwam opeens ook op de fiets, met een kast in de hand. Yusuf kon niet stoppen met lachen, omdat hij eindelijk kon fietsen.'
+    image_prompt: Yusuf, soaking wet in his yellow raincoat with round glasses, laughs in a warm Dutch living room while a
+      whole family arrives through the door on bicycles, each carrying a cupboard, and the giant dog with the tiny hat eats
+      cake.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Kwam de hele familie opeens ook op de fiets?
+      options: [ja, nee]
+      answer: ja
+      target: opeens
+    - key: s5q2
+      kind: who_what
+      prompt: Wie had de taart al gebracht?
+      options: [de hond, de tante, de buurman]
+      answer: de hond
+    - key: s5q3
+      kind: either_or
+      prompt: Kon Yusuf niet stoppen met lachen, of niet stoppen met huilen?
+      options: [niet stoppen met lachen, niet stoppen met huilen]
+      answer: niet stoppen met lachen
+      target: kon niet
+    - key: s5q4
+      kind: either_or
+      prompt: Lachte Yusuf omdat hij eindelijk kon fietsen, of omdat de kast stuk was?
+      options: [omdat hij eindelijk kon fietsen, omdat de kast stuk was]
+      answer: omdat hij eindelijk kon fietsen
+      target: omdat
+    glossary:
+    - word: Nat
+      lemma: nat
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: moe
+      lemma: moe
+      level: A2
+    - word: kwam
+      lemma: komen
+      level: A1
+    - word: bij
+      lemma: bij
+      level: A1
+    - word: feest
+      lemma: het feest
+      level: A1
+    - word: Zijn
+      lemma: zijn
+      level: A1
+    - word: tante
+      lemma: de tante
+      level: A1
+    - word: lachte
+      lemma: lachen
+      level: A2
+    - word: hond
+      lemma: de hond
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: taart
+      lemma: de taart
+      level: A2
+    - word: al
+      lemma: al
+      level: A2
+    - word: gebracht
+      lemma: brengen
+      level: A2
+    - word: hele
+      lemma: heel
+      level: A2
+    - word: familie
+      lemma: de familie
+      level: A2
+    - word: opeens
+      lemma: opeens
+      level: A2
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: fiets
+      lemma: de fiets
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: kast
+      lemma: de kast
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: hand
+      lemma: de hand
+      level: A1
+    - word: kon
+      lemma: kunnen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: stoppen
+      lemma: stoppen
+      level: A2
+    - word: lachen
+      lemma: lachen
+      level: A2
+    - word: omdat
+      lemma: omdat
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: eindelijk
+      lemma: eindelijk
+      level: A2
+    - word: fietsen
+      lemma: fietsen
+      level: A2
+    voice:
+    - text: Nat en moe kwam Yusuf bij het feest.
+      emotion: sleepy
+    - text: 'Zijn tante lachte: ''De hond heeft de taart al gebracht!'' De hele familie kwam opeens ook op de fiets, met een
+        kast in de hand.'
+      emotion: surprised
+    - text: Yusuf kon niet stoppen met lachen, omdat hij eindelijk kon fietsen.
+      emotion: amused
+  core_words:
+  - lemma: fietsen
+    image_prompt: a person riding a bicycle
+  - lemma: de taart
+    image_prompt: a round cake on a plate
+  - lemma: de kast
+    image_prompt: a tall wooden cupboard with two doors
+  - lemma: de hond
+    image_prompt: a large dog standing outside
+  - lemma: de plas
+    image_prompt: a rainwater puddle on a street
+  - lemma: de tante
+    image_prompt: a smiling woman hugging a young man
+generation:
+  prompt_version: tprs-v2
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 636
+  output_tokens: 5264
+  glossary_version: glossary-v2
+  glossary_input_tokens: 627
+  glossary_output_tokens: 12830
+  core_version: core-v1
+  core_input_tokens: 1741
+  core_output_tokens: 1313
+  voice_version: voice-v1
+  voice_input_tokens: 601
+  voice_output_tokens: 1805
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1119
+  localize_ar_output_tokens: 9994
