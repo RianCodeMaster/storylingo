@@ -11,14 +11,26 @@ speech_tag: es-ES
 plural_forms: [one, many, other]
 
 teacher:
+  # A mix of plain and playful, all in easy words: heard after every answer, so learners pick them up as phrases.
   yes:
     - {text: "¡Sí! ¡Exacto!"}
     - {text: "¡Muy bien!"}
-    - {text: "¡Fantástico!"}
-    - {text: "¡Sí, sí, sí!"}
+    - {text: "¡Claro que sí!"}
+    - {text: "¡Correcto! ¡Genial!"}
+    - {text: "¡Bravo! ¡Eres un genio!"}
+    - {text: "¡Sí, sí, sí! ¡Fantástico!"}
+    - {text: "¡Perfecto! ¡Sigue así!"}
+    - {text: "¡Eso es! Ya lo sabes."}
+    - {text: "¡Guau, qué rápido!"}
   no:
     - {text: "¡No, no, no!"}
-    - {text: "¡Oh, no!"}
+    - {text: "¡Oh, no! Eso no es."}
+    - {text: "Lo siento, no."}
+    - {text: "¡No! ¡Qué desastre!"}
+    - {text: "Mmm, no exactamente."}
+    - {text: "¡Incorrecto! Pero buen intento."}
+    - {text: "¡Ay, ay, ay! No es así."}
+    - {text: "¡Claro que no!"}
   next: Siguiente
   done: ¡Terminado!
 

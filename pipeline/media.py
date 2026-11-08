@@ -249,12 +249,21 @@ def upload(path: str, media: Media) -> None:
     key = os.environ.get("SUPABASE_SECRET_KEY")
     if not key:
         raise SystemExit("SUPABASE_SECRET_KEY is not set (see pipeline/.env.example).")
-    response = httpx.post(
-        f"{STORAGE_URL}/storage/v1/object/{BUCKET}/{path}",
-        content=media.data,
-        headers={"apikey": key, "Authorization": f"Bearer {key}", "Content-Type": media.mime_type, "x-upsert": "true"},
-        timeout=60,
-    )
+    # Thousands of uploads to the cloud: a network that hiccups once (DNS, a dropped connection) is tried again.
+    for attempt in range(1, 5):
+        try:
+            response = httpx.post(
+                f"{STORAGE_URL}/storage/v1/object/{BUCKET}/{path}",
+                content=media.data,
+                headers={"apikey": key, "Authorization": f"Bearer {key}", "Content-Type": media.mime_type,
+                         "x-upsert": "true"},
+                timeout=60,
+            )
+            break
+        except httpx.TransportError:
+            if attempt == 4:
+                raise
+            time.sleep(5 * attempt)
     response.raise_for_status()
 
 

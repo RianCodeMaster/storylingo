@@ -10,6 +10,8 @@ import json
 import shutil
 from pathlib import Path
 
+import httpx
+
 import content
 import db
 import languages
@@ -80,9 +82,14 @@ def import_() -> None:
     if not MANIFEST.exists():
         raise SystemExit("No export yet: run storylingo.py media-export (without --cloud) first.")
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    # The teacher's reactions have no fingerprint: never overwrite ones already there (they may be newer than the
+    # export, e.g. recorded straight into the cloud with `feedback <language> --cloud`).
+    copied = 0
     for path in manifest["feedback"]:
-        media.upload(path, media.Media((EXPORT / path).read_bytes(), "audio/mpeg", "stored", path))
-    print(f"  {len(manifest['feedback'])} teacher reactions")
+        if httpx.head(f"{media.STORAGE_URL}/storage/v1/object/public/{media.BUCKET}/{path}", timeout=30).status_code != 200:
+            media.upload(path, media.Media((EXPORT / path).read_bytes(), "audio/mpeg", "stored", path))
+            copied += 1
+    print(f"  {copied} teacher reactions ({len(manifest['feedback']) - copied} already there)")
     left = 0
     groups = [(doc.slug, media_jobs(doc)) for doc in content.all_stories()]
     groups += [(f"phrases {lang}", phrase_jobs(lang)) for lang in phrases.languages_with_phrases()]

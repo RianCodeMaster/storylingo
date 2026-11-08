@@ -29,14 +29,26 @@ speech_tag: de-DE
 plural_forms: [one, other]
 
 teacher:
+  # A mix of plain and playful, all in easy words: heard after every answer, so learners pick them up as phrases.
   yes:
     - {text: "Ja! Genau!", emotion: amused}
     - {text: "Richtig! Super!", emotion: surprised}
-    - {text: "Fantastisch!", emotion: amused}
-    - {text: "Ja, ja, ja!", emotion: surprised}
+    - {text: "Ja, natürlich!", emotion: neutral}
+    - {text: "Sehr gut, das stimmt!", emotion: amused}
+    - {text: "Bravo! Du bist ein Genie!", emotion: surprised}
+    - {text: "Ja, ja, ja! Fantastisch!", emotion: amused}
+    - {text: "Perfekt! Weiter so!", emotion: amused}
+    - {text: "Klar! Das weißt du schon!", emotion: neutral}
+    - {text: "Wow, du bist schnell!", emotion: surprised}
   no:
     - {text: "Nein, nein, nein!", emotion: surprised}
-    - {text: "Oh nein!", emotion: surprised}
+    - {text: "Oh nein! Das ist falsch.", emotion: surprised}
+    - {text: "Leider nicht.", emotion: neutral}
+    - {text: "Nein! Was für eine Katastrophe!", emotion: surprised}
+    - {text: "Hmm, nicht ganz.", emotion: neutral}
+    - {text: "Falsch! Aber gut versucht.", emotion: amused}
+    - {text: "Oh je! Das stimmt nicht.", emotion: surprised}
+    - {text: "Nein, natürlich nicht!", emotion: amused}
   next: Weiter
   done: Fertig!
 

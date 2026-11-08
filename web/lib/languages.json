@@ -18,12 +18,23 @@
       "yes": [
         "Ja! Genau!",
         "Richtig! Super!",
-        "Fantastisch!",
-        "Ja, ja, ja!"
+        "Ja, natürlich!",
+        "Sehr gut, das stimmt!",
+        "Bravo! Du bist ein Genie!",
+        "Ja, ja, ja! Fantastisch!",
+        "Perfekt! Weiter so!",
+        "Klar! Das weißt du schon!",
+        "Wow, du bist schnell!"
       ],
       "no": [
         "Nein, nein, nein!",
-        "Oh nein!"
+        "Oh nein! Das ist falsch.",
+        "Leider nicht.",
+        "Nein! Was für eine Katastrophe!",
+        "Hmm, nicht ganz.",
+        "Falsch! Aber gut versucht.",
+        "Oh je! Das stimmt nicht.",
+        "Nein, natürlich nicht!"
       ],
       "next": "Weiter",
       "done": "Fertig!"
@@ -71,12 +82,23 @@
       "yes": [
         "¡Sí! ¡Exacto!",
         "¡Muy bien!",
-        "¡Fantástico!",
-        "¡Sí, sí, sí!"
+        "¡Claro que sí!",
+        "¡Correcto! ¡Genial!",
+        "¡Bravo! ¡Eres un genio!",
+        "¡Sí, sí, sí! ¡Fantástico!",
+        "¡Perfecto! ¡Sigue así!",
+        "¡Eso es! Ya lo sabes.",
+        "¡Guau, qué rápido!"
       ],
       "no": [
         "¡No, no, no!",
-        "¡Oh, no!"
+        "¡Oh, no! Eso no es.",
+        "Lo siento, no.",
+        "¡No! ¡Qué desastre!",
+        "Mmm, no exactamente.",
+        "¡Incorrecto! Pero buen intento.",
+        "¡Ay, ay, ay! No es así.",
+        "¡Claro que no!"
       ],
       "next": "Siguiente",
       "done": "¡Terminado!"
