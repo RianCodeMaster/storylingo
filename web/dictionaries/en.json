@@ -89,7 +89,9 @@
     "ready": "Ready for {level}?",
     "readyHint": "You've finished every story at {current}.",
     "readyButton": "Go to {level}",
-    "allDone": "You've finished every story. New ones are on their way."
+    "allDone": "You've finished every story. New ones are on their way.",
+    "onlyYours": "You only see stories and phrases at your level. You can always switch.",
+    "noneYet": "No stories at {level} yet. They are on their way; you can already practise the phrases."
   },
   "story": {
     "loading": "Loading story…",
@@ -119,7 +121,8 @@
     "lookups": {
       "one": "{n} word you looked up comes back in your review tomorrow.",
       "other": "{n} words you looked up come back in your review tomorrow."
-    }
+    },
+    "toStart": "Back to start"
   },
   "words": {
     "progress": "Word {n} of {total}",

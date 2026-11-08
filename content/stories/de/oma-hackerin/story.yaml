@@ -53,8 +53,8 @@ story:
       answer: Ja
     - key: s1q2
       kind: either_or
-      prompt: Wohnt Oma Hilde in Berlin oder in München?
-      options: [in Berlin, in München]
+      prompt: Wohnt Oma Hilde in München oder in Berlin?
+      options: [in München, in Berlin]
       answer: in Berlin
     - key: s1q3
       kind: who_what
@@ -181,8 +181,8 @@ story:
       answer: Ja
     - key: s2q2
       kind: either_or
-      prompt: Sagt der Bürgermeister oder die Katze „Das darfst du nicht!“?
-      options: [der Bürgermeister, die Katze]
+      prompt: Sagt die Katze oder der Bürgermeister „Das darfst du nicht!“?
+      options: [die Katze, der Bürgermeister]
       answer: der Bürgermeister
     - key: s2q3
       kind: who_what
@@ -430,8 +430,8 @@ story:
       answer: HILDE123
     - key: s4q3
       kind: either_or
-      prompt: Ist nach dem Hack die ganze Stadt offline oder online?
-      options: [offline, online]
+      prompt: Ist nach dem Hack die ganze Stadt online oder offline?
+      options: [online, offline]
       answer: offline
     - key: s4q4
       kind: yes_no

@@ -114,7 +114,7 @@ function Practice({ batch, lang, direction, onDone }: { batch: PhraseCard[]; lan
   );
 }
 
-/** The phrases section of an edition: per level how far the learner is, and ten new phrases at a time. */
+/** The phrases section of an edition at the learner's level: how far they are, and ten new phrases at a time. */
 export default function Phrases() {
   const { lang, dict, fill, edition, home } = useI18n();
   const [level, setLevel] = useState<string | null>(null);
@@ -182,13 +182,12 @@ export default function Phrases() {
       <p className="edition-name">{edition.name}</p>
       <h1>{dict.phrases.title}</h1>
       <p className="muted">{dict.phrases.intro}</p>
-      <div className="row">
-        {PHRASE_LEVELS.map((l) => (
-          <button key={l} className={l === level ? "chosen-level" : ""} onClick={() => setLevel(l)}>
-            {l} · {dict.level.names[l as keyof typeof dict.level.names]}
-          </button>
-        ))}
-      </div>
+      {/* Only the learner's level (chosen once, changed on the start screen): no choosing here. */}
+      {level && (
+        <span className="badge">
+          {dict.level.yours}: {level} · {dict.level.names[level as keyof typeof dict.level.names]}
+        </span>
+      )}
       <div className="row">
         {(["understand", "say"] as const).map((d) => (
           <button key={d} className={d === direction ? "chosen-level" : ""} onClick={() => chooseDirection(d)}>

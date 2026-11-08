@@ -7,7 +7,7 @@ tags: [algemeen, dagelijks]
 brief:
   language: nl
   level: A2
-  theme: Yusuf kon niet fietsen, maar in Nederland doet iedereen alles op de fiets; opeens moet hij met een taart en een kast
+  theme: Daan kon niet fietsen, maar in Nederland doet iedereen alles op de fiets; opeens moet hij met een taart en een kast
     door de regen fietsen omdat de bus staakt
   scenes: 5
   targets:
@@ -24,9 +24,9 @@ brief:
     concept: suddenly
     kind: word
 story:
-  title: Yusuf kon niet fietsen
-  summary: Yusuf, who cannot ride a bike, must suddenly cycle through the rain with a cake and a cupboard because the bus
-    is on strike — and a giant dog with a little hat makes everything worse.
+  title: Daan kon niet fietsen
+  summary: Daan, who cannot ride a bike, must suddenly cycle through the rain with a cake and a cupboard because the bus is
+    on strike — and a giant dog with a little hat makes everything worse.
   gestures:
   - concept: cannot
     description: Cross both arms into a big X in front of your chest, shake your head slowly, and wobble like a bike that
@@ -41,31 +41,31 @@ story:
     emoji: 😲
   scenes:
   - key: s1
-    text: Yusuf woonde in Nederland, maar hij kon niet fietsen. Hij kon niet fietsen, omdat hij uit een klein dorp in de bergen
+    text: Daan woonde in Nederland, maar hij kon niet fietsen. Hij kon niet fietsen, omdat hij uit een klein dorp in de bergen
       kwam. Elke dag keek hij naar alle fietsers en hij was verdrietig.
-    image_prompt: Yusuf, a young man with curly black hair, round glasses and a yellow raincoat, stands sadly on a Dutch street
+    image_prompt: Daan, a young man with messy blond hair, round glasses and a yellow raincoat, stands sadly on a Dutch street
       corner while a cheerful crowd of cyclists passes by; grey sky, brick houses, one windmill in the background.
     questions:
     - key: s1q1
       kind: yes_no
-      prompt: Woonde Yusuf in Nederland?
+      prompt: Woonde Daan in Nederland?
       options: [ja, nee]
       answer: ja
       target: kon niet
     - key: s1q2
       kind: either_or
-      prompt: Kon Yusuf niet fietsen omdat hij uit de bergen kwam, of omdat hij te klein was?
+      prompt: Kon Daan niet fietsen omdat hij uit de bergen kwam, of omdat hij te klein was?
       options: [omdat hij uit de bergen kwam, omdat hij te klein was]
       answer: omdat hij uit de bergen kwam
       target: omdat
     - key: s1q3
       kind: who_what
       prompt: Wie keek elke dag naar de fietsers?
-      options: [Yusuf, de tante, de hond]
-      answer: Yusuf
+      options: [Daan, de tante, de hond]
+      answer: Daan
     - key: s1q4
       kind: yes_no
-      prompt: Was Yusuf blij?
+      prompt: Was Daan blij?
       options: [ja, nee]
       answer: nee
     glossary:
@@ -136,7 +136,7 @@ story:
       lemma: verdrietig
       level: A2
     voice:
-    - text: Yusuf woonde in Nederland, maar hij kon niet fietsen.
+    - text: Daan woonde in Nederland, maar hij kon niet fietsen.
       emotion: surprised
     - text: Hij kon niet fietsen, omdat hij uit een klein dorp in de bergen kwam.
       emotion: neutral
@@ -144,8 +144,8 @@ story:
       emotion: whisper
   - key: s2
     text: Op een ochtend belde zijn tante. 'Kom je naar mijn feest?' vroeg ze. 'Ja! Maar de bus rijdt vandaag niet, omdat
-      er een staking is,' zei Yusuf. Opeens moest hij fietsen, omdat hij een taart en een kast naar het feest moest brengen.
-    image_prompt: Yusuf with curly black hair, round glasses and yellow raincoat holds a phone in one hand and looks in panic
+      er een staking is,' zei Daan. Opeens moest hij fietsen, omdat hij een taart en een kast naar het feest moest brengen.
+    image_prompt: Daan with messy blond hair, round glasses and yellow raincoat holds a phone in one hand and looks in panic
       at a big chocolate cake and a wooden cupboard next to him in a small Dutch living room.
     questions:
     - key: s2q1
@@ -155,19 +155,19 @@ story:
       answer: zijn tante
     - key: s2q2
       kind: yes_no
-      prompt: Kon Yusuf niet met de bus, omdat er een staking was?
+      prompt: Kon Daan niet met de bus, omdat er een staking was?
       options: [ja, nee]
       answer: ja
       target: kon niet
     - key: s2q3
       kind: either_or
-      prompt: Moest Yusuf opeens fietsen of opeens slapen?
+      prompt: Moest Daan opeens fietsen of opeens slapen?
       options: [opeens fietsen, opeens slapen]
       answer: opeens fietsen
       target: opeens
     - key: s2q4
       kind: who_what
-      prompt: Wat moest Yusuf naar het feest brengen?
+      prompt: Wat moest Daan naar het feest brengen?
       options: [een taart en een kast, een taart en een bank, een tafel en een kast]
       answer: een taart en een kast
     glossary:
@@ -268,24 +268,24 @@ story:
       emotion: amused
     - text: '''Ja!'
       emotion: surprised
-    - text: Maar de bus rijdt vandaag niet, omdat er een staking is,' zei Yusuf.
+    - text: Maar de bus rijdt vandaag niet, omdat er een staking is,' zei Daan.
       emotion: angry
     - text: Opeens moest hij fietsen, omdat hij een taart en een kast naar het feest moest brengen.
       emotion: surprised
   - key: s3
-    text: Yusuf zette de taart op zijn hoofd en de kast op zijn rug. Hij ging op de fiets zitten, maar hij viel meteen in
-      een plas. Opeens begon het heel hard te regenen. Hij kon niet fietsen, omdat de kast duizend kilo was.
-    image_prompt: Yusuf with curly black hair, round glasses and yellow raincoat lies in a big puddle with a bicycle, a chocolate
+    text: Daan zette de taart op zijn hoofd en de kast op zijn rug. Hij ging op de fiets zitten, maar hij viel meteen in een
+      plas. Opeens begon het heel hard te regenen. Hij kon niet fietsen, omdat de kast duizend kilo was.
+    image_prompt: Daan with messy blond hair, round glasses and yellow raincoat lies in a big puddle with a bicycle, a chocolate
       cake on his head and a huge wooden cupboard on his back, heavy rain falling on a Dutch street.
     questions:
     - key: s3q1
       kind: yes_no
-      prompt: Zette Yusuf de taart op zijn hoofd?
+      prompt: Zette Daan de taart op zijn hoofd?
       options: [ja, nee]
       answer: ja
     - key: s3q2
       kind: either_or
-      prompt: Viel Yusuf meteen, of reed hij meteen weg?
+      prompt: Viel Daan meteen, of reed hij meteen weg?
       options: [hij viel meteen, hij reed meteen weg]
       answer: hij viel meteen
     - key: s3q3
@@ -296,8 +296,8 @@ story:
       target: opeens
     - key: s3q4
       kind: either_or
-      prompt: Kon Yusuf niet fietsen omdat de kast zwaar was, of omdat hij moe was?
-      options: [omdat de kast zwaar was, omdat hij moe was]
+      prompt: Kon Daan niet fietsen omdat hij moe was, of omdat de kast zwaar was?
+      options: [omdat hij moe was, omdat de kast zwaar was]
       answer: omdat de kast zwaar was
       target: omdat
     glossary:
@@ -389,7 +389,7 @@ story:
       lemma: zijn
       level: A1
     voice:
-    - text: Yusuf zette de taart op zijn hoofd en de kast op zijn rug.
+    - text: Daan zette de taart op zijn hoofd en de kast op zijn rug.
       emotion: amused
     - text: Hij ging op de fiets zitten, maar hij viel meteen in een plas.
       emotion: disgusted
@@ -398,9 +398,9 @@ story:
     - text: Hij kon niet fietsen, omdat de kast duizend kilo was.
       emotion: surprised
   - key: s4
-    text: Opeens kwam er een enorme hond aan met een klein hoedje op. De hond sprong op de kast en blafte heel hard. Yusuf
-      kon niet meer fietsen, omdat de hond te zwaar was. 'Help!' riep Yusuf, en de hond sprong weg met de taart.
-    image_prompt: A gigantic friendly dog wearing a tiny hat sits on top of the wooden cupboard on Yusuf's back while Yusuf,
+    text: Opeens kwam er een enorme hond aan met een klein hoedje op. De hond sprong op de kast en blafte heel hard. Daan
+      kon niet meer fietsen, omdat de hond te zwaar was. 'Help!' riep Daan, en de hond sprong weg met de taart.
+    image_prompt: A gigantic friendly dog wearing a tiny hat sits on top of the wooden cupboard on Daan's back while Daan,
       in his yellow raincoat and round glasses, tries to stay upright on a small bicycle in the rain.
     questions:
     - key: s4q1
@@ -416,8 +416,8 @@ story:
       answer: hij sprong op de kast
     - key: s4q3
       kind: either_or
-      prompt: Kon Yusuf niet meer fietsen omdat de hond te zwaar was, of omdat hij geen fiets had?
-      options: [omdat de hond te zwaar was, omdat hij geen fiets had]
+      prompt: Kon Daan niet meer fietsen omdat hij geen fiets had, of omdat de hond te zwaar was?
+      options: [omdat hij geen fiets had, omdat de hond te zwaar was]
       answer: omdat de hond te zwaar was
       target: kon niet
     - key: s4q4
@@ -515,14 +515,14 @@ story:
       emotion: surprised
     - text: De hond sprong op de kast en blafte heel hard.
       emotion: angry
-    - text: Yusuf kon niet meer fietsen, omdat de hond te zwaar was.
+    - text: Daan kon niet meer fietsen, omdat de hond te zwaar was.
       emotion: surprised
-    - text: '''Help!'' riep Yusuf, en de hond sprong weg met de taart.'
+    - text: '''Help!'' riep Daan, en de hond sprong weg met de taart.'
       emotion: surprised
   - key: s5
-    text: 'Nat en moe kwam Yusuf bij het feest. Zijn tante lachte: ''De hond heeft de taart al gebracht!'' De hele familie
-      kwam opeens ook op de fiets, met een kast in de hand. Yusuf kon niet stoppen met lachen, omdat hij eindelijk kon fietsen.'
-    image_prompt: Yusuf, soaking wet in his yellow raincoat with round glasses, laughs in a warm Dutch living room while a
+    text: 'Nat en moe kwam Daan bij het feest. Zijn tante lachte: ''De hond heeft de taart al gebracht!'' De hele familie
+      kwam opeens ook op de fiets, met een kast in de hand. Daan kon niet stoppen met lachen, omdat hij eindelijk kon fietsen.'
+    image_prompt: Daan, soaking wet in his yellow raincoat with round glasses, laughs in a warm Dutch living room while a
       whole family arrives through the door on bicycles, each carrying a cupboard, and the giant dog with the tiny hat eats
       cake.
     questions:
@@ -539,13 +539,13 @@ story:
       answer: de hond
     - key: s5q3
       kind: either_or
-      prompt: Kon Yusuf niet stoppen met lachen, of niet stoppen met huilen?
+      prompt: Kon Daan niet stoppen met lachen, of niet stoppen met huilen?
       options: [niet stoppen met lachen, niet stoppen met huilen]
       answer: niet stoppen met lachen
       target: kon niet
     - key: s5q4
       kind: either_or
-      prompt: Lachte Yusuf omdat hij eindelijk kon fietsen, of omdat de kast stuk was?
+      prompt: Lachte Daan omdat hij eindelijk kon fietsen, of omdat de kast stuk was?
       options: [omdat hij eindelijk kon fietsen, omdat de kast stuk was]
       answer: omdat hij eindelijk kon fietsen
       target: omdat
@@ -647,12 +647,12 @@ story:
       lemma: fietsen
       level: A2
     voice:
-    - text: Nat en moe kwam Yusuf bij het feest.
+    - text: Nat en moe kwam Daan bij het feest.
       emotion: sleepy
     - text: 'Zijn tante lachte: ''De hond heeft de taart al gebracht!'' De hele familie kwam opeens ook op de fiets, met een
         kast in de hand.'
       emotion: surprised
-    - text: Yusuf kon niet stoppen met lachen, omdat hij eindelijk kon fietsen.
+    - text: Daan kon niet stoppen met lachen, omdat hij eindelijk kon fietsen.
       emotion: amused
   core_words:
   - lemma: fietsen
@@ -683,5 +683,5 @@ generation:
   voice_input_tokens: 601
   voice_output_tokens: 1805
   localize_ar_version: localize-v2
-  localize_ar_input_tokens: 1119
-  localize_ar_output_tokens: 9994
+  localize_ar_input_tokens: 1374
+  localize_ar_output_tokens: 11522

@@ -89,7 +89,9 @@
     "ready": "Klaar voor {level}?",
     "readyHint": "Je hebt alle verhalen van {current} uitgespeeld.",
     "readyButton": "Naar {level}",
-    "allDone": "Je hebt alle verhalen uitgespeeld. Er komen er nieuwe bij."
+    "allDone": "Je hebt alle verhalen uitgespeeld. Er komen er nieuwe bij.",
+    "onlyYours": "Je ziet alleen verhalen en zinnen van jouw niveau. Wisselen kan altijd.",
+    "noneYet": "Nog geen verhalen op {level}. Ze komen eraan; de zinnen kun je al oefenen."
   },
   "story": {
     "loading": "Verhaal laden…",
@@ -119,7 +121,8 @@
     "lookups": {
       "one": "{n} opgezocht woord komt morgen terug in je herhaling.",
       "other": "{n} opgezochte woorden komen morgen terug in je herhaling."
-    }
+    },
+    "toStart": "Naar het begin"
   },
   "words": {
     "progress": "Woord {n} van {total}",

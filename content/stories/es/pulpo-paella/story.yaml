@@ -52,8 +52,8 @@ story:
       target: quiere
     - key: s1q2
       kind: either_or
-      prompt: ¿Paco es un pulpo o un gato?
-      options: [un pulpo, un gato]
+      prompt: ¿Paco es un gato o un pulpo?
+      options: [un gato, un pulpo]
       answer: un pulpo
     - key: s1q3
       kind: who_what
@@ -224,8 +224,8 @@ story:
       target: le gusta
     - key: s3q2
       kind: either_or
-      prompt: ¿Paco quiere mover el arroz o el fuego?
-      options: [el arroz, el fuego]
+      prompt: ¿Paco quiere mover el fuego o el arroz?
+      options: [el fuego, el arroz]
       answer: el arroz
       target: quiere
     - key: s3q3

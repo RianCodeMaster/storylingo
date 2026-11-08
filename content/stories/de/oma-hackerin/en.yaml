@@ -1,5 +1,6 @@
 # What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
-# hand are welcome (then: storylingo.py sync). scenes follow story.yaml in order.
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
 summary: Oma Hilde, 92, is secretly Germany's best hacker and changes the Wi-Fi code of the whole city, but then she forgets
   her own code.
 summary_source: 133ece3fde626b8a

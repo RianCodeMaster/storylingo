@@ -7,7 +7,7 @@ tags: [algemeen, dagelijks]
 brief:
   language: nl
   level: A1
-  theme: Fatima wil een nieuw paspoort halen bij de gemeente, maar ze kan het nummer niet vinden; haar kat Pluis heeft het
+  theme: Sanne wil een nieuw paspoort halen bij de gemeente, maar ze kan het nummer niet vinden; haar kat Pluis heeft het
     opgegeten
   scenes: 5
   targets:
@@ -24,9 +24,9 @@ brief:
     concept: have
     kind: word
 story:
-  title: Fatima, Pluis en het nummer
-  summary: Fatima wants a new passport, but her fat cat Pluis eats the number she needs — until Pluis burps it back up at
-    the town hall.
+  title: Sanne, Pluis en het nummer
+  summary: Sanne wants a new passport, but her fat cat Pluis eats the number she needs — until Pluis burps it back up at the
+    town hall.
   gestures:
   - concept: want
     description: Hug an enormous invisible cake to your chest, lean forward with hungry eyes and nod hard, like you really,
@@ -41,41 +41,41 @@ story:
     emoji: 🎁
   scenes:
   - key: s1
-    text: Fatima wil een nieuw paspoort. Ze wil naar de gemeente. Maar ze heeft een nummer nodig. Fatima heeft een klein papiertje
+    text: Sanne wil een nieuw paspoort. Ze wil naar de gemeente. Maar ze heeft een nummer nodig. Sanne heeft een klein papiertje
       met een nummer.
-    image_prompt: A cheerful young woman with a bright yellow headscarf, round glasses and a red coat stands in a small living
-      room, holding up a tiny white paper slip with a big happy smile. Next to her on a table sits a very fat grey tabby cat
-      with one white ear, watching her.
+    image_prompt: A cheerful young woman with curly red hair, round glasses and a red coat stands in a small living room,
+      holding up a tiny white paper slip with a big happy smile. Next to her on a table sits a very fat grey tabby cat with
+      one white ear, watching her.
     questions:
     - key: s1q1
       kind: yes_no
-      prompt: Wil Fatima een nieuw paspoort?
+      prompt: Wil Sanne een nieuw paspoort?
       options: [ja, nee]
       answer: ja
       target: wil
     - key: s1q2
       kind: either_or
-      prompt: Wil Fatima naar de gemeente of naar de bakker?
-      options: [naar de gemeente, naar de bakker]
+      prompt: Wil Sanne naar de bakker of naar de gemeente?
+      options: [naar de bakker, naar de gemeente]
       answer: naar de gemeente
       target: wil
     - key: s1q3
       kind: who_what
-      prompt: Wat heeft Fatima nodig?
+      prompt: Wat heeft Sanne nodig?
       options: [een nummer, een kat, een fiets]
       answer: een nummer
       target: heeft
     - key: s1q4
       kind: yes_no
-      prompt: Heeft Fatima een klein papiertje met een nummer?
+      prompt: Heeft Sanne een klein papiertje met een nummer?
       options: [ja, nee]
       answer: ja
       target: heeft
     - key: s1q5
       kind: who_what
       prompt: Wie wil een nieuw paspoort?
-      options: [Fatima, Pluis, de mevrouw]
-      answer: Fatima
+      options: [Sanne, Pluis, de mevrouw]
+      answer: Sanne
       target: wil
     glossary:
     - word: wil
@@ -118,47 +118,47 @@ story:
       lemma: met
       level: A1
     voice:
-    - text: Fatima wil een nieuw paspoort.
+    - text: Sanne wil een nieuw paspoort.
       emotion: neutral
     - text: Ze wil naar de gemeente.
       emotion: neutral
     - text: Maar ze heeft een nummer nodig.
       emotion: surprised
-    - text: Fatima heeft een klein papiertje met een nummer.
+    - text: Sanne heeft een klein papiertje met een nummer.
       emotion: amused
   - key: s2
-    text: Fatima zoekt in haar tas. Ze heeft een grote tas en een kleine jas. Fatima kan niet naar de gemeente. Ze kan niet
+    text: Sanne zoekt in haar tas. Ze heeft een grote tas en een kleine jas. Sanne kan niet naar de gemeente. Ze kan niet
       zonder nummer.
-    image_prompt: The same young woman with the yellow headscarf, round glasses and red coat digs frantically into a huge
-      green bag, pulling out a scarf, a banana and keys. Her small jacket hangs on a chair. The fat grey tabby cat with one
-      white ear sits calmly on the table.
+    image_prompt: The same young woman with the curly red hair, round glasses and red coat digs frantically into a huge green
+      bag, pulling out a scarf, a banana and keys. Her small jacket hangs on a chair. The fat grey tabby cat with one white
+      ear sits calmly on the table.
     questions:
     - key: s2q1
       kind: yes_no
-      prompt: Kan Fatima naar de gemeente?
+      prompt: Kan Sanne naar de gemeente?
       options: [ja, nee]
       answer: nee
       target: kan niet
     - key: s2q2
       kind: either_or
-      prompt: Zoekt Fatima in haar tas of in de koelkast?
-      options: [in haar tas, in de koelkast]
+      prompt: Zoekt Sanne in de koelkast of in haar tas?
+      options: [in de koelkast, in haar tas]
       answer: in haar tas
     - key: s2q3
       kind: who_what
-      prompt: Wat heeft Fatima?
+      prompt: Wat heeft Sanne?
       options: [een grote tas, een grote fiets, een grote taart]
       answer: een grote tas
       target: heeft
     - key: s2q4
       kind: either_or
-      prompt: Kan Fatima naar de gemeente of niet?
-      options: [Fatima kan niet naar de gemeente, Fatima kan wel naar de gemeente]
-      answer: Fatima kan niet naar de gemeente
+      prompt: Kan Sanne naar de gemeente of niet?
+      options: [Sanne kan niet naar de gemeente, Sanne kan wel naar de gemeente]
+      answer: Sanne kan niet naar de gemeente
       target: kan niet
     - key: s2q5
       kind: yes_no
-      prompt: Heeft Fatima een kleine jas?
+      prompt: Heeft Sanne een kleine jas?
       options: [ja, nee]
       answer: ja
       target: heeft
@@ -212,25 +212,25 @@ story:
       lemma: het nummer
       level: A2
     voice:
-    - text: Fatima zoekt in haar tas.
+    - text: Sanne zoekt in haar tas.
       emotion: neutral
     - text: Ze heeft een grote tas en een kleine jas.
       emotion: amused
-    - text: Fatima kan niet naar de gemeente.
+    - text: Sanne kan niet naar de gemeente.
       emotion: surprised
     - text: Ze kan niet zonder nummer.
       emotion: whisper
   - key: s3
-    text: Pluis de kat zit op de tafel. Pluis heeft een papiertje in zijn bek. Fatima wil het papiertje, maar Pluis wil het
-      niet geven. Fatima kan het niet pakken.
+    text: Pluis de kat zit op de tafel. Pluis heeft een papiertje in zijn bek. Sanne wil het papiertje, maar Pluis wil het
+      niet geven. Sanne kan het niet pakken.
     image_prompt: The fat grey tabby cat with one white ear sits on a wooden table with a small white paper slip sticking
-      out of its mouth, eyes wide and mischievous. The young woman in the yellow headscarf and red coat reaches out with both
+      out of its mouth, eyes wide and mischievous. The young woman with curly red hair and a red coat reaches out with both
       hands, shocked, mouth open.
     questions:
     - key: s3q1
       kind: who_what
       prompt: Wie zit op de tafel?
-      options: [Pluis, Fatima, de mevrouw]
+      options: [Pluis, Sanne, de mevrouw]
       answer: Pluis
     - key: s3q2
       kind: yes_no
@@ -240,13 +240,13 @@ story:
       target: heeft
     - key: s3q3
       kind: either_or
-      prompt: Wil Fatima het papiertje of wil ze een vis?
+      prompt: Wil Sanne het papiertje of wil ze een vis?
       options: [ze wil het papiertje, ze wil een vis]
       answer: ze wil het papiertje
       target: wil
     - key: s3q4
       kind: yes_no
-      prompt: Kan Fatima het papiertje pakken?
+      prompt: Kan Sanne het papiertje pakken?
       options: [ja, nee]
       answer: nee
       target: kan niet
@@ -310,15 +310,15 @@ story:
       emotion: amused
     - text: Pluis heeft een papiertje in zijn bek.
       emotion: surprised
-    - text: Fatima wil het papiertje, maar Pluis wil het niet geven.
+    - text: Sanne wil het papiertje, maar Pluis wil het niet geven.
       emotion: angry
-    - text: Fatima kan het niet pakken.
+    - text: Sanne kan het niet pakken.
       emotion: whisper
   - key: s4
-    text: Pluis eet het papiertje op. Fatima is heel boos. Ze wil huilen. Ze heeft nu geen nummer en ze kan niet naar de gemeente.
+    text: Pluis eet het papiertje op. Sanne is heel boos. Ze wil huilen. Ze heeft nu geen nummer en ze kan niet naar de gemeente.
     image_prompt: The fat grey tabby cat with one white ear gulps down the last corner of the white paper slip on the table,
-      looking smug. The young woman in the yellow headscarf and red coat throws her arms up in despair, big angry eyes, a
-      huge green bag fallen on the floor.
+      looking smug. The young woman with curly red hair and a red coat throws her arms up in despair, big angry eyes, a huge
+      green bag fallen on the floor.
     questions:
     - key: s4q1
       kind: who_what
@@ -327,24 +327,24 @@ story:
       answer: het papiertje
     - key: s4q2
       kind: yes_no
-      prompt: Is Fatima boos?
+      prompt: Is Sanne boos?
       options: [ja, nee]
       answer: ja
     - key: s4q3
       kind: who_what
-      prompt: Hoeveel nummers heeft Fatima nu?
+      prompt: Hoeveel nummers heeft Sanne nu?
       options: [geen nummer, duizend nummers, twee nummers]
       answer: geen nummer
       target: heeft
     - key: s4q4
       kind: yes_no
-      prompt: Kan Fatima naar de gemeente?
+      prompt: Kan Sanne naar de gemeente?
       options: [ja, nee]
       answer: nee
       target: kan niet
     - key: s4q5
       kind: either_or
-      prompt: Wil Fatima lachen of huilen?
+      prompt: Wil Sanne lachen of huilen?
       options: [ze wil huilen, ze wil lachen]
       answer: ze wil huilen
       target: wil
@@ -406,27 +406,27 @@ story:
     voice:
     - text: Pluis eet het papiertje op.
       emotion: disgusted
-    - text: Fatima is heel boos.
+    - text: Sanne is heel boos.
       emotion: angry
     - text: Ze wil huilen.
       emotion: whisper
     - text: Ze heeft nu geen nummer en ze kan niet naar de gemeente.
       emotion: surprised
   - key: s5
-    text: 'Fatima gaat toch naar de gemeente met Pluis. De mevrouw zegt: ''U heeft een kat?'' Dan doet Pluis ''boer'' en daar
-      is het nummer: 1000! De mevrouw lacht, en Fatima wil Pluis duizend vissen geven.'
-    image_prompt: At a town hall desk, the young woman in the yellow headscarf and red coat holds up the fat grey tabby cat
+    text: 'Sanne gaat toch naar de gemeente met Pluis. De mevrouw zegt: ''U heeft een kat?'' Dan doet Pluis ''boer'' en daar
+      is het nummer: 1000! De mevrouw lacht, en Sanne wil Pluis duizend vissen geven.'
+    image_prompt: At a town hall desk, the young woman with curly red hair and a red coat holds up the fat grey tabby cat
       with one white ear, who has a tiny paper slip flying out of its mouth with a big '1000' on it. The lady behind the desk
       laughs with her hand over her mouth.
     questions:
     - key: s5q1
       kind: who_what
       prompt: Wie gaat naar de gemeente?
-      options: [Fatima en Pluis, Fatima en de bakker, Pluis en de mevrouw]
-      answer: Fatima en Pluis
+      options: [Sanne en Pluis, Sanne en de bakker, Pluis en de mevrouw]
+      answer: Sanne en Pluis
     - key: s5q2
       kind: yes_no
-      prompt: Heeft Fatima een kat?
+      prompt: Heeft Sanne een kat?
       options: [ja, nee]
       answer: ja
       target: heeft
@@ -442,7 +442,7 @@ story:
       answer: boer
     - key: s5q5
       kind: yes_no
-      prompt: Wil Fatima Pluis duizend vissen geven?
+      prompt: Wil Sanne Pluis duizend vissen geven?
       options: [ja, nee]
       answer: ja
       target: wil
@@ -511,11 +511,11 @@ story:
       lemma: geven
       level: A1
     voice:
-    - text: Fatima gaat toch naar de gemeente met Pluis.
+    - text: Sanne gaat toch naar de gemeente met Pluis.
       emotion: neutral
     - text: 'De mevrouw zegt: ''U heeft een kat?'' Dan doet Pluis ''boer'' en daar is het nummer: 1000!'
       emotion: surprised
-    - text: De mevrouw lacht, en Fatima wil Pluis duizend vissen geven.
+    - text: De mevrouw lacht, en Sanne wil Pluis duizend vissen geven.
       emotion: amused
   core_words:
   - lemma: het paspoort
@@ -546,5 +546,5 @@ generation:
   voice_input_tokens: 481
   voice_output_tokens: 909
   localize_ar_version: localize-v2
-  localize_ar_input_tokens: 1170
-  localize_ar_output_tokens: 6016
+  localize_ar_input_tokens: 1023
+  localize_ar_output_tokens: 9930

@@ -145,8 +145,8 @@ story:
       target: konnte nicht
     - key: s2q3
       kind: either_or
-      prompt: Hatte Hugo Angst vor den Menschen oder vor dem Laptop?
-      options: [vor den Menschen, vor dem Laptop]
+      prompt: Hatte Hugo Angst vor dem Laptop oder vor den Menschen?
+      options: [vor dem Laptop, vor den Menschen]
       answer: vor den Menschen
       target: hatte Angst
     - key: s2q4

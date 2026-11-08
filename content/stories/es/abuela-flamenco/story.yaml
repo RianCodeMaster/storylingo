@@ -55,8 +55,8 @@ story:
       target: quería
     - key: s1q2
       kind: either_or
-      prompt: ¿Carmen tenía miedo del escenario o del gato?
-      options: [del escenario, del gato]
+      prompt: ¿Carmen tenía miedo del gato o del escenario?
+      options: [del gato, del escenario]
       answer: del escenario
       target: tenía miedo
     - key: s1q3
@@ -176,8 +176,8 @@ story:
       target: quería
     - key: s2q2
       kind: either_or
-      prompt: ¿Carmen tenía miedo de 1000 cosas o de 2 cosas?
-      options: [de 1000 cosas, de 2 cosas]
+      prompt: ¿Carmen tenía miedo de 2 cosas o de 1000 cosas?
+      options: [de 2 cosas, de 1000 cosas]
       answer: de 1000 cosas
       target: tenía miedo
     - key: s2q3

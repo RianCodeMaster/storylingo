@@ -41,17 +41,11 @@ function WhyItWorks() {
 /** The levels this edition has stories for, easiest first. */
 const levelsOf = (stories: StoryCard[]) => LEVELS.filter((l) => stories.some((s) => s.cefr_level === l));
 
-/** Where to begin at a level: its first story, else the first one above it, else the easiest. */
-function firstAt(stories: StoryCard[], level: string): StoryCard | undefined {
-  const rank = (l: string) => LEVELS.indexOf(l as Level);
-  return stories.find((s) => s.cefr_level === level) ?? stories.find((s) => rank(s.cefr_level) > rank(level)) ?? stories[0];
-}
-
 /**
  * An edition's home. A first visit (no enrollment yet) gets the welcome: who it is for, three pillars, how well the
- * learner knows the language, and one button straight into a story at that level. After that the learner lands on
- * their level, their next story and their stories grouped by level, and is offered the next level once they have
- * finished theirs. Levels are a suggestion, never a lock: every story stays open.
+ * learner knows the language (asked once), and one button straight into a story at that level. After that the
+ * learner sees only their own level: its next story, its stories and its phrases, and is offered the next level once
+ * they have finished it. Switching level by hand stays possible.
  */
 export default function Home() {
   const { lang, dict, fill, plural, edition, home } = useI18n();
@@ -104,12 +98,15 @@ export default function Home() {
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
   if (!stories || enrollment === undefined) return <main><p className="muted">{dict.common.loading}</p></main>;
 
-  const levels = levelsOf(stories);
+  // The levels this edition offers (content/editions/<slug>.yaml), else those it has stories for.
+  const offered = LEVELS.filter((l) => edition.stories.levels.includes(l));
+  const levels = offered.length ? offered : levelsOf(stories);
   const levelName = (l: string) => `${l} · ${dict.level.names[l as Level]}`;
 
   if (!enrollment) {
     const level = choice ?? levels[0] ?? "A1";
-    const first = firstAt(stories, level);
+    // Straight into a story at the chosen level; without one yet, to the start screen (the phrases are there).
+    const first = stories.find((s) => s.cefr_level === level);
     return (
       <main className="welcome">
         <p className="edition-name">{edition.name}</p>
@@ -120,21 +117,28 @@ export default function Home() {
           <li>🎤 {dict.welcome.pillars.speak}</li>
           <li>🔁 {dict.welcome.pillars.review}</li>
         </ul>
-        {first ? (
+        {stories.length > 0 ? (
           <>
             {levels.length > 1 && (
               <fieldset className="level-choice">
                 <legend>{dict.level.question}</legend>
                 {levels.map((l) => (
                   <button key={l} className={l === level ? "chosen" : ""} onClick={() => setChoice(l)}>
-                    {dict.level.options[l]}
+                    {dict.level.options[l]} <span className="muted small">{l}</span>
                   </button>
                 ))}
+                <p className="muted small">{dict.level.onlyYours}</p>
               </fieldset>
             )}
-            <Link className="cta" href={`${home}/story/${first.id}`} onClick={() => void choose(level)}>
-              {dict.welcome.start} <span className="arrow">→</span>
-            </Link>
+            {first ? (
+              <Link className="cta" href={`${home}/story/${first.id}`} onClick={() => void choose(level)}>
+                {dict.welcome.start} <span className="arrow">→</span>
+              </Link>
+            ) : (
+              <button className="cta" onClick={() => void choose(level)}>
+                {dict.welcome.start} <span className="arrow">→</span>
+              </button>
+            )}
             <p className="muted small">{dict.welcome.free}</p>
           </>
         ) : (
@@ -150,13 +154,13 @@ export default function Home() {
     );
   }
 
+  // Only the learner's own level is shown: its stories, its phrases. Once its stories are done, the next level that
+  // has stories is offered; switching by hand stays possible.
   const mine = enrollment.level;
-  const unfinished = stories.find((s) => !finished.has(s.id));
-  const higher = levels.find((l) => LEVELS.indexOf(l) > LEVELS.indexOf(mine as Level));
-  // First an open story at the learner's level; once those are done the next level is offered; at the top level the
-  // stories still open below come next.
-  const atLevel = stories.find((s) => s.cefr_level === mine && !finished.has(s.id));
-  const next = atLevel ?? (higher ? undefined : unfinished);
+  const group = stories.filter((s) => s.cefr_level === mine);
+  const done = group.filter((s) => finished.has(s.id)).length;
+  const next = group.find((s) => !finished.has(s.id));
+  const higher = levelsOf(stories).find((l) => LEVELS.indexOf(l) > LEVELS.indexOf(mine as Level));
 
   return (
     <main>
@@ -199,6 +203,8 @@ export default function Home() {
           <strong dir="ltr">{next.title}</strong>
           {next.summary && <span className="muted">{next.summary}</span>}
         </Link>
+      ) : group.length === 0 ? (
+        <p className="card">{fill(dict.level.noneYet, { level: levelName(mine) })}</p>
       ) : higher ? (
         <div className="card next-story">
           <strong>{fill(dict.level.ready, { level: levelName(higher) })}</strong>
@@ -208,33 +214,23 @@ export default function Home() {
           </button>
         </div>
       ) : (
-        !unfinished && stories.length > 0 && <p className="muted">{dict.level.allDone}</p>
+        <p className="muted">{dict.level.allDone}</p>
       )}
 
-      {stories.length === 0 && <p className="muted">{dict.welcome.soon}</p>}
-      {levels.map((l) => {
-        const group = stories.filter((s) => s.cefr_level === l);
-        const done = group.filter((s) => finished.has(s.id)).length;
-        return (
-          <section key={l} className={`level-group ${l === mine ? "current" : ""}`}>
-            <h2>
-              {levelName(l)} <span className="muted small">{fill(dict.level.progress, { done, total: group.length })}</span>
-            </h2>
-            {group.map((s) => (
-              <Link key={s.id} href={`${home}/story/${s.id}`} className="card">
-                <div className="row">
-                  <span className="badge">
-                    {s.language_code.toUpperCase()} {s.cefr_level}
-                  </span>
-                  {finished.has(s.id) && <span className="muted">{dict.home.finished}</span>}
-                </div>
-                <strong dir="ltr">{s.title}</strong>
-                {s.summary && <span className="muted">{s.summary}</span>}
-              </Link>
-            ))}
-          </section>
-        );
-      })}
+      {group.length > 0 && (
+        <section className="level-group current">
+          <h2>
+            {levelName(mine)} <span className="muted small">{fill(dict.level.progress, { done, total: group.length })}</span>
+          </h2>
+          {group.map((s) => (
+            <Link key={s.id} href={`${home}/story/${s.id}`} className="card">
+              {finished.has(s.id) && <span className="muted small">{dict.home.finished}</span>}
+              <strong dir="ltr">{s.title}</strong>
+              {s.summary && <span className="muted">{s.summary}</span>}
+            </Link>
+          ))}
+        </section>
+      )}
       <WhyItWorks />
     </main>
   );

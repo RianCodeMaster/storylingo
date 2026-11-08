@@ -1,5 +1,6 @@
 # What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
-# hand are welcome (then: storylingo.py sync). scenes follow story.yaml in order.
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
 summary: تقع الطابعة كلاوس في حب آلة القهوة كيكي، فتطبع ألف رسالة حب، ويريد مدير النظام استبدالها، لكن لكيكي خططًا أخرى.
 summary_source: 9f31d5b98ae940fe
 gestures:

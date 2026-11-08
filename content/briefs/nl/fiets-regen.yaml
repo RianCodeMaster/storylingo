@@ -3,7 +3,7 @@ slug: fiets-regen
 language: nl
 level: A2
 tags: [algemeen, dagelijks]
-theme: Yusuf kon niet fietsen, maar in Nederland doet iedereen alles op de fiets; opeens moet hij met een taart en een kast door de regen fietsen omdat de bus staakt
+theme: Daan kon niet fietsen, maar in Nederland doet iedereen alles op de fiets; opeens moet hij met een taart en een kast door de regen fietsen omdat de bus staakt
 scenes: 5
 targets:
   - {text: kon niet, gloss: could not, concept: cannot, kind: phrase}

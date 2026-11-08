@@ -52,8 +52,8 @@ story:
       answer: Ja
     - key: s1q2
       kind: either_or
-      prompt: Wilde Omar naar de huisarts of naar de bakker?
-      options: [naar de huisarts, naar de bakker]
+      prompt: Wilde Omar naar de bakker of naar de huisarts?
+      options: [naar de bakker, naar de huisarts]
       answer: naar de huisarts
       target: wilde
     - key: s1q3
@@ -269,8 +269,8 @@ story:
       answer: Ja
     - key: s3q2
       kind: either_or
-      prompt: Was Omar bang of was Omar boos?
-      options: [bang, boos]
+      prompt: Was Omar boos of was Omar bang?
+      options: [boos, bang]
       answer: bang
       target: was bang
     - key: s3q3

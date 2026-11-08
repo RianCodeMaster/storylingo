@@ -63,16 +63,19 @@ export const phrases = (language: string) => LANGUAGES[language].teacher!;
 // Raise when the clips are made again (storylingo.py feedback), so browsers fetch the new files.
 const FEEDBACK_VERSION = 5;
 
-/** React to an answer in the story's native voice; the browser voice only if the clip is missing. Returns the line. */
-export function feedback(correct: boolean, language: string): string {
+/**
+ * React to an answer in the story's native voice; the browser voice only if the clip is missing. Returns the line.
+ * `onEnd` runs once the reaction has been said in full (to move on without cutting the teacher off).
+ */
+export function feedback(correct: boolean, language: string, onEnd?: () => void): string {
   const lines = correct ? phrases(language).yes : phrases(language).no;
   const n = Math.floor(Math.random() * lines.length);
   const url = `${publicFile(`feedback/${language}/${correct ? "yes" : "no"}-${n + 1}.mp3`)}?v=${FEEDBACK_VERSION}`;
   stopSpeaking();
   player ??= new Audio();
-  player.onended = null;
+  player.onended = onEnd ?? null;
   player.src = url;
-  player.play().catch(() => speak(lines[n], language, correct ? "cheer" : "oops"));
+  player.play().catch(() => speak(lines[n], language, correct ? "cheer" : "oops", onEnd));
   return lines[n];
 }
 

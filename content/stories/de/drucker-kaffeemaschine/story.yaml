@@ -54,8 +54,8 @@ story:
       answer: Ja
     - key: s1q2
       kind: either_or
-      prompt: 'Was ist Klaus: ein Drucker oder eine Kaffeemaschine?'
-      options: [ein Drucker, eine Kaffeemaschine]
+      prompt: 'Was ist Klaus: eine Kaffeemaschine oder ein Drucker?'
+      options: [eine Kaffeemaschine, ein Drucker]
       answer: ein Drucker
     - key: s1q3
       kind: who_what

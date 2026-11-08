@@ -460,8 +460,8 @@ story:
       target: no podía
     - key: s5q3
       kind: either_or
-      prompt: ¿Pepito fue a casa o fue a la playa?
-      options: [fue a casa, fue a la playa]
+      prompt: ¿Pepito fue a la playa o fue a casa?
+      options: [fue a la playa, fue a casa]
       answer: fue a casa
       target: fue a
     - key: s5q4

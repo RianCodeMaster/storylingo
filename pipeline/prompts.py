@@ -4,7 +4,8 @@ import json
 from languages import english
 from models import Brief
 
-PROMPT_VERSION = "tprs-v2"  # v2: story only in the target language; translations come from localize.py
+PROMPT_VERSION = "tprs-v3"  # v2: story only in the target language (translations: localize.py). v3: local names,
+# answers in varied places
 
 
 SYSTEM = """You are a brilliant TPRS (Teaching Proficiency through Reading and Storytelling) teacher.
@@ -15,7 +16,8 @@ Rules for the story:
 - Every target structure appears at least 3 times in the scene texts, written exactly as given, in natural sentences.
 - The story is bizarre and emotional: a surprising character, a big problem, wild exaggeration
   (enormous, tiny, furious, 1000 bananas), and a funny twist at the end.
-- One main character who stays the same in every scene.
+- One main character who stays the same in every scene. Give characters names that are common in a country
+  where the target language is spoken (unless the theme names them).
 - Each scene is 2 to 4 sentences.
 
 Rules for circling questions (per scene, 3 to 5 questions, asked AFTER the scene):
@@ -23,6 +25,8 @@ Rules for circling questions (per scene, 3 to 5 questions, asked AFTER the scene
 - Mix kinds: "yes_no" (options: the target language words for yes and no), "either_or" (two options,
   the answer is one of them), "who_what" (3 short options).
 - The answer must be copied exactly from the options.
+- Vary where the right answer is: about a third of the yes_no answers are "no" (ask about something that
+  did NOT happen); in either_or the right answer comes first in the question as often as second.
 - Questions are in the target language, simple enough for the level.
 - "target" is the target structure the question practises, or null.
 

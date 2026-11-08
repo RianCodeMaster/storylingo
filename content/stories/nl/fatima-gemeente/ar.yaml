@@ -1,8 +1,8 @@
 # What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
 # hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
 # translated from (source): when that scene changes, localize translates it again.
-summary: فاطمة تريد جواز سفر جديدًا، لكن قطتها السمينة بلويس تأكل الرقم المهم، ثم تُخرجه بتجشؤ في البلدية.
-summary_source: 8a15e78c0c91ed65
+summary: سانِه تريد جواز سفر جديدًا، لكن قِطَّتها السمينة «بلاوس» تأكل الرقم الذي تحتاجه، ثم تُخرجه بتجشؤ في البلدية.
+summary_source: 34ed383b12ed2ff8
 gestures:
   want: اِحضن كعكة خيالية كبيرة إلى صدرك، وانحنِ للأمام بعينين جائعتين ووافق برأسك بقوة، كأنك تريدها حقًا.
   cannot: هُزّ يديك المفتوحتين أمام صدرك بحركات سريعة «لا لا لا»، وانفخ خديك، ثم أسقط ذراعيك كأنهما كيسان ثقيلان.
@@ -19,29 +19,29 @@ targets:
     note: للملكية في العربية «لدى/عند»، وفي الهولندية فعل مستقل.
 scenes:
 - key: s1
-  source: 50ab9cf754f4ea34
-  translation: فاطمة تريد جواز سفر جديدًا. تريد الذهاب إلى البلدية. لكنها تحتاج رقمًا. لدى فاطمة ورقة صغيرة عليها رقم.
+  source: a25cceacc4404b2b
+  translation: سانِه تريد جواز سفر جديدًا. تريد أن تذهب إلى البلدية. لكنها تحتاج إلى رقم. عند سانِه ورقة صغيرة فيها رقم.
   glosses:
     wil: تريد
-    nieuw: جديدًا
+    nieuw: جديد
     paspoort: جواز سفر
     Ze: هي
     naar: إلى
     gemeente: البلدية
     Maar: لكن
     heeft: لديها
-    nummer: رقمًا
-    nodig: محتاجة إليه
-    klein: صغيرة
+    nummer: رقم
+    nodig: تحتاج إليه
+    klein: صغير
     papiertje: ورقة صغيرة
-    met: عليها
+    met: فيها
 - key: s2
-  source: bb048f41f040a7f2
-  translation: تبحث فاطمة في حقيبتها. لديها حقيبة كبيرة ومعطف صغير. لا تستطيع فاطمة الذهاب إلى البلدية. لا تستطيع بدون رقم.
+  source: bdf6aa0505e3cb10
+  translation: سانِه تبحث في حقيبتها. لديها حقيبة كبيرة ومعطف صغير. لا تستطيع سانِه الذهاب إلى البلدية. لا تستطيع من دون رقم.
   glosses:
     zoekt: تبحث
     in: في
-    haar: الخاصة بها
+    haar: ملكها
     tas: حقيبة
     Ze: هي
     heeft: لديها
@@ -56,34 +56,34 @@ scenes:
     zonder: بدون
     nummer: رقم
 - key: s3
-  source: 780a566e83c0d018
-  translation: القطة بلويس تجلس على الطاولة. في فم بلويس ورقة صغيرة. تريد فاطمة الورقة، لكن بلويس لا يريد إعطاءها. لا تستطيع
-    فاطمة أخذها.
+  source: e55e9d4a27cb5fe9
+  translation: القطة بلاوس تجلس على الطاولة. في فم بلاوس ورقة صغيرة. سانِه تريد الورقة، لكن بلاوس لا تريد أن تعطيها. سانِه
+    لا تستطيع أخذها.
   glosses:
-    kat: القطة
+    kat: قطة
     zit: تجلس
     op: على
-    tafel: الطاولة
-    heeft: لديها
+    tafel: طاولة
+    heeft: لديه
     papiertje: ورقة صغيرة
     in: في
     zijn: خاصته
-    bek: فم
-    wil: يريد/تريد
+    bek: فم (حيوان)
+    wil: تريد
     maar: لكن
-    het: إياه
+    het: إياها
     niet: لا
-    geven: يعطي
+    geven: تعطي
     kan: تستطيع
     pakken: تأخذ
 - key: s4
-  source: 9e873867121471ff
-  translation: تأكل بلويس الورقة تمامًا. فاطمة غاضبة جدًا. تريد أن تبكي. ليس لديها الآن رقم، ولا تستطيع الذهاب إلى البلدية.
+  source: a40523e51dbca6b2
+  translation: بلاوس تأكل الورقة. سانِه غاضبة جدًا. تريد أن تبكي. الآن ليس لديها رقم، ولا تستطيع الذهاب إلى البلدية.
   glosses:
     eet: تأكل
-    papiertje: الورقة الصغيرة
+    papiertje: الورقة
     op: تمامًا
-    is: تكون
+    is: هي
     heel: جدًا
     boos: غاضبة
     Ze: هي
@@ -99,12 +99,12 @@ scenes:
     naar: إلى
     gemeente: البلدية
 - key: s5
-  source: d6d1c2c75cfceaf6
-  translation: 'تذهب فاطمة مع بلويس إلى البلدية رغم ذلك. تقول السيدة: «لديك قطة؟» ثم تتجشأ بلويس، وها هو الرقم: 1000! تضحك
-    السيدة، وتريد فاطمة أن تعطي بلويس ألف سمكة.'
+  source: efecad50bb0054d5
+  translation: 'سانِه تذهب مع ذلك إلى البلدية مع بلاوس. تقول السيدة: «لديك قطة؟» ثم تُصدر بلاوس تجشؤًا، وها هو الرقم: 1000!
+    تضحك السيدة، وتريد سانِه أن تعطي بلاوس ألف سمكة.'
   glosses:
     gaat: تذهب
-    toch: رغم ذلك
+    toch: مع ذلك
     naar: إلى
     gemeente: البلدية
     met: مع
@@ -118,11 +118,11 @@ scenes:
     boer: تجشؤ
     en: و
     daar: هناك
-    is: هو
+    is: يوجد
     nummer: الرقم
     lacht: تضحك
     wil: تريد
-    vissen: أسماكًا
+    vissen: أسماك
     geven: تعطي
 words:
   het paspoort: جواز السفر

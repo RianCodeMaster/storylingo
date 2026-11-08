@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { advance, Circling, start } from "@/lib/circling";
 import { useDevActions } from "@/lib/devtools";
@@ -27,6 +28,27 @@ type Heard = { text: string; matched: boolean };
 const msSince = (moment: number) => Date.now() - moment;
 
 const VOICE_KEY = "storylingo.voice";
+
+/**
+ * The options in a mixed order, so the right one is not always first (stories often list it first). The order comes
+ * from the question's id, so it stays the same while the learner looks at it. Yes/no keep their natural order.
+ */
+function mixed(question: Question): string[] {
+  if (question.kind === "yes_no") return question.options;
+  const rank = (option: string) => {
+    let h = 0;
+    for (const c of question.id + option) h = (Math.imul(h, 31) + c.charCodeAt(0)) | 0;
+    return h;
+  };
+  return [...question.options].sort((a, b) => rank(a) - rank(b));
+}
+
+/** At most this long the teacher's reaction may take before moving on anyway (a clip that never ends). */
+const REACTION_MAX_MS = 6000;
+/** A short breath after the reaction, before the next question starts. */
+const AFTER_REACTION_MS = 500;
+/** How long the end of a story stays on screen before going back to the start screen. */
+const DONE_MS = 5000;
 
 function QuestionView(props: {
   label: string;
@@ -59,7 +81,7 @@ function QuestionView(props: {
         <button onClick={() => narrate(question.audio_url, question.prompt, props.lang)}>{dict.common.again}</button>
       </div>
       <div className="row" dir="ltr">
-        {question.options.map((option) => (
+        {mixed(question).map((option) => (
           <button
             key={option}
             className={`option ${picked && option === question.answer ? "correct" : ""} ${
@@ -108,6 +130,7 @@ function QuestionView(props: {
 export default function Player({ story, userId, onRestart }: { story: Story; userId: string; onRestart: () => void }) {
   // `base` is the learner's language (texts around the story), `lang` below the story's own language.
   const { dict, fill, plural, home, edition } = useI18n();
+  const router = useRouter();
   const [phase, setPhase] = useState<Phase>({ kind: story.words.length ? "words" : "intro" });
   const [line, setLine] = useState<string | null>(null);
   // A session starts when the learner presses "Begin", so just opening a story leaves no empty sessions.
@@ -263,9 +286,14 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
     circleBack.current = !correct && !repeated.current.has(question.id);
     if (circleBack.current) repeated.current.add(question.id);
     // Keep the pace up: after a right answer, move on by itself.
-    if (correct) autoNext.current = setTimeout(() => nextRef.current(), 1600);
+    // Only once the teacher has said the whole reaction (or after REACTION_MAX_MS if the clip never ends).
+    const moveOn = () => {
+      if (autoNext.current) clearTimeout(autoNext.current);
+      autoNext.current = setTimeout(() => nextRef.current(), AFTER_REACTION_MS);
+    };
+    if (correct) autoNext.current = setTimeout(() => nextRef.current(), REACTION_MAX_MS);
     setScore((s) => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
-    setLine(feedback(correct, lang));
+    setLine(feedback(correct, lang, correct ? moveOn : undefined));
     if (question.lexeme_id) {
       const r = results.current.get(question.lexeme_id) ?? { seen: 0, correct: 0 };
       results.current.set(question.lexeme_id, { seen: r.seen + 1, correct: r.correct + (correct ? 1 : 0) });
@@ -338,6 +366,13 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
     setPhase({ kind: shadowLines.length ? "shadow" : "done" });
     if (sessionId) finishSession(sessionId, userId, results.current).catch((e) => setError(e.message));
   }
+
+  // A finished story goes back to the start screen by itself, after a moment to see the score.
+  useEffect(() => {
+    if (phase.kind !== "done") return;
+    const back = setTimeout(() => router.push(home), DONE_MS);
+    return () => clearTimeout(back);
+  }, [phase, router, home]);
 
   // Timers and the microphone call back later: they must use the latest functions, not those of an old render.
   const nextRef = useRef(next);
@@ -446,12 +481,12 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
             ))}
           </div>
           {lookups > 0 && <p className="muted">{plural(dict.story.lookups, lookups)}</p>}
-          <button className="primary" onClick={onRestart}>
+          <Link href={home} className="cta">
+            {dict.story.toStart} <span className="arrow">→</span>
+          </Link>
+          <button className="link muted" onClick={onRestart}>
             {dict.story.playAgain}
           </button>
-          <Link href={home} className="muted">
-            {dict.common.back}
-          </Link>
         </div>
       )}
 
