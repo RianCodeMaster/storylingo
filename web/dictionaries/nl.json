@@ -16,8 +16,10 @@
     },
     "dueHint": "Even herhalen voordat je een nieuw verhaal begint.",
     "empty": "Nog geen gepubliceerde verhalen.",
-    "finished": "✓ Uitgespeeld · tik om opnieuw te doen",
-    "yourStories": "Jouw verhalen"
+    "finished": "✓ Uitgespeeld",
+    "yourStories": "Jouw verhalen",
+    "continue": "Verder met",
+    "play": "▶ Start"
   },
   "welcome": {
     "start": "Begin je eerste verhaal",
@@ -179,5 +181,19 @@
     "again": "Wist ik niet",
     "hard": "Twijfel",
     "good": "Wist ik"
+  },
+  "nav": {
+    "home": "Naar het begin",
+    "stop": "Stoppen"
+  },
+  "tiles": {
+    "stories": "Verhalen",
+    "words": "Woorden",
+    "count": "{done} van {total}",
+    "due": {
+      "one": "{n} om te herhalen",
+      "other": "{n} om te herhalen"
+    },
+    "upToDate": "Klaar ✓"
   }
 }

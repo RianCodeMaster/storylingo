@@ -17,7 +17,12 @@ interface SceneRow {
   questions: (Omit<Question, "audio_url"> & { audio: AssetRef })[];
 }
 
-interface Row extends Omit<StoryCard, "summary"> {
+interface CardRow extends Omit<StoryCard, "summary" | "cover"> {
+  story_localizations: { summary: string | null }[];
+  scenes: { image: AssetRef }[];
+}
+
+interface Row extends Omit<StoryCard, "summary" | "cover"> {
   story_localizations: { summary: string | null }[];
   story_targets: {
     lexemes: One<{
@@ -40,16 +45,25 @@ interface Row extends Omit<StoryCard, "summary"> {
 export async function listStories(edition: Edition): Promise<StoryCard[]> {
   const { data, error } = await supabase()
     .from("stories")
-    .select("id, title, cefr_level, language_code, story_localizations!inner ( summary )")
+    .select(
+      `id, title, cefr_level, language_code, story_localizations!inner ( summary ),
+       scenes ( position, image:assets!image_asset_id ( id, storage_path ) )`,
+    )
     .eq("story_localizations.base_language", edition.base)
     .eq("language_code", edition.target)
     .overlaps("tags", edition.stories.tags)
     .in("cefr_level", edition.stories.levels)
     .order("cefr_level")
     .order("published_at")
-    .returns<Row[]>();
+    .order("position", { referencedTable: "scenes" })
+    .limit(1, { referencedTable: "scenes" })
+    .returns<CardRow[]>();
   if (error) throw error;
-  return data.map(({ story_localizations, ...s }) => ({ ...s, summary: story_localizations[0]?.summary ?? null }));
+  return data.map(({ story_localizations, scenes, ...s }) => ({
+    ...s,
+    summary: story_localizations[0]?.summary ?? null,
+    cover: assetUrl(scenes[0]?.image ?? null),
+  }));
 }
 
 /** The stories this learner has played to the end at least once. */

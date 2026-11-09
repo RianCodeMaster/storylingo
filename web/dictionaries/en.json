@@ -16,8 +16,10 @@
     },
     "dueHint": "A quick review before you start a new story.",
     "empty": "No published stories yet.",
-    "finished": "✓ Finished · tap to play again",
-    "yourStories": "Your stories"
+    "finished": "✓ Finished",
+    "yourStories": "Your stories",
+    "continue": "Continue with",
+    "play": "▶ Start"
   },
   "welcome": {
     "start": "Start your first story",
@@ -179,5 +181,19 @@
     "again": "Didn't know",
     "hard": "Unsure",
     "good": "Knew it"
+  },
+  "nav": {
+    "home": "To the start",
+    "stop": "Stop"
+  },
+  "tiles": {
+    "stories": "Stories",
+    "words": "Words",
+    "count": "{done} of {total}",
+    "due": {
+      "one": "{n} to review",
+      "other": "{n} to review"
+    },
+    "upToDate": "All done ✓"
   }
 }

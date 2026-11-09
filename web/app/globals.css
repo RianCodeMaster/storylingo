@@ -389,7 +389,10 @@ button.link {
   gap: 8px;
 }
 
-a.cta {
+.cta {
+  width: 100%;
+  border: none;
+  cursor: pointer;
   display: block;
   text-align: center;
   background: var(--primary);
@@ -556,4 +559,259 @@ button.chosen-level {
 
 .review-word.answer {
   color: var(--primary);
+}
+
+/* ── Start screen: the level as a pill, one big card for the next story, a tile per part of the app ── */
+.dash {
+  gap: 20px;
+}
+
+.dash-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.level-chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* The phone's own picker opens when the pill is tapped. */
+.level-chip select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hero {
+  position: relative;
+  display: block;
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.hero-body {
+  padding: 16px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hero-label {
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero strong {
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.hero-summary {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.hero-play {
+  align-self: flex-start;
+  margin-top: 8px;
+  background: var(--primary);
+  color: var(--bg);
+  font-weight: 800;
+  padding: 10px 24px;
+  border-radius: 999px;
+}
+
+.hero-plain {
+  border-radius: 24px;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 124px;
+  padding: 16px 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.tile-icon {
+  font-size: 1.9rem;
+  margin-bottom: auto;
+}
+
+.tile strong {
+  font-size: 1rem;
+}
+
+.tile-sub {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
+/* Words waiting for review: a red count on the tile, like an app icon. */
+.tile-dot {
+  position: absolute;
+  top: 10px;
+  inset-inline-end: 10px;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: var(--wrong);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.hero:hover,
+.tile:hover,
+.story-row:hover {
+  border-color: var(--primary);
+}
+
+.hero:active,
+.tile:active,
+.story-row:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 340px) {
+  .tiles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ── Sections: one round back button to the start screen and the section's name ── */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar h1 {
+  font-size: 1.35rem;
+}
+
+.topbar-back {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.story-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.story-row img,
+.story-row-blank {
+  flex-shrink: 0;
+  width: 84px;
+  height: 84px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+  background: var(--border);
+  font-size: 2rem;
+}
+
+.story-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.story-row .small {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.done-mark {
+  color: var(--primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* In a story: a small ✕ to stop, beside the progress bar. */
+.player-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.player-top .progress {
+  flex: 1;
+}
+
+.player-close {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 1.1rem;
 }

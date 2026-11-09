@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useDevActions } from "@/lib/devtools";
 import { getEnrollment } from "@/lib/enrollment";
@@ -10,6 +9,7 @@ import { type Grade, NEW_STATE, nextState, saveGrade, type SrsState } from "@/li
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner, supabase } from "@/lib/supabase";
 import { GRADES } from "./Review";
+import TopBar from "./TopBar";
 
 const BATCH = 10;
 // The phrases section goes up to B1 (content/phrases/<language>/A1|A2|B1.yaml).
@@ -116,7 +116,7 @@ function Practice({ batch, lang, direction, onDone }: { batch: PhraseCard[]; lan
 
 /** The phrases section of an edition at the learner's level: how far they are, and ten new phrases at a time. */
 export default function Phrases() {
-  const { lang, dict, fill, edition, home } = useI18n();
+  const { lang, dict, fill, edition } = useI18n();
   const [level, setLevel] = useState<string | null>(null);
   const [direction, setDirection] = useState<Direction>("understand");
   const [phrases, setPhrases] = useState<PhraseCard[] | null>(null);
@@ -170,6 +170,7 @@ export default function Phrases() {
   if (batch) {
     return (
       <main>
+        <TopBar title={dict.phrases.title} />
         <Practice batch={batch} lang={edition.target} direction={direction} onDone={() => setBatch(null)} />
       </main>
     );
@@ -179,8 +180,7 @@ export default function Phrases() {
   const done = (phrases?.length ?? 0) - fresh.length;
   return (
     <main>
-      <p className="edition-name">{edition.name}</p>
-      <h1>{dict.phrases.title}</h1>
+      <TopBar title={dict.phrases.title} />
       <p className="muted">{dict.phrases.intro}</p>
       {/* Only the learner's level (chosen once, changed on the start screen): no choosing here. */}
       {level && (
@@ -212,9 +212,6 @@ export default function Phrases() {
           )}
         </div>
       )}
-      <Link href={home} className="muted">
-        {dict.common.back}
-      </Link>
     </main>
   );
 }

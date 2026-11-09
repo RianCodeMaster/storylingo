@@ -1,11 +1,11 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { type Grade, loadDue, nextState, type ReviewCard, saveGrade } from "@/lib/review";
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner } from "@/lib/supabase";
+import TopBar from "./TopBar";
 
 /** The three answers to "did you know it?", shared with the phrases section. */
 export const GRADES: { grade: Grade; className: string }[] = [
@@ -30,7 +30,7 @@ function Context({ card }: { card: ReviewCard }) {
 }
 
 export default function Review() {
-  const { lang, dict, fill, edition, home } = useI18n();
+  const { lang, dict, fill, edition } = useI18n();
   const [userId, setUserId] = useState<string | null>(null);
   const [queue, setQueue] = useState<ReviewCard[] | null>(null);
   const [index, setIndex] = useState(0);
@@ -64,11 +64,7 @@ export default function Review() {
     setIndex((i) => i + 1);
   }
 
-  const back = (
-    <Link href={home} className="muted">
-      {dict.common.back}
-    </Link>
-  );
+  const bar = <TopBar title={dict.tiles.words} />;
 
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
   if (!queue) return <main><p className="muted">{dict.review.loading}</p></main>;
@@ -76,12 +72,11 @@ export default function Review() {
   if (queue.length === 0) {
     return (
       <main>
-        <h1>{dict.review.title}</h1>
+        {bar}
         <div className="card">
           <p className="story-text">{dict.review.nothing}</p>
           <p className="muted">{dict.review.nothingHint}</p>
         </div>
-        {back}
       </main>
     );
   }
@@ -89,18 +84,19 @@ export default function Review() {
   if (!card) {
     return (
       <main>
-        <h1>{dict.review.done}</h1>
+        {bar}
+        <h2>{dict.review.done}</h2>
         <div className="card">
           <p className="story-text">{fill(dict.review.tally, tally)}</p>
           <p className="muted">{dict.review.doneHint}</p>
         </div>
-        {back}
       </main>
     );
   }
 
   return (
     <main>
+      {bar}
       <div className="progress">
         <div style={{ width: `${(index / queue.length) * 100}%` }} />
       </div>

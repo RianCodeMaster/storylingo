@@ -73,4 +73,5 @@ export interface StoryCard {
   summary: string | null;
   cefr_level: string;
   language_code: string;
+  cover: string | null; // the picture of the first scene
 }

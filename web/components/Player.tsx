@@ -384,8 +384,14 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
 
   return (
     <main>
-      <div className="progress">
-        <div style={{ width: `${progress * 100}%` }} />
+      {/* Stop at any moment: back to the start screen (what was answered so far is saved). */}
+      <div className="player-top">
+        <Link href={home} className="player-close" aria-label={dict.nav.stop}>
+          ✕
+        </Link>
+        <div className="progress">
+          <div style={{ width: `${progress * 100}%` }} />
+        </div>
       </div>
       {error && <p className="card">{fill(dict.story.saveFailed, { error })}</p>}
       {skipNote && <p className="skip-note">{skipNote}</p>}

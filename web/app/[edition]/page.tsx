@@ -41,11 +41,34 @@ function WhyItWorks() {
 /** The levels this edition has stories for, easiest first. */
 const levelsOf = (stories: StoryCard[]) => LEVELS.filter((l) => stories.some((s) => s.cefr_level === l));
 
+/** The learner's level as a small pill; tapping it opens the phone's own list to switch. */
+function LevelChip(props: { levels: readonly string[]; mine: string; name: (l: string) => string; onChoose: (l: string) => void }) {
+  const { dict } = useI18n();
+  return (
+    <label className="level-chip">
+      {props.name(props.mine)}
+      {props.levels.length > 1 && (
+        <>
+          <span aria-hidden> ▾</span>
+          <select aria-label={dict.level.change} value={props.mine} onChange={(e) => props.onChoose(e.target.value)}>
+            {props.levels.map((l) => (
+              <option key={l} value={l}>
+                {props.name(l)}
+              </option>
+            ))}
+          </select>
+        </>
+      )}
+    </label>
+  );
+}
+
 /**
  * An edition's home. A first visit (no enrollment yet) gets the welcome: who it is for, three pillars, how well the
  * learner knows the language (asked once), and one button straight into a story at that level. After that the
- * learner sees only their own level: its next story, its stories and its phrases, and is offered the next level once
- * they have finished it. Switching level by hand stays possible.
+ * start screen is calm: the edition and the level (a pill, tap to switch), one big card with the next story, and a
+ * tile per part of the app (stories, words, phrases). Only the learner's own level is shown; once its stories are
+ * done, the next level is offered.
  */
 export default function Home() {
   const { lang, dict, fill, plural, edition, home } = useI18n();
@@ -162,51 +185,35 @@ export default function Home() {
   const next = group.find((s) => !finished.has(s.id));
   const higher = levelsOf(stories).find((l) => LEVELS.indexOf(l) > LEVELS.indexOf(mine as Level));
 
+  // The phrases section stops at B1: a higher level practises the B1 phrases.
+  const phraseLevel = phrases[mine] ? mine : Object.keys(phrases).sort().at(-1);
+  const phraseCount = phraseLevel ? phrases[phraseLevel] : undefined;
+
   return (
-    <main>
-      <p className="edition-name">{edition.name}</p>
-      <h1>{dict.home.yourStories}</h1>
-      <div className="row level-bar">
-        <span className="badge">{dict.level.yours}: {levelName(mine)}</span>
-        {levels.length > 1 && (
-          <select aria-label={dict.level.change} value={mine} onChange={(e) => void choose(e.target.value)}>
-            {levels.map((l) => (
-              <option key={l} value={l}>
-                {levelName(l)}
-              </option>
-            ))}
-          </select>
-        )}
-      </div>
-      {due > 0 && (
-        <Link href={`${home}/review`} className="card review-banner">
-          <strong>{plural(dict.home.due, due)}</strong>
-          <span className="muted">{dict.home.dueHint}</span>
-        </Link>
-      )}
+    <main className="dash">
+      <header className="dash-head">
+        <span className="edition-name">{edition.name}</span>
+        <LevelChip levels={levels} mine={mine} name={levelName} onChoose={(l) => void choose(l)} />
+      </header>
 
-      {(() => {
-        // The phrases section, at the learner's level (it goes up to B1).
-        const level = phrases[mine] ? mine : Object.keys(phrases).sort().at(-1);
-        const p = level ? phrases[level] : undefined;
-        return p ? (
-          <Link href={`${home}/phrases`} className="card phrases-card">
-            <strong>💬 {dict.phrases.title}</strong>
-            <span className="muted">{fill(dict.phrases.homeHint, { learned: p.learned, total: p.total, level: level! })}</span>
-          </Link>
-        ) : null;
-      })()}
-
+      {/* One clear next step: the next story at the learner's level. */}
       {next ? (
-        <Link href={`${home}/story/${next.id}`} className="card next-story">
-          <span className="muted small">{dict.level.next}</span>
-          <strong dir="ltr">{next.title}</strong>
-          {next.summary && <span className="muted">{next.summary}</span>}
+        <Link href={`${home}/story/${next.id}`} className="hero">
+          {next.cover && (
+            // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
+            <img src={next.cover} alt="" />
+          )}
+          <div className="hero-body">
+            <span className="hero-label">{done ? dict.home.continue : dict.level.next}</span>
+            <strong dir="ltr">{next.title}</strong>
+            {next.summary && <span className="hero-summary">{next.summary}</span>}
+            <span className="hero-play">{dict.home.play}</span>
+          </div>
         </Link>
       ) : group.length === 0 ? (
         <p className="card">{fill(dict.level.noneYet, { level: levelName(mine) })}</p>
       ) : higher ? (
-        <div className="card next-story">
+        <div className="card hero-plain">
           <strong>{fill(dict.level.ready, { level: levelName(higher) })}</strong>
           <span className="muted">{fill(dict.level.readyHint, { current: levelName(mine) })}</span>
           <button className="primary" onClick={() => void choose(higher)}>
@@ -214,24 +221,30 @@ export default function Home() {
           </button>
         </div>
       ) : (
-        <p className="muted">{dict.level.allDone}</p>
+        <p className="card hero-plain">{dict.level.allDone}</p>
       )}
 
-      {group.length > 0 && (
-        <section className="level-group current">
-          <h2>
-            {levelName(mine)} <span className="muted small">{fill(dict.level.progress, { done, total: group.length })}</span>
-          </h2>
-          {group.map((s) => (
-            <Link key={s.id} href={`${home}/story/${s.id}`} className="card">
-              {finished.has(s.id) && <span className="muted small">{dict.home.finished}</span>}
-              <strong dir="ltr">{s.title}</strong>
-              {s.summary && <span className="muted">{s.summary}</span>}
-            </Link>
-          ))}
-        </section>
-      )}
-      <WhyItWorks />
+      {/* Everything else: one tile per part of the app. */}
+      <nav className="tiles">
+        <Link href={`${home}/stories`} className="tile">
+          <span className="tile-icon">📖</span>
+          <strong>{dict.tiles.stories}</strong>
+          <span className="tile-sub">{fill(dict.tiles.count, { done, total: group.length })}</span>
+        </Link>
+        <Link href={`${home}/review`} className="tile">
+          <span className="tile-icon">🔁</span>
+          {due > 0 && <span className="tile-dot">{due}</span>}
+          <strong>{dict.tiles.words}</strong>
+          <span className="tile-sub">{due > 0 ? plural(dict.tiles.due, due) : dict.tiles.upToDate}</span>
+        </Link>
+        {phraseCount && (
+          <Link href={`${home}/phrases`} className="tile">
+            <span className="tile-icon">💬</span>
+            <strong>{dict.phrases.title}</strong>
+            <span className="tile-sub">{fill(dict.tiles.count, { done: phraseCount.learned, total: phraseCount.total })}</span>
+          </Link>
+        )}
+      </nav>
     </main>
   );
 }
