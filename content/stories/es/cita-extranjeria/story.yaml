@@ -1,0 +1,907 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: cita-extranjeria
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: B1
+  theme: Daniel necesita una cita en la oficina de extranjería, pero la primera cita libre es en el año 2030; entonces construye
+    una máquina del tiempo
+  scenes: 5
+  targets:
+  - text: aunque
+    gloss: although
+    concept: although
+    kind: word
+  - text: tendría que
+    gloss: would have to
+    concept: would_have_to
+    kind: phrase
+  - text: había pedido
+    gloss: had asked for
+    concept: had_asked
+    kind: phrase
+  narrator: charlie
+story:
+  title: La cita del año 2030
+  summary: Daniel needs an appointment at the immigration office, the first free slot is in 2030, so he builds a time machine
+    in his kitchen — and his neighbour takes it to the moon.
+  gestures:
+  - concept: although
+    description: Shrug with one shoulder, push an invisible small obstacle away with your hand and nod hard, as if saying
+      'even so!'
+    emoji: 🤷‍♂️
+  - concept: would_have_to
+    description: Sigh loudly and mime carrying a giant heavy box on your back while taking one slow, dramatic step
+    emoji: 🏋️
+  - concept: had_asked
+    description: Knock three times on an invisible door and then hold out both hands like a beggar asking for something
+    emoji: 🙏
+  scenes:
+  - key: s1
+    text: 'Daniel vive en Madrid y necesita una cita en la oficina de extranjería. Había pedido una cita durante ocho meses,
+      pero la primera cita libre es en el año 2030. Aunque llama al teléfono cada mañana, la respuesta es siempre la misma:
+      «No hay citas». Daniel tendría que esperar seis años, y eso es demasiado.'
+    image_prompt: Daniel, a 34-year-old Spanish man with curly black hair, round glasses and an orange jumper, sits at a tiny
+      kitchen table staring at a laptop showing the number 2030 in huge red letters; his face is desperate, a cold cup of
+      coffee next to him.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿La primera cita libre es en el año 2030?
+      options: [Sí, "No"]
+      answer: Sí
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Daniel había pedido una cita durante ocho meses o durante ocho días?
+      options: [ocho meses, ocho días]
+      answer: ocho meses
+      target: había pedido
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Qué tendría que hacer Daniel?
+      options: [esperar seis años, llamar a su madre, cambiar de país]
+      answer: esperar seis años
+      target: tendría que
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿Daniel consigue una cita aunque llama al teléfono cada mañana?
+      options: [Sí, "No"]
+      answer: "No"
+      target: aunque
+    glossary:
+    - word: vive
+      lemma: vivir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: necesita
+      lemma: necesitar
+      level: A1
+    - word: cita
+      lemma: la cita
+      level: A2
+    - word: oficina
+      lemma: la oficina
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: extranjería
+      lemma: la extranjería
+      level: B1
+    - word: Había
+      lemma: haber
+      level: A1
+    - word: pedido
+      lemma: pedir
+      level: A2
+    - word: durante
+      lemma: durante
+      level: A2
+    - word: meses
+      lemma: el mes
+      level: A1
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: libre
+      lemma: libre
+      level: A2
+    - word: es
+      lemma: ser
+      level: A1
+    - word: año
+      lemma: el año
+      level: A1
+    - word: Aunque
+      lemma: aunque
+      level: A2
+    - word: llama
+      lemma: llamar
+      level: A1
+    - word: al
+      lemma: al
+      level: A1
+    - word: teléfono
+      lemma: el teléfono
+      level: A1
+    - word: cada
+      lemma: cada
+      level: A2
+    - word: mañana
+      lemma: la mañana
+      level: A1
+    - word: respuesta
+      lemma: la respuesta
+      level: A2
+    - word: siempre
+      lemma: siempre
+      level: A1
+    - word: misma
+      lemma: mismo
+      level: A2
+    - word: "No"
+      lemma: "no"
+      level: A1
+    - word: hay
+      lemma: haber
+      level: A1
+    - word: citas
+      lemma: la cita
+      level: A2
+    - word: tendría
+      lemma: tener
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: esperar
+      lemma: esperar
+      level: A1
+    - word: años
+      lemma: el año
+      level: A1
+    - word: eso
+      lemma: eso
+      level: A2
+    - word: demasiado
+      lemma: demasiado
+      level: A2
+    voice:
+    - text: Daniel vive en Madrid y necesita una cita en la oficina de extranjería.
+      emotion: neutral
+    - text: Había pedido una cita durante ocho meses, pero la primera cita libre es en el año 2030.
+      emotion: surprised
+    - text: 'Aunque llama al teléfono cada mañana, la respuesta es siempre la misma: «No hay citas».'
+      emotion: angry
+    - text: Daniel tendría que esperar seis años, y eso es demasiado.
+      emotion: surprised
+  - key: s2
+    text: Daniel decide construir una máquina del tiempo en su cocina, aunque no sabe nada de física. Usa el microondas, un
+      ventilador enorme y cuarenta y siete metros de papel de aluminio. Su vecina dice que es imposible, pero Daniel tendría
+      que llegar a 2030 de alguna manera. Había pedido ayuda a tres científicos, pero los tres se rieron de él.
+    image_prompt: Daniel, the same man with curly black hair, round glasses and an orange jumper, stands in a chaotic kitchen
+      wrapping a microwave in an enormous pile of aluminium foil, with a big fan and cables everywhere; his old neighbour
+      watches from the door with her arms crossed.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿Daniel sabe mucho de física?
+      options: [Sí, "No"]
+      answer: "No"
+    - key: s2q2
+      kind: either_or
+      prompt: ¿Daniel había pedido ayuda a tres científicos o a tres vecinos?
+      options: [tres vecinos, tres científicos]
+      answer: tres científicos
+      target: había pedido
+    - key: s2q3
+      kind: who_what
+      prompt: ¿Qué usa Daniel para construir la máquina?
+      options: [un microondas, una nevera, un coche]
+      answer: un microondas
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿La vecina dice que la máquina es posible?
+      options: [Sí, "No"]
+      answer: "No"
+    - key: s2q5
+      kind: either_or
+      prompt: ¿Daniel tendría que llegar a 2030 o a 2020?
+      options: ['2030', '2020']
+      answer: '2030'
+      target: tendría que
+    glossary:
+    - word: decide
+      lemma: decidir
+      level: A2
+    - word: construir
+      lemma: construir
+      level: B1
+    - word: máquina
+      lemma: la máquina
+      level: A2
+    - word: del
+      lemma: del
+      level: A1
+    - word: tiempo
+      lemma: el tiempo
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: cocina
+      lemma: la cocina
+      level: A1
+    - word: aunque
+      lemma: aunque
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: sabe
+      lemma: saber
+      level: A1
+    - word: nada
+      lemma: nada
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: física
+      lemma: la física
+      level: B1
+    - word: Usa
+      lemma: usar
+      level: A2
+    - word: microondas
+      lemma: el microondas
+      level: B1
+    - word: ventilador
+      lemma: el ventilador
+      level: B1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: metros
+      lemma: el metro
+      level: A2
+    - word: papel
+      lemma: el papel
+      level: A1
+    - word: aluminio
+      lemma: el aluminio
+      level: B1
+    - word: vecina
+      lemma: la vecina
+      level: A2
+    - word: dice
+      lemma: decir
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: imposible
+      lemma: imposible
+      level: A2
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: tendría
+      lemma: tener
+      level: A1
+    - word: llegar
+      lemma: llegar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: alguna
+      lemma: alguno
+      level: A2
+    - word: manera
+      lemma: la manera
+      level: A2
+    - word: Había
+      lemma: haber
+      level: A1
+    - word: pedido
+      lemma: pedir
+      level: A2
+    - word: ayuda
+      lemma: la ayuda
+      level: A2
+    - word: científicos
+      lemma: el científico
+      level: B1
+    - word: se
+      lemma: se
+      level: A2
+    - word: rieron
+      lemma: reír
+      level: B1
+    - word: él
+      lemma: él
+      level: A2
+    voice:
+    - text: Daniel decide construir una máquina del tiempo en su cocina, aunque no sabe nada de física.
+      emotion: amused
+    - text: Usa el microondas, un ventilador enorme y cuarenta y siete metros de papel de aluminio.
+      emotion: surprised
+    - text: Su vecina dice que es imposible, pero Daniel tendría que llegar a 2030 de alguna manera.
+      emotion: amused
+    - text: Había pedido ayuda a tres científicos, pero los tres se rieron de él.
+      emotion: angry
+  - key: s3
+    text: 'El martes, Daniel pone la fecha 2030 en el microondas y pulsa el botón. Aunque hay mucho humo y un ruido terrible,
+      la máquina funciona: Daniel aparece en 2030. En la calle hay coches voladores y la gente lleva zapatos de oro, pero
+      la oficina de extranjería todavía está en el mismo edificio gris. Daniel tendría que entrar rápido, porque su cita es
+      a las nueve.'
+    image_prompt: Daniel, the same man with curly black hair, round glasses and an orange jumper, stands in a futuristic Madrid
+      street in 2030 with flying cars above him and people wearing shiny gold shoes, while a boring grey office building stands
+      in the background.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿La máquina funciona aunque hay mucho humo?
+      options: [Sí, "No"]
+      answer: Sí
+      target: aunque
+    - key: s3q2
+      kind: who_what
+      prompt: ¿Qué hay en la calle en 2030?
+      options: [coches voladores, caballos, bicicletas]
+      answer: coches voladores
+    - key: s3q3
+      kind: either_or
+      prompt: ¿Daniel aparece en 2030 o en 2040?
+      options: ['2040', '2030']
+      answer: '2030'
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿La oficina de extranjería está en un edificio nuevo?
+      options: [Sí, "No"]
+      answer: "No"
+    - key: s3q5
+      kind: who_what
+      prompt: ¿A qué hora es la cita de Daniel?
+      options: [a las nueve, a las dos, a las siete]
+      answer: a las nueve
+    glossary:
+    - word: martes
+      lemma: el martes
+      level: A1
+    - word: pone
+      lemma: poner
+      level: A1
+    - word: fecha
+      lemma: la fecha
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: microondas
+      lemma: el microondas
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: pulsa
+      lemma: pulsar
+      level: B1
+    - word: botón
+      lemma: el botón
+      level: A2
+    - word: Aunque
+      lemma: aunque
+      level: A2
+    - word: hay
+      lemma: haber
+      level: A1
+    - word: mucho
+      lemma: mucho
+      level: A1
+    - word: humo
+      lemma: el humo
+      level: B1
+    - word: ruido
+      lemma: el ruido
+      level: A2
+    - word: terrible
+      lemma: terrible
+      level: B1
+    - word: máquina
+      lemma: la máquina
+      level: A2
+    - word: funciona
+      lemma: funcionar
+      level: A2
+    - word: aparece
+      lemma: aparecer
+      level: A2
+    - word: calle
+      lemma: la calle
+      level: A1
+    - word: coches
+      lemma: el coche
+      level: A1
+    - word: voladores
+      lemma: volador
+      level: B1
+    - word: gente
+      lemma: la gente
+      level: A1
+    - word: lleva
+      lemma: llevar
+      level: A1
+    - word: zapatos
+      lemma: el zapato
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: oro
+      lemma: el oro
+      level: A2
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: oficina
+      lemma: la oficina
+      level: A1
+    - word: extranjería
+      lemma: la extranjería
+      level: B1
+    - word: todavía
+      lemma: todavía
+      level: A2
+    - word: está
+      lemma: estar
+      level: A1
+    - word: mismo
+      lemma: mismo
+      level: A2
+    - word: edificio
+      lemma: el edificio
+      level: A2
+    - word: gris
+      lemma: gris
+      level: A2
+    - word: tendría
+      lemma: tener
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: entrar
+      lemma: entrar
+      level: A1
+    - word: rápido
+      lemma: rápido
+      level: A2
+    - word: porque
+      lemma: porque
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: cita
+      lemma: la cita
+      level: A2
+    - word: es
+      lemma: ser
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    voice:
+    - text: El martes, Daniel pone la fecha 2030 en el microondas y pulsa el botón.
+      emotion: neutral
+    - text: 'Aunque hay mucho humo y un ruido terrible, la máquina funciona: Daniel aparece en 2030.'
+      emotion: surprised
+    - text: En la calle hay coches voladores y la gente lleva zapatos de oro, pero la oficina de extranjería todavía está
+        en el mismo edificio gris.
+      emotion: surprised
+    - text: Daniel tendría que entrar rápido, porque su cita es a las nueve.
+      emotion: whisper
+  - key: s4
+    text: 'En la oficina, una empleada muy amable le dice: «Su cita era ayer». Daniel explica que había pedido esa cita en
+      2024, y la empleada sonríe: «Lo siento, en 2030 solo damos citas por internet». Aunque Daniel tiene una máquina del
+      tiempo, no tiene internet en 2030, porque internet desapareció en 2029. La empleada añade: «Tendría que volver en 2031;
+      hay una cita libre en marzo».'
+    image_prompt: Daniel, the same man with curly black hair, round glasses and an orange jumper, argues with a smiling immigration
+      clerk behind a glass window in a grey office; a sign on the wall says 'SIN INTERNET' and Daniel holds an old mobile
+      phone with no signal.
+    questions:
+    - key: s4q1
+      kind: who_what
+      prompt: ¿Qué le dice la empleada a Daniel?
+      options: [Su cita era ayer, Su cita es hoy, No hay oficina]
+      answer: Su cita era ayer
+    - key: s4q2
+      kind: yes_no
+      prompt: ¿Daniel tiene internet en 2030?
+      options: [Sí, "No"]
+      answer: "No"
+      target: aunque
+    - key: s4q3
+      kind: either_or
+      prompt: ¿Daniel había pedido la cita en 2024 o en 2019?
+      options: ['2019', '2024']
+      answer: '2024'
+      target: había pedido
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿La empleada dice que Daniel tendría que volver en 2031?
+      options: [Sí, "No"]
+      answer: Sí
+      target: tendría que
+    - key: s4q5
+      kind: either_or
+      prompt: ¿Internet desapareció en 2029 o en 2019?
+      options: ['2029', '2019']
+      answer: '2029'
+    glossary:
+    - word: En
+      lemma: en
+      level: A1
+    - word: oficina
+      lemma: la oficina
+      level: A1
+    - word: empleada
+      lemma: la empleada
+      level: A2
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: amable
+      lemma: amable
+      level: A2
+    - word: le
+      lemma: le
+      level: A2
+    - word: dice
+      lemma: decir
+      level: A1
+    - word: Su
+      lemma: su
+      level: A1
+    - word: cita
+      lemma: la cita
+      level: A2
+    - word: era
+      lemma: ser
+      level: A1
+    - word: ayer
+      lemma: ayer
+      level: A1
+    - word: explica
+      lemma: explicar
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: había
+      lemma: haber
+      level: A1
+    - word: pedido
+      lemma: pedir
+      level: A2
+    - word: esa
+      lemma: ese
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: sonríe
+      lemma: sonreír
+      level: B1
+    - word: Lo
+      lemma: lo
+      level: A2
+    - word: siento
+      lemma: sentir
+      level: A2
+    - word: solo
+      lemma: solo
+      level: A2
+    - word: damos
+      lemma: dar
+      level: A1
+    - word: citas
+      lemma: la cita
+      level: A2
+    - word: por
+      lemma: por
+      level: A1
+    - word: internet
+      lemma: el internet
+      level: A2
+    - word: Aunque
+      lemma: aunque
+      level: A2
+    - word: tiene
+      lemma: tener
+      level: A1
+    - word: máquina
+      lemma: la máquina
+      level: A2
+    - word: del
+      lemma: del
+      level: A1
+    - word: tiempo
+      lemma: el tiempo
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: porque
+      lemma: porque
+      level: A1
+    - word: desapareció
+      lemma: desaparecer
+      level: B1
+    - word: añade
+      lemma: añadir
+      level: B1
+    - word: Tendría
+      lemma: tener
+      level: A1
+    - word: volver
+      lemma: volver
+      level: A1
+    - word: hay
+      lemma: haber
+      level: A1
+    - word: libre
+      lemma: libre
+      level: A2
+    - word: marzo
+      lemma: marzo
+      level: A1
+    voice:
+    - text: 'En la oficina, una empleada muy amable le dice: «Su cita era ayer».'
+      emotion: surprised
+    - text: 'Daniel explica que había pedido esa cita en 2024, y la empleada sonríe: «Lo siento, en 2030 solo damos citas
+        por internet».'
+      emotion: amused
+    - text: Aunque Daniel tiene una máquina del tiempo, no tiene internet en 2030, porque internet desapareció en 2029.
+      emotion: surprised
+    - text: 'La empleada añade: «Tendría que volver en 2031; hay una cita libre en marzo».'
+      emotion: surprised
+  - key: s5
+    text: 'Daniel vuelve a su cocina, en 2024, y mira el móvil: ¡hay una cita libre mañana a las ocho! Aunque grita de alegría,
+      su vecina entra y dice: «He usado tu máquina para ir a 2050; allí tú ya eres español». Daniel había pedido una cita
+      durante ocho meses y ahora ya no la necesita. Pero tendría que devolver la máquina a la luna, porque su vecina la ha
+      aparcado allí.'
+    image_prompt: Daniel, the same man with curly black hair, round glasses and an orange jumper, jumps in the air holding
+      his phone in his bright kitchen while his old neighbour calmly points at the moon through the window, where a tiny microwave
+      is parked.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿Daniel necesita la cita ahora?
+      options: [Sí, "No"]
+      answer: "No"
+    - key: s5q2
+      kind: who_what
+      prompt: ¿Quién ha usado la máquina del tiempo?
+      options: [la vecina, un científico, la empleada]
+      answer: la vecina
+    - key: s5q3
+      kind: either_or
+      prompt: ¿Daniel tendría que devolver la máquina a la luna o a Marte?
+      options: [a la luna, a Marte]
+      answer: a la luna
+      target: tendría que
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Hay una cita libre mañana a las ocho?
+      options: [Sí, "No"]
+      answer: Sí
+    - key: s5q5
+      kind: either_or
+      prompt: ¿En 2050 Daniel ya es español o ya es rico?
+      options: [ya es rico, ya es español]
+      answer: ya es español
+    glossary:
+    - word: vuelve
+      lemma: volver
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: cocina
+      lemma: la cocina
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: mira
+      lemma: mirar
+      level: A1
+    - word: móvil
+      lemma: el móvil
+      level: A2
+    - word: hay
+      lemma: haber
+      level: A1
+    - word: cita
+      lemma: la cita
+      level: A2
+    - word: libre
+      lemma: libre
+      level: A2
+    - word: mañana
+      lemma: mañana
+      level: A1
+    - word: Aunque
+      lemma: aunque
+      level: A2
+    - word: grita
+      lemma: gritar
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: alegría
+      lemma: la alegría
+      level: A2
+    - word: vecina
+      lemma: la vecina
+      level: A2
+    - word: entra
+      lemma: entrar
+      level: A1
+    - word: dice
+      lemma: decir
+      level: A1
+    - word: He
+      lemma: haber
+      level: A1
+    - word: usado
+      lemma: usar
+      level: A2
+    - word: tu
+      lemma: tu
+      level: A1
+    - word: máquina
+      lemma: la máquina
+      level: A2
+    - word: para
+      lemma: para
+      level: A1
+    - word: ir
+      lemma: ir
+      level: A1
+    - word: allí
+      lemma: allí
+      level: A1
+    - word: tú
+      lemma: tú
+      level: A1
+    - word: ya
+      lemma: ya
+      level: A1
+    - word: eres
+      lemma: ser
+      level: A1
+    - word: español
+      lemma: español
+      level: A1
+    - word: había
+      lemma: haber
+      level: A1
+    - word: pedido
+      lemma: pedir
+      level: A2
+    - word: durante
+      lemma: durante
+      level: A2
+    - word: meses
+      lemma: el mes
+      level: A1
+    - word: ahora
+      lemma: ahora
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: la
+      lemma: la
+      level: A2
+    - word: necesita
+      lemma: necesitar
+      level: A1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: tendría
+      lemma: tener
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: devolver
+      lemma: devolver
+      level: A2
+    - word: luna
+      lemma: la luna
+      level: A1
+    - word: porque
+      lemma: porque
+      level: A1
+    - word: ha
+      lemma: haber
+      level: A1
+    - word: aparcado
+      lemma: aparcar
+      level: B1
+    voice:
+    - text: 'Daniel vuelve a su cocina, en 2024, y mira el móvil: ¡hay una cita libre mañana a las ocho!'
+      emotion: surprised
+    - text: 'Aunque grita de alegría, su vecina entra y dice: «He usado tu máquina para ir a 2050; allí tú ya eres español».'
+      emotion: surprised
+    - text: Daniel había pedido una cita durante ocho meses y ahora ya no la necesita.
+      emotion: amused
+    - text: Pero tendría que devolver la máquina a la luna, porque su vecina la ha aparcado allí.
+      emotion: surprised
+  core_words:
+  - lemma: la cita
+    image_prompt: a blank calendar page with one square circled in red
+  - lemma: la máquina
+    image_prompt: a homemade machine with wires, a clock dial, and a big button in a kitchen
+  - lemma: el microondas
+    image_prompt: a white kitchen microwave oven on a counter
+  - lemma: el ventilador
+    image_prompt: a large electric fan with spinning blades
+  - lemma: el aluminio
+    image_prompt: a roll of shiny aluminum foil
+  - lemma: la vecina
+    image_prompt: a woman standing in the doorway of the apartment next door
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 810
+  output_tokens: 5181
+  glossary_version: glossary-v2
+  glossary_input_tokens: 782
+  glossary_output_tokens: 19911
+  core_version: core-v1
+  core_input_tokens: 2477
+  core_output_tokens: 1481
+  voice_version: voice-v1
+  voice_input_tokens: 756
+  voice_output_tokens: 1113
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1930
+  localize_ar_output_tokens: 9758
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1930
+  localize_en_output_tokens: 9868
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1930
+  localize_nl_output_tokens: 10269

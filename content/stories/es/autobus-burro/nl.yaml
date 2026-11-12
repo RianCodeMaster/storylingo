@@ -1,0 +1,123 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Pablo wacht op de bus naar zijn werk, maar er komt een ezel met zonnebril, daarna wel duizend ezels, en die ezel
+  blijkt de buschauffeur te zijn.
+summary_source: f42559beb584bc5d
+gestures:
+  wait: Sta stokstijf, tik op je pols als een horloge en zucht luid terwijl je naar de lucht kijkt.
+  arrive: Zwaai één arm als een openschuivende busdeur en stamp je voet naar voren met een grote 'ta-da!'-blik.
+  be_state: Wijs met beide handen naar de grond en zet je gezicht vast in een gekke staat, blij of woedend, om te tonen waar
+    en hoe iemand is.
+targets:
+  espera:
+    gloss: wacht
+    note: 'Spaans vervoegt: espera = hij/zij wacht; Nederlands: hij/zij wacht.'
+  llega:
+    gloss: komt aan
+    note: 'Spaans: llega = hij/zij komt aan; Nederlands heeft ''komt aan''.'
+  está:
+    gloss: is
+    note: Spaans gebruikt 'está' voor plaats of stemming; Nederlands gebruikt gewoon 'is'.
+scenes:
+- key: s1
+  source: c455fb31ab53c508
+  translation: Pablo staat bij de bushalte. Pablo wacht op de bus. Pablo wacht en wacht. Het is maandag en Pablo is moe.
+  glosses:
+    está: is
+    en: bij
+    parada: halte
+    del: van de
+    autobús: bus
+    espera: wacht
+    "y": en
+    es: is
+    lunes: maandag
+    cansado: moe
+- key: s2
+  source: af61d5147030e020
+  translation: Een ezel komt bij de bushalte aan. De ezel draagt een zwarte zonnebril. De ezel staat naast Pablo. Pablo is
+    niet blij.
+  glosses:
+    burro: ezel
+    llega: komt aan
+    a: bij
+    parada: halte
+    lleva: draagt
+    gafas: bril
+    de: van
+    sol: zon
+    negras: zwarte
+    está: staat
+    al: aan de
+    lado: kant
+    "no": niet
+    contento: blij
+- key: s3
+  source: 22660fcb86935bee
+  translation: Pablo wacht op de bus. De bus komt niet. De ezel is heel blij. Pablo is woedend.
+  glosses:
+    espera: wacht
+    autobús: bus
+    "no": niet
+    llega: komt aan
+    burro: ezel
+    está: is
+    muy: heel
+    contento: blij
+    furioso: woedend
+- key: s4
+  source: cca0da87bad8ee7b
+  translation: Een kleine ezel komt bij de bushalte aan. Nog een ezel komt aan met een koffer. De bushalte staat vol ezels.
+    Elke ezel wacht op de bus en de ezel met de zonnebril staat vooraan.
+  glosses:
+    burro: ezel
+    pequeño: kleine
+    llega: komt aan
+    a: bij
+    parada: halte
+    Otro: nog een
+    con: met
+    maleta: koffer
+    está: staat
+    llena: vol
+    de: van
+    burros: ezels
+    Cada: elke
+    espera: wacht
+    autobús: bus
+    "y": en
+    gafas: bril
+    sol: zon
+    delante: vooraan
+- key: s5
+  source: 6697854f0d841d81
+  translation: 'De ezel met de zonnebril is de chauffeur. De ezel komt in twee minuten op het werk aan. Pablo wacht niet langer.
+    Pablo is blij en zegt: ''Dank je, ezel!'''
+  glosses:
+    burro: ezel
+    con: met
+    gafas: bril
+    de: van
+    sol: zon
+    es: is
+    conductor: chauffeur
+    llega: komt aan
+    al: op het
+    trabajo: werk
+    en: in
+    minutos: minuten
+    "no": niet
+    espera: wacht
+    más: langer
+    está: is
+    feliz: blij
+    "y": en
+    dice: zegt
+words:
+  el autobús: de bus
+  la parada: de halte
+  el burro: de ezel
+  las gafas: de bril
+  la maleta: de koffer
+  el conductor: de chauffeur

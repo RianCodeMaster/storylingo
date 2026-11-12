@@ -1,0 +1,575 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: zug-verspaetung
+status: published
+tags: [algemeen, werk]
+brief:
+  language: de
+  level: A2
+  theme: Felix wollte pünktlich zur Arbeit, aber der Zug hatte fünf Stunden Verspätung; er ist zu Fuß gegangen und war trotzdem
+    zuerst da
+  scenes: 5
+  targets:
+  - text: wollte
+    gloss: wanted
+    concept: want
+    kind: word
+  - text: ist gegangen
+    gloss: went / has gone
+    concept: went
+    kind: phrase
+  - text: hatte
+    gloss: had
+    concept: have
+    kind: word
+  narrator: charlie
+story:
+  title: Felix wollte pünktlich sein
+  summary: Felix wants to be at work at seven, his train is five hours late, so he walks forty kilometres through the rain
+    and arrives first — on a Sunday, when the office is closed.
+  gestures:
+  - concept: want
+    description: Stretch both arms forward with greedy grabby hands and a big hungry smile, as if you really, really want
+      something.
+    emoji: 🤲
+  - concept: went
+    description: March in place with huge stomping steps and swing your arms like a crazy hiker.
+    emoji: 🚶
+  - concept: have
+    description: Hug an invisible big box to your chest and nod proudly to show what you had.
+    emoji: 🤗
+  scenes:
+  - key: s1
+    text: 'Felix wollte pünktlich zur Arbeit kommen. Er wollte um sieben Uhr im Büro sein. Er hatte drei Wecker und eine sehr
+      große Uhr. Aber Felix wollte noch mehr: Er wollte der erste Mensch im Büro sein.'
+    image_prompt: A tall thin young man named Felix with curly red hair, round glasses, a green winter coat and a yellow backpack
+      stands in his tiny bedroom at night, surrounded by three ringing alarm clocks and one enormous wall clock, looking determined.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Wollte Felix pünktlich zur Arbeit kommen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: wollte
+    - key: s1q2
+      kind: either_or
+      prompt: Wollte Felix um sieben Uhr oder um elf Uhr im Büro sein?
+      options: [um sieben Uhr, um elf Uhr]
+      answer: um sieben Uhr
+      target: wollte
+    - key: s1q3
+      kind: who_what
+      prompt: Wie viele Wecker hatte Felix?
+      options: [zehn Wecker, drei Wecker, keine Wecker]
+      answer: drei Wecker
+      target: hatte
+    - key: s1q4
+      kind: yes_no
+      prompt: Hatte Felix eine kleine Uhr?
+      options: [Ja, Nein]
+      answer: Nein
+      target: hatte
+    glossary:
+    - word: wollte
+      lemma: wollen
+      level: A1
+    - word: pünktlich
+      lemma: pünktlich
+      level: A2
+    - word: zur
+      lemma: zu
+      level: A1
+    - word: Arbeit
+      lemma: die Arbeit
+      level: A1
+    - word: kommen
+      lemma: kommen
+      level: A1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: um
+      lemma: um
+      level: A1
+    - word: Uhr
+      lemma: die Uhr
+      level: A1
+    - word: im
+      lemma: in
+      level: A1
+    - word: Büro
+      lemma: das Büro
+      level: A1
+    - word: sein
+      lemma: sein
+      level: A1
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: Wecker
+      lemma: der Wecker
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: große
+      lemma: groß
+      level: A1
+    - word: Aber
+      lemma: aber
+      level: A1
+    - word: noch
+      lemma: noch
+      level: A1
+    - word: mehr
+      lemma: mehr
+      level: A1
+    - word: erste
+      lemma: erste
+      level: A1
+    - word: Mensch
+      lemma: der Mensch
+      level: A1
+    voice:
+    - text: Felix wollte pünktlich zur Arbeit kommen.
+      emotion: neutral
+    - text: Er wollte um sieben Uhr im Büro sein.
+      emotion: neutral
+    - text: Er hatte drei Wecker und eine sehr große Uhr.
+      emotion: surprised
+    - text: 'Aber Felix wollte noch mehr: Er wollte der erste Mensch im Büro sein.'
+      emotion: amused
+  - key: s2
+    text: Am Bahnhof hatte Felix ein Problem. Der Zug hatte fünf Stunden Verspätung. Felix hatte nur einen kleinen Kaffee
+      und keine Geduld. Er wollte nicht warten.
+    image_prompt: Felix, the tall thin young man with curly red hair, round glasses, green winter coat and yellow backpack,
+      stands on a cold station platform holding a tiny coffee cup, looking furious at a giant station clock that shows five
+      hours of delay.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Hatte der Zug fünf Stunden Verspätung?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hatte
+    - key: s2q2
+      kind: either_or
+      prompt: Hatte Felix eine große Pizza oder einen kleinen Kaffee?
+      options: [eine große Pizza, einen kleinen Kaffee]
+      answer: einen kleinen Kaffee
+      target: hatte
+    - key: s2q3
+      kind: who_what
+      prompt: Was hatte Felix nicht?
+      options: [Kaffee, einen Mantel, Geduld]
+      answer: Geduld
+      target: hatte
+    - key: s2q4
+      kind: yes_no
+      prompt: Wollte Felix warten?
+      options: [Ja, Nein]
+      answer: Nein
+      target: wollte
+    glossary:
+    - word: Am
+      lemma: an
+      level: A1
+    - word: Bahnhof
+      lemma: der Bahnhof
+      level: A1
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: Problem
+      lemma: das Problem
+      level: A1
+    - word: Zug
+      lemma: der Zug
+      level: A1
+    - word: Stunden
+      lemma: die Stunde
+      level: A1
+    - word: Verspätung
+      lemma: die Verspätung
+      level: A2
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: kleinen
+      lemma: klein
+      level: A1
+    - word: Kaffee
+      lemma: der Kaffee
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: Geduld
+      lemma: die Geduld
+      level: A2
+    - word: Er
+      lemma: er
+      level: A1
+    - word: wollte
+      lemma: wollen
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: warten
+      lemma: warten
+      level: A1
+    voice:
+    - text: Am Bahnhof hatte Felix ein Problem.
+      emotion: surprised
+    - text: Der Zug hatte fünf Stunden Verspätung.
+      emotion: surprised
+    - text: Felix hatte nur einen kleinen Kaffee und keine Geduld.
+      emotion: angry
+    - text: Er wollte nicht warten.
+      emotion: angry
+  - key: s3
+    text: Felix ist gegangen. Er ist gegangen, nicht gefahren. Er ist durch den Regen und über einen Berg gegangen. Er wollte
+      schneller als der Zug sein.
+    image_prompt: Felix, the tall thin young man with curly red hair, round glasses, green winter coat and yellow backpack,
+      stomps through heavy rain over a small mountain, soaking wet and angry, while a tiny train far below him is stuck in
+      the valley.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Ist Felix zu Fuß gegangen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: ist gegangen
+    - key: s3q2
+      kind: either_or
+      prompt: Ist Felix durch den Regen oder durch die Schule gegangen?
+      options: [durch den Regen, durch die Schule]
+      answer: durch den Regen
+      target: ist gegangen
+    - key: s3q3
+      kind: who_what
+      prompt: Wie viele Kilometer ist Felix gegangen?
+      options: [vier Kilometer, vierzig Kilometer, hundert Kilometer]
+      answer: vierzig Kilometer
+      target: ist gegangen
+    - key: s3q4
+      kind: yes_no
+      prompt: Wollte Felix schneller als der Zug sein?
+      options: [Ja, Nein]
+      answer: Ja
+      target: wollte
+    glossary:
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: gegangen
+      lemma: gehen
+      level: A1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: gefahren
+      lemma: fahren
+      level: A1
+    - word: durch
+      lemma: durch
+      level: A1
+    - word: Regen
+      lemma: der Regen
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: über
+      lemma: über
+      level: A1
+    - word: Berg
+      lemma: der Berg
+      level: A1
+    - word: wollte
+      lemma: wollen
+      level: A1
+    - word: schneller
+      lemma: schnell
+      level: A1
+    - word: als
+      lemma: als
+      level: A2
+    - word: Zug
+      lemma: der Zug
+      level: A1
+    - word: sein
+      lemma: sein
+      level: A1
+    voice:
+    - text: Felix ist gegangen.
+      emotion: surprised
+    - text: Er ist gegangen, nicht gefahren.
+      emotion: surprised
+    - text: Er ist durch den Regen und über einen Berg gegangen.
+      emotion: disgusted
+    - text: Er wollte schneller als der Zug sein.
+      emotion: amused
+  - key: s4
+    text: Um halb sieben war Felix im Büro. Er hatte nasse Schuhe und einen großen Hunger. Frau Krumm, seine Chefin, hatte
+      den Schlüssel. „Du bist der Erste! Alle anderen wollten kommen, aber sie sind noch im Zug“, sagte Frau Krumm.
+    image_prompt: Felix, the tall thin young man with curly red hair, round glasses, green winter coat and yellow backpack,
+      drips on the office floor next to a small strict boss named Frau Krumm holding a big key, in a completely empty office.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Hatte Felix nasse Schuhe?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hatte
+    - key: s4q2
+      kind: either_or
+      prompt: Wer hatte den Schlüssel?
+      options: [Felix, Frau Krumm]
+      answer: Frau Krumm
+      target: hatte
+    - key: s4q3
+      kind: who_what
+      prompt: Wo waren die anderen?
+      options: [zu Hause, im Zug, im Büro]
+      answer: im Zug
+    - key: s4q4
+      kind: yes_no
+      prompt: Wollten die anderen kommen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: wollte
+    glossary:
+    - word: Um
+      lemma: um
+      level: A1
+    - word: halb
+      lemma: halb
+      level: A1
+    - word: war
+      lemma: sein
+      level: A1
+    - word: im
+      lemma: in
+      level: A1
+    - word: Büro
+      lemma: das Büro
+      level: A1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: nasse
+      lemma: nass
+      level: A2
+    - word: Schuhe
+      lemma: der Schuh
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: großen
+      lemma: groß
+      level: A1
+    - word: Hunger
+      lemma: der Hunger
+      level: A1
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: seine
+      lemma: sein
+      level: A1
+    - word: Chefin
+      lemma: die Chefin
+      level: A2
+    - word: Schlüssel
+      lemma: der Schlüssel
+      level: A1
+    - word: Du
+      lemma: du
+      level: A1
+    - word: bist
+      lemma: sein
+      level: A1
+    - word: Erste
+      lemma: erste
+      level: A1
+    - word: Alle
+      lemma: alle
+      level: A1
+    - word: anderen
+      lemma: andere
+      level: A2
+    - word: wollten
+      lemma: wollen
+      level: A1
+    - word: kommen
+      lemma: kommen
+      level: A1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: sind
+      lemma: sein
+      level: A1
+    - word: noch
+      lemma: noch
+      level: A1
+    - word: Zug
+      lemma: der Zug
+      level: A1
+    - word: sagte
+      lemma: sagen
+      level: A1
+    voice:
+    - text: Um halb sieben war Felix im Büro.
+      emotion: surprised
+    - text: Er hatte nasse Schuhe und einen großen Hunger.
+      emotion: disgusted
+    - text: Frau Krumm, seine Chefin, hatte den Schlüssel.
+      emotion: neutral
+    - text: „Du bist der Erste!
+      emotion: surprised
+    - text: Alle anderen wollten kommen, aber sie sind noch im Zug“, sagte Frau Krumm.
+      emotion: amused
+  - key: s5
+    text: 'Frau Krumm hatte eine kleine Überraschung: „Felix, heute ist Sonntag. Das Büro ist zu.“ Felix wollte weinen. Er
+      ist gegangen. Er ist wieder nach Hause gegangen — vierzig Kilometer.'
+    image_prompt: Felix, the tall thin young man with curly red hair, round glasses, green winter coat and yellow backpack,
+      stands in the office doorway with a funny shocked face while Frau Krumm holds up a calendar showing Sunday, the office
+      dark behind them.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Hatte Frau Krumm eine Überraschung?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hatte
+    - key: s5q2
+      kind: either_or
+      prompt: Ist Felix ins Kino gegangen oder nach Hause gegangen?
+      options: [ins Kino gegangen, nach Hause gegangen]
+      answer: nach Hause gegangen
+      target: ist gegangen
+    - key: s5q3
+      kind: who_what
+      prompt: Welcher Tag war heute?
+      options: [Montag, Freitag, Sonntag]
+      answer: Sonntag
+    - key: s5q4
+      kind: yes_no
+      prompt: Ist das Büro am Sonntag offen?
+      options: [Ja, Nein]
+      answer: Nein
+    glossary:
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: kleine
+      lemma: klein
+      level: A1
+    - word: Überraschung
+      lemma: die Überraschung
+      level: A2
+    - word: heute
+      lemma: heute
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Sonntag
+      lemma: der Sonntag
+      level: A1
+    - word: Büro
+      lemma: das Büro
+      level: A1
+    - word: zu
+      lemma: zu
+      level: A2
+    - word: wollte
+      lemma: wollen
+      level: A1
+    - word: weinen
+      lemma: weinen
+      level: A1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: gegangen
+      lemma: gehen
+      level: A1
+    - word: wieder
+      lemma: wieder
+      level: A1
+    - word: nach
+      lemma: nach
+      level: A1
+    - word: Hause
+      lemma: das Haus
+      level: A1
+    - word: Kilometer
+      lemma: der Kilometer
+      level: A2
+    voice:
+    - text: 'Frau Krumm hatte eine kleine Überraschung: „Felix, heute ist Sonntag.'
+      emotion: surprised
+    - text: Das Büro ist zu.“ Felix wollte weinen.
+      emotion: angry
+    - text: Er ist gegangen.
+      emotion: neutral
+    - text: Er ist wieder nach Hause gegangen — vierzig Kilometer.
+      emotion: surprised
+  core_words:
+  - lemma: der Wecker
+    image_prompt: a bedside alarm clock ringing
+  - lemma: der Bahnhof
+    image_prompt: a small train station with a platform
+  - lemma: der Zug
+    image_prompt: a passenger train on a track
+  - lemma: die Verspätung
+    image_prompt: a train waiting at a station beside a large clock
+  - lemma: der Regen
+    image_prompt: rain falling from dark clouds
+  - lemma: der Schlüssel
+    image_prompt: a single metal key on a wooden table
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 2
+  input_tokens: 3656
+  output_tokens: 8491
+  glossary_version: glossary-v2
+  glossary_input_tokens: 532
+  glossary_output_tokens: 13446
+  core_version: core-v1
+  core_input_tokens: 1383
+  core_output_tokens: 1864
+  voice_version: voice-v1
+  voice_input_tokens: 507
+  voice_output_tokens: 880
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 373
+  localize_ar_output_tokens: 868
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 373
+  localize_en_output_tokens: 283
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 373
+  localize_nl_output_tokens: 1761

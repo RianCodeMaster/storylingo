@@ -24,6 +24,7 @@ def media_jobs(doc: StoryDoc) -> list[dict]:
     """
     story, language = doc.story, doc.brief.language
     voice = languages.voice(language)
+    narrator = languages.voice(language, story=doc.slug, narrator=doc.brief.narrator)
     scenes = {s.key: s for s in story.scenes}
     jobs = []
     plan = db.media_plan(doc.slug)
@@ -42,7 +43,7 @@ def media_jobs(doc: StoryDoc) -> list[dict]:
     for row in plan:
         scene = scenes[row["key"]]
         jobs.append({"what": "narration", "label": f"scene {scene.key}: narration", "have": row["audio"],
-                     "want": fingerprint.narration(scene, voice), "scene": scene,
+                     "want": fingerprint.narration(scene, narrator), "scene": scene, "voice": narrator,
                      "path": f"stories/{doc.slug}/{scene.key}", "link": ("scenes", "audio_asset_id", row["id"])})
     # Questions after the narration: with a small daily quota the whole story gets told first.
     for row in plan:

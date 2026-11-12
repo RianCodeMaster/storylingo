@@ -1,0 +1,271 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: يحتفل يايرون بعيد ميلاده الخمسين في حلقة كراسي هولندية تقليدية، لكن كل كعكة يقدمها تختفي في اللحظة التي لا ينتبه
+  فيها أحد.
+summary_source: bfca2910ed0d56eb
+gestures:
+  after: 'تشير إلى الوراء، تصفق مرة، تفرقع أصابعك وتنقر ساعتك كأنك تقول: انتهى — وبعدها فقط حدث الشيء التالي.'
+  became: تنفخ خديك ببطء وتفتح ذراعيك كأنك تتحول من صغير إلى ضخم، وتنتهي بوضعية مفاجئة تشبه «تادا!».
+  would: تميل إلى الوراء، تطوي ذراعيك، تنظر بحلم إلى السقف وترسم دائرة كبيرة في الهواء بإصبعك كأنك تخطط لشيء في المستقبل.
+targets:
+  nadat:
+    gloss: بعد أن
+    note: في الهولندية يأتي الفعل في نهاية الجملة بعد nadat، بخلاف العربية.
+  werd:
+    gloss: أصبح/تم
+    note: فعل ماضٍ للمفرد، يُستخدم للمبني للمجهول أو لتحول الحالة.
+  zouden:
+    gloss: كانوا سـ/سوف
+    note: صيغة جمع من zou، تفيد الشرط أو المستقبل في الماضي.
+scenes:
+- key: s1
+  source: 99e47d4b5ea9a9a2
+  translation: بلغ يايرون الخمسين، وكان في الأصل لا ينوي الاحتفال به، لكن عائلته أرادت عيد ميلاد هولنديًا حقيقيًا. جلس كل
+    الضيوف في دائرة كبيرة قرب الحائط، يحملون فنجان قهوة وبسكويتة واحدة بالضبط. كانوا سيأكلون الكعكة في الساعة الثالثة، فقد
+    وعدهم يايرون بذلك. وبعد أن هنّأه الجميع مرة واحدة، أصبحت الغرفة صامتة تمامًا.
+  glosses:
+    werd: أصبح/بلغ
+    en: و
+    hij: هو
+    zou: كان سـ
+    het: ذلك الاحتفال
+    eigenlijk: في الواقع
+    niet: لا/ليس
+    vieren: يحتفل
+    maar: لكن
+    zijn: خاصته
+    familie: العائلة
+    wilde: أرادت
+    echt: حقيقية
+    Hollandse: هولندية
+    verjaardag: عيد ميلاد
+    Alle: كل
+    gasten: الضيوف
+    zaten: جلسوا
+    in: في
+    grote: كبيرة
+    kring: حلقة/دائرة
+    tegen: مقابل/عند
+    muur: الحائط
+    met: مع
+    kopje: فنجان
+    koffie: قهوة
+    precies: بالضبط
+    koekje: بسكويتة
+    Ze: هم
+    zouden: كانوا سـ
+    om: في (الساعة)
+    uur: الساعة
+    taart: كعكة
+    eten: يأكلون
+    dat: ذلك
+    had: كان قد
+    beloofd: وعد
+    Nadat: بعد أن
+    iedereen: الجميع
+    hem: إياه
+    keer: مرة
+    gefeliciteerd: هنّأ
+    helemaal: تمامًا
+    stil: صامتة
+    kamer: الغرفة
+- key: s2
+  source: 9dd53e72c346c827
+  translation: 'في الساعة الثالثة وصلت الكعكة: طولها أربعة أمتار وعليها خمسون شمعة. وُضعت الكعكة على الطاولة في وسط الحلقة
+    ونظر إليها الجميع. وبعد أن أطفأ يايرون الشموع، أراد أن يقطعها. لكن الكعكة كانت قد اختفت! وصرخ الناس بصوت عالٍ حتى سمعهم
+    الجيران في الشارع كله.'
+  glosses:
+    Om: في (الساعة)
+    uur: الساعة
+    kwam: جاءت
+    taart: الكعكة
+    meter: متر
+    lang: طولًا
+    met: مع/عليها
+    kaarsjes: شموع صغيرة
+    erop: عليها
+    werd: تم/وُضع
+    op: على
+    tafel: الطاولة
+    in: في
+    midden: وسط
+    van: من
+    kring: الحلقة
+    gezet: وُضعت
+    en: و
+    iedereen: الجميع
+    keek: نظر
+    ernaar: إليها
+    Nadat: بعد أن
+    had: كان قد
+    uitgeblazen: أطفأ
+    wilde: أراد
+    hij: هو
+    aansnijden: يقطعها
+    Maar: لكن
+    was: كانت
+    weg: اختفت
+    Er: صُرِخ/هناك
+    zo: بهذه الشدة
+    hard: عالٍ/بقوة
+    geschreeuwd: صُرِخ
+    dat: حتى
+    buren: الجيران
+    het: ذلك الصراخ
+    hele: كل/كامل
+    straat: الشارع
+    hoorden: سمعوا
+- key: s3
+  source: 708927c45b397bc7
+  translation: 'اتصل يايرون بالخباز، فتم إحضار كعكة ثانية فورًا، أكبر من الأولى. كان على الضيوف الآن أن ينتبهوا جيدًا: عشرة
+    أشخاص نظروا إلى الكعكة عشر دقائق. لكن بعد أن ذهب أحدهم إلى المرحاض لحظة، كانت الكعكة قد اختفت مرة أخرى. كانت الجدة أنس
+    ستحلف أنها لم ترَ شيئًا.'
+  glosses:
+    belde: اتصل
+    bakker: الخباز
+    en: و
+    er: تم/هناك
+    werd: تم
+    meteen: فورًا
+    taart: كعكة
+    gebracht: أُحضرت
+    nog: حتى/أكثر
+    groter: أكبر
+    dan: من
+    gasten: الضيوف
+    zouden: كانوا سـ/سوف
+    nu: الآن
+    goed: جيدًا
+    opletten: ينتبهون
+    mensen: أشخاص
+    keken: نظروا
+    minuten: دقائق
+    lang: طويلًا
+    naar: إلى
+    Maar: لكن
+    nadat: بعد أن
+    iemand: شخص ما
+    even: لحظة/قليلًا
+    wc: المرحاض
+    was: كان
+    gegaan: ذهب
+    alweer: مرة أخرى
+    verdwenen: اختفت
+    Oma: الجدة
+    zou: كانت سـ
+    zweren: تقسم
+    dat: أن
+    ze: هي
+    niets: لا شيء
+    had: كانت قد
+    gezien: رأت
+- key: s4
+  source: 552450f7010db5bf
+  translation: 'من أجل الكعكة الثالثة وضعوا خطة: أُغلق الباب بالمفتاح ووُضع الكلب في الحديقة. كانوا سيبقون جميعًا ينظرون إلى
+    الكعكة دون أن يرمشوا. لكن حين وصلت الكعكة، أصبح الجو حارًا في الغرفة لدرجة أن الجميع أغمض عينيه لثانية. وبعد أن فتحوا
+    عيونهم مرة أخرى، رأوا طاولة فارغة وأثرًا طويلًا من الفتات.'
+  glosses:
+    Voor: من أجل
+    taart: الكعكة
+    maakten: صنعوا
+    ze: هم
+    plan: خطة
+    deur: الباب
+    werd: تم
+    op: على
+    slot: قفل
+    gedaan: فُعل/أُغلق
+    en: و
+    hond: الكلب
+    in: في
+    tuin: الحديقة
+    gezet: وُضع
+    zouden: كانوا سـ
+    allemaal: جميعًا
+    naar: إلى
+    blijven: يبقوا
+    kijken: ينظرون
+    zonder: دون
+    knipperen: يرمشون
+    Maar: لكن
+    toen: عندما
+    kwam: جاءت
+    het: الجو
+    zo: بهذه
+    warm: حارًا
+    kamer: الغرفة
+    dat: حتى
+    iedereen: الجميع
+    seconde: ثانية
+    zijn: ـه
+    ogen: عينيه/عيون
+    sloot: أغلق
+    Nadat: بعد أن
+    hun: ـهم
+    weer: مرة أخرى
+    openden: فتحوا
+    zagen: رأوا
+    lege: فارغة
+    tafel: الطاولة
+    lang: طويل
+    spoor: أثر
+    van: من
+    kruimels: فتات
+- key: s5
+  source: 1cd7360f0f671a55
+  translation: 'كان أثر الفتات يمتد عبر الغرفة، إلى الحديقة، وصولًا إلى عنزة الجيران. أصبحت العنزة فورًا المشتبه به الرئيسي،
+    لكنها نظرت ببراءة شديدة. وبعد أن أعطاها يايرون قطعة كبيرة من الكعكة، أصبحت الضيف الرابع عشر في الحلقة. قال الضيوف: «في
+    السنة القادمة، يجب أن نأكل الكعكة ببساطة خلال دقيقة!». بلغ يايرون الخمسين، لكن هذا كان أفضل عيد ميلاد في حياته.'
+  glosses:
+    spoor: أثر/مسار
+    van: من
+    kruimels: فتات
+    liep: امتد/سار
+    door: عبر
+    kamer: الغرفة
+    naar: إلى
+    tuin: الحديقة
+    geit: العنزة
+    buren: الجيران
+    werd: أصبح
+    meteen: فورًا
+    hoofdverdachte: المشتبه به الرئيسي
+    maar: لكن
+    ze: هي
+    keek: نظرت
+    heel: جدًا
+    onschuldig: بريئة
+    Nadat: بعد أن
+    groot: كبير
+    stuk: قطعة
+    taart: كعكة
+    had: كان قد
+    gegeven: أعطى
+    gast: ضيف
+    in: في
+    kring: الحلقة
+    Volgend: القادم
+    jaar: سنة
+    zeiden: قالوا
+    gasten: الضيوف
+    zouden: سوف/كانوا سـ
+    we: نحن
+    gewoon: ببساطة
+    binnen: خلال
+    minuut: دقيقة
+    moeten: يجب أن
+    opeten: نأكلها كلها
+    dit: هذا
+    was: كان
+    beste: أفضل
+    verjaardag: عيد ميلاد
+    zijn: ـه
+    leven: حياته
+words:
+  de verjaardag: عيد الميلاد
+  de taart: الكعكة
+  de gast: الضيف
+  de kring: الحلقة/الدائرة
+  de kruimel: الفتاتة
+  de geit: العنزة

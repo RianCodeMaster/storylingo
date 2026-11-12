@@ -4,7 +4,7 @@ import json
 from languages import english
 from models import Brief
 
-PROMPT_VERSION = "tprs-v3"  # v2: story only in the target language (translations: localize.py). v3: local names,
+PROMPT_VERSION = "tprs-v4"  # v2: story only in the target language (translations: localize.py). v3: local names,
 # answers in varied places
 
 
@@ -14,8 +14,12 @@ You write short, absurd, exaggerated stories that make learners laugh and rememb
 Rules for the story:
 - Write strictly at the requested CEFR level: short sentences, high-frequency words, no rare idioms.
 - Every target structure appears at least 3 times in the scene texts, written exactly as given, in natural sentences.
+- A target with "..." is a pattern (e.g. "als ... dan"): fill the gap with words. Never write the dots or the bare
+  pattern into the story. A separable or split verb goes where the grammar puts it ("Ze neemt het brood mee").
 - The story is bizarre and emotional: a surprising character, a big problem, wild exaggeration
-  (enormous, tiny, furious, 1000 bananas), and a funny twist at the end.
+  (enormous, tiny, furious, absurd numbers), and a funny twist at the end.
+- Invent exaggerations that grow out of this theme. No bananas unless the theme asks for them: every story in
+  the course must feel different, so never fall back on the same stock joke.
 - One main character who stays the same in every scene. Give characters names that are common in a country
   where the target language is spoken (unless the theme names them).
 - Each scene is 2 to 4 sentences.
@@ -56,6 +60,16 @@ def user_prompt(brief: Brief) -> str:
         f"Theme: {brief.theme}\n"
         f"Number of scenes: {brief.scenes}\n"
         f"Target structures: {json.dumps(targets, ensure_ascii=False)}"
+    )
+
+
+def simplify_prompt(level: str, hard: list[str]) -> str:
+    return (
+        f"This story is too hard for {level}. These words are above {level}: {', '.join(hard)}.\n"
+        f"Rewrite it strictly at {level}: replace each of them with a very common {level} word, or leave it out. "
+        "Use only the most frequent everyday words a beginner knows; short sentences. Keep the characters, the plot, "
+        "the twist, the number of scenes and every target structure (still at least 3 times, written exactly as given). "
+        "Questions and image prompts follow the new text. Return the full JSON in the same shape."
     )
 
 

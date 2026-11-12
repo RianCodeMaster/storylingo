@@ -1,0 +1,172 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Marta wants five tapas in a noisy bar in Madrid, but she orders too fast, gets fifty tapas, and ends up inviting
+  the whole bar to a party.
+summary_source: 0e032b6d36e66602
+gestures:
+  order: Pretend to scribble wildly in a tiny invisible notebook, then throw the note over your shoulder like a pizza chef.
+  want: Hug yourself and stare at an imaginary cake with huge hungry eyes, licking your lips.
+  there_was: Sweep both arms wide open like a giant curtain, then point at the empty space with your mouth open in surprise.
+  there_is: Sweep both arms wide open like a giant curtain, then point at the empty space with your mouth open in surprise.
+targets:
+  pidió:
+    gloss: ordered (he/she)
+    note: Preterite of pedir; English simple past 'ordered'.
+  quería:
+    gloss: wanted
+    note: Imperfect; English often uses simple 'wanted' for ongoing desire.
+  había:
+    gloss: there was/were
+    note: Spanish haber = English 'there is/are'; here past 'there was/were'.
+scenes:
+- key: s1
+  source: 27a28a3b0e94486a
+  translation: Marta was very hungry. She wanted to eat tapas in a small bar in Madrid. There were many people in the bar,
+    and there was also a lot of noise. Marta wanted a quiet table.
+  glosses:
+    tenía: had
+    mucha: a lot of
+    hambre: hunger
+    Quería: wanted
+    comer: to eat
+    tapas: tapas
+    en: in
+    bar: bar
+    pequeño: small
+    de: from
+    había: there was
+    gente: people
+    "y": and
+    también: also
+    mucho: a lot of
+    ruido: noise
+    mesa: table
+    tranquila: quiet
+- key: s2
+  source: 8704942bc9df2fd6
+  translation: The waiter was called Paco and had a huge moustache. Paco couldn't hear well because the music was very loud.
+    Marta wanted five tortilla tapas. But Marta ordered very quickly, and Paco smiled.
+  glosses:
+    camarero: waiter
+    se: reflexive marker
+    llamaba: was called
+    "y": and
+    tenía: had
+    bigote: moustache
+    enorme: huge
+    "no": not
+    oía: heard
+    bien: well
+    porque: because
+    había: there was
+    música: music
+    muy: very
+    alta: loud
+    quería: wanted
+    tapas: tapas
+    de: of
+    tortilla: tortilla
+    Pero: but
+    pidió: ordered
+    rápido: quickly
+    sonrió: smiled
+- key: s3
+  source: 697d2687872c8fd0
+  translation: 'Paco wrote down the order and went to the kitchen. Ten minutes later, he brought what Marta had ordered: fifty
+    tapas! There were plates of tortilla, ham and cheese everywhere. ''Fifty!'' Marta shouted. ''I wanted five!'''
+  glosses:
+    escribió: wrote
+    pedido: order
+    "y": and
+    fue: went
+    a: to
+    cocina: kitchen
+    minutos: minutes
+    después: later
+    trajo: brought
+    lo: what
+    que: that
+    pidió: ordered
+    tapas: tapas
+    Había: there were
+    platos: plates
+    de: of
+    tortilla: tortilla
+    jamón: ham
+    queso: cheese
+    por: around
+    todas: all
+    partes: parts
+    gritó: shouted
+    Yo: I
+    quería: wanted
+- key: s4
+  source: 08dcabbf716d6ef2
+  translation: Marta looked at the table and wanted to cry. There was food for a hundred people, but in the bar there was
+    no room for more plates. Then Marta called her neighbor Pepe. Pepe ordered five more tapas and ate very quickly.
+  glosses:
+    miró: looked at
+    mesa: table
+    "y": and
+    quería: wanted
+    llorar: to cry
+    Había: there was
+    comida: food
+    para: for
+    personas: people
+    pero: but
+    en: in
+    bar: bar
+    "no": not
+    sitio: room
+    más: more
+    platos: plates
+    Entonces: then
+    llamó: called
+    a: to
+    su: her
+    vecino: neighbor
+    pidió: ordered
+    tapas: tapas
+    comió: ate
+    muy: very
+    rápido: quickly
+- key: s5
+  source: dc60b673df587c48
+  translation: 'In the end, Marta invited the whole bar: ''Free tapas for everyone!'' Everyone wanted to eat, and Paco wanted
+    to dance. There was a huge party in the small bar. And Paco didn''t ask for money: he ordered another round of tapas.'
+  glosses:
+    Al: at the
+    final: end
+    invitó: invited
+    a: to
+    todo: the whole
+    bar: bar
+    Tapas: tapas
+    gratis: free
+    para: for
+    todos: everyone
+    querían: wanted
+    comer: to eat
+    "y": and
+    quería: wanted
+    bailar: to dance
+    Había: there was
+    fiesta: party
+    enorme: huge
+    en: in
+    pequeño: small
+    "no": not
+    pidió: asked for/ordered
+    dinero: money
+    otra: another
+    ronda: round
+    de: of
+words:
+  el bar: the bar
+  la tapa: the tapa
+  el camarero: the waiter
+  el bigote: the moustache
+  la tortilla: the tortilla
+  la fiesta: the party

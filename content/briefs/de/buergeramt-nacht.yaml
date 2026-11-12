@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: buergeramt-nacht
+language: de
+level: A2
+tags: [algemeen, behoerde]
+narrator: jessica
+theme: Sarah musste sich beim Bürgeramt anmelden, aber ihr Termin war um drei Uhr nachts; der Beamte trug einen Schlafanzug
+scenes: 5
+targets:
+  - {text: "musste", gloss: "had to", concept: must}
+  - {text: "war", gloss: "was", concept: be_past}
+  - {text: "konnte nicht", gloss: "could not", concept: cannot_past, kind: phrase}

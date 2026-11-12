@@ -1,0 +1,209 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: لدى فلور مقابلة عمل لكنها خائفة جدًا من الكلام، فيجيب ببغاؤها كاريل عن كل الأسئلة ويحصل على الوظيفة.
+summary_source: 3f003d13398d76f5
+gestures:
+  have_past: 'اضمم صندوقًا خياليًا كبيرًا إلى صدرك، ثم افتح يديك الفارغتين وهز كتفيك كأنك تقول: كان لديّ، لكن ذلك قبل الآن.'
+  not_dare: تصغّر وتنكمش، وتغطِّ عينيك بيد واحدة، وتهز رأسك بسرعة كأنك تريد الاختفاء.
+  give: أمسك هدية خيالية بكلتا يديك وادفعها بعيدًا نحو شخص ما مع إيماءة كريمة.
+  have: 'يملك: احتضن صندوقًا كبيرًا غير مرئي إلى صدرك، ثم افتح يديك الفارغتين وارفع كتفيك كأنك تقول: كان لديّ، لكن ذلك كان
+    في الماضي.'
+targets:
+  had:
+    gloss: كان/امتلك
+    note: فعل ماضٍ شاذ من hebben؛ يقابل في العربية «كان» أو «امتلك»، ولا يتبع قاعدة -te/-de.
+  durfde niet:
+    gloss: لم يجرؤ
+    note: بعد durfde niet يأتي المصدر مع te؛ في العربية نقول «لم يجرؤ على» + مصدر.
+  gaf:
+    gloss: أعطى
+    note: ماضٍ شاذ من geven؛ يعني «أعطى»، وقد يعني «أطلق» مع schreeuw أو lach.
+scenes:
+- key: s1
+  source: ef8bc8459a91e767
+  translation: 'كان لدى فلور اليوم مقابلة عمل مهمة، وكانت ترتدي فستانًا أحمر. كان لديها أيضًا ببغاء على كتفها: كاريل. أعطى
+    كاريل قبلة صغيرة على أذنها، لكن فلور لم تجرؤ على الدخول، ولم تجرؤ على المغادرة، ولم تجرؤ على الحركة. أطلق كاريل صرخة عالية
+    ودفع الباب دفعًا خفيفًا.'
+  glosses:
+    had: كان لديها
+    vandaag: اليوم
+    groot: كبيرة/مهمة
+    sollicitatiegesprek: مقابلة عمل
+    en: و
+    ze: هي
+    rode: حمراء
+    jurk: فستان
+    aan: ترتدي
+    ook: أيضًا
+    papegaai: ببغاء
+    op: على
+    haar: ـها
+    schouder: كتف
+    gaf: أعطى
+    klein: صغيرة
+    kusje: قبلة
+    oor: أذن
+    maar: لكن
+    durfde: جرؤت
+    niet: لم
+    naar: إلى
+    binnen: الداخل
+    weg: المغادرة
+    te: أن
+    gaan: تغادر
+    bewegen: تتحرك
+    harde: عالية
+    schreeuw: صرخة
+    duwtje: دفعة خفيفة
+    tegen: على
+    deur: الباب
+- key: s2
+  source: 1f47ae2962790adc
+  translation: في الغرفة كانت السيدة دي بور ترتدي نظارة كبيرة، وكان لديها مكتب صغير جدًا. صافحت فلور، وأعطتها كأس ماء، وأومأ
+    كاريل برأسه. لم تجرؤ فلور على الكلام، ولم تجرؤ على النظر، ولم تجرؤ على الحركة. كان فمها جافًا.
+  glosses:
+    In: في
+    kamer: الغرفة
+    had: كانت ترتدي/لديها
+    mevrouw: السيدة
+    grote: كبيرة
+    bril: نظارة
+    op: على
+    en: و
+    ze: هي
+    heel: جدًا
+    klein: صغير
+    bureau: مكتب
+    gaf: صافحت/أعطت
+    hand: يد
+    glas: كأس
+    water: ماء
+    knikje: إيماءة
+    durfde: جرؤت
+    niet: لم
+    te: أن
+    praten: تتكلم
+    kijken: تنظر
+    bewegen: تتحرك
+    droge: جاف
+    mond: فم
+- key: s3
+  source: 6cdcf5b88160e924
+  translation: 'كانت لدى السيدة دي بور سؤال، وكانت تحمل قلمًا في يدها. سألت: «لماذا تريدين هذه الوظيفة؟» لكن فلور فقدت صوتها
+    ولم تجرؤ على الإجابة. لم تجرؤ على النظر ولم تجرؤ على البلع. أعطى كاريل إجابة فورية: «أنا أفضل آكل للكعك في هولندا!» أطلقت
+    السيدة دي بور ضحكة عالية وأعطت كاريل إطراءً كبيرًا.'
+  glosses:
+    Mevrouw: السيدة
+    had: كانت لديها/تحمل
+    vraag: سؤال
+    en: و
+    ze: هي
+    pen: قلم
+    in: في
+    haar: ـها
+    hand: يد
+    Waarom: لماذا
+    wilt: تريد
+    u: أنتِ
+    deze: هذه
+    baan: الوظيفة
+    vroeg: سألت
+    maar: لكن
+    geen: بدون
+    stem: صوت
+    durfde: جرؤت
+    niet: لم
+    te: أن
+    antwoorden: تجيب
+    kijken: تنظر
+    slikken: تبلع
+    gaf: أعطى/أطلق
+    meteen: فورًا
+    antwoord: إجابة
+    Ik: أنا
+    ben: أكون
+    beste: أفضل
+    koekjeseter: آكل الكعك
+    van: في
+    harde: عالية
+    lach: ضحكة
+    groot: كبيرًا
+    compliment: إطراء
+- key: s4
+  source: 79d9d83f702ab7c9
+  translation: كان لدى السيدة دي بور عشرة أسئلة أخرى، وأعطت كاريل كل سؤال. أعطى كاريل عشرين إجابة، وأعطى أيضًا أغنية. لم تجرؤ
+    فلور على الضحك، ولم تجرؤ على الحركة، ولم تجرؤ على الرمش. كان وجهها أحمر، وكانت تعاني من تشنج في كل أصابع قدميها.
+  glosses:
+    Mevrouw: السيدة
+    had: كان لدى
+    nog: أخرى
+    vragen: أسئلة
+    en: و
+    ze: هي
+    gaf: أعطت
+    elke: كل
+    vraag: سؤال
+    antwoorden: إجابات
+    hij: هو
+    ook: أيضًا
+    liedje: أغنية
+    durfde: جرؤت
+    niet: لم
+    te: أن
+    lachen: تضحك
+    bewegen: تتحرك
+    knipperen: ترمش
+    rode: أحمر
+    kop: وجه
+    kramp: تشنج
+    in: في
+    al: كل
+    haar: ـها
+    tenen: أصابع القدم
+- key: s5
+  source: cb70f43e00a010a2
+  translation: 'وقفت السيدة دي بور وصافحت كاريل. «كاريل، أنت حصلت على الوظيفة!» حصل كاريل على الوظيفة، وأطلق صرخة عالية، وأعطى
+    فلور قبلة على أنفها. لم تجرؤ فلور على الهتاف، ولم تجرؤ على البكاء، ولم تجرؤ على النظر. أصبح لديها الآن وظيفة أيضًا: كانت
+    مساعدة ببغائها، وأخيرًا أصبح لديها رئيس له ريش!'
+  glosses:
+    Mevrouw: السيدة
+    stond: وقفت
+    op: وقفت
+    en: و
+    ze: هي
+    gaf: صافحت
+    hand: يد
+    jij: أنت
+    hebt: حصلت
+    baan: الوظيفة
+    had: حصل على
+    hij: هو
+    harde: عالية
+    schreeuw: صرخة
+    kusje: قبلة
+    haar: ـها
+    neus: أنف
+    durfde: جرؤت
+    niet: لم
+    te: أن
+    juichen: تهتف
+    huilen: تبكي
+    kijken: تنظر
+    nu: الآن
+    ook: أيضًا
+    was: كانت
+    assistent: مساعدة
+    van: لـ
+    papegaai: ببغاء
+    eindelijk: أخيرًا
+    baas: رئيس
+    met: مع
+    veren: ريش
+words:
+  de papegaai: الببغاء
+  de schouder: الكتف
+  de deur: الباب
+  de bril: النظارة
+  het bureau: المكتب
+  de baan: الوظيفة

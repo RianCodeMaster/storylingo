@@ -1,0 +1,134 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تبحث ميا عن شقة رخيصة في برلين، وتجد شقة صغيرة جدًا كعلبة حذاء، وتحل مشكلة الأثاث بأثاث الدمى.
+summary_source: fbe28ed0668cb1b8
+gestures:
+  search: ضع يديك حول عينيك كمنظار وحرك رأسك يمينًا ويسارًا كأنك تفحص الغرفة.
+  small: اقرّب طرف الإبهام والسبابة قليلًا أمام أنفك وغمض عينًا واحدة.
+  there_is: ارفع سبابتك في الهواء كأنك تفعل سحرًا وافتح يدك الأخرى تحتها وقل هيا.
+targets:
+  sucht:
+    gloss: تبحث عن
+    note: 'في العربية يتغير الفعل مع الفاعل: هي تبحث؛ وفي الألمانية نضيف -t للفاعل sie.'
+  ist klein:
+    gloss: صغيرة
+    note: 'في العربية لا نحتاج تكون في الجملة الاسمية: الشقة صغيرة؛ والألمانية تحتاج ist.'
+  es gibt:
+    gloss: يوجد
+    note: مثل يوجد في العربية، وبعدها يأتي اسم في حالة النصب في الألمانية.
+scenes:
+- key: s1
+  source: 2b22a4abb62e5f18
+  translation: تبحث ميا عن شقة في برلين. تبحث كل يوم. تبحث في الإنترنت وفي الصحيفة. لكن كل الشقق غالية.
+  glosses:
+    sucht: تبحث عن
+    Wohnung: شقة
+    in: في
+    Sie: هي
+    jeden: كل
+    Tag: يوم
+    im: في
+    Internet: الإنترنت
+    und: و
+    Zeitung: الصحيفة
+    Aber: لكن
+    alle: كل
+    Wohnungen: الشقق
+    sind: تكون
+    teuer: غالية
+- key: s2
+  source: 1339198f802f4ede
+  translation: 'أخيرًا تقرأ ميا إعلانًا. توجد شقة مقابل 200 يورو. تتصل ميا فورًا. يقول الرجل في الهاتف: توجد غرفة واحدة فقط.'
+  glosses:
+    Endlich: أخيرًا
+    liest: تقرأ
+    Anzeige: إعلان
+    Es: يوجد
+    gibt: يوجد
+    Wohnung: شقة
+    für: مقابل
+    Euro: يورو
+    ruft: تتصل
+    sofort: فورًا
+    nur: فقط
+    Zimmer: غرفة
+    sagt: يقول
+    Mann: الرجل
+    am: على
+    Telefon: الهاتف
+- key: s3
+  source: 89959ee63ea8df50
+  translation: 'تدخل ميا الشقة. الشقة صغيرة. الغرفة صغيرة والمطبخ صغير. تقول ميا: أوه، توجد نافذة!'
+  glosses:
+    geht: تدخل
+    in: إلى
+    Wohnung: الشقة
+    ist: تكون
+    klein: صغيرة
+    Zimmer: الغرفة
+    und: و
+    Küche: المطبخ
+    sagt: تقول
+    es: يوجد
+    gibt: توجد
+    Fenster: نافذة
+- key: s4
+  source: d2af944540624130
+  translation: لدى ميا أثاث كثير. لديها أريكة كبيرة وخزانة كبيرة. لكن لا يوجد مكان في الشقة. الأريكة كبيرة والشقة صغيرة. ميا
+    حزينة جدًا.
+  glosses:
+    hat: لديها
+    viele: كثير
+    Möbel: أثاث
+    Sie: هي
+    großes: كبيرة
+    Sofa: الأريكة
+    und: و
+    großen: كبيرة
+    Schrank: خزانة
+    Aber: لكن
+    es: يوجد
+    gibt: يوجد
+    Platz: مكان
+    in: في
+    Wohnung: الشقة
+    ist: تكون
+    groß: كبيرة
+    klein: صغيرة
+    sehr: جدًا
+    traurig: حزينة
+- key: s5
+  source: 60112b4c845f7db8
+  translation: لدى ميا فكرة. تشتري أثاثًا صغيرًا للدمى. الأريكة صغيرة، والسرير صغير. الآن يناسب كل شيء! ميا سعيدة. يوجد مكان
+    لميا وقطتها.
+  glosses:
+    hat: لديها
+    Idee: فكرة
+    Sie: هي
+    kauft: تشتري
+    kleine: صغير
+    Möbel: أثاث
+    für: لـ
+    Puppen: الدمى
+    Sofa: الأريكة
+    ist: تكون
+    klein: صغيرة
+    Bett: السرير
+    Jetzt: الآن
+    passt: يناسب
+    alles: كل شيء
+    glücklich: سعيدة
+    Es: يوجد
+    gibt: يوجد
+    Platz: مكان
+    und: و
+    ihre: لها
+    Katze: القطة
+words:
+  suchen: يبحث عن
+  die Wohnung: الشقة
+  klein: صغير
+  das Möbel: قطعة الأثاث
+  der Platz: المكان
+  die Puppe: الدمية

@@ -1,0 +1,157 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: يذهب خافيير إلى الطبيب بعد ثلاثة أيام من الفواق، لكن الطبيبة لديها فواق أيضاً، وفي النهاية ينتقل الفواق إلى سماعتها
+  الطبية.
+summary_source: f16694e57dff8471
+gestures:
+  went: سِرْ في مكانك بخطوات كبيرة مبالغ فيها، وأشر بيدك إلى مكان بعيد، ثم توقف وأشر إلى الأرض.
+  have_past: عانق صندوقاً خيالياً إلى صدرك بذراعيك وهزّه برفق، كأنك تحمل شيئاً ثقيلاً مضى عليه وقت طويل.
+  said: افتح يدك وأغلقها مثل فم يتكلم أمام فمك، وحرّك رأسك إلى الأمام مع كل كلمة.
+  have: عانق صندوقًا خياليًا بذراعيك واضغطه على صدرك وحرّكه بلطف، كأنك تحمل شيئًا ثقيلًا منذ زمن طويل.
+targets:
+  fue:
+    gloss: ذهبَ
+    note: فعل ماضٍ من «ir» بمعنى ذهب هنا؛ العربية لا تصرّف حسب الشخص، والإسبانية تصرّف.
+  tenía:
+    gloss: كان لديه
+    note: الماضي الناقص يعبّر عن حالة مستمرة؛ العربية تقول «كان عنده» غالباً.
+  dijo:
+    gloss: قالَ
+    note: ماضٍ شاذّ من «decir»؛ العربية «قال» لا تتغير مع الفاعل، والإسبانية تتغير.
+scenes:
+- key: s1
+  source: 4db80555e5a65ff9
+  translation: 'كان خافيير مصاباً بالفواق منذ ثلاثة أيام. كان لديه أربعة آلاف فواق كل ساعة، وقالت جارته: «مصباحي يتحرك!».
+    ذهب خافيير إلى طبيب الحي. ذهب في الثامنة صباحاً.'
+  glosses:
+    tenía: كان لديه
+    hipo: الفواق
+    desde: منذ
+    hacía: مضت
+    días: أيام
+    hipos: نوبات فواق
+    cada: كل
+    hora: ساعة
+    "y": و
+    su: الخاص به
+    vecina: الجارة
+    dijo: قالت
+    Mi: خاصتي
+    lámpara: المصباح
+    se: نفسها
+    mueve: تتحرك
+    fue: ذهب
+    al: إلى الـ
+    médico: الطبيب
+    del: من الـ
+    barrio: الحي
+    a: في
+    de: من
+    mañana: الصباح
+- key: s2
+  source: 8a81b88dfcb5053d
+  translation: 'في غرفة الانتظار، كانت الجدة مصابة بالفواق. الشرطي أيضاً كان مصاباً بالفواق. قالت الممرضة: «هيب. تفضل بالدخول،
+    خافيير». ذهب خافيير إلى العيادة رقم ثلاثة عشر.'
+  glosses:
+    En: في
+    sala: غرفة
+    de: الـ
+    espera: الانتظار
+    abuela: الجدة
+    tenía: كان لديها
+    hipo: الفواق
+    policía: الشرطي
+    también: أيضاً
+    enfermera: الممرضة
+    dijo: قالت
+    Pase: تفضل بالدخول
+    fue: ذهب
+    a: إلى
+    consulta: العيادة
+    número: رقم
+- key: s3
+  source: ee4908028975c575
+  translation: 'كانت الطبيبة كارمن سيرانو مصابة بالفواق أيضاً. كان لديها فواق منذ خمسة أيام. قالت: «هيب. صباح الخير، خافيير.
+    هيب». قال خافيير: «دكتورة، عندي أربعة آلاف فواق في الساعة»، وقالت الطبيبة: «اهدأ، عندي فكرة».'
+  glosses:
+    doctora: الطبيبة
+    tenía: كان لديها
+    hipo: الفواق
+    también: أيضاً
+    desde: منذ
+    hacía: مضت
+    días: أيام
+    Dijo: قالت
+    Buenos: طيّبة
+    tengo: لديّ
+    hipos: فواقات
+    por: لكل
+    hora: ساعة
+    "y": و
+    Tranquilo: اهدأ
+    idea: فكرة
+- key: s4
+  source: b3758ea8c3157708
+  translation: 'ذهبت الطبيبة إلى النافذة وصرخت: «تنين!». لم يكن خافيير خائفاً. قالت الطبيبة: «اشرب هذا الكأس من الماء». كان
+    في الكأس عشرون لتراً، لكن خافيير شرب كله ثم ذهب إلى الحمام ثلاث مرات.'
+  glosses:
+    doctora: الطبيبة
+    fue: ذهبت
+    a: إلى
+    ventana: النافذة
+    "y": و
+    gritó: صرخت
+    dragón: تنين
+    "no": لم
+    tenía: كان لديه
+    miedo: خوف
+    dijo: قالت
+    Bebe: اشرب
+    este: هذا
+    vaso: الكأس
+    de: من
+    agua: ماء
+    litros: لترات
+    pero: لكن
+    bebió: شرب
+    todo: كله
+    después: بعد ذلك
+    al: إلى الـ
+    baño: الحمام
+    veces: مرات
+- key: s5
+  source: 9fc2413204f0ec5d
+  translation: 'حينها شرب خافيير الماء بالمقلوب فاختفى فواقه. قالت الطبيبة: «جيد!» واختفى فواقها أيضاً. لكن السماعة الطبية
+    كان لديها فواق: «هيب، هيب، هيب». ذهب خافيير إلى البيت سعيداً، وكانت الطبيبة تملك سماعة طبية مصابة بالفواق إلى الأبد.'
+  glosses:
+    Entonces: حينها
+    bebió: شرب
+    agua: ماء
+    al: بـ
+    revés: المقلوب
+    "y": و
+    su: الخاص به
+    hipo: الفواق
+    desapareció: اختفى
+    doctora: الطبيبة
+    dijo: قالت
+    Bien: جيد
+    también: أيضاً
+    Pero: لكن
+    estetoscopio: السماعة الطبية
+    tenía: كان لديه
+    fue: ذهب
+    a: إلى
+    casa: البيت
+    contento: سعيداً
+    con: مع
+    para: لـ
+    siempre: الأبد
+words:
+  el hipo: الفواق
+  el médico: الطبيب
+  la doctora: الطبيبة
+  el vaso: الكأس
+  el dragón: التنين
+  el estetoscopio: السماعة الطبية

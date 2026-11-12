@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: belastingdienst-wachten
+language: nl
+level: B1
+tags: [algemeen, dagelijks]
+narrator: jessica
+theme: Sophie belt de Belastingdienst over een brief die ze niet begrijpt en staat drie dagen in de wachtrij; ondertussen leert ze de wachtmuziek spelen
+scenes: 5
+targets:
+  - {text: "terwijl", gloss: "while (verb at the end)", concept: while}
+  - {text: "heb gebeld", gloss: "have called", concept: have_called, kind: phrase}
+  - {text: "moet wachten", gloss: "must wait", concept: must_wait, kind: phrase}

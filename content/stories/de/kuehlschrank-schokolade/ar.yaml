@@ -1,0 +1,94 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: بول لديه ثلاجة تتكلم ولا تريد إلا الشوكولاتة، لكن بول يريد الخضار — حتى تنقذ الموقف قطعة شوكولاتة غريبة جدًا.
+summary_source: 2866dcaf0f19dd56
+gestures:
+  have: احتضن صندوقًا كبيرًا غير مرئي إلى صدرك وأومئ بفخر كأنك تملك العالم كله.
+  want: مدّ ذراعيك أمامك وافتح كفيك وأغلقهما بنهم، ولحس شفتيك.
+  speak: 'ضع يدك قرب فمك وحرّكها كمنقار يثرثر وأنت تقول: «بلاه بلاه بلاه».'
+targets:
+  hat:
+    gloss: لديه / يملك
+    note: 'في الألمانية يتغير الفعل مع الفاعل: هو hat؛ العربية تلحق الضمير بالفعل أو تأتي به منفصلاً.'
+  will:
+    gloss: يريد
+    note: في الألمانية يأتي بعد will الفعل في نهاية الجملة؛ في العربية «يريد» يأخذ مفعولاً.
+  spricht:
+    gloss: يتكلم
+    note: spricht من sprechen مع هو؛ العربية تقول «هو يتكلم» وتضيف الضمير.
+scenes:
+- key: s1
+  source: 6538747ffe8d3bed
+  translation: 'لدى بول ثلاجة. الثلاجة اسمها كلاوس. كلاوس يتكلم. كلاوس يقول كل يوم: «مرحبًا بول!»'
+  glosses:
+    hat: لديه
+    Kühlschrank: ثلاجة
+    heißt: اسمه
+    spricht: يتكلم
+    jeden: كل
+    Tag: يوم
+- key: s2
+  source: 49d47b6360eb39b3
+  translation: كلاوس يريد شوكولاتة. كلاوس يريد 1000 لوح شوكولاتة. بول يريد خضارًا. بول يريد بروكلي وجزرًا.
+  glosses:
+    will: يريد
+    Schokolade: شوكولاتة
+    Tafeln: ألواح
+    Gemüse: خضار
+    Brokkoli: بروكلي
+    und: و
+    Karotten: جزر
+- key: s3
+  source: 96323d8ccf464b9a
+  translation: 'لدى بول بروكلي في الثلاجة. لكن كلاوس لا يريد جزرًا. كلاوس يتكلم بصوت عالٍ: «أريد شوكولاتة!» بول جائع.'
+  glosses:
+    hat: لديه
+    Brokkoli: بروكلي
+    im: في
+    Kühlschrank: الثلاجة
+    Aber: لكن
+    will: يريد
+    keine: لا / ليس أي
+    Karotten: جزر
+    spricht: يتكلم
+    laut: بصوت عالٍ
+    Ich: أنا
+    Schokolade: شوكولاتة
+    Hunger: جوع
+- key: s4
+  source: 0aec376488e70d2a
+  translation: كلاوس يتكلم بصوت عالٍ جدًا. للثلاجة باب كبير. لدى بول فكرة. يذهب بول إلى السوبرماركت.
+  glosses:
+    spricht: يتكلم
+    sehr: جدًا
+    laut: بصوت عالٍ
+    Kühlschrank: الثلاجة
+    hat: لديها
+    große: كبير
+    Tür: باب
+    Idee: فكرة
+    geht: يذهب
+    in: إلى
+    Supermarkt: سوبرماركت
+- key: s5
+  source: 963dae63b107035c
+  translation: 'لدى بول شوكولاتة بالبروكلي. كلاوس يريد الشوكولاتة. يأكل كلاوس ويتكلم: «مم، بروكلي!» الآن يريد كلاوس خضارًا.'
+  glosses:
+    hat: لديه
+    Schokolade: شوكولاتة
+    mit: مع / بـ
+    Brokkoli: بروكلي
+    will: يريد
+    isst: يأكل
+    und: و
+    spricht: يتكلم
+    Jetzt: الآن
+    Gemüse: خضار
+words:
+  der Kühlschrank: الثلاجة
+  die Schokolade: الشوكولاتة
+  das Gemüse: الخضار
+  der Brokkoli: البروكلي
+  der Supermarkt: السوبرماركت
+  die Tür: الباب

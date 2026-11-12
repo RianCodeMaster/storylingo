@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: verjaardag-kring
+language: nl
+level: B1
+tags: [algemeen, dagelijks]
+narrator: charlie
+theme: Jeroen viert zijn verjaardag op z'n Hollands met iedereen in een kring, maar de taart verdwijnt steeds als niemand kijkt
+scenes: 5
+targets:
+  - {text: "nadat", gloss: "after (verb at the end)", concept: after}
+  - {text: "werd", gloss: "became / was (passive)", concept: became}
+  - {text: "zouden", gloss: "would (plural)", concept: would}

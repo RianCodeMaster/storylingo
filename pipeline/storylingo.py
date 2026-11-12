@@ -4,6 +4,8 @@
     python storylingo.py check [base]                          is everything complete and in sync? says how to fix what is not
     python storylingo.py generate content/briefs/de/<slug>.yaml  brief -> DeepSeek -> content/stories/de/<slug>/ (draft)
     python storylingo.py show <slug>                           read the story in the terminal
+    python storylingo.py simplify <slug>                       rewrite the words above the story's level (then its
+                                                               glossary, core words, voice and translations again)
     python storylingo.py publish <slug>                        status: published in story.yaml, then sync
     python storylingo.py glossary <slug>                       (re)make the tap-a-word glossary
     python storylingo.py core <slug>                           (re)choose the ~6 core words taught with a picture before the story
@@ -145,7 +147,7 @@ def make_media(slug: str, provider_name: str, only: str | None = None, language:
             item = media.retry(lambda: maker.picture(job["prompt"]))
         elif job["what"] == "narration":
             lines = [v.model_dump() for v in job["scene"].voice]
-            item = media.retry(lambda: speaker.speech(job["scene"].text, "story", lines, voice))
+            item = media.retry(lambda: speaker.speech(job["scene"].text, "story", lines, job["voice"]))
         else:
             item = media.retry(lambda: speaker.speech(job["text"], job["what"], None, voice))
         path = f"{job['path']}.{media.extension(item.mime_type)}"
@@ -154,6 +156,34 @@ def make_media(slug: str, provider_name: str, only: str | None = None, language:
         asset_id = db.save_asset(kind, path, item.mime_type, item.provider, item.model, item.marks, job["want"])
         db.link_asset(*job["link"][:2], job["link"][2], asset_id)
     print(f"Done: {len(todo)} files for '{slug}'.")
+
+
+def simplify(slug: str) -> None:
+    """Easier words for a story whose words are above its level. Scene and question keys stay where the scene or
+    question stays, so learners keep their history."""
+    from check import hard_words
+    from llm import simplify_story
+
+    doc = content.read(slug)
+    hard = hard_words(doc)
+    if not hard:
+        print(f"'{slug}' is already at {doc.brief.level}.")
+        return
+    print(f"Simplifying '{slug}' ({doc.brief.level}): {', '.join(hard)}")
+    story, usage = simplify_story(doc.brief, doc.story, hard)
+    for old, new in zip(doc.story.scenes, story.scenes):
+        new.key = old.key
+        for q_old, q_new in zip(old.questions, new.questions):
+            q_new.key = q_old.key
+    doc.story = story
+    doc.generation.update({"simplified": usage, **add_glossary(doc.brief, story), **add_core_words(doc.brief, story),
+                           **add_voice(story)})
+    for base in sorted({loc for loc in doc.localizations} | set(db.pair_bases(doc.brief.language))):
+        add_localization(doc, base)
+    store(doc)
+    show(doc.brief, story, doc.localizations)
+    left = hard_words(doc)
+    print(f"Still above {doc.brief.level}: {', '.join(left) if left else 'nothing'}")
 
 
 def make_feedback(language: str) -> None:
@@ -195,6 +225,8 @@ def main(argv: list[str]) -> None:
         show(brief, story, doc.localizations)
         print(f"Tokens: {usage['input_tokens']} in / {usage['output_tokens']} out. Read it, edit story.yaml if needed, "
               f"then: storylingo.py media {brief.slug}  and  storylingo.py publish {brief.slug}")
+    elif command == "simplify":
+        simplify(arg)
     elif command == "show":
         doc = content.read(arg)
         show(doc.brief, doc.story, doc.localizations)

@@ -1,0 +1,220 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Elena had vijf vrienden uitgenodigd, maar door een verkeerd bericht komt de hele buurt, de burgemeester met een muziekkorps
+  en Elena's woedende kat, en uiteindelijk wordt het het beste feest van het jaar.
+summary_source: 3ad61538bebcd962
+gestures:
+  had_invited: Doe alsof je een klein uitnodigingsbriefje op een plakbriefje schrijft en het met één vinger ver weg laat schieten,
+    terwijl je 'pum!' zegt wanneer het bij één persoon landt.
+  so_that: Open een onzichtbare deur zo wijd als je kunt met beide armen en houd hem open met een trotse glimlach, knikkend
+    zodat de ander erdoor kan lopen.
+  while: Wrijf met één hand cirkels over je buik en klop tegelijk met de andere op je hoofd, wiegend met je heupen om te laten
+    zien dat twee dingen tegelijk gebeuren.
+targets:
+  había invitado:
+    gloss: had uitgenodigd
+    note: 'Net als ''had uitgenodigd'': haber + voltooid deelwoord.'
+  para que:
+    gloss: zodat
+    note: Na 'para que' volgt in het Spaans de subjuntivo; Nederlands 'zodat' gebruikt de gewone werkwoordsvorm.
+  mientras:
+    gloss: terwijl
+    note: Net als 'terwijl'; bij gelijktijdige feiten vaak indicativo.
+scenes:
+- key: s1
+  source: c5ef6de0dac9c9f5
+  translation: Elena had vijf vrienden uitgenodigd op haar kleine terras. De hele ochtend maakte ze schoon, kocht ze twaalf
+    kroketten en zette ze zes stoelen klaar zodat iedereen het comfortabel had. Terwijl ze een liedje van Rosalía zong, keek
+    ze op haar telefoon en glimlachte.
+  glosses:
+    había: had
+    invitado: uitgenodigd
+    a: persoonlijk voorzetsel
+    amigos: vrienden
+    su: haar
+    terraza: terras
+    pequeña: kleine
+    Durante: gedurende
+    toda: hele
+    mañana: ochtend
+    limpió: maakte schoon
+    compró: kocht
+    croquetas: kroketten
+    "y": en
+    puso: zette
+    sillas: stoelen
+    para: opdat
+    que: dat
+    todos: iedereen
+    estuvieran: zouden zijn
+    cómodos: comfortabel
+    Mientras: terwijl
+    cantaba: zong
+    canción: liedje
+    de: van
+    miró: keek naar
+    móvil: telefoon
+    sonrió: glimlachte
+- key: s2
+  source: ddbc85b7f1e017b8
+  translation: 'Om acht uur ging de bel. Het waren geen vijf vrienden: het was de hele buurt. Haar buurman Paco kwam met zijn
+    familie, twintig personen, en daarachter waren nog honderd buren. Elena had maar vijf mensen uitgenodigd en had maar twaalf
+    kroketten.'
+  glosses:
+    A: om
+    sonó: ging
+    timbre: bel
+    "No": geen
+    eran: waren
+    amigos: vrienden
+    era: was
+    todo: hele
+    barrio: buurt
+    Su: haar
+    vecino: buurman
+    llegó: kwam
+    con: met
+    familia: familie
+    personas: personen
+    "y": en
+    detrás: daarachter
+    había: waren
+    vecinos: buren
+    más: nog
+    invitado: uitgenodigd
+    solo: slechts
+    tenía: had
+    croquetas: kroketten
+- key: s3
+  source: 9912377c442b5c69
+  translation: Toen kwam burgemeester Bermúdez met een muziekkorps van dertig muzikanten. Het korps speelde heel hard een
+    pasodoble terwijl de buren dansten. Elena opende alle zakken chips zodat de mensen iets konden eten. 'Wat een mooi feest!'
+    zei de burgemeester.
+  glosses:
+    Entonces: toen
+    llegó: kwam
+    alcalde: burgemeester
+    con: met
+    banda: muziekkorps
+    de: van
+    música: muziek
+    músicos: muzikanten
+    tocó: speelde
+    pasodoble: pasodoble
+    muy: heel
+    fuerte: hard
+    mientras: terwijl
+    vecinos: buren
+    bailaban: dansten
+    abrió: opende
+    todas: alle
+    bolsas: zakken
+    patatas: chips
+    para: opdat
+    que: dat
+    gente: mensen
+    comiera: kon eten
+    algo: iets
+    Qué: wat
+    fiesta: feest
+    tan: zo
+    bonita: mooi
+    dijo: zei
+- key: s4
+  source: d75b997bbbf039ad
+  translation: 'Het probleem was dat het terras heel klein was: tweehonderd mensen op twintig vierkante meter. Het gebouw
+    begon te bewegen en Elena''s kat Napoleón sprong woedend op het hoofd van de burgemeester. Terwijl de band harder speelde,
+    rende Elena naar de bar beneden om meer ijs te krijgen.'
+  glosses:
+    problema: probleem
+    fue: was
+    que: dat
+    terraza: terras
+    era: was
+    muy: heel
+    pequeña: klein
+    personas: mensen
+    en: op
+    metros: meter
+    edificio: gebouw
+    empezó: begon
+    a: te
+    moverse: bewegen
+    "y": en
+    gato: kat
+    de: van
+    saltó: sprong
+    furioso: woedend
+    cabeza: hoofd
+    del: van de
+    alcalde: burgemeester
+    Mientras: terwijl
+    banda: band
+    tocaba: speelde
+    más: meer
+    fuerte: hard
+    corrió: rende
+    al: naar de
+    bar: bar
+    abajo: beneden
+    para: om
+    le: haar
+    dieran: gaven
+    hielo: ijs
+- key: s5
+  source: 37e4e66043f59c96
+  translation: 'Uiteindelijk brachten alle buren eten en het feest werd het beste van het jaar. Elena keek op haar telefoon
+    en zag de waarheid: ze had de hele buurt uitgenodigd, omdat ze het bericht naar de groep ''Hele Buurt'' had gestuurd en
+    niet naar haar vijf vrienden. Ze lachte en danste met de burgemeester. Terwijl Napoleón op de bank sliep, besloot Elena
+    het feest elke maand te herhalen.'
+  glosses:
+    Al: uiteindelijk
+    final: einde
+    todos: alle
+    vecinos: buren
+    trajeron: brachten
+    comida: eten
+    "y": en
+    fiesta: feest
+    fue: werd
+    mejor: beste
+    del: van het
+    año: jaar
+    miró: keek op
+    su: haar
+    móvil: telefoon
+    vio: zag
+    verdad: waarheid
+    había: had
+    invitado: uitgenodigd
+    a: persoonlijk voorzetsel
+    todo: hele
+    barrio: buurt
+    porque: omdat
+    mandó: stuurde
+    mensaje: bericht
+    grupo: groep
+    "no": niet
+    sus: haar
+    amigos: vrienden
+    Se: zich
+    rió: lachte
+    bailó: danste
+    con: met
+    alcalde: burgemeester
+    Mientras: terwijl
+    dormía: sliep
+    en: op
+    sofá: bank
+    decidió: besloot
+    repetir: herhalen
+    cada: elke
+    mes: maand
+words:
+  la terraza: het terras
+  la croqueta: de kroket
+  el vecino: de buurman
+  el alcalde: de burgemeester
+  la banda: de band
+  el gato: de kat

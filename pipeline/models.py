@@ -26,6 +26,7 @@ class Brief(BaseModel):
     theme: str
     scenes: int = Field(5, ge=3, le=8)
     targets: list[Target] = Field(min_length=1, max_length=4)
+    narrator: str | None = None    # who tells it (a name from the language's voice.narrators); else one by turn
 
 
 class Gesture(BaseModel):
@@ -111,8 +112,10 @@ class Localization(BaseModel):
 
 
 def occurs(text: str, phrase: str) -> int:
-    """How often a word or phrase appears in a text as a whole word, ignoring case."""
-    pattern = re.compile(r"(?<!\w)" + re.escape(phrase.lower()) + r"(?!\w)")
+    """How often a word or phrase appears in a text as a whole word, ignoring case. A pattern with "..." ("als ... dan")
+    counts when its parts appear in that order within one sentence."""
+    parts = [re.escape(p.strip()) for p in phrase.lower().split("...") if p.strip()]
+    pattern = re.compile(r"(?<!\w)" + r"(?!\w)[^.!?]{1,80}?(?<!\w)".join(parts) + r"(?!\w)")
     return len(pattern.findall(text.lower()))
 
 

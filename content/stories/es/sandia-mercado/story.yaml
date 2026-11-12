@@ -1,0 +1,499 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: sandia-mercado
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A1
+  theme: Carmen compra una sandía en el mercado; la sandía es enorme y no cabe en su casa
+  scenes: 5
+  targets:
+  - text: compra
+    gloss: buys
+    concept: buy
+    kind: word
+  - text: es
+    gloss: is
+    concept: be
+    kind: word
+  - text: quiere
+    gloss: wants
+    concept: want
+    kind: word
+  narrator: george
+story:
+  title: Carmen y la sandía gigante
+  summary: Carmen buys an enormous watermelon at the market, but it is far too big for her small house, and inside it she
+    finds a hundred tiny watermelons.
+  gestures:
+  - concept: buy
+    description: Hold an invisible giant watermelon with both arms, then slap a coin into an imaginary shopkeeper's hand and
+      wink.
+    emoji: 🛒
+  - concept: be
+    description: Point at yourself with both thumbs, then stretch your arms out wide to show how enormously big something
+      is.
+    emoji: 🧍
+  - concept: want
+    description: Stretch both hands forward like a hungry zombie reaching for a watermelon and lick your lips.
+    emoji: 🤲
+  scenes:
+  - key: s1
+    text: Carmen va al mercado. Carmen compra una sandía. La sandía es muy grande. Es enorme.
+    image_prompt: Carmen, a 60-year-old woman with curly grey hair, red glasses and a green apron, stands at a sunny Spanish
+      market stall holding a watermelon bigger than her whole body, her big straw bag on her arm.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Carmen compra una sandía?
+      options: [sí, "no"]
+      answer: sí
+      target: compra
+    - key: s1q2
+      kind: either_or
+      prompt: ¿La sandía es grande o pequeña?
+      options: [grande, pequeña]
+      answer: grande
+      target: es
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Qué compra Carmen?
+      options: [una sandía, un melón, una manzana]
+      answer: una sandía
+      target: compra
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿La sandía es pequeña?
+      options: [sí, "no"]
+      answer: "no"
+      target: es
+    glossary:
+    - word: va
+      lemma: ir
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: mercado
+      lemma: el mercado
+      level: A1
+    - word: compra
+      lemma: comprar
+      level: A1
+    - word: sandía
+      lemma: la sandía
+      level: A2
+    - word: es
+      lemma: ser
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: grande
+      lemma: grande
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    voice:
+    - text: Carmen va al mercado.
+      emotion: neutral
+    - text: Carmen compra una sandía.
+      emotion: neutral
+    - text: La sandía es muy grande.
+      emotion: surprised
+    - text: Es enorme.
+      emotion: surprised
+  - key: s2
+    text: 'Carmen quiere pagar. La sandía es muy cara: cien euros. Carmen compra la sandía. El señor del mercado es feliz.'
+    image_prompt: Carmen counts a huge pile of coins on the market counter while the shopkeeper, a bald man with a moustache,
+      laughs and hugs the giant watermelon.
+    questions:
+    - key: s2q1
+      kind: either_or
+      prompt: ¿Carmen quiere pagar o quiere dormir?
+      options: [quiere pagar, quiere dormir]
+      answer: quiere pagar
+      target: quiere
+    - key: s2q2
+      kind: who_what
+      prompt: ¿Cuánto cuesta la sandía?
+      options: [cien euros, diez euros, mil euros]
+      answer: cien euros
+    - key: s2q3
+      kind: yes_no
+      prompt: ¿El señor del mercado es feliz?
+      options: [sí, "no"]
+      answer: sí
+      target: es
+    - key: s2q4
+      kind: either_or
+      prompt: '¿Quién compra la sandía: Carmen o el señor?'
+      options: [Carmen, el señor]
+      answer: Carmen
+      target: compra
+    - key: s2q5
+      kind: yes_no
+      prompt: ¿La sandía es barata?
+      options: [sí, "no"]
+      answer: "no"
+      target: es
+    glossary:
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: pagar
+      lemma: pagar
+      level: A2
+    - word: sandía
+      lemma: la sandía
+      level: A2
+    - word: es
+      lemma: ser
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: cara
+      lemma: caro
+      level: A1
+    - word: euros
+      lemma: el euro
+      level: A1
+    - word: compra
+      lemma: comprar
+      level: A1
+    - word: señor
+      lemma: el señor
+      level: A1
+    - word: del
+      lemma: de
+      level: A1
+    - word: mercado
+      lemma: el mercado
+      level: A1
+    - word: feliz
+      lemma: feliz
+      level: A1
+    voice:
+    - text: Carmen quiere pagar.
+      emotion: neutral
+    - text: 'La sandía es muy cara: cien euros.'
+      emotion: surprised
+    - text: Carmen compra la sandía.
+      emotion: neutral
+    - text: El señor del mercado es feliz.
+      emotion: amused
+  - key: s3
+    text: Carmen quiere ir a casa. La sandía es muy pesada. Un señor con un camión pequeño ayuda a Carmen. El camión es pequeño
+      y la sandía es enorme.
+    image_prompt: Carmen pushes the giant watermelon up a ramp into a tiny yellow truck while a thin old driver in a flat
+      cap waves his arms in panic.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿Carmen quiere ir a casa?
+      options: [sí, "no"]
+      answer: sí
+      target: quiere
+    - key: s3q2
+      kind: either_or
+      prompt: ¿La sandía es ligera o pesada?
+      options: [ligera, pesada]
+      answer: pesada
+      target: es
+    - key: s3q3
+      kind: who_what
+      prompt: ¿Quién ayuda a Carmen?
+      options: [un señor, una señora, un niño]
+      answer: un señor
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿El camión es pequeño?
+      options: [sí, "no"]
+      answer: sí
+      target: es
+    glossary:
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: ir
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: casa
+      lemma: la casa
+      level: A1
+    - word: sandía
+      lemma: la sandía
+      level: A2
+    - word: es
+      lemma: ser
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: pesada
+      lemma: pesado
+      level: A2
+    - word: señor
+      lemma: el señor
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: camión
+      lemma: el camión
+      level: A2
+    - word: pequeño
+      lemma: pequeño
+      level: A1
+    - word: ayuda
+      lemma: ayudar
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    voice:
+    - text: Carmen quiere ir a casa.
+      emotion: neutral
+    - text: La sandía es muy pesada.
+      emotion: angry
+    - text: Un señor con un camión pequeño ayuda a Carmen.
+      emotion: amused
+    - text: El camión es pequeño y la sandía es enorme.
+      emotion: surprised
+  - key: s4
+    text: Carmen está en su casa. Pero la sandía no cabe en la puerta. La puerta es muy pequeña. Carmen empuja la sandía.
+      No quiere dormir en la calle.
+    image_prompt: Carmen pushes the giant watermelon against the front door of her little white house; the watermelon is much
+      wider than the door and her neighbours watch from a balcony.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿La sandía cabe en la puerta?
+      options: [sí, "no"]
+      answer: "no"
+    - key: s4q2
+      kind: either_or
+      prompt: ¿La puerta es grande o pequeña?
+      options: [grande, pequeña]
+      answer: pequeña
+      target: es
+    - key: s4q3
+      kind: who_what
+      prompt: ¿Dónde no cabe la sandía?
+      options: [en la puerta, en el mercado, en el camión]
+      answer: en la puerta
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Carmen quiere dormir en la calle?
+      options: [sí, "no"]
+      answer: "no"
+      target: quiere
+    - key: s4q5
+      kind: either_or
+      prompt: ¿Carmen empuja la sandía o compra la sandía?
+      options: [empuja la sandía, compra la sandía]
+      answer: empuja la sandía
+    glossary:
+    - word: está
+      lemma: estar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: casa
+      lemma: la casa
+      level: A1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: sandía
+      lemma: la sandía
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: cabe
+      lemma: caber
+      level: B1
+    - word: puerta
+      lemma: la puerta
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: pequeña
+      lemma: pequeño
+      level: A1
+    - word: empuja
+      lemma: empujar
+      level: B1
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: dormir
+      lemma: dormir
+      level: A1
+    - word: calle
+      lemma: la calle
+      level: A1
+    voice:
+    - text: Carmen está en su casa.
+      emotion: neutral
+    - text: Pero la sandía no cabe en la puerta.
+      emotion: surprised
+    - text: La puerta es muy pequeña.
+      emotion: amused
+    - text: Carmen empuja la sandía.
+      emotion: angry
+    - text: No quiere dormir en la calle.
+      emotion: whisper
+  - key: s5
+    text: Carmen quiere comer la sandía. Corta la sandía con un cuchillo pequeño. ¡Dentro hay cien sandías pequeñas! Carmen
+      es feliz. Pero no compra más sandías.
+    image_prompt: Carmen cuts the giant watermelon on the pavement and a hundred tiny watermelons spill out like confetti
+      while she throws her arms up in delight.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿Carmen quiere comer la sandía?
+      options: [sí, "no"]
+      answer: sí
+      target: quiere
+    - key: s5q2
+      kind: who_what
+      prompt: ¿Qué hay dentro de la sandía?
+      options: [cien sandías pequeñas, cien manzanas, un pájaro]
+      answer: cien sandías pequeñas
+    - key: s5q3
+      kind: either_or
+      prompt: ¿Carmen corta la sandía con un cuchillo o con una cuchara?
+      options: [con un cuchillo, con una cuchara]
+      answer: con un cuchillo
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Su casa es pequeña?
+      options: [sí, "no"]
+      answer: sí
+      target: es
+    - key: s5q5
+      kind: either_or
+      prompt: ¿Carmen es triste o feliz?
+      options: [triste, feliz]
+      answer: feliz
+      target: es
+    glossary:
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: comer
+      lemma: comer
+      level: A1
+    - word: sandía
+      lemma: la sandía
+      level: A2
+    - word: Corta
+      lemma: cortar
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: cuchillo
+      lemma: el cuchillo
+      level: A2
+    - word: pequeño
+      lemma: pequeño
+      level: A1
+    - word: Dentro
+      lemma: dentro
+      level: A2
+    - word: hay
+      lemma: haber
+      level: A1
+    - word: sandías
+      lemma: la sandía
+      level: A2
+    - word: pequeñas
+      lemma: pequeño
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: feliz
+      lemma: feliz
+      level: A1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: compra
+      lemma: comprar
+      level: A1
+    - word: más
+      lemma: más
+      level: A1
+    voice:
+    - text: Carmen quiere comer la sandía.
+      emotion: amused
+    - text: Corta la sandía con un cuchillo pequeño.
+      emotion: neutral
+    - text: ¡Dentro hay cien sandías pequeñas!
+      emotion: surprised
+    - text: Carmen es feliz.
+      emotion: amused
+    - text: Pero no compra más sandías.
+      emotion: amused
+  core_words:
+  - lemma: la sandía
+    image_prompt: a large whole green watermelon
+  - lemma: el mercado
+    image_prompt: an outdoor market stall with fruit and vegetables
+  - lemma: comprar
+    image_prompt: a person handing coins to a market seller and receiving a fruit
+  - lemma: el camión
+    image_prompt: a small open truck on a street
+  - lemma: la puerta
+    image_prompt: a closed wooden front door of a house
+  - lemma: el cuchillo
+    image_prompt: a small kitchen knife on a wooden cutting board
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 782
+  output_tokens: 4310
+  glossary_version: glossary-v2
+  glossary_input_tokens: 470
+  glossary_output_tokens: 10718
+  core_version: core-v1
+  core_input_tokens: 1006
+  core_output_tokens: 1633
+  voice_version: voice-v1
+  voice_input_tokens: 446
+  voice_output_tokens: 771
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1071
+  localize_ar_output_tokens: 5106
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1071
+  localize_en_output_tokens: 2936
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1071
+  localize_nl_output_tokens: 4086

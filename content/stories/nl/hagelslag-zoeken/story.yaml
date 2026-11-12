@@ -1,0 +1,620 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: hagelslag-zoeken
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A2
+  theme: Joris zocht in de supermarkt naar hagelslag; hij moest het aan iedereen vragen en kreeg uiteindelijk tien soorten
+  scenes: 5
+  targets:
+  - text: zocht
+    gloss: looked for
+    concept: search
+    kind: word
+  - text: moest
+    gloss: had to
+    concept: must
+    kind: word
+  - text: kreeg
+    gloss: got
+    concept: get
+    kind: word
+  narrator: charlie
+story:
+  title: Joris en de tien soorten hagelslag
+  summary: Joris searches a whole supermarket for hagelslag, has to ask everybody, and ends up with ten strange kinds — while
+    at home there are already forty packets.
+  gestures:
+  - concept: search
+    description: Make binoculars with both hands around your eyes and slowly turn your head left and right, humming like you
+      are looking for something.
+    emoji: 🔍
+  - concept: must
+    description: Point a strict finger at yourself, stomp one foot and puff out your cheeks like a bossy teacher.
+    emoji: 😤
+  - concept: get
+    description: Hold out both open hands, then snap them shut and pull them to your chest with a big happy grin, like catching
+      a flying present.
+    emoji: 🎁
+  scenes:
+  - key: s1
+    text: Joris zocht naar hagelslag in de supermarkt. Hij zocht in het broodvak en in het koekvak. Hij zocht ook in de diepvries,
+      maar hij vond niets. Hij moest het aan een mevrouw vragen.
+    image_prompt: Joris, a tall skinny 9-year-old Dutch boy with curly red hair, round glasses, a bright yellow raincoat and
+      blue rain boots, stands in a supermarket aisle with his head deep inside a freezer, holding an empty shopping basket.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Zocht Joris naar hagelslag in de supermarkt?
+      options: [ja, nee]
+      answer: ja
+      target: zocht
+    - key: s1q2
+      kind: either_or
+      prompt: Zocht Joris in het broodvak of in de bibliotheek?
+      options: [in het broodvak, in de bibliotheek]
+      answer: in het broodvak
+      target: zocht
+    - key: s1q3
+      kind: who_what
+      prompt: Wat moest Joris doen?
+      options: [hij moest het vragen, hij moest slapen, hij moest betalen]
+      answer: hij moest het vragen
+      target: moest
+    - key: s1q4
+      kind: yes_no
+      prompt: Vond Joris de hagelslag meteen?
+      options: [ja, nee]
+      answer: nee
+    glossary:
+    - word: zocht
+      lemma: zoeken
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: hagelslag
+      lemma: de hagelslag
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: supermarkt
+      lemma: de supermarkt
+      level: A1
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: het
+      lemma: het
+      level: A1
+    - word: broodvak
+      lemma: het broodvak
+      level: B1
+    - word: en
+      lemma: en
+      level: A1
+    - word: koekvak
+      lemma: het koekvak
+      level: B1
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: diepvries
+      lemma: de diepvries
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: vond
+      lemma: vinden
+      level: A1
+    - word: niets
+      lemma: niets
+      level: A1
+    - word: moest
+      lemma: moeten
+      level: A1
+    - word: aan
+      lemma: aan
+      level: A1
+    - word: mevrouw
+      lemma: de mevrouw
+      level: A1
+    - word: vragen
+      lemma: vragen
+      level: A1
+    voice:
+    - text: Joris zocht naar hagelslag in de supermarkt.
+      emotion: neutral
+    - text: Hij zocht in het broodvak en in het koekvak.
+      emotion: amused
+    - text: Hij zocht ook in de diepvries, maar hij vond niets.
+      emotion: surprised
+    - text: Hij moest het aan een mevrouw vragen.
+      emotion: whisper
+  - key: s2
+    text: Joris moest het aan de man van de winkel vragen. De man zocht met hem mee. Hij zocht onder de appels en achter de
+      melk. Maar Joris kreeg geen hagelslag.
+    image_prompt: Joris, the skinny boy with curly red hair, round glasses, yellow raincoat and blue boots, kneels on the
+      supermarket floor next to a tall shop assistant in a green apron, both looking under a mountain of apples.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Zocht de man met Joris mee?
+      options: [ja, nee]
+      answer: ja
+      target: zocht
+    - key: s2q2
+      kind: either_or
+      prompt: Zocht de man achter de televisie of achter de melk?
+      options: [achter de televisie, achter de melk]
+      answer: achter de melk
+      target: zocht
+    - key: s2q3
+      kind: who_what
+      prompt: Wat kreeg Joris van de man?
+      options: [geen hagelslag, een zakje hagelslag, tien pakken]
+      answer: geen hagelslag
+      target: kreeg
+    - key: s2q4
+      kind: yes_no
+      prompt: Moest Joris nog een keer vragen?
+      options: [ja, nee]
+      answer: ja
+      target: moest
+    glossary:
+    - word: moest
+      lemma: moeten
+      level: A1
+    - word: het
+      lemma: het
+      level: A1
+    - word: aan
+      lemma: aan
+      level: A1
+    - word: man
+      lemma: de man
+      level: A1
+    - word: van
+      lemma: van
+      level: A1
+    - word: winkel
+      lemma: de winkel
+      level: A1
+    - word: vragen
+      lemma: vragen
+      level: A1
+    - word: zocht
+      lemma: zoeken
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: hem
+      lemma: hem
+      level: A1
+    - word: mee
+      lemma: mee
+      level: A2
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: onder
+      lemma: onder
+      level: A1
+    - word: appels
+      lemma: de appel
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: achter
+      lemma: achter
+      level: A1
+    - word: melk
+      lemma: de melk
+      level: A1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: kreeg
+      lemma: krijgen
+      level: A1
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: hagelslag
+      lemma: de hagelslag
+      level: A2
+    voice:
+    - text: Joris moest het aan de man van de winkel vragen.
+      emotion: neutral
+    - text: De man zocht met hem mee.
+      emotion: amused
+    - text: Hij zocht onder de appels en achter de melk.
+      emotion: surprised
+    - text: Maar Joris kreeg geen hagelslag.
+      emotion: disgusted
+  - key: s3
+    text: De cassière zocht in haar tas. Ze zocht onder de kassa en ze zocht in haar jaszak. Joris kreeg een klein zakje hagelslag.
+      Er zaten maar drie korrels in, dus Joris moest weer vragen.
+    image_prompt: Joris, the skinny boy with curly red hair, round glasses, yellow raincoat and blue boots, watches a cashier
+      in a red uniform dig wildly through a huge handbag behind the checkout, three tiny sprinkles on the counter.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Zocht de cassière in haar tas?
+      options: [ja, nee]
+      answer: ja
+      target: zocht
+    - key: s3q2
+      kind: either_or
+      prompt: Zocht de cassière onder de kassa of onder de auto?
+      options: [onder de kassa, onder de auto]
+      answer: onder de kassa
+      target: zocht
+    - key: s3q3
+      kind: who_what
+      prompt: Wat kreeg Joris van de cassière?
+      options: [een klein zakje, een grote doos, niets]
+      answer: een klein zakje
+      target: kreeg
+    - key: s3q4
+      kind: yes_no
+      prompt: Waren er veel korrels in het zakje?
+      options: [ja, nee]
+      answer: nee
+    - key: s3q5
+      kind: who_what
+      prompt: Wat moest Joris doen?
+      options: [weer vragen, naar huis gaan, betalen]
+      answer: weer vragen
+      target: moest
+    glossary:
+    - word: cassière
+      lemma: de cassière
+      level: B1
+    - word: zocht
+      lemma: zoeken
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: tas
+      lemma: de tas
+      level: A1
+    - word: Ze
+      lemma: ze
+      level: A1
+    - word: onder
+      lemma: onder
+      level: A1
+    - word: kassa
+      lemma: de kassa
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: jaszak
+      lemma: de jaszak
+      level: A2
+    - word: kreeg
+      lemma: krijgen
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: zakje
+      lemma: het zakje
+      level: A2
+    - word: hagelslag
+      lemma: de hagelslag
+      level: A2
+    - word: Er
+      lemma: er
+      level: A1
+    - word: zaten
+      lemma: zitten
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: korrels
+      lemma: de korrel
+      level: B1
+    - word: dus
+      lemma: dus
+      level: A1
+    - word: moest
+      lemma: moeten
+      level: A1
+    - word: weer
+      lemma: weer
+      level: A1
+    - word: vragen
+      lemma: vragen
+      level: A1
+    voice:
+    - text: De cassière zocht in haar tas.
+      emotion: neutral
+    - text: Ze zocht onder de kassa en ze zocht in haar jaszak.
+      emotion: amused
+    - text: Joris kreeg een klein zakje hagelslag.
+      emotion: surprised
+    - text: Er zaten maar drie korrels in, dus Joris moest weer vragen.
+      emotion: angry
+  - key: s4
+    text: 'Een jongen uit de winkel zocht in de ballenbak. Hij zocht in zijn schoen en in zijn pet. Toen kreeg Joris tien
+      soorten hagelslag: paarse, groene en hagelslag met sterretjes. Joris moest ze alle tien tellen.'
+    image_prompt: Joris, the skinny boy with curly red hair, round glasses, yellow raincoat and blue boots, sits on the supermarket
+      floor surrounded by ten little packets of purple, green and starry sprinkles, counting them on his fingers while another
+      boy pulls a packet out of his own shoe.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Zocht de jongen in de ballenbak?
+      options: [ja, nee]
+      answer: ja
+      target: zocht
+    - key: s4q2
+      kind: either_or
+      prompt: Zocht de jongen in de pan soep of in zijn schoen?
+      options: [in de pan soep, in zijn schoen]
+      answer: in zijn schoen
+      target: zocht
+    - key: s4q3
+      kind: who_what
+      prompt: Hoeveel soorten hagelslag kreeg Joris?
+      options: [tien soorten, twee soorten, geen soorten]
+      answer: tien soorten
+      target: kreeg
+    - key: s4q4
+      kind: yes_no
+      prompt: Moest Joris de soorten tellen?
+      options: [ja, nee]
+      answer: ja
+      target: moest
+    glossary:
+    - word: jongen
+      lemma: de jongen
+      level: A1
+    - word: uit
+      lemma: uit
+      level: A1
+    - word: winkel
+      lemma: de winkel
+      level: A1
+    - word: zocht
+      lemma: zoeken
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: ballenbak
+      lemma: de ballenbak
+      level: B1
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: schoen
+      lemma: de schoen
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: pet
+      lemma: de pet
+      level: A2
+    - word: Toen
+      lemma: toen
+      level: A1
+    - word: kreeg
+      lemma: krijgen
+      level: A1
+    - word: soorten
+      lemma: de soort
+      level: A2
+    - word: hagelslag
+      lemma: de hagelslag
+      level: A2
+    - word: paarse
+      lemma: paars
+      level: A2
+    - word: groene
+      lemma: groen
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: sterretjes
+      lemma: het sterretje
+      level: A2
+    - word: moest
+      lemma: moeten
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: alle
+      lemma: alle
+      level: A2
+    - word: tellen
+      lemma: tellen
+      level: A1
+    voice:
+    - text: Een jongen uit de winkel zocht in de ballenbak.
+      emotion: amused
+    - text: Hij zocht in zijn schoen en in zijn pet.
+      emotion: amused
+    - text: 'Toen kreeg Joris tien soorten hagelslag: paarse, groene en hagelslag met sterretjes.'
+      emotion: surprised
+    - text: Joris moest ze alle tien tellen.
+      emotion: neutral
+  - key: s5
+    text: 'De laatste mevrouw zocht in haar enorme handtas. Ze zocht heel lang en eindelijk kreeg Joris de tiende soort: hagelslag
+      met glittertjes. Joris moest huilen van geluk. Zijn moeder zei thuis: ''Joris, we hebben al veertig pakken hagelslag!'''
+    image_prompt: Joris, the skinny boy with curly red hair, round glasses, yellow raincoat and blue boots, cries happy tears
+      while an old lady with a gigantic handbag hands him a glittering packet of sprinkles; behind him his mother points at
+      a kitchen shelf full of forty packets.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Zocht de mevrouw in haar handtas?
+      options: [ja, nee]
+      answer: ja
+      target: zocht
+    - key: s5q2
+      kind: either_or
+      prompt: Kreeg Joris de tiende soort van de mevrouw of van de bakker?
+      options: [van de mevrouw, van de bakker]
+      answer: van de mevrouw
+      target: kreeg
+    - key: s5q3
+      kind: who_what
+      prompt: Wat moest Joris doen van geluk?
+      options: [huilen, zingen, slapen]
+      answer: huilen
+      target: moest
+    - key: s5q4
+      kind: yes_no
+      prompt: Waren er thuis weinig pakken hagelslag?
+      options: [ja, nee]
+      answer: nee
+    glossary:
+    - word: laatste
+      lemma: laatste
+      level: A2
+    - word: mevrouw
+      lemma: de mevrouw
+      level: A1
+    - word: zocht
+      lemma: zoeken
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: enorme
+      lemma: enorm
+      level: B1
+    - word: handtas
+      lemma: de handtas
+      level: A2
+    - word: Ze
+      lemma: ze
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A1
+    - word: lang
+      lemma: lang
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: eindelijk
+      lemma: eindelijk
+      level: A2
+    - word: kreeg
+      lemma: krijgen
+      level: A1
+    - word: soort
+      lemma: de soort
+      level: A2
+    - word: hagelslag
+      lemma: de hagelslag
+      level: A2
+    - word: met
+      lemma: met
+      level: A1
+    - word: glittertjes
+      lemma: het glittertje
+      level: B1
+    - word: moest
+      lemma: moeten
+      level: A1
+    - word: huilen
+      lemma: huilen
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: geluk
+      lemma: het geluk
+      level: A2
+    - word: Zijn
+      lemma: zijn
+      level: A1
+    - word: moeder
+      lemma: de moeder
+      level: A1
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: thuis
+      lemma: thuis
+      level: A1
+    - word: we
+      lemma: we
+      level: A1
+    - word: hebben
+      lemma: hebben
+      level: A1
+    - word: al
+      lemma: al
+      level: A2
+    - word: pakken
+      lemma: het pak
+      level: A2
+    voice:
+    - text: De laatste mevrouw zocht in haar enorme handtas.
+      emotion: surprised
+    - text: 'Ze zocht heel lang en eindelijk kreeg Joris de tiende soort: hagelslag met glittertjes.'
+      emotion: surprised
+    - text: Joris moest huilen van geluk.
+      emotion: amused
+    - text: 'Zijn moeder zei thuis: ''Joris, we hebben al veertig pakken hagelslag!'''
+      emotion: surprised
+  core_words:
+  - lemma: de hagelslag
+    image_prompt: a small pile of colorful chocolate sprinkles on a white surface
+  - lemma: de supermarkt
+    image_prompt: a bright supermarket aisle with shelves of food
+  - lemma: de diepvries
+    image_prompt: an open freezer filled with frozen food
+  - lemma: de ballenbak
+    image_prompt: a colorful ball pit with many plastic balls
+  - lemma: de handtas
+    image_prompt: a large women's handbag
+  - lemma: het pak
+    image_prompt: a closed food package of chocolate sprinkles
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 794
+  output_tokens: 5844
+  glossary_version: glossary-v2
+  glossary_input_tokens: 587
+  glossary_output_tokens: 11534
+  core_version: core-v1
+  core_input_tokens: 1618
+  core_output_tokens: 1157
+  voice_version: voice-v1
+  voice_input_tokens: 564
+  voice_output_tokens: 1921
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1394
+  localize_ar_output_tokens: 6422

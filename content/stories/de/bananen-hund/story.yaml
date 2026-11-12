@@ -1,0 +1,466 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: bananen-hund
+status: published
+tags: [algemeen, alltag]
+brief:
+  language: de
+  level: A1
+  theme: Tim geht in den Supermarkt und kauft hundert Bananen, denn sein Hund isst nur Bananen
+  scenes: 5
+  targets:
+  - text: geht
+    gloss: goes
+    concept: go
+    kind: word
+  - text: kauft
+    gloss: buys
+    concept: buy
+    kind: word
+  - text: isst
+    gloss: eats
+    concept: eat
+    kind: word
+  narrator: george
+story:
+  title: Tim und hundert Bananen
+  summary: Tim goes to the supermarket and buys one hundred bananas because his dog Bruno only eats bananas — until Bruno
+    eats something else.
+  gestures:
+  - concept: go
+    description: March in place with big stomping steps and swing one arm forward like a soldier walking to the supermarket.
+    emoji: 🚶
+  - concept: buy
+    description: Hold an invisible shopping basket with one hand and throw invisible bananas over your shoulder into it with
+      the other, saying 'cha-ching!'
+    emoji: 🛒
+  - concept: eat
+    description: Open your mouth like a hungry monster and mime peeling and munching a giant banana with loud chomping sounds.
+    emoji: 🍌
+  scenes:
+  - key: s1
+    text: Tim hat einen Hund. Der Hund heißt Bruno. Bruno isst nur Bananen. Tim geht in den Supermarkt.
+    image_prompt: A tall thin young man named Tim with curly red hair, a green jacket and a yellow backpack stands in front
+      of a small German supermarket. Next to him sits a small brown dog with big ears and a red collar, holding a banana in
+      his mouth.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Hat Tim einen Hund?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s1q2
+      kind: who_what
+      prompt: Wie heißt der Hund?
+      options: [Bruno, Tim, Max]
+      answer: Bruno
+    - key: s1q3
+      kind: either_or
+      prompt: Was isst Bruno?
+      options: [Bananen, Äpfel]
+      answer: Bananen
+      target: isst
+    - key: s1q4
+      kind: yes_no
+      prompt: Isst Bruno Äpfel?
+      options: [Ja, Nein]
+      answer: Nein
+      target: isst
+    - key: s1q5
+      kind: who_what
+      prompt: Wohin geht Tim?
+      options: [in den Supermarkt, in die Schule, ins Kino]
+      answer: in den Supermarkt
+      target: geht
+    glossary:
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: Hund
+      lemma: der Hund
+      level: A1
+    - word: heißt
+      lemma: heißen
+      level: A1
+    - word: isst
+      lemma: essen
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: Bananen
+      lemma: die Banane
+      level: A1
+    - word: geht
+      lemma: gehen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Supermarkt
+      lemma: der Supermarkt
+      level: A1
+    voice:
+    - text: Tim hat einen Hund.
+      emotion: neutral
+    - text: Der Hund heißt Bruno.
+      emotion: amused
+    - text: Bruno isst nur Bananen.
+      emotion: surprised
+    - text: Tim geht in den Supermarkt.
+      emotion: neutral
+  - key: s2
+    text: Der Supermarkt ist sehr groß. Tim geht zu den Bananen. Er kauft hundert Bananen. Die Bananen sind sehr schwer.
+    image_prompt: Tim, the tall thin young man with curly red hair, green jacket and yellow backpack, stands in a huge supermarket
+      in front of a mountain of bananas with a giant shopping cart full of bananas. The little brown dog with big ears and
+      a red collar sits beside him.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Ist der Supermarkt klein?
+      options: [Ja, Nein]
+      answer: Nein
+    - key: s2q2
+      kind: either_or
+      prompt: Was kauft Tim?
+      options: [Bananen, Brot]
+      answer: Bananen
+      target: kauft
+    - key: s2q3
+      kind: who_what
+      prompt: Wie viele Bananen kauft Tim?
+      options: [hundert, zehn, drei]
+      answer: hundert
+      target: kauft
+    - key: s2q4
+      kind: yes_no
+      prompt: Kauft Tim zehn Bananen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: kauft
+    - key: s2q5
+      kind: either_or
+      prompt: Sind die Bananen schwer oder leicht?
+      options: [schwer, leicht]
+      answer: schwer
+    glossary:
+    - word: Supermarkt
+      lemma: der Supermarkt
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: groß
+      lemma: groß
+      level: A1
+    - word: geht
+      lemma: gehen
+      level: A1
+    - word: zu
+      lemma: zu
+      level: A1
+    - word: Bananen
+      lemma: die Banane
+      level: A1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: kauft
+      lemma: kaufen
+      level: A1
+    - word: sind
+      lemma: sein
+      level: A1
+    - word: schwer
+      lemma: schwer
+      level: A2
+    voice:
+    - text: Der Supermarkt ist sehr groß.
+      emotion: surprised
+    - text: Tim geht zu den Bananen.
+      emotion: neutral
+    - text: Er kauft hundert Bananen.
+      emotion: surprised
+    - text: Die Bananen sind sehr schwer.
+      emotion: amused
+  - key: s3
+    text: 'Eine Frau sieht Tim. Sie sagt: „Hundert Bananen?!“ Tim sagt: „Ja! Mein Hund isst nur Bananen.“ Die Frau lacht sehr
+      laut.'
+    image_prompt: In the supermarket, a laughing woman with short grey hair and a blue coat points at Tim's shopping cart.
+      Tim, with curly red hair, green jacket and yellow backpack, smiles and holds up a banana. The small brown dog with a
+      red collar looks up happily.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: Wer sieht Tim?
+      options: [eine Frau, ein Hund, ein Kind]
+      answer: eine Frau
+    - key: s3q2
+      kind: yes_no
+      prompt: Lacht die Frau?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s3q3
+      kind: either_or
+      prompt: Was isst der Hund?
+      options: [Bananen, Kuchen]
+      answer: Bananen
+      target: isst
+    - key: s3q4
+      kind: yes_no
+      prompt: 'Sagt Tim: „Mein Hund isst nur Schokolade“?'
+      options: [Ja, Nein]
+      answer: Nein
+      target: isst
+    glossary:
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: sieht
+      lemma: sehen
+      level: A1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: sagt
+      lemma: sagen
+      level: A1
+    - word: Bananen
+      lemma: die Banane
+      level: A1
+    - word: Mein
+      lemma: mein
+      level: A1
+    - word: Hund
+      lemma: der Hund
+      level: A1
+    - word: isst
+      lemma: essen
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: lacht
+      lemma: lachen
+      level: A2
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A2
+    voice:
+    - text: Eine Frau sieht Tim.
+      emotion: neutral
+    - text: 'Sie sagt: „Hundert Bananen?!“ Tim sagt: „Ja!'
+      emotion: surprised
+    - text: Mein Hund isst nur Bananen.“ Die Frau lacht sehr laut.
+      emotion: amused
+  - key: s4
+    text: Tim geht nach Hause. Bruno sieht die Bananen. Bruno isst eine Banane. Dann isst er zehn Bananen.
+    image_prompt: Tim, the tall thin young man with curly red hair, green jacket and yellow backpack, opens the door of his
+      small flat and drops a huge pile of bananas on the floor. The little brown dog with big ears and a red collar eats a
+      banana, banana peels everywhere.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Geht Tim nach Hause?
+      options: [Ja, Nein]
+      answer: Ja
+      target: geht
+    - key: s4q2
+      kind: who_what
+      prompt: Wie viele Bananen isst Bruno?
+      options: [zehn, hundert, eine]
+      answer: zehn
+      target: isst
+    - key: s4q3
+      kind: either_or
+      prompt: Isst Bruno eine Banane oder einen Apfel?
+      options: [eine Banane, einen Apfel]
+      answer: eine Banane
+      target: isst
+    - key: s4q4
+      kind: yes_no
+      prompt: Isst Bruno hundert Bananen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: isst
+    - key: s4q5
+      kind: either_or
+      prompt: Geht Tim nach Hause oder in die Schule?
+      options: [nach Hause, in die Schule]
+      answer: nach Hause
+      target: geht
+    glossary:
+    - word: geht
+      lemma: gehen
+      level: A1
+    - word: nach
+      lemma: nach
+      level: A1
+    - word: Hause
+      lemma: das Haus
+      level: A1
+    - word: sieht
+      lemma: sehen
+      level: A1
+    - word: Bananen
+      lemma: die Banane
+      level: A1
+    - word: isst
+      lemma: essen
+      level: A1
+    - word: Banane
+      lemma: die Banane
+      level: A1
+    - word: Dann
+      lemma: dann
+      level: A2
+    - word: er
+      lemma: er
+      level: A1
+    voice:
+    - text: Tim geht nach Hause.
+      emotion: neutral
+    - text: Bruno sieht die Bananen.
+      emotion: surprised
+    - text: Bruno isst eine Banane.
+      emotion: amused
+    - text: Dann isst er zehn Bananen.
+      emotion: surprised
+  - key: s5
+    text: 'Am Abend isst Bruno keine Bananen mehr. Er isst Tims Schuh. Tim sagt: „Oh nein!“ Tim geht wieder in den Supermarkt.
+      Er kauft keine Bananen. Er kauft Schuhe.'
+    image_prompt: In the evening, the small brown dog with big ears and a red collar chews a big brown shoe while a mountain
+      of bananas lies untouched behind him. Tim, with curly red hair, green jacket and yellow backpack, holds his head in
+      shock, then walks back to the supermarket and buys shoes.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Isst Bruno am Abend Bananen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: isst
+    - key: s5q2
+      kind: who_what
+      prompt: Was isst Bruno am Abend?
+      options: [einen Schuh, eine Banane, ein Brot]
+      answer: einen Schuh
+      target: isst
+    - key: s5q3
+      kind: either_or
+      prompt: Was kauft Tim am Ende?
+      options: [Bananen, Schuhe]
+      answer: Schuhe
+      target: kauft
+    - key: s5q4
+      kind: yes_no
+      prompt: Kauft Tim am Ende Bananen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: kauft
+    - key: s5q5
+      kind: who_what
+      prompt: Wohin geht Tim am Ende?
+      options: [in den Supermarkt, in den Park, ins Bett]
+      answer: in den Supermarkt
+      target: geht
+    glossary:
+    - word: Am
+      lemma: an
+      level: A1
+    - word: Abend
+      lemma: der Abend
+      level: A1
+    - word: isst
+      lemma: essen
+      level: A1
+    - word: keine
+      lemma: kein
+      level: A1
+    - word: Bananen
+      lemma: die Banane
+      level: A1
+    - word: mehr
+      lemma: mehr
+      level: A2
+    - word: Er
+      lemma: er
+      level: A1
+    - word: Schuh
+      lemma: der Schuh
+      level: A1
+    - word: sagt
+      lemma: sagen
+      level: A1
+    - word: geht
+      lemma: gehen
+      level: A1
+    - word: wieder
+      lemma: wieder
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Supermarkt
+      lemma: der Supermarkt
+      level: A1
+    - word: kauft
+      lemma: kaufen
+      level: A1
+    - word: Schuhe
+      lemma: der Schuh
+      level: A1
+    voice:
+    - text: Am Abend isst Bruno keine Bananen mehr.
+      emotion: sleepy
+    - text: Er isst Tims Schuh.
+      emotion: disgusted
+    - text: 'Tim sagt: „Oh nein!“ Tim geht wieder in den Supermarkt.'
+      emotion: surprised
+    - text: Er kauft keine Bananen.
+      emotion: neutral
+    - text: Er kauft Schuhe.
+      emotion: amused
+  core_words:
+  - lemma: der Hund
+    image_prompt: a small brown dog
+  - lemma: die Banane
+    image_prompt: a bunch of yellow bananas
+  - lemma: der Supermarkt
+    image_prompt: a small supermarket building with shopping carts outside
+  - lemma: die Frau
+    image_prompt: a woman standing and smiling
+  - lemma: das Haus
+    image_prompt: a small house with a red roof
+  - lemma: der Schuh
+    image_prompt: a single brown shoe
+generation:
+  prompt_version: tprs-v3
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 686
+  output_tokens: 3423
+  glossary_version: glossary-v2
+  glossary_input_tokens: 456
+  glossary_output_tokens: 5929
+  core_version: core-v1
+  core_input_tokens: 890
+  core_output_tokens: 676
+  voice_version: voice-v1
+  voice_input_tokens: 433
+  voice_output_tokens: 1354
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1013
+  localize_ar_output_tokens: 3960
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1013
+  localize_en_output_tokens: 2946
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1013
+  localize_nl_output_tokens: 2905

@@ -1,0 +1,739 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: entrevista-pijama
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: B1
+  theme: Alejandro tiene una entrevista de trabajo muy importante y solo en la oficina se da cuenta de que lleva pijama
+  scenes: 5
+  targets:
+  - text: se dio cuenta de que
+    gloss: realised that
+    concept: realise
+    kind: phrase
+  - text: si hubiera
+    gloss: if I had
+    concept: if_had
+    kind: phrase
+  - text: por eso
+    gloss: that's why
+    concept: therefore
+    kind: phrase
+  narrator: jessica
+story:
+  title: La entrevista en pijama
+  summary: Alejandro runs to a very important job interview and only in the office discovers that he is wearing his dinosaur
+    pyjamas, but the company turns out to be looking for exactly that.
+  gestures:
+  - concept: realise
+    description: Slap your forehead with one hand, open your eyes very wide, and point down at your own clothes with the other
+      hand.
+    emoji: 😳
+  - concept: if_had
+    description: Cover your eyes with one hand like you are hiding from your past self and wag a finger with the other hand.
+    emoji: 🙈
+  - concept: therefore
+    description: Point at something, clap your hands together once, and then point forward with one finger like a decision
+      is made.
+    emoji: 👉
+  scenes:
+  - key: s1
+    text: Alejandro tenía una entrevista muy importante a las nueve y media. Se despertó a las nueve y veinte. Se puso una
+      chaqueta encima de la ropa y pensó que estaba listo. Por eso no miró el espejo.
+    image_prompt: A 35-year-old Spanish man called Alejandro, with curly dark hair, round glasses and a small moustache, wearing
+      a navy pyjama with green and pink dinosaurs, white slippers and a grey jacket over it, running out of a messy bedroom
+      with an open wardrobe and an alarm clock showing 9:20.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Tenía Alejandro una entrevista muy importante?
+      options: [sí, "no"]
+      answer: sí
+    - key: s1q2
+      kind: either_or
+      prompt: ¿A qué hora se despertó, a las nueve y veinte o a las ocho?
+      options: [a las nueve y veinte, a las ocho]
+      answer: a las nueve y veinte
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Qué se puso encima?
+      options: [una chaqueta, un abrigo, una camisa]
+      answer: una chaqueta
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿Miró Alejandro el espejo?
+      options: [sí, "no"]
+      answer: "no"
+      target: por eso
+    - key: s1q5
+      kind: either_or
+      prompt: '¿Por qué no miró el espejo: porque tenía mucha prisa o porque estaba roto?'
+      options: [porque tenía mucha prisa, porque estaba roto]
+      answer: porque tenía mucha prisa
+      target: por eso
+    glossary:
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: entrevista
+      lemma: la entrevista
+      level: A2
+    - word: importante
+      lemma: importante
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: media
+      lemma: medio
+      level: A1
+    - word: Se
+      lemma: se
+      level: A1
+    - word: despertó
+      lemma: despertarse
+      level: A2
+    - word: puso
+      lemma: ponerse
+      level: A2
+    - word: chaqueta
+      lemma: la chaqueta
+      level: A2
+    - word: encima
+      lemma: encima
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: ropa
+      lemma: la ropa
+      level: A1
+    - word: pensó
+      lemma: pensar
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: estaba
+      lemma: estar
+      level: A1
+    - word: listo
+      lemma: listo
+      level: A1
+    - word: Por
+      lemma: por
+      level: A1
+    - word: eso
+      lemma: eso
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: miró
+      lemma: mirar
+      level: A1
+    - word: espejo
+      lemma: el espejo
+      level: A2
+    voice:
+    - text: Alejandro tenía una entrevista muy importante a las nueve y media.
+      emotion: neutral
+    - text: Se despertó a las nueve y veinte.
+      emotion: surprised
+    - text: Se puso una chaqueta encima de la ropa y pensó que estaba listo.
+      emotion: amused
+    - text: Por eso no miró el espejo.
+      emotion: amused
+  - key: s2
+    text: En el metro había trescientas personas y todas lo miraban. Una señora le preguntó si iba a una fiesta de disfraces.
+      Alejandro pensó que era famoso. Por eso sonrió todo el camino.
+    image_prompt: The same man, Alejandro, with curly dark hair, glasses and a moustache, in his navy dinosaur pyjama, white
+      slippers and grey jacket, standing in a very crowded metro carriage while about thirty passengers stare at him with
+      open mouths.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿Había mucha gente en el metro?
+      options: [sí, "no"]
+      answer: sí
+    - key: s2q2
+      kind: who_what
+      prompt: ¿Quién le habló en el metro?
+      options: [una señora, un niño, un policía]
+      answer: una señora
+    - key: s2q3
+      kind: either_or
+      prompt: ¿Alejandro pensó que era un ladrón o que era famoso?
+      options: [que era un ladrón, que era famoso]
+      answer: que era famoso
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿Alejandro se puso triste en el metro?
+      options: [sí, "no"]
+      answer: "no"
+      target: por eso
+    - key: s2q5
+      kind: either_or
+      prompt: ¿Sonrió todo el camino o se enfadó?
+      options: [sonrió todo el camino, se enfadó]
+      answer: sonrió todo el camino
+      target: por eso
+    glossary:
+    - word: En
+      lemma: en
+      level: A1
+    - word: metro
+      lemma: el metro
+      level: A2
+    - word: había
+      lemma: haber
+      level: A2
+    - word: personas
+      lemma: la persona
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: todas
+      lemma: todo
+      level: A1
+    - word: lo
+      lemma: lo
+      level: A1
+    - word: miraban
+      lemma: mirar
+      level: A1
+    - word: señora
+      lemma: la señora
+      level: A1
+    - word: le
+      lemma: le
+      level: A1
+    - word: preguntó
+      lemma: preguntar
+      level: A1
+    - word: si
+      lemma: si
+      level: A1
+    - word: iba
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: fiesta
+      lemma: la fiesta
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: disfraces
+      lemma: el disfraz
+      level: A2
+    - word: pensó
+      lemma: pensar
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: era
+      lemma: ser
+      level: A1
+    - word: famoso
+      lemma: famoso
+      level: A2
+    - word: Por
+      lemma: por
+      level: A1
+    - word: eso
+      lemma: eso
+      level: A1
+    - word: sonrió
+      lemma: sonreír
+      level: B1
+    - word: todo
+      lemma: todo
+      level: A1
+    - word: camino
+      lemma: el camino
+      level: A1
+    voice:
+    - text: En el metro había trescientas personas y todas lo miraban.
+      emotion: surprised
+    - text: Una señora le preguntó si iba a una fiesta de disfraces.
+      emotion: amused
+    - text: Alejandro pensó que era famoso.
+      emotion: amused
+    - text: Por eso sonrió todo el camino.
+      emotion: amused
+  - key: s3
+    text: En la oficina, un señor muy serio le dio la mano. Alejandro miró su reloj y, de pronto, se dio cuenta de que llevaba
+      pijama. El pijama tenía dinosaurios verdes y rosas. También se dio cuenta de que llevaba zapatillas de casa.
+    image_prompt: The same man, Alejandro, with curly dark hair, glasses and a moustache, in his navy pyjama with green and
+      pink dinosaurs and white slippers, shaking hands with a very serious man in a black suit in a bright office reception
+      while looking down at his own sleeve in horror.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿El señor de la oficina era muy serio?
+      options: [sí, "no"]
+      answer: sí
+    - key: s3q2
+      kind: either_or
+      prompt: ¿De qué color eran los dinosaurios, verdes y rosas o azules y negros?
+      options: [verdes y rosas, azules y negros]
+      answer: verdes y rosas
+    - key: s3q3
+      kind: who_what
+      prompt: ¿Qué llevaba Alejandro en los pies?
+      options: [zapatillas de casa, zapatos negros, botas]
+      answer: zapatillas de casa
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿Se dio cuenta de que llevaba un traje elegante?
+      options: [sí, "no"]
+      answer: "no"
+      target: se dio cuenta de que
+    - key: s3q5
+      kind: either_or
+      prompt: ¿Se dio cuenta de que llevaba un chándal o un pijama?
+      options: [un chándal, un pijama]
+      answer: un pijama
+      target: se dio cuenta de que
+    glossary:
+    - word: En
+      lemma: en
+      level: A1
+    - word: oficina
+      lemma: la oficina
+      level: A2
+    - word: señor
+      lemma: el señor
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: serio
+      lemma: serio
+      level: A2
+    - word: le
+      lemma: le
+      level: A1
+    - word: dio
+      lemma: dar
+      level: A1
+    - word: mano
+      lemma: la mano
+      level: A1
+    - word: miró
+      lemma: mirar
+      level: A1
+    - word: reloj
+      lemma: el reloj
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: pronto
+      lemma: pronto
+      level: A2
+    - word: se
+      lemma: se
+      level: A1
+    - word: cuenta
+      lemma: la cuenta
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: llevaba
+      lemma: llevar
+      level: A2
+    - word: pijama
+      lemma: el pijama
+      level: A2
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: dinosaurios
+      lemma: el dinosaurio
+      level: A2
+    - word: verdes
+      lemma: verde
+      level: A1
+    - word: rosas
+      lemma: rosa
+      level: A2
+    - word: También
+      lemma: también
+      level: A1
+    - word: zapatillas
+      lemma: la zapatilla
+      level: A2
+    - word: casa
+      lemma: la casa
+      level: A1
+    voice:
+    - text: En la oficina, un señor muy serio le dio la mano.
+      emotion: neutral
+    - text: Alejandro miró su reloj y, de pronto, se dio cuenta de que llevaba pijama.
+      emotion: surprised
+    - text: El pijama tenía dinosaurios verdes y rosas.
+      emotion: amused
+    - text: También se dio cuenta de que llevaba zapatillas de casa.
+      emotion: surprised
+  - key: s4
+    text: 'Alejandro se escondió detrás de una planta enorme. Pensó: «Si hubiera mirado el espejo, ahora no estaría aquí».
+      Si hubiera llevado ropa normal, la entrevista sería fácil. Se dio cuenta de que su chaqueta no tapaba nada. Por eso
+      llamó a su madre para pedir ayuda.'
+    image_prompt: The same man, Alejandro, with curly dark hair, glasses and a moustache, in his navy dinosaur pyjama, white
+      slippers and grey jacket, hiding behind a giant green plant in an office corridor, holding a phone to his ear with a
+      desperate face.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿Alejandro se escondió detrás de una planta?
+      options: [sí, "no"]
+      answer: sí
+    - key: s4q2
+      kind: either_or
+      prompt: ¿La planta era pequeña o enorme?
+      options: [pequeña, enorme]
+      answer: enorme
+    - key: s4q3
+      kind: who_what
+      prompt: ¿A quién llamó Alejandro?
+      options: [a su madre, a su jefe, a su novia]
+      answer: a su madre
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Si hubiera mirado el espejo, habría salido con pijama?
+      options: [sí, "no"]
+      answer: "no"
+      target: si hubiera
+    - key: s4q5
+      kind: either_or
+      prompt: '¿Qué pensó Alejandro: «Si hubiera mirado el espejo» o «Si hubiera comprado un espejo»?'
+      options: [Si hubiera mirado el espejo, Si hubiera comprado un espejo]
+      answer: Si hubiera mirado el espejo
+      target: si hubiera
+    glossary:
+    - word: se
+      lemma: se
+      level: A1
+    - word: escondió
+      lemma: esconderse
+      level: B1
+    - word: detrás
+      lemma: detrás
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: planta
+      lemma: la planta
+      level: A2
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: Pensó
+      lemma: pensar
+      level: A1
+    - word: Si
+      lemma: si
+      level: A1
+    - word: hubiera
+      lemma: haber
+      level: B1
+    - word: mirado
+      lemma: mirar
+      level: A1
+    - word: espejo
+      lemma: el espejo
+      level: A2
+    - word: ahora
+      lemma: ahora
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: estaría
+      lemma: estar
+      level: A1
+    - word: aquí
+      lemma: aquí
+      level: A1
+    - word: llevado
+      lemma: llevar
+      level: A2
+    - word: ropa
+      lemma: la ropa
+      level: A1
+    - word: normal
+      lemma: normal
+      level: A2
+    - word: entrevista
+      lemma: la entrevista
+      level: A2
+    - word: sería
+      lemma: ser
+      level: A1
+    - word: fácil
+      lemma: fácil
+      level: A1
+    - word: dio
+      lemma: dar
+      level: A1
+    - word: cuenta
+      lemma: la cuenta
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: chaqueta
+      lemma: la chaqueta
+      level: A2
+    - word: tapaba
+      lemma: tapar
+      level: B1
+    - word: nada
+      lemma: nada
+      level: A1
+    - word: Por
+      lemma: por
+      level: A1
+    - word: eso
+      lemma: eso
+      level: A1
+    - word: llamó
+      lemma: llamar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: madre
+      lemma: la madre
+      level: A1
+    - word: para
+      lemma: para
+      level: A1
+    - word: pedir
+      lemma: pedir
+      level: A2
+    - word: ayuda
+      lemma: la ayuda
+      level: A1
+    voice:
+    - text: Alejandro se escondió detrás de una planta enorme.
+      emotion: whisper
+    - text: 'Pensó: «Si hubiera mirado el espejo, ahora no estaría aquí».'
+      emotion: whisper
+    - text: Si hubiera llevado ropa normal, la entrevista sería fácil.
+      emotion: whisper
+    - text: Se dio cuenta de que su chaqueta no tapaba nada.
+      emotion: surprised
+    - text: Por eso llamó a su madre para pedir ayuda.
+      emotion: whisper
+  - key: s5
+    text: Doña Carmen, la directora, salió con un pijama azul con estrellas. «¡Perfecto!», dijo. «Buscamos a alguien que pruebe
+      nuestros pijamas». Alejandro se dio cuenta de que su error era suerte. Si hubiera llevado un traje, no habría conseguido
+      el trabajo. Por eso hoy trabaja en pijama todos los días.
+    image_prompt: The same man, Alejandro, with curly dark hair, glasses and a moustache, in his navy dinosaur pyjama, standing
+      next to Doña Carmen, a cheerful grey-haired woman in a blue pyjama with stars, in a big office full of pyjamas on shelves,
+      both holding a signed contract.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: ¿Cómo se llamaba la directora?
+      options: [Doña Carmen, Doña Rosa, Doña Ana]
+      answer: Doña Carmen
+    - key: s5q2
+      kind: either_or
+      prompt: ¿El pijama de la directora era azul con estrellas o rojo con lunares?
+      options: [azul con estrellas, rojo con lunares]
+      answer: azul con estrellas
+    - key: s5q3
+      kind: yes_no
+      prompt: ¿La empresa buscaba a alguien que probara pijamas?
+      options: [sí, "no"]
+      answer: sí
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Se dio cuenta de que quería un trabajo normal?
+      options: [sí, "no"]
+      answer: "no"
+      target: se dio cuenta de que
+    - key: s5q5
+      kind: either_or
+      prompt: ¿Por eso hoy trabaja en traje o en pijama?
+      options: [en traje, en pijama]
+      answer: en pijama
+      target: por eso
+    glossary:
+    - word: directora
+      lemma: la directora
+      level: A2
+    - word: salió
+      lemma: salir
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: pijama
+      lemma: el pijama
+      level: A2
+    - word: azul
+      lemma: azul
+      level: A1
+    - word: estrellas
+      lemma: la estrella
+      level: A1
+    - word: Perfecto
+      lemma: perfecto
+      level: A1
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: Buscamos
+      lemma: buscar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: alguien
+      lemma: alguien
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: pruebe
+      lemma: probar
+      level: B1
+    - word: pijamas
+      lemma: el pijama
+      level: A2
+    - word: se
+      lemma: se
+      level: A1
+    - word: dio
+      lemma: dar
+      level: A1
+    - word: cuenta
+      lemma: la cuenta
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: error
+      lemma: el error
+      level: A2
+    - word: era
+      lemma: ser
+      level: A1
+    - word: suerte
+      lemma: la suerte
+      level: A2
+    - word: Si
+      lemma: si
+      level: A1
+    - word: hubiera
+      lemma: haber
+      level: B1
+    - word: llevado
+      lemma: llevar
+      level: A2
+    - word: traje
+      lemma: el traje
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: habría
+      lemma: haber
+      level: B1
+    - word: conseguido
+      lemma: conseguir
+      level: B1
+    - word: trabajo
+      lemma: el trabajo
+      level: A1
+    - word: Por
+      lemma: por
+      level: A1
+    - word: eso
+      lemma: eso
+      level: A1
+    - word: hoy
+      lemma: hoy
+      level: A1
+    - word: trabaja
+      lemma: trabajar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: todos
+      lemma: todo
+      level: A1
+    - word: días
+      lemma: el día
+      level: A1
+    voice:
+    - text: Doña Carmen, la directora, salió con un pijama azul con estrellas.
+      emotion: surprised
+    - text: «¡Perfecto!», dijo.
+      emotion: amused
+    - text: «Buscamos a alguien que pruebe nuestros pijamas».
+      emotion: amused
+    - text: Alejandro se dio cuenta de que su error era suerte.
+      emotion: surprised
+    - text: Si hubiera llevado un traje, no habría conseguido el trabajo.
+      emotion: surprised
+    - text: Por eso hoy trabaja en pijama todos los días.
+      emotion: amused
+  core_words:
+  - lemma: la entrevista
+    image_prompt: a person sitting nervously across a desk from another person in an office
+  - lemma: el espejo
+    image_prompt: a rectangular mirror hanging on a bathroom wall
+  - lemma: el pijama
+    image_prompt: a set of blue pajamas with stars folded on a bed
+  - lemma: el dinosaurio
+    image_prompt: a green cartoon dinosaur standing alone
+  - lemma: esconderse
+    image_prompt: a person crouching and hiding behind a sofa
+  - lemma: la planta
+    image_prompt: a large green potted plant in an office
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 797
+  output_tokens: 6438
+  glossary_version: glossary-v2
+  glossary_input_tokens: 625
+  glossary_output_tokens: 14762
+  core_version: core-v1
+  core_input_tokens: 1879
+  core_output_tokens: 1084
+  voice_version: voice-v1
+  voice_input_tokens: 608
+  voice_output_tokens: 845
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1553
+  localize_ar_output_tokens: 8335
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1553
+  localize_en_output_tokens: 7501
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1553
+  localize_nl_output_tokens: 8093

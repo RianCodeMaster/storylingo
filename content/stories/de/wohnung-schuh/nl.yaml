@@ -1,0 +1,138 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Mia zoekt een goedkope woning in Berlijn, vindt er een die zo klein is als een schoenendoos, en lost het meubelprobleem
+  op met poppenmeubels.
+summary_source: fbe28ed0668cb1b8
+gestures:
+  search: Maak van je handen een verrekijker, draai je hoofd heen en weer en speur de kamer af.
+  small: Houd duim en wijsvinger heel dicht bij elkaar voor je neus en knijp één oog dicht.
+  there_is: Schiet je wijsvinger omhoog als een goocheltruc, houd je andere hand er open onder en zeg 'ta-da!'.
+targets:
+  sucht:
+    gloss: zoekt
+    note: 'Net als Nederlands ''zoekt'': bij hij/zij komt er een -t bij.'
+  ist klein:
+    gloss: is klein
+    note: Na 'ist' blijft 'klein' onveranderd, net als na Nederlands 'is'.
+  es gibt:
+    gloss: er is, er zijn
+    note: Letterlijk 'het geeft'; Nederlands zegt 'er is' of 'er zijn'.
+scenes:
+- key: s1
+  source: 2b22a4abb62e5f18
+  translation: Mia zoekt een woning in Berlijn. Ze zoekt elke dag. Ze zoekt op internet en in de krant. Maar alle woningen
+    zijn duur.
+  glosses:
+    sucht: zoekt
+    Wohnung: woning
+    in: in
+    Sie: ze
+    jeden: elke
+    Tag: dag
+    im: op (internet)
+    Internet: internet
+    und: en
+    Zeitung: krant
+    Aber: maar
+    alle: alle
+    Wohnungen: woningen
+    sind: zijn
+    teuer: duur
+- key: s2
+  source: 1339198f802f4ede
+  translation: Eindelijk leest Mia een advertentie. Er is een woning voor 200 euro. Mia belt meteen. 'Er is maar één kamer',
+    zegt de man aan de telefoon.
+  glosses:
+    Endlich: eindelijk
+    liest: leest
+    Anzeige: advertentie
+    Es: er
+    gibt: is
+    Wohnung: woning
+    für: voor
+    Euro: euro
+    ruft: belt
+    sofort: meteen
+    nur: maar
+    Zimmer: kamer
+    sagt: zegt
+    Mann: man
+    am: aan de
+    Telefon: telefoon
+- key: s3
+  source: 89959ee63ea8df50
+  translation: 'Mia gaat de woning in. De woning is klein. De kamer is klein en de keuken is klein. Mia zegt: ''Oh, er is
+    een raam!'''
+  glosses:
+    geht: gaat
+    in: in
+    Wohnung: woning
+    ist: is
+    klein: klein
+    Zimmer: kamer
+    und: en
+    Küche: keuken
+    sagt: zegt
+    es: er
+    gibt: is
+    Fenster: raam
+- key: s4
+  source: d2af944540624130
+  translation: Mia heeft veel meubels. Ze heeft een grote sofa en een grote kast. Maar er is geen plek in de woning. De sofa
+    is groot en de woning is klein. Mia is heel verdrietig.
+  glosses:
+    hat: heeft
+    viele: veel
+    Möbel: meubels
+    Sie: ze
+    großes: grote
+    Sofa: sofa
+    und: en
+    großen: grote
+    Schrank: kast
+    Aber: maar
+    es: er
+    gibt: is
+    Platz: plek
+    in: in
+    Wohnung: woning
+    ist: is
+    groß: groot
+    klein: klein
+    sehr: heel
+    traurig: verdrietig
+- key: s5
+  source: 60112b4c845f7db8
+  translation: Mia heeft een idee. Ze koopt kleine meubels voor poppen. De sofa is klein, het bed is klein. Nu past alles!
+    Mia is gelukkig. Er is plek voor Mia en haar kat.
+  glosses:
+    hat: heeft
+    Idee: idee
+    Sie: ze
+    kauft: koopt
+    kleine: kleine
+    Möbel: meubels
+    für: voor
+    Puppen: poppen
+    Sofa: sofa
+    ist: is
+    klein: klein
+    Bett: bed
+    Jetzt: nu
+    passt: past
+    alles: alles
+    glücklich: gelukkig
+    Es: er
+    gibt: is
+    Platz: plek
+    und: en
+    ihre: haar
+    Katze: kat
+words:
+  suchen: zoeken
+  die Wohnung: de woning
+  klein: klein
+  das Möbel: het meubelstuk
+  der Platz: de plek
+  die Puppe: de pop

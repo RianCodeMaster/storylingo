@@ -6,6 +6,14 @@ A1:
   - {text: houdt van, gloss: loves / likes, concept: like}
   - {text: heeft, gloss: has, concept: have}
   - {text: er is, gloss: there is, concept: there_is}
+  - {text: "koopt", gloss: "buys", concept: buy}
+  - {text: "is groot", gloss: "is big", concept: big}
+  - {text: "meenemen", gloss: "take along; separable: Ze neemt het brood mee", concept: take_along}
+  - {text: "woont", gloss: "lives", concept: live}
+  - {text: "elke ochtend", gloss: "every morning", concept: every_morning}
+  - {text: "zit", gloss: "sits", concept: sit}
+  - {text: "gaat naar", gloss: "goes to", concept: go_to}
+  - {text: "staat", gloss: "stands", concept: stand}
 A2:
   - {text: wilde, gloss: wanted, concept: want}
   - {text: kon niet, gloss: could not, concept: cannot}
@@ -13,8 +21,24 @@ A2:
   - {text: omdat, gloss: because, concept: because}
   - {text: opeens, gloss: suddenly, concept: suddenly}
   - {text: eindelijk, gloss: finally, concept: finally}
+  - {text: "zocht", gloss: "looked for", concept: search}
+  - {text: "moest", gloss: "had to", concept: must}
+  - {text: "kreeg", gloss: "got", concept: get}
+  - {text: "had", gloss: "had", concept: have}
+  - {text: "durfde niet", gloss: "did not dare", concept: not_dare}
+  - {text: "gaf", gloss: "gave", concept: give}
 B1:
   - {text: hoewel, gloss: although, concept: although}
   - {text: toch, gloss: nevertheless, concept: nevertheless}
   - {text: zodat, gloss: so that, concept: so_that}
   - {text: zou graag, gloss: would like to, concept: would_like_to_do}
+  - {text: "terwijl", gloss: "while (verb at the end)", concept: while}
+  - {text: "heb gebeld", gloss: "have called", concept: have_called}
+  - {text: "moet wachten", gloss: "must wait", concept: must_wait}
+  - {text: "had gedacht", gloss: "had thought", concept: had_thought}
+  - {text: "bleek", gloss: "turned out", concept: turn_out}
+  - {text: "nadat", gloss: "after (verb at the end)", concept: after}
+  - {text: "werd", gloss: "became / was (passive)", concept: became}
+  - {text: "zouden", gloss: "would (plural)", concept: would}
+  - {text: "als ... dan", gloss: "if ... then", concept: if_then}
+  - {text: "zou willen", gloss: "would like", concept: would_like}

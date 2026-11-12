@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: entrevista-pijama
+language: es
+level: B1
+tags: [algemeen]
+narrator: jessica
+theme: Alejandro tiene una entrevista de trabajo muy importante y solo en la oficina se da cuenta de que lleva pijama
+scenes: 5
+targets:
+  - {text: "se dio cuenta de que", gloss: "realised that", concept: realise, kind: phrase}
+  - {text: "si hubiera", gloss: "if I had", concept: if_had, kind: phrase}
+  - {text: "por eso", gloss: "that's why", concept: therefore, kind: phrase}

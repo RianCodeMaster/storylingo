@@ -1,0 +1,608 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: medico-hipo
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A2
+  theme: Javier fue al médico porque tenía hipo desde hacía tres días; el médico también tenía hipo
+  scenes: 5
+  targets:
+  - text: fue
+    gloss: went
+    concept: went
+    kind: word
+  - text: tenía
+    gloss: had
+    concept: have
+    kind: word
+  - text: dijo
+    gloss: said
+    concept: said
+    kind: word
+  narrator: george
+story:
+  title: Javier tiene hipo (y la doctora también)
+  summary: Javier goes to the doctor after three days of hiccups, but the doctor has hiccups too, and in the end the hiccups
+    jump into her stethoscope.
+  gestures:
+  - concept: went
+    description: March on the spot with big exaggerated steps while your hand points forward to a far-away place, then freeze
+      and point at the floor.
+    emoji: 🚶
+  - concept: have
+    description: Hug an invisible box against your chest with both arms and shake gently, like you are holding something heavy
+      you have had for a long time.
+    emoji: 📦
+  - concept: said
+    description: Open and close your hand like a talking mouth right in front of your own mouth, and move your head forward
+      on every word.
+    emoji: 💬
+  scenes:
+  - key: s1
+    text: 'Javier tenía hipo desde hacía tres días. Tenía cuatro mil hipos cada hora, y su vecina dijo: «¡Mi lámpara se mueve!».
+      Javier fue al médico del barrio. Fue a las ocho de la mañana.'
+    image_prompt: A thin Spanish man of about forty with messy black hair, round glasses and a red sweater is standing in
+      a small kitchen, hiccuping with his whole body while a lampshade above him wobbles; the same character must look identical
+      in every picture.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Javier tenía hipo?
+      options: [Sí, "No"]
+      answer: Sí
+      target: tenía
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Javier fue al médico o a la playa?
+      options: [Al médico, A la playa]
+      answer: Al médico
+      target: fue
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Quién dijo «¡Mi lámpara se mueve!»?
+      options: [Su vecina, Su madre, La doctora]
+      answer: Su vecina
+      target: dijo
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿Javier tenía dos hipos cada hora?
+      options: [Sí, "No"]
+      answer: "No"
+      target: tenía
+    - key: s1q5
+      kind: either_or
+      prompt: ¿Javier tenía hipo desde hacía tres días o tres meses?
+      options: [Tres días, Tres meses]
+      answer: Tres días
+    glossary:
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: hipo
+      lemma: el hipo
+      level: A2
+    - word: desde
+      lemma: desde
+      level: A1
+    - word: hacía
+      lemma: hacer
+      level: A1
+    - word: días
+      lemma: el día
+      level: A1
+    - word: hipos
+      lemma: el hipo
+      level: A2
+    - word: cada
+      lemma: cada
+      level: A2
+    - word: hora
+      lemma: la hora
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: vecina
+      lemma: la vecina
+      level: A2
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: Mi
+      lemma: mi
+      level: A1
+    - word: lámpara
+      lemma: la lámpara
+      level: A2
+    - word: se
+      lemma: se
+      level: A2
+    - word: mueve
+      lemma: mover
+      level: A2
+    - word: fue
+      lemma: ir
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: médico
+      lemma: el médico
+      level: A1
+    - word: del
+      lemma: de
+      level: A1
+    - word: barrio
+      lemma: el barrio
+      level: A2
+    - word: a
+      lemma: a
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: mañana
+      lemma: la mañana
+      level: A1
+    voice:
+    - text: Javier tenía hipo desde hacía tres días.
+      emotion: amused
+    - text: 'Tenía cuatro mil hipos cada hora, y su vecina dijo: «¡Mi lámpara se mueve!».'
+      emotion: surprised
+    - text: Javier fue al médico del barrio.
+      emotion: neutral
+    - text: Fue a las ocho de la mañana.
+      emotion: neutral
+  - key: s2
+    text: 'En la sala de espera, la abuela tenía hipo. El policía también tenía hipo. La enfermera dijo: «Hip. Pase, Javier».
+      Javier fue a la consulta número trece.'
+    image_prompt: The same thin Spanish man with round glasses and a red sweater sits in a tiny waiting room between an old
+      woman with a shopping bag and a policeman, both hiccuping; a nurse points at a door with the number 13; identical character
+      design.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿La abuela tenía hipo en la sala de espera?
+      options: [Sí, "No"]
+      answer: Sí
+      target: tenía
+    - key: s2q2
+      kind: who_what
+      prompt: ¿Quién dijo «Pase, Javier»?
+      options: [La enfermera, La doctora, El policía]
+      answer: La enfermera
+      target: dijo
+    - key: s2q3
+      kind: either_or
+      prompt: ¿Javier fue a la consulta número trece o número treinta?
+      options: [Trece, Treinta]
+      answer: Trece
+      target: fue
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿La doctora dijo «Pase, Javier»?
+      options: [Sí, "No"]
+      answer: "No"
+      target: dijo
+    glossary:
+    - word: En
+      lemma: en
+      level: A1
+    - word: sala
+      lemma: la sala
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: espera
+      lemma: la espera
+      level: B1
+    - word: abuela
+      lemma: la abuela
+      level: A1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: hipo
+      lemma: el hipo
+      level: A2
+    - word: policía
+      lemma: el policía
+      level: A2
+    - word: también
+      lemma: también
+      level: A1
+    - word: enfermera
+      lemma: la enfermera
+      level: A2
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: Pase
+      lemma: pasar
+      level: A2
+    - word: fue
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: consulta
+      lemma: la consulta
+      level: B1
+    - word: número
+      lemma: el número
+      level: A1
+    voice:
+    - text: En la sala de espera, la abuela tenía hipo.
+      emotion: amused
+    - text: El policía también tenía hipo.
+      emotion: amused
+    - text: 'La enfermera dijo: «Hip.'
+      emotion: amused
+    - text: Pase, Javier».
+      emotion: neutral
+    - text: Javier fue a la consulta número trece.
+      emotion: surprised
+  - key: s3
+    text: 'La doctora Carmen Serrano tenía hipo también. Tenía hipo desde hacía cinco días. Dijo: «Hip. Buenos días, Javier.
+      Hip.». Javier dijo: «Doctora, tengo cuatro mil hipos por hora», y la doctora dijo: «Tranquilo, tengo una idea».'
+    image_prompt: The same thin man in the red sweater talks to a short elderly female doctor with a grey bun and a white
+      coat, who is hiccuping so hard her glasses jump on her nose; a small consulting room with a plant; identical character
+      design.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿La doctora tenía hipo desde hacía cinco días?
+      options: [Sí, "No"]
+      answer: Sí
+      target: tenía
+    - key: s3q2
+      kind: who_what
+      prompt: ¿Quién dijo «Tranquilo, tengo una idea»?
+      options: [La doctora, Javier, La enfermera]
+      answer: La doctora
+      target: dijo
+    - key: s3q3
+      kind: either_or
+      prompt: ¿Javier tenía cuatro mil hipos por hora o cuatro hipos por hora?
+      options: [Cuatro mil, Cuatro]
+      answer: Cuatro mil
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿La doctora dijo «Hola, Javier»?
+      options: [Sí, "No"]
+      answer: "No"
+      target: dijo
+    glossary:
+    - word: doctora
+      lemma: la doctora
+      level: A2
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: hipo
+      lemma: el hipo
+      level: A2
+    - word: también
+      lemma: también
+      level: A1
+    - word: desde
+      lemma: desde
+      level: A1
+    - word: hacía
+      lemma: hacer
+      level: A1
+    - word: días
+      lemma: el día
+      level: A1
+    - word: Dijo
+      lemma: decir
+      level: A1
+    - word: Buenos
+      lemma: bueno
+      level: A1
+    - word: tengo
+      lemma: tener
+      level: A1
+    - word: hipos
+      lemma: el hipo
+      level: A2
+    - word: por
+      lemma: por
+      level: A1
+    - word: hora
+      lemma: la hora
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: Tranquilo
+      lemma: tranquilo
+      level: A2
+    - word: idea
+      lemma: la idea
+      level: A2
+    voice:
+    - text: La doctora Carmen Serrano tenía hipo también.
+      emotion: amused
+    - text: Tenía hipo desde hacía cinco días.
+      emotion: surprised
+    - text: 'Dijo: «Hip.'
+      emotion: amused
+    - text: Buenos días, Javier.
+      emotion: neutral
+    - text: Hip.».
+      emotion: amused
+    - text: 'Javier dijo: «Doctora, tengo cuatro mil hipos por hora», y la doctora dijo: «Tranquilo, tengo una idea».'
+      emotion: surprised
+  - key: s4
+    text: 'La doctora fue a la ventana y gritó: «¡Un dragón!». Javier no tenía miedo. La doctora dijo: «Bebe este vaso de
+      agua». El vaso tenía veinte litros, pero Javier bebió todo y después fue al baño tres veces.'
+    image_prompt: The same elderly doctor with the grey bun shouts at a window while the same thin man in the red sweater
+      calmly drinks from an enormous glass of water as tall as his head; identical character design.
+    questions:
+    - key: s4q1
+      kind: either_or
+      prompt: ¿La doctora fue a la ventana o a la puerta?
+      options: [A la ventana, A la puerta]
+      answer: A la ventana
+      target: fue
+    - key: s4q2
+      kind: yes_no
+      prompt: ¿Javier tenía miedo del dragón?
+      options: [Sí, "No"]
+      answer: "No"
+      target: tenía
+    - key: s4q3
+      kind: who_what
+      prompt: ¿Quién dijo «Bebe este vaso de agua»?
+      options: [La doctora, La enfermera, La vecina]
+      answer: La doctora
+      target: dijo
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Javier fue al baño tres veces?
+      options: [Sí, "No"]
+      answer: Sí
+      target: fue
+    - key: s4q5
+      kind: either_or
+      prompt: ¿El vaso tenía veinte litros o dos litros?
+      options: [Veinte litros, Dos litros]
+      answer: Veinte litros
+    glossary:
+    - word: doctora
+      lemma: la doctora
+      level: A2
+    - word: fue
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: ventana
+      lemma: la ventana
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: gritó
+      lemma: gritar
+      level: A2
+    - word: dragón
+      lemma: el dragón
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: miedo
+      lemma: el miedo
+      level: A1
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: Bebe
+      lemma: beber
+      level: A1
+    - word: este
+      lemma: este
+      level: A1
+    - word: vaso
+      lemma: el vaso
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: agua
+      lemma: el agua
+      level: A1
+    - word: litros
+      lemma: el litro
+      level: A2
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: bebió
+      lemma: beber
+      level: A1
+    - word: todo
+      lemma: todo
+      level: A1
+    - word: después
+      lemma: después
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: baño
+      lemma: el baño
+      level: A1
+    - word: veces
+      lemma: la vez
+      level: A2
+    voice:
+    - text: 'La doctora fue a la ventana y gritó: «¡Un dragón!».'
+      emotion: surprised
+    - text: Javier no tenía miedo.
+      emotion: amused
+    - text: 'La doctora dijo: «Bebe este vaso de agua».'
+      emotion: neutral
+    - text: El vaso tenía veinte litros, pero Javier bebió todo y después fue al baño tres veces.
+      emotion: surprised
+  - key: s5
+    text: 'Entonces Javier bebió agua al revés y su hipo desapareció. La doctora dijo: «¡Bien!» y su hipo también desapareció.
+      Pero el estetoscopio tenía hipo: «Hip, hip, hip». Javier fue a casa contento, y la doctora tenía un estetoscopio con
+      hipo para siempre.'
+    image_prompt: The same thin man in the red sweater walks out of the door smiling while the same elderly doctor with the
+      grey bun holds a stethoscope that is bouncing and jumping in her hands; identical character design.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿Al final el estetoscopio tenía hipo?
+      options: [Sí, "No"]
+      answer: Sí
+      target: tenía
+    - key: s5q2
+      kind: either_or
+      prompt: ¿Javier fue a casa contento o triste?
+      options: [Contento, Triste]
+      answer: Contento
+      target: fue
+    - key: s5q3
+      kind: who_what
+      prompt: ¿Quién dijo «¡Bien!»?
+      options: [La doctora, Javier, El estetoscopio]
+      answer: La doctora
+      target: dijo
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Javier fue a casa con hipo?
+      options: [Sí, "No"]
+      answer: "No"
+      target: fue
+    glossary:
+    - word: Entonces
+      lemma: entonces
+      level: A2
+    - word: bebió
+      lemma: beber
+      level: A1
+    - word: agua
+      lemma: el agua
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: revés
+      lemma: el revés
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: hipo
+      lemma: el hipo
+      level: A2
+    - word: desapareció
+      lemma: desaparecer
+      level: A2
+    - word: doctora
+      lemma: la doctora
+      level: A2
+    - word: dijo
+      lemma: decir
+      level: A1
+    - word: Bien
+      lemma: bien
+      level: A1
+    - word: también
+      lemma: también
+      level: A1
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: estetoscopio
+      lemma: el estetoscopio
+      level: B1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: fue
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: casa
+      lemma: la casa
+      level: A1
+    - word: contento
+      lemma: contento
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: para
+      lemma: para
+      level: A1
+    - word: siempre
+      lemma: siempre
+      level: A1
+    voice:
+    - text: Entonces Javier bebió agua al revés y su hipo desapareció.
+      emotion: surprised
+    - text: 'La doctora dijo: «¡Bien!» y su hipo también desapareció.'
+      emotion: amused
+    - text: 'Pero el estetoscopio tenía hipo: «Hip, hip, hip».'
+      emotion: surprised
+    - text: Javier fue a casa contento, y la doctora tenía un estetoscopio con hipo para siempre.
+      emotion: amused
+  core_words:
+  - lemma: el hipo
+    image_prompt: a person with a hand over their mouth and wide eyes, mid-hiccup
+  - lemma: el médico
+    image_prompt: a male doctor in a white coat standing in a clinic
+  - lemma: la doctora
+    image_prompt: a female doctor in a white coat standing in a clinic
+  - lemma: el vaso
+    image_prompt: a clear glass full of water
+  - lemma: el dragón
+    image_prompt: a friendly cartoon dragon
+  - lemma: el estetoscopio
+    image_prompt: a stethoscope lying on a table
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 782
+  output_tokens: 6357
+  glossary_version: glossary-v2
+  glossary_input_tokens: 604
+  glossary_output_tokens: 14540
+  core_version: core-v1
+  core_input_tokens: 1463
+  core_output_tokens: 1076
+  voice_version: voice-v1
+  voice_input_tokens: 591
+  voice_output_tokens: 1362
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 386
+  localize_ar_output_tokens: 6661
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 386
+  localize_en_output_tokens: 1326
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 386
+  localize_nl_output_tokens: 513

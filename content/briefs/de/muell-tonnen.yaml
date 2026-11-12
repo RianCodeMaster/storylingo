@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: muell-tonnen
+language: de
+level: A2
+tags: [algemeen, alltag]
+narrator: george
+theme: Die Nachbarin Frau Becker hat Lukas die Mülltrennung erklärt – mit zwölf Mülltonnen in zwölf Farben; Lukas durfte nichts falsch machen
+scenes: 5
+targets:
+  - {text: "hat erklärt", gloss: "explained", concept: explained, kind: phrase}
+  - {text: "durfte nicht", gloss: "was not allowed", concept: not_allowed, kind: phrase}
+  - {text: "es gab", gloss: "there was", concept: there_was, kind: phrase}

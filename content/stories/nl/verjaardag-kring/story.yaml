@@ -1,0 +1,949 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: verjaardag-kring
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: B1
+  theme: Jeroen viert zijn verjaardag op z'n Hollands met iedereen in een kring, maar de taart verdwijnt steeds als niemand
+    kijkt
+  scenes: 5
+  targets:
+  - text: nadat
+    gloss: after (verb at the end)
+    concept: after
+    kind: word
+  - text: werd
+    gloss: became / was (passive)
+    concept: became
+    kind: word
+  - text: zouden
+    gloss: would (plural)
+    concept: would
+    kind: word
+  narrator: charlie
+story:
+  title: Jeroen en de taart die steeds verdween
+  summary: Jeroen celebrates his fiftieth birthday in a typical Dutch circle of chairs, but every cake he serves vanishes
+    the moment nobody is looking.
+  gestures:
+  - concept: after
+    description: You point behind you, clap once, snap your fingers and tap your watch as if to say 'done — and only THEN
+      did the next thing happen'.
+    emoji: ⏭️
+  - concept: became
+    description: You slowly puff out your cheeks and spread your arms wide as if you are transforming from tiny to enormous,
+      ending in a surprised 'ta-da!' pose.
+    emoji: 🦋
+  - concept: would
+    description: You lean back, fold your arms, look dreamily at the ceiling and draw a big imaginary circle in the air with
+      one finger, as if planning something in the future.
+    emoji: 🔮
+  scenes:
+  - key: s1
+    text: Jeroen werd vijftig en hij zou het eigenlijk niet vieren, maar zijn familie wilde een echt Hollandse verjaardag.
+      Alle gasten zaten in een grote kring tegen de muur, met een kopje koffie en precies één koekje. Ze zouden om drie uur
+      taart eten, dat had Jeroen beloofd. Nadat iedereen hem één keer had gefeliciteerd, werd het helemaal stil in de kamer.
+    image_prompt: A Dutch living room with chairs pushed against every wall in a big circle. Jeroen, a fifty-year-old Dutch
+      man with round glasses, a bald spot, a small mustache and a bright orange sweater, sits in the circle holding a tiny
+      coffee cup. Twelve guests sit stiffly with one small cookie each on their saucers. A clock on the wall shows three o'clock.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Zaten de gasten in een grote kring tegen de muur?
+      options: [Ja, Nee]
+      answer: Ja
+    - key: s1q2
+      kind: either_or
+      prompt: Hoeveel koekjes kreeg elke gast bij de koffie?
+      options: [Tien koekjes, Eén koekje]
+      answer: Eén koekje
+    - key: s1q3
+      kind: who_what
+      prompt: Wie wilde een echt Hollandse verjaardag?
+      options: [De familie van Jeroen, Jeroen zelf, De bakker]
+      answer: De familie van Jeroen
+    - key: s1q4
+      kind: yes_no
+      prompt: Zouden de gasten om drie uur taart eten?
+      options: [Ja, Nee]
+      answer: Ja
+      target: zouden
+    - key: s1q5
+      kind: either_or
+      prompt: Wat gebeurde er nadat iedereen Jeroen had gefeliciteerd?
+      options: [De kamer werd stil, De gasten gingen naar huis]
+      answer: De kamer werd stil
+      target: nadat
+    glossary:
+    - word: werd
+      lemma: worden
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: zou
+      lemma: zullen
+      level: A1
+    - word: het
+      lemma: het
+      level: A1
+    - word: eigenlijk
+      lemma: eigenlijk
+      level: A2
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: vieren
+      lemma: vieren
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: familie
+      lemma: de familie
+      level: A1
+    - word: wilde
+      lemma: willen
+      level: A1
+    - word: echt
+      lemma: echt
+      level: A2
+    - word: Hollandse
+      lemma: Hollands
+      level: A2
+    - word: verjaardag
+      lemma: de verjaardag
+      level: A2
+    - word: Alle
+      lemma: alle
+      level: A1
+    - word: gasten
+      lemma: de gast
+      level: A2
+    - word: zaten
+      lemma: zitten
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: grote
+      lemma: groot
+      level: A1
+    - word: kring
+      lemma: de kring
+      level: A2
+    - word: tegen
+      lemma: tegen
+      level: A1
+    - word: muur
+      lemma: de muur
+      level: A2
+    - word: met
+      lemma: met
+      level: A1
+    - word: kopje
+      lemma: het kopje
+      level: A1
+    - word: koffie
+      lemma: de koffie
+      level: A1
+    - word: precies
+      lemma: precies
+      level: A2
+    - word: koekje
+      lemma: het koekje
+      level: A1
+    - word: Ze
+      lemma: ze
+      level: A1
+    - word: zouden
+      lemma: zullen
+      level: A1
+    - word: om
+      lemma: om
+      level: A1
+    - word: uur
+      lemma: het uur
+      level: A1
+    - word: taart
+      lemma: de taart
+      level: A1
+    - word: eten
+      lemma: eten
+      level: A1
+    - word: dat
+      lemma: dat
+      level: A1
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: beloofd
+      lemma: beloven
+      level: A2
+    - word: Nadat
+      lemma: nadat
+      level: B1
+    - word: iedereen
+      lemma: iedereen
+      level: A2
+    - word: hem
+      lemma: hem
+      level: A1
+    - word: keer
+      lemma: de keer
+      level: A2
+    - word: gefeliciteerd
+      lemma: feliciteren
+      level: A2
+    - word: helemaal
+      lemma: helemaal
+      level: A2
+    - word: stil
+      lemma: stil
+      level: A1
+    - word: kamer
+      lemma: de kamer
+      level: A1
+    voice:
+    - text: Jeroen werd vijftig en hij zou het eigenlijk niet vieren, maar zijn familie wilde een echt Hollandse verjaardag.
+      emotion: amused
+    - text: Alle gasten zaten in een grote kring tegen de muur, met een kopje koffie en precies één koekje.
+      emotion: amused
+    - text: Ze zouden om drie uur taart eten, dat had Jeroen beloofd.
+      emotion: neutral
+    - text: Nadat iedereen hem één keer had gefeliciteerd, werd het helemaal stil in de kamer.
+      emotion: whisper
+  - key: s2
+    text: 'Om drie uur kwam de taart: vier meter lang, met vijftig kaarsjes erop. De taart werd op de tafel in het midden
+      van de kring gezet en iedereen keek ernaar. Nadat Jeroen de kaarsjes had uitgeblazen, wilde hij de taart aansnijden.
+      Maar de taart was weg! Er werd zo hard geschreeuwd dat de buren het in de hele straat hoorden.'
+    image_prompt: The same Dutch living room, now with an enormous four-meter-long cake on a small table in the middle of
+      the circle of chairs. Jeroen, the fifty-year-old man with round glasses, bald spot, mustache and orange sweater, holds
+      a knife and stares at the empty table with his mouth wide open. Guests stand up in shock, one woman has her hands on
+      her cheeks.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Was de taart vier meter lang?
+      options: [Ja, Nee]
+      answer: Ja
+    - key: s2q2
+      kind: either_or
+      prompt: Hoeveel kaarsjes stonden er op de taart?
+      options: [Vijftig kaarsjes, Vijf kaarsjes]
+      answer: Vijftig kaarsjes
+    - key: s2q3
+      kind: who_what
+      prompt: Wat was er weg nadat Jeroen de kaarsjes had uitgeblazen?
+      options: [De taart, De tafel, De koffie]
+      answer: De taart
+      target: nadat
+    - key: s2q4
+      kind: yes_no
+      prompt: Keken de gasten naar hun koffie in plaats van naar de taart?
+      options: [Ja, Nee]
+      answer: Nee
+    - key: s2q5
+      kind: yes_no
+      prompt: Werd de taart op de tafel in het midden van de kring gezet?
+      options: [Ja, Nee]
+      answer: Ja
+      target: werd
+    glossary:
+    - word: Om
+      lemma: om
+      level: A1
+    - word: uur
+      lemma: het uur
+      level: A1
+    - word: kwam
+      lemma: komen
+      level: A1
+    - word: taart
+      lemma: de taart
+      level: A1
+    - word: meter
+      lemma: de meter
+      level: A2
+    - word: lang
+      lemma: lang
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: kaarsjes
+      lemma: het kaarsje
+      level: A2
+    - word: erop
+      lemma: erop
+      level: A2
+    - word: werd
+      lemma: worden
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: tafel
+      lemma: de tafel
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: midden
+      lemma: het midden
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: kring
+      lemma: de kring
+      level: A2
+    - word: gezet
+      lemma: zetten
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: iedereen
+      lemma: iedereen
+      level: A2
+    - word: keek
+      lemma: kijken
+      level: A1
+    - word: ernaar
+      lemma: ernaar
+      level: A2
+    - word: Nadat
+      lemma: nadat
+      level: B1
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: uitgeblazen
+      lemma: uitblazen
+      level: B1
+    - word: wilde
+      lemma: willen
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: aansnijden
+      lemma: aansnijden
+      level: B1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: weg
+      lemma: weg
+      level: A2
+    - word: Er
+      lemma: er
+      level: A1
+    - word: zo
+      lemma: zo
+      level: A1
+    - word: hard
+      lemma: hard
+      level: A1
+    - word: geschreeuwd
+      lemma: schreeuwen
+      level: A2
+    - word: dat
+      lemma: dat
+      level: A2
+    - word: buren
+      lemma: de buur
+      level: A2
+    - word: het
+      lemma: het
+      level: A1
+    - word: hele
+      lemma: heel
+      level: A2
+    - word: straat
+      lemma: de straat
+      level: A1
+    - word: hoorden
+      lemma: horen
+      level: A1
+    voice:
+    - text: 'Om drie uur kwam de taart: vier meter lang, met vijftig kaarsjes erop.'
+      emotion: surprised
+    - text: De taart werd op de tafel in het midden van de kring gezet en iedereen keek ernaar.
+      emotion: amused
+    - text: Nadat Jeroen de kaarsjes had uitgeblazen, wilde hij de taart aansnijden.
+      emotion: neutral
+    - text: Maar de taart was weg!
+      emotion: surprised
+    - text: Er werd zo hard geschreeuwd dat de buren het in de hele straat hoorden.
+      emotion: angry
+  - key: s3
+    text: 'Jeroen belde de bakker en er werd meteen een tweede taart gebracht, nog groter dan de eerste. De gasten zouden
+      nu goed opletten: tien mensen keken tien minuten lang naar de taart. Maar nadat iemand even naar de wc was gegaan, was
+      de taart alweer verdwenen. Oma Ans zou zweren dat ze niets had gezien.'
+    image_prompt: The same Dutch living room. Ten guests sit on the edge of their chairs, eyes wide open, all staring at a
+      huge cake on the table. Jeroen, with his round glasses, bald spot, mustache and orange sweater, points at the cake like
+      a police officer. In the background an old lady with a handbag looks innocently at the ceiling.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Werden er drie nieuwe taarten tegelijk gebracht?
+      options: [Ja, Nee]
+      answer: Nee
+      target: werd
+    - key: s3q2
+      kind: either_or
+      prompt: Hoe lang keken de gasten naar de tweede taart?
+      options: [Tien seconden, Tien minuten]
+      answer: Tien minuten
+    - key: s3q3
+      kind: who_what
+      prompt: Wie ging weg, waarna de taart verdween?
+      options: [Iemand naar de wc, De bakker naar huis, De hond naar de tuin]
+      answer: Iemand naar de wc
+      target: nadat
+    - key: s3q4
+      kind: yes_no
+      prompt: Zouden de gasten nu goed opletten?
+      options: [Ja, Nee]
+      answer: Ja
+      target: zouden
+    - key: s3q5
+      kind: either_or
+      prompt: Wat zou oma Ans zweren?
+      options: [Dat ze niets had gezien, Dat ze de taart had verstopt]
+      answer: Dat ze niets had gezien
+    glossary:
+    - word: belde
+      lemma: bellen
+      level: A1
+    - word: bakker
+      lemma: de bakker
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: er
+      lemma: er
+      level: A1
+    - word: werd
+      lemma: worden
+      level: A2
+    - word: meteen
+      lemma: meteen
+      level: A2
+    - word: taart
+      lemma: de taart
+      level: A1
+    - word: gebracht
+      lemma: brengen
+      level: A2
+    - word: nog
+      lemma: nog
+      level: A1
+    - word: groter
+      lemma: groot
+      level: A1
+    - word: dan
+      lemma: dan
+      level: A1
+    - word: gasten
+      lemma: de gast
+      level: A2
+    - word: zouden
+      lemma: zullen
+      level: A1
+    - word: nu
+      lemma: nu
+      level: A1
+    - word: goed
+      lemma: goed
+      level: A1
+    - word: opletten
+      lemma: opletten
+      level: A2
+    - word: mensen
+      lemma: de mens
+      level: A1
+    - word: keken
+      lemma: kijken
+      level: A1
+    - word: minuten
+      lemma: de minuut
+      level: A1
+    - word: lang
+      lemma: lang
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: nadat
+      lemma: nadat
+      level: B1
+    - word: iemand
+      lemma: iemand
+      level: A2
+    - word: even
+      lemma: even
+      level: A1
+    - word: wc
+      lemma: de wc
+      level: A2
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: gegaan
+      lemma: gaan
+      level: A1
+    - word: alweer
+      lemma: alweer
+      level: A2
+    - word: verdwenen
+      lemma: verdwijnen
+      level: B1
+    - word: Oma
+      lemma: de oma
+      level: A1
+    - word: zou
+      lemma: zullen
+      level: A1
+    - word: zweren
+      lemma: zweren
+      level: B1
+    - word: dat
+      lemma: dat
+      level: A2
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: niets
+      lemma: niets
+      level: A1
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: gezien
+      lemma: zien
+      level: A1
+    voice:
+    - text: Jeroen belde de bakker en er werd meteen een tweede taart gebracht, nog groter dan de eerste.
+      emotion: surprised
+    - text: 'De gasten zouden nu goed opletten: tien mensen keken tien minuten lang naar de taart.'
+      emotion: surprised
+    - text: Maar nadat iemand even naar de wc was gegaan, was de taart alweer verdwenen.
+      emotion: surprised
+    - text: Oma Ans zou zweren dat ze niets had gezien.
+      emotion: whisper
+  - key: s4
+    text: 'Voor de derde taart maakten ze een plan: de deur werd op slot gedaan en de hond werd in de tuin gezet. Ze zouden
+      allemaal naar de taart blijven kijken zonder te knipperen. Maar toen de taart kwam, werd het zo warm in de kamer dat
+      iedereen één seconde zijn ogen sloot. Nadat ze hun ogen weer openden, zagen ze een lege tafel en een lang spoor van
+      kruimels.'
+    image_prompt: The same Dutch living room with the door locked and a key in the lock. Jeroen, in his orange sweater with
+      round glasses and bald spot, sits in the circle with his eyes squeezed shut like the other guests. A third cake stands
+      on the table, already half gone, and a clear trail of crumbs runs across the floor toward the garden door.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Werd de deur op slot gedaan?
+      options: [Ja, Nee]
+      answer: Ja
+      target: werd
+    - key: s4q2
+      kind: either_or
+      prompt: Waar werd de hond gezet?
+      options: [In de tuin, In de kamer]
+      answer: In de tuin
+    - key: s4q3
+      kind: who_what
+      prompt: Wat zagen ze nadat ze hun ogen weer openden?
+      options: [Een lege tafel en kruimels, Een nieuwe taart, De geit in de kring]
+      answer: Een lege tafel en kruimels
+      target: nadat
+    - key: s4q4
+      kind: yes_no
+      prompt: Zouden de gasten naar de taart blijven kijken zonder te knipperen?
+      options: [Ja, Nee]
+      answer: Ja
+      target: zouden
+    - key: s4q5
+      kind: yes_no
+      prompt: Werd het koud in de kamer?
+      options: [Ja, Nee]
+      answer: Nee
+      target: werd
+    glossary:
+    - word: Voor
+      lemma: voor
+      level: A1
+    - word: taart
+      lemma: de taart
+      level: A1
+    - word: maakten
+      lemma: maken
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: plan
+      lemma: het plan
+      level: A2
+    - word: deur
+      lemma: de deur
+      level: A1
+    - word: werd
+      lemma: worden
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: slot
+      lemma: het slot
+      level: A2
+    - word: gedaan
+      lemma: doen
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: hond
+      lemma: de hond
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: tuin
+      lemma: de tuin
+      level: A1
+    - word: gezet
+      lemma: zetten
+      level: A2
+    - word: zouden
+      lemma: zullen
+      level: A1
+    - word: allemaal
+      lemma: allemaal
+      level: A2
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: blijven
+      lemma: blijven
+      level: A1
+    - word: kijken
+      lemma: kijken
+      level: A1
+    - word: zonder
+      lemma: zonder
+      level: A2
+    - word: knipperen
+      lemma: knipperen
+      level: B1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: toen
+      lemma: toen
+      level: A2
+    - word: kwam
+      lemma: komen
+      level: A1
+    - word: het
+      lemma: het
+      level: A1
+    - word: zo
+      lemma: zo
+      level: A1
+    - word: warm
+      lemma: warm
+      level: A1
+    - word: kamer
+      lemma: de kamer
+      level: A1
+    - word: dat
+      lemma: dat
+      level: A2
+    - word: iedereen
+      lemma: iedereen
+      level: A2
+    - word: seconde
+      lemma: de seconde
+      level: A2
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: ogen
+      lemma: het oog
+      level: A1
+    - word: sloot
+      lemma: sluiten
+      level: A2
+    - word: Nadat
+      lemma: nadat
+      level: B1
+    - word: hun
+      lemma: hun
+      level: A1
+    - word: weer
+      lemma: weer
+      level: A1
+    - word: openden
+      lemma: openen
+      level: A2
+    - word: zagen
+      lemma: zien
+      level: A1
+    - word: lege
+      lemma: leeg
+      level: A2
+    - word: tafel
+      lemma: de tafel
+      level: A1
+    - word: lang
+      lemma: lang
+      level: A1
+    - word: spoor
+      lemma: het spoor
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: kruimels
+      lemma: de kruimel
+      level: B1
+    voice:
+    - text: 'Voor de derde taart maakten ze een plan: de deur werd op slot gedaan en de hond werd in de tuin gezet.'
+      emotion: whisper
+    - text: Ze zouden allemaal naar de taart blijven kijken zonder te knipperen.
+      emotion: amused
+    - text: Maar toen de taart kwam, werd het zo warm in de kamer dat iedereen één seconde zijn ogen sloot.
+      emotion: sleepy
+    - text: Nadat ze hun ogen weer openden, zagen ze een lege tafel en een lang spoor van kruimels.
+      emotion: surprised
+  - key: s5
+    text: Het spoor van kruimels liep door de kamer, naar de tuin, naar de geit van de buren. De geit werd meteen de hoofdverdachte,
+      maar ze keek heel onschuldig. Nadat Jeroen de geit een groot stuk taart had gegeven, werd ze de veertiende gast in de
+      kring. 'Volgend jaar,' zeiden de gasten, 'zouden we de taart gewoon binnen één minuut moeten opeten!' Jeroen werd vijftig,
+      maar dit was de beste verjaardag van zijn leven.
+    image_prompt: The same Dutch living room, now with a goat wearing a paper party hat sitting calmly in the circle of chairs
+      next to Jeroen, who has round glasses, a bald spot, a mustache and an orange sweater and is laughing with his hands
+      in the air. Guests raise their coffee cups, crumbs everywhere on the floor.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Naar wie liep het spoor van kruimels?
+      options: [Naar de geit van de buren, Naar de bakker, Naar de hond]
+      answer: Naar de geit van de buren
+    - key: s5q2
+      kind: yes_no
+      prompt: Werd de geit de veertiende gast in de kring?
+      options: [Ja, Nee]
+      answer: Ja
+      target: werd
+    - key: s5q3
+      kind: either_or
+      prompt: Wat zeiden de gasten dat ze volgend jaar zouden doen?
+      options: [De taart in de tuin zetten, De taart binnen één minuut opeten]
+      answer: De taart binnen één minuut opeten
+      target: zouden
+    - key: s5q4
+      kind: yes_no
+      prompt: Gaf Jeroen de geit een stuk taart nadat hij de kruimels had gevolgd?
+      options: [Ja, Nee]
+      answer: Ja
+      target: nadat
+    - key: s5q5
+      kind: yes_no
+      prompt: Had Jeroen een slechte verjaardag?
+      options: [Ja, Nee]
+      answer: Nee
+    glossary:
+    - word: spoor
+      lemma: het spoor
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: kruimels
+      lemma: de kruimel
+      level: B1
+    - word: liep
+      lemma: lopen
+      level: A1
+    - word: door
+      lemma: door
+      level: A1
+    - word: kamer
+      lemma: de kamer
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: tuin
+      lemma: de tuin
+      level: A1
+    - word: geit
+      lemma: de geit
+      level: A2
+    - word: buren
+      lemma: de buur
+      level: A2
+    - word: werd
+      lemma: worden
+      level: A2
+    - word: meteen
+      lemma: meteen
+      level: A2
+    - word: hoofdverdachte
+      lemma: de hoofdverdachte
+      level: B2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: keek
+      lemma: kijken
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A1
+    - word: onschuldig
+      lemma: onschuldig
+      level: B1
+    - word: Nadat
+      lemma: nadat
+      level: B1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: stuk
+      lemma: het stuk
+      level: A2
+    - word: taart
+      lemma: de taart
+      level: A1
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: gegeven
+      lemma: geven
+      level: A1
+    - word: gast
+      lemma: de gast
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: kring
+      lemma: de kring
+      level: A2
+    - word: Volgend
+      lemma: volgend
+      level: A2
+    - word: jaar
+      lemma: het jaar
+      level: A1
+    - word: zeiden
+      lemma: zeggen
+      level: A1
+    - word: gasten
+      lemma: de gast
+      level: A2
+    - word: zouden
+      lemma: zullen
+      level: A1
+    - word: we
+      lemma: we
+      level: A1
+    - word: gewoon
+      lemma: gewoon
+      level: A2
+    - word: binnen
+      lemma: binnen
+      level: A2
+    - word: minuut
+      lemma: de minuut
+      level: A1
+    - word: moeten
+      lemma: moeten
+      level: A1
+    - word: opeten
+      lemma: opeten
+      level: A2
+    - word: dit
+      lemma: dit
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: beste
+      lemma: goed
+      level: A1
+    - word: verjaardag
+      lemma: de verjaardag
+      level: A2
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: leven
+      lemma: het leven
+      level: A1
+    voice:
+    - text: Het spoor van kruimels liep door de kamer, naar de tuin, naar de geit van de buren.
+      emotion: surprised
+    - text: De geit werd meteen de hoofdverdachte, maar ze keek heel onschuldig.
+      emotion: amused
+    - text: Nadat Jeroen de geit een groot stuk taart had gegeven, werd ze de veertiende gast in de kring.
+      emotion: amused
+    - text: '''Volgend jaar,'' zeiden de gasten, ''zouden we de taart gewoon binnen één minuut moeten opeten!'' Jeroen werd
+        vijftig, maar dit was de beste verjaardag van zijn leven.'
+      emotion: amused
+  core_words:
+  - lemma: de verjaardag
+    image_prompt: a birthday table with balloons and a wrapped present
+  - lemma: de taart
+    image_prompt: a large birthday cake with candles
+  - lemma: de gast
+    image_prompt: a guest arriving at a party with a small gift
+  - lemma: de kring
+    image_prompt: people sitting in a circle of chairs in a living room
+  - lemma: de kruimel
+    image_prompt: small cake crumbs scattered on the floor
+  - lemma: de geit
+    image_prompt: a goat standing in a garden
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 810
+  output_tokens: 7691
+  glossary_version: glossary-v2
+  glossary_input_tokens: 819
+  glossary_output_tokens: 18403
+  core_version: core-v1
+  core_input_tokens: 2642
+  core_output_tokens: 580
+  voice_version: voice-v1
+  voice_input_tokens: 794
+  voice_output_tokens: 3432
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 2039
+  localize_ar_output_tokens: 11487

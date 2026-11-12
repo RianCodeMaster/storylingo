@@ -1,0 +1,114 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Lena wacht 1000 minuten op de bus, maar een snelle kameel genaamd Klaus neemt haar mee — en uiteindelijk is hij bus
+  nummer 7.
+summary_source: 957ec73d576e3bec
+gestures:
+  wait: Sta stokstijf als een standbeeld bij de bushalte, tik snel met je voet en staar naar een reusachtig onzichtbaar horloge
+    op je arm, met luide zuchten.
+  come: Stamp met reuzestappen in slow motion naar de klas, zwaai met beide armen in grote cirkels en roep 'Hallo!'
+  take_along: Stop een denkbeeldig klein vriendje onder je arm als een rugzak en marcheer weg met je vrije arm trots zwaaiend.
+targets:
+  wartet:
+    gloss: wacht
+    note: 'Duits: wartet (hij/zij), Nederlands: wacht.'
+  kommt:
+    gloss: komt
+    note: 'Duits: kommt (hij/zij), Nederlands: komt.'
+  mitnehmen:
+    gloss: meenemen
+    note: 'Scheidbaar: ''nimmt ... mit'', net als Nederlands ''neemt ... mee''.'
+scenes:
+- key: s1
+  source: 05f5abccaf5d5800
+  translation: Lena wacht bij de bushalte. Ze wacht op de bus. De bus komt niet. Lena wacht 1000 minuten.
+  glosses:
+    wartet: wacht
+    an: bij
+    Haltestelle: bushalte
+    Sie: ze
+    auf: op
+    Bus: bus
+    kommt: komt
+    nicht: niet
+    Minuten: minuten
+- key: s2
+  source: 5fcbd75fea9a1c81
+  translation: 'Daar komt een kameel naar de bushalte. De kameel heet Klaus. Klaus komt heel snel. Lena zegt: ''Er komt een
+    kameel!'''
+  glosses:
+    Da: daar
+    kommt: komt
+    Kamel: kameel
+    an: naar
+    Haltestelle: bushalte
+    heißt: heet
+    sehr: heel
+    schnell: snel
+    sagt: zegt
+- key: s3
+  source: 636fa5c48c3a925e
+  translation: 'Klaus wil Lena meenemen. Klaus zegt: ''Ik wil jou meenemen.'' Lena vraagt: ''Kun je mij meenemen?'' Klaus
+    zegt: ''Ja! Ik neem je mee!'''
+  glosses:
+    will: wil
+    mitnehmen: meenemen
+    sagt: zegt
+    Ich: ik
+    dich: jou
+    fragt: vraagt
+    Kannst: kunt
+    du: je
+    mich: mij
+    nehme: neem
+    mit: mee
+- key: s4
+  source: 61f698e0705c157b
+  translation: 'Lena zit op de kameel. Klaus rent 100 kilometer per uur. Lena lacht: ''De kameel neemt mij mee!'' De bus komt
+    niet.'
+  glosses:
+    sitzt: zit
+    auf: op
+    Kamel: kameel
+    läuft: rent
+    Kilometer: kilometer
+    pro: per
+    Stunde: uur
+    lacht: lacht
+    nimmt: neemt
+    mich: mij
+    mit: mee
+    Bus: bus
+    kommt: komt
+    nicht: niet
+- key: s5
+  source: e69dec7e684b7674
+  translation: 'Klaus neemt Lena mee naar school. De school komt in zicht, en de bus komt eindelijk ook! De bus wacht bij
+    de bushalte, maar Lena wil met Klaus meerijden. Klaus lacht: ''Ik ben bus nummer 7.'''
+  glosses:
+    nimmt: neemt
+    mit: mee
+    zur: naar
+    Schule: school
+    kommt: komt
+    und: en
+    Bus: bus
+    endlich: eindelijk
+    auch: ook
+    wartet: wacht
+    an: bij
+    Haltestelle: bushalte
+    aber: maar
+    will: wil
+    fahren: meerijden
+    lacht: lacht
+    Ich: ik
+    bin: ben
+    Nummer: nummer
+words:
+  die Haltestelle: de bushalte
+  der Bus: de bus
+  das Kamel: de kameel
+  warten: wachten
+  sitzen: zitten

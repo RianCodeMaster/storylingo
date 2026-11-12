@@ -1,0 +1,253 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Anna heeft een sollicitatiegesprek via video, maar haar kat Paul springt op het toetsenbord en beantwoordt elke vraag
+  beter dan zij.
+summary_source: fd62afc3a2435e43
+gestures:
+  when_past: 'Knijp één keer met je vingers en gooi je duim over je schouder met een wetende knik, alsof je zegt: ''precies
+    toen gebeurde het''.'
+  because: Duw beide vuisten vanaf je borst naar voren alsof je de reden de wereld in schuift, met een vastberaden gezicht
+    van 'daarom!'.
+  would_have: Laat één open hand langzaam omhoog zweven en zucht dromerig, alsof je een wolkje van wat had kunnen zijn loslaat.
+targets:
+  als:
+    gloss: toen (verleden)
+    note: Duitse bijzin met 'als' zet het werkwoord achteraan; Nederlands gebruikt vaak 'toen'.
+  weil:
+    gloss: omdat
+    note: Net als Nederlands 'omdat' houdt Duits 'weil' het werkwoord achteraan.
+  hätte:
+    gloss: zou hebben
+    note: Konjunktiv II van 'haben'; Nederlands gebruikt 'zou(den) hebben'.
+scenes:
+- key: s1
+  source: 66dcc540aa49d1a5
+  translation: Anna had vandaag een groot sollicitatiegesprek via video. Ze had graag langer geslapen, maar ze moest om zeven
+    uur achter de laptop zitten, omdat 400 mensen de baan wilden en slechts één persoon hem kreeg. Toen Anna de laptop opende,
+    kwam haar kater Paul de kamer binnen en ging direct op de tafel zitten.
+  glosses:
+    hatte: had
+    heute: vandaag
+    großes: grote
+    Vorstellungsgespräch: sollicitatiegesprek
+    per: via
+    Video: video
+    Sie: zij
+    hätte: zou hebben
+    gern: graag
+    länger: langer
+    geschlafen: geslapen
+    aber: maar
+    musste: moest
+    um: om
+    Uhr: uur
+    am: aan
+    Laptop: laptop
+    sitzen: zitten
+    weil: omdat
+    Leute: mensen
+    Job: baan
+    wollten: wilden
+    und: en
+    nur: slechts
+    Person: persoon
+    ihn: hem
+    bekam: kreeg
+    Als: toen
+    aufmachte: opende
+    kam: kwam
+    ihr: haar
+    Kater: kater
+    ins: in het
+    Zimmer: kamer
+    setzte: zette
+    sich: zich
+    direkt: direct
+    auf: op
+    Tisch: tafel
+- key: s2
+  source: 67266c5dbe314727
+  translation: 'Om negen uur begon het gesprek met mevrouw Kranich van het pyjamabedrijf. Toen mevrouw Kranich de eerste vraag
+    stelde, sprong Paul plotseling op het toetsenbord. Anna wilde hem wegnemen, omdat ze bang was, maar op dat moment tikte
+    Paul al met beide poten. Op het scherm stond: ''Ik zou graag meer salaris hebben.'''
+  glosses:
+    Um: om
+    Uhr: uur
+    begann: begon
+    Gespräch: gesprek
+    mit: met
+    von: van
+    Schlafanzug-Firma: pyjamabedrijf
+    Als: toen
+    erste: eerste
+    Frage: vraag
+    stellte: stelde
+    sprang: sprong
+    plötzlich: plotseling
+    auf: op
+    Tastatur: toetsenbord
+    wollte: wilde
+    ihn: hem
+    wegnehmen: wegnemen
+    weil: omdat
+    sie: zij
+    Angst: angst
+    hatte: had
+    aber: maar
+    da: toen
+    tippte: tikte
+    schon: al
+    beiden: beide
+    Pfoten: poten
+    Bildschirm: scherm
+    stand: stond
+    Ich: ik
+    hätte: zou hebben
+    gern: graag
+    mehr: meer
+    Gehalt: salaris
+- key: s3
+  source: 50072d3ee10b2541
+  translation: 'Mevrouw Kranich lachte hard en zei: ''Eindelijk iemand die moedig is!'' Anna wist niet wat ze moest zeggen,
+    omdat ze nog nooit zo''n bazin had gezien. Ze had het liefst de laptop dichtgeklapt, maar haar handen trilden te erg.
+    Toen Paul de tweede vraag hoorde, tikte hij meteen het perfecte antwoord.'
+  glosses:
+    lachte: lachte
+    laut: hard
+    und: en
+    sagte: zei
+    Endlich: eindelijk
+    jemand: iemand
+    der: die
+    mutig: moedig
+    ist: is
+    wusste: wist
+    nicht: niet
+    was: wat
+    sie: zij
+    sagen: zeggen
+    sollte: zou moeten
+    weil: omdat
+    noch: nog
+    nie: nooit
+    so: zo
+    Chefin: bazin
+    gesehen: gezien
+    hatte: had
+    hätte: had
+    am: het
+    liebsten: liefst
+    Laptop: laptop
+    zugeklappt: dichtgeklapt
+    aber: maar
+    ihre: haar
+    Hände: handen
+    zitterten: trilden
+    zu: te
+    stark: erg
+    Als: toen
+    zweite: tweede
+    Frage: vraag
+    hörte: hoorde
+    tippte: tikte
+    er: hij
+    sofort: meteen
+    perfekte: perfecte
+    Antwort: antwoord
+- key: s4
+  source: 1d1f70fddb610698
+  translation: 'Paul antwoordde op elke vraag, en elk antwoord was beter dan dat van Anna. Hij schreef: ''Ik kan 40 uur per
+    week slapen en toch 300 pyjama''s per dag naaien.'' Anna had dat nooit zo goed kunnen formuleren, omdat ze van de zenuwen
+    nauwelijks kon ademen. Toen mevrouw Kranich naar haar salariswensen vroeg, tikte Paul: ''Twee blikken tonijn per dag.'''
+  glosses:
+    antwortete: antwoordde
+    auf: op
+    jede: elke
+    Frage: vraag
+    und: en
+    Antwort: antwoord
+    war: was
+    besser: beter
+    als: dan
+    die: die
+    von: van
+    Er: hij
+    schrieb: schreef
+    Ich: ik
+    kann: kan
+    Stunden: uren
+    pro: per
+    Woche: week
+    schlafen: slapen
+    trotzdem: toch
+    Schlafanzüge: pyjama's
+    Tag: dag
+    nähen: naaien
+    hätte: zou hebben
+    das: dat
+    nie: nooit
+    so: zo
+    gut: goed
+    formulieren: formuleren
+    können: kunnen
+    weil: omdat
+    sie: zij
+    vor: van
+    Nervosität: zenuwachtigheid
+    kaum: nauwelijks
+    atmen: ademen
+    konnte: kon
+    nach: naar
+    Gehaltswünschen: salariswensen
+    fragte: vroeg
+    tippte: tikte
+    Dosen: blikken
+    Thunfisch: tonijn
+- key: s5
+  source: e452d67e138ee7a0
+  translation: 'Aan het einde zei mevrouw Kranich: ''Wij nemen de kater.'' Anna was verdrietig, omdat ze de baan echt nodig
+    had. Maar toen glimlachte mevrouw Kranich en zei: ''U zou ook een baan hebben — als assistente van meneer Paul.'' Toen
+    Anna thuiskwam, lag Paul al op de bank en sliep als een baas.'
+  glosses:
+    Am: aan
+    Ende: einde
+    sagte: zei
+    Wir: wij
+    nehmen: nemen
+    Kater: kater
+    war: was
+    traurig: verdrietig
+    weil: omdat
+    sie: zij
+    Job: baan
+    wirklich: echt
+    gebraucht: nodig gehad
+    hätte: had
+    Aber: maar
+    dann: toen
+    lächelte: glimlachte
+    und: en
+    hätten: zouden hebben
+    auch: ook
+    Stelle: baan
+    als: als
+    Assistentin: assistente
+    von: van
+    nach: naar
+    Hause: huis
+    kam: kwam
+    lag: lag
+    schon: al
+    auf: op
+    Sofa: bank
+    schlief: sliep
+    wie: als
+    Chef: baas
+words:
+  das Vorstellungsgespräch: het sollicitatiegesprek
+  der Kater: de kater
+  die Tastatur: het toetsenbord
+  die Pfote: de poot
+  tippen: typen; tikken
+  die Chefin: de bazin

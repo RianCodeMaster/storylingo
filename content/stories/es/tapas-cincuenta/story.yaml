@@ -1,0 +1,648 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: tapas-cincuenta
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A2
+  theme: Marta pidió tapas en un bar, pero se equivocó y pidió cincuenta en vez de cinco; al final invitó a todo el bar
+  scenes: 5
+  targets:
+  - text: pidió
+    gloss: ordered
+    concept: order
+    kind: word
+  - text: quería
+    gloss: wanted
+    concept: want
+    kind: word
+  - text: había
+    gloss: there was
+    concept: there_is
+    kind: word
+  narrator: jessica
+story:
+  title: Cincuenta tapas, por favor
+  summary: Marta wants five tapas in a noisy bar in Madrid, but she orders too fast, gets fifty tapas, and ends up inviting
+    the whole bar to a party.
+  gestures:
+  - concept: order
+    description: Pretend to scribble wildly in a tiny invisible notebook, then throw the note over your shoulder like a pizza
+      chef.
+    emoji: 📝
+  - concept: want
+    description: Hug yourself and stare at an imaginary cake with huge hungry eyes, licking your lips.
+    emoji: 😋
+  - concept: there_is
+    description: Sweep both arms wide open like a giant curtain, then point at the empty space with your mouth open in surprise.
+    emoji: 👐
+  scenes:
+  - key: s1
+    text: Marta tenía mucha hambre. Quería comer tapas en un bar pequeño de Madrid. En el bar había mucha gente, y también
+      había mucho ruido. Marta quería una mesa tranquila.
+    image_prompt: Marta, a 30-year-old Spanish woman with curly dark hair, red glasses and a yellow jumper, stands at the
+      door of a tiny crowded bar in Madrid full of noisy people, looking tired and hungry.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Marta quería comer tapas?
+      options: [Sí, "No"]
+      answer: Sí
+      target: quería
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Había mucha gente o poca gente en el bar?
+      options: [mucha gente, poca gente]
+      answer: mucha gente
+      target: había
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Qué quería Marta?
+      options: [una mesa tranquila, un café, una pizza]
+      answer: una mesa tranquila
+      target: quería
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿Había silencio en el bar?
+      options: [Sí, "No"]
+      answer: "No"
+      target: había
+    glossary:
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: mucha
+      lemma: mucho
+      level: A1
+    - word: hambre
+      lemma: el hambre
+      level: A1
+    - word: Quería
+      lemma: querer
+      level: A1
+    - word: comer
+      lemma: comer
+      level: A1
+    - word: tapas
+      lemma: la tapa
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: bar
+      lemma: el bar
+      level: A2
+    - word: pequeño
+      lemma: pequeño
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: había
+      lemma: haber
+      level: A1
+    - word: gente
+      lemma: la gente
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: también
+      lemma: también
+      level: A1
+    - word: mucho
+      lemma: mucho
+      level: A1
+    - word: ruido
+      lemma: el ruido
+      level: A2
+    - word: mesa
+      lemma: la mesa
+      level: A1
+    - word: tranquila
+      lemma: tranquilo
+      level: A2
+    voice:
+    - text: Marta tenía mucha hambre.
+      emotion: neutral
+    - text: Quería comer tapas en un bar pequeño de Madrid.
+      emotion: neutral
+    - text: En el bar había mucha gente, y también había mucho ruido.
+      emotion: surprised
+    - text: Marta quería una mesa tranquila.
+      emotion: whisper
+  - key: s2
+    text: El camarero se llamaba Paco y tenía un bigote enorme. Paco no oía bien porque había música muy alta. Marta quería
+      cinco tapas de tortilla. Pero Marta pidió muy rápido, y Paco sonrió.
+    image_prompt: Paco, a fat cheerful waiter with a giant black moustache and a white apron, leans in with his hand to his
+      ear while Marta, curly dark hair, red glasses, yellow jumper, speaks very fast at a noisy bar counter.
+    questions:
+    - key: s2q1
+      kind: who_what
+      prompt: ¿Cómo se llamaba el camarero?
+      options: [Paco, Pepe, Pedro]
+      answer: Paco
+    - key: s2q2
+      kind: yes_no
+      prompt: ¿Marta quería cinco tapas?
+      options: [Sí, "No"]
+      answer: Sí
+      target: quería
+    - key: s2q3
+      kind: either_or
+      prompt: ¿Paco oía bien o no oía bien?
+      options: [no oía bien, oía bien]
+      answer: no oía bien
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿Había música tranquila en el bar?
+      options: [Sí, "No"]
+      answer: "No"
+      target: había
+    - key: s2q5
+      kind: who_what
+      prompt: ¿Qué pidió Marta?
+      options: [cinco tapas, cincuenta tapas, una sopa]
+      answer: cinco tapas
+      target: pidió
+    glossary:
+    - word: camarero
+      lemma: el camarero
+      level: A2
+    - word: se
+      lemma: se
+      level: A2
+    - word: llamaba
+      lemma: llamarse
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: bigote
+      lemma: el bigote
+      level: A2
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: oía
+      lemma: oír
+      level: A2
+    - word: bien
+      lemma: bien
+      level: A1
+    - word: porque
+      lemma: porque
+      level: A1
+    - word: había
+      lemma: haber
+      level: A1
+    - word: música
+      lemma: la música
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: alta
+      lemma: alto
+      level: A1
+    - word: quería
+      lemma: querer
+      level: A1
+    - word: tapas
+      lemma: la tapa
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: tortilla
+      lemma: la tortilla
+      level: A2
+    - word: Pero
+      lemma: pero
+      level: A1
+    - word: pidió
+      lemma: pedir
+      level: A2
+    - word: rápido
+      lemma: rápido
+      level: A1
+    - word: sonrió
+      lemma: sonreír
+      level: B1
+    voice:
+    - text: El camarero se llamaba Paco y tenía un bigote enorme.
+      emotion: amused
+    - text: Paco no oía bien porque había música muy alta.
+      emotion: surprised
+    - text: Marta quería cinco tapas de tortilla.
+      emotion: neutral
+    - text: Pero Marta pidió muy rápido, y Paco sonrió.
+      emotion: amused
+  - key: s3
+    text: 'Paco escribió el pedido y fue a la cocina. Diez minutos después, trajo lo que Marta pidió: ¡cincuenta tapas! Había
+      platos de tortilla, de jamón y de queso por todas partes. «¡Cincuenta!», gritó Marta. «¡Yo quería cinco!»'
+    image_prompt: Marta, curly dark hair, red glasses, yellow jumper, screams with her hands on her cheeks in front of a small
+      bar table completely covered with fifty plates of tapas, while big-moustached Paco smiles happily.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: ¿Cuántas tapas trajo Paco?
+      options: [cincuenta tapas, cinco tapas, quince tapas]
+      answer: cincuenta tapas
+      target: pidió
+    - key: s3q2
+      kind: yes_no
+      prompt: ¿Marta quería cincuenta tapas?
+      options: [Sí, "No"]
+      answer: "No"
+      target: quería
+    - key: s3q3
+      kind: either_or
+      prompt: ¿Había platos de tortilla o platos de pasta?
+      options: [platos de tortilla, platos de pasta]
+      answer: platos de tortilla
+      target: había
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿Paco trajo lo que Marta pidió?
+      options: [Sí, "No"]
+      answer: Sí
+      target: pidió
+    glossary:
+    - word: escribió
+      lemma: escribir
+      level: A1
+    - word: pedido
+      lemma: el pedido
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: fue
+      lemma: ir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: cocina
+      lemma: la cocina
+      level: A1
+    - word: minutos
+      lemma: el minuto
+      level: A1
+    - word: después
+      lemma: después
+      level: A2
+    - word: trajo
+      lemma: traer
+      level: A2
+    - word: lo
+      lemma: lo
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: pidió
+      lemma: pedir
+      level: A2
+    - word: tapas
+      lemma: la tapa
+      level: A2
+    - word: Había
+      lemma: haber
+      level: A1
+    - word: platos
+      lemma: el plato
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: tortilla
+      lemma: la tortilla
+      level: A2
+    - word: jamón
+      lemma: el jamón
+      level: A2
+    - word: queso
+      lemma: el queso
+      level: A1
+    - word: por
+      lemma: por
+      level: A1
+    - word: todas
+      lemma: todo
+      level: A1
+    - word: partes
+      lemma: la parte
+      level: A2
+    - word: gritó
+      lemma: gritar
+      level: A2
+    - word: Yo
+      lemma: yo
+      level: A1
+    - word: quería
+      lemma: querer
+      level: A1
+    voice:
+    - text: Paco escribió el pedido y fue a la cocina.
+      emotion: neutral
+    - text: 'Diez minutos después, trajo lo que Marta pidió: ¡cincuenta tapas!'
+      emotion: surprised
+    - text: Había platos de tortilla, de jamón y de queso por todas partes.
+      emotion: surprised
+    - text: «¡Cincuenta!», gritó Marta.
+      emotion: surprised
+    - text: «¡Yo quería cinco!»
+      emotion: angry
+  - key: s4
+    text: Marta miró la mesa y quería llorar. Había comida para cien personas, pero en el bar no había sitio para más platos.
+      Entonces Marta llamó a su vecino Pepe. Pepe pidió cinco tapas más y comió muy rápido.
+    image_prompt: Marta, curly dark hair, red glasses, yellow jumper, looks desperate at a mountain of tapas while a very
+      tall thin neighbour called Pepe eats tapas standing up in the tiny crowded bar.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿Marta quería llorar?
+      options: [Sí, "No"]
+      answer: Sí
+      target: quería
+    - key: s4q2
+      kind: either_or
+      prompt: ¿Había comida para cien personas o para dos personas?
+      options: [para cien personas, para dos personas]
+      answer: para cien personas
+      target: había
+    - key: s4q3
+      kind: who_what
+      prompt: ¿Quién vino al bar?
+      options: [su vecino Pepe, su hermano, el profesor]
+      answer: su vecino Pepe
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Había sitio para más platos en el bar?
+      options: [Sí, "No"]
+      answer: "No"
+      target: había
+    - key: s4q5
+      kind: who_what
+      prompt: ¿Qué pidió Pepe?
+      options: [cinco tapas más, cincuenta tapas más, un café]
+      answer: cinco tapas más
+      target: pidió
+    glossary:
+    - word: miró
+      lemma: mirar
+      level: A1
+    - word: mesa
+      lemma: la mesa
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: quería
+      lemma: querer
+      level: A1
+    - word: llorar
+      lemma: llorar
+      level: A2
+    - word: Había
+      lemma: haber
+      level: A1
+    - word: comida
+      lemma: la comida
+      level: A1
+    - word: para
+      lemma: para
+      level: A1
+    - word: personas
+      lemma: la persona
+      level: A1
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: bar
+      lemma: el bar
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: sitio
+      lemma: el sitio
+      level: A2
+    - word: más
+      lemma: más
+      level: A1
+    - word: platos
+      lemma: el plato
+      level: A1
+    - word: Entonces
+      lemma: entonces
+      level: A2
+    - word: llamó
+      lemma: llamar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: vecino
+      lemma: el vecino
+      level: A2
+    - word: pidió
+      lemma: pedir
+      level: A2
+    - word: tapas
+      lemma: la tapa
+      level: A2
+    - word: comió
+      lemma: comer
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: rápido
+      lemma: rápido
+      level: A1
+    voice:
+    - text: Marta miró la mesa y quería llorar.
+      emotion: angry
+    - text: Había comida para cien personas, pero en el bar no había sitio para más platos.
+      emotion: surprised
+    - text: Entonces Marta llamó a su vecino Pepe.
+      emotion: neutral
+    - text: Pepe pidió cinco tapas más y comió muy rápido.
+      emotion: amused
+  - key: s5
+    text: 'Al final, Marta invitó a todo el bar: «¡Tapas gratis para todos!». Todos querían comer, y Paco quería bailar. Había
+      una fiesta enorme en el bar pequeño. Y Paco no pidió dinero: pidió otra ronda de tapas.'
+    image_prompt: Marta, curly dark hair, red glasses, yellow jumper, dances on a chair with her arms up in the tiny bar,
+      surrounded by happy neighbours and big-moustached Paco holding a plate of tapas like a trophy.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿Marta invitó a todo el bar?
+      options: [Sí, "No"]
+      answer: Sí
+    - key: s5q2
+      kind: either_or
+      prompt: ¿Paco quería bailar o quería dormir?
+      options: [quería bailar, quería dormir]
+      answer: quería bailar
+      target: quería
+    - key: s5q3
+      kind: who_what
+      prompt: ¿Qué había en el bar?
+      options: [una fiesta enorme, un concierto de rock, una clase de español]
+      answer: una fiesta enorme
+      target: había
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Paco pidió dinero al final?
+      options: [Sí, "No"]
+      answer: "No"
+      target: pidió
+    - key: s5q5
+      kind: who_what
+      prompt: ¿Qué pidió Paco al final?
+      options: [otra ronda de tapas, la cuenta, un taxi]
+      answer: otra ronda de tapas
+      target: pidió
+    glossary:
+    - word: Al
+      lemma: al
+      level: A1
+    - word: final
+      lemma: el final
+      level: A2
+    - word: invitó
+      lemma: invitar
+      level: A2
+    - word: a
+      lemma: a
+      level: A1
+    - word: todo
+      lemma: todo
+      level: A1
+    - word: bar
+      lemma: el bar
+      level: A2
+    - word: Tapas
+      lemma: la tapa
+      level: A2
+    - word: gratis
+      lemma: gratis
+      level: A2
+    - word: para
+      lemma: para
+      level: A1
+    - word: todos
+      lemma: todo
+      level: A1
+    - word: querían
+      lemma: querer
+      level: A1
+    - word: comer
+      lemma: comer
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: quería
+      lemma: querer
+      level: A1
+    - word: bailar
+      lemma: bailar
+      level: A1
+    - word: Había
+      lemma: haber
+      level: A1
+    - word: fiesta
+      lemma: la fiesta
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: pequeño
+      lemma: pequeño
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: pidió
+      lemma: pedir
+      level: A2
+    - word: dinero
+      lemma: el dinero
+      level: A1
+    - word: otra
+      lemma: otro
+      level: A1
+    - word: ronda
+      lemma: la ronda
+      level: B1
+    - word: de
+      lemma: de
+      level: A1
+    voice:
+    - text: 'Al final, Marta invitó a todo el bar: «¡Tapas gratis para todos!».'
+      emotion: amused
+    - text: Todos querían comer, y Paco quería bailar.
+      emotion: amused
+    - text: Había una fiesta enorme en el bar pequeño.
+      emotion: amused
+    - text: 'Y Paco no pidió dinero: pidió otra ronda de tapas.'
+      emotion: surprised
+  core_words:
+  - lemma: el bar
+    image_prompt: a small Spanish bar with a counter and stools
+  - lemma: la tapa
+    image_prompt: a small plate of Spanish food, like a slice of tortilla
+  - lemma: el camarero
+    image_prompt: a waiter standing by a table holding a notepad
+  - lemma: el bigote
+    image_prompt: a man with a large thick moustache
+  - lemma: la tortilla
+    image_prompt: a round Spanish potato omelette on a plate
+  - lemma: la fiesta
+    image_prompt: people dancing and celebrating together in a bar
+generation:
+  prompt_version: tprs-v3
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 699
+  output_tokens: 4832
+  glossary_version: glossary-v2
+  glossary_input_tokens: 578
+  glossary_output_tokens: 15031
+  core_version: core-v1
+  core_input_tokens: 1588
+  core_output_tokens: 810
+  voice_version: voice-v1
+  voice_input_tokens: 552
+  voice_output_tokens: 1495
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 383
+  localize_ar_output_tokens: 421
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 383
+  localize_en_output_tokens: 376
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 383
+  localize_nl_output_tokens: 601

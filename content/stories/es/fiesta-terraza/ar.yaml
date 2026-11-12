@@ -1,0 +1,212 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: دعت إيلينا خمسة أصدقاء، لكن بسبب رسالة خاطئة وصل الحي كله، والعمدة مع فرقة موسيقية وقطه الغاضب، وفي النهاية كانت
+  أفضل حفلة في السنة.
+summary_source: 3ad61538bebcd962
+gestures:
+  had_invited: تظاهر بأنك تكتب دعوة صغيرة على ورقة لاصقة ثم تنقرها بإصبعك بعيدًا وهي تقول «بُم!» لتقع على شخص واحد فقط.
+  so_that: افتح بابًا خياليًا بعرض ما تستطيع بكلتا يديك واحتفظ به مفتوحًا بابتسامة فخورة وهزّ رأسك كي يعبر الآخر.
+  while: افرك بطنك بحركات دائرية بيد واربت على رأسك بالأخرى في الوقت نفسه وهزّ وركيك لتظهر أن أمرين يحدثان معًا.
+targets:
+  había invitado:
+    gloss: كانت قد دعت
+    note: الماضي التام في الإسبانية (había + اسم المفعول) يقابل «كان قد فعل» في العربية.
+  para que:
+    gloss: لكي / حتى
+    note: يتبعه فعل في صيغة subjuntivo، بينما في العربية يليه فعل مضارع منصوب غالبًا.
+  mientras:
+    gloss: بينما / في حين
+    note: يَربط حدثين متزامنين، مثل «بينما» في العربية.
+scenes:
+- key: s1
+  source: c5ef6de0dac9c9f5
+  translation: دعت إيلينا خمسة أصدقاء إلى شرفتها الصغيرة. طوال الصباح نظّفت واشترت اثنتي عشرة كروكيت ووضعت ست كراسي ليكون
+    الجميع مرتاحين. وبينما كانت تغني أغنية لروزاليا، نظرت إلى هاتفها وابتسمت.
+  glosses:
+    había: كانت قد
+    invitado: دعت
+    a: إلى
+    amigos: أصدقاء
+    su: خاصتها
+    terraza: شرفة
+    pequeña: صغيرة
+    Durante: خلال
+    toda: كل
+    mañana: الصباح
+    limpió: نظّفت
+    compró: اشترت
+    croquetas: كروكيت
+    "y": و
+    puso: وضعت
+    sillas: كراسي
+    para: من أجل
+    que: أن
+    todos: الجميع
+    estuvieran: يكونوا
+    cómodos: مرتاحين
+    Mientras: بينما
+    cantaba: كانت تغني
+    canción: أغنية
+    de: لـ
+    miró: نظرت إلى
+    móvil: الهاتف المحمول
+    sonrió: ابتسمت
+- key: s2
+  source: ddbc85b7f1e017b8
+  translation: 'في الثامنة رنّ الجرس. لم يكونوا خمسة أصدقاء: بل كان الحي كله. وصل جارها باكو مع عائلته، عشرين شخصًا، وخلفه
+    كان هناك مئة جار آخر. كانت إيلينا قد دعت خمسة أشخاص فقط وكان لديها اثنتا عشرة كروكيت فقط.'
+  glosses:
+    A: في
+    sonó: رنّ
+    timbre: الجرس
+    "No": لم
+    eran: كانوا
+    amigos: أصدقاء
+    era: كان
+    todo: كل
+    barrio: الحي
+    Su: جارها
+    vecino: الجار
+    llegó: وصل
+    con: مع
+    familia: عائلة
+    personas: أشخاص
+    "y": و
+    detrás: خلفه
+    había: كان هناك
+    vecinos: جيران
+    más: آخرون
+    invitado: دعت
+    solo: فقط
+    tenía: كانت لديها
+    croquetas: كروكيت
+- key: s3
+  source: 9912377c442b5c69
+  translation: 'ثم وصل العمدة برموديث مع فرقة موسيقية من ثلاثين موسيقيًا. عزفت الفرقة باسودوبلي بصوت عالٍ جدًا بينما كان الجيران
+    يرقصون. فتحت إيلينا كل أكياس البطاطس لكي يأكل الناس شيئًا. قال العمدة: «يا لها من حفلة جميلة!»'
+  glosses:
+    Entonces: ثم
+    llegó: وصل
+    alcalde: العمدة
+    con: مع
+    banda: فرقة
+    de: من
+    música: موسيقى
+    músicos: موسيقيين
+    tocó: عزفت
+    pasodoble: باسودوبلي
+    muy: جدًا
+    fuerte: بصوت عالٍ
+    mientras: بينما
+    vecinos: الجيران
+    bailaban: كانوا يرقصون
+    abrió: فتحت
+    todas: كل
+    bolsas: أكياس
+    patatas: بطاطس
+    para: لكي
+    que: أن
+    gente: الناس
+    comiera: تأكل
+    algo: شيئًا
+    Qué: يا
+    fiesta: حفلة
+    tan: كم
+    bonita: جميلة
+    dijo: قال
+- key: s4
+  source: d75b997bbbf039ad
+  translation: 'كانت المشكلة أن الشرفة صغيرة جدًا: مئتا شخص في عشرين مترًا. بدأ المبنى يتحرك، فقفز قط إيلينا نابليون غاضبًا
+    إلى رأس العمدة. وبينما كانت الفرقة تعزف بصوت أعلى، جرت إيلينا إلى الحانة بالأسفل لكي يعطوها مزيدًا من الثلج.'
+  glosses:
+    problema: المشكلة
+    fue: كانت
+    que: أن
+    terraza: الشرفة
+    era: كانت
+    muy: جدًا
+    pequeña: صغيرة
+    personas: أشخاص
+    en: في
+    metros: أمتار
+    edificio: المبنى
+    empezó: بدأ
+    a: أن
+    moverse: يتحرك
+    "y": و
+    gato: القط
+    de: خاصة
+    saltó: قفز
+    furioso: غاضبًا
+    cabeza: رأس
+    del: الـ
+    alcalde: العمدة
+    Mientras: بينما
+    banda: الفرقة
+    tocaba: كانت تعزف
+    más: أكثر
+    fuerte: بقوة
+    corrió: جرت
+    al: إلى
+    bar: الحانة
+    abajo: بالأسفل
+    para: لكي
+    le: لها
+    dieran: يعطوها
+    hielo: ثلج
+- key: s5
+  source: 37e4e66043f59c96
+  translation: 'في النهاية أحضر كل الجيران طعامًا وكانت الحفلة أفضل حفلة في السنة. نظرت إيلينا إلى هاتفها ورأت الحقيقة: كانت
+    قد دعت كل الحي، لأنها أرسلت الرسالة إلى مجموعة «الحي كله» وليس إلى أصدقائها الخمسة. فضحكت ورقصت مع العمدة. وبينما كان
+    نابليون نائمًا على الأريكة، قررت إيلينا تكرار الحفلة كل شهر.'
+  glosses:
+    Al: في
+    final: النهاية
+    todos: كل
+    vecinos: الجيران
+    trajeron: أحضروا
+    comida: طعامًا
+    "y": و
+    fiesta: الحفلة
+    fue: كانت
+    mejor: أفضل
+    del: في
+    año: السنة
+    miró: نظرت إلى
+    su: ـها
+    móvil: الهاتف
+    vio: رأت
+    verdad: الحقيقة
+    había: كانت قد
+    invitado: دعت
+    a: إلى
+    todo: كل
+    barrio: الحي
+    porque: لأن
+    mandó: أرسلت
+    mensaje: رسالة
+    grupo: مجموعة
+    "no": ليس
+    sus: أصدقائها
+    amigos: أصدقاء
+    Se: نفسها
+    rió: ضحكت
+    bailó: رقصت
+    con: مع
+    alcalde: العمدة
+    Mientras: بينما
+    dormía: كان ينام
+    en: على
+    sofá: الأريكة
+    decidió: قررت
+    repetir: تكرار
+    cada: كل
+    mes: شهر
+words:
+  la terraza: الشرفة
+  la croqueta: الكروكيت
+  el vecino: الجار
+  el alcalde: العمدة
+  la banda: الفرقة الموسيقية
+  el gato: القط

@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: wohnung-schuh
+language: de
+level: A1
+tags: [algemeen, alltag]
+narrator: jessica
+theme: Mia sucht eine Wohnung in Berlin; endlich findet sie eine billige Wohnung, aber die ist so klein wie ein Schuhkarton und ihre Möbel passen nicht hinein
+scenes: 5
+targets:
+  - {text: "sucht", gloss: "looks for", concept: search}
+  - {text: "ist klein", gloss: "is small", concept: small, kind: phrase}
+  - {text: "es gibt", gloss: "there is", concept: there_is, kind: phrase}

@@ -1,0 +1,169 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Sarah moet zich inschrijven bij het Bürgeramt, maar haar afspraak is om drie uur 's nachts en de ambtenaar in pyjama
+  stempelt haar formulier af als hond.
+summary_source: e7426e88ca70e5b1
+gestures:
+  must: Duw een onzichtbare zware doos met beide handen naar de grond en stamp met één voet, alsof je iets heel moeilijks
+    echt moet doen.
+  be_past: 'Wijs met beide duimen achter je over je schouder, knik langzaam en zeg met je gezicht: ''zo was het''.'
+  cannot_past: Schud snel je hoofd, duw de lucht met beide platte handen weg en haal hoog je schouders op.
+  be: 'Wijs met beide duimen achter je over je schouder, knik langzaam en zeg met je gezicht: ''zo was het''.'
+  cannot: Schud snel je hoofd, duw de lucht weg met beide platte handen en haal je schouders hoog op.
+targets:
+  musste:
+    gloss: moest
+    note: Duitse verleden tijd van müssen; vergelijk Nederlands 'moest'.
+  war:
+    gloss: was
+    note: Duitse verleden tijd van sein; Nederlands 'was' lijkt erop.
+  konnte nicht:
+    gloss: kon niet
+    note: Duitse verleden tijd van können + nicht; Nederlands 'kon niet'.
+scenes:
+- key: s1
+  source: 484138439000340d
+  translation: Sarah kwam in januari naar Berlijn. Ze moest zich bij het Bürgeramt inschrijven. Het Bürgeramt was in een groot
+    grijs gebouw. Ze wachtte zes weken op een afspraak.
+  glosses:
+    kam: kwam
+    im: in
+    Januar: januari
+    nach: naar
+    Sie: ze
+    musste: moest
+    sich: zich
+    beim: bij het
+    Bürgeramt: gemeentehuis
+    anmelden: inschrijven
+    war: was
+    in: in
+    großen: grote
+    grauen: grijze
+    Gebäude: gebouw
+    wartete: wachtte
+    Wochen: weken
+    auf: op
+    Termin: afspraak
+- key: s2
+  source: 55fd3e9104883184
+  translation: 'Eindelijk kwam er een brief. De afspraak was om drie uur ''s nachts. Sarah kon niet slapen. Ze dacht: ''Dat
+    was geen normale afspraak!'''
+  glosses:
+    Endlich: eindelijk
+    kam: kwam
+    Brief: brief
+    Termin: afspraak
+    war: was
+    um: om
+    Uhr: uur
+    nachts: '''s nachts'
+    konnte: kon
+    nicht: niet
+    schlafen: slapen
+    Sie: ze
+    dachte: dacht
+    Das: dat
+    normaler: normale
+- key: s3
+  source: 1c69a717e070c282
+  translation: Om kwart voor drie stond Sarah voor het Bürgeramt. De deur was open. In de zaal was maar één klein lichtje
+    aan. Achter het bureau zat een ambtenaar in een blauwe pyjama met gele eenden.
+  glosses:
+    Um: om
+    Viertel: kwart
+    vor: voor
+    stand: stond
+    Bürgeramt: gemeentehuis
+    Tür: deur
+    war: was
+    offen: open
+    Im: in de
+    Saal: zaal
+    nur: alleen
+    kleines: klein
+    Licht: licht
+    an: aan
+    Hinter: achter
+    Schreibtisch: bureau
+    saß: zat
+    Beamter: ambtenaar
+    in: in
+    blauen: blauwe
+    Schlafanzug: pyjama
+    mit: met
+    gelben: gele
+    Enten: eenden
+- key: s4
+  source: f860344da2537a12
+  translation: De ambtenaar heette meneer Schmidt. Sarah moest haar papieren op tafel leggen. Meneer Schmidt was heel moe,
+    want zijn ogen waren bijna dicht. Sarah kon niet hard praten, omdat ze steeds moest lachen.
+  glosses:
+    Beamte: ambtenaar
+    hieß: heette
+    ihre: haar
+    Papiere: papieren
+    auf: op
+    Tisch: tafel
+    legen: leggen
+    war: was
+    sehr: heel
+    müde: moe
+    denn: want
+    seine: zijn
+    Augen: ogen
+    waren: waren
+    fast: bijna
+    zu: dicht
+    konnte: kon
+    nicht: niet
+    laut: hard
+    sprechen: spreken
+    weil: omdat
+    sie: ze
+    immer: steeds
+    lachen: lachen
+    musste: moest
+- key: s5
+  source: 2809b1b981797ca8
+  translation: Meneer Schmidt stempelde in zijn slaap, driehonderd keer. Aan het einde was Sarah ingeschreven – maar als hond.
+    Ze kon niet boos zijn, want de afspraak was gewoon te grappig. Ze hoefde maar één keer met haar staart te kwispelen, en
+    dan was alles perfect.
+  glosses:
+    stempelte: stempelde
+    im: in
+    Schlaf: slaap
+    Am: aan
+    Ende: einde
+    war: was
+    angemeldet: ingeschreven
+    aber: maar
+    als: als
+    Hund: hond
+    Sie: ze
+    konnte: kon
+    nicht: niet
+    böse: boos
+    sein: zijn
+    denn: want
+    Termin: afspraak
+    einfach: gewoon
+    zu: te
+    lustig: grappig
+    musste: hoefde
+    nur: maar
+    einmal: één keer
+    mit: met
+    Schwanz: staart
+    wedeln: kwispelen
+    dann: dan
+    alles: alles
+    perfekt: perfect
+words:
+  das Bürgeramt: het gemeentehuis
+  der Termin: de afspraak
+  der Schlafanzug: de pyjama
+  stempeln: stempelen
+  der Hund: de hond
+  wedeln: kwispelen

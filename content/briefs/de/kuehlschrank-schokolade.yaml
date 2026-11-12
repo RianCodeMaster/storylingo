@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: kuehlschrank-schokolade
+language: de
+level: A1
+tags: [algemeen, alltag]
+narrator: charlie
+theme: Paul hat einen Kühlschrank, der spricht und nur Schokolade will; Paul will aber Gemüse essen
+scenes: 5
+targets:
+  - {text: "hat", gloss: "has", concept: have}
+  - {text: "will", gloss: "wants", concept: want}
+  - {text: "spricht", gloss: "speaks", concept: speak}

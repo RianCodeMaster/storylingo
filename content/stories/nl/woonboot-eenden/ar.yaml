@@ -1,0 +1,201 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تبحث نور عن بيت للإيجار بأسعار معقولة في أمستردام، فتجد بيتًا عائمًا صغيرًا مليئًا بالبط التي تضع بيضة ذهبية غير
+  متوقعة.
+summary_source: b66fa01d9a70065d
+gestures:
+  although: ارفع كتفًا واحدًا، وحرّك إصبع التحذير، وادفع بابًا خياليًا بيدك الأخرى لتُظهر أن الفعل يذهب إلى آخر الجملة.
+  if_then: ارفع إصبعًا واحدًا كعلامة سؤال، ثم افرقع أصابعك وأشر إلى الأمام بحماس لتُظهر النتيجة.
+  would_like: شبّك يديك تحت ذقنك، ومِل إلى الأمام بعينين حالمتين، وتخيّل عناق بيت ذهبي صغير.
+targets:
+  hoewel:
+    gloss: رغم أنّ
+    note: بعد hoewel ينتقل الفعل إلى آخر الجملة الثانوية، بخلاف العربية التي تحافظ غالبًا على ترتيبها.
+  als ... dan:
+    gloss: إذا ... فإن
+    note: بعد als تأتي الجملة الرئيسية غالبًا بـ dan؛ العربية قد تكتفي بـ إذا.
+  zou willen:
+    gloss: يرغب في
+    note: zou فعل مساعد مع willen في المصدر، والعربية تعبّر غالبًا بفعل واحد مثل يرغب.
+scenes:
+- key: s1
+  source: f323d01d12032625
+  translation: 'تبحث نور منذ أشهر عن منزل للإيجار بأسعار معقولة في أمستردام. لديها مال قليل جدًا رغم أنها تعمل بجد. ترغب في
+    السكن على قناة، لكن الإيجار هائل. تفكر نور: إذا وجدت مسكنًا، فسيكون أغلى بكثير.'
+  glosses:
+    zoekt: تبحث عن
+    al: منذ
+    maanden: شهورًا
+    betaalbaar: ميسور التكلفة
+    huurhuis: منزل للإيجار
+    in: في
+    Ze: هي
+    heeft: لديها
+    te: أكثر من اللازم
+    weinig: قليل
+    geld: مال
+    hoewel: رغم أنّ
+    hard: بجدّ
+    werkt: تعمل
+    zou: كان سـ
+    willen: تريد
+    wonen: تسكن
+    aan: على
+    gracht: قناة
+    maar: لكن
+    huur: الإيجار
+    is: هو
+    enorm: هائل
+    denkt: تفكر
+    als: إذا
+    woning: مسكن
+    vindt: تجد
+    dan: فإن
+    die: ذلك
+    veel: كثيرًا
+    duur: غالٍ
+- key: s2
+  source: 54a7a356aa773754
+  translation: 'في أحد الأيام ترى نور إعلانًا: بيت عائم بمال قليل جدًا. السعر مثالي رغم أن المركب صغير. تكاد نور تبكي من الفرح.
+    تضحك نور: إذا رأت المركب فلن تصدق عينيها.'
+  glosses:
+    Op: في
+    dag: يوم
+    ziet: ترى
+    advertentie: إعلان
+    woonboot: بيت عائم
+    voor: مقابل
+    heel: جدًا
+    weinig: قليل
+    geld: مال
+    prijs: السعر
+    is: هو
+    perfect: مثالي
+    hoewel: رغم أنّ
+    boot: المركب
+    klein: صغير
+    zou: كان سـ
+    willen: تريد
+    huilen: تبكي
+    van: من
+    blijdschap: الفرح
+    lacht: تضحك
+    als: إذا
+    ze: هي
+    gelooft: تصدّق
+    haar: خاصتها
+    ogen: عينين
+    niet: لا
+- key: s3
+  source: 47ca778bc13d06c0
+  translation: 'تذهب نور إلى البيت العائم، لكن المركب مليء بالبط. البط يُحدث ضجيجًا كثيرًا رغم أنه لطيف. تتمنى نور لو كان
+    المركب فارغًا. تفاجأ: إذا خطت خطوة واحدة، تصوّت كلها في آن واحد.'
+  glosses:
+    gaat: تذهب
+    naar: إلى
+    woonboot: البيت العائم
+    maar: لكن
+    boot: المركب
+    zit: يكون
+    vol: مليء
+    eenden: بط
+    Ze: هي
+    maken: تُحدث
+    heel: جدًا
+    veel: كثيرًا
+    lawaai: ضجيجًا
+    hoewel: رغم أنّ
+    schattig: لطيفات
+    zijn: تكون
+    zou: كان سـ
+    willen: تريد
+    dat: أنّ
+    leeg: فارغًا
+    was: كان
+    schrikt: تفاجأ
+    als: إذا
+    stap: خطوة
+    zet: تخطو
+    dan: فإن
+    kwaken: تُصوّت
+    allemaal: كلها
+    tegelijk: في آن واحد
+- key: s4
+  source: 20012b58d5ad301e
+  translation: 'يتصل المالك المؤجّر بنور ويقول: ''الإيجار منخفض، لكن البط يجب أن يبقى.'' تفاجأ نور، لأنها تريد السكن دون حيوانات.
+    تقول نعم رغم أنها تخاف من البط. تفكر: إذا قالت لا، فستفقد المركب.'
+  glosses:
+    verhuurder: المالك المؤجّر
+    belt: يتصل
+    en: و
+    zegt: يقول
+    huur: الإيجار
+    is: هو
+    laag: منخفض
+    maar: لكن
+    eenden: البط
+    moeten: يجب أن
+    blijven: يبقوا
+    schrikt: تفاجأ
+    want: لأن
+    ze: هي
+    zou: كان سـ
+    willen: تريد
+    wonen: تسكن
+    zonder: دون
+    dieren: حيوانات
+    ja: نعم
+    hoewel: رغم أنّ
+    voor: من
+    bang: خائفة
+    denkt: تفكر
+    als: إذا
+    nee: لا
+    dan: فإن
+    verliest: تفقد
+    boot: المركب
+- key: s5
+  source: 103d48d7a1b30c2e
+  translation: 'توقّع نور العقد وتبقى في البيت العائم. في صباح اليوم التالي توجد بيضة ذهبية بين البط. تعرف نور: إذا وضع البط
+    بيضًا ذهبيًا، فستستطيع دفع الإيجار. تعيش الآن سعيدة جدًا على المركب، رغم أنها لم تحب البط يومًا.'
+  glosses:
+    tekent: توقّع
+    contract: العقد
+    en: و
+    blijft: تبقى
+    op: في
+    woonboot: البيت العائم
+    volgende: التالي
+    ochtend: الصباح
+    ligt: يوجد
+    er: هناك
+    gouden: ذهبية
+    ei: بيضة
+    tussen: بين
+    eenden: البط
+    weet: تعرف
+    als: إذا
+    eieren: بيضًا
+    leggen: تضع
+    dan: فإن
+    kan: تستطيع
+    ze: هي
+    huur: الإيجار
+    betalen: تدفع
+    woont: تسكن
+    nu: الآن
+    heel: جدًا
+    gelukkig: سعيدة
+    boot: المركب
+    hoewel: رغم أنّ
+    nooit: أبدًا
+    van: بـ
+    hield: أحبّت
+words:
+  de woonboot: البيت العائم
+  de eend: البطة
+  de verhuurder: المالك المؤجّر
+  het contract: العقد
+  gouden: ذهبي
+  schrikken: يفزع

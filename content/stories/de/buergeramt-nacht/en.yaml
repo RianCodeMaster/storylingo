@@ -1,0 +1,168 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Sarah has to register at the Bürgeramt, but her appointment is at three in the morning and the official in pajamas
+  stamps her form as a dog.
+summary_source: e7426e88ca70e5b1
+gestures:
+  must: Push an invisible heavy box down to the floor with both hands while stomping one foot, like you really have to do
+    something hard.
+  be_past: Point both thumbs back over your shoulder, nod slowly and say 'that's how it was' with your face.
+  cannot_past: Shake your head fast, push the air away with both flat hands and shrug your shoulders high.
+  be: Point both thumbs back over your shoulder, nod slowly and say 'that's how it was' with your face.
+  cannot: Shake your head fast, push the air away with both flat hands and shrug your shoulders high.
+targets:
+  musste:
+    gloss: had to
+    note: Past of müssen; English uses 'had to', not 'musted'.
+  war:
+    gloss: was
+    note: Past of sein; irregular like English 'was/were'.
+  konnte nicht:
+    gloss: could not
+    note: Past of können + nicht; English 'could not'.
+scenes:
+- key: s1
+  source: 484138439000340d
+  translation: Sarah came to Berlin in January. She had to register at the registration office. The registration office was
+    in a big gray building. She waited six weeks for an appointment.
+  glosses:
+    kam: came
+    im: in
+    Januar: January
+    nach: to
+    Sie: she
+    musste: had to
+    sich: herself
+    beim: at the
+    Bürgeramt: registration office
+    anmelden: register
+    war: was
+    in: in
+    großen: big
+    grauen: gray
+    Gebäude: building
+    wartete: waited
+    Wochen: weeks
+    auf: for
+    Termin: appointment
+- key: s2
+  source: 55fd3e9104883184
+  translation: 'Finally a letter arrived. The appointment was at three at night. Sarah could not sleep. She thought: ''That
+    was no normal appointment!'''
+  glosses:
+    Endlich: finally
+    kam: came
+    Brief: letter
+    Termin: appointment
+    war: was
+    um: at
+    Uhr: o'clock
+    nachts: at night
+    konnte: could
+    nicht: not
+    schlafen: sleep
+    Sie: she
+    dachte: thought
+    Das: that
+    normaler: normal
+- key: s3
+  source: 1c69a717e070c282
+  translation: At a quarter to three Sarah stood in front of the registration office. The door was open. In the hall only
+    a small light was on. Behind the desk sat an official in blue pajamas with yellow ducks.
+  glosses:
+    Um: at
+    Viertel: quarter
+    vor: to
+    stand: stood
+    Bürgeramt: registration office
+    Tür: door
+    war: was
+    offen: open
+    Im: in the
+    Saal: hall
+    nur: only
+    kleines: small
+    Licht: light
+    an: "on"
+    Hinter: behind
+    Schreibtisch: desk
+    saß: sat
+    Beamter: official
+    in: in
+    blauen: blue
+    Schlafanzug: pajamas
+    mit: with
+    gelben: yellow
+    Enten: ducks
+- key: s4
+  source: f860344da2537a12
+  translation: The official was called Mr Schmidt. Sarah had to put her papers on the table. Mr Schmidt was very tired, because
+    his eyes were almost closed. Sarah could not speak loudly, because she had to keep laughing.
+  glosses:
+    Beamte: official
+    hieß: was called
+    ihre: her
+    Papiere: papers
+    auf: "on"
+    Tisch: table
+    legen: put
+    war: was
+    sehr: very
+    müde: tired
+    denn: because
+    seine: his
+    Augen: eyes
+    waren: were
+    fast: almost
+    zu: closed
+    konnte: could
+    nicht: not
+    laut: loudly
+    sprechen: speak
+    weil: because
+    sie: she
+    immer: always
+    lachen: laugh
+    musste: had to
+- key: s5
+  source: 2809b1b981797ca8
+  translation: Mr Schmidt stamped in his sleep, three hundred times. In the end Sarah was registered – but as a dog. She could
+    not be angry, because the appointment was simply too funny. She only had to wag her tail once, then everything was perfect.
+  glosses:
+    stempelte: stamped
+    im: in
+    Schlaf: sleep
+    Am: at the
+    Ende: end
+    war: was
+    angemeldet: registered
+    aber: but
+    als: as
+    Hund: dog
+    Sie: she
+    konnte: could
+    nicht: not
+    böse: angry
+    sein: be
+    denn: because
+    Termin: appointment
+    einfach: simply
+    zu: too
+    lustig: funny
+    musste: had to
+    nur: only
+    einmal: once
+    mit: with
+    Schwanz: tail
+    wedeln: wag
+    dann: then
+    alles: everything
+    perfekt: perfect
+words:
+  das Bürgeramt: the registration office
+  der Termin: the appointment
+  der Schlafanzug: the pajamas
+  stempeln: to stamp
+  der Hund: the dog
+  wedeln: to wag

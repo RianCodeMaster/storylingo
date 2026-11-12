@@ -21,24 +21,24 @@ plural_forms: [one, other]
 teacher:
   # A mix of plain and playful, all in easy words: heard after every answer, so learners pick them up as phrases.
   yes:
-    - {text: "Ja! Precies!"}
-    - {text: "Goed zo! Heel goed!"}
-    - {text: "Ja, natuurlijk!"}
-    - {text: "Klopt! Super!"}
-    - {text: "Bravo! Jij bent een genie!"}
-    - {text: "Ja, ja, ja! Fantastisch!"}
-    - {text: "Perfect! Ga zo door!"}
-    - {text: "Ja hoor! Dat weet je al!"}
-    - {text: "Wauw, wat ben jij snel!"}
+    - {text: "Ja! Precies!", emotion: amused}
+    - {text: "Goed zo! Heel goed!", emotion: surprised}
+    - {text: "Ja, natuurlijk!", emotion: neutral}
+    - {text: "Klopt! Super!", emotion: amused}
+    - {text: "Bravo! Jij bent een genie!", emotion: surprised}
+    - {text: "Ja, ja, ja! Fantastisch!", emotion: amused}
+    - {text: "Perfect! Ga zo door!", emotion: amused}
+    - {text: "Ja hoor! Dat weet je al!", emotion: neutral}
+    - {text: "Wauw, wat ben jij snel!", emotion: surprised}
   no:
-    - {text: "Nee, nee, nee!"}
-    - {text: "O nee! Dat is fout."}
-    - {text: "Helaas niet."}
-    - {text: "Nee! Wat een ramp!"}
-    - {text: "Hmm, niet helemaal."}
-    - {text: "Fout! Maar goed geprobeerd."}
-    - {text: "O jee! Dat klopt niet."}
-    - {text: "Nee, natuurlijk niet!"}
+    - {text: "Nee, nee, nee!", emotion: surprised}
+    - {text: "O nee! Dat is fout.", emotion: surprised}
+    - {text: "Helaas niet.", emotion: neutral}
+    - {text: "Nee! Wat een ramp!", emotion: surprised}
+    - {text: "Hmm, niet helemaal.", emotion: neutral}
+    - {text: "Fout! Maar goed geprobeerd.", emotion: amused}
+    - {text: "O jee! Dat klopt niet.", emotion: surprised}
+    - {text: "Nee, natuurlijk niet!", emotion: amused}
   next: Verder
   done: Klaar!
 
@@ -62,11 +62,26 @@ recognition:
   jazeker: ja
 
 voice:
-  provider: piper
+  # ElevenLabs (paid; ELEVENLABS_API_KEY in pipeline/.env). The Piper voice that was here is in git history.
+  provider: elevenlabs
   pause: 0.5
-  question: neutral
+  question: amused
   word: neutral
-  settings: {length_scale: 1.1, noise_w_scale: 0.9}
+  # Stories take turns between the narrators (each story always the same one); questions, words and the teacher's
+  # reactions are always spoken by the teacher. IDs from elevenlabs.io > Voices.
+  speakers: {george: JBFqnCBsd6RMkjVDRZzb, charlie: IKne3meq5aSn9XLyUdCD, jessica: cgSgspJ2msm6clMCkdW9}
+  narrators: [george, charlie, jessica]
+  teacher: jessica
+  # eleven_v3 acts; stability 0.0 ("creative") lets it act the most.
+  settings: {model: eleven_v3, stability: 0.0}
+  # Single words and phrases: no acting needed, so Flash (half the credits per character).
+  words: {model: eleven_flash_v2_5, stability: 0.5, tag: ""}
   styles:
-    # Pim: Dutch from the Netherlands, flat (no emotions). Later ElevenLabs.
-    neutral: {model: nl_NL-pim-medium}
+    # v3 takes stage directions as audio tags (in English, for every language): each sentence's emotion becomes one.
+    neutral:   {}
+    amused:    {tag: "[playfully]"}
+    angry:     {tag: "[angry]"}
+    disgusted: {tag: "[disgusted]"}
+    sleepy:    {tag: "[sleepy]"}
+    surprised: {tag: "[gasps] [excited]"}
+    whisper:   {tag: "[whispers]"}

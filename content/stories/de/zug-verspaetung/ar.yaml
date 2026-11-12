@@ -1,0 +1,151 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: أراد فيليكس أن يصل إلى العمل في السابعة، لكن قطاره تأخر خمس ساعات، فمشى أربعين كيلومترًا تحت المطر ووصل أولًا — يوم
+  أحد والمكتب مغلق.
+summary_source: e62d111aea337a69
+gestures:
+  want: مدّ ذراعيك إلى الأمام بأيدي تتلمس بشغف وابتسامة جائعة، كأنك تريد شيئًا جدًا.
+  went: اسرع في مكانك بخطوات ثقيلة كبيرة ولوّح بذراعيك مثل ماشٍ مجنون.
+  have_past: احضن صندوقًا كبيرًا غير مرئي إلى صدرك وأومئ بفخر لتبيّن ما كان لديك.
+  have: اضمم صندوقًا كبيرًا خياليًا إلى صدرك وأومئ برأسك بفخر لتُظهر ما كان لديك.
+targets:
+  wollte:
+    gloss: أراد
+    note: ماضٍ بسيط، والعربية تعبّر عن الإرادة الماضية بـ«أراد».
+  ist gegangen:
+    gloss: ذهب / مشى
+    note: الماضي التام مع sein لأفعال الحركة؛ العربية تستعمل الماضي البسيط.
+  hatte:
+    gloss: كان لديه
+    note: ماضٍ بسيط لـ haben؛ يقابل «كان عنده» في العربية.
+scenes:
+- key: s1
+  source: 74a0ab8cf950ef2b
+  translation: 'أراد فيليكس أن يصل إلى العمل في الموعد. أراد أن يكون في المكتب في السابعة. كان لديه ثلاثة منبهات وساعة كبيرة
+    جدًا. لكن فيليكس أراد المزيد: أراد أن يكون أول شخص في المكتب.'
+  glosses:
+    wollte: أراد
+    pünktlich: في الموعد
+    zur: إلى
+    Arbeit: العمل
+    kommen: يصل / يأتي
+    Er: هو
+    um: في
+    Uhr: الساعة
+    im: في
+    Büro: المكتب
+    sein: يكون
+    hatte: كان لديه
+    Wecker: منبهات
+    und: و
+    sehr: جدًا
+    große: كبيرة
+    Aber: لكن
+    noch: مزيدًا
+    mehr: أكثر
+    erste: الأول
+    Mensch: شخص
+- key: s2
+  source: 84841e8d80cad07e
+  translation: في المحطة واجه فيليكس مشكلة. كان القطار متأخرًا خمس ساعات. كان مع فيليكس فقط قهوة صغيرة ولم يكن لديه صبر. لم
+    يرد أن ينتظر.
+  glosses:
+    Am: في
+    Bahnhof: المحطة
+    hatte: كان لديه
+    Problem: مشكلة
+    Zug: القطار
+    Stunden: ساعات
+    Verspätung: تأخير
+    nur: فقط
+    kleinen: صغيرة
+    Kaffee: قهوة
+    und: و
+    Geduld: صبر
+    Er: هو
+    wollte: أراد
+    nicht: لا
+    warten: ينتظر
+- key: s3
+  source: 14a9ddcdfc9fd8b1
+  translation: ذهب فيليكس. ذهب مشيًا لا بالقطار. مشى عبر المطر وفوق جبل. أراد أن يكون أسرع من القطار.
+  glosses:
+    ist: فعل مساعد
+    gegangen: ذهب / مشى
+    Er: هو
+    nicht: ليس
+    gefahren: ركب / سافر
+    durch: عبر
+    Regen: المطر
+    und: و
+    über: فوق
+    Berg: جبل
+    wollte: أراد
+    schneller: أسرع
+    als: من
+    Zug: القطار
+    sein: يكون
+- key: s4
+  source: 209b9429bc9e9a5e
+  translation: 'في السادسة والنصف كان فيليكس في المكتب. كان حذاؤه مبللًا وكان جائعًا جدًا. السيدة كروم، مديرته، كانت تحمل
+    المفتاح. قالت: أنت الأول! كل الآخرين أرادوا المجيء، لكنهم ما زالوا في القطار.'
+  glosses:
+    Um: في
+    halb: نصف
+    war: كان
+    im: في
+    Büro: المكتب
+    Er: هو
+    hatte: كان لديه
+    nasse: مبللة
+    Schuhe: حذاء
+    und: و
+    großen: كبيرًا
+    Hunger: جوع
+    Frau: السيدة
+    seine: خاصته
+    Chefin: مديرته
+    Schlüssel: المفتاح
+    Du: أنت
+    bist: تكون
+    Erste: الأول
+    Alle: الجميع
+    anderen: الآخرون
+    wollten: أرادوا
+    kommen: المجيء / يأتون
+    aber: لكن
+    sie: هم
+    sind: يكونون
+    noch: ما زالوا
+    Zug: القطار
+    sagte: قالت
+- key: s5
+  source: 62ebb01258d1a738
+  translation: 'كانت لدى السيدة كروم مفاجأة صغيرة: قالت فيليكس، اليوم الأحد. المكتب مغلق. أراد فيليكس أن يبكي. ذهب. عاد إلى
+    المنزل ماشيًا — أربعين كيلومترًا.'
+  glosses:
+    Frau: السيدة
+    hatte: كان لديها
+    kleine: صغيرة
+    Überraschung: مفاجأة
+    heute: اليوم
+    ist: هو
+    Sonntag: الأحد
+    Büro: المكتب
+    zu: مغلق
+    wollte: أراد
+    weinen: يبكي
+    Er: هو
+    gegangen: ذهب / مشى
+    wieder: مرة أخرى
+    nach: إلى
+    Hause: المنزل
+    Kilometer: كيلومتر
+words:
+  der Wecker: المنبه
+  der Bahnhof: محطة القطار
+  der Zug: القطار
+  die Verspätung: التأخير
+  der Regen: المطر
+  der Schlüssel: المفتاح

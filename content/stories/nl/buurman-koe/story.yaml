@@ -1,0 +1,489 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: buurman-koe
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A1
+  theme: Emma heeft een nieuwe buurman; de buurman is een koe die elke ochtend om zes uur zingt
+  scenes: 5
+  targets:
+  - text: heeft
+    gloss: has
+    concept: have
+    kind: word
+  - text: woont
+    gloss: lives
+    concept: live
+    kind: word
+  - text: elke ochtend
+    gloss: every morning
+    concept: every_morning
+    kind: phrase
+  narrator: jessica
+story:
+  title: Emma en de koe
+  summary: Emma's new neighbor is a cow that sings at six every morning, and her funny plan makes the cow write a letter.
+  gestures:
+  - concept: have
+    description: Hug a giant invisible box to your chest and nod proudly, as if you own it.
+    emoji: 🤗
+  - concept: live
+    description: Make a little roof over your head with both hands, then pat the floor where you stand.
+    emoji: 🏠
+  - concept: every_morning
+    description: Make a sun with your fingers, then yawn and mime drinking coffee in a big daily loop.
+    emoji: 🌅
+  scenes:
+  - key: s1
+    text: Emma woont in een klein huis. Naast Emma woont een nieuwe buurman. De buurman is een koe. De koe heeft een rode
+      pet.
+    image_prompt: A cheerful cartoon illustration of Emma, a young woman with curly red hair, a green scarf, and a blue coat,
+      standing in front of a tiny house. Next to her is a huge brown-and-white cow wearing a red cap in a green garden.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Woont Emma in een klein huis?
+      options: [ja, nee]
+      answer: ja
+      target: woont
+    - key: s1q2
+      kind: who_what
+      prompt: Wie woont naast Emma?
+      options: [een koe, een kat, een muis]
+      answer: een koe
+      target: woont
+    - key: s1q3
+      kind: yes_no
+      prompt: Heeft de koe een rode pet?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    - key: s1q4
+      kind: either_or
+      prompt: Is de buurman een paard of een koe?
+      options: [een paard, een koe]
+      answer: een koe
+    glossary:
+    - word: woont
+      lemma: wonen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: huis
+      lemma: het huis
+      level: A1
+    - word: Naast
+      lemma: naast
+      level: A2
+    - word: nieuwe
+      lemma: nieuw
+      level: A1
+    - word: buurman
+      lemma: de buurman
+      level: A2
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: koe
+      lemma: de koe
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: rode
+      lemma: rood
+      level: A1
+    - word: pet
+      lemma: de pet
+      level: A2
+    voice:
+    - text: Emma woont in een klein huis.
+      emotion: neutral
+    - text: Naast Emma woont een nieuwe buurman.
+      emotion: neutral
+    - text: De buurman is een koe.
+      emotion: surprised
+    - text: De koe heeft een rode pet.
+      emotion: amused
+  - key: s2
+    text: De koe zingt elke ochtend om zes uur. De koe zingt hard. Emma woont naast de koe. Emma is niet blij.
+    image_prompt: The same Emma with curly red hair, green scarf, and blue coat sits up in bed covering her ears. Outside
+      her window, the same huge brown-and-white cow with a red cap sings loudly, with big musical notes shaking the house
+      at sunrise.
+    questions:
+    - key: s2q1
+      kind: either_or
+      prompt: Wanneer zingt de koe?
+      options: [elke ochtend, elke avond]
+      answer: elke ochtend
+      target: elke ochtend
+    - key: s2q2
+      kind: yes_no
+      prompt: Zingt de koe zacht?
+      options: [ja, nee]
+      answer: nee
+    - key: s2q3
+      kind: who_what
+      prompt: Wie woont naast de koe?
+      options: [een muis, Emma, een poes]
+      answer: Emma
+      target: woont
+    - key: s2q4
+      kind: yes_no
+      prompt: Is Emma blij?
+      options: [ja, nee]
+      answer: nee
+    glossary:
+    - word: koe
+      lemma: de koe
+      level: A1
+    - word: zingt
+      lemma: zingen
+      level: A1
+    - word: elke
+      lemma: elke
+      level: A2
+    - word: ochtend
+      lemma: de ochtend
+      level: A1
+    - word: om
+      lemma: om
+      level: A1
+    - word: uur
+      lemma: het uur
+      level: A1
+    - word: hard
+      lemma: hard
+      level: A2
+    - word: woont
+      lemma: wonen
+      level: A1
+    - word: naast
+      lemma: naast
+      level: A2
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: blij
+      lemma: blij
+      level: A1
+    voice:
+    - text: De koe zingt elke ochtend om zes uur.
+      emotion: sleepy
+    - text: De koe zingt hard.
+      emotion: angry
+    - text: Emma woont naast de koe.
+      emotion: neutral
+    - text: Emma is niet blij.
+      emotion: angry
+  - key: s3
+    text: Emma heeft honderd oordoppen. Maar de koe zingt door. Het huis van Emma danst elke ochtend. De buren slapen niet.
+    image_prompt: The same Emma with curly red hair, green scarf, and blue coat wears a huge pile of colorful earplugs on
+      her head. Her tiny house has cartoon legs and dances, while the same big cow with a red cap sings through the window
+      and people cover their ears.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Heeft Emma honderd oordoppen?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    - key: s3q2
+      kind: either_or
+      prompt: 'Wat doet het huis van Emma elke ochtend: slapen of dansen?'
+      options: [slapen, dansen]
+      answer: dansen
+      target: elke ochtend
+    - key: s3q3
+      kind: yes_no
+      prompt: Zingt de koe door?
+      options: [ja, nee]
+      answer: ja
+    - key: s3q4
+      kind: yes_no
+      prompt: Slapen de buren?
+      options: [ja, nee]
+      answer: nee
+    - key: s3qd89b
+      kind: who_what
+      prompt: Hoeveel oordoppen heeft Emma?
+      options: [tien, een, honderd]
+      answer: honderd
+      target: heeft
+    glossary:
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: oordoppen
+      lemma: de oordop
+      level: B1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: koe
+      lemma: de koe
+      level: A1
+    - word: zingt
+      lemma: zingen
+      level: A1
+    - word: door
+      lemma: door
+      level: A2
+    - word: huis
+      lemma: het huis
+      level: A1
+    - word: van
+      lemma: van
+      level: A1
+    - word: danst
+      lemma: dansen
+      level: A1
+    - word: elke
+      lemma: elke
+      level: A2
+    - word: ochtend
+      lemma: de ochtend
+      level: A1
+    - word: buren
+      lemma: de buur
+      level: A2
+    - word: slapen
+      lemma: slapen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    voice:
+    - text: Emma heeft honderd oordoppen.
+      emotion: surprised
+    - text: Maar de koe zingt door.
+      emotion: angry
+    - text: Het huis van Emma danst elke ochtend.
+      emotion: amused
+    - text: De buren slapen niet.
+      emotion: sleepy
+  - key: s4
+    text: 'Emma gaat naar de koe. De koe heeft een grote mond. Emma zegt: ''Zing niet elke ochtend!'' De koe lacht en zingt
+      harder.'
+    image_prompt: The same Emma with curly red hair, green scarf, and blue coat stands in front of the same huge brown-and-white
+      cow with a red cap. The cow has an enormous open mouth and laughs, while musical notes blow Emma's scarf wildly.
+    questions:
+    - key: s4q1
+      kind: who_what
+      prompt: Naar wie gaat Emma?
+      options: [de bakker, de koe, de kat]
+      answer: de koe
+    - key: s4q2
+      kind: yes_no
+      prompt: Heeft de koe een grote mond?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    - key: s4q3
+      kind: either_or
+      prompt: 'Wat doet de koe als Emma zegt: ''Zing niet''?'
+      options: [de koe gaat slapen, de koe zingt harder]
+      answer: de koe zingt harder
+    - key: s4q4
+      kind: yes_no
+      prompt: Wil Emma dat de koe elke ochtend zingt?
+      options: [ja, nee]
+      answer: nee
+      target: elke ochtend
+    glossary:
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: koe
+      lemma: de koe
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: grote
+      lemma: groot
+      level: A1
+    - word: mond
+      lemma: de mond
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: Zing
+      lemma: zingen
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: elke
+      lemma: elke
+      level: A2
+    - word: ochtend
+      lemma: de ochtend
+      level: A1
+    - word: lacht
+      lemma: lachen
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: zingt
+      lemma: zingen
+      level: A1
+    - word: harder
+      lemma: hard
+      level: A2
+    voice:
+    - text: Emma gaat naar de koe.
+      emotion: neutral
+    - text: De koe heeft een grote mond.
+      emotion: amused
+    - text: 'Emma zegt: ''Zing niet elke ochtend!'' De koe lacht en zingt harder.'
+      emotion: angry
+  - key: s5
+    text: Emma heeft een plan. Zij zingt elke ochtend om vijf uur zacht. De koe woont naast Emma en slaapt nu. Om zes uur
+      zingt Emma hard en de koe schrijft een brief.
+    image_prompt: The same Emma with curly red hair, green scarf, and blue coat sings loudly at sunrise with a mischievous
+      smile. The same huge brown-and-white cow with a red cap wears a sleep mask and holds a letter in its hoof.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Heeft Emma een plan?
+      options: [ja, nee]
+      answer: ja
+      target: heeft
+    - key: s5q2
+      kind: either_or
+      prompt: 'Wanneer zingt Emma zacht: elke avond om acht uur of elke ochtend om vijf uur?'
+      options: [elke avond om acht uur, elke ochtend om vijf uur]
+      answer: elke ochtend om vijf uur
+      target: elke ochtend
+    - key: s5q3
+      kind: yes_no
+      prompt: Woont de koe ver weg?
+      options: [ja, nee]
+      answer: nee
+      target: woont
+    - key: s5q4
+      kind: who_what
+      prompt: Wat heeft de koe?
+      options: [een rode pet, een klein huis, een brief]
+      answer: een brief
+      target: heeft
+    glossary:
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: plan
+      lemma: het plan
+      level: A2
+    - word: Zij
+      lemma: zij
+      level: A1
+    - word: zingt
+      lemma: zingen
+      level: A1
+    - word: elke
+      lemma: elke
+      level: A2
+    - word: ochtend
+      lemma: de ochtend
+      level: A1
+    - word: om
+      lemma: om
+      level: A1
+    - word: uur
+      lemma: het uur
+      level: A1
+    - word: zacht
+      lemma: zacht
+      level: A2
+    - word: koe
+      lemma: de koe
+      level: A1
+    - word: woont
+      lemma: wonen
+      level: A1
+    - word: naast
+      lemma: naast
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: slaapt
+      lemma: slapen
+      level: A1
+    - word: nu
+      lemma: nu
+      level: A1
+    - word: hard
+      lemma: hard
+      level: A2
+    - word: schrijft
+      lemma: schrijven
+      level: A1
+    - word: brief
+      lemma: de brief
+      level: A2
+    voice:
+    - text: Emma heeft een plan.
+      emotion: whisper
+    - text: Zij zingt elke ochtend om vijf uur zacht.
+      emotion: whisper
+    - text: De koe woont naast Emma en slaapt nu.
+      emotion: sleepy
+    - text: Om zes uur zingt Emma hard en de koe schrijft een brief.
+      emotion: surprised
+  core_words:
+  - lemma: de koe
+    image_prompt: a single brown cow standing in a green field
+  - lemma: de buurman
+    image_prompt: a man standing beside a house next door
+  - lemma: de pet
+    image_prompt: a red baseball cap
+  - lemma: zingen
+    image_prompt: a person singing with mouth open and eyes closed
+  - lemma: de oordop
+    image_prompt: a pair of small orange earplugs
+  - lemma: de brief
+    image_prompt: a white envelope with a folded paper inside
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 791
+  output_tokens: 8962
+  glossary_version: glossary-v2
+  glossary_input_tokens: 477
+  glossary_output_tokens: 6382
+  core_version: core-v1
+  core_input_tokens: 1030
+  core_output_tokens: 858
+  voice_version: voice-v1
+  voice_input_tokens: 450
+  voice_output_tokens: 1167
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 799
+  localize_ar_output_tokens: 6403
+  simplified:
+    model: deepseek-flash
+    attempts: 1
+    input_tokens: 2682
+    output_tokens: 4026
+  localize_words_ar_output_tokens: 325
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1074
+  localize_en_output_tokens: 4423

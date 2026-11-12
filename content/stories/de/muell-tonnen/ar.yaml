@@ -1,0 +1,200 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تشرح السيدة بيكر لوكاس فصل النفايات عبر اثنتي عشرة حاوية بألوان مختلفة، فيرتعب من ارتكاب خطأ، وفي النهاية ترمي شاحنة
+  النفايات كل شيء في الحفرة نفسها.
+summary_source: 653cdd3fe4977f26
+gestures:
+  explained: 'ارفع إصبعًا كمعلم صارم، وافتح اليد الأخرى ككتاب، وأومئ ببطء ثلاث مرات وأنت تقول: «هكذا!»'
+  not_allowed: اعقد ذراعيك على صدرك بشكل X كبير، وحرّك رأسك بقوة يمينًا ويسارًا، كحارس أمام باب مهم جدًا.
+  there_was: افتح ذراعيك واسعًا واعرض شيئًا غير مرئي أمامك، كساحر يعرض طاولة كبيرة مليئة بالحاويات.
+  there_is: افتح ذراعيك واسعًا واعرض شيئًا غير مرئي أمامك، كساحر يعرض طاولة كبيرة مليئة بالصناديق.
+targets:
+  hat erklärt:
+    gloss: قد شرحَ
+    note: الماضي التام الألماني يتكون من haben/sein + اسم مفعول؛ في العربية يكفي فعل ماضٍ واحد.
+  durfte nicht:
+    gloss: لم يُسمح له
+    note: الفعل الناقص dürfen في الماضي مع nicht يعبر عن المنع؛ يقابله «لم يُسمح له».
+  es gab:
+    gloss: كان هناك
+    note: صيغة ثابتة للموجود في الماضي؛ تقابل «كان هناك» في العربية.
+scenes:
+- key: s1
+  source: e80830a2aaf4de47
+  translation: 'السيدة بيكر تبلغ من العمر 84 عامًا وهي صارمة جدًا. أمس شرحت السيدة بيكر فصل النفايات: اثنتا عشرة حاوية بألوان
+    اثني عشر لونًا. في الفناء كانت هناك اثنتا عشرة حاوية، وكانت هناك اثنا عشر لونًا. لم يُسمح للوكاس حتى بارتكاب خطأ واحد.'
+  glosses:
+    Frau: السيدة
+    ist: هي
+    Jahre: سنوات
+    alt: عمرها
+    und: و
+    sehr: جدًا
+    streng: صارمة
+    Gestern: أمس
+    hat: قد
+    Mülltrennung: فصل النفايات
+    erklärt: شرحت
+    Tonnen: حاويات
+    in: بـ
+    Farben: ألوان
+    Auf: على
+    Hof: الفناء
+    standen: كانت واقفة
+    es: هناك
+    gab: كان
+    durfte: كان مسموحًا
+    nicht: لا
+    einmal: حتى
+    Fehler: خطأ
+    machen: يرتكب
+- key: s2
+  source: 6a35f1ef3c1270c3
+  translation: شرحت السيدة بيكر أن الحاوية الوردية مخصصة للبلاستيك. وكانت الحاوية الفضية للجوارب القديمة والحاوية الفيروزية
+    للمظلات المكسورة. كان لوكاس مرتبكًا جدًا، لأن هناك قواعد كثيرة جدًا. لم يكن مسموحًا له أن يتكلم بصوت عالٍ عندما كان يفرز
+    النفايات.
+  glosses:
+    Frau: السيدة
+    hat: قد
+    erklärt: شرحت
+    dass: أن
+    rosa: الوردية
+    Tonne: الحاوية
+    für: لـ
+    Plastik: البلاستيك
+    ist: هي
+    silberne: الفضية
+    war: كانت
+    alte: القديمة
+    Socken: الجوارب
+    und: و
+    türkise: الفيروزية
+    kaputte: المكسورة
+    Regenschirme: مظلات المطر
+    sehr: جدًا
+    verwirrt: مرتبك
+    denn: لأن
+    es: هناك
+    gab: كان
+    zu: كثيرًا
+    viele: كثيرة
+    Regeln: قواعد
+    Er: هو
+    durfte: كان مسموحًا
+    nicht: لا
+    laut: بصوت عالٍ
+    sprechen: يتكلم
+    wenn: عندما
+    Müll: النفايات
+    sortierte: كان يفرز
+- key: s3
+  source: bdcda65b37cc967c
+  translation: في يوم الاثنين وقف لوكاس أمام الحاويات الاثنتي عشرة حاملًا كوب زبادي. وقف هناك أربعين دقيقة وبكى بهدوء. كان
+    الفناء هادئًا، لأنه لم يكن هناك إلا لوكاس والحاويات. لم يكن مسموحًا له أن يرن الجرس، لأن السيدة بيكر كانت تأخذ قيلولة
+    الظهر.
+  glosses:
+    Am: في
+    Montag: الاثنين
+    stand: وقف
+    mit: مع
+    Joghurtbecher: كوب زبادي
+    vor: أمام
+    Tonnen: الحاويات
+    Er: هو
+    dort: هناك
+    Minuten: دقائق
+    und: و
+    weinte: بكى
+    leise: بهدوء
+    Hof: الفناء
+    war: كان
+    still: هادئًا
+    denn: لأن
+    es: هناك
+    gab: كان
+    nur: فقط
+    durfte: كان مسموحًا
+    nicht: لا
+    klingeln: يرن الجرس
+    Frau: السيدة
+    machte: كانت تأخذ
+    Mittagsschlaf: قيلولة الظهر
+- key: s4
+  source: eef37484c032d13a
+  translation: 'فجأة وقفت السيدة بيكر خلفه وكانت غاضبة كعاصفة رعدية. شرحت: «الغطاء بلاستيك، والكوب ورق!» رمى لوكاس الكوب بسرعة
+    في الحاوية البرتقالية. حينها صرخت السيدة بيكر: «خطأ! الحاوية البرتقالية مخصصة للبطاريات!»'
+  glosses:
+    Plötzlich: فجأة
+    stand: وقفت
+    Frau: السيدة
+    hinter: خلف
+    ihm: هو
+    und: و
+    war: كانت
+    wütend: غاضبة
+    wie: مثل
+    Gewitter: عاصفة رعدية
+    Sie: هي
+    hat: قد
+    erklärt: شرحت
+    Deckel: الغطاء
+    ist: هو
+    Plastik: بلاستيك
+    Becher: الكوب
+    Papier: ورق
+    warf: رمى
+    schnell: بسرعة
+    in: في
+    orange: البرتقالية
+    Tonne: الحاوية
+    Da: حينها
+    schrie: صرخت
+    Falsch: خطأ
+    für: لـ
+    Batterien: البطاريات
+- key: s5
+  source: 06952b9499abf137
+  translation: 'في صباح اليوم التالي جاءت شاحنة النفايات ورمت كل الحاويات الاثنتي عشرة في الحفرة نفسها. في الشاحنة كان هناك
+    ثقب واحد فقط، ولم تكن هناك ألوان بعد الآن. رأت السيدة بيكر ذلك فسقطت مغشيًا عليها. ضحك لوكاس وشرح: «فصل النفايات سهل جدًا!»'
+  glosses:
+    Am: في
+    nächsten: التالي
+    Morgen: الصباح
+    kam: جاءت
+    Müllwagen: شاحنة النفايات
+    und: و
+    warf: رمى
+    alle: كل
+    Tonnen: الحاويات
+    in: في
+    dasselbe: نفس
+    Loch: الحفرة
+    Im: في
+    Wagen: الشاحنة
+    war: كان
+    nur: فقط
+    es: هناك
+    gab: كان
+    keine: لا
+    Farben: ألوان
+    mehr: بعد الآن
+    Frau: السيدة
+    sah: رأت
+    das: ذلك
+    fiel: سقطت
+    Ohnmacht: إغماء
+    hat: قد
+    gelacht: ضحك
+    erklärt: شرح
+    Mülltrennung: فصل النفايات
+    ist: هو
+    ganz: جدًا
+    einfach: سهل
+words:
+  die Mülltrennung: فصل النفايات
+  die Tonne: الحاوية
+  die Farbe: اللون
+  der Fehler: الخطأ
+  der Becher: الكوب
+  der Müllwagen: شاحنة النفايات

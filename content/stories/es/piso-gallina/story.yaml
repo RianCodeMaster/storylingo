@@ -1,0 +1,862 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: piso-gallina
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: B1
+  theme: Sofía comparte piso con cuatro personas y una gallina que decide quién limpia el baño
+  scenes: 5
+  targets:
+  - text: me gustaría
+    gloss: I would like
+    concept: would_like
+    kind: phrase
+  - text: sin embargo
+    gloss: however
+    concept: however
+    kind: phrase
+  - text: cuando
+    gloss: when
+    concept: when
+    kind: word
+  narrator: george
+story:
+  title: Pepa, la gallina que manda en el baño
+  summary: Sofía shares a flat in Madrid with four people and a very serious hen called Pepa, who decides who cleans the bathroom,
+    until a bag of corn and a classical-music concert reveal Pepa's real secret.
+  gestures:
+  - concept: would_like
+    description: Put both hands over your heart, close your eyes and sigh like you are dreaming of a giant cake.
+    emoji: 😌
+  - concept: however
+    description: Hold up one flat hand, then sharply turn it over to show the back of your hand, like flipping a pancake.
+    emoji: 🔄
+  - concept: when
+    description: Snap your fingers once and point at an imaginary clock, as if a magic moment just started.
+    emoji: ⏰
+  scenes:
+  - key: s1
+    text: En un piso pequeño de Madrid vive Sofía con cuatro compañeros y una gallina. La gallina se llama Pepa y es muy seria.
+      Cuando Sofía se levanta por la mañana, siempre hay una cola enorme delante del baño. Pepa está en la puerta y mira a
+      todos como un juez.
+    image_prompt: 'A small sunny Madrid flat hallway: Sofía, a young woman with curly dark hair, red glasses and a yellow
+      jumper, stands in a queue with four other roommates, while a small white hen with a red comb and a tiny purple scarf
+      sits in front of the bathroom door like a judge.'
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Sofía vive con cuatro personas y una gallina?
+      options: [sí, "no"]
+      answer: sí
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Cómo es Pepa?
+      options: [muy seria, muy tonta]
+      answer: muy seria
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Quién está en la puerta del baño?
+      options: [Pepa, Sofía, Marta]
+      answer: Pepa
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿Sofía vive sola en el piso?
+      options: [sí, "no"]
+      answer: "no"
+    - key: s1q5
+      kind: who_what
+      prompt: ¿Cuándo hay una cola delante del baño?
+      options: [Cuando Sofía se levanta, Cuando llueve, Cuando Pepa duerme]
+      answer: Cuando Sofía se levanta
+      target: cuando
+    glossary:
+    - word: En
+      lemma: en
+      level: A1
+    - word: piso
+      lemma: el piso
+      level: A2
+    - word: pequeño
+      lemma: pequeño
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: vive
+      lemma: vivir
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: compañeros
+      lemma: el compañero
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: gallina
+      lemma: la gallina
+      level: A2
+    - word: se
+      lemma: se
+      level: A1
+    - word: llama
+      lemma: llamar
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: seria
+      lemma: serio
+      level: A2
+    - word: Cuando
+      lemma: cuando
+      level: A1
+    - word: levanta
+      lemma: levantarse
+      level: A2
+    - word: por
+      lemma: por
+      level: A1
+    - word: mañana
+      lemma: la mañana
+      level: A1
+    - word: siempre
+      lemma: siempre
+      level: A1
+    - word: hay
+      lemma: haber
+      level: A1
+    - word: cola
+      lemma: la cola
+      level: A2
+    - word: enorme
+      lemma: enorme
+      level: A2
+    - word: delante
+      lemma: delante
+      level: A2
+    - word: del
+      lemma: de
+      level: A1
+    - word: baño
+      lemma: el baño
+      level: A1
+    - word: está
+      lemma: estar
+      level: A1
+    - word: puerta
+      lemma: la puerta
+      level: A1
+    - word: mira
+      lemma: mirar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: todos
+      lemma: todo
+      level: A1
+    - word: como
+      lemma: como
+      level: A1
+    - word: juez
+      lemma: el juez
+      level: B1
+    voice:
+    - text: En un piso pequeño de Madrid vive Sofía con cuatro compañeros y una gallina.
+      emotion: amused
+    - text: La gallina se llama Pepa y es muy seria.
+      emotion: amused
+    - text: Cuando Sofía se levanta por la mañana, siempre hay una cola enorme delante del baño.
+      emotion: surprised
+    - text: Pepa está en la puerta y mira a todos como un juez.
+      emotion: amused
+  - key: s2
+    text: 'Pepa tiene un sistema muy simple para decidir quién limpia el baño. Cuando alguien quiere entrar, Pepa le mira
+      las uñas: si están sucias, grita como una policía. Sin embargo, si las uñas están limpias, la persona puede pasar. «Me
+      gustaría tener un baño normal», dice Sofía, pero Pepa no escucha.'
+    image_prompt: Close-up of the small white hen with the purple scarf staring intensely at the hands of Sofía, who kneels
+      in front of her wearing the same yellow jumper and red glasses, holding up her fingernails in a bright bathroom doorway.
+    questions:
+    - key: s2q1
+      kind: either_or
+      prompt: ¿Qué mira Pepa cuando alguien quiere entrar?
+      options: [las uñas, los zapatos]
+      answer: las uñas
+      target: cuando
+    - key: s2q2
+      kind: yes_no
+      prompt: ¿Pepa grita si las uñas están limpias?
+      options: [sí, "no"]
+      answer: "no"
+    - key: s2q3
+      kind: who_what
+      prompt: ¿Quién dice «Me gustaría tener un baño normal»?
+      options: [Sofía, Pepa, Javi]
+      answer: Sofía
+      target: me gustaría
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿Pepa escucha a Sofía?
+      options: [sí, "no"]
+      answer: "no"
+    glossary:
+    - word: tiene
+      lemma: tener
+      level: A1
+    - word: sistema
+      lemma: el sistema
+      level: A2
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: simple
+      lemma: simple
+      level: A2
+    - word: para
+      lemma: para
+      level: A1
+    - word: decidir
+      lemma: decidir
+      level: A2
+    - word: quién
+      lemma: quién
+      level: A2
+    - word: limpia
+      lemma: limpiar
+      level: A2
+    - word: baño
+      lemma: el baño
+      level: A1
+    - word: Cuando
+      lemma: cuando
+      level: A1
+    - word: alguien
+      lemma: alguien
+      level: A2
+    - word: quiere
+      lemma: querer
+      level: A1
+    - word: entrar
+      lemma: entrar
+      level: A1
+    - word: le
+      lemma: le
+      level: A2
+    - word: mira
+      lemma: mirar
+      level: A1
+    - word: uñas
+      lemma: la uña
+      level: B1
+    - word: si
+      lemma: si
+      level: A1
+    - word: están
+      lemma: estar
+      level: A1
+    - word: sucias
+      lemma: sucio
+      level: A2
+    - word: grita
+      lemma: gritar
+      level: A2
+    - word: como
+      lemma: como
+      level: A1
+    - word: policía
+      lemma: la policía
+      level: A2
+    - word: Sin
+      lemma: sin
+      level: A1
+    - word: embargo
+      lemma: el embargo
+      level: C1
+    - word: limpias
+      lemma: limpio
+      level: A2
+    - word: persona
+      lemma: la persona
+      level: A1
+    - word: puede
+      lemma: poder
+      level: A1
+    - word: pasar
+      lemma: pasar
+      level: A1
+    - word: Me
+      lemma: me
+      level: A1
+    - word: gustaría
+      lemma: gustar
+      level: A2
+    - word: tener
+      lemma: tener
+      level: A1
+    - word: normal
+      lemma: normal
+      level: A2
+    - word: dice
+      lemma: decir
+      level: A1
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: escucha
+      lemma: escuchar
+      level: A1
+    voice:
+    - text: Pepa tiene un sistema muy simple para decidir quién limpia el baño.
+      emotion: neutral
+    - text: 'Cuando alguien quiere entrar, Pepa le mira las uñas: si están sucias, grita como una policía.'
+      emotion: angry
+    - text: Sin embargo, si las uñas están limpias, la persona puede pasar.
+      emotion: neutral
+    - text: «Me gustaría tener un baño normal», dice Sofía, pero Pepa no escucha.
+      emotion: amused
+  - key: s3
+    text: Un lunes, Pepa decide que Sofía limpia el baño todos los días, cuatro veces al día. «Me gustaría tener otra gallina»,
+      piensa Sofía, pero Pepa es la única gallina del barrio. Sin embargo, Sofía acepta, porque es muy educada. Cuando termina,
+      el baño brilla como un espejo, y Pepa lo ensucia otra vez con las patas.
+    image_prompt: Sofía with curly dark hair, red glasses and yellow jumper scrubs a spotless white bathroom with a huge brush
+      and rubber gloves, while the small white hen with the purple scarf walks across the clean floor leaving tiny muddy footprints.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: ¿Quién limpia el baño cuatro veces al día?
+      options: [Sofía, Marta, Pepa]
+      answer: Sofía
+    - key: s3q2
+      kind: either_or
+      prompt: ¿Cuántas veces al día limpia Sofía el baño?
+      options: [cuatro veces, una vez]
+      answer: cuatro veces
+    - key: s3q3
+      kind: yes_no
+      prompt: ¿Pepa es la única gallina del barrio?
+      options: [sí, "no"]
+      answer: sí
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿Sofía se enfada y rompe la puerta del baño?
+      options: [sí, "no"]
+      answer: "no"
+    - key: s3q5
+      kind: who_what
+      prompt: ¿Cuándo brilla el baño como un espejo?
+      options: [Cuando Sofía termina, Cuando llueve, Cuando Pepa canta]
+      answer: Cuando Sofía termina
+      target: cuando
+    glossary:
+    - word: lunes
+      lemma: el lunes
+      level: A1
+    - word: decide
+      lemma: decidir
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: limpia
+      lemma: limpiar
+      level: A2
+    - word: baño
+      lemma: el baño
+      level: A1
+    - word: todos
+      lemma: todo
+      level: A1
+    - word: días
+      lemma: el día
+      level: A1
+    - word: veces
+      lemma: la vez
+      level: A2
+    - word: al
+      lemma: a
+      level: A1
+    - word: día
+      lemma: el día
+      level: A1
+    - word: Me
+      lemma: me
+      level: A1
+    - word: gustaría
+      lemma: gustar
+      level: A2
+    - word: tener
+      lemma: tener
+      level: A1
+    - word: otra
+      lemma: otro
+      level: A1
+    - word: gallina
+      lemma: la gallina
+      level: A2
+    - word: piensa
+      lemma: pensar
+      level: A1
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: única
+      lemma: único
+      level: B1
+    - word: del
+      lemma: de
+      level: A1
+    - word: barrio
+      lemma: el barrio
+      level: A2
+    - word: Sin
+      lemma: sin
+      level: A1
+    - word: embargo
+      lemma: el embargo
+      level: C1
+    - word: acepta
+      lemma: aceptar
+      level: B1
+    - word: porque
+      lemma: porque
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: educada
+      lemma: educado
+      level: B1
+    - word: Cuando
+      lemma: cuando
+      level: A1
+    - word: termina
+      lemma: terminar
+      level: A2
+    - word: brilla
+      lemma: brillar
+      level: B1
+    - word: como
+      lemma: como
+      level: A1
+    - word: espejo
+      lemma: el espejo
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: lo
+      lemma: lo
+      level: A2
+    - word: ensucia
+      lemma: ensuciar
+      level: B1
+    - word: vez
+      lemma: la vez
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: patas
+      lemma: la pata
+      level: B1
+    voice:
+    - text: Un lunes, Pepa decide que Sofía limpia el baño todos los días, cuatro veces al día.
+      emotion: surprised
+    - text: «Me gustaría tener otra gallina», piensa Sofía, pero Pepa es la única gallina del barrio.
+      emotion: amused
+    - text: Sin embargo, Sofía acepta, porque es muy educada.
+      emotion: sleepy
+    - text: Cuando termina, el baño brilla como un espejo, y Pepa lo ensucia otra vez con las patas.
+      emotion: angry
+  - key: s4
+    text: 'Sofía está desesperada: el suelo del baño tiene ya trescientos pelos de gallina. «Me gustaría que Pepa limpiara
+      el baño», dice a sus compañeros, «sin embargo, ella solo grita». Sus compañeros tienen una idea: dan a Pepa una escoba
+      pequeña y una bolsa de maíz. Cuando Pepa ve el maíz, corre al baño y cierra la puerta.'
+    image_prompt: A chaotic bathroom floor covered in hundreds of white feathers and a giant pile of corn; Sofía in her yellow
+      jumper throws her hands in the air, while the four roommates hand a tiny broom and a big sack of corn to the small white
+      hen with the purple scarf.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿Hay trescientos pelos de gallina en el suelo?
+      options: [sí, "no"]
+      answer: sí
+    - key: s4q2
+      kind: who_what
+      prompt: ¿Quién dice «Me gustaría que Pepa limpiara el baño»?
+      options: [Sofía, Tomás, Nuria]
+      answer: Sofía
+      target: me gustaría
+    - key: s4q3
+      kind: either_or
+      prompt: ¿Qué dan los compañeros a Pepa?
+      options: [una escoba pequeña y maíz, un plato de sopa]
+      answer: una escoba pequeña y maíz
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Pepa limpia el baño con la escoba pequeña?
+      options: [sí, "no"]
+      answer: "no"
+    - key: s4q5
+      kind: who_what
+      prompt: ¿Cuándo corre Pepa al baño?
+      options: [Cuando ve el maíz, Cuando oye música, Cuando Sofía grita]
+      answer: Cuando ve el maíz
+      target: cuando
+    glossary:
+    - word: está
+      lemma: estar
+      level: A1
+    - word: desesperada
+      lemma: desesperado
+      level: B1
+    - word: suelo
+      lemma: el suelo
+      level: A2
+    - word: del
+      lemma: de
+      level: A1
+    - word: baño
+      lemma: el baño
+      level: A1
+    - word: tiene
+      lemma: tener
+      level: A1
+    - word: ya
+      lemma: ya
+      level: A1
+    - word: pelos
+      lemma: el pelo
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: gallina
+      lemma: la gallina
+      level: A2
+    - word: Me
+      lemma: me
+      level: A1
+    - word: gustaría
+      lemma: gustar
+      level: A2
+    - word: que
+      lemma: que
+      level: A1
+    - word: limpiara
+      lemma: limpiar
+      level: A2
+    - word: dice
+      lemma: decir
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: sus
+      lemma: su
+      level: A1
+    - word: compañeros
+      lemma: el compañero
+      level: A2
+    - word: sin
+      lemma: sin
+      level: A1
+    - word: embargo
+      lemma: el embargo
+      level: C1
+    - word: ella
+      lemma: ella
+      level: A1
+    - word: solo
+      lemma: solo
+      level: A2
+    - word: grita
+      lemma: gritar
+      level: A2
+    - word: tienen
+      lemma: tener
+      level: A1
+    - word: idea
+      lemma: la idea
+      level: A1
+    - word: dan
+      lemma: dar
+      level: A1
+    - word: escoba
+      lemma: la escoba
+      level: A2
+    - word: pequeña
+      lemma: pequeño
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: bolsa
+      lemma: la bolsa
+      level: A2
+    - word: maíz
+      lemma: el maíz
+      level: B1
+    - word: Cuando
+      lemma: cuando
+      level: A1
+    - word: ve
+      lemma: ver
+      level: A1
+    - word: corre
+      lemma: correr
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: cierra
+      lemma: cerrar
+      level: A1
+    - word: puerta
+      lemma: la puerta
+      level: A1
+    voice:
+    - text: 'Sofía está desesperada: el suelo del baño tiene ya trescientos pelos de gallina.'
+      emotion: surprised
+    - text: «Me gustaría que Pepa limpiara el baño», dice a sus compañeros, «sin embargo, ella solo grita».
+      emotion: angry
+    - text: 'Sus compañeros tienen una idea: dan a Pepa una escoba pequeña y una bolsa de maíz.'
+      emotion: amused
+    - text: Cuando Pepa ve el maíz, corre al baño y cierra la puerta.
+      emotion: surprised
+  - key: s5
+    text: 'Media hora después, Sofía abre la puerta del baño muy despacio. Pepa no limpia nada: está en la bañera, con música
+      clásica, y canta como una cantante de ópera. «Me gustaría ser una gallina normal —dice Pepa—, sin embargo, me gusta
+      mucho el agua caliente». Desde ese día, Pepa se baña todos los días, y cuando termina, el baño está limpio de verdad.'
+    image_prompt: The small white hen with the red comb and purple scarf relaxes in a bathtub full of bubbles, one wing raised
+      like an opera singer, as Sofía with curly hair, red glasses and yellow jumper opens the door in total surprise and a
+      radio plays classical music.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: ¿Qué hace Pepa en el baño?
+      options: [Canta en la bañera, Limpia el suelo, Duerme en el lavabo]
+      answer: Canta en la bañera
+    - key: s5q2
+      kind: either_or
+      prompt: ¿Qué música escucha Pepa?
+      options: [música clásica, música de discoteca]
+      answer: música clásica
+    - key: s5q3
+      kind: yes_no
+      prompt: ¿Pepa limpia el baño con la escoba?
+      options: [sí, "no"]
+      answer: "no"
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿El baño está limpio de verdad cuando Pepa termina?
+      options: [sí, "no"]
+      answer: sí
+    - key: s5q5
+      kind: who_what
+      prompt: ¿Cuándo está el baño limpio de verdad?
+      options: [Cuando Pepa termina de bañarse, Cuando Sofía grita, Cuando llueve]
+      answer: Cuando Pepa termina de bañarse
+      target: cuando
+    glossary:
+    - word: Media
+      lemma: medio
+      level: A2
+    - word: hora
+      lemma: la hora
+      level: A1
+    - word: después
+      lemma: después
+      level: A2
+    - word: abre
+      lemma: abrir
+      level: A1
+    - word: puerta
+      lemma: la puerta
+      level: A1
+    - word: del
+      lemma: de
+      level: A1
+    - word: baño
+      lemma: el baño
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: despacio
+      lemma: despacio
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: limpia
+      lemma: limpiar
+      level: A2
+    - word: nada
+      lemma: nada
+      level: A2
+    - word: está
+      lemma: estar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: bañera
+      lemma: la bañera
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: música
+      lemma: la música
+      level: A1
+    - word: clásica
+      lemma: clásico
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: canta
+      lemma: cantar
+      level: A1
+    - word: como
+      lemma: como
+      level: A1
+    - word: cantante
+      lemma: el/la cantante
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: ópera
+      lemma: la ópera
+      level: B1
+    - word: Me
+      lemma: me
+      level: A1
+    - word: gustaría
+      lemma: gustar
+      level: A2
+    - word: ser
+      lemma: ser
+      level: A1
+    - word: gallina
+      lemma: la gallina
+      level: A2
+    - word: normal
+      lemma: normal
+      level: A2
+    - word: dice
+      lemma: decir
+      level: A1
+    - word: sin
+      lemma: sin
+      level: A1
+    - word: embargo
+      lemma: el embargo
+      level: C1
+    - word: gusta
+      lemma: gustar
+      level: A2
+    - word: mucho
+      lemma: mucho
+      level: A1
+    - word: agua
+      lemma: el agua
+      level: A1
+    - word: caliente
+      lemma: caliente
+      level: A2
+    - word: Desde
+      lemma: desde
+      level: A2
+    - word: ese
+      lemma: ese
+      level: A1
+    - word: día
+      lemma: el día
+      level: A1
+    - word: se
+      lemma: se
+      level: A1
+    - word: baña
+      lemma: bañarse
+      level: A2
+    - word: todos
+      lemma: todo
+      level: A1
+    - word: días
+      lemma: el día
+      level: A1
+    - word: cuando
+      lemma: cuando
+      level: A1
+    - word: termina
+      lemma: terminar
+      level: A2
+    - word: limpio
+      lemma: limpio
+      level: A2
+    - word: verdad
+      lemma: la verdad
+      level: A2
+    voice:
+    - text: Media hora después, Sofía abre la puerta del baño muy despacio.
+      emotion: whisper
+    - text: 'Pepa no limpia nada: está en la bañera, con música clásica, y canta como una cantante de ópera.'
+      emotion: surprised
+    - text: «Me gustaría ser una gallina normal —dice Pepa—, sin embargo, me gusta mucho el agua caliente».
+      emotion: amused
+    - text: Desde ese día, Pepa se baña todos los días, y cuando termina, el baño está limpio de verdad.
+      emotion: amused
+  core_words:
+  - lemma: la gallina
+    image_prompt: a serious white hen standing upright
+  - lemma: el baño
+    image_prompt: a small bathroom with a toilet and sink
+  - lemma: la uña
+    image_prompt: a close-up of a person's fingernails
+  - lemma: la escoba
+    image_prompt: a small broom leaning against a wall
+  - lemma: el maíz
+    image_prompt: a paper bag full of yellow corn kernels
+  - lemma: la bañera
+    image_prompt: a white bathtub filled with warm water
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 787
+  output_tokens: 4895
+  glossary_version: glossary-v2
+  glossary_input_tokens: 730
+  glossary_output_tokens: 16774
+  core_version: core-v1
+  core_input_tokens: 2285
+  core_output_tokens: 410
+  voice_version: voice-v1
+  voice_input_tokens: 702
+  voice_output_tokens: 966
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1798
+  localize_ar_output_tokens: 10404
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1798
+  localize_en_output_tokens: 7164
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1798
+  localize_nl_output_tokens: 11214

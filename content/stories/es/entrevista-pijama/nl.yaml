@@ -1,0 +1,199 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Alejandro rent naar een heel belangrijk sollicitatiegesprek en ontdekt pas op kantoor dat hij zijn dinosauruspyjama
+  draagt, maar het bedrijf blijkt precies zoiets te zoeken.
+summary_source: 8d434fdc83e73852
+gestures:
+  realise: Sla met één hand op je voorhoofd, open je ogen wijd en wijs met je andere hand naar je kleren.
+  if_had: Bedek je ogen met één hand alsof je je vroegere ik verbergt en zwaai met je andere hand met een opgeheven vinger.
+  therefore: Wijs iets aan, klap één keer in je handen en wijs dan met één vinger naar voren alsof een besluit vaststaat.
+targets:
+  se dio cuenta de que:
+    gloss: besefte dat
+    note: In het Spaans heb je 'de que' nodig; in het Nederlands zeg je alleen 'dat'.
+  si hubiera:
+    gloss: als ... had
+    note: Spaans gebruikt 'si hubiera + voltooid deelwoord'; Nederlands 'als ... had + voltooid deelwoord'.
+  por eso:
+    gloss: daarom
+    note: Vaste verbinding voor 'daarom'; niet letterlijk als 'door dat' vertalen.
+scenes:
+- key: s1
+  source: 41588b9fe9dac7d7
+  translation: Alejandro had om half tien een heel belangrijk sollicitatiegesprek. Hij werd om twintig over negen wakker.
+    Hij trok een jasje over zijn kleren aan en dacht dat hij klaar was. Daarom keek hij niet in de spiegel.
+  glosses:
+    tenía: had
+    entrevista: sollicitatiegesprek
+    importante: belangrijk
+    a: om
+    "y": en
+    media: half
+    Se: zich
+    despertó: werd wakker
+    puso: trok aan
+    chaqueta: jasje
+    encima: over ... heen
+    de: van
+    ropa: kleren
+    pensó: dacht
+    que: dat
+    estaba: was
+    listo: klaar
+    Por: door
+    eso: dat
+    "no": niet
+    miró: keek
+    espejo: spiegel
+- key: s2
+  source: a23c127642d914e0
+  translation: In de metro waren driehonderd mensen en iedereen keek naar hem. Een mevrouw vroeg of hij naar een verkleedfeest
+    ging. Alejandro dacht dat hij beroemd was. Daarom glimlachte hij de hele weg.
+  glosses:
+    En: in
+    metro: metro
+    había: waren
+    personas: mensen
+    "y": en
+    todas: allemaal
+    lo: hem
+    miraban: keken naar
+    señora: mevrouw
+    le: hem
+    preguntó: vroeg
+    si: of
+    iba: ging
+    a: naar
+    fiesta: feest
+    de: van
+    disfraces: verkleding
+    pensó: dacht
+    que: dat
+    era: was
+    famoso: beroemd
+    Por: door
+    eso: dat
+    sonrió: glimlachte
+    todo: de hele
+    camino: weg
+- key: s3
+  source: 796c9ccd2526e7f4
+  translation: Op kantoor gaf een heel ernstige meneer hem een hand. Alejandro keek op zijn horloge en besefte plotseling
+    dat hij pyjama droeg. De pyjama had groene en roze dinosaurussen. Hij besefte ook dat hij huisslippers droeg.
+  glosses:
+    En: in
+    oficina: kantoor
+    señor: meneer
+    muy: heel
+    serio: ernstig
+    le: hem
+    dio: gaf
+    mano: hand
+    miró: keek naar
+    reloj: horloge
+    "y": en
+    de: in 'de pronto'
+    pronto: plotseling
+    se: zich
+    cuenta: besef
+    que: dat
+    llevaba: droeg
+    pijama: pyjama
+    tenía: had
+    dinosaurios: dinosaurussen
+    verdes: groene
+    rosas: roze
+    También: ook
+    zapatillas: slippers
+    casa: huis
+- key: s4
+  source: 73f3bb34d1c6d9fa
+  translation: 'Alejandro verstopte zich achter een enorme plant. Hij dacht: ''Als ik in de spiegel had gekeken, stond ik
+    nu niet hier.'' Als hij normale kleren had gedragen, zou het gesprek makkelijk zijn. Hij besefte dat zijn jasje niets
+    bedekte. Daarom belde hij zijn moeder om hulp te vragen.'
+  glosses:
+    se: zich
+    escondió: verstopte
+    detrás: achter
+    de: van
+    planta: plant
+    enorme: enorme
+    Pensó: dacht
+    Si: als
+    hubiera: had
+    mirado: gekeken
+    espejo: spiegel
+    ahora: nu
+    "no": niet
+    estaría: zou zijn
+    aquí: hier
+    llevado: gedragen
+    ropa: kleren
+    normal: normale
+    entrevista: sollicitatiegesprek
+    sería: zou zijn
+    fácil: makkelijk
+    dio: kreeg (besef)
+    cuenta: besef
+    que: dat
+    chaqueta: jasje
+    tapaba: bedekte
+    nada: niets
+    Por: door
+    eso: dat
+    llamó: belde
+    a: aan
+    madre: moeder
+    para: om
+    pedir: vragen
+    ayuda: hulp
+- key: s5
+  source: 2254301e66e9ea3c
+  translation: Mevrouw Carmen, de directrice, kwam naar buiten in een blauwe pyjama met sterren. 'Perfect!' zei ze. 'Wij zoeken
+    iemand die onze pyjama's uitprobeert.' Alejandro besefte dat zijn fout geluk was. Als hij een pak had gedragen, had hij
+    de baan niet gekregen. Daarom werkt hij vandaag elke dag in pyjama.
+  glosses:
+    directora: directrice
+    salió: kwam naar buiten
+    con: met
+    pijama: pyjama
+    azul: blauwe
+    estrellas: sterren
+    Perfecto: perfect
+    dijo: zei
+    Buscamos: we zoeken
+    a: persoonlijke a
+    alguien: iemand
+    que: die
+    pruebe: uitprobeert
+    pijamas: pyjama's
+    se: zich
+    dio: kreeg (besef)
+    cuenta: besef
+    de: van
+    error: fout
+    era: was
+    suerte: geluk
+    Si: als
+    hubiera: had
+    llevado: gedragen
+    traje: pak
+    "no": niet
+    habría: zou hebben
+    conseguido: gekregen
+    trabajo: baan
+    Por: door
+    eso: dat
+    hoy: vandaag
+    trabaja: werkt
+    en: in
+    todos: alle
+    días: dagen
+words:
+  la entrevista: het sollicitatiegesprek
+  el espejo: de spiegel
+  el pijama: de pyjama
+  el dinosaurio: de dinosaurus
+  esconderse: zich verstoppen
+  la planta: de plant

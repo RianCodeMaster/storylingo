@@ -1,0 +1,499 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: autobus-burro
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A1
+  theme: Pablo espera el autobús para ir al trabajo, pero llega un burro con gafas de sol
+  scenes: 5
+  targets:
+  - text: espera
+    gloss: waits
+    concept: wait
+    kind: word
+  - text: llega
+    gloss: arrives
+    concept: arrive
+    kind: word
+  - text: está
+    gloss: is (place, state)
+    concept: be_state
+    kind: word
+  narrator: jessica
+story:
+  title: Pablo y el burro con gafas de sol
+  summary: Pablo waits for the bus to go to work, but a donkey with sunglasses arrives, and then a thousand donkeys arrive,
+    and the donkey turns out to be the bus driver.
+  gestures:
+  - concept: wait
+    description: Stand stiff as a statue, tap your wrist like a watch, and sigh loudly while looking at the sky.
+    emoji: ⏳
+  - concept: arrive
+    description: Swing one arm like a bus door opening and stamp your foot forward with a big 'ta-da!' on your face.
+    emoji: 🚪
+  - concept: be_state
+    description: Point to the floor with both hands and freeze your face in a silly state, happy or furious, to show where
+      and how someone is.
+    emoji: 📍
+  scenes:
+  - key: s1
+    text: Pablo está en la parada del autobús. Pablo espera el autobús. Pablo espera y espera. Es lunes y Pablo está cansado.
+    image_prompt: A thin Spanish man of about 30 with short black hair, a blue jacket and a red backpack stands alone at a
+      bus stop in Madrid, yawning; simple flat cartoon style, same character in every picture.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Pablo espera el autobús?
+      options: [sí, "no"]
+      answer: sí
+      target: espera
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Pablo está en la parada o en el tren?
+      options: [en la parada, en el tren]
+      answer: en la parada
+      target: está
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Quién espera el autobús?
+      options: [Pablo, un burro, un gato]
+      answer: Pablo
+      target: espera
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿Pablo está contento?
+      options: [sí, "no"]
+      answer: "no"
+      target: está
+    glossary:
+    - word: está
+      lemma: estar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: parada
+      lemma: la parada
+      level: A2
+    - word: del
+      lemma: de
+      level: A1
+    - word: autobús
+      lemma: el autobús
+      level: A1
+    - word: espera
+      lemma: esperar
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: lunes
+      lemma: el lunes
+      level: A1
+    - word: cansado
+      lemma: cansado
+      level: A1
+    voice:
+    - text: Pablo está en la parada del autobús.
+      emotion: neutral
+    - text: Pablo espera el autobús.
+      emotion: neutral
+    - text: Pablo espera y espera.
+      emotion: sleepy
+    - text: Es lunes y Pablo está cansado.
+      emotion: sleepy
+  - key: s2
+    text: Un burro llega a la parada. El burro lleva gafas de sol negras. El burro está al lado de Pablo. Pablo no está contento.
+    image_prompt: The same thin man with a blue jacket and red backpack at the bus stop next to a small grey donkey wearing
+      big black sunglasses; simple flat cartoon style.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿Un burro llega a la parada?
+      options: [sí, "no"]
+      answer: sí
+      target: llega
+    - key: s2q2
+      kind: who_what
+      prompt: ¿Qué llega a la parada?
+      options: [un burro, un autobús, un perro]
+      answer: un burro
+      target: llega
+    - key: s2q3
+      kind: either_or
+      prompt: ¿El burro lleva gafas de sol o un sombrero?
+      options: [gafas de sol, un sombrero]
+      answer: gafas de sol
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿Pablo está contento?
+      options: [sí, "no"]
+      answer: "no"
+      target: está
+    - key: s2q5
+      kind: either_or
+      prompt: ¿El burro está en el trabajo o al lado de Pablo?
+      options: [en el trabajo, al lado de Pablo]
+      answer: al lado de Pablo
+      target: está
+    glossary:
+    - word: burro
+      lemma: el burro
+      level: A2
+    - word: llega
+      lemma: llegar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: parada
+      lemma: la parada
+      level: A2
+    - word: lleva
+      lemma: llevar
+      level: A2
+    - word: gafas
+      lemma: las gafas
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: sol
+      lemma: el sol
+      level: A1
+    - word: negras
+      lemma: negro
+      level: A1
+    - word: está
+      lemma: estar
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: lado
+      lemma: el lado
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: contento
+      lemma: contento
+      level: A1
+    voice:
+    - text: Un burro llega a la parada.
+      emotion: surprised
+    - text: El burro lleva gafas de sol negras.
+      emotion: amused
+    - text: El burro está al lado de Pablo.
+      emotion: amused
+    - text: Pablo no está contento.
+      emotion: angry
+  - key: s3
+    text: Pablo espera el autobús. El autobús no llega. El burro está muy contento. Pablo está furioso.
+    image_prompt: The same thin man with a blue jacket and red backpack, now red in the face and furious, while the small
+      grey donkey with black sunglasses smiles widely at the empty street; simple flat cartoon style.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿El autobús llega?
+      options: [sí, "no"]
+      answer: "no"
+      target: llega
+    - key: s3q2
+      kind: either_or
+      prompt: ¿Pablo está furioso o contento?
+      options: [furioso, contento]
+      answer: furioso
+      target: está
+    - key: s3q3
+      kind: who_what
+      prompt: ¿Quién está muy contento?
+      options: [el burro, Pablo, el autobús]
+      answer: el burro
+      target: está
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿Pablo espera el autobús?
+      options: [sí, "no"]
+      answer: sí
+      target: espera
+    glossary:
+    - word: espera
+      lemma: esperar
+      level: A1
+    - word: autobús
+      lemma: el autobús
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: llega
+      lemma: llegar
+      level: A1
+    - word: burro
+      lemma: el burro
+      level: A2
+    - word: está
+      lemma: estar
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: contento
+      lemma: contento
+      level: A1
+    - word: furioso
+      lemma: furioso
+      level: B1
+    voice:
+    - text: Pablo espera el autobús.
+      emotion: neutral
+    - text: El autobús no llega.
+      emotion: surprised
+    - text: El burro está muy contento.
+      emotion: amused
+    - text: Pablo está furioso.
+      emotion: angry
+  - key: s4
+    text: Un burro pequeño llega a la parada. Otro burro llega con una maleta. La parada está llena de burros. Cada burro
+      espera el autobús y el burro con gafas de sol está delante.
+    image_prompt: The same thin man with a blue jacket and red backpack squeezed at a bus stop completely full of small grey
+      donkeys, one with a suitcase, the donkey with black sunglasses standing in front; simple flat cartoon style.
+    questions:
+    - key: s4q1
+      kind: who_what
+      prompt: ¿Cuántos burros están en la parada?
+      options: [mil burros, dos burros, un burro]
+      answer: mil burros
+      target: está
+    - key: s4q2
+      kind: yes_no
+      prompt: ¿La parada está llena?
+      options: [sí, "no"]
+      answer: sí
+      target: está
+    - key: s4q3
+      kind: either_or
+      prompt: ¿Cada burro espera el autobús o un taxi?
+      options: [el autobús, un taxi]
+      answer: el autobús
+      target: espera
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Un burro llega con una bicicleta?
+      options: [sí, "no"]
+      answer: "no"
+      target: llega
+    - key: s4q5
+      kind: either_or
+      prompt: ¿El burro con gafas de sol está detrás o delante?
+      options: [detrás, delante]
+      answer: delante
+      target: está
+    glossary:
+    - word: burro
+      lemma: el burro
+      level: A2
+    - word: pequeño
+      lemma: pequeño
+      level: A1
+    - word: llega
+      lemma: llegar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: parada
+      lemma: la parada
+      level: A2
+    - word: Otro
+      lemma: otro
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: maleta
+      lemma: la maleta
+      level: A2
+    - word: está
+      lemma: estar
+      level: A1
+    - word: llena
+      lemma: lleno
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: burros
+      lemma: el burro
+      level: A2
+    - word: Cada
+      lemma: cada
+      level: A2
+    - word: espera
+      lemma: esperar
+      level: A1
+    - word: autobús
+      lemma: el autobús
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: gafas
+      lemma: las gafas
+      level: A2
+    - word: sol
+      lemma: el sol
+      level: A1
+    - word: delante
+      lemma: delante
+      level: A2
+    voice:
+    - text: Un burro pequeño llega a la parada.
+      emotion: surprised
+    - text: Otro burro llega con una maleta.
+      emotion: surprised
+    - text: La parada está llena de burros.
+      emotion: surprised
+    - text: Cada burro espera el autobús y el burro con gafas de sol está delante.
+      emotion: neutral
+  - key: s5
+    text: 'El burro con gafas de sol es el conductor. El burro llega al trabajo en dos minutos. Pablo no espera más. Pablo
+      está feliz y dice: «¡Gracias, burro!».'
+    image_prompt: The same thin man with a blue jacket and red backpack riding happily on the small grey donkey with black
+      sunglasses, arriving at an office building in two minutes, a tiny bus steering wheel in the donkey's hooves; simple
+      flat cartoon style.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿El burro es el conductor?
+      options: [sí, "no"]
+      answer: sí
+    - key: s5q2
+      kind: who_what
+      prompt: ¿Quién llega al trabajo en dos minutos?
+      options: [Pablo, el burro, el autobús]
+      answer: el burro
+      target: llega
+    - key: s5q3
+      kind: either_or
+      prompt: ¿Pablo está feliz o triste?
+      options: [feliz, triste]
+      answer: feliz
+      target: está
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Pablo espera más?
+      options: [sí, "no"]
+      answer: "no"
+      target: espera
+    glossary:
+    - word: burro
+      lemma: el burro
+      level: A2
+    - word: con
+      lemma: con
+      level: A1
+    - word: gafas
+      lemma: las gafas
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: sol
+      lemma: el sol
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: conductor
+      lemma: el conductor
+      level: A2
+    - word: llega
+      lemma: llegar
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: trabajo
+      lemma: el trabajo
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: minutos
+      lemma: el minuto
+      level: A1
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: espera
+      lemma: esperar
+      level: A1
+    - word: más
+      lemma: más
+      level: A1
+    - word: está
+      lemma: estar
+      level: A1
+    - word: feliz
+      lemma: feliz
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: dice
+      lemma: decir
+      level: A1
+    voice:
+    - text: El burro con gafas de sol es el conductor.
+      emotion: surprised
+    - text: El burro llega al trabajo en dos minutos.
+      emotion: surprised
+    - text: Pablo no espera más.
+      emotion: neutral
+    - text: 'Pablo está feliz y dice: «¡Gracias, burro!».'
+      emotion: amused
+  core_words:
+  - lemma: el autobús
+    image_prompt: a city bus
+  - lemma: la parada
+    image_prompt: a bus stop sign with a bench
+  - lemma: el burro
+    image_prompt: a donkey
+  - lemma: las gafas
+    image_prompt: a pair of sunglasses
+  - lemma: la maleta
+    image_prompt: a suitcase
+  - lemma: el conductor
+    image_prompt: a bus driver sitting at the wheel
+generation:
+  prompt_version: tprs-v3
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 694
+  output_tokens: 4295
+  glossary_version: glossary-v2
+  glossary_input_tokens: 494
+  glossary_output_tokens: 8790
+  core_version: core-v1
+  core_input_tokens: 978
+  core_output_tokens: 1016
+  voice_version: voice-v1
+  voice_input_tokens: 471
+  voice_output_tokens: 948
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1125
+  localize_ar_output_tokens: 5717
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1125
+  localize_en_output_tokens: 4657
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1125
+  localize_nl_output_tokens: 5685

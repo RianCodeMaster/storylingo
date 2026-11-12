@@ -1,0 +1,114 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Lena waits 1000 minutes for the bus, but a fast camel named Klaus takes her along — and in the end he is bus number
+  7.
+summary_source: 957ec73d576e3bec
+gestures:
+  wait: Stand stiff like a statue at a bus stop, tap your foot fast and stare at a giant invisible watch on your arm, sighing
+    loudly.
+  come: Stomp toward the class in slow-motion giant steps while waving both arms in big circles and shouting 'Hallo!'
+  take_along: Tuck an imaginary tiny friend under your arm like a backpack and march off swinging your free arm proudly.
+targets:
+  wartet:
+    gloss: waits
+    note: German adds -et for er/sie/es; English adds -s.
+  kommt:
+    gloss: comes
+    note: German adds -t for er/sie/es; English adds -s.
+  mitnehmen:
+    gloss: take along
+    note: 'Separable verb: ''mit'' goes to the end, as in Klaus nimmt Lena mit.'
+scenes:
+- key: s1
+  source: 05f5abccaf5d5800
+  translation: Lena waits at the bus stop. She is waiting for the bus. The bus is not coming. Lena waits 1000 minutes.
+  glosses:
+    wartet: waits
+    an: at
+    Haltestelle: bus stop
+    Sie: she
+    auf: for
+    Bus: bus
+    kommt: comes
+    nicht: not
+    Minuten: minutes
+- key: s2
+  source: 5fcbd75fea9a1c81
+  translation: 'Then a camel comes to the bus stop. The camel is called Klaus. Klaus comes very fast. Lena says: ''A camel
+    is coming!'''
+  glosses:
+    Da: then
+    kommt: comes
+    Kamel: camel
+    an: to
+    Haltestelle: bus stop
+    heißt: is called
+    sehr: very
+    schnell: fast
+    sagt: says
+- key: s3
+  source: 636fa5c48c3a925e
+  translation: 'Klaus wants to take Lena along. Klaus says: ''I want to take you along.'' Lena asks: ''Can you take me along?''
+    Klaus says: ''Yes! I''ll take you along!'''
+  glosses:
+    will: wants to
+    mitnehmen: take along
+    sagt: says
+    Ich: I
+    dich: you
+    fragt: asks
+    Kannst: can
+    du: you
+    mich: me
+    nehme: take
+    mit: along
+- key: s4
+  source: 61f698e0705c157b
+  translation: 'Lena sits on the camel. Klaus runs 100 kilometers per hour. Lena laughs: ''The camel is taking me along!''
+    The bus is not coming.'
+  glosses:
+    sitzt: sits
+    auf: "on"
+    Kamel: camel
+    läuft: runs
+    Kilometer: kilometers
+    pro: per
+    Stunde: hour
+    lacht: laughs
+    nimmt: takes
+    mich: me
+    mit: along
+    Bus: bus
+    kommt: comes
+    nicht: not
+- key: s5
+  source: e69dec7e684b7674
+  translation: 'Klaus takes Lena to school. The school comes into view, and finally the bus comes too! The bus waits at the
+    bus stop, but Lena wants to ride with Klaus. Klaus laughs: ''I am bus number 7.'''
+  glosses:
+    nimmt: takes
+    mit: along
+    zur: to the
+    Schule: school
+    kommt: comes
+    und: and
+    Bus: bus
+    endlich: finally
+    auch: too
+    wartet: waits
+    an: at
+    Haltestelle: bus stop
+    aber: but
+    will: wants to
+    fahren: ride
+    lacht: laughs
+    Ich: I
+    bin: am
+    Nummer: number
+words:
+  die Haltestelle: the bus stop
+  der Bus: the bus
+  das Kamel: the camel
+  warten: to wait
+  sitzen: to sit

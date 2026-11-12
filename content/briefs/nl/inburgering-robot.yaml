@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: inburgering-robot
+language: nl
+level: B1
+tags: [algemeen, dagelijks]
+narrator: jessica
+theme: Lars doet zijn inburgeringsexamen, maar de examinator blijkt een robot die alleen in rijm praat
+scenes: 5
+targets:
+  - {text: "omdat", gloss: "because (verb at the end)", concept: because}
+  - {text: "had gedacht", gloss: "had thought", concept: had_thought, kind: phrase}
+  - {text: "bleek", gloss: "turned out", concept: turn_out}

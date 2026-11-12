@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: bananen-hund
+language: de
+level: A1
+tags: [algemeen, alltag]
+narrator: george
+theme: Tim geht in den Supermarkt und kauft hundert Bananen, denn sein Hund isst nur Bananen
+scenes: 5
+targets:
+  - {text: "geht", gloss: "goes", concept: go}
+  - {text: "kauft", gloss: "buys", concept: buy}
+  - {text: "isst", gloss: "eats", concept: eat}

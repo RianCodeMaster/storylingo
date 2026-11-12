@@ -1,0 +1,268 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: يدخل لارس امتحان الاندماج الهولندي، لكن الممتحن يتبيّن أنه روبوت لا يتكلم إلا بالقافية، فعليه أن يتقافى لينال دبلومه.
+summary_source: 3000287ca483551d
+gestures:
+  because: ادفع كلتا يديك إلى الأمام من صدرك كأنك تدفع سببًا، ثم اضرب الأرض بقدم واحدة بقوة عند آخر كلمة، لأن الفعل في الهولندية
+    يأتي في النهاية.
+  had_thought: انقر صدغك مرتين بنظرة حالمة إلى السقف، ثم ارفع كتفيك ودع يدك تسقط كبالون يفرغ من الهواء.
+  turn_out: افتح راحتي يديك كأن ستارة تنفتح، وافتح عينيك واهمس تادا كأن مفاجأة ظهرت.
+targets:
+  omdat:
+    gloss: لأن
+    note: في الهولندية يأتي الفعل في آخر الجملة بعد omdat.
+  had gedacht:
+    gloss: كان قد ظن
+    note: 'الماضي التام: had + التصريف الثالث.'
+  bleek:
+    gloss: تبيّن
+    note: فعل قوي يعني ظهرت الحقيقة.
+scenes:
+- key: s1
+  source: 1f3c55ac9dad8c39
+  translation: 'كان لارس قد ظن أن امتحان الاندماج سيكون سهلًا. ظن أنه سيحصل فقط على أسئلة عن الطقس والدراجة. لكن الممتحن تبيّن
+    أنه ليس إنسانًا: كان روبوتًا بعين واحدة كبيرة، وقبعة زرقاء صغيرة. قال الروبوت بصوت صرير: مرحبًا، مرحبًا، في قاعتي، أنا
+    أقافي دائمًا، دون فشل.'
+  glosses:
+    had: كان قد
+    gedacht: ظنّ
+    dat: أن
+    het: الـ
+    inburgeringsexamen: امتحان الاندماج
+    makkelijk: سهلًا
+    zou: سوف
+    zijn: يكون
+    Hij: هو
+    alleen: فقط
+    vragen: أسئلة
+    over: عن
+    weer: الطقس
+    en: و
+    fiets: الدراجة
+    krijgen: يحصل على
+    Maar: لكن
+    examinator: الممتحن
+    bleek: تبيّن
+    geen: ليس
+    mens: إنسانًا
+    was: كان
+    robot: روبوت
+    met: مع
+    groot: كبير
+    oog: عين
+    klein: صغير
+    blauw: أزرق
+    hoedje: قبعة صغيرة
+    zei: قال
+    piepstem: صوت صرير
+    Welkom: مرحبًا
+    in: في
+    mijn: خاصتي
+    zaal: القاعة
+    ik: أنا
+    rijm: أقافي
+    altijd: دائمًا
+    zonder: بدون
+    faal: فشل
+- key: s2
+  source: 651cd014c13ba51d
+  translation: 'طرح الروبوت سؤاله الأول: لماذا أنت هنا اليوم يا سيدي؟ أجاب لارس بصدق: أنا هنا لأنني بحاجة إلى دبلومي. قال
+    الروبوت: لأنك بحاجة إلى دبلوم، هذا جيد، لكن جوابك يجب أن يكون في قافية! كان لارس قد ظن أنه يستطيع ببساطة أن يتكلم، لكن
+    ذلك تبيّن أنه ليس كذلك.'
+  glosses:
+    robot: الروبوت
+    stelde: طرح
+    zijn: خاصته
+    vraag: سؤالًا
+    Waarom: لماذا
+    ben: أنت
+    je: أنت
+    vandaag: اليوم
+    hier: هنا
+    meneer: سيدي
+    antwoordde: أجاب
+    eerlijk: بصدق
+    Ik: أنا
+    omdat: لأن
+    mijn: خاصتي
+    diploma: الدبلوم
+    nodig: بحاجة
+    heb: أملك
+    hebt: لديك
+    dat: ذلك
+    is: هو
+    fijn: جيد
+    zei: قال
+    maar: لكن
+    antwoord: جوابك
+    moet: يجب
+    in: في
+    rijm: قافية
+    had: كان قد
+    gedacht: ظن
+    hij: هو
+    gewoon: ببساطة
+    kon: يستطيع
+    praten: يتكلم
+    bleek: تبيّن
+    niet: ليس
+    zo: كذلك
+- key: s3
+  source: 7fe2759533d922ba
+  translation: 'جرّب لارس قافية صغيرة: أنا من خرونينغن، وآكل بسرور... خبزًا؟ هزّ الروبوت رأسه لا. قال: ذلك لا يتقافى، هذه
+    كارثة، أنت نملة وأنا مصباح! أصبح لارس خائفًا، لأن الروبوت بدأ يضحك بصوت عال جدًا. كانت يداه ترتجفان، لأنه لم يستطع أن
+    يجد أي كلمة قافية. كان قد ظن أن الامتحان سيستمر فقط عشر دقائق؛ والآن تبيّن أنه صار ساعة بالفعل.'
+  glosses:
+    probeerde: جرّب
+    rijmpje: قافية صغيرة
+    Ik: أنا
+    kom: آتي
+    uit: من
+    en: و
+    eet: آكل
+    graag: بسرور
+    brood: خبزًا
+    robot: الروبوت
+    schudde: هزّ
+    nee: لا
+    Dat: ذلك
+    rijmt: يتقافى
+    niet: لا
+    is: هو
+    ramp: كارثة
+    jij: أنت
+    bent: أنت
+    mier: نملة
+    lamp: مصباح
+    werd: أصبح
+    bang: خائفًا
+    omdat: لأن
+    heel: جدًا
+    hard: بصوت عال
+    begon: بدأ
+    lachen: يضحك
+    Zijn: خاصته
+    handen: يداه
+    trilden: ارتجفت
+    hij: هو
+    geen: لا
+    enkel: أي
+    rijmwoord: كلمة قافية
+    kon: استطاع
+    vinden: يجد
+    had: كان قد
+    gedacht: ظن
+    het: الـ
+    examen: الامتحان
+    maar: فقط
+    minuten: دقائق
+    zou: سوف
+    duren: يستمر
+    nu: الآن
+    bleek: تبيّن
+    al: بالفعل
+    uur: ساعة
+- key: s4
+  source: 7df107571ecb629f
+  translation: 'أصبح لارس غاضبًا. وثب وصرخ: أنت روبوت، أنت من فولاذ، ليس لديك قلب، أنت... عمود! توقف الروبوت عن الصرير. أصبحت
+    عينه الوحيدة كبيرة، وتبيّن أنه يجد هذه القافية رائعة. قال الروبوت: منذ سنوات أنتظر إنسانًا يتقافى أخيرًا، لأنه يقصدها!'
+  glosses:
+    werd: أصبح
+    boos: غاضبًا
+    Hij: هو
+    sprong: قفز
+    op: قام
+    en: و
+    riep: صرخ
+    Jij: أنت
+    bent: أنت
+    robot: روبوت
+    van: من
+    staal: فولاذ
+    hebt: لديك
+    geen: لا
+    hart: قلب
+    paal: عمود
+    stopte: توقف
+    met: عن
+    piepen: الصرير
+    Zijn: خاصته
+    ene: الوحيدة
+    oog: عينه
+    groot: كبيرة
+    bleek: تبيّن
+    dit: هذه
+    rijmpje: القافية
+    geweldig: رائعة
+    vinden: يراها
+    Al: منذ
+    jaren: سنوات
+    wacht: أنتظر
+    ik: أنا
+    mens: إنسانًا
+    zei: قال
+    die: الذي
+    eindelijk: أخيرًا
+    rijmt: يتقافى
+    omdat: لأن
+    het: ذلك
+    meent: يقصده
+- key: s5
+  source: d1f83a8958f7d9d1
+  translation: 'فجأة قال الروبوت: بطاريتي تقريبًا فارغة، أنا أكاد أسقط. وجب على لارس أن يصنع بسرعة قافية أخرى، لأن الروبوت
+    وإلا سيتوقف. قال لارس: كنت صارمًا، لكنك أيضًا لطيف حقًا، ولذلك أحصل الآن على... الدبلوم! صرّ الروبوت. تبيّن أن الروبوت
+    هو سرًا جار لارس، الذي كان يسمعه يتدرب على الهولندية في الحديقة منذ سنوات.'
+  glosses:
+    Plotseling: فجأة
+    zei: قال
+    robot: الروبوت
+    Mijn: خاصتي
+    batterij: بطاريتي
+    is: هي
+    bijna: تقريبًا
+    leeg: فارغة
+    ik: أنا
+    val: أسقط
+    om: أقع
+    moest: وجب
+    snel: بسرعة
+    nog: بعد
+    rijmpje: قافية
+    maken: أصنع
+    omdat: لأن
+    anders: وإلا
+    zou: سوف
+    uitvallen: يتوقف
+    Je: أنت
+    was: كنت
+    streng: صارمًا
+    maar: لكن
+    ook: أيضًا
+    wel: حقًا
+    aardig: لطيفًا
+    daarom: لذلك
+    krijg: أحصل
+    nu: الآن
+    Diploma: الدبلوم
+    piepte: صرّ
+    bleek: تبيّن
+    stiekem: سرًا
+    buurman: جار
+    van: خاص
+    zijn: له
+    die: الذي
+    hem: إياه
+    al: منذ
+    jaren: سنوات
+    hoorde: كان يسمع
+    oefenen: يتدرب
+    in: في
+    tuin: الحديقة
+words:
+  het inburgeringsexamen: امتحان الاندماج
+  de robot: الروبوت
+  rijmen: يتقافى
+  het diploma: الدبلوم
+  de batterij: البطارية
+  de buurman: الجار

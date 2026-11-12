@@ -1,0 +1,152 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Felix wants to be at work at seven, his train is five hours late, so he walks forty kilometres through the rain and
+  arrives first — on a Sunday, when the office is closed.
+summary_source: e62d111aea337a69
+gestures:
+  want: Stretch both arms forward with greedy grabby hands and a big hungry smile, as if you really, really want something.
+  went: March in place with huge stomping steps and swing your arms like a crazy hiker.
+  have_past: Hug an invisible big box to your chest and nod proudly to show what you had.
+  have: Hug an invisible big box to your chest and nod proudly to show what you had.
+targets:
+  wollte:
+    gloss: wanted
+    note: Simple past of wollen; like English 'wanted', but German verbs change endings for person.
+  ist gegangen:
+    gloss: went / has gone
+    note: German uses sein + past participle for movement; English often just says 'went'.
+  hatte:
+    gloss: had
+    note: Simple past of haben; English 'had' is also one word for all persons.
+scenes:
+- key: s1
+  source: 74a0ab8cf950ef2b
+  translation: 'Felix wanted to arrive at work on time. He wanted to be in the office at seven o''clock. He had three alarm
+    clocks and a very big clock. But Felix wanted even more: he wanted to be the first person in the office.'
+  glosses:
+    wollte: wanted
+    pünktlich: on time
+    zur: to the
+    Arbeit: work
+    kommen: to come
+    Er: he
+    um: at
+    Uhr: o'clock
+    im: in the
+    Büro: office
+    sein: to be
+    hatte: had
+    Wecker: alarm clocks
+    und: and
+    sehr: very
+    große: big
+    Aber: but
+    noch: even
+    mehr: more
+    erste: first
+    Mensch: person
+- key: s2
+  source: 84841e8d80cad07e
+  translation: At the station, Felix had a problem. The train had a five-hour delay. Felix had only a small coffee and no
+    patience. He did not want to wait.
+  glosses:
+    Am: at the
+    Bahnhof: station
+    hatte: had
+    Problem: problem
+    Zug: train
+    Stunden: hours
+    Verspätung: delay
+    nur: only
+    kleinen: small
+    Kaffee: coffee
+    und: and
+    Geduld: patience
+    Er: he
+    wollte: wanted
+    nicht: not
+    warten: to wait
+- key: s3
+  source: 14a9ddcdfc9fd8b1
+  translation: Felix went on foot. He walked, he did not drive. He walked through the rain and over a mountain. He wanted
+    to be faster than the train.
+  glosses:
+    ist: has (aux.)
+    gegangen: walked
+    Er: he
+    nicht: not
+    gefahren: driven/rode
+    durch: through
+    Regen: rain
+    und: and
+    über: over
+    Berg: mountain
+    wollte: wanted
+    schneller: faster
+    als: than
+    Zug: train
+    sein: to be
+- key: s4
+  source: 209b9429bc9e9a5e
+  translation: At half past six Felix was in the office. He had wet shoes and was very hungry. Ms. Krumm, his boss, had the
+    key. 'You are the first! Everyone else wanted to come, but they are still on the train,' said Ms. Krumm.
+  glosses:
+    Um: at
+    halb: half (past)
+    war: was
+    im: in the
+    Büro: office
+    Er: he
+    hatte: had
+    nasse: wet
+    Schuhe: shoes
+    und: and
+    großen: big
+    Hunger: hunger
+    Frau: Ms.
+    seine: his
+    Chefin: boss (female)
+    Schlüssel: key
+    Du: you
+    bist: are
+    Erste: first (one)
+    Alle: all
+    anderen: others
+    wollten: wanted
+    kommen: to come
+    aber: but
+    sie: they
+    sind: are
+    noch: still
+    Zug: train
+    sagte: said
+- key: s5
+  source: 62ebb01258d1a738
+  translation: 'Ms. Krumm had a small surprise: ''Felix, today is Sunday. The office is closed.'' Felix wanted to cry. He
+    went. He walked back home again — forty kilometres.'
+  glosses:
+    Frau: Ms.
+    hatte: had
+    kleine: small
+    Überraschung: surprise
+    heute: today
+    ist: is
+    Sonntag: Sunday
+    Büro: office
+    zu: closed
+    wollte: wanted
+    weinen: to cry
+    Er: he
+    gegangen: gone/walked
+    wieder: again
+    nach: to
+    Hause: home
+    Kilometer: kilometres
+words:
+  der Wecker: the alarm clock
+  der Bahnhof: the train station
+  der Zug: the train
+  die Verspätung: the delay
+  der Regen: the rain
+  der Schlüssel: the key

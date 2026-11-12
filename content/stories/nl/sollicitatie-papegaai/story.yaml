@@ -1,0 +1,770 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: sollicitatie-papegaai
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A2
+  theme: Fleur had een sollicitatiegesprek, maar ze durfde niet te praten; haar papegaai gaf alle antwoorden en kreeg de baan
+  scenes: 5
+  targets:
+  - text: had
+    gloss: had
+    concept: have
+    kind: word
+  - text: durfde niet
+    gloss: did not dare
+    concept: not_dare
+    kind: phrase
+  - text: gaf
+    gloss: gave
+    concept: give
+    kind: word
+  narrator: george
+story:
+  title: Karel de papegaai krijgt de baan
+  summary: Fleur has a job interview but is too scared to speak, so her parrot Karel answers every question and gets hired.
+  gestures:
+  - concept: have
+    description: Hug an invisible big box against your chest, then open your empty hands and shrug as if saying 'I had it,
+      but that was before'.
+    emoji: 📦
+  - concept: not_dare
+    description: Shrink down small, cover your eyes with one hand and shake your head fast, like you want to disappear.
+    emoji: 🙈
+  - concept: give
+    description: Hold an invisible present with both hands and push it far forward to someone, nodding generously.
+    emoji: 🎁
+  scenes:
+  - key: s1
+    text: 'Fleur had vandaag een groot sollicitatiegesprek en ze had een rode jurk aan. Ze had ook een papegaai op haar schouder:
+      Karel. Karel gaf een klein kusje op haar oor, maar Fleur durfde niet naar binnen, ze durfde niet weg te gaan en ze durfde
+      niet te bewegen. Karel gaf een harde schreeuw en gaf een duwtje tegen de deur.'
+    image_prompt: A young Dutch woman, Fleur, with curly red hair, green round glasses and a mustard-yellow blazer, standing
+      frozen in front of a big office door; on her shoulder sits Karel, a bright green parrot with an orange beak, pushing
+      the door with his wing.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Had Fleur vandaag een sollicitatiegesprek?
+      options: [ja, nee]
+      answer: ja
+      target: had
+    - key: s1q2
+      kind: either_or
+      prompt: Had Fleur een rode jurk aan of een blauwe jurk?
+      options: [een rode jurk, een blauwe jurk]
+      answer: een rode jurk
+      target: had
+    - key: s1q3
+      kind: who_what
+      prompt: Wie zat op de schouder van Fleur?
+      options: [Karel de papegaai, mevrouw De Boer, de buurman]
+      answer: Karel de papegaai
+    - key: s1q4
+      kind: yes_no
+      prompt: Durfde Fleur meteen naar binnen?
+      options: [ja, nee]
+      answer: nee
+      target: durfde niet
+    - key: s1q5
+      kind: who_what
+      prompt: Wie gaf een duwtje tegen de deur?
+      options: [Karel, Fleur, mevrouw De Boer]
+      answer: Karel
+      target: gaf
+    glossary:
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: vandaag
+      lemma: vandaag
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: sollicitatiegesprek
+      lemma: het sollicitatiegesprek
+      level: B1
+    - word: en
+      lemma: en
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: rode
+      lemma: rood
+      level: A1
+    - word: jurk
+      lemma: de jurk
+      level: A1
+    - word: aan
+      lemma: aan
+      level: A1
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: papegaai
+      lemma: de papegaai
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: schouder
+      lemma: de schouder
+      level: A1
+    - word: gaf
+      lemma: geven
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: kusje
+      lemma: het kusje
+      level: A2
+    - word: oor
+      lemma: het oor
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: durfde
+      lemma: durven
+      level: A2
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: binnen
+      lemma: binnen
+      level: A1
+    - word: weg
+      lemma: weg
+      level: A2
+    - word: te
+      lemma: te
+      level: A1
+    - word: gaan
+      lemma: gaan
+      level: A1
+    - word: bewegen
+      lemma: bewegen
+      level: A2
+    - word: harde
+      lemma: hard
+      level: A2
+    - word: schreeuw
+      lemma: de schreeuw
+      level: B1
+    - word: duwtje
+      lemma: het duwtje
+      level: A2
+    - word: tegen
+      lemma: tegen
+      level: A1
+    - word: deur
+      lemma: de deur
+      level: A1
+    voice:
+    - text: Fleur had vandaag een groot sollicitatiegesprek en ze had een rode jurk aan.
+      emotion: neutral
+    - text: 'Ze had ook een papegaai op haar schouder: Karel.'
+      emotion: surprised
+    - text: Karel gaf een klein kusje op haar oor, maar Fleur durfde niet naar binnen, ze durfde niet weg te gaan en ze durfde
+        niet te bewegen.
+      emotion: whisper
+    - text: Karel gaf een harde schreeuw en gaf een duwtje tegen de deur.
+      emotion: surprised
+  - key: s2
+    text: In de kamer had mevrouw De Boer een grote bril op en ze had een heel klein bureau. Ze gaf Fleur een hand, ze gaf
+      Fleur een glas water en Karel gaf een knikje. Fleur durfde niet te praten, ze durfde niet te kijken en ze durfde niet
+      te bewegen. Ze had een droge mond.
+    image_prompt: A tiny office with an enormous desk; mevrouw De Boer, a small older woman with huge round glasses and a
+      grey bun, shakes hands with frozen Fleur (red curly hair, green glasses, mustard-yellow blazer) while Karel the green
+      parrot nods on Fleur's shoulder.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Had mevrouw De Boer een grote bril op?
+      options: [ja, nee]
+      answer: ja
+      target: had
+    - key: s2q2
+      kind: either_or
+      prompt: Gaf mevrouw De Boer een glas water of een glas melk aan Fleur?
+      options: [een glas water, een glas melk]
+      answer: een glas water
+      target: gaf
+    - key: s2q3
+      kind: yes_no
+      prompt: Durfde Fleur te praten?
+      options: [ja, nee]
+      answer: nee
+      target: durfde niet
+    - key: s2q4
+      kind: who_what
+      prompt: Wie gaf een knikje?
+      options: [Karel, Fleur, de buurvrouw]
+      answer: Karel
+      target: gaf
+    - key: s2q5
+      kind: either_or
+      prompt: Had Fleur een droge mond of een natte neus?
+      options: [een droge mond, een natte neus]
+      answer: een droge mond
+      target: had
+    glossary:
+    - word: In
+      lemma: in
+      level: A1
+    - word: kamer
+      lemma: de kamer
+      level: A1
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: mevrouw
+      lemma: de mevrouw
+      level: A2
+    - word: grote
+      lemma: groot
+      level: A1
+    - word: bril
+      lemma: de bril
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: bureau
+      lemma: het bureau
+      level: A2
+    - word: gaf
+      lemma: geven
+      level: A1
+    - word: hand
+      lemma: de hand
+      level: A1
+    - word: glas
+      lemma: het glas
+      level: A1
+    - word: water
+      lemma: het water
+      level: A1
+    - word: knikje
+      lemma: het knikje
+      level: A2
+    - word: durfde
+      lemma: durven
+      level: A2
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: te
+      lemma: te
+      level: A1
+    - word: praten
+      lemma: praten
+      level: A1
+    - word: kijken
+      lemma: kijken
+      level: A1
+    - word: bewegen
+      lemma: bewegen
+      level: A2
+    - word: droge
+      lemma: droog
+      level: A2
+    - word: mond
+      lemma: de mond
+      level: A1
+    voice:
+    - text: In de kamer had mevrouw De Boer een grote bril op en ze had een heel klein bureau.
+      emotion: surprised
+    - text: Ze gaf Fleur een hand, ze gaf Fleur een glas water en Karel gaf een knikje.
+      emotion: neutral
+    - text: Fleur durfde niet te praten, ze durfde niet te kijken en ze durfde niet te bewegen.
+      emotion: whisper
+    - text: Ze had een droge mond.
+      emotion: whisper
+  - key: s3
+    text: 'Mevrouw De Boer had een vraag en ze had een pen in haar hand. ''Waarom wilt u deze baan?'' vroeg ze, maar Fleur
+      had geen stem en durfde niet te antwoorden. Ze durfde niet te kijken en ze durfde niet te slikken. Karel gaf meteen
+      een antwoord: ''Ik ben de beste koekjeseter van Nederland!'' Mevrouw De Boer gaf een harde lach en gaf Karel een groot
+      compliment.'
+    image_prompt: Mevrouw De Boer with huge glasses holds a pen and asks a question; Fleur (red curly hair, green glasses,
+      mustard-yellow blazer) stares at the floor with a red face while Karel the green parrot opens his beak wide and shouts
+      proudly.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: Wie had een vraag?
+      options: [mevrouw De Boer, Karel, Fleur]
+      answer: mevrouw De Boer
+      target: had
+    - key: s3q2
+      kind: yes_no
+      prompt: Durfde Fleur te antwoorden?
+      options: [ja, nee]
+      answer: nee
+      target: durfde niet
+    - key: s3q3
+      kind: either_or
+      prompt: Gaf Karel een antwoord of een boterham?
+      options: [een antwoord, een boterham]
+      answer: een antwoord
+      target: gaf
+    - key: s3q4
+      kind: yes_no
+      prompt: Gaf mevrouw De Boer een harde lach?
+      options: [ja, nee]
+      answer: ja
+      target: gaf
+    - key: s3q5
+      kind: who_what
+      prompt: Wie had geen stem?
+      options: [Fleur, Karel, mevrouw De Boer]
+      answer: Fleur
+      target: had
+    glossary:
+    - word: Mevrouw
+      lemma: de mevrouw
+      level: A2
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: vraag
+      lemma: de vraag
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: pen
+      lemma: de pen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: hand
+      lemma: de hand
+      level: A1
+    - word: Waarom
+      lemma: waarom
+      level: A1
+    - word: wilt
+      lemma: willen
+      level: A1
+    - word: u
+      lemma: u
+      level: A2
+    - word: deze
+      lemma: deze
+      level: A1
+    - word: baan
+      lemma: de baan
+      level: A2
+    - word: vroeg
+      lemma: vragen
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: stem
+      lemma: de stem
+      level: B1
+    - word: durfde
+      lemma: durven
+      level: A2
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: te
+      lemma: te
+      level: A1
+    - word: antwoorden
+      lemma: antwoorden
+      level: A2
+    - word: kijken
+      lemma: kijken
+      level: A1
+    - word: slikken
+      lemma: slikken
+      level: B1
+    - word: gaf
+      lemma: geven
+      level: A1
+    - word: meteen
+      lemma: meteen
+      level: A2
+    - word: antwoord
+      lemma: het antwoord
+      level: A2
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: ben
+      lemma: zijn
+      level: A1
+    - word: beste
+      lemma: goed
+      level: A1
+    - word: koekjeseter
+      lemma: de koekjeseter
+      level: B1
+    - word: van
+      lemma: van
+      level: A1
+    - word: harde
+      lemma: hard
+      level: A2
+    - word: lach
+      lemma: de lach
+      level: B1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: compliment
+      lemma: het compliment
+      level: B1
+    voice:
+    - text: Mevrouw De Boer had een vraag en ze had een pen in haar hand.
+      emotion: neutral
+    - text: '''Waarom wilt u deze baan?'' vroeg ze, maar Fleur had geen stem en durfde niet te antwoorden.'
+      emotion: whisper
+    - text: Ze durfde niet te kijken en ze durfde niet te slikken.
+      emotion: whisper
+    - text: 'Karel gaf meteen een antwoord: ''Ik ben de beste koekjeseter van Nederland!'' Mevrouw De Boer gaf een harde lach
+        en gaf Karel een groot compliment.'
+      emotion: amused
+  - key: s4
+    text: Mevrouw De Boer had nog tien vragen en ze gaf Karel elke vraag. Karel gaf twintig antwoorden en hij gaf ook een
+      liedje. Fleur durfde niet te lachen, ze durfde niet te bewegen en ze durfde niet te knipperen. Ze had een rode kop en
+      ze had kramp in al haar tenen.
+    image_prompt: 'A wild interview: mevrouw De Boer with huge glasses fires questions at Karel the green parrot, who sings
+      with his wings spread; Fleur (red curly hair, green glasses, mustard-yellow blazer) sits stiff as a statue with a bright
+      red face.'
+    questions:
+    - key: s4q1
+      kind: either_or
+      prompt: Had mevrouw De Boer nog tien vragen of nog twee vragen?
+      options: [nog tien vragen, nog twee vragen]
+      answer: nog tien vragen
+      target: had
+    - key: s4q2
+      kind: yes_no
+      prompt: Gaf Karel twintig antwoorden?
+      options: [ja, nee]
+      answer: ja
+      target: gaf
+    - key: s4q3
+      kind: who_what
+      prompt: Wie durfde niet te lachen?
+      options: [Fleur, Karel, mevrouw De Boer]
+      answer: Fleur
+      target: durfde niet
+    - key: s4q4
+      kind: yes_no
+      prompt: Durfde Fleur te knipperen?
+      options: [ja, nee]
+      answer: nee
+      target: durfde niet
+    - key: s4q5
+      kind: either_or
+      prompt: Had Fleur een rode kop of een groene kop?
+      options: [een rode kop, een groene kop]
+      answer: een rode kop
+      target: had
+    glossary:
+    - word: Mevrouw
+      lemma: de mevrouw
+      level: A2
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: nog
+      lemma: nog
+      level: A1
+    - word: vragen
+      lemma: de vraag
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: gaf
+      lemma: geven
+      level: A1
+    - word: elke
+      lemma: elke
+      level: A2
+    - word: vraag
+      lemma: de vraag
+      level: A1
+    - word: antwoorden
+      lemma: het antwoord
+      level: A2
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: liedje
+      lemma: het liedje
+      level: A2
+    - word: durfde
+      lemma: durven
+      level: A2
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: te
+      lemma: te
+      level: A1
+    - word: lachen
+      lemma: lachen
+      level: A1
+    - word: bewegen
+      lemma: bewegen
+      level: A2
+    - word: knipperen
+      lemma: knipperen
+      level: B1
+    - word: rode
+      lemma: rood
+      level: A1
+    - word: kop
+      lemma: de kop
+      level: A2
+    - word: kramp
+      lemma: de kramp
+      level: B1
+    - word: in
+      lemma: in
+      level: A1
+    - word: al
+      lemma: al
+      level: A2
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: tenen
+      lemma: de teen
+      level: A2
+    voice:
+    - text: Mevrouw De Boer had nog tien vragen en ze gaf Karel elke vraag.
+      emotion: surprised
+    - text: Karel gaf twintig antwoorden en hij gaf ook een liedje.
+      emotion: surprised
+    - text: Fleur durfde niet te lachen, ze durfde niet te bewegen en ze durfde niet te knipperen.
+      emotion: whisper
+    - text: Ze had een rode kop en ze had kramp in al haar tenen.
+      emotion: amused
+  - key: s5
+    text: 'Mevrouw De Boer stond op en ze gaf Karel een hand. ''Karel, jij hebt de baan!'' Karel had de baan, hij gaf een
+      harde schreeuw en hij gaf Fleur een kusje op haar neus. Fleur durfde niet te juichen, ze durfde niet te huilen en ze
+      durfde niet te kijken. Ze had nu ook een baan: ze was de assistent van haar papegaai, en ze had eindelijk een baas met
+      veren!'
+    image_prompt: Mevrouw De Boer shakes the wing of Karel the green parrot, who screams in triumph; Fleur (red curly hair,
+      green glasses, mustard-yellow blazer) stands behind them with her mouth open, holding a tiny notebook as the parrot's
+      assistant.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Wie kreeg de baan?
+      options: [Karel, Fleur, mevrouw De Boer]
+      answer: Karel
+    - key: s5q2
+      kind: yes_no
+      prompt: Gaf mevrouw De Boer een hand aan Karel?
+      options: [ja, nee]
+      answer: ja
+      target: gaf
+    - key: s5q3
+      kind: either_or
+      prompt: 'Wie had de baan: Karel of Fleur?'
+      options: [Karel had de baan, Fleur had de baan]
+      answer: Karel had de baan
+      target: had
+    - key: s5q4
+      kind: yes_no
+      prompt: Durfde Fleur te juichen?
+      options: [ja, nee]
+      answer: nee
+      target: durfde niet
+    - key: s5q5
+      kind: either_or
+      prompt: Had Fleur een nieuwe baan als assistent of als directeur?
+      options: [als assistent, als directeur]
+      answer: als assistent
+      target: had
+    glossary:
+    - word: Mevrouw
+      lemma: de mevrouw
+      level: A2
+    - word: stond
+      lemma: staan
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: gaf
+      lemma: geven
+      level: A1
+    - word: hand
+      lemma: de hand
+      level: A1
+    - word: jij
+      lemma: jij
+      level: A1
+    - word: hebt
+      lemma: hebben
+      level: A1
+    - word: baan
+      lemma: de baan
+      level: A2
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: harde
+      lemma: hard
+      level: A2
+    - word: schreeuw
+      lemma: de schreeuw
+      level: B1
+    - word: kusje
+      lemma: het kusje
+      level: A2
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: neus
+      lemma: de neus
+      level: A1
+    - word: durfde
+      lemma: durven
+      level: A2
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: te
+      lemma: te
+      level: A1
+    - word: juichen
+      lemma: juichen
+      level: B1
+    - word: huilen
+      lemma: huilen
+      level: A2
+    - word: kijken
+      lemma: kijken
+      level: A1
+    - word: nu
+      lemma: nu
+      level: A1
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: assistent
+      lemma: de assistent
+      level: B1
+    - word: van
+      lemma: van
+      level: A1
+    - word: papegaai
+      lemma: de papegaai
+      level: A2
+    - word: eindelijk
+      lemma: eindelijk
+      level: A2
+    - word: baas
+      lemma: de baas
+      level: A2
+    - word: met
+      lemma: met
+      level: A1
+    - word: veren
+      lemma: de veer
+      level: B1
+    voice:
+    - text: Mevrouw De Boer stond op en ze gaf Karel een hand.
+      emotion: neutral
+    - text: '''Karel, jij hebt de baan!'' Karel had de baan, hij gaf een harde schreeuw en hij gaf Fleur een kusje op haar
+        neus.'
+      emotion: surprised
+    - text: Fleur durfde niet te juichen, ze durfde niet te huilen en ze durfde niet te kijken.
+      emotion: whisper
+    - text: 'Ze had nu ook een baan: ze was de assistent van haar papegaai, en ze had eindelijk een baas met veren!'
+      emotion: amused
+  core_words:
+  - lemma: de papegaai
+    image_prompt: a bright green and red parrot perched on a person's shoulder
+  - lemma: de schouder
+    image_prompt: a close-up of a person's shoulder with a small parrot sitting on it
+  - lemma: de deur
+    image_prompt: a closed wooden office door
+  - lemma: de bril
+    image_prompt: a woman wearing large round glasses
+  - lemma: het bureau
+    image_prompt: a small wooden office desk with a pen and a glass of water
+  - lemma: de baan
+    image_prompt: a smiling person shaking hands with a boss in an office
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 805
+  output_tokens: 8577
+  glossary_version: glossary-v2
+  glossary_input_tokens: 797
+  glossary_output_tokens: 19031
+  core_version: core-v1
+  core_input_tokens: 2048
+  core_output_tokens: 1619
+  voice_version: voice-v1
+  voice_input_tokens: 767
+  voice_output_tokens: 1781
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 386
+  localize_ar_output_tokens: 1613

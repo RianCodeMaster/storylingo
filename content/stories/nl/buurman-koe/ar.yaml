@@ -1,0 +1,119 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: جار إيما الجديد بقرة تغني كل صباح في السادسة، وخطتها الطريفة تجعل البقرة تكتب رسالة.
+summary_source: 204357f54b81507a
+gestures:
+  have: احضن صندوقًا خياليًا كبيرًا إلى صدرك وأومئ بفخر كأنك تملكه.
+  live: اصنع سقفًا صغيرًا بيديك فوق رأسك ثم اربت على الأرض حيث تقف.
+  every_morning: اصنع شمسًا بأصابعك ثم تثاءب وقلّد شرب القهوة في حركة يومية متكررة.
+targets:
+  heeft:
+    gloss: لديها/يملك
+    note: يتغيّر الفعل الهولندي مع الفاعل مثل العربية.
+  woont:
+    gloss: تسكن/تعيش
+    note: يأتي الفعل بعد الفاعل كما في العربية غالبًا.
+  elke ochtend:
+    gloss: كل صباح
+    note: elke يأتي قبل الاسم المفرد مثل «كل» في العربية.
+scenes:
+- key: s1
+  source: e8f6c491ff05fdb4
+  translation: تعيش إيما في بيت صغير. بجانب إيما يسكن جار جديد. الجار بقرة. للبقرة قبعة حمراء.
+  glosses:
+    woont: تعيش/تسكن
+    in: في
+    klein: صغير
+    huis: بيت
+    Naast: بجانب
+    nieuwe: جديد
+    buurman: جار
+    is: هو
+    koe: بقرة
+    heeft: لديها/تملك
+    rode: حمراء
+    pet: قبعة
+- key: s2
+  source: 062256f06a33d754
+  translation: تغني البقرة كل صباح في السادسة. تغني البقرة بصوت عالٍ. إيما تعيش بجانب البقرة. إيما ليست سعيدة.
+  glosses:
+    koe: البقرة
+    zingt: تغني
+    elke: كل
+    ochtend: صباح
+    om: في (الساعة)
+    uur: الساعة
+    hard: بصوت عالٍ
+    woont: تعيش
+    naast: بجانب
+    is: هي
+    niet: ليست
+    blij: سعيدة
+- key: s3
+  source: aabc298e0ea07304
+  translation: لدى إيما مئة سدادة أذن. لكن البقرة تستمر في الغناء. بيت إيما يرقص كل صباح. الجيران لا ينامون.
+  glosses:
+    heeft: لديها
+    oordoppen: سدادات أذن
+    Maar: لكن
+    koe: البقرة
+    zingt: تغني
+    door: تستمر
+    huis: بيت
+    van: بيت إيما
+    danst: يرقص
+    elke: كل
+    ochtend: صباح
+    buren: الجيران
+    slapen: ينامون
+    niet: لا
+- key: s4
+  source: 01ca93d2df949304
+  translation: 'تذهب إيما إلى البقرة. لدى البقرة فم كبير. تقول إيما: ''لا تغني كل صباح!'' تضحك البقرة وتغني بصوت أعلى.'
+  glosses:
+    gaat: تذهب
+    naar: إلى
+    koe: البقرة
+    heeft: لديها
+    grote: كبير
+    mond: فم
+    zegt: تقول
+    Zing: اغنِ
+    niet: لا
+    elke: كل
+    ochtend: صباح
+    lacht: تضحك
+    en: و
+    zingt: تغني
+    harder: بصوت أعلى
+- key: s5
+  source: bad2b4b500faa106
+  translation: لدى إيما خطة. هي تغني كل صباح في الخامسة بهدوء. البقرة تعيش بجانب إيما وتنام الآن. في السادسة تغني إيما بصوت
+    عالٍ وتكتب البقرة رسالة.
+  glosses:
+    heeft: لديها
+    plan: خطة
+    Zij: هي
+    zingt: تغني
+    elke: كل
+    ochtend: صباح
+    om: في
+    uur: الساعة
+    zacht: بهدوء
+    koe: البقرة
+    woont: تعيش
+    naast: بجانب
+    en: و
+    slaapt: تنام
+    nu: الآن
+    hard: بصوت عالٍ
+    schrijft: تكتب
+    brief: رسالة
+words:
+  de koe: البقرة
+  de buurman: الجار
+  de pet: القبعة
+  zingen: الغناء
+  de oordop: سدادة الأذن
+  de brief: الرسالة

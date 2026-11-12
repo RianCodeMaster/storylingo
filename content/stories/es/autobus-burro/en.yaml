@@ -1,0 +1,122 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Pablo waits for the bus to go to work, but a donkey with sunglasses arrives, and then a thousand donkeys arrive,
+  and the donkey turns out to be the bus driver.
+summary_source: f42559beb584bc5d
+gestures:
+  wait: Stand still, tap your wrist like a watch, and sigh while looking at the sky.
+  arrive: Swing one arm like a bus door opening and step forward with a big 'ta-da!' face.
+  be_state: Point to the floor with both hands and freeze your face in a silly state to show where and how someone is.
+targets:
+  espera:
+    gloss: waits
+    note: Spanish changes verb endings by person; English usually adds -s.
+  llega:
+    gloss: arrives
+    note: The -a ending marks he/she/it; English adds -s.
+  está:
+    gloss: is (place/state)
+    note: Spanish uses estar for place/state; English uses 'is'.
+scenes:
+- key: s1
+  source: c455fb31ab53c508
+  translation: Pablo is at the bus stop. Pablo waits for the bus. Pablo waits and waits. It's Monday and Pablo is tired.
+  glosses:
+    está: is (place/state)
+    en: at
+    parada: stop
+    del: of the
+    autobús: bus
+    espera: waits
+    "y": and
+    es: is
+    lunes: Monday
+    cansado: tired
+- key: s2
+  source: af61d5147030e020
+  translation: A donkey arrives at the stop. The donkey is wearing black sunglasses. The donkey is next to Pablo. Pablo is
+    not happy.
+  glosses:
+    burro: donkey
+    llega: arrives
+    a: to
+    parada: stop
+    lleva: wears
+    gafas: glasses
+    de: of
+    sol: sun
+    negras: black
+    está: is (located)
+    al: at the
+    lado: side
+    "no": not
+    contento: happy
+- key: s3
+  source: 22660fcb86935bee
+  translation: Pablo waits for the bus. The bus doesn't arrive. The donkey is very happy. Pablo is furious.
+  glosses:
+    espera: waits
+    autobús: bus
+    "no": not
+    llega: arrives
+    burro: donkey
+    está: is
+    muy: very
+    contento: happy
+    furioso: furious
+- key: s4
+  source: cca0da87bad8ee7b
+  translation: A small donkey arrives at the stop. Another donkey arrives with a suitcase. The stop is full of donkeys. Each
+    donkey waits for the bus, and the donkey with sunglasses is at the front.
+  glosses:
+    burro: donkey
+    pequeño: small
+    llega: arrives
+    a: to
+    parada: stop
+    Otro: another
+    con: with
+    maleta: suitcase
+    está: is
+    llena: full
+    de: of
+    burros: donkeys
+    Cada: each
+    espera: waits
+    autobús: bus
+    "y": and
+    gafas: glasses
+    sol: sun
+    delante: in front
+- key: s5
+  source: 6697854f0d841d81
+  translation: 'The donkey with sunglasses is the driver. The donkey arrives at work in two minutes. Pablo doesn''t wait anymore.
+    Pablo is happy and says: ''Thank you, donkey!'''
+  glosses:
+    burro: donkey
+    con: with
+    gafas: glasses
+    de: of
+    sol: sun
+    es: is
+    conductor: driver
+    llega: arrives
+    al: to the
+    trabajo: work
+    en: in
+    minutos: minutes
+    "no": not
+    espera: waits
+    más: anymore
+    está: is
+    feliz: happy
+    "y": and
+    dice: says
+words:
+  el autobús: the bus
+  la parada: the stop
+  el burro: the donkey
+  las gafas: the glasses
+  la maleta: the suitcase
+  el conductor: the driver

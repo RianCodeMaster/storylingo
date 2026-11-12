@@ -1,0 +1,165 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تذهب سارة لتسجيل نفسها في مكتب المواطنين، لكن موعدها في الثالثة صباحًا، والموظف ببيجامة يختم ورقتها كأنها كلب.
+summary_source: e7426e88ca70e5b1
+gestures:
+  must: ادفع صندوقًا ثقيلًا وهميًا نحو الأرض بكلتا يديك مع دوس إحدى قدميك، كأنك مضطر لفعل شيء صعب.
+  be_past: 'أشر بإبهاميك إلى الخلف فوق كتفك، وأومئ ببطء وقل بتعبير وجهك: هكذا كان الأمر.'
+  cannot_past: حرّك رأسك بسرعة رافضًا، وادفع الهواء بكلتا يديك المسطحتين، وارفع كتفيك عاليًا.
+  be: 'أشِر بإبهاميك إلى الوراء فوق كتفك، وأومئ برأسك ببطء، وقل بتعبير وجهك: هكذا كان الأمر.'
+  cannot: حرّك رأسك بسرعة يمينًا ويسارًا، وادفع الهواء بعيدًا بكفّيك المسطحتين، وارفع كتفيك عاليًا في تعبير عن عدم القدرة.
+targets:
+  musste:
+    gloss: اضطرّت إلى
+    note: فعل مساعد في الماضي؛ يقابله في العربية «كان لا بد أن».
+  war:
+    gloss: كانت
+    note: ماضٍ من sein؛ في العربية «كان/كانت».
+  konnte nicht:
+    gloss: لم تستطع
+    note: konnte ماضٍ من können وnicht للنفي؛ في العربية «لم يستطع».
+scenes:
+- key: s1
+  source: 484138439000340d
+  translation: وصلت سارة إلى برلين في يناير. كان عليها أن تسجّل نفسها في مكتب المواطنين. كان مكتب المواطنين في مبنى رمادي
+    كبير. انتظرت ستة أسابيع للحصول على موعد.
+  glosses:
+    kam: وصلت
+    im: في
+    Januar: يناير
+    nach: إلى
+    Sie: هي
+    musste: اضطرّت
+    sich: نفسها
+    beim: في
+    Bürgeramt: مكتب المواطنين
+    anmelden: تسجّل
+    war: كان
+    in: في
+    großen: كبير
+    grauen: رمادي
+    Gebäude: مبنى
+    wartete: انتظرت
+    Wochen: أسابيع
+    auf: على
+    Termin: موعد
+- key: s2
+  source: 55fd3e9104883184
+  translation: 'أخيرًا وصل خطاب. كان الموعد في الثالثة صباحًا. لم تستطع سارة النوم. فكّرت: «لم يكن هذا موعدًا عاديًا!»'
+  glosses:
+    Endlich: أخيرًا
+    kam: وصل
+    Brief: خطاب
+    Termin: الموعد
+    war: كان
+    um: في
+    Uhr: الساعة
+    nachts: ليلًا
+    konnte: استطاعت
+    nicht: لم
+    schlafen: تنام
+    Sie: هي
+    dachte: فكّرت
+    Das: هذا
+    normaler: عادي
+- key: s3
+  source: 1c69a717e070c282
+  translation: في الثانية وخمس وأربعين دقيقة وقفت سارة أمام مكتب المواطنين. كان الباب مفتوحًا. في القاعة كان هناك ضوء صغير
+    فقط مضاء. خلف المكتب جلس موظف ببيجامة زرقاء عليها بطّات صفراء.
+  glosses:
+    Um: في
+    Viertel: ربع
+    vor: قبل
+    stand: وقفت
+    Bürgeramt: مكتب المواطنين
+    Tür: الباب
+    war: كان
+    offen: مفتوحًا
+    Im: في
+    Saal: القاعة
+    nur: فقط
+    kleines: صغير
+    Licht: ضوء
+    an: مضاء
+    Hinter: خلف
+    Schreibtisch: المكتب
+    saß: جلس
+    Beamter: موظف
+    in: بـ
+    blauen: زرقاء
+    Schlafanzug: بيجامة
+    mit: عليها
+    gelben: صفراء
+    Enten: بطّات
+- key: s4
+  source: f860344da2537a12
+  translation: كان الموظف يُدعى السيد شميت. كان على سارة أن تضع أوراقها على الطاولة. كان السيد شميت متعبًا جدًا، لأن عينيه
+    كانتا مغمضتين تقريبًا. لم تستطع سارة أن تتحدث بصوت عالٍ، لأنها كانت تضطر إلى الضحك دائمًا.
+  glosses:
+    Beamte: الموظف
+    hieß: كان يُدعى
+    ihre: الخاصة بها
+    Papiere: أوراق
+    auf: على
+    Tisch: الطاولة
+    legen: تضع
+    war: كان
+    sehr: جدًا
+    müde: متعبًا
+    denn: لأن
+    seine: الخاصة به
+    Augen: عيون
+    waren: كانتا
+    fast: تقريبًا
+    zu: مغمضتين
+    konnte: استطاعت
+    nicht: لم
+    laut: بصوت عالٍ
+    sprechen: تتحدث
+    weil: لأن
+    sie: هي
+    immer: دائمًا
+    lachen: تضحك
+    musste: اضطرّت
+- key: s5
+  source: 2809b1b981797ca8
+  translation: ختم السيد شميت وهو نائم، ثلاثمئة مرة. في النهاية كانت سارة مسجّلة – لكن ككلب. لم تستطع أن تغضب، لأن الموعد
+    كان ببساطة مضحكًا جدًا. كان عليها فقط أن تهزّ ذيلها مرة واحدة، ثم كان كل شيء مثاليًا.
+  glosses:
+    stempelte: ختم
+    im: في
+    Schlaf: النوم
+    Am: في
+    Ende: النهاية
+    war: كانت
+    angemeldet: مسجّلة
+    aber: لكن
+    als: كـ
+    Hund: كلب
+    Sie: هي
+    konnte: استطاعت
+    nicht: لم
+    böse: غاضبة
+    sein: تكون
+    denn: لأن
+    Termin: الموعد
+    einfach: ببساطة
+    zu: جدًا
+    lustig: مضحك
+    musste: اضطرّت
+    nur: فقط
+    einmal: مرة واحدة
+    mit: بـ
+    Schwanz: الذيل
+    wedeln: تهزّ
+    dann: ثم
+    alles: كل شيء
+    perfekt: مثاليًا
+words:
+  das Bürgeramt: مكتب المواطنين
+  der Termin: الموعد
+  der Schlafanzug: بيجامة النوم
+  stempeln: يختم
+  der Hund: الكلب
+  wedeln: يهزّ الذيل

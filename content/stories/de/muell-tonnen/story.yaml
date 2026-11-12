@@ -1,0 +1,733 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: muell-tonnen
+status: published
+tags: [algemeen, alltag]
+brief:
+  language: de
+  level: A2
+  theme: Die Nachbarin Frau Becker hat Lukas die Mülltrennung erklärt – mit zwölf Mülltonnen in zwölf Farben; Lukas durfte
+    nichts falsch machen
+  scenes: 5
+  targets:
+  - text: hat erklärt
+    gloss: explained
+    concept: explained
+    kind: phrase
+  - text: durfte nicht
+    gloss: was not allowed
+    concept: not_allowed
+    kind: phrase
+  - text: es gab
+    gloss: there was
+    concept: there_is
+    kind: phrase
+  narrator: george
+story:
+  title: Zwölf Tonnen, zwölf Farben
+  summary: Frau Becker explains garbage separation to Lukas with twelve bins in twelve colors, Lukas is terrified of making
+    a mistake, and in the end the garbage truck throws everything into one hole.
+  gestures:
+  - concept: explained
+    description: Point one finger up like a strict teacher, open the other hand like a book, and nod slowly three times while
+      saying 'So!'
+    emoji: 👩‍🏫
+  - concept: not_allowed
+    description: Cross both arms in a big X in front of your chest and shake your head hard, like a guard at a very important
+      door.
+    emoji: 🙅
+  - concept: there_is
+    description: Open both arms wide and present something invisible in front of you, like a magician showing a huge table
+      full of bins.
+    emoji: ✨
+  scenes:
+  - key: s1
+    text: 'Frau Becker ist 84 Jahre alt und sehr streng. Gestern hat Frau Becker die Mülltrennung erklärt: zwölf Tonnen in
+      zwölf Farben. Auf dem Hof standen zwölf Tonnen, und es gab zwölf Farben. Lukas durfte nicht einmal einen Fehler machen.'
+    image_prompt: A courtyard with twelve garbage bins in twelve bright colors in a perfect row. Frau Becker, a tiny 84-year-old
+      neighbour with white hair in a bun, a purple cardigan and a whistle around her neck, points at the bins. Lukas, a thin
+      25-year-old German man with short brown hair, round glasses and a red hoodie, stands stiff and scared in front of them.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Ist Frau Becker sehr streng?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s1q2
+      kind: either_or
+      prompt: Hat Frau Becker Lukas die Mülltrennung erklärt oder die Mathematik?
+      options: [die Mülltrennung, die Mathematik]
+      answer: die Mülltrennung
+      target: hat erklärt
+    - key: s1q3
+      kind: who_what
+      prompt: Wie viele Tonnen gab es auf dem Hof?
+      options: [zwölf, zwei, zwanzig]
+      answer: zwölf
+      target: es gab
+    - key: s1q4
+      kind: yes_no
+      prompt: Durfte Lukas etwas falsch machen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: durfte nicht
+    - key: s1q5
+      kind: either_or
+      prompt: Ist Frau Becker 84 Jahre alt oder 48 Jahre alt?
+      options: [48 Jahre alt, 84 Jahre alt]
+      answer: 84 Jahre alt
+    glossary:
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Jahre
+      lemma: das Jahr
+      level: A1
+    - word: alt
+      lemma: alt
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: streng
+      lemma: streng
+      level: B1
+    - word: Gestern
+      lemma: gestern
+      level: A1
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: Mülltrennung
+      lemma: die Mülltrennung
+      level: B1
+    - word: erklärt
+      lemma: erklären
+      level: A2
+    - word: Tonnen
+      lemma: die Tonne
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: Farben
+      lemma: die Farbe
+      level: A2
+    - word: Auf
+      lemma: auf
+      level: A1
+    - word: Hof
+      lemma: der Hof
+      level: A2
+    - word: standen
+      lemma: stehen
+      level: A2
+    - word: es
+      lemma: es
+      level: A1
+    - word: gab
+      lemma: geben
+      level: A1
+    - word: durfte
+      lemma: dürfen
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: einmal
+      lemma: einmal
+      level: A1
+    - word: Fehler
+      lemma: der Fehler
+      level: A2
+    - word: machen
+      lemma: machen
+      level: A1
+    voice:
+    - text: Frau Becker ist 84 Jahre alt und sehr streng.
+      emotion: neutral
+    - text: 'Gestern hat Frau Becker die Mülltrennung erklärt: zwölf Tonnen in zwölf Farben.'
+      emotion: surprised
+    - text: Auf dem Hof standen zwölf Tonnen, und es gab zwölf Farben.
+      emotion: surprised
+    - text: Lukas durfte nicht einmal einen Fehler machen.
+      emotion: angry
+  - key: s2
+    text: Frau Becker hat erklärt, dass die rosa Tonne für Plastik ist. Die silberne Tonne war für alte Socken und die türkise
+      Tonne für kaputte Regenschirme. Lukas war sehr verwirrt, denn es gab zu viele Regeln. Er durfte nicht laut sprechen,
+      wenn er Müll sortierte.
+    image_prompt: Close-up of Frau Becker holding up an old sock and a broken umbrella, pointing at a pink bin and a turquoise
+      bin. Lukas, the thin young man with round glasses and a red hoodie, holds his head with both hands, his face full of
+      confusion. Twelve colored bins are in the background.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Hat Frau Becker die Regeln erklärt?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hat erklärt
+    - key: s2q2
+      kind: either_or
+      prompt: War die silberne Tonne für alte Socken oder für altes Brot?
+      options: [für alte Socken, für altes Brot]
+      answer: für alte Socken
+    - key: s2q3
+      kind: who_what
+      prompt: Was war in der türkisen Tonne?
+      options: [Regenschirme, Socken, Flaschen]
+      answer: Regenschirme
+    - key: s2q4
+      kind: yes_no
+      prompt: Durfte Lukas laut sprechen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: durfte nicht
+    - key: s2q5
+      kind: either_or
+      prompt: Gab es eine weiße Tonne oder keine weiße Tonne?
+      options: [eine weiße Tonne, keine weiße Tonne]
+      answer: eine weiße Tonne
+      target: es gab
+    glossary:
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: erklärt
+      lemma: erklären
+      level: A2
+    - word: dass
+      lemma: dass
+      level: A2
+    - word: rosa
+      lemma: rosa
+      level: A2
+    - word: Tonne
+      lemma: die Tonne
+      level: A2
+    - word: für
+      lemma: für
+      level: A1
+    - word: Plastik
+      lemma: das Plastik
+      level: A2
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: silberne
+      lemma: silbern
+      level: B1
+    - word: war
+      lemma: sein
+      level: A1
+    - word: alte
+      lemma: alt
+      level: A1
+    - word: Socken
+      lemma: die Socke
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: türkise
+      lemma: türkis
+      level: A2
+    - word: kaputte
+      lemma: kaputt
+      level: A2
+    - word: Regenschirme
+      lemma: der Regenschirm
+      level: A2
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: verwirrt
+      lemma: verwirrt
+      level: B1
+    - word: denn
+      lemma: denn
+      level: A2
+    - word: es
+      lemma: es
+      level: A1
+    - word: gab
+      lemma: geben
+      level: A1
+    - word: zu
+      lemma: zu
+      level: A1
+    - word: viele
+      lemma: viel
+      level: A1
+    - word: Regeln
+      lemma: die Regel
+      level: B1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: durfte
+      lemma: dürfen
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A2
+    - word: sprechen
+      lemma: sprechen
+      level: A1
+    - word: wenn
+      lemma: wenn
+      level: A2
+    - word: Müll
+      lemma: der Müll
+      level: A2
+    - word: sortierte
+      lemma: sortieren
+      level: B1
+    voice:
+    - text: Frau Becker hat erklärt, dass die rosa Tonne für Plastik ist.
+      emotion: amused
+    - text: Die silberne Tonne war für alte Socken und die türkise Tonne für kaputte Regenschirme.
+      emotion: amused
+    - text: Lukas war sehr verwirrt, denn es gab zu viele Regeln.
+      emotion: surprised
+    - text: Er durfte nicht laut sprechen, wenn er Müll sortierte.
+      emotion: whisper
+  - key: s3
+    text: Am Montag stand Lukas mit einem Joghurtbecher vor den zwölf Tonnen. Er stand dort vierzig Minuten und weinte leise.
+      Der Hof war still, denn es gab nur Lukas und die Tonnen. Er durfte nicht klingeln, denn Frau Becker machte Mittagsschlaf.
+    image_prompt: Lukas, the thin young man with short brown hair, round glasses and a red hoodie, stands alone in the quiet
+      courtyard holding a tiny yogurt cup in his hand. He cries, tears on his cheeks, in front of the twelve giant colored
+      bins. A closed door with a doorbell is behind him.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Stand Lukas vierzig Minuten vor den Tonnen?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s3q2
+      kind: who_what
+      prompt: Was hatte Lukas in der Hand?
+      options: [einen Joghurtbecher, eine Flasche, eine Zeitung]
+      answer: einen Joghurtbecher
+    - key: s3q3
+      kind: yes_no
+      prompt: Durfte Lukas bei Frau Becker klingeln?
+      options: [Ja, Nein]
+      answer: Nein
+      target: durfte nicht
+    - key: s3q4
+      kind: either_or
+      prompt: War der Hof still oder war der Hof laut?
+      options: [laut, still]
+      answer: still
+    - key: s3q5
+      kind: who_what
+      prompt: Warum weinte Lukas?
+      options: [zu viele Regeln, Hunger, ein Hund]
+      answer: zu viele Regeln
+      target: es gab
+    glossary:
+    - word: Am
+      lemma: an
+      level: A1
+    - word: Montag
+      lemma: der Montag
+      level: A1
+    - word: stand
+      lemma: stehen
+      level: A2
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: Joghurtbecher
+      lemma: der Joghurtbecher
+      level: B1
+    - word: vor
+      lemma: vor
+      level: A1
+    - word: Tonnen
+      lemma: die Tonne
+      level: A2
+    - word: Er
+      lemma: er
+      level: A1
+    - word: dort
+      lemma: dort
+      level: A1
+    - word: Minuten
+      lemma: die Minute
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: weinte
+      lemma: weinen
+      level: A2
+    - word: leise
+      lemma: leise
+      level: A2
+    - word: Hof
+      lemma: der Hof
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: still
+      lemma: still
+      level: A2
+    - word: denn
+      lemma: denn
+      level: A2
+    - word: es
+      lemma: es
+      level: A1
+    - word: gab
+      lemma: geben
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A2
+    - word: durfte
+      lemma: dürfen
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: klingeln
+      lemma: klingeln
+      level: A2
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: machte
+      lemma: machen
+      level: A1
+    - word: Mittagsschlaf
+      lemma: der Mittagsschlaf
+      level: B1
+    voice:
+    - text: Am Montag stand Lukas mit einem Joghurtbecher vor den zwölf Tonnen.
+      emotion: neutral
+    - text: Er stand dort vierzig Minuten und weinte leise.
+      emotion: surprised
+    - text: Der Hof war still, denn es gab nur Lukas und die Tonnen.
+      emotion: whisper
+    - text: Er durfte nicht klingeln, denn Frau Becker machte Mittagsschlaf.
+      emotion: sleepy
+  - key: s4
+    text: 'Plötzlich stand Frau Becker hinter ihm und war wütend wie ein Gewitter. Sie hat erklärt: „Der Deckel ist Plastik,
+      der Becher ist Papier!“ Lukas warf den Becher schnell in die orange Tonne. Da schrie Frau Becker: „Falsch! Die orange
+      Tonne ist für Batterien!“'
+    image_prompt: Frau Becker, the tiny 84-year-old neighbour with white hair in a bun and a purple cardigan, stands behind
+      Lukas with a furious red face and her mouth wide open, shouting. Lukas, in his red hoodie, panics and throws his yogurt
+      cup into an orange bin. The other colored bins stand around them.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: War Frau Becker wütend?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s4q2
+      kind: who_what
+      prompt: In welche Tonne warf Lukas den Becher?
+      options: [in die orange Tonne, in die rote Tonne, in die weiße Tonne]
+      answer: in die orange Tonne
+    - key: s4q3
+      kind: either_or
+      prompt: Hat Frau Becker gesagt, der Deckel ist Plastik, oder hat sie gesagt, der Deckel ist Papier?
+      options: [Der Deckel ist Papier., Der Deckel ist Plastik.]
+      answer: Der Deckel ist Plastik.
+      target: hat erklärt
+    - key: s4q4
+      kind: yes_no
+      prompt: War Lukas in dieser Situation glücklich?
+      options: [Ja, Nein]
+      answer: Nein
+    glossary:
+    - word: Plötzlich
+      lemma: plötzlich
+      level: A2
+    - word: stand
+      lemma: stehen
+      level: A2
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: hinter
+      lemma: hinter
+      level: A2
+    - word: ihm
+      lemma: er
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: war
+      lemma: sein
+      level: A1
+    - word: wütend
+      lemma: wütend
+      level: B1
+    - word: wie
+      lemma: wie
+      level: A1
+    - word: Gewitter
+      lemma: das Gewitter
+      level: A2
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: erklärt
+      lemma: erklären
+      level: A2
+    - word: Deckel
+      lemma: der Deckel
+      level: A2
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: Plastik
+      lemma: das Plastik
+      level: A2
+    - word: Becher
+      lemma: der Becher
+      level: A2
+    - word: Papier
+      lemma: das Papier
+      level: A2
+    - word: warf
+      lemma: werfen
+      level: B1
+    - word: schnell
+      lemma: schnell
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: orange
+      lemma: orange
+      level: A2
+    - word: Tonne
+      lemma: die Tonne
+      level: A2
+    - word: Da
+      lemma: da
+      level: A1
+    - word: schrie
+      lemma: schreien
+      level: B1
+    - word: Falsch
+      lemma: falsch
+      level: A1
+    - word: für
+      lemma: für
+      level: A1
+    - word: Batterien
+      lemma: die Batterie
+      level: A2
+    voice:
+    - text: Plötzlich stand Frau Becker hinter ihm und war wütend wie ein Gewitter.
+      emotion: surprised
+    - text: 'Sie hat erklärt: „Der Deckel ist Plastik, der Becher ist Papier!“ Lukas warf den Becher schnell in die orange
+        Tonne.'
+      emotion: angry
+    - text: 'Da schrie Frau Becker: „Falsch!'
+      emotion: angry
+    - text: Die orange Tonne ist für Batterien!“
+      emotion: surprised
+  - key: s5
+    text: 'Am nächsten Morgen kam der Müllwagen und warf alle zwölf Tonnen in dasselbe Loch. Im Wagen war nur ein Loch, und
+      es gab keine Farben mehr. Frau Becker sah das und fiel in Ohnmacht. Lukas hat gelacht und hat erklärt: „Mülltrennung
+      ist ganz einfach!“'
+    image_prompt: A huge garbage truck in a small German courtyard, all twelve colored bins tipped into one single opening
+      and everything mixing into a gray mass. Frau Becker, the tiny old neighbour in the purple cardigan, faints backwards.
+      Lukas, the thin young man with round glasses and the red hoodie, laughs and holds up one finger like a teacher.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Warfen die Männer alle zwölf Tonnen in dasselbe Loch?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s5q2
+      kind: either_or
+      prompt: War im Wagen nur ein Loch oder waren zwölf Löcher im Wagen?
+      options: [nur ein Loch, zwölf Löcher]
+      answer: nur ein Loch
+    - key: s5q3
+      kind: who_what
+      prompt: Was machte Frau Becker?
+      options: [Sie fiel in Ohnmacht., Sie lachte., Sie aß ein Eis.]
+      answer: Sie fiel in Ohnmacht.
+    - key: s5q4
+      kind: yes_no
+      prompt: Gab es am Ende noch zwölf Farben?
+      options: [Ja, Nein]
+      answer: Nein
+      target: es gab
+    - key: s5q5
+      kind: who_what
+      prompt: Wer hat am Ende erklärt, dass Mülltrennung einfach ist?
+      options: [Lukas, Frau Becker, der Müllmann]
+      answer: Lukas
+      target: hat erklärt
+    glossary:
+    - word: Am
+      lemma: an
+      level: A1
+    - word: nächsten
+      lemma: nächste
+      level: A2
+    - word: Morgen
+      lemma: der Morgen
+      level: A1
+    - word: kam
+      lemma: kommen
+      level: A1
+    - word: Müllwagen
+      lemma: der Müllwagen
+      level: B1
+    - word: und
+      lemma: und
+      level: A1
+    - word: warf
+      lemma: werfen
+      level: B1
+    - word: alle
+      lemma: all
+      level: A1
+    - word: Tonnen
+      lemma: die Tonne
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: dasselbe
+      lemma: derselbe
+      level: B1
+    - word: Loch
+      lemma: das Loch
+      level: A2
+    - word: Im
+      lemma: in
+      level: A1
+    - word: Wagen
+      lemma: der Wagen
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A2
+    - word: es
+      lemma: es
+      level: A1
+    - word: gab
+      lemma: geben
+      level: A1
+    - word: keine
+      lemma: kein
+      level: A1
+    - word: Farben
+      lemma: die Farbe
+      level: A2
+    - word: mehr
+      lemma: mehr
+      level: A1
+    - word: Frau
+      lemma: die Frau
+      level: A1
+    - word: sah
+      lemma: sehen
+      level: A1
+    - word: das
+      lemma: das
+      level: A1
+    - word: fiel
+      lemma: fallen
+      level: A2
+    - word: Ohnmacht
+      lemma: die Ohnmacht
+      level: B2
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: gelacht
+      lemma: lachen
+      level: A1
+    - word: erklärt
+      lemma: erklären
+      level: A2
+    - word: Mülltrennung
+      lemma: die Mülltrennung
+      level: B1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: ganz
+      lemma: ganz
+      level: A2
+    - word: einfach
+      lemma: einfach
+      level: A2
+    voice:
+    - text: Am nächsten Morgen kam der Müllwagen und warf alle zwölf Tonnen in dasselbe Loch.
+      emotion: surprised
+    - text: Im Wagen war nur ein Loch, und es gab keine Farben mehr.
+      emotion: surprised
+    - text: Frau Becker sah das und fiel in Ohnmacht.
+      emotion: surprised
+    - text: 'Lukas hat gelacht und hat erklärt: „Mülltrennung ist ganz einfach!“'
+      emotion: amused
+  core_words:
+  - lemma: die Mülltrennung
+    image_prompt: several colorful recycling bins with paper, plastic, and glass items sorted beside them
+  - lemma: die Tonne
+    image_prompt: a single large green garbage bin with a closed lid
+  - lemma: die Farbe
+    image_prompt: bright splashes of red, blue, yellow, and green paint
+  - lemma: der Fehler
+    image_prompt: a person putting a plastic bottle into a paper recycling bin and looking worried
+  - lemma: der Becher
+    image_prompt: a small empty plastic yogurt cup
+  - lemma: der Müllwagen
+    image_prompt: a large garbage truck lifting a garbage bin
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 2
+  input_tokens: 4208
+  output_tokens: 10348
+  glossary_version: glossary-v2
+  glossary_input_tokens: 640
+  glossary_output_tokens: 17974
+  core_version: core-v1
+  core_input_tokens: 1914
+  core_output_tokens: 2356
+  voice_version: voice-v1
+  voice_input_tokens: 618
+  voice_output_tokens: 1230
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 381
+  localize_ar_output_tokens: 477
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 381
+  localize_en_output_tokens: 835
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 381
+  localize_nl_output_tokens: 857

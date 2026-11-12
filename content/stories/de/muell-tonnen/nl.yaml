@@ -1,0 +1,207 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Mevrouw Becker legt Lukas de afvalscheiding uit met twaalf containers in twaalf kleuren, Lukas is doodsbang om een
+  fout te maken, en uiteindelijk gooit de vuilniswagen alles in één gat.
+summary_source: 653cdd3fe4977f26
+gestures:
+  explained: Steek één vinger omhoog als een strenge leraar, open je andere hand als een boek en knik drie keer langzaam terwijl
+    je 'So!' zegt.
+  not_allowed: Kruis je armen in een grote X voor je borst en schud hard met je hoofd, als een bewaker bij een heel belangrijke
+    deur.
+  there_was: Open je armen wijd en presenteer iets onzichtbaars voor je, als een goochelaar die een enorme tafel vol containers
+    laat zien.
+  there_is: Open je armen wijd en laat iets onzichtbaars voor je zien, alsof je een goochelaar bent die een enorme tafel vol
+    bakken toont.
+targets:
+  hat erklärt:
+    gloss: heeft uitgelegd
+    note: 'Duits ''hat ... erklärt'' lijkt op Nederlands ''heeft ... uitgelegd'': haben/hebben + voltooid deelwoord.'
+  durfte nicht:
+    gloss: mocht niet
+    note: Duits 'durfte' is de verleden tijd van dürfen; Nederlands 'mocht'.
+  es gab:
+    gloss: er was
+    note: Duits 'es gab' betekent 'er was'; letterlijk 'het gaf'.
+scenes:
+- key: s1
+  source: e80830a2aaf4de47
+  translation: 'Mevrouw Becker is 84 jaar oud en heel streng. Gisteren heeft mevrouw Becker de afvalscheiding uitgelegd: twaalf
+    containers in twaalf kleuren. Op het erf stonden twaalf containers, en er waren twaalf kleuren. Lukas mocht niet eens
+    één fout maken.'
+  glosses:
+    Frau: mevrouw
+    ist: is
+    Jahre: jaar
+    alt: oud
+    und: en
+    sehr: heel
+    streng: streng
+    Gestern: gisteren
+    hat: heeft
+    Mülltrennung: afvalscheiding
+    erklärt: uitgelegd
+    Tonnen: containers
+    in: in
+    Farben: kleuren
+    Auf: op
+    Hof: erf
+    standen: stonden
+    es: er
+    gab: was
+    durfte: mocht
+    nicht: niet
+    einmal: eens
+    Fehler: fout
+    machen: maken
+- key: s2
+  source: 6a35f1ef3c1270c3
+  translation: Mevrouw Becker heeft uitgelegd dat de roze container voor plastic is. De zilveren container was voor oude sokken
+    en de turquoise container voor kapotte paraplu's. Lukas was heel in de war, want er waren te veel regels. Hij mocht niet
+    hardop praten wanneer hij afval sorteerde.
+  glosses:
+    Frau: mevrouw
+    hat: heeft
+    erklärt: uitgelegd
+    dass: dat
+    rosa: roze
+    Tonne: container
+    für: voor
+    Plastik: plastic
+    ist: is
+    silberne: zilveren
+    war: was
+    alte: oude
+    Socken: sokken
+    und: en
+    türkise: turquoise
+    kaputte: kapotte
+    Regenschirme: paraplu's
+    sehr: heel
+    verwirrt: in de war
+    denn: want
+    es: er
+    gab: was
+    zu: te
+    viele: veel
+    Regeln: regels
+    Er: hij
+    durfte: mocht
+    nicht: niet
+    laut: hardop
+    sprechen: praten
+    wenn: wanneer
+    Müll: afval
+    sortierte: sorteerde
+- key: s3
+  source: bdcda65b37cc967c
+  translation: Op maandag stond Lukas met een yoghurtbeker voor de twaalf containers. Hij stond daar veertig minuten en huilde
+    zacht. Het erf was stil, want er waren alleen Lukas en de containers. Hij mocht niet aanbellen, want mevrouw Becker hield
+    een middagdutje.
+  glosses:
+    Am: op
+    Montag: maandag
+    stand: stond
+    mit: met
+    Joghurtbecher: yoghurtbeker
+    vor: voor
+    Tonnen: containers
+    Er: hij
+    dort: daar
+    Minuten: minuten
+    und: en
+    weinte: huilde
+    leise: zacht
+    Hof: erf
+    war: was
+    still: stil
+    denn: want
+    es: er
+    gab: was
+    nur: alleen
+    durfte: mocht
+    nicht: niet
+    klingeln: aanbellen
+    Frau: mevrouw
+    machte: hield
+    Mittagsschlaf: middagdutje
+- key: s4
+  source: eef37484c032d13a
+  translation: 'Plotseling stond mevrouw Becker achter hem en was woedend als een onweer. Ze heeft uitgelegd: ''Het deksel
+    is plastic, de beker is papier!'' Lukas gooide de beker snel in de oranje container. Toen schreeuwde mevrouw Becker: ''Fout!
+    De oranje container is voor batterijen!'''
+  glosses:
+    Plötzlich: plotseling
+    stand: stond
+    Frau: mevrouw
+    hinter: achter
+    ihm: hem
+    und: en
+    war: was
+    wütend: woedend
+    wie: als
+    Gewitter: onweer
+    Sie: zij
+    hat: heeft
+    erklärt: uitgelegd
+    Deckel: deksel
+    ist: is
+    Plastik: plastic
+    Becher: beker
+    Papier: papier
+    warf: gooide
+    schnell: snel
+    in: in
+    orange: oranje
+    Tonne: container
+    Da: toen
+    schrie: schreeuwde
+    Falsch: fout
+    für: voor
+    Batterien: batterijen
+- key: s5
+  source: 06952b9499abf137
+  translation: 'De volgende ochtend kwam de vuilniswagen en gooide alle twaalf containers in hetzelfde gat. In de wagen was
+    maar één gat, en er waren geen kleuren meer. Mevrouw Becker zag dat en viel flauw. Lukas heeft gelachen en heeft uitgelegd:
+    ''Afvalscheiding is heel simpel!'''
+  glosses:
+    Am: op
+    nächsten: volgende
+    Morgen: ochtend
+    kam: kwam
+    Müllwagen: vuilniswagen
+    und: en
+    warf: gooide
+    alle: alle
+    Tonnen: containers
+    in: in
+    dasselbe: hetzelfde
+    Loch: gat
+    Im: in de
+    Wagen: wagen
+    war: was
+    nur: maar
+    es: er
+    gab: was
+    keine: geen
+    Farben: kleuren
+    mehr: meer
+    Frau: mevrouw
+    sah: zag
+    das: dat
+    fiel: viel
+    Ohnmacht: flauwte
+    hat: heeft
+    gelacht: gelachen
+    erklärt: uitgelegd
+    Mülltrennung: afvalscheiding
+    ist: is
+    ganz: heel
+    einfach: simpel
+words:
+  die Mülltrennung: de afvalscheiding
+  die Tonne: de afvalcontainer
+  die Farbe: de kleur
+  der Fehler: de fout
+  der Becher: de beker
+  der Müllwagen: de vuilniswagen

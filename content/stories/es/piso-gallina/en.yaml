@@ -1,0 +1,248 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Sofía shares a small flat in Madrid with four people and a very serious hen, Pepa, who controls the bathroom and
+  hides a secret love of classical music and hot baths.
+summary_source: a14f733f7ae7d2bd
+gestures:
+  would_like: Put both hands over your heart, close your eyes and sigh like you are dreaming of a giant cake.
+  however: Hold up one flat hand, then sharply turn it over to show the back of your hand, like flipping a pancake.
+  when: Snap your fingers once and point at an imaginary clock, as if a magic moment just started.
+targets:
+  me gustaría:
+    gloss: I would like
+    note: Spanish puts 'me' before the verb; English says 'I would like' with the liker as subject.
+  sin embargo:
+    gloss: however
+    note: Formal connector like English 'however'; it usually needs a comma.
+  cuando:
+    gloss: when
+    note: For future events Spanish often uses the subjunctive after cuando, unlike English 'when'.
+scenes:
+- key: s1
+  source: bbb74c87b286d531
+  translation: In a small flat in Madrid, Sofía lives with four flatmates and a hen. The hen is called Pepa and is very serious.
+    When Sofía gets up in the morning, there is always a huge queue outside the bathroom. Pepa is at the door and looks at
+    everyone like a judge.
+  glosses:
+    En: In
+    piso: flat
+    pequeño: small
+    de: in
+    vive: lives
+    con: with
+    compañeros: flatmates
+    "y": and
+    gallina: hen
+    se: itself
+    llama: is called
+    es: is
+    muy: very
+    seria: serious
+    Cuando: When
+    levanta: gets up
+    por: in
+    mañana: morning
+    siempre: always
+    hay: there is
+    cola: queue
+    enorme: huge
+    delante: outside
+    del: of the
+    baño: bathroom
+    está: is
+    puerta: door
+    mira: looks at
+    a: at
+    todos: everyone
+    como: like
+    juez: judge
+- key: s2
+  source: 19c339eacc563ffe
+  translation: 'Pepa has a very simple system for deciding who cleans the bathroom. When someone wants to go in, Pepa looks
+    at their nails: if they are dirty, she shouts like a policewoman. However, if the nails are clean, the person can go in.
+    ''I would like to have a normal bathroom,'' says Sofía, but Pepa doesn''t listen.'
+  glosses:
+    tiene: has
+    sistema: system
+    muy: very
+    simple: simple
+    para: for
+    decidir: deciding
+    quién: who
+    limpia: cleans
+    baño: bathroom
+    Cuando: When
+    alguien: someone
+    quiere: wants
+    entrar: to go in
+    le: their
+    mira: looks at
+    uñas: nails
+    si: if
+    están: are
+    sucias: dirty
+    grita: shouts
+    como: like
+    policía: policewoman
+    Sin: without (however)
+    embargo: however (with sin)
+    limpias: clean
+    persona: person
+    puede: can
+    pasar: go in
+    Me: to me
+    gustaría: would like
+    tener: to have
+    normal: normal
+    dice: says
+    pero: but
+    "no": not
+    escucha: listens
+- key: s3
+  source: 25be251ce139fafd
+  translation: One Monday, Pepa decides that Sofía cleans the bathroom every day, four times a day. 'I would like to have
+    another hen,' Sofía thinks, but Pepa is the only hen in the neighbourhood. However, Sofía accepts, because she is very
+    polite. When she finishes, the bathroom shines like a mirror, and Pepa dirties it again with her feet.
+  glosses:
+    lunes: Monday
+    decide: decides
+    que: that
+    limpia: cleans
+    baño: bathroom
+    todos: every
+    días: days
+    veces: times
+    al: per
+    día: day
+    Me: to me
+    gustaría: would like
+    tener: to have
+    otra: another
+    gallina: hen
+    piensa: thinks
+    pero: but
+    es: is
+    única: only
+    del: in the
+    barrio: neighbourhood
+    Sin: without (however)
+    embargo: however (with sin)
+    acepta: accepts
+    porque: because
+    muy: very
+    educada: polite
+    Cuando: When
+    termina: finishes
+    brilla: shines
+    como: like
+    espejo: mirror
+    "y": and
+    lo: it
+    ensucia: dirties
+    vez: again (with otra)
+    con: with
+    patas: feet
+- key: s4
+  source: 5213ce244769f1ac
+  translation: 'Sofía is desperate: the bathroom floor already has three hundred hen hairs. ''I would like Pepa to clean the
+    bathroom,'' she says to her flatmates, ''however, she only shouts.'' Her flatmates have an idea: they give Pepa a small
+    broom and a bag of corn. When Pepa sees the corn, she runs to the bathroom and closes the door.'
+  glosses:
+    está: is
+    desesperada: desperate
+    suelo: floor
+    del: of the
+    baño: bathroom
+    tiene: has
+    ya: already
+    pelos: hairs
+    de: of
+    gallina: hen
+    Me: to me
+    gustaría: would like
+    que: that
+    limpiara: cleaned
+    dice: says
+    a: to
+    sus: her
+    compañeros: flatmates
+    sin: without (however)
+    embargo: however (with sin)
+    ella: she
+    solo: only
+    grita: shouts
+    tienen: have
+    idea: idea
+    dan: give
+    escoba: broom
+    pequeña: small
+    "y": and
+    bolsa: bag
+    maíz: corn
+    Cuando: When
+    ve: sees
+    corre: runs
+    al: to the
+    cierra: closes
+    puerta: door
+- key: s5
+  source: d96cb13be2c766b5
+  translation: 'Half an hour later, Sofía opens the bathroom door very slowly. Pepa isn''t cleaning anything: she is in the
+    bathtub, with classical music, and sings like an opera singer. ''I would like to be a normal hen,'' says Pepa, ''however,
+    I really like hot water.'' From that day on, Pepa bathes every day, and when she finishes, the bathroom is really clean.'
+  glosses:
+    Media: Half
+    hora: hour
+    después: later
+    abre: opens
+    puerta: door
+    del: of the
+    baño: bathroom
+    muy: very
+    despacio: slowly
+    "no": not
+    limpia: cleans
+    nada: anything
+    está: is
+    en: in
+    bañera: bathtub
+    con: with
+    música: music
+    clásica: classical
+    "y": and
+    canta: sings
+    como: like
+    cantante: singer
+    de: of
+    ópera: opera
+    Me: to me
+    gustaría: would like
+    ser: to be
+    gallina: hen
+    normal: normal
+    dice: says
+    sin: without (however)
+    embargo: however (with sin)
+    gusta: pleases
+    mucho: very much
+    agua: water
+    caliente: hot
+    Desde: From
+    ese: that
+    día: day
+    se: herself
+    baña: bathes
+    todos: every
+    días: days
+    cuando: when
+    termina: finishes
+    limpio: clean
+    verdad: really (truth)
+words:
+  la gallina: the hen
+  el baño: the bathroom
+  la uña: the fingernail
+  la escoba: the broom
+  el maíz: the corn
+  la bañera: the bathtub

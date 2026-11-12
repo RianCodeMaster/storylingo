@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: hagelslag-zoeken
+language: nl
+level: A2
+tags: [algemeen, dagelijks]
+narrator: charlie
+theme: Joris zocht in de supermarkt naar hagelslag; hij moest het aan iedereen vragen en kreeg uiteindelijk tien soorten
+scenes: 5
+targets:
+  - {text: "zocht", gloss: "looked for", concept: search}
+  - {text: "moest", gloss: "had to", concept: must}
+  - {text: "kreeg", gloss: "got", concept: get}

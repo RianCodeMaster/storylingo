@@ -1,0 +1,254 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Anna has a video job interview, but her cat Paul jumps on the keyboard and answers every question better than she
+  does.
+summary_source: fd62afc3a2435e43
+gestures:
+  when_past: Snap your fingers once, then throw your thumb back over your shoulder with a knowing nod, as if saying 'that
+    was the exact moment it happened'.
+  because: Push both fists forward from your chest like you are shoving the reason out into the world, with a determined 'that's
+    why!' face.
+  would_have: Float one open hand slowly upward and give a dreamy sigh, like you are releasing a little cloud of what could
+    have been.
+targets:
+  als:
+    gloss: when (past)
+    note: In past-time clauses, German als sends the verb to the end; English when keeps normal order.
+  weil:
+    gloss: because
+    note: 'Weil is a subordinating conjunction: the verb goes to the end, unlike English because.'
+  hätte:
+    gloss: would have
+    note: Hätte is Konjunktiv II of haben; English uses would have + past participle.
+scenes:
+- key: s1
+  source: 66dcc540aa49d1a5
+  translation: Anna had a big video job interview today. She would have liked to sleep longer, but she had to sit at the laptop
+    at seven o'clock because 400 people wanted the job and only one person would get it. When Anna opened the laptop, her
+    tomcat Paul came into the room and sat right on the table.
+  glosses:
+    hatte: had
+    heute: today
+    großes: big
+    Vorstellungsgespräch: job interview
+    per: by
+    Video: video
+    Sie: she
+    hätte: would have
+    gern: gladly
+    länger: longer
+    geschlafen: slept
+    aber: but
+    musste: had to
+    um: at
+    Uhr: o'clock
+    am: at the
+    Laptop: laptop
+    sitzen: sit
+    weil: because
+    Leute: people
+    Job: job
+    wollten: wanted
+    und: and
+    nur: only
+    Person: person
+    ihn: it
+    bekam: got
+    Als: when
+    aufmachte: opened
+    kam: came
+    ihr: her
+    Kater: tomcat
+    ins: into the
+    Zimmer: room
+    setzte: sat
+    sich: himself
+    direkt: directly
+    auf: "on"
+    Tisch: table
+- key: s2
+  source: 67266c5dbe314727
+  translation: 'At nine o''clock the interview with Ms. Kranich from the pajama company began. When Ms. Kranich asked the
+    first question, Paul suddenly jumped onto the keyboard. Anna wanted to take him away because she was afraid, but by then
+    Paul was already typing with both paws. On the screen it said: ''I would like more salary.'''
+  glosses:
+    Um: at
+    Uhr: o'clock
+    begann: began
+    Gespräch: interview
+    mit: with
+    von: from
+    Schlafanzug-Firma: pajama company
+    Als: when
+    erste: first
+    Frage: question
+    stellte: asked
+    sprang: jumped
+    plötzlich: suddenly
+    auf: onto
+    Tastatur: keyboard
+    wollte: wanted
+    ihn: him
+    wegnehmen: take away
+    weil: because
+    sie: she
+    Angst: fear
+    hatte: had
+    aber: but
+    da: then
+    tippte: typed
+    schon: already
+    beiden: both
+    Pfoten: paws
+    Bildschirm: screen
+    stand: was written
+    Ich: I
+    hätte: would have
+    gern: gladly
+    mehr: more
+    Gehalt: salary
+- key: s3
+  source: 50072d3ee10b2541
+  translation: 'Ms. Kranich laughed loudly and said: ''Finally someone who is brave!'' Anna did not know what she should say,
+    because she had never seen such a boss before. She would have most liked to close the laptop, but her hands were trembling
+    too much. When Paul heard the second question, he immediately typed the perfect answer.'
+  glosses:
+    lachte: laughed
+    laut: loudly
+    und: and
+    sagte: said
+    Endlich: finally
+    jemand: someone
+    der: who
+    mutig: brave
+    ist: is
+    wusste: knew
+    nicht: not
+    was: what
+    sie: she
+    sagen: say
+    sollte: should
+    weil: because
+    noch: ever
+    nie: never
+    so: such
+    Chefin: female boss
+    gesehen: seen
+    hatte: had
+    hätte: would have
+    am: at the
+    liebsten: most preferably
+    Laptop: laptop
+    zugeklappt: closed
+    aber: but
+    ihre: her
+    Hände: hands
+    zitterten: trembled
+    zu: too
+    stark: strongly
+    Als: when
+    zweite: second
+    Frage: question
+    hörte: heard
+    tippte: typed
+    er: he
+    sofort: immediately
+    perfekte: perfect
+    Antwort: answer
+- key: s4
+  source: 1d1f70fddb610698
+  translation: 'Paul answered every question, and every answer was better than Anna''s. He wrote: ''I can sleep 40 hours per
+    week and still sew 300 pajamas per day.'' Anna would never have been able to phrase that so well, because she could hardly
+    breathe from nervousness. When Ms. Kranich asked about salary wishes, Paul typed: ''Two cans of tuna per day.'''
+  glosses:
+    antwortete: answered
+    auf: to
+    jede: every
+    Frage: question
+    und: and
+    Antwort: answer
+    war: was
+    besser: better
+    als: than
+    die: the one
+    von: from
+    Er: he
+    schrieb: wrote
+    Ich: I
+    kann: can
+    Stunden: hours
+    pro: per
+    Woche: week
+    schlafen: sleep
+    trotzdem: nevertheless
+    Schlafanzüge: pajamas
+    Tag: day
+    nähen: sew
+    hätte: would have
+    das: that
+    nie: never
+    so: so
+    gut: well
+    formulieren: phrase
+    können: be able
+    weil: because
+    sie: she
+    vor: from
+    Nervosität: nervousness
+    kaum: hardly
+    atmen: breathe
+    konnte: could
+    nach: about
+    Gehaltswünschen: salary wishes
+    fragte: asked
+    tippte: typed
+    Dosen: cans
+    Thunfisch: tuna
+- key: s5
+  source: e452d67e138ee7a0
+  translation: 'At the end Ms. Kranich said: ''We''ll take the tomcat.'' Anna was sad because she really would have needed
+    the job. But then Ms. Kranich smiled and said: ''You would also have a position — as Mr. Paul''s assistant.'' When Anna
+    came home, Paul was already lying on the sofa and sleeping like a boss.'
+  glosses:
+    Am: at the
+    Ende: end
+    sagte: said
+    Wir: we
+    nehmen: take
+    Kater: tomcat
+    war: was
+    traurig: sad
+    weil: because
+    sie: she
+    Job: job
+    wirklich: really
+    gebraucht: needed
+    hätte: would have
+    Aber: but
+    dann: then
+    lächelte: smiled
+    und: and
+    hätten: would have
+    auch: also
+    Stelle: position
+    als: as
+    Assistentin: assistant
+    von: of
+    nach: to
+    Hause: home
+    kam: came
+    lag: lay
+    schon: already
+    auf: "on"
+    Sofa: sofa
+    schlief: slept
+    wie: like
+    Chef: boss
+words:
+  das Vorstellungsgespräch: job interview
+  der Kater: tomcat
+  die Tastatur: keyboard
+  die Pfote: paw
+  tippen: type
+  die Chefin: female boss

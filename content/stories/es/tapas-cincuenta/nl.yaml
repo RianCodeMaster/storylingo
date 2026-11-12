@@ -1,0 +1,173 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Marta wil vijf tapas in een lawaaiige bar in Madrid, maar ze bestelt te snel, krijgt vijftig tapas en nodigt uiteindelijk
+  de hele bar uit voor een feest.
+summary_source: 0e032b6d36e66602
+gestures:
+  order: Doe alsof je wild in een piepklein denkbeeldig notitieboekje krabbelt en gooi het briefje over je schouder als een
+    pizzabakker.
+  want: Sla je armen om jezelf en staar met grote hongerige ogen naar een denkbeeldige taart, terwijl je je lippen aflik.
+  there_was: Zwaai je armen wijd open als een groot gordijn en wijs dan met open mond van verbazing naar de lege plek.
+  there_is: Zwaai beide armen wijd open als een groot gordijn en wijs dan met open mond van verbazing naar de lege plek.
+targets:
+  pidió:
+    gloss: bestelde
+    note: Derde persoon verleden tijd; vergelijk Nederlands 'bestelde'.
+  quería:
+    gloss: wilde
+    note: Onvoltooid verleden tijd; vergelijk Nederlands 'wilde'.
+  había:
+    gloss: er was/waren
+    note: Onpersoonlijk; vergelijk Nederlands 'er was/waren'.
+scenes:
+- key: s1
+  source: 27a28a3b0e94486a
+  translation: Marta had veel honger. Ze wilde tapas eten in een kleine bar in Madrid. In de bar waren veel mensen, en er
+    was ook veel lawaai. Marta wilde een rustige tafel.
+  glosses:
+    tenía: had
+    mucha: veel
+    hambre: honger
+    Quería: wilde
+    comer: eten
+    tapas: tapas
+    en: in
+    bar: bar
+    pequeño: kleine
+    de: van
+    había: er was/waren
+    gente: mensen
+    "y": en
+    también: ook
+    mucho: veel
+    ruido: lawaai
+    mesa: tafel
+    tranquila: rustige
+- key: s2
+  source: 8704942bc9df2fd6
+  translation: De ober heette Paco en had een enorme snor. Paco hoorde niet goed omdat de muziek heel hard stond. Marta wilde
+    vijf tapas van tortilla. Maar Marta bestelde heel snel, en Paco glimlachte.
+  glosses:
+    camarero: ober
+    se: zich
+    llamaba: heette
+    "y": en
+    tenía: had
+    bigote: snor
+    enorme: enorme
+    "no": niet
+    oía: hoorde
+    bien: goed
+    porque: omdat
+    había: er was
+    música: muziek
+    muy: heel
+    alta: hard
+    quería: wilde
+    tapas: tapas
+    de: van
+    tortilla: tortilla
+    Pero: maar
+    pidió: bestelde
+    rápido: snel
+    sonrió: glimlachte
+- key: s3
+  source: 697d2687872c8fd0
+  translation: 'Paco schreef de bestelling op en ging naar de keuken. Tien minuten later bracht hij wat Marta had besteld:
+    vijftig tapas! Overal stonden borden met tortilla, ham en kaas. «Vijftig!», riep Marta. «Ik wilde er vijf!»'
+  glosses:
+    escribió: schreef
+    pedido: bestelling
+    "y": en
+    fue: ging
+    a: naar
+    cocina: keuken
+    minutos: minuten
+    después: later
+    trajo: bracht
+    lo: wat
+    que: wat
+    pidió: bestelde
+    tapas: tapas
+    Había: er waren
+    platos: borden
+    de: van
+    tortilla: tortilla
+    jamón: ham
+    queso: kaas
+    por: over
+    todas: alle
+    partes: plekken
+    gritó: riep
+    Yo: ik
+    quería: wilde
+- key: s4
+  source: 08dcabbf716d6ef2
+  translation: Marta keek naar de tafel en wilde huilen. Er was eten voor honderd mensen, maar in de bar was geen ruimte voor
+    meer borden. Toen belde Marta haar buurman Pepe. Pepe bestelde nog vijf tapas en at heel snel.
+  glosses:
+    miró: keek naar
+    mesa: tafel
+    "y": en
+    quería: wilde
+    llorar: huilen
+    Había: er was
+    comida: eten
+    para: voor
+    personas: mensen
+    pero: maar
+    en: in
+    bar: bar
+    "no": niet
+    sitio: ruimte
+    más: meer
+    platos: borden
+    Entonces: toen
+    llamó: belde
+    a: persoonlijke a
+    su: zijn
+    vecino: buurman
+    pidió: bestelde
+    tapas: tapas
+    comió: at
+    muy: heel
+    rápido: snel
+- key: s5
+  source: dc60b673df587c48
+  translation: 'Uiteindelijk nodigde Marta de hele bar uit: «Gratis tapas voor iedereen!». Iedereen wilde eten, en Paco wilde
+    dansen. Er was een enorm feest in de kleine bar. En Paco vroeg geen geld: hij bestelde nog een ronde tapas.'
+  glosses:
+    Al: aan
+    final: einde
+    invitó: nodigde uit
+    a: persoonlijke a
+    todo: hele
+    bar: bar
+    Tapas: tapas
+    gratis: gratis
+    para: voor
+    todos: iedereen
+    querían: wilden
+    comer: eten
+    "y": en
+    quería: wilde
+    bailar: dansen
+    Había: er was
+    fiesta: feest
+    enorme: enorm
+    en: in
+    pequeño: kleine
+    "no": niet
+    pidió: vroeg
+    dinero: geld
+    otra: nog een
+    ronda: ronde
+    de: van
+words:
+  el bar: de bar
+  la tapa: het hapje
+  el camarero: de ober
+  el bigote: de snor
+  la tortilla: de tortilla
+  la fiesta: het feest

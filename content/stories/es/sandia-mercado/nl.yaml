@@ -1,0 +1,122 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Carmen koopt een enorme watermeloen op de markt, maar die is veel te groot voor haar kleine huis, en binnenin vindt
+  ze honderd kleine watermeloenen.
+summary_source: f90d4b6771a2b601
+gestures:
+  buy: Doe alsof je een reusachtige watermeloen met beide armen vasthoudt, sla dan een munt in de hand van een denkbeeldige
+    marktkoopman en knipoog.
+  be: Wijs met beide duimen naar jezelf en strek daarna je armen wijd uit om te laten zien hoe enorm groot iets is.
+  want: Steek beide handen naar voren als een hongerige zombie die een watermeloen wil pakken en lik je lippen.
+targets:
+  compra:
+    gloss: koopt
+    note: Spaans 'compra' is één werkwoordsvorm; Nederlands zegt 'koopt'.
+  es:
+    gloss: is
+    note: Spaans 'es' komt van 'ser'; Nederlands 'is' komt van 'zijn'.
+  quiere:
+    gloss: wil
+    note: Spaans 'quiere' komt van 'querer'; de stam verandert.
+scenes:
+- key: s1
+  source: f197b1683a41a355
+  translation: Carmen gaat naar de markt. Carmen koopt een watermeloen. De watermeloen is heel groot. Hij is enorm.
+  glosses:
+    va: gaat
+    al: naar de
+    mercado: markt
+    compra: koopt
+    sandía: watermeloen
+    es: is
+    muy: heel
+    grande: groot
+    enorme: enorm
+- key: s2
+  source: 622a8525af55e0e8
+  translation: 'Carmen wil betalen. De watermeloen is heel duur: honderd euro. Carmen koopt de watermeloen. De marktkoopman
+    is blij.'
+  glosses:
+    quiere: wil
+    pagar: betalen
+    sandía: watermeloen
+    es: is
+    muy: heel
+    cara: duur
+    euros: euro
+    compra: koopt
+    señor: meneer
+    del: van de
+    mercado: markt
+    feliz: blij
+- key: s3
+  source: 8c6073eccc3330a2
+  translation: Carmen wil naar huis gaan. De watermeloen is heel zwaar. Een man met een kleine vrachtwagen helpt Carmen. De
+    vrachtwagen is klein en de watermeloen is enorm.
+  glosses:
+    quiere: wil
+    ir: gaan
+    a: naar
+    casa: huis
+    sandía: watermeloen
+    es: is
+    muy: heel
+    pesada: zwaar
+    señor: man
+    con: met
+    camión: vrachtwagen
+    pequeño: klein
+    ayuda: helpt
+    "y": en
+    enorme: enorm
+- key: s4
+  source: 49b2696acbbce86e
+  translation: Carmen is in haar huis. Maar de watermeloen past niet door de deur. De deur is heel klein. Carmen duwt de watermeloen.
+    Ze wil niet op straat slapen.
+  glosses:
+    está: is
+    en: in
+    su: haar
+    casa: huis
+    Pero: Maar
+    sandía: watermeloen
+    "no": niet
+    cabe: past
+    puerta: deur
+    es: is
+    muy: heel
+    pequeña: klein
+    empuja: duwt
+    quiere: wil
+    dormir: slapen
+    calle: straat
+- key: s5
+  source: a161fb6a2ca22777
+  translation: Carmen wil de watermeloen opeten. Ze snijdt de watermeloen met een klein mes. Binnenin zitten honderd kleine
+    watermeloenen! Carmen is blij. Maar ze koopt geen watermeloenen meer.
+  glosses:
+    quiere: wil
+    comer: eten
+    sandía: watermeloen
+    Corta: snijdt
+    con: met
+    cuchillo: mes
+    pequeño: klein
+    Dentro: binnen
+    hay: er zijn
+    sandías: watermeloenen
+    pequeñas: kleine
+    es: is
+    feliz: blij
+    Pero: Maar
+    "no": niet
+    compra: koopt
+    más: meer
+words:
+  la sandía: de watermeloen
+  el mercado: de markt
+  comprar: kopen
+  el camión: de vrachtwagen
+  la puerta: de deur
+  el cuchillo: het mes

@@ -13,24 +13,24 @@ plural_forms: [one, many, other]
 teacher:
   # A mix of plain and playful, all in easy words: heard after every answer, so learners pick them up as phrases.
   yes:
-    - {text: "¡Sí! ¡Exacto!"}
-    - {text: "¡Muy bien!"}
-    - {text: "¡Claro que sí!"}
-    - {text: "¡Correcto! ¡Genial!"}
-    - {text: "¡Bravo! ¡Eres un genio!"}
-    - {text: "¡Sí, sí, sí! ¡Fantástico!"}
-    - {text: "¡Perfecto! ¡Sigue así!"}
-    - {text: "¡Eso es! Ya lo sabes."}
-    - {text: "¡Guau, qué rápido!"}
+    - {text: "¡Sí! ¡Exacto!", emotion: amused}
+    - {text: "¡Muy bien!", emotion: surprised}
+    - {text: "¡Claro que sí!", emotion: neutral}
+    - {text: "¡Correcto! ¡Genial!", emotion: amused}
+    - {text: "¡Bravo! ¡Eres un genio!", emotion: surprised}
+    - {text: "¡Sí, sí, sí! ¡Fantástico!", emotion: amused}
+    - {text: "¡Perfecto! ¡Sigue así!", emotion: amused}
+    - {text: "¡Eso es! Ya lo sabes.", emotion: neutral}
+    - {text: "¡Guau, qué rápido!", emotion: surprised}
   no:
-    - {text: "¡No, no, no!"}
-    - {text: "¡Oh, no! Eso no es."}
-    - {text: "Lo siento, no."}
-    - {text: "¡No! ¡Qué desastre!"}
-    - {text: "Mmm, no exactamente."}
-    - {text: "¡Incorrecto! Pero buen intento."}
-    - {text: "¡Ay, ay, ay! No es así."}
-    - {text: "¡Claro que no!"}
+    - {text: "¡No, no, no!", emotion: surprised}
+    - {text: "¡Oh, no! Eso no es.", emotion: surprised}
+    - {text: "Lo siento, no.", emotion: neutral}
+    - {text: "¡No! ¡Qué desastre!", emotion: surprised}
+    - {text: "Mmm, no exactamente.", emotion: neutral}
+    - {text: "¡Incorrecto! Pero buen intento.", emotion: amused}
+    - {text: "¡Ay, ay, ay! No es así.", emotion: surprised}
+    - {text: "¡Claro que no!", emotion: amused}
   next: Siguiente
   done: ¡Terminado!
 
@@ -57,11 +57,26 @@ recognition:
   claro: sí
 
 voice:
-  provider: piper
+  # ElevenLabs (paid; ELEVENLABS_API_KEY in pipeline/.env). The Piper voice that was here is in git history.
+  provider: elevenlabs
   pause: 0.5
-  question: neutral
+  question: amused
   word: neutral
-  settings: {length_scale: 1.1, noise_w_scale: 0.9}
+  # Stories take turns between the narrators (each story always the same one); questions, words and the teacher's
+  # reactions are always spoken by the teacher. IDs from elevenlabs.io > Voices.
+  speakers: {george: JBFqnCBsd6RMkjVDRZzb, charlie: IKne3meq5aSn9XLyUdCD, jessica: cgSgspJ2msm6clMCkdW9}
+  narrators: [george, charlie, jessica]
+  teacher: jessica
+  # eleven_v3 acts; stability 0.0 ("creative") lets it act the most.
+  settings: {model: eleven_v3, stability: 0.0}
+  # Single words and phrases: no acting needed, so Flash (half the credits per character).
+  words: {model: eleven_flash_v2_5, stability: 0.5, tag: ""}
   styles:
-    neutral: {model: es_ES-sharvard-medium, speaker: F}
-    # Alternative, the male voice:  neutral: {model: es_ES-davefx-medium}
+    # v3 takes stage directions as audio tags (in English, for every language): each sentence's emotion becomes one.
+    neutral:   {}
+    amused:    {tag: "[playfully]"}
+    angry:     {tag: "[angry]"}
+    disgusted: {tag: "[disgusted]"}
+    sleepy:    {tag: "[sleepy]"}
+    surprised: {tag: "[gasps] [excited]"}
+    whisper:   {tag: "[whispers]"}

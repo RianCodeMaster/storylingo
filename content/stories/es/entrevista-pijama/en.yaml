@@ -1,0 +1,200 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Alejandro runs to an important job interview, discovers in the office that he is wearing dinosaur pyjamas, and learns
+  the company wants exactly someone to test pyjamas.
+summary_source: 8d434fdc83e73852
+gestures:
+  realise: Slap your forehead with one hand, open your eyes very wide, and point down at your own clothes with the other hand.
+  if_had: Cover your eyes with one hand like you are hiding from your past self and wag a finger with the other hand.
+  therefore: Point at something, clap your hands together once, and then point forward with one finger like a decision is
+    made.
+targets:
+  se dio cuenta de que:
+    gloss: realised that
+    note: Spanish uses 'darse cuenta de que' for 'realise that'; English uses no reflexive pronoun.
+  si hubiera:
+    gloss: if I had
+    note: Introduces an unreal past condition; English often uses 'if I had + past participle'.
+  por eso:
+    gloss: that's why
+    note: Means 'that's why'; it links a cause to a result, like English 'so'.
+scenes:
+- key: s1
+  source: 41588b9fe9dac7d7
+  translation: Alejandro had a very important interview at half past nine. He woke up at twenty past nine. He put a jacket
+    over his clothes and thought he was ready. That's why he didn't look in the mirror.
+  glosses:
+    tenía: had
+    entrevista: interview
+    importante: important
+    a: at
+    "y": and
+    media: half
+    Se: himself
+    despertó: woke up
+    puso: put on
+    chaqueta: jacket
+    encima: on top
+    de: over
+    ropa: clothes
+    pensó: thought
+    que: that
+    estaba: was
+    listo: ready
+    Por: that's
+    eso: why
+    "no": not
+    miró: looked at
+    espejo: mirror
+- key: s2
+  source: a23c127642d914e0
+  translation: On the metro there were three hundred people and they were all looking at him. A lady asked him if he was going
+    to a costume party. Alejandro thought he was famous. That's why he smiled the whole way.
+  glosses:
+    En: "On"
+    metro: metro
+    había: there were
+    personas: people
+    "y": and
+    todas: all of them
+    lo: him
+    miraban: were looking at
+    señora: lady
+    le: to him
+    preguntó: asked
+    si: if
+    iba: was going
+    a: to
+    fiesta: party
+    de: of
+    disfraces: costumes
+    pensó: thought
+    que: that
+    era: was
+    famoso: famous
+    Por: that's
+    eso: why
+    sonrió: smiled
+    todo: all
+    camino: way
+- key: s3
+  source: 796c9ccd2526e7f4
+  translation: At the office, a very serious gentleman shook his hand. Alejandro looked at his watch and suddenly realised
+    he was wearing pyjamas. The pyjamas had green and pink dinosaurs. He also realised he was wearing slippers.
+  glosses:
+    En: At
+    oficina: office
+    señor: gentleman
+    muy: very
+    serio: serious
+    le: to him
+    dio: gave
+    mano: hand
+    miró: looked at
+    reloj: watch
+    "y": and
+    de: suddenly
+    pronto: suddenly
+    se: himself
+    cuenta: account
+    que: that
+    llevaba: was wearing
+    pijama: pyjamas
+    tenía: had
+    dinosaurios: dinosaurs
+    verdes: green
+    rosas: pink
+    También: also
+    zapatillas: slippers
+    casa: house
+- key: s4
+  source: 73f3bb34d1c6d9fa
+  translation: Alejandro hid behind a huge plant. He thought, 'If I had looked in the mirror, I wouldn't be here now.' If
+    he had worn normal clothes, the interview would be easy. He realised his jacket wasn't covering anything. That's why he
+    called his mother to ask for help.
+  glosses:
+    se: himself
+    escondió: hid
+    detrás: behind
+    de: of
+    planta: plant
+    enorme: huge
+    Pensó: thought
+    Si: If
+    hubiera: had
+    mirado: looked
+    espejo: mirror
+    ahora: now
+    "no": not
+    estaría: would be
+    aquí: here
+    llevado: worn
+    ropa: clothes
+    normal: normal
+    entrevista: interview
+    sería: would be
+    fácil: easy
+    dio: gave
+    cuenta: account
+    que: that
+    chaqueta: jacket
+    tapaba: was covering
+    nada: anything
+    Por: that's
+    eso: why
+    llamó: called
+    a: to
+    madre: mother
+    para: in order to
+    pedir: ask for
+    ayuda: help
+- key: s5
+  source: 2254301e66e9ea3c
+  translation: Doña Carmen, the director, came out in blue pyjamas with stars. 'Perfect!' she said. 'We're looking for someone
+    to try our pyjamas.' Alejandro realised that his mistake was luck. If he had worn a suit, he wouldn't have got the job.
+    That's why today he works in pyjamas every day.
+  glosses:
+    directora: director
+    salió: came out
+    con: with
+    pijama: pyjamas
+    azul: blue
+    estrellas: stars
+    Perfecto: Perfect
+    dijo: said
+    Buscamos: We are looking for
+    a: for
+    alguien: someone
+    que: who
+    pruebe: tests
+    pijamas: pyjamas
+    se: himself
+    dio: gave
+    cuenta: account
+    de: of
+    error: mistake
+    era: was
+    suerte: luck
+    Si: If
+    hubiera: had
+    llevado: worn
+    traje: suit
+    "no": not
+    habría: would have
+    conseguido: got
+    trabajo: job
+    Por: that's
+    eso: why
+    hoy: today
+    trabaja: works
+    en: in
+    todos: every
+    días: days
+words:
+  la entrevista: the interview
+  el espejo: the mirror
+  el pijama: the pyjamas
+  el dinosaurio: the dinosaur
+  esconderse: to hide
+  la planta: the plant

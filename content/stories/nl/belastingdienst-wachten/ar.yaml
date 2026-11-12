@@ -1,0 +1,230 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تتصل صوفي بمكتب الضرائب بسبب رسالة لا تفهمها، تنتظر ثلاثًا على الخط، تتعلم عزف موسيقى الانتظار على الناي، وينتهي
+  بها الأمر بأن يوظفها أوركسترا المكتب.
+summary_source: 3204e82011c6de4b
+gestures:
+  while: ارفع يدًا مسطحة أمامك كشاشة، وحرّك اليد الأخرى في دوائر كأنك تحرّك قدرًا كبيرًا وتدندن، لتُظهر أمرين يحدثان في الوقت
+    نفسه.
+  have_called: 'أدِر قرص هاتف قديم بإصبعك بحركات دائرية واسعة، ثم الصق السماعة بأذنك واصرخ: «هالو؟»'
+  must_wait: اجلس على كرسي متخيل، واقرع بأصابعك على ركبتك ببطء، وتنهّد ب dramatic، وانظر إلى ساعة متخيلة.
+targets:
+  terwijl:
+    gloss: بينما
+    note: في الهولندية يذهب الفعل إلى آخر الجملة الثانوية بعد terwijl، أما العربية فترتيبها أكثر مرونة.
+  heb gebeld:
+    gloss: اتصلتُ
+    note: الهولندية تصنع الماضي التام بـ hebben + اسم المفعول، والعربية غالبًا تكفي بالماضي.
+  moet wachten:
+    gloss: عليّ أن أنتظر
+    note: بعد moet يأتي الفعل في آخر الجملة في الهولندية، بينما العربية تستخدم «يجب/عليّ» + أن + فعل.
+scenes:
+- key: s1
+  source: 410881aa435a58d1
+  translation: 'تعيش صوفي دي فريس في بيت صغير في أوترخت. يوم الاثنين يوجد خطاب سميك من مكتب الضرائب على سجادة المدخل. تقرأ
+    صوفي الخطاب ثلاث مرات، لكنها لا تفهم كلمة واحدة. تأخذ هاتفها وتقول للقطة: «لقد اتصلت. الآن عليّ أن أنتظر».'
+  glosses:
+    woont: تعيش
+    in: في
+    klein: صغير
+    huis: بيت
+    Op: يوم
+    maandag: الاثنين
+    ligt: يوجد
+    er: هناك
+    dikke: سميك
+    brief: خطاب
+    van: من
+    mat: سجادة
+    leest: تقرأ
+    keer: مرة
+    maar: لكن
+    zij: هي
+    begrijpt: تفهم
+    geen: لا
+    woord: كلمة
+    pakt: تأخذ
+    haar: ـها (ملكها)
+    telefoon: هاتف
+    en: و
+    zegt: تقول
+    tegen: إلى/لـ
+    kat: قطة
+    Ik: أنا
+    heb: قد (مساعد)
+    gebeld: اتصلت
+    Nu: الآن
+    moet: يجب/عليّ
+    wachten: أنتظر
+- key: s2
+  source: f4ea450e955631f5
+  translation: 'بعد ساعة، ما زالت صوفي على الهاتف. موسيقى الانتظار بسيطة: عشر نغمات، ثم عشر نغمات مرة أخرى. وبينما تجلس على
+    الأريكة، تدندن اللحن معها. تقول: «عليّ أن أنتظر، لكنني اتصلت، لذا سأبقى».'
+  glosses:
+    Na: بعد
+    uur: ساعة
+    zit: تجلِس
+    nog: ما زال
+    steeds: باستمرار
+    aan: على
+    telefoon: الهاتف
+    wachtmuziek: موسيقى الانتظار
+    is: تكون
+    simpel: بسيطة
+    noten: نغمات
+    en: و
+    dan: ثم
+    weer: مرة أخرى
+    Terwijl: بينما
+    zij: هي
+    op: على
+    bank: الأريكة
+    neuriet: تدندن
+    melodie: اللحن
+    mee: معها
+    Ik: أنا
+    moet: يجب/عليّ
+    wachten: أنتظر
+    zegt: تقول
+    maar: لكن
+    heb: قد (مساعد)
+    gebeld: اتصلت
+    dus: لذا
+    blijf: أبقى
+- key: s3
+  source: 6e5097057b30f26b
+  translation: 'يوم الثلاثاء تبحث صوفي في الخزانة وتجد نايًا قديمًا لأخيها. وبينما تُعزَف موسيقى الانتظار، تعزف صوفي النغمات
+    نفسها معها. يطرق الجار غاضبًا على الحائط، لكن على صوفي أن تنتظر، لذا تواصل العزف. تقول: «لقد اتصلت عشرين مرة بالفعل».'
+  glosses:
+    Op: يوم
+    dinsdag: الثلاثاء
+    zoekt: تبحث
+    in: في
+    kast: الخزانة
+    en: و
+    vindt: تجد
+    oude: قديم
+    blokfluit: ناي خشبي
+    van: لـ
+    haar: ـها (ملكها)
+    broer: أخ
+    Terwijl: بينما
+    wachtmuziek: موسيقى الانتظار
+    speelt: تُعزَف
+    dezelfde: نفس
+    noten: النغمات
+    mee: معها
+    buurman: الجار
+    klopt: يطرق
+    boos: غاضبًا
+    muur: الحائط
+    maar: لكن
+    moet: يجب/على
+    wachten: أنتظر
+    dus: لذا
+    zij: هي
+    verder: تواصل
+    Ik: أنا
+    heb: قد (مساعد)
+    gebeld: اتصلت
+    zegt: تقول
+    al: بالفعل
+    keer: مرة
+- key: s4
+  source: 489fbe8800971f44
+  translation: 'يوم الأربعاء يعرف الشارع كله موسيقى الانتظار. وبينما تعزف صوفي على شرفتها، يرقص ثلاثمئة جار في الشارع. يقرع
+    رئيس البلدية الجرس ويسأل إن كانت تريد العزف في عيد المدينة الكبير. تقول صوفي: «لا، عليّ أن أنتظر».'
+  glosses:
+    Op: يوم
+    woensdag: الأربعاء
+    kent: يعرف
+    hele: كل
+    straat: الشارع
+    wachtmuziek: موسيقى الانتظار
+    Terwijl: بينما
+    haar: ـها (ملكها)
+    balkon: الشرفة
+    speelt: تعزف
+    dansen: يرقص
+    buren: الجيران
+    burgemeester: رئيس البلدية
+    belt: يقرع
+    aan: الجرس
+    en: و
+    vraagt: يسأل
+    of: إن/هل
+    zij: هي
+    grote: الكبير
+    stadsfeest: عيد المدينة
+    wil: تريد
+    spelen: تعزف
+    Nee: لا
+    zegt: تقول
+    ik: أنا
+    moet: يجب/عليّ
+    wachten: أنتظر
+- key: s5
+  source: bd2fdff141830aac
+  translation: 'بعد ثلاثة أيام يُسمَع فجأة صوت حقيقي: «أنت تتحدث مع السيد باكر من مكتب الضرائب»، فتقفز صوفي. تصرخ: «لقد اتصلت!
+    وعليّ أن أنتظر منذ ثلاثة أيام!» يضحك الرجل ويقول: «سيدتي، كان الخطاب خطأً صغيرًا. لكننا كنا نستمع إلى نايك طوال ذلك الوقت.
+    هل تريدين أن تأتي إلى أوركسترا عندنا؟» وبينما تقول صوفي «نعم»، تبدأ موسيقى الانتظار بالعزف من جديد.'
+  glosses:
+    Na: بعد
+    dagen: أيام
+    klinkt: يُسمَع
+    er: هناك
+    ineens: فجأة
+    echte: حقيقي
+    stem: صوت
+    U: أنت (رسمي)
+    spreekt: تتحدث
+    met: مع
+    heer: السيد
+    van: من
+    en: و
+    springt: تقفز
+    op: فوق (تقفز)
+    Ik: أنا
+    heb: قد (مساعد)
+    gebeld: اتصلت
+    roept: تصرخ
+    zij: هي
+    moet: يجب/عليّ
+    wachten: أنتظر
+    al: منذ
+    man: الرجل
+    lacht: يضحك
+    zegt: يقول
+    Mevrouw: سيدتي
+    brief: الخطاب
+    was: كان
+    foutje: خطأ صغير
+    Maar: لكن
+    wij: نحن
+    hebben: قد (مساعد)
+    die: ذلك
+    tijd: الوقت
+    naar: إلى
+    uw: خاصتك (رسمي)
+    blokfluit: الناي الخشبي
+    geluisterd: استمعنا
+    Wilt: هل تريد
+    in: في
+    ons: خاصتنا
+    orkest: الأوركسترا
+    komen: تأتي
+    Terwijl: بينما
+    ja: نعم
+    begint: تبدأ
+    wachtmuziek: موسيقى الانتظار
+    weer: مرة أخرى
+    te: أن (مصدرية)
+    spelen: تعزف
+words:
+  de brief: الرسالة
+  de telefoon: الهاتف
+  de wachtmuziek: موسيقى الانتظار
+  de blokfluit: الناي الخشبي
+  de buurman: الجار
+  het orkest: الأوركسترا

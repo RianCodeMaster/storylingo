@@ -1,0 +1,98 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Paul has a talking fridge that only wants chocolate, but Paul wants vegetables — until a very strange chocolate bar
+  saves the day.
+summary_source: 2866dcaf0f19dd56
+gestures:
+  have: Hug an invisible giant box against your chest and nod proudly, like you own the whole world.
+  want: Stretch both arms out in front of you, open and close your hands greedily, and lick your lips.
+  speak: Put your hand next to your mouth and flap it like a chattering beak while saying 'blah blah blah'.
+targets:
+  hat:
+    gloss: has
+    note: German verb endings change; 'hat' is the he/she form of 'haben', like English 'has'.
+  will:
+    gloss: wants
+    note: German 'will' means 'wants'; English 'will' is a future helper.
+  spricht:
+    gloss: speaks
+    note: In German the vowel changes in 'sprechen' to 'spricht' for he/she; English 'speaks' adds -s.
+scenes:
+- key: s1
+  source: 6538747ffe8d3bed
+  translation: 'Paul has a fridge. The fridge is called Klaus. Klaus speaks. Klaus speaks every day: “Hello Paul!”'
+  glosses:
+    hat: has
+    Kühlschrank: fridge
+    heißt: is called
+    spricht: speaks
+    jeden: every
+    Tag: day
+- key: s2
+  source: 49d47b6360eb39b3
+  translation: Klaus wants chocolate. Klaus wants 1,000 bars of chocolate. Paul wants vegetables. Paul wants broccoli and
+    carrots.
+  glosses:
+    will: wants
+    Schokolade: chocolate
+    Tafeln: bars
+    Gemüse: vegetables
+    Brokkoli: broccoli
+    und: and
+    Karotten: carrots
+- key: s3
+  source: 96323d8ccf464b9a
+  translation: 'Paul has broccoli in the fridge. But Klaus doesn''t want carrots. Klaus says loudly: “I want chocolate!” Paul
+    is hungry.'
+  glosses:
+    hat: has
+    Brokkoli: broccoli
+    im: in the
+    Kühlschrank: fridge
+    Aber: but
+    will: wants
+    keine: "no"
+    Karotten: carrots
+    spricht: says
+    laut: loudly
+    Ich: I
+    Schokolade: chocolate
+    Hunger: hunger
+- key: s4
+  source: 0aec376488e70d2a
+  translation: Klaus speaks very loudly. The fridge has a big door. Paul has an idea. Paul goes to the supermarket.
+  glosses:
+    spricht: speaks
+    sehr: very
+    laut: loudly
+    Kühlschrank: fridge
+    hat: has
+    große: big
+    Tür: door
+    Idee: idea
+    geht: goes
+    in: into
+    Supermarkt: supermarket
+- key: s5
+  source: 963dae63b107035c
+  translation: 'Paul has chocolate with broccoli. Klaus wants the chocolate. Klaus eats and says: “Mmh, broccoli!” Now Klaus
+    wants vegetables.'
+  glosses:
+    hat: has
+    Schokolade: chocolate
+    mit: with
+    Brokkoli: broccoli
+    will: wants
+    isst: eats
+    und: and
+    spricht: says
+    Jetzt: now
+    Gemüse: vegetables
+words:
+  der Kühlschrank: the fridge
+  die Schokolade: the chocolate
+  das Gemüse: the vegetables
+  der Brokkoli: the broccoli
+  der Supermarkt: the supermarket
+  die Tür: the door

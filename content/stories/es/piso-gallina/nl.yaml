@@ -1,0 +1,250 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Sofía woont in een flat in Madrid met vier huisgenoten en een zeer serieuze kip, Pepa, die beslist wie de badkamer
+  schoonmaakt, tot een zak maïs en een klassiek concert Pepa's echte geheim onthullen.
+summary_source: a14f733f7ae7d2bd
+gestures:
+  would_like: Leg beide handen op je hart, sluit je ogen en zucht alsof je van een enorme taart droomt.
+  however: Steek één platte hand op en draai die dan scherp om, zodat de rug van je hand te zien is, alsof je een pannenkoek
+    omkeert.
+  when: Knipper één keer met je vingers en wijs naar een denkbeeldige klok, alsof er net een magisch moment begint.
+targets:
+  me gustaría:
+    gloss: ik zou graag willen
+    note: 'Spaans: me gustaría + infinitief; Nederlands: ik zou graag ... willen.'
+  sin embargo:
+    gloss: echter
+    note: Staat vaak aan het begin met komma; Nederlands 'echter' kan ook middenin staan.
+  cuando:
+    gloss: wanneer/als
+    note: Betekent 'wanneer/als'; na cuando geen toekomende tijd voor toekomst.
+scenes:
+- key: s1
+  source: bbb74c87b286d531
+  translation: In een klein flatje in Madrid woont Sofía met vier huisgenoten en een kip. De kip heet Pepa en is erg serieus.
+    Wanneer Sofía 's ochtends opstaat, staat er altijd een enorme rij voor de badkamer. Pepa staat bij de deur en kijkt naar
+    iedereen als een rechter.
+  glosses:
+    En: in
+    piso: flat
+    pequeño: klein
+    de: van
+    vive: woont
+    con: met
+    compañeros: huisgenoten
+    "y": en
+    gallina: kip
+    se: zich
+    llama: heet
+    es: is
+    muy: heel
+    seria: serieus
+    Cuando: wanneer
+    levanta: opstaat
+    por: in
+    mañana: ochtend
+    siempre: altijd
+    hay: er is
+    cola: rij
+    enorme: enorme
+    delante: voor
+    del: van de
+    baño: badkamer
+    está: staat
+    puerta: deur
+    mira: kijkt
+    a: naar
+    todos: iedereen
+    como: als
+    juez: rechter
+- key: s2
+  source: 19c339eacc563ffe
+  translation: 'Pepa heeft een heel eenvoudig systeem om te beslissen wie de badkamer schoonmaakt. Wanneer iemand naar binnen
+    wil, kijkt Pepa naar diens nagels: als ze vies zijn, schreeuwt ze als een politieagent. Als de nagels echter schoon zijn,
+    mag de persoon naar binnen. ''Ik zou graag een normale badkamer hebben'', zegt Sofía, maar Pepa luistert niet.'
+  glosses:
+    tiene: heeft
+    sistema: systeem
+    muy: heel
+    simple: eenvoudig
+    para: om
+    decidir: beslissen
+    quién: wie
+    limpia: schoonmaakt
+    baño: badkamer
+    Cuando: wanneer
+    alguien: iemand
+    quiere: wil
+    entrar: binnenkomen
+    le: hem/haar
+    mira: kijkt
+    uñas: nagels
+    si: als
+    están: zijn
+    sucias: vies
+    grita: schreeuwt
+    como: als
+    policía: politieagent
+    Sin: zonder
+    embargo: echter
+    limpias: schoon
+    persona: persoon
+    puede: kan
+    pasar: binnenkomen
+    Me: mij
+    gustaría: zou willen
+    tener: hebben
+    normal: normaal
+    dice: zegt
+    pero: maar
+    "no": niet
+    escucha: luistert
+- key: s3
+  source: 25be251ce139fafd
+  translation: Op een maandag besluit Pepa dat Sofía elke dag de badkamer schoonmaakt, vier keer per dag. 'Ik zou graag een
+    andere kip hebben', denkt Sofía, maar Pepa is de enige kip in de buurt. Toch accepteert Sofía het, want ze is heel beleefd.
+    Als ze klaar is, glanst de badkamer als een spiegel, en Pepa maakt hem met haar poten weer vies.
+  glosses:
+    lunes: maandag
+    decide: beslist
+    que: dat
+    limpia: schoonmaakt
+    baño: badkamer
+    todos: alle
+    días: dagen
+    veces: keer
+    al: per
+    día: dag
+    Me: mij
+    gustaría: zou willen
+    tener: hebben
+    otra: een andere
+    gallina: kip
+    piensa: denkt
+    pero: maar
+    es: is
+    única: enige
+    del: van de
+    barrio: buurt
+    Sin: zonder
+    embargo: echter
+    acepta: accepteert
+    porque: omdat
+    muy: heel
+    educada: beleefd
+    Cuando: wanneer
+    termina: klaar is
+    brilla: glanst
+    como: als
+    espejo: spiegel
+    "y": en
+    lo: het
+    ensucia: maakt vies
+    vez: keer
+    con: met
+    patas: poten
+- key: s4
+  source: 5213ce244769f1ac
+  translation: 'Sofía is wanhopig: de badkamervloer heeft al driehonderd kippenharen. ''Ik zou willen dat Pepa de badkamer
+    schoonmaakte'', zegt ze tegen haar huisgenoten, ''maar ze schreeuwt alleen maar''. Haar huisgenoten hebben een idee: ze
+    geven Pepa een kleine bezem en een zak maïs. Wanneer Pepa de maïs ziet, rent ze naar de badkamer en sluit de deur.'
+  glosses:
+    está: is
+    desesperada: wanhopig
+    suelo: vloer
+    del: van de
+    baño: badkamer
+    tiene: heeft
+    ya: al
+    pelos: haren
+    de: van
+    gallina: kip
+    Me: mij
+    gustaría: zou willen
+    que: dat
+    limpiara: zou schoonmaken
+    dice: zegt
+    a: tegen
+    sus: haar
+    compañeros: huisgenoten
+    sin: zonder
+    embargo: echter
+    ella: zij
+    solo: alleen maar
+    grita: schreeuwt
+    tienen: hebben
+    idea: idee
+    dan: geven
+    escoba: bezem
+    pequeña: klein
+    "y": en
+    bolsa: zak
+    maíz: maïs
+    Cuando: wanneer
+    ve: ziet
+    corre: rent
+    al: naar de
+    cierra: sluit
+    puerta: deur
+- key: s5
+  source: d96cb13be2c766b5
+  translation: 'Een half uur later opent Sofía heel langzaam de badkamerdeur. Pepa maakt helemaal niets schoon: ze zit in
+    de badkuip, met klassieke muziek, en zingt als een operazangeres. ''Ik zou graag een normale kip zijn'', zegt Pepa, ''maar
+    ik vind warm water heerlijk''. Sinds die dag neemt Pepa elke dag een bad, en wanneer ze klaar is, is de badkamer echt
+    schoon.'
+  glosses:
+    Media: half
+    hora: uur
+    después: later
+    abre: opent
+    puerta: deur
+    del: van de
+    baño: badkamer
+    muy: heel
+    despacio: langzaam
+    "no": niet
+    limpia: maakt schoon
+    nada: niets
+    está: zit
+    en: in
+    bañera: badkuip
+    con: met
+    música: muziek
+    clásica: klassieke
+    "y": en
+    canta: zingt
+    como: als
+    cantante: zangeres
+    de: van
+    ópera: opera
+    Me: mij
+    gustaría: zou willen
+    ser: zijn
+    gallina: kip
+    normal: normaal
+    dice: zegt
+    sin: zonder
+    embargo: echter
+    gusta: bevalt
+    mucho: heel erg
+    agua: water
+    caliente: warm
+    Desde: sinds
+    ese: die
+    día: dag
+    se: zich
+    baña: baadt
+    todos: alle
+    días: dagen
+    cuando: wanneer
+    termina: klaar is
+    limpio: schoon
+    verdad: echt
+words:
+  la gallina: de kip
+  el baño: de badkamer
+  la uña: de nagel
+  la escoba: de bezem
+  el maíz: de maïs
+  la bañera: de badkuip

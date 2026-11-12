@@ -1,0 +1,120 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: بابلو ينتظر الحافلة ليذهب إلى العمل، لكن يصل حمار بنظارات شمسية، ثم تصل حمير كثيرة، ويكتشف أن الحمار هو سائق الحافلة.
+summary_source: f42559beb584bc5d
+gestures:
+  wait: قف جامدًا كالتمثال، انقر على معصمك كأنك تنظر إلى الساعة، وتنهد بصوت عالٍ وأنت تنظر إلى السماء.
+  arrive: افتح ذراعك كأنها باب حافلة وادفع قدمك إلى الأمام مع تعبير مفاجأة سعيد على وجهك.
+  be_state: أشر إلى الأرض بكلتا يديك وجمّد وجهك في تعبير مضحك، سعيد أو غاضب، لتُظهر أين وكيف يكون الشخص.
+targets:
+  espera:
+    gloss: ينتظر
+    note: في الإسبانية يتغير الفعل مع الفاعل، بخلاف العربية التي يبقى فيها الفعل مع الضمير.
+  llega:
+    gloss: يصل
+    note: هو يصل؛ الفعل الإسباني يتصرف مع الفاعل، والعربية تلحق الضمير بالفعل.
+  está:
+    gloss: يكون/يوجد
+    note: تستخدم للمكان والحال، والعربية غالبًا تحذف فعل يكون في الحاضر.
+scenes:
+- key: s1
+  source: c455fb31ab53c508
+  translation: بابلو في موقف الحافلة. بابلو ينتظر الحافلة. بابلو ينتظر وينتظر. إنه يوم الاثنين وبابلو متعب.
+  glosses:
+    está: يوجد
+    en: في
+    parada: موقف
+    del: الـ (de+el)
+    autobús: الحافلة
+    espera: ينتظر
+    "y": و
+    es: هو/يكون
+    lunes: الاثنين
+    cansado: متعب
+- key: s2
+  source: af61d5147030e020
+  translation: يصل حمار إلى الموقف. الحمار يرتدي نظارات شمسية سوداء. الحمار بجانب بابلو. بابلو ليس سعيدًا.
+  glosses:
+    burro: حمار
+    llega: يصل
+    a: إلى
+    parada: الموقف
+    lleva: يرتدي
+    gafas: نظارات
+    de: حرف إضافة
+    sol: شمس
+    negras: سوداء
+    está: يوجد
+    al: إلى الـ (a+el)
+    lado: جانب
+    "no": ليس
+    contento: سعيد
+- key: s3
+  source: 22660fcb86935bee
+  translation: بابلو ينتظر الحافلة. الحافلة لا تصل. الحمار سعيد جدًا. بابلو غاضب جدًا.
+  glosses:
+    espera: ينتظر
+    autobús: الحافلة
+    "no": لا
+    llega: يصل
+    burro: الحمار
+    está: يكون/يوجد
+    muy: جدًا
+    contento: سعيد
+    furioso: غاضب جدًا
+- key: s4
+  source: cca0da87bad8ee7b
+  translation: يصل حمار صغير إلى الموقف. يصل حمار آخر مع حقيبة. الموقف ممتلئ بالحمير. كل حمار ينتظر الحافلة، والحمار ذو النظارات
+    الشمسية في المقدمة.
+  glosses:
+    burro: حمار
+    pequeño: صغير
+    llega: يصل
+    a: إلى
+    parada: الموقف
+    Otro: آخر
+    con: مع
+    maleta: حقيبة
+    está: يوجد/يكون
+    llena: ممتلئة
+    de: بـ
+    burros: حمير
+    Cada: كل
+    espera: ينتظر
+    autobús: الحافلة
+    "y": و
+    gafas: نظارات
+    sol: شمس
+    delante: في المقدمة
+- key: s5
+  source: 6697854f0d841d81
+  translation: 'الحمار ذو النظارات الشمسية هو السائق. يصل الحمار إلى العمل في دقيقتين. بابلو لا ينتظر أكثر. بابلو سعيد ويقول:
+    «شكرًا أيها الحمار!».'
+  glosses:
+    burro: الحمار
+    con: مع
+    gafas: نظارات
+    de: حرف إضافة
+    sol: شمس
+    es: هو/يكون
+    conductor: السائق
+    llega: يصل
+    al: إلى الـ (a+el)
+    trabajo: العمل
+    en: في
+    minutos: دقائق
+    "no": لا
+    espera: ينتظر
+    más: أكثر
+    está: يكون/يوجد
+    feliz: سعيد
+    "y": و
+    dice: يقول
+words:
+  el autobús: الحافلة
+  la parada: الموقف
+  el burro: الحمار
+  las gafas: النظارات
+  la maleta: الحقيبة
+  el conductor: السائق

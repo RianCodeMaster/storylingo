@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: vorstellung-katze
+language: de
+level: B1
+tags: [algemeen, werk]
+narrator: jessica
+theme: Anna hat ein Vorstellungsgespräch per Video, als ihre Katze plötzlich auf die Tastatur springt und alle Fragen besser beantwortet als sie
+scenes: 5
+targets:
+  - {text: "als", gloss: "when (past, verb at the end)", concept: when_past}
+  - {text: "weil", gloss: "because (verb at the end)", concept: because}
+  - {text: "hätte", gloss: "would have", concept: would_have}

@@ -8,6 +8,7 @@
 #   provider:  piper   free, on this machine (localgen/server.py).
 #                      Models: .venv-local/Scripts/python -m piper.download_voices --data-dir voices/piper <name>
 #              gemini  paid (GEMINI_API_KEY with credit)
+#              elevenlabs  paid, the most natural (ELEVENLABS_API_KEY). Optional: speakers, narrators, teacher.
 #              New provider: one class with a speech() method in pipeline/media.py, registered in SPEAKERS.
 #   settings:  used for every style unless the style says otherwise.
 #   styles:    emotion -> how to speak it. Emotions without a style use "neutral".
@@ -76,17 +77,26 @@ recognition:
   jawohl: ja
 
 voice:
-  provider: piper
+  # ElevenLabs (paid; ELEVENLABS_API_KEY in pipeline/.env). The Piper voice that was here is in git history.
+  provider: elevenlabs
   pause: 0.5
   question: amused
   word: neutral
-  settings: {length_scale: 1.1, noise_w_scale: 1.0, noise_scale: 0.6}
+  # Stories take turns between the narrators (each story always the same one); questions, words and the teacher's
+  # reactions are always spoken by the teacher. IDs from elevenlabs.io > Voices.
+  speakers: {george: JBFqnCBsd6RMkjVDRZzb, charlie: IKne3meq5aSn9XLyUdCD, jessica: cgSgspJ2msm6clMCkdW9}
+  narrators: [george, charlie, jessica]
+  teacher: jessica
+  # eleven_v3 acts; stability 0.0 ("creative") lets it act the most.
+  settings: {model: eleven_v3, stability: 0.0}
+  # Single words and phrases: no acting needed, so Flash (half the credits per character).
+  words: {model: eleven_flash_v2_5, stability: 0.5, tag: ""}
   styles:
-    # Most sentences: the high-quality Thorsten, the most fluent. The same speaker recorded the emotions below.
-    neutral:   {model: de_DE-thorsten-high, length_scale: 1.15, noise_w_scale: 0.9}
-    amused:    {model: de_DE-thorsten_emotional-medium, speaker: amused}
-    angry:     {model: de_DE-thorsten_emotional-medium, speaker: angry}
-    disgusted: {model: de_DE-thorsten_emotional-medium, speaker: disgusted}
-    sleepy:    {model: de_DE-thorsten_emotional-medium, speaker: sleepy}
-    surprised: {model: de_DE-thorsten_emotional-medium, speaker: surprised}
-    whisper:   {model: de_DE-thorsten_emotional-medium, speaker: whisper}
+    # v3 takes stage directions as audio tags (in English, for every language): each sentence's emotion becomes one.
+    neutral:   {}
+    amused:    {tag: "[playfully]"}
+    angry:     {tag: "[angry]"}
+    disgusted: {tag: "[disgusted]"}
+    sleepy:    {tag: "[sleepy]"}
+    surprised: {tag: "[gasps] [excited]"}
+    whisper:   {tag: "[whispers]"}

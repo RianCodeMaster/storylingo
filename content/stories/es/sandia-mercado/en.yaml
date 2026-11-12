@@ -1,0 +1,121 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Carmen buys an enormous watermelon at the market, but it is far too big for her small house, and inside it she finds
+  a hundred tiny watermelons.
+summary_source: f90d4b6771a2b601
+gestures:
+  buy: Hold an invisible giant watermelon with both arms, then slap a coin into an imaginary shopkeeper's hand and wink.
+  be: Point at yourself with both thumbs, then stretch your arms out wide to show how enormously big something is.
+  want: Stretch both hands forward like a hungry zombie reaching for a watermelon and lick your lips.
+targets:
+  compra:
+    gloss: buys
+    note: Spanish verb endings show who does it; English often needs a pronoun like 'she'.
+  es:
+    gloss: is
+    note: Spanish has two verbs for 'to be'; English has only one.
+  quiere:
+    gloss: wants
+    note: Spanish changes the ending to show 'he/she wants'; English uses the pronoun.
+scenes:
+- key: s1
+  source: f197b1683a41a355
+  translation: Carmen goes to the market. Carmen buys a watermelon. The watermelon is very big. It is enormous.
+  glosses:
+    va: goes
+    al: to the
+    mercado: market
+    compra: buys
+    sandía: watermelon
+    es: is
+    muy: very
+    grande: big
+    enorme: enormous
+- key: s2
+  source: 622a8525af55e0e8
+  translation: 'Carmen wants to pay. The watermelon is very expensive: one hundred euros. Carmen buys the watermelon. The
+    man at the market is happy.'
+  glosses:
+    quiere: wants
+    pagar: to pay
+    sandía: watermelon
+    es: is
+    muy: very
+    cara: expensive
+    euros: euros
+    compra: buys
+    señor: man
+    del: of the
+    mercado: market
+    feliz: happy
+- key: s3
+  source: 8c6073eccc3330a2
+  translation: Carmen wants to go home. The watermelon is very heavy. A man with a small truck helps Carmen. The truck is
+    small and the watermelon is enormous.
+  glosses:
+    quiere: wants
+    ir: to go
+    a: to
+    casa: home
+    sandía: watermelon
+    es: is
+    muy: very
+    pesada: heavy
+    señor: man
+    con: with
+    camión: truck
+    pequeño: small
+    ayuda: helps
+    "y": and
+    enorme: enormous
+- key: s4
+  source: 49b2696acbbce86e
+  translation: Carmen is at her house. But the watermelon does not fit through the door. The door is very small. Carmen pushes
+    the watermelon. She does not want to sleep in the street.
+  glosses:
+    está: is
+    en: at
+    su: her
+    casa: house
+    Pero: But
+    sandía: watermelon
+    "no": not
+    cabe: fits
+    puerta: door
+    es: is
+    muy: very
+    pequeña: small
+    empuja: pushes
+    quiere: wants
+    dormir: to sleep
+    calle: street
+- key: s5
+  source: a161fb6a2ca22777
+  translation: Carmen wants to eat the watermelon. She cuts the watermelon with a small knife. Inside there are a hundred
+    small watermelons! Carmen is happy. But she does not buy any more watermelons.
+  glosses:
+    quiere: wants
+    comer: to eat
+    sandía: watermelon
+    Corta: cuts
+    con: with
+    cuchillo: knife
+    pequeño: small
+    Dentro: Inside
+    hay: there are
+    sandías: watermelons
+    pequeñas: small
+    es: is
+    feliz: happy
+    Pero: But
+    "no": not
+    compra: buys
+    más: more
+words:
+  la sandía: the watermelon
+  el mercado: the market
+  comprar: to buy
+  el camión: the truck
+  la puerta: the door
+  el cuchillo: the knife

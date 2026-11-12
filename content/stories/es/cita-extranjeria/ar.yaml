@@ -1,0 +1,258 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: دانيال يحتاج موعداً في مكتب شؤون الأجانب، فأول موعد متاح في 2030، فيبني آلة زمن في مطبخه — ثم تأخذها جارته إلى القمر.
+summary_source: e3a8158eff5bbe47
+gestures:
+  although: 'اهز كتفاً واحداً، وادفع عائقاً صغيراً متخيلاً بيدك، ثم أومئ بقوة كأنك تقول: «ومع ذلك!»'
+  would_have_to: تنهّد بصوت عالٍ وتظاهر بحمل صندوق ضخم ثقيل على ظهرك بينما تأخذ خطوة بطيئة ودرامية.
+  had_asked: اطرق ثلاث مرات على باب متخيل ثم مدّ يديك كمتسول يطلب شيئاً.
+targets:
+  aunque:
+    gloss: رغم أن
+    note: أداة ربط للتنازل؛ تقابل «رغم أن» في العربية.
+  tendría que:
+    gloss: سيتعين عليه أن
+    note: شرط + que + مصدر؛ تقابل «سيكون عليه أن».
+  había pedido:
+    gloss: كان قد طلب
+    note: 'ماضٍ بعيد: haber في الماضي + اسم المفعول؛ تقابل «كان قد طلب».'
+scenes:
+- key: s1
+  source: bfd859ee2eaf412e
+  translation: 'دانيال يعيش في مدريد ويحتاج موعداً في مكتب شؤون الأجانب. كان قد طلب موعداً طوال ثمانية أشهر، لكن أول موعد
+    متاح هو في عام 2030. رغم أنه يتصل بالهاتف كل صباح، فالرد دائماً هو نفسه: «لا توجد مواعيد». سيتعين على دانيال الانتظار
+    ست سنوات، وهذا كثير جداً.'
+  glosses:
+    vive: يعيش
+    en: في
+    "y": و
+    necesita: يحتاج
+    cita: موعد
+    oficina: مكتب
+    de: لـ
+    extranjería: شؤون الأجانب
+    Había: كان قد
+    pedido: طلب
+    durante: لمدة
+    meses: أشهر
+    pero: لكن
+    libre: متاح
+    es: تكون
+    año: عام
+    Aunque: رغم أن
+    llama: يتصل
+    al: إلى الهاتف
+    teléfono: هاتف
+    cada: كل
+    mañana: صباح
+    respuesta: الرد
+    siempre: دائماً
+    misma: نفسها
+    "No": لا
+    hay: يوجد
+    citas: مواعيد
+    tendría: سيتعين
+    que: أن
+    esperar: ينتظر
+    años: سنوات
+    eso: هذا
+    demasiado: كثير جداً
+- key: s2
+  source: b3cf233e159a5bcb
+  translation: يقرر دانيال بناء آلة زمن في مطبخه، رغم أنه لا يعرف شيئاً عن الفيزياء. يستخدم الميكروويف ومروحة ضخمة وسبعة وأربعين
+    متراً من ورق الألمنيوم. تقول جارته إن الأمر مستحيل، لكن دانيال سيتعين عليه الوصول إلى 2030 بطريقة ما. كان قد طلب المساعدة
+    من ثلاثة علماء، لكن الثلاثة ضحكوا منه.
+  glosses:
+    decide: يقرر
+    construir: يبني
+    máquina: آلة
+    del: الـ
+    tiempo: الزمن
+    en: في
+    su: الخاص به
+    cocina: مطبخ
+    aunque: رغم أن
+    "no": لا
+    sabe: يعرف
+    nada: شيئاً
+    de: عن
+    física: الفيزياء
+    Usa: يستخدم
+    microondas: الميكروويف
+    ventilador: مروحة
+    enorme: ضخمة
+    "y": و
+    metros: أمتار
+    papel: ورق
+    aluminio: ألمنيوم
+    vecina: الجارة
+    dice: تقول
+    que: إن
+    es: يكون
+    imposible: مستحيل
+    pero: لكن
+    tendría: سيتعين
+    llegar: يصل
+    a: إلى
+    alguna: أي
+    manera: طريقة
+    Había: كان قد
+    pedido: طلب
+    ayuda: مساعدة
+    científicos: علماء
+    se: ضمير
+    rieron: ضحكوا
+    él: منه
+- key: s3
+  source: 8b8a5c0932eeaac0
+  translation: 'يوم الثلاثاء، يضع دانيال تاريخ 2030 في الميكروويف ويضغط الزر. رغم وجود دخان كثيف وضجيج رهيب، تعمل الآلة: يظهر
+    دانيال في 2030. في الشارع سيارات طائرة والناس يلبسون أحذية من ذهب، لكن مكتب شؤون الأجانب ما زال في المبنى الرمادي نفسه.
+    سيتعين على دانيال الدخول بسرعة، لأن موعده في التاسعة.'
+  glosses:
+    martes: الثلاثاء
+    pone: يضع
+    fecha: التاريخ
+    en: في
+    microondas: الميكروويف
+    "y": و
+    pulsa: يضغط
+    botón: الزر
+    Aunque: رغم أن
+    hay: يوجد
+    mucho: كثير من
+    humo: دخان
+    ruido: ضجيج
+    terrible: رهيب
+    máquina: الآلة
+    funciona: تعمل
+    aparece: يظهر
+    calle: الشارع
+    coches: سيارات
+    voladores: طائرة
+    gente: الناس
+    lleva: يرتدي
+    zapatos: أحذية
+    de: من
+    oro: ذهب
+    pero: لكن
+    oficina: مكتب
+    extranjería: الأجانب
+    todavía: ما زال
+    está: يوجد
+    mismo: نفس
+    edificio: المبنى
+    gris: رمادي
+    tendría: سيتعين
+    que: أن
+    entrar: يدخل
+    rápido: بسرعة
+    porque: لأن
+    su: الخاص به
+    cita: الموعد
+    es: يكون
+    a: عند
+- key: s4
+  source: fdb337b92e7ccb70
+  translation: 'في المكتب، تقول له موظفة لطيفة جداً: «كان موعدك أمس». يشرح دانيال أنه كان قد طلب ذلك الموعد في 2024، فتبتسم
+    الموظفة: «آسفة، في 2030 نعطي المواعيد عبر الإنترنت فقط». رغم أن دانيال لديه آلة زمن، لا يوجد إنترنت في 2030، لأن الإنترنت
+    اختفى في 2029. تضيف الموظفة: «سيتعين عليك العودة في 2031؛ هناك موعد متاح في مارس».'
+  glosses:
+    En: في
+    oficina: المكتب
+    empleada: الموظفة
+    muy: جداً
+    amable: لطيفة
+    le: له
+    dice: تقول
+    Su: موعدك
+    cita: الموعد
+    era: كان
+    ayer: أمس
+    explica: يشرح
+    que: أن
+    había: كان قد
+    pedido: طلب
+    esa: ذلك
+    "y": و
+    sonríe: تبتسم
+    Lo: الأمر
+    siento: آسف
+    solo: فقط
+    damos: نعطي
+    citas: مواعيد
+    por: عبر
+    internet: الإنترنت
+    Aunque: رغم أن
+    tiene: لديه
+    máquina: آلة
+    del: الـ
+    tiempo: الزمن
+    "no": لا
+    porque: لأن
+    desapareció: اختفى
+    añade: تضيف
+    Tendría: سيتعين
+    volver: يعود
+    hay: يوجد
+    libre: متاح
+    marzo: مارس
+- key: s5
+  source: e516048b4e54e962
+  translation: 'يعود دانيال إلى مطبخه، في 2024، وينظر إلى الهاتف: يوجد موعد متاح غداً في الثامنة! رغم أنه يصرخ من الفرح، تدخل
+    جارته وتقول: «لقد استخدمت آلتك للذهاب إلى 2050؛ هناك أنت بالفعل إسباني». كان دانيال قد طلب موعداً طوال ثمانية أشهر والآن
+    لم يعد يحتاجه. لكن سيتعين عليه إعادة الآلة إلى القمر، لأن جارته أوقفتها هناك.'
+  glosses:
+    vuelve: يعود
+    a: إلى
+    su: الخاص به
+    cocina: مطبخ
+    en: في
+    "y": و
+    mira: ينظر إلى
+    móvil: الهاتف المحمول
+    hay: يوجد
+    cita: موعد
+    libre: متاح
+    mañana: غداً
+    Aunque: رغم أن
+    grita: يصرخ
+    de: من
+    alegría: الفرح
+    vecina: الجارة
+    entra: تدخل
+    dice: تقول
+    He: قد
+    usado: استخدمت
+    tu: خاصتك
+    máquina: الآلة
+    para: لـ
+    ir: أذهب
+    allí: هناك
+    tú: أنت
+    ya: بالفعل
+    eres: تكون
+    español: إسباني
+    había: كان قد
+    pedido: طلب
+    durante: لمدة
+    meses: أشهر
+    ahora: الآن
+    "no": لا
+    la: إياها
+    necesita: يحتاج
+    Pero: لكن
+    tendría: سيتعين
+    que: أن
+    devolver: يعيد
+    luna: القمر
+    porque: لأن
+    ha: قد
+    aparcado: أوقفت
+words:
+  la cita: الموعد
+  la máquina: الآلة
+  el microondas: الميكروويف
+  el ventilador: المروحة
+  el aluminio: الألمنيوم
+  la vecina: الجارة

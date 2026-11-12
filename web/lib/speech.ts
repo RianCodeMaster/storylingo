@@ -61,7 +61,7 @@ export function narrate(audioUrl: string | null, text: string, language: string,
 export const phrases = (language: string) => LANGUAGES[language].teacher!;
 
 // Raise when the clips are made again (storylingo.py feedback), so browsers fetch the new files.
-const FEEDBACK_VERSION = 5;
+const FEEDBACK_VERSION = 6;
 
 /**
  * React to an answer in the story's native voice; the browser voice only if the clip is missing. Returns the line.

@@ -1,0 +1,439 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: trein-zee
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A1
+  theme: Bram zit in de trein naar zijn werk in Utrecht, maar de trein gaat naar de zee; op het strand staat zijn baas
+  scenes: 5
+  targets:
+  - text: zit
+    gloss: sits
+    concept: sit
+    kind: word
+  - text: gaat naar
+    gloss: goes to
+    concept: go_to
+    kind: phrase
+  - text: staat
+    gloss: stands
+    concept: stand
+    kind: word
+  narrator: charlie
+story:
+  title: Bram en de trein naar de zee
+  summary: Bram sits on the train to work, but the train goes to the sea, where his boss is standing on the beach — and then
+    a giant fish takes them home.
+  gestures:
+  - concept: sit
+    description: Squat down suddenly onto an invisible chair, wiggle your bottom twice and fold your hands like you are reading
+      a book.
+    emoji: 🪑
+  - concept: go_to
+    description: Stomp one big step forward while both arms shoot out in front of you like a train leaving the station, and
+      say 'toot toot!'
+    emoji: 🚂
+  - concept: stand
+    description: Jump up very straight like a statue, arms glued to your sides, chin high, and freeze for two seconds.
+    emoji: 🧍
+  scenes:
+  - key: s1
+    text: Bram zit in de trein. De trein gaat naar Utrecht. Bram zit bij het raam. Hij leest een boek.
+    image_prompt: 'Flat cartoon drawing: a small round man with a bald head, a big orange beard, a blue raincoat and yellow
+      boots sits by the window of a train, reading a small green book.'
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Zit Bram in de trein?
+      options: [ja, nee]
+      answer: ja
+      target: zit
+    - key: s1q2
+      kind: either_or
+      prompt: Gaat de trein naar Utrecht of naar de zee?
+      options: [naar Utrecht, naar de zee]
+      answer: naar Utrecht
+      target: gaat naar
+    - key: s1q3
+      kind: who_what
+      prompt: Wie zit in de trein?
+      options: [Bram, de baas, de vis]
+      answer: Bram
+      target: zit
+    - key: s1q4
+      kind: yes_no
+      prompt: Zit Bram op een fiets?
+      options: [ja, nee]
+      answer: nee
+      target: zit
+    glossary:
+    - word: zit
+      lemma: zitten
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: trein
+      lemma: de trein
+      level: A1
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: bij
+      lemma: bij
+      level: A1
+    - word: raam
+      lemma: het raam
+      level: A2
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: leest
+      lemma: lezen
+      level: A1
+    - word: boek
+      lemma: het boek
+      level: A1
+    voice:
+    - text: Bram zit in de trein.
+      emotion: neutral
+    - text: De trein gaat naar Utrecht.
+      emotion: neutral
+    - text: Bram zit bij het raam.
+      emotion: neutral
+    - text: Hij leest een boek.
+      emotion: sleepy
+  - key: s2
+    text: De trein gaat naar de zee! Bram zit en hij kijkt. De zee is groot en blauw. Bram is niet blij.
+    image_prompt: 'Flat cartoon drawing: the same small round man with a bald head, orange beard, blue raincoat and yellow
+      boots sits inside the train and stares out of the window at an enormous blue sea, his mouth wide open.'
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Gaat de trein naar de zee?
+      options: [ja, nee]
+      answer: ja
+      target: gaat naar
+    - key: s2q2
+      kind: either_or
+      prompt: Is Bram blij of niet blij?
+      options: [blij, niet blij]
+      answer: niet blij
+    - key: s2q3
+      kind: who_what
+      prompt: Waar gaat de trein naar?
+      options: [naar de zee, naar Utrecht, naar school]
+      answer: naar de zee
+      target: gaat naar
+    - key: s2q4
+      kind: yes_no
+      prompt: Zit Bram bij het raam?
+      options: [ja, nee]
+      answer: ja
+      target: zit
+    glossary:
+    - word: trein
+      lemma: de trein
+      level: A1
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: zee
+      lemma: de zee
+      level: A1
+    - word: zit
+      lemma: zitten
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: kijkt
+      lemma: kijken
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: blauw
+      lemma: blauw
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: blij
+      lemma: blij
+      level: A1
+    voice:
+    - text: De trein gaat naar de zee!
+      emotion: surprised
+    - text: Bram zit en hij kijkt.
+      emotion: neutral
+    - text: De zee is groot en blauw.
+      emotion: surprised
+    - text: Bram is niet blij.
+      emotion: angry
+  - key: s3
+    text: Op het strand staat een man. De man is de baas van Bram. De baas staat in het zand. Hij heeft een rode hoed.
+    image_prompt: 'Flat cartoon drawing: on a sunny beach a very tall thin man in a grey suit and a red hat stands stiffly
+      in the sand with his arms at his sides, the sea behind him.'
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Staat er een man op het strand?
+      options: [ja, nee]
+      answer: ja
+      target: staat
+    - key: s3q2
+      kind: who_what
+      prompt: Wie staat op het strand?
+      options: [de baas van Bram, de moeder van Bram, de vis]
+      answer: de baas van Bram
+      target: staat
+    - key: s3q3
+      kind: either_or
+      prompt: Staat de baas in het zand of in de trein?
+      options: [in het zand, in de trein]
+      answer: in het zand
+      target: staat
+    - key: s3q4
+      kind: yes_no
+      prompt: Staat de baas op een vis?
+      options: [ja, nee]
+      answer: nee
+      target: staat
+    glossary:
+    - word: Op
+      lemma: op
+      level: A1
+    - word: strand
+      lemma: het strand
+      level: A2
+    - word: staat
+      lemma: staan
+      level: A1
+    - word: man
+      lemma: de man
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: baas
+      lemma: de baas
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: zand
+      lemma: het zand
+      level: A2
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: rode
+      lemma: rood
+      level: A1
+    - word: hoed
+      lemma: de hoed
+      level: A2
+    voice:
+    - text: Op het strand staat een man.
+      emotion: surprised
+    - text: De man is de baas van Bram.
+      emotion: neutral
+    - text: De baas staat in het zand.
+      emotion: neutral
+    - text: Hij heeft een rode hoed.
+      emotion: amused
+  - key: s4
+    text: Bram gaat naar het strand. Hij gaat naar zijn baas. Zijn baas staat bij het water. Bram staat ook bij het water.
+    image_prompt: 'Flat cartoon drawing: the small round man with the orange beard and blue raincoat walks across the beach
+      toward the tall boss with the red hat, who stands at the edge of the water; yellow boots and a green book in his hand.'
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Gaat Bram naar het strand?
+      options: [ja, nee]
+      answer: ja
+      target: gaat naar
+    - key: s4q2
+      kind: either_or
+      prompt: Gaat Bram naar zijn baas of naar zijn moeder?
+      options: [naar zijn baas, naar zijn moeder]
+      answer: naar zijn baas
+      target: gaat naar
+    - key: s4q3
+      kind: who_what
+      prompt: Waar staat de baas?
+      options: [bij het water, bij de trein, bij de school]
+      answer: bij het water
+      target: staat
+    - key: s4q4
+      kind: yes_no
+      prompt: Staat de baas in de trein?
+      options: [ja, nee]
+      answer: nee
+      target: staat
+    glossary:
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: strand
+      lemma: het strand
+      level: A2
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: baas
+      lemma: de baas
+      level: A2
+    - word: staat
+      lemma: staan
+      level: A1
+    - word: bij
+      lemma: bij
+      level: A1
+    - word: water
+      lemma: het water
+      level: A1
+    - word: ook
+      lemma: ook
+      level: A1
+    voice:
+    - text: Bram gaat naar het strand.
+      emotion: amused
+    - text: Hij gaat naar zijn baas.
+      emotion: whisper
+    - text: Zijn baas staat bij het water.
+      emotion: whisper
+    - text: Bram staat ook bij het water.
+      emotion: amused
+  - key: s5
+    text: De baas zit op een grote vis. De vis zit in het zand. Bram zit ook op de vis. Nu gaat de vis naar Utrecht!
+    image_prompt: 'Flat cartoon drawing: an enormous fish with a funny surprised face lies in the sand while the small round
+      man with the orange beard and the tall boss with the red hat both sit on its back, the fish pointing toward a sign that
+      says ''Utrecht''.'
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Zit de baas op een vis?
+      options: [ja, nee]
+      answer: ja
+      target: zit
+    - key: s5q2
+      kind: either_or
+      prompt: Zit de vis in het zand of in het water?
+      options: [in het zand, in het water]
+      answer: in het zand
+      target: zit
+    - key: s5q3
+      kind: who_what
+      prompt: Waar gaat de vis naar?
+      options: [naar Utrecht, naar de zee, naar school]
+      answer: naar Utrecht
+      target: gaat naar
+    - key: s5q4
+      kind: yes_no
+      prompt: Zit Bram op de grond?
+      options: [ja, nee]
+      answer: nee
+      target: zit
+    glossary:
+    - word: baas
+      lemma: de baas
+      level: A2
+    - word: zit
+      lemma: zitten
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: grote
+      lemma: groot
+      level: A1
+    - word: vis
+      lemma: de vis
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: zand
+      lemma: het zand
+      level: A2
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: Nu
+      lemma: nu
+      level: A1
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    voice:
+    - text: De baas zit op een grote vis.
+      emotion: surprised
+    - text: De vis zit in het zand.
+      emotion: disgusted
+    - text: Bram zit ook op de vis.
+      emotion: amused
+    - text: Nu gaat de vis naar Utrecht!
+      emotion: surprised
+  core_words:
+  - lemma: de trein
+    image_prompt: a blue passenger train on tracks
+  - lemma: de zee
+    image_prompt: a wide blue sea with small waves
+  - lemma: het strand
+    image_prompt: a sandy beach next to the sea
+  - lemma: de baas
+    image_prompt: a man standing with a red hat, looking like a boss
+  - lemma: de hoed
+    image_prompt: a red hat
+  - lemma: de vis
+    image_prompt: a large fish lying on sand
+generation:
+  prompt_version: tprs-v3
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 694
+  output_tokens: 4489
+  glossary_version: glossary-v2
+  glossary_input_tokens: 440
+  glossary_output_tokens: 5825
+  core_version: core-v1
+  core_input_tokens: 878
+  core_output_tokens: 361
+  voice_version: voice-v1
+  voice_input_tokens: 420
+  voice_output_tokens: 1478
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1007
+  localize_ar_output_tokens: 4471

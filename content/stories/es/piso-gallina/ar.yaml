@@ -1,0 +1,246 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: صوفيا تشارك شقة في مدريد مع أربعة أشخاص ودجاجة جدّية جدًا اسمها بيبا، التي تقرر من ينظف الحمّام، إلى أن يكشف كيس
+  ذرة وحفل موسيقى كلاسيكية سرّ بيبا الحقيقي.
+summary_source: a14f733f7ae7d2bd
+gestures:
+  would_like: ضع كلتي يديك على قلبك، أغمض عينيك وتنفّس ببطء كأنك تحلم بكعكة ضخمة.
+  however: ارفع يدًا واحدة مسطحة، ثم اقلبها بسرعة لتُظهر ظهر يدك، كأنك تقلب فطيرة.
+  when: افرقع بأصابعك مرة واحدة وأشر إلى ساعة خيالية، كأن لحظة سحرية بدأت للتو.
+targets:
+  me gustaría:
+    gloss: أودّ
+    note: تعبير مهذّب عن الرغبة؛ في العربية يُقابله «أودّ» غالبًا.
+  sin embargo:
+    gloss: ومع ذلك
+    note: رابط استدراك؛ مثل «لكن» أو «ومع ذلك» ويبدأ جملة جديدة غالبًا.
+  cuando:
+    gloss: عندما
+    note: ظرف زمني؛ في العربية «عندما/حين» ويأتي بعده فعل عادة.
+scenes:
+- key: s1
+  source: bbb74c87b286d531
+  translation: في شقة صغيرة في مدريد تعيش صوفيا مع أربعة رفقاء ودجاجة. الدجاجة اسمها بيبا وهي جدّية جدًا. عندما تستيقظ صوفيا
+    في الصباح، يكون هناك دائمًا طابور ضخم أمام الحمّام. بيبا تقف عند الباب وتنظر إلى الجميع مثل قاضٍ.
+  glosses:
+    En: في
+    piso: شقة
+    pequeño: صغيرة
+    de: في
+    vive: تعيش
+    con: مع
+    compañeros: رفقاء سكن
+    "y": و
+    gallina: دجاجة
+    se: نفسها
+    llama: تُدعى
+    es: هي
+    muy: جِدًّا
+    seria: جدّية
+    Cuando: عندما
+    levanta: تستيقظ
+    por: في
+    mañana: الصباح
+    siempre: دائمًا
+    hay: يوجد
+    cola: طابور
+    enorme: ضخم
+    delante: أمام
+    del: الـ
+    baño: الحمّام
+    está: تقف
+    puerta: الباب
+    mira: تنظر
+    a: إلى
+    todos: الجميع
+    como: مثل
+    juez: قاضٍ
+- key: s2
+  source: 19c339eacc563ffe
+  translation: 'لدى بيبا نظام بسيط جدًا لتقرير من ينظف الحمّام. عندما يريد شخص ما الدخول، تنظر بيبا إلى أظافره: إذا كانت متسخة،
+    تصرخ مثل شرطية. ومع ذلك، إذا كانت الأظافر نظيفة، يمكن للشخص أن يمرّ. تقول صوفيا: «أودّ لو كان لديّ حمّام عادي»، لكن بيبا
+    لا تستمع.'
+  glosses:
+    tiene: لديها
+    sistema: نظام
+    muy: جِدًّا
+    simple: بسيط
+    para: لـ
+    decidir: تقرير
+    quién: مَن
+    limpia: ينظف
+    baño: الحمّام
+    Cuando: عندما
+    alguien: شخص ما
+    quiere: يريد
+    entrar: الدخول
+    le: لـه
+    mira: تنظر
+    uñas: الأظافر
+    si: إذا
+    están: تكون
+    sucias: متسخة
+    grita: تصرخ
+    como: مثل
+    policía: شرطية
+    Sin: ومع
+    embargo: ذلك
+    limpias: نظيفة
+    persona: الشخص
+    puede: يمكن
+    pasar: المرور
+    Me: لي
+    gustaría: أودّ
+    tener: أمتلك
+    normal: عادي
+    dice: تقول
+    pero: لكن
+    "no": لا
+    escucha: تستمع
+- key: s3
+  source: 25be251ce139fafd
+  translation: 'في يوم اثنين، تقرر بيبا أن صوفيا تنظف الحمّام كل يوم، أربع مرات في اليوم. تفكر صوفيا: «أودّ لو كان لديّ دجاجة
+    أخرى»، لكن بيبا هي الدجاجة الوحيدة في الحي. ومع ذلك، تقبل صوفيا، لأنها مهذبة جدًا. عندما تنتهي، يلمع الحمّام مثل المرآة،
+    فتعيد بيبا توسيخه بأقدامها.'
+  glosses:
+    lunes: الاثنين
+    decide: تقرر
+    que: أن
+    limpia: تنظف
+    baño: الحمّام
+    todos: كل
+    días: الأيام
+    veces: مرات
+    al: في
+    día: اليوم
+    Me: لي
+    gustaría: أودّ
+    tener: أمتلك
+    otra: أخرى
+    gallina: دجاجة
+    piensa: تفكر
+    pero: لكن
+    es: هي
+    única: الوحيدة
+    del: في
+    barrio: الحي
+    Sin: ومع
+    embargo: ذلك
+    acepta: تقبل
+    porque: لأن
+    muy: جِدًّا
+    educada: مهذبة
+    Cuando: عندما
+    termina: تنتهي
+    brilla: يلمع
+    como: مثل
+    espejo: المرآة
+    "y": و
+    lo: ـه
+    ensucia: توسّخ
+    vez: مرة
+    con: بـ
+    patas: الأقدام
+- key: s4
+  source: 5213ce244769f1ac
+  translation: 'صوفيا يائسة: أرضية الحمّام فيها الآن ثلاثمئة شعرة دجاج. تقول لرفقائها: «أودّ أن تنظف بيبا الحمّام»، «ومع ذلك،
+    هي فقط تصرخ». لدى رفقائها فكرة: يعطون بيبا مكنسة صغيرة وكيس ذرة. عندما ترى بيبا الذرة، تركض إلى الحمّام وتغلق الباب.'
+  glosses:
+    está: هي
+    desesperada: يائسة
+    suelo: أرضية
+    del: الـ
+    baño: الحمّام
+    tiene: فيها
+    ya: الآن
+    pelos: شعيرات
+    de: من
+    gallina: دجاج
+    Me: لي
+    gustaría: أودّ
+    que: أن
+    limpiara: تنظف
+    dice: تقول
+    a: إلى
+    sus: ـها
+    compañeros: الرفقاء
+    sin: ومع
+    embargo: ذلك
+    ella: هي
+    solo: فقط
+    grita: تصرخ
+    tienen: لديهم
+    idea: فكرة
+    dan: يعطون
+    escoba: مكنسة
+    pequeña: صغيرة
+    "y": و
+    bolsa: كيس
+    maíz: ذرة
+    Cuando: عندما
+    ve: ترى
+    corre: تركض
+    al: إلى
+    cierra: تغلق
+    puerta: الباب
+- key: s5
+  source: d96cb13be2c766b5
+  translation: 'بعد نصف ساعة، تفتح صوفيا باب الحمّام ببطء شديد. بيبا لا تنظف شيئًا: إنها في حوض الاستحمام، مع موسيقى كلاسيكية،
+    وتغني مثل مغنية أوبرا. تقول بيبا: «أودّ أن أكون دجاجة عادية، ومع ذلك، يعجبني الماء الساخن كثيرًا». من ذلك اليوم، تستحم
+    بيبا كل يوم، وعندما تنتهي، يكون الحمّام نظيفًا حقًا.'
+  glosses:
+    Media: نصف
+    hora: ساعة
+    después: بعد
+    abre: تفتح
+    puerta: باب
+    del: الـ
+    baño: الحمّام
+    muy: جِدًّا
+    despacio: ببطء
+    "no": لا
+    limpia: تنظف
+    nada: شيئًا
+    está: هي
+    en: في
+    bañera: حوض الاستحمام
+    con: مع
+    música: موسيقى
+    clásica: كلاسيكية
+    "y": و
+    canta: تغني
+    como: مثل
+    cantante: مغنية
+    de: من
+    ópera: أوبرا
+    Me: لي
+    gustaría: أودّ
+    ser: أكون
+    gallina: دجاجة
+    normal: عادية
+    dice: تقول
+    sin: ومع
+    embargo: ذلك
+    gusta: يعجب
+    mucho: كثيرًا
+    agua: الماء
+    caliente: الساخن
+    Desde: من
+    ese: ذلك
+    día: اليوم
+    se: نفسها
+    baña: تستحم
+    todos: كل
+    días: الأيام
+    cuando: عندما
+    termina: تنتهي
+    limpio: نظيف
+    verdad: حقًا
+words:
+  la gallina: الدجاجة
+  el baño: الحمّام
+  la uña: الظُّفر
+  la escoba: المكنسة
+  el maíz: الذرة
+  la bañera: حوض الاستحمام

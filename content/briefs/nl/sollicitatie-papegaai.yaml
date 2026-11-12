@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: sollicitatie-papegaai
+language: nl
+level: A2
+tags: [algemeen, dagelijks]
+narrator: george
+theme: Fleur had een sollicitatiegesprek, maar ze durfde niet te praten; haar papegaai gaf alle antwoorden en kreeg de baan
+scenes: 5
+targets:
+  - {text: "had", gloss: "had", concept: have_past}
+  - {text: "durfde niet", gloss: "did not dare", concept: not_dare, kind: phrase}
+  - {text: "gaf", gloss: "gave", concept: give}

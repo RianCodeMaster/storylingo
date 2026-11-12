@@ -1,0 +1,117 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تشتري كارمن بطيخة ضخمة من السوق، لكنها أكبر من أن تدخل بيتها الصغير، وتجد داخلها مئة بطيخة صغيرة.
+summary_source: f90d4b6771a2b601
+gestures:
+  buy: امسك بطيخة خيالية ضخمة بذراعيك، ثم اصفع عملة في يد بائع خيالي واغمز بعينك.
+  be: أشر إلى نفسك بإبهاميك، ثم ابسط ذراعيك بعرضهما لتبين أن شيئًا ضخم جدًا.
+  want: مدّ يديك إلى الأمام مثل من يتلهف إلى بطيخة ويلعق شفتيه.
+targets:
+  compra:
+    gloss: تشتري
+    note: 'فعل مضارع للغائب المفرد؛ في العربية يتغير حسب الفاعل: هي تشتري.'
+  es:
+    gloss: تكون
+    note: 'في العربية لا نستخدم فعل الكينونة عادة في المضارع: هي كبيرة.'
+  quiere:
+    gloss: تريد
+    note: 'فعل مضارع للغائب المفرد؛ في العربية: هي تريد.'
+scenes:
+- key: s1
+  source: f197b1683a41a355
+  translation: تذهب كارمن إلى السوق. تشتري كارمن بطيخة. البطيخة كبيرة جدًا. إنها ضخمة.
+  glosses:
+    va: تذهب
+    al: إلى
+    mercado: السوق
+    compra: تشتري
+    sandía: البطيخة
+    es: تكون
+    muy: جدًا
+    grande: كبيرة
+    enorme: ضخمة
+- key: s2
+  source: 622a8525af55e0e8
+  translation: 'تريد كارمن أن تدفع. البطيخة غالية جدًا: مئة يورو. تشتري كارمن البطيخة. رجل السوق سعيد.'
+  glosses:
+    quiere: تريد
+    pagar: تدفع
+    sandía: البطيخة
+    es: تكون
+    muy: جدًا
+    cara: غالية
+    euros: يورو
+    compra: تشتري
+    señor: الرجل
+    del: الخاص بـ
+    mercado: السوق
+    feliz: سعيد
+- key: s3
+  source: 8c6073eccc3330a2
+  translation: تريد كارمن أن تذهب إلى البيت. البطيخة ثقيلة جدًا. رجل مع شاحنة صغيرة يساعد كارمن. الشاحنة صغيرة والبطيخة ضخمة.
+  glosses:
+    quiere: تريد
+    ir: أن تذهب
+    a: إلى
+    casa: البيت
+    sandía: البطيخة
+    es: تكون
+    muy: جدًا
+    pesada: ثقيلة
+    señor: الرجل
+    con: مع
+    camión: الشاحنة
+    pequeño: صغيرة
+    ayuda: يساعد
+    "y": و
+    enorme: ضخمة
+- key: s4
+  source: 49b2696acbbce86e
+  translation: كارمن في بيتها. لكن البطيخة لا تدخل من الباب. الباب صغير جدًا. تدفع كارمن البطيخة. لا تريد أن تنام في الشارع.
+  glosses:
+    está: توجد
+    en: في
+    su: ـها
+    casa: البيت
+    Pero: لكن
+    sandía: البطيخة
+    "no": لا
+    cabe: تدخل
+    puerta: الباب
+    es: تكون
+    muy: جدًا
+    pequeña: صغيرة
+    empuja: تدفع
+    quiere: تريد
+    dormir: تنام
+    calle: الشارع
+- key: s5
+  source: a161fb6a2ca22777
+  translation: تريد كارمن أن تأكل البطيخة. تقطع البطيخة بسكين صغير. في الداخل يوجد مئة بطيخة صغيرة! كارمن سعيدة. لكنها لا
+    تشتري المزيد من البطيخ.
+  glosses:
+    quiere: تريد
+    comer: تأكل
+    sandía: البطيخة
+    Corta: تقطع
+    con: بـ
+    cuchillo: السكين
+    pequeño: صغير
+    Dentro: في الداخل
+    hay: يوجد
+    sandías: بطيخات
+    pequeñas: صغيرة
+    es: تكون
+    feliz: سعيدة
+    Pero: لكن
+    "no": لا
+    compra: تشتري
+    más: المزيد
+words:
+  la sandía: البطيخة
+  el mercado: السوق
+  comprar: يشتري
+  el camión: الشاحنة
+  la puerta: الباب
+  el cuchillo: السكين

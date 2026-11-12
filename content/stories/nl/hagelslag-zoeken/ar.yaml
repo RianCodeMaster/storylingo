@@ -1,0 +1,166 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: يبحث يوريس في كل السوبرماركت عن رقائق الشوكولاتة، ويسأل الجميع، وينتهي به الأمر بعشر أنواع غريبة، بينما في البيت
+  لديه بالفعل أربعون عبوة.
+summary_source: 902361908e4fc015
+gestures:
+  search: ضع يديك كمنظار حول عينيك وأدر رأسك ببطء يمينًا ويسارًا مع همهمة كأنك تبحث عن شيء.
+  must: أشر بإصبع صارم نحو نفسك، واضرب الأرض بقدم واحدة، وانفخ خديّك مثل معلّم متسلط.
+  get: مدّ كفّيك المفتوحتين، ثم أغلقهما فجأة واسحبهما إلى صدرك بابتسامة كبيرة كأنك تلتقط هدية طائرة.
+targets:
+  zocht:
+    gloss: بحث / كان يبحث
+    note: الماضي من zoeken؛ يأتي غالبًا مع naar بمعنى «بحث عن»، مثل العربية «بحث عن».
+  moest:
+    gloss: كان عليه / اضطر
+    note: الماضي من moeten؛ يعبّر عن ضرورة في الماضي مثل «كان عليه أن».
+  kreeg:
+    gloss: حصل على
+    note: الماضي من krijgen؛ يعني «حصل على / تلقّى»، وليس «أخذ».
+scenes:
+- key: s1
+  source: 3772a0f331d35b8d
+  translation: بحث يوريس عن رقائق الشوكولاتة في السوبرماركت. بحث في رف الخبز ورف البسكويت. بحث أيضًا في المجمّد، لكنه لم يجد
+    شيئًا. كان عليه أن يسأل سيدة.
+  glosses:
+    zocht: بحث
+    naar: عن
+    hagelslag: رقائق الشوكولاتة
+    in: في
+    supermarkt: السوبرماركت
+    Hij: هو
+    het: أداة تعريف
+    broodvak: رف الخبز
+    en: و
+    koekvak: رف البسكويت
+    ook: أيضًا
+    diepvries: المجمّد
+    maar: لكن
+    vond: وجد
+    niets: لا شيء
+    moest: كان عليه
+    aan: لـ (يسأل)
+    mevrouw: سيدة
+    vragen: يسأل
+- key: s2
+  source: 15a38931455fd89d
+  translation: كان على يوريس أن يسأل رجل المتجر. بحث الرجل معه. بحث تحت التفاح وخلف الحليب. لكن يوريس لم يحصل على رقائق الشوكولاتة.
+  glosses:
+    moest: كان عليه
+    het: ذلك (الشيء)
+    aan: لـ (يسأل)
+    man: الرجل
+    van: خاص بـ
+    winkel: المتجر
+    vragen: يسأل
+    zocht: بحث
+    met: مع
+    hem: إياه
+    mee: معه / معًا
+    Hij: هو
+    onder: تحت
+    appels: التفاحات
+    en: و
+    achter: خلف
+    melk: الحليب
+    Maar: لكن
+    kreeg: حصل على
+    geen: ليس أي
+    hagelslag: رقائق الشوكولاتة
+- key: s3
+  source: f714c33d89306303
+  translation: بحثت أمينة الصندوق في حقيبتها. بحثت تحت صندوق الدفع وفي جيب معطفها. حصل يوريس على كيس صغير من رقائق الشوكولاتة.
+    كان فيه فقط ثلاث حبات، لذلك كان عليه أن يسأل مرة أخرى.
+  glosses:
+    cassière: أمينة الصندوق
+    zocht: بحثت
+    in: في
+    haar: ـها (ملكية)
+    tas: الحقيبة
+    Ze: هي
+    onder: تحت
+    kassa: صندوق الدفع
+    en: و
+    jaszak: جيب المعطف
+    kreeg: حصل على
+    klein: صغير
+    zakje: كيس صغير
+    hagelslag: رقائق الشوكولاتة
+    Er: يوجد
+    zaten: كانت (موجودة)
+    maar: فقط
+    korrels: حبات
+    dus: لذلك
+    moest: كان عليه
+    weer: مرة أخرى
+    vragen: يسأل
+- key: s4
+  source: 80fc0d94e1276c0e
+  translation: 'بحث ولد من المتجر في حوض الكرات. بحث في حذائه وفي قبعته. ثم حصل يوريس على عشرة أنواع من رقائق الشوكولاتة:
+    بنفسجية وخضراء ورقائق بنجوم صغيرة. كان عليه أن يعدّها كلها العشرة.'
+  glosses:
+    jongen: الولد
+    uit: من
+    winkel: المتجر
+    zocht: بحث
+    in: في
+    ballenbak: حوض الكرات
+    Hij: هو
+    zijn: ـه (ملكية)
+    schoen: الحذاء
+    en: و
+    pet: القبعة
+    Toen: ثم
+    kreeg: حصل على
+    soorten: أنواع
+    hagelslag: رقائق الشوكولاتة
+    paarse: بنفسجية
+    groene: خضراء
+    met: بـ
+    sterretjes: نجوم صغيرة
+    moest: كان عليه
+    ze: إياها
+    alle: كل
+    tellen: يعد
+- key: s5
+  source: 7d0471558cd7d610
+  translation: 'بحثت السيدة الأخيرة في حقيبة يدها الضخمة. بحثت وقتًا طويلًا جدًا، وأخيرًا حصل يوريس على النوع العاشر: رقائق
+    شوكولاتة بلمعات صغيرة. كان عليه أن يبكي من الفرح. قالت أمه في البيت: «يوريس، لدينا بالفعل أربعون عبوة رقائق شوكولاتة!»'
+  glosses:
+    laatste: الأخيرة
+    mevrouw: السيدة
+    zocht: بحثت
+    in: في
+    haar: ـها (ملكية)
+    enorme: الضخمة
+    handtas: حقيبة اليد
+    Ze: هي
+    heel: جدًا
+    lang: طويلًا
+    en: و
+    eindelijk: أخيرًا
+    kreeg: حصل على
+    soort: نوع
+    hagelslag: رقائق الشوكولاتة
+    met: بـ
+    glittertjes: لمعات صغيرة
+    moest: كان عليه
+    huilen: يبكي
+    van: من
+    geluk: الفرح
+    Zijn: ـه (ملكية)
+    moeder: الأم
+    zei: قالت
+    thuis: في البيت
+    we: نحن
+    hebben: لدينا
+    al: بالفعل
+    pakken: عبوات
+words:
+  de hagelslag: رقائق الشوكولاتة
+  de supermarkt: السوبرماركت
+  de diepvries: المجمّد
+  de ballenbak: حوض الكرات
+  de handtas: حقيبة اليد
+  het pak: العبوة

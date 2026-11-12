@@ -1,0 +1,125 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Lucía verhuist naar een nieuw appartement waar een dikke witte kat elke nacht om vier uur 's ochtends vreselijk gitaar
+  speelt, tot Lucía de gitaar pakt en veel beter speelt.
+summary_source: b6b0f2f6a92db88a
+gestures:
+  have: Druk een grote onzichtbare doos tegen je borst en klop er twee keer op, knikkend alsof hij van jou is.
+  live: Maak met beide handen een dak boven je hoofd en wijs twee keer naar je voeten om te tonen waar je woont.
+  play_instrument: Strum wild met beide handen op een denkbeeldige gitaar, wiebel met je heupen en roep 'Miau!'
+targets:
+  tiene:
+    gloss: heeft
+    note: Spaans 'tiene' betekent hij/zij heeft; Nederlands gebruikt 'heeft' van 'hebben'.
+  vive:
+    gloss: woont
+    note: Spaans 'vive' komt van 'vivir'; Nederlands zegt 'woont' van 'wonen'.
+  toca:
+    gloss: speelt (instrument)
+    note: Spaans 'toca' gebruik je voor een muziekinstrument; Nederlands zegt 'speelt'.
+scenes:
+- key: s1
+  source: 0faf0739f394b306
+  translation: Lucía heeft een nieuw appartement. Het appartement is in Madrid. Het appartement heeft drie kamers en een enorm
+    raam. Lucía heeft een kleine gele sleutel.
+  glosses:
+    tiene: heeft
+    piso: appartement
+    nuevo: nieuw
+    está: is
+    en: in
+    "y": en
+    habitaciones: kamers
+    ventana: raam
+    gigante: enorm
+    llave: sleutel
+    pequeña: klein
+    amarilla: geel
+- key: s2
+  source: 053a1e5949dc6eb5
+  translation: Lucía woont in het nieuwe appartement. Een dikke kat woont ook in het appartement. De kat is wit en heeft één
+    zwart oor. De kat woont op de rode bank.
+  glosses:
+    vive: woont
+    en: in
+    piso: appartement
+    nuevo: nieuw
+    gato: kat
+    gordo: dik
+    también: ook
+    es: is
+    blanco: wit
+    "y": en
+    tiene: heeft
+    oreja: oor
+    negra: zwart
+    sofá: bank
+    rojo: rood
+- key: s3
+  source: d487460ced8ea07e
+  translation: 'Om vier uur ''s ochtends speelt de kat gitaar. De gitaar is enorm en rood. De kat speelt heel slecht. De kat
+    speelt en zingt: ''Miau, miau, miau!'''
+  glosses:
+    A: om
+    de: van
+    mañana: ochtend
+    gato: kat
+    toca: speelt
+    guitarra: gitaar
+    es: is
+    enorme: enorm
+    "y": en
+    roja: rood
+    muy: heel
+    mal: slecht
+    canta: zingt
+- key: s4
+  source: f9d1017f897dd9ab
+  translation: Lucía slaapt niet. Lucía heeft een idee. Lucía heeft een heel groot kussen. Lucía legt het kussen op haar hoofd,
+    maar de kat speelt harder.
+  glosses:
+    "no": niet
+    duerme: slaapt
+    tiene: heeft
+    idea: idee
+    almohada: kussen
+    muy: heel
+    grande: groot
+    pone: legt
+    en: op
+    cabeza: hoofd
+    pero: maar
+    gato: kat
+    toca: speelt
+    más: meer
+    fuerte: hard
+- key: s5
+  source: c43fcf8c1af7e41b
+  translation: Lucía pakt de gitaar. Lucía speelt heel goed gitaar. De kat luistert en slaapt op de bank. Nu speelt Lucía
+    om vier uur 's ochtends en de kat leeft rustig.
+  glosses:
+    coge: pakt
+    guitarra: gitaar
+    toca: speelt
+    muy: heel
+    bien: goed
+    gato: kat
+    escucha: luistert
+    "y": en
+    duerme: slaapt
+    en: op
+    sofá: bank
+    Ahora: nu
+    a: om
+    de: van
+    mañana: ochtend
+    vive: woont
+    tranquilo: rustig
+words:
+  el gato: de kat
+  la guitarra: de gitaar
+  el sofá: de bank
+  la almohada: het kussen
+  la llave: de sleutel
+  la ventana: het raam

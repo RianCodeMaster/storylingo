@@ -1,0 +1,121 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Emma's new neighbor is a cow that sings at six every morning, and her funny plan makes the cow write a letter.
+summary_source: 204357f54b81507a
+gestures:
+  have: Hug a giant invisible box to your chest and nod proudly, as if you own it.
+  live: Make a little roof over your head with both hands, then pat the floor where you stand.
+  every_morning: Make a sun with your fingers, then yawn and mime drinking coffee in a big daily loop.
+targets:
+  heeft:
+    gloss: has
+    note: Dutch 'heeft' is the 3rd-person singular of 'hebben', like English 'has'.
+  woont:
+    gloss: lives
+    note: Dutch adds -t for 'he'/'she'/'it' in 'woont'; English adds -s in 'lives'.
+  elke ochtend:
+    gloss: every morning
+    note: Dutch uses 'elke' before a singular common noun; English uses 'every'.
+scenes:
+- key: s1
+  source: e8f6c491ff05fdb4
+  translation: Emma lives in a small house. Next to Emma lives a new neighbor. The neighbor is a cow. The cow has a red cap.
+  glosses:
+    woont: lives
+    in: in
+    klein: small
+    huis: house
+    Naast: next to
+    nieuwe: new
+    buurman: neighbor
+    is: is
+    koe: cow
+    heeft: has
+    rode: red
+    pet: cap
+- key: s2
+  source: 062256f06a33d754
+  translation: The cow sings every morning at six o'clock. The cow sings loudly. Emma lives next to the cow. Emma is not happy.
+  glosses:
+    koe: cow
+    zingt: sings
+    elke: every
+    ochtend: morning
+    om: at
+    uur: o'clock
+    hard: loudly
+    woont: lives
+    naast: next to
+    is: is
+    niet: not
+    blij: happy
+- key: s3
+  source: aabc298e0ea07304
+  translation: Emma has a hundred earplugs. But the cow keeps singing. Emma's house dances every morning. The neighbors do
+    not sleep.
+  glosses:
+    heeft: has
+    oordoppen: earplugs
+    Maar: but
+    koe: cow
+    zingt: sings
+    door: keeps on
+    huis: house
+    van: of
+    danst: dances
+    elke: every
+    ochtend: morning
+    buren: neighbors
+    slapen: sleep
+    niet: not
+- key: s4
+  source: 01ca93d2df949304
+  translation: 'Emma goes to the cow. The cow has a big mouth. Emma says: ''Don''t sing every morning!'' The cow laughs and
+    sings louder.'
+  glosses:
+    gaat: goes
+    naar: to
+    koe: cow
+    heeft: has
+    grote: big
+    mond: mouth
+    zegt: says
+    Zing: sing
+    niet: not
+    elke: every
+    ochtend: morning
+    lacht: laughs
+    en: and
+    zingt: sings
+    harder: louder
+- key: s5
+  source: bad2b4b500faa106
+  translation: Emma has a plan. She sings softly every morning at five o'clock. The cow lives next to Emma and is sleeping
+    now. At six o'clock Emma sings loudly and the cow writes a letter.
+  glosses:
+    heeft: has
+    plan: plan
+    Zij: she
+    zingt: sings
+    elke: every
+    ochtend: morning
+    om: at
+    uur: o'clock
+    zacht: softly
+    koe: cow
+    woont: lives
+    naast: next to
+    en: and
+    slaapt: sleeps
+    nu: now
+    hard: loudly
+    schrijft: writes
+    brief: letter
+words:
+  de koe: the cow
+  de buurman: the neighbor
+  de pet: the cap
+  zingen: to sing
+  de oordop: the earplug
+  de brief: the letter

@@ -1,0 +1,125 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Lucía moves into a new flat where a fat white cat plays the guitar terribly every night at four in the morning, until
+  Lucía takes the guitar and plays it much better.
+summary_source: b6b0f2f6a92db88a
+gestures:
+  have: Hug a big invisible box against your chest and pat it twice, nodding proudly like it is yours.
+  live: Make a roof over your head with both hands, then point down at your feet twice to show where you live.
+  play_instrument: Strum an imaginary guitar wildly with both hands, wiggle your hips and shout '¡Miau!'
+targets:
+  tiene:
+    gloss: has
+    note: Spanish often drops the subject pronoun; English needs 'he/she/it' before 'has'.
+  vive:
+    gloss: lives
+    note: The -e ending often means he/she/it; English adds -s to 'live'.
+  toca:
+    gloss: plays (instrument)
+    note: Use 'tocar' for instruments; English uses 'play' for both instruments and games.
+scenes:
+- key: s1
+  source: 0faf0739f394b306
+  translation: Lucía has a new flat. The flat is in Madrid. The flat has three rooms and a giant window. Lucía has a small
+    yellow key.
+  glosses:
+    tiene: has
+    piso: flat
+    nuevo: new
+    está: is
+    en: in
+    "y": and
+    habitaciones: rooms
+    ventana: window
+    gigante: giant
+    llave: key
+    pequeña: small
+    amarilla: yellow
+- key: s2
+  source: 053a1e5949dc6eb5
+  translation: Lucía lives in the new flat. A fat cat also lives in the flat. The cat is white and has one black ear. The
+    cat lives on the red sofa.
+  glosses:
+    vive: lives
+    en: in
+    piso: flat
+    nuevo: new
+    gato: cat
+    gordo: fat
+    también: also
+    es: is
+    blanco: white
+    "y": and
+    tiene: has
+    oreja: ear
+    negra: black
+    sofá: sofa
+    rojo: red
+- key: s3
+  source: d487460ced8ea07e
+  translation: 'At four in the morning, the cat plays the guitar. The guitar is huge and red. The cat plays very badly. The
+    cat plays and sings: ''Meow, meow, meow!'''
+  glosses:
+    A: At
+    de: in
+    mañana: morning
+    gato: cat
+    toca: plays
+    guitarra: guitar
+    es: is
+    enorme: huge
+    "y": and
+    roja: red
+    muy: very
+    mal: badly
+    canta: sings
+- key: s4
+  source: f9d1017f897dd9ab
+  translation: Lucía doesn't sleep. Lucía has an idea. Lucía has a very big pillow. Lucía puts the pillow on her head, but
+    the cat plays louder.
+  glosses:
+    "no": doesn't
+    duerme: sleep
+    tiene: has
+    idea: idea
+    almohada: pillow
+    muy: very
+    grande: big
+    pone: puts
+    en: "on"
+    cabeza: head
+    pero: but
+    gato: cat
+    toca: plays
+    más: more
+    fuerte: loudly
+- key: s5
+  source: c43fcf8c1af7e41b
+  translation: Lucía takes the guitar. Lucía plays the guitar very well. The cat listens and sleeps on the sofa. Now Lucía
+    plays at four in the morning and the cat lives peacefully.
+  glosses:
+    coge: takes
+    guitarra: guitar
+    toca: plays
+    muy: very
+    bien: well
+    gato: cat
+    escucha: listens
+    "y": and
+    duerme: sleeps
+    en: "on"
+    sofá: sofa
+    Ahora: Now
+    a: at
+    de: in
+    mañana: morning
+    vive: lives
+    tranquilo: peacefully
+words:
+  el gato: the cat
+  la guitarra: the guitar
+  el sofá: the sofa
+  la almohada: the pillow
+  la llave: the key
+  la ventana: the window

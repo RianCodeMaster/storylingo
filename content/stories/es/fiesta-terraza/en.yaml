@@ -1,0 +1,219 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Elena meant to invite five friends, but a wrong message brings the whole neighborhood, the mayor with a band and
+  her furious cat, and it turns into the best party of the year.
+summary_source: 3ad61538bebcd962
+gestures:
+  had_invited: Pretend you are writing a tiny invitation on a sticky note and then flick it far away with one finger, saying
+    '¡pum!' as it lands on one single person.
+  so_that: Open an invisible door as wide as you can with both arms and hold it open with a big proud smile, nodding so the
+    other person walks through.
+  while: Rub your belly in circles with one hand and pat the top of your head at the same time, wiggling your hips to show
+    that two things happen at once.
+targets:
+  había invitado:
+    gloss: had invited
+    note: 'Spanish past perfect: había + participle, like English ''had invited''.'
+  para que:
+    gloss: so that
+    note: Takes the subjunctive, unlike English 'so that'.
+  mientras:
+    gloss: while
+    note: Used for two actions happening at the same time, like English 'while'.
+scenes:
+- key: s1
+  source: c5ef6de0dac9c9f5
+  translation: Elena had invited five friends to her small terrace. All morning she cleaned, bought twelve croquettes and
+    put out six chairs so everyone would be comfortable. While she was singing a Rosalía song, she looked at her phone and
+    smiled.
+  glosses:
+    había: had
+    invitado: invited
+    a: to
+    amigos: friends
+    su: her
+    terraza: terrace
+    pequeña: small
+    Durante: During
+    toda: all
+    mañana: morning
+    limpió: she cleaned
+    compró: she bought
+    croquetas: croquettes
+    "y": and
+    puso: she put
+    sillas: chairs
+    para: so
+    que: that
+    todos: everyone
+    estuvieran: were
+    cómodos: comfortable
+    Mientras: While
+    cantaba: she was singing
+    canción: song
+    de: by
+    miró: she looked at
+    móvil: phone
+    sonrió: she smiled
+- key: s2
+  source: ddbc85b7f1e017b8
+  translation: 'At eight, the doorbell rang. It wasn''t five friends: it was the whole neighborhood. Her neighbor Paco arrived
+    with his family, twenty people, and behind them there were a hundred more neighbors. Elena had invited only five people
+    and had only twelve croquettes.'
+  glosses:
+    A: At
+    sonó: rang
+    timbre: doorbell
+    "No": Not
+    eran: they were
+    amigos: friends
+    era: it was
+    todo: the whole
+    barrio: neighborhood
+    Su: Her
+    vecino: neighbor
+    llegó: arrived
+    con: with
+    familia: family
+    personas: people
+    "y": and
+    detrás: behind
+    había: there were
+    vecinos: neighbors
+    más: more
+    invitado: invited
+    solo: only
+    tenía: she had
+    croquetas: croquettes
+- key: s3
+  source: 9912377c442b5c69
+  translation: Then Mayor Bermúdez arrived with a thirty-musician band. The band played a very loud pasodoble while the neighbors
+    danced. Elena opened all the bags of chips so people could eat something. 'What a lovely party!' said the mayor.
+  glosses:
+    Entonces: Then
+    llegó: arrived
+    alcalde: mayor
+    con: with
+    banda: band
+    de: of
+    música: music
+    músicos: musicians
+    tocó: played
+    pasodoble: pasodoble
+    muy: very
+    fuerte: loudly
+    mientras: while
+    vecinos: neighbors
+    bailaban: were dancing
+    abrió: she opened
+    todas: all
+    bolsas: bags
+    patatas: chips
+    para: so
+    que: that
+    gente: people
+    comiera: could eat
+    algo: something
+    Qué: What
+    fiesta: party
+    tan: so
+    bonita: lovely
+    dijo: said
+- key: s4
+  source: d75b997bbbf039ad
+  translation: 'The problem was that the terrace was very small: two hundred people in twenty meters. The building began to
+    move and Elena''s cat, Napoleon, jumped furiously onto the mayor''s head. While the band played louder, Elena ran down
+    to the bar so they would give her more ice.'
+  glosses:
+    problema: problem
+    fue: was
+    que: that
+    terraza: terrace
+    era: was
+    muy: very
+    pequeña: small
+    personas: people
+    en: in
+    metros: meters
+    edificio: building
+    empezó: began
+    a: to
+    moverse: move
+    "y": and
+    gato: cat
+    de: of
+    saltó: jumped
+    furioso: furiously
+    cabeza: head
+    del: of the
+    alcalde: mayor
+    Mientras: While
+    banda: band
+    tocaba: was playing
+    más: more
+    fuerte: loudly
+    corrió: she ran
+    al: to the
+    bar: bar
+    abajo: downstairs
+    para: so
+    le: her
+    dieran: they would give
+    hielo: ice
+- key: s5
+  source: 37e4e66043f59c96
+  translation: 'In the end, all the neighbors brought food and the party was the best of the year. Elena looked at her phone
+    and saw the truth: she had invited the whole neighborhood, because she sent the message to the group ''Whole Neighborhood''
+    and not to her five friends. She laughed and danced with the mayor. While Napoleon slept on the sofa, Elena decided to
+    repeat the party every month.'
+  glosses:
+    Al: At the
+    final: end
+    todos: all
+    vecinos: neighbors
+    trajeron: brought
+    comida: food
+    "y": and
+    fiesta: party
+    fue: was
+    mejor: best
+    del: of the
+    año: year
+    miró: she looked at
+    su: her
+    móvil: phone
+    vio: she saw
+    verdad: truth
+    había: had
+    invitado: invited
+    a: to
+    todo: the whole
+    barrio: neighborhood
+    porque: because
+    mandó: she sent
+    mensaje: message
+    grupo: group
+    "no": not
+    sus: her
+    amigos: friends
+    Se: herself
+    rió: laughed
+    bailó: danced
+    con: with
+    alcalde: mayor
+    Mientras: While
+    dormía: was sleeping
+    en: "on"
+    sofá: sofa
+    decidió: she decided
+    repetir: repeat
+    cada: every
+    mes: month
+words:
+  la terraza: the terrace
+  la croqueta: the croquette
+  el vecino: the neighbor
+  el alcalde: the mayor
+  la banda: the band
+  el gato: the cat

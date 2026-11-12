@@ -1,0 +1,162 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Javier goes to the doctor after three days of hiccups, but the doctor has hiccups too, and in the end the hiccups
+  jump into her stethoscope.
+summary_source: f16694e57dff8471
+gestures:
+  went: March on the spot with big exaggerated steps while your hand points forward to a far-away place, then freeze and point
+    at the floor.
+  have_past: Hug an invisible box against your chest with both arms and shake gently, like you are holding something heavy
+    you have had for a long time.
+  said: Open and close your hand like a talking mouth right in front of your own mouth, and move your head forward on every
+    word.
+  have: Hug an invisible box against your chest with both arms and shake gently, like you are holding something heavy you
+    have had for a long time.
+targets:
+  fue:
+    gloss: went; was
+    note: Irregular preterite of ir/ser; English uses 'went' or 'was'.
+  tenía:
+    gloss: had; used to have
+    note: Imperfect past for a past state; English usually says 'had'.
+  dijo:
+    gloss: said
+    note: Irregular preterite of decir; English 'said' is also irregular.
+scenes:
+- key: s1
+  source: 4db80555e5a65ff9
+  translation: Javier had had hiccups for three days. He had four thousand hiccups every hour, and his neighbor said, “My
+    lamp is moving!” Javier went to the neighborhood doctor. He went at eight in the morning.
+  glosses:
+    tenía: had
+    hipo: hiccups
+    desde: for
+    hacía: for (time)
+    días: days
+    hipos: hiccups
+    cada: every
+    hora: hour
+    "y": and
+    su: his
+    vecina: neighbor (female)
+    dijo: said
+    Mi: my
+    lámpara: lamp
+    se: itself
+    mueve: moves
+    fue: went
+    al: to the
+    médico: doctor
+    del: of the
+    barrio: neighborhood
+    a: at
+    de: in
+    mañana: morning
+- key: s2
+  source: 8a81b88dfcb5053d
+  translation: In the waiting room, the grandmother had hiccups. The police officer had hiccups too. The nurse said, “Hic.
+    Come in, Javier.” Javier went to exam room number thirteen.
+  glosses:
+    En: in
+    sala: room
+    de: of
+    espera: waiting
+    abuela: grandmother
+    tenía: had
+    hipo: hiccups
+    policía: police officer
+    también: too
+    enfermera: nurse
+    dijo: said
+    Pase: come in
+    fue: went
+    a: to
+    consulta: exam room
+    número: number
+- key: s3
+  source: ee4908028975c575
+  translation: Doctor Carmen Serrano had hiccups too. She had had hiccups for five days. She said, “Hic. Good morning, Javier.
+    Hic.” Javier said, “Doctor, I have four thousand hiccups an hour,” and the doctor said, “Relax, I have an idea.”
+  glosses:
+    doctora: doctor (female)
+    tenía: had
+    hipo: hiccups
+    también: too
+    desde: for
+    hacía: for (time)
+    días: days
+    Dijo: said
+    Buenos: good
+    tengo: I have
+    hipos: hiccups
+    por: per
+    hora: hour
+    "y": and
+    Tranquilo: calm down
+    idea: idea
+- key: s4
+  source: b3758ea8c3157708
+  translation: The doctor went to the window and shouted, “A dragon!” Javier was not afraid. The doctor said, “Drink this
+    glass of water.” The glass held twenty liters, but Javier drank it all and then went to the bathroom three times.
+  glosses:
+    doctora: doctor (female)
+    fue: went
+    a: to
+    ventana: window
+    "y": and
+    gritó: shouted
+    dragón: dragon
+    "no": not
+    tenía: had
+    miedo: fear
+    dijo: said
+    Bebe: drink
+    este: this
+    vaso: glass
+    de: of
+    agua: water
+    litros: liters
+    pero: but
+    bebió: drank
+    todo: all
+    después: afterwards
+    al: to the
+    baño: bathroom
+    veces: times
+- key: s5
+  source: 9fc2413204f0ec5d
+  translation: 'Then Javier drank water upside down and his hiccups disappeared. The doctor said, “Great!” and her hiccups
+    disappeared too. But the stethoscope had hiccups: “Hic, hic, hic.” Javier went home happy, and the doctor had a stethoscope
+    with hiccups forever.'
+  glosses:
+    Entonces: then
+    bebió: drank
+    agua: water
+    al: part of 'upside down'
+    revés: reverse
+    "y": and
+    su: his
+    hipo: hiccups
+    desapareció: disappeared
+    doctora: doctor (female)
+    dijo: said
+    Bien: good
+    también: too
+    Pero: but
+    estetoscopio: stethoscope
+    tenía: had
+    fue: went
+    a: to
+    casa: home
+    contento: happy
+    con: with
+    para: for
+    siempre: always
+words:
+  el hipo: the hiccups
+  el médico: the doctor
+  la doctora: the female doctor
+  el vaso: the glass
+  el dragón: the dragon
+  el estetoscopio: the stethoscope

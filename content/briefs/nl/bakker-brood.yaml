@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: bakker-brood
+language: nl
+level: A1
+tags: [algemeen, dagelijks]
+narrator: george
+theme: Lotte koopt brood bij de bakker, maar het brood is zo groot als een bank; ze neemt het mee in de bus
+scenes: 5
+targets:
+  - {text: "koopt", gloss: "buys", concept: buy}
+  - {text: "is groot", gloss: "is big", concept: big, kind: phrase}
+  - {text: "meenemen", gloss: "take along; separable: Ze neemt het brood mee", concept: take_along, kind: phrase}

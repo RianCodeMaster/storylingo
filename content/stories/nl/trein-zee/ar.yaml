@@ -1,0 +1,105 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: برام يجلس في القطار متجهًا إلى العمل، لكن القطار يذهب إلى البحر حيث يقف مديره على الشاطئ، ثم تعيدهما سمكة ضخمة إلى
+  البيت.
+summary_source: 47deb6fe4c86ca75
+gestures:
+  sit: انزل فجأة كأنك تجلس على كرسي غير مرئي، وحرّك مؤخرتك مرتين، وضمّ يديك كأنك تقرأ كتابًا.
+  go_to: 'اخطُ خطوة كبيرة إلى الأمام بينما تمدّ ذراعيك إلى الأمام كقطار يغادر المحطة، وقل: تووت تووت!'
+  stand: اقفز واقفًا بشكل مستقيم جدًا كتمثال، وذراعاك ملتصقتان بجانبيك، وارفع ذقنك، وتجمّد لثانيتين.
+targets:
+  zit:
+    gloss: يجلس
+    note: في الهولندية يتغيّر الفعل مع الفاعل، بينما العربية تُلحق الضمير بالفعل غالبًا.
+  gaat naar:
+    gloss: يذهب إلى
+    note: حرف الجر 'naar' يشبه 'إلى' في العربية ويأتي قبل المكان.
+  staat:
+    gloss: يقف
+    note: مثل 'zit'، يتغيّر 'staat' حسب الفاعل؛ وهنا هو للمفرد الغائب.
+scenes:
+- key: s1
+  source: eaa35df2024e97cc
+  translation: برام يجلس في القطار. القطار ذاهب إلى أوترخت. برام يجلس عند النافذة. إنه يقرأ كتابًا.
+  glosses:
+    zit: يجلس
+    in: في
+    trein: القطار
+    gaat: يذهب
+    naar: إلى
+    bij: عند
+    raam: النافذة
+    Hij: هو
+    leest: يقرأ
+    boek: كتابًا
+- key: s2
+  source: 203dab1b754fe4b3
+  translation: القطار يذهب إلى البحر! برام يجلس وينظر. البحر كبير وأزرق. برام ليس سعيدًا.
+  glosses:
+    trein: القطار
+    gaat: يذهب
+    naar: إلى
+    zee: البحر
+    zit: يجلس
+    en: و
+    hij: هو
+    kijkt: ينظر
+    is: يكون
+    groot: كبير
+    blauw: أزرق
+    niet: ليس
+    blij: سعيد
+- key: s3
+  source: ce0120a3b9400260
+  translation: على الشاطئ يقف رجل. الرجل هو رئيس برام. الرئيس يقف في الرمل. لديه قبعة حمراء.
+  glosses:
+    Op: على
+    strand: الشاطئ
+    staat: يقف
+    man: رجل
+    is: هو
+    baas: الرئيس
+    van: خاص بـ
+    in: في
+    zand: الرمل
+    Hij: هو
+    heeft: لديه
+    rode: حمراء
+    hoed: قبعة
+- key: s4
+  source: f72d06441ed6e4d9
+  translation: برام يذهب إلى الشاطئ. يذهب إلى رئيسه. رئيسه يقف عند الماء. برام أيضًا يقف عند الماء.
+  glosses:
+    gaat: يذهب
+    naar: إلى
+    strand: الشاطئ
+    Hij: هو
+    zijn: خاصته
+    baas: الرئيس
+    staat: يقف
+    bij: عند
+    water: الماء
+    ook: أيضًا
+- key: s5
+  source: d32983204e878d6b
+  translation: الرئيس يجلس على سمكة كبيرة. السمكة في الرمل. برام يجلس أيضًا على السمكة. الآن تذهب السمكة إلى أوترخت!
+  glosses:
+    baas: الرئيس
+    zit: يجلس
+    op: على
+    grote: كبيرة
+    vis: سمكة
+    in: في
+    zand: الرمل
+    ook: أيضًا
+    Nu: الآن
+    gaat: تذهب
+    naar: إلى
+words:
+  de trein: القطار
+  de zee: البحر
+  het strand: الشاطئ
+  de baas: الرئيس
+  de hoed: القبعة
+  de vis: السمكة

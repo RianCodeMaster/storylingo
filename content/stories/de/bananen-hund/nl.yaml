@@ -1,0 +1,107 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Tim gaat naar de supermarkt en koopt honderd bananen omdat zijn hond Bruno alleen bananen eet — tot Bruno iets anders
+  eet.
+summary_source: 5600299c9838f9af
+gestures:
+  go: Stamp met grote stappen op je plaats en zwaai één arm naar voren als een soldaat die naar de supermarkt loopt.
+  buy: Houd een onzichtbaar winkelmandje in één hand en gooi met de andere onzichtbare bananen over je schouder erin, terwijl
+    je 'cha-ching!' zegt.
+  eat: Doe je mond open als een hongerig monster en beeld uit dat je een reusachtige banaan pelt en met luid smakgeluid opeet.
+targets:
+  geht:
+    gloss: gaat
+    note: Duits 'geht' lijkt op Nederlands 'gaat'; beide betekenen 'gaat'.
+  kauft:
+    gloss: koopt
+    note: Duits 'kauft' lijkt op Nederlands 'koopt', maar let op de andere klinker.
+  isst:
+    gloss: eet
+    note: Duits 'isst' betekent 'eet'; het lijkt minder op het Nederlandse woord.
+scenes:
+- key: s1
+  source: 7723ca659d1da2af
+  translation: Tim heeft een hond. De hond heet Bruno. Bruno eet alleen bananen. Tim gaat naar de supermarkt.
+  glosses:
+    hat: heeft
+    Hund: hond
+    heißt: heet
+    isst: eet
+    nur: alleen
+    Bananen: bananen
+    geht: gaat
+    in: naar
+    Supermarkt: supermarkt
+- key: s2
+  source: 3ec033468dc72230
+  translation: De supermarkt is erg groot. Tim gaat naar de bananen. Hij koopt honderd bananen. De bananen zijn erg zwaar.
+  glosses:
+    Supermarkt: supermarkt
+    ist: is
+    sehr: erg
+    groß: groot
+    geht: gaat
+    zu: naar
+    Bananen: bananen
+    Er: hij
+    kauft: koopt
+    sind: zijn
+    schwer: zwaar
+- key: s3
+  source: f10eb00ccd0041d0
+  translation: 'Een vrouw ziet Tim. Ze zegt: ''Honderd bananen?!'' Tim zegt: ''Ja! Mijn hond eet alleen bananen.'' De vrouw
+    lacht heel hard.'
+  glosses:
+    Frau: vrouw
+    sieht: ziet
+    Sie: ze
+    sagt: zegt
+    Bananen: bananen
+    Mein: mijn
+    Hund: hond
+    isst: eet
+    nur: alleen
+    lacht: lacht
+    sehr: heel
+    laut: hard
+- key: s4
+  source: 82d7da79d9b68cc5
+  translation: Tim gaat naar huis. Bruno ziet de bananen. Bruno eet een banaan. Dan eet hij tien bananen.
+  glosses:
+    geht: gaat
+    nach: naar
+    Hause: huis
+    sieht: ziet
+    Bananen: bananen
+    isst: eet
+    Banane: banaan
+    Dann: dan
+    er: hij
+- key: s5
+  source: b4e46f32efdf17c4
+  translation: 'In de avond eet Bruno geen bananen meer. Hij eet Tims schoen. Tim zegt: ''Oh nee!'' Tim gaat weer naar de
+    supermarkt. Hij koopt geen bananen. Hij koopt schoenen.'
+  glosses:
+    Am: in de
+    Abend: avond
+    isst: eet
+    keine: geen
+    Bananen: bananen
+    mehr: meer
+    Er: hij
+    Schuh: schoen
+    sagt: zegt
+    geht: gaat
+    wieder: weer
+    in: naar
+    Supermarkt: supermarkt
+    kauft: koopt
+    Schuhe: schoenen
+words:
+  der Hund: de hond
+  die Banane: de banaan
+  der Supermarkt: de supermarkt
+  die Frau: de vrouw
+  das Haus: het huis
+  der Schuh: de schoen

@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: piso-gallina
+language: es
+level: B1
+tags: [algemeen]
+narrator: george
+theme: Sofía comparte piso con cuatro personas y una gallina que decide quién limpia el baño
+scenes: 5
+targets:
+  - {text: "me gustaría", gloss: "I would like", concept: would_like, kind: phrase}
+  - {text: "sin embargo", gloss: "however", concept: however, kind: phrase}
+  - {text: "cuando", gloss: "when", concept: when}

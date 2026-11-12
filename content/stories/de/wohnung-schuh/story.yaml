@@ -1,0 +1,537 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: wohnung-schuh
+status: published
+tags: [algemeen, alltag]
+brief:
+  language: de
+  level: A1
+  theme: Mia sucht eine Wohnung in Berlin; endlich findet sie eine billige Wohnung, aber die ist so klein wie ein Schuhkarton
+    und ihre Möbel passen nicht hinein
+  scenes: 5
+  targets:
+  - text: sucht
+    gloss: looks for
+    concept: search
+    kind: word
+  - text: ist klein
+    gloss: is small
+    concept: small
+    kind: phrase
+  - text: es gibt
+    gloss: there is
+    concept: there_is
+    kind: phrase
+  narrator: jessica
+story:
+  title: Mia sucht eine Wohnung in Berlin
+  summary: Mia looks for a cheap flat in Berlin, finds one that is as small as a shoebox, and solves the furniture problem
+    with doll furniture.
+  gestures:
+  - concept: search
+    description: Cup both hands around your eyes like binoculars, turn your head left and right and scan the room.
+    emoji: 🔍
+  - concept: small
+    description: Hold your thumb and index finger a tiny bit apart right in front of your nose and squint one eye.
+    emoji: 🤏
+  - concept: there_is
+    description: Pop your index finger up in the air like a magic trick and open your other hand flat under it, saying 'ta-da!'.
+    emoji: ✨
+  scenes:
+  - key: s1
+    text: Mia sucht eine Wohnung in Berlin. Sie sucht jeden Tag. Sie sucht im Internet und in der Zeitung. Aber alle Wohnungen
+      sind teuer.
+    image_prompt: Mia, a young woman with curly red hair, big round glasses, a green jacket and a yellow scarf, sits on a
+      box in a Berlin street with a laptop and newspapers all around her, looking worried.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Sucht Mia eine Wohnung in Berlin?
+      options: [ja, nein]
+      answer: ja
+      target: sucht
+    - key: s1q2
+      kind: either_or
+      prompt: Sucht Mia im Internet oder im Kino?
+      options: [im Internet, im Kino]
+      answer: im Internet
+      target: sucht
+    - key: s1q3
+      kind: who_what
+      prompt: Wo sucht Mia eine Wohnung?
+      options: [in Berlin, in Hamburg, in München]
+      answer: in Berlin
+      target: sucht
+    - key: s1q4
+      kind: yes_no
+      prompt: Sind alle Wohnungen billig?
+      options: [ja, nein]
+      answer: nein
+    glossary:
+    - word: sucht
+      lemma: suchen
+      level: A1
+    - word: Wohnung
+      lemma: die Wohnung
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: jeden
+      lemma: jeder
+      level: A2
+    - word: Tag
+      lemma: der Tag
+      level: A1
+    - word: im
+      lemma: in
+      level: A1
+    - word: Internet
+      lemma: das Internet
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: Zeitung
+      lemma: die Zeitung
+      level: A2
+    - word: Aber
+      lemma: aber
+      level: A1
+    - word: alle
+      lemma: alle
+      level: A2
+    - word: Wohnungen
+      lemma: die Wohnung
+      level: A1
+    - word: sind
+      lemma: sein
+      level: A1
+    - word: teuer
+      lemma: teuer
+      level: A1
+    voice:
+    - text: Mia sucht eine Wohnung in Berlin.
+      emotion: neutral
+    - text: Sie sucht jeden Tag.
+      emotion: sleepy
+    - text: Sie sucht im Internet und in der Zeitung.
+      emotion: neutral
+    - text: Aber alle Wohnungen sind teuer.
+      emotion: angry
+  - key: s2
+    text: Endlich liest Mia eine Anzeige. Es gibt eine Wohnung für 200 Euro. Mia ruft sofort an. 'Es gibt nur ein Zimmer',
+      sagt der Mann am Telefon.
+    image_prompt: Mia holds a newspaper with a big advert and her phone at her ear, eyes wide open and mouth in a huge happy
+      smile, in front of a Berlin apartment building.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Es gibt eine Wohnung für 200 Euro?
+      options: [ja, nein]
+      answer: ja
+      target: es gibt
+    - key: s2q2
+      kind: who_what
+      prompt: Was kostet die Wohnung?
+      options: [200 Euro, 20 Euro, 2000 Euro]
+      answer: 200 Euro
+    - key: s2q3
+      kind: either_or
+      prompt: Schreibt Mia einen Brief oder ruft sie den Mann an?
+      options: [sie schreibt einen Brief, sie ruft den Mann an]
+      answer: sie ruft den Mann an
+    - key: s2q4
+      kind: yes_no
+      prompt: Es gibt zwei Zimmer?
+      options: [ja, nein]
+      answer: nein
+      target: es gibt
+    glossary:
+    - word: Endlich
+      lemma: endlich
+      level: A2
+    - word: liest
+      lemma: lesen
+      level: A1
+    - word: Anzeige
+      lemma: die Anzeige
+      level: B1
+    - word: Es
+      lemma: es
+      level: A1
+    - word: gibt
+      lemma: geben
+      level: A1
+    - word: Wohnung
+      lemma: die Wohnung
+      level: A1
+    - word: für
+      lemma: für
+      level: A1
+    - word: Euro
+      lemma: der Euro
+      level: A1
+    - word: ruft
+      lemma: anrufen
+      level: A2
+    - word: sofort
+      lemma: sofort
+      level: A2
+    - word: nur
+      lemma: nur
+      level: A2
+    - word: Zimmer
+      lemma: das Zimmer
+      level: A1
+    - word: sagt
+      lemma: sagen
+      level: A1
+    - word: Mann
+      lemma: der Mann
+      level: A1
+    - word: am
+      lemma: an
+      level: A1
+    - word: Telefon
+      lemma: das Telefon
+      level: A1
+    voice:
+    - text: Endlich liest Mia eine Anzeige.
+      emotion: surprised
+    - text: Es gibt eine Wohnung für 200 Euro.
+      emotion: surprised
+    - text: Mia ruft sofort an.
+      emotion: amused
+    - text: '''Es gibt nur ein Zimmer'', sagt der Mann am Telefon.'
+      emotion: surprised
+  - key: s3
+    text: 'Mia geht in die Wohnung. Die Wohnung ist klein. Das Zimmer ist klein und die Küche ist klein. Mia sagt: ''Oh, es
+      gibt ein Fenster!'''
+    image_prompt: Mia stands inside an extremely tiny empty room, almost as small as a shoebox, with her arms pressed to her
+      body, one small window behind her and a huge surprised smile.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Ist die Wohnung klein?
+      options: [ja, nein]
+      answer: ja
+      target: ist klein
+    - key: s3q2
+      kind: either_or
+      prompt: Ist das Zimmer groß oder klein?
+      options: [groß, klein]
+      answer: klein
+      target: ist klein
+    - key: s3q3
+      kind: who_what
+      prompt: Was ist klein?
+      options: [die Küche, der Garten, das Auto]
+      answer: die Küche
+      target: ist klein
+    - key: s3q4
+      kind: yes_no
+      prompt: Ist die Küche groß?
+      options: [ja, nein]
+      answer: nein
+      target: ist klein
+    glossary:
+    - word: geht
+      lemma: gehen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Wohnung
+      lemma: die Wohnung
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: Zimmer
+      lemma: das Zimmer
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: Küche
+      lemma: die Küche
+      level: A1
+    - word: sagt
+      lemma: sagen
+      level: A1
+    - word: es
+      lemma: es
+      level: A1
+    - word: gibt
+      lemma: geben
+      level: A1
+    - word: Fenster
+      lemma: das Fenster
+      level: A1
+    voice:
+    - text: Mia geht in die Wohnung.
+      emotion: neutral
+    - text: Die Wohnung ist klein.
+      emotion: disgusted
+    - text: Das Zimmer ist klein und die Küche ist klein.
+      emotion: disgusted
+    - text: 'Mia sagt: ''Oh, es gibt ein Fenster!'''
+      emotion: surprised
+  - key: s4
+    text: Mia hat viele Möbel. Sie hat ein großes Sofa und einen großen Schrank. Aber es gibt keinen Platz in der Wohnung.
+      Das Sofa ist groß und die Wohnung ist klein. Mia ist sehr traurig.
+    image_prompt: Mia tries to push an enormous red sofa through the tiny door of her shoebox-sized flat, the sofa completely
+      stuck, her face desperate.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Es gibt Platz für das Sofa?
+      options: [ja, nein]
+      answer: nein
+      target: es gibt
+    - key: s4q2
+      kind: either_or
+      prompt: Ist das Sofa groß oder klein?
+      options: [groß, klein]
+      answer: groß
+    - key: s4q3
+      kind: who_what
+      prompt: Was hat Mia?
+      options: [ein Sofa, einen Hund, ein Fahrrad]
+      answer: ein Sofa
+    - key: s4q4
+      kind: yes_no
+      prompt: Ist die Wohnung klein?
+      options: [ja, nein]
+      answer: ja
+      target: ist klein
+    glossary:
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: viele
+      lemma: viel
+      level: A1
+    - word: Möbel
+      lemma: das Möbel
+      level: A2
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: großes
+      lemma: groß
+      level: A1
+    - word: Sofa
+      lemma: das Sofa
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: großen
+      lemma: groß
+      level: A1
+    - word: Schrank
+      lemma: der Schrank
+      level: A2
+    - word: Aber
+      lemma: aber
+      level: A1
+    - word: es
+      lemma: es
+      level: A1
+    - word: gibt
+      lemma: geben
+      level: A1
+    - word: Platz
+      lemma: der Platz
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Wohnung
+      lemma: die Wohnung
+      level: A1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: groß
+      lemma: groß
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: traurig
+      lemma: traurig
+      level: A1
+    voice:
+    - text: Mia hat viele Möbel.
+      emotion: neutral
+    - text: Sie hat ein großes Sofa und einen großen Schrank.
+      emotion: amused
+    - text: Aber es gibt keinen Platz in der Wohnung.
+      emotion: angry
+    - text: Das Sofa ist groß und die Wohnung ist klein.
+      emotion: amused
+    - text: Mia ist sehr traurig.
+      emotion: whisper
+  - key: s5
+    text: Mia hat eine Idee. Sie kauft kleine Möbel für Puppen. Das Sofa ist klein, das Bett ist klein. Jetzt passt alles!
+      Mia ist glücklich. Es gibt Platz für Mia und ihre Katze.
+    image_prompt: Mia sits happily on a tiny doll sofa inside her shoebox-sized flat, drinking tea from a tiny cup, while
+      her big cat looks in through the small window.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Kauft Mia kleine Möbel für Puppen?
+      options: [ja, nein]
+      answer: ja
+    - key: s5q2
+      kind: either_or
+      prompt: Ist Mia glücklich oder traurig?
+      options: [glücklich, traurig]
+      answer: glücklich
+    - key: s5q3
+      kind: who_what
+      prompt: Was kauft Mia?
+      options: [kleine Möbel, einen großen Schrank, ein Auto]
+      answer: kleine Möbel
+    - key: s5q4
+      kind: yes_no
+      prompt: Es gibt Platz für die Katze?
+      options: [ja, nein]
+      answer: ja
+      target: es gibt
+    - key: s5q5
+      kind: yes_no
+      prompt: Ist die Wohnung jetzt groß?
+      options: [ja, nein]
+      answer: nein
+      target: ist klein
+    glossary:
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: Idee
+      lemma: die Idee
+      level: A2
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: kauft
+      lemma: kaufen
+      level: A1
+    - word: kleine
+      lemma: klein
+      level: A1
+    - word: Möbel
+      lemma: das Möbel
+      level: A2
+    - word: für
+      lemma: für
+      level: A1
+    - word: Puppen
+      lemma: die Puppe
+      level: A2
+    - word: Sofa
+      lemma: das Sofa
+      level: A2
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: Bett
+      lemma: das Bett
+      level: A1
+    - word: Jetzt
+      lemma: jetzt
+      level: A1
+    - word: passt
+      lemma: passen
+      level: A2
+    - word: alles
+      lemma: alles
+      level: A2
+    - word: glücklich
+      lemma: glücklich
+      level: A1
+    - word: Es
+      lemma: es
+      level: A1
+    - word: gibt
+      lemma: geben
+      level: A1
+    - word: Platz
+      lemma: der Platz
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: ihre
+      lemma: ihr
+      level: A1
+    - word: Katze
+      lemma: die Katze
+      level: A1
+    voice:
+    - text: Mia hat eine Idee.
+      emotion: surprised
+    - text: Sie kauft kleine Möbel für Puppen.
+      emotion: amused
+    - text: Das Sofa ist klein, das Bett ist klein.
+      emotion: amused
+    - text: Jetzt passt alles!
+      emotion: surprised
+    - text: Mia ist glücklich.
+      emotion: amused
+    - text: Es gibt Platz für Mia und ihre Katze.
+      emotion: amused
+  core_words:
+  - lemma: suchen
+    image_prompt: a person looking at apartment buildings through binoculars
+  - lemma: die Wohnung
+    image_prompt: a small empty apartment room with a window
+  - lemma: klein
+    image_prompt: a tiny chair next to a normal-sized chair
+  - lemma: das Möbel
+    image_prompt: a sofa, a table, and a bed in one room
+  - lemma: der Platz
+    image_prompt: an empty floor space in a small room
+  - lemma: die Puppe
+    image_prompt: a small doll sitting on a tiny sofa
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 804
+  output_tokens: 3699
+  glossary_version: glossary-v2
+  glossary_input_tokens: 502
+  glossary_output_tokens: 11839
+  core_version: core-v1
+  core_input_tokens: 1210
+  core_output_tokens: 1563
+  voice_version: voice-v1
+  voice_input_tokens: 480
+  voice_output_tokens: 1013
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1170
+  localize_ar_output_tokens: 7690
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1170
+  localize_en_output_tokens: 4609
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1170
+  localize_nl_output_tokens: 5491

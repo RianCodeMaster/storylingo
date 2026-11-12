@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: medico-hipo
+language: es
+level: A2
+tags: [algemeen]
+narrator: george
+theme: Javier fue al médico porque tenía hipo desde hacía tres días; el médico también tenía hipo
+scenes: 5
+targets:
+  - {text: "fue", gloss: "went", concept: went}
+  - {text: "tenía", gloss: "had", concept: have_past}
+  - {text: "dijo", gloss: "said", concept: said}

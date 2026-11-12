@@ -1,0 +1,249 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: لدى آنا مقابلة عمل عبر الفيديو، لكن قطها بول يقفز على لوحة المفاتيح ويجيب عن كل سؤال أفضل منها.
+summary_source: fd62afc3a2435e43
+gestures:
+  when_past: 'اطقطق بأصابعك مرة ثم ألقِ إبهامك خلف كتفك مع إيماءة معرفة، كأنك تقول: تلك كانت اللحظة بالضبط.'
+  because: 'ادفع قبضتيك للأمام من صدرك كأنك تدفع السبب إلى العالم، مع وجه حاسم يقول: لهذا السبب!'
+  would_have: ارفع يدًا مفتوحة ببطء نحو الأعلى وتنهد تنهيدة حالمة، كأنك تطلق سحابة صغيرة مما كان يمكن أن يكون.
+targets:
+  als:
+    gloss: عندما (للماضي)
+    note: تُستخدم als للحدث الماضي الواحد، مثل «لما» في العربية.
+  weil:
+    gloss: لأن
+    note: بعد weil ينتقل الفعل إلى نهاية الجملة، بخلاف «لأن» العربية.
+  hätte:
+    gloss: كان سـ/كان يودّ
+    note: hätte صيغة شرطية لـ haben، تقابل «كان + سـ» في العربية.
+scenes:
+- key: s1
+  source: 66dcc540aa49d1a5
+  translation: كان لدى آنا اليوم مقابلة عمل كبيرة عبر الفيديو. كانت تتمنى لو نامت أطول، لكن كان عليها الجلوس أمام الحاسوب
+    في السابعة لأن 400 شخص أرادوا الوظيفة وشخص واحد فقط سينالها. عندما فتحت آنا الحاسوب، دخل قطها بول الغرفة وجلس مباشرة على
+    الطاولة.
+  glosses:
+    hatte: كان لديها
+    heute: اليوم
+    großes: كبيرة
+    Vorstellungsgespräch: مقابلة عمل
+    per: عبر
+    Video: الفيديو
+    Sie: هي
+    hätte: كانت تودّ
+    gern: بودّ
+    länger: أطول
+    geschlafen: نامت
+    aber: لكن
+    musste: اضطرت
+    um: في
+    Uhr: الساعة
+    am: على
+    Laptop: الحاسوب
+    sitzen: الجلوس
+    weil: لأن
+    Leute: أشخاص
+    Job: الوظيفة
+    wollten: أرادوا
+    und: و
+    nur: فقط
+    Person: شخص
+    ihn: إياها
+    bekam: نالها
+    Als: عندما
+    aufmachte: فتحت
+    kam: دخل
+    ihr: الخاص بها
+    Kater: القط الذكر
+    ins: إلى
+    Zimmer: الغرفة
+    setzte: جلس
+    sich: نفسه
+    direkt: مباشرة
+    auf: على
+    Tisch: الطاولة
+- key: s2
+  source: 67266c5dbe314727
+  translation: 'في التاسعة بدأت المقابلة مع السيدة كرانيش من شركة ملابس النوم. عندما طرحت السيدة كرانيش السؤال الأول، قفز
+    بول فجأة على لوحة المفاتيح. أرادت آنا أن تبعده لأنها خافت، لكن بول كان قد بدأ يكتب بمخلبيه. على الشاشة ظهر: «كنت أودّ
+    راتبًا أعلى».'
+  glosses:
+    Um: في
+    Uhr: الساعة
+    begann: بدأت
+    Gespräch: المقابلة
+    mit: مع
+    von: من
+    Schlafanzug-Firma: شركة بيجامات
+    Als: عندما
+    erste: الأول
+    Frage: السؤال
+    stellte: طرحت
+    sprang: قفز
+    plötzlich: فجأة
+    auf: على
+    Tastatur: لوحة المفاتيح
+    wollte: أرادت
+    ihn: إيّاه
+    wegnehmen: تبعده
+    weil: لأن
+    sie: هي
+    Angst: خوف
+    hatte: كان لديها
+    aber: لكن
+    da: حينها
+    tippte: كتب
+    schon: بالفعل
+    beiden: كلا
+    Pfoten: المخالب
+    Bildschirm: الشاشة
+    stand: ظهر
+    Ich: أنا
+    hätte: كنت أودّ
+    gern: بودّ
+    mehr: أكثر
+    Gehalt: راتب
+- key: s3
+  source: 50072d3ee10b2541
+  translation: 'ضحكت السيدة كرانيش بصوت عالٍ وقالت: «أخيرًا شخص شجاع!» لم تعرف آنا ماذا تقول لأنها لم ترَ رئيسة كهذه من قبل.
+    كانت تفضّل إغلاق الحاسوب، لكن يديها كانتا ترتجفان بشدة. عندما سمع بول السؤال الثاني، كتب فورًا الجواب المثالي.'
+  glosses:
+    lachte: ضحكت
+    laut: بصوت عالٍ
+    und: و
+    sagte: قالت
+    Endlich: أخيرًا
+    jemand: شخص
+    der: الذي
+    mutig: شجاع
+    ist: يكون
+    wusste: عرفت
+    nicht: لم
+    was: ماذا
+    sie: هي
+    sagen: تقول
+    sollte: ينبغي
+    weil: لأن
+    noch: قط
+    nie: أبدًا
+    so: كهذه
+    Chefin: رئيسة
+    gesehen: رأت
+    hatte: كانت قد
+    hätte: كانت تفضّل
+    am: في
+    liebsten: الأكثر تفضيلًا
+    Laptop: الحاسوب
+    zugeklappt: أغلقت
+    aber: لكن
+    ihre: الخاصة بها
+    Hände: يداها
+    zitterten: ارتجفتا
+    zu: جدًا
+    stark: بقوة
+    Als: عندما
+    zweite: الثاني
+    Frage: السؤال
+    hörte: سمع
+    tippte: كتب
+    er: هو
+    sofort: فورًا
+    perfekte: المثالي
+    Antwort: الجواب
+- key: s4
+  source: 1d1f70fddb610698
+  translation: 'أجاب بول عن كل سؤال، وكان كل جواب أفضل من جواب آنا. كتب: «أستطيع أن أنام 40 ساعة في الأسبوع ومع ذلك أخيط 300
+    بيجامة في اليوم.» لم تكن آنا لتستطيع صياغة ذلك بهذا الجمال أبدًا لأنها كانت بالكاد تتنفس من التوتر. عندما سألت السيدة
+    كرانيش عن توقعات الراتب، كتب بول: «علبتا تونة في اليوم.»'
+  glosses:
+    antwortete: أجاب
+    auf: عن
+    jede: كل
+    Frage: سؤال
+    und: و
+    Antwort: جواب
+    war: كان
+    besser: أفضل
+    als: من
+    die: ذاك
+    von: الخاص بـ
+    Er: هو
+    schrieb: كتب
+    Ich: أنا
+    kann: أستطيع
+    Stunden: ساعات
+    pro: في
+    Woche: الأسبوع
+    schlafen: أنام
+    trotzdem: مع ذلك
+    Schlafanzüge: بيجامات
+    Tag: اليوم
+    nähen: أخيط
+    hätte: كانت ستـ
+    das: ذلك
+    nie: أبدًا
+    so: بهذا
+    gut: جيدًا
+    formulieren: تصوغ
+    können: تستطيع
+    weil: لأن
+    sie: هي
+    vor: بسبب
+    Nervosität: التوتر
+    kaum: بالكاد
+    atmen: تتنفس
+    konnte: استطاعت
+    nach: عن
+    Gehaltswünschen: توقعات الراتب
+    fragte: سألت
+    tippte: كتب
+    Dosen: علبتا
+    Thunfisch: تونة
+- key: s5
+  source: e452d67e138ee7a0
+  translation: 'في النهاية قالت السيدة كرانيش: «سنأخذ القط.» حزنت آنا لأنها كانت تحتاج الوظيفة حقًا. لكن بعدها ابتسمت السيدة
+    كرانيش وقالت: «ستحصلين أنت أيضًا على وظيفة — مساعدة للسيد بول.» عندما وصلت آنا إلى البيت، كان بول قد تمدد على الأريكة
+    ونام مثل رئيس.'
+  glosses:
+    Am: في
+    Ende: النهاية
+    sagte: قالت
+    Wir: نحن
+    nehmen: نأخذ
+    Kater: القط
+    war: كانت
+    traurig: حزينة
+    weil: لأن
+    sie: هي
+    Job: الوظيفة
+    wirklich: حقًا
+    gebraucht: احتاجت
+    hätte: كانت ستحتاج
+    Aber: لكن
+    dann: بعدها
+    lächelte: ابتسمت
+    und: و
+    hätten: ستحصلون
+    auch: أيضًا
+    Stelle: وظيفة
+    als: كـ
+    Assistentin: مساعدة
+    von: للـ
+    nach: إلى
+    Hause: البيت
+    kam: وصلت
+    lag: كان ممددًا
+    schon: بالفعل
+    auf: على
+    Sofa: الأريكة
+    schlief: نام
+    wie: مثل
+    Chef: رئيس
+words:
+  das Vorstellungsgespräch: مقابلة العمل
+  der Kater: القط الذكر
+  die Tastatur: لوحة المفاتيح
+  die Pfote: كفّ الحيوان
+  tippen: يكتب بسرعة
+  die Chefin: المديرة

@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: bus-kamel
+language: de
+level: A1
+tags: [algemeen, alltag]
+narrator: george
+theme: Lena wartet an der Haltestelle auf den Bus; der Bus kommt nicht, aber ein Kamel kommt und nimmt sie mit
+scenes: 5
+targets:
+  - {text: "wartet", gloss: "waits", concept: wait}
+  - {text: "kommt", gloss: "comes", concept: come}
+  - {text: "mitnehmen", gloss: "take along; separable: Das Kamel nimmt sie mit", concept: take_along, kind: phrase}

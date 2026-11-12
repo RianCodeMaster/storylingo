@@ -1,0 +1,124 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تنتقل لوسيا إلى شقة جديدة حيث يعزف قط أبيض سمين الغيتار بشكل سيئ كل ليلة في الرابعة صباحًا، حتى تأخذ لوسيا الغيتار
+  وتعزف عليه أفضل بكثير.
+summary_source: b6b0f2f6a92db88a
+gestures:
+  have: احضن صندوقًا كبيرًا غير مرئي إلى صدرك وربت عليه مرتين، وأومئ بفخر كأنه ملكك.
+  live: اصنع سقفًا فوق رأسك بيديك، ثم أشر إلى قدميك مرتين لتظهر أين تعيش.
+  play_instrument: 'اعزف غيتارًا خياليًا بجنون بكلتا يديك، وحرّك وركيك واصرخ: «مياو!»'
+targets:
+  tiene:
+    gloss: لديه / يملك
+    note: 'في الإسبانية يتصرّف الفعل مع الفاعل: yo tengo، ella tiene.'
+  vive:
+    gloss: يسكن / يعيش
+    note: vive لـ él/ella، ومع yo نقول vivo؛ العربية لا تُصرّف الفعل هكذا.
+  toca:
+    gloss: يعزف / يلمس
+    note: tocar + آلة = يعزف؛ مع él/ella تنتهي بـ -a.
+scenes:
+- key: s1
+  source: 0faf0739f394b306
+  translation: لدى لوسيا شقة جديدة. الشقة في مدريد. للشقة ثلاث غرف ونافذة عملاقة. لدى لوسيا مفتاح صغير أصفر.
+  glosses:
+    tiene: لديه
+    piso: شقة
+    nuevo: جديد
+    está: تقع
+    en: في
+    "y": و
+    habitaciones: غرف
+    ventana: نافذة
+    gigante: عملاقة
+    llave: مفتاح
+    pequeña: صغيرة
+    amarilla: صفراء
+- key: s2
+  source: 053a1e5949dc6eb5
+  translation: تعيش لوسيا في الشقة الجديدة. قط سمين أيضًا يعيش في الشقة. القط أبيض ولديه أذن سوداء. يعيش القط على الأريكة
+    الحمراء.
+  glosses:
+    vive: تعيش
+    en: في
+    piso: الشقة
+    nuevo: الجديدة
+    gato: قط
+    gordo: سمين
+    también: أيضًا
+    es: هو
+    blanco: أبيض
+    "y": و
+    tiene: لديه
+    oreja: أذن
+    negra: سوداء
+    sofá: الأريكة
+    rojo: الحمراء
+- key: s3
+  source: d487460ced8ea07e
+  translation: 'في الرابعة صباحًا، يعزف القط الغيتار. الغيتار ضخم وأحمر. يعزف القط بشكل سيئ جدًا. يعزف القط ويغني: «مياو،
+    مياو، مياو!»'
+  glosses:
+    A: في
+    de: من
+    mañana: الصباح
+    gato: القط
+    toca: يعزف
+    guitarra: الغيتار
+    es: هو
+    enorme: ضخم
+    "y": و
+    roja: حمراء
+    muy: جدًا
+    mal: بشكل سيئ
+    canta: يغني
+- key: s4
+  source: f9d1017f897dd9ab
+  translation: لا تنام لوسيا. لدى لوسيا فكرة. لدى لوسيا وسادة كبيرة جدًا. تضع لوسيا الوسادة على رأسها، لكن القط يعزف بقوة
+    أكبر.
+  glosses:
+    "no": لا
+    duerme: تنام
+    tiene: لديها
+    idea: فكرة
+    almohada: وسادة
+    muy: جدًا
+    grande: كبيرة
+    pone: تضع
+    en: على
+    cabeza: الرأس
+    pero: لكن
+    gato: القط
+    toca: يعزف
+    más: أكثر
+    fuerte: بقوة
+- key: s5
+  source: c43fcf8c1af7e41b
+  translation: تأخذ لوسيا الغيتار. تعزف لوسيا الغيتار بشكل جيد جدًا. يستمع القط وينام على الأريكة. الآن تعزف لوسيا في الرابعة
+    صباحًا والقط يعيش مرتاحًا.
+  glosses:
+    coge: تأخذ
+    guitarra: الغيتار
+    toca: تعزف
+    muy: جدًا
+    bien: جيدًا
+    gato: القط
+    escucha: يستمع
+    "y": و
+    duerme: ينام
+    en: على
+    sofá: الأريكة
+    Ahora: الآن
+    a: في
+    de: من
+    mañana: الصباح
+    vive: يعيش
+    tranquilo: بهدوء
+words:
+  el gato: القط
+  la guitarra: الغيتار
+  el sofá: الأريكة
+  la almohada: الوسادة
+  la llave: المفتاح
+  la ventana: النافذة

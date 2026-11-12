@@ -7,6 +7,15 @@ A1:
   - {text: mag, gloss: houdt van / vindt lekker, concept: like}
   - {text: hat, gloss: heeft, concept: have}
   - {text: es gibt, gloss: er is / er zijn, concept: there_is}
+  - {text: "geht", gloss: "goes", concept: go}
+  - {text: "kauft", gloss: "buys", concept: buy}
+  - {text: "isst", gloss: "eats", concept: eat}
+  - {text: "wartet", gloss: "waits", concept: wait}
+  - {text: "kommt", gloss: "comes", concept: come}
+  - {text: "mitnehmen", gloss: "take along; separable: Das Kamel nimmt sie mit", concept: take_along}
+  - {text: "spricht", gloss: "speaks", concept: speak}
+  - {text: "sucht", gloss: "looks for", concept: search}
+  - {text: "ist klein", gloss: "is small", concept: small}
 A2:
   - {text: wollte, gloss: wilde, concept: want}
   - {text: konnte nicht, gloss: kon niet, concept: cannot}
@@ -14,6 +23,13 @@ A2:
   - {text: weil, gloss: omdat, concept: because}
   - {text: plötzlich, gloss: plotseling, concept: suddenly}
   - {text: endlich, gloss: eindelijk, concept: finally}
+  - {text: "musste", gloss: "had to", concept: must}
+  - {text: "war", gloss: "was", concept: be}
+  - {text: "hat erklärt", gloss: "explained", concept: explained}
+  - {text: "durfte nicht", gloss: "was not allowed", concept: not_allowed}
+  - {text: "es gab", gloss: "there was", concept: there_is}
+  - {text: "ist gegangen", gloss: "went / has gone", concept: went}
+  - {text: "hatte", gloss: "had", concept: have}
 B1:
   - {text: obwohl, gloss: hoewel, concept: although}
   - {text: trotzdem, gloss: toch, concept: nevertheless}
@@ -23,3 +39,4 @@ B1:
   - {text: als, gloss: toen (één keer), concept: when_past}
   - {text: nachdem, gloss: nadat, concept: after}
   - {text: freute sich auf, gloss: verheugde zich op, concept: look_forward}
+  - {text: "hätte", gloss: "would have", concept: would_have}

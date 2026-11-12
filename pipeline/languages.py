@@ -3,6 +3,7 @@
 The pipeline asks this module for names, voices and teacher phrases; `sync` writes the database rows and
 web/lib/languages.json, which the app reads for the same things.
 """
+import hashlib
 import json
 import unicodedata
 from functools import cache
@@ -89,12 +90,32 @@ def english(code: str) -> str:
     return get(code).english
 
 
-def voice(code: str) -> dict:
-    """The narrator profile of a target language."""
+def voice(code: str, story: str | None = None, narrator: str | None = None) -> dict:
+    """
+    The voice profile of a target language. With several `speakers` (name -> voice ID), stories take turns between
+    the `narrators` (the story's own `narrator`, else one picked from its slug) and everything else (questions, words,
+    the teacher's reactions) is spoken by the `teacher`. The result names just the one voice it uses, so a recording's
+    fingerprint changes only when its own voice changes.
+    """
     language = get(code)
     if not language.voice:
         raise SystemExit(f"'{code}' has no voice: it is not a target language (content/languages/{code}.yaml).")
-    return {**language.voice, "language": code}
+    profile = {**language.voice, "language": code}
+    speakers = profile.pop("speakers", None)
+    narrators = profile.pop("narrators", None)
+    teacher = profile.pop("teacher", None)
+    if speakers:
+        if narrator:
+            if narrator not in speakers:
+                raise SystemExit(f"Narrator '{narrator}' is not among the speakers in content/languages/{code}.yaml.")
+            name = narrator
+        elif story and narrators:
+            name = narrators[int(hashlib.sha256(story.encode()).hexdigest(), 16) % len(narrators)]
+        else:
+            name = teacher or next(iter(speakers))
+        profile["settings"] = {**profile.get("settings", {}), "voice_id": speakers[name]}
+        profile["speaker"] = name
+    return profile
 
 
 def _plain(word: str) -> str:

@@ -1,0 +1,740 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: woonboot-eenden
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: B1
+  theme: Noor zoekt een betaalbaar huurhuis in Amsterdam; het enige wat ze kan betalen is een woonboot vol eenden
+  scenes: 5
+  targets:
+  - text: hoewel
+    gloss: although (verb at the end)
+    concept: although
+    kind: word
+  - text: als ... dan
+    gloss: if ... then
+    concept: if_then
+    kind: structure
+  - text: zou willen
+    gloss: would like
+    concept: would_like
+    kind: phrase
+  narrator: george
+story:
+  title: Noor en de woonboot vol eenden
+  summary: Noor searches for an affordable rental in Amsterdam and ends up in a tiny houseboat crowded with ducks that unexpectedly
+    lay a golden egg.
+  gestures:
+  - concept: although
+    description: Shrug one shoulder, wag a warning finger, and push an invisible door shut with your other hand to show the
+      verb slamming to the end of the clause.
+    emoji: 🤷
+  - concept: if_then
+    description: Hold up one finger like a question, then snap your fingers and point dramatically forward to show the result.
+    emoji: 🔮
+  - concept: would_like
+    description: Clasp your hands under your chin, lean forward with dreamy eyes, and mime hugging a tiny golden house.
+    emoji: 🤗
+  scenes:
+  - key: s1
+    text: 'Noor zoekt al maanden een betaalbaar huurhuis in Amsterdam. Ze heeft te weinig geld, hoewel ze hard werkt. Ze zou
+      willen wonen aan een gracht, maar de huur is enorm. Noor denkt: als ze een woning vindt, dan is die veel te duur.'
+    image_prompt: Cartoon illustration of Noor, a 28-year-old Dutch woman with curly red hair, round glasses, a yellow raincoat,
+      and a green backpack, standing sadly in front of tall Amsterdam canal houses with many expensive rental signs and price
+      tags.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Werkt Noor hard, hoewel ze te weinig geld heeft?
+      options: [ja, nee]
+      answer: ja
+      target: hoewel
+    - key: s1q2
+      kind: either_or
+      prompt: 'Wat zoekt Noor: een boot of een huurhuis?'
+      options: [een boot, een huurhuis]
+      answer: een huurhuis
+    - key: s1q3
+      kind: who_what
+      prompt: Waar is de huur enorm?
+      options: [in Utrecht, in Amsterdam, op zee]
+      answer: in Amsterdam
+    - key: s1q4
+      kind: yes_no
+      prompt: Heeft Noor veel geld?
+      options: [ja, nee]
+      answer: nee
+      target: hoewel
+    - key: s1q5
+      kind: either_or
+      prompt: 'Wat zou Noor willen: wonen aan een gracht of slapen op straat?'
+      options: [wonen aan een gracht, slapen op straat]
+      answer: wonen aan een gracht
+      target: zou willen
+    glossary:
+    - word: zoekt
+      lemma: zoeken
+      level: A1
+    - word: al
+      lemma: al
+      level: A2
+    - word: maanden
+      lemma: de maand
+      level: A1
+    - word: betaalbaar
+      lemma: betaalbaar
+      level: B1
+    - word: huurhuis
+      lemma: het huurhuis
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: Ze
+      lemma: ze
+      level: A1
+    - word: heeft
+      lemma: hebben
+      level: A1
+    - word: te
+      lemma: te
+      level: A1
+    - word: weinig
+      lemma: weinig
+      level: A2
+    - word: geld
+      lemma: het geld
+      level: A1
+    - word: hoewel
+      lemma: hoewel
+      level: B1
+    - word: hard
+      lemma: hard
+      level: A2
+    - word: werkt
+      lemma: werken
+      level: A1
+    - word: zou
+      lemma: zullen
+      level: A1
+    - word: willen
+      lemma: willen
+      level: A1
+    - word: wonen
+      lemma: wonen
+      level: A1
+    - word: aan
+      lemma: aan
+      level: A1
+    - word: gracht
+      lemma: de gracht
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: huur
+      lemma: de huur
+      level: A2
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: enorm
+      lemma: enorm
+      level: B1
+    - word: denkt
+      lemma: denken
+      level: A1
+    - word: als
+      lemma: als
+      level: A1
+    - word: woning
+      lemma: de woning
+      level: A2
+    - word: vindt
+      lemma: vinden
+      level: A1
+    - word: dan
+      lemma: dan
+      level: A1
+    - word: die
+      lemma: die
+      level: A2
+    - word: veel
+      lemma: veel
+      level: A1
+    - word: duur
+      lemma: duur
+      level: A1
+    voice:
+    - text: Noor zoekt al maanden een betaalbaar huurhuis in Amsterdam.
+      emotion: neutral
+    - text: Ze heeft te weinig geld, hoewel ze hard werkt.
+      emotion: angry
+    - text: Ze zou willen wonen aan een gracht, maar de huur is enorm.
+      emotion: surprised
+    - text: 'Noor denkt: als ze een woning vindt, dan is die veel te duur.'
+      emotion: whisper
+  - key: s2
+    text: 'Op een dag ziet Noor een advertentie: een woonboot voor heel weinig geld. De prijs is perfect, hoewel de boot klein
+      is. Noor zou willen huilen van blijdschap. Noor lacht: als ze de boot ziet, dan gelooft ze haar ogen niet.'
+    image_prompt: Cartoon illustration of Noor, a 28-year-old Dutch woman with curly red hair, round glasses, a yellow raincoat,
+      and a green backpack, holding a tiny newspaper advert for a cheap houseboat beside an Amsterdam canal, eyes wide with
+      hope.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Is de woonboot goedkoop?
+      options: [ja, nee]
+      answer: ja
+      target: hoewel
+    - key: s2q2
+      kind: either_or
+      prompt: 'Wat ziet Noor: een eend of een advertentie?'
+      options: [een eend, een advertentie]
+      answer: een advertentie
+    - key: s2q3
+      kind: who_what
+      prompt: Hoe is de prijs van de boot?
+      options: [te hoog, gratis, perfect]
+      answer: perfect
+    - key: s2q4
+      kind: yes_no
+      prompt: Gelooft Noor haar ogen?
+      options: [ja, nee]
+      answer: nee
+      target: als ... dan
+    - key: s2q5
+      kind: either_or
+      prompt: 'Wat zou Noor willen doen: huilen van blijdschap of dansen van verdriet?'
+      options: [huilen van blijdschap, dansen van verdriet]
+      answer: huilen van blijdschap
+      target: zou willen
+    glossary:
+    - word: Op
+      lemma: op
+      level: A1
+    - word: dag
+      lemma: de dag
+      level: A1
+    - word: ziet
+      lemma: zien
+      level: A1
+    - word: advertentie
+      lemma: de advertentie
+      level: A2
+    - word: woonboot
+      lemma: de woonboot
+      level: A2
+    - word: voor
+      lemma: voor
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A1
+    - word: weinig
+      lemma: weinig
+      level: A2
+    - word: geld
+      lemma: het geld
+      level: A1
+    - word: prijs
+      lemma: de prijs
+      level: A2
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: perfect
+      lemma: perfect
+      level: B1
+    - word: hoewel
+      lemma: hoewel
+      level: B1
+    - word: boot
+      lemma: de boot
+      level: A2
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: zou
+      lemma: zullen
+      level: A1
+    - word: willen
+      lemma: willen
+      level: A1
+    - word: huilen
+      lemma: huilen
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: blijdschap
+      lemma: de blijdschap
+      level: B1
+    - word: lacht
+      lemma: lachen
+      level: A2
+    - word: als
+      lemma: als
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: gelooft
+      lemma: geloven
+      level: A2
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: ogen
+      lemma: het oog
+      level: A1
+    - word: niet
+      lemma: niet
+      level: A1
+    voice:
+    - text: 'Op een dag ziet Noor een advertentie: een woonboot voor heel weinig geld.'
+      emotion: surprised
+    - text: De prijs is perfect, hoewel de boot klein is.
+      emotion: neutral
+    - text: Noor zou willen huilen van blijdschap.
+      emotion: amused
+    - text: 'Noor lacht: als ze de boot ziet, dan gelooft ze haar ogen niet.'
+      emotion: surprised
+  - key: s3
+    text: 'Noor gaat naar de woonboot, maar de boot zit vol eenden. Ze maken heel veel lawaai, hoewel de eenden schattig zijn.
+      Noor zou willen dat de boot leeg was. Ze schrikt: als ze één stap zet, dan kwaken ze allemaal tegelijk.'
+    image_prompt: Cartoon illustration of Noor, a 28-year-old Dutch woman with curly red hair, round glasses, a yellow raincoat,
+      and a green backpack, stepping onto a tiny houseboat crowded with dozens of ducks, with comic sound waves showing loud
+      quacking.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Zit de woonboot vol eenden?
+      options: [ja, nee]
+      answer: ja
+    - key: s3q2
+      kind: either_or
+      prompt: 'Wat doen de eenden: slapen of kwaken?'
+      options: [slapen, kwaken]
+      answer: kwaken
+    - key: s3q3
+      kind: who_what
+      prompt: Hoeveel lawaai maken de eenden?
+      options: [een beetje lawaai, heel veel lawaai, geen lawaai]
+      answer: heel veel lawaai
+      target: hoewel
+    - key: s3q4
+      kind: yes_no
+      prompt: Wil Noor dat de boot leeg is?
+      options: [ja, nee]
+      answer: ja
+      target: zou willen
+    - key: s3q5
+      kind: either_or
+      prompt: 'Wanneer kwaken de eenden: als Noor één stap zet of als Noor slaapt?'
+      options: [als Noor één stap zet, als Noor slaapt]
+      answer: als Noor één stap zet
+      target: als ... dan
+    glossary:
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: woonboot
+      lemma: de woonboot
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: boot
+      lemma: de boot
+      level: A2
+    - word: zit
+      lemma: zitten
+      level: A1
+    - word: vol
+      lemma: vol
+      level: A2
+    - word: eenden
+      lemma: de eend
+      level: A2
+    - word: Ze
+      lemma: ze
+      level: A1
+    - word: maken
+      lemma: maken
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A1
+    - word: veel
+      lemma: veel
+      level: A1
+    - word: lawaai
+      lemma: het lawaai
+      level: A2
+    - word: hoewel
+      lemma: hoewel
+      level: B1
+    - word: schattig
+      lemma: schattig
+      level: B1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: zou
+      lemma: zullen
+      level: A1
+    - word: willen
+      lemma: willen
+      level: A1
+    - word: dat
+      lemma: dat
+      level: A1
+    - word: leeg
+      lemma: leeg
+      level: A2
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: schrikt
+      lemma: schrikken
+      level: B1
+    - word: als
+      lemma: als
+      level: A1
+    - word: stap
+      lemma: de stap
+      level: A2
+    - word: zet
+      lemma: zetten
+      level: A2
+    - word: dan
+      lemma: dan
+      level: A1
+    - word: kwaken
+      lemma: kwaken
+      level: B1
+    - word: allemaal
+      lemma: allemaal
+      level: A2
+    - word: tegelijk
+      lemma: tegelijk
+      level: B1
+    voice:
+    - text: Noor gaat naar de woonboot, maar de boot zit vol eenden.
+      emotion: surprised
+    - text: Ze maken heel veel lawaai, hoewel de eenden schattig zijn.
+      emotion: amused
+    - text: Noor zou willen dat de boot leeg was.
+      emotion: angry
+    - text: 'Ze schrikt: als ze één stap zet, dan kwaken ze allemaal tegelijk.'
+      emotion: surprised
+  - key: s4
+    text: 'De verhuurder belt Noor en zegt: ''De huur is laag, maar de eenden moeten blijven.'' Noor schrikt, want ze zou
+      willen wonen zonder dieren. Ze zegt ja, hoewel ze voor eenden bang is. Ze denkt: als ze nee zegt, dan verliest ze de
+      boot.'
+    image_prompt: Cartoon illustration of Noor, a 28-year-old Dutch woman with curly red hair, round glasses, a yellow raincoat,
+      and a green backpack, nervously holding a phone while a stern landlord's voice comes out, ducks watching her from the
+      houseboat.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Blijven de eenden in de boot?
+      options: [ja, nee]
+      answer: ja
+    - key: s4q2
+      kind: either_or
+      prompt: 'Wat wil de verhuurder: dat de eenden weggaan of dat de eenden blijven?'
+      options: [dat de eenden weggaan, dat de eenden blijven]
+      answer: dat de eenden blijven
+    - key: s4q3
+      kind: who_what
+      prompt: 'Wat wil Noor: wonen met honden, wonen in een tent, of wonen zonder dieren?'
+      options: [wonen met honden, wonen in een tent, wonen zonder dieren]
+      answer: wonen zonder dieren
+      target: zou willen
+    - key: s4q4
+      kind: yes_no
+      prompt: Is Noor bang voor eenden?
+      options: [ja, nee]
+      answer: ja
+      target: hoewel
+    - key: s4q5
+      kind: either_or
+      prompt: 'Wat gebeurt er als Noor nee zegt: dan verliest ze de boot of dan krijgt ze een huis?'
+      options: [dan verliest ze de boot, dan krijgt ze een huis]
+      answer: dan verliest ze de boot
+      target: als ... dan
+    glossary:
+    - word: verhuurder
+      lemma: de verhuurder
+      level: B1
+    - word: belt
+      lemma: bellen
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: huur
+      lemma: de huur
+      level: A2
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: laag
+      lemma: laag
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: eenden
+      lemma: de eend
+      level: A2
+    - word: moeten
+      lemma: moeten
+      level: A1
+    - word: blijven
+      lemma: blijven
+      level: A1
+    - word: schrikt
+      lemma: schrikken
+      level: B1
+    - word: want
+      lemma: want
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: zou
+      lemma: zullen
+      level: A1
+    - word: willen
+      lemma: willen
+      level: A1
+    - word: wonen
+      lemma: wonen
+      level: A1
+    - word: zonder
+      lemma: zonder
+      level: A2
+    - word: dieren
+      lemma: het dier
+      level: A1
+    - word: ja
+      lemma: ja
+      level: A1
+    - word: hoewel
+      lemma: hoewel
+      level: B1
+    - word: voor
+      lemma: voor
+      level: A1
+    - word: bang
+      lemma: bang
+      level: A1
+    - word: denkt
+      lemma: denken
+      level: A1
+    - word: als
+      lemma: als
+      level: A1
+    - word: nee
+      lemma: nee
+      level: A1
+    - word: dan
+      lemma: dan
+      level: A1
+    - word: verliest
+      lemma: verliezen
+      level: A2
+    - word: boot
+      lemma: de boot
+      level: A2
+    voice:
+    - text: 'De verhuurder belt Noor en zegt: ''De huur is laag, maar de eenden moeten blijven.'' Noor schrikt, want ze zou
+        willen wonen zonder dieren.'
+      emotion: surprised
+    - text: Ze zegt ja, hoewel ze voor eenden bang is.
+      emotion: surprised
+    - text: 'Ze denkt: als ze nee zegt, dan verliest ze de boot.'
+      emotion: whisper
+  - key: s5
+    text: 'Noor tekent het contract en blijft op de woonboot. De volgende ochtend ligt er een gouden ei tussen de eenden.
+      Noor weet: als de eenden gouden eieren leggen, dan kan ze de huur betalen. Ze woont nu heel gelukkig op de boot, hoewel
+      ze nooit van eenden hield.'
+    image_prompt: Cartoon illustration of Noor, a 28-year-old Dutch woman with curly red hair, round glasses, a yellow raincoat,
+      and a green backpack, smiling happily on the houseboat at sunrise with ducks around a shiny golden egg on the deck.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Tekent Noor het contract?
+      options: [ja, nee]
+      answer: ja
+    - key: s5q2
+      kind: either_or
+      prompt: 'Wat ligt er tussen de eenden: een brief of een gouden ei?'
+      options: [een brief, een gouden ei]
+      answer: een gouden ei
+    - key: s5q3
+      kind: who_what
+      prompt: 'Wat leggen de eenden: brood, gouden eieren, of stenen?'
+      options: [brood, gouden eieren, stenen]
+      answer: gouden eieren
+      target: als ... dan
+    - key: s5q4
+      kind: yes_no
+      prompt: Hield Noor vroeger van eenden?
+      options: [ja, nee]
+      answer: nee
+      target: hoewel
+    - key: s5q5
+      kind: either_or
+      prompt: 'Woont Noor nu: heel gelukkig op de boot of verdrietig in een tent?'
+      options: [heel gelukkig op de boot, verdrietig in een tent]
+      answer: heel gelukkig op de boot
+    glossary:
+    - word: tekent
+      lemma: tekenen
+      level: A2
+    - word: contract
+      lemma: het contract
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: blijft
+      lemma: blijven
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: woonboot
+      lemma: de woonboot
+      level: A2
+    - word: volgende
+      lemma: volgende
+      level: A2
+    - word: ochtend
+      lemma: de ochtend
+      level: A1
+    - word: ligt
+      lemma: liggen
+      level: A1
+    - word: er
+      lemma: er
+      level: A1
+    - word: gouden
+      lemma: gouden
+      level: B1
+    - word: ei
+      lemma: het ei
+      level: A1
+    - word: tussen
+      lemma: tussen
+      level: A2
+    - word: eenden
+      lemma: de eend
+      level: A2
+    - word: weet
+      lemma: weten
+      level: A1
+    - word: als
+      lemma: als
+      level: A1
+    - word: eieren
+      lemma: het ei
+      level: A1
+    - word: leggen
+      lemma: leggen
+      level: A1
+    - word: dan
+      lemma: dan
+      level: A1
+    - word: kan
+      lemma: kunnen
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: huur
+      lemma: de huur
+      level: A2
+    - word: betalen
+      lemma: betalen
+      level: A1
+    - word: woont
+      lemma: wonen
+      level: A1
+    - word: nu
+      lemma: nu
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A1
+    - word: gelukkig
+      lemma: gelukkig
+      level: A1
+    - word: boot
+      lemma: de boot
+      level: A2
+    - word: hoewel
+      lemma: hoewel
+      level: B1
+    - word: nooit
+      lemma: nooit
+      level: A1
+    - word: van
+      lemma: van
+      level: A1
+    - word: hield
+      lemma: houden
+      level: A2
+    voice:
+    - text: Noor tekent het contract en blijft op de woonboot.
+      emotion: neutral
+    - text: De volgende ochtend ligt er een gouden ei tussen de eenden.
+      emotion: surprised
+    - text: 'Noor weet: als de eenden gouden eieren leggen, dan kan ze de huur betalen.'
+      emotion: surprised
+    - text: Ze woont nu heel gelukkig op de boot, hoewel ze nooit van eenden hield.
+      emotion: amused
+  core_words:
+  - lemma: de woonboot
+    image_prompt: a small houseboat on a canal
+  - lemma: de eend
+    image_prompt: a single duck swimming on water
+  - lemma: de verhuurder
+    image_prompt: a landlord holding a house key
+  - lemma: het contract
+    image_prompt: a paper document with a pen on a table
+  - lemma: gouden
+    image_prompt: a shiny golden egg
+  - lemma: schrikken
+    image_prompt: a woman jumping back in surprise
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 802
+  output_tokens: 15070
+  glossary_version: glossary-v2
+  glossary_input_tokens: 636
+  glossary_output_tokens: 10501
+  core_version: core-v1
+  core_input_tokens: 1991
+  core_output_tokens: 1646
+  voice_version: voice-v1
+  voice_input_tokens: 607
+  voice_output_tokens: 1775
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1551
+  localize_ar_output_tokens: 6842

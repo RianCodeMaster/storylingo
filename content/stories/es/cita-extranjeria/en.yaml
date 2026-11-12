@@ -1,0 +1,263 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Daniel needs an appointment at the immigration office, but the first free slot is in 2030, so he builds a time machine
+  in his kitchen — and his neighbour takes it to the moon.
+summary_source: e3a8158eff5bbe47
+gestures:
+  although: Shrug with one shoulder, push an invisible small obstacle away with your hand and nod hard, as if saying 'even
+    so!'
+  would_have_to: Sigh loudly and mime carrying a giant heavy box on your back while taking one slow, dramatic step
+  had_asked: Knock three times on an invisible door and then hold out both hands like a beggar asking for something
+targets:
+  aunque:
+    gloss: although
+    note: Like English 'although', it introduces a contrast; here it is followed by the indicative.
+  tendría que:
+    gloss: would have to
+    note: Conditional of tener + que; compare English 'would have to'.
+  había pedido:
+    gloss: had asked for
+    note: Pluperfect había + participle; compare English 'had asked for'.
+scenes:
+- key: s1
+  source: bfd859ee2eaf412e
+  translation: 'Daniel lives in Madrid and needs an appointment at the immigration office. He had been trying to get an appointment
+    for eight months, but the first free appointment is in 2030. Although he calls every morning, the answer is always the
+    same: ''There are no appointments.'' Daniel would have to wait six years, and that is too much.'
+  glosses:
+    vive: he lives
+    en: in
+    "y": and
+    necesita: he needs
+    cita: appointment
+    oficina: office
+    de: of
+    extranjería: immigration
+    Había: he had
+    pedido: requested
+    durante: for
+    meses: months
+    pero: but
+    libre: free
+    es: is
+    año: year
+    Aunque: although
+    llama: he calls
+    al: to the
+    teléfono: phone
+    cada: every
+    mañana: morning
+    respuesta: answer
+    siempre: always
+    misma: same
+    "No": "No"
+    hay: there are
+    citas: appointments
+    tendría: would have
+    que: to
+    esperar: wait
+    años: years
+    eso: that
+    demasiado: too much
+- key: s2
+  source: b3cf233e159a5bcb
+  translation: Daniel decides to build a time machine in his kitchen, although he knows nothing about physics. He uses the
+    microwave, a huge fan and forty-seven metres of aluminium foil. His neighbour says it is impossible, but Daniel would
+    have to get to 2030 somehow. He had asked three scientists for help, but all three laughed at him.
+  glosses:
+    decide: he decides
+    construir: to build
+    máquina: machine
+    del: of the
+    tiempo: time
+    en: in
+    su: his
+    cocina: kitchen
+    aunque: although
+    "no": not
+    sabe: he knows
+    nada: nothing
+    de: about
+    física: physics
+    Usa: he uses
+    microondas: microwave
+    ventilador: fan
+    enorme: huge
+    "y": and
+    metros: metres
+    papel: foil
+    aluminio: aluminium
+    vecina: neighbour
+    dice: says
+    que: that
+    es: is
+    imposible: impossible
+    pero: but
+    tendría: would have
+    llegar: to reach
+    a: to
+    alguna: some
+    manera: way
+    Había: he had
+    pedido: asked for
+    ayuda: help
+    científicos: scientists
+    se: reflexive marker
+    rieron: they laughed
+    él: him
+- key: s3
+  source: 8b8a5c0932eeaac0
+  translation: 'On Tuesday, Daniel sets the date 2030 on the microwave and presses the button. Although there is a lot of
+    smoke and a terrible noise, the machine works: Daniel appears in 2030. In the street there are flying cars and people
+    wear gold shoes, but the immigration office is still in the same grey building. Daniel would have to go in quickly, because
+    his appointment is at nine.'
+  glosses:
+    martes: Tuesday
+    pone: he puts
+    fecha: date
+    en: "on"
+    microondas: microwave
+    "y": and
+    pulsa: he presses
+    botón: button
+    Aunque: although
+    hay: there is
+    mucho: a lot of
+    humo: smoke
+    ruido: noise
+    terrible: terrible
+    máquina: machine
+    funciona: works
+    aparece: he appears
+    calle: street
+    coches: cars
+    voladores: flying
+    gente: people
+    lleva: wears
+    zapatos: shoes
+    de: of
+    oro: gold
+    pero: but
+    oficina: office
+    extranjería: immigration
+    todavía: still
+    está: is
+    mismo: same
+    edificio: building
+    gris: grey
+    tendría: would have
+    que: to
+    entrar: to go in
+    rápido: quickly
+    porque: because
+    su: his
+    cita: appointment
+    es: is
+    a: at
+- key: s4
+  source: fdb337b92e7ccb70
+  translation: 'At the office, a very kind employee says to him: ''Your appointment was yesterday.'' Daniel explains that
+    he had requested that appointment in 2024, and the employee smiles: ''I''m sorry, in 2030 we only give appointments online.''
+    Although Daniel has a time machine, he does not have internet in 2030, because the internet disappeared in 2029. The employee
+    adds: ''You would have to come back in 2031; there is a free appointment in March.'''
+  glosses:
+    En: In
+    oficina: office
+    empleada: employee
+    muy: very
+    amable: kind
+    le: to him
+    dice: says
+    Su: Your
+    cita: appointment
+    era: was
+    ayer: yesterday
+    explica: explains
+    que: that
+    había: he had
+    pedido: requested
+    esa: that
+    "y": and
+    sonríe: smiles
+    Lo: it
+    siento: I'm sorry
+    solo: only
+    damos: we give
+    citas: appointments
+    por: by
+    internet: internet
+    Aunque: although
+    tiene: he has
+    máquina: machine
+    del: of the
+    tiempo: time
+    "no": not
+    porque: because
+    desapareció: disappeared
+    añade: adds
+    Tendría: you would have
+    volver: to return
+    hay: there is
+    libre: free
+    marzo: March
+- key: s5
+  source: e516048b4e54e962
+  translation: 'Daniel returns to his kitchen, in 2024, and looks at his mobile: there is a free appointment tomorrow at eight!
+    Although he shouts with joy, his neighbour comes in and says: ''I used your machine to go to 2050; there you are already
+    Spanish.'' Daniel had been trying to get an appointment for eight months and now he no longer needs it. But he would have
+    to return the machine to the moon, because his neighbour has parked it there.'
+  glosses:
+    vuelve: returns
+    a: to
+    su: his
+    cocina: kitchen
+    en: in
+    "y": and
+    mira: looks at
+    móvil: mobile
+    hay: there is
+    cita: appointment
+    libre: free
+    mañana: tomorrow
+    Aunque: although
+    grita: shouts
+    de: with
+    alegría: joy
+    vecina: neighbour
+    entra: comes in
+    dice: says
+    He: I have
+    usado: used
+    tu: your
+    máquina: machine
+    para: to
+    ir: go
+    allí: there
+    tú: you
+    ya: already
+    eres: you are
+    español: Spanish
+    había: he had
+    pedido: requested
+    durante: for
+    meses: months
+    ahora: now
+    "no": not
+    la: it
+    necesita: he needs
+    Pero: But
+    tendría: he would have
+    que: to
+    devolver: return
+    luna: moon
+    porque: because
+    ha: has
+    aparcado: parked
+words:
+  la cita: the appointment
+  la máquina: the machine
+  el microondas: the microwave
+  el ventilador: the fan
+  el aluminio: the aluminium
+  la vecina: the neighbour

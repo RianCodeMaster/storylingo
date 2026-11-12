@@ -1,0 +1,945 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: inburgering-robot
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: B1
+  theme: Lars doet zijn inburgeringsexamen, maar de examinator blijkt een robot die alleen in rijm praat
+  scenes: 5
+  targets:
+  - text: omdat
+    gloss: because (verb at the end)
+    concept: because
+    kind: word
+  - text: had gedacht
+    gloss: had thought
+    concept: had_thought
+    kind: phrase
+  - text: bleek
+    gloss: turned out
+    concept: turn_out
+    kind: word
+  narrator: jessica
+story:
+  title: Lars en de rijmende robot
+  summary: Lars takes his Dutch integration exam, but the examiner turns out to be a robot who only speaks in rhyme, and Lars
+    must rhyme his way to a diploma.
+  gestures:
+  - concept: because
+    description: Push both hands forward from your chest as if shoving out a reason, then stomp one foot hard on the last
+      word, because in Dutch the verb goes to the end.
+    emoji: 🦶
+  - concept: had_thought
+    description: Tap your temple twice with a dreamy look up at the ceiling, then shrug and let your hand drop like a balloon
+      losing air.
+    emoji: 💭
+  - concept: turn_out
+    description: Open both palms wide like curtains opening, pop your eyes and whisper 'ta-da!' as if a surprise just appeared.
+    emoji: 🎉
+  scenes:
+  - key: s1
+    text: 'Lars had gedacht dat het inburgeringsexamen makkelijk zou zijn. Hij had gedacht dat hij alleen vragen over het
+      weer en de fiets zou krijgen. Maar de examinator bleek geen mens te zijn: het was een robot met één groot oog en een
+      klein blauw hoedje. De robot zei met een piepstem: ''Welkom, welkom, in mijn zaal, ik rijm altijd, zonder faal.'''
+    image_prompt: A tall thin man around thirty with short blond hair, round glasses, a blue sweater and a green backpack
+      stands nervously in a small exam room. Behind a desk sits a silver robot with one big round eye and a tiny blue hat,
+      pointing at him. Papers and a lamp on the desk, bright cartoon style.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Had Lars gedacht dat het examen makkelijk zou zijn?
+      options: [ja, nee]
+      answer: ja
+      target: had gedacht
+    - key: s1q2
+      kind: who_what
+      prompt: Wat bleek de examinator te zijn?
+      options: [een robot, een mens, een fiets]
+      answer: een robot
+      target: bleek
+    - key: s1q3
+      kind: yes_no
+      prompt: Bleek de examinator een mens te zijn?
+      options: [ja, nee]
+      answer: nee
+      target: bleek
+    - key: s1q4
+      kind: who_what
+      prompt: Hoeveel ogen had de robot?
+      options: [één oog, twee ogen, drie ogen]
+      answer: één oog
+    - key: s1q5
+      kind: either_or
+      prompt: Zei de robot 'ik rijm altijd' of 'ik zing altijd'?
+      options: [ik rijm altijd, ik zing altijd]
+      answer: ik rijm altijd
+    glossary:
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: gedacht
+      lemma: denken
+      level: A2
+    - word: dat
+      lemma: dat
+      level: A1
+    - word: het
+      lemma: het
+      level: A1
+    - word: inburgeringsexamen
+      lemma: het inburgeringsexamen
+      level: B1
+    - word: makkelijk
+      lemma: makkelijk
+      level: A2
+    - word: zou
+      lemma: zullen
+      level: A2
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: alleen
+      lemma: alleen
+      level: A2
+    - word: vragen
+      lemma: de vraag
+      level: A1
+    - word: over
+      lemma: over
+      level: A1
+    - word: weer
+      lemma: het weer
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: fiets
+      lemma: de fiets
+      level: A1
+    - word: krijgen
+      lemma: krijgen
+      level: A1
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: examinator
+      lemma: de examinator
+      level: B1
+    - word: bleek
+      lemma: blijken
+      level: B1
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: mens
+      lemma: de mens
+      level: A2
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: robot
+      lemma: de robot
+      level: A2
+    - word: met
+      lemma: met
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: oog
+      lemma: het oog
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: blauw
+      lemma: blauw
+      level: A1
+    - word: hoedje
+      lemma: het hoedje
+      level: A2
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: piepstem
+      lemma: de piepstem
+      level: B1
+    - word: Welkom
+      lemma: welkom
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: mijn
+      lemma: mijn
+      level: A1
+    - word: zaal
+      lemma: de zaal
+      level: A2
+    - word: ik
+      lemma: ik
+      level: A1
+    - word: rijm
+      lemma: rijmen
+      level: B1
+    - word: altijd
+      lemma: altijd
+      level: A1
+    - word: zonder
+      lemma: zonder
+      level: A2
+    - word: faal
+      lemma: de faal
+      level: C1
+    voice:
+    - text: Lars had gedacht dat het inburgeringsexamen makkelijk zou zijn.
+      emotion: neutral
+    - text: Hij had gedacht dat hij alleen vragen over het weer en de fiets zou krijgen.
+      emotion: amused
+    - text: 'Maar de examinator bleek geen mens te zijn: het was een robot met één groot oog en een klein blauw hoedje.'
+      emotion: surprised
+    - text: 'De robot zei met een piepstem: ''Welkom, welkom, in mijn zaal, ik rijm altijd, zonder faal.'''
+      emotion: amused
+  - key: s2
+    text: 'De robot stelde zijn eerste vraag: ''Waarom ben je vandaag hier, meneer?'' Lars antwoordde eerlijk: ''Ik ben hier
+      omdat ik mijn diploma nodig heb.'' ''Omdat je een diploma nodig hebt, dat is fijn,'' zei de robot, ''maar je antwoord
+      moet in rijm zijn!'' Lars had gedacht dat hij gewoon kon praten, maar dat bleek niet zo te zijn.'
+    image_prompt: The same thin man with round glasses and blue sweater looks shocked, hands in the air, while the silver
+      one-eyed robot leans over the desk with a finger raised. A speech bubble with musical rhyme notes floats above the robot.
+      Bright cartoon style, same exam room.
+    questions:
+    - key: s2q1
+      kind: who_what
+      prompt: Waarom is Lars hier?
+      options:
+      - omdat hij zijn diploma nodig heeft
+      - omdat hij honger heeft
+      - omdat hij de robot wil zien
+      answer: omdat hij zijn diploma nodig heeft
+      target: omdat
+    - key: s2q2
+      kind: yes_no
+      prompt: Had Lars gedacht dat hij gewoon kon praten?
+      options: [ja, nee]
+      answer: ja
+      target: had gedacht
+    - key: s2q3
+      kind: either_or
+      prompt: Bleek Lars gewoon te kunnen praten of moest hij in rijm antwoorden?
+      options: [hij moest in rijm antwoorden, hij kon gewoon praten]
+      answer: hij moest in rijm antwoorden
+      target: bleek
+    - key: s2q4
+      kind: who_what
+      prompt: Wat wil de robot van Lars?
+      options: [een antwoord in rijm, een kopje koffie, een nieuwe batterij]
+      answer: een antwoord in rijm
+    - key: s2q5
+      kind: yes_no
+      prompt: Bleek het examen makkelijk voor Lars te zijn?
+      options: [ja, nee]
+      answer: nee
+      target: bleek
+    glossary:
+    - word: robot
+      lemma: de robot
+      level: A2
+    - word: stelde
+      lemma: stellen
+      level: A2
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: vraag
+      lemma: de vraag
+      level: A1
+    - word: Waarom
+      lemma: waarom
+      level: A1
+    - word: ben
+      lemma: zijn
+      level: A1
+    - word: je
+      lemma: je
+      level: A1
+    - word: vandaag
+      lemma: vandaag
+      level: A1
+    - word: hier
+      lemma: hier
+      level: A1
+    - word: meneer
+      lemma: de meneer
+      level: A2
+    - word: antwoordde
+      lemma: antwoorden
+      level: A2
+    - word: eerlijk
+      lemma: eerlijk
+      level: A2
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: omdat
+      lemma: omdat
+      level: A2
+    - word: mijn
+      lemma: mijn
+      level: A1
+    - word: diploma
+      lemma: het diploma
+      level: A2
+    - word: nodig
+      lemma: nodig
+      level: A2
+    - word: heb
+      lemma: hebben
+      level: A1
+    - word: hebt
+      lemma: hebben
+      level: A1
+    - word: dat
+      lemma: dat
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: fijn
+      lemma: fijn
+      level: A2
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: antwoord
+      lemma: het antwoord
+      level: A2
+    - word: moet
+      lemma: moeten
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: rijm
+      lemma: het rijm
+      level: B1
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: gedacht
+      lemma: denken
+      level: A2
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: gewoon
+      lemma: gewoon
+      level: A2
+    - word: kon
+      lemma: kunnen
+      level: A2
+    - word: praten
+      lemma: praten
+      level: A1
+    - word: bleek
+      lemma: blijken
+      level: B1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: zo
+      lemma: zo
+      level: A1
+    voice:
+    - text: 'De robot stelde zijn eerste vraag: ''Waarom ben je vandaag hier, meneer?'' Lars antwoordde eerlijk: ''Ik ben
+        hier omdat ik mijn diploma nodig heb.'' ''Omdat je een diploma nodig hebt, dat is fijn,'' zei de robot, ''maar je
+        antwoord moet in rijm zijn!'' Lars had gedacht dat hij gewoon kon praten, maar dat bleek niet zo te zijn.'
+      emotion: neutral
+  - key: s3
+    text: 'Lars probeerde een rijmpje: ''Ik kom uit Groningen, en ik eet graag... brood?'' De robot schudde nee. ''Dat rijmt
+      niet, dat is een ramp, jij bent een mier en ik een lamp!'' Lars werd bang, omdat de robot heel hard begon te lachen.
+      Zijn handen trilden, omdat hij geen enkel rijmwoord kon vinden. Hij had gedacht dat het examen maar tien minuten zou
+      duren; nu bleek het al een uur te zijn.'
+    image_prompt: The thin man with round glasses sits small in his chair, hands shaking, sweat drops flying, while the silver
+      robot laughs with its one eye squeezed shut and a big open mouth. A clock on the wall shows a full hour. Bright cartoon
+      style, same exam room.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Kon Lars een goede rijm geven?
+      options: [ja, nee]
+      answer: nee
+    - key: s3q2
+      kind: either_or
+      prompt: Werd Lars bang of werd Lars boos?
+      options: [bang, boos]
+      answer: bang
+    - key: s3q3
+      kind: who_what
+      prompt: Waarom trilden de handen van Lars?
+      options: [omdat hij geen rijmwoord kon vinden, omdat het koud was, omdat hij boos was]
+      answer: omdat hij geen rijmwoord kon vinden
+      target: omdat
+    - key: s3q4
+      kind: yes_no
+      prompt: Had Lars gedacht dat het examen tien minuten zou duren?
+      options: [ja, nee]
+      answer: ja
+      target: had gedacht
+    - key: s3q5
+      kind: either_or
+      prompt: Bleek het examen tien minuten te duren of al een uur?
+      options: [al een uur, tien minuten]
+      answer: al een uur
+      target: bleek
+    glossary:
+    - word: probeerde
+      lemma: proberen
+      level: A2
+    - word: rijmpje
+      lemma: het rijmpje
+      level: B1
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: kom
+      lemma: komen
+      level: A1
+    - word: uit
+      lemma: uit
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: eet
+      lemma: eten
+      level: A1
+    - word: graag
+      lemma: graag
+      level: A1
+    - word: brood
+      lemma: het brood
+      level: A1
+    - word: robot
+      lemma: de robot
+      level: A2
+    - word: schudde
+      lemma: schudden
+      level: B1
+    - word: nee
+      lemma: nee
+      level: A1
+    - word: Dat
+      lemma: dat
+      level: A1
+    - word: rijmt
+      lemma: rijmen
+      level: B1
+    - word: niet
+      lemma: niet
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: ramp
+      lemma: de ramp
+      level: B1
+    - word: jij
+      lemma: jij
+      level: A1
+    - word: bent
+      lemma: zijn
+      level: A1
+    - word: mier
+      lemma: de mier
+      level: A2
+    - word: lamp
+      lemma: de lamp
+      level: A1
+    - word: werd
+      lemma: worden
+      level: A2
+    - word: bang
+      lemma: bang
+      level: A2
+    - word: omdat
+      lemma: omdat
+      level: A2
+    - word: heel
+      lemma: heel
+      level: A2
+    - word: hard
+      lemma: hard
+      level: A2
+    - word: begon
+      lemma: beginnen
+      level: A2
+    - word: lachen
+      lemma: lachen
+      level: A1
+    - word: Zijn
+      lemma: zijn
+      level: A1
+    - word: handen
+      lemma: de hand
+      level: A2
+    - word: trilden
+      lemma: trillen
+      level: B1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: enkel
+      lemma: enkel
+      level: B1
+    - word: rijmwoord
+      lemma: het rijmwoord
+      level: B1
+    - word: kon
+      lemma: kunnen
+      level: A2
+    - word: vinden
+      lemma: vinden
+      level: A1
+    - word: had
+      lemma: hebben
+      level: A1
+    - word: gedacht
+      lemma: denken
+      level: A2
+    - word: het
+      lemma: het
+      level: A1
+    - word: examen
+      lemma: het examen
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: minuten
+      lemma: de minuut
+      level: A1
+    - word: zou
+      lemma: zullen
+      level: A2
+    - word: duren
+      lemma: duren
+      level: A2
+    - word: nu
+      lemma: nu
+      level: A1
+    - word: bleek
+      lemma: blijken
+      level: B1
+    - word: al
+      lemma: al
+      level: A1
+    - word: uur
+      lemma: het uur
+      level: A1
+    voice:
+    - text: 'Lars probeerde een rijmpje: ''Ik kom uit Groningen, en ik eet graag...'
+      emotion: amused
+    - text: brood?' De robot schudde nee.
+      emotion: neutral
+    - text: '''Dat rijmt niet, dat is een ramp, jij bent een mier en ik een lamp!'' Lars werd bang, omdat de robot heel hard
+        begon te lachen.'
+      emotion: angry
+    - text: Zijn handen trilden, omdat hij geen enkel rijmwoord kon vinden.
+      emotion: whisper
+    - text: Hij had gedacht dat het examen maar tien minuten zou duren; nu bleek het al een uur te zijn.
+      emotion: whisper
+  - key: s4
+    text: 'Lars werd boos. Hij sprong op en riep: ''Jij bent een robot, jij bent van staal, jij hebt geen hart, jij bent...
+      een paal!'' De robot stopte met piepen. Zijn ene oog werd groot, en hij bleek dit rijmpje geweldig te vinden. ''Al jaren
+      wacht ik op een mens,'' zei de robot, ''die eindelijk rijmt, omdat hij het meent!'''
+    image_prompt: The thin man with round glasses jumps up from his chair with both fists in the air, shouting. The silver
+      robot's single eye is enormous and sparkling, its little blue hat tilted, tiny arms raised in joy. Papers fly off the
+      desk. Bright cartoon style, same exam room.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Werd Lars boos?
+      options: [ja, nee]
+      answer: ja
+    - key: s4q2
+      kind: who_what
+      prompt: Wat riep Lars over de robot?
+      options: [jij bent van staal, jij bent een mier, jij bent een lamp]
+      answer: jij bent van staal
+    - key: s4q3
+      kind: either_or
+      prompt: Vond de robot het rijmpje geweldig of vreselijk?
+      options: [geweldig, vreselijk]
+      answer: geweldig
+      target: bleek
+    - key: s4q4
+      kind: who_what
+      prompt: Waarom wachtte de robot al jaren op een mens?
+      options: [omdat hij wil dat iemand rijmt, omdat hij wil slapen, omdat hij boos is]
+      answer: omdat hij wil dat iemand rijmt
+      target: omdat
+    - key: s4q5
+      kind: yes_no
+      prompt: Bleek de robot boos te zijn op Lars?
+      options: [ja, nee]
+      answer: nee
+      target: bleek
+    glossary:
+    - word: werd
+      lemma: worden
+      level: A2
+    - word: boos
+      lemma: boos
+      level: A2
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: sprong
+      lemma: springen
+      level: A2
+    - word: op
+      lemma: op
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: riep
+      lemma: roepen
+      level: A2
+    - word: Jij
+      lemma: jij
+      level: A1
+    - word: bent
+      lemma: zijn
+      level: A1
+    - word: robot
+      lemma: de robot
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: staal
+      lemma: het staal
+      level: B1
+    - word: hebt
+      lemma: hebben
+      level: A1
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: hart
+      lemma: het hart
+      level: A2
+    - word: paal
+      lemma: de paal
+      level: A2
+    - word: stopte
+      lemma: stoppen
+      level: A2
+    - word: met
+      lemma: met
+      level: A1
+    - word: piepen
+      lemma: piepen
+      level: B1
+    - word: Zijn
+      lemma: zijn
+      level: A1
+    - word: ene
+      lemma: ene
+      level: B1
+    - word: oog
+      lemma: het oog
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: bleek
+      lemma: blijken
+      level: B1
+    - word: dit
+      lemma: dit
+      level: A1
+    - word: rijmpje
+      lemma: het rijmpje
+      level: B1
+    - word: geweldig
+      lemma: geweldig
+      level: A2
+    - word: vinden
+      lemma: vinden
+      level: A1
+    - word: Al
+      lemma: al
+      level: A1
+    - word: jaren
+      lemma: het jaar
+      level: A1
+    - word: wacht
+      lemma: wachten
+      level: A2
+    - word: ik
+      lemma: ik
+      level: A1
+    - word: mens
+      lemma: de mens
+      level: A2
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: die
+      lemma: die
+      level: A1
+    - word: eindelijk
+      lemma: eindelijk
+      level: B1
+    - word: rijmt
+      lemma: rijmen
+      level: B1
+    - word: omdat
+      lemma: omdat
+      level: A2
+    - word: het
+      lemma: het
+      level: A1
+    - word: meent
+      lemma: menen
+      level: B1
+    voice:
+    - text: Lars werd boos.
+      emotion: angry
+    - text: 'Hij sprong op en riep: ''Jij bent een robot, jij bent van staal, jij hebt geen hart, jij bent...'
+      emotion: angry
+    - text: een paal!' De robot stopte met piepen.
+      emotion: surprised
+    - text: Zijn ene oog werd groot, en hij bleek dit rijmpje geweldig te vinden.
+      emotion: surprised
+    - text: '''Al jaren wacht ik op een mens,'' zei de robot, ''die eindelijk rijmt, omdat hij het meent!'''
+      emotion: amused
+  - key: s5
+    text: 'Plotseling zei de robot: ''Mijn batterij is bijna leeg, ik val bijna om.'' Lars moest snel nog één rijmpje maken,
+      omdat de robot anders zou uitvallen. ''Je was streng, maar ook wel aardig,'' zei Lars, ''en daarom krijg ik nu mijn...''
+      ''Diploma!'' piepte de robot. De robot bleek stiekem de buurman van Lars te zijn, die hem al jaren Nederlands hoorde
+      oefenen in de tuin.'
+    image_prompt: The silver robot wobbles with a flashing empty battery icon on its chest while the thin man with round glasses
+      points at it, triumphant. Behind them a window shows a garden and a shed. A diploma with a ribbon lies on the desk.
+      Bright cartoon style, same exam room.
+    questions:
+    - key: s5q1
+      kind: either_or
+      prompt: Was de batterij van de robot bijna leeg of helemaal vol?
+      options: [bijna leeg, helemaal vol]
+      answer: bijna leeg
+    - key: s5q2
+      kind: who_what
+      prompt: Waarom moest Lars snel nog een rijmpje maken?
+      options:
+      - omdat de robot anders zou uitvallen
+      - omdat hij honger had
+      - omdat het pauze was
+      answer: omdat de robot anders zou uitvallen
+      target: omdat
+    - key: s5q3
+      kind: yes_no
+      prompt: Bleek de robot de buurman van Lars te zijn?
+      options: [ja, nee]
+      answer: ja
+      target: bleek
+    - key: s5q4
+      kind: who_what
+      prompt: Wat kreeg Lars aan het einde?
+      options: [zijn diploma, een fiets, een hoedje]
+      answer: zijn diploma
+    - key: s5q5
+      kind: yes_no
+      prompt: Had Lars gedacht dat de examinator zijn buurman was?
+      options: [ja, nee]
+      answer: nee
+      target: had gedacht
+    glossary:
+    - word: Plotseling
+      lemma: plotseling
+      level: B1
+    - word: zei
+      lemma: zeggen
+      level: A1
+    - word: robot
+      lemma: de robot
+      level: A2
+    - word: Mijn
+      lemma: mijn
+      level: A1
+    - word: batterij
+      lemma: de batterij
+      level: A2
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: bijna
+      lemma: bijna
+      level: A2
+    - word: leeg
+      lemma: leeg
+      level: A2
+    - word: ik
+      lemma: ik
+      level: A1
+    - word: val
+      lemma: vallen
+      level: A1
+    - word: om
+      lemma: om
+      level: A2
+    - word: moest
+      lemma: moeten
+      level: A2
+    - word: snel
+      lemma: snel
+      level: A2
+    - word: nog
+      lemma: nog
+      level: A1
+    - word: rijmpje
+      lemma: het rijmpje
+      level: B1
+    - word: maken
+      lemma: maken
+      level: A1
+    - word: omdat
+      lemma: omdat
+      level: A2
+    - word: anders
+      lemma: anders
+      level: A2
+    - word: zou
+      lemma: zullen
+      level: A2
+    - word: uitvallen
+      lemma: uitvallen
+      level: B1
+    - word: Je
+      lemma: je
+      level: A1
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: streng
+      lemma: streng
+      level: B1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: wel
+      lemma: wel
+      level: A1
+    - word: aardig
+      lemma: aardig
+      level: A2
+    - word: daarom
+      lemma: daarom
+      level: A2
+    - word: krijg
+      lemma: krijgen
+      level: A1
+    - word: nu
+      lemma: nu
+      level: A1
+    - word: Diploma
+      lemma: het diploma
+      level: A2
+    - word: piepte
+      lemma: piepen
+      level: B1
+    - word: bleek
+      lemma: blijken
+      level: B1
+    - word: stiekem
+      lemma: stiekem
+      level: B1
+    - word: buurman
+      lemma: de buurman
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: zijn
+      lemma: zijn
+      level: A1
+    - word: die
+      lemma: die
+      level: A1
+    - word: hem
+      lemma: hem
+      level: A1
+    - word: al
+      lemma: al
+      level: A1
+    - word: jaren
+      lemma: het jaar
+      level: A1
+    - word: hoorde
+      lemma: horen
+      level: A1
+    - word: oefenen
+      lemma: oefenen
+      level: A2
+    - word: in
+      lemma: in
+      level: A1
+    - word: tuin
+      lemma: de tuin
+      level: A1
+    voice:
+    - text: 'Plotseling zei de robot: ''Mijn batterij is bijna leeg, ik val bijna om.'' Lars moest snel nog één rijmpje maken,
+        omdat de robot anders zou uitvallen.'
+      emotion: sleepy
+    - text: '''Je was streng, maar ook wel aardig,'' zei Lars, ''en daarom krijg ik nu mijn...'' ''Diploma!'' piepte de robot.'
+      emotion: whisper
+    - text: De robot bleek stiekem de buurman van Lars te zijn, die hem al jaren Nederlands hoorde oefenen in de tuin.
+      emotion: amused
+  core_words:
+  - lemma: het inburgeringsexamen
+    image_prompt: a person sitting at a desk in an exam hall with a paper and pen
+  - lemma: de robot
+    image_prompt: a friendly metal robot with one large round eye and a tiny blue hat
+  - lemma: rijmen
+    image_prompt: a person reciting a short poem, with musical notes floating around their mouth
+  - lemma: het diploma
+    image_prompt: a rolled-up diploma tied with a red ribbon
+  - lemma: de batterij
+    image_prompt: a small battery with a nearly empty charge indicator
+  - lemma: de buurman
+    image_prompt: a friendly man standing by a garden fence next to a house
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 794
+  output_tokens: 5373
+  glossary_version: glossary-v2
+  glossary_input_tokens: 803
+  glossary_output_tokens: 19908
+  core_version: core-v1
+  core_input_tokens: 2616
+  core_output_tokens: 3013
+  voice_version: voice-v1
+  voice_input_tokens: 777
+  voice_output_tokens: 5392
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1985
+  localize_ar_output_tokens: 7302

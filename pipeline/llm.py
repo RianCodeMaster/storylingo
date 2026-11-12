@@ -6,7 +6,7 @@ from openai import OpenAI
 from pydantic import ValidationError
 
 from models import Brief, Story, check_story
-from prompts import SYSTEM, fix_prompt, user_prompt
+from prompts import SYSTEM, fix_prompt, simplify_prompt, user_prompt
 
 MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-flash")
 MAX_ATTEMPTS = 3
@@ -21,8 +21,30 @@ def client() -> OpenAI:
 
 def write_story(brief: Brief) -> tuple[Story, dict]:
     """Ask for a story, check it, and ask for fixes until it passes. Returns the story and usage stats."""
-    api = client()
     messages = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user_prompt(brief)}]
+    return _until_valid(brief, messages)
+
+
+def simplify_story(brief: Brief, story: Story, hard: list[str]) -> tuple[Story, dict]:
+    """The same story with easier words: the writer sees its own story again and rewrites the hard words away."""
+    written = story.model_dump(include={
+        "title": True, "summary": True, "gestures": True,
+        "scenes": {"__all__": {"text": True, "image_prompt": True, "questions": True}},
+    })
+    for scene in written["scenes"]:
+        for q in scene["questions"]:
+            q.pop("key", None)
+    messages = [
+        {"role": "system", "content": SYSTEM},
+        {"role": "user", "content": user_prompt(brief)},
+        {"role": "assistant", "content": json.dumps(written, ensure_ascii=False)},
+        {"role": "user", "content": simplify_prompt(brief.level, hard)},
+    ]
+    return _until_valid(brief, messages)
+
+
+def _until_valid(brief: Brief, messages: list[dict]) -> tuple[Story, dict]:
+    api = client()
     usage = {"model": MODEL, "attempts": 0, "input_tokens": 0, "output_tokens": 0}
 
     for attempt in range(1, MAX_ATTEMPTS + 1):

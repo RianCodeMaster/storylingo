@@ -1,0 +1,172 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تريد مارتا خمسة أطباق تاباس في حانة صاخبة في مدريد، لكنها تطلب بسرعة كبيرة، فتصلها خمسون تاباس، وتدعو في النهاية
+  كل من في الحانة إلى حفلة.
+summary_source: 0e032b6d36e66602
+gestures:
+  order: تظاهر بأنك تكتب بسرعة كبيرة في دفتر صغير غير مرئي، ثم ارمِ الورقة خلف كتفك مثل طاهي بيتزا.
+  want: عانق نفسك وحدّق في كعكة خيالية بعينين جائعتين كبيرتين، ولحس شفتيك.
+  there_was: افتح ذراعيك على وسعهما مثل ستارة عملاقة، ثم أشر إلى الفراغ وفمك مفتوح من الدهشة.
+  there_is: افتح ذراعيك على مصراعيهما كأنك تسحب ستارة كبيرة، ثم أشِر إلى الفراغ وفمك مفتوح من الدهشة.
+targets:
+  pidió:
+    gloss: طلب/طلبت
+    note: 'ماضٍ من pedir؛ في العربية يتغير حسب الفاعل: طلب/طلبت.'
+  quería:
+    gloss: أراد/كان يريد
+    note: ماضٍ ناقص للرغبة؛ قارنه بـ«كان يريد».
+  había:
+    gloss: كان هناك
+    note: فعل وجود بمعنى «يوجد/كان هناك».
+scenes:
+- key: s1
+  source: 27a28a3b0e94486a
+  translation: كانت مارتا جائعة جدًا. أرادت أن تأكل تاباس في حانة صغيرة في مدريد. كان في الحانة ناس كثيرون، وكان هناك أيضًا
+    ضجيج كثير. أرادت مارتا طاولة هادئة.
+  glosses:
+    tenía: كانت لديها
+    mucha: شديدة
+    hambre: جوع
+    Quería: أرادت
+    comer: تأكل
+    tapas: تاباس
+    en: في
+    bar: حانة
+    pequeño: صغير
+    de: من
+    había: كان هناك
+    gente: ناس
+    "y": و
+    también: أيضًا
+    mucho: كثير
+    ruido: ضجيج
+    mesa: طاولة
+    tranquila: هادئة
+- key: s2
+  source: 8704942bc9df2fd6
+  translation: كان اسم النادل باكو، وكان لديه شارب ضخم. لم يكن باكو يسمع جيدًا لأن هناك موسيقى عالية جدًا. أرادت مارتا خمس
+    تاباس بالعجة. لكن مارتا طلبت بسرعة كبيرة، فابتسم باكو.
+  glosses:
+    camarero: النادل
+    se: نفسه
+    llamaba: كان اسمه
+    "y": و
+    tenía: كان لديه
+    bigote: شارب
+    enorme: ضخم
+    "no": لم
+    oía: يسمع
+    bien: جيدًا
+    porque: لأن
+    había: كان هناك
+    música: موسيقى
+    muy: جدًا
+    alta: عالية
+    quería: أرادت
+    tapas: تاباس
+    de: من
+    tortilla: عجة
+    Pero: لكن
+    pidió: طلبت
+    rápido: بسرعة
+    sonrió: ابتسم
+- key: s3
+  source: 697d2687872c8fd0
+  translation: 'كتب باكو الطلب وذهب إلى المطبخ. بعد عشر دقائق، أحضر ما طلبته مارتا: خمسون تابا! كانت هناك أطباق من العجة والجامون
+    والجبن في كل مكان. «خمسون!» صرخت مارتا. «أنا أردت خمسة!»'
+  glosses:
+    escribió: كتب
+    pedido: الطلب
+    "y": و
+    fue: ذهب
+    a: إلى
+    cocina: المطبخ
+    minutos: دقائق
+    después: بعدها
+    trajo: أحضر
+    lo: الذي
+    que: ما
+    pidió: طلبت
+    tapas: تاباس
+    Había: كان هناك
+    platos: أطباق
+    de: من
+    tortilla: عجة
+    jamón: لحم مقدد
+    queso: جبن
+    por: في
+    todas: كل
+    partes: أماكن
+    gritó: صرخت
+    Yo: أنا
+    quería: أردت
+- key: s4
+  source: 08dcabbf716d6ef2
+  translation: نظرت مارتا إلى الطاولة وأرادت أن تبكي. كان هناك طعام يكفي مئة شخص، لكن في الحانة لم يكن هناك مكان لمزيد من
+    الأطباق. حينها اتصلت مارتا بجارها بيبي. طلب بيبي خمس تاباس إضافية وأكل بسرعة كبيرة.
+  glosses:
+    miró: نظرت
+    mesa: الطاولة
+    "y": و
+    quería: أرادت
+    llorar: تبكي
+    Había: كان هناك
+    comida: طعام
+    para: لـ
+    personas: أشخاص
+    pero: لكن
+    en: في
+    bar: الحانة
+    "no": لم
+    sitio: مكان
+    más: مزيد من
+    platos: أطباق
+    Entonces: حينها
+    llamó: اتصلت بـ
+    a: بـ
+    su: الخاص بها
+    vecino: الجار
+    pidió: طلب
+    tapas: تاباس
+    comió: أكل
+    muy: جدًا
+    rápido: بسرعة
+- key: s5
+  source: dc60b673df587c48
+  translation: 'في النهاية، دعت مارتا كل من في الحانة: «تاباس مجانًا للجميع!». أراد الجميع أن يأكلوا، وأراد باكو أن يرقص.
+    كانت هناك حفلة ضخمة في الحانة الصغيرة. ولم يطلب باكو نقودًا: بل طلب جولة أخرى من التاباس.'
+  glosses:
+    Al: في
+    final: النهاية
+    invitó: دعت
+    a: إلى
+    todo: كل
+    bar: الحانة
+    Tapas: تاباس
+    gratis: مجانًا
+    para: لـ
+    todos: الجميع
+    querían: أرادوا
+    comer: يأكلوا
+    "y": و
+    quería: أراد
+    bailar: يرقص
+    Había: كان هناك
+    fiesta: حفلة
+    enorme: ضخمة
+    en: في
+    pequeño: الصغيرة
+    "no": لم
+    pidió: طلب
+    dinero: نقودًا
+    otra: أخرى
+    ronda: جولة
+    de: من
+words:
+  el bar: الحانة
+  la tapa: التابا
+  el camarero: النادل
+  el bigote: الشارب
+  la tortilla: العجة
+  la fiesta: الحفلة

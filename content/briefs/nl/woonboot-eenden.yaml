@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: woonboot-eenden
+language: nl
+level: B1
+tags: [algemeen, dagelijks]
+narrator: george
+theme: Noor zoekt een betaalbaar huurhuis in Amsterdam; het enige wat ze kan betalen is een woonboot vol eenden
+scenes: 5
+targets:
+  - {text: "hoewel", gloss: "although (verb at the end)", concept: although}
+  - {text: "als ... dan", gloss: "if ... then", concept: if_then, kind: structure}
+  - {text: "zou willen", gloss: "would like", concept: would_like, kind: phrase}

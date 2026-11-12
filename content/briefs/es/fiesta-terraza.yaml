@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: fiesta-terraza
+language: es
+level: B1
+tags: [algemeen]
+narrator: charlie
+theme: Elena organiza una pequeña fiesta en su terraza, pero viene todo el barrio, incluso el alcalde con una banda de música
+scenes: 5
+targets:
+  - {text: "había invitado", gloss: "had invited", concept: had_invited, kind: phrase}
+  - {text: "para que", gloss: "so that", concept: so_that, kind: phrase}
+  - {text: "mientras", gloss: "while", concept: while}

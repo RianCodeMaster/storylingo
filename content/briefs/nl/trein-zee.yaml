@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: trein-zee
+language: nl
+level: A1
+tags: [algemeen, dagelijks]
+narrator: charlie
+theme: Bram zit in de trein naar zijn werk in Utrecht, maar de trein gaat naar de zee; op het strand staat zijn baas
+scenes: 5
+targets:
+  - {text: "zit", gloss: "sits", concept: sit}
+  - {text: "gaat naar", gloss: "goes to", concept: go_to, kind: phrase}
+  - {text: "staat", gloss: "stands", concept: stand}

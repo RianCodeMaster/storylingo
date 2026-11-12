@@ -118,6 +118,13 @@ def level_problems(doc) -> list[str]:
     return problems
 
 
+def hard_words(doc) -> list[str]:
+    """The words of a story above its level, core words left out (they are taught with a picture first)."""
+    core = {w.lemma for w in doc.story.core_words}
+    return sorted({e.lemma for scene in doc.story.scenes for e in scene.glossary
+                   if e.lemma not in core and above(e.level, doc.brief.level)})
+
+
 def level_warnings(doc) -> list[str]:
     core = {w.lemma for w in doc.story.core_words}
     words = [e for scene in doc.story.scenes for e in scene.glossary if e.lemma not in core]

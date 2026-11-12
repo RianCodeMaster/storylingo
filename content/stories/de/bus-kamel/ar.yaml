@@ -1,0 +1,110 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تنتظر لينا الحافلة 1000 دقيقة، لكن جملًا سريعًا اسمه كلاوس يأخذها معه — وفي النهاية هو الحافلة رقم 7.
+summary_source: 957ec73d576e3bec
+gestures:
+  wait: قف متصلبًا كتمثال عند موقف الحافلات، ودقّ بقدمك بسرعة وحدّق في ساعة خيالية كبيرة على ذراعك مع تنهيدات عالية.
+  come: 'اخطُ نحو الصف بخطوات عملاقة بطيئة جدًا، ولوّح بذراعيك بدائرتين كبيرتين واصرخ: «هالو!»'
+  take_along: ضع صديقًا خياليًا صغيرًا تحت إبطك مثل حقيبة ظهر، ثم سِر مبتعدًا وأنت تلوّح بذراعك الأخرى بفخر.
+targets:
+  wartet:
+    gloss: تنتظر
+    note: مثل العربية، الفعل يتغيّر حسب الفاعل؛ هنا الفاعل مؤنث.
+  kommt:
+    gloss: يأتي/تأتي
+    note: في العربية «هو يأتي» و«هي تأتي»، والألمانية أيضًا تغيّر النهاية.
+  mitnehmen:
+    gloss: يأخذ معه
+    note: 'فعل منفصل: nimmt ... mit؛ في العربية يبقى الفعل متصلًا.'
+scenes:
+- key: s1
+  source: 05f5abccaf5d5800
+  translation: لينا تنتظر عند محطة الحافلات. إنها تنتظر الحافلة. الحافلة لا تأتي. تنتظر لينا 1000 دقيقة.
+  glosses:
+    wartet: تنتظر
+    an: عند
+    Haltestelle: المحطة
+    Sie: هي
+    auf: على (تنتظر)
+    Bus: الحافلة
+    kommt: تأتي
+    nicht: لا
+    Minuten: دقائق
+- key: s2
+  source: 5fcbd75fea9a1c81
+  translation: 'وهناك يأتي جمل إلى المحطة. الجمل اسمه كلاوس. كلاوس يأتي بسرعة كبيرة. تقول لينا: «جمل يأتي!»'
+  glosses:
+    Da: هناك
+    kommt: يأتي
+    Kamel: جمل
+    an: إلى
+    Haltestelle: المحطة
+    heißt: اسمه
+    sehr: جدًا
+    schnell: بسرعة
+    sagt: تقول
+- key: s3
+  source: 636fa5c48c3a925e
+  translation: 'كلاوس يريد أن يأخذ لينا معه. يقول كلاوس: «أريد أن آخذك معي». تسأل لينا: «هل تستطيع أن تأخذني معك؟» يقول كلاوس:
+    «نعم! سآخذك معي!»'
+  glosses:
+    will: يريد
+    mitnehmen: يأخذ معه
+    sagt: يقول
+    Ich: أنا
+    dich: إياكِ
+    fragt: تسأل
+    Kannst: تستطيع
+    du: أنت
+    mich: إياي
+    nehme: آخذ
+    mit: معي
+- key: s4
+  source: 61f698e0705c157b
+  translation: 'لينا تجلس على الجمل. كلاوس يركض 100 كيلومتر في الساعة. تضحك لينا: «الجمل يأخذني معه!» الحافلة لا تأتي.'
+  glosses:
+    sitzt: تجلس
+    auf: على
+    Kamel: الجمل
+    läuft: يركض
+    Kilometer: كيلومتر
+    pro: في
+    Stunde: ساعة
+    lacht: تضحك
+    nimmt: يأخذ
+    mich: إياي
+    mit: معه
+    Bus: الحافلة
+    kommt: تأتي
+    nicht: لا
+- key: s5
+  source: e69dec7e684b7674
+  translation: 'كلاوس يأخذ لينا معه إلى المدرسة. المدرسة تظهر، والحافلة تأتي أخيرًا أيضًا! الحافلة تنتظر عند المحطة، لكن لينا
+    تريد أن تركب مع كلاوس. يضحك كلاوس: «أنا الحافلة رقم 7».'
+  glosses:
+    nimmt: يأخذ
+    mit: معه
+    zur: إلى
+    Schule: المدرسة
+    kommt: تأتي
+    und: و
+    Bus: الحافلة
+    endlich: أخيرًا
+    auch: أيضًا
+    wartet: تنتظر
+    an: عند
+    Haltestelle: المحطة
+    aber: لكن
+    will: تريد
+    fahren: تركب
+    lacht: يضحك
+    Ich: أنا
+    bin: أكون
+    Nummer: رقم
+words:
+  die Haltestelle: المحطة
+  der Bus: الحافلة
+  das Kamel: الجمل
+  warten: ينتظر
+  sitzen: يجلس

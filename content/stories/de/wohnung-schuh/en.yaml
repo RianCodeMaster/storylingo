@@ -1,0 +1,138 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Mia looks for a cheap flat in Berlin, finds one that is as small as a shoebox, and solves the furniture problem with
+  doll furniture.
+summary_source: fbe28ed0668cb1b8
+gestures:
+  search: Cup both hands around your eyes like binoculars, turn your head left and right and scan the room.
+  small: Hold your thumb and index finger a tiny bit apart right in front of your nose and squint one eye.
+  there_is: Pop your index finger up in the air like a magic trick and open your other hand flat under it, saying 'ta-da!'.
+targets:
+  sucht:
+    gloss: looks for
+    note: German adds -t for he/she/it, while English adds -s in 'looks'.
+  ist klein:
+    gloss: is small
+    note: German adjectives stay the same after 'ist'; English also keeps 'small' plain.
+  es gibt:
+    gloss: there is
+    note: German uses 'es gibt' (literally 'it gives') for English 'there is/are'.
+scenes:
+- key: s1
+  source: 2b22a4abb62e5f18
+  translation: Mia is looking for a flat in Berlin. She looks every day. She looks on the internet and in the newspaper. But
+    all the flats are expensive.
+  glosses:
+    sucht: looks for
+    Wohnung: flat
+    in: in
+    Sie: she
+    jeden: every
+    Tag: day
+    im: in the
+    Internet: internet
+    und: and
+    Zeitung: newspaper
+    Aber: but
+    alle: all
+    Wohnungen: flats
+    sind: are
+    teuer: expensive
+- key: s2
+  source: 1339198f802f4ede
+  translation: Finally, Mia reads an ad. There is a flat for 200 euros. Mia calls right away. 'There is only one room,' says
+    the man on the phone.
+  glosses:
+    Endlich: finally
+    liest: reads
+    Anzeige: ad
+    Es: there
+    gibt: is
+    Wohnung: flat
+    für: for
+    Euro: euros
+    ruft: calls
+    sofort: right away
+    nur: only
+    Zimmer: room
+    sagt: says
+    Mann: man
+    am: on the
+    Telefon: phone
+- key: s3
+  source: 89959ee63ea8df50
+  translation: 'Mia goes into the flat. The flat is small. The room is small and the kitchen is small. Mia says: ''Oh, there
+    is a window!'''
+  glosses:
+    geht: goes
+    in: into
+    Wohnung: flat
+    ist: is
+    klein: small
+    Zimmer: room
+    und: and
+    Küche: kitchen
+    sagt: says
+    es: there
+    gibt: is
+    Fenster: window
+- key: s4
+  source: d2af944540624130
+  translation: Mia has a lot of furniture. She has a big sofa and a big wardrobe. But there is no space in the flat. The sofa
+    is big and the flat is small. Mia is very sad.
+  glosses:
+    hat: has
+    viele: many
+    Möbel: furniture
+    Sie: she
+    großes: big
+    Sofa: sofa
+    und: and
+    großen: big
+    Schrank: wardrobe
+    Aber: but
+    es: there
+    gibt: is
+    Platz: space
+    in: in
+    Wohnung: flat
+    ist: is
+    groß: big
+    klein: small
+    sehr: very
+    traurig: sad
+- key: s5
+  source: 60112b4c845f7db8
+  translation: Mia has an idea. She buys small doll furniture. The sofa is small, the bed is small. Now everything fits! Mia
+    is happy. There is room for Mia and her cat.
+  glosses:
+    hat: has
+    Idee: idea
+    Sie: she
+    kauft: buys
+    kleine: small
+    Möbel: furniture
+    für: for
+    Puppen: dolls
+    Sofa: sofa
+    ist: is
+    klein: small
+    Bett: bed
+    Jetzt: now
+    passt: fits
+    alles: everything
+    glücklich: happy
+    Es: there
+    gibt: is
+    Platz: room
+    und: and
+    ihre: her
+    Katze: cat
+words:
+  suchen: to look for
+  die Wohnung: the flat
+  klein: small
+  das Möbel: the furniture item
+  der Platz: the space
+  die Puppe: the doll

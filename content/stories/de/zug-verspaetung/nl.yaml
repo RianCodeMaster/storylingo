@@ -1,0 +1,152 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Felix wil om zeven uur op het werk zijn, zijn trein heeft vijf uur vertraging, dus loopt hij veertig kilometer door
+  de regen en komt als eerste aan — op zondag, wanneer het kantoor dicht is.
+summary_source: e62d111aea337a69
+gestures:
+  want: Streel beide armen naar voren met grijpende handen en een grote hongerige glimlach, alsof je iets heel graag wilt.
+  went: Marsjeer op de plaats met grote stampende stappen en zwaai je armen als een dolle wandelaar.
+  have_past: Druk een onzichtbare grote doos tegen je borst en knik trots om te laten zien wat je had.
+  have: Omarm een onzichtbare grote doos tegen je borst en knik trots om te laten zien wat je had.
+targets:
+  wollte:
+    gloss: wilde
+    note: Duits 'wollte' is verleden tijd van 'wollen'; Nederlands 'wilde' lijkt erop.
+  ist gegangen:
+    gloss: is gegaan
+    note: Duits gebruikt 'sein' als hulpwerkwoord bij 'gehen'; Nederlands zegt ook 'is gegaan'.
+  hatte:
+    gloss: had
+    note: Duits 'hatte' is verleden tijd van 'haben'; Nederlands 'had' lijkt er sterk op.
+scenes:
+- key: s1
+  source: 74a0ab8cf950ef2b
+  translation: 'Felix wilde op tijd op het werk komen. Hij wilde om zeven uur op kantoor zijn. Hij had drie wekkers en een
+    heel grote klok. Maar Felix wilde nog meer: hij wilde de eerste mens op kantoor zijn.'
+  glosses:
+    wollte: wilde
+    pünktlich: op tijd
+    zur: naar het werk
+    Arbeit: werk
+    kommen: komen
+    Er: hij
+    um: om
+    Uhr: uur
+    im: op
+    Büro: kantoor
+    sein: zijn
+    hatte: had
+    Wecker: wekkers
+    und: en
+    sehr: heel
+    große: grote
+    Aber: maar
+    noch: nog
+    mehr: meer
+    erste: eerste
+    Mensch: mens
+- key: s2
+  source: 84841e8d80cad07e
+  translation: Op het station had Felix een probleem. De trein had vijf uur vertraging. Felix had alleen een kleine koffie
+    en geen geduld. Hij wilde niet wachten.
+  glosses:
+    Am: op het
+    Bahnhof: station
+    hatte: had
+    Problem: probleem
+    Zug: trein
+    Stunden: uur
+    Verspätung: vertraging
+    nur: alleen
+    kleinen: kleine
+    Kaffee: koffie
+    und: en
+    Geduld: geduld
+    Er: hij
+    wollte: wilde
+    nicht: niet
+    warten: wachten
+- key: s3
+  source: 14a9ddcdfc9fd8b1
+  translation: Felix is gegaan. Hij is gegaan, niet gereden. Hij is door de regen en over een berg gegaan. Hij wilde sneller
+    zijn dan de trein.
+  glosses:
+    ist: is
+    gegangen: gegaan
+    Er: hij
+    nicht: niet
+    gefahren: gereden
+    durch: door
+    Regen: regen
+    und: en
+    über: over
+    Berg: berg
+    wollte: wilde
+    schneller: sneller
+    als: dan
+    Zug: trein
+    sein: zijn
+- key: s4
+  source: 209b9429bc9e9a5e
+  translation: Om half zeven was Felix op kantoor. Hij had natte schoenen en grote honger. Mevrouw Krumm, zijn chef, had de
+    sleutel. 'Jij bent de eerste! Alle anderen wilden komen, maar ze zitten nog in de trein,' zei mevrouw Krumm.
+  glosses:
+    Um: om
+    halb: half
+    war: was
+    im: op
+    Büro: kantoor
+    Er: hij
+    hatte: had
+    nasse: natte
+    Schuhe: schoenen
+    und: en
+    großen: grote
+    Hunger: honger
+    Frau: mevrouw
+    seine: zijn
+    Chefin: chef
+    Schlüssel: sleutel
+    Du: jij
+    bist: bent
+    Erste: eerste
+    Alle: alle
+    anderen: anderen
+    wollten: wilden
+    kommen: komen
+    aber: maar
+    sie: ze
+    sind: zijn
+    noch: nog
+    Zug: trein
+    sagte: zei
+- key: s5
+  source: 62ebb01258d1a738
+  translation: 'Mevrouw Krumm had een kleine verrassing: ''Felix, vandaag is het zondag. Het kantoor is dicht.'' Felix wilde
+    huilen. Hij is gegaan. Hij is weer naar huis gegaan — veertig kilometer.'
+  glosses:
+    Frau: mevrouw
+    hatte: had
+    kleine: kleine
+    Überraschung: verrassing
+    heute: vandaag
+    ist: is
+    Sonntag: zondag
+    Büro: kantoor
+    zu: dicht
+    wollte: wilde
+    weinen: huilen
+    Er: hij
+    gegangen: gegaan
+    wieder: weer
+    nach: naar
+    Hause: huis
+    Kilometer: kilometer
+words:
+  der Wecker: de wekker
+  der Bahnhof: het station
+  der Zug: de trein
+  die Verspätung: de vertraging
+  der Regen: de regen
+  der Schlüssel: de sleutel

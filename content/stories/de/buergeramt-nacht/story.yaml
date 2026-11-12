@@ -1,0 +1,608 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: buergeramt-nacht
+status: published
+tags: [algemeen, behoerde]
+brief:
+  language: de
+  level: A2
+  theme: Sarah musste sich beim Bürgeramt anmelden, aber ihr Termin war um drei Uhr nachts; der Beamte trug einen Schlafanzug
+  scenes: 5
+  targets:
+  - text: musste
+    gloss: had to
+    concept: must
+    kind: word
+  - text: war
+    gloss: was
+    concept: be
+    kind: word
+  - text: konnte nicht
+    gloss: could not
+    concept: cannot
+    kind: phrase
+  narrator: jessica
+story:
+  title: Der Termin um drei Uhr nachts
+  summary: Sarah has to register at the Bürgeramt, but her appointment is at three in the morning and the official in pajamas
+    stamps her form as a dog.
+  gestures:
+  - concept: must
+    description: Push an invisible heavy box down to the floor with both hands while stomping one foot, like you really have
+      to do something hard.
+    emoji: 😤
+  - concept: be
+    description: Point both thumbs back over your shoulder, nod slowly and say 'that's how it was' with your face.
+    emoji: 👈
+  - concept: cannot
+    description: Shake your head fast, push the air away with both flat hands and shrug your shoulders high.
+    emoji: 🙅
+  scenes:
+  - key: s1
+    text: Sarah kam im Januar nach Berlin. Sie musste sich beim Bürgeramt anmelden. Das Bürgeramt war in einem großen grauen
+      Gebäude. Sie wartete sechs Wochen auf einen Termin.
+    image_prompt: A 28-year-old woman named Sarah with curly red hair, round glasses and a green winter coat stands in front
+      of a huge grey office building, holding a small white letter, cold winter sky.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Musste Sarah sich beim Bürgeramt anmelden?
+      options: [Ja, Nein]
+      answer: Ja
+      target: musste
+    - key: s1q2
+      kind: either_or
+      prompt: War das Bürgeramt groß oder klein?
+      options: [groß, klein]
+      answer: groß
+      target: war
+    - key: s1q3
+      kind: who_what
+      prompt: Wo war das Bürgeramt?
+      options: [in einem grauen Gebäude, in einem Zug, in einem Café]
+      answer: in einem grauen Gebäude
+      target: war
+    - key: s1q4
+      kind: yes_no
+      prompt: Wartete Sarah zwei Tage auf einen Termin?
+      options: [Ja, Nein]
+      answer: Nein
+    glossary:
+    - word: kam
+      lemma: kommen
+      level: A1
+    - word: im
+      lemma: in
+      level: A1
+    - word: Januar
+      lemma: der Januar
+      level: A1
+    - word: nach
+      lemma: nach
+      level: A1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: musste
+      lemma: müssen
+      level: A1
+    - word: sich
+      lemma: sich
+      level: A2
+    - word: beim
+      lemma: bei
+      level: A1
+    - word: Bürgeramt
+      lemma: das Bürgeramt
+      level: B1
+    - word: anmelden
+      lemma: anmelden
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: großen
+      lemma: groß
+      level: A1
+    - word: grauen
+      lemma: grau
+      level: A2
+    - word: Gebäude
+      lemma: das Gebäude
+      level: B1
+    - word: wartete
+      lemma: warten
+      level: A1
+    - word: Wochen
+      lemma: die Woche
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Termin
+      lemma: der Termin
+      level: A2
+    voice:
+    - text: Sarah kam im Januar nach Berlin.
+      emotion: neutral
+    - text: Sie musste sich beim Bürgeramt anmelden.
+      emotion: neutral
+    - text: Das Bürgeramt war in einem großen grauen Gebäude.
+      emotion: disgusted
+    - text: Sie wartete sechs Wochen auf einen Termin.
+      emotion: surprised
+  - key: s2
+    text: 'Endlich kam ein Brief. Der Termin war um drei Uhr nachts. Sarah konnte nicht schlafen. Sie dachte: „Das war kein
+      normaler Termin!“'
+    image_prompt: Sarah with curly red hair and round glasses sits on her bed at night in a dark room, holding a white letter
+      under a small lamp, eyes wide open, alarm clock showing three o'clock.
+    questions:
+    - key: s2q1
+      kind: either_or
+      prompt: War der Termin um drei Uhr nachts oder um drei Uhr nachmittags?
+      options: [um drei Uhr nachts, um drei Uhr nachmittags]
+      answer: um drei Uhr nachts
+      target: war
+    - key: s2q2
+      kind: yes_no
+      prompt: Konnte Sarah in dieser Nacht schlafen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: konnte nicht
+    - key: s2q3
+      kind: who_what
+      prompt: Wann war der Termin?
+      options: [um drei Uhr nachts, um drei Uhr nachmittags, um sechs Uhr morgens]
+      answer: um drei Uhr nachts
+      target: war
+    - key: s2q4
+      kind: yes_no
+      prompt: War der Termin normal?
+      options: [Ja, Nein]
+      answer: Nein
+      target: war
+    glossary:
+    - word: Endlich
+      lemma: endlich
+      level: A2
+    - word: kam
+      lemma: kommen
+      level: A1
+    - word: Brief
+      lemma: der Brief
+      level: A2
+    - word: Termin
+      lemma: der Termin
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: um
+      lemma: um
+      level: A1
+    - word: Uhr
+      lemma: die Uhr
+      level: A1
+    - word: nachts
+      lemma: nachts
+      level: A2
+    - word: konnte
+      lemma: können
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: schlafen
+      lemma: schlafen
+      level: A1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: dachte
+      lemma: denken
+      level: A1
+    - word: Das
+      lemma: das
+      level: A1
+    - word: normaler
+      lemma: normal
+      level: A2
+    voice:
+    - text: Endlich kam ein Brief.
+      emotion: surprised
+    - text: Der Termin war um drei Uhr nachts.
+      emotion: surprised
+    - text: Sarah konnte nicht schlafen.
+      emotion: sleepy
+    - text: 'Sie dachte: „Das war kein normaler Termin!“'
+      emotion: whisper
+  - key: s3
+    text: Um Viertel vor drei stand Sarah vor dem Bürgeramt. Die Tür war offen. Im Saal war nur ein kleines Licht an. Hinter
+      dem Schreibtisch saß ein Beamter in einem blauen Schlafanzug mit gelben Enten.
+    image_prompt: Sarah in her green winter coat stands in a huge dark office hall with one small lamp, and behind a desk
+      sits a thin older official with a grey moustache wearing blue pajamas with yellow ducks.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: War die Tür vom Bürgeramt offen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: war
+    - key: s3q2
+      kind: who_what
+      prompt: Was trug der Beamte?
+      options: [einen Schlafanzug, einen Mantel, ein T-Shirt]
+      answer: einen Schlafanzug
+    - key: s3q3
+      kind: either_or
+      prompt: War es im Saal dunkel oder hell?
+      options: [dunkel, hell]
+      answer: dunkel
+      target: war
+    - key: s3q4
+      kind: who_what
+      prompt: Wer saß hinter dem Schreibtisch?
+      options: [ein Beamter, ein Hund, Sarahs Chef]
+      answer: ein Beamter
+    glossary:
+    - word: Um
+      lemma: um
+      level: A1
+    - word: Viertel
+      lemma: das Viertel
+      level: A2
+    - word: vor
+      lemma: vor
+      level: A1
+    - word: stand
+      lemma: stehen
+      level: A1
+    - word: Bürgeramt
+      lemma: das Bürgeramt
+      level: B1
+    - word: Tür
+      lemma: die Tür
+      level: A1
+    - word: war
+      lemma: sein
+      level: A1
+    - word: offen
+      lemma: offen
+      level: A2
+    - word: Im
+      lemma: in
+      level: A1
+    - word: Saal
+      lemma: der Saal
+      level: A2
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: kleines
+      lemma: klein
+      level: A1
+    - word: Licht
+      lemma: das Licht
+      level: A1
+    - word: an
+      lemma: an
+      level: A1
+    - word: Hinter
+      lemma: hinter
+      level: A2
+    - word: Schreibtisch
+      lemma: der Schreibtisch
+      level: A2
+    - word: saß
+      lemma: sitzen
+      level: A2
+    - word: Beamter
+      lemma: der Beamte
+      level: B1
+    - word: in
+      lemma: in
+      level: A1
+    - word: blauen
+      lemma: blau
+      level: A1
+    - word: Schlafanzug
+      lemma: der Schlafanzug
+      level: B1
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: gelben
+      lemma: gelb
+      level: A1
+    - word: Enten
+      lemma: die Ente
+      level: A2
+    voice:
+    - text: Um Viertel vor drei stand Sarah vor dem Bürgeramt.
+      emotion: sleepy
+    - text: Die Tür war offen.
+      emotion: surprised
+    - text: Im Saal war nur ein kleines Licht an.
+      emotion: whisper
+    - text: Hinter dem Schreibtisch saß ein Beamter in einem blauen Schlafanzug mit gelben Enten.
+      emotion: amused
+  - key: s4
+    text: Der Beamte hieß Herr Schmidt. Sarah musste ihre Papiere auf den Tisch legen. Herr Schmidt war sehr müde, denn seine
+      Augen waren fast zu. Sarah konnte nicht laut sprechen, weil sie immer lachen musste.
+    image_prompt: Sarah laughing with her hand over her mouth while putting papers on a desk, and the official with the grey
+      moustache in duck pajamas looking very sleepy, eyes half closed, in a dark office with one lamp.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Musste Sarah ihre Papiere zeigen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: musste
+    - key: s4q2
+      kind: either_or
+      prompt: War Herr Schmidt müde oder wach?
+      options: [müde, wach]
+      answer: müde
+      target: war
+    - key: s4q3
+      kind: yes_no
+      prompt: Konnte Sarah laut sprechen?
+      options: [Ja, Nein]
+      answer: Nein
+      target: konnte nicht
+    - key: s4q4
+      kind: who_what
+      prompt: Wie hieß der Beamte?
+      options: [Herr Schmidt, Herr Müller, Herr Keks]
+      answer: Herr Schmidt
+    glossary:
+    - word: Beamte
+      lemma: der Beamte
+      level: B1
+    - word: hieß
+      lemma: heißen
+      level: A1
+    - word: ihre
+      lemma: ihr
+      level: A1
+    - word: Papiere
+      lemma: die Papiere
+      level: A2
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Tisch
+      lemma: der Tisch
+      level: A1
+    - word: legen
+      lemma: legen
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: müde
+      lemma: müde
+      level: A1
+    - word: denn
+      lemma: denn
+      level: A2
+    - word: seine
+      lemma: sein
+      level: A1
+    - word: Augen
+      lemma: das Auge
+      level: A1
+    - word: waren
+      lemma: sein
+      level: A1
+    - word: fast
+      lemma: fast
+      level: A2
+    - word: zu
+      lemma: zu
+      level: A2
+    - word: konnte
+      lemma: können
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A2
+    - word: sprechen
+      lemma: sprechen
+      level: A1
+    - word: weil
+      lemma: weil
+      level: A2
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: immer
+      lemma: immer
+      level: A1
+    - word: lachen
+      lemma: lachen
+      level: A2
+    - word: musste
+      lemma: müssen
+      level: A1
+    voice:
+    - text: Der Beamte hieß Herr Schmidt.
+      emotion: neutral
+    - text: Sarah musste ihre Papiere auf den Tisch legen.
+      emotion: neutral
+    - text: Herr Schmidt war sehr müde, denn seine Augen waren fast zu.
+      emotion: sleepy
+    - text: Sarah konnte nicht laut sprechen, weil sie immer lachen musste.
+      emotion: amused
+  - key: s5
+    text: Herr Schmidt stempelte im Schlaf, dreihundertmal. Am Ende war Sarah angemeldet – aber als Hund. Sie konnte nicht
+      böse sein, denn der Termin war einfach zu lustig. Sie musste nur einmal mit dem Schwanz wedeln, dann war alles perfekt.
+    image_prompt: The sleepy official in duck pajamas stamps a paper three hundred times while asleep, and Sarah in her green
+      coat laughs, with a small funny dog registration card on the desk and a big stamp in the air.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: War Sarah am Ende angemeldet?
+      options: [Ja, Nein]
+      answer: Ja
+      target: war
+    - key: s5q2
+      kind: either_or
+      prompt: War das Formular für einen Hund oder für eine Katze?
+      options: [für einen Hund, für eine Katze]
+      answer: für einen Hund
+    - key: s5q3
+      kind: yes_no
+      prompt: Konnte Sarah böse sein?
+      options: [Ja, Nein]
+      answer: Nein
+      target: konnte nicht
+    - key: s5q4
+      kind: who_what
+      prompt: Was machte Herr Schmidt im Schlaf?
+      options: [Er stempelte, Er sang, Er kochte]
+      answer: Er stempelte
+    glossary:
+    - word: stempelte
+      lemma: stempeln
+      level: B1
+    - word: im
+      lemma: in
+      level: A1
+    - word: Schlaf
+      lemma: der Schlaf
+      level: A2
+    - word: Am
+      lemma: an
+      level: A1
+    - word: Ende
+      lemma: das Ende
+      level: A1
+    - word: war
+      lemma: sein
+      level: A1
+    - word: angemeldet
+      lemma: angemeldet
+      level: B1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: als
+      lemma: als
+      level: A1
+    - word: Hund
+      lemma: der Hund
+      level: A1
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: konnte
+      lemma: können
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: böse
+      lemma: böse
+      level: A2
+    - word: sein
+      lemma: sein
+      level: A1
+    - word: denn
+      lemma: denn
+      level: A2
+    - word: Termin
+      lemma: der Termin
+      level: A2
+    - word: einfach
+      lemma: einfach
+      level: A2
+    - word: zu
+      lemma: zu
+      level: A1
+    - word: lustig
+      lemma: lustig
+      level: A2
+    - word: musste
+      lemma: müssen
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: einmal
+      lemma: einmal
+      level: A1
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: Schwanz
+      lemma: der Schwanz
+      level: B1
+    - word: wedeln
+      lemma: wedeln
+      level: B1
+    - word: dann
+      lemma: dann
+      level: A1
+    - word: alles
+      lemma: alles
+      level: A1
+    - word: perfekt
+      lemma: perfekt
+      level: A2
+    voice:
+    - text: Herr Schmidt stempelte im Schlaf, dreihundertmal.
+      emotion: surprised
+    - text: Am Ende war Sarah angemeldet – aber als Hund.
+      emotion: surprised
+    - text: Sie konnte nicht böse sein, denn der Termin war einfach zu lustig.
+      emotion: amused
+    - text: Sie musste nur einmal mit dem Schwanz wedeln, dann war alles perfekt.
+      emotion: amused
+  core_words:
+  - lemma: das Bürgeramt
+    image_prompt: a gray public office building with a counter and waiting chairs
+  - lemma: der Termin
+    image_prompt: a blank calendar with one day circled and a clock beside it
+  - lemma: der Schlafanzug
+    image_prompt: blue pajamas with yellow ducks
+  - lemma: stempeln
+    image_prompt: a hand pressing a rubber stamp onto a paper
+  - lemma: der Hund
+    image_prompt: a small brown dog
+  - lemma: wedeln
+    image_prompt: a happy dog wagging its tail
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 796
+  output_tokens: 3944
+  glossary_version: glossary-v2
+  glossary_input_tokens: 536
+  glossary_output_tokens: 12572
+  core_version: core-v1
+  core_input_tokens: 1654
+  core_output_tokens: 2172
+  voice_version: voice-v1
+  voice_input_tokens: 510
+  voice_output_tokens: 855
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 402
+  localize_ar_output_tokens: 768
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 402
+  localize_en_output_tokens: 383
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 402
+  localize_nl_output_tokens: 724

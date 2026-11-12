@@ -1,0 +1,546 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: bakker-brood
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: A1
+  theme: Lotte koopt brood bij de bakker, maar het brood is zo groot als een bank; ze neemt het mee in de bus
+  scenes: 5
+  targets:
+  - text: koopt
+    gloss: buys
+    concept: buy
+    kind: word
+  - text: is groot
+    gloss: is big
+    concept: big
+    kind: phrase
+  - text: meenemen
+    gloss: 'take along; separable: Ze neemt het brood mee'
+    concept: take_along
+    kind: phrase
+  narrator: george
+story:
+  title: Lotte en het reuzenbrood
+  summary: Lotte buys a loaf of bread as big as a sofa, takes it on the bus, and finds out the baker actually lives inside
+    it.
+  gestures:
+  - concept: buy
+    description: Hold out one flat hand like a shop counter and slap a coin into it with the other hand, then hug the imaginary
+      thing you bought.
+    emoji: 🛒
+  - concept: big
+    description: Stretch both arms out as wide as you can and puff your cheeks out like a giant balloon.
+    emoji: 🎈
+  - concept: take_along
+    description: Grab an imaginary giant loaf, hoist it onto your shoulder, and march three steps while nodding your head.
+    emoji: 🎒
+  scenes:
+  - key: s1
+    text: Lotte koopt brood bij de bakker. De bakker geeft haar een brood. Het brood is groot. Het brood is heel groot!
+    image_prompt: A young woman with curly red hair in a yellow raincoat and green backpack stands in a small bakery; the
+      baker, a tiny old man with a white moustache, hands her a gigantic loaf of bread that fills half the shop.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Koopt Lotte brood bij de bakker?
+      options: [ja, nee]
+      answer: ja
+      target: koopt
+    - key: s1q2
+      kind: yes_no
+      prompt: Is het brood klein?
+      options: [ja, nee]
+      answer: nee
+      target: is groot
+    - key: s1q3
+      kind: either_or
+      prompt: Is het brood groot of klein?
+      options: [groot, klein]
+      answer: groot
+      target: is groot
+    - key: s1q4
+      kind: who_what
+      prompt: Wie koopt brood?
+      options: [Lotte, de bakker, de man]
+      answer: Lotte
+      target: koopt
+    glossary:
+    - word: koopt
+      lemma: kopen
+      level: A1
+    - word: brood
+      lemma: het brood
+      level: A1
+    - word: bij
+      lemma: bij
+      level: A1
+    - word: bakker
+      lemma: de bakker
+      level: A1
+    - word: geeft
+      lemma: geven
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: heel
+      lemma: heel
+      level: A2
+    voice:
+    - text: Lotte koopt brood bij de bakker.
+      emotion: neutral
+    - text: De bakker geeft haar een brood.
+      emotion: amused
+    - text: Het brood is groot.
+      emotion: surprised
+    - text: Het brood is heel groot!
+      emotion: surprised
+  - key: s2
+    text: Lotte koopt ook een taart. De taart is klein, maar het brood is groot. Lotte wil het brood meenemen. 'Ik neem het
+      brood mee,' zegt ze.
+    image_prompt: The same red-haired woman in the yellow raincoat holds a tiny cake in one hand and points at the enormous
+      loaf with the other, while the tiny baker watches with wide eyes.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Koopt Lotte ook een taart?
+      options: [ja, nee]
+      answer: ja
+      target: koopt
+    - key: s2q2
+      kind: either_or
+      prompt: Is het brood groot of klein?
+      options: [groot, klein]
+      answer: groot
+      target: is groot
+    - key: s2q3
+      kind: who_what
+      prompt: Wat wil Lotte meenemen?
+      options: [het brood, de taart, de bakker]
+      answer: het brood
+      target: meenemen
+    - key: s2q4
+      kind: yes_no
+      prompt: Wil Lotte het brood meenemen?
+      options: [ja, nee]
+      answer: ja
+      target: meenemen
+    glossary:
+    - word: koopt
+      lemma: kopen
+      level: A1
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: taart
+      lemma: de taart
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: brood
+      lemma: het brood
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: meenemen
+      lemma: meenemen
+      level: A2
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: neem
+      lemma: nemen
+      level: A1
+    - word: mee
+      lemma: mee
+      level: A2
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    voice:
+    - text: Lotte koopt ook een taart.
+      emotion: amused
+    - text: De taart is klein, maar het brood is groot.
+      emotion: surprised
+    - text: Lotte wil het brood meenemen.
+      emotion: whisper
+    - text: '''Ik neem het brood mee,'' zegt ze.'
+      emotion: whisper
+  - key: s3
+    text: Lotte gaat in de bus en ze wil het brood meenemen. Ze neemt het brood mee, maar het brood is groot en de bus is
+      klein. Het brood past niet!
+    image_prompt: Inside a small city bus, the red-haired woman in the yellow raincoat pushes the gigantic loaf through the
+      door while her green backpack sticks out behind her; passengers squeeze against the windows.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Gaat Lotte in de bus?
+      options: [ja, nee]
+      answer: ja
+    - key: s3q2
+      kind: yes_no
+      prompt: Past het brood in de bus?
+      options: [ja, nee]
+      answer: nee
+    - key: s3q3
+      kind: either_or
+      prompt: Neemt Lotte het brood mee in de bus of in de trein?
+      options: [in de bus, in de trein]
+      answer: in de bus
+      target: meenemen
+    - key: s3q4
+      kind: who_what
+      prompt: Wat is groot?
+      options: [het brood, de bus, de taart]
+      answer: het brood
+      target: is groot
+    glossary:
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: bus
+      lemma: de bus
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: ze
+      lemma: ze
+      level: A1
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: brood
+      lemma: het brood
+      level: A1
+    - word: meenemen
+      lemma: meenemen
+      level: A2
+    - word: neemt
+      lemma: nemen
+      level: A1
+    - word: mee
+      lemma: mee
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: past
+      lemma: passen
+      level: A2
+    - word: niet
+      lemma: niet
+      level: A1
+    voice:
+    - text: Lotte gaat in de bus en ze wil het brood meenemen.
+      emotion: amused
+    - text: Ze neemt het brood mee, maar het brood is groot en de bus is klein.
+      emotion: surprised
+    - text: Het brood past niet!
+      emotion: surprised
+  - key: s4
+    text: De man in de bus koopt een kaartje en hij kijkt naar het brood. 'Jouw brood is groot!' zegt hij boos. Lotte moet
+      het brood meenemen naar de achterkant van de bus. Ze neemt het brood mee, maar het brood is groot en de bus is vol.
+    image_prompt: At the back of the bus the red-haired woman in the yellow raincoat sits under the enormous loaf like under
+      a roof, while an angry man in a grey coat waves a small ticket at her.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Koopt de man in de bus een kaartje?
+      options: [ja, nee]
+      answer: ja
+      target: koopt
+    - key: s4q2
+      kind: either_or
+      prompt: Is de man blij of boos?
+      options: [blij, boos]
+      answer: boos
+    - key: s4q3
+      kind: who_what
+      prompt: Waar neemt Lotte het brood mee naartoe?
+      options: [naar de achterkant van de bus, naar de bakker, naar huis]
+      answer: naar de achterkant van de bus
+      target: meenemen
+    - key: s4q4
+      kind: yes_no
+      prompt: Is de bus leeg?
+      options: [ja, nee]
+      answer: nee
+    glossary:
+    - word: man
+      lemma: de man
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: bus
+      lemma: de bus
+      level: A1
+    - word: koopt
+      lemma: kopen
+      level: A1
+    - word: kaartje
+      lemma: het kaartje
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: hij
+      lemma: hij
+      level: A1
+    - word: kijkt
+      lemma: kijken
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: brood
+      lemma: het brood
+      level: A1
+    - word: Jouw
+      lemma: jouw
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: boos
+      lemma: boos
+      level: A2
+    - word: moet
+      lemma: moeten
+      level: A1
+    - word: meenemen
+      lemma: meenemen
+      level: A2
+    - word: achterkant
+      lemma: de achterkant
+      level: B1
+    - word: van
+      lemma: van
+      level: A1
+    - word: Ze
+      lemma: ze
+      level: A1
+    - word: neemt
+      lemma: nemen
+      level: A1
+    - word: mee
+      lemma: mee
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: vol
+      lemma: vol
+      level: A2
+    voice:
+    - text: De man in de bus koopt een kaartje en hij kijkt naar het brood.
+      emotion: neutral
+    - text: '''Jouw brood is groot!'' zegt hij boos.'
+      emotion: angry
+    - text: Lotte moet het brood meenemen naar de achterkant van de bus.
+      emotion: angry
+    - text: Ze neemt het brood mee, maar het brood is groot en de bus is vol.
+      emotion: surprised
+  - key: s5
+    text: 'Lotte gaat terug naar de bakker en de bakker koopt het brood. Hij geeft Lotte duizend euro en Lotte neemt het geld
+      mee naar huis. Ze wil ook het brood meenemen, maar de bakker woont erin! ''s Avonds ziet ze de bakker op televisie:
+      het brood is groot, maar de bakker is klein.'
+    image_prompt: At home the red-haired woman in the yellow raincoat watches a small television showing the tiny baker waving
+      from a window cut into the gigantic loaf; bags of money lie on her table.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Koopt de bakker het brood?
+      options: [ja, nee]
+      answer: ja
+      target: koopt
+    - key: s5q2
+      kind: who_what
+      prompt: Hoeveel euro geeft de bakker?
+      options: [duizend euro, tien euro, één euro]
+      answer: duizend euro
+    - key: s5q3
+      kind: either_or
+      prompt: Woont de bakker in de bus of in het brood?
+      options: [in de bus, in het brood]
+      answer: in het brood
+    - key: s5q4
+      kind: yes_no
+      prompt: Is de bakker groot?
+      options: [ja, nee]
+      answer: nee
+      target: is groot
+    - key: s5q5
+      kind: either_or
+      prompt: Neemt Lotte het geld mee naar huis of naar de bakker?
+      options: [naar huis, naar de bakker]
+      answer: naar huis
+      target: meenemen
+    glossary:
+    - word: gaat
+      lemma: gaan
+      level: A1
+    - word: terug
+      lemma: terug
+      level: A2
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: bakker
+      lemma: de bakker
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: koopt
+      lemma: kopen
+      level: A1
+    - word: brood
+      lemma: het brood
+      level: A1
+    - word: Hij
+      lemma: hij
+      level: A1
+    - word: geeft
+      lemma: geven
+      level: A1
+    - word: euro
+      lemma: de euro
+      level: A1
+    - word: neemt
+      lemma: nemen
+      level: A1
+    - word: geld
+      lemma: het geld
+      level: A1
+    - word: mee
+      lemma: mee
+      level: A2
+    - word: huis
+      lemma: het huis
+      level: A1
+    - word: Ze
+      lemma: ze
+      level: A1
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: ook
+      lemma: ook
+      level: A1
+    - word: meenemen
+      lemma: meenemen
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: woont
+      lemma: wonen
+      level: A1
+    - word: erin
+      lemma: erin
+      level: A2
+    - word: '''s Avonds'
+      lemma: '''s avonds'
+      level: A2
+    - word: ziet
+      lemma: zien
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: televisie
+      lemma: de televisie
+      level: A1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: groot
+      lemma: groot
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    voice:
+    - text: Lotte gaat terug naar de bakker en de bakker koopt het brood.
+      emotion: amused
+    - text: Hij geeft Lotte duizend euro en Lotte neemt het geld mee naar huis.
+      emotion: surprised
+    - text: Ze wil ook het brood meenemen, maar de bakker woont erin!
+      emotion: surprised
+    - text: '''s Avonds ziet ze de bakker op televisie: het brood is groot, maar de bakker is klein.'
+      emotion: surprised
+  core_words:
+  - lemma: het brood
+    image_prompt: a loaf of bread on a wooden board
+  - lemma: de bakker
+    image_prompt: a baker in a white apron standing behind a bakery counter
+  - lemma: de bus
+    image_prompt: a city bus with open doors
+  - lemma: de taart
+    image_prompt: a round cake on a plate
+  - lemma: het geld
+    image_prompt: a few coins and banknotes on a table
+  - lemma: de televisie
+    image_prompt: a television set on a stand
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 2
+  input_tokens: 3603
+  output_tokens: 8195
+  glossary_version: glossary-v2
+  glossary_input_tokens: 541
+  glossary_output_tokens: 8261
+  core_version: core-v1
+  core_input_tokens: 1185
+  core_output_tokens: 3189
+  voice_version: voice-v1
+  voice_input_tokens: 510
+  voice_output_tokens: 919
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1235
+  localize_ar_output_tokens: 4887

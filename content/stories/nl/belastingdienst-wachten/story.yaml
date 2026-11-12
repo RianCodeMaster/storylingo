@@ -1,0 +1,831 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: belastingdienst-wachten
+status: published
+tags: [algemeen, dagelijks]
+brief:
+  language: nl
+  level: B1
+  theme: Sophie belt de Belastingdienst over een brief die ze niet begrijpt en staat drie dagen in de wachtrij; ondertussen
+    leert ze de wachtmuziek spelen
+  scenes: 5
+  targets:
+  - text: terwijl
+    gloss: while (verb at the end)
+    concept: while
+    kind: word
+  - text: heb gebeld
+    gloss: have called
+    concept: have_called
+    kind: phrase
+  - text: moet wachten
+    gloss: must wait
+    concept: must_wait
+    kind: phrase
+  narrator: jessica
+story:
+  title: Drie dagen in de wachtrij
+  summary: Sophie calls the tax office about a letter she does not understand, waits three days on hold, learns to play the
+    hold music on a recorder, and ends up being hired by their orchestra.
+  gestures:
+  - concept: while
+    description: Hold one flat hand in front of you like a TV screen and stir a big invisible pot in circles with the other
+      hand, humming, to show two things happening at the same time.
+    emoji: 🔄
+  - concept: have_called
+    description: Dial an old rotary phone with huge circling finger movements, then slam the receiver to your ear and shout
+      'HALLO?'
+    emoji: 📞
+  - concept: must_wait
+    description: Sit down on an invisible chair, drum your fingers on your knee in slow motion, sigh dramatically and tap
+      an imaginary watch.
+    emoji: ⏰
+  scenes:
+  - key: s1
+    text: 'Sophie de Vries woont in een klein huis in Utrecht. Op maandag ligt er een dikke brief van de Belastingdienst op
+      de mat. Sophie leest de brief drie keer, maar zij begrijpt geen woord. Zij pakt haar telefoon en zegt tegen de kat:
+      ''Ik heb gebeld. Nu moet ik wachten.'''
+    image_prompt: Cartoon style. Sophie, a 34-year-old Dutch woman with curly red hair, round glasses, a green sweater and
+      yellow socks, stands in a tiny hallway holding a very thick official letter, a fat orange cat beside her, a telephone
+      in her other hand. Bright colours, exaggerated expressions.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Ligt er een brief van de Belastingdienst op de mat?
+      options: [Ja, Nee]
+      answer: Ja
+    - key: s1q2
+      kind: who_what
+      prompt: Wie begrijpt de brief niet?
+      options: [Sophie, de kat, de buurman]
+      answer: Sophie
+    - key: s1q3
+      kind: either_or
+      prompt: Leest Sophie de brief drie keer of één keer?
+      options: [drie keer, één keer]
+      answer: drie keer
+    - key: s1q4
+      kind: yes_no
+      prompt: Begrijpt Sophie de brief meteen?
+      options: [Ja, Nee]
+      answer: Nee
+    - key: s1q5
+      kind: who_what
+      prompt: Wat zegt Sophie tegen de kat?
+      options: [Ik heb gebeld., Ik heb geslapen., Ik heb gedanst.]
+      answer: Ik heb gebeld.
+      target: heb gebeld
+    glossary:
+    - word: woont
+      lemma: wonen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: klein
+      lemma: klein
+      level: A1
+    - word: huis
+      lemma: het huis
+      level: A1
+    - word: Op
+      lemma: op
+      level: A1
+    - word: maandag
+      lemma: de maandag
+      level: A1
+    - word: ligt
+      lemma: liggen
+      level: A1
+    - word: er
+      lemma: er
+      level: A1
+    - word: dikke
+      lemma: dik
+      level: A2
+    - word: brief
+      lemma: de brief
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: mat
+      lemma: de mat
+      level: A2
+    - word: leest
+      lemma: lezen
+      level: A1
+    - word: keer
+      lemma: de keer
+      level: A2
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: zij
+      lemma: zij
+      level: A1
+    - word: begrijpt
+      lemma: begrijpen
+      level: A2
+    - word: geen
+      lemma: geen
+      level: A1
+    - word: woord
+      lemma: het woord
+      level: A1
+    - word: pakt
+      lemma: pakken
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: telefoon
+      lemma: de telefoon
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: tegen
+      lemma: tegen
+      level: A1
+    - word: kat
+      lemma: de kat
+      level: A1
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: heb
+      lemma: hebben
+      level: A1
+    - word: gebeld
+      lemma: bellen
+      level: A1
+    - word: Nu
+      lemma: nu
+      level: A1
+    - word: moet
+      lemma: moeten
+      level: A1
+    - word: wachten
+      lemma: wachten
+      level: A1
+    voice:
+    - text: Sophie de Vries woont in een klein huis in Utrecht.
+      emotion: neutral
+    - text: Op maandag ligt er een dikke brief van de Belastingdienst op de mat.
+      emotion: surprised
+    - text: Sophie leest de brief drie keer, maar zij begrijpt geen woord.
+      emotion: surprised
+    - text: 'Zij pakt haar telefoon en zegt tegen de kat: ''Ik heb gebeld.'
+      emotion: amused
+    - text: Nu moet ik wachten.'
+      emotion: sleepy
+  - key: s2
+    text: 'Na een uur zit Sophie nog steeds aan de telefoon. De wachtmuziek is simpel: tien noten, en dan weer tien noten.
+      Terwijl zij op de bank zit, neuriet zij de melodie mee. ''Ik moet wachten,'' zegt zij, ''maar ik heb gebeld, dus ik
+      blijf.'''
+    image_prompt: Cartoon style. Sophie, the same woman with curly red hair, round glasses, green sweater and yellow socks,
+      lies upside down on a small sofa with the phone on her ear, musical notes floating out of her mouth, the orange cat
+      looking bored. Bright colours, exaggerated expressions.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Zit Sophie na een uur nog aan de telefoon?
+      options: [Ja, Nee]
+      answer: Ja
+    - key: s2q2
+      kind: who_what
+      prompt: Hoeveel noten heeft de wachtmuziek?
+      options: [tien noten, honderd noten, twee noten]
+      answer: tien noten
+    - key: s2q3
+      kind: yes_no
+      prompt: Neuriet Sophie de melodie mee terwijl zij op de bank zit?
+      options: [Ja, Nee]
+      answer: Ja
+      target: terwijl
+    - key: s2q4
+      kind: yes_no
+      prompt: Heeft Sophie de telefoon opgehangen?
+      options: [Ja, Nee]
+      answer: Nee
+    - key: s2q5
+      kind: either_or
+      prompt: Moet Sophie wachten of mag Sophie meteen praten?
+      options: [wachten, meteen praten]
+      answer: wachten
+      target: moet wachten
+    glossary:
+    - word: Na
+      lemma: na
+      level: A1
+    - word: uur
+      lemma: het uur
+      level: A1
+    - word: zit
+      lemma: zitten
+      level: A1
+    - word: nog
+      lemma: nog
+      level: A1
+    - word: steeds
+      lemma: steeds
+      level: A2
+    - word: aan
+      lemma: aan
+      level: A1
+    - word: telefoon
+      lemma: de telefoon
+      level: A1
+    - word: wachtmuziek
+      lemma: de wachtmuziek
+      level: B1
+    - word: is
+      lemma: zijn
+      level: A1
+    - word: simpel
+      lemma: simpel
+      level: A2
+    - word: noten
+      lemma: de noot
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: dan
+      lemma: dan
+      level: A1
+    - word: weer
+      lemma: weer
+      level: A1
+    - word: Terwijl
+      lemma: terwijl
+      level: A2
+    - word: zij
+      lemma: zij
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: bank
+      lemma: de bank
+      level: A1
+    - word: neuriet
+      lemma: neuriën
+      level: B2
+    - word: melodie
+      lemma: de melodie
+      level: B1
+    - word: mee
+      lemma: mee
+      level: A1
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: moet
+      lemma: moeten
+      level: A1
+    - word: wachten
+      lemma: wachten
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: heb
+      lemma: hebben
+      level: A1
+    - word: gebeld
+      lemma: bellen
+      level: A1
+    - word: dus
+      lemma: dus
+      level: A1
+    - word: blijf
+      lemma: blijven
+      level: A1
+    voice:
+    - text: Na een uur zit Sophie nog steeds aan de telefoon.
+      emotion: sleepy
+    - text: 'De wachtmuziek is simpel: tien noten, en dan weer tien noten.'
+      emotion: amused
+    - text: Terwijl zij op de bank zit, neuriet zij de melodie mee.
+      emotion: amused
+    - text: '''Ik moet wachten,'' zegt zij, ''maar ik heb gebeld, dus ik blijf.'''
+      emotion: sleepy
+  - key: s3
+    text: Op dinsdag zoekt Sophie in de kast en vindt een oude blokfluit van haar broer. Terwijl de wachtmuziek speelt, speelt
+      Sophie dezelfde noten mee. De buurman klopt boos op de muur, maar Sophie moet wachten, dus zij speelt verder. 'Ik heb
+      gebeld,' zegt zij, 'al twintig keer.'
+    image_prompt: Cartoon style. Sophie, the same woman with curly red hair, round glasses, green sweater and yellow socks,
+      plays a small recorder with puffed cheeks in front of an open cupboard, while a furious neighbour bangs on the wall
+      behind her. Bright colours, exaggerated expressions.
+    questions:
+    - key: s3q1
+      kind: either_or
+      prompt: Vindt Sophie een blokfluit of een gitaar in de kast?
+      options: [een blokfluit, een gitaar]
+      answer: een blokfluit
+    - key: s3q2
+      kind: who_what
+      prompt: Wie klopt er boos op de muur?
+      options: [de buurman, de broer, de burgemeester]
+      answer: de buurman
+    - key: s3q3
+      kind: yes_no
+      prompt: Speelt Sophie dezelfde noten terwijl de wachtmuziek speelt?
+      options: [Ja, Nee]
+      answer: Ja
+      target: terwijl
+    - key: s3q4
+      kind: who_what
+      prompt: Hoe vaak heeft Sophie al gebeld?
+      options: [twintig keer, twee keer, honderd keer]
+      answer: twintig keer
+      target: heb gebeld
+    - key: s3q5
+      kind: yes_no
+      prompt: Stopt Sophie met spelen als de buurman klopt?
+      options: [Ja, Nee]
+      answer: Nee
+      target: moet wachten
+    glossary:
+    - word: Op
+      lemma: op
+      level: A1
+    - word: dinsdag
+      lemma: de dinsdag
+      level: A1
+    - word: zoekt
+      lemma: zoeken
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: kast
+      lemma: de kast
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: vindt
+      lemma: vinden
+      level: A1
+    - word: oude
+      lemma: oud
+      level: A1
+    - word: blokfluit
+      lemma: de blokfluit
+      level: A2
+    - word: van
+      lemma: van
+      level: A1
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: broer
+      lemma: de broer
+      level: A1
+    - word: Terwijl
+      lemma: terwijl
+      level: A2
+    - word: wachtmuziek
+      lemma: de wachtmuziek
+      level: B1
+    - word: speelt
+      lemma: spelen
+      level: A1
+    - word: dezelfde
+      lemma: dezelfde
+      level: A2
+    - word: noten
+      lemma: de noot
+      level: A2
+    - word: mee
+      lemma: mee
+      level: A1
+    - word: buurman
+      lemma: de buurman
+      level: A2
+    - word: klopt
+      lemma: kloppen
+      level: A2
+    - word: boos
+      lemma: boos
+      level: A2
+    - word: muur
+      lemma: de muur
+      level: A1
+    - word: maar
+      lemma: maar
+      level: A1
+    - word: moet
+      lemma: moeten
+      level: A1
+    - word: wachten
+      lemma: wachten
+      level: A1
+    - word: dus
+      lemma: dus
+      level: A1
+    - word: zij
+      lemma: zij
+      level: A1
+    - word: verder
+      lemma: verder
+      level: A1
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: heb
+      lemma: hebben
+      level: A1
+    - word: gebeld
+      lemma: bellen
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: al
+      lemma: al
+      level: A1
+    - word: keer
+      lemma: de keer
+      level: A2
+    voice:
+    - text: Op dinsdag zoekt Sophie in de kast en vindt een oude blokfluit van haar broer.
+      emotion: surprised
+    - text: Terwijl de wachtmuziek speelt, speelt Sophie dezelfde noten mee.
+      emotion: amused
+    - text: De buurman klopt boos op de muur, maar Sophie moet wachten, dus zij speelt verder.
+      emotion: angry
+    - text: '''Ik heb gebeld,'' zegt zij, ''al twintig keer.'''
+      emotion: surprised
+  - key: s4
+    text: Op woensdag kent de hele straat de wachtmuziek. Terwijl Sophie op haar balkon speelt, dansen driehonderd buren op
+      straat. De burgemeester belt aan en vraagt of zij op het grote stadsfeest wil spelen. 'Nee,' zegt Sophie, 'ik moet wachten.'
+    image_prompt: Cartoon style. Sophie, the same woman with curly red hair, round glasses, green sweater and yellow socks,
+      plays her recorder on a tiny balcony while a huge crowd of dancing neighbours fills the street below and a mayor in
+      a chain of office rings her doorbell. Bright colours, exaggerated expressions.
+    questions:
+    - key: s4q1
+      kind: who_what
+      prompt: Wie danst er op straat?
+      options: [driehonderd buren, de koning, tien honden]
+      answer: driehonderd buren
+    - key: s4q2
+      kind: yes_no
+      prompt: Vraagt de burgemeester of Sophie op het stadsfeest wil spelen?
+      options: [Ja, Nee]
+      answer: Ja
+    - key: s4q3
+      kind: who_what
+      prompt: Wat zegt Sophie tegen de burgemeester?
+      options: [Ik moet wachten., Ik wil dansen., Ik ga slapen.]
+      answer: Ik moet wachten.
+      target: moet wachten
+    - key: s4q4
+      kind: either_or
+      prompt: Speelt Sophie op haar balkon of in de keuken?
+      options: [op haar balkon, in de keuken]
+      answer: op haar balkon
+    - key: s4q5
+      kind: yes_no
+      prompt: Danst de burgemeester op straat terwijl Sophie speelt?
+      options: [Ja, Nee]
+      answer: Nee
+      target: terwijl
+    glossary:
+    - word: Op
+      lemma: op
+      level: A1
+    - word: woensdag
+      lemma: de woensdag
+      level: A1
+    - word: kent
+      lemma: kennen
+      level: A1
+    - word: hele
+      lemma: heel
+      level: A2
+    - word: straat
+      lemma: de straat
+      level: A1
+    - word: wachtmuziek
+      lemma: de wachtmuziek
+      level: B1
+    - word: Terwijl
+      lemma: terwijl
+      level: A2
+    - word: haar
+      lemma: haar
+      level: A1
+    - word: balkon
+      lemma: het balkon
+      level: A2
+    - word: speelt
+      lemma: spelen
+      level: A1
+    - word: dansen
+      lemma: dansen
+      level: A1
+    - word: buren
+      lemma: de buur
+      level: A2
+    - word: burgemeester
+      lemma: de burgemeester
+      level: B1
+    - word: belt
+      lemma: bellen
+      level: A1
+    - word: aan
+      lemma: aan
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: vraagt
+      lemma: vragen
+      level: A1
+    - word: of
+      lemma: of
+      level: A1
+    - word: zij
+      lemma: zij
+      level: A1
+    - word: grote
+      lemma: groot
+      level: A1
+    - word: stadsfeest
+      lemma: het stadsfeest
+      level: B1
+    - word: wil
+      lemma: willen
+      level: A1
+    - word: spelen
+      lemma: spelen
+      level: A1
+    - word: Nee
+      lemma: nee
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: ik
+      lemma: ik
+      level: A1
+    - word: moet
+      lemma: moeten
+      level: A1
+    - word: wachten
+      lemma: wachten
+      level: A1
+    voice:
+    - text: Op woensdag kent de hele straat de wachtmuziek.
+      emotion: surprised
+    - text: Terwijl Sophie op haar balkon speelt, dansen driehonderd buren op straat.
+      emotion: surprised
+    - text: De burgemeester belt aan en vraagt of zij op het grote stadsfeest wil spelen.
+      emotion: surprised
+    - text: '''Nee,'' zegt Sophie, ''ik moet wachten.'''
+      emotion: amused
+  - key: s5
+    text: 'Na drie dagen klinkt er ineens een echte stem: ''U spreekt met de heer Bakker van de Belastingdienst'', en Sophie
+      springt op. ''Ik heb gebeld!'' roept zij. ''En ik moet wachten, al drie dagen!'' De man lacht en zegt: ''Mevrouw, de
+      brief was een foutje. Maar wij hebben al die tijd naar uw blokfluit geluisterd. Wilt u in ons orkest komen?'' Terwijl
+      Sophie ''ja'' zegt, begint de wachtmuziek weer te spelen.'
+    image_prompt: Cartoon style. Sophie, the same woman with curly red hair, round glasses, green sweater and yellow socks,
+      jumps in the air with the phone, a smiling tax official in a suit appears as a giant head on the wall, a recorder floating
+      beside her and musical notes everywhere. Bright colours, exaggerated expressions.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Wie spreekt er na drie dagen tegen Sophie?
+      options: [de heer Bakker, de buurman, de burgemeester]
+      answer: de heer Bakker
+    - key: s5q2
+      kind: yes_no
+      prompt: Zegt Sophie 'Ik heb gebeld'?
+      options: [Ja, Nee]
+      answer: Ja
+      target: heb gebeld
+    - key: s5q3
+      kind: either_or
+      prompt: Was de brief een foutje of een rekening?
+      options: [een foutje, een rekening]
+      answer: een foutje
+    - key: s5q4
+      kind: yes_no
+      prompt: Moet Sophie nu nog drie dagen wachten?
+      options: [Ja, Nee]
+      answer: Nee
+      target: moet wachten
+    - key: s5q5
+      kind: who_what
+      prompt: Wat gebeurt er terwijl Sophie 'ja' zegt?
+      options: [De wachtmuziek begint weer., De telefoon gaat kapot., De buurman zingt.]
+      answer: De wachtmuziek begint weer.
+      target: terwijl
+    glossary:
+    - word: Na
+      lemma: na
+      level: A1
+    - word: dagen
+      lemma: de dag
+      level: A1
+    - word: klinkt
+      lemma: klinken
+      level: A2
+    - word: er
+      lemma: er
+      level: A1
+    - word: ineens
+      lemma: ineens
+      level: A2
+    - word: echte
+      lemma: echt
+      level: A2
+    - word: stem
+      lemma: de stem
+      level: A2
+    - word: U
+      lemma: u
+      level: A1
+    - word: spreekt
+      lemma: spreken
+      level: A1
+    - word: met
+      lemma: met
+      level: A1
+    - word: heer
+      lemma: de heer
+      level: A1
+    - word: van
+      lemma: van
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: springt
+      lemma: springen
+      level: A1
+    - word: op
+      lemma: op
+      level: A1
+    - word: Ik
+      lemma: ik
+      level: A1
+    - word: heb
+      lemma: hebben
+      level: A1
+    - word: gebeld
+      lemma: bellen
+      level: A1
+    - word: roept
+      lemma: roepen
+      level: A1
+    - word: zij
+      lemma: zij
+      level: A1
+    - word: moet
+      lemma: moeten
+      level: A1
+    - word: wachten
+      lemma: wachten
+      level: A1
+    - word: al
+      lemma: al
+      level: A1
+    - word: man
+      lemma: de man
+      level: A1
+    - word: lacht
+      lemma: lachen
+      level: A1
+    - word: zegt
+      lemma: zeggen
+      level: A1
+    - word: Mevrouw
+      lemma: de mevrouw
+      level: A1
+    - word: brief
+      lemma: de brief
+      level: A2
+    - word: was
+      lemma: zijn
+      level: A1
+    - word: foutje
+      lemma: het foutje
+      level: A2
+    - word: Maar
+      lemma: maar
+      level: A1
+    - word: wij
+      lemma: wij
+      level: A1
+    - word: hebben
+      lemma: hebben
+      level: A1
+    - word: die
+      lemma: die
+      level: A1
+    - word: tijd
+      lemma: de tijd
+      level: A1
+    - word: naar
+      lemma: naar
+      level: A1
+    - word: uw
+      lemma: uw
+      level: A1
+    - word: blokfluit
+      lemma: de blokfluit
+      level: A2
+    - word: geluisterd
+      lemma: luisteren
+      level: A1
+    - word: Wilt
+      lemma: willen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: ons
+      lemma: ons
+      level: A1
+    - word: orkest
+      lemma: het orkest
+      level: B1
+    - word: komen
+      lemma: komen
+      level: A1
+    - word: Terwijl
+      lemma: terwijl
+      level: A2
+    - word: ja
+      lemma: ja
+      level: A1
+    - word: begint
+      lemma: beginnen
+      level: A1
+    - word: wachtmuziek
+      lemma: de wachtmuziek
+      level: B1
+    - word: weer
+      lemma: weer
+      level: A1
+    - word: te
+      lemma: te
+      level: A1
+    - word: spelen
+      lemma: spelen
+      level: A1
+    voice:
+    - text: 'Na drie dagen klinkt er ineens een echte stem: ''U spreekt met de heer Bakker van de Belastingdienst'', en Sophie
+        springt op.'
+      emotion: surprised
+    - text: '''Ik heb gebeld!'' roept zij.'
+      emotion: surprised
+    - text: '''En ik moet wachten, al drie dagen!'' De man lacht en zegt: ''Mevrouw, de brief was een foutje.'
+      emotion: surprised
+    - text: Maar wij hebben al die tijd naar uw blokfluit geluisterd.
+      emotion: whisper
+    - text: Wilt u in ons orkest komen?' Terwijl Sophie 'ja' zegt, begint de wachtmuziek weer te spelen.
+      emotion: amused
+  core_words:
+  - lemma: de brief
+    image_prompt: a thick white envelope lying on a doormat
+  - lemma: de telefoon
+    image_prompt: a smartphone held in a hand
+  - lemma: de wachtmuziek
+    image_prompt: a telephone on a table with musical notes floating above it
+  - lemma: de blokfluit
+    image_prompt: a wooden recorder flute on a table
+  - lemma: de buurman
+    image_prompt: an angry man knocking on a wall with his fist
+  - lemma: het orkest
+    image_prompt: a group of musicians playing instruments together
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 811
+  output_tokens: 6944
+  glossary_version: glossary-v2
+  glossary_input_tokens: 721
+  glossary_output_tokens: 23026
+  core_version: core-v1
+  core_input_tokens: 2232
+  core_output_tokens: 1169
+  voice_version: voice-v1
+  voice_input_tokens: 693
+  voice_output_tokens: 1993
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1784
+  localize_ar_output_tokens: 10215

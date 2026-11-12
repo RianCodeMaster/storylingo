@@ -1,0 +1,264 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Daniel heeft een afspraak nodig bij de immigratiedienst, de eerste vrije plek is in 2030, dus bouwt hij een tijdmachine
+  in zijn keuken — en zijn buurvrouw neemt die mee naar de maan.
+summary_source: e3a8158eff5bbe47
+gestures:
+  although: 'Trek één schouder op, duw een onzichtbaar klein obstakel weg met je hand en knik hard, alsof je zegt: ''toch!'''
+  would_have_to: Zucht luid en doe alsof je een reusachtige zware doos op je rug draagt, terwijl je één langzame, dramatische
+    stap zet.
+  had_asked: Klop drie keer op een onzichtbare deur en houd dan beide handen op zoals een bedelaar die om iets vraagt.
+targets:
+  aunque:
+    gloss: hoewel, ook al
+    note: 'Let op: ''aunque'' betekent ''hoewel'' of ''ook al''; in het Nederlands verandert de werkwoordsvorm daarbij niet.'
+  tendría que:
+    gloss: zou moeten
+    note: Condicional van 'tener que'; Nederlands gebruikt vaak 'zou moeten' voor een verplichting in een niet-echte situatie.
+  había pedido:
+    gloss: had aangevraagd
+    note: Pluscuamperfecto; Nederlands gebruikt 'had' + voltooid deelwoord, net als 'had aangevraagd'.
+scenes:
+- key: s1
+  source: bfd859ee2eaf412e
+  translation: 'Daniel woont in Madrid en heeft een afspraak nodig bij het immigratiekantoor. Hij had acht maanden lang een
+    afspraak aangevraagd, maar de eerste vrije afspraak is in het jaar 2030. Hoewel hij elke ochtend belt, is het antwoord
+    altijd hetzelfde: ''Er zijn geen afspraken.'' Daniel zou zes jaar moeten wachten, en dat is te veel.'
+  glosses:
+    vive: woont
+    en: in
+    "y": en
+    necesita: heeft nodig
+    cita: afspraak
+    oficina: kantoor
+    de: van
+    extranjería: immigratiedienst
+    Había: had
+    pedido: aangevraagd
+    durante: gedurende
+    meses: maanden
+    pero: maar
+    libre: vrij
+    es: is
+    año: jaar
+    Aunque: hoewel
+    llama: belt
+    al: naar de
+    teléfono: telefoon
+    cada: elke
+    mañana: ochtend
+    respuesta: antwoord
+    siempre: altijd
+    misma: zelfde
+    "No": geen
+    hay: er zijn
+    citas: afspraken
+    tendría: zou
+    que: moeten
+    esperar: wachten
+    años: jaren
+    eso: dat
+    demasiado: te veel
+- key: s2
+  source: b3cf233e159a5bcb
+  translation: Daniel besluit een tijdmachine in zijn keuken te bouwen, hoewel hij niets van natuurkunde weet. Hij gebruikt
+    de magnetron, een enorme ventilator en zevenenveertig meter aluminiumfolie. Zijn buurvrouw zegt dat het onmogelijk is,
+    maar Daniel zou op een of andere manier in 2030 moeten aankomen. Hij had drie wetenschappers om hulp gevraagd, maar de
+    drie lachten hem uit.
+  glosses:
+    decide: besluit
+    construir: bouwen
+    máquina: machine
+    del: van de
+    tiempo: tijd
+    en: in
+    su: zijn
+    cocina: keuken
+    aunque: hoewel
+    "no": niet
+    sabe: weet
+    nada: niets
+    de: van
+    física: natuurkunde
+    Usa: gebruikt
+    microondas: magnetron
+    ventilador: ventilator
+    enorme: enorme
+    "y": en
+    metros: meter
+    papel: papier
+    aluminio: aluminium
+    vecina: buurvrouw
+    dice: zegt
+    que: dat
+    es: is
+    imposible: onmogelijk
+    pero: maar
+    tendría: zou
+    llegar: aankomen
+    a: in
+    alguna: een of andere
+    manera: manier
+    Había: had
+    pedido: gevraagd
+    ayuda: hulp
+    científicos: wetenschappers
+    se: zich
+    rieron: lachten
+    él: hem
+- key: s3
+  source: 8b8a5c0932eeaac0
+  translation: 'Op dinsdag zet Daniel de datum 2030 in de magnetron en drukt op de knop. Hoewel er veel rook en een vreselijk
+    lawaai is, werkt de machine: Daniel verschijnt in 2030. Op straat zijn er vliegende auto''s en de mensen dragen gouden
+    schoenen, maar het immigratiekantoor is nog steeds in hetzelfde grijze gebouw. Daniel zou snel naar binnen moeten gaan,
+    omdat zijn afspraak om negen uur is.'
+  glosses:
+    martes: dinsdag
+    pone: zet
+    fecha: datum
+    en: in
+    microondas: magnetron
+    "y": en
+    pulsa: indrukt
+    botón: knop
+    Aunque: hoewel
+    hay: er is
+    mucho: veel
+    humo: rook
+    ruido: lawaai
+    terrible: vreselijk
+    máquina: machine
+    funciona: werkt
+    aparece: verschijnt
+    calle: straat
+    coches: auto's
+    voladores: vliegende
+    gente: mensen
+    lleva: draagt
+    zapatos: schoenen
+    de: van
+    oro: goud
+    pero: maar
+    oficina: kantoor
+    extranjería: immigratiedienst
+    todavía: nog
+    está: is
+    mismo: zelfde
+    edificio: gebouw
+    gris: grijs
+    tendría: zou
+    que: moeten
+    entrar: binnenkomen
+    rápido: snel
+    porque: omdat
+    su: zijn
+    cita: afspraak
+    es: is
+    a: om
+- key: s4
+  source: fdb337b92e7ccb70
+  translation: 'Op het kantoor zegt een heel vriendelijke medewerkster tegen hem: ''Uw afspraak was gisteren.'' Daniel legt
+    uit dat hij die afspraak in 2024 had aangevraagd, en de medewerkster glimlacht: ''Het spijt me, in 2030 geven we alleen
+    afspraken via internet.'' Hoewel Daniel een tijdmachine heeft, heeft hij in 2030 geen internet, omdat internet in 2029
+    verdween. De medewerkster voegt toe: ''U zou in 2031 moeten terugkomen; er is een vrije afspraak in maart.'''
+  glosses:
+    En: In
+    oficina: kantoor
+    empleada: medewerkster
+    muy: heel
+    amable: vriendelijk
+    le: tegen hem
+    dice: zegt
+    Su: uw
+    cita: afspraak
+    era: was
+    ayer: gisteren
+    explica: legt uit
+    que: dat
+    había: had
+    pedido: aangevraagd
+    esa: die
+    "y": en
+    sonríe: glimlacht
+    Lo: het
+    siento: spijt
+    solo: alleen
+    damos: geven
+    citas: afspraken
+    por: via
+    internet: internet
+    Aunque: hoewel
+    tiene: heeft
+    máquina: machine
+    del: van de
+    tiempo: tijd
+    "no": niet
+    porque: omdat
+    desapareció: verdween
+    añade: voegt toe
+    Tendría: zou
+    volver: terugkomen
+    hay: er is
+    libre: vrij
+    marzo: maart
+- key: s5
+  source: e516048b4e54e962
+  translation: 'Daniel komt terug naar zijn keuken, in 2024, en kijkt naar zijn mobiel: er is morgen om acht uur een vrije
+    afspraak! Hoewel hij van vreugde schreeuwt, komt zijn buurvrouw binnen en zegt: ''Ik heb jouw machine gebruikt om naar
+    2050 te gaan; daar ben jij al Spanjaard.'' Daniel had acht maanden lang een afspraak aangevraagd en nu heeft hij die niet
+    meer nodig. Maar hij zou de machine naar de maan moeten terugbrengen, omdat zijn buurvrouw hem daar heeft geparkeerd.'
+  glosses:
+    vuelve: komt terug
+    a: naar
+    su: zijn
+    cocina: keuken
+    en: in
+    "y": en
+    mira: kijkt naar
+    móvil: mobiel
+    hay: er is
+    cita: afspraak
+    libre: vrij
+    mañana: morgen
+    Aunque: hoewel
+    grita: schreeuwt
+    de: van
+    alegría: vreugde
+    vecina: buurvrouw
+    entra: komt binnen
+    dice: zegt
+    He: ik heb
+    usado: gebruikt
+    tu: jouw
+    máquina: machine
+    para: om
+    ir: gaan
+    allí: daar
+    tú: jij
+    ya: al
+    eres: bent
+    español: Spanjaard
+    había: had
+    pedido: aangevraagd
+    durante: gedurende
+    meses: maanden
+    ahora: nu
+    "no": niet
+    la: die
+    necesita: heeft nodig
+    Pero: Maar
+    tendría: zou
+    que: moeten
+    devolver: terugbrengen
+    luna: maan
+    porque: omdat
+    ha: heeft
+    aparcado: geparkeerd
+words:
+  la cita: de afspraak
+  la máquina: de machine
+  el microondas: de magnetron
+  el ventilador: de ventilator
+  el aluminio: het aluminium
+  la vecina: de buurvrouw

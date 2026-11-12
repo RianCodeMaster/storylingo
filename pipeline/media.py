@@ -202,6 +202,73 @@ class Piper(Localgen):
 
 
 # ---------------------------------------------------------------------------
+# ElevenLabs: paid, the most natural voices. Needs ELEVENLABS_API_KEY (only "Text to Speech" access is enough).
+# ---------------------------------------------------------------------------
+class ElevenLabs:
+    """Every sentence is its own call with the style of its emotion, so the app gets exact sentence marks.
+
+    Each style (content/languages/<code>.yaml, voice.styles) may set:
+      voice_id   which voice (from elevenlabs.io > Voices; copy its ID)
+      model      eleven_multilingual_v2 (default, steady) or eleven_v3 (more emotion, understands tags)
+      (voice.words: settings for single words and phrases, e.g. a cheaper model)
+      tag        eleven_v3 only: an audio tag put before the sentence, e.g. "[whispers]" or "[excited]"
+      stability, similarity_boost, style, speed, use_speaker_boost   the voice settings (lower stability = livelier)
+    Credits are characters: what you hear is what you pay, whatever the number of calls.
+    """
+
+    URL = "https://api.elevenlabs.io/v1/text-to-speech"
+    RATE = 24000  # pcm_24000 is on every plan; we make the MP3 ourselves, like for every other voice
+    SETTINGS = ("stability", "similarity_boost", "style", "speed", "use_speaker_boost")
+
+    def __init__(self):
+        self.key = os.environ.get("ELEVENLABS_API_KEY")
+        if not self.key:
+            raise SystemExit("ELEVENLABS_API_KEY missing: put it in pipeline/.env (see .env.example).")
+
+    def say(self, text: str, style: dict, before: str = "", after: str = "") -> bytes:
+        """One sentence as raw 16-bit mono PCM."""
+        model = style.get("model", "eleven_multilingual_v2")
+        body = {
+            "text": f"{style['tag']} {text}" if style.get("tag") else text,
+            "model_id": model,
+            "voice_settings": {k: style[k] for k in self.SETTINGS if k in style},
+        }
+        # The sentences around it keep the intonation flowing as one story (v3 does not take them).
+        if model != "eleven_v3":
+            body.update({k: v for k, v in (("previous_text", before), ("next_text", after)) if v})
+
+        def call() -> bytes:
+            r = httpx.post(f"{self.URL}/{style['voice_id']}", params={"output_format": f"pcm_{self.RATE}"},
+                           headers={"xi-api-key": self.key}, json=body, timeout=120)
+            if r.status_code != 200:
+                raise RuntimeError(f"elevenlabs {r.status_code}: {r.text[:300]}")
+            return r.content
+
+        return retry(call)
+
+    def speech(self, text: str, kind: str, lines: list[dict] | None, voice: dict) -> Media:
+        lines = lines or [{"text": text, "emotion": voice[kind] if kind in ("question", "word") else "neutral"}]
+        styles = voice["styles"]
+        silence = b"\x00\x00" * int(self.RATE * voice.get("pause", 0.4))
+        pcm, marks, models = b"", [], set()
+        for i, line in enumerate(lines):
+            style = {**voice.get("settings", {}), **styles.get(line["emotion"], styles["neutral"])}
+            # Single words and phrases need no acting: a faster model at half the credits (voice.words).
+            if kind == "word":
+                style.update(voice.get("words", {}))
+            models.add(f"{style.get('model', 'eleven_multilingual_v2')}/{style['voice_id']}")
+            before = lines[i - 1]["text"] if i else ""
+            after = lines[i + 1]["text"] if i + 1 < len(lines) else ""
+            if pcm:
+                pcm += silence
+            start = len(pcm) / 2 / self.RATE
+            pcm += self.say(line["text"], style, before, after)
+            marks.append({"text": line["text"], "start": round(start, 3), "end": round(len(pcm) / 2 / self.RATE, 3)})
+        return Media(mp3(_wav(pcm, self.RATE)), "audio/mpeg", "elevenlabs", "+".join(sorted(models)),
+                     marks)
+
+
+# ---------------------------------------------------------------------------
 # Fake (plumbing tests)
 # ---------------------------------------------------------------------------
 class Fake:
@@ -234,7 +301,7 @@ def provider(name: str):
     return {"gemini": Gemini, "local": Local, "fake": Fake}[name]()
 
 
-SPEAKERS = {"piper": Piper, "gemini": Gemini, "fake": Fake}
+SPEAKERS = {"piper": Piper, "gemini": Gemini, "elevenlabs": ElevenLabs, "fake": Fake}
 
 
 def speaker(voice: dict, fake: bool = False):

@@ -1,0 +1,104 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تيم يذهب إلى السوبرماركت ويشتري مئة موزة لأن كلبه برونو يأكل الموز فقط — حتى يأكل برونو شيئًا آخر.
+summary_source: 5600299c9838f9af
+gestures:
+  go: امشِ في مكانك بخطوات قوية وحرّك ذراعًا إلى الأمام كأنك تسير نحو السوبرماركت.
+  buy: احمل سلة تسوق خيالية بيد وارمِ موزًا خياليًا في السلة باليد الأخرى مع قول «تشينغ!».
+  eat: افتح فمك مثل وحش جائع وقلّد تقشير موزة عملاقة وأكلها بأصوات مضغ عالية.
+targets:
+  geht:
+    gloss: يذهب
+    note: الفعل الألماني يتصرّف مع الضمير، بخلاف العربية التي يعتمد فيها الفاعل على الضمير أو السياق.
+  kauft:
+    gloss: يشتري
+    note: في الألمانية نضيف -t للفاعل هو/هي، أما العربية فتتحدد فيها صيغة الفعل بالضمير أو السياق.
+  isst:
+    gloss: يأكل
+    note: في الألمانية يتغير الفعل مع الفاعل، أما العربية فتعتمد أكثر على الضمائر.
+scenes:
+- key: s1
+  source: 7723ca659d1da2af
+  translation: تيم لديه كلب. اسم الكلب برونو. برونو يأكل الموز فقط. تيم يذهب إلى السوبرماركت.
+  glosses:
+    hat: لديه
+    Hund: كلب
+    heißt: اسمه
+    isst: يأكل
+    nur: فقط
+    Bananen: موز
+    geht: يذهب
+    in: إلى
+    Supermarkt: سوبرماركت
+- key: s2
+  source: 3ec033468dc72230
+  translation: السوبرماركت كبير جدًا. تيم يذهب إلى الموز. يشتري مئة موزة. الموز ثقيل جدًا.
+  glosses:
+    Supermarkt: سوبرماركت
+    ist: يكون
+    sehr: جدًا
+    groß: كبير
+    geht: يذهب
+    zu: إلى
+    Bananen: الموز
+    Er: هو
+    kauft: يشتري
+    sind: تكون
+    schwer: ثقيل
+- key: s3
+  source: f10eb00ccd0041d0
+  translation: 'امرأة ترى تيم. تقول: «مئة موزة؟!» يقول تيم: «نعم! كلبي يأكل الموز فقط.» تضحك المرأة بصوت عالٍ جدًا.'
+  glosses:
+    Frau: امرأة
+    sieht: ترى
+    Sie: هي
+    sagt: تقول
+    Bananen: موز
+    Mein: خاصتي
+    Hund: كلب
+    isst: يأكل
+    nur: فقط
+    lacht: تضحك
+    sehr: جدًا
+    laut: بصوت عالٍ
+- key: s4
+  source: 82d7da79d9b68cc5
+  translation: يعود تيم إلى المنزل. يرى برونو الموز. يأكل برونو موزة. ثم يأكل عشر موزات.
+  glosses:
+    geht: يذهب
+    nach: إلى
+    Hause: المنزل
+    sieht: يرى
+    Bananen: الموز
+    isst: يأكل
+    Banane: موزة
+    Dann: ثم
+    er: هو
+- key: s5
+  source: b4e46f32efdf17c4
+  translation: 'في المساء، لم يعد برونو يأكل الموز. يأكل حذاء تيم. يقول تيم: «أوه لا!» يذهب تيم إلى السوبرماركت مرة أخرى.
+    لا يشتري موزًا. يشتري أحذية.'
+  glosses:
+    Am: في
+    Abend: المساء
+    isst: يأكل
+    keine: لا
+    Bananen: موزًا
+    mehr: بعد
+    Er: هو
+    Schuh: حذاء
+    sagt: يقول
+    geht: يذهب
+    wieder: مرة أخرى
+    in: إلى
+    Supermarkt: السوبرماركت
+    kauft: يشتري
+    Schuhe: أحذية
+words:
+  der Hund: الكلب
+  die Banane: الموزة
+  der Supermarkt: السوبرماركت
+  die Frau: المرأة
+  das Haus: المنزل
+  der Schuh: الحذاء

@@ -1,0 +1,141 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: تشتري لوتة رغيف خبز بحجم أريكة، وتأخذه معها في الحافلة، ثم تكتشف أن الخباز يعيش داخله.
+summary_source: 994291ce0748a41b
+gestures:
+  buy: مدّ يدك المفتوحة كأنها منضدة متجر، واضرب عليها عملة بيدك الأخرى، ثم عانق الشيء الذي اشتريته.
+  big: افتح ذراعيك إلى أقصى اتساع واملأ خدّيك كبالون ضخم.
+  take_along: تخيّل رغيف خبز عملاقًا، ارفعه على كتفك، وسر ثلاث خطوات وأنت تهزّ رأسك.
+targets:
+  koopt:
+    gloss: يشتري
+    note: في الهولندية يتصرّف الفعل حسب الفاعل، بخلاف العربية.
+  is groot:
+    gloss: كبير
+    note: 'في العربية لا نستخدم فعل يكون في الحاضر: الخبز كبير.'
+  meenemen:
+    gloss: يأخذ معه
+    note: 'فعل ينفصل في الهولندية: neem ... mee، بخلاف العربية.'
+scenes:
+- key: s1
+  source: 513a0912f023ea3c
+  translation: تشتري لوتة خبزًا من الخباز. يعطيها الخباز رغيفًا. الرغيف كبير. الرغيف كبير جدًا!
+  glosses:
+    koopt: تشتري
+    brood: خبزًا
+    bij: من عند
+    bakker: الخباز
+    geeft: يعطي
+    haar: لها
+    is: يكون
+    groot: كبير
+    heel: جدًا
+- key: s2
+  source: bb31740dc76d172c
+  translation: 'تشتري لوتة كعكة أيضًا. الكعكة صغيرة، لكن الخبز كبير. تريد لوتة أن تأخذ الخبز معها. تقول: «سآخذ الخبز معي».'
+  glosses:
+    koopt: تشتري
+    ook: أيضًا
+    taart: كعكة
+    is: تكون
+    klein: صغيرة
+    maar: لكن
+    brood: الخبز
+    groot: كبير
+    wil: تريد
+    meenemen: تأخذ معها
+    Ik: أنا
+    neem: آخذ
+    mee: معي
+    zegt: تقول
+    ze: هي
+- key: s3
+  source: 1fc157c057aa2055
+  translation: تركب لوتة الحافلة وتريد أن تأخذ الخبز معها. تأخذ الخبز معها، لكن الخبز كبير والحافلة صغيرة. الخبز لا يتسع!
+  glosses:
+    gaat: تركب
+    in: في
+    bus: الحافلة
+    en: و
+    ze: هي
+    wil: تريد
+    brood: الخبز
+    meenemen: تأخذ معها
+    neemt: تأخذ
+    mee: معها
+    maar: لكن
+    is: يكون
+    groot: كبير
+    klein: صغيرة
+    past: يتسع
+    niet: لا
+- key: s4
+  source: 5b869fd837684532
+  translation: 'الرجل في الحافلة يشتري تذكرة وينظر إلى الخبز. يقول بغضب: «خبزك كبير!» يجب على لوتة أن تأخذ الخبز إلى مؤخرة
+    الحافلة. تأخذ الخبز معها، لكن الخبز كبير والحافلة ممتلئة.'
+  glosses:
+    man: الرجل
+    in: في
+    bus: الحافلة
+    koopt: يشتري
+    kaartje: تذكرة
+    en: و
+    hij: هو
+    kijkt: ينظر
+    naar: إلى
+    brood: الخبز
+    Jouw: خاصتك
+    is: يكون
+    groot: كبير
+    zegt: يقول
+    boos: بغضب
+    moet: يجب
+    meenemen: تأخذ
+    achterkant: مؤخرة
+    van: الـ
+    Ze: هي
+    neemt: تأخذ
+    mee: معها
+    maar: لكن
+    vol: ممتلئة
+- key: s5
+  source: 8fac9df98f09eb24
+  translation: 'تعود لوتة إلى الخباز، ويشتري الخباز الخبز. يعطي لوتة ألف يورو، وتأخذ لوتة المال معها إلى البيت. تريد أن تأخذ
+    الخبز معها أيضًا، لكن الخباز يعيش داخله! في المساء ترى الخباز على التلفاز: الخبز كبير، لكن الخباز صغير.'
+  glosses:
+    gaat: تذهب
+    terug: عائدة
+    naar: إلى
+    bakker: الخباز
+    en: و
+    koopt: يشتري
+    brood: الخبز
+    Hij: هو
+    geeft: يعطي
+    euro: يورو
+    neemt: تأخذ
+    geld: المال
+    mee: معها
+    huis: البيت
+    Ze: هي
+    wil: تريد
+    ook: أيضًا
+    meenemen: تأخذ معها
+    maar: لكن
+    woont: يعيش
+    erin: داخله
+    '''s Avonds': في المساء
+    ziet: ترى
+    op: على
+    televisie: التلفاز
+    is: يكون
+    groot: كبير
+    klein: صغير
+words:
+  het brood: الخبز
+  de bakker: الخباز
+  de bus: الحافلة
+  de taart: الكعكة
+  het geld: المال
+  de televisie: التلفاز

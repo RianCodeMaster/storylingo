@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: gato-guitarra
+language: es
+level: A1
+tags: [algemeen]
+narrator: charlie
+theme: Lucía tiene un piso nuevo; en el piso vive un gato que toca la guitarra a las cuatro de la mañana
+scenes: 5
+targets:
+  - {text: "tiene", gloss: "has", concept: have}
+  - {text: "vive", gloss: "lives", concept: live}
+  - {text: "toca", gloss: "plays (instrument)", concept: play_instrument}

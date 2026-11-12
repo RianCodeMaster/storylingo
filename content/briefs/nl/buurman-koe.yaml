@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/nl/<slug>.yaml
+
+slug: buurman-koe
+language: nl
+level: A1
+tags: [algemeen, dagelijks]
+narrator: jessica
+theme: Emma heeft een nieuwe buurman; de buurman is een koe die elke ochtend om zes uur zingt
+scenes: 5
+targets:
+  - {text: "heeft", gloss: "has", concept: have}
+  - {text: "woont", gloss: "lives", concept: live}
+  - {text: "elke ochtend", gloss: "every morning", concept: every_morning, kind: phrase}

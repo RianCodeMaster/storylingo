@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: tapas-cincuenta
+language: es
+level: A2
+tags: [algemeen]
+narrator: jessica
+theme: Marta pidió tapas en un bar, pero se equivocó y pidió cincuenta en vez de cinco; al final invitó a todo el bar
+scenes: 5
+targets:
+  - {text: "pidió", gloss: "ordered", concept: order}
+  - {text: "quería", gloss: "wanted", concept: want}
+  - {text: "había", gloss: "there was", concept: there_was}

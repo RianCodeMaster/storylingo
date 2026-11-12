@@ -1,0 +1,747 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: fiesta-terraza
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: B1
+  theme: Elena organiza una pequeña fiesta en su terraza, pero viene todo el barrio, incluso el alcalde con una banda de música
+  scenes: 5
+  targets:
+  - text: había invitado
+    gloss: had invited
+    concept: had_invited
+    kind: phrase
+  - text: para que
+    gloss: so that
+    concept: so_that
+    kind: phrase
+  - text: mientras
+    gloss: while
+    concept: while
+    kind: word
+  narrator: charlie
+story:
+  title: 'La fiesta de Elena: ¡todo el barrio en la terraza!'
+  summary: Elena había invitado a cinco amigos, pero por un mensaje equivocado llegan todo el barrio, el alcalde con una banda
+    de música y su gato furioso, y al final es la mejor fiesta del año.
+  gestures:
+  - concept: had_invited
+    description: Pretend you are writing a tiny invitation on a sticky note and then flick it far away with one finger, saying
+      '¡pum!' as it lands on one single person.
+    emoji: ✉️
+  - concept: so_that
+    description: Open an invisible door as wide as you can with both arms and hold it open with a big proud smile, nodding
+      so the other person walks through.
+    emoji: 🚪
+  - concept: while
+    description: Rub your belly in circles with one hand and pat the top of your head at the same time, wiggling your hips
+      to show that two things happen at once.
+    emoji: 🔄
+  scenes:
+  - key: s1
+    text: Elena había invitado a cinco amigos a su terraza pequeña. Durante toda la mañana limpió, compró doce croquetas y
+      puso seis sillas para que todos estuvieran cómodos. Mientras cantaba una canción de Rosalía, miró su móvil y sonrió.
+    image_prompt: Elena, a 35-year-old woman with curly dark hair in a bun, red glasses and a yellow apron, cleaning a tiny
+      terrace with blue tiles in a Spanish apartment building, six small chairs and a plate of croquetas on a small table,
+      sunny morning, cartoon style.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Elena había invitado a cinco amigos?
+      options: [sí, "no"]
+      answer: sí
+      target: había invitado
+    - key: s1q2
+      kind: either_or
+      prompt: ¿Elena puso seis sillas para que todos estuvieran cómodos o para que todos bailaran?
+      options: [para que todos estuvieran cómodos, para que todos bailaran]
+      answer: para que todos estuvieran cómodos
+      target: para que
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Qué compró Elena?
+      options: [doce croquetas, doce sillas, doce móviles]
+      answer: doce croquetas
+    - key: s1q4
+      kind: either_or
+      prompt: ¿Mientras Elena cantaba, miró la ventana o miró su móvil?
+      options: [miró la ventana, miró su móvil]
+      answer: miró su móvil
+      target: mientras
+    glossary:
+    - word: había
+      lemma: haber
+      level: A2
+    - word: invitado
+      lemma: invitar
+      level: A2
+    - word: a
+      lemma: a
+      level: A1
+    - word: amigos
+      lemma: el amigo
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: terraza
+      lemma: la terraza
+      level: A2
+    - word: pequeña
+      lemma: pequeño
+      level: A1
+    - word: Durante
+      lemma: durante
+      level: A2
+    - word: toda
+      lemma: todo
+      level: A1
+    - word: mañana
+      lemma: la mañana
+      level: A1
+    - word: limpió
+      lemma: limpiar
+      level: A2
+    - word: compró
+      lemma: comprar
+      level: A1
+    - word: croquetas
+      lemma: la croqueta
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: puso
+      lemma: poner
+      level: A1
+    - word: sillas
+      lemma: la silla
+      level: A1
+    - word: para
+      lemma: para
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: todos
+      lemma: todo
+      level: A1
+    - word: estuvieran
+      lemma: estar
+      level: A1
+    - word: cómodos
+      lemma: cómodo
+      level: A2
+    - word: Mientras
+      lemma: mientras
+      level: A2
+    - word: cantaba
+      lemma: cantar
+      level: A1
+    - word: canción
+      lemma: la canción
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: miró
+      lemma: mirar
+      level: A1
+    - word: móvil
+      lemma: el móvil
+      level: A2
+    - word: sonrió
+      lemma: sonreír
+      level: A2
+    voice:
+    - text: Elena había invitado a cinco amigos a su terraza pequeña.
+      emotion: neutral
+    - text: Durante toda la mañana limpió, compró doce croquetas y puso seis sillas para que todos estuvieran cómodos.
+      emotion: amused
+    - text: Mientras cantaba una canción de Rosalía, miró su móvil y sonrió.
+      emotion: amused
+  - key: s2
+    text: 'A las ocho, sonó el timbre. No eran cinco amigos: era todo el barrio. Su vecino Paco llegó con su familia, veinte
+      personas, y detrás había cien vecinos más. Elena había invitado solo a cinco personas y tenía solo doce croquetas.'
+    image_prompt: Elena, with curly dark hair in a bun, red glasses and yellow apron, standing shocked at the door of her
+      blue-tiled terrace while a huge crowd of neighbours, led by a bald man in a vest, fills the tiny hallway, cartoon style.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿Elena había invitado a todo el barrio?
+      options: [sí, "no"]
+      answer: "no"
+      target: había invitado
+    - key: s2q2
+      kind: who_what
+      prompt: ¿Quién llegó con veinte personas?
+      options: [Paco, el alcalde, Napoleón]
+      answer: Paco
+    - key: s2q3
+      kind: either_or
+      prompt: ¿Llegaron cinco amigos o cien vecinos más?
+      options: [cinco amigos, cien vecinos más]
+      answer: cien vecinos más
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿Elena tenía cien croquetas?
+      options: [sí, "no"]
+      answer: "no"
+    glossary:
+    - word: A
+      lemma: a
+      level: A1
+    - word: sonó
+      lemma: sonar
+      level: A2
+    - word: timbre
+      lemma: el timbre
+      level: A2
+    - word: "No"
+      lemma: "no"
+      level: A1
+    - word: eran
+      lemma: ser
+      level: A1
+    - word: amigos
+      lemma: el amigo
+      level: A1
+    - word: era
+      lemma: ser
+      level: A1
+    - word: todo
+      lemma: todo
+      level: A1
+    - word: barrio
+      lemma: el barrio
+      level: A2
+    - word: Su
+      lemma: su
+      level: A1
+    - word: vecino
+      lemma: el vecino
+      level: A2
+    - word: llegó
+      lemma: llegar
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: familia
+      lemma: la familia
+      level: A1
+    - word: personas
+      lemma: la persona
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: detrás
+      lemma: detrás
+      level: A2
+    - word: había
+      lemma: haber
+      level: A2
+    - word: vecinos
+      lemma: el vecino
+      level: A2
+    - word: más
+      lemma: más
+      level: A1
+    - word: invitado
+      lemma: invitar
+      level: A2
+    - word: solo
+      lemma: solo
+      level: A2
+    - word: tenía
+      lemma: tener
+      level: A1
+    - word: croquetas
+      lemma: la croqueta
+      level: B1
+    voice:
+    - text: A las ocho, sonó el timbre.
+      emotion: neutral
+    - text: 'No eran cinco amigos: era todo el barrio.'
+      emotion: surprised
+    - text: Su vecino Paco llegó con su familia, veinte personas, y detrás había cien vecinos más.
+      emotion: surprised
+    - text: Elena había invitado solo a cinco personas y tenía solo doce croquetas.
+      emotion: whisper
+  - key: s3
+    text: Entonces llegó el alcalde Bermúdez con una banda de música de treinta músicos. La banda tocó un pasodoble muy fuerte
+      mientras los vecinos bailaban. Elena abrió todas las bolsas de patatas para que la gente comiera algo. «¡Qué fiesta
+      tan bonita!», dijo el alcalde.
+    image_prompt: Elena, with curly dark hair in a bun, red glasses and yellow apron, opening bags of crisps on her tiny blue-tiled
+      terrace while a thirty-piece brass band with a fat mayor in a sash plays a pasodoble and neighbours dance, cartoon style.
+    questions:
+    - key: s3q1
+      kind: who_what
+      prompt: ¿Qué trajo el alcalde Bermúdez?
+      options: [una banda de música, doce croquetas, un gato]
+      answer: una banda de música
+    - key: s3q2
+      kind: yes_no
+      prompt: ¿La banda tocó un pasodoble mientras los vecinos bailaban?
+      options: [sí, "no"]
+      answer: sí
+      target: mientras
+    - key: s3q3
+      kind: either_or
+      prompt: ¿Elena abrió bolsas de patatas para que la gente comiera o para que la gente se fuera?
+      options: [para que la gente comiera, para que la gente se fuera]
+      answer: para que la gente comiera
+      target: para que
+    - key: s3q4
+      kind: who_what
+      prompt: ¿Cuántos músicos había en la banda?
+      options: [treinta, cinco, doscientos]
+      answer: treinta
+    glossary:
+    - word: Entonces
+      lemma: entonces
+      level: A2
+    - word: llegó
+      lemma: llegar
+      level: A1
+    - word: alcalde
+      lemma: el alcalde
+      level: B1
+    - word: con
+      lemma: con
+      level: A1
+    - word: banda
+      lemma: la banda
+      level: A2
+    - word: de
+      lemma: de
+      level: A1
+    - word: música
+      lemma: la música
+      level: A1
+    - word: músicos
+      lemma: el músico
+      level: A2
+    - word: tocó
+      lemma: tocar
+      level: A2
+    - word: pasodoble
+      lemma: el pasodoble
+      level: B1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: fuerte
+      lemma: fuerte
+      level: A2
+    - word: mientras
+      lemma: mientras
+      level: A2
+    - word: vecinos
+      lemma: el vecino
+      level: A2
+    - word: bailaban
+      lemma: bailar
+      level: A1
+    - word: abrió
+      lemma: abrir
+      level: A1
+    - word: todas
+      lemma: todo
+      level: A1
+    - word: bolsas
+      lemma: la bolsa
+      level: A2
+    - word: patatas
+      lemma: la patata
+      level: A1
+    - word: para
+      lemma: para
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: gente
+      lemma: la gente
+      level: A1
+    - word: comiera
+      lemma: comer
+      level: A1
+    - word: algo
+      lemma: algo
+      level: A1
+    - word: Qué
+      lemma: qué
+      level: A1
+    - word: fiesta
+      lemma: la fiesta
+      level: A1
+    - word: tan
+      lemma: tan
+      level: A2
+    - word: bonita
+      lemma: bonito
+      level: A1
+    - word: dijo
+      lemma: decir
+      level: A1
+    voice:
+    - text: Entonces llegó el alcalde Bermúdez con una banda de música de treinta músicos.
+      emotion: surprised
+    - text: La banda tocó un pasodoble muy fuerte mientras los vecinos bailaban.
+      emotion: amused
+    - text: Elena abrió todas las bolsas de patatas para que la gente comiera algo.
+      emotion: neutral
+    - text: «¡Qué fiesta tan bonita!», dijo el alcalde.
+      emotion: amused
+  - key: s4
+    text: 'El problema fue que la terraza era muy pequeña: doscientas personas en veinte metros. El edificio empezó a moverse
+      y el gato de Elena, Napoleón, saltó furioso a la cabeza del alcalde. Mientras la banda tocaba más fuerte, Elena corrió
+      al bar de abajo para que le dieran más hielo.'
+    image_prompt: Elena, with curly dark hair in a bun, red glasses and yellow apron, running down the stairs of her building
+      while above her a tiny furious black cat sits on the head of the fat mayor and the crowded blue-tiled terrace shakes,
+      cartoon style.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿El edificio empezó a moverse?
+      options: [sí, "no"]
+      answer: sí
+    - key: s4q2
+      kind: who_what
+      prompt: ¿Quién saltó a la cabeza del alcalde?
+      options: ['Napoleón, el gato', Paco, la banda]
+      answer: Napoleón, el gato
+    - key: s4q3
+      kind: either_or
+      prompt: ¿Elena corrió al bar para que le dieran más croquetas o para que le dieran más hielo?
+      options: [para que le dieran más croquetas, para que le dieran más hielo]
+      answer: para que le dieran más hielo
+      target: para que
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿Mientras la banda tocaba, Elena durmió en el sofá?
+      options: [sí, "no"]
+      answer: "no"
+      target: mientras
+    glossary:
+    - word: problema
+      lemma: el problema
+      level: A2
+    - word: fue
+      lemma: ser
+      level: A1
+    - word: que
+      lemma: que
+      level: A1
+    - word: terraza
+      lemma: la terraza
+      level: A2
+    - word: era
+      lemma: ser
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: pequeña
+      lemma: pequeño
+      level: A1
+    - word: personas
+      lemma: la persona
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: metros
+      lemma: el metro
+      level: A1
+    - word: edificio
+      lemma: el edificio
+      level: A2
+    - word: empezó
+      lemma: empezar
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: moverse
+      lemma: moverse
+      level: A2
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: saltó
+      lemma: saltar
+      level: A2
+    - word: furioso
+      lemma: furioso
+      level: B1
+    - word: cabeza
+      lemma: la cabeza
+      level: A1
+    - word: del
+      lemma: de
+      level: A1
+    - word: alcalde
+      lemma: el alcalde
+      level: B1
+    - word: Mientras
+      lemma: mientras
+      level: A2
+    - word: banda
+      lemma: la banda
+      level: A2
+    - word: tocaba
+      lemma: tocar
+      level: A2
+    - word: más
+      lemma: más
+      level: A1
+    - word: fuerte
+      lemma: fuerte
+      level: A2
+    - word: corrió
+      lemma: correr
+      level: A1
+    - word: al
+      lemma: a
+      level: A1
+    - word: bar
+      lemma: el bar
+      level: A2
+    - word: abajo
+      lemma: abajo
+      level: A2
+    - word: para
+      lemma: para
+      level: A1
+    - word: le
+      lemma: le
+      level: A1
+    - word: dieran
+      lemma: dar
+      level: A1
+    - word: hielo
+      lemma: el hielo
+      level: A2
+    voice:
+    - text: 'El problema fue que la terraza era muy pequeña: doscientas personas en veinte metros.'
+      emotion: surprised
+    - text: El edificio empezó a moverse y el gato de Elena, Napoleón, saltó furioso a la cabeza del alcalde.
+      emotion: angry
+    - text: Mientras la banda tocaba más fuerte, Elena corrió al bar de abajo para que le dieran más hielo.
+      emotion: amused
+  - key: s5
+    text: 'Al final, todos los vecinos trajeron comida y la fiesta fue la mejor del año. Elena miró su móvil y vio la verdad:
+      había invitado a todo el barrio, porque mandó el mensaje al grupo «Barrio Entero» y no a sus cinco amigos. Se rió y
+      bailó con el alcalde. Mientras Napoleón dormía en el sofá, Elena decidió repetir la fiesta cada mes.'
+    image_prompt: Elena, with curly dark hair in a bun, red glasses and yellow apron, laughing and dancing with the fat mayor
+      in his sash on the blue-tiled terrace full of neighbours and food, while a tiny black cat sleeps curled on a sofa in
+      the corner, night lights, cartoon style.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿Elena había invitado a todo el barrio por error?
+      options: [sí, "no"]
+      answer: sí
+      target: había invitado
+    - key: s5q2
+      kind: either_or
+      prompt: ¿Elena mandó el mensaje al grupo «Cinco Amigos» o al grupo «Barrio Entero»?
+      options: [al grupo «Cinco Amigos», al grupo «Barrio Entero»]
+      answer: al grupo «Barrio Entero»
+    - key: s5q3
+      kind: who_what
+      prompt: ¿Con quién bailó Elena?
+      options: [con el alcalde, con Napoleón, con Paco]
+      answer: con el alcalde
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿Mientras Napoleón dormía en el sofá, Elena decidió repetir la fiesta cada mes?
+      options: [sí, "no"]
+      answer: sí
+      target: mientras
+    glossary:
+    - word: Al
+      lemma: a
+      level: A1
+    - word: final
+      lemma: el final
+      level: A2
+    - word: todos
+      lemma: todo
+      level: A1
+    - word: vecinos
+      lemma: el vecino
+      level: A2
+    - word: trajeron
+      lemma: traer
+      level: A2
+    - word: comida
+      lemma: la comida
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: fiesta
+      lemma: la fiesta
+      level: A1
+    - word: fue
+      lemma: ser
+      level: A1
+    - word: mejor
+      lemma: mejor
+      level: A2
+    - word: del
+      lemma: de
+      level: A1
+    - word: año
+      lemma: el año
+      level: A1
+    - word: miró
+      lemma: mirar
+      level: A1
+    - word: su
+      lemma: su
+      level: A1
+    - word: móvil
+      lemma: el móvil
+      level: A2
+    - word: vio
+      lemma: ver
+      level: A1
+    - word: verdad
+      lemma: la verdad
+      level: A1
+    - word: había
+      lemma: haber
+      level: A2
+    - word: invitado
+      lemma: invitar
+      level: A2
+    - word: a
+      lemma: a
+      level: A1
+    - word: todo
+      lemma: todo
+      level: A1
+    - word: barrio
+      lemma: el barrio
+      level: A2
+    - word: porque
+      lemma: porque
+      level: A1
+    - word: mandó
+      lemma: mandar
+      level: A2
+    - word: mensaje
+      lemma: el mensaje
+      level: A2
+    - word: grupo
+      lemma: el grupo
+      level: A2
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: sus
+      lemma: su
+      level: A1
+    - word: amigos
+      lemma: el amigo
+      level: A1
+    - word: Se
+      lemma: se
+      level: A1
+    - word: rió
+      lemma: reír
+      level: A2
+    - word: bailó
+      lemma: bailar
+      level: A1
+    - word: con
+      lemma: con
+      level: A1
+    - word: alcalde
+      lemma: el alcalde
+      level: B1
+    - word: Mientras
+      lemma: mientras
+      level: A2
+    - word: dormía
+      lemma: dormir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: sofá
+      lemma: el sofá
+      level: A2
+    - word: decidió
+      lemma: decidir
+      level: A2
+    - word: repetir
+      lemma: repetir
+      level: A2
+    - word: cada
+      lemma: cada
+      level: A2
+    - word: mes
+      lemma: el mes
+      level: A1
+    voice:
+    - text: Al final, todos los vecinos trajeron comida y la fiesta fue la mejor del año.
+      emotion: amused
+    - text: 'Elena miró su móvil y vio la verdad: había invitado a todo el barrio, porque mandó el mensaje al grupo «Barrio
+        Entero» y no a sus cinco amigos.'
+      emotion: surprised
+    - text: Se rió y bailó con el alcalde.
+      emotion: amused
+    - text: Mientras Napoleón dormía en el sofá, Elena decidió repetir la fiesta cada mes.
+      emotion: sleepy
+  core_words:
+  - lemma: la terraza
+    image_prompt: a small rooftop terrace with a table and plants
+  - lemma: la croqueta
+    image_prompt: a plate of golden fried croquettes
+  - lemma: el vecino
+    image_prompt: two neighbors talking at an open apartment door
+  - lemma: el alcalde
+    image_prompt: a man in a suit wearing a wide mayoral sash in front of a town hall
+  - lemma: la banda
+    image_prompt: a group of musicians playing trumpets and drums together
+  - lemma: el gato
+    image_prompt: a small cat sitting on a sofa
+generation:
+  prompt_version: tprs-v3
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 701
+  output_tokens: 4499
+  glossary_version: glossary-v2
+  glossary_input_tokens: 672
+  glossary_output_tokens: 14730
+  core_version: core-v1
+  core_input_tokens: 2043
+  core_output_tokens: 1221
+  voice_version: voice-v1
+  voice_input_tokens: 643
+  voice_output_tokens: 1005
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1694
+  localize_ar_output_tokens: 8591
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1694
+  localize_en_output_tokens: 8998
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1694
+  localize_nl_output_tokens: 9936

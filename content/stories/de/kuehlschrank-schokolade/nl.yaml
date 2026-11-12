@@ -1,0 +1,97 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Paul heeft een pratende koelkast die alleen chocolade wil, maar Paul wil groente — tot een heel vreemde chocoladereep
+  alles redt.
+summary_source: 2866dcaf0f19dd56
+gestures:
+  have: Druk een onzichtbare grote doos tegen je borst en knik trots, alsof je de hele wereld bezit.
+  want: Strek beide armen voor je uit, open en sluit je handen gretig en lik je lippen.
+  speak: Houd je hand naast je mond en laat hem als een kletsende snavel flapperen terwijl je 'blah blah blah' zegt.
+targets:
+  hat:
+    gloss: heeft
+    note: Duitse 3e persoon van haben; Nederlands 'heeft' is ook onregelmatig.
+  will:
+    gloss: wil
+    note: Duitse modal voor 'wil'; Nederlands gebruikt ook 'wil' zonder -t.
+  spricht:
+    gloss: spreekt
+    note: Duitse 3e persoon van sprechen; vergelijk Nederlands 'spreekt'.
+scenes:
+- key: s1
+  source: 6538747ffe8d3bed
+  translation: 'Paul heeft een koelkast. De koelkast heet Klaus. Klaus praat. Klaus zegt elke dag: ''Hallo Paul!'''
+  glosses:
+    hat: heeft
+    Kühlschrank: koelkast
+    heißt: heet
+    spricht: spreekt
+    jeden: elke
+    Tag: dag
+- key: s2
+  source: 49d47b6360eb39b3
+  translation: Klaus wil chocolade. Klaus wil 1000 repen chocolade. Paul wil groente. Paul wil broccoli en wortels.
+  glosses:
+    will: wil
+    Schokolade: chocolade
+    Tafeln: repen
+    Gemüse: groente
+    Brokkoli: broccoli
+    und: en
+    Karotten: wortels
+- key: s3
+  source: 96323d8ccf464b9a
+  translation: 'Paul heeft broccoli in de koelkast. Maar Klaus wil geen wortels. Klaus zegt hardop: ''Ik wil chocolade!''
+    Paul heeft honger.'
+  glosses:
+    hat: heeft
+    Brokkoli: broccoli
+    im: in de
+    Kühlschrank: koelkast
+    Aber: maar
+    will: wil
+    keine: geen
+    Karotten: wortels
+    spricht: spreekt
+    laut: hard
+    Ich: ik
+    Schokolade: chocolade
+    Hunger: honger
+- key: s4
+  source: 0aec376488e70d2a
+  translation: Klaus praat heel hard. De koelkast heeft een grote deur. Paul heeft een idee. Paul gaat naar de supermarkt.
+  glosses:
+    spricht: spreekt
+    sehr: heel
+    laut: hard
+    Kühlschrank: koelkast
+    hat: heeft
+    große: grote
+    Tür: deur
+    Idee: idee
+    geht: gaat
+    in: naar
+    Supermarkt: supermarkt
+- key: s5
+  source: 963dae63b107035c
+  translation: 'Paul heeft chocolade met broccoli. Klaus wil de chocolade. Klaus eet en zegt: ''Mmh, broccoli!'' Nu wil Klaus
+    groente.'
+  glosses:
+    hat: heeft
+    Schokolade: chocolade
+    mit: met
+    Brokkoli: broccoli
+    will: wil
+    isst: eet
+    und: en
+    spricht: spreekt
+    Jetzt: nu
+    Gemüse: groente
+words:
+  der Kühlschrank: de koelkast
+  die Schokolade: de chocolade
+  das Gemüse: de groente
+  der Brokkoli: de broccoli
+  der Supermarkt: de supermarkt
+  die Tür: de deur

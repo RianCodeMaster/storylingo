@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/de/<slug>.yaml
+
+slug: zug-verspaetung
+language: de
+level: A2
+tags: [algemeen, werk]
+narrator: charlie
+theme: Felix wollte pünktlich zur Arbeit, aber der Zug hatte fünf Stunden Verspätung; er ist zu Fuß gegangen und war trotzdem zuerst da
+scenes: 5
+targets:
+  - {text: "wollte", gloss: "wanted", concept: want}
+  - {text: "ist gegangen", gloss: "went / has gone", concept: went, kind: phrase}
+  - {text: "hatte", gloss: "had", concept: have_past}

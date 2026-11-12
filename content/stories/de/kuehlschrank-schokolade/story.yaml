@@ -1,0 +1,409 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: kuehlschrank-schokolade
+status: published
+tags: [algemeen, alltag]
+brief:
+  language: de
+  level: A1
+  theme: Paul hat einen Kühlschrank, der spricht und nur Schokolade will; Paul will aber Gemüse essen
+  scenes: 5
+  targets:
+  - text: hat
+    gloss: has
+    concept: have
+    kind: word
+  - text: will
+    gloss: wants
+    concept: want
+    kind: word
+  - text: spricht
+    gloss: speaks
+    concept: speak
+    kind: word
+  narrator: charlie
+story:
+  title: Paul und der Kühlschrank Klaus
+  summary: Paul has a talking fridge that only wants chocolate, but Paul wants vegetables — until a very strange chocolate
+    bar saves the day.
+  gestures:
+  - concept: have
+    description: Hug an invisible giant box against your chest and nod proudly, like you own the whole world.
+    emoji: 🤲
+  - concept: want
+    description: Stretch both arms out in front of you, open and close your hands greedily, and lick your lips.
+    emoji: 🍫
+  - concept: speak
+    description: Put your hand next to your mouth and flap it like a chattering beak while saying 'blah blah blah'.
+    emoji: 🗣️
+  scenes:
+  - key: s1
+    text: 'Paul hat einen Kühlschrank. Der Kühlschrank heißt Klaus. Klaus spricht. Klaus spricht jeden Tag: „Hallo Paul!“'
+    image_prompt: A small round man with curly orange hair, glasses and a green sweater stands in a kitchen. Next to him is
+      a white fridge with big cartoon eyes and a wide open mouth, talking to him.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Hat Paul einen Kühlschrank?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hat
+    - key: s1q2
+      kind: who_what
+      prompt: Wie heißt der Kühlschrank?
+      options: [Klaus, Paul, Anna]
+      answer: Klaus
+    - key: s1q3
+      kind: yes_no
+      prompt: Spricht der Kühlschrank?
+      options: [Ja, Nein]
+      answer: Ja
+      target: spricht
+    - key: s1q4
+      kind: either_or
+      prompt: Spricht Klaus oder schläft Klaus?
+      options: [Klaus spricht, Klaus schläft]
+      answer: Klaus spricht
+      target: spricht
+    glossary:
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: Kühlschrank
+      lemma: der Kühlschrank
+      level: A2
+    - word: heißt
+      lemma: heißen
+      level: A1
+    - word: spricht
+      lemma: sprechen
+      level: A1
+    - word: jeden
+      lemma: jeder
+      level: A2
+    - word: Tag
+      lemma: der Tag
+      level: A1
+    voice:
+    - text: Paul hat einen Kühlschrank.
+      emotion: neutral
+    - text: Der Kühlschrank heißt Klaus.
+      emotion: surprised
+    - text: Klaus spricht.
+      emotion: surprised
+    - text: 'Klaus spricht jeden Tag: „Hallo Paul!“'
+      emotion: amused
+  - key: s2
+    text: Klaus will Schokolade. Klaus will 1000 Tafeln Schokolade. Paul will Gemüse. Paul will Brokkoli und Karotten.
+    image_prompt: The white fridge with big cartoon eyes has its mouth wide open and a huge pile of chocolate bars in front
+      of it. The small round man with curly orange hair and glasses holds a broccoli in each hand and looks worried.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Will Klaus Gemüse?
+      options: [Ja, Nein]
+      answer: Nein
+      target: will
+    - key: s2q2
+      kind: either_or
+      prompt: Was will Klaus? Schokolade oder Brokkoli?
+      options: [Schokolade, Brokkoli]
+      answer: Schokolade
+      target: will
+    - key: s2q3
+      kind: who_what
+      prompt: Was will Paul?
+      options: [Gemüse, Schokolade, Kuchen]
+      answer: Gemüse
+      target: will
+    - key: s2q4
+      kind: yes_no
+      prompt: Will Klaus 1000 Tafeln Schokolade?
+      options: [Ja, Nein]
+      answer: Ja
+      target: will
+    glossary:
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: Schokolade
+      lemma: die Schokolade
+      level: A1
+    - word: Tafeln
+      lemma: die Tafel
+      level: A2
+    - word: Gemüse
+      lemma: das Gemüse
+      level: A1
+    - word: Brokkoli
+      lemma: der Brokkoli
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: Karotten
+      lemma: die Karotte
+      level: A2
+    voice:
+    - text: Klaus will Schokolade.
+      emotion: amused
+    - text: Klaus will 1000 Tafeln Schokolade.
+      emotion: surprised
+    - text: Paul will Gemüse.
+      emotion: neutral
+    - text: Paul will Brokkoli und Karotten.
+      emotion: disgusted
+  - key: s3
+    text: 'Paul hat Brokkoli im Kühlschrank. Aber Klaus will keine Karotten. Klaus spricht laut: „Ich will Schokolade!“ Paul
+      hat Hunger.'
+    image_prompt: The fridge with big cartoon eyes screams with a huge open mouth, broccoli and carrots flying out of it.
+      The small round man with curly orange hair holds his stomach and makes a hungry face.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Hat Paul Brokkoli?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hat
+    - key: s3q2
+      kind: either_or
+      prompt: Will Klaus Karotten oder Schokolade?
+      options: [Schokolade, Karotten]
+      answer: Schokolade
+      target: will
+    - key: s3q3
+      kind: who_what
+      prompt: Wer spricht laut?
+      options: [Klaus, Paul, Anna]
+      answer: Klaus
+      target: spricht
+    - key: s3q4
+      kind: yes_no
+      prompt: Spricht Klaus leise?
+      options: [Ja, Nein]
+      answer: Nein
+      target: spricht
+    glossary:
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: Brokkoli
+      lemma: der Brokkoli
+      level: A2
+    - word: im
+      lemma: in
+      level: A1
+    - word: Kühlschrank
+      lemma: der Kühlschrank
+      level: A2
+    - word: Aber
+      lemma: aber
+      level: A1
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: keine
+      lemma: kein
+      level: A1
+    - word: Karotten
+      lemma: die Karotte
+      level: A2
+    - word: spricht
+      lemma: sprechen
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A2
+    - word: Ich
+      lemma: ich
+      level: A1
+    - word: Schokolade
+      lemma: die Schokolade
+      level: A1
+    - word: Hunger
+      lemma: der Hunger
+      level: A1
+    voice:
+    - text: Paul hat Brokkoli im Kühlschrank.
+      emotion: neutral
+    - text: Aber Klaus will keine Karotten.
+      emotion: disgusted
+    - text: 'Klaus spricht laut: „Ich will Schokolade!“ Paul hat Hunger.'
+      emotion: angry
+  - key: s4
+    text: Klaus spricht sehr laut. Der Kühlschrank hat eine große Tür. Paul hat eine Idee. Paul geht in den Supermarkt.
+    image_prompt: The fridge with big cartoon eyes vibrates and shouts, its door shaking. The small round man with curly orange
+      hair puts on his coat and walks out of the kitchen door with a big idea-smile.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Hat der Kühlschrank eine große Tür?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hat
+    - key: s4q2
+      kind: who_what
+      prompt: Wer hat eine Idee?
+      options: [Paul, Klaus, Anna]
+      answer: Paul
+      target: hat
+    - key: s4q3
+      kind: either_or
+      prompt: Geht Paul in den Supermarkt oder in die Schule?
+      options: [in den Supermarkt, in die Schule]
+      answer: in den Supermarkt
+    - key: s4q4
+      kind: yes_no
+      prompt: Spricht Klaus viel?
+      options: [Ja, Nein]
+      answer: Ja
+      target: spricht
+    glossary:
+    - word: spricht
+      lemma: sprechen
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: laut
+      lemma: laut
+      level: A2
+    - word: Kühlschrank
+      lemma: der Kühlschrank
+      level: A2
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: große
+      lemma: groß
+      level: A1
+    - word: Tür
+      lemma: die Tür
+      level: A1
+    - word: Idee
+      lemma: die Idee
+      level: A2
+    - word: geht
+      lemma: gehen
+      level: A1
+    - word: in
+      lemma: in
+      level: A1
+    - word: Supermarkt
+      lemma: der Supermarkt
+      level: A1
+    voice:
+    - text: Klaus spricht sehr laut.
+      emotion: angry
+    - text: Der Kühlschrank hat eine große Tür.
+      emotion: surprised
+    - text: Paul hat eine Idee.
+      emotion: amused
+    - text: Paul geht in den Supermarkt.
+      emotion: neutral
+  - key: s5
+    text: 'Paul hat Schokolade mit Brokkoli. Klaus will die Schokolade. Klaus isst und spricht: „Mmh, Brokkoli!“ Jetzt will
+      Klaus Gemüse.'
+    image_prompt: The small round man with curly orange hair holds up a green chocolate bar. The fridge with big cartoon eyes
+      chews happily with green crumbs around its mouth, and broccoli pieces dance around it.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Hat Paul Schokolade mit Brokkoli?
+      options: [Ja, Nein]
+      answer: Ja
+      target: hat
+    - key: s5q2
+      kind: either_or
+      prompt: Was will Klaus? Die Schokolade oder die Karotten?
+      options: [die Schokolade, die Karotten]
+      answer: die Schokolade
+      target: will
+    - key: s5q3
+      kind: who_what
+      prompt: Was sagt Klaus am Ende?
+      options: ['Mmh, Brokkoli!', 'Mmh, Schokolade!', Hallo Paul!]
+      answer: Mmh, Brokkoli!
+      target: spricht
+    - key: s5q4
+      kind: yes_no
+      prompt: Will Klaus jetzt Schokolade?
+      options: [Ja, Nein]
+      answer: Nein
+      target: will
+    glossary:
+    - word: hat
+      lemma: haben
+      level: A1
+    - word: Schokolade
+      lemma: die Schokolade
+      level: A1
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: Brokkoli
+      lemma: der Brokkoli
+      level: A2
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: isst
+      lemma: essen
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: spricht
+      lemma: sprechen
+      level: A1
+    - word: Jetzt
+      lemma: jetzt
+      level: A1
+    - word: Gemüse
+      lemma: das Gemüse
+      level: A1
+    voice:
+    - text: Paul hat Schokolade mit Brokkoli.
+      emotion: disgusted
+    - text: Klaus will die Schokolade.
+      emotion: amused
+    - text: 'Klaus isst und spricht: „Mmh, Brokkoli!“ Jetzt will Klaus Gemüse.'
+      emotion: surprised
+  core_words:
+  - lemma: der Kühlschrank
+    image_prompt: a large white refrigerator in a simple kitchen
+  - lemma: die Schokolade
+    image_prompt: a stack of chocolate bars
+  - lemma: das Gemüse
+    image_prompt: a pile of fresh vegetables
+  - lemma: der Brokkoli
+    image_prompt: a green head of broccoli
+  - lemma: der Supermarkt
+    image_prompt: a supermarket aisle with shelves of food
+  - lemma: die Tür
+    image_prompt: a closed door with a handle
+generation:
+  prompt_version: tprs-v3
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 687
+  output_tokens: 3223
+  glossary_version: glossary-v2
+  glossary_input_tokens: 459
+  glossary_output_tokens: 7778
+  core_version: core-v1
+  core_input_tokens: 845
+  core_output_tokens: 637
+  voice_version: voice-v1
+  voice_input_tokens: 435
+  voice_output_tokens: 1628
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 985
+  localize_ar_output_tokens: 3289
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 985
+  localize_en_output_tokens: 3583
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 985
+  localize_nl_output_tokens: 4490

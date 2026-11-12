@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: sandia-mercado
+language: es
+level: A1
+tags: [algemeen]
+narrator: george
+theme: Carmen compra una sandía en el mercado; la sandía es enorme y no cabe en su casa
+scenes: 5
+targets:
+  - {text: "compra", gloss: "buys", concept: buy}
+  - {text: "es", gloss: "is", concept: be}
+  - {text: "quiere", gloss: "wants", concept: want}

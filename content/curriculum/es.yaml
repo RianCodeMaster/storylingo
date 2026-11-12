@@ -6,6 +6,13 @@ A1:
   - {text: le gusta, gloss: houdt van / vindt leuk, concept: like}
   - {text: tiene, gloss: heeft, concept: have}
   - {text: hay, gloss: er is / er zijn, concept: there_is}
+  - {text: "espera", gloss: "waits", concept: wait}
+  - {text: "llega", gloss: "arrives", concept: arrive}
+  - {text: "está", gloss: "is (place, state)", concept: be_state}
+  - {text: "vive", gloss: "lives", concept: live}
+  - {text: "toca", gloss: "plays (instrument)", concept: play_instrument}
+  - {text: "compra", gloss: "buys", concept: buy}
+  - {text: "es", gloss: "is", concept: be}
 A2:
   - {text: quería, gloss: wilde, concept: want}
   - {text: no podía, gloss: kon niet, concept: cannot}
@@ -13,7 +20,22 @@ A2:
   - {text: de repente, gloss: plotseling, concept: suddenly}
   - {text: por fin, gloss: eindelijk, concept: finally}
   - {text: fue a, gloss: ging naar, concept: went}
+  - {text: "fue", gloss: "went", concept: went}
+  - {text: "tenía", gloss: "had", concept: have}
+  - {text: "dijo", gloss: "said", concept: said}
+  - {text: "pidió", gloss: "ordered", concept: order}
+  - {text: "había", gloss: "there was", concept: there_is}
 B1:
   - {text: aunque, gloss: hoewel, concept: although}
   - {text: para que, gloss: zodat, concept: so_that}
   - {text: si pudiera, gloss: als ik kon, concept: if_could}
+  - {text: "tendría que", gloss: "would have to", concept: would_have_to}
+  - {text: "había pedido", gloss: "had asked for", concept: had_asked}
+  - {text: "se dio cuenta de que", gloss: "realised that", concept: realise}
+  - {text: "si hubiera", gloss: "if I had", concept: if_had}
+  - {text: "por eso", gloss: "that's why", concept: therefore}
+  - {text: "había invitado", gloss: "had invited", concept: had_invited}
+  - {text: "mientras", gloss: "while", concept: while}
+  - {text: "me gustaría", gloss: "I would like", concept: would_like}
+  - {text: "sin embargo", gloss: "however", concept: however}
+  - {text: "cuando", gloss: "when", concept: when}

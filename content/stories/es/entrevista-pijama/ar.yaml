@@ -1,0 +1,197 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: يذهب أليخاندرو إلى مقابلة عمل مهمة جدًا، ولا يكتشف إلا في المكتب أنه يرتدي بيجامة الديناصور، لكن الشركة تبحث بالضبط
+  عن ذلك.
+summary_source: 8d434fdc83e73852
+gestures:
+  realise: اضرب جبهتك بيد، وافتح عينيك واسعًا، وأشر إلى ملابسك باليد الأخرى.
+  if_had: غطِّ عينيك بيدك كأنك تخفي ماضيك، وحرّك إصبعك الآخر كتحذير.
+  therefore: أشر إلى شيء، وصفّق مرة، ثم أشر إلى الأمام بإصبع واحد كأن القرار اتُّخذ.
+targets:
+  se dio cuenta de que:
+    gloss: أدرك أن
+    note: تركيب يعني «أدرك أن»؛ الفعل انعكاسي في الإسبانية، بينما العربية لا تحتاج ضميرًا انعكاسيًا.
+  si hubiera:
+    gloss: لو كنت قد
+    note: يُستخدم مع اسم المفعول للفرض الماضي، ويقابله في العربية «لو» + الفعل الماضي.
+  por eso:
+    gloss: لهذا السبب
+    note: رابط يعني «لهذا السبب» ويأتي قبل النتيجة، مثل «لذلك» في العربية.
+scenes:
+- key: s1
+  source: 41588b9fe9dac7d7
+  translation: كان لدى أليخاندرو مقابلة مهمة جدًا في التاسعة والنصف. استيقظ في التاسعة وعشرين دقيقة. ارتدى سترة فوق ملابسه
+    وظن أنه مستعد. لهذا لم ينظر في المرآة.
+  glosses:
+    tenía: كان لديه
+    entrevista: مقابلة
+    importante: مهمة
+    a: في
+    "y": و
+    media: نصف
+    Se: علامة انعكاس
+    despertó: استيقظ
+    puso: لبس
+    chaqueta: سترة
+    encima: فوق
+    de: من
+    ropa: ملابس
+    pensó: ظن
+    que: أن
+    estaba: كان
+    listo: جاهز
+    Por: بسبب
+    eso: ذلك
+    "no": لم
+    miró: نظر
+    espejo: المرآة
+- key: s2
+  source: a23c127642d914e0
+  translation: في المترو كان هناك ثلاثمئة شخص وكلهم كانوا ينظرون إليه. سألته سيدة إن كان ذاهبًا إلى حفلة تنكرية. ظن أليخاندرو
+    أنه مشهور. لهذا ابتسم طوال الطريق.
+  glosses:
+    En: في
+    metro: المترو
+    había: كان هناك
+    personas: أشخاص
+    "y": و
+    todas: كلهم
+    lo: إليه
+    miraban: كانوا ينظرون
+    señora: سيدة
+    le: له
+    preguntó: سأل
+    si: إن
+    iba: كان ذاهبًا
+    a: إلى
+    fiesta: حفلة
+    de: خاصة
+    disfraces: أزياء تنكرية
+    pensó: ظن
+    que: أن
+    era: كان
+    famoso: مشهورًا
+    Por: بسبب
+    eso: ذلك
+    sonrió: ابتسم
+    todo: طوال
+    camino: الطريق
+- key: s3
+  source: 796c9ccd2526e7f4
+  translation: في المكتب، صافحه رجل جاد جدًا. نظر أليخاندرو إلى ساعته وفجأة أدرك أنه يرتدي بيجامة. كانت البيجامة فيها ديناصورات
+    خضراء ووردية. وأدرك أيضًا أنه يرتدي خفّ منزلي.
+  glosses:
+    En: في
+    oficina: المكتب
+    señor: رجل
+    muy: جدًا
+    serio: جاد
+    le: له
+    dio: أعطى
+    mano: يد
+    miró: نظر إلى
+    reloj: ساعته
+    "y": و
+    de: من
+    pronto: فجأة
+    se: علامة انعكاس
+    cuenta: إدراك
+    que: أن
+    llevaba: كان يرتدي
+    pijama: البيجامة
+    tenía: كان فيه
+    dinosaurios: ديناصورات
+    verdes: خضراء
+    rosas: وردية
+    También: أيضًا
+    zapatillas: خفّ منزلي
+    casa: المنزل
+- key: s4
+  source: 73f3bb34d1c6d9fa
+  translation: 'اختبأ أليخاندرو خلف نبتة ضخمة. فكّر: «لو كنت نظرت في المرآة، لما كنت هنا الآن». لو كان لبس ملابس عادية، لكانت
+    المقابلة سهلة. أدرك أن سترته لم تكن تغطي شيئًا. لهذا اتصل بأمه ليطلب المساعدة.'
+  glosses:
+    se: علامة انعكاس
+    escondió: اختبأ
+    detrás: خلف
+    de: من
+    planta: النبتة
+    enorme: ضخمة
+    Pensó: فكّر
+    Si: لو
+    hubiera: كنت قد
+    mirado: نظرت
+    espejo: المرآة
+    ahora: الآن
+    "no": لا
+    estaría: كنت سأكون
+    aquí: هنا
+    llevado: لبست
+    ropa: ملابس
+    normal: عادية
+    entrevista: المقابلة
+    sería: ستكون
+    fácil: سهلة
+    dio: أدرك
+    cuenta: إدراك
+    que: أن
+    chaqueta: السترة
+    tapaba: كانت تغطي
+    nada: شيئًا
+    Por: بسبب
+    eso: ذلك
+    llamó: اتصل
+    a: بـ
+    madre: أمه
+    para: لكي
+    pedir: يطلب
+    ayuda: مساعدة
+- key: s5
+  source: 2254301e66e9ea3c
+  translation: 'خرجت المديرة دونيا كارمن ببيجامة زرقاء عليها نجوم. قالت: «ممتاز! نحن نبحث عن شخص يجرّب بيجاماتنا». أدرك أليخاندرو
+    أن خطأه كان حظًا. لو كان لبس بدلة، لما حصل على العمل. لهذا يعمل اليوم بالبيجامة كل يوم.'
+  glosses:
+    directora: المديرة
+    salió: خرجت
+    con: بـ
+    pijama: بيجامة
+    azul: زرقاء
+    estrellas: نجوم
+    Perfecto: ممتاز
+    dijo: قالت
+    Buscamos: نبحث عن
+    a: عن
+    alguien: شخصًا
+    que: الذي
+    pruebe: يجرّب
+    pijamas: البيجامات
+    se: علامة انعكاس
+    dio: أدرك
+    cuenta: إدراك
+    de: بأن
+    error: الخطأ
+    era: كان
+    suerte: حظًا
+    Si: لو
+    hubiera: كنت قد
+    llevado: لبست
+    traje: بدلة
+    "no": لم
+    habría: كنت سـ
+    conseguido: حصلت على
+    trabajo: العمل
+    Por: بسبب
+    eso: ذلك
+    hoy: اليوم
+    trabaja: يعمل
+    en: في
+    todos: كل
+    días: الأيام
+words:
+  la entrevista: المقابلة
+  el espejo: المرآة
+  el pijama: البيجامة
+  el dinosaurio: الديناصور
+  esconderse: يختبئ
+  la planta: النبتة

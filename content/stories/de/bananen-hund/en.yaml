@@ -1,0 +1,107 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Tim goes to the supermarket and buys one hundred bananas because his dog Bruno only eats bananas — until Bruno eats
+  something else.
+summary_source: 5600299c9838f9af
+gestures:
+  go: March in place with big stomping steps and swing one arm forward like a soldier walking to the supermarket.
+  buy: Hold an invisible shopping basket with one hand and throw invisible bananas over your shoulder into it with the other,
+    saying 'cha-ching!'
+  eat: Open your mouth like a hungry monster and mime peeling and munching a giant banana with loud chomping sounds.
+targets:
+  geht:
+    gloss: goes
+    note: 'German adds -t for he/she/it; English adds -s: er geht = he goes.'
+  kauft:
+    gloss: buys
+    note: 'German uses -t for er/sie/es; English uses -s: er kauft = he buys.'
+  isst:
+    gloss: eats
+    note: German 'isst' is the he/she/it form; English 'eats' also takes -s.
+scenes:
+- key: s1
+  source: 7723ca659d1da2af
+  translation: Tim has a dog. The dog is named Bruno. Bruno only eats bananas. Tim goes to the supermarket.
+  glosses:
+    hat: has
+    Hund: dog
+    heißt: is named
+    isst: eats
+    nur: only
+    Bananen: bananas
+    geht: goes
+    in: to
+    Supermarkt: supermarket
+- key: s2
+  source: 3ec033468dc72230
+  translation: The supermarket is very big. Tim goes to the bananas. He buys one hundred bananas. The bananas are very heavy.
+  glosses:
+    Supermarkt: supermarket
+    ist: is
+    sehr: very
+    groß: big
+    geht: goes
+    zu: to
+    Bananen: bananas
+    Er: he
+    kauft: buys
+    sind: are
+    schwer: heavy
+- key: s3
+  source: f10eb00ccd0041d0
+  translation: 'A woman sees Tim. She says: “One hundred bananas?!” Tim says: “Yes! My dog only eats bananas.” The woman laughs
+    very loudly.'
+  glosses:
+    Frau: woman
+    sieht: sees
+    Sie: she
+    sagt: says
+    Bananen: bananas
+    Mein: my
+    Hund: dog
+    isst: eats
+    nur: only
+    lacht: laughs
+    sehr: very
+    laut: loudly
+- key: s4
+  source: 82d7da79d9b68cc5
+  translation: Tim goes home. Bruno sees the bananas. Bruno eats one banana. Then he eats ten bananas.
+  glosses:
+    geht: goes
+    nach: to
+    Hause: home
+    sieht: sees
+    Bananen: bananas
+    isst: eats
+    Banane: banana
+    Dann: then
+    er: he
+- key: s5
+  source: b4e46f32efdf17c4
+  translation: 'In the evening, Bruno no longer eats bananas. He eats Tim’s shoe. Tim says: “Oh no!” Tim goes to the supermarket
+    again. He doesn’t buy bananas. He buys shoes.'
+  glosses:
+    Am: in the
+    Abend: evening
+    isst: eats
+    keine: "no"
+    Bananen: bananas
+    mehr: anymore
+    Er: he
+    Schuh: shoe
+    sagt: says
+    geht: goes
+    wieder: again
+    in: to
+    Supermarkt: supermarket
+    kauft: buys
+    Schuhe: shoes
+words:
+  der Hund: the dog
+  die Banane: the banana
+  der Supermarkt: the supermarket
+  die Frau: the woman
+  das Haus: the house
+  der Schuh: the shoe

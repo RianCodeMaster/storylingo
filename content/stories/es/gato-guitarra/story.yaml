@@ -1,0 +1,514 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: gato-guitarra
+status: published
+tags: [algemeen]
+brief:
+  language: es
+  level: A1
+  theme: Lucía tiene un piso nuevo; en el piso vive un gato que toca la guitarra a las cuatro de la mañana
+  scenes: 5
+  targets:
+  - text: tiene
+    gloss: has
+    concept: have
+    kind: word
+  - text: vive
+    gloss: lives
+    concept: live
+    kind: word
+  - text: toca
+    gloss: plays (instrument)
+    concept: play_instrument
+    kind: word
+  narrator: charlie
+story:
+  title: Lucía y el gato de las cuatro de la mañana
+  summary: Lucía moves into a new flat where a fat white cat plays the guitar terribly every night at four in the morning,
+    until Lucía takes the guitar and plays it much better.
+  gestures:
+  - concept: have
+    description: Hug a big invisible box against your chest and pat it twice, nodding proudly like it is yours.
+    emoji: 📦
+  - concept: live
+    description: Make a roof over your head with both hands, then point down at your feet twice to show where you live.
+    emoji: 🏠
+  - concept: play_instrument
+    description: Strum an imaginary guitar wildly with both hands, wiggle your hips and shout '¡Miau!'
+    emoji: 🎸
+  scenes:
+  - key: s1
+    text: Lucía tiene un piso nuevo. El piso está en Madrid. El piso tiene tres habitaciones y una ventana gigante. Lucía
+      tiene una llave pequeña y amarilla.
+    image_prompt: Lucía, a 25-year-old Spanish woman with curly dark hair, round red glasses and a yellow jumper, stands proudly
+      in front of a huge window in an empty Madrid flat, holding a tiny yellow key.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: ¿Lucía tiene un piso nuevo?
+      options: [sí, "no"]
+      answer: sí
+      target: tiene
+    - key: s1q2
+      kind: either_or
+      prompt: ¿El piso está en Madrid o en Barcelona?
+      options: [Madrid, Barcelona]
+      answer: Madrid
+    - key: s1q3
+      kind: who_what
+      prompt: ¿Cuántas habitaciones tiene el piso?
+      options: [tres, dos, diez]
+      answer: tres
+      target: tiene
+    - key: s1q4
+      kind: yes_no
+      prompt: ¿Lucía tiene una llave grande?
+      options: [sí, "no"]
+      answer: "no"
+      target: tiene
+    - key: s1q5
+      kind: either_or
+      prompt: ¿La ventana es pequeña o gigante?
+      options: [pequeña, gigante]
+      answer: gigante
+    glossary:
+    - word: tiene
+      lemma: tener
+      level: A1
+    - word: piso
+      lemma: el piso
+      level: A2
+    - word: nuevo
+      lemma: nuevo
+      level: A1
+    - word: está
+      lemma: estar
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: habitaciones
+      lemma: la habitación
+      level: A1
+    - word: ventana
+      lemma: la ventana
+      level: A1
+    - word: gigante
+      lemma: gigante
+      level: B1
+    - word: llave
+      lemma: la llave
+      level: A2
+    - word: pequeña
+      lemma: pequeño
+      level: A1
+    - word: amarilla
+      lemma: amarillo
+      level: A1
+    voice:
+    - text: Lucía tiene un piso nuevo.
+      emotion: neutral
+    - text: El piso está en Madrid.
+      emotion: neutral
+    - text: El piso tiene tres habitaciones y una ventana gigante.
+      emotion: surprised
+    - text: Lucía tiene una llave pequeña y amarilla.
+      emotion: amused
+  - key: s2
+    text: Lucía vive en el piso nuevo. Un gato gordo también vive en el piso. El gato es blanco y tiene una oreja negra. El
+      gato vive en el sofá rojo.
+    image_prompt: A very fat white cat with one black ear lies stretched out on a small red sofa in the same flat, while Lucía
+      with curly dark hair, red glasses and a yellow jumper looks at it in surprise.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: ¿Lucía vive en el piso nuevo?
+      options: [sí, "no"]
+      answer: sí
+      target: vive
+    - key: s2q2
+      kind: who_what
+      prompt: ¿Quién vive en el piso?
+      options: [Lucía y un gato, un perro, un niño]
+      answer: Lucía y un gato
+      target: vive
+    - key: s2q3
+      kind: either_or
+      prompt: ¿El gato es gordo o delgado?
+      options: [gordo, delgado]
+      answer: gordo
+    - key: s2q4
+      kind: yes_no
+      prompt: ¿El gato es blanco?
+      options: [sí, "no"]
+      answer: sí
+    - key: s2q5
+      kind: either_or
+      prompt: ¿El gato tiene una oreja verde o una oreja negra?
+      options: [una oreja verde, una oreja negra]
+      answer: una oreja negra
+      target: tiene
+    glossary:
+    - word: vive
+      lemma: vivir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: piso
+      lemma: el piso
+      level: A2
+    - word: nuevo
+      lemma: nuevo
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: gordo
+      lemma: gordo
+      level: A2
+    - word: también
+      lemma: también
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: blanco
+      lemma: blanco
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: tiene
+      lemma: tener
+      level: A1
+    - word: oreja
+      lemma: la oreja
+      level: A2
+    - word: negra
+      lemma: negro
+      level: A1
+    - word: sofá
+      lemma: el sofá
+      level: A2
+    - word: rojo
+      lemma: rojo
+      level: A1
+    voice:
+    - text: Lucía vive en el piso nuevo.
+      emotion: neutral
+    - text: Un gato gordo también vive en el piso.
+      emotion: amused
+    - text: El gato es blanco y tiene una oreja negra.
+      emotion: amused
+    - text: El gato vive en el sofá rojo.
+      emotion: neutral
+  - key: s3
+    text: 'A las cuatro de la mañana, el gato toca la guitarra. La guitarra es enorme y roja. El gato toca muy mal. El gato
+      toca y canta: «¡Miau, miau, miau!»'
+    image_prompt: At night, the very fat white cat with one black ear sits on the red sofa holding an enormous red guitar,
+      mouth wide open singing, while Lucía with curly dark hair, red glasses and a yellow jumper hides under a blanket.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: ¿El gato toca la guitarra a las cuatro de la mañana?
+      options: [sí, "no"]
+      answer: sí
+      target: toca
+    - key: s3q2
+      kind: either_or
+      prompt: ¿El gato toca bien o mal?
+      options: [mal, bien]
+      answer: mal
+      target: toca
+    - key: s3q3
+      kind: who_what
+      prompt: ¿Qué toca el gato?
+      options: [la guitarra, el piano, la ventana]
+      answer: la guitarra
+      target: toca
+    - key: s3q4
+      kind: yes_no
+      prompt: ¿La guitarra es roja?
+      options: [sí, "no"]
+      answer: sí
+    - key: s3q5
+      kind: either_or
+      prompt: ¿El gato canta «guau» o «miau»?
+      options: [guau, miau]
+      answer: miau
+    glossary:
+    - word: A
+      lemma: a
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: mañana
+      lemma: la mañana
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: toca
+      lemma: tocar
+      level: A2
+    - word: guitarra
+      lemma: la guitarra
+      level: A1
+    - word: es
+      lemma: ser
+      level: A1
+    - word: enorme
+      lemma: enorme
+      level: B1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: roja
+      lemma: rojo
+      level: A1
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: mal
+      lemma: mal
+      level: A1
+    - word: canta
+      lemma: cantar
+      level: A1
+    voice:
+    - text: A las cuatro de la mañana, el gato toca la guitarra.
+      emotion: surprised
+    - text: La guitarra es enorme y roja.
+      emotion: surprised
+    - text: El gato toca muy mal.
+      emotion: disgusted
+    - text: 'El gato toca y canta: «¡Miau, miau, miau!»'
+      emotion: amused
+  - key: s4
+    text: Lucía no duerme. Lucía tiene una idea. Lucía tiene una almohada muy grande. Lucía pone la almohada en la cabeza,
+      pero el gato toca más fuerte.
+    image_prompt: Lucía, with curly dark hair, red glasses and a yellow jumper, sits on her bed with a giant pillow on her
+      head and a desperate face, while the fat white cat with one black ear plays the enormous red guitar even louder.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: ¿Lucía duerme?
+      options: [sí, "no"]
+      answer: "no"
+    - key: s4q2
+      kind: who_what
+      prompt: ¿Qué tiene Lucía?
+      options: [una almohada grande, una guitarra, un gato negro]
+      answer: una almohada grande
+      target: tiene
+    - key: s4q3
+      kind: either_or
+      prompt: ¿Lucía pone la almohada en el sofá o en la cabeza?
+      options: [en el sofá, en la cabeza]
+      answer: en la cabeza
+    - key: s4q4
+      kind: yes_no
+      prompt: ¿El gato toca más fuerte?
+      options: [sí, "no"]
+      answer: sí
+      target: toca
+    - key: s4q5
+      kind: who_what
+      prompt: ¿Quién toca más fuerte?
+      options: [el gato, Lucía, la vecina]
+      answer: el gato
+      target: toca
+    glossary:
+    - word: "no"
+      lemma: "no"
+      level: A1
+    - word: duerme
+      lemma: dormir
+      level: A1
+    - word: tiene
+      lemma: tener
+      level: A1
+    - word: idea
+      lemma: la idea
+      level: A1
+    - word: almohada
+      lemma: la almohada
+      level: A2
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: grande
+      lemma: grande
+      level: A1
+    - word: pone
+      lemma: poner
+      level: A2
+    - word: en
+      lemma: en
+      level: A1
+    - word: cabeza
+      lemma: la cabeza
+      level: A1
+    - word: pero
+      lemma: pero
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: toca
+      lemma: tocar
+      level: A2
+    - word: más
+      lemma: más
+      level: A1
+    - word: fuerte
+      lemma: fuerte
+      level: A2
+    voice:
+    - text: Lucía no duerme.
+      emotion: angry
+    - text: Lucía tiene una idea.
+      emotion: whisper
+    - text: Lucía tiene una almohada muy grande.
+      emotion: surprised
+    - text: Lucía pone la almohada en la cabeza, pero el gato toca más fuerte.
+      emotion: angry
+  - key: s5
+    text: Lucía coge la guitarra. Lucía toca la guitarra muy bien. El gato escucha y duerme en el sofá. Ahora Lucía toca a
+      las cuatro de la mañana y el gato vive tranquilo.
+    image_prompt: Lucía, with curly dark hair, red glasses and a yellow jumper, plays the enormous red guitar confidently
+      at four in the morning, while the very fat white cat with one black ear sleeps peacefully on the red sofa.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: ¿Lucía toca la guitarra?
+      options: [sí, "no"]
+      answer: sí
+      target: toca
+    - key: s5q2
+      kind: either_or
+      prompt: ¿Lucía toca bien o mal?
+      options: [bien, mal]
+      answer: bien
+      target: toca
+    - key: s5q3
+      kind: who_what
+      prompt: ¿Quién duerme en el sofá?
+      options: [el gato, Lucía, la vecina]
+      answer: el gato
+    - key: s5q4
+      kind: yes_no
+      prompt: ¿El gato toca la guitarra a las cuatro de la mañana ahora?
+      options: [sí, "no"]
+      answer: "no"
+      target: toca
+    - key: s5q5
+      kind: either_or
+      prompt: ¿El gato vive tranquilo o vive triste?
+      options: [tranquilo, triste]
+      answer: tranquilo
+      target: vive
+    glossary:
+    - word: coge
+      lemma: coger
+      level: A2
+    - word: guitarra
+      lemma: la guitarra
+      level: A1
+    - word: toca
+      lemma: tocar
+      level: A2
+    - word: muy
+      lemma: muy
+      level: A1
+    - word: bien
+      lemma: bien
+      level: A1
+    - word: gato
+      lemma: el gato
+      level: A1
+    - word: escucha
+      lemma: escuchar
+      level: A1
+    - word: "y"
+      lemma: "y"
+      level: A1
+    - word: duerme
+      lemma: dormir
+      level: A1
+    - word: en
+      lemma: en
+      level: A1
+    - word: sofá
+      lemma: el sofá
+      level: A2
+    - word: Ahora
+      lemma: ahora
+      level: A1
+    - word: a
+      lemma: a
+      level: A1
+    - word: de
+      lemma: de
+      level: A1
+    - word: mañana
+      lemma: la mañana
+      level: A1
+    - word: vive
+      lemma: vivir
+      level: A1
+    - word: tranquilo
+      lemma: tranquilo
+      level: A2
+    voice:
+    - text: Lucía coge la guitarra.
+      emotion: neutral
+    - text: Lucía toca la guitarra muy bien.
+      emotion: surprised
+    - text: El gato escucha y duerme en el sofá.
+      emotion: sleepy
+    - text: Ahora Lucía toca a las cuatro de la mañana y el gato vive tranquilo.
+      emotion: amused
+  core_words:
+  - lemma: el gato
+    image_prompt: a white cat with one black ear
+  - lemma: la guitarra
+    image_prompt: a large red guitar
+  - lemma: el sofá
+    image_prompt: a red sofa
+  - lemma: la almohada
+    image_prompt: a large white pillow on a bed
+  - lemma: la llave
+    image_prompt: a small yellow key
+  - lemma: la ventana
+    image_prompt: a large window in a room
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 794
+  output_tokens: 5638
+  glossary_version: glossary-v2
+  glossary_input_tokens: 525
+  glossary_output_tokens: 7875
+  core_version: core-v1
+  core_input_tokens: 1172
+  core_output_tokens: 875
+  voice_version: voice-v1
+  voice_input_tokens: 495
+  voice_output_tokens: 907
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1156
+  localize_ar_output_tokens: 4785
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1156
+  localize_en_output_tokens: 4189
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1156
+  localize_nl_output_tokens: 4598

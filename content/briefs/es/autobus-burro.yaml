@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: autobus-burro
+language: es
+level: A1
+tags: [algemeen]
+narrator: jessica
+theme: Pablo espera el autobús para ir al trabajo, pero llega un burro con gafas de sol
+scenes: 5
+targets:
+  - {text: "espera", gloss: "waits", concept: wait}
+  - {text: "llega", gloss: "arrives", concept: arrive}
+  - {text: "está", gloss: "is (place, state)", concept: be_state}

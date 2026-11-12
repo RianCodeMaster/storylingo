@@ -1,0 +1,879 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: vorstellung-katze
+status: published
+tags: [algemeen, werk]
+brief:
+  language: de
+  level: B1
+  theme: Anna hat ein Vorstellungsgespräch per Video, als ihre Katze plötzlich auf die Tastatur springt und alle Fragen besser
+    beantwortet als sie
+  scenes: 5
+  targets:
+  - text: als
+    gloss: when (past, verb at the end)
+    concept: when_past
+    kind: word
+  - text: weil
+    gloss: because (verb at the end)
+    concept: because
+    kind: word
+  - text: hätte
+    gloss: would have
+    concept: would_have
+    kind: word
+  narrator: jessica
+story:
+  title: Der Kater bekommt den Job
+  summary: Anna has a video job interview, but her cat Paul jumps on the keyboard and answers every question better than she
+    does.
+  gestures:
+  - concept: when_past
+    description: Snap your fingers once, then throw your thumb back over your shoulder with a knowing nod, as if saying 'that
+      was the exact moment it happened'.
+    emoji: 👆
+  - concept: because
+    description: Push both fists forward from your chest like you are shoving the reason out into the world, with a determined
+      'that's why!' face.
+    emoji: 💪
+  - concept: would_have
+    description: Float one open hand slowly upward and give a dreamy sigh, like you are releasing a little cloud of what could
+      have been.
+    emoji: ☁️
+  scenes:
+  - key: s1
+    text: Anna hatte heute ein großes Vorstellungsgespräch per Video. Sie hätte gern länger geschlafen, aber sie musste um
+      sieben Uhr am Laptop sitzen, weil 400 Leute den Job wollten und nur eine Person ihn bekam. Als Anna den Laptop aufmachte,
+      kam ihr Kater Paul ins Zimmer und setzte sich direkt auf den Tisch.
+    image_prompt: A young woman with curly red hair and a green jumper sits nervously at a wooden desk in front of an open
+      laptop in a small apartment; a fat tabby cat with one black ear jumps onto the desk beside her.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Hätte Anna gern länger geschlafen?
+      options: [ja, nein]
+      answer: ja
+      target: hätte
+    - key: s1q2
+      kind: either_or
+      prompt: Wollten 400 Leute den Job oder 40 Leute?
+      options: [400 Leute, 40 Leute]
+      answer: 400 Leute
+    - key: s1q3
+      kind: who_what
+      prompt: Wer kam ins Zimmer?
+      options: [der Kater Paul, Frau Kranich, die Nachbarin]
+      answer: der Kater Paul
+    - key: s1q4
+      kind: either_or
+      prompt: Musste Anna um sieben Uhr am Laptop sitzen oder um elf Uhr?
+      options: [um sieben Uhr, um elf Uhr]
+      answer: um sieben Uhr
+    - key: s1q5
+      kind: yes_no
+      prompt: Setzte sich Paul auf den Boden?
+      options: [ja, nein]
+      answer: nein
+    glossary:
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: heute
+      lemma: heute
+      level: A1
+    - word: großes
+      lemma: groß
+      level: A1
+    - word: Vorstellungsgespräch
+      lemma: das Vorstellungsgespräch
+      level: B1
+    - word: per
+      lemma: per
+      level: B1
+    - word: Video
+      lemma: das Video
+      level: A2
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: gern
+      lemma: gern
+      level: A1
+    - word: länger
+      lemma: lang
+      level: A1
+    - word: geschlafen
+      lemma: schlafen
+      level: A1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: musste
+      lemma: müssen
+      level: A1
+    - word: um
+      lemma: um
+      level: A1
+    - word: Uhr
+      lemma: die Uhr
+      level: A1
+    - word: am
+      lemma: an
+      level: A1
+    - word: Laptop
+      lemma: der Laptop
+      level: A2
+    - word: sitzen
+      lemma: sitzen
+      level: A1
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: Leute
+      lemma: die Leute
+      level: A1
+    - word: Job
+      lemma: der Job
+      level: A2
+    - word: wollten
+      lemma: wollen
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: nur
+      lemma: nur
+      level: A1
+    - word: Person
+      lemma: die Person
+      level: A2
+    - word: ihn
+      lemma: er
+      level: A1
+    - word: bekam
+      lemma: bekommen
+      level: A2
+    - word: Als
+      lemma: als
+      level: A1
+    - word: aufmachte
+      lemma: aufmachen
+      level: A2
+    - word: kam
+      lemma: kommen
+      level: A1
+    - word: ihr
+      lemma: ihr
+      level: A1
+    - word: Kater
+      lemma: der Kater
+      level: A2
+    - word: ins
+      lemma: in
+      level: A1
+    - word: Zimmer
+      lemma: das Zimmer
+      level: A1
+    - word: setzte
+      lemma: setzen
+      level: A2
+    - word: sich
+      lemma: sich
+      level: A2
+    - word: direkt
+      lemma: direkt
+      level: A2
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Tisch
+      lemma: der Tisch
+      level: A1
+    voice:
+    - text: Anna hatte heute ein großes Vorstellungsgespräch per Video.
+      emotion: neutral
+    - text: Sie hätte gern länger geschlafen, aber sie musste um sieben Uhr am Laptop sitzen, weil 400 Leute den Job wollten
+        und nur eine Person ihn bekam.
+      emotion: surprised
+    - text: Als Anna den Laptop aufmachte, kam ihr Kater Paul ins Zimmer und setzte sich direkt auf den Tisch.
+      emotion: amused
+  - key: s2
+    text: 'Um neun Uhr begann das Gespräch mit Frau Kranich von der Schlafanzug-Firma. Als Frau Kranich die erste Frage stellte,
+      sprang Paul plötzlich auf die Tastatur. Anna wollte ihn wegnehmen, weil sie Angst hatte, aber da tippte Paul schon mit
+      beiden Pfoten. Auf dem Bildschirm stand: „Ich hätte gern mehr Gehalt.“'
+    image_prompt: The same red-haired woman in a green jumper reaches toward the laptop while the fat tabby cat with one black
+      ear stands with both paws on the keyboard; on the screen a video call shows a strict woman with grey hair.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Begann das Gespräch um neun Uhr?
+      options: [ja, nein]
+      answer: ja
+    - key: s2q2
+      kind: either_or
+      prompt: Sprang Paul auf die Tastatur oder auf den Teppich?
+      options: [auf die Tastatur, auf den Teppich]
+      answer: auf die Tastatur
+    - key: s2q3
+      kind: who_what
+      prompt: Was stand auf dem Bildschirm?
+      options:
+      - Ich hätte gern mehr Gehalt
+      - Ich hätte gern mehr Urlaub
+      - Ich hätte gern einen Kaffee
+      answer: Ich hätte gern mehr Gehalt
+      target: hätte
+    - key: s2q4
+      kind: yes_no
+      prompt: Wollte Anna Paul wegnehmen, weil sie Angst hatte?
+      options: [ja, nein]
+      answer: ja
+      target: weil
+    - key: s2q5
+      kind: who_what
+      prompt: Als Frau Kranich die erste Frage stellte, wer sprang auf die Tastatur?
+      options: [Paul, Anna, Frau Kranich]
+      answer: Paul
+      target: als
+    glossary:
+    - word: Um
+      lemma: um
+      level: A1
+    - word: Uhr
+      lemma: die Uhr
+      level: A1
+    - word: begann
+      lemma: beginnen
+      level: A2
+    - word: Gespräch
+      lemma: das Gespräch
+      level: A2
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: von
+      lemma: von
+      level: A1
+    - word: Schlafanzug-Firma
+      lemma: die Schlafanzug-Firma
+      level: B1
+    - word: Als
+      lemma: als
+      level: A1
+    - word: erste
+      lemma: erst
+      level: A1
+    - word: Frage
+      lemma: die Frage
+      level: A1
+    - word: stellte
+      lemma: stellen
+      level: A2
+    - word: sprang
+      lemma: springen
+      level: A2
+    - word: plötzlich
+      lemma: plötzlich
+      level: A2
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Tastatur
+      lemma: die Tastatur
+      level: A2
+    - word: wollte
+      lemma: wollen
+      level: A1
+    - word: ihn
+      lemma: er
+      level: A1
+    - word: wegnehmen
+      lemma: wegnehmen
+      level: A2
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: Angst
+      lemma: die Angst
+      level: A2
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: da
+      lemma: da
+      level: A2
+    - word: tippte
+      lemma: tippen
+      level: A2
+    - word: schon
+      lemma: schon
+      level: A2
+    - word: beiden
+      lemma: beide
+      level: A2
+    - word: Pfoten
+      lemma: die Pfote
+      level: B1
+    - word: Bildschirm
+      lemma: der Bildschirm
+      level: A2
+    - word: stand
+      lemma: stehen
+      level: A1
+    - word: Ich
+      lemma: ich
+      level: A1
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: gern
+      lemma: gern
+      level: A1
+    - word: mehr
+      lemma: viel
+      level: A1
+    - word: Gehalt
+      lemma: das Gehalt
+      level: B1
+    voice:
+    - text: Um neun Uhr begann das Gespräch mit Frau Kranich von der Schlafanzug-Firma.
+      emotion: neutral
+    - text: Als Frau Kranich die erste Frage stellte, sprang Paul plötzlich auf die Tastatur.
+      emotion: surprised
+    - text: Anna wollte ihn wegnehmen, weil sie Angst hatte, aber da tippte Paul schon mit beiden Pfoten.
+      emotion: whisper
+    - text: 'Auf dem Bildschirm stand: „Ich hätte gern mehr Gehalt.“'
+      emotion: amused
+  - key: s3
+    text: 'Frau Kranich lachte laut und sagte: „Endlich jemand, der mutig ist!“ Anna wusste nicht, was sie sagen sollte, weil
+      sie noch nie so eine Chefin gesehen hatte. Sie hätte am liebsten den Laptop zugeklappt, aber ihre Hände zitterten zu
+      stark. Als Paul die zweite Frage hörte, tippte er sofort die perfekte Antwort.'
+    image_prompt: The same red-haired woman in a green jumper stares open-mouthed at the screen while the fat tabby cat with
+      one black ear types confidently; the woman on the video call laughs loudly and claps her hands.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Lachte Frau Kranich laut?
+      options: [ja, nein]
+      answer: ja
+    - key: s3q2
+      kind: either_or
+      prompt: Fand Frau Kranich die Antwort mutig oder langweilig?
+      options: [mutig, langweilig]
+      answer: mutig
+    - key: s3q3
+      kind: yes_no
+      prompt: Wusste Anna nicht, was sie sagen sollte, weil sie so eine Chefin noch nie gesehen hatte?
+      options: [ja, nein]
+      answer: ja
+      target: weil
+    - key: s3q4
+      kind: yes_no
+      prompt: Hätte Anna am liebsten den Laptop zugeklappt?
+      options: [ja, nein]
+      answer: ja
+      target: hätte
+    - key: s3q5
+      kind: who_what
+      prompt: Als Paul die zweite Frage hörte, was tippte er?
+      options: [die perfekte Antwort, eine falsche Antwort, nichts]
+      answer: die perfekte Antwort
+      target: als
+    glossary:
+    - word: lachte
+      lemma: lachen
+      level: A2
+    - word: laut
+      lemma: laut
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: sagte
+      lemma: sagen
+      level: A1
+    - word: Endlich
+      lemma: endlich
+      level: A2
+    - word: jemand
+      lemma: jemand
+      level: A2
+    - word: der
+      lemma: der
+      level: A2
+    - word: mutig
+      lemma: mutig
+      level: B1
+    - word: ist
+      lemma: sein
+      level: A1
+    - word: wusste
+      lemma: wissen
+      level: A2
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: was
+      lemma: was
+      level: A2
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: sagen
+      lemma: sagen
+      level: A1
+    - word: sollte
+      lemma: sollen
+      level: A1
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: noch
+      lemma: noch
+      level: A2
+    - word: nie
+      lemma: nie
+      level: A2
+    - word: so
+      lemma: so
+      level: A1
+    - word: Chefin
+      lemma: die Chefin
+      level: B1
+    - word: gesehen
+      lemma: sehen
+      level: A1
+    - word: hatte
+      lemma: haben
+      level: A1
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: am
+      lemma: an
+      level: A1
+    - word: liebsten
+      lemma: gern
+      level: A1
+    - word: Laptop
+      lemma: der Laptop
+      level: A2
+    - word: zugeklappt
+      lemma: zuklappen
+      level: B1
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: ihre
+      lemma: ihr
+      level: A1
+    - word: Hände
+      lemma: die Hand
+      level: A1
+    - word: zitterten
+      lemma: zittern
+      level: B1
+    - word: zu
+      lemma: zu
+      level: A1
+    - word: stark
+      lemma: stark
+      level: A2
+    - word: Als
+      lemma: als
+      level: A1
+    - word: zweite
+      lemma: zweit
+      level: A1
+    - word: Frage
+      lemma: die Frage
+      level: A1
+    - word: hörte
+      lemma: hören
+      level: A1
+    - word: tippte
+      lemma: tippen
+      level: A2
+    - word: er
+      lemma: er
+      level: A1
+    - word: sofort
+      lemma: sofort
+      level: A2
+    - word: perfekte
+      lemma: perfekt
+      level: A2
+    - word: Antwort
+      lemma: die Antwort
+      level: A2
+    voice:
+    - text: 'Frau Kranich lachte laut und sagte: „Endlich jemand, der mutig ist!“ Anna wusste nicht, was sie sagen sollte,
+        weil sie noch nie so eine Chefin gesehen hatte.'
+      emotion: amused
+    - text: Sie hätte am liebsten den Laptop zugeklappt, aber ihre Hände zitterten zu stark.
+      emotion: surprised
+    - text: Als Paul die zweite Frage hörte, tippte er sofort die perfekte Antwort.
+      emotion: whisper
+  - key: s4
+    text: 'Paul antwortete auf jede Frage, und jede Antwort war besser als die von Anna. Er schrieb: „Ich kann 40 Stunden
+      pro Woche schlafen und trotzdem 300 Schlafanzüge pro Tag nähen.“ Anna hätte das nie so gut formulieren können, weil
+      sie vor Nervosität kaum atmen konnte. Als Frau Kranich nach den Gehaltswünschen fragte, tippte Paul: „Zwei Dosen Thunfisch
+      pro Tag.“'
+    image_prompt: The same red-haired woman in a green jumper has her head in her hands while the fat tabby cat with one black
+      ear proudly types with both paws; the screen shows a long chat full of answers and the words 'Zwei Dosen Thunfisch'.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Waren Pauls Antworten besser als Annas Antworten?
+      options: [ja, nein]
+      answer: ja
+    - key: s4q2
+      kind: either_or
+      prompt: Wollte Paul zwei Dosen Thunfisch pro Tag oder zwei Dosen Katzenmilch?
+      options: [zwei Dosen Thunfisch, zwei Dosen Katzenmilch]
+      answer: zwei Dosen Thunfisch
+    - key: s4q3
+      kind: who_what
+      prompt: Wie viele Schlafanzüge wollte Paul pro Tag nähen?
+      options: ['300', '30', '3000']
+      answer: '300'
+    - key: s4q4
+      kind: yes_no
+      prompt: Konnte Anna gut antworten, weil sie ruhig war?
+      options: [ja, nein]
+      answer: nein
+      target: weil
+    - key: s4q5
+      kind: yes_no
+      prompt: Hätte Anna das besser formulieren können?
+      options: [ja, nein]
+      answer: nein
+      target: hätte
+    glossary:
+    - word: antwortete
+      lemma: antworten
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: jede
+      lemma: jeder
+      level: A2
+    - word: Frage
+      lemma: die Frage
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: Antwort
+      lemma: die Antwort
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: besser
+      lemma: gut
+      level: A1
+    - word: als
+      lemma: als
+      level: A1
+    - word: die
+      lemma: der/die/das
+      level: A1
+    - word: von
+      lemma: von
+      level: A1
+    - word: Er
+      lemma: er
+      level: A1
+    - word: schrieb
+      lemma: schreiben
+      level: A1
+    - word: Ich
+      lemma: ich
+      level: A1
+    - word: kann
+      lemma: können
+      level: A1
+    - word: Stunden
+      lemma: die Stunde
+      level: A1
+    - word: pro
+      lemma: pro
+      level: B1
+    - word: Woche
+      lemma: die Woche
+      level: A1
+    - word: schlafen
+      lemma: schlafen
+      level: A1
+    - word: trotzdem
+      lemma: trotzdem
+      level: B1
+    - word: Schlafanzüge
+      lemma: der Schlafanzug
+      level: A2
+    - word: Tag
+      lemma: der Tag
+      level: A1
+    - word: nähen
+      lemma: nähen
+      level: A2
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: das
+      lemma: der/die/das
+      level: A1
+    - word: nie
+      lemma: nie
+      level: A2
+    - word: so
+      lemma: so
+      level: A1
+    - word: gut
+      lemma: gut
+      level: A1
+    - word: formulieren
+      lemma: formulieren
+      level: B1
+    - word: können
+      lemma: können
+      level: A1
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: vor
+      lemma: vor
+      level: A1
+    - word: Nervosität
+      lemma: die Nervosität
+      level: B2
+    - word: kaum
+      lemma: kaum
+      level: B1
+    - word: atmen
+      lemma: atmen
+      level: A2
+    - word: konnte
+      lemma: können
+      level: A1
+    - word: nach
+      lemma: nach
+      level: A1
+    - word: Gehaltswünschen
+      lemma: der Gehaltswunsch
+      level: B1
+    - word: fragte
+      lemma: fragen
+      level: A1
+    - word: tippte
+      lemma: tippen
+      level: A2
+    - word: Dosen
+      lemma: die Dose
+      level: A2
+    - word: Thunfisch
+      lemma: der Thunfisch
+      level: A2
+    voice:
+    - text: Paul antwortete auf jede Frage, und jede Antwort war besser als die von Anna.
+      emotion: surprised
+    - text: 'Er schrieb: „Ich kann 40 Stunden pro Woche schlafen und trotzdem 300 Schlafanzüge pro Tag nähen.“ Anna hätte
+        das nie so gut formulieren können, weil sie vor Nervosität kaum atmen konnte.'
+      emotion: surprised
+    - text: 'Als Frau Kranich nach den Gehaltswünschen fragte, tippte Paul: „Zwei Dosen Thunfisch pro Tag.“'
+      emotion: whisper
+  - key: s5
+    text: 'Am Ende sagte Frau Kranich: „Wir nehmen den Kater.“ Anna war traurig, weil sie den Job wirklich gebraucht hätte.
+      Aber dann lächelte Frau Kranich und sagte: „Sie hätten auch eine Stelle — als Assistentin von Herrn Paul.“ Als Anna
+      nach Hause kam, lag Paul schon auf dem Sofa und schlief wie ein Chef.'
+    image_prompt: The same red-haired woman in a green jumper laughs with relief while the fat tabby cat with one black ear
+      lies stretched out on a sofa wearing a tiny tie, sleeping like a boss.
+    questions:
+    - key: s5q1
+      kind: who_what
+      prompt: Wen wollte Frau Kranich am Ende nehmen?
+      options: [den Kater, Anna, die Nachbarin]
+      answer: den Kater
+    - key: s5q2
+      kind: yes_no
+      prompt: War Anna zuerst traurig?
+      options: [ja, nein]
+      answer: ja
+    - key: s5q3
+      kind: either_or
+      prompt: Bekam Anna die Stelle als Assistentin oder als Chefin?
+      options: [als Assistentin, als Chefin]
+      answer: als Assistentin
+    - key: s5q4
+      kind: yes_no
+      prompt: War Anna am Ende traurig, weil sie keine Stelle hatte?
+      options: [ja, nein]
+      answer: nein
+      target: weil
+    - key: s5q5
+      kind: who_what
+      prompt: Als Anna nach Hause kam, was machte Paul?
+      options: [er schlief auf dem Sofa, er tippte weiter, er kochte Kaffee]
+      answer: er schlief auf dem Sofa
+      target: als
+    glossary:
+    - word: Am
+      lemma: an
+      level: A1
+    - word: Ende
+      lemma: das Ende
+      level: A2
+    - word: sagte
+      lemma: sagen
+      level: A1
+    - word: Wir
+      lemma: wir
+      level: A1
+    - word: nehmen
+      lemma: nehmen
+      level: A1
+    - word: Kater
+      lemma: der Kater
+      level: A2
+    - word: war
+      lemma: sein
+      level: A1
+    - word: traurig
+      lemma: traurig
+      level: A2
+    - word: weil
+      lemma: weil
+      level: A1
+    - word: sie
+      lemma: sie
+      level: A1
+    - word: Job
+      lemma: der Job
+      level: A2
+    - word: wirklich
+      lemma: wirklich
+      level: A2
+    - word: gebraucht
+      lemma: brauchen
+      level: A2
+    - word: hätte
+      lemma: haben
+      level: A1
+    - word: Aber
+      lemma: aber
+      level: A1
+    - word: dann
+      lemma: dann
+      level: A2
+    - word: lächelte
+      lemma: lächeln
+      level: A2
+    - word: und
+      lemma: und
+      level: A1
+    - word: hätten
+      lemma: haben
+      level: A1
+    - word: auch
+      lemma: auch
+      level: A1
+    - word: Stelle
+      lemma: die Stelle
+      level: A2
+    - word: als
+      lemma: als
+      level: A1
+    - word: Assistentin
+      lemma: die Assistentin
+      level: B1
+    - word: von
+      lemma: von
+      level: A1
+    - word: nach
+      lemma: nach
+      level: A1
+    - word: Hause
+      lemma: das Haus
+      level: A1
+    - word: kam
+      lemma: kommen
+      level: A1
+    - word: lag
+      lemma: liegen
+      level: A2
+    - word: schon
+      lemma: schon
+      level: A2
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Sofa
+      lemma: das Sofa
+      level: A2
+    - word: schlief
+      lemma: schlafen
+      level: A1
+    - word: wie
+      lemma: wie
+      level: A2
+    - word: Chef
+      lemma: der Chef
+      level: A2
+    voice:
+    - text: 'Am Ende sagte Frau Kranich: „Wir nehmen den Kater.“ Anna war traurig, weil sie den Job wirklich gebraucht hätte.'
+      emotion: surprised
+    - text: 'Aber dann lächelte Frau Kranich und sagte: „Sie hätten auch eine Stelle — als Assistentin von Herrn Paul.“ Als
+        Anna nach Hause kam, lag Paul schon auf dem Sofa und schlief wie ein Chef.'
+      emotion: neutral
+  core_words:
+  - lemma: das Vorstellungsgespräch
+    image_prompt: a person sitting at a desk and speaking to a laptop during a video job interview
+  - lemma: der Kater
+    image_prompt: a male cat sitting on a table
+  - lemma: die Tastatur
+    image_prompt: a computer keyboard on a desk
+  - lemma: die Pfote
+    image_prompt: a cat's paw touching a computer keyboard
+  - lemma: tippen
+    image_prompt: a cat typing on a laptop keyboard
+  - lemma: die Chefin
+    image_prompt: a smiling woman boss sitting at a desk
+generation:
+  prompt_version: tprs-v4
+  model: deepseek-flash
+  attempts: 2
+  input_tokens: 4273
+  output_tokens: 8927
+  glossary_version: glossary-v2
+  glossary_input_tokens: 736
+  glossary_output_tokens: 18979
+  core_version: core-v1
+  core_input_tokens: 2527
+  core_output_tokens: 872
+  voice_version: voice-v1
+  voice_input_tokens: 703
+  voice_output_tokens: 4093
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1872
+  localize_ar_output_tokens: 8784
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1872
+  localize_en_output_tokens: 7562
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1872
+  localize_nl_output_tokens: 6870

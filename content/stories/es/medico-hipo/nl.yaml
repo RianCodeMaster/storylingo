@@ -1,0 +1,159 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Javier gaat na drie dagen hik naar de dokter, maar de dokter heeft ook de hik, en uiteindelijk springt de hik over
+  naar haar stethoscoop.
+summary_source: f16694e57dff8471
+gestures:
+  went: Doe alsof je met grote stappen ergens heen loopt, wijs naar een verre plek, stop en wijs naar de grond.
+  have_past: Houd een onzichtbare doos stevig tegen je borst en schud zachtjes, alsof je iets zwaars al lang vasthoudt.
+  said: Open en sluit je hand als een pratende mond vlak bij je eigen mond en beweeg je hoofd bij elk woord naar voren.
+  have: Sla je armen om een onzichtbare doos tegen je borst en schud zachtjes, alsof je iets zwaars vasthoudt dat je al heel
+    lang hebt.
+targets:
+  fue:
+    gloss: ging
+    note: 'Let op: fue is de verleden tijd van ir, net als ''ging'' in het Nederlands.'
+  tenía:
+    gloss: had
+    note: 'Let op: tenía is de onvoltooid verleden tijd van tener, zoals ''had'' in het Nederlands.'
+  dijo:
+    gloss: zei
+    note: 'Let op: dijo is de onregelmatige verleden tijd van decir, net als ''zei'' in het Nederlands.'
+scenes:
+- key: s1
+  source: 4db80555e5a65ff9
+  translation: 'Javier had al drie dagen hik. Hij had vierduizend hikken per uur, en zijn buurvrouw zei: ''Mijn lamp beweegt!''.
+    Javier ging naar de dokter in de buurt. Hij ging om acht uur ''s ochtends.'
+  glosses:
+    tenía: had
+    hipo: hik
+    desde: sinds
+    hacía: al
+    días: dagen
+    hipos: hikken
+    cada: per
+    hora: uur
+    "y": en
+    su: zijn
+    vecina: buurvrouw
+    dijo: zei
+    Mi: mijn
+    lámpara: lamp
+    se: zich
+    mueve: beweegt
+    fue: ging
+    al: naar de
+    médico: dokter
+    del: van de
+    barrio: buurt
+    a: om
+    de: van
+    mañana: ochtend
+- key: s2
+  source: 8a81b88dfcb5053d
+  translation: 'In de wachtkamer had de oma hik. De politieagent had ook hik. De verpleegster zei: ''Hik. Kom binnen, Javier.''
+    Javier ging naar spreekkamer nummer dertien.'
+  glosses:
+    En: in
+    sala: zaal
+    de: van
+    espera: wachten
+    abuela: oma
+    tenía: had
+    hipo: hik
+    policía: politieagent
+    también: ook
+    enfermera: verpleegster
+    dijo: zei
+    Pase: kom binnen
+    fue: ging
+    a: naar
+    consulta: spreekkamer
+    número: nummer
+- key: s3
+  source: ee4908028975c575
+  translation: 'Dokter Carmen Serrano had ook hik. Ze had al vijf dagen hik. Ze zei: ''Hik. Goedemorgen, Javier. Hik.'' Javier
+    zei: ''Dokter, ik heb vierduizend hikken per uur,'' en de dokter zei: ''Rustig maar, ik heb een idee.'''
+  glosses:
+    doctora: vrouwelijke dokter
+    tenía: had
+    hipo: hik
+    también: ook
+    desde: sinds
+    hacía: al
+    días: dagen
+    Dijo: zei
+    Buenos: goede
+    tengo: ik heb
+    hipos: hikken
+    por: per
+    hora: uur
+    "y": en
+    Tranquilo: rustig
+    idea: idee
+- key: s4
+  source: b3758ea8c3157708
+  translation: 'De dokter ging naar het raam en riep: ''Een draak!'' Javier was niet bang. De dokter zei: ''Drink dit glas
+    water leeg.'' Het glas bevatte twintig liter, maar Javier dronk alles op en ging daarna drie keer naar de wc.'
+  glosses:
+    doctora: vrouwelijke dokter
+    fue: ging
+    a: naar
+    ventana: raam
+    "y": en
+    gritó: riep
+    dragón: draak
+    "no": niet
+    tenía: had
+    miedo: angst
+    dijo: zei
+    Bebe: drink
+    este: dit
+    vaso: glas
+    de: van
+    agua: water
+    litros: liter
+    pero: maar
+    bebió: dronk
+    todo: alles
+    después: daarna
+    al: naar het
+    baño: toilet
+    veces: keer
+- key: s5
+  source: 9fc2413204f0ec5d
+  translation: 'Toen dronk Javier water achterstevoren en zijn hik verdween. De dokter zei: ''Goed!'' en haar hik verdween
+    ook. Maar de stethoscoop had hik: ''Hik, hik, hik.'' Javier ging blij naar huis, en de dokter had voor altijd een stethoscoop
+    met hik.'
+  glosses:
+    Entonces: toen
+    bebió: dronk
+    agua: water
+    al: achterstevoren
+    revés: achterstevoren
+    "y": en
+    su: zijn
+    hipo: hik
+    desapareció: verdween
+    doctora: vrouwelijke dokter
+    dijo: zei
+    Bien: goed
+    también: ook
+    Pero: maar
+    estetoscopio: stethoscoop
+    tenía: had
+    fue: ging
+    a: naar
+    casa: huis
+    contento: blij
+    con: met
+    para: voor
+    siempre: altijd
+words:
+  el hipo: de hik
+  el médico: de arts
+  la doctora: de vrouwelijke dokter
+  el vaso: het glas
+  el dragón: de draak
+  el estetoscopio: de stethoscoop

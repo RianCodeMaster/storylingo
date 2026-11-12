@@ -1,0 +1,207 @@
+# What a learner with this base language reads around the story. Made by `storylingo.py localize`; corrections by
+# hand are welcome (then: storylingo.py sync). Each scene names its story.yaml scene (key) and what it was
+# translated from (source): when that scene changes, localize translates it again.
+summary: Mrs. Becker explains garbage separation to Lukas with twelve bins in twelve colors, Lukas is terrified of making
+  a mistake, and in the end the garbage truck throws everything into one hole.
+summary_source: 653cdd3fe4977f26
+gestures:
+  explained: Point one finger up like a strict teacher, open the other hand like a book, and nod slowly three times while
+    saying 'So!'
+  not_allowed: Cross both arms in a big X in front of your chest and shake your head hard, like a guard at a very important
+    door.
+  there_was: Open both arms wide and present something invisible in front of you, like a magician showing a huge table full
+    of bins.
+  there_is: Open both arms wide and present something invisible in front of you, like a magician showing a huge table full
+    of bins.
+targets:
+  hat erklärt:
+    gloss: explained
+    note: German perfect tense uses hat + participle; English often uses simple past.
+  durfte nicht:
+    gloss: was not allowed
+    note: Durfte is simple past of dürfen; English says 'was not allowed to'.
+  es gab:
+    gloss: there was/were
+    note: German es gab means 'there was/were'; English uses there + be.
+scenes:
+- key: s1
+  source: e80830a2aaf4de47
+  translation: 'Mrs. Becker is 84 years old and very strict. Yesterday Mrs. Becker explained waste separation: twelve bins
+    in twelve colors. In the yard stood twelve bins, and there were twelve colors. Lukas was not allowed to make even one
+    mistake.'
+  glosses:
+    Frau: Mrs.
+    ist: is
+    Jahre: years
+    alt: old
+    und: and
+    sehr: very
+    streng: strict
+    Gestern: yesterday
+    hat: has
+    Mülltrennung: waste separation
+    erklärt: explained
+    Tonnen: bins
+    in: in
+    Farben: colors
+    Auf: in
+    Hof: yard
+    standen: stood
+    es: there
+    gab: was
+    durfte: was allowed
+    nicht: not
+    einmal: even once
+    Fehler: mistake
+    machen: make
+- key: s2
+  source: 6a35f1ef3c1270c3
+  translation: Mrs. Becker explained that the pink bin is for plastic. The silver bin was for old socks, and the turquoise
+    bin for broken umbrellas. Lukas was very confused because there were too many rules. He was not allowed to speak loudly
+    when he sorted the garbage.
+  glosses:
+    Frau: Mrs.
+    hat: has
+    erklärt: explained
+    dass: that
+    rosa: pink
+    Tonne: bin
+    für: for
+    Plastik: plastic
+    ist: is
+    silberne: silver
+    war: was
+    alte: old
+    Socken: socks
+    und: and
+    türkise: turquoise
+    kaputte: broken
+    Regenschirme: umbrellas
+    sehr: very
+    verwirrt: confused
+    denn: because
+    es: there
+    gab: were
+    zu: too
+    viele: many
+    Regeln: rules
+    Er: he
+    durfte: was allowed
+    nicht: not
+    laut: loudly
+    sprechen: speak
+    wenn: when
+    Müll: garbage
+    sortierte: sorted
+- key: s3
+  source: bdcda65b37cc967c
+  translation: On Monday Lukas stood in front of the twelve bins with a yogurt cup. He stood there for forty minutes and cried
+    quietly. The yard was quiet, because there were only Lukas and the bins. He was not allowed to ring the bell, because
+    Mrs. Becker was taking a nap.
+  glosses:
+    Am: "on"
+    Montag: Monday
+    stand: stood
+    mit: with
+    Joghurtbecher: yogurt cup
+    vor: in front of
+    Tonnen: bins
+    Er: he
+    dort: there
+    Minuten: minutes
+    und: and
+    weinte: cried
+    leise: quietly
+    Hof: yard
+    war: was
+    still: quiet
+    denn: because
+    es: there
+    gab: were
+    nur: only
+    durfte: was allowed
+    nicht: not
+    klingeln: ring
+    Frau: Mrs.
+    machte: was taking
+    Mittagsschlaf: nap
+- key: s4
+  source: eef37484c032d13a
+  translation: 'Suddenly Mrs. Becker stood behind him and was angry like a thunderstorm. She explained: ''The lid is plastic,
+    the cup is paper!'' Lukas quickly threw the cup into the orange bin. Then Mrs. Becker shouted: ''Wrong! The orange bin
+    is for batteries!'''
+  glosses:
+    Plötzlich: suddenly
+    stand: stood
+    Frau: Mrs.
+    hinter: behind
+    ihm: him
+    und: and
+    war: was
+    wütend: angry
+    wie: like
+    Gewitter: thunderstorm
+    Sie: she
+    hat: has
+    erklärt: explained
+    Deckel: lid
+    ist: is
+    Plastik: plastic
+    Becher: cup
+    Papier: paper
+    warf: threw
+    schnell: quickly
+    in: into
+    orange: orange
+    Tonne: bin
+    Da: then
+    schrie: shouted
+    Falsch: wrong
+    für: for
+    Batterien: batteries
+- key: s5
+  source: 06952b9499abf137
+  translation: 'The next morning the garbage truck came and threw all twelve bins into the same hole. In the truck there was
+    only one hole, and there were no colors anymore. Mrs. Becker saw that and fainted. Lukas laughed and explained: ''Waste
+    separation is very easy!'''
+  glosses:
+    Am: "on"
+    nächsten: next
+    Morgen: morning
+    kam: came
+    Müllwagen: garbage truck
+    und: and
+    warf: threw
+    alle: all
+    Tonnen: bins
+    in: into
+    dasselbe: the same
+    Loch: hole
+    Im: in the
+    Wagen: truck
+    war: was
+    nur: only
+    es: there
+    gab: was
+    keine: "no"
+    Farben: colors
+    mehr: anymore
+    Frau: Mrs.
+    sah: saw
+    das: that
+    fiel: fell
+    Ohnmacht: faint
+    hat: has
+    gelacht: laughed
+    erklärt: explained
+    Mülltrennung: waste separation
+    ist: is
+    ganz: quite
+    einfach: easy
+words:
+  die Mülltrennung: waste separation
+  die Tonne: the bin
+  die Farbe: the color
+  der Fehler: the mistake
+  der Becher: the cup
+  der Müllwagen: the garbage truck

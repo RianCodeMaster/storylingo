@@ -1,0 +1,13 @@
+# A story brief: copy it for a new story, then: storylingo.py generate ../content/briefs/es/<slug>.yaml
+
+slug: cita-extranjeria
+language: es
+level: B1
+tags: [algemeen]
+narrator: charlie
+theme: Daniel necesita una cita en la oficina de extranjería, pero la primera cita libre es en el año 2030; entonces construye una máquina del tiempo
+scenes: 5
+targets:
+  - {text: "aunque", gloss: "although", concept: although}
+  - {text: "tendría que", gloss: "would have to", concept: would_have_to, kind: phrase}
+  - {text: "había pedido", gloss: "had asked for", concept: had_asked, kind: phrase}

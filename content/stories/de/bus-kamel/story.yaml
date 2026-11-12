@@ -1,0 +1,472 @@
+# A story, in its target language. Edit freely, then: storylingo.py sync  (and media / localize / check as it says).
+# Keys (s2, s2q3) name a scene or question for good: keep them when you change a text, so learners keep their
+# history. A new scene or question may leave its key out; sync gives it one. status: draft or published.
+slug: bus-kamel
+status: published
+tags: [algemeen, alltag]
+brief:
+  language: de
+  level: A1
+  theme: Lena wartet an der Haltestelle auf den Bus; der Bus kommt nicht, aber ein Kamel kommt und nimmt sie mit
+  scenes: 5
+  targets:
+  - text: wartet
+    gloss: waits
+    concept: wait
+    kind: word
+  - text: kommt
+    gloss: comes
+    concept: come
+    kind: word
+  - text: mitnehmen
+    gloss: 'take along; separable: Das Kamel nimmt sie mit'
+    concept: take_along
+    kind: phrase
+  narrator: george
+story:
+  title: Lena und das Kamel an der Haltestelle
+  summary: Lena waits 1000 minutes for the bus, but a fast camel named Klaus takes her along — and in the end he is bus number
+    7.
+  gestures:
+  - concept: wait
+    description: Stand stiff like a statue at a bus stop, tap your foot fast and stare at a giant invisible watch on your
+      arm, sighing loudly.
+    emoji: ⏰
+  - concept: come
+    description: Stomp toward the class in slow-motion giant steps while waving both arms in big circles and shouting 'Hallo!'
+    emoji: 🚶
+  - concept: take_along
+    description: Tuck an imaginary tiny friend under your arm like a backpack and march off swinging your free arm proudly.
+    emoji: 🎒
+  scenes:
+  - key: s1
+    text: Lena wartet an der Haltestelle. Sie wartet auf den Bus. Der Bus kommt nicht. Lena wartet 1000 Minuten.
+    image_prompt: Lena, a 10-year-old girl with short curly red hair, a yellow raincoat and blue boots, stands at a small
+      German bus stop, tapping her foot and looking at a huge clock; no bus anywhere, sun going down, cartoon style.
+    questions:
+    - key: s1q1
+      kind: yes_no
+      prompt: Wartet Lena an der Haltestelle?
+      options: [Ja, Nein]
+      answer: Ja
+      target: wartet
+    - key: s1q2
+      kind: either_or
+      prompt: Wartet Lena auf den Bus oder auf ein Kamel?
+      options: [auf den Bus, auf ein Kamel]
+      answer: auf den Bus
+      target: wartet
+    - key: s1q3
+      kind: yes_no
+      prompt: Kommt der Bus?
+      options: [Ja, Nein]
+      answer: Nein
+      target: kommt
+    - key: s1q4
+      kind: who_what
+      prompt: Wer wartet an der Haltestelle?
+      options: [Lena, Klaus, Der Bus]
+      answer: Lena
+      target: wartet
+    - key: s1q5
+      kind: either_or
+      prompt: Wartet Lena 10 Minuten oder 1000 Minuten?
+      options: [10 Minuten, 1000 Minuten]
+      answer: 1000 Minuten
+      target: wartet
+    glossary:
+    - word: wartet
+      lemma: warten
+      level: A1
+    - word: an
+      lemma: an
+      level: A1
+    - word: Haltestelle
+      lemma: die Haltestelle
+      level: A2
+    - word: Sie
+      lemma: sie
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Bus
+      lemma: der Bus
+      level: A1
+    - word: kommt
+      lemma: kommen
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    - word: Minuten
+      lemma: die Minute
+      level: A1
+    voice:
+    - text: Lena wartet an der Haltestelle.
+      emotion: neutral
+    - text: Sie wartet auf den Bus.
+      emotion: sleepy
+    - text: Der Bus kommt nicht.
+      emotion: angry
+    - text: Lena wartet 1000 Minuten.
+      emotion: surprised
+  - key: s2
+    text: 'Da kommt ein Kamel an die Haltestelle. Das Kamel heißt Klaus. Klaus kommt sehr schnell. Lena sagt: „Ein Kamel kommt!“'
+    image_prompt: A tall brown camel named Klaus with a red scarf and a bus-driver cap runs up to the same small German bus
+      stop where Lena, the girl with short curly red hair, yellow raincoat and blue boots, stands with her mouth wide open;
+      cartoon style.
+    questions:
+    - key: s2q1
+      kind: yes_no
+      prompt: Kommt ein Kamel an die Haltestelle?
+      options: [Ja, Nein]
+      answer: Ja
+      target: kommt
+    - key: s2q2
+      kind: who_what
+      prompt: Wie heißt das Kamel?
+      options: [Klaus, Lena, Der Bus]
+      answer: Klaus
+    - key: s2q3
+      kind: either_or
+      prompt: Kommt das Kamel langsam oder schnell?
+      options: [schnell, langsam]
+      answer: schnell
+      target: kommt
+    - key: s2q4
+      kind: yes_no
+      prompt: Kommt der Bus auch?
+      options: [Ja, Nein]
+      answer: Nein
+      target: kommt
+    glossary:
+    - word: Da
+      lemma: da
+      level: A1
+    - word: kommt
+      lemma: kommen
+      level: A1
+    - word: Kamel
+      lemma: das Kamel
+      level: A2
+    - word: an
+      lemma: an
+      level: A1
+    - word: Haltestelle
+      lemma: die Haltestelle
+      level: A2
+    - word: heißt
+      lemma: heißen
+      level: A1
+    - word: sehr
+      lemma: sehr
+      level: A1
+    - word: schnell
+      lemma: schnell
+      level: A1
+    - word: sagt
+      lemma: sagen
+      level: A1
+    voice:
+    - text: Da kommt ein Kamel an die Haltestelle.
+      emotion: surprised
+    - text: Das Kamel heißt Klaus.
+      emotion: amused
+    - text: Klaus kommt sehr schnell.
+      emotion: surprised
+    - text: 'Lena sagt: „Ein Kamel kommt!“'
+      emotion: surprised
+  - key: s3
+    text: 'Klaus will Lena mitnehmen. Klaus sagt: „Ich will dich mitnehmen.“ Lena fragt: „Kannst du mich mitnehmen?“ Klaus
+      sagt: „Ja! Ich nehme dich mit!“'
+    image_prompt: Klaus the tall brown camel with the red scarf and bus-driver cap bends down and points at his back, and
+      Lena, the girl in the yellow raincoat and blue boots, points at herself with big surprised eyes; cartoon style.
+    questions:
+    - key: s3q1
+      kind: yes_no
+      prompt: Will Klaus Lena mitnehmen?
+      options: [Ja, Nein]
+      answer: Ja
+      target: mitnehmen
+    - key: s3q2
+      kind: either_or
+      prompt: Will Klaus Lena mitnehmen oder will Klaus allein fahren?
+      options: [Lena mitnehmen, allein fahren]
+      answer: Lena mitnehmen
+      target: mitnehmen
+    - key: s3q3
+      kind: who_what
+      prompt: 'Wer fragt: „Kannst du mich mitnehmen?“'
+      options: [Lena, Klaus, Der Bus]
+      answer: Lena
+      target: mitnehmen
+    - key: s3q4
+      kind: yes_no
+      prompt: Sagt Klaus nein?
+      options: [Ja, Nein]
+      answer: Nein
+      target: mitnehmen
+    - key: s3q5
+      kind: either_or
+      prompt: Nimmt Klaus den Bus mit oder nimmt Klaus Lena mit?
+      options: [den Bus, Lena]
+      answer: Lena
+      target: mitnehmen
+    glossary:
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: mitnehmen
+      lemma: mitnehmen
+      level: A2
+    - word: sagt
+      lemma: sagen
+      level: A1
+    - word: Ich
+      lemma: ich
+      level: A1
+    - word: dich
+      lemma: du
+      level: A1
+    - word: fragt
+      lemma: fragen
+      level: A1
+    - word: Kannst
+      lemma: können
+      level: A1
+    - word: du
+      lemma: du
+      level: A1
+    - word: mich
+      lemma: ich
+      level: A1
+    - word: nehme
+      lemma: mitnehmen
+      level: A2
+    - word: mit
+      lemma: mit
+      level: A1
+    voice:
+    - text: Klaus will Lena mitnehmen.
+      emotion: amused
+    - text: 'Klaus sagt: „Ich will dich mitnehmen.“ Lena fragt: „Kannst du mich mitnehmen?“ Klaus sagt: „Ja!'
+      emotion: surprised
+    - text: Ich nehme dich mit!“
+      emotion: surprised
+  - key: s4
+    text: 'Lena sitzt auf dem Kamel. Klaus läuft 100 Kilometer pro Stunde. Lena lacht: „Das Kamel nimmt mich mit!“ Der Bus
+      kommt nicht.'
+    image_prompt: Lena, the girl with short curly red hair, yellow raincoat and blue boots, rides on the back of Klaus the
+      brown camel with the red scarf and bus-driver cap, both with hair and scarf blown back by the wind, speed lines, empty
+      bus stop behind them; cartoon style.
+    questions:
+    - key: s4q1
+      kind: yes_no
+      prompt: Läuft Klaus 100 Kilometer pro Stunde?
+      options: [Ja, Nein]
+      answer: Ja
+    - key: s4q2
+      kind: either_or
+      prompt: Ist Lena traurig oder glücklich?
+      options: [glücklich, traurig]
+      answer: glücklich
+    - key: s4q3
+      kind: who_what
+      prompt: Wer nimmt Lena mit?
+      options: [Klaus, der Bus, die Schule]
+      answer: Klaus
+      target: mitnehmen
+    - key: s4q4
+      kind: yes_no
+      prompt: Kommt der Bus?
+      options: [Ja, Nein]
+      answer: Nein
+      target: kommt
+    glossary:
+    - word: sitzt
+      lemma: sitzen
+      level: A1
+    - word: auf
+      lemma: auf
+      level: A1
+    - word: Kamel
+      lemma: das Kamel
+      level: A2
+    - word: läuft
+      lemma: laufen
+      level: A1
+    - word: Kilometer
+      lemma: der Kilometer
+      level: A2
+    - word: pro
+      lemma: pro
+      level: A2
+    - word: Stunde
+      lemma: die Stunde
+      level: A1
+    - word: lacht
+      lemma: lachen
+      level: A1
+    - word: nimmt
+      lemma: mitnehmen
+      level: A2
+    - word: mich
+      lemma: ich
+      level: A1
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: Bus
+      lemma: der Bus
+      level: A1
+    - word: kommt
+      lemma: kommen
+      level: A1
+    - word: nicht
+      lemma: nicht
+      level: A1
+    voice:
+    - text: Lena sitzt auf dem Kamel.
+      emotion: amused
+    - text: Klaus läuft 100 Kilometer pro Stunde.
+      emotion: surprised
+    - text: 'Lena lacht: „Das Kamel nimmt mich mit!“ Der Bus kommt nicht.'
+      emotion: amused
+  - key: s5
+    text: 'Klaus nimmt Lena mit zur Schule. Die Schule kommt, und der Bus kommt endlich auch! Der Bus wartet an der Haltestelle,
+      aber Lena will mit Klaus fahren. Klaus lacht: „Ich bin der Bus Nummer 7.“'
+    image_prompt: Klaus the brown camel with the red scarf and bus-driver cap stands proudly next to a yellow city bus with
+      the number 7, and Lena, the girl in the yellow raincoat and blue boots, hugs the camel's neck while the bus driver looks
+      confused; cartoon style.
+    questions:
+    - key: s5q1
+      kind: yes_no
+      prompt: Kommt der Bus endlich?
+      options: [Ja, Nein]
+      answer: Ja
+      target: kommt
+    - key: s5q2
+      kind: who_what
+      prompt: Was ist Klaus?
+      options: [ein Bus, ein Taxi, ein Fahrrad]
+      answer: ein Bus
+    - key: s5q3
+      kind: either_or
+      prompt: Will Lena mit dem Kamel fahren oder mit dem Bus fahren?
+      options: [mit dem Kamel, mit dem Bus]
+      answer: mit dem Kamel
+    - key: s5q4
+      kind: yes_no
+      prompt: Wartet der Bus an der Haltestelle?
+      options: [Ja, Nein]
+      answer: Ja
+      target: wartet
+    - key: s5q5
+      kind: either_or
+      prompt: Nimmt Klaus Lena mit zur Schule oder ins Kino?
+      options: [zur Schule, ins Kino]
+      answer: zur Schule
+      target: mitnehmen
+    glossary:
+    - word: nimmt
+      lemma: mitnehmen
+      level: A2
+    - word: mit
+      lemma: mit
+      level: A1
+    - word: zur
+      lemma: zu
+      level: A1
+    - word: Schule
+      lemma: die Schule
+      level: A1
+    - word: kommt
+      lemma: kommen
+      level: A1
+    - word: und
+      lemma: und
+      level: A1
+    - word: Bus
+      lemma: der Bus
+      level: A1
+    - word: endlich
+      lemma: endlich
+      level: A2
+    - word: auch
+      lemma: auch
+      level: A1
+    - word: wartet
+      lemma: warten
+      level: A1
+    - word: an
+      lemma: an
+      level: A1
+    - word: Haltestelle
+      lemma: die Haltestelle
+      level: A2
+    - word: aber
+      lemma: aber
+      level: A1
+    - word: will
+      lemma: wollen
+      level: A1
+    - word: fahren
+      lemma: fahren
+      level: A1
+    - word: lacht
+      lemma: lachen
+      level: A1
+    - word: Ich
+      lemma: ich
+      level: A1
+    - word: bin
+      lemma: sein
+      level: A1
+    - word: Nummer
+      lemma: die Nummer
+      level: A1
+    voice:
+    - text: Klaus nimmt Lena mit zur Schule.
+      emotion: amused
+    - text: Die Schule kommt, und der Bus kommt endlich auch!
+      emotion: surprised
+    - text: Der Bus wartet an der Haltestelle, aber Lena will mit Klaus fahren.
+      emotion: amused
+    - text: 'Klaus lacht: „Ich bin der Bus Nummer 7.“'
+      emotion: surprised
+  core_words:
+  - lemma: die Haltestelle
+    image_prompt: a simple bus stop with a bench and a blank sign
+  - lemma: der Bus
+    image_prompt: a city bus on a street
+  - lemma: das Kamel
+    image_prompt: a single camel standing outdoors
+  - lemma: warten
+    image_prompt: a person standing at a bus stop looking down the road
+  - lemma: sitzen
+    image_prompt: a person sitting on a camel
+generation:
+  prompt_version: tprs-v3
+  model: deepseek-flash
+  attempts: 1
+  input_tokens: 702
+  output_tokens: 5069
+  glossary_version: glossary-v2
+  glossary_input_tokens: 488
+  glossary_output_tokens: 9231
+  core_version: core-v1
+  core_input_tokens: 988
+  core_output_tokens: 796
+  voice_version: voice-v1
+  voice_input_tokens: 464
+  voice_output_tokens: 2637
+  localize_ar_version: localize-v2
+  localize_ar_input_tokens: 1078
+  localize_ar_output_tokens: 5739
+  localize_en_version: localize-v2
+  localize_en_input_tokens: 1078
+  localize_en_output_tokens: 3217
+  localize_nl_version: localize-v2
+  localize_nl_input_tokens: 1078
+  localize_nl_output_tokens: 5451
