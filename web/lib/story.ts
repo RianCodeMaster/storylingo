@@ -22,7 +22,7 @@ interface CardRow extends Omit<StoryCard, "summary" | "cover"> {
   scenes: { image: AssetRef }[];
 }
 
-interface Row extends Omit<StoryCard, "summary" | "cover"> {
+interface Row extends Omit<StoryCard, "summary" | "cover" | "tags"> {
   story_localizations: { summary: string | null }[];
   story_targets: {
     lexemes: One<{
@@ -40,18 +40,18 @@ interface Row extends Omit<StoryCard, "summary" | "cover"> {
 
 /**
  * The published stories of an edition: its target language, one of its tags and levels, and a layer in its base
- * language. Easiest first, so the first one is where a new learner starts.
+ * language. Easiest first, so the first one is where a new learner starts. `tags`: a product's stories instead.
  */
-export async function listStories(edition: Edition): Promise<StoryCard[]> {
+export async function listStories(edition: Edition, tags: string[] = edition.stories.tags): Promise<StoryCard[]> {
   const { data, error } = await supabase()
     .from("stories")
     .select(
-      `id, title, cefr_level, language_code, story_localizations!inner ( summary ),
+      `id, title, cefr_level, language_code, tags, story_localizations!inner ( summary ),
        scenes ( position, image:assets!image_asset_id ( id, storage_path ) )`,
     )
     .eq("story_localizations.base_language", edition.base)
     .eq("language_code", edition.target)
-    .overlaps("tags", edition.stories.tags)
+    .overlaps("tags", tags)
     .in("cefr_level", edition.stories.levels)
     .order("cefr_level")
     .order("published_at")
@@ -71,6 +71,13 @@ export async function finishedStories(): Promise<Set<string>> {
   const { data, error } = await supabase().from("sessions").select("story_id").not("completed_at", "is", null);
   if (error) throw error;
   return new Set(data.map((s) => s.story_id as string));
+}
+
+/** A story the learner cannot open: unpublished, or in a product they do not have. */
+export class StoryUnavailable extends Error {
+  constructor() {
+    super("story unavailable");
+  }
 }
 
 export async function loadStory(id: string, base: string): Promise<Story> {
@@ -99,8 +106,10 @@ export async function loadStory(id: string, base: string): Promise<Story> {
     .order("position", { referencedTable: "story_words" })
     .order("position", { referencedTable: "scenes" })
     .order("position", { referencedTable: "scenes.questions" })
-    .single<Row>();
+    .maybeSingle<Row>();
   if (error) throw error;
+  // Not published, or part of a product this learner does not have: the database does not hand it out.
+  if (!data) throw new StoryUnavailable();
 
   const targets: Target[] = data.story_targets
     .map((st) => one(st.lexemes))

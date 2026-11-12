@@ -123,6 +123,86 @@ def sync_editions(editions: dict) -> list[str]:
     return changes
 
 
+def sync_products(products: dict) -> list[str]:
+    """
+    Make the products table match content/products, then mark which stories belong to which product (the database
+    lets only owners read those). A product removed from the files becomes a draft: purchases may point at it.
+    """
+    changes = []
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute("select slug, status, kind, visibility, editions, price_amount, price_currency, price_interval from products")
+        old = {r[0]: r[1:] for r in cur.fetchall()}
+        for slug, p in products.items():
+            price = p.price
+            row = (p.status, p.kind, p.visibility, p.editions, price and price.amount, price and price.currency,
+                   price and price.interval)
+            if old.pop(slug, None) == row:
+                continue
+            cur.execute(
+                """insert into products (slug, status, kind, visibility, editions, price_amount, price_currency,
+                                         price_interval) values (%s, %s, %s, %s, %s, %s, %s, %s)
+                   on conflict (slug) do update set status = excluded.status, kind = excluded.kind,
+                     visibility = excluded.visibility, editions = excluded.editions, price_amount = excluded.price_amount,
+                     price_currency = excluded.price_currency, price_interval = excluded.price_interval""",
+                (slug, *row),
+            )
+            changes.append(f"product {slug}")
+        for slug, (status, *_) in old.items():
+            if status != "draft":
+                cur.execute("update products set status = 'draft' where slug = %s", (slug,))
+                changes.append(f"product {slug}: no longer in content/products, now draft")
+        # Which product each story belongs to: the one claiming one of its tags in its language (products.py
+        # makes sure there is at most one).
+        cur.execute("select id, slug, language_code, tags, product from stories")
+        for story_id, slug, language, tags, current in cur.fetchall():
+            owner = next((p.slug for p in products.values()
+                          if p.kind == "stories" and language in p.targets() and set(tags) & set(p.tags)), None)
+            if owner != current:
+                cur.execute("update stories set product = %s where id = %s", (owner, story_id))
+                changes.append(f"story {slug}: " + (f"now part of {owner}" if owner else f"no longer part of {current}"))
+    return changes
+
+
+def find_learner(who: str) -> tuple[str, str | None]:
+    """A learner by e-mail address or by id (an anonymous learner has no address yet): (id, address)."""
+    with connect() as conn, conn.cursor() as cur:
+        column = "email" if "@" in who else "id::text"
+        cur.execute(f"select id, email from auth.users where lower({column}) = lower(%s)", (who,))
+        row = cur.fetchone()
+    if not row:
+        raise SystemExit(f"No learner '{who}' (an e-mail address, or the id from the app's test tools).")
+    return str(row[0]), row[1]
+
+
+def grant(user_id: str, product: str, source: str, valid_until: str | None, note: str | None) -> None:
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            "insert into purchases (user_id, product, source, valid_until, note) values (%s, %s, %s, %s, %s)",
+            (user_id, product, source, valid_until, note),
+        )
+
+
+def revoke(user_id: str, product: str) -> int:
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            "update purchases set status = 'cancelled' where user_id = %s and product = %s and status = 'active'",
+            (user_id, product),
+        )
+        return cur.rowcount
+
+
+def purchases(product: str | None = None) -> list[tuple]:
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            """select p.created_at, coalesce(u.email, p.user_id::text), p.product, p.source, p.status, p.amount,
+                      p.currency, p.valid_until, p.note
+               from purchases p left join auth.users u on u.id = p.user_id
+               where %(p)s::text is null or p.product = %(p)s order by p.created_at desc""",
+            {"p": product},
+        )
+        return cur.fetchall()
+
+
 def sync_pairs(pairs: dict[tuple[str, str], str]) -> list[str]:
     """Make language_pairs follow the editions: a pair without an edition goes back to planned."""
     changes = []

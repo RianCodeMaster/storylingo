@@ -815,3 +815,26 @@ button.chosen-level {
   color: var(--muted);
   font-size: 1.1rem;
 }
+
+/* A course that is not there yet: its promise and an e-mail field (components/Waitlist.tsx). */
+.waitlist { display: flex; flex-direction: column; gap: 6px; text-align: start; }
+.waitlist p { margin: 0; }
+.waitlist form { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.waitlist input {
+  flex: 1 1 180px;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+.waitlist form p { flex-basis: 100%; }
+
+/* Products (components/ProductTile.tsx, ProductPage.tsx): a locked tile is a little quieter than an owned one. */
+.tile-locked { opacity: 0.85; border-style: dashed; }
+.product-head { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
+.product-head p { margin: 0; }
+.product-icon { font-size: 2.5rem; line-height: 1; }
+.section-title { font-size: 1rem; margin: 20px 0 8px; }

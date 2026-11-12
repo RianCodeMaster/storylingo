@@ -12,3 +12,18 @@ stories:
   tags: [algemeen, alltag, behoerde, werk, geld, techniek, dieren]
   levels: [A1, A2, B1]
 domain: null
+# tracks: one way in per niche, at /almanya/<slug> (docs/campagnes.md). Same stories; own welcome and search texts.
+tracks:
+  - slug: b1-examen
+    title: التحضير لامتحان B1 الألماني (DTZ) بالقصص
+    description: تدرّب على الألمانية لامتحان B1 وDTZ بقصص قصيرة مع صوت وصور عن المكاتب والمواعيد والعمل والحياة اليومية. خمس دقائق يوميًا، مجانًا.
+    tagline: اجتز امتحان B1 بثقة.
+    intro: قصص قصيرة عن المواقف التي تأتي في الامتحان، في الجوب سنتر ومكتب الأجانب وعند الطبيب وفي العمل. تسمع، وتجيب بصوت عالٍ، وتتذكر الكلمات. خمس دقائق يوميًا.
+    level: B1
+    prefer: [behoerde, alltag]
+  - slug: werken
+    title: الألمانية للعمل في ألمانيا بالقصص
+    description: ألمانية للعمل والحياة في ألمانيا، مع الزملاء والمدير والمواعيد والأوراق. قصص قصيرة مع صوت وصور، خمس دقائق يوميًا، مجانًا.
+    tagline: ألمانية لعملك الجديد في ألمانيا.
+    intro: جئت إلى ألمانيا للعمل؟ قصص قصيرة ومضحكة عن الزملاء والمدير والمواعيد والحياة اليومية. تسمع، وتجيب بصوت عالٍ، وتتذكر. خمس دقائق يوميًا.
+    prefer: [werk]

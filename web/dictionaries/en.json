@@ -124,7 +124,8 @@
       "one": "{n} word you looked up comes back in your review tomorrow.",
       "other": "{n} words you looked up come back in your review tomorrow."
     },
-    "toStart": "Back to start"
+    "toStart": "Back to start",
+    "unavailable": "This story is not available to you. It may be part of a pack you do not have (yet)."
   },
   "words": {
     "progress": "Word {n} of {total}",
@@ -195,5 +196,23 @@
       "other": "{n} to review"
     },
     "upToDate": "All done ✓"
+  },
+  "waitlist": {
+    "email": "your e-mail address",
+    "join": "Keep me posted",
+    "thanks": "Thank you! You will be the first to know.",
+    "invalid": "That does not look like an e-mail address.",
+    "error": "That did not work. Please try again in a moment."
+  },
+  "product": {
+    "coming": "Coming soon",
+    "owned": "Yours",
+    "once": "one-off",
+    "month": "per month",
+    "year": "per year",
+    "buy": "Buy for {price}",
+    "payingSoon": "Paying in the app is coming soon. Leave your e-mail and you will be the first to know.",
+    "contents": "In this pack",
+    "empty": "The content is on its way."
   }
 }

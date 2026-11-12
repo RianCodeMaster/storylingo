@@ -23,11 +23,36 @@ WEB_FILE = ROOT / "web" / "lib" / "editions.json"
 Status = Literal["draft", "beta", "live"]
 # Paths the app uses itself; an edition cannot be called like this.
 RESERVED = {"story", "review", "sb", "api", "_next"}
+# Pages inside an edition; a track cannot be called like this.
+EDITION_PAGES = {"story", "stories", "review", "phrases", "p"}
+SLUG = r"[a-z][a-z0-9-]*"
 
 
 class Selection(BaseModel):
     tags: list[str]
     levels: list[Level]
+
+
+class Track(BaseModel):
+    """
+    One way into an edition for one niche, at /<edition>/<slug>: the same app and stories, but a welcome that speaks
+    to that niche (and to search engines), a start level and the stories it cares about first.
+    """
+    slug: str
+    title: str           # the browser tab and search result title, in the base language
+    description: str     # the search result line, in the base language
+    tagline: str         # the welcome's big line
+    intro: str           # the welcome's few sentences
+    level: Level | None = None       # the level chosen on arrival (the learner can still pick another)
+    prefer: list[str] = []           # story tags shown first, e.g. [behoerde]
+    # Products shown on this track's welcome are named in the product (content/products, tracks:).
+
+    @field_validator("slug")
+    @classmethod
+    def plain(cls, slug: str) -> str:
+        if not re.fullmatch(SLUG, slug) or slug in EDITION_PAGES:
+            raise ValueError("lower case letters, digits and - only, and not a page of the edition (story, review …)")
+        return slug
 
 
 class Edition(BaseModel):
@@ -41,11 +66,12 @@ class Edition(BaseModel):
     color: str
     stories: Selection
     domain: str | None = None
+    tracks: list[Track] = []
 
     @field_validator("slug")
     @classmethod
     def plain(cls, slug: str) -> str:
-        if not re.fullmatch(r"[a-z][a-z0-9-]*", slug) or slug in RESERVED:
+        if not re.fullmatch(SLUG, slug) or slug in RESERVED:
             raise ValueError("lower case letters, digits and - only, and not a word the app uses itself")
         return slug
 
@@ -66,6 +92,14 @@ class Edition(BaseModel):
             raise ValueError(f"base '{self.base}' is not a base language (content/languages/{self.base}.yaml)")
         if not languages.get(self.target).is_target:
             raise ValueError(f"target '{self.target}' is not a target language (content/languages/{self.target}.yaml)")
+        slugs = [t.slug for t in self.tracks]
+        if len(slugs) != len(set(slugs)):
+            raise ValueError(f"two tracks share a slug: {slugs}")
+        for t in self.tracks:
+            if t.level and t.level not in self.stories.levels:
+                raise ValueError(f"track '{t.slug}' starts at {t.level}, which the edition does not offer")
+            if missing := set(t.prefer) - set(self.stories.tags):
+                raise ValueError(f"track '{t.slug}' prefers tags the edition does not have: {sorted(missing)}")
         return self
 
 

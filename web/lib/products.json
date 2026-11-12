@@ -1,0 +1,27 @@
+{
+  "dtz-training": {
+    "slug": "dtz-training",
+    "status": "coming",
+    "kind": "exam",
+    "editions": [
+      "almanya"
+    ],
+    "tracks": [
+      "b1-examen"
+    ],
+    "visibility": "everyone",
+    "price": {
+      "amount": 1900,
+      "currency": "eur",
+      "interval": null
+    },
+    "tags": [],
+    "texts": {
+      "ar": {
+        "title": "تدريب امتحان DTZ",
+        "text": "تمارين بشكل الامتحان، الاستماع والقراءة وكتابة رسالة والمحادثة. اترك بريدك الإلكتروني وسنخبرك أولًا.",
+        "icon": "🎓"
+      }
+    }
+  }
+}

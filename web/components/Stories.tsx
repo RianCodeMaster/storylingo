@@ -9,9 +9,29 @@ import { ensureLearner } from "@/lib/supabase";
 import type { StoryCard } from "@/lib/types";
 import TopBar from "./TopBar";
 
+/** Stories as rows with their picture and summary; a finished one is marked and can be played again. */
+export function StoryRows({ stories, finished }: { stories: StoryCard[]; finished: Set<string> }) {
+  const { dict, home } = useI18n();
+  return stories.map((s) => (
+    <Link key={s.id} href={`${home}/story/${s.id}`} className="story-row">
+      {s.cover ? (
+        // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
+        <img src={s.cover} alt="" />
+      ) : (
+        <span className="story-row-blank">📖</span>
+      )}
+      <div>
+        <strong dir="ltr">{s.title}</strong>
+        {s.summary && <span className="muted small">{s.summary}</span>}
+        {finished.has(s.id) && <span className="done-mark">{dict.home.finished}</span>}
+      </div>
+    </Link>
+  ));
+}
+
 /** Every story at the learner's level, with its picture; a finished one is marked and can be played again. */
 export default function Stories() {
-  const { lang, dict, fill, edition, home } = useI18n();
+  const { lang, dict, fill, edition } = useI18n();
   const [stories, setStories] = useState<StoryCard[] | null>(null);
   const [level, setLevel] = useState<string | null>(null);
   const [finished, setFinished] = useState<Set<string>>(new Set());
@@ -41,21 +61,7 @@ export default function Stories() {
             {dict.level.yours}: {level} · {dict.level.names[level as Level]}
           </span>
           {stories.length === 0 && <p className="card">{fill(dict.level.noneYet, { level })}</p>}
-          {stories.map((s) => (
-            <Link key={s.id} href={`${home}/story/${s.id}`} className="story-row">
-              {s.cover ? (
-                // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
-                <img src={s.cover} alt="" />
-              ) : (
-                <span className="story-row-blank">📖</span>
-              )}
-              <div>
-                <strong dir="ltr">{s.title}</strong>
-                {s.summary && <span className="muted small">{s.summary}</span>}
-                {finished.has(s.id) && <span className="done-mark">{dict.home.finished}</span>}
-              </div>
-            </Link>
-          ))}
+          <StoryRows stories={stories} finished={finished} />
         </>
       )}
     </main>

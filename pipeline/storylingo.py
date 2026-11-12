@@ -16,6 +16,12 @@
     python storylingo.py media-clear <slug> [images|audio]     forget the images and/or narration of a story
     python storylingo.py feedback <language>                   the teacher's spoken "Ja! Genau!" / "Nein!", once per language
     python storylingo.py list                                  every story in the database
+    python storylingo.py grant <e-mail|id> <product> [days] [note]   give a learner a product by hand (a gift, a
+                                                               payment outside Stripe; with [days]: a trial)
+    python storylingo.py revoke <e-mail|id> <product>           take it away again
+    python storylingo.py purchases [product]                   who has what, newest first
+    python storylingo.py funnel [edition]                      per track and campaign: came, started, finished a story,
+                                                               back after a week, on a waitlist (docs/campagnes.md)
     python storylingo.py phrases <language> <level>            DeepSeek drafts the level's phrases (up to 200) in content/phrases/
     python storylingo.py localize-phrases <language> <base>    their meanings for one base language
     python storylingo.py media-phrases <language>              their recordings (missing or out of date)
@@ -46,6 +52,7 @@ import editions  # noqa: E402
 import languages  # noqa: E402
 import media  # noqa: E402
 import phrases  # noqa: E402
+import products  # noqa: E402
 import transfer  # noqa: E402
 import yamlio  # noqa: E402
 from check import check  # noqa: E402
@@ -78,6 +85,8 @@ def sync(slug: str | None = None) -> None:
         print("  web/lib/languages.json updated")
     if editions.write_web():
         print("  web/lib/editions.json updated")
+    if products.write_web():
+        print("  web/lib/products.json updated")
     for language in phrases.languages_with_phrases() if not slug else []:
         bases = [b for b in languages.all_languages() if languages.get(b).is_base]
         changes = db.sync_phrases(language, phrases.all_sets(language), {b: phrases.meanings(language, b) for b in bases})
@@ -89,6 +98,9 @@ def sync(slug: str | None = None) -> None:
             content.save(doc)
         changes = db.sync_story(doc)
         print(f"  {doc.brief.language}/{doc.slug}: " + (", ".join(changes) if changes else "up to date"))
+    # After the stories: which of them belong to a product.
+    for change in db.sync_products(products.all_products()):
+        print(f"  {change}")
 
 
 def add_localization(doc: StoryDoc, base: str) -> None:
@@ -158,6 +170,38 @@ def make_media(slug: str, provider_name: str, only: str | None = None, language:
     print(f"Done: {len(todo)} files for '{slug}'.")
 
 
+def give(who: str, product: str, days: str | None, note: str | None) -> None:
+    """A product by hand, without a payment in the app (a gift, a bank transfer; a trial when `days` is given)."""
+    from datetime import datetime, timedelta, timezone
+
+    if product not in products.all_products():
+        raise SystemExit(f"No product '{product}' (content/products).")
+    user_id, email = db.find_learner(who)
+    until = (datetime.now(timezone.utc) + timedelta(days=int(days))).isoformat() if days else None
+    db.grant(user_id, product, "trial" if days else "manual", until, note)
+    print(f"{email or user_id} has {product}" + (f" until {until[:10]}" if until else " for good"))
+
+
+def funnel(edition: str | None) -> None:
+    """How each niche does: one row per edition, track and campaign (the view `funnel`, docs/campagnes.md)."""
+    with db.connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            "select edition, track, campaign, visitors, started, finished_a_story, back_after_a_week, waitlist "
+            "from funnel where %(e)s::text is null or edition = %(e)s order by edition, visitors desc",
+            {"e": edition},
+        )
+        rows = cur.fetchall()
+    if not rows:
+        print("No visits yet.")
+        return
+    head = ("edition", "track", "campaign", "came", "started", "finished", "week+", "waitlist")
+    print(f"{head[0]:10} {head[1]:12} {head[2]:16} " + " ".join(f"{h:>8}" for h in head[3:]))
+    for ed, track, campaign, *counts in rows:
+        came = counts[0]
+        cells = [f"{came:>8}"] + [f"{n:>4} {round(100 * n / came):>2}%" if came else f"{n:>8}" for n in counts[1:]]
+        print(f"{ed:10} {track or '-':12} {campaign or '-':16} " + " ".join(cells))
+
+
 def simplify(slug: str) -> None:
     """Easier words for a story whose words are above its level. Scene and question keys stay where the scene or
     question stays, so learners keep their history."""
@@ -203,7 +247,7 @@ def make_feedback(language: str) -> None:
 def main(argv: list[str]) -> None:
     command = argv[0] if argv else None
     arg = argv[1] if len(argv) > 1 else None
-    if command not in ("list", "sync", "check", "media-export", "media-import") and not arg:
+    if command not in ("list", "sync", "check", "media-export", "media-import", "funnel", "purchases") and not arg:
         raise SystemExit(__doc__)
 
     if command == "sync":
@@ -298,6 +342,23 @@ def main(argv: list[str]) -> None:
         if not CLOUD:
             raise SystemExit("Import into the cloud project: add --cloud.")
         transfer.import_()
+    elif command == "grant":
+        if len(argv) < 3:
+            raise SystemExit("grant <e-mail|id> <product> [days] [note]")
+        give(arg, argv[2], argv[3] if len(argv) > 3 else None, " ".join(argv[4:]) or None)
+    elif command == "revoke":
+        if len(argv) < 3:
+            raise SystemExit("revoke <e-mail|id> <product>")
+        user_id, email = db.find_learner(arg)
+        n = db.revoke(user_id, argv[2])
+        print(f"{email or user_id}: {argv[2]} " + ("taken away" if n else "was not active"))
+    elif command == "purchases":
+        for when, who, product, source, status, amount, currency, until, note in db.purchases(arg):
+            paid = f"{amount / 100:.2f} {currency}" if amount else "-"
+            print(f"{when:%Y-%m-%d}  {who:36} {product:18} {source:7} {status:9} {paid:>10}"
+                  + (f"  until {until:%Y-%m-%d}" if until else "") + (f"  ({note})" if note else ""))
+    elif command == "funnel":
+        funnel(arg)
     elif command == "list":
         for slug, status, level, title, scenes in db.list_stories():
             print(f"{status:10} {level}  {slug:30} {title} ({scenes} scenes)")

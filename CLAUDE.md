@@ -80,6 +80,11 @@ and `storylingo.py check` must end with "complete and in sync"; every problem it
   - Another voice (e.g. ElevenLabs): edit `voice:` in the language file → `media` per story.
   - New edition (niche): copy a file in `content/editions/`, change slug, languages, texts, color, tags → `sync` →
     `check` (it reports missing stories or translations for that pair).
+  - New track (one way in per niche, `/almanya/b1-examen`): add it under `tracks:` in the edition file → `sync`
+    (docs/campagnes.md). `storylingo.py funnel` shows visitors → started → finished → back per track and campaign.
+  - New product: copy a file in `content/products/` → its content (kind `stories`: stories with its own tag) →
+    `sync` → `check` (docs/producten.md). The database lets only owners read a product's stories (policy on
+    `stories`, `owns()`); `grant` / `revoke` / `purchases` manage who has what.
 - **Phrases section:** per target language 3 x 200 chunks (A1, A2, B1), the same in every edition with that target.
   A phrase is a lexeme (kind 'phrase') plus a `phrases` row (level, position): audio, meanings and spaced repetition
   come from the word machinery. Recipe: `phrases <lang> <level>` → read → `localize-phrases <lang> <base>` → `sync`

@@ -158,6 +158,10 @@ def edition_gaps(stories) -> list[str]:
     problems = []
     if not editions.WEB_FILE.exists() or editions.WEB_FILE.read_text(encoding="utf-8") != editions.web_json():
         problems.append("web/lib/editions.json is out of date (fix: storylingo.py sync)")
+    # Products live next to the editions: their file must be valid and the app's copy current.
+    import products
+    if not products.WEB_FILE.exists() or products.WEB_FILE.read_text(encoding="utf-8") != products.web_json():
+        problems.append("web/lib/products.json is out of date (fix: storylingo.py sync)")
     for e in editions.all_editions().values():
         if e.status == "draft":
             continue

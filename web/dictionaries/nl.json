@@ -124,7 +124,8 @@
       "one": "{n} opgezocht woord komt morgen terug in je herhaling.",
       "other": "{n} opgezochte woorden komen morgen terug in je herhaling."
     },
-    "toStart": "Naar het begin"
+    "toStart": "Naar het begin",
+    "unavailable": "Dit verhaal is niet beschikbaar voor jou. Het hoort misschien bij een pakket dat je (nog) niet hebt."
   },
   "words": {
     "progress": "Woord {n} van {total}",
@@ -195,5 +196,23 @@
       "other": "{n} om te herhalen"
     },
     "upToDate": "Klaar ✓"
+  },
+  "waitlist": {
+    "email": "je e-mailadres",
+    "join": "Houd me op de hoogte",
+    "thanks": "Dank je! Je hoort het als eerste.",
+    "invalid": "Dat lijkt geen e-mailadres.",
+    "error": "Dat lukte niet. Probeer het zo nog eens."
+  },
+  "product": {
+    "coming": "Binnenkort",
+    "owned": "Van jou",
+    "once": "eenmalig",
+    "month": "per maand",
+    "year": "per jaar",
+    "buy": "Koop voor {price}",
+    "payingSoon": "Betalen in de app komt binnenkort. Laat je e-mail achter, dan hoor je het als eerste.",
+    "contents": "In dit pakket",
+    "empty": "De inhoud komt eraan."
   }
 }
