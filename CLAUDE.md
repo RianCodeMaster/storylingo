@@ -88,6 +88,10 @@ and `storylingo.py check` must end with "complete and in sync"; every problem it
   - Free tier / Plus: one membership product per target language (`plus-de.yaml` …) holds the `free` limits and the
     prices (docs/plus.md). Sync marks the first stories per level `free`; the database hides the rest without Plus
     (`has_plus()`), caps new stories per day (`may_start_story()`), and `story_cards` shows titles of locked ones.
+  - Public pages for search engines (docs/seo.md): `/<edition>/read` (library), `/<edition>/level/<a1…>` and
+    `/<edition>/read/<slug>`, server-rendered from `lib/catalog.ts` with the publishable key (so RLS decides what is
+    public: a free story's full text, a locked one's card only), cached for an hour; plus `sitemap.xml`, `robots.txt`,
+    JSON-LD and hreflang between editions of one target. App screens (story/[id], review, …) are `noindex`.
 - **Phrases section:** per target language 3 x 200 chunks (A1, A2, B1), the same in every edition with that target.
   A phrase is a lexeme (kind 'phrase') plus a `phrases` row (level, position): audio, meanings and spaced repetition
   come from the word machinery. Recipe: `phrases <lang> <level>` → read → `localize-phrases <lang> <base>` → `sync`

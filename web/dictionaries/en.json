@@ -252,5 +252,38 @@
     "perMonthOf": "{price} per month",
     "yearly": "{price} per year · {monthly} per month",
     "best": "Best value"
+  },
+  "seo": {
+    "lang": {
+      "de": "German",
+      "es": "Spanish",
+      "nl": "Dutch"
+    },
+    "libraryTitle": "Stories in {lang} by level, with translation",
+    "libraryDescription": "Short, funny stories in {lang}, from beginner to advanced, with an English translation. Read them here and play them free in the app, with audio and questions.",
+    "libraryIntro": "You learn a language fastest from stories you almost fully understand. Every story here is short, a little silly, and keeps repeating the same few words, so they stick by themselves. Pick your level and start.",
+    "levelTitle": "{lang} at level {level} ({levelName}): short stories",
+    "levelDescription": "{count} short stories in {lang} at level {level}, with translation and the key words. Read them here, play them free in the app.",
+    "levelAbout": {
+      "A1": "A1 is the very beginning. Short sentences in the present tense about things you see every day: food, the neighbours, the supermarket. You need to know nothing yet.",
+      "A2": "At A2 you tell what happened and what you want. Sentences get longer, a past tense appears, and the stories are about work, housing and appointments.",
+      "B1": "At B1 you get by in almost any everyday situation. The stories have more twists, subordinate clauses and words for feelings and opinions.",
+      "B2": "At B2 you follow a conversation about almost anything. The stories are longer, faster and full of expressions you hear in real life.",
+      "C1": "",
+      "C2": ""
+    },
+    "storyTitle": "{title}: a story in {lang} ({level})",
+    "story": "The story",
+    "words": "The words of this story",
+    "play": "Play this story in the app",
+    "playSub": "With audio, gestures and questions. Free, no account needed.",
+    "locked": "This story is part of Plus. Here you see what it is about; in the app you read and hear all of it.",
+    "free": "Free",
+    "plus": "⭐ Plus",
+    "allStories": "All stories",
+    "levelLink": "All stories at {level}",
+    "moreAtLevel": "More stories at {level}",
+    "start": "Start free in the app",
+    "levels": "Stories by level"
   }
 }

@@ -889,3 +889,30 @@ label.check input { margin-top: 3px; }
 }
 .price-option:disabled { cursor: default; }
 .pill { font-size: 0.75rem; padding: 2px 8px; border-radius: 999px; background: var(--primary); color: #0f172a; font-weight: 700; }
+
+/* Public pages (app/[edition]/read, app/[edition]/level): readable text first, one clear way into the app. */
+.read section { display: flex; flex-direction: column; gap: 10px; }
+.read h1 { line-height: 1.25; }
+.read-list { display: flex; flex-direction: column; gap: 10px; }
+.read-tag { align-self: flex-start; font-size: 0.75rem; font-weight: 700; color: var(--primary); }
+.read-tag-plus { color: var(--accent); }
+.crumbs { display: flex; flex-wrap: wrap; gap: 4px; font-size: 0.85rem; color: var(--muted); }
+.crumbs a:hover { color: var(--text); }
+.crumbs-sep { margin-inline: 6px; }
+.read-cover { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
+.read-summary { font-size: 1.05rem; line-height: 1.6; }
+.read-play { display: flex; flex-direction: column; gap: 6px; text-align: center; }
+.read-words { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+.read-words div { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; }
+.read-words dt { font-weight: 800; }
+.read-words dd { color: var(--muted); font-size: 0.9rem; }
+.read-scene { display: flex; flex-direction: column; gap: 6px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.read-scene img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; }
+.read-text { font-size: 1.1rem; line-height: 1.6; }
+.read-translation { line-height: 1.6; }
+.read-levels { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); }
+.read-levels > div { display: flex; flex-wrap: wrap; gap: 8px; }
+.read-level { padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px; font-size: 0.85rem; }
+.read-level:hover, .read-levels > a:hover { border-color: var(--primary); color: var(--primary); }
+.read-levels > a { font-size: 0.9rem; color: var(--muted); }
+.read-footer { max-width: 640px; margin: 0 auto; padding: 0 16px 32px; }

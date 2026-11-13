@@ -6,6 +6,7 @@ import { EDITIONS } from "@/lib/editions";
 import { I18nProvider } from "@/lib/i18n";
 import "../globals.css";
 import { direction, script } from "@/lib/locales";
+import { siteUrl } from "@/lib/site";
 import { getEdition } from "./dictionaries";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -29,7 +30,14 @@ export function generateStaticParams() {
 
 export async function generateMetadata(): Promise<Metadata> {
   const { edition } = await getEdition();
-  return { title: edition.name, description: edition.tagline, icons: { icon: "/icon.svg" } };
+  // metadataBase turns the relative addresses of canonical links and shared pictures into full ones.
+  return {
+    metadataBase: new URL(siteUrl()),
+    title: edition.name,
+    description: edition.tagline,
+    icons: { icon: "/icon.svg" },
+    openGraph: { siteName: "StoryLingo", locale: edition.base },
+  };
 }
 
 export const viewport: Viewport = {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Home } from "@/components/Home";
+import { LevelLinks } from "@/components/Library";
 import { EDITIONS, trackOf } from "@/lib/editions";
 import { getEdition } from "../dictionaries";
 
@@ -30,8 +31,15 @@ export async function generateMetadata({ params }: PageProps<"/[edition]/[track]
 }
 
 export default async function TrackHome({ params }: PageProps<"/[edition]/[track]">) {
-  const { edition } = await getEdition();
+  const { edition, dict } = await getEdition();
   const track = trackOf(edition, (await params).track);
   if (!track) notFound();
-  return <Home trackSlug={track.slug} />;
+  return (
+    <>
+      <Home trackSlug={track.slug} />
+      <footer className="read-footer">
+        <LevelLinks edition={edition} dict={dict} />
+      </footer>
+    </>
+  );
 }

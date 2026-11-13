@@ -252,5 +252,38 @@
     "perMonthOf": "{price} per maand",
     "yearly": "{price} per jaar · {monthly} per maand",
     "best": "Voordeligst"
+  },
+  "seo": {
+    "lang": {
+      "de": "Duits",
+      "es": "Spaans",
+      "nl": "Nederlands"
+    },
+    "libraryTitle": "Verhalen in het {lang} per niveau, met vertaling",
+    "libraryDescription": "Korte, grappige verhalen in het {lang}, van beginner tot gevorderd, met vertaling in het Nederlands. Lees ze hier en speel ze gratis in de app, met audio en vragen.",
+    "libraryIntro": "Je leert een taal het snelst met verhalen die je bijna helemaal begrijpt. Elk verhaal hier is kort, een beetje gek, en herhaalt steeds dezelfde paar woorden, zodat ze vanzelf blijven hangen. Kies je niveau en begin.",
+    "levelTitle": "{lang} op niveau {level} ({levelName}): korte verhalen",
+    "levelDescription": "{count} korte verhalen in het {lang} op niveau {level}, met vertaling en de belangrijkste woorden. Lees ze hier, speel ze gratis in de app.",
+    "levelAbout": {
+      "A1": "A1 is het begin. Korte zinnen in de tegenwoordige tijd over dingen die je elke dag ziet: eten, de buren, de supermarkt. Je hoeft nog niets te kennen.",
+      "A2": "Op A2 vertel je wat er gebeurd is en wat je wilt. De zinnen worden langer, er komt een verleden tijd bij, en de verhalen gaan over werk, wonen en afspraken.",
+      "B1": "Op B1 red je je in bijna elke situatie van het dagelijks leven. De verhalen hebben meer wendingen, bijzinnen en woorden voor gevoelens en meningen.",
+      "B2": "Op B2 volg je een gesprek over bijna alles. De verhalen zijn langer, sneller en zitten vol uitdrukkingen die je in het echt hoort.",
+      "C1": "",
+      "C2": ""
+    },
+    "storyTitle": "{title}: verhaal in het {lang} ({level})",
+    "story": "Het verhaal",
+    "words": "De woorden van dit verhaal",
+    "play": "Speel dit verhaal in de app",
+    "playSub": "Met audio, gebaren en vragen. Gratis, zonder account.",
+    "locked": "Dit verhaal zit in Plus. Hier zie je waar het over gaat; in de app lees en hoor je het helemaal.",
+    "free": "Gratis",
+    "plus": "⭐ Plus",
+    "allStories": "Alle verhalen",
+    "levelLink": "Alle verhalen op {level}",
+    "moreAtLevel": "Meer verhalen op {level}",
+    "start": "Begin gratis in de app",
+    "levels": "Verhalen per niveau"
   }
 }
