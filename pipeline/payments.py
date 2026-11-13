@@ -19,15 +19,13 @@ API = "https://api.stripe.com/v1"
 
 
 def _client(live: bool) -> httpx.Client:
-    key = os.environ.get("STRIPE_SECRET_KEY", "")
+    # Both keys can sit in pipeline/.env: the test key is used by default, the live one only with `stripe live`.
+    name = "STRIPE_SECRET_KEY" if live else "STRIPE_SECRET_TESTKEY"
+    key = os.environ.get(name, "")
     if not key.startswith(("sk_", "rk_")):
-        raise SystemExit("STRIPE_SECRET_KEY is not set in pipeline/.env (Stripe > Developers > API keys).")
-    is_live = "_live_" in key
-    if is_live and not live:
-        raise SystemExit("STRIPE_SECRET_KEY is a live key. Use a test key (sk_test_...) while building, "
-                         "or run `storylingo.py stripe live` on purpose.")
-    if live and not is_live:
-        raise SystemExit("`stripe live` needs a live key (sk_live_...) in STRIPE_SECRET_KEY.")
+        raise SystemExit(f"{name} is not set in pipeline/.env (Stripe > Developers > API keys).")
+    if live != ("_live_" in key):
+        raise SystemExit(f"{name} should be a {'live (sk_live_...)' if live else 'test (sk_test_...)'} key.")
     return httpx.Client(base_url=API, auth=(key, ""), timeout=30)
 
 

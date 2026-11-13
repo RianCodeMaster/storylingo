@@ -3,10 +3,10 @@
  * details before taking payments live: the law asks for them, and Stripe checks that they are there.
  */
 export const COMPANY = {
-  name: "[bedrijfsnaam]", // the name as registered at the KvK
-  kvk: "[KvK-nummer]",
-  vat: "[btw-nummer]", // the btw-id (NL…B01); "" leaves it out of the texts
-  address: "[adres, postcode, plaats]",
+  name: "Rian Software Solutions", // the name as registered at the KvK
+  kvk: "60806109",
+  vat: "[btw-nummer]",
+  address: "Esseburgstraat, 3022mk, Rotterdam",
   email: "info@qissio.com",
   country: "Nederland",
 };

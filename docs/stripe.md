@@ -31,7 +31,8 @@ prijswijziging). Met een live-sleutel weigert het commando, tenzij je bewust `st
 
 | waar | naam | wat |
 |---|---|---|
-| `pipeline/.env` | `STRIPE_SECRET_KEY` | test: `sk_test_…` (voor `storylingo.py stripe`) |
+| `pipeline/.env` | `STRIPE_SECRET_TESTKEY` | test: `sk_test_…` (voor `storylingo.py stripe`) |
+| `pipeline/.env` | `STRIPE_SECRET_KEY` | live: `sk_live_…` (alleen voor `storylingo.py stripe live`) |
 | `web/.env.local` | `STRIPE_SECRET_KEY` | test: `sk_test_…` |
 | `web/.env.local` | `STRIPE_WEBHOOK_SECRET` | lokaal: wat `stripe listen` toont |
 | `web/.env.local` | `SUPABASE_SECRET_KEY` | de serversleutel van de lokale Supabase (staat er al) |
@@ -61,7 +62,7 @@ Doe 1 t/m 5 eerst in de testomgeving, test, en daarna nog eens live.
 
 1. Vul `web/legal/company.ts` in (bedrijfsnaam, KvK, btw-nummer, adres) en laat de voorwaarden en privacyverklaring
    nalezen.
-2. `storylingo.py stripe live` met de live-sleutel in `pipeline/.env` (zet daarna de testsleutel terug).
+2. `storylingo.py stripe live` (gebruikt `STRIPE_SECRET_KEY` uit `pipeline/.env`).
 3. In Vercel de live-sleutels en `NEXT_PUBLIC_PAYMENTS=1`; webhook live aanmaken; redeploy.
 4. Eén echte betaling van jezelf, en meteen opzeggen in het portaal: kijk met `storylingo.py purchases` mee.
 
