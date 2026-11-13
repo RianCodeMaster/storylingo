@@ -5,7 +5,7 @@
 export const COMPANY = {
   name: "[bedrijfsnaam]", // the name as registered at the KvK
   kvk: "[KvK-nummer]",
-  vat: "[btw-nummer]",
+  vat: "[btw-nummer]", // the btw-id (NL…B01); "" leaves it out of the texts
   address: "[adres, postcode, plaats]",
   email: "info@qissio.com",
   country: "Nederland",

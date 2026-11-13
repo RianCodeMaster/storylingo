@@ -17,7 +17,11 @@ function inline(line: string): ReactNode[] {
 export function Legal({ base, which }: { base: string; which: "terms" | "privacy" }) {
   const texts = LEGAL[base] ?? LEGAL.en;
   const values = { ...COMPANY, updated: LEGAL_UPDATED };
-  const blocks = fill(texts[which], values).split(/\n\s*\n/);
+  // No VAT number filled in: leave that part of the sentence out instead of showing an empty one.
+  const text = COMPANY.vat
+    ? texts[which]
+    : texts[which].replace(/[,،]\s*(btw-nummer|VAT number|الرقم الضريبي) \{vat\}/g, "");
+  const blocks = fill(text, values).split(/\n\s*\n/);
   return (
     <main className="legal">
       <h1>{texts.titles[which]}</h1>
