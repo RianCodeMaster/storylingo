@@ -2,10 +2,11 @@
 #
 # status:     draft (only you) / coming (a waitlist: who wants it leaves an e-mail) / live (for sale)
 # kind:       what the app does with it. stories: the published stories with one of `tags`, only for owners.
+#             membership: Plus, everything of its target languages; `free` says what is free without it (plus-de.yaml)
 #             phrases, exam: planned (draft or coming only, until the app can show them)
 # editions:   where it is offered; tracks: whose welcome shows it as well (e.g. the exam ad's page)
 # visibility: everyone (a tile for all, locked with its price) / owners (invisible until someone has it)
-# price:      amount in cents; interval month or year for a subscription, none for paid once
+# prices:     one or more: amount in cents; interval month or year for a subscription, none for paid once
 # texts:      per base language of its editions: title, one or two lines, an icon
 # After editing: storylingo.py sync, then storylingo.py check.
 
@@ -15,7 +16,8 @@ kind: exam
 editions: [almanya]
 tracks: [b1-examen]
 visibility: everyone
-price: {amount: 1900, currency: eur}
+prices:
+  - {amount: 1900, currency: eur}
 texts:
   ar:
     icon: 🎓

@@ -10,17 +10,198 @@
       "b1-examen"
     ],
     "visibility": "everyone",
-    "price": {
-      "amount": 1900,
-      "currency": "eur",
-      "interval": null
-    },
+    "prices": [
+      {
+        "amount": 1900,
+        "currency": "eur",
+        "interval": null
+      }
+    ],
     "tags": [],
+    "free": null,
     "texts": {
       "ar": {
         "title": "تدريب امتحان DTZ",
         "text": "تمارين بشكل الامتحان، الاستماع والقراءة وكتابة رسالة والمحادثة. اترك بريدك الإلكتروني وسنخبرك أولًا.",
-        "icon": "🎓"
+        "icon": "🎓",
+        "perks": []
+      }
+    }
+  },
+  "plus-de": {
+    "slug": "plus-de",
+    "status": "live",
+    "kind": "membership",
+    "editions": [
+      "almanya",
+      "duits",
+      "german"
+    ],
+    "tracks": [],
+    "visibility": "everyone",
+    "prices": [
+      {
+        "amount": 699,
+        "currency": "eur",
+        "interval": "month"
+      },
+      {
+        "amount": 3900,
+        "currency": "eur",
+        "interval": "year"
+      }
+    ],
+    "tags": [],
+    "free": {
+      "stories_per_level": 2,
+      "stories_per_day": 1,
+      "phrases_per_level": 30,
+      "phrases_per_day": 10,
+      "reviews_per_day": 20
+    },
+    "texts": {
+      "ar": {
+        "title": "StoryLingo Plus",
+        "text": "كل القصص والجمل بلا حدود، كل يوم.",
+        "icon": "⭐",
+        "perks": [
+          "كل القصص في كل المستويات، وقصص جديدة باستمرار",
+          "قصص بلا حد يومي",
+          "كل الجمل، 200 جملة لكل مستوى",
+          "مراجعة الكلمات بلا حدود"
+        ]
+      },
+      "nl": {
+        "title": "StoryLingo Plus",
+        "text": "Alle verhalen en zinnen, zonder limiet, elke dag.",
+        "icon": "⭐",
+        "perks": [
+          "Alle verhalen op elk niveau, en steeds nieuwe",
+          "Geen daglimiet op verhalen",
+          "Alle zinnen, 200 per niveau",
+          "Onbeperkt woorden herhalen"
+        ]
+      },
+      "en": {
+        "title": "StoryLingo Plus",
+        "text": "Every story and phrase, no limits, every day.",
+        "icon": "⭐",
+        "perks": [
+          "Every story at every level, and new ones all the time",
+          "No daily limit on stories",
+          "Every phrase, 200 per level",
+          "Unlimited word review"
+        ]
+      }
+    }
+  },
+  "plus-es": {
+    "slug": "plus-es",
+    "status": "live",
+    "kind": "membership",
+    "editions": [
+      "espana",
+      "spaans",
+      "spanish"
+    ],
+    "tracks": [],
+    "visibility": "everyone",
+    "prices": [
+      {
+        "amount": 699,
+        "currency": "eur",
+        "interval": "month"
+      },
+      {
+        "amount": 3900,
+        "currency": "eur",
+        "interval": "year"
+      }
+    ],
+    "tags": [],
+    "free": {
+      "stories_per_level": 2,
+      "stories_per_day": 1,
+      "phrases_per_level": 30,
+      "phrases_per_day": 10,
+      "reviews_per_day": 20
+    },
+    "texts": {
+      "ar": {
+        "title": "StoryLingo Plus",
+        "text": "كل القصص والجمل بلا حدود، كل يوم.",
+        "icon": "⭐",
+        "perks": [
+          "كل القصص في كل المستويات، وقصص جديدة باستمرار",
+          "قصص بلا حد يومي",
+          "كل الجمل، 200 جملة لكل مستوى",
+          "مراجعة الكلمات بلا حدود"
+        ]
+      },
+      "nl": {
+        "title": "StoryLingo Plus",
+        "text": "Alle verhalen en zinnen, zonder limiet, elke dag.",
+        "icon": "⭐",
+        "perks": [
+          "Alle verhalen op elk niveau, en steeds nieuwe",
+          "Geen daglimiet op verhalen",
+          "Alle zinnen, 200 per niveau",
+          "Onbeperkt woorden herhalen"
+        ]
+      },
+      "en": {
+        "title": "StoryLingo Plus",
+        "text": "Every story and phrase, no limits, every day.",
+        "icon": "⭐",
+        "perks": [
+          "Every story at every level, and new ones all the time",
+          "No daily limit on stories",
+          "Every phrase, 200 per level",
+          "Unlimited word review"
+        ]
+      }
+    }
+  },
+  "plus-nl": {
+    "slug": "plus-nl",
+    "status": "live",
+    "kind": "membership",
+    "editions": [
+      "hollanda"
+    ],
+    "tracks": [],
+    "visibility": "everyone",
+    "prices": [
+      {
+        "amount": 699,
+        "currency": "eur",
+        "interval": "month"
+      },
+      {
+        "amount": 3900,
+        "currency": "eur",
+        "interval": "year"
+      }
+    ],
+    "tags": [],
+    "free": {
+      "stories_per_level": 2,
+      "stories_per_day": 1,
+      "phrases_per_level": 30,
+      "phrases_per_day": 10,
+      "reviews_per_day": 20
+    },
+    "texts": {
+      "ar": {
+        "title": "StoryLingo Plus",
+        "text": "كل القصص والجمل بلا حدود، كل يوم.",
+        "icon": "⭐",
+        "perks": [
+          "كل القصص في كل المستويات، وقصص جديدة باستمرار",
+          "قصص بلا حد يومي",
+          "كل الجمل، 200 جملة لكل مستوى",
+          "مراجعة الكلمات بلا حدود"
+        ]
       }
     }
   }

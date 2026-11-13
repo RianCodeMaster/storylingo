@@ -237,5 +237,20 @@
     "logout": "Uitloggen",
     "logoutNote": "Je account houdt alles. Op dit toestel begin je daarna opnieuw, tot je weer inlogt.",
     "nudge": "Bewaar je voortgang met je e-mailadres"
+  },
+  "plus": {
+    "chip": "⭐ Plus",
+    "cta": "Bekijk Plus",
+    "storyToday": "Je nieuwe verhaal van vandaag zit erop. Morgen komt er weer een, of ga nu meteen verder met Plus.",
+    "replay": "Een verhaal dat je al kent, kun je altijd opnieuw spelen.",
+    "locked": "Dit verhaal zit in Plus.",
+    "lockedLevel": "De andere verhalen van dit niveau zitten in Plus.",
+    "phrasesToday": "Je {n} nieuwe zinnen van vandaag zitten erop. Morgen weer {n}, of onbeperkt met Plus.",
+    "phrasesLevel": "De eerste {free} zinnen van dit niveau zijn gratis. Met Plus heb je alle {total}.",
+    "reviewsToday": "Je hebt vandaag {n} woorden herhaald, het maximum zonder Plus. Morgen verder, of onbeperkt met Plus.",
+    "afterStory": "Goed bezig! Met Plus heb je alle verhalen en geen daglimiet.",
+    "perMonthOf": "{price} per maand",
+    "yearly": "{price} per jaar · {monthly} per maand",
+    "best": "Voordeligst"
   }
 }

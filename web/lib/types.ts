@@ -62,6 +62,7 @@ export interface Story {
   summary: string | null;
   cefr_level: string;
   language_code: string;
+  product: string | null; // a pack's story: no daily limit
   targets: Target[];
   words: CoreWord[];
   scenes: Scene[];
@@ -74,5 +75,7 @@ export interface StoryCard {
   cefr_level: string;
   language_code: string;
   tags: string[];
+  free: boolean; // in the free part of its language (lib/plus.ts)
+  product: string | null; // the pack it belongs to, if any
   cover: string | null; // the picture of the first scene
 }

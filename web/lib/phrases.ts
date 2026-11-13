@@ -40,6 +40,18 @@ export async function loadPhrases(edition: Edition, level: string): Promise<Phra
   });
 }
 
+/** How many phrases a level has in all, also the ones behind Plus (view phrase_counts). */
+export async function phraseTotal(target: string, level: string): Promise<number> {
+  const { data, error } = await supabase()
+    .from("phrase_counts")
+    .select("total")
+    .eq("language_code", target)
+    .eq("level", level)
+    .maybeSingle();
+  if (error) throw error;
+  return data?.total ?? 0;
+}
+
 /** Which phrases of a target language this learner has practised (they are in spaced repetition). */
 export async function learnedPhrases(target: string): Promise<Set<string>> {
   const { data, error } = await supabase()

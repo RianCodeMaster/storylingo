@@ -1,11 +1,12 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { StoryRows } from "@/components/Stories";
 import TopBar from "@/components/TopBar";
 import { Waitlist } from "@/components/Waitlist";
 import { useI18n } from "@/lib/i18n";
-import { formatPrice, ownedProducts, PRODUCTS, visibleProducts } from "@/lib/products";
+import { formatPrice, ownedProducts, type Price, PRODUCTS, visibleProducts } from "@/lib/products";
 import { finishedStories, listStories } from "@/lib/story";
 import { ensureLearner } from "@/lib/supabase";
 import type { StoryCard } from "@/lib/types";
@@ -16,7 +17,7 @@ import type { StoryCard } from "@/lib/types";
  * learner leaves an e-mail (the waitlist doubles as the list of people ready to buy).
  */
 export function ProductPage({ slug }: { slug: string }) {
-  const { lang, dict, fill, edition } = useI18n();
+  const { lang, dict, fill, edition, home } = useI18n();
   const [owned, setOwned] = useState<Set<string> | null>(null);
   const [stories, setStories] = useState<StoryCard[] | null>(null);
   const [finished, setFinished] = useState<Set<string>>(new Set());
@@ -37,6 +38,15 @@ export function ProductPage({ slug }: { slug: string }) {
   }, [lang, edition, slug, product]);
 
   const text = product?.texts[edition.base];
+  const priceLine = (price: Price) =>
+    price.interval === "month"
+      ? fill(dict.plus.perMonthOf, { price: formatPrice(price, lang) })
+      : price.interval === "year"
+        ? fill(dict.plus.yearly, {
+            price: formatPrice(price, lang),
+            monthly: formatPrice({ ...price, amount: Math.round(price.amount / 12) }, lang),
+          })
+        : `${formatPrice(price, lang)} · ${dict.product.once}`;
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
   if (!owned) return <main><p className="muted">{dict.common.loading}</p></main>;
   // Not offered here, or not for this learner (a draft, an owners-only product they do not have).
@@ -50,23 +60,30 @@ export function ProductPage({ slug }: { slug: string }) {
   }
 
   const has = owned.has(slug);
-  const price = product.price;
-  const per = price?.interval ? dict.product[price.interval] : dict.product.once;
+  const forSale = product.status === "live" && product.prices.length > 0;
   return (
     <main>
       <TopBar title={text.title} />
       <section className="card product-head">
         <span className="product-icon">{text.icon}</span>
         <p>{text.text}</p>
-        {has ? (
-          <span className="badge">{dict.product.owned}</span>
-        ) : (
-          price && product.status === "live" && <strong>{formatPrice(price, lang)} · {per}</strong>
-        )}
+        {has && <span className="badge">{dict.product.owned}</span>}
       </section>
 
+      {text.perks.length > 0 && (
+        <ul className="perks">
+          {text.perks.map((perk) => (
+            <li key={perk}>✓ {perk}</li>
+          ))}
+        </ul>
+      )}
+
       {has ? (
-        product.kind !== "stories" ? (
+        product.kind === "membership" ? (
+          <Link className="cta" href={home}>
+            {dict.nav.home} <span className="arrow">→</span>
+          </Link>
+        ) : product.kind !== "stories" ? (
           // A kind the app cannot show yet (exam, phrases): bought or given ahead of its content.
           <p className="card">{dict.product.empty}</p>
         ) : !stories ? (
@@ -77,11 +94,17 @@ export function ProductPage({ slug }: { slug: string }) {
             {stories.length ? <StoryRows stories={stories} finished={finished} /> : <p className="card">{dict.product.empty}</p>}
           </>
         )
-      ) : product.status === "live" && price ? (
+      ) : forSale ? (
         <>
-          <button className="cta" disabled>
-            {fill(dict.product.buy, { price: formatPrice(price, lang) })}
-          </button>
+          {/* Every price as an option; the yearly one shows what it comes to per month. Paying comes with Stripe. */}
+          <div className="prices">
+            {product.prices.map((price) => (
+              <button key={`${price.interval}`} className="price-option" disabled>
+                {price.interval === "year" && product.prices.length > 1 && <span className="pill">{dict.plus.best}</span>}
+                <strong>{priceLine(price)}</strong>
+              </button>
+            ))}
+          </div>
           <Waitlist product={product} line={dict.product.payingSoon} />
         </>
       ) : (

@@ -130,21 +130,20 @@ def sync_products(products: dict) -> list[str]:
     """
     changes = []
     with connect() as conn, conn.cursor() as cur:
-        cur.execute("select slug, status, kind, visibility, editions, price_amount, price_currency, price_interval from products")
-        old = {r[0]: r[1:] for r in cur.fetchall()}
+        cur.execute("select slug, status, kind, visibility, editions, prices, targets, free from products")
+        old = {r[0]: (r[1], r[2], r[3], r[4], r[5], sorted(r[6]), r[7]) for r in cur.fetchall()}
         for slug, p in products.items():
-            price = p.price
-            row = (p.status, p.kind, p.visibility, p.editions, price and price.amount, price and price.currency,
-                   price and price.interval)
+            row = (p.status, p.kind, p.visibility, p.editions, [x.model_dump() for x in p.prices], sorted(p.targets()),
+                   p.free.model_dump() if p.free else None)
             if old.pop(slug, None) == row:
                 continue
             cur.execute(
-                """insert into products (slug, status, kind, visibility, editions, price_amount, price_currency,
-                                         price_interval) values (%s, %s, %s, %s, %s, %s, %s, %s)
+                """insert into products (slug, status, kind, visibility, editions, prices, targets, free)
+                   values (%s, %s, %s, %s, %s, %s, %s, %s)
                    on conflict (slug) do update set status = excluded.status, kind = excluded.kind,
-                     visibility = excluded.visibility, editions = excluded.editions, price_amount = excluded.price_amount,
-                     price_currency = excluded.price_currency, price_interval = excluded.price_interval""",
-                (slug, *row),
+                     visibility = excluded.visibility, editions = excluded.editions, prices = excluded.prices,
+                     targets = excluded.targets, free = excluded.free""",
+                (slug, *row[:4], Jsonb(row[4]), row[5], Jsonb(row[6]) if row[6] else None),
             )
             changes.append(f"product {slug}")
         for slug, (status, *_) in old.items():
@@ -160,6 +159,19 @@ def sync_products(products: dict) -> list[str]:
             if owner != current:
                 cur.execute("update stories set product = %s where id = %s", (owner, story_id))
                 changes.append(f"story {slug}: " + (f"now part of {owner}" if owner else f"no longer part of {current}"))
+        # Which stories are free: in a language with a membership (not a draft), the first `stories_per_level` per
+        # level, in the order learners meet them (as the app lists them: by publication); elsewhere all of them.
+        limits = {t: p.free.stories_per_level for p in products.values()
+                  if p.kind == "membership" and p.status != "draft" and p.free for t in p.targets()}
+        cur.execute("""select id, slug, language_code, cefr_level, free from stories
+                       where status = 'published' and product is null order by published_at, slug""")
+        rank: dict[tuple[str, str], int] = {}
+        for story_id, slug, language, level, current in cur.fetchall():
+            n = rank[language, level] = rank.get((language, level), 0) + 1
+            free = language not in limits or n <= limits[language]
+            if free != current:
+                cur.execute("update stories set free = %s where id = %s", (free, story_id))
+                changes.append(f"story {slug}: " + ("free" if free else "Plus"))
     return changes
 
 

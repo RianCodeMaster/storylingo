@@ -2,10 +2,13 @@
 
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
+import { tierOf, usageToday } from "@/lib/plus";
+import { ownedProducts, type Product } from "@/lib/products";
 import { type Grade, loadDue, nextState, type ReviewCard, saveGrade } from "@/lib/review";
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner } from "@/lib/supabase";
 import TopBar from "./TopBar";
+import { Upsell } from "./Upsell";
 
 /** The three answers to "did you know it?", shared with the phrases section. */
 export const GRADES: { grade: Grade; className: string }[] = [
@@ -37,13 +40,19 @@ export default function Review() {
   const [revealed, setRevealed] = useState(false);
   const [tally, setTally] = useState({ again: 0, hard: 0, good: 0 });
   const [error, setError] = useState<string | null>(null);
+  // Without Plus a few cards a day; what is due beyond that waits for tomorrow (or Plus).
+  const [capped, setCapped] = useState<{ plus: Product | null; n: number } | null>(null);
 
   useEffect(() => {
     (async () => {
       setUserId(await ensureLearner(lang));
-      setQueue(await loadDue(lang, edition.target));
+      const [due, owned, today] = await Promise.all([loadDue(lang, edition.target), ownedProducts(), usageToday()]);
+      const tier = tierOf(edition, owned);
+      const left = tier.limits ? Math.max(0, tier.limits.reviews_per_day - today.reviews) : due.length;
+      if (due.length > left) setCapped({ plus: tier.plus, n: tier.limits?.reviews_per_day ?? 0 });
+      setQueue(due.slice(0, left));
     })().catch((e) => setError(String(e.message ?? e)));
-  }, [lang, edition.target]);
+  }, [lang, edition]);
 
   const card = queue?.[index];
 
@@ -69,14 +78,18 @@ export default function Review() {
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
   if (!queue) return <main><p className="muted">{dict.review.loading}</p></main>;
 
+  const capNote = capped && <Upsell plus={capped.plus} line={fill(dict.plus.reviewsToday, { n: capped.n })} />;
+
   if (queue.length === 0) {
     return (
       <main>
         {bar}
-        <div className="card">
-          <p className="story-text">{dict.review.nothing}</p>
-          <p className="muted">{dict.review.nothingHint}</p>
-        </div>
+        {capNote || (
+          <div className="card">
+            <p className="story-text">{dict.review.nothing}</p>
+            <p className="muted">{dict.review.nothingHint}</p>
+          </div>
+        )}
       </main>
     );
   }
@@ -90,6 +103,7 @@ export default function Review() {
           <p className="story-text">{fill(dict.review.tally, tally)}</p>
           <p className="muted">{dict.review.doneHint}</p>
         </div>
+        {capNote}
       </main>
     );
   }

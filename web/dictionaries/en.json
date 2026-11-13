@@ -237,5 +237,20 @@
     "logout": "Log out",
     "logoutNote": "Your account keeps everything. On this device you start fresh until you log in again.",
     "nudge": "Keep your progress with your e-mail address"
+  },
+  "plus": {
+    "chip": "⭐ Plus",
+    "cta": "See Plus",
+    "storyToday": "Today's new story is done. Another one comes tomorrow, or carry on right now with Plus.",
+    "replay": "You can always replay a story you already know.",
+    "locked": "This story is in Plus.",
+    "lockedLevel": "The other stories of this level are in Plus.",
+    "phrasesToday": "Today's {n} new phrases are done. Another {n} tomorrow, or unlimited with Plus.",
+    "phrasesLevel": "The first {free} phrases of this level are free. With Plus you get all {total}.",
+    "reviewsToday": "You reviewed {n} words today, the most without Plus. Carry on tomorrow, or unlimited with Plus.",
+    "afterStory": "Well done! With Plus you get every story and no daily limit.",
+    "perMonthOf": "{price} per month",
+    "yearly": "{price} per year · {monthly} per month",
+    "best": "Best value"
   }
 }

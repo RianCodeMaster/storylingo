@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ProductTile } from "@/components/ProductTile";
+import { PlusChip, Upsell } from "@/components/Upsell";
 import { Waitlist } from "@/components/Waitlist";
 import { currentAccount } from "@/lib/account";
 import { arrival, recordVisit } from "@/lib/attribution";
@@ -11,6 +12,7 @@ import { trackOf } from "@/lib/editions";
 import { type Enrollment, getEnrollment, LEVELS, type Level, setLevel } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
 import { phraseProgress, type PhraseProgress } from "@/lib/phrases";
+import { isLocked, storyLimitReached, tierOf, type Usage, usageToday } from "@/lib/plus";
 import { ownedProducts, trackProducts, visibleProducts } from "@/lib/products";
 import { countDue } from "@/lib/review";
 import { finishedStories, listStories } from "@/lib/story";
@@ -95,17 +97,19 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [finished, setFinished] = useState<Set<string>>(new Set());
   const [owned, setOwned] = useState<Set<string>>(new Set());
   const [anonymous, setAnonymous] = useState(true);
+  const [usage, setUsage] = useState<Usage | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     (async () => {
       const learner = await ensureLearner(lang);
       setUserId(learner);
-      const [enrolled, dueCount, done, list, phraseCounts, mine] = await Promise.all([
+      const [enrolled, dueCount, done, list, phraseCounts, mine, today] = await Promise.all([
         getEnrollment(edition.slug), countDue(edition.target), finishedStories(), listStories(edition),
-        phraseProgress(edition.target), ownedProducts(),
+        phraseProgress(edition.target), ownedProducts(), usageToday(),
       ]);
       setOwned(mine);
+      setUsage(today);
       setAnonymous((await currentAccount())?.anonymous ?? true);
       if (!enrolled) void recordVisit(learner, edition.slug, arrival(edition.slug, trackSlug));
       setPhrases(phraseCounts);
@@ -140,7 +144,11 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   }
 
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
-  if (!stories || enrollment === undefined) return <main><p className="muted">{dict.common.loading}</p></main>;
+  if (!stories || enrollment === undefined || !usage) return <main><p className="muted">{dict.common.loading}</p></main>;
+
+  // Plus: what is locked for this learner, and whether today's free new story is used.
+  const tier = tierOf(edition, owned);
+  const locked = (s: StoryCard) => isLocked(s, tier, owned);
 
   // The levels this edition offers (content/editions/<slug>.yaml), else those it has stories for.
   const offered = LEVELS.filter((l) => edition.stories.levels.includes(l));
@@ -152,7 +160,7 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     const start = track?.level && levels.includes(track.level as Level) ? track.level : levels[0];
     const level = choice ?? start ?? "A1";
     // Straight into a story at the chosen level (the track's own first); without one yet, to the start screen.
-    const first = preferring(stories, track?.prefer ?? []).find((s) => s.cefr_level === level);
+    const first = preferring(stories, track?.prefer ?? []).find((s) => s.cefr_level === level && !locked(s));
     return (
       <main className="welcome">
         <p className="edition-name">{edition.name}</p>
@@ -217,7 +225,10 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const track = trackOf(edition, enrollment.track);
   const group = preferring(stories, track?.prefer ?? []).filter((s) => s.cefr_level === mine);
   const done = group.filter((s) => finished.has(s.id)).length;
-  const next = group.find((s) => !finished.has(s.id));
+  const next = group.find((s) => !finished.has(s.id) && !locked(s));
+  // A new story while today's free one is used: offer Plus instead (one already started can always be replayed).
+  const waitForTomorrow = !!next && !usage.startedEver.has(next.id) && storyLimitReached(tier, usage);
+  const lockedLeft = group.some((s) => !finished.has(s.id) && locked(s));
   const higher = levelsOf(stories).find((l) => LEVELS.indexOf(l) > LEVELS.indexOf(mine as Level));
 
   // The phrases section stops at B1: a higher level practises the B1 phrases.
@@ -229,13 +240,19 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
       <header className="dash-head">
         <span className="edition-name">{edition.name}</span>
         <LevelChip levels={levels} mine={mine} name={levelName} onChoose={(l) => void choose(l)} />
+        {tier.plus && !tier.has && <PlusChip plus={tier.plus} />}
         <Link href={`${home}/account`} className="dash-account" aria-label={dict.account.title}>
           👤
         </Link>
       </header>
 
-      {/* One clear next step: the next story at the learner's level. */}
-      {next ? (
+      {/* One clear next step: the next story at the learner's level (or, past the free part, the way to Plus). */}
+      {waitForTomorrow ? (
+        <>
+          <Upsell plus={tier.plus} line={dict.plus.storyToday} />
+          <p className="muted small">{dict.plus.replay}</p>
+        </>
+      ) : next ? (
         <Link href={`${home}/story/${next.id}`} className="hero">
           {next.cover && (
             // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
@@ -248,6 +265,8 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
             <span className="hero-play">{dict.home.play}</span>
           </div>
         </Link>
+      ) : lockedLeft ? (
+        <Upsell plus={tier.plus} line={dict.plus.lockedLevel} />
       ) : group.length === 0 ? (
         <p className="card">{fill(dict.level.noneYet, { level: levelName(mine) })}</p>
       ) : higher ? (

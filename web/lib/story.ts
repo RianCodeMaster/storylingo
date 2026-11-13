@@ -17,12 +17,12 @@ interface SceneRow {
   questions: (Omit<Question, "audio_url"> & { audio: AssetRef })[];
 }
 
-interface CardRow extends Omit<StoryCard, "summary" | "cover"> {
-  story_localizations: { summary: string | null }[];
-  scenes: { image: AssetRef }[];
+interface CardRow extends Omit<StoryCard, "cover"> {
+  cover_id: string | null;
+  cover_path: string | null;
 }
 
-interface Row extends Omit<StoryCard, "summary" | "cover" | "tags"> {
+interface Row extends Omit<StoryCard, "summary" | "cover" | "tags" | "free"> {
   story_localizations: { summary: string | null }[];
   story_targets: {
     lexemes: One<{
@@ -41,28 +41,25 @@ interface Row extends Omit<StoryCard, "summary" | "cover" | "tags"> {
 /**
  * The published stories of an edition: its target language, one of its tags and levels, and a layer in its base
  * language. Easiest first, so the first one is where a new learner starts. `tags`: a product's stories instead.
+ * Locked ones too (view story_cards: title, summary, cover only), so the app can show what Plus or a pack opens;
+ * their content stays closed in the database. `free` and `product` tell which is which (lib/plus.ts, isLocked).
  */
 export async function listStories(edition: Edition, tags: string[] = edition.stories.tags): Promise<StoryCard[]> {
   const { data, error } = await supabase()
-    .from("stories")
-    .select(
-      `id, title, cefr_level, language_code, tags, story_localizations!inner ( summary ),
-       scenes ( position, image:assets!image_asset_id ( id, storage_path ) )`,
-    )
-    .eq("story_localizations.base_language", edition.base)
+    .from("story_cards")
+    .select("id, title, cefr_level, language_code, tags, free, product, summary, cover_id, cover_path")
+    .eq("base_language", edition.base)
     .eq("language_code", edition.target)
     .overlaps("tags", tags)
     .in("cefr_level", edition.stories.levels)
     .order("cefr_level")
     .order("published_at")
-    .order("position", { referencedTable: "scenes" })
-    .limit(1, { referencedTable: "scenes" })
+    .order("slug")
     .returns<CardRow[]>();
   if (error) throw error;
-  return data.map(({ story_localizations, scenes, ...s }) => ({
+  return data.map(({ cover_id, cover_path, ...s }) => ({
     ...s,
-    summary: story_localizations[0]?.summary ?? null,
-    cover: assetUrl(scenes[0]?.image ?? null),
+    cover: assetUrl(cover_id && cover_path ? { id: cover_id, storage_path: cover_path } : null),
   }));
 }
 
@@ -84,7 +81,7 @@ export async function loadStory(id: string, base: string): Promise<Story> {
   const { data, error } = await supabase()
     .from("stories")
     .select(
-      `id, title, cefr_level, language_code,
+      `id, title, cefr_level, language_code, product,
        story_localizations ( summary ),
        story_targets ( lexemes ( id, text, lexeme_glosses ( gloss, note ),
                                  concepts ( gestures ( emoji, gesture_localizations ( description ) ) ) ) ),
@@ -151,9 +148,9 @@ export async function loadStory(id: string, base: string): Promise<Story> {
       audio_url: assetUrl(l.audio),
     }));
 
-  const { id: storyId, title, cefr_level, language_code } = data;
+  const { id: storyId, title, cefr_level, language_code, product } = data;
   const summary = data.story_localizations[0]?.summary ?? null;
-  return { id: storyId, title, cefr_level, language_code, summary, targets, words, scenes };
+  return { id: storyId, title, cefr_level, language_code, product, summary, targets, words, scenes };
 }
 
 /** A play session, in the edition it happened in (a story can be in several editions). */

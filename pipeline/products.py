@@ -21,9 +21,10 @@ WEB_FILE = ROOT / "web" / "lib" / "products.json"
 
 Status = Literal["draft", "coming", "live"]
 # What the app can do with a product. stories: published stories with one of the product's tags, only for owners.
+# membership (Plus): everything of its target languages without limits; without it the `free` limits apply.
 # phrases and exam are planned: such a product can be draft or coming (a waitlist), not yet live.
-Kind = Literal["stories", "phrases", "exam"]
-BUILT: set[str] = {"stories"}
+Kind = Literal["stories", "membership", "phrases", "exam"]
+BUILT: set[str] = {"stories", "membership"}
 
 
 class Price(BaseModel):
@@ -37,6 +38,19 @@ class Text(BaseModel):
     title: str
     text: str            # one or two lines: what it gives
     icon: str = "🎁"
+    perks: list[str] = []   # what you get, one line each (the product page lists them)
+
+
+class Free(BaseModel):
+    """
+    What a learner without the membership gets of its target languages (docs/plus.md). Per level the first stories
+    and phrases (in learning order); per day a few new ones. Replaying a story or a phrase already learned is free.
+    """
+    stories_per_level: int = 2
+    stories_per_day: int = 1
+    phrases_per_level: int = 30
+    phrases_per_day: int = 10
+    reviews_per_day: int = 20
 
 
 class Product(BaseModel):
@@ -46,8 +60,9 @@ class Product(BaseModel):
     editions: list[str]                           # where it is offered
     tracks: list[str] = []                        # tracks (of those editions) whose welcome shows it
     visibility: Literal["everyone", "owners"] = "everyone"   # owners: invisible until someone has it
-    price: Price | None = None
+    prices: list[Price] = []                      # one or more: e.g. per month and per year
     tags: list[str] = []                          # kind stories: the stories that belong to it
+    free: Free | None = None                      # kind membership: what is free without it
     texts: dict[str, Text]                        # per base language of its editions
 
     @field_validator("slug")
@@ -68,8 +83,15 @@ class Product(BaseModel):
         tracks = {t.slug for e in self.editions for t in known[e].tracks}
         if missing := set(self.tracks) - tracks:
             raise ValueError(f"tracks {sorted(missing)} are not tracks of {self.editions}")
-        if self.status == "live" and not self.price:
+        if self.status == "live" and not self.prices:
             raise ValueError("a live product needs a price")
+        if self.kind == "membership":
+            if not self.free:
+                raise ValueError("kind membership needs `free`: what learners get without it")
+            # Nobody may meet the limits without being offered the way past them.
+            missing = [e.slug for e in known.values() if e.target in self.targets() and e.slug not in self.editions]
+            if missing:
+                raise ValueError(f"a membership covers whole target languages: add editions {missing}")
         if self.status == "live" and self.kind not in BUILT:
             raise ValueError(f"kind '{self.kind}' is not built yet: it can be draft or coming, not live")
         if self.kind == "stories" and not self.tags:
@@ -94,6 +116,14 @@ def all_products() -> dict[str, Product]:
         if product.slug != path.stem:
             raise SystemExit(f"{path.relative_to(ROOT)}: slug '{product.slug}' must match the file name")
         products[product.slug] = product
+    # One membership per target language: it decides what is free there.
+    members: dict[str, str] = {}
+    for p in products.values():
+        if p.kind == "membership":
+            for target in p.targets():
+                if target in members:
+                    raise SystemExit(f"memberships '{members[target]}' and '{p.slug}' both cover '{target}'")
+                members[target] = p.slug
     # A story belongs to at most one product.
     seen: dict[tuple[str, str], str] = {}
     for p in products.values():
@@ -103,6 +133,11 @@ def all_products() -> dict[str, Product]:
                     raise SystemExit(f"products '{seen[target, tag]}' and '{p.slug}' both claim '{tag}' stories in '{target}'")
                 seen[target, tag] = p.slug
     return products
+
+
+def membership(target: str) -> Product | None:
+    """The membership (Plus) of a target language, if it has one: then the free limits apply there."""
+    return next((p for p in all_products().values() if p.kind == "membership" and target in p.targets()), None)
 
 
 def web_json() -> str:

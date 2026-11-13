@@ -8,16 +8,32 @@ import { supabase } from "./supabase";
  * A product is something on top of an edition; its kind says what the app does with it (docs/producten.md).
  * What is shown is decided here, what may be read is decided by the database (only owners can read its stories).
  */
+export interface Price {
+  amount: number;
+  currency: string;
+  interval: "month" | "year" | null;
+}
+
+/** What is free without the membership (Plus) of a language: per level, and new per day. */
+export interface Limits {
+  stories_per_level: number;
+  stories_per_day: number;
+  phrases_per_level: number;
+  phrases_per_day: number;
+  reviews_per_day: number;
+}
+
 export interface Product {
   slug: string;
   status: "draft" | "coming" | "live";
-  kind: "stories" | "phrases" | "exam";
+  kind: "stories" | "membership" | "phrases" | "exam";
   editions: string[];
   tracks: string[];
   visibility: "everyone" | "owners";
-  price: { amount: number; currency: string; interval: "month" | "year" | null } | null;
+  prices: Price[];
   tags: string[];
-  texts: Record<string, { title: string; text: string; icon: string }>;
+  free: Limits | null;
+  texts: Record<string, { title: string; text: string; icon: string; perks: string[] }>;
 }
 
 export const PRODUCTS = products as Record<string, Product>;
@@ -50,7 +66,15 @@ export async function ownedProducts(): Promise<Set<string>> {
   return new Set(data.filter((p) => !p.valid_until || Date.parse(p.valid_until) > now).map((p) => p.product as string));
 }
 
+/**
+ * The membership (Plus) of an edition, if it has one that is not a draft. Only then do the free limits apply (the
+ * database follows the same rule: free_limit() ignores draft memberships).
+ */
+export const plusOf = (edition: Edition) =>
+  Object.values(PRODUCTS).find((p) => p.kind === "membership" && p.editions.includes(edition.slug) && p.status !== "draft") ??
+  null;
+
 /** "19,00 €" or "٥٫٠٠ €" in the learner's language, with "/ month" added by the caller for a subscription. */
-export function formatPrice(price: NonNullable<Product["price"]>, lang: string): string {
+export function formatPrice(price: Price, lang: string): string {
   return new Intl.NumberFormat(lang, { style: "currency", currency: price.currency.toUpperCase() }).format(price.amount / 100);
 }

@@ -1,0 +1,45 @@
+# Plus for German: everything of the language without limits (docs/plus.md). Without it the `free` limits apply in
+# every edition below. Change a number here, then storylingo.py sync (and --cloud): the app and the database follow.
+
+slug: plus-de
+status: live
+kind: membership
+editions: [almanya, duits, german]
+visibility: everyone
+prices:
+  - {amount: 699, currency: eur, interval: month}
+  - {amount: 3900, currency: eur, interval: year}
+free:
+  stories_per_level: 2     # per level the first 2 stories (in the order the app shows them)
+  stories_per_day: 1       # of which 1 new story a day; replaying a story is always free
+  phrases_per_level: 30    # per level the first 30 phrases
+  phrases_per_day: 10      # of which 10 new a day
+  reviews_per_day: 20      # word review: 20 cards a day
+texts:
+  ar:
+    icon: ⭐
+    title: StoryLingo Plus
+    text: كل القصص والجمل بلا حدود، كل يوم.
+    perks:
+      - كل القصص في كل المستويات، وقصص جديدة باستمرار
+      - قصص بلا حد يومي
+      - كل الجمل، 200 جملة لكل مستوى
+      - مراجعة الكلمات بلا حدود
+  nl:
+    icon: ⭐
+    title: StoryLingo Plus
+    text: Alle verhalen en zinnen, zonder limiet, elke dag.
+    perks:
+      - Alle verhalen op elk niveau, en steeds nieuwe
+      - Geen daglimiet op verhalen
+      - Alle zinnen, 200 per niveau
+      - Onbeperkt woorden herhalen
+  en:
+    icon: ⭐
+    title: StoryLingo Plus
+    text: Every story and phrase, no limits, every day.
+    perks:
+      - Every story at every level, and new ones all the time
+      - No daily limit on stories
+      - Every phrase, 200 per level
+      - Unlimited word review

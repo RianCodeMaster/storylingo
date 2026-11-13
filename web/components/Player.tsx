@@ -12,6 +12,7 @@ import { finishSession, recordAnswer, recordLookup, startSession } from "@/lib/s
 import type { GlossEntry, Question, Story, Target } from "@/lib/types";
 import InteractiveText, { WordSheet, type Tapped } from "./InteractiveText";
 import Shadowing, { pickLines } from "./Shadowing";
+import { AfterStoryPlus } from "./Upsell";
 import WordsIntro, { type WordResults } from "./WordsIntro";
 
 type Phase =
@@ -487,6 +488,8 @@ export default function Player({ story, userId, onRestart }: { story: Story; use
             ))}
           </div>
           {lookups > 0 && <p className="muted">{plural(dict.story.lookups, lookups)}</p>}
+          {/* Right after a success: the best moment to show what Plus adds (only to who does not have it). */}
+          <AfterStoryPlus />
           <Link href={home} className="cta">
             {dict.story.toStart} <span className="arrow">→</span>
           </Link>

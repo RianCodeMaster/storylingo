@@ -85,6 +85,9 @@ and `storylingo.py check` must end with "complete and in sync"; every problem it
   - New product: copy a file in `content/products/` → its content (kind `stories`: stories with its own tag) →
     `sync` → `check` (docs/producten.md). The database lets only owners read a product's stories (policy on
     `stories`, `owns()`); `grant` / `revoke` / `purchases` manage who has what.
+  - Free tier / Plus: one membership product per target language (`plus-de.yaml` …) holds the `free` limits and the
+    prices (docs/plus.md). Sync marks the first stories per level `free`; the database hides the rest without Plus
+    (`has_plus()`), caps new stories per day (`may_start_story()`), and `story_cards` shows titles of locked ones.
 - **Phrases section:** per target language 3 x 200 chunks (A1, A2, B1), the same in every edition with that target.
   A phrase is a lexeme (kind 'phrase') plus a `phrases` row (level, position): audio, meanings and spaced repetition
   come from the word machinery. Recipe: `phrases <lang> <level>` → read → `localize-phrases <lang> <base>` → `sync`

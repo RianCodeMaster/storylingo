@@ -4,12 +4,15 @@ import { useEffect, useState } from "react";
 import { useDevActions } from "@/lib/devtools";
 import { getEnrollment } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
-import { learnedPhrases, loadPhrases, type PhraseCard } from "@/lib/phrases";
+import { learnedPhrases, loadPhrases, type PhraseCard, phraseTotal } from "@/lib/phrases";
+import { type Tier, tierOf, type Usage, usageToday } from "@/lib/plus";
+import { ownedProducts } from "@/lib/products";
 import { type Grade, NEW_STATE, nextState, saveGrade, type SrsState } from "@/lib/review";
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner, supabase } from "@/lib/supabase";
 import { GRADES } from "./Review";
 import TopBar from "./TopBar";
+import { Upsell } from "./Upsell";
 
 const BATCH = 10;
 // The phrases section goes up to B1 (content/phrases/<language>/A1|A2|B1.yaml).
@@ -122,6 +125,9 @@ export default function Phrases() {
   const [phrases, setPhrases] = useState<PhraseCard[] | null>(null);
   const [learned, setLearned] = useState<Set<string>>(new Set());
   const [batch, setBatch] = useState<PhraseCard[] | null>(null);
+  const [total, setTotal] = useState(0);
+  const [tier, setTier] = useState<Tier | null>(null);
+  const [usage, setUsage] = useState<Usage | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   // Start at the learner's level in this edition (the phrases stop at B1), in the direction chosen last time.
@@ -160,9 +166,16 @@ export default function Phrases() {
   useEffect(() => {
     if (!level || batch) return;
     (async () => {
-      const [list, done] = await Promise.all([loadPhrases(edition, level), learnedPhrases(edition.target)]);
+      // The database hands out only the free phrases without Plus; the total says how many there are in all.
+      const [list, done, all, owned, today] = await Promise.all([
+        loadPhrases(edition, level), learnedPhrases(edition.target), phraseTotal(edition.target, level),
+        ownedProducts(), usageToday(),
+      ]);
       setPhrases(list);
       setLearned(done);
+      setTotal(all);
+      setTier(tierOf(edition, owned));
+      setUsage(today);
     })().catch((e) => setError(String(e.message ?? e)));
   }, [level, edition, batch]);
 
@@ -178,6 +191,10 @@ export default function Phrases() {
 
   const fresh = phrases?.filter((p) => !learned.has(p.lexemeId)) ?? [];
   const done = (phrases?.length ?? 0) - fresh.length;
+  // Without Plus: a few new phrases a day, and per level only the first ones (the rest is locked).
+  const limits = tier?.limits;
+  const leftToday = limits && usage ? Math.max(0, limits.phrases_per_day - usage.newPhrases) : BATCH;
+  const lockedPart = !!limits && total > (phrases?.length ?? 0);
   return (
     <main>
       <TopBar title={dict.phrases.title} />
@@ -195,7 +212,7 @@ export default function Phrases() {
           </button>
         ))}
       </div>
-      {!phrases ? (
+      {!phrases || !tier ? (
         <p className="muted">{dict.common.loading}</p>
       ) : (
         <div className="card">
@@ -203,12 +220,19 @@ export default function Phrases() {
           <div className="progress">
             <div style={{ width: `${phrases.length ? (100 * done) / phrases.length : 0}%` }} />
           </div>
-          {fresh.length > 0 ? (
-            <button className="primary" onClick={() => setBatch(fresh.slice(0, BATCH))}>
+          {fresh.length > 0 && leftToday > 0 ? (
+            <button className="primary" onClick={() => setBatch(fresh.slice(0, Math.min(BATCH, leftToday)))}>
               {fresh.length < BATCH ? dict.phrases.more : dict.phrases.learn}
             </button>
+          ) : fresh.length > 0 ? (
+            <Upsell plus={tier.plus} line={fill(dict.plus.phrasesToday, { n: limits?.phrases_per_day ?? BATCH })} />
+          ) : lockedPart ? (
+            <Upsell plus={tier.plus} line={fill(dict.plus.phrasesLevel, { free: phrases.length, total })} />
           ) : (
             <p className="muted">{dict.phrases.allLearned}</p>
+          )}
+          {lockedPart && fresh.length > 0 && (
+            <Upsell plus={tier.plus} line={fill(dict.plus.phrasesLevel, { free: phrases.length, total })} small />
           )}
         </div>
       )}

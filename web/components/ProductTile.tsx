@@ -9,14 +9,18 @@ import { formatPrice, type Product } from "@/lib/products";
  * For sale: a lock and the price. Every state leads to the product's own page (/<edition>/p/<slug>).
  */
 export function ProductTile({ product, owned }: { product: Product; owned: boolean }) {
-  const { lang, dict, edition, home } = useI18n();
+  const { lang, dict, fill, edition, home } = useI18n();
   const text = product.texts[edition.base];
   if (!text) return null;
+  // The lowest monthly price says the most at a glance ("6,99 € per month", or a one-off price as it is).
+  const price = product.prices.find((p) => p.interval === "month") ?? product.prices[0];
   const sub = owned
     ? dict.product.owned
-    : product.status === "coming" || !product.price
+    : product.status === "coming" || !price
       ? dict.product.coming
-      : `🔒 ${formatPrice(product.price, lang)}`;
+      : price.interval === "month"
+        ? `🔒 ${fill(dict.plus.perMonthOf, { price: formatPrice(price, lang) })}`
+        : `🔒 ${formatPrice(price, lang)}`;
   return (
     <Link href={`${home}/p/${product.slug}`} className={`tile${owned ? "" : " tile-locked"}`}>
       <span className="tile-icon">{text.icon}</span>
