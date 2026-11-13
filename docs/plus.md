@@ -24,7 +24,7 @@ Een getal aanpassen en daarna `storylingo.py sync` (en `sync <een verhaal> --clo
 zijn, rekent sync uit: per taal en niveau de eerste, in de volgorde waarin de app ze toont. Een nieuw verhaal komt
 dus achteraan, en valt in Plus zodra er al genoeg gratis zijn.
 
-Plus kost nu €6,99 per maand of €39 per jaar (`prices` in hetzelfde bestand). Eén Plus geldt voor alle edities van
+Plus kost nu €8,49 per maand of €47 per jaar, inclusief btw (`prices` in hetzelfde bestand). Eén Plus geldt voor alle edities van
 die taal (Plus Duits voor almanya, duits en german). Pakketten zoals de DTZ-training staan daar los van.
 
 Een taal zonder Plus-product (of met een Plus op `draft`) heeft geen limieten.

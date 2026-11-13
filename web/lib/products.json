@@ -41,12 +41,12 @@
     "visibility": "everyone",
     "prices": [
       {
-        "amount": 699,
+        "amount": 849,
         "currency": "eur",
         "interval": "month"
       },
       {
-        "amount": 3900,
+        "amount": 4700,
         "currency": "eur",
         "interval": "year"
       }
@@ -108,12 +108,12 @@
     "visibility": "everyone",
     "prices": [
       {
-        "amount": 699,
+        "amount": 849,
         "currency": "eur",
         "interval": "month"
       },
       {
-        "amount": 3900,
+        "amount": 4700,
         "currency": "eur",
         "interval": "year"
       }
@@ -173,12 +173,12 @@
     "visibility": "everyone",
     "prices": [
       {
-        "amount": 699,
+        "amount": 849,
         "currency": "eur",
         "interval": "month"
       },
       {
-        "amount": 3900,
+        "amount": 4700,
         "currency": "eur",
         "interval": "year"
       }

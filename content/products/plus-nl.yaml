@@ -7,8 +7,8 @@ kind: membership
 editions: [hollanda]
 visibility: everyone
 prices:
-  - {amount: 699, currency: eur, interval: month}
-  - {amount: 3900, currency: eur, interval: year}
+  - {amount: 849, currency: eur, interval: month}
+  - {amount: 4700, currency: eur, interval: year}
 free:
   stories_per_level: 2     # per level the first 2 stories (in the order the app shows them)
   stories_per_day: 1       # of which 1 new story a day; replaying a story is always free
