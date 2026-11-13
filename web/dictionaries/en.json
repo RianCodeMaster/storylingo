@@ -285,5 +285,24 @@
     "moreAtLevel": "More stories at {level}",
     "start": "Start free in the app",
     "levels": "Stories by level"
+  },
+  "pay": {
+    "buy": "Continue to payment",
+    "waiver": "I want Plus to start right away and understand that I give up my 14-day right of withdrawal.",
+    "waiverNeeded": "Please tick the box above first.",
+    "secure": "You pay securely through Stripe, with card, PayPal, iDEAL and more. Cancel any time: you keep Plus until the end of the period you paid for.",
+    "needAccount": "To pay you need an account, so Plus stays with you, also on another phone. All it takes is your e-mail address.",
+    "toAccount": "Create account",
+    "busy": "One moment…",
+    "processing": "Processing your payment…",
+    "done": "Welcome to Plus! Everything is open for you now.",
+    "slow": "Your payment is in, but it takes a moment. Refresh the page in a minute.",
+    "failed": "Paying does not work right now. Please try again shortly.",
+    "owned": "You already have this.",
+    "manage": "Manage subscription and invoices",
+    "agree": "By paying you agree to the",
+    "terms": "terms",
+    "privacy": "privacy policy",
+    "and": "and the"
   }
 }

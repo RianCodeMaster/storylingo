@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { legalTitle } from "@/components/Legal";
 import type { PublicCard } from "@/lib/catalog";
 import type { Edition } from "@/lib/editions";
 import type { Dictionary } from "@/lib/i18n";
@@ -72,6 +73,11 @@ export function LevelLinks({ edition, dict }: { edition: Edition; dict: Dictiona
         ))}
       </div>
       <Link href={`/${edition.slug}/read`}>{dict.seo.allStories} →</Link>
+      <span className="muted small">
+        <Link href={`/${edition.slug}/terms`}>{legalTitle(edition.base, "terms")}</Link>
+        {" · "}
+        <Link href={`/${edition.slug}/privacy`}>{legalTitle(edition.base, "privacy")}</Link>
+      </span>
     </nav>
   );
 }

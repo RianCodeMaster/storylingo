@@ -20,6 +20,8 @@
                                                                payment outside Stripe; with [days]: a trial)
     python storylingo.py revoke <e-mail|id> <product>           take it away again
     python storylingo.py purchases [product]                   who has what, newest first
+    python storylingo.py stripe [live]                         products and prices in Stripe from content/products
+                                                               (test mode; `live` on purpose with a live key)
     python storylingo.py learners [all]                        the learners with an account (all: anonymous ones too)
     python storylingo.py funnel [edition]                      per track and campaign: came, started, finished a story,
                                                                back after a week, on a waitlist (docs/campagnes.md)
@@ -266,7 +268,7 @@ def make_feedback(language: str) -> None:
 def main(argv: list[str]) -> None:
     command = argv[0] if argv else None
     arg = argv[1] if len(argv) > 1 else None
-    if command not in ("list", "sync", "check", "media-export", "media-import", "funnel", "purchases", "learners") and not arg:
+    if command not in ("list", "sync", "check", "media-export", "media-import", "funnel", "purchases", "learners", "stripe") and not arg:
         raise SystemExit(__doc__)
 
     if command == "sync":
@@ -376,6 +378,10 @@ def main(argv: list[str]) -> None:
             paid = f"{amount / 100:.2f} {currency}" if amount else "-"
             print(f"{when:%Y-%m-%d}  {who:36} {product:18} {source:7} {status:9} {paid:>10}"
                   + (f"  until {until:%Y-%m-%d}" if until else "") + (f"  ({note})" if note else ""))
+    elif command == "stripe":
+        import payments
+        changes = payments.sync(live=arg == "live")
+        print("\n".join(changes) if changes else "Stripe is up to date.")
     elif command == "funnel":
         funnel(arg)
     elif command == "learners":

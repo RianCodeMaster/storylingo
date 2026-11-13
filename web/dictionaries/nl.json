@@ -285,5 +285,24 @@
     "moreAtLevel": "Meer verhalen op {level}",
     "start": "Begin gratis in de app",
     "levels": "Verhalen per niveau"
+  },
+  "pay": {
+    "buy": "Verder naar betalen",
+    "waiver": "Ik wil dat Plus meteen begint en weet dat ik daarmee afzie van mijn bedenktijd van 14 dagen.",
+    "waiverNeeded": "Vink eerst het vakje hierboven aan.",
+    "secure": "Je betaalt veilig via Stripe, met iDEAL, kaart, PayPal en meer. Opzeggen kan altijd: je houdt Plus tot het einde van de periode die je betaald hebt.",
+    "needAccount": "Om te betalen heb je een account nodig, zodat Plus bij je blijft, ook op een andere telefoon. Het kost je alleen je e-mailadres.",
+    "toAccount": "Account maken",
+    "busy": "Even geduld…",
+    "processing": "Je betaling wordt verwerkt…",
+    "done": "Welkom bij Plus! Alles staat nu voor je open.",
+    "slow": "Je betaling is binnen, maar het duurt even. Ververs de pagina over een minuut.",
+    "failed": "Betalen lukt nu niet. Probeer het straks nog eens.",
+    "owned": "Je hebt dit al.",
+    "manage": "Abonnement en facturen beheren",
+    "agree": "Door te betalen ga je akkoord met de",
+    "terms": "voorwaarden",
+    "privacy": "privacyverklaring",
+    "and": "en de"
   }
 }

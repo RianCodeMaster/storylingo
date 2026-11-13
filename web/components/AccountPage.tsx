@@ -13,6 +13,7 @@ import {
   setMarketing,
   verifyCode,
 } from "@/lib/account";
+import { openPortal, paidWithStripe } from "@/lib/checkout";
 import { useI18n } from "@/lib/i18n";
 import { ownedProducts, PRODUCTS } from "@/lib/products";
 import { ensureLearner } from "@/lib/supabase";
@@ -34,6 +35,7 @@ export function AccountPage() {
   const [codeFor, setCodeFor] = useState<CodeFor | null>(null);
   const [busy, setBusy] = useState(false);
   const [problem, setProblem] = useState<string | null>(null);
+  const [paid, setPaid] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -41,7 +43,10 @@ export function AccountPage() {
       const me = await currentAccount();
       setAccount(me);
       setOwned(await ownedProducts());
-      if (me && !me.anonymous) setMarketingState(await marketingConsent(me.id));
+      if (me && !me.anonymous) {
+        setMarketingState(await marketingConsent(me.id));
+        setPaid(await paidWithStripe());
+      }
     })().catch((e) => setProblem(String(e.message ?? e)));
   }, [lang]);
 
@@ -71,8 +76,9 @@ export function AccountPage() {
       await verifyCode(email, code, codeFor, marketing);
       // Start clean as the saved (or logged-in) account: a full load, so every page and the learner cache in
       // lib/supabase.ts start from this account (a client-side push would keep the old learner).
-      // eslint-disable-next-line @next/next/no-location-assign-relative-destination -- a full load is the point
-      window.location.href = `${home}/account`;
+      // Came here to pay (?next=/almanya/p/plus-de): straight back there. Only addresses inside this edition.
+      const next = new URLSearchParams(window.location.search).get("next");
+      window.location.href = next?.startsWith(`${home}/`) && !next.startsWith("//") ? next : `${home}/account`;
     } catch (err) {
       const status = (err as { status?: number }).status;
       setProblem(status === 429 ? dict.account.tooMany : dict.account.wrongCode);
@@ -117,6 +123,13 @@ export function AccountPage() {
         ) : (
           <p className="muted">{dict.account.noProducts}</p>
         )}
+        {paid && (
+          // Cancelling, another card, invoices: all in Stripe's own portal.
+          <button className="secondary" onClick={() => void openPortal(edition.slug).then((e) => e && setProblem(dict.pay.failed))}>
+            {dict.pay.manage}
+          </button>
+        )}
+        {problem && <p className="small">{problem}</p>}
         <label className="check">
           <input
             type="checkbox"

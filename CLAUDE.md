@@ -88,6 +88,11 @@ and `storylingo.py check` must end with "complete and in sync"; every problem it
   - Free tier / Plus: one membership product per target language (`plus-de.yaml` …) holds the `free` limits and the
     prices (docs/plus.md). Sync marks the first stories per level `free`; the database hides the rest without Plus
     (`has_plus()`), caps new stories per day (`may_start_story()`), and `story_cards` shows titles of locked ones.
+  - Payments (docs/stripe.md): Stripe Checkout + webhook (`web/app/api/checkout`, `api/stripe/webhook`, `api/portal`,
+    server helpers `web/lib/payments.ts` with `STRIPE_SECRET_KEY` / `SUPABASE_SECRET_KEY`, never NEXT_PUBLIC). Prices
+    live in the product YAML; `storylingo.py stripe` mirrors them to Stripe by lookup key (`plus-de-year`), refusing a
+    live key unless `stripe live`. A subscription is one purchases row the webhook keeps current (valid_until = period
+    end + 2 days). Paying needs an e-mail account and the withdrawal waiver tick. Legal texts: `web/legal/`.
   - Public pages for search engines (docs/seo.md): `/<edition>/read` (library), `/<edition>/level/<a1…>` and
     `/<edition>/read/<slug>`, server-rendered from `lib/catalog.ts` with the publishable key (so RLS decides what is
     public: a free story's full text, a locked one's card only), cached for an hour; plus `sitemap.xml`, `robots.txt`,
