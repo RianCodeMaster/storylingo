@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ProductTile } from "@/components/ProductTile";
 import { Waitlist } from "@/components/Waitlist";
+import { currentAccount } from "@/lib/account";
 import { arrival, recordVisit } from "@/lib/attribution";
 import { useDevActions } from "@/lib/devtools";
 import { trackOf } from "@/lib/editions";
@@ -93,6 +94,7 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [phrases, setPhrases] = useState<PhraseProgress>({});
   const [finished, setFinished] = useState<Set<string>>(new Set());
   const [owned, setOwned] = useState<Set<string>>(new Set());
+  const [anonymous, setAnonymous] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -104,6 +106,7 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
         phraseProgress(edition.target), ownedProducts(),
       ]);
       setOwned(mine);
+      setAnonymous((await currentAccount())?.anonymous ?? true);
       if (!enrolled) void recordVisit(learner, edition.slug, arrival(edition.slug, trackSlug));
       setPhrases(phraseCounts);
       setDue(dueCount);
@@ -226,6 +229,9 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
       <header className="dash-head">
         <span className="edition-name">{edition.name}</span>
         <LevelChip levels={levels} mine={mine} name={levelName} onChoose={(l) => void choose(l)} />
+        <Link href={`${home}/account`} className="dash-account" aria-label={dict.account.title}>
+          👤
+        </Link>
       </header>
 
       {/* One clear next step: the next story at the learner's level. */}
@@ -254,6 +260,13 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
         </div>
       ) : (
         <p className="card hero-plain">{dict.level.allDone}</p>
+      )}
+
+      {/* Only once a story is finished (they have something to lose), and only while they have no account. */}
+      {anonymous && finished.size > 0 && (
+        <Link href={`${home}/account`} className="card nudge">
+          💾 {dict.account.nudge} <span className="arrow">→</span>
+        </Link>
       )}
 
       {/* Everything else: one tile per part of the app, then the products (what they have, what is offered). */}

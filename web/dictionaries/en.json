@@ -214,5 +214,28 @@
     "payingSoon": "Paying in the app is coming soon. Leave your e-mail and you will be the first to know.",
     "contents": "In this pack",
     "empty": "The content is on its way."
+  },
+  "account": {
+    "title": "Your account",
+    "saveTitle": "Keep your progress",
+    "saveWhy": "Your progress is only on this device now. With your e-mail address you keep it and can continue on any device. No password: you get a code by e-mail.",
+    "haveAccount": "Already have an account? Enter the same address to log in.",
+    "email": "your e-mail address",
+    "marketing": "Send me tips and offers now and then (you can turn this off any time)",
+    "send": "Send me a code",
+    "sentSave": "We sent a code to {email}.",
+    "sentLogin": "This address already has an account. We sent a code to {email} to log in.",
+    "loginNote": "What you did on this device without an account stays behind here.",
+    "code": "6-digit code",
+    "confirm": "Confirm",
+    "other": "Other address",
+    "wrongCode": "That code is wrong or has expired.",
+    "tooMany": "Too many attempts. Please try again in a few minutes.",
+    "loggedInAs": "Logged in as {email}",
+    "products": "Your packs",
+    "noProducts": "No packs yet.",
+    "logout": "Log out",
+    "logoutNote": "Your account keeps everything. On this device you start fresh until you log in again.",
+    "nudge": "Keep your progress with your e-mail address"
   }
 }

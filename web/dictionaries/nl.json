@@ -214,5 +214,28 @@
     "payingSoon": "Betalen in de app komt binnenkort. Laat je e-mail achter, dan hoor je het als eerste.",
     "contents": "In dit pakket",
     "empty": "De inhoud komt eraan."
+  },
+  "account": {
+    "title": "Je account",
+    "saveTitle": "Bewaar je voortgang",
+    "saveWhy": "Je voortgang staat nu alleen op dit toestel. Met je e-mailadres bewaar je hem en kun je op elk toestel verder. Geen wachtwoord: je krijgt een code per mail.",
+    "haveAccount": "Heb je al een account? Vul hetzelfde adres in, dan log je in.",
+    "email": "je e-mailadres",
+    "marketing": "Stuur me af en toe tips en aanbiedingen (kan altijd uit)",
+    "send": "Stuur me een code",
+    "sentSave": "We hebben een code gestuurd naar {email}.",
+    "sentLogin": "Dit adres heeft al een account. We hebben een code gestuurd naar {email} om in te loggen.",
+    "loginNote": "Wat je op dit toestel zonder account deed, blijft hier achter.",
+    "code": "code van 6 cijfers",
+    "confirm": "Bevestig",
+    "other": "Ander adres",
+    "wrongCode": "Die code klopt niet of is verlopen.",
+    "tooMany": "Te veel pogingen. Probeer het over een paar minuten opnieuw.",
+    "loggedInAs": "Ingelogd als {email}",
+    "products": "Jouw pakketten",
+    "noProducts": "Nog geen pakketten.",
+    "logout": "Uitloggen",
+    "logoutNote": "Je account houdt alles. Op dit toestel begin je daarna opnieuw, tot je weer inlogt.",
+    "nudge": "Bewaar je voortgang met je e-mailadres"
   }
 }

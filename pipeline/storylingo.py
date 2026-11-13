@@ -20,6 +20,7 @@
                                                                payment outside Stripe; with [days]: a trial)
     python storylingo.py revoke <e-mail|id> <product>           take it away again
     python storylingo.py purchases [product]                   who has what, newest first
+    python storylingo.py learners [all]                        the learners with an account (all: anonymous ones too)
     python storylingo.py funnel [edition]                      per track and campaign: came, started, finished a story,
                                                                back after a week, on a waitlist (docs/campagnes.md)
     python storylingo.py phrases <language> <level>            DeepSeek drafts the level's phrases (up to 200) in content/phrases/
@@ -182,6 +183,24 @@ def give(who: str, product: str, days: str | None, note: str | None) -> None:
     print(f"{email or user_id} has {product}" + (f" until {until[:10]}" if until else " for good"))
 
 
+def learners(everyone: bool) -> None:
+    """Who the learners are (the view `learners`, docs/accounts.md): address, language, where they came in, packs."""
+    with db.connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            "select email, device_language, marketing_consent, created_at, last_seen_at, came_through, products "
+            "from learners where %s or not is_anonymous order by coalesce(last_seen_at, created_at) desc",
+            (everyone,),
+        )
+        rows = cur.fetchall()
+    if not rows:
+        print("No learners with an account yet." + ("" if everyone else " (learners all: anonymous ones too)"))
+        return
+    for email, device, tips, since, seen, came, packs in rows:
+        print(f"{email or '(anonymous)':34} {device or '-':7} {'tips' if tips else '    '}  since {since:%Y-%m-%d}"
+              + (f"  seen {seen:%Y-%m-%d}" if seen else "") + (f"  via {came}" if came else "")
+              + (f"  has {packs}" if packs else ""))
+
+
 def funnel(edition: str | None) -> None:
     """How each niche does: one row per edition, track and campaign (the view `funnel`, docs/campagnes.md)."""
     with db.connect() as conn, conn.cursor() as cur:
@@ -247,7 +266,7 @@ def make_feedback(language: str) -> None:
 def main(argv: list[str]) -> None:
     command = argv[0] if argv else None
     arg = argv[1] if len(argv) > 1 else None
-    if command not in ("list", "sync", "check", "media-export", "media-import", "funnel", "purchases") and not arg:
+    if command not in ("list", "sync", "check", "media-export", "media-import", "funnel", "purchases", "learners") and not arg:
         raise SystemExit(__doc__)
 
     if command == "sync":
@@ -359,6 +378,8 @@ def main(argv: list[str]) -> None:
                   + (f"  until {until:%Y-%m-%d}" if until else "") + (f"  ({note})" if note else ""))
     elif command == "funnel":
         funnel(arg)
+    elif command == "learners":
+        learners(arg == "all")
     elif command == "list":
         for slug, status, level, title, scenes in db.list_stories():
             print(f"{status:10} {level}  {slug:30} {title} ({scenes} scenes)")

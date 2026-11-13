@@ -93,8 +93,9 @@ and `storylingo.py check` must end with "complete and in sync"; every problem it
 - **Levels:** a story's targets must be in `content/curriculum/<lang>.yaml` at its level or below, with the same
   concept; `check` fails otherwise and warns (⚠) when >10% of non-core words are above the level. Learners have a
   level per edition (`enrollments`), chosen on the welcome page, raised when they finished their level; never a lock.
-- **Accounts:** one login per person (`profiles`), everything else per edition: `enrollments` (level, later purchases)
-  and `sessions.edition`. No enrollment means a first visit. Editions never show each other: `/` and draft editions
+- **Accounts:** one login per person (`profiles`), everything else per edition: `enrollments` (level, where they came
+  in) and `sessions.edition`. Everyone starts anonymous; saving progress gives the same account an e-mail address via
+  a 6-digit code, a known address logs in instead (`lib/account.ts`, docs/accounts.md). No passwords, no links. No enrollment means a first visit. Editions never show each other: `/` and draft editions
   only when `showsEverything()` (development or `SHOW_EDITIONS=1`); the `editions` table is not readable via the API.
 - **Editions:** the app lives under `app/[edition]/` (/duits, /almanya …); the edition fixes base and target language,
   so there is no language menu. `/` is an overview for the owner (`app/(hub)/`), never used in marketing. Language

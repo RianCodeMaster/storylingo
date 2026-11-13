@@ -24,7 +24,7 @@ Status = Literal["draft", "beta", "live"]
 # Paths the app uses itself; an edition cannot be called like this.
 RESERVED = {"story", "review", "sb", "api", "_next"}
 # Pages inside an edition; a track cannot be called like this.
-EDITION_PAGES = {"story", "stories", "review", "phrases", "p"}
+EDITION_PAGES = {"story", "stories", "review", "phrases", "p", "account"}
 SLUG = r"[a-z][a-z0-9-]*"
 
 

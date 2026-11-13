@@ -26,7 +26,8 @@ export function supabase(): SupabaseClient {
 let learner: Promise<string> | null = null;
 
 /**
- * Make sure there is a signed-in learner with a profile. Phase 1 uses an anonymous account per browser.
+ * Make sure there is a signed-in learner with a profile: their account, or else a new anonymous one for this browser
+ * (lib/account.ts turns that into an e-mail account when they save their progress).
  * A new profile gets the base language of the pages it signed up on.
  */
 export function ensureLearner(base: string): Promise<string> {
@@ -53,5 +54,11 @@ async function signInLearner(base: string): Promise<string> {
     .from("profiles")
     .upsert({ id: userId, native_language_code: base }, { onConflict: "id", ignoreDuplicates: true });
   if (error) throw error;
+  // When they were last here, and the phone's language (which audience a campaign reached). Best effort.
+  void sb
+    .from("profiles")
+    .update({ last_seen_at: new Date().toISOString(), device_language: navigator.language.slice(0, 20) })
+    .eq("id", userId)
+    .then(() => {}, () => {});
   return userId;
 }

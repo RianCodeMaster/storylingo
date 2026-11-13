@@ -838,3 +838,20 @@ button.chosen-level {
 .product-head p { margin: 0; }
 .product-icon { font-size: 2.5rem; line-height: 1; }
 .section-title { font-size: 1rem; margin: 20px 0 8px; }
+
+/* Account (components/AccountPage.tsx): one column, the fields like the waitlist, the code large. */
+.account form { display: flex; flex-direction: column; gap: 10px; }
+.account p { margin: 0; }
+.account input[type="email"], .account input.code {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+.account input.code { font-size: 1.6rem; letter-spacing: 0.4em; text-align: center; }
+label.check { display: flex; gap: 8px; align-items: flex-start; font-size: 0.9rem; margin: 12px 0; }
+label.check input { margin-top: 3px; }
+.dash-account { margin-inline-start: auto; text-decoration: none; font-size: 1.3rem; }
+.nudge { display: block; text-decoration: none; color: inherit; }

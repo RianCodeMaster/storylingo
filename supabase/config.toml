@@ -203,7 +203,7 @@ password_requirements = ""
 
 [auth.rate_limit]
 # Number of emails that can be sent per hour. Requires auth.email.smtp to be enabled.
-email_sent = 2
+email_sent = 20
 # Number of SMS messages that can be sent per hour. Requires auth.sms to be enabled.
 sms_sent = 30
 # Number of anonymous sign-ins that can be made per hour per IP address. Requires enable_anonymous_sign_ins = true.
@@ -229,9 +229,11 @@ web3 = 30
 enabled = true
 # If enabled, a user will be required to confirm any email change on both the old, and new email
 # addresses. If disabled, only the new email is required to confirm.
-double_confirm_changes = true
+# StoryLingo: an anonymous learner who saves their progress has no old address, and a code to the new one is enough.
+double_confirm_changes = false
 # If enabled, users need to confirm their email address before signing in.
-enable_confirmations = false
+# StoryLingo: on, so an address only joins an account after its code (otherwise anyone could claim any address).
+enable_confirmations = true
 # If enabled, users will need to reauthenticate or have logged in recently to change their password.
 secure_password_change = false
 # Controls the minimum amount of time that must pass before sending another signup confirmation or password reset email.
@@ -250,6 +252,20 @@ otp_expiry = 3600
 # pass = "env(SENDGRID_API_KEY)"
 # admin_email = "admin@email.com"
 # sender_name = "Admin"
+
+# StoryLingo sends codes, never links (docs/accounts.md): to save progress (email_change: an anonymous account gets an
+# address) and to log in (magic_link). Online the same subject and text go into the Supabase dashboard.
+[auth.email.template.email_change]
+subject = "StoryLingo: {{ .Token }}"
+content_path = "./supabase/templates/code.html"
+
+[auth.email.template.magic_link]
+subject = "StoryLingo: {{ .Token }}"
+content_path = "./supabase/templates/code.html"
+
+[auth.email.template.confirmation]
+subject = "StoryLingo: {{ .Token }}"
+content_path = "./supabase/templates/code.html"
 
 # Uncomment to customize email template
 # [auth.email.template.invite]
