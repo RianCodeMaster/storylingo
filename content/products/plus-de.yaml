@@ -18,7 +18,7 @@ free:
 texts:
   ar:
     icon: ⭐
-    title: StoryLingo Plus
+    title: Qissio Plus
     text: كل القصص والجمل بلا حدود، كل يوم.
     perks:
       - كل القصص في كل المستويات، وقصص جديدة باستمرار
@@ -27,7 +27,7 @@ texts:
       - مراجعة الكلمات بلا حدود
   nl:
     icon: ⭐
-    title: StoryLingo Plus
+    title: Qissio Plus
     text: Alle verhalen en zinnen, zonder limiet, elke dag.
     perks:
       - Alle verhalen op elk niveau, en steeds nieuwe
@@ -36,7 +36,7 @@ texts:
       - Onbeperkt woorden herhalen
   en:
     icon: ⭐
-    title: StoryLingo Plus
+    title: Qissio Plus
     text: Every story and phrase, no limits, every day.
     perks:
       - Every story at every level, and new ones all the time

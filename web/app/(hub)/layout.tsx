@@ -6,7 +6,7 @@ const jakarta = Plus_Jakarta_Sans({ variable: "--font-jakarta", subsets: ["latin
 const arabic = Noto_Sans_Arabic({ variable: "--font-arabic", subsets: ["arabic"], preload: false, adjustFontFallback: false });
 
 // Never in search results: the overview is for the owner only.
-export const metadata: Metadata = { title: "StoryLingo", icons: { icon: "/icon.svg" }, robots: { index: false } };
+export const metadata: Metadata = { title: "Qissio", icons: { icon: "/icon.svg" }, robots: { index: false } };
 
 /** The overview at /: its own root layout, outside every edition (an edition fixes the language; this page does not). */
 export default function HubLayout({ children }: { children: React.ReactNode }) {

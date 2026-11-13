@@ -1,4 +1,4 @@
-# StoryLingo
+# Qissio
 
 Taal leren met absurde verhalen, gebaren en circling-vragen (TPRS). Fase 1 draait volledig lokaal.
 

@@ -50,7 +50,7 @@ Lokaal staat dit in `supabase/config.toml`; in de cloud zet je het in het dashbo
 1. **Authentication → Sign In / Providers → Email**: *Confirm email* **aan**, *Secure email change* **uit** (een
    anoniem account heeft geen oud adres), lengte van de code **6**.
 2. **Authentication → Emails → Templates**: bij *Change email address*, *Magic link* en *Confirm signup* het
-   onderwerp `StoryLingo: {{ .Token }}` en als tekst de inhoud van `supabase/templates/code.html`.
+   onderwerp `Qissio: {{ .Token }}` en als tekst de inhoud van `supabase/templates/code.html`.
 3. **Een eigen mailserver (SMTP)**. De ingebouwde mail van Supabase stuurt alleen naar de adressen van je eigen team
    en maar een paar per uur: voor echte leerlingen werkt die niet. Neem bijvoorbeeld Resend (gratis tot 3.000 mails
    per maand, 100 per dag), verifieer daar je domein, en vul de SMTP-gegevens in onder **Authentication → Emails →

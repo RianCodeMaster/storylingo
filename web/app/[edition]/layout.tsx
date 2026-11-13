@@ -36,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: edition.name,
     description: edition.tagline,
     icons: { icon: "/icon.svg" },
-    openGraph: { siteName: "StoryLingo", locale: edition.base },
+    openGraph: { siteName: "Qissio", locale: edition.base },
   };
 }
 

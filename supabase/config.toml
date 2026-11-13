@@ -229,10 +229,10 @@ web3 = 30
 enabled = true
 # If enabled, a user will be required to confirm any email change on both the old, and new email
 # addresses. If disabled, only the new email is required to confirm.
-# StoryLingo: an anonymous learner who saves their progress has no old address, and a code to the new one is enough.
+# Qissio: an anonymous learner who saves their progress has no old address, and a code to the new one is enough.
 double_confirm_changes = false
 # If enabled, users need to confirm their email address before signing in.
-# StoryLingo: on, so an address only joins an account after its code (otherwise anyone could claim any address).
+# Qissio: on, so an address only joins an account after its code (otherwise anyone could claim any address).
 enable_confirmations = true
 # If enabled, users will need to reauthenticate or have logged in recently to change their password.
 secure_password_change = false
@@ -253,18 +253,18 @@ otp_expiry = 3600
 # admin_email = "admin@email.com"
 # sender_name = "Admin"
 
-# StoryLingo sends codes, never links (docs/accounts.md): to save progress (email_change: an anonymous account gets an
+# Qissio sends codes, never links (docs/accounts.md): to save progress (email_change: an anonymous account gets an
 # address) and to log in (magic_link). Online the same subject and text go into the Supabase dashboard.
 [auth.email.template.email_change]
-subject = "StoryLingo: {{ .Token }}"
+subject = "Qissio: {{ .Token }}"
 content_path = "./supabase/templates/code.html"
 
 [auth.email.template.magic_link]
-subject = "StoryLingo: {{ .Token }}"
+subject = "Qissio: {{ .Token }}"
 content_path = "./supabase/templates/code.html"
 
 [auth.email.template.confirmation]
-subject = "StoryLingo: {{ .Token }}"
+subject = "Qissio: {{ .Token }}"
 content_path = "./supabase/templates/code.html"
 
 # Uncomment to customize email template

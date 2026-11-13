@@ -1,6 +1,6 @@
-# StoryLingo — Project Context & Rules
+# Qissio — Project Context & Rules
 
-StoryLingo is a language-learning web app (PWA) built on TPRS: short, absurd, exaggerated stories told scene
+Qissio is a language-learning web app (PWA) built on TPRS: short, absurd, exaggerated stories told scene
 by scene with images, an expressive voice, gestures to act out, and circling questions that repeat the same
 structures many times. Positioning: *built on principles from language and memory research* (comprehensible
 input, enactment effect, dual coding, spaced repetition). Never claim "scientifically proven".

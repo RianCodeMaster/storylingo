@@ -14,7 +14,7 @@ export default function Hub() {
   const editions = Object.values(EDITIONS).sort((a, b) => a.target.localeCompare(b.target) || a.slug.localeCompare(b.slug));
   return (
     <main>
-      <h1>StoryLingo</h1>
+      <h1>Qissio</h1>
       <p className="muted">Editions</p>
       {editions.map((e) => (
         <Link

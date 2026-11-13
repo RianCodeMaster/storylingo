@@ -1,6 +1,6 @@
 # Inhoud beheren: ontwerp
 
-Hoe StoryLingo zo is ingericht dat edities, talen, verhalen en vragen makkelijk toe te voegen en aan te passen zijn,
+Hoe Qissio zo is ingericht dat edities, talen, verhalen en vragen makkelijk toe te voegen en aan te passen zijn,
 door Claude, door een ander LLM of door jou met een paar wijzigingen in een bestand. Er komt geen beheerscherm.
 
 ## Het idee in één alinea

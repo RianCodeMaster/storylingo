@@ -1,4 +1,4 @@
-"""StoryLingo content pipeline. All content lives in content/ (docs/inhoud-beheer.md); the database is a copy.
+"""Qissio content pipeline. All content lives in content/ (docs/inhoud-beheer.md); the database is a copy.
 
     python storylingo.py sync [slug]                           make the database match content/ (in place: progress stays)
     python storylingo.py check [base]                          is everything complete and in sync? says how to fix what is not
