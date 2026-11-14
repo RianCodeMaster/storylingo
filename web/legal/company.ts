@@ -5,7 +5,7 @@
 export const COMPANY = {
   name: "Rian Software Solutions", // the name as registered at the KvK
   kvk: "60806109",
-  vat: "",
+  vat: "NL001391003B60",
   address: "Esseburgstraat 4, 3022mk, Rotterdam",
   email: "info@qissio.com",
   country: "Nederland",
