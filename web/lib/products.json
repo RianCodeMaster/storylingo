@@ -46,7 +46,7 @@
         "interval": "month"
       },
       {
-        "amount": 4700,
+        "amount": 7900,
         "currency": "eur",
         "interval": "year"
       }
@@ -113,7 +113,7 @@
         "interval": "month"
       },
       {
-        "amount": 4700,
+        "amount": 7900,
         "currency": "eur",
         "interval": "year"
       }
@@ -178,7 +178,7 @@
         "interval": "month"
       },
       {
-        "amount": 4700,
+        "amount": 7900,
         "currency": "eur",
         "interval": "year"
       }
