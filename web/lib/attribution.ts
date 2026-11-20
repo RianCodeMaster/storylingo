@@ -42,6 +42,22 @@ export async function recordVisit(userId: string, edition: string, from: Arrival
   if (error) console.warn("visit not recorded", error.message);
 }
 
+/**
+ * Further down the funnel: this learner opened a product page (Plus). Only the first time counts. Someone who landed
+ * straight on the product page from an ad gets their visit row here, with that ad as where they came from.
+ * (Clicking pay is written by the server, in /api/checkout.)
+ */
+export async function recordProductSeen(userId: string, edition: string): Promise<void> {
+  await recordVisit(userId, edition, arrival(edition, null));
+  const { error } = await supabase()
+    .from("visits")
+    .update({ product_seen_at: new Date().toISOString() })
+    .eq("user_id", userId)
+    .eq("edition", edition)
+    .is("product_seen_at", null);
+  if (error) console.warn("product visit not recorded", error.message);
+}
+
 /** Whether this learner already asked for the product (then they are thanked instead of asked again). */
 export async function onWaitlist(edition: string, product: string): Promise<boolean> {
   const { count } = await supabase()

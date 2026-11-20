@@ -8,6 +8,30 @@ import { PRODUCTS } from "@/lib/products";
  * account would be lost with the browser. The price comes from Stripe by its lookup key (storylingo.py stripe), so
  * what is charged is always what Stripe has, never a number sent by the browser.
  */
+/**
+ * For the funnel per campaign (docs/campagnes.md): this learner clicked pay and went to Stripe. The first time only;
+ * a learner without a visit row (logged in on another device) gets one without a campaign. Never stops the payment.
+ */
+async function markCheckout(userId: string, edition: string) {
+  try {
+    const db = admin();
+    const added = await db
+      .from("visits")
+      .upsert({ user_id: userId, edition }, { onConflict: "user_id,edition", ignoreDuplicates: true });
+    const { error } = added.error
+      ? added
+      : await db
+          .from("visits")
+          .update({ checkout_at: new Date().toISOString() })
+          .eq("user_id", userId)
+          .eq("edition", edition)
+          .is("checkout_at", null);
+    if (error) console.warn("checkout not recorded", error.message);
+  } catch (e) {
+    console.warn("checkout not recorded", e);
+  }
+}
+
 export async function POST(request: Request) {
   const user = await learnerOf(request);
   if (!user) return json({ error: "login" }, 401);
@@ -38,6 +62,8 @@ export async function POST(request: Request) {
     .or(`valid_until.is.null,valid_until.gt.${new Date().toISOString()}`)
     .limit(1);
   if (owned?.length) return json({ error: "owned" }, 409);
+
+  await markCheckout(user.id, edition.slug);
 
   const key = `${product.slug}-${price.interval ?? "once"}`;
   const { data: prices } = await stripe().prices.list({ lookup_keys: [key], active: true, limit: 1 });

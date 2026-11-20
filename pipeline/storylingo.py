@@ -24,7 +24,8 @@
                                                                (test mode; `live` on purpose with a live key)
     python storylingo.py learners [all]                        the learners with an account (all: anonymous ones too)
     python storylingo.py funnel [edition]                      per track and campaign: came, started, finished a story,
-                                                               back after a week, on a waitlist (docs/campagnes.md)
+                                                               back after a week, on a waitlist, opened Plus, went to
+                                                               pay, paid (docs/campagnes.md)
     python storylingo.py phrases <language> <level>            DeepSeek drafts the level's phrases (up to 200) in content/phrases/
     python storylingo.py localize-phrases <language> <base>    their meanings for one base language
     python storylingo.py media-phrases <language>              their recordings (missing or out of date)
@@ -207,7 +208,8 @@ def funnel(edition: str | None) -> None:
     """How each niche does: one row per edition, track and campaign (the view `funnel`, docs/campagnes.md)."""
     with db.connect() as conn, conn.cursor() as cur:
         cur.execute(
-            "select edition, track, campaign, visitors, started, finished_a_story, back_after_a_week, waitlist "
+            "select edition, track, campaign, visitors, started, finished_a_story, back_after_a_week, waitlist, "
+            "saw_product, went_to_pay, paid "
             "from funnel where %(e)s::text is null or edition = %(e)s order by edition, visitors desc",
             {"e": edition},
         )
@@ -215,7 +217,7 @@ def funnel(edition: str | None) -> None:
     if not rows:
         print("No visits yet.")
         return
-    head = ("edition", "track", "campaign", "came", "started", "finished", "week+", "waitlist")
+    head = ("edition", "track", "campaign", "came", "started", "finished", "week+", "waitlist", "plus", "to pay", "paid")
     print(f"{head[0]:10} {head[1]:12} {head[2]:16} " + " ".join(f"{h:>8}" for h in head[3:]))
     for ed, track, campaign, *counts in rows:
         came = counts[0]

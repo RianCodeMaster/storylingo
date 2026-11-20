@@ -6,6 +6,7 @@ import { StoryRows } from "@/components/Stories";
 import TopBar from "@/components/TopBar";
 import { Waitlist } from "@/components/Waitlist";
 import { currentAccount } from "@/lib/account";
+import { recordProductSeen } from "@/lib/attribution";
 import { startCheckout } from "@/lib/checkout";
 import { useI18n } from "@/lib/i18n";
 import { formatPrice, ownedProducts, type Price, PRODUCTS, visibleProducts } from "@/lib/products";
@@ -41,8 +42,10 @@ export function ProductPage({ slug }: { slug: string }) {
 
   useEffect(() => {
     (async () => {
-      await ensureLearner(lang);
+      const learner = await ensureLearner(lang);
       let mine = await ownedProducts();
+      // For the funnel per campaign (docs/campagnes.md); not for someone who already has it and comes to read.
+      if (!mine.has(slug)) void recordProductSeen(learner, edition.slug);
       setAnonymous((await currentAccount())?.anonymous ?? true);
       // Back from paying: Stripe tells our server a moment later, so wait for the product to open (up to ~30 s).
       if (new URLSearchParams(window.location.search).has("paid") && !mine.has(slug)) {
