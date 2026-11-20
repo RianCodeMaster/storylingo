@@ -36,6 +36,19 @@ De app slaat bij het eerste bezoek de track, de campagne en de bron op, in je ei
 wie eerst via een advertentie kwam en later direct `/almanya` opent, blijft bij die advertentie horen. Een gewoon
 bezoek zonder campagne wordt wel ingevuld zodra iemand daarna via een advertentie komt.
 
+### Korte videocodes
+
+In een TikTok-bijschrift of de beschrijving van een YouTube Short kun je niet op een link klikken. Daarom toont
+elke video een kort adres dat de kijker overtypt: `qissio.com/v/c05`. Dat stuurt door naar
+`/almanya?utm_source=video&utm_campaign=c05`, zodat de video in de funnel een eigen rij krijgt (bron `video`,
+campagne = de code). De code mag bestaan uit kleine letters, cijfers en streepjes (hoofdletters worden klein
+gemaakt); een onbekende of verkeerde code komt gewoon op `/almanya` zonder campagne. Codes hoeven nergens
+geregistreerd te worden: wat je in de video zet, is de code. Een code die met `b1-` begint, opent de track
+`b1-examen`: `qissio.com/v/b1-b04` gaat naar `/almanya/b1-examen?utm_source=video&utm_campaign=b1-b04`.
+
+De klikbare link in je bio meet per platform: `qissio.com/almanya?utm_source=tiktok&utm_campaign=bio` en
+hetzelfde met `youtube`.
+
 Bekijk de resultaten met:
 
     python storylingo.py funnel --cloud          alle edities
