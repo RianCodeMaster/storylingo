@@ -26,6 +26,19 @@ const PRINCIPLES = ["input", "bizarre", "body", "picture", "speak", "timing"] as
 
 /** The first visit's wizard: the app's language, the level, what to start with. */
 type WizardStep = "language" | "level" | "start";
+const WIZARD_STEPS: readonly string[] = ["language", "level", "start"];
+const asStep = (s: string | null): WizardStep | null => (s && WIZARD_STEPS.includes(s) ? (s as WizardStep) : null);
+
+/** One answer of the wizard as a card: tapping selects it (a dot shows which); Next goes on. */
+function Card(props: { on: boolean; onPick: () => void; badge?: string; children: React.ReactNode }) {
+  return (
+    <button role="radio" aria-checked={props.on} className={props.on ? "choice selected" : "choice"} onClick={props.onPick}>
+      {props.badge && <span className="lang-badge">{props.badge}</span>}
+      <span className="choice-body">{props.children}</span>
+      <span className="radio-dot" aria-hidden />
+    </button>
+  );
+}
 
 /** The method in one line, and for whoever taps it six short reasons with the research term beside them. */
 function WhyItWorks() {
@@ -112,7 +125,25 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   });
   // The wizard's step (null: its first). Coming from another language's wizard (?step=level) skips the language.
   const [step, setStep] = useState<WizardStep | null>(null);
+  // The wizard's answers until Next: the app's language (an edition) and what to start with (story, phrases, track:x).
+  const [langPick, setLangPick] = useState<string | null>(null);
+  const [pick, setPick] = useState<string | null>(null);
   const router = useRouter();
+
+  /** Another wizard screen, as a step in the browser's history: the phone's back button returns to the one before. */
+  function goToStep(s: WizardStep) {
+    setStep(s);
+    const url = new URL(window.location.href);
+    url.searchParams.set("step", s);
+    window.history.pushState(null, "", url);
+  }
+
+  // Back (the bar's button or the phone's): the step in the address.
+  useEffect(() => {
+    const onPop = () => setStep(asStep(new URLSearchParams(window.location.search).get("step")));
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
   // This language in every base language it is taught in (almanya, duits, german): the wizard's first question.
   const family = siblingsOf(edition);
 
@@ -120,8 +151,10 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     const params = new URLSearchParams(window.location.search);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
     setGoal({ story: params.get("story"), start: params.get("start"), topic: params.get("topic") });
-    const asked = params.get("step");
-    if (asked === "level" || asked === "start") setStep(asked);
+    setStep(asStep(params.get("step")));
+    // A level page's "start" (/almanya/level/a2 → ?step=level&level=A2): that level already chosen.
+    const askedLevel = params.get("level")?.toUpperCase();
+    if (askedLevel && (LEVELS as readonly string[]).includes(askedLevel)) setChoice(askedLevel);
     (async () => {
       const learner = await ensureLearner(lang);
       setUserId(learner);
@@ -205,9 +238,10 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     const phrasesFirst = goal.start === "phrases" && Object.keys(phrases).length > 0;
     // A phrase video about one topic (the doctor) leads to that topic's phrases.
     const topic = isTopic(goal.topic) ? goal.topic : null;
-    // The first visit is a wizard of up to three one-tap steps: the app's language (only when this language is also
-    // taught in another one), the level (only when there is a choice), then what to start with. A step the visitor
-    // already answered elsewhere (?step=level after switching language) is skipped.
+    // The first visit is a wizard: one question per screen, the answer chosen by tapping a card (nothing jumps
+    // away), and always the same bar at the bottom: Back and Next (on the last screen: Start). Steps: the app's
+    // language (when this language is also taught in another one), the level (when there is a choice), what to start
+    // with. Each step is in the address (?step=…), so the phone's back button goes back one step.
     const steps: WizardStep[] = [
       ...(family.length > 1 ? (["language"] as const) : []),
       ...(levels.length > 1 ? (["level"] as const) : []),
@@ -215,149 +249,110 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     ];
     const current: WizardStep = step && steps.includes(step) ? step : steps[0];
     const at = steps.indexOf(current);
-    const next = () => setStep(steps[Math.min(at + 1, steps.length - 1)]);
+    const tracks = track ? [] : edition.tracks.filter((t) => trackProducts(edition, t.slug, owned).length > 0);
+    const hasPhrases = Object.keys(phrases).length > 0;
+    // What the last screen has chosen: what the video showed, else the story.
+    const picked = pick ?? (phrasesFirst ? "phrases" : "story");
+    const storyHref = first ? `${home}/story/${first.id}` : null;
+    const phrasesHref = topic ? `${home}/phrases?topic=${topic}` : `${home}/phrases`;
 
-    /** Another language: that edition's wizard, at the level step, with the campaign and video goal along. */
-    function otherLanguage(slug: string) {
-      const url = new URL(window.location.href);
-      url.pathname = `/${slug}`;
-      url.searchParams.set("step", "level");
-      // A full load on purpose: another edition has its own layout, language and direction.
-      window.location.assign(url);
+    /** Next: the next screen; on the language screen another language opens that edition at its level screen. */
+    function onNext() {
+      if (current === "language" && langPick && langPick !== edition.slug) {
+        const url = new URL(window.location.href);
+        url.pathname = `/${langPick}`;
+        url.searchParams.set("step", "level");
+        // A full load on purpose: another edition has its own layout, language and direction.
+        window.location.assign(url);
+      } else if (current !== "start") {
+        goToStep(steps[at + 1]);
+      } else if (picked === "phrases") {
+        void begin(level, phrasesHref);
+      } else if (picked.startsWith("track:")) {
+        router.push(`${home}/${picked.slice(6)}?step=start`);
+      } else {
+        void begin(level, storyHref);
+      }
     }
 
     return (
-      <main className="welcome">
-        {/* Whoever comes from a video should see at once that they are in the right place: the same name and icon
-            as the channel. Top right the language of the app, to put a wrong guess right at any moment. */}
+      <main className="welcome wizard">
+        {/* Only the name and icon of the channel (a video's viewer sees they are in the right place) and the
+            language of the app: one question per screen, nothing else. */}
         <div className="welcome-top">
           <p className="edition-name brand">
             {/* eslint-disable-next-line @next/next/no-img-element -- a small static SVG */}
             <img src="/icon.svg" alt="" className="brand-icon" />
-            Qissio · {edition.name}
+            Qissio
           </p>
           <LanguageSwitch keepQuery />
         </div>
-        <h1 className="tagline">{track?.tagline ?? edition.tagline}</h1>
-        {at === 0 && <p className="intro">{track?.intro ?? edition.intro}</p>}
         {steps.length > 1 && (
-          <div className="wizard-dots" aria-label={fill(dict.wizard.progress, { n: at + 1, total: steps.length })}>
-            {steps.map((s, i) => (
-              <span key={s} className={i <= at ? "on" : ""} />
-            ))}
+          <div className="wizard-progress" aria-label={fill(dict.wizard.progress, { n: at + 1, total: steps.length })}>
+            <div className="wizard-progress-bar">
+              <div style={{ width: `${((at + 1) / steps.length) * 100}%` }} />
+            </div>
+            {/* In words ("Step 1 of 3"), so right-to-left languages do not turn "1 / 3" around. */}
+            <span>{fill(dict.wizard.progress, { n: at + 1, total: steps.length })}</span>
           </div>
         )}
+        {at === 0 && <p className="tagline-small">{track?.tagline ?? edition.tagline}</p>}
         {stories.length === 0 ? (
           <p className="card">{dict.welcome.soon}</p>
         ) : current === "language" ? (
-          <section className="choices" aria-label={dict.language.title}>
-            <h2 className="wizard-step-title">🌐 {dict.language.title}</h2>
+          <section className="choices" role="radiogroup" aria-label={dict.language.title}>
+            <h1 className="wizard-question">{dict.language.title}</h1>
             {family.map((e) => (
-              <button
-                key={e.slug}
-                className={e.slug === edition.slug ? "choice choice-main" : "choice"}
-                onClick={() => (e.slug === edition.slug ? next() : otherLanguage(e.slug))}
-              >
-                <span className="lang-badge">{e.base.toUpperCase()}</span>
-                <span className="choice-body">
-                  <strong lang={e.base} dir={direction(e.base)}>
-                    {LANGUAGES[e.base]?.name ?? e.base}
-                  </strong>
-                  <span className="choice-line" lang={e.base} dir={direction(e.base)}>
-                    {e.name}
-                  </span>
-                </span>
-                <span className="arrow">{e.slug === edition.slug ? "✓" : "→"}</span>
-              </button>
+              <Card key={e.slug} on={(langPick ?? edition.slug) === e.slug} onPick={() => setLangPick(e.slug)} badge={e.base.toUpperCase()}>
+                <strong lang={e.base} dir={direction(e.base)}>
+                  {LANGUAGES[e.base]?.name ?? e.base}
+                </strong>
+              </Card>
             ))}
           </section>
         ) : current === "level" ? (
-          <section className="choices" aria-label={dict.level.question}>
-            <h2 className="wizard-step-title">📊 {dict.level.question}</h2>
+          <section className="choices" role="radiogroup" aria-label={dict.level.question}>
+            <h1 className="wizard-question">{dict.level.question}</h1>
             {levels.map((l) => (
-              <button
-                key={l}
-                className={l === level ? "choice choice-main" : "choice"}
-                onClick={() => {
-                  setChoice(l);
-                  next();
-                }}
-              >
-                <span className="lang-badge">{l}</span>
-                <span className="choice-body">
-                  <strong>{dict.level.options[l]}</strong>
-                </span>
-                <span className="arrow">→</span>
-              </button>
+              <Card key={l} on={l === level} onPick={() => setChoice(l)} badge={l}>
+                <strong>{dict.level.options[l]}</strong>
+              </Card>
             ))}
-            <p className="muted small">{dict.level.onlyYours}</p>
           </section>
         ) : (
-          <>
-            {/* Blocks instead of one button: each says what happens when you tap it and how long it takes, so nobody
-                lands in something they did not choose. The story comes first (the heart of the app); the phrases are
-                what the phrase videos promise; a track with its own course (the B1 exam) gets its own block. */}
-            {/* Whoever came from a video sees what it showed on top: a phrase video puts the phrases first, a story
-                video offers that very story (with its title). */}
-            <section className={phrasesFirst ? "choices phrases-first" : "choices"} aria-label={dict.welcome.pick}>
-              <h2 className="choices-title wizard-step-title">🎯 {dict.welcome.pick}</h2>
-              <button
-                className={phrasesFirst ? "choice choice-story" : "choice choice-story choice-main"}
-                disabled={busy}
-                onClick={() => void begin(level, first ? `${home}/story/${first.id}` : null)}
-              >
-                {first?.cover && (
-                  // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
-                  <img src={first.cover} alt="" className="choice-img" />
-                )}
-                <span className="choice-body">
-                  <strong>📖 {first && first === fromVideo ? dict.welcome.fromVideo : dict.welcome.storyTitle}</strong>
-                  {first && first === fromVideo && (
-                    <span className="choice-name">
-                      <bdi>{first.title}</bdi>
-                    </span>
-                  )}
-                  <span className="choice-line">{dict.welcome.storyLine}</span>
-                </span>
-                <span className="arrow">→</span>
-              </button>
-              {Object.keys(phrases).length > 0 && (
-                <button
-                  className={phrasesFirst ? "choice choice-phrases choice-main" : "choice choice-phrases"}
-                  disabled={busy}
-                  onClick={() => void begin(level, topic ? `${home}/phrases?topic=${topic}` : `${home}/phrases`)}
-                >
-                  <span className="choice-body">
-                    <strong>
-                      💬 {topic ? fill(dict.welcome.phrasesTopic, { topic: dict.phrases.topics[topic] }) : dict.welcome.phrasesTitle}
-                    </strong>
-                    <span className="choice-line">{topic ? dict.welcome.phrasesTopicLine : dict.welcome.phrasesLine}</span>
+          // What to start with: the story, the phrases (of the video's topic), a track with its own course. Whoever
+          // came from a video finds what it showed chosen, and on top.
+          <section className={phrasesFirst ? "choices phrases-first" : "choices"} role="radiogroup" aria-label={dict.welcome.pick}>
+            <h1 className="wizard-question choices-title">{dict.welcome.pick}</h1>
+            <span className="choice-story">
+              <Card on={picked === "story"} onPick={() => setPick("story")}>
+                <strong>📖 {first && first === fromVideo ? dict.welcome.fromVideo : dict.welcome.storyTitle}</strong>
+                {first && first === fromVideo && (
+                  <span className="choice-name">
+                    <bdi>{first.title}</bdi>
                   </span>
-                  <span className="arrow">→</span>
-                </button>
-              )}
-              {!track &&
-                edition.tracks
-                  .filter((t) => trackProducts(edition, t.slug, owned).length > 0)
-                  .map((t) => (
-                    <Link key={t.slug} className="choice" href={`${home}/${t.slug}`}>
-                      <span className="choice-body">
-                        <strong>🎓 {t.tagline}</strong>
-                        <span className="choice-line">{t.title}</span>
-                      </span>
-                      <span className="arrow">→</span>
-                    </Link>
-                  ))}
-            </section>
-            <p className="muted small">{dict.welcome.free}</p>
-          </>
+                )}
+                <span className="choice-line">{dict.wizard.storyShort}</span>
+              </Card>
+            </span>
+            {hasPhrases && (
+              <span className="choice-phrases">
+                <Card on={picked === "phrases"} onPick={() => setPick("phrases")}>
+                  <strong>
+                    💬 {topic ? fill(dict.welcome.phrasesTopic, { topic: dict.phrases.topics[topic] }) : dict.welcome.phrasesTitle}
+                  </strong>
+                  <span className="choice-line">{dict.wizard.phrasesShort}</span>
+                </Card>
+              </span>
+            )}
+            {tracks.map((t) => (
+              <Card key={t.slug} on={picked === `track:${t.slug}`} onPick={() => setPick(`track:${t.slug}`)}>
+                <strong>🎓 {t.tagline}</strong>
+              </Card>
+            ))}
+          </section>
         )}
-        {at > 0 && (
-          <button className="link muted" onClick={() => setStep(steps[at - 1])}>
-            {dict.wizard.back}
-          </button>
-        )}
-        {/* What the track's ad promised on top: a course that is coming (leave an e-mail) or one for sale. */}
+        {/* What the track's ad promised: a course that is coming (leave an e-mail) or one for sale. */}
         {current === "start" &&
           track &&
           trackProducts(edition, track.slug, owned).map((p) =>
@@ -369,12 +364,20 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
               </nav>
             ),
           )}
-        <WhyItWorks />
-        {current === "start" && stories.length > 1 && (
-          <button className="link muted" onClick={() => void choose(level)}>
-            {dict.welcome.choose}
+        {/* Always the same two buttons at the bottom of the screen. */}
+        <div className="wizard-bar">
+          {at > 0 ? (
+            <button className="wizard-back" onClick={() => window.history.back()}>
+              {dict.wizard.back}
+            </button>
+          ) : (
+            <span />
+          )}
+          <button className="primary wizard-next" disabled={busy || stories.length === 0} onClick={onNext}>
+            {current === "start" ? dict.wizard.begin : dict.wizard.next}
           </button>
-        )}
+        </div>
+        {current === "start" && <p className="muted small">{dict.welcome.free}</p>}
       </main>
     );
   }
@@ -474,6 +477,8 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
           <ProductTile key={p.slug} product={p} owned={owned.has(p.slug)} />
         ))}
       </nav>
+      {/* Why the method works, for whoever wants to know: here, not in the wizard (one question per screen there). */}
+      <WhyItWorks />
     </main>
   );
 }

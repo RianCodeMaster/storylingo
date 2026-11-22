@@ -785,28 +785,102 @@ button.chosen-level {
   font-weight: 800;
 }
 
-/* The first-visit wizard: three steps, one tap each, with dots that show where you are. */
-.wizard-dots {
+/* The first-visit wizard (Home.tsx): one question per screen, cards that are selected by a tap, and a bar at the
+   bottom with Back and Next that is always in the same place. Nothing else on the screen while it runs. */
+.wizard {
+  padding-bottom: 96px; /* room for the bar */
+}
+
+/* The links to the public story pages stay in the page for search engines, out of sight during the wizard. */
+body:has(.wizard) .read-footer {
+  display: none;
+}
+
+.wizard-progress {
   display: flex;
-  gap: 6px;
-  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.8;
 }
 
-.wizard-dots span {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+.wizard-progress-bar {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
   background: var(--border);
+  overflow: hidden;
 }
 
-.wizard-dots span.on {
+.wizard-progress-bar div {
+  height: 100%;
   background: var(--primary);
+  border-radius: 999px;
+  transition: width 0.25s ease;
 }
 
-.wizard-step-title {
-  font-size: 1.15rem;
-  font-weight: 800;
+.tagline-small {
   margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.wizard-question {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  margin: 4px 0 6px;
+}
+
+.choice.selected {
+  border: 2px solid var(--primary);
+}
+
+.radio-dot {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+}
+
+.choice.selected .radio-dot {
+  border-color: var(--primary);
+  background: radial-gradient(circle, var(--primary) 0 45%, transparent 50%);
+}
+
+.wizard-bar {
+  position: fixed;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+}
+
+.wizard-bar > * {
+  max-width: 50%;
+}
+
+.wizard-back {
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  padding: 12px 8px;
+  cursor: pointer;
+}
+
+.wizard-next {
+  min-width: 150px;
+  padding: 14px 22px;
+  font-size: 1.05rem;
 }
 
 .dash-head {

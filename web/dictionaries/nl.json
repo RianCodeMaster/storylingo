@@ -331,6 +331,10 @@
   },
   "wizard": {
     "progress": "Stap {n} van {total}",
-    "back": "← Terug"
+    "back": "← Terug",
+    "next": "Verder →",
+    "begin": "Beginnen →",
+    "storyShort": "Luisteren en hardop antwoorden, 5 minuten.",
+    "phrasesShort": "Met stem en betekenis, 10 per keer."
   }
 }

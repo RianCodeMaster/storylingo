@@ -91,11 +91,15 @@ icoontje. Alleen edities die er zijn. Op het startscherm (🌐 NL) vraagt de app
 voortgang hoort bij de editie. Wie inlogt op een ander apparaat, gaat naar de editie waar hij het laatst mee bezig
 was (`lastEdition`, lib/enrollment.ts).
 
-**De wizard bij het eerste bezoek** (Home.tsx): drie stappen van één tik, met stipjes. 1. 🌐 de taal van de app
-(alleen als die doeltaal ook in een andere basistaal bestaat; de gok staat al aangevinkt), 2. 📊 het niveau (alleen
-als er iets te kiezen is), 3. 🎯 waarmee je begint (verhaal, zinnen, een track). Wie van een video komt, vindt alles
-al ingevuld naar die video. Wie in de wizard een andere taal kiest, gaat naar die editie bij stap 2
-(`?step=level`), met de campagne mee. De bezoeker telt dan in beide edities als bezoek, met dezelfde campagne.
+**De wizard bij het eerste bezoek** (Home.tsx): één vraag per scherm, een tik op een kaart selecteert (er springt
+niets weg), en onderaan altijd dezelfde balk met "Terug" en "Verder" (op het laatste scherm "Beginnen"); een balk met
+"Stap 1 van 3" laat zien waar je bent. 1. de taal van de app (alleen als die doeltaal ook in een andere basistaal
+bestaat; de gok staat al geselecteerd), 2. het niveau (alleen als er iets te kiezen is), 3. waarmee je begint
+(verhaal, zinnen, een track). Elke stap staat in het adres (`?step=level`), zodat ook de terugknop van de telefoon
+één stap teruggaat. Tijdens de wizard staat er niets anders op het scherm (de links naar de verhalenpagina's blijven
+voor Google in de pagina, maar zijn niet zichtbaar). Wie van een video komt, vindt alles al geselecteerd naar die
+video. Wie een andere taal kiest, gaat naar die editie bij stap 2, met de campagne mee; de "begin"-knop van een
+niveaupagina (`/almanya/level/a2`) opent de wizard bij stap 2 met dat niveau gekozen. De bezoeker telt dan in beide edities als bezoek, met dezelfde campagne.
 Laptop en telefoon zijn twee aparte bezoekers zolang iemand niet inlogt.
 
 Bekijk de resultaten met:

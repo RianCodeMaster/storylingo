@@ -331,6 +331,10 @@
   },
   "wizard": {
     "progress": "Step {n} of {total}",
-    "back": "← Back"
+    "back": "← Back",
+    "next": "Next →",
+    "begin": "Start →",
+    "storyShort": "Listen and answer out loud, 5 minutes.",
+    "phrasesShort": "With voice and meaning, 10 at a time."
   }
 }

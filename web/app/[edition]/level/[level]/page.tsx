@@ -53,7 +53,8 @@ export default async function LevelPage({ params }: PageProps<"/[edition]/level/
       {dict.seo.levelAbout[level as keyof typeof dict.seo.levelAbout] && (
         <p>{dict.seo.levelAbout[level as keyof typeof dict.seo.levelAbout]}</p>
       )}
-      <Link className="cta" href={`/${edition.slug}`}>
+      {/* Start: the app's wizard at its level question, with this level already chosen. */}
+      <Link className="cta" href={`/${edition.slug}?step=level&level=${level}`}>
         {dict.seo.start} <span className="arrow">→</span>
       </Link>
       <StoryList edition={edition} dict={dict} stories={stories} />
