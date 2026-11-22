@@ -39,6 +39,15 @@ export const EDITIONS = editions as Record<string, Edition>;
 export const isEdition = (slug: string | undefined): slug is string => !!slug && slug in EDITIONS;
 
 /**
+ * The editions that teach the same language in another base language, this one included (almanya, duits, german
+ * all teach German): what the language switch and the wizard offer. Drafts only while developing.
+ */
+export const siblingsOf = (edition: Edition): Edition[] =>
+  Object.values(EDITIONS)
+    .filter((e) => e.target === edition.target && (e.status !== "draft" || showsEverything()))
+    .sort((a, b) => a.base.localeCompare(b.base));
+
+/**
  * Whether the owner's view is on: the overview at / and draft editions. On while developing, or with SHOW_EDITIONS=1;
  * off in production, so a learner never finds another edition (each niche is marketed as its own app).
  */

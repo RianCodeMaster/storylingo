@@ -686,11 +686,135 @@ button.chosen-level {
   gap: 20px;
 }
 
-.dash-head {
+/* The language switch (components/LanguageSwitch.tsx): 🌐 + the language, a small menu below it. */
+.welcome-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
+}
+
+.lang-switch {
+  position: relative;
+}
+
+.lang-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lang-backdrop {
+  position: fixed;
+  inset: 0;
+  background: transparent;
+  border: none;
+  z-index: 20;
+}
+
+.lang-menu {
+  position: absolute;
+  inset-inline-end: 0;
+  top: calc(100% + 6px);
+  z-index: 21;
+  min-width: 220px;
+  padding: 8px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lang-menu-title {
+  margin: 4px 8px 6px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  opacity: 0.8;
+}
+
+.lang-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+}
+
+.lang-item.current {
+  border-color: var(--primary);
+}
+
+.lang-badge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 34px;
+  height: 26px;
+  border-radius: 8px;
+  background: var(--border);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.lang-name {
+  flex: 1;
+  font-weight: 700;
+}
+
+.lang-check {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+/* The first-visit wizard: three steps, one tap each, with dots that show where you are. */
+.wizard-dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.wizard-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--border);
+}
+
+.wizard-dots span.on {
+  background: var(--primary);
+}
+
+.wizard-step-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.dash-head {
+  display: flex;
+  flex-wrap: wrap; /* on a narrow phone the chips go to a second line instead of off the screen */
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
 }
 
 .level-chip {

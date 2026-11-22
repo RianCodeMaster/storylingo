@@ -26,7 +26,6 @@
     "free": "Free, no account needed",
     "soon": "The first stories are on their way.",
     "choose": "Or pick a story yourself",
-    "otherLanguage": "Not your language?",
     "pick": "What do you want to start with?",
     "fromVideo": "The story from the video",
     "storyTitle": "A short, funny story",
@@ -325,5 +324,13 @@
     "terms": "terms",
     "privacy": "privacy policy",
     "and": "and the"
+  },
+  "language": {
+    "title": "Which language do you want the app in?",
+    "keepsProgress": "Your progress stays with this language. Switch the app's language?"
+  },
+  "wizard": {
+    "progress": "Step {n} of {total}",
+    "back": "← Back"
   }
 }

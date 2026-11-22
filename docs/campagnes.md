@@ -85,10 +85,18 @@ en een videocode zonder regel moeten raden (`web/proxy.ts`, guessEdition), voor 
    Engelse telefoon. Het land geeft Vercel mee; het wordt niet opgeslagen.
 3. Anders de Engelse editie.
 
-Een verkeerde gok is met één tik recht te zetten: onderaan de welkomstpagina staat "Niet jouw taal?" met dezelfde
-doeltaal in de andere basistalen (in hun eigen taal genoemd). De campagne in het adres gaat mee. De bezoeker telt
-dan in beide edities als bezoek, met dezelfde campagne. Laptop en telefoon zijn twee aparte bezoekers zolang
-iemand niet inlogt.
+Een verkeerde gok is altijd recht te zetten (`components/LanguageSwitch.tsx`): rechtsboven staat 🌐 met de taal van
+de app; het menu toont dezelfde doeltaal in de andere basistalen, elk in hun eigen schrift met de taalcode als
+icoontje. Alleen edities die er zijn. Op het startscherm (🌐 NL) vraagt de app eerst of je wilt wisselen, want je
+voortgang hoort bij de editie. Wie inlogt op een ander apparaat, gaat naar de editie waar hij het laatst mee bezig
+was (`lastEdition`, lib/enrollment.ts).
+
+**De wizard bij het eerste bezoek** (Home.tsx): drie stappen van één tik, met stipjes. 1. 🌐 de taal van de app
+(alleen als die doeltaal ook in een andere basistaal bestaat; de gok staat al aangevinkt), 2. 📊 het niveau (alleen
+als er iets te kiezen is), 3. 🎯 waarmee je begint (verhaal, zinnen, een track). Wie van een video komt, vindt alles
+al ingevuld naar die video. Wie in de wizard een andere taal kiest, gaat naar die editie bij stap 2
+(`?step=level`), met de campagne mee. De bezoeker telt dan in beide edities als bezoek, met dezelfde campagne.
+Laptop en telefoon zijn twee aparte bezoekers zolang iemand niet inlogt.
 
 Bekijk de resultaten met:
 

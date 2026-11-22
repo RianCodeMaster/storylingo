@@ -26,7 +26,6 @@
     "free": "Gratis, zonder account",
     "soon": "De eerste verhalen komen eraan.",
     "choose": "Of kies zelf een verhaal",
-    "otherLanguage": "Niet jouw taal?",
     "pick": "Waarmee wil je beginnen?",
     "fromVideo": "Het verhaal uit de video",
     "storyTitle": "Een kort, grappig verhaal",
@@ -325,5 +324,13 @@
     "terms": "voorwaarden",
     "privacy": "privacyverklaring",
     "and": "en de"
+  },
+  "language": {
+    "title": "In welke taal wil je de app?",
+    "keepsProgress": "Je voortgang blijft bij deze taal. Wil je de taal van de app wisselen?"
+  },
+  "wizard": {
+    "progress": "Stap {n} van {total}",
+    "back": "← Terug"
   }
 }

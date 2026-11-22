@@ -14,6 +14,8 @@ import {
   verifyCode,
 } from "@/lib/account";
 import { openPortal, paidWithStripe } from "@/lib/checkout";
+import { isEdition } from "@/lib/editions";
+import { lastEdition } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
 import { ownedProducts, PRODUCTS } from "@/lib/products";
 import { ensureLearner } from "@/lib/supabase";
@@ -78,7 +80,15 @@ export function AccountPage() {
       // lib/supabase.ts start from this account (a client-side push would keep the old learner).
       // Came here to pay (?next=/almanya/p/plus-de): straight back there. Only addresses inside this edition.
       const next = new URLSearchParams(window.location.search).get("next");
-      window.location.href = next?.startsWith(`${home}/`) && !next.startsWith("//") ? next : `${home}/account`;
+      // Otherwise, an account already learning in another edition (another device, another browser language):
+      // on to that edition, which the browser then remembers (proxy.ts), so they keep their own language.
+      const mine = next ? null : await lastEdition().catch(() => null);
+      window.location.href =
+        next?.startsWith(`${home}/`) && !next.startsWith("//")
+          ? next
+          : mine && isEdition(mine) && `/${mine}` !== home
+            ? `/${mine}`
+            : `${home}/account`;
     } catch (err) {
       const status = (err as { status?: number }).status;
       setProblem(status === 429 ? dict.account.tooMany : dict.account.wrongCode);

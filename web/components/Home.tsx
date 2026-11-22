@@ -9,7 +9,9 @@ import { Waitlist } from "@/components/Waitlist";
 import { currentAccount } from "@/lib/account";
 import { arrival, recordVisit } from "@/lib/attribution";
 import { useDevActions } from "@/lib/devtools";
-import { EDITIONS, showsEverything, trackOf } from "@/lib/editions";
+import { siblingsOf, trackOf } from "@/lib/editions";
+import { direction, LANGUAGES } from "@/lib/locales";
+import { LanguageSwitch } from "@/components/LanguageSwitch";
 import { type Enrollment, getEnrollment, LEVELS, type Level, setLevel } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
 import { isTopic, phraseProgress, type PhraseProgress } from "@/lib/phrases";
@@ -21,6 +23,9 @@ import { ensureLearner, supabase } from "@/lib/supabase";
 import type { StoryCard } from "@/lib/types";
 
 const PRINCIPLES = ["input", "bizarre", "body", "picture", "speak", "timing"] as const;
+
+/** The first visit's wizard: the app's language, the level, what to start with. */
+type WizardStep = "language" | "level" | "start";
 
 /** The method in one line, and for whoever taps it six short reasons with the research term beside them. */
 function WhyItWorks() {
@@ -105,18 +110,18 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [goal, setGoal] = useState<{ story: string | null; start: string | null; topic: string | null }>({
     story: null, start: null, topic: null,
   });
-  const [query, setQuery] = useState("");
+  // The wizard's step (null: its first). Coming from another language's wizard (?step=level) skips the language.
+  const [step, setStep] = useState<WizardStep | null>(null);
   const router = useRouter();
-  // The same target language for learners of another base language (almanya ↔ duits ↔ german): the language switch.
-  const otherBases = Object.values(EDITIONS).filter(
-    (e) => e.target === edition.target && e.base !== edition.base && (e.status !== "draft" || showsEverything()),
-  );
+  // This language in every base language it is taught in (almanya, duits, german): the wizard's first question.
+  const family = siblingsOf(edition);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
     setGoal({ story: params.get("story"), start: params.get("start"), topic: params.get("topic") });
-    setQuery(window.location.search);
+    const asked = params.get("step");
+    if (asked === "level" || asked === "start") setStep(asked);
     (async () => {
       const learner = await ensureLearner(lang);
       setUserId(learner);
@@ -200,39 +205,102 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     const phrasesFirst = goal.start === "phrases" && Object.keys(phrases).length > 0;
     // A phrase video about one topic (the doctor) leads to that topic's phrases.
     const topic = isTopic(goal.topic) ? goal.topic : null;
+    // The first visit is a wizard of up to three one-tap steps: the app's language (only when this language is also
+    // taught in another one), the level (only when there is a choice), then what to start with. A step the visitor
+    // already answered elsewhere (?step=level after switching language) is skipped.
+    const steps: WizardStep[] = [
+      ...(family.length > 1 ? (["language"] as const) : []),
+      ...(levels.length > 1 ? (["level"] as const) : []),
+      "start",
+    ];
+    const current: WizardStep = step && steps.includes(step) ? step : steps[0];
+    const at = steps.indexOf(current);
+    const next = () => setStep(steps[Math.min(at + 1, steps.length - 1)]);
+
+    /** Another language: that edition's wizard, at the level step, with the campaign and video goal along. */
+    function otherLanguage(slug: string) {
+      const url = new URL(window.location.href);
+      url.pathname = `/${slug}`;
+      url.searchParams.set("step", "level");
+      // A full load on purpose: another edition has its own layout, language and direction.
+      window.location.assign(url);
+    }
+
     return (
       <main className="welcome">
         {/* Whoever comes from a video should see at once that they are in the right place: the same name and icon
-            as the channel, and a picture from the story they are about to start (the videos use these pictures). */}
-        <p className="edition-name brand">
-          {/* eslint-disable-next-line @next/next/no-img-element -- a small static SVG */}
-          <img src="/icon.svg" alt="" className="brand-icon" />
-          Qissio · {edition.name}
-        </p>
+            as the channel. Top right the language of the app, to put a wrong guess right at any moment. */}
+        <div className="welcome-top">
+          <p className="edition-name brand">
+            {/* eslint-disable-next-line @next/next/no-img-element -- a small static SVG */}
+            <img src="/icon.svg" alt="" className="brand-icon" />
+            Qissio · {edition.name}
+          </p>
+          <LanguageSwitch keepQuery />
+        </div>
         <h1 className="tagline">{track?.tagline ?? edition.tagline}</h1>
-        {/* No list of method pillars here: the intro says it in one line, and the button must fit on the first screen
-            of a phone (the method stays under "why it works" below the button). */}
-        <p className="intro">{track?.intro ?? edition.intro}</p>
-        {stories.length > 0 ? (
+        {at === 0 && <p className="intro">{track?.intro ?? edition.intro}</p>}
+        {steps.length > 1 && (
+          <div className="wizard-dots" aria-label={fill(dict.wizard.progress, { n: at + 1, total: steps.length })}>
+            {steps.map((s, i) => (
+              <span key={s} className={i <= at ? "on" : ""} />
+            ))}
+          </div>
+        )}
+        {stories.length === 0 ? (
+          <p className="card">{dict.welcome.soon}</p>
+        ) : current === "language" ? (
+          <section className="choices" aria-label={dict.language.title}>
+            <h2 className="wizard-step-title">🌐 {dict.language.title}</h2>
+            {family.map((e) => (
+              <button
+                key={e.slug}
+                className={e.slug === edition.slug ? "choice choice-main" : "choice"}
+                onClick={() => (e.slug === edition.slug ? next() : otherLanguage(e.slug))}
+              >
+                <span className="lang-badge">{e.base.toUpperCase()}</span>
+                <span className="choice-body">
+                  <strong lang={e.base} dir={direction(e.base)}>
+                    {LANGUAGES[e.base]?.name ?? e.base}
+                  </strong>
+                  <span className="choice-line" lang={e.base} dir={direction(e.base)}>
+                    {e.name}
+                  </span>
+                </span>
+                <span className="arrow">{e.slug === edition.slug ? "✓" : "→"}</span>
+              </button>
+            ))}
+          </section>
+        ) : current === "level" ? (
+          <section className="choices" aria-label={dict.level.question}>
+            <h2 className="wizard-step-title">📊 {dict.level.question}</h2>
+            {levels.map((l) => (
+              <button
+                key={l}
+                className={l === level ? "choice choice-main" : "choice"}
+                onClick={() => {
+                  setChoice(l);
+                  next();
+                }}
+              >
+                <span className="lang-badge">{l}</span>
+                <span className="choice-body">
+                  <strong>{dict.level.options[l]}</strong>
+                </span>
+                <span className="arrow">→</span>
+              </button>
+            ))}
+            <p className="muted small">{dict.level.onlyYours}</p>
+          </section>
+        ) : (
           <>
-            {levels.length > 1 && (
-              <fieldset className="level-choice">
-                <legend>{dict.level.question}</legend>
-                {levels.map((l) => (
-                  <button key={l} className={l === level ? "chosen" : ""} onClick={() => setChoice(l)}>
-                    {dict.level.options[l]} <span className="muted small">{l}</span>
-                  </button>
-                ))}
-                <p className="muted small">{dict.level.onlyYours}</p>
-              </fieldset>
-            )}
             {/* Blocks instead of one button: each says what happens when you tap it and how long it takes, so nobody
                 lands in something they did not choose. The story comes first (the heart of the app); the phrases are
                 what the phrase videos promise; a track with its own course (the B1 exam) gets its own block. */}
             {/* Whoever came from a video sees what it showed on top: a phrase video puts the phrases first, a story
                 video offers that very story (with its title). */}
             <section className={phrasesFirst ? "choices phrases-first" : "choices"} aria-label={dict.welcome.pick}>
-              <h2 className="choices-title">{dict.welcome.pick}</h2>
+              <h2 className="choices-title wizard-step-title">🎯 {dict.welcome.pick}</h2>
               <button
                 className={phrasesFirst ? "choice choice-story" : "choice choice-story choice-main"}
                 disabled={busy}
@@ -283,11 +351,15 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
             </section>
             <p className="muted small">{dict.welcome.free}</p>
           </>
-        ) : (
-          <p className="card">{dict.welcome.soon}</p>
+        )}
+        {at > 0 && (
+          <button className="link muted" onClick={() => setStep(steps[at - 1])}>
+            {dict.wizard.back}
+          </button>
         )}
         {/* What the track's ad promised on top: a course that is coming (leave an e-mail) or one for sale. */}
-        {track &&
+        {current === "start" &&
+          track &&
           trackProducts(edition, track.slug, owned).map((p) =>
             p.status === "coming" ? (
               <Waitlist key={p.slug} product={p} track={track.slug} />
@@ -298,27 +370,10 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
             ),
           )}
         <WhyItWorks />
-        {stories.length > 1 && (
+        {current === "start" && stories.length > 1 && (
           <button className="link muted" onClick={() => void choose(level)}>
             {dict.welcome.choose}
           </button>
-        )}
-        {/* A wrong guess of the visitor's language (qissio.com sends them by browser language and country) is put
-            right with one tap: the same target language in another base language, each named in its own language.
-            Only here on the welcome, so every edition still feels like its own app. The address's campaign goes
-            along, so the visit still counts for the video it came from. */}
-        {otherBases.length > 0 && (
-          <p className="other-language muted small">
-            {dict.welcome.otherLanguage}{" "}
-            {otherBases.map((e, i) => (
-              <span key={e.slug}>
-                {i > 0 && " · "}
-                <a href={`/${e.slug}${query}`} lang={e.base} dir="auto">
-                  {e.name}
-                </a>
-              </span>
-            ))}
-          </p>
         )}
       </main>
     );
@@ -346,6 +401,8 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
         <span className="edition-name">{edition.name}</span>
         <LevelChip levels={levels} mine={mine} name={levelName} onChoose={(l) => void choose(l)} />
         {tier.plus && !tier.has && <PlusChip plus={tier.plus} />}
+        {/* Another language of the app: their progress stays with this one, so they are asked first. */}
+        <LanguageSwitch warn compact />
         <Link href={`${home}/account`} className="dash-account" aria-label={dict.account.title}>
           👤
         </Link>
