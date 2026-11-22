@@ -73,6 +73,23 @@ begonnen is, ziet geen welkomstpagina meer maar zijn startscherm.
 De klikbare link in je bio meet per platform: `qissio.com/almanya?utm_source=tiktok&utm_campaign=bio` en
 hetzelfde met `youtube`.
 
+### Welke editie zonder editie in het adres
+
+Een adres met een editie (`/almanya`, een videocode met een regel) gaat altijd daarheen. Alleen `qissio.com` zelf
+en een videocode zonder regel moeten raden (`web/proxy.ts`, guessEdition), voor elke editie op dezelfde manier:
+
+1. **De laatste editie in deze browser.** Wie een editie opent, krijgt het cookie `qissio_edition` (alleen de naam
+   van de editie, een jaar geldig: een voorkeur, geen tracking). Wie terugkomt, komt bij zijn eigen voortgang.
+2. **De taal van de browser**, maar Engels telt zwak: in een land met een eigen basistaal (Nederland, België,
+   Marokko, Syrië …, de lijst COUNTRY_BASE) wint het land, want daar hebben veel mensen Engelse Windows of een
+   Engelse telefoon. Het land geeft Vercel mee; het wordt niet opgeslagen.
+3. Anders de Engelse editie.
+
+Een verkeerde gok is met één tik recht te zetten: onderaan de welkomstpagina staat "Niet jouw taal?" met dezelfde
+doeltaal in de andere basistalen (in hun eigen taal genoemd). De campagne in het adres gaat mee. De bezoeker telt
+dan in beide edities als bezoek, met dezelfde campagne. Laptop en telefoon zijn twee aparte bezoekers zolang
+iemand niet inlogt.
+
 Bekijk de resultaten met:
 
     python storylingo.py funnel --cloud          alle edities

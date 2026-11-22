@@ -9,7 +9,7 @@ import { Waitlist } from "@/components/Waitlist";
 import { currentAccount } from "@/lib/account";
 import { arrival, recordVisit } from "@/lib/attribution";
 import { useDevActions } from "@/lib/devtools";
-import { trackOf } from "@/lib/editions";
+import { EDITIONS, showsEverything, trackOf } from "@/lib/editions";
 import { type Enrollment, getEnrollment, LEVELS, type Level, setLevel } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
 import { isTopic, phraseProgress, type PhraseProgress } from "@/lib/phrases";
@@ -105,12 +105,18 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [goal, setGoal] = useState<{ story: string | null; start: string | null; topic: string | null }>({
     story: null, start: null, topic: null,
   });
+  const [query, setQuery] = useState("");
   const router = useRouter();
+  // The same target language for learners of another base language (almanya ↔ duits ↔ german): the language switch.
+  const otherBases = Object.values(EDITIONS).filter(
+    (e) => e.target === edition.target && e.base !== edition.base && (e.status !== "draft" || showsEverything()),
+  );
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
     setGoal({ story: params.get("story"), start: params.get("start"), topic: params.get("topic") });
+    setQuery(window.location.search);
     (async () => {
       const learner = await ensureLearner(lang);
       setUserId(learner);
@@ -296,6 +302,23 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
           <button className="link muted" onClick={() => void choose(level)}>
             {dict.welcome.choose}
           </button>
+        )}
+        {/* A wrong guess of the visitor's language (qissio.com sends them by browser language and country) is put
+            right with one tap: the same target language in another base language, each named in its own language.
+            Only here on the welcome, so every edition still feels like its own app. The address's campaign goes
+            along, so the visit still counts for the video it came from. */}
+        {otherBases.length > 0 && (
+          <p className="other-language muted small">
+            {dict.welcome.otherLanguage}{" "}
+            {otherBases.map((e, i) => (
+              <span key={e.slug}>
+                {i > 0 && " · "}
+                <a href={`/${e.slug}${query}`} lang={e.base} dir="auto">
+                  {e.name}
+                </a>
+              </span>
+            ))}
+          </p>
         )}
       </main>
     );
