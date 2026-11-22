@@ -163,14 +163,21 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     const first = preferring(stories, track?.prefer ?? []).find((s) => s.cefr_level === level && !locked(s));
     return (
       <main className="welcome">
-        <p className="edition-name">{edition.name}</p>
+        {/* Whoever comes from a video should see at once that they are in the right place: the same name and icon
+            as the channel, and a picture from the story they are about to start (the videos use these pictures). */}
+        <p className="edition-name brand">
+          {/* eslint-disable-next-line @next/next/no-img-element -- a small static SVG */}
+          <img src="/icon.svg" alt="" className="brand-icon" />
+          Qissio · {edition.name}
+        </p>
+        {first?.cover && (
+          // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
+          <img src={first.cover} alt="" className="welcome-cover" />
+        )}
         <h1 className="tagline">{track?.tagline ?? edition.tagline}</h1>
+        {/* No list of method pillars here: the intro says it in one line, and the button must fit on the first screen
+            of a phone (the method stays under "why it works" below the button). */}
         <p className="intro">{track?.intro ?? edition.intro}</p>
-        <ul className="pillars">
-          <li>🖼️ {dict.welcome.pillars.words}</li>
-          <li>🎤 {dict.welcome.pillars.speak}</li>
-          <li>🔁 {dict.welcome.pillars.review}</li>
-        </ul>
         {stories.length > 0 ? (
           <>
             {levels.length > 1 && (

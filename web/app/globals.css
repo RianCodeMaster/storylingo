@@ -367,12 +367,33 @@ button.link {
 
 .welcome {
   gap: 18px;
-  padding-top: 8vh;
+  padding-top: 4vh;
+}
+
+/* The channel's name and icon, so a visitor from a video recognises where they landed. */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+}
+
+/* A picture from the first story: the same drawings as in the videos. Low, so the button stays on the first screen. */
+.welcome-cover {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 .tagline {
-  font-size: 2.2rem;
-  line-height: 1.15;
+  font-size: 1.75rem;
+  line-height: 1.25;
 }
 
 .intro {
@@ -471,6 +492,22 @@ button.link {
 .level-choice legend {
   font-weight: 800;
   margin-bottom: 8px;
+}
+
+/* On the welcome the three levels share one row, so the start button stays on the first screen of a phone. */
+.welcome .level-choice button {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 10px 6px;
+  font-size: 0.9rem;
+}
+
+.welcome .level-choice p {
+  flex-basis: 100%;
+}
+
+.welcome .level-choice legend {
+  margin-bottom: 6px;
 }
 
 .level-choice button.chosen {
