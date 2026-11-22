@@ -55,8 +55,8 @@
     "free": {
       "stories_per_level": 2,
       "stories_per_day": 1,
-      "phrases_per_level": 30,
-      "phrases_per_topic": 10,
+      "phrases_per_level": 10,
+      "phrases_per_topic": 5,
       "phrases_per_day": 10,
       "reviews_per_day": 20
     },
@@ -123,8 +123,8 @@
     "free": {
       "stories_per_level": 2,
       "stories_per_day": 1,
-      "phrases_per_level": 30,
-      "phrases_per_topic": 10,
+      "phrases_per_level": 10,
+      "phrases_per_topic": 5,
       "phrases_per_day": 10,
       "reviews_per_day": 20
     },
@@ -189,8 +189,8 @@
     "free": {
       "stories_per_level": 2,
       "stories_per_day": 1,
-      "phrases_per_level": 30,
-      "phrases_per_topic": 10,
+      "phrases_per_level": 10,
+      "phrases_per_topic": 5,
       "phrases_per_day": 10,
       "reviews_per_day": 20
     },

@@ -15,8 +15,8 @@ Per doeltaal staat het in het Plus-product (`content/products/plus-de.yaml`, `pl
 free:
   stories_per_level: 2     # per niveau de eerste 2 verhalen
   stories_per_day: 1       # waarvan 1 nieuw verhaal per dag; een verhaal opnieuw spelen mag altijd
-  phrases_per_level: 30    # per niveau de eerste 30 zinnen
-  phrases_per_topic: 10    # en per niveau de eerste 10 van elk onderwerp (dokter, werk, …: een onderwerpvideo)
+  phrases_per_level: 10    # per niveau de eerste 10 zinnen
+  phrases_per_topic: 5     # en per niveau de eerste 5 van elk onderwerp (dokter, werk, …: om te proeven)
   phrases_per_day: 10      # waarvan 10 nieuwe per dag
   reviews_per_day: 20      # 20 woorden herhalen per dag
 ```

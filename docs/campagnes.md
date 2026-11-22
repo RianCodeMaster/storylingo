@@ -39,36 +39,36 @@ bezoek zonder campagne wordt wel ingevuld zodra iemand daarna via een advertenti
 ### Korte videocodes
 
 In een TikTok-bijschrift of de beschrijving van een YouTube Short kun je niet op een link klikken. Daarom toont
-elke video een kort adres dat de kijker overtypt: `qissio.com/v/c05`. Dat stuurt door naar
+elke video een kort adres dat de kijker overtypt: `qissio.com/v/c05`. Dat stuurt door naar bijvoorbeeld
 `/almanya?utm_source=video&utm_campaign=c05`, zodat de video in de funnel een eigen rij krijgt (bron `video`,
 campagne = de code). De code mag bestaan uit kleine letters, cijfers en streepjes (hoofdletters worden klein
-gemaakt); een onbekende of verkeerde code komt gewoon op `/almanya` zonder campagne. Codes hoeven nergens
-geregistreerd te worden: wat je in de video zet, is de code. Een code die met `b1-` begint, opent de track
-`b1-examen`: `qissio.com/v/b1-b04` gaat naar `/almanya/b1-examen?utm_source=video&utm_campaign=b1-b04`.
+gemaakt). Dit werkt voor elke editie op dezelfde manier: niets hiervan hoort bij één taalpaar.
 
-**Wat de video liet zien, komt bovenaan.** In `web/lib/video-codes.json` staat per code wat de video toonde:
+**Per code één regel** in `web/lib/video-codes.json`: voor welke editie (en track) de video gemaakt is en wat hij
+liet zien.
 
-    "a02": {"story": "buergeramt-nacht"}                   een verhaalvideo: dat verhaal (slug uit content/stories)
-    "quiz-dokter": {"start": "phrases", "topic": "health"} een zinnenvideo over één onderwerp: die zinnen eerst
-    "b1-b08": {"track": "b1-examen", "start": "phrases", "topic": "office"}
-    "nl-a01": {"edition": "duits", "story": "…"}            een video voor een andere editie
+    "c05": {"edition": "almanya"}                                         alleen de editie: de gewone blokken
+    "a02": {"edition": "almanya", "story": "buergeramt-nacht"}            een verhaalvideo: dat verhaal
+    "quiz-dokter": {"edition": "almanya", "start": "phrases", "topic": "health"}   zinnen van één onderwerp eerst
+    "b1-b08": {"edition": "almanya", "track": "b1-examen", "start": "phrases", "topic": "office"}
+    "nl-a01": {"edition": "duits", "story": "…"}                          een video voor Nederlandstaligen
 
-`edition` (standaard almanya) en `track` bepalen waar de code heen gaat; zonder regel gaat een code naar almanya
-(een code met `b1-` ervoor naar de track b1-examen). Onderwerpen: health, work, office, shopping, housing, travel,
-social, everyday (`pipeline/phrases.py`, TOPICS; elke zin heeft er één of twee, `storylingo.py phrase-topics`).
+Zet bij elke nieuwe video (en elke code in een bio) een regel erbij en push. Een code zonder regel werkt ook: hij
+gaat, net als qissio.com zelf, naar de editie in de taal van de telefoon van de bezoeker, en telt wel als campagne.
+Onderwerpen: health, work, office, shopping, housing, travel, social, everyday (`pipeline/phrases.py`, TOPICS; elke
+zin heeft er één of twee, `storylingo.py phrase-topics <taal>`).
 
 De doorverwijzing zet het in het adres (`&story=…`, `&start=phrases`, `&topic=…`) en de welkomstpagina toont dan:
 
 - bij een verhaalvideo het blok "Het verhaal uit de video" met de titel van dat verhaal, en het niveau van dat
   verhaal alvast gekozen (kiest de bezoeker een ander niveau, dan krijgt hij het eerste verhaal van dat niveau);
 - bij een zinnenvideo het zinnenblok bovenaan, met een onderwerp als "Handige zinnen: bij de dokter", dat naar de
-  zinnen van dat onderwerp gaat (`/<editie>/phrases?topic=health`). Zonder Plus zijn per niveau de eerste 10 van
-  elk onderwerp open (`phrases_per_topic`, docs/plus.md), zodat de kijker een volle ronde krijgt;
-- bij een code die niet in de lijst staat (zoals de fout/goed-video's) de gewone blokken.
+  zinnen van dat onderwerp gaat (`/<editie>/phrases?topic=health`). Zonder Plus zijn per niveau de eerste 5 van
+  elk onderwerp open (`phrases_per_topic`, docs/plus.md): genoeg om te proeven, de rest is Plus;
+- bij een code met alleen een editie (zoals de fout/goed-video's) de gewone blokken.
 
-Het bezoek wordt in alle gevallen gewoon geteld: de bezoeker komt altijd eerst op de welkomstpagina. Maak je een
-nieuwe verhaal- of zinnenvideo, zet dan een regel in `video-codes.json` erbij (en push); zonder regel werkt de code
-ook, alleen met de gewone blokken. Wie al eerder begonnen is, ziet geen welkomstpagina meer maar zijn startscherm.
+Het bezoek wordt in alle gevallen gewoon geteld: de bezoeker komt altijd eerst op de welkomstpagina. Wie al eerder
+begonnen is, ziet geen welkomstpagina meer maar zijn startscherm.
 
 De klikbare link in je bio meet per platform: `qissio.com/almanya?utm_source=tiktok&utm_campaign=bio` en
 hetzelfde met `youtube`.

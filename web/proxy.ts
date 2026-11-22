@@ -21,6 +21,12 @@ function languages(header: string | null): string[] {
     .map((l) => l.lang);
 }
 
+/** The edition in the visitor's own language (an Arabic phone: almanya, a Dutch one: duits, else german). */
+function editionByLanguage(request: NextRequest): string {
+  const lang = languages(request.headers.get("accept-language")).find((l) => EDITION_FOR[l]);
+  return lang ? EDITION_FOR[lang] : FALLBACK;
+}
+
 /**
  * - qissio.com itself: on to the edition in the visitor's own language (an Arabic phone to /almanya, a Dutch one to
  *   /duits, everyone else to /german), keeping campaign parameters. While developing / is the overview of editions.
@@ -32,8 +38,7 @@ export function proxy(request: NextRequest) {
   if (first === "v") return videoCode(request, rest[0]);
   if (!first) {
     if (showsEverything()) return;
-    const lang = languages(request.headers.get("accept-language")).find((l) => EDITION_FOR[l]);
-    request.nextUrl.pathname = `/${lang ? EDITION_FOR[lang] : FALLBACK}`;
+    request.nextUrl.pathname = `/${editionByLanguage(request)}`;
     const response = NextResponse.redirect(request.nextUrl, 307);
     // The answer depends on the language, so caches must not hand an Arabic visitor the Dutch redirect.
     response.headers.set("Vary", "Accept-Language");
@@ -47,16 +52,11 @@ export function proxy(request: NextRequest) {
 
 // Short video codes (docs/campagnes.md): links in TikTok captions and Shorts descriptions cannot be clicked, so a
 // video shows a short address that viewers type over, and that address carries the video as its campaign.
-// Where a code without its own edition goes: the edition the first videos were made for.
-const VIDEO_EDITION = "almanya";
 const VIDEO_CODE = /^[a-z0-9-]{1,30}$/;
-
-// A code not in the list that starts with one of these opens that track of the default edition (b1-c05 → b1-examen).
-const VIDEO_TRACK: Record<string, string> = { "b1-": "b1-examen" };
 
 /** One line of lib/video-codes.json: which edition (and track) the video is for, and what it showed. */
 interface VideoGoal {
-  edition?: string; // default VIDEO_EDITION; a video for /duits says "duits"
+  edition: string; // the edition the video was made for (almanya, duits, spaans, …)
   track?: string; // a way into that edition, such as "b1-examen"
   story?: string; // a story video: that story's slug
   start?: string; // "phrases": a phrase video
@@ -64,19 +64,19 @@ interface VideoGoal {
 }
 
 /**
- * /v/c05 → /almanya?utm_source=video&utm_campaign=c05; what lib/video-codes.json says about the code decides the
- * edition, the track and what comes first on the welcome. An unknown or malformed code still lands on the default
- * edition, without a campaign.
+ * /v/c05 → /almanya?utm_source=video&utm_campaign=c05: lib/video-codes.json says per code which edition and track
+ * the video was made for and what comes first on the welcome. The same for every edition: nothing here belongs to
+ * one language pair. A code without a line (or a malformed one) goes, like qissio.com itself, to the edition in the
+ * visitor's own language; a code that at least looks like one is still counted as its campaign.
  */
 function videoCode(request: NextRequest, code: string | undefined) {
   const url = request.nextUrl.clone();
   url.search = "";
   const clean = (code ?? "").trim().toLowerCase();
   const valid = VIDEO_CODE.test(clean);
-  const goal: VideoGoal = (valid && (VIDEO_GOALS as Record<string, VideoGoal>)[clean]) || {};
-  const edition = goal.edition && isEdition(goal.edition) ? goal.edition : VIDEO_EDITION;
-  const track = goal.track ?? (goal.edition ? undefined : Object.entries(VIDEO_TRACK).find(([p]) => clean.startsWith(p))?.[1]);
-  url.pathname = track ? `/${edition}/${track}` : `/${edition}`;
+  const goal: Partial<VideoGoal> = (valid && (VIDEO_GOALS as Record<string, VideoGoal>)[clean]) || {};
+  const edition = goal.edition && isEdition(goal.edition) ? goal.edition : editionByLanguage(request);
+  url.pathname = goal.track && goal.edition === edition ? `/${edition}/${goal.track}` : `/${edition}`;
   if (valid) {
     url.searchParams.set("utm_source", "video");
     url.searchParams.set("utm_campaign", clean);
@@ -86,7 +86,10 @@ function videoCode(request: NextRequest, code: string | undefined) {
     if (goal.topic) url.searchParams.set("topic", goal.topic);
   }
   // Temporary, so a code can later point somewhere else without browsers holding on to the old answer.
-  return NextResponse.redirect(url, 307);
+  const response = NextResponse.redirect(url, 307);
+  // Without a line the answer depends on the visitor's language, so caches must not share it between languages.
+  if (!goal.edition) response.headers.set("Vary", "Accept-Language");
+  return response;
 }
 
 export const config = {
