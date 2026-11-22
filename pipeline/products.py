@@ -49,6 +49,7 @@ class Free(BaseModel):
     stories_per_level: int = 2
     stories_per_day: int = 1
     phrases_per_level: int = 30
+    phrases_per_topic: int = 10    # and per level the first of every topic (phrases.TOPICS): what a topic video promises
     phrases_per_day: int = 10
     reviews_per_day: int = 20
 

@@ -3,401 +3,601 @@
 # then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
 - text: Hola, ¿qué tal?
   hint: Hi, how are you?
+  topics: [everyday]
 - text: Buenos días.
   hint: Good morning.
+  topics: [everyday]
 - text: Buenas tardes.
   hint: Good afternoon.
+  topics: [everyday]
 - text: Buenas noches.
   hint: Good evening or night.
+  topics: [everyday]
 - text: Adiós, hasta luego.
   hint: Goodbye, see you later.
+  topics: [everyday]
 - text: Por favor.
   hint: Please.
+  topics: [social]
 - text: Muchas gracias.
   hint: Thank you very much.
+  topics: [social]
 - text: De nada.
   hint: You're welcome.
+  topics: [social]
 - text: Perdón, ¿dónde está el baño?
   hint: Excuse me, where is the bathroom?
+  topics: [travel]
 - text: No entiendo.
   hint: I don't understand.
+  topics: [everyday]
 - text: ¿Puede repetir, por favor?
   hint: Can you repeat, please?
+  topics: [everyday]
 - text: ¿Habla inglés?
   hint: Do you speak English?
+  topics: [everyday]
 - text: No hablo mucho español.
   hint: I don't speak much Spanish.
+  topics: [everyday]
 - text: ¿Cómo se dice esto?
   hint: How do you say this?
+  topics: [everyday]
 - text: ¿Cuánto cuesta?
   hint: How much does it cost?
+  topics: [shopping]
 - text: Quiero esto, por favor.
   hint: I want this, please.
+  topics: [shopping]
 - text: La cuenta, por favor.
   hint: The bill, please.
+  topics: [shopping]
 - text: ¿Tiene una mesa para dos?
   hint: Do you have a table for two?
+  topics: [shopping]
 - text: Sin azúcar, por favor.
   hint: No sugar, please.
+  topics: [shopping]
 - text: ¿Puedo pagar con tarjeta?
   hint: Can I pay by card?
+  topics: [shopping]
 - text: ¿Dónde está la parada?
   hint: Where is the stop?
+  topics: [travel]
 - text: Un billete de ida, por favor.
   hint: A one-way ticket, please.
+  topics: [travel]
 - text: ¿A qué hora sale el tren?
   hint: What time does the train leave?
+  topics: [travel]
 - text: Quiero ir al centro.
   hint: I want to go downtown.
+  topics: [travel]
 - text: Tengo una reserva.
   hint: I have a reservation.
+  topics: [travel]
 - text: ¿Hay Wi-Fi?
   hint: Is there Wi-Fi?
+  topics: [travel]
 - text: Necesito ayuda.
   hint: I need help.
+  topics: [everyday]
 - text: Me encuentro mal.
   hint: I feel unwell.
+  topics: [health]
 - text: Me duele la cabeza.
   hint: My head hurts.
+  topics: [health]
 - text: Tengo fiebre.
   hint: I have a fever.
+  topics: [health]
 - text: Quiero pedir cita.
   hint: I want to book an appointment.
+  topics: [health]
 - text: ¿Dónde está la farmacia?
   hint: Where is the pharmacy?
+  topics: [health, travel]
 - text: Estoy bien, gracias.
   hint: I'm fine, thanks.
+  topics: [everyday]
 - text: Tengo hambre.
   hint: I'm hungry.
+  topics: [everyday]
 - text: ¿Cómo te llamas?
   hint: What's your name?
+  topics: [social]
 - text: Mucho gusto.
   hint: Nice to meet you.
+  topics: [social]
 - text: ¿De dónde eres?
   hint: Where are you from?
+  topics: [social]
 - text: Estoy en casa.
   hint: I'm at home.
+  topics: [everyday]
 - text: ¿En qué trabajas?
   hint: What do you do for work?
+  topics: [work, social]
 - text: Hablo un poco de español.
   hint: I speak a little Spanish.
+  topics: [everyday]
 - text: ¿Puedes ayudarme?
   hint: Can you help me?
+  topics: [everyday]
 - text: Por supuesto.
   hint: Of course.
+  topics: [social]
 - text: Vale, de acuerdo.
   hint: OK, agreed.
+  topics: [everyday]
 - text: Lo siento mucho.
   hint: I'm very sorry.
+  topics: [social]
 - text: No pasa nada.
   hint: It's okay, no problem.
+  topics: [social]
 - text: ¿Qué hora es?
   hint: What time is it?
+  topics: [everyday]
 - text: A la derecha.
   hint: To the right.
+  topics: [travel]
 - text: A la izquierda.
   hint: To the left.
+  topics: [travel]
 - text: Todo recto.
   hint: Straight ahead.
+  topics: [travel]
 - text: ¿Dónde está el supermercado?
   hint: Where is the supermarket?
+  topics: [shopping, travel]
 - text: No sé.
   hint: I don't know
+  topics: [everyday]
 - text: ¿Cómo estás?
   hint: How are you? (informal)
+  topics: [everyday]
 - text: Más despacio, por favor.
   hint: Slower, please
+  topics: [everyday]
 - text: Un momento, por favor.
   hint: One moment, please
+  topics: [everyday]
 - text: ¿Qué significa esto?
   hint: What does this mean?
+  topics: [everyday]
 - text: ¿Puede hablar más despacio?
   hint: Can you speak more slowly?
+  topics: [everyday]
 - text: Quiero un café con leche.
   hint: I want a coffee with milk
+  topics: [shopping]
 - text: Un agua sin gas, por favor.
   hint: Still water, please
+  topics: [shopping]
 - text: ¿Cuánto es todo?
   hint: How much is it all?
+  topics: [shopping]
 - text: Solo estoy mirando.
   hint: I'm just looking
+  topics: [shopping]
 - text: ¿Tiene otra talla?
   hint: Do you have another size?
+  topics: [shopping]
 - text: Quiero devolver esto.
   hint: I want to return this
+  topics: [shopping]
 - text: Para llevar, por favor.
   hint: To take away, please
+  topics: [shopping]
 - text: ¿Tienen menú del día?
   hint: Do you have a set menu?
+  topics: [shopping]
 - text: Una bolsa, por favor.
   hint: A bag, please
+  topics: [shopping]
 - text: Tengo una reunión.
   hint: I have a meeting
+  topics: [work]
 - text: ¿A qué hora empieza?
   hint: What time does it start?
+  topics: [work]
 - text: Trabajo en una oficina.
   hint: I work in an office
+  topics: [work]
 - text: ¿Dónde está la sala de reuniones?
   hint: Where is the meeting room?
+  topics: [work]
 - text: Necesito imprimir esto.
   hint: I need to print this
+  topics: [work]
 - text: ¿Me puede enviar un correo?
   hint: Can you send me an email?
+  topics: [work]
 - text: Estoy en la oficina.
   hint: I'm at the office
+  topics: [work]
 - text: ¿Tienes cinco minutos?
   hint: Do you have five minutes?
+  topics: [work]
 - text: Me duele el estómago.
   hint: My stomach hurts
+  topics: [health]
 - text: Necesito un médico.
   hint: I need a doctor
+  topics: [health]
 - text: ¿Dónde está el centro de salud?
   hint: Where is the health centre?
+  topics: [health, travel]
 - text: Tengo tos.
   hint: I have a cough
+  topics: [health]
 - text: Me siento mejor.
   hint: I feel better
+  topics: [health]
 - text: Tengo dolor de garganta.
   hint: I have a sore throat
+  topics: [health]
 - text: ¿Dónde está la estación de tren?
   hint: Where is the train station?
+  topics: [travel]
 - text: Un billete de ida y vuelta.
   hint: A return ticket
+  topics: [travel]
 - text: ¿Este autobús va al centro?
   hint: Does this bus go to the centre?
+  topics: [travel]
 - text: ¿A qué hora llega?
   hint: What time does it arrive?
+  topics: [travel]
 - text: Pare aquí, por favor.
   hint: Stop here, please
+  topics: [travel]
 - text: ¿Cuánto tarda?
   hint: How long does it take?
+  topics: [travel]
 - text: ¿Dónde puedo comprar un billete?
   hint: Where can I buy a ticket?
+  topics: [travel]
 - text: ¿Puedo usar el baño?
   hint: Can I use the bathroom?
+  topics: [everyday]
 - text: No hay agua caliente.
   hint: There is no hot water
+  topics: [housing]
 - text: Vivo en un piso.
   hint: I live in a flat
+  topics: [housing]
 - text: ¿Puedo abrir la ventana?
   hint: Can I open the window?
+  topics: [housing]
 - text: Está muy lejos.
   hint: It's very far
+  topics: [travel]
 - text: Estoy muy cansado.
   hint: I'm very tired
+  topics: [everyday]
 - text: Tengo mucho sueño.
   hint: I'm very sleepy
+  topics: [everyday]
 - text: Estoy contento.
   hint: I'm happy
+  topics: [social]
 - text: No me gusta.
   hint: I don't like it
+  topics: [social]
 - text: Me gusta mucho.
   hint: I like it a lot
+  topics: [social]
 - text: Qué bien.
   hint: That's great
+  topics: [everyday]
 - text: Qué pena.
   hint: What a shame
+  topics: [everyday]
 - text: ¿Dónde vives?
   hint: Where do you live?
+  topics: [social, housing]
 - text: ¿Cuántos años tienes?
   hint: How old are you?
+  topics: [social]
 - text: ¿A qué hora abre?
   hint: What time does it open?
+  topics: [shopping]
 - text: ¿A qué hora cierra?
   hint: What time does it close?
+  topics: [shopping]
 - text: ¿Puedo pagar en efectivo?
   hint: Can I pay in cash?
+  topics: [shopping]
 - text: ¿Dónde hay un cajero?
   hint: Where is there a cash machine?
+  topics: [office]
 - text: Quiero sacar dinero.
   hint: I want to withdraw money.
+  topics: [office]
 - text: Me he perdido.
   hint: I'm lost.
+  topics: [travel]
 - text: ¿Puede avisarme al llegar?
   hint: Can you tell me when we arrive?
+  topics: [travel]
 - text: ¿Este tren va a Madrid?
   hint: Does this train go to Madrid?
+  topics: [travel]
 - text: ¿Tengo que cambiar de línea?
   hint: Do I have to change lines?
+  topics: [travel]
 - text: ¿Cuál es la próxima parada?
   hint: What's the next stop?
+  topics: [travel]
 - text: ¿Está libre este asiento?
   hint: Is this seat free?
+  topics: [travel]
 - text: ¿Puedo sentarme aquí?
   hint: Can I sit here?
+  topics: [travel]
 - text: Bajo en la próxima.
   hint: I get off at the next one.
+  topics: [travel]
 - text: ¿Dónde está la caja?
   hint: Where is the checkout?
+  topics: [shopping]
 - text: ¿Me trae la carta, por favor?
   hint: Could you bring the menu?
+  topics: [shopping]
 - text: ¿Me pone un café, por favor?
   hint: Could I have a coffee, please?
+  topics: [shopping]
 - text: Una caña, por favor.
   hint: A small beer, please.
+  topics: [shopping]
 - text: La cuenta está mal.
   hint: The bill is wrong.
+  topics: [shopping]
 - text: ¿Qué me recomienda?
   hint: What do you recommend?
+  topics: [shopping]
 - text: Tengo una pregunta.
   hint: I have a question.
+  topics: [everyday]
 - text: ¿Puedes enviarme el archivo?
   hint: Can you send me the file?
+  topics: [work]
 - text: La reunión es a las diez.
   hint: The meeting is at ten.
+  topics: [work]
 - text: Estoy en una reunión.
   hint: I'm in a meeting.
+  topics: [work]
 - text: Te llamo luego.
   hint: I'll call you later.
+  topics: [work, social]
 - text: El ordenador no funciona.
   hint: The computer doesn't work.
+  topics: [work]
 - text: ¿Cuál es la contraseña del wifi?
   hint: What's the Wi-Fi password?
+  topics: [work]
 - text: Hace mucho frío.
   hint: It's very cold.
+  topics: [everyday]
 - text: Hace mucho calor.
   hint: It's very hot.
+  topics: [everyday]
 - text: La calefacción no funciona.
   hint: The heating doesn't work.
+  topics: [housing]
 - text: El grifo no funciona.
   hint: The tap doesn't work.
+  topics: [housing]
 - text: ¿Dónde está el contenedor?
   hint: Where is the rubbish container?
+  topics: [housing]
 - text: Tengo mareos.
   hint: I feel dizzy.
+  topics: [health]
 - text: Tengo un resfriado.
   hint: I have a cold.
+  topics: [health]
 - text: No puedo dormir.
   hint: I can't sleep.
+  topics: [health]
 - text: Necesito una receta.
   hint: I need a prescription.
+  topics: [health]
 - text: ¿Es grave?
   hint: Is it serious?
+  topics: [health]
 - text: Tengo miedo.
   hint: I'm scared.
+  topics: [social]
 - text: Me alegro mucho.
   hint: I'm very happy about it.
+  topics: [social]
 - text: No me importa.
   hint: I don't mind.
+  topics: [social]
 - text: Me da igual.
   hint: It's all the same to me.
+  topics: [social]
 - text: Tienes razón.
   hint: You're right.
+  topics: [social]
 - text: ¿En serio?
   hint: Really?
+  topics: [everyday]
 - text: Qué raro.
   hint: How strange.
+  topics: [everyday]
 - text: Estoy triste.
   hint: I'm sad.
+  topics: [social]
 - text: ¿A qué hora quedamos?
   hint: What time shall we meet?
+  topics: [social]
 - text: Nos vemos en la puerta.
   hint: See you at the door.
+  topics: [social]
 - text: Ya estoy aquí.
   hint: I'm here now.
+  topics: [social]
 - text: Llego tarde, lo siento.
   hint: I'm late, sorry.
+  topics: [social]
 - text: Trabajo desde casa.
   hint: I work from home.
+  topics: [work]
 - text: Vivo en el tercero.
   hint: I live on the third floor.
+  topics: [housing]
 - text: No hay problema.
   hint: No problem; it's okay
+  topics: [social]
 - text: No te preocupes.
   hint: Don't worry
+  topics: [social]
 - text: ¿Estás bien?
   hint: Are you okay?
+  topics: [social, health]
 - text: ¿Qué te pasa?
   hint: What's wrong?
+  topics: [social, health]
 - text: ¿Me puede ayudar?
   hint: Can you help me?
+  topics: [everyday]
 - text: ¿Me puedes decir?
   hint: Can you tell me?
+  topics: [everyday]
 - text: No entiendo nada.
   hint: I don't understand anything
+  topics: [everyday]
 - text: ¿Cómo se escribe?
   hint: How do you spell it?
+  topics: [everyday]
 - text: ¿Qué quiere decir?
   hint: What does it mean?
+  topics: [everyday]
 - text: Entiendo un poco.
   hint: I understand a little
+  topics: [everyday]
 - text: ¿Hablas español?
   hint: Do you speak Spanish?
+  topics: [social]
 - text: Hablo inglés.
   hint: I speak English
+  topics: [social]
 - text: No, gracias.
   hint: No, thank you
+  topics: [everyday]
 - text: Sí, por favor.
   hint: Yes, please
+  topics: [everyday]
 - text: Hasta mañana.
   hint: See you tomorrow
+  topics: [everyday]
 - text: Nos vemos.
   hint: See you
+  topics: [everyday]
 - text: Que tengas un buen día.
   hint: Have a good day
+  topics: [social]
 - text: No hay de qué.
   hint: Don't mention it
+  topics: [social]
 - text: Muy amable.
   hint: Very kind of you
+  topics: [social]
 - text: Bien, ¿y tú?
   hint: Fine, and you?
+  topics: [social]
 - text: Nada más, gracias.
   hint: Nothing else, thanks
+  topics: [shopping]
 - text: Eso es todo.
   hint: That's all
+  topics: [shopping]
 - text: ¿Algo más?
   hint: Anything else?
+  topics: [shopping]
 - text: ¿Aceptan tarjeta?
   hint: Do you accept card?
+  topics: [shopping]
 - text: Es demasiado caro.
   hint: It's too expensive
+  topics: [shopping]
 - text: ¿Me lo puedo probar?
   hint: Can I try it on?
+  topics: [shopping]
 - text: Me lo llevo.
   hint: I'll take it
+  topics: [shopping]
 - text: Un cortado, por favor.
   hint: A cortado coffee, please
+  topics: [shopping]
 - text: Un vaso de agua, por favor.
   hint: A glass of water, please
+  topics: [shopping]
 - text: ¿Tienes tiempo?
   hint: Do you have time?
+  topics: [social]
 - text: No tengo tiempo.
   hint: I don't have time
+  topics: [everyday]
 - text: Estoy ocupado.
   hint: I'm busy
+  topics: [everyday]
 - text: Estoy libre.
   hint: I'm free
+  topics: [everyday]
 - text: El wifi no funciona.
   hint: The Wi-Fi doesn't work
+  topics: [housing]
 - text: ¿Dónde está el metro?
   hint: Where is the metro?
+  topics: [travel]
 - text: ¿Qué línea es?
   hint: Which line is it?
+  topics: [travel]
 - text: ¿Tengo que cambiar?
   hint: Do I have to change?
+  topics: [travel]
 - text: ¿Este metro va al centro?
   hint: Does this metro go downtown?
+  topics: [travel]
 - text: Aquí me bajo.
   hint: I get off here
+  topics: [travel]
 - text: Me duele mucho.
   hint: It hurts a lot
+  topics: [health]
 - text: Tengo dolor de espalda.
   hint: I have back pain
+  topics: [health]
 - text: Necesito una ambulancia.
   hint: I need an ambulance
+  topics: [health]
 - text: Es una emergencia.
   hint: It's an emergency
+  topics: [health]
 - text: ¿Dónde está el hospital?
   hint: Where is the hospital?
+  topics: [health]
 - text: ¿Dónde está el ascensor?
   hint: Where is the elevator?
+  topics: [everyday]
 - text: El ascensor no funciona.
   hint: The elevator doesn't work
+  topics: [housing]
 - text: No hay luz.
   hint: There's no electricity
+  topics: [housing]
 - text: Tengo frío.
   hint: I'm cold
+  topics: [everyday]
 - text: Tengo calor.
   hint: I'm hot
+  topics: [everyday]
 - text: Tengo sed.
   hint: I'm thirsty
+  topics: [everyday]

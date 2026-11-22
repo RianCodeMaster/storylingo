@@ -9,6 +9,7 @@ place. DeepSeek drafts them (`phrases <language> <level>`), a person checks them
 """
 import json
 from pathlib import Path
+from typing import Literal
 
 from pydantic import BaseModel, Field
 
@@ -32,9 +33,16 @@ MEANINGS_HEADER = """\
 """
 
 
+# The topics of daily life a phrase can belong to: the same for every language, so a video about the doctor leads to
+# the doctor's phrases in any edition. The names learners see are in the app's dictionaries (phrases.topics).
+TOPICS = ("health", "work", "office", "shopping", "housing", "travel", "social", "everyday")
+Topic = Literal["health", "work", "office", "shopping", "housing", "travel", "social", "everyday"]
+
+
 class Phrase(BaseModel):
     text: str = Field(min_length=1)
     hint: str | None = None        # English: when you say it, for the translator
+    topics: list[Topic] = []       # one or two of TOPICS (storylingo.py phrase-topics), the first is the main one
 
 
 def path(language: str, level: str) -> Path:
@@ -102,7 +110,7 @@ def tidy(language: str, phrase: Phrase) -> Phrase:
             text = ("¿" + text if language == "es" and not text.startswith("¿") else text) + "?"
         else:
             text += "!" if hint.endswith("!") or text.startswith("¡") else "."
-    return Phrase(text=text, hint=phrase.hint)
+    return Phrase(text=text, hint=phrase.hint, topics=phrase.topics)
 
 
 # Which variety a learner meets: the one of the editions that teach the language.
@@ -190,6 +198,68 @@ def localize(language: str, base: str) -> int:
     return missing
 
 
+CLASSIFY = """Sort phrases a language learner meets in daily life into topics. Topics (use these keys only):
+health: doctor, pharmacy, hospital, feeling ill, body, appointments for care
+work: job, colleagues, boss, job interview, training, workplace
+office: authorities and paperwork: immigration office, town hall, job centre, bank, insurance, forms, letters
+shopping: shops, supermarket, market, prices, paying, restaurant and café
+housing: flat, landlord, neighbours, rent, repairs, moving
+travel: transport, directions, tickets, station, the first days in a new country, travelling
+social: meeting people, small talk, friends, invitations, feelings towards others, polite reactions
+everyday: anything general that fits no topic above (greetings, time, weather, simple reactions)
+Give each phrase one topic, or two when it clearly belongs to both; the first is the main one. Use the hint for the
+meaning. Return ONLY JSON: {"topics": {"<phrase exactly as given>": ["topic"]}}"""
+
+
+def assign_topics(language: str) -> int:
+    """Give every phrase of a language without topics one or two (asks again for what the model skipped). Returns
+    how many are still without a topic."""
+    for _ in range(3):
+        sets = all_sets(language)
+        todo = [p for phrases in sets.values() for p in phrases if not p.topics]
+        if not todo:
+            break
+        found: dict[str, list[str]] = {}
+        for start in range(0, len(todo), 80):
+            batch = todo[start:start + 80]
+            response = client().chat.completions.create(
+                model=MODEL,
+                messages=[
+                    {"role": "system", "content": CLASSIFY},
+                    {"role": "user", "content": json.dumps(
+                        {"phrase_language": english(language),
+                         "phrases": [{"text": p.text, "hint": p.hint} for p in batch]}, ensure_ascii=False)},
+                ],
+                response_format={"type": "json_object"},
+                temperature=0.1,
+            )
+            given = json.loads(response.choices[0].message.content).get("topics", {})
+            for p in batch:
+                picked = [t for t in (given.get(p.text) or []) if t in TOPICS][:2]
+                if picked:
+                    found[p.text] = list(dict.fromkeys(picked))
+            print(f"  {language}: {len(found)} of {len(todo)} sorted")
+        for level, phrases in sets.items():
+            write(language, level, [p.model_copy(update={"topics": found.get(p.text, p.topics)}) for p in phrases])
+    missing = sum(1 for phrases in all_sets(language).values() for p in phrases if not p.topics)
+    print(f"  phrases {language}: " + (f"{missing} without a topic" if missing else "every phrase has a topic"))
+    return missing
+
+
+def topic_ranks(phrases: list[Phrase]) -> list[int | None]:
+    """Per phrase of one level: its place within its topic (1 = the topic's first, in learning order); with two
+    topics the better place. The free tier opens the first few of every topic (Free.phrases_per_topic)."""
+    seen: dict[str, int] = {}
+    ranks = []
+    for p in phrases:
+        places = []
+        for t in p.topics:
+            seen[t] = seen.get(t, 0) + 1
+            places.append(seen[t])
+        ranks.append(min(places) if places else None)
+    return ranks
+
+
 def gaps(language: str, bases: list[str]) -> list[str]:
     """What the phrases section of a language still lacks: full levels, meanings per base language."""
     problems = []
@@ -204,6 +274,9 @@ def gaps(language: str, bases: list[str]) -> list[str]:
             if (k := _key(p.text)) in seen:
                 problems.append(f"{language}: '{p.text}' is in {seen[k]} and {level}")
             seen[k] = level
+    untopiced = sum(1 for phrases in sets.values() for p in phrases if not p.topics)
+    if untopiced:
+        problems.append(f"{language}: {untopiced} phrases without a topic (fix: storylingo.py phrase-topics {language})")
     every = [p.text for phrases in sets.values() for p in phrases]
     for base in bases:
         found = meanings(language, base)

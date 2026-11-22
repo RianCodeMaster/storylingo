@@ -13,6 +13,7 @@ free:
   stories_per_level: 2     # per level the first 2 stories (in the order the app shows them)
   stories_per_day: 1       # of which 1 new story a day; replaying a story is always free
   phrases_per_level: 30    # per level the first 30 phrases
+  phrases_per_topic: 10    # and per level the first 10 of every topic (gezondheid, werk, ...)
   phrases_per_day: 10      # of which 10 new a day
   reviews_per_day: 20      # word review: 20 cards a day
 texts:

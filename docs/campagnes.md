@@ -48,14 +48,22 @@ geregistreerd te worden: wat je in de video zet, is de code. Een code die met `b
 
 **Wat de video liet zien, komt bovenaan.** In `web/lib/video-codes.json` staat per code wat de video toonde:
 
-    "a02": {"story": "buergeramt-nacht"}     een verhaalvideo: dat verhaal (de slug uit content/stories)
-    "quiz-dokter": {"start": "phrases"}      een zinnenvideo: de zinnen eerst
+    "a02": {"story": "buergeramt-nacht"}                   een verhaalvideo: dat verhaal (slug uit content/stories)
+    "quiz-dokter": {"start": "phrases", "topic": "health"} een zinnenvideo over één onderwerp: die zinnen eerst
+    "b1-b08": {"track": "b1-examen", "start": "phrases", "topic": "office"}
+    "nl-a01": {"edition": "duits", "story": "…"}            een video voor een andere editie
 
-De doorverwijzing zet dat in het adres (`&story=…` of `&start=phrases`) en de welkomstpagina toont dan:
+`edition` (standaard almanya) en `track` bepalen waar de code heen gaat; zonder regel gaat een code naar almanya
+(een code met `b1-` ervoor naar de track b1-examen). Onderwerpen: health, work, office, shopping, housing, travel,
+social, everyday (`pipeline/phrases.py`, TOPICS; elke zin heeft er één of twee, `storylingo.py phrase-topics`).
+
+De doorverwijzing zet het in het adres (`&story=…`, `&start=phrases`, `&topic=…`) en de welkomstpagina toont dan:
 
 - bij een verhaalvideo het blok "Het verhaal uit de video" met de titel van dat verhaal, en het niveau van dat
   verhaal alvast gekozen (kiest de bezoeker een ander niveau, dan krijgt hij het eerste verhaal van dat niveau);
-- bij een zinnenvideo het zinnenblok bovenaan;
+- bij een zinnenvideo het zinnenblok bovenaan, met een onderwerp als "Handige zinnen: bij de dokter", dat naar de
+  zinnen van dat onderwerp gaat (`/<editie>/phrases?topic=health`). Zonder Plus zijn per niveau de eerste 10 van
+  elk onderwerp open (`phrases_per_topic`, docs/plus.md), zodat de kijker een volle ronde krijgt;
 - bij een code die niet in de lijst staat (zoals de fout/goed-video's) de gewone blokken.
 
 Het bezoek wordt in alle gevallen gewoon geteld: de bezoeker komt altijd eerst op de welkomstpagina. Maak je een

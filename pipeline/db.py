@@ -4,6 +4,7 @@ import os
 import psycopg
 from psycopg.types.json import Jsonb
 
+import phrases as phrases_mod
 from models import Brief, Localization, Scene, Story
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres:postgres@127.0.0.1:54322/postgres")
@@ -41,17 +42,19 @@ def sync_phrases(language: str, sets: dict, meanings: dict[str, dict[str, str]],
     """
     with connect() as conn, conn.cursor() as cur:
         cur.execute(
-            "select l.text, p.level, p.position from phrases p join lexemes l on l.id = p.lexeme_id where l.language_code = %s",
+            """select l.text, p.level, p.position, p.topics, p.topic_rank from phrases p
+               join lexemes l on l.id = p.lexeme_id where l.language_code = %s""",
             (language,),
         )
-        old = {text: (str(level), position) for text, level, position in cur.fetchall()}
+        old = {text: (str(level), position, list(topics), rank) for text, level, position, topics, rank in cur.fetchall()}
         wanted = {}
         for level, items in sets.items():
-            for position, phrase in enumerate(items, 1):
-                wanted[phrase.text] = (level, position)
+            # The place within each topic (phrases.topic_ranks): the free tier opens a topic's first few.
+            for position, (phrase, rank) in enumerate(zip(items, phrases_mod.topic_ranks(items)), 1):
+                wanted[phrase.text] = (level, position, list(phrase.topics), rank)
         changed = sum(1 for t, v in wanted.items() if old.get(t) != v)
         removed = [t for t in old if t not in wanted]
-        for text, (level, position) in wanted.items():
+        for text, (level, position, topics, rank) in wanted.items():
             cur.execute(
                 """insert into lexemes (language_code, kind, text, cefr_level) values (%s, 'phrase', %s, %s)
                    on conflict (language_code, text) do update set text = excluded.text returning id""",
@@ -59,9 +62,10 @@ def sync_phrases(language: str, sets: dict, meanings: dict[str, dict[str, str]],
             )
             lexeme_id = cur.fetchone()[0]
             cur.execute(
-                """insert into phrases (lexeme_id, level, position) values (%s, %s, %s)
-                   on conflict (lexeme_id) do update set level = excluded.level, position = excluded.position""",
-                (lexeme_id, level, position),
+                """insert into phrases (lexeme_id, level, position, topics, topic_rank) values (%s, %s, %s, %s, %s)
+                   on conflict (lexeme_id) do update set level = excluded.level, position = excluded.position,
+                     topics = excluded.topics, topic_rank = excluded.topic_rank""",
+                (lexeme_id, level, position, topics, rank),
             )
             for base, found in meanings.items():
                 if gloss := found.get(text):

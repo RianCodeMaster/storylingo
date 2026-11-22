@@ -19,6 +19,7 @@ export interface Limits {
   stories_per_level: number;
   stories_per_day: number;
   phrases_per_level: number;
+  phrases_per_topic: number; // and per level the first of every topic
   phrases_per_day: number;
   reviews_per_day: number;
 }

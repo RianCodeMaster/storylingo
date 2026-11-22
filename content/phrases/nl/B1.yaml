@@ -3,401 +3,601 @@
 # then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
 - text: Tot zo.
   hint: See you in a bit
+  topics: [everyday]
 - text: Gaat het wel?
   hint: Are you okay?
+  topics: [social]
 - text: Hoe voel je je?
   hint: How do you feel?
+  topics: [health]
 - text: Ik heb hulp nodig.
   hint: I need help
+  topics: [everyday]
 - text: Ik heb geen idee.
   hint: I have no idea
+  topics: [everyday]
 - text: Ik ben het vergeten.
   hint: I forgot
+  topics: [everyday]
 - text: Dat is lief van je.
   hint: That's kind of you
+  topics: [social]
 - text: Het is druk vandaag.
   hint: It's busy today
+  topics: [everyday]
 - text: Ik wil graag afrekenen.
   hint: I'd like to pay
+  topics: [shopping]
 - text: Ik heb een klacht.
   hint: I have a complaint
+  topics: [shopping]
 - text: Waar kan ik een klacht indienen?
   hint: Where can I file a complaint?
+  topics: [shopping]
 - text: Kan ik de afspraak verzetten?
   hint: Can I reschedule the appointment?
+  topics: [office]
 - text: Ik ben verhinderd.
   hint: I can't make it
+  topics: [office]
 - text: Ik bel over de afspraak.
   hint: I'm calling about the appointment
+  topics: [office]
 - text: Kunt u mij doorverbinden?
   hint: Can you put me through?
+  topics: [office]
 - text: Mag ik dit passen?
   hint: Can I try this on?
+  topics: [shopping]
 - text: Hoe staat het mij?
   hint: How does it look on me?
+  topics: [shopping]
 - text: Ik neem het niet.
   hint: I won't take it
+  topics: [shopping]
 - text: De rekening klopt niet.
   hint: The bill is incorrect
+  topics: [shopping]
 - text: Ik heb te veel betaald.
   hint: I paid too much
+  topics: [shopping]
 - text: Kunt u het bedrag controleren?
   hint: Can you check the amount?
+  topics: [shopping]
 - text: Ik wil graag een terugbetaling.
   hint: I'd like a refund
+  topics: [shopping]
 - text: Kan ik apart betalen?
   hint: Can we pay separately?
+  topics: [shopping]
 - text: Ik heb een droge hoest.
   hint: I have a dry cough
+  topics: [health]
 - text: Ik heb pijn op mijn borst.
   hint: I have chest pain
+  topics: [health]
 - text: Ik ben kortademig.
   hint: I'm short of breath
+  topics: [health]
 - text: Ik moet overgeven.
   hint: I need to vomit
+  topics: [health]
 - text: Ik heb diarree.
   hint: I have diarrhea
+  topics: [health]
 - text: Ik heb een verstopte neus.
   hint: I have a blocked nose
+  topics: [health]
 - text: Ik ben zwanger.
   hint: I'm pregnant
+  topics: [health]
 - text: Moet ik dit met eten innemen?
   hint: Should I take this with food?
+  topics: [health]
 - text: Kunt u iets harder praten?
   hint: Can you speak a bit louder?
+  topics: [health]
 - text: Hoe schrijf je dat?
   hint: How do you spell that?
+  topics: [everyday]
 - text: Waar is de nooduitgang?
   hint: Where is the emergency exit?
+  topics: [travel]
 - text: Waar is de roltrap?
   hint: Where is the escalator?
+  topics: [travel]
 - text: Mag ik hier parkeren?
   hint: Can I park here?
+  topics: [travel]
 - text: Hoeveel kost het parkeren?
   hint: How much is parking?
+  topics: [travel]
 - text: De band is lek.
   hint: The tire is flat
+  topics: [travel]
 - text: Ik heb pech.
   hint: I have a breakdown (car)
+  topics: [travel]
 - text: Waar kan ik tanken?
   hint: Where can I get fuel?
+  topics: [travel]
 - text: Ik kom later terug.
   hint: I'll come back later
+  topics: [everyday]
 - text: Ik spreek je later.
   hint: I'll talk to you later
+  topics: [everyday]
 - text: Ik hoor het wel.
   hint: I'll hear about it
+  topics: [everyday]
 - text: Dat is fijn om te horen.
   hint: That's nice to hear
+  topics: [social]
 - text: Sterkte ermee.
   hint: Good luck with it (sympathy)
+  topics: [social]
 - text: Goede reis.
   hint: Have a good trip
+  topics: [travel, social]
 - text: Wel thuis.
   hint: Get home safe
+  topics: [social, travel]
 - text: Ik heb trek.
   hint: I'm hungry (appetite)
+  topics: [everyday]
 - text: Het smaakt heerlijk.
   hint: It tastes delicious
+  topics: [shopping]
 - text: Mag ik het recept?
   hint: Can I have the recipe?
+  topics: [shopping]
 - text: Fijn je te spreken.
   hint: Nice to talk to you.
+  topics: [social]
 - text: Bedankt voor het wachten.
   hint: Thanks for waiting.
+  topics: [social]
 - text: Sorry voor het ongemak.
   hint: Sorry for the inconvenience.
+  topics: [social]
 - text: Mag ik me even voorstellen?
   hint: May I introduce myself?
+  topics: [social]
 - text: Kunt u mij laten weten of het lukt?
   hint: Let me know if it works.
+  topics: [social]
 - text: Kunnen we een andere tijd afspreken?
   hint: Can we agree another time?
+  topics: [social]
 - text: Hoe werkt deze automaat?
   hint: How does this machine work?
+  topics: [everyday]
 - text: Ik wil graag twee van deze.
   hint: I'd like two of these.
+  topics: [shopping]
 - text: Kunt u mijn bestelling controleren?
   hint: Can you check my order?
+  topics: [shopping]
 - text: Ik heb mijn bestelling nog niet ontvangen.
   hint: I haven't received my order yet.
+  topics: [shopping]
 - text: Ik heb de verkeerde bestelling gekregen.
   hint: I received the wrong order.
+  topics: [shopping]
 - text: Kunt u het naar mijn adres sturen?
   hint: Can you send it to my address?
+  topics: [shopping]
 - text: Ik heb een vraag over de betaling.
   hint: I have a question about payment.
+  topics: [shopping]
 - text: Kunt u het bedrag terugstorten?
   hint: Can you refund the amount?
+  topics: [shopping]
 - text: Ik kan de deadline niet halen.
   hint: I can't meet the deadline.
+  topics: [work]
 - text: Kun je de vergadering in mijn agenda zetten?
   hint: Put the meeting in my calendar.
+  topics: [work]
 - text: Kunt u mij de notulen sturen?
   hint: Can you send me the minutes?
+  topics: [work]
 - text: Kun je me de link sturen?
   hint: Can you send me the link?
+  topics: [work]
 - text: Ik heb de e-mail nog niet gelezen.
   hint: I haven't read the email yet.
+  topics: [work]
 - text: Ik heb een vraag over het project.
   hint: I have a question about the project.
+  topics: [work]
 - text: Wil je dit document voor me nakijken?
   hint: Will you check this document for me?
+  topics: [work]
 - text: Ik ben tot drie uur in een vergadering.
   hint: I'm in a meeting until three.
+  topics: [work]
 - text: Kun je me na de vergadering bellen?
   hint: Call me after the meeting.
+  topics: [work]
 - text: Ik heb geen toegang tot het systeem.
   hint: I don't have access to the system.
+  topics: [work]
 - text: Mijn computer start niet op.
   hint: My computer won't start.
+  topics: [work]
 - text: Kun je mijn wachtwoord resetten?
   hint: Can you reset my password?
+  topics: [work]
 - text: Ik voel me een paar dagen niet goed.
   hint: I haven't felt well for days.
+  topics: [health]
 - text: Ik heb moeite met ademen.
   hint: I'm having trouble breathing.
+  topics: [health]
 - text: Kunt u mij iets voorschrijven?
   hint: Can you prescribe me something?
+  topics: [health]
 - text: Moet ik een vervolgafspraak maken?
   hint: Do I need a follow-up appointment?
+  topics: [health]
 - text: Ik heb pijn in mijn oor.
   hint: I have ear pain.
+  topics: [health]
 - text: Ik slik medicijnen voor mijn bloeddruk.
   hint: I take medicine for blood pressure.
+  topics: [health]
 - text: Ik heb een allergische reactie.
   hint: I'm having an allergic reaction.
+  topics: [health]
 - text: Waar kan ik mijn bloed laten prikken?
   hint: Where can I get blood drawn?
+  topics: [health]
 - text: Ik moet een afspraak voor de tandarts maken.
   hint: I need to make a dentist appointment.
+  topics: [health]
 - text: Is er een rechtstreekse verbinding?
   hint: Is there a direct connection?
+  topics: [travel]
 - text: Hoe vaak rijdt deze bus?
   hint: How often does this bus run?
+  topics: [travel]
 - text: Ik moet de laatste trein halen.
   hint: I need to catch the last train.
+  topics: [travel]
 - text: De trein is net vertrokken.
   hint: The train just left.
+  topics: [travel]
 - text: Waar kan ik mijn OV-chipkaart opladen?
   hint: Where can I top up my travel card?
+  topics: [travel]
 - text: Kunt u mij een taxi bellen?
   hint: Can you call me a taxi?
+  topics: [travel]
 - text: De cv-ketel maakt een raar geluid.
   hint: The boiler is making a strange noise.
+  topics: [housing]
 - text: Het water stroomt niet weg.
   hint: The water won't drain.
+  topics: [housing]
 - text: Kun je de afwasmachine leeghalen?
   hint: Can you empty the dishwasher?
+  topics: [everyday]
 - text: De deur klemt een beetje.
   hint: The door is sticking a bit.
+  topics: [housing]
 - text: Er is iets mis met de waterleiding.
   hint: Something is wrong with the plumbing.
+  topics: [housing]
 - text: Dat verbaast me niets.
   hint: That doesn't surprise me.
+  topics: [social]
 - text: Dat stelt me gerust.
   hint: That reassures me.
+  topics: [social]
 - text: Ik baal hier enorm van.
   hint: I'm really annoyed about this.
+  topics: [social]
 - text: Ik ben erg teleurgesteld.
   hint: I'm very disappointed.
+  topics: [social]
 - text: Hoe kan ik u bereiken?
   hint: How can I reach you?
+  topics: [work]
 - text: Ik stuur het je vandaag nog.
   hint: I'll send it to you today.
+  topics: [work]
 - text: Kun je dat even voor mij checken?
   hint: Can you check that for me?
+  topics: [work]
 - text: Ik ben tot vijf uur bereikbaar.
   hint: I'm available until five o'clock.
+  topics: [work]
 - text: Kunnen we dat later bespreken?
   hint: Can we discuss that later?
+  topics: [work]
 - text: Ik heb nog een paar vragen.
   hint: I have a few more questions.
+  topics: [work]
 - text: Zou u dat nog eens willen zeggen?
   hint: Could you say that again?
+  topics: [everyday]
 - text: Ik ben er niet zeker van.
   hint: I'm not sure about it.
+  topics: [everyday]
 - text: Wat raadt u mij aan?
   hint: What would you recommend?
+  topics: [shopping]
 - text: Heeft u misschien een momentje?
   hint: Do you have a moment?
+  topics: [everyday]
 - text: Ik kom er zo snel mogelijk aan.
   hint: I'll be there as soon as possible.
+  topics: [work]
 - text: Laat mij weten wat u beslist.
   hint: Let me know what you decide.
+  topics: [work]
 - text: Heeft u dit ook in een grotere maat?
   hint: Do you have this in a larger size?
+  topics: [shopping]
 - text: Waar kan ik dit passen?
   hint: Where can I try this on?
+  topics: [shopping]
 - text: Ik wil graag deze retourneren.
   hint: I'd like to return this item.
+  topics: [shopping]
 - text: Kan ik dit later ophalen?
   hint: Can I pick this up later?
+  topics: [shopping]
 - text: Is het mogelijk om te bezorgen?
   hint: Is delivery possible?
+  topics: [shopping]
 - text: Hoe lang is de garantie?
   hint: How long is the warranty?
+  topics: [shopping]
 - text: Ik wil graag contant betalen.
   hint: I'd like to pay in cash.
+  topics: [shopping]
 - text: Ik zoek iets voor onder de tien euro.
   hint: Looking for something under ten euros.
+  topics: [shopping]
 - text: Heeft u iets zonder suiker?
   hint: Do you have anything sugar-free?
+  topics: [shopping]
 - text: Moet ik hier overstappen?
   hint: Do I need to change here?
+  topics: [travel]
 - text: Is deze trein op tijd?
   hint: Is this train on time?
+  topics: [travel]
 - text: Hoe lang doet de trein erover?
   hint: How long does the train take?
+  topics: [travel]
 - text: Waar moet ik overstappen?
   hint: Where do I need to change?
+  topics: [travel]
 - text: Kan ik deze kaart ook gebruiken?
   hint: Can I use this card too?
+  topics: [travel]
 - text: Ik moet mijn aansluiting halen.
   hint: I need to catch my connection.
+  topics: [travel]
 - text: De trein rijdt vandaag niet.
   hint: The train isn't running today.
+  topics: [travel]
 - text: Hoe laat moet ik vertrekken?
   hint: What time should I leave?
+  topics: [travel]
 - text: Ik voel me sinds gisteren niet goed.
   hint: I haven't felt well since yesterday.
+  topics: [health]
 - text: Moet ik hiervoor een verwijzing hebben?
   hint: Do I need a referral for this?
+  topics: [health]
 - text: Kunt u mij doorverwijzen naar een specialist?
   hint: Can you refer me to a specialist?
+  topics: [health]
 - text: Hoe lang moet ik deze medicijnen slikken?
   hint: How long should I take this medicine?
+  topics: [health]
 - text: Wat zijn de bijwerkingen?
   hint: What are the side effects?
+  topics: [health]
 - text: Kunt u mij een recept geven?
   hint: Can you give me a prescription?
+  topics: [health]
 - text: Kun je de verwarming lager zetten?
   hint: Can you turn the heating down?
+  topics: [housing]
 - text: De lamp doet het niet meer.
   hint: The lamp doesn't work anymore.
+  topics: [housing]
 - text: Er is iets mis met de verwarming.
   hint: Something's wrong with the heating.
+  topics: [housing]
 - text: Ik moet nog boodschappen doen.
   hint: I still need to buy groceries.
+  topics: [shopping]
 - text: Kun je de afwas even doen?
   hint: Can you do the dishes?
+  topics: [everyday]
 - text: Het is hier erg warm.
   hint: It's very warm here.
+  topics: [everyday]
 - text: Dat is heel aardig van u.
   hint: That's very kind of you.
+  topics: [social]
 - text: Ik ben er echt blij mee.
   hint: I'm really happy with it.
+  topics: [social]
 - text: Het spijt me, dat was mijn fout.
   hint: Sorry, that was my mistake.
+  topics: [social]
 - text: Dat had ik niet verwacht.
   hint: I didn't expect that.
+  topics: [social]
 - text: Dat is precies wat ik bedoel.
   hint: That's exactly what I mean.
+  topics: [social]
 - text: Maak je niet druk.
   hint: Don't worry about it.
+  topics: [social]
 - text: Ik voel me een stuk beter.
   hint: I feel much better.
+  topics: [health]
 - text: Ik ben helemaal uitgeput.
   hint: I'm completely exhausted.
+  topics: [health]
 - text: Ik ben het zat.
   hint: I'm fed up.
+  topics: [social]
 - text: Zou u mij kunnen helpen?
   hint: Could you help me, please?
+  topics: [everyday]
 - text: Wat bedoelt u precies?
   hint: What exactly do you mean?
+  topics: [everyday]
 - text: Heb ik het goed begrepen?
   hint: Did I understand correctly?
+  topics: [everyday]
 - text: Laat maar zitten, hoor.
   hint: Never mind, it's okay.
+  topics: [social]
 - text: Het valt wel mee.
   hint: It's not too bad.
+  topics: [everyday]
 - text: Ik doe mijn best.
   hint: I'm doing my best.
+  topics: [everyday]
 - text: Kunt u dat voor mij regelen?
   hint: Can you arrange that for me?
+  topics: [office]
 - text: Ik ben nieuw hier.
   hint: I'm new here.
+  topics: [social, travel]
 - text: Kan ik met een creditcard betalen?
   hint: Can I pay by credit card?
+  topics: [shopping]
 - text: Hoeveel kost het per kilo?
   hint: How much is it per kilo?
+  topics: [shopping]
 - text: Wilt u een bonnetje?
   hint: Would you like a receipt?
+  topics: [shopping]
 - text: Ik neem er twee, graag.
   hint: I'll take two, please.
+  topics: [shopping]
 - text: Mag ik een tasje, alstublieft?
   hint: May I have a bag, please?
+  topics: [shopping]
 - text: Ik zoek iets in het zwart.
   hint: I'm looking for something black.
+  topics: [shopping]
 - text: Waar kan ik mijn fiets parkeren?
   hint: Where can I park my bike?
+  topics: [travel]
 - text: Is dit de goede bus?
   hint: Is this the right bus?
+  topics: [travel]
 - text: Stopt deze bus bij het ziekenhuis?
   hint: Does this bus stop at the hospital?
+  topics: [travel]
 - text: Hoeveel kost een dagkaart?
   hint: How much is a day ticket?
+  topics: [travel]
 - text: De bus komt over vijf minuten.
   hint: The bus comes in five minutes.
+  topics: [travel]
 - text: Ik heb mijn aansluiting gemist.
   hint: I missed my connection.
+  topics: [travel]
 - text: Ik heb een vraag over de planning.
   hint: I have a question about planning.
+  topics: [work]
 - text: De vergadering is verplaatst.
   hint: The meeting has been moved.
+  topics: [work]
 - text: Ik ben met verlof.
   hint: I'm on leave from work.
+  topics: [work]
 - text: Ik werk vandaag tot vijf uur.
   hint: I work until five today.
+  topics: [work]
 - text: Kun je de presentatie delen?
   hint: Can you share the presentation?
+  topics: [work]
 - text: Ik heb de opdracht afgerond.
   hint: I finished the assignment.
+  topics: [work]
 - text: Ik ben er bijna.
   hint: I'm almost there.
+  topics: [everyday]
 - text: Het is me gelukt.
   hint: I managed it.
+  topics: [everyday]
 - text: Kun je me een plezier doen?
   hint: Can you do me a favor?
+  topics: [social]
 - text: Het raam is kapot.
   hint: The window is broken.
+  topics: [housing]
 - text: De verwarming staat te hoog.
   hint: The heating is too high.
+  topics: [housing]
 - text: De stofzuiger doet het niet.
   hint: The vacuum cleaner doesn't work.
+  topics: [housing]
 - text: De bel doet het niet.
   hint: The doorbell doesn't work.
+  topics: [housing]
 - text: De was is nog nat.
   hint: The laundry is still wet.
+  topics: [everyday]
 - text: Ik moet nog stofzuigen.
   hint: I still need to vacuum.
+  topics: [everyday]
 - text: Ik heb pijnstillers nodig.
   hint: I need painkillers.
+  topics: [health]
 - text: Ik heb een ontsteking.
   hint: I have an infection.
+  topics: [health]
 - text: Ik heb moeite met slikken.
   hint: I have difficulty swallowing.
+  topics: [health]
 - text: Ik ben flauwgevallen.
   hint: I fainted.
+  topics: [health]
 - text: Het jeukt erg.
   hint: It itches a lot.
+  topics: [health]
 - text: Moet ik de kuur afmaken?
   hint: Do I need to finish the course?
+  topics: [health]
 - text: Ik ben opgelucht.
   hint: I'm relieved.
+  topics: [social]
 - text: Ik voel me schuldig.
   hint: I feel guilty.
+  topics: [social]
 - text: Daar word ik onzeker van.
   hint: That makes me insecure.
+  topics: [social]
 - text: Dat doet me verdriet.
   hint: That makes me sad.
+  topics: [social]
 - text: Ik waardeer dat echt.
   hint: I really appreciate that.
+  topics: [social]
 - text: Het was gezellig.
   hint: It was nice and cozy.
+  topics: [social]
 - text: Bedankt voor de uitnodiging.
   hint: Thanks for the invitation.
+  topics: [social]
 - text: Alles goed met je?
   hint: Is everything okay with you?
+  topics: [social]
 - text: Ik ben blij met uw hulp.
   hint: I'm happy with your help.
+  topics: [social]

@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { showsEverything } from "@/lib/editions";
+import { isEdition, showsEverything } from "@/lib/editions";
 // Per video code, what the video showed (docs/campagnes.md): a story video → that story, a phrase video → phrases.
 import VIDEO_GOALS from "@/lib/video-codes.json";
 
@@ -47,29 +47,43 @@ export function proxy(request: NextRequest) {
 
 // Short video codes (docs/campagnes.md): links in TikTok captions and Shorts descriptions cannot be clicked, so a
 // video shows a short address that viewers type over, and that address carries the video as its campaign.
+// Where a code without its own edition goes: the edition the first videos were made for.
 const VIDEO_EDITION = "almanya";
 const VIDEO_CODE = /^[a-z0-9-]{1,30}$/;
 
-// A code that starts with one of these opens that track of the edition (b1-c05 → /almanya/b1-examen).
+// A code not in the list that starts with one of these opens that track of the default edition (b1-c05 → b1-examen).
 const VIDEO_TRACK: Record<string, string> = { "b1-": "b1-examen" };
 
+/** One line of lib/video-codes.json: which edition (and track) the video is for, and what it showed. */
+interface VideoGoal {
+  edition?: string; // default VIDEO_EDITION; a video for /duits says "duits"
+  track?: string; // a way into that edition, such as "b1-examen"
+  story?: string; // a story video: that story's slug
+  start?: string; // "phrases": a phrase video
+  topic?: string; // with start phrases: the topic it was about (health, work, …)
+}
+
 /**
- * /v/c05 → /almanya?utm_source=video&utm_campaign=c05, /v/b1-c05 → /almanya/b1-examen?…utm_campaign=b1-c05.
- * An unknown or malformed code still lands on the edition, without a campaign.
+ * /v/c05 → /almanya?utm_source=video&utm_campaign=c05; what lib/video-codes.json says about the code decides the
+ * edition, the track and what comes first on the welcome. An unknown or malformed code still lands on the default
+ * edition, without a campaign.
  */
 function videoCode(request: NextRequest, code: string | undefined) {
   const url = request.nextUrl.clone();
   url.search = "";
   const clean = (code ?? "").trim().toLowerCase();
-  const track = Object.entries(VIDEO_TRACK).find(([prefix]) => clean.startsWith(prefix))?.[1];
-  url.pathname = track ? `/${VIDEO_EDITION}/${track}` : `/${VIDEO_EDITION}`;
-  if (VIDEO_CODE.test(clean)) {
+  const valid = VIDEO_CODE.test(clean);
+  const goal: VideoGoal = (valid && (VIDEO_GOALS as Record<string, VideoGoal>)[clean]) || {};
+  const edition = goal.edition && isEdition(goal.edition) ? goal.edition : VIDEO_EDITION;
+  const track = goal.track ?? (goal.edition ? undefined : Object.entries(VIDEO_TRACK).find(([p]) => clean.startsWith(p))?.[1]);
+  url.pathname = track ? `/${edition}/${track}` : `/${edition}`;
+  if (valid) {
     url.searchParams.set("utm_source", "video");
     url.searchParams.set("utm_campaign", clean);
-    // What the video showed comes first on the welcome (Home): its own story, or the phrases.
-    const goal = (VIDEO_GOALS as Record<string, { story?: string; start?: string }>)[clean];
-    if (goal?.story) url.searchParams.set("story", goal.story);
-    if (goal?.start) url.searchParams.set("start", goal.start);
+    // What the video showed comes first on the welcome (Home): its own story, or the phrases (of its topic).
+    if (goal.story) url.searchParams.set("story", goal.story);
+    if (goal.start) url.searchParams.set("start", goal.start);
+    if (goal.topic) url.searchParams.set("topic", goal.topic);
   }
   // Temporary, so a code can later point somewhere else without browsers holding on to the old answer.
   return NextResponse.redirect(url, 307);

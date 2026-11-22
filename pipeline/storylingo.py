@@ -28,6 +28,8 @@
                                                                pay, paid (docs/campagnes.md)
     python storylingo.py phrases <language> <level>            DeepSeek drafts the level's phrases (up to 200) in content/phrases/
     python storylingo.py localize-phrases <language> <base>    their meanings for one base language
+    python storylingo.py phrase-topics <language>               DeepSeek gives every phrase without one a topic
+                                                               (health, work, office, … : phrases.TOPICS)
     python storylingo.py media-phrases <language>              their recordings (missing or out of date)
     python storylingo.py media-export                          copy every picture and recording out of the local database
     python storylingo.py media-import --cloud                  … and into the cloud (instead of making them again)
@@ -352,6 +354,11 @@ def main(argv: list[str]) -> None:
         if len(argv) < 3:
             raise SystemExit(__doc__)
         phrases.localize(arg, argv[2])
+    elif command == "phrase-topics":
+        if not arg:
+            raise SystemExit(__doc__)
+        phrases.assign_topics(arg)
+        print(f"Read the topics in content/phrases/{arg}/*.yaml, then: sync")
     elif command == "media-phrases":
         try:
             make_media(None, "local", "audio", language=arg)

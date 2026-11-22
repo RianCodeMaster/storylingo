@@ -12,7 +12,7 @@ import { useDevActions } from "@/lib/devtools";
 import { trackOf } from "@/lib/editions";
 import { type Enrollment, getEnrollment, LEVELS, type Level, setLevel } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
-import { phraseProgress, type PhraseProgress } from "@/lib/phrases";
+import { isTopic, phraseProgress, type PhraseProgress } from "@/lib/phrases";
 import { isLocked, storyLimitReached, tierOf, type Usage, usageToday } from "@/lib/plus";
 import { ownedProducts, trackProducts, visibleProducts } from "@/lib/products";
 import { countDue } from "@/lib/review";
@@ -102,13 +102,15 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   // What the video showed, from its code (proxy.ts, lib/video-codes.json): its own story, or the phrases first.
-  const [goal, setGoal] = useState<{ story: string | null; start: string | null }>({ story: null, start: null });
+  const [goal, setGoal] = useState<{ story: string | null; start: string | null; topic: string | null }>({
+    story: null, start: null, topic: null,
+  });
   const router = useRouter();
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
-    setGoal({ story: params.get("story"), start: params.get("start") });
+    setGoal({ story: params.get("story"), start: params.get("start"), topic: params.get("topic") });
     (async () => {
       const learner = await ensureLearner(lang);
       setUserId(learner);
@@ -190,6 +192,8 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
         ? fromVideo
         : preferring(stories, track?.prefer ?? []).find((s) => s.cefr_level === level && !locked(s));
     const phrasesFirst = goal.start === "phrases" && Object.keys(phrases).length > 0;
+    // A phrase video about one topic (the doctor) leads to that topic's phrases.
+    const topic = isTopic(goal.topic) ? goal.topic : null;
     return (
       <main className="welcome">
         {/* Whoever comes from a video should see at once that they are in the right place: the same name and icon
@@ -247,11 +251,13 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
                 <button
                   className={phrasesFirst ? "choice choice-phrases choice-main" : "choice choice-phrases"}
                   disabled={busy}
-                  onClick={() => void begin(level, `${home}/phrases`)}
+                  onClick={() => void begin(level, topic ? `${home}/phrases?topic=${topic}` : `${home}/phrases`)}
                 >
                   <span className="choice-body">
-                    <strong>💬 {dict.welcome.phrasesTitle}</strong>
-                    <span className="choice-line">{dict.welcome.phrasesLine}</span>
+                    <strong>
+                      💬 {topic ? fill(dict.welcome.phrasesTopic, { topic: dict.phrases.topics[topic] }) : dict.welcome.phrasesTitle}
+                    </strong>
+                    <span className="choice-line">{topic ? dict.welcome.phrasesTopicLine : dict.welcome.phrasesLine}</span>
                   </span>
                   <span className="arrow">→</span>
                 </button>

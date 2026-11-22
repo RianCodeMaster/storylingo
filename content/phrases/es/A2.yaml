@@ -3,401 +3,601 @@
 # then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
 - text: ¿Me puedes echar una mano?
   hint: Can you give me a hand?
+  topics: [social]
 - text: Estoy en camino.
   hint: I'm on my way.
+  topics: [social]
 - text: Ya casi llego.
   hint: I'm almost there.
+  topics: [social]
 - text: Lo siento, no puedo.
   hint: Sorry, I can't.
+  topics: [social]
 - text: ¿Te viene bien el viernes?
   hint: Does Friday work for you?
+  topics: [social]
 - text: Me viene bien el martes.
   hint: Tuesday works for me.
+  topics: [social]
 - text: No me apetece.
   hint: I don't feel like it.
+  topics: [social]
 - text: ¿Te apetece un café?
   hint: Do you feel like a coffee?
+  topics: [social]
 - text: Estoy agotado.
   hint: I'm exhausted.
+  topics: [everyday]
 - text: Estoy preocupado.
   hint: I'm worried.
+  topics: [everyday]
 - text: Me da vergüenza.
   hint: I'm embarrassed.
+  topics: [everyday]
 - text: No me lo puedo creer.
   hint: I can't believe it.
+  topics: [everyday]
 - text: ¿Qué te parece?
   hint: What do you think?
+  topics: [social]
 - text: Me parece bien.
   hint: Sounds good to me.
+  topics: [social]
 - text: No me parece bien.
   hint: I don't think that's okay.
+  topics: [social]
 - text: Creo que sí.
   hint: I think so.
+  topics: [everyday]
 - text: Creo que no.
   hint: I don't think so.
+  topics: [everyday]
 - text: No estoy seguro.
   hint: I'm not sure.
+  topics: [everyday]
 - text: Yo también.
   hint: Me too.
+  topics: [everyday]
 - text: Yo tampoco.
   hint: Me neither.
+  topics: [everyday]
 - text: ¿Qué pasa?
   hint: What's going on?
+  topics: [everyday]
 - text: Hasta pronto.
   hint: See you soon.
+  topics: [everyday]
 - text: Que te vaya bien.
   hint: All the best.
+  topics: [social]
 - text: ¿Puedo hacerte una pregunta?
   hint: Can I ask you a question?
+  topics: [social]
 - text: Tengo una duda.
   hint: I have a question.
+  topics: [everyday]
 - text: ¿Me lo explicas otra vez?
   hint: Can you explain it again?
+  topics: [everyday]
 - text: No lo entiendo.
   hint: I don't understand it.
+  topics: [everyday]
 - text: Sin hielo, por favor.
   hint: No ice, please.
+  topics: [shopping]
 - text: Con leche, por favor.
   hint: With milk, please.
+  topics: [shopping]
 - text: ¿Tienen postre?
   hint: Do you have dessert?
+  topics: [shopping]
 - text: ¿Puedo pagar por separado?
   hint: Can I pay separately?
+  topics: [shopping]
 - text: Pagamos a medias.
   hint: Let's split the bill.
+  topics: [shopping]
 - text: Invito yo.
   hint: It's on me.
+  topics: [shopping]
 - text: Está buenísimo.
   hint: It's delicious.
+  topics: [shopping]
 - text: No me gusta nada.
   hint: I don't like it at all.
+  topics: [everyday]
 - text: Me encanta.
   hint: I love it.
+  topics: [everyday]
 - text: ¿Puedo aparcar aquí?
   hint: Can I park here?
+  topics: [travel]
 - text: ¿Tengo que hacer transbordo?
   hint: Do I need to transfer?
+  topics: [travel]
 - text: ¿De qué andén sale?
   hint: Which platform does it leave from?
+  topics: [travel]
 - text: El autobús llega tarde.
   hint: The bus is late.
+  topics: [travel]
 - text: ¿Dónde está el mercado?
   hint: Where is the market?
+  topics: [shopping, travel]
 - text: ¿Tienen algo más barato?
   hint: Do you have something cheaper?
+  topics: [shopping]
 - text: Tengo que enviar un correo.
   hint: I have to send an email.
+  topics: [work]
 - text: Estoy en una llamada.
   hint: I'm on a call.
+  topics: [work]
 - text: ¿Tienes un bolígrafo?
   hint: Do you have a pen?
+  topics: [everyday]
 - text: No tengo conexión.
   hint: I don't have connection.
+  topics: [everyday]
 - text: Hay una fuga de agua.
   hint: There's a water leak.
+  topics: [housing]
 - text: Tengo que llamar al fontanero.
   hint: I have to call the plumber.
+  topics: [housing]
 - text: Tengo dolor de muelas.
   hint: I have a toothache.
+  topics: [health]
 - text: Necesito una cita con el médico.
   hint: I need a doctor's appointment.
+  topics: [health]
 - text: ¿Me cobras, por favor?
   hint: Can I pay now, please?
+  topics: [shopping]
 - text: ¿Hay que pedir cita?
   hint: Do I need an appointment?
+  topics: [health, office]
 - text: ¿Qué autobús tengo que coger?
   hint: Which bus should I take?
+  topics: [travel]
 - text: ¿Dónde tengo que bajar?
   hint: Where do I need to get off?
+  topics: [travel]
 - text: No me siento bien.
   hint: I don't feel well.
+  topics: [health]
 - text: ¿Dónde tengo que firmar?
   hint: Where do I have to sign?
+  topics: [office]
 - text: ¿Me puede dar un recibo?
   hint: Can you give me a receipt?
+  topics: [shopping]
 - text: ¿Puedo cambiarlo por otro?
   hint: Can I exchange it for another?
+  topics: [shopping]
 - text: ¿Cuántas paradas faltan?
   hint: How many stops are left?
+  topics: [travel]
 - text: ¿Se puede ir andando?
   hint: Can you walk there?
+  topics: [travel]
 - text: Quería cambiar mi cita.
   hint: I wanted to change my appointment.
+  topics: [health, office]
 - text: ¿Cuándo tengo que volver?
   hint: When do I have to come back?
+  topics: [health]
 - text: Me he hecho daño en el pie.
   hint: I've hurt my foot.
+  topics: [health]
 - text: ¿Cada cuánto tengo que tomarlo?
   hint: How often must I take it?
+  topics: [health]
 - text: Me duele al respirar.
   hint: It hurts when I breathe.
+  topics: [health]
 - text: ¿Dónde recojo el paquete?
   hint: Where do I collect the parcel?
+  topics: [office]
 - text: ¿Hay que hacer transbordo?
   hint: Do I need to change lines?
+  topics: [travel]
 - text: He perdido el tren.
   hint: I've missed the train.
+  topics: [travel]
 - text: El tren lleva retraso.
   hint: The train is delayed.
+  topics: [travel]
 - text: Me queda un poco grande.
   hint: It's a bit big for me.
+  topics: [shopping]
 - text: ¿Tienen probadores?
   hint: Do you have fitting rooms?
+  topics: [shopping]
 - text: ¿Cuál es la fecha de caducidad?
   hint: What's the expiry date?
+  topics: [shopping]
 - text: Necesito una factura, por favor.
   hint: I need an invoice, please.
+  topics: [shopping, office]
 - text: ¿A nombre de quién?
   hint: In whose name?
+  topics: [office]
 - text: ¿Me lo puede envolver?
   hint: Can you wrap it for me?
+  topics: [shopping]
 - text: Soy alérgico a la penicilina.
   hint: I'm allergic to penicillin.
+  topics: [health]
 - text: ¿Tengo que tomar algo?
   hint: Do I have to take anything?
+  topics: [health]
 - text: ¿Puedo hacer deporte?
   hint: Can I do sport?
+  topics: [health]
 - text: Está a diez minutos andando.
   hint: It's ten minutes on foot.
+  topics: [travel]
 - text: Trabajo de lunes a viernes.
   hint: I work Monday to Friday.
+  topics: [work]
 - text: Tengo el día libre.
   hint: I have the day off.
+  topics: [work]
 - text: Salgo a las seis.
   hint: I leave at six.
+  topics: [work]
 - text: No llego a tiempo.
   hint: I won't arrive on time.
+  topics: [work]
 - text: Me tengo que ir.
   hint: I have to go.
+  topics: [social]
 - text: ¿Quieres venir a cenar?
   hint: Do you want to come to dinner?
+  topics: [social]
 - text: Me lo he pasado muy bien.
   hint: I had a really good time.
+  topics: [social]
 - text: Estoy un poco nervioso.
   hint: I'm a bit nervous.
+  topics: [social]
 - text: Me siento fatal.
   hint: I feel terrible.
+  topics: [health]
 - text: Estoy muy estresado.
   hint: I'm very stressed.
+  topics: [work, health]
 - text: Se me ha olvidado.
   hint: I've forgotten.
+  topics: [everyday]
 - text: No encuentro mis llaves.
   hint: I can't find my keys.
+  topics: [everyday]
 - text: ¿Me dejas tu cargador?
   hint: Can I borrow your charger?
+  topics: [everyday]
 - text: Se ha roto un vaso.
   hint: A glass has broken.
+  topics: [everyday]
 - text: ¿Puedes bajar el volumen?
   hint: Can you turn the volume down?
+  topics: [housing]
 - text: Hace un día estupendo.
   hint: It's a lovely day.
+  topics: [everyday]
 - text: ¿Qué hay para cenar?
   hint: What's for dinner?
+  topics: [everyday]
 - text: Hay que comprar leche.
   hint: We need to buy milk.
+  topics: [shopping]
 - text: ¿Me queda bien?
   hint: Does it suit me?
+  topics: [shopping]
 - text: ¿Puedo pagar con el móvil?
   hint: Can I pay by phone?
+  topics: [shopping]
 - text: Voy a casa de un amigo.
   hint: I'm going to a friend's house.
+  topics: [social]
 - text: ¿Qué tal todo?
   hint: How's everything?
+  topics: [social]
 - text: ¿Nos tomamos algo?
   hint: Shall we grab a drink?
+  topics: [social]
 - text: ¿Te apetece salir?
   hint: Do you feel like going out?
+  topics: [social]
 - text: ¿Qué haces este finde?
   hint: What are you doing this weekend?
+  topics: [social]
 - text: ¿Me pones un café?
   hint: Could I have a coffee?
+  topics: [shopping]
 - text: Para mí, lo mismo.
   hint: Same for me.
+  topics: [shopping]
 - text: ¿Tenéis algo sin gluten?
   hint: Do you have gluten-free options?
+  topics: [shopping]
 - text: Soy alérgico a los frutos secos.
   hint: I'm allergic to nuts.
+  topics: [health]
 - text: ¿Me lo pones para llevar?
   hint: Can I have it to take away?
+  topics: [shopping]
 - text: ¿Puedo pagar con Bizum?
   hint: Can I pay with Bizum?
+  topics: [shopping]
 - text: ¿Me das una bolsa?
   hint: Can I have a bag?
+  topics: [shopping]
 - text: ¿Dónde están los probadores?
   hint: Where are the fitting rooms?
+  topics: [shopping]
 - text: ¿Lo tienes en otra talla?
   hint: Do you have it in another size?
+  topics: [shopping]
 - text: ¿Me lo cambias por otra talla?
   hint: Can you change it for another size?
+  topics: [shopping]
 - text: ¿Me puede dar cambio?
   hint: Can you give me change?
+  topics: [shopping]
 - text: Quiero pedir hora con el médico.
   hint: I want a doctor's appointment.
+  topics: [health]
 - text: Me duele aquí.
   hint: It hurts here.
+  topics: [health]
 - text: Soy alérgico al polen.
   hint: I'm allergic to pollen.
+  topics: [health]
 - text: ¿Tengo que guardar reposo?
   hint: Do I need to rest?
+  topics: [health]
 - text: Me siento mareado.
   hint: I feel dizzy.
+  topics: [health]
 - text: ¿Este tren para en Valencia?
   hint: Does this train stop in Valencia?
+  topics: [travel]
 - text: ¿Dónde puedo validar el billete?
   hint: Where can I validate the ticket?
+  topics: [travel]
 - text: Perdón, me he equivocado de tren.
   hint: Sorry, I got on the wrong train.
+  topics: [travel]
 - text: ¿Está lejos de aquí?
   hint: Is it far from here?
+  topics: [travel]
 - text: Se ha ido la luz.
   hint: The power has gone out.
+  topics: [housing]
 - text: Hay una gotera en el techo.
   hint: There's a leak in the ceiling.
+  topics: [housing]
 - text: Me he dejado las llaves dentro.
   hint: I've left my keys inside.
+  topics: [housing]
 - text: El váter está atascado.
   hint: The toilet is blocked.
+  topics: [housing]
 - text: ¿Puedes cerrar la ventana?
   hint: Can you close the window?
+  topics: [housing]
 - text: ¿Podemos hablar un momento?
   hint: Can we talk for a moment?
+  topics: [social]
 - text: No puedo ir a la reunión.
   hint: I can't attend the meeting.
+  topics: [work]
 - text: Voy a llegar un poco tarde.
   hint: I'll be a little late.
+  topics: [work]
 - text: ¿Me mandas el archivo?
   hint: Can you send me the file?
+  topics: [work]
 - text: Te escribo por correo.
   hint: I'll write to you by email.
+  topics: [work]
 - text: ¿A qué hora es la reunión?
   hint: What time is the meeting?
+  topics: [work]
 - text: Estoy de vacaciones.
   hint: I'm on holiday.
+  topics: [travel]
 - text: No te he oído bien.
   hint: I didn't hear you well.
+  topics: [social]
 - text: ¿Me lo pones por escrito?
   hint: Can you put it in writing?
+  topics: [office]
 - text: ¿Tienes un momento?
   hint: Do you have a moment?
+  topics: [social]
 - text: ¿Me dejas pasar?
   hint: Can I get past?
+  topics: [everyday]
 - text: Me siento solo.
   hint: I feel lonely.
+  topics: [social]
 - text: Estoy harto.
   hint: I'm fed up.
+  topics: [social]
 - text: Me preocupa un poco.
   hint: It worries me a little.
+  topics: [social]
 - text: Estoy de buen humor.
   hint: I'm in a good mood.
+  topics: [social]
 - text: ¿Qué tal el fin de semana?
   hint: How was your weekend?
+  topics: [social]
 - text: Que lo paséis bien.
   hint: Have a good time.
+  topics: [social]
 - text: Gracias por invitarme.
   hint: Thanks for inviting me.
+  topics: [social]
 - text: Lo siento, no era mi intención.
   hint: Sorry, I didn't mean it.
+  topics: [social]
 - text: ¿Me lo puedes explicar?
   hint: Can you explain it to me?
+  topics: [everyday]
 - text: ¿Puedo hacer una llamada?
   hint: Can I make a call?
+  topics: [everyday]
 - text: ¿Me pones un poco más?
   hint: Can I have a bit more?
+  topics: [shopping]
 - text: ¿Puedo pagar a plazos?
   hint: Can I pay in instalments?
+  topics: [shopping]
 - text: Quiero hacer una devolución.
   hint: I want to return this item.
+  topics: [shopping]
 - text: Estoy buscando una talla más.
   hint: I'm looking for a bigger size.
+  topics: [shopping]
 - text: ¿Lo tienen en otro color?
   hint: Do you have it in another colour?
+  topics: [shopping]
 - text: Tengo que terminar esto hoy.
   hint: I have to finish this today.
+  topics: [work]
 - text: ¿Puedo salir antes hoy?
   hint: Can I leave early today?
+  topics: [work]
 - text: Necesito el día libre.
   hint: I need the day off.
+  topics: [work]
 - text: ¿Me firmas aquí?
   hint: Can you sign here?
+  topics: [office]
 - text: No sé cómo hacerlo.
   hint: I don't know how to do it.
+  topics: [everyday]
 - text: Ya he terminado.
   hint: I've already finished.
+  topics: [work]
 - text: Todavía no he empezado.
   hint: I haven't started yet.
+  topics: [work]
 - text: Te lo envío ahora.
   hint: I'll send it to you now.
+  topics: [work]
 - text: ¿Me lo confirmas, por favor?
   hint: Can you confirm it, please?
+  topics: [office]
 - text: ¿Este autobús va a la estación?
   hint: Does this bus go to the station?
+  topics: [travel]
 - text: Quiero un abono de diez viajes.
   hint: I want a ten-trip travel card.
+  topics: [travel]
 - text: ¿Puedo llevar esta maleta?
   hint: Can I take this suitcase?
+  topics: [travel]
 - text: ¿Esta línea va al aeropuerto?
   hint: Does this line go to the airport?
+  topics: [travel]
 - text: Me he dejado el paraguas en el tren.
   hint: I left my umbrella on the train.
+  topics: [travel]
 - text: ¿Puedes sacar la basura?
   hint: Can you take out the rubbish?
+  topics: [housing]
 - text: La lavadora no funciona.
   hint: The washing machine isn't working.
+  topics: [housing]
 - text: Se ha estropeado la nevera.
   hint: The fridge has broken down.
+  topics: [housing]
 - text: El baño está ocupado.
   hint: The bathroom is occupied.
+  topics: [housing]
 - text: El vecino hace mucho ruido.
   hint: The neighbour makes a lot of noise.
+  topics: [housing]
 - text: Tengo que llamar al casero.
   hint: I have to call the landlord.
+  topics: [housing]
 - text: ¿Puedes bajar la persiana?
   hint: Can you lower the blind?
+  topics: [housing]
 - text: Me duele al tragar.
   hint: It hurts when I swallow.
+  topics: [health]
 - text: Tengo la tensión alta.
   hint: I have high blood pressure.
+  topics: [health]
 - text: ¿Puedo tomar ibuprofeno?
   hint: Can I take ibuprofen?
+  topics: [health]
 - text: Me he cortado el dedo.
   hint: I've cut my finger.
+  topics: [health]
 - text: ¿Dónde está la sala de espera?
   hint: Where is the waiting room?
+  topics: [health]
 - text: Me han dado la baja.
   hint: I've been signed off sick.
+  topics: [health, work]
 - text: ¡Qué interesante!
   hint: How interesting!
+  topics: [social]
 - text: No me lo esperaba.
   hint: I wasn't expecting that.
+  topics: [social]
 - text: ¡Qué buena idea!
   hint: What a good idea!
+  topics: [social]
 - text: Claro que sí.
   hint: Of course.
+  topics: [social]
 - text: Eso no es verdad.
   hint: That's not true.
+  topics: [social]
 - text: Estoy de acuerdo contigo.
   hint: I agree with you.
+  topics: [social]
 - text: No estoy de acuerdo.
   hint: I don't agree.
+  topics: [social]
 - text: ¡Qué va!
   hint: No way!
+  topics: [social]
 - text: Menos mal.
   hint: Thank goodness.
+  topics: [social]
 - text: No puede ser.
   hint: It can't be.
+  topics: [social]
 - text: Gracias por avisarme.
   hint: Thanks for letting me know.
+  topics: [social]
 - text: Perdona por el retraso.
   hint: Sorry I'm late.
+  topics: [social]
 - text: Muchas gracias por todo.
   hint: Thanks very much for everything.
+  topics: [social]
 - text: ¿Hay que reservar?
   hint: Do you need to book?
+  topics: [shopping]
 - text: ¿Tienes hora?
   hint: Do you have the time?
+  topics: [everyday]
 - text: ¿Cuánto tiempo llevas aquí?
   hint: How long have you been here?
+  topics: [social]
 - text: ¿Cómo se pronuncia esto?
   hint: How do you pronounce this?
+  topics: [everyday]
 - text: ¿Dónde se puede aparcar?
   hint: Where can you park?
+  topics: [travel]

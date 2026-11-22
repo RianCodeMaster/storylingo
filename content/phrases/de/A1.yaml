@@ -3,401 +3,601 @@
 # then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
 - text: Guten Morgen.
   hint: Good morning
+  topics: [everyday]
 - text: Guten Tag.
   hint: Hello / good day
+  topics: [everyday]
 - text: Hallo, wie geht's?
   hint: Hello, how are you?
+  topics: [social, everyday]
 - text: Mir geht es gut.
   hint: I'm fine
+  topics: [social]
 - text: Danke, gut.
   hint: Thanks, good
+  topics: [social]
 - text: Auf Wiedersehen.
   hint: Goodbye
+  topics: [everyday]
 - text: Tschüss, bis später.
   hint: Bye, see you later
+  topics: [everyday]
 - text: Bitte schön.
   hint: You're welcome / here you are
+  topics: [social, shopping]
 - text: Entschuldigung, ich habe eine Frage.
   hint: Excuse me, I have a question
+  topics: [everyday]
 - text: Wie bitte?
   hint: Pardon?
+  topics: [everyday]
 - text: Ich verstehe nicht.
   hint: I don't understand
+  topics: [everyday]
 - text: Sprechen Sie Englisch?
   hint: Do you speak English?
+  topics: [everyday]
 - text: Können Sie das wiederholen?
   hint: Can you repeat that?
+  topics: [everyday]
 - text: Wie heißt du?
   hint: What's your name? informal
+  topics: [social]
 - text: Ich heiße Anna.
   hint: My name is Anna
+  topics: [social]
 - text: Ich komme aus Deutschland.
   hint: I come from Germany
+  topics: [social]
 - text: Ich wohne hier.
   hint: I live here
+  topics: [social]
 - text: Wie geht es Ihnen?
   hint: How are you? formal
+  topics: [social]
 - text: Danke, und Ihnen?
   hint: Thanks, and you? formal
+  topics: [social]
 - text: Es tut mir leid.
   hint: I'm sorry
+  topics: [social]
 - text: Kein Problem.
   hint: No problem
+  topics: [everyday]
 - text: Ich möchte einen Kaffee, bitte.
   hint: I'd like a coffee, please
+  topics: [shopping]
 - text: Was kostet das?
   hint: How much is that?
+  topics: [shopping]
 - text: Das ist zu teuer.
   hint: That's too expensive
+  topics: [shopping]
 - text: Ich nehme das.
   hint: I'll take that
+  topics: [shopping]
 - text: Haben Sie das in groß?
   hint: Do you have this in large?
+  topics: [shopping]
 - text: Die Rechnung, bitte.
   hint: The bill, please
+  topics: [shopping]
 - text: Wo ist der Bahnhof?
   hint: Where is the train station?
+  topics: [travel]
 - text: Wie komme ich zum Zentrum?
   hint: How do I get to the center?
+  topics: [travel]
 - text: Wann fährt der Zug?
   hint: When does the train leave?
+  topics: [travel]
 - text: Eine Fahrkarte nach Berlin, bitte.
   hint: One ticket to Berlin, please
+  topics: [travel]
 - text: Ich habe einen Termin.
   hint: I have an appointment
+  topics: [office]
 - text: Können Sie mir helfen?
   hint: Can you help me?
+  topics: [everyday]
 - text: Ich brauche einen Arzt.
   hint: I need a doctor
+  topics: [health]
 - text: Ich fühle mich nicht gut.
   hint: I don't feel well
+  topics: [health]
 - text: Wo tut es weh?
   hint: Where does it hurt?
+  topics: [health]
 - text: Ich habe Kopfschmerzen.
   hint: I have a headache
+  topics: [health]
 - text: Ich bin krank.
   hint: I am sick
+  topics: [health]
 - text: Gute Besserung!
   hint: Get well soon
+  topics: [health]
 - text: Ich arbeite hier.
   hint: I work here
+  topics: [work]
 - text: Ich habe keine Zeit.
   hint: I have no time
+  topics: [everyday]
 - text: Bis morgen.
   hint: See you tomorrow
+  topics: [everyday]
 - text: Viel Glück!
   hint: Good luck
+  topics: [social]
 - text: Herzlichen Glückwunsch!
   hint: Congratulations
+  topics: [social]
 - text: Freut mich, Sie kennenzulernen.
   hint: Nice to meet you
+  topics: [social]
 - text: Wie spät ist es?
   hint: What time is it?
+  topics: [everyday]
 - text: Ich bin müde.
   hint: I am tired
+  topics: [everyday]
 - text: Ich habe Hunger.
   hint: I am hungry
+  topics: [everyday]
 - text: Ich habe Durst.
   hint: I am thirsty
+  topics: [everyday]
 - text: Ich mag das.
   hint: I like that
+  topics: [everyday]
 - text: Guten Abend.
   hint: Good evening; greeting when you arrive
+  topics: [everyday]
 - text: Gute Nacht.
   hint: Good night; said before going to bed
+  topics: [everyday]
 - text: Bis bald.
   hint: See you soon; informal goodbye
+  topics: [everyday]
 - text: Wie ist Ihr Name?
   hint: What is your name? formal
+  topics: [social]
 - text: Woher kommen Sie?
   hint: Where are you from? formal
+  topics: [social]
 - text: Ich spreche kein Deutsch.
   hint: I do not speak German
+  topics: [everyday]
 - text: Ich spreche ein bisschen Deutsch.
   hint: I speak a little German
+  topics: [everyday]
 - text: Wie sagt man das?
   hint: How do you say that?
+  topics: [everyday]
 - text: Was bedeutet das?
   hint: What does that mean?
+  topics: [everyday]
 - text: Sprechen Sie langsam, bitte.
   hint: Please speak slowly
+  topics: [everyday]
 - text: Ich weiß nicht.
   hint: I do not know
+  topics: [everyday]
 - text: Ich brauche Hilfe.
   hint: I need help
+  topics: [everyday]
 - text: Wo ist die Toilette?
   hint: Where is the toilet?
+  topics: [everyday]
 - text: Wo ist der Supermarkt?
   hint: Where is the supermarket?
+  topics: [shopping, travel]
 - text: Ich möchte bezahlen.
   hint: I would like to pay
+  topics: [shopping]
 - text: Kann ich mit Karte zahlen?
   hint: Can I pay by card?
+  topics: [shopping]
 - text: Das ist alles.
   hint: That is all; in a shop
+  topics: [shopping]
 - text: Ich möchte ein Wasser, bitte.
   hint: I would like a water, please
+  topics: [shopping]
 - text: Die Speisekarte, bitte.
   hint: The menu, please
+  topics: [shopping]
 - text: Ich esse kein Fleisch.
   hint: I do not eat meat
+  topics: [shopping]
 - text: Das schmeckt gut.
   hint: It tastes good
+  topics: [shopping]
 - text: Ich bin satt.
   hint: I am full; after eating
+  topics: [shopping]
 - text: Ich brauche einen Termin.
   hint: I need an appointment
+  topics: [office]
 - text: Wann haben Sie Zeit?
   hint: When do you have time? formal
+  topics: [office]
 - text: Ich komme später.
   hint: I will come later
+  topics: [everyday]
 - text: Ich bin zu spät.
   hint: I am late
+  topics: [everyday]
 - text: Wo ist mein Zimmer?
   hint: Where is my room?
+  topics: [travel]
 - text: Wann kommt der Bus?
   hint: When does the bus come?
+  topics: [travel]
 - text: Muss ich umsteigen?
   hint: Do I have to change?
+  topics: [travel]
 - text: Ich möchte aussteigen.
   hint: I want to get off
+  topics: [travel]
 - text: Ist dieser Platz frei?
   hint: Is this seat free?
+  topics: [travel]
 - text: Ich suche mein Hotel.
   hint: I am looking for my hotel
+  topics: [travel]
 - text: Ich gehe nach Hause.
   hint: I am going home
+  topics: [everyday]
 - text: Ich bin zu Hause.
   hint: I am at home
+  topics: [everyday]
 - text: Ich komme gleich.
   hint: I am coming soon
+  topics: [everyday]
 - text: Kann ich Ihnen helfen?
   hint: Can I help you? formal
+  topics: [social]
 - text: Was machst du?
   hint: What are you doing? informal
+  topics: [social]
 - text: Wie war dein Tag?
   hint: How was your day?
+  topics: [social]
 - text: Mir ist kalt.
   hint: I am cold; feeling cold
+  topics: [health]
 - text: Ich habe Angst.
   hint: I am afraid
+  topics: [social]
 - text: Ich bin glücklich.
   hint: I am happy
+  topics: [social]
 - text: Ich bin traurig.
   hint: I am sad
+  topics: [social]
 - text: Das ist gut.
   hint: That is good
+  topics: [everyday]
 - text: Ich muss gehen.
   hint: I have to go
+  topics: [everyday]
 - text: Ich muss arbeiten.
   hint: I have to work
+  topics: [work]
 - text: Ich bin beschäftigt.
   hint: I am busy
+  topics: [work]
 - text: Wann beginnt der Kurs?
   hint: When does the course start?
+  topics: [work]
 - text: Wo ist das Büro?
   hint: Where is the office?
+  topics: [work]
 - text: Kann ich hereinkommen?
   hint: May I come in?
+  topics: [social]
 - text: Können Sie das erklären?
   hint: Can you explain that? formal
+  topics: [social]
 - text: Einen Moment, bitte.
   hint: One moment please
+  topics: [social]
 - text: Wie heißt das auf Deutsch?
   hint: What is that called in German?
+  topics: [everyday]
 - text: Wie schreibt man das?
   hint: How do you spell that?
+  topics: [everyday]
 - text: Können Sie mir das zeigen?
   hint: Can you show me that?
+  topics: [everyday]
 - text: Wo finde ich das?
   hint: Where can I find that?
+  topics: [everyday]
 - text: Wie lange dauert das?
   hint: How long does that take?
+  topics: [everyday]
 - text: Ich möchte einen Termin machen.
   hint: I'd like to make an appointment
+  topics: [office, health]
 - text: Wann haben Sie geöffnet?
   hint: When are you open?
+  topics: [shopping]
 - text: Ich schaue nur, danke.
   hint: I'm just looking, thanks
+  topics: [shopping]
 - text: Wo ist die Kasse?
   hint: Where is the checkout?
+  topics: [shopping]
 - text: Kann ich das umtauschen?
   hint: Can I exchange this?
+  topics: [shopping]
 - text: Haben Sie eine Tüte?
   hint: Do you have a bag?
+  topics: [shopping]
 - text: Zusammen oder getrennt?
   hint: Together or separate?
+  topics: [shopping]
 - text: Noch einen Kaffee, bitte.
   hint: Another coffee please
+  topics: [shopping]
 - text: Kann ich bitte bestellen?
   hint: Can I order please?
+  topics: [shopping]
 - text: Ich hätte gern ein Brot.
   hint: I'd like a loaf of bread
+  topics: [shopping]
 - text: Das ist zu klein.
   hint: This is too small
+  topics: [shopping]
 - text: Das passt gut.
   hint: That fits well
+  topics: [shopping]
 - text: Ich brauche eine Quittung.
   hint: I need a receipt
+  topics: [shopping]
 - text: Ist das im Angebot?
   hint: Is this on sale?
+  topics: [shopping]
 - text: Wo muss ich unterschreiben?
   hint: Where do I sign?
+  topics: [office]
 - text: Ich warte hier.
   hint: I'm waiting here
+  topics: [everyday]
 - text: Können wir später sprechen?
   hint: Can we talk later?
+  topics: [social]
 - text: Wann ist die Pause?
   hint: When is the break?
+  topics: [work]
 - text: Ich mache eine Pause.
   hint: I'm taking a break
+  topics: [work]
 - text: Ich habe Schmerzen.
   hint: I have pain
+  topics: [health]
 - text: Hier tut es weh.
   hint: It hurts here
+  topics: [health]
 - text: Ich habe Fieber.
   hint: I have a fever
+  topics: [health]
 - text: Gibt es hier eine Apotheke?
   hint: Is there a pharmacy here?
+  topics: [health]
 - text: Ich muss zum Arzt.
   hint: I have to go to the doctor
+  topics: [health]
 - text: Wann kann ich kommen?
   hint: When can I come?
+  topics: [health]
 - text: Wo ist der Ausgang?
   hint: Where is the exit?
+  topics: [travel]
 - text: Wo ist Gleis drei?
   hint: Where is platform three?
+  topics: [travel]
 - text: Wie lange fährt der Zug?
   hint: How long does the train take?
+  topics: [travel]
 - text: Ich steige hier aus.
   hint: I'm getting off here
+  topics: [travel]
 - text: Bitte halten Sie hier.
   hint: Please stop here
+  topics: [travel]
 - text: Wo ist die Haltestelle?
   hint: Where is the stop?
+  topics: [travel]
 - text: Fährt dieser Bus zum Bahnhof?
   hint: Does this bus go to the station?
+  topics: [travel]
 - text: Wo muss ich aussteigen?
   hint: Where do I have to get off?
+  topics: [travel]
 - text: Ist der Zug pünktlich?
   hint: Is the train on time?
+  topics: [travel]
 - text: Wo sind die Schlüssel?
   hint: Where are the keys?
+  topics: [housing]
 - text: Die Tür ist offen.
   hint: The door is open
+  topics: [housing]
 - text: Kannst du das Licht anmachen?
   hint: Can you turn on the light?
+  topics: [housing]
 - text: Ich muss aufräumen.
   hint: I have to tidy up
+  topics: [housing]
 - text: Das freut mich.
   hint: I'm glad
+  topics: [social]
 - text: Das ist schade.
   hint: That's a pity
+  topics: [social]
 - text: Keine Sorge.
   hint: No worries
+  topics: [social]
 - text: Alles klar.
   hint: All right
+  topics: [everyday]
 - text: Das stimmt.
   hint: That's right
+  topics: [everyday]
 - text: Ich bin einverstanden.
   hint: I agree
+  topics: [social]
 - text: Wie kann ich Ihnen helfen?
   hint: How can I help you?
+  topics: [social]
 - text: Darf ich Sie etwas fragen?
   hint: May I ask you something?
+  topics: [social]
 - text: Sprechen Sie Deutsch?
   hint: Do you speak German?
+  topics: [social]
 - text: Ich spreche nur wenig Deutsch.
   hint: I speak only a little German.
+  topics: [social]
 - text: Einen Moment, ich schaue nach.
   hint: One moment, I will check.
+  topics: [everyday]
 - text: Können Sie kurz warten?
   hint: Can you wait a moment?
+  topics: [social]
 - text: Ich bin gleich zurück.
   hint: I will be back soon.
+  topics: [everyday]
 - text: Vielen Dank für Ihre Hilfe.
   hint: Thank you for your help.
+  topics: [social]
 - text: Bitte sehr, gern geschehen.
   hint: You're welcome, glad to help.
+  topics: [social]
 - text: Entschuldigung, ich bin spät dran.
   hint: Sorry, I am running late.
+  topics: [social]
 - text: Tut mir leid, ich kann nicht.
   hint: Sorry, I cannot come.
+  topics: [social]
 - text: Kein Problem, das mache ich.
   hint: No problem, I will do it.
+  topics: [social]
 - text: Alles gut, danke.
   hint: All good, thanks.
+  topics: [social]
 - text: Das ist sehr nett.
   hint: That is very kind.
+  topics: [social]
 - text: Ich freue mich.
   hint: I am happy about it.
+  topics: [social]
 - text: Was kostet das zusammen?
   hint: What is the total cost?
+  topics: [shopping]
 - text: Haben Sie das auch in Blau?
   hint: Do you have this in blue?
+  topics: [shopping]
 - text: Ich möchte das kaufen.
   hint: I would like to buy this.
+  topics: [shopping]
 - text: Kann ich das anprobieren?
   hint: Can I try this on?
+  topics: [shopping]
 - text: Das passt mir nicht.
   hint: This does not fit me.
+  topics: [shopping]
 - text: Haben Sie eine andere Größe?
   hint: Do you have another size?
+  topics: [shopping]
 - text: Kann ich das zurückgeben?
   hint: Can I return this?
+  topics: [shopping]
 - text: Bar oder mit Karte?
   hint: Cash or by card?
+  topics: [shopping]
 - text: Ich zahle mit Karte.
   hint: I am paying by card.
+  topics: [shopping]
 - text: Kann ich bitte zahlen?
   hint: Can I pay, please?
+  topics: [shopping]
 - text: Ich hätte gern etwas zu trinken.
   hint: I would like something to drink.
+  topics: [shopping]
 - text: Was haben Sie zu essen?
   hint: What food do you have?
+  topics: [shopping]
 - text: Das Essen war sehr gut.
   hint: The food was very good.
+  topics: [shopping]
 - text: Ohne Fleisch, bitte.
   hint: Without meat, please.
+  topics: [shopping]
 - text: Noch ein Wasser, bitte.
   hint: Another water, please.
+  topics: [shopping]
 - text: Wann kommt der nächste Bus?
   hint: When is the next bus?
+  topics: [travel]
 - text: Wo ist die Bushaltestelle?
   hint: Where is the bus stop?
+  topics: [travel]
 - text: Wie viele Stationen sind es?
   hint: How many stops is it?
+  topics: [travel]
 - text: Muss ich hier umsteigen?
   hint: Do I have to change here?
+  topics: [travel]
 - text: Hin und zurück, bitte.
   hint: Return ticket, please.
+  topics: [travel]
 - text: Ich möchte eine Fahrkarte kaufen.
   hint: I would like to buy a ticket.
+  topics: [travel]
 - text: Ist dieser Sitz frei?
   hint: Is this seat free?
+  topics: [travel]
 - text: Bitte halten Sie an.
   hint: Please stop here.
+  topics: [travel]
 - text: Ich habe den Bus verpasst.
   hint: I missed the bus.
+  topics: [travel]
 - text: Können Sie mir den Weg zeigen?
   hint: Can you show me the way?
+  topics: [travel]
 - text: Ich habe mich verlaufen.
   hint: I am lost.
+  topics: [travel]
 - text: Mir ist schlecht.
   hint: I feel sick.
+  topics: [health]
 - text: Ich habe Halsschmerzen.
   hint: I have a sore throat.
+  topics: [health]
 - text: Ich brauche einen Arzttermin.
   hint: I need a doctor's appointment.
+  topics: [health]
 - text: Ich habe eine Allergie.
   hint: I have an allergy.
+  topics: [health]
 - text: Ich bin neu hier.
   hint: I am new here.
+  topics: [travel, social]
 - text: Ich arbeite im Büro.
   hint: I work in an office.
+  topics: [work]
 - text: Ich habe Pause.
   hint: I am on a break.
+  topics: [work]
 - text: Das gefällt mir.
   hint: I like that.
+  topics: [everyday]
 - text: Ich brauche Ruhe.
   hint: I need quiet.
+  topics: [everyday]

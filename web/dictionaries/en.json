@@ -32,6 +32,8 @@
     "storyLine": "Listen and answer out loud, about 5 minutes. First a few words from the story, with pictures (1 minute).",
     "phrasesTitle": "Useful phrases for every day",
     "phrasesLine": "The most-used phrases of daily life, with voice and meaning. 10 at a time.",
+    "phrasesTopic": "Useful phrases: {topic}",
+    "phrasesTopicLine": "The phrases you need there, with voice and meaning. 10 at a time.",
     "pillars": {
       "words": "Six words with pictures",
       "speak": "Answer questions out loud",
@@ -169,7 +171,19 @@
     "understand": "👂 Understand",
     "say": "🗣️ Say it",
     "sayHint": "How do you say this? Say it out loud, then look.",
-    "showAnswer": "Show answer"
+    "showAnswer": "Show answer",
+    "topics": {
+      "health": "At the doctor's",
+      "work": "Work",
+      "office": "Offices and paperwork",
+      "shopping": "Shopping",
+      "housing": "Housing",
+      "travel": "Getting around",
+      "social": "Meeting people",
+      "everyday": "Every day"
+    },
+    "allTopics": "All",
+    "topicsLabel": "Topics"
   },
   "word": {
     "meaningOf": "Meaning of {word}",

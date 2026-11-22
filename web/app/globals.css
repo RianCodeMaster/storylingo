@@ -426,6 +426,19 @@ button.link {
   order: -2;
 }
 
+/* The phrases page: topics of daily life as chips that wrap; the chosen one in the edition color. */
+.topic-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.topic-chips button {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
 /* The title of the story from the video, as it is in the target language. */
 .choice-name {
   font-weight: 700;

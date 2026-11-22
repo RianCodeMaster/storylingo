@@ -3,401 +3,601 @@
 # then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
 - text: Goedemorgen, hoe gaat het?
   hint: Good morning, how are you?
+  topics: [everyday, social]
 - text: Hoi, alles goed?
   hint: Hi, everything okay?
+  topics: [everyday, social]
 - text: Goed, dank je. En met jou?
   hint: Good thanks, and you?
+  topics: [social, everyday]
 - text: Tot ziens, fijne dag.
   hint: Goodbye, have a nice day.
+  topics: [everyday, social]
 - text: Dank je wel, heel aardig.
   hint: Thank you, very kind.
+  topics: [social, everyday]
 - text: Graag gedaan, hoor.
   hint: You're welcome.
+  topics: [social, everyday]
 - text: Sorry, ik ben laat.
   hint: Sorry I'm late.
+  topics: [social, everyday]
 - text: Het spijt me.
   hint: I'm sorry.
+  topics: [social, everyday]
 - text: Geen probleem.
   hint: No problem.
+  topics: [social, everyday]
 - text: Excuseer, mag ik iets vragen?
   hint: Excuse me, may I ask something?
+  topics: [social, everyday]
 - text: Ik begrijp het niet.
   hint: I don't understand.
+  topics: [everyday]
 - text: Kunt u dat herhalen?
   hint: Can you repeat that?
+  topics: [everyday, social]
 - text: Kunt u langzamer praten?
   hint: Can you speak more slowly?
+  topics: [everyday, social]
 - text: Wat betekent dat?
   hint: What does that mean?
+  topics: [everyday]
 - text: Hoe zeg je dat in het Nederlands?
   hint: How do you say that in Dutch?
+  topics: [everyday]
 - text: Ik spreek een beetje Nederlands.
   hint: I speak a little Dutch.
+  topics: [everyday]
 - text: Kunt u me helpen?
   hint: Can you help me?
+  topics: [everyday, social]
 - text: Waar is het toilet?
   hint: Where is the toilet?
+  topics: [everyday]
 - text: Hoe laat is het?
   hint: What time is it?
+  topics: [everyday]
 - text: Hoeveel kost dit?
   hint: How much does this cost?
+  topics: [shopping]
 - text: Dat is te duur.
   hint: That's too expensive.
+  topics: [shopping]
 - text: Ik wil dit graag kopen.
   hint: I'd like to buy this.
+  topics: [shopping]
 - text: Kan ik met pin betalen?
   hint: Can I pay by card?
+  topics: [shopping]
 - text: Mag ik een bonnetje?
   hint: May I have a receipt?
+  topics: [shopping]
 - text: Ik neem deze.
   hint: I'll take this one.
+  topics: [shopping]
 - text: Waar is het station?
   hint: Where is the station?
+  topics: [travel]
 - text: Hoe kom ik bij het centrum?
   hint: How do I get to the center?
+  topics: [travel]
 - text: Een kaartje naar Amsterdam, alstublieft.
   hint: A ticket to Amsterdam, please.
+  topics: [travel]
 - text: Wanneer gaat de volgende trein?
   hint: When does the next train leave?
+  topics: [travel]
 - text: Moet ik overstappen?
   hint: Do I need to transfer?
+  topics: [travel]
 - text: Ik ben de weg kwijt.
   hint: I'm lost.
+  topics: [travel]
 - text: Ik heb een vraag.
   hint: I have a question.
+  topics: [everyday]
 - text: Kunt u dat uitleggen?
   hint: Can you explain that?
+  topics: [everyday]
 - text: Ik ben ziek vandaag.
   hint: I'm sick today.
+  topics: [health]
 - text: Ik kom iets later.
   hint: I'll be a little late.
+  topics: [everyday]
 - text: Ik voel me niet lekker.
   hint: I don't feel well.
+  topics: [health]
 - text: Ik heb hoofdpijn.
   hint: I have a headache.
+  topics: [health]
 - text: Ik heb een afspraak.
   hint: I have an appointment.
+  topics: [health]
 - text: Waar woon je?
   hint: Where do you live?
+  topics: [social, housing]
 - text: Ik ben thuis.
   hint: I'm at home.
+  topics: [everyday]
 - text: Wil je koffie?
   hint: Do you want coffee?
+  topics: [social]
 - text: Doe de deur dicht, alsjeblieft.
   hint: Close the door, please.
+  topics: [everyday]
 - text: Ik ga naar bed.
   hint: I'm going to bed.
+  topics: [everyday]
 - text: Ik ben blij.
   hint: I'm happy.
+  topics: [everyday]
 - text: Wat jammer.
   hint: What a shame.
+  topics: [social, everyday]
 - text: Ik weet het niet.
   hint: I don't know.
+  topics: [everyday]
 - text: Dat is goed.
   hint: That's good.
+  topics: [everyday]
 - text: Maak je geen zorgen.
   hint: Don't worry.
+  topics: [social, everyday]
 - text: Ik ben moe.
   hint: I'm tired.
+  topics: [everyday]
 - text: Ik moet gaan.
   hint: I have to go.
+  topics: [everyday, social]
 - text: Ja, graag.
   hint: yes please
+  topics: [everyday, social]
 - text: Nee, dank u.
   hint: no thank you
+  topics: [everyday, social]
 - text: Tot morgen!
   hint: see you tomorrow
+  topics: [everyday, social]
 - text: Tot straks!
   hint: see you later
+  topics: [everyday, social]
 - text: Fijne avond!
   hint: have a nice evening
+  topics: [everyday, social]
 - text: Welterusten!
   hint: good night
+  topics: [everyday, social]
 - text: Dat klopt.
   hint: that's right
+  topics: [everyday]
 - text: Ik denk het wel.
   hint: I think so
+  topics: [everyday]
 - text: Ik denk het niet.
   hint: I don't think so
+  topics: [everyday]
 - text: Wat bedoel je?
   hint: what do you mean
+  topics: [everyday, social]
 - text: Wat zeg je?
   hint: what did you say
+  topics: [everyday, social]
 - text: Spreekt u Engels?
   hint: do you speak English
+  topics: [everyday, social]
 - text: Veel plezier!
   hint: have fun
+  topics: [social, everyday]
 - text: Eet smakelijk!
   hint: enjoy your meal
+  topics: [social]
 - text: Beterschap gewenst.
   hint: get well soon
+  topics: [health, social]
 - text: Mag ik een koffie, alstublieft?
   hint: may I have a coffee please
+  topics: [shopping]
 - text: Ik wil graag betalen.
   hint: I'd like to pay
+  topics: [shopping]
 - text: Waar is de kassa?
   hint: where is the checkout
+  topics: [shopping]
 - text: Heeft u een tasje?
   hint: do you have a bag
+  topics: [shopping]
 - text: Ik kijk even rond.
   hint: I'm just looking
+  topics: [shopping]
 - text: Dat is alles, dank u.
   hint: that's all, thank you
+  topics: [shopping]
 - text: Kan ik dit ruilen?
   hint: can I exchange this
+  topics: [shopping]
 - text: Hebt u dit in een andere maat?
   hint: do you have another size
+  topics: [shopping]
 - text: Waar kan ik pinnen?
   hint: where can I pay by card
+  topics: [shopping]
 - text: Hoeveel is dat samen?
   hint: how much is that together
+  topics: [shopping]
 - text: Kunt u dat opschrijven?
   hint: can you write that down
+  topics: [everyday]
 - text: Kunt u het spellen?
   hint: can you spell it
+  topics: [everyday]
 - text: Waar is de bushalte?
   hint: where is the bus stop
+  topics: [travel]
 - text: Welke bus gaat naar het centrum?
   hint: which bus goes to the centre
+  topics: [travel]
 - text: Hoe laat vertrekt de trein?
   hint: what time does the train leave
+  topics: [travel]
 - text: Is dit de goede trein?
   hint: is this the right train
+  topics: [travel]
 - text: Waar moet ik uitstappen?
   hint: where should I get off
+  topics: [travel]
 - text: Een retourtje, alstublieft.
   hint: a return ticket, please
+  topics: [travel]
 - text: Hoe lang duurt de reis?
   hint: how long is the journey
+  topics: [travel]
 - text: Is het ver lopen?
   hint: is it far on foot
+  topics: [travel]
 - text: Waar is de supermarkt?
   hint: where is the supermarket
+  topics: [shopping, travel]
 - text: Ik ga naar huis.
   hint: I'm going home
+  topics: [everyday]
 - text: Ik kom zo.
   hint: I'm coming soon
+  topics: [everyday]
 - text: Ik zoek mijn sleutels.
   hint: I'm looking for my keys
+  topics: [everyday]
 - text: Het is koud hier.
   hint: it's cold here
+  topics: [everyday]
 - text: Ik wil een afspraak maken.
   hint: I want to make an appointment
+  topics: [health]
 - text: Kan ik vandaag komen?
   hint: can I come today
+  topics: [health]
 - text: Ik heb buikpijn.
   hint: I have stomach ache
+  topics: [health]
 - text: Ik heb keelpijn.
   hint: I have a sore throat
+  topics: [health]
 - text: Ik heb koorts.
   hint: I have a fever
+  topics: [health]
 - text: Ik ben allergisch voor pinda's.
   hint: I'm allergic to peanuts
+  topics: [health]
 - text: Waar is de apotheek?
   hint: where is the pharmacy
+  topics: [health, travel]
 - text: Moet ik dit innemen?
   hint: should I take this
+  topics: [health]
 - text: Het doet hier pijn.
   hint: it hurts here
+  topics: [health]
 - text: Hebt u even tijd?
   hint: do you have a moment
+  topics: [social]
 - text: Kan ik u helpen?
   hint: Can I help you?
+  topics: [shopping, social]
 - text: Sorry, ik versta u niet.
   hint: Sorry, I don't understand you
+  topics: [social]
 - text: Een momentje, alstublieft.
   hint: One moment, please
+  topics: [social]
 - text: Spreekt u Nederlands?
   hint: Do you speak Dutch?
+  topics: [social]
 - text: Goedemiddag, mevrouw.
   hint: Good afternoon, madam
+  topics: [everyday]
 - text: Tot vanavond.
   hint: See you this evening
+  topics: [everyday]
 - text: Fijn weekend.
   hint: Have a good weekend
+  topics: [everyday]
 - text: Waarmee kan ik u helpen?
   hint: What can I help you with?
+  topics: [shopping, social]
 - text: Mag ik wat water, alstublieft?
   hint: May I have some water, please?
+  topics: [shopping]
 - text: De rekening, alstublieft.
   hint: The bill, please
+  topics: [shopping]
 - text: Waar kan ik dit vinden?
   hint: Where can I find this?
+  topics: [shopping]
 - text: Kan ik contant betalen?
   hint: Can I pay in cash?
+  topics: [shopping]
 - text: Waar is de tramhalte?
   hint: Where is the tram stop?
+  topics: [travel]
 - text: Een enkeltje, alstublieft.
   hint: A one-way ticket, please
+  topics: [travel]
 - text: Ik ben onderweg.
   hint: I am on my way
+  topics: [social, travel]
 - text: Ik ben zo terug.
   hint: I will be right back
+  topics: [everyday]
 - text: Hoe heet je?
   hint: What is your name?
+  topics: [social]
 - text: Leuk je te ontmoeten.
   hint: Nice to meet you
+  topics: [social]
 - text: Wil je iets drinken?
   hint: Do you want something to drink?
+  topics: [social]
 - text: Het eten is klaar.
   hint: The food is ready
+  topics: [everyday]
 - text: Kom binnen, alsjeblieft.
   hint: Come in, please
+  topics: [social]
 - text: Mag ik even storen?
   hint: May I interrupt briefly?
+  topics: [social]
 - text: Met wie spreek ik?
   hint: Who am I speaking to?
+  topics: [office]
 - text: Ik stuur u een e-mail.
   hint: I will send you an email
+  topics: [office]
 - text: Mag ik de menukaart?
   hint: May I have the menu?
+  topics: [shopping]
 - text: Zonder suiker, alstublieft.
   hint: Without sugar, please
+  topics: [shopping]
 - text: Met melk, alstublieft.
   hint: With milk, please
+  topics: [shopping]
 - text: Nog een keer, alstublieft.
   hint: One more time, please
+  topics: [everyday]
 - text: Heeft u dit ook in het blauw?
   hint: Do you have this in blue?
+  topics: [shopping]
 - text: Ik zoek een cadeau.
   hint: I am looking for a gift
+  topics: [shopping]
 - text: Is dit in de aanbieding?
   hint: Is this on sale?
+  topics: [shopping]
 - text: Wie is er aan de beurt?
   hint: Whose turn is it?
+  topics: [shopping]
 - text: Ik ben aan de beurt.
   hint: It is my turn
+  topics: [shopping]
 - text: Nee, ik kijk alleen.
   hint: No, I am just looking
+  topics: [shopping]
 - text: Een half kilo, alstublieft.
   hint: Half a kilo, please
+  topics: [shopping]
 - text: Heeft u nog brood?
   hint: Do you still have bread?
+  topics: [shopping]
 - text: Welke tram moet ik nemen?
   hint: Which tram should I take?
+  topics: [travel]
 - text: Mag ik er langs?
   hint: May I get past?
+  topics: [travel]
 - text: Stopt deze trein in Utrecht?
   hint: Does this train stop in Utrecht?
+  topics: [travel]
 - text: Waar is de uitgang?
   hint: Where is the exit?
+  topics: [travel]
 - text: Het is om de hoek.
   hint: It is around the corner
+  topics: [travel]
 - text: Doe het licht aan, alsjeblieft.
   hint: Turn on the light, please
+  topics: [everyday]
 - text: Ik ben verkouden.
   hint: I have a cold
+  topics: [health]
 - text: Ik ben misselijk.
   hint: I feel nauseous
+  topics: [health]
 - text: Ik heb pijn in mijn rug.
   hint: My back hurts
+  topics: [health]
 - text: Ik slaap slecht.
   hint: I sleep badly
+  topics: [health]
 - text: Moet ik terugkomen?
   hint: Should I come back?
+  topics: [health]
 - text: Ik voel me beter.
   hint: I feel better
+  topics: [health]
 - text: Ik ben zenuwachtig.
   hint: I am nervous
+  topics: [everyday]
 - text: Gefeliciteerd met je verjaardag.
   hint: Happy birthday
+  topics: [social]
 - text: Hoe gaat het met u?
   hint: How are you? (formal)
+  topics: [social]
 - text: Tot volgende week.
   hint: See you next week
+  topics: [everyday]
 - text: Tot maandag.
   hint: See you Monday
+  topics: [everyday]
 - text: Aangenaam kennis te maken.
   hint: Nice to meet you (formal)
+  topics: [social]
 - text: Sorry, dat wist ik niet.
   hint: Sorry, I didn't know that
+  topics: [social]
 - text: Geen dank.
   hint: You're welcome (informal)
+  topics: [social]
 - text: Alstublieft, uw wisselgeld.
   hint: Here is your change
+  topics: [shopping]
 - text: Heeft u kleingeld?
   hint: Do you have change?
+  topics: [shopping]
 - text: Ja, hoor.
   hint: Yes, of course (friendly)
+  topics: [everyday]
 - text: Natuurlijk, graag.
   hint: Of course, gladly
+  topics: [social]
 - text: Prima, dank u.
   hint: Fine, thank you
+  topics: [social]
 - text: Ik heb geen tijd.
   hint: I don't have time
+  topics: [everyday]
 - text: Ik heb het druk.
   hint: I'm busy
+  topics: [everyday]
 - text: Ik ben vandaag vrij.
   hint: I'm off today
+  topics: [work]
 - text: Ik moet werken.
   hint: I have to work
+  topics: [work]
 - text: Ik ben op kantoor.
   hint: I'm at the office
+  topics: [work]
 - text: Ik ben later thuis.
   hint: I'll be home later
+  topics: [everyday]
 - text: Waar is de lift?
   hint: Where is the elevator?
+  topics: [everyday]
 - text: Waar is de trap?
   hint: Where are the stairs?
+  topics: [everyday]
 - text: Waar is de ingang?
   hint: Where is the entrance?
+  topics: [everyday]
 - text: Waar is het ziekenhuis?
   hint: Where is the hospital?
+  topics: [health, travel]
 - text: Mag ik naar het toilet?
   hint: May I use the toilet?
+  topics: [everyday]
 - text: Mag ik even zitten?
   hint: May I sit down?
+  topics: [everyday]
 - text: Ik eet geen vlees.
   hint: I don't eat meat
+  topics: [shopping]
 - text: Ik ben vegetarisch.
   hint: I am vegetarian
+  topics: [shopping]
 - text: Ik heb geen honger.
   hint: I'm not hungry
+  topics: [everyday]
 - text: Ik heb dorst.
   hint: I'm thirsty
+  topics: [everyday]
 - text: Ik ben duizelig.
   hint: I feel dizzy
+  topics: [health]
 - text: Ik ben gevallen.
   hint: I have fallen
+  topics: [health]
 - text: Ik heb me gesneden.
   hint: I cut myself
+  topics: [health]
 - text: Ik gebruik medicijnen.
   hint: I take medication
+  topics: [health]
 - text: Wanneer kan ik komen?
   hint: When can I come?
+  topics: [health]
 - text: Hoe laat is de afspraak?
   hint: What time is the appointment?
+  topics: [health]
 - text: Ik ben aan het werk.
   hint: I am working
+  topics: [work]
 - text: Ik werk vier dagen.
   hint: I work four days
+  topics: [work]
 - text: Ik begin om negen uur.
   hint: I start at nine o'clock
+  topics: [work]
 - text: Ik ben klaar met werken.
   hint: I'm done with work
+  topics: [work]
 - text: Ik heb pauze.
   hint: I'm on break
+  topics: [work]
 - text: Ik kom eraan.
   hint: I'm coming
+  topics: [everyday]
 - text: Wacht even, alsjeblieft.
   hint: Wait a moment, please
+  topics: [everyday]
 - text: Bel me later.
   hint: Call me later
+  topics: [social]
 - text: Ik bel je terug.
   hint: I'll call you back
+  topics: [social]
 - text: Ik snap het.
   hint: I understand
+  topics: [everyday]
 - text: Nee, niet echt.
   hint: No, not really
+  topics: [everyday]
 - text: Ja, natuurlijk.
   hint: Yes, of course
+  topics: [everyday]
 - text: Dat is waar.
   hint: That's true
+  topics: [everyday]
 - text: Veel succes.
   hint: Good luck
+  topics: [social]
 - text: Fijne dag verder.
   hint: Have a nice day
+  topics: [social]
 - text: Tot snel.
   hint: See you soon
+  topics: [social]
 - text: Doe de groeten.
   hint: Say hello to them
+  topics: [social]

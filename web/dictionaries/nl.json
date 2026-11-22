@@ -32,6 +32,8 @@
     "storyLine": "Luisteren en hardop antwoorden, zo'n 5 minuten. Vooraf een paar woorden uit het verhaal, met plaatjes (1 minuut).",
     "phrasesTitle": "Handige zinnen voor elke dag",
     "phrasesLine": "De meest gebruikte zinnen uit het dagelijks leven, met stem en betekenis. 10 per keer.",
+    "phrasesTopic": "Handige zinnen: {topic}",
+    "phrasesTopicLine": "De zinnen die je daar nodig hebt, met stem en betekenis. 10 per keer.",
     "pillars": {
       "words": "Zes woorden met plaatje",
       "speak": "Vragen hardop beantwoorden",
@@ -169,7 +171,19 @@
     "understand": "👂 Verstaan",
     "say": "🗣️ Zeggen",
     "sayHint": "Hoe zeg je dit? Zeg het hardop, kijk dan pas.",
-    "showAnswer": "Toon antwoord"
+    "showAnswer": "Toon antwoord",
+    "topics": {
+      "health": "Bij de dokter",
+      "work": "Werk",
+      "office": "Instanties en papieren",
+      "shopping": "Winkelen",
+      "housing": "Wonen",
+      "travel": "Onderweg",
+      "social": "Kennismaken",
+      "everyday": "Elke dag"
+    },
+    "allTopics": "Alle",
+    "topicsLabel": "Onderwerpen"
   },
   "word": {
     "meaningOf": "Betekenis van {word}",

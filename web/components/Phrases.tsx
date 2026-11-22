@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 import { useDevActions } from "@/lib/devtools";
 import { getEnrollment } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
-import { learnedPhrases, loadPhrases, type PhraseCard, phraseTotal } from "@/lib/phrases";
+import {
+  isTopic, learnedPhrases, loadPhrases, type PhraseCard, phraseTotal, type Topic, TOPICS, topicTotals,
+} from "@/lib/phrases";
 import { type Tier, tierOf, type Usage, usageToday } from "@/lib/plus";
 import { ownedProducts } from "@/lib/products";
 import { type Grade, NEW_STATE, nextState, saveGrade, type SrsState } from "@/lib/review";
@@ -129,11 +131,16 @@ export default function Phrases() {
   const [tier, setTier] = useState<Tier | null>(null);
   const [usage, setUsage] = useState<Usage | null>(null);
   const [error, setError] = useState<string | null>(null);
+  // One topic (?topic=health, e.g. from a video about the doctor) or all phrases of the level; per topic its total.
+  const [topic, setTopic] = useState<Topic | null>(null);
+  const [topics, setTopics] = useState<Partial<Record<Topic, number>>>({});
 
   // Start at the learner's level in this edition (the phrases stop at B1), in the direction chosen last time.
   useEffect(() => {
+    const asked = new URLSearchParams(window.location.search).get("topic");
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
+    if (isTopic(asked)) setTopic(asked);
     try {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
       if (localStorage.getItem(DIRECTION_KEY) === "say") setDirection("say");
     } catch {}
     (async () => {
@@ -167,17 +174,28 @@ export default function Phrases() {
     if (!level || batch) return;
     (async () => {
       // The database hands out only the free phrases without Plus; the total says how many there are in all.
-      const [list, done, all, owned, today] = await Promise.all([
-        loadPhrases(edition, level), learnedPhrases(edition.target), phraseTotal(edition.target, level),
-        ownedProducts(), usageToday(),
+      const [list, done, all, perTopic, owned, today] = await Promise.all([
+        loadPhrases(edition, level, topic), learnedPhrases(edition.target), phraseTotal(edition.target, level),
+        topicTotals(edition.target, level), ownedProducts(), usageToday(),
       ]);
       setPhrases(list);
       setLearned(done);
-      setTotal(all);
+      setTotal(topic ? (perTopic[topic] ?? list.length) : all);
+      setTopics(perTopic);
       setTier(tierOf(edition, owned));
       setUsage(today);
     })().catch((e) => setError(String(e.message ?? e)));
-  }, [level, edition, batch]);
+  }, [level, edition, batch, topic]);
+
+  /** Switch topic (or back to all), and keep it in the address so a reload or a shared link shows the same. */
+  function chooseTopic(t: Topic | null) {
+    setPhrases(null);
+    setTopic(t);
+    const url = new URL(window.location.href);
+    if (t) url.searchParams.set("topic", t);
+    else url.searchParams.delete("topic");
+    window.history.replaceState(null, "", url);
+  }
 
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
   if (batch) {
@@ -197,8 +215,21 @@ export default function Phrases() {
   const lockedPart = !!limits && total > (phrases?.length ?? 0);
   return (
     <main>
-      <TopBar title={dict.phrases.title} />
+      <TopBar title={topic ? `${dict.phrases.title}: ${dict.phrases.topics[topic]}` : dict.phrases.title} />
       <p className="muted">{dict.phrases.intro}</p>
+      {/* Topics of daily life: the ones this level has, as chips; "all" goes back to the whole level. */}
+      {Object.keys(topics).length > 0 && (
+        <nav className="topic-chips" aria-label={dict.phrases.topicsLabel}>
+          <button className={topic ? "" : "chosen-level"} onClick={() => chooseTopic(null)}>
+            {dict.phrases.allTopics}
+          </button>
+          {TOPICS.filter((t) => topics[t]).map((t) => (
+            <button key={t} className={t === topic ? "chosen-level" : ""} onClick={() => chooseTopic(t)}>
+              {dict.phrases.topics[t]}
+            </button>
+          ))}
+        </nav>
+      )}
       {/* Only the learner's level (chosen once, changed on the start screen): no choosing here. */}
       {level && (
         <span className="badge">

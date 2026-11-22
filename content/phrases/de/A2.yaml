@@ -3,401 +3,601 @@
 # then: storylingo.py sync. hint: English, for the translator and for you; learners never see it.
 - text: Schönen Tag noch.
   hint: have a nice day
+  topics: [everyday]
 - text: Mach's gut.
   hint: take care (informal goodbye)
+  topics: [everyday]
 - text: Alles Gute.
   hint: all the best
+  topics: [everyday]
 - text: Gute Reise.
   hint: have a good trip
+  topics: [travel, everyday]
 - text: Nehmen Sie Platz.
   hint: please take a seat
+  topics: [social]
 - text: Ich brauche noch etwas Zeit.
   hint: I need a little more time
+  topics: [everyday]
 - text: Könnten Sie das bitte buchstabieren?
   hint: could you spell that please
+  topics: [everyday]
 - text: Können Sie mir das aufschreiben?
   hint: can you write that down for me
+  topics: [everyday]
 - text: Ich habe es nicht verstanden.
   hint: I didn't understand that
+  topics: [everyday]
 - text: Das ist ja toll.
   hint: that's great
+  topics: [everyday]
 - text: Das glaube ich nicht.
   hint: I don't believe that
+  topics: [everyday]
 - text: Das ist mir egal.
   hint: I don't care
+  topics: [everyday]
 - text: Das macht nichts.
   hint: that's okay / no problem
+  topics: [social]
 - text: Das ist nicht schlimm.
   hint: that's not bad
+  topics: [everyday]
 - text: Das ist eine gute Idee.
   hint: that's a good idea
+  topics: [everyday]
 - text: Das stimmt nicht.
   hint: that's not true
+  topics: [everyday]
 - text: Ich bin mir nicht sicher.
   hint: I'm not sure
+  topics: [everyday]
 - text: Ich glaube schon.
   hint: I think so
+  topics: [everyday]
 - text: Ich glaube nicht.
   hint: I don't think so
+  topics: [everyday]
 - text: Was ist passiert?
   hint: what happened
+  topics: [everyday]
 - text: Wie meinen Sie das?
   hint: what do you mean by that
+  topics: [everyday]
 - text: Haben Sie noch Fragen?
   hint: do you have any more questions
+  topics: [work]
 - text: Ist alles in Ordnung?
   hint: is everything okay
+  topics: [social]
 - text: Geht es Ihnen gut?
   hint: are you well
+  topics: [social]
 - text: Brauchen Sie noch etwas.
   hint: do you need anything else
+  topics: [shopping]
 - text: Wann treffen wir uns?
   hint: when shall we meet
+  topics: [social]
 - text: Wo treffen wir uns?
   hint: where shall we meet
+  topics: [social]
 - text: Um wie viel Uhr.
   hint: at what time
+  topics: [social]
 - text: Ich suche ein Geschenk.
   hint: I'm looking for a gift
+  topics: [shopping]
 - text: Wo ist die Umkleidekabine?
   hint: where is the fitting room
+  topics: [shopping]
 - text: Passt es Ihnen.
   hint: does it fit you
+  topics: [shopping]
 - text: Kann ich das später abholen?
   hint: can I pick that up later
+  topics: [shopping]
 - text: Ich habe eine Besprechung.
   hint: I have a meeting
+  topics: [work]
 - text: Ich rufe Sie später zurück.
   hint: I'll call you back later
+  topics: [work]
 - text: Ich muss den Termin verschieben.
   hint: I have to postpone the appointment
+  topics: [work]
 - text: Ich arbeite von zu Hause.
   hint: I work from home
+  topics: [work]
 - text: Ich habe eine Erkältung.
   hint: I have a cold
+  topics: [health]
 - text: Ich bin allergisch gegen Nüsse.
   hint: I'm allergic to nuts
+  topics: [health]
 - text: Ich brauche ein Rezept.
   hint: I need a prescription
+  topics: [health]
 - text: Ich habe Rückenschmerzen.
   hint: I have back pain
+  topics: [health]
 - text: Wo muss ich umsteigen?
   hint: where do I have to change
+  topics: [travel]
 - text: Wie komme ich zum Flughafen?
   hint: how do I get to the airport
+  topics: [travel]
 - text: Wann kommt der Zug an?
   hint: when does the train arrive
+  topics: [travel]
 - text: Hat der Zug Verspätung?
   hint: is the train delayed
+  topics: [travel]
 - text: Wo ist der Fahrkartenautomat?
   hint: where is the ticket machine
+  topics: [travel]
 - text: Ich muss noch einkaufen.
   hint: I still have to go shopping
+  topics: [shopping]
 - text: Die Heizung funktioniert nicht.
   hint: the heating isn't working
+  topics: [housing]
 - text: Ich habe den Schlüssel verloren.
   hint: I've lost the key
+  topics: [housing]
 - text: Ich habe keine Lust.
   hint: I don't feel like it
+  topics: [everyday]
 - text: Ich bin sehr froh.
   hint: I'm very glad
+  topics: [everyday]
 - text: Was darf es für Sie sein?
   hint: What would you like?
+  topics: [shopping]
 - text: Stimmt so, danke.
   hint: Keep the change, thanks.
+  topics: [shopping]
 - text: Ich bezahle bar.
   hint: I'm paying cash.
+  topics: [shopping]
 - text: Ich habe kein Kleingeld.
   hint: I don't have small change.
+  topics: [shopping]
 - text: Ich hätte gern noch etwas.
   hint: I'd like a little more.
+  topics: [shopping]
 - text: Können Sie mir etwas empfehlen?
   hint: Can you recommend something?
+  topics: [shopping]
 - text: Das ist eine gute Frage.
   hint: That's a good question.
+  topics: [everyday]
 - text: Das kann ich verstehen.
   hint: I can understand that.
+  topics: [social]
 - text: Das ist nicht so wichtig.
   hint: That's not so important.
+  topics: [everyday]
 - text: Das macht keinen Sinn.
   hint: That doesn't make sense.
+  topics: [everyday]
 - text: Ich bin zufrieden.
   hint: I'm satisfied.
+  topics: [everyday]
 - text: Ich bin wütend.
   hint: I'm angry.
+  topics: [everyday]
 - text: Ich bin überrascht.
   hint: I'm surprised.
+  topics: [everyday]
 - text: Ich habe gute Laune.
   hint: I'm in a good mood.
+  topics: [everyday]
 - text: Alles wird gut.
   hint: Everything will be fine.
+  topics: [social]
 - text: Das nervt mich.
   hint: That annoys me.
+  topics: [everyday]
 - text: Wo ist der nächste Geldautomat?
   hint: Where is the nearest ATM?
+  topics: [office]
 - text: Ich brauche eine andere Farbe.
   hint: I need another color.
+  topics: [shopping]
 - text: Die Hose ist mir zu lang.
   hint: The trousers are too long for me.
+  topics: [shopping]
 - text: Ich nehme zwei Stück.
   hint: I'll take two pieces.
+  topics: [shopping]
 - text: Ich möchte etwas gegen Kopfschmerzen.
   hint: I'd like something for a headache.
+  topics: [health]
 - text: Ich brauche eine Krankschreibung.
   hint: I need a sick note.
+  topics: [health]
 - text: Können Sie mir etwas verschreiben?
   hint: Can you prescribe me something?
+  topics: [health]
 - text: Wann soll ich wieder kommen?
   hint: When should I come back?
+  topics: [health]
 - text: Mir ist schwindelig.
   hint: I feel dizzy.
+  topics: [health]
 - text: Ich habe Bauchschmerzen.
   hint: I have stomach ache.
+  topics: [health]
 - text: Ich fühle mich sehr schwach.
   hint: I feel very weak.
+  topics: [health]
 - text: Ich habe mich verletzt.
   hint: I hurt myself.
+  topics: [health]
 - text: Mein Arm tut weh.
   hint: My arm hurts.
+  topics: [health]
 - text: Ich fahre mit dem Zug.
   hint: I'm going by train.
+  topics: [travel]
 - text: Ich nehme die Straßenbahn.
   hint: I'll take the tram.
+  topics: [travel]
 - text: Ich steige am Hauptbahnhof um.
   hint: I change at the main station.
+  topics: [travel]
 - text: Der Bus kommt in zehn Minuten.
   hint: The bus comes in ten minutes.
+  topics: [travel]
 - text: Kannst du bitte das Fenster schließen?
   hint: Can you please close the window?
+  topics: [everyday]
 - text: Kannst du bitte das Licht ausmachen?
   hint: Can you please turn off the light?
+  topics: [everyday]
 - text: Die Waschmaschine ist kaputt.
   hint: The washing machine is broken.
+  topics: [housing]
 - text: Der Kühlschrank ist leer.
   hint: The fridge is empty.
+  topics: [housing]
 - text: Die Tür ist abgeschlossen.
   hint: The door is locked.
+  topics: [housing]
 - text: Die Miete ist zu hoch.
   hint: The rent is too high.
+  topics: [housing]
 - text: Ich suche eine neue Wohnung.
   hint: I'm looking for a new apartment.
+  topics: [housing]
 - text: Ich habe viel Arbeit.
   hint: I have a lot of work.
+  topics: [work]
 - text: Ich schicke dir die Datei.
   hint: I'll send you the file.
+  topics: [work]
 - text: Hast du die E-Mail gelesen?
   hint: Did you read the email?
+  topics: [work]
 - text: Ich habe die Datei nicht gefunden.
   hint: I didn't find the file.
+  topics: [work]
 - text: Ich bin im Urlaub.
   hint: I'm on vacation.
+  topics: [work]
 - text: Ich muss früher gehen.
   hint: I have to leave earlier.
+  topics: [work]
 - text: Kannst du das bitte prüfen?
   hint: Can you please check that?
+  topics: [work]
 - text: Ich habe das Formular ausgefüllt.
   hint: I filled out the form.
+  topics: [office]
 - text: Unterschreiben Sie hier, bitte.
   hint: Sign here, please.
+  topics: [office]
 - text: Ich brauche eine Kopie.
   hint: I need a copy.
+  topics: [office]
 - text: Entschuldigung, wo geht es hier zur Toilette?
   hint: Asking where the toilet is
+  topics: [everyday]
 - text: Können Sie mir bitte helfen?
   hint: Asking for help politely
+  topics: [everyday]
 - text: Ich verstehe das leider nicht.
   hint: I don't understand that, sorry
+  topics: [everyday]
 - text: Könnten Sie das bitte langsamer sagen?
   hint: Please say that more slowly
+  topics: [everyday]
 - text: Wie komme ich am besten dorthin?
   hint: How do I get there best?
+  topics: [travel]
 - text: Gibt es hier in der Nähe eine Bank?
   hint: Is there a bank nearby?
+  topics: [office]
 - text: Ich möchte bitte die Rechnung.
   hint: I'd like the bill, please
+  topics: [shopping]
 - text: Das habe ich nicht bestellt.
   hint: I didn't order this
+  topics: [shopping]
 - text: Mein Essen ist leider kalt.
   hint: My food is cold, unfortunately
+  topics: [shopping]
 - text: Können wir den Termin verschieben?
   hint: Can we move the appointment?
+  topics: [office]
 - text: Ich möchte einen Termin vereinbaren.
   hint: I'd like to arrange an appointment
+  topics: [office]
 - text: Ich melde mich später bei Ihnen.
   hint: I'll contact you later
+  topics: [office]
 - text: Bitte rufen Sie mich zurück.
   hint: Please call me back
+  topics: [office]
 - text: Können Sie mir eine E-Mail schicken?
   hint: Can you send me an email?
+  topics: [office]
 - text: Ich habe die Unterlagen dabei.
   hint: I have the documents with me
+  topics: [office]
 - text: Kann ich das Formular später abgeben?
   hint: Can I hand in form later?
+  topics: [office]
 - text: Wann ist mein Termin?
   hint: When is my appointment?
+  topics: [office]
 - text: Ich habe seit gestern Fieber.
   hint: I've had fever since yesterday
+  topics: [health]
 - text: Es tut hier sehr weh.
   hint: It hurts a lot here
+  topics: [health]
 - text: Können Sie mir etwas dagegen geben?
   hint: Can you give me something for it?
+  topics: [health]
 - text: Muss ich das Medikament täglich nehmen?
   hint: Must I take this medicine daily?
+  topics: [health]
 - text: Der Zug hat leider Verspätung.
   hint: The train is delayed, unfortunately
+  topics: [travel]
 - text: Von welchem Gleis fährt der Zug?
   hint: Which platform does the train leave from?
+  topics: [travel]
 - text: Wie lange dauert die Fahrt?
   hint: How long is the journey?
+  topics: [travel]
 - text: Ich möchte die Fahrkarte zurückgeben.
   hint: I'd like to return this ticket
+  topics: [travel]
 - text: Wo kann ich ein Taxi bekommen?
   hint: Where can I get a taxi?
+  topics: [travel]
 - text: Bitte fahren Sie mich zum Bahnhof.
   hint: Please drive me to the station
+  topics: [travel]
 - text: Hält dieser Bus am Marktplatz?
   hint: Does this bus stop at Marktplatz?
+  topics: [travel]
 - text: Wann fährt der nächste Zug nach Berlin?
   hint: When is the next train to Berlin?
+  topics: [travel]
 - text: Ich suche eine Wohnung mit zwei Zimmern.
   hint: I'm looking for a two-room flat
+  topics: [housing]
 - text: Wie hoch ist die Kaution?
   hint: How much is the deposit?
+  topics: [housing]
 - text: Wann kann ich die Wohnung sehen?
   hint: When can I see the flat?
+  topics: [housing]
 - text: Können Sie das bitte reparieren?
   hint: Can you repair that, please?
+  topics: [housing]
 - text: Der Aufzug funktioniert nicht.
   hint: The elevator isn't working
+  topics: [housing]
 - text: Ich habe mich ausgesperrt.
   hint: I've locked myself out
+  topics: [housing]
 - text: Es ist sehr laut hier.
   hint: It's very loud here
+  topics: [housing]
 - text: Können Sie mir das noch einmal sagen?
   hint: Can you tell me again?
+  topics: [everyday]
 - text: Ich weiß es leider auch nicht.
   hint: I don't know either, sorry
+  topics: [everyday]
 - text: Vielen Dank, das ist sehr freundlich.
   hint: Thank you, that's very kind
+  topics: [social]
 - text: Entschuldigung, ich habe Sie nicht verstanden.
   hint: Sorry, I didn't understand you
+  topics: [social]
 - text: Darf ich kurz stören?
   hint: May I disturb you briefly?
+  topics: [social]
 - text: Haben Sie kurz Zeit für mich?
   hint: Do you have a moment for me?
+  topics: [social]
 - text: Ich habe eine Frage zum Formular.
   hint: I have a question about the form
+  topics: [office]
 - text: Können wir das später besprechen?
   hint: Can we discuss that later?
+  topics: [social]
 - text: Ich bin anderer Meinung.
   hint: I have a different opinion
+  topics: [social]
 - text: Das kann ich gut verstehen.
   hint: I can understand that well
+  topics: [social]
 - text: Guten Appetit!
   hint: Enjoy your meal
+  topics: [everyday]
 - text: Schönes Wochenende!
   hint: Have a nice weekend
+  topics: [everyday]
 - text: Hast du am Wochenende Zeit?
   hint: Are you free at the weekend?
+  topics: [social]
 - text: Wollen wir zusammen Mittagessen?
   hint: Shall we have lunch together?
+  topics: [social]
 - text: Entschuldigung, ich suche den Bahnhof.
   hint: Excuse me, I'm looking for the station.
+  topics: [travel]
 - text: Ich verstehe nur ein bisschen Deutsch.
   hint: I only understand a little German.
+  topics: [everyday]
 - text: Kann ich einen Termin bekommen?
   hint: Can I get an appointment?
+  topics: [office]
 - text: Bitte rufen Sie mich heute an.
   hint: Please call me today.
+  topics: [office]
 - text: Was kostet das pro Kilo?
   hint: How much is it per kilo?
+  topics: [shopping]
 - text: Die Größe passt mir nicht.
   hint: The size doesn't fit me.
+  topics: [shopping]
 - text: Ich nehme das mit.
   hint: I'll take it with me.
+  topics: [shopping]
 - text: Ich fühle mich sehr krank.
   hint: I feel very ill.
+  topics: [health]
 - text: Ich habe seit gestern Husten.
   hint: I've had a cough since yesterday.
+  topics: [health]
 - text: Mein Hals tut sehr weh.
   hint: My throat hurts a lot.
+  topics: [health]
 - text: Ich vertrage keine Milch.
   hint: I can't tolerate milk.
+  topics: [health]
 - text: Wann soll ich das Medikament nehmen?
   hint: When should I take the medicine?
+  topics: [health]
 - text: Ich bin stark erkältet.
   hint: I have a bad cold.
+  topics: [health]
 - text: Ich habe Ohrenschmerzen.
   hint: I have earache.
+  topics: [health]
 - text: Ich habe eine Frage zum Vertrag.
   hint: I have a question about the contract.
+  topics: [office]
 - text: Ich schicke Ihnen die Unterlagen.
   hint: I'll send you the documents.
+  topics: [office]
 - text: Der Termin passt mir gut.
   hint: The appointment suits me well.
+  topics: [office]
 - text: Ich bin heute nicht im Büro.
   hint: I'm not in the office today.
+  topics: [work]
 - text: Ich habe den Termin notiert.
   hint: I've noted the appointment.
+  topics: [office]
 - text: Ich brauche Ihre Unterschrift.
   hint: I need your signature.
+  topics: [office]
 - text: Wann ist die Besprechung?
   hint: When is the meeting?
+  topics: [work]
 - text: Fährt dieser Zug nach München?
   hint: Does this train go to Munich?
+  topics: [travel]
 - text: Der Zug fällt leider aus.
   hint: The train is unfortunately cancelled.
+  topics: [travel]
 - text: Wo ist die nächste Haltestelle?
   hint: Where is the nearest stop?
+  topics: [travel]
 - text: Die Lampe ist kaputt.
   hint: The lamp is broken.
+  topics: [housing]
 - text: Kannst du bitte den Müll rausbringen?
   hint: Can you please take out the rubbish?
+  topics: [housing]
 - text: Ich muss noch staubsaugen.
   hint: I still have to vacuum.
+  topics: [housing]
 - text: Das Fenster ist noch offen.
   hint: The window is still open.
+  topics: [housing]
 - text: Der Wasserhahn tropft.
   hint: The tap is dripping.
+  topics: [housing]
 - text: Ich habe meinen Schlüssel vergessen.
   hint: I forgot my key.
+  topics: [housing]
 - text: Mach bitte die Musik leiser.
   hint: Please turn the music down.
+  topics: [housing]
 - text: Ich muss die Wohnung putzen.
   hint: I have to clean the flat.
+  topics: [housing]
 - text: Die Nachbarn sind sehr laut.
   hint: The neighbours are very loud.
+  topics: [housing]
 - text: Ich freue mich sehr darauf.
   hint: I'm really looking forward to it.
+  topics: [social]
 - text: Das ärgert mich sehr.
   hint: That really annoys me.
+  topics: [social]
 - text: Ich mache mir Sorgen.
   hint: I'm worried.
+  topics: [social]
 - text: Ich bin sehr enttäuscht.
   hint: I'm very disappointed.
+  topics: [social]
 - text: Ich bin etwas nervös.
   hint: I'm a bit nervous.
+  topics: [social]
 - text: Ich habe keine Angst.
   hint: I'm not afraid.
+  topics: [social]
 - text: Das gefällt mir überhaupt nicht.
   hint: I don't like that at all.
+  topics: [social]
 - text: Ich bin damit nicht zufrieden.
   hint: I'm not satisfied with it.
+  topics: [social]
 - text: Ich bin sehr dankbar.
   hint: I'm very grateful.
+  topics: [social]
 - text: Es geht mir schon besser.
   hint: I'm feeling better already.
+  topics: [health]
 - text: Was machst du am Wochenende?
   hint: What are you doing at the weekend?
+  topics: [social]
 - text: Hast du heute Abend Zeit?
   hint: Do you have time this evening?
+  topics: [social]
 - text: Was möchtest du trinken?
   hint: What would you like to drink?
+  topics: [social]
 - text: Möchtest du mitkommen?
   hint: Would you like to come along?
+  topics: [social]
 - text: Kannst du mir den Zucker geben?
   hint: Can you pass me the sugar?
+  topics: [social]
 - text: Wie oft fährt der Bus?
   hint: How often does the bus run?
+  topics: [travel]
 - text: Ich möchte mich beschweren.
   hint: I want to make a complaint.
+  topics: [shopping]
