@@ -417,6 +417,20 @@ button.link {
   border: 2px solid var(--primary);
 }
 
+/* Someone from a phrase video sees the phrases on top (the order only; the buttons stay the same). */
+.phrases-first .choice-phrases {
+  order: -1;
+}
+
+.choices-title {
+  order: -2;
+}
+
+/* The title of the story from the video, as it is in the target language. */
+.choice-name {
+  font-weight: 700;
+}
+
 .choice:disabled {
   opacity: 0.6;
 }

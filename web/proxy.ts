@@ -1,5 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { showsEverything } from "@/lib/editions";
+// Per video code, what the video showed (docs/campagnes.md): a story video → that story, a phrase video → phrases.
+import VIDEO_GOALS from "@/lib/video-codes.json";
 
 // The edition for each base language, teaching German (the largest niche): where qissio.com itself leads, and where
 // old links from before editions (/nl/…, /ar/…) land.
@@ -64,6 +66,10 @@ function videoCode(request: NextRequest, code: string | undefined) {
   if (VIDEO_CODE.test(clean)) {
     url.searchParams.set("utm_source", "video");
     url.searchParams.set("utm_campaign", clean);
+    // What the video showed comes first on the welcome (Home): its own story, or the phrases.
+    const goal = (VIDEO_GOALS as Record<string, { story?: string; start?: string }>)[clean];
+    if (goal?.story) url.searchParams.set("story", goal.story);
+    if (goal?.start) url.searchParams.set("start", goal.start);
   }
   // Temporary, so a code can later point somewhere else without browsers holding on to the old answer.
   return NextResponse.redirect(url, 307);

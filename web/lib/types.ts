@@ -70,6 +70,7 @@ export interface Story {
 
 export interface StoryCard {
   id: string;
+  slug: string; // stable name (content/stories/<lang>/<slug>): what a video code points to
   title: string;
   summary: string | null;
   cefr_level: string;

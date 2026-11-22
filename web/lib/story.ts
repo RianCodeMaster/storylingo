@@ -22,7 +22,7 @@ interface CardRow extends Omit<StoryCard, "cover"> {
   cover_path: string | null;
 }
 
-interface Row extends Omit<StoryCard, "summary" | "cover" | "tags" | "free"> {
+interface Row extends Omit<StoryCard, "slug" | "summary" | "cover" | "tags" | "free"> {
   story_localizations: { summary: string | null }[];
   story_targets: {
     lexemes: One<{
@@ -47,7 +47,7 @@ interface Row extends Omit<StoryCard, "summary" | "cover" | "tags" | "free"> {
 export async function listStories(edition: Edition, tags: string[] = edition.stories.tags): Promise<StoryCard[]> {
   const { data, error } = await supabase()
     .from("story_cards")
-    .select("id, title, cefr_level, language_code, tags, free, product, summary, cover_id, cover_path")
+    .select("id, slug, title, cefr_level, language_code, tags, free, product, summary, cover_id, cover_path")
     .eq("base_language", edition.base)
     .eq("language_code", edition.target)
     .overlaps("tags", tags)

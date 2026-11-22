@@ -46,6 +46,22 @@ gemaakt); een onbekende of verkeerde code komt gewoon op `/almanya` zonder campa
 geregistreerd te worden: wat je in de video zet, is de code. Een code die met `b1-` begint, opent de track
 `b1-examen`: `qissio.com/v/b1-b04` gaat naar `/almanya/b1-examen?utm_source=video&utm_campaign=b1-b04`.
 
+**Wat de video liet zien, komt bovenaan.** In `web/lib/video-codes.json` staat per code wat de video toonde:
+
+    "a02": {"story": "buergeramt-nacht"}     een verhaalvideo: dat verhaal (de slug uit content/stories)
+    "quiz-dokter": {"start": "phrases"}      een zinnenvideo: de zinnen eerst
+
+De doorverwijzing zet dat in het adres (`&story=…` of `&start=phrases`) en de welkomstpagina toont dan:
+
+- bij een verhaalvideo het blok "Het verhaal uit de video" met de titel van dat verhaal, en het niveau van dat
+  verhaal alvast gekozen (kiest de bezoeker een ander niveau, dan krijgt hij het eerste verhaal van dat niveau);
+- bij een zinnenvideo het zinnenblok bovenaan;
+- bij een code die niet in de lijst staat (zoals de fout/goed-video's) de gewone blokken.
+
+Het bezoek wordt in alle gevallen gewoon geteld: de bezoeker komt altijd eerst op de welkomstpagina. Maak je een
+nieuwe verhaal- of zinnenvideo, zet dan een regel in `video-codes.json` erbij (en push); zonder regel werkt de code
+ook, alleen met de gewone blokken. Wie al eerder begonnen is, ziet geen welkomstpagina meer maar zijn startscherm.
+
 De klikbare link in je bio meet per platform: `qissio.com/almanya?utm_source=tiktok&utm_campaign=bio` en
 hetzelfde met `youtube`.
 

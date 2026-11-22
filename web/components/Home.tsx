@@ -101,9 +101,14 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [usage, setUsage] = useState<Usage | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  // What the video showed, from its code (proxy.ts, lib/video-codes.json): its own story, or the phrases first.
+  const [goal, setGoal] = useState<{ story: string | null; start: string | null }>({ story: null, start: null });
   const router = useRouter();
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
+    setGoal({ story: params.get("story"), start: params.get("start") });
     (async () => {
       const learner = await ensureLearner(lang);
       setUserId(learner);
@@ -174,10 +179,17 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
 
   if (!enrollment) {
     const track = trackOf(edition, trackSlug);
-    const start = track?.level && levels.includes(track.level as Level) ? track.level : levels[0];
+    // A story video's own story (when it is open to this learner): its level is the one offered first.
+    const fromVideo = stories.find((s) => s.slug === goal.story && !locked(s) && levels.includes(s.cefr_level as Level));
+    const trackLevel = track?.level && levels.includes(track.level as Level) ? track.level : null;
+    const start = fromVideo?.cefr_level ?? trackLevel ?? levels[0];
     const level = choice ?? start ?? "A1";
-    // Straight into a story at the chosen level (the track's own first); without one yet, to the start screen.
-    const first = preferring(stories, track?.prefer ?? []).find((s) => s.cefr_level === level && !locked(s));
+    // Straight into a story at the chosen level: the video's own while its level is chosen, else the track's own first.
+    const first =
+      fromVideo && fromVideo.cefr_level === level
+        ? fromVideo
+        : preferring(stories, track?.prefer ?? []).find((s) => s.cefr_level === level && !locked(s));
+    const phrasesFirst = goal.start === "phrases" && Object.keys(phrases).length > 0;
     return (
       <main className="welcome">
         {/* Whoever comes from a video should see at once that they are in the right place: the same name and icon
@@ -207,10 +219,12 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
             {/* Blocks instead of one button: each says what happens when you tap it and how long it takes, so nobody
                 lands in something they did not choose. The story comes first (the heart of the app); the phrases are
                 what the phrase videos promise; a track with its own course (the B1 exam) gets its own block. */}
-            <section className="choices" aria-label={dict.welcome.pick}>
+            {/* Whoever came from a video sees what it showed on top: a phrase video puts the phrases first, a story
+                video offers that very story (with its title). */}
+            <section className={phrasesFirst ? "choices phrases-first" : "choices"} aria-label={dict.welcome.pick}>
               <h2 className="choices-title">{dict.welcome.pick}</h2>
               <button
-                className="choice choice-main"
+                className={phrasesFirst ? "choice choice-story" : "choice choice-story choice-main"}
                 disabled={busy}
                 onClick={() => void begin(level, first ? `${home}/story/${first.id}` : null)}
               >
@@ -219,13 +233,22 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
                   <img src={first.cover} alt="" className="choice-img" />
                 )}
                 <span className="choice-body">
-                  <strong>📖 {dict.welcome.storyTitle}</strong>
+                  <strong>📖 {first && first === fromVideo ? dict.welcome.fromVideo : dict.welcome.storyTitle}</strong>
+                  {first && first === fromVideo && (
+                    <span className="choice-name">
+                      <bdi>{first.title}</bdi>
+                    </span>
+                  )}
                   <span className="choice-line">{dict.welcome.storyLine}</span>
                 </span>
                 <span className="arrow">→</span>
               </button>
               {Object.keys(phrases).length > 0 && (
-                <button className="choice" disabled={busy} onClick={() => void begin(level, `${home}/phrases`)}>
+                <button
+                  className={phrasesFirst ? "choice choice-phrases choice-main" : "choice choice-phrases"}
+                  disabled={busy}
+                  onClick={() => void begin(level, `${home}/phrases`)}
+                >
                   <span className="choice-body">
                     <strong>💬 {dict.welcome.phrasesTitle}</strong>
                     <span className="choice-line">{dict.welcome.phrasesLine}</span>
