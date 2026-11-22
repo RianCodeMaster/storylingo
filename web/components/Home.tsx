@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ProductTile } from "@/components/ProductTile";
 import { PlusChip, Upsell } from "@/components/Upsell";
@@ -99,6 +100,8 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [anonymous, setAnonymous] = useState(true);
   const [usage, setUsage] = useState<Usage | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     (async () => {
@@ -135,6 +138,20 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     },
   ]);
 
+  /**
+   * A welcome block: enrol at the chosen level first and only then open the page, so the page already knows the
+   * level (the phrases read it on arrival). Without a page (no story yet), the start screen follows from enrolling.
+   */
+  async function begin(level: string, href: string | null) {
+    setBusy(true);
+    try {
+      await choose(level);
+      if (href) router.push(href);
+    } finally {
+      setBusy(false);
+    }
+  }
+
   /** The first choice of a level also keeps where the learner came in; later changes only move the level. */
   async function choose(level: string) {
     if (!userId) return null;
@@ -170,10 +187,6 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
           <img src="/icon.svg" alt="" className="brand-icon" />
           Qissio · {edition.name}
         </p>
-        {first?.cover && (
-          // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
-          <img src={first.cover} alt="" className="welcome-cover" />
-        )}
         <h1 className="tagline">{track?.tagline ?? edition.tagline}</h1>
         {/* No list of method pillars here: the intro says it in one line, and the button must fit on the first screen
             of a phone (the method stays under "why it works" below the button). */}
@@ -191,15 +204,48 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
                 <p className="muted small">{dict.level.onlyYours}</p>
               </fieldset>
             )}
-            {first ? (
-              <Link className="cta" href={`${home}/story/${first.id}`} onClick={() => void choose(level)}>
-                {dict.welcome.start} <span className="arrow">→</span>
-              </Link>
-            ) : (
-              <button className="cta" onClick={() => void choose(level)}>
-                {dict.welcome.start} <span className="arrow">→</span>
+            {/* Blocks instead of one button: each says what happens when you tap it and how long it takes, so nobody
+                lands in something they did not choose. The story comes first (the heart of the app); the phrases are
+                what the phrase videos promise; a track with its own course (the B1 exam) gets its own block. */}
+            <section className="choices" aria-label={dict.welcome.pick}>
+              <h2 className="choices-title">{dict.welcome.pick}</h2>
+              <button
+                className="choice choice-main"
+                disabled={busy}
+                onClick={() => void begin(level, first ? `${home}/story/${first.id}` : null)}
+              >
+                {first?.cover && (
+                  // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage
+                  <img src={first.cover} alt="" className="choice-img" />
+                )}
+                <span className="choice-body">
+                  <strong>📖 {dict.welcome.storyTitle}</strong>
+                  <span className="choice-line">{dict.welcome.storyLine}</span>
+                </span>
+                <span className="arrow">→</span>
               </button>
-            )}
+              {Object.keys(phrases).length > 0 && (
+                <button className="choice" disabled={busy} onClick={() => void begin(level, `${home}/phrases`)}>
+                  <span className="choice-body">
+                    <strong>💬 {dict.welcome.phrasesTitle}</strong>
+                    <span className="choice-line">{dict.welcome.phrasesLine}</span>
+                  </span>
+                  <span className="arrow">→</span>
+                </button>
+              )}
+              {!track &&
+                edition.tracks
+                  .filter((t) => trackProducts(edition, t.slug, owned).length > 0)
+                  .map((t) => (
+                    <Link key={t.slug} className="choice" href={`${home}/${t.slug}`}>
+                      <span className="choice-body">
+                        <strong>🎓 {t.tagline}</strong>
+                        <span className="choice-line">{t.title}</span>
+                      </span>
+                      <span className="arrow">→</span>
+                    </Link>
+                  ))}
+            </section>
             <p className="muted small">{dict.welcome.free}</p>
           </>
         ) : (

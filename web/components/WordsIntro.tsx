@@ -81,7 +81,8 @@ export default function WordsIntro({
       <>
         <h1 dir="ltr">{title}</h1>
         <span className="badge">{fill(dict.words.progress, { n: step.i + 1, total: words.length })}</span>
-        <p className="muted">{dict.words.hint}</p>
+        {/* Says that the story follows: someone who pressed "start a story" should not think this is all there is. */}
+        <p className="muted">{fill(dict.words.hint, { total: words.length })}</p>
         <div className="card word-card">
           {word.image_url && (
             // eslint-disable-next-line @next/next/no-img-element -- generated files come from Supabase Storage

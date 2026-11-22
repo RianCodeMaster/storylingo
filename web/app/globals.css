@@ -383,12 +383,68 @@ button.link {
   border-radius: 7px;
 }
 
-/* A picture from the first story: the same drawings as in the videos. Low, so the button stays on the first screen. */
-.welcome-cover {
+/* The welcome's choice blocks: each one says what you will do and how long it takes. The story block is the main one
+   (edition color, a picture from the story: the same drawings as in the videos); the others are quieter. */
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choices-title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   width: 100%;
-  height: 130px;
-  object-fit: cover;
+  padding: 12px 14px;
   border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  text-align: start;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.choice-main {
+  border: 2px solid var(--primary);
+}
+
+.choice:disabled {
+  opacity: 0.6;
+}
+
+.choice-img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.choice-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.choice-line {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  opacity: 0.8;
+}
+
+.choice .arrow {
+  color: var(--primary);
+  font-weight: 800;
 }
 
 .tagline {

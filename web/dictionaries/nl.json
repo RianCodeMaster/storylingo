@@ -26,6 +26,11 @@
     "free": "Gratis, zonder account",
     "soon": "De eerste verhalen komen eraan.",
     "choose": "Of kies zelf een verhaal",
+    "pick": "Waarmee wil je beginnen?",
+    "storyTitle": "Een kort, grappig verhaal",
+    "storyLine": "Luisteren en hardop antwoorden, zo'n 5 minuten. Vooraf een paar woorden uit het verhaal, met plaatjes (1 minuut).",
+    "phrasesTitle": "Handige zinnen voor elke dag",
+    "phrasesLine": "De meest gebruikte zinnen uit het dagelijks leven, met stem en betekenis. 10 per keer.",
     "pillars": {
       "words": "Zes woorden met plaatje",
       "speak": "Vragen hardop beantwoorden",
@@ -129,7 +134,7 @@
   },
   "words": {
     "progress": "Woord {n} van {total}",
-    "hint": "Kijk, luister en zeg elk woord hardop na. Deze woorden kom je zo tegen in het verhaal.",
+    "hint": "Eerst {total} woorden uit het verhaal, één minuut, dan begint het verhaal. Kijk, luister en zeg elk woord hardop na.",
     "next": "Volgende →",
     "toGame": "Luisterspel →",
     "game": "Welk plaatje hoor je?",

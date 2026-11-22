@@ -26,6 +26,11 @@
     "free": "Free, no account needed",
     "soon": "The first stories are on their way.",
     "choose": "Or pick a story yourself",
+    "pick": "What do you want to start with?",
+    "storyTitle": "A short, funny story",
+    "storyLine": "Listen and answer out loud, about 5 minutes. First a few words from the story, with pictures (1 minute).",
+    "phrasesTitle": "Useful phrases for every day",
+    "phrasesLine": "The most-used phrases of daily life, with voice and meaning. 10 at a time.",
     "pillars": {
       "words": "Six words with pictures",
       "speak": "Answer questions out loud",
@@ -129,7 +134,7 @@
   },
   "words": {
     "progress": "Word {n} of {total}",
-    "hint": "Look, listen and say each word out loud. You'll meet these words in the story.",
+    "hint": "First {total} words from the story, one minute, then the story begins. Look, listen and say each word out loud.",
     "next": "Next →",
     "toGame": "Listening game →",
     "game": "Which picture do you hear?",
