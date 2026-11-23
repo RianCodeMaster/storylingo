@@ -23,6 +23,8 @@ import httpx
 import lameenc
 import yaml
 
+from speakable import speakable
+
 STORAGE_URL = os.environ.get("SUPABASE_URL", "http://127.0.0.1:54321")
 BUCKET = "assets"
 
@@ -132,6 +134,7 @@ class Gemini:
                 ),
             )
 
+        text = speakable(text, language)
         try:
             response = call(text, direction)
         except Exception as e:
@@ -190,7 +193,8 @@ class Piper(Localgen):
         lines = lines or [{"text": text, "emotion": voice[kind] if kind in ("question", "word") else "neutral"}]
         styles = voice["styles"]
         styled = [
-            {"text": line["text"], "style": {**voice.get("settings", {}), **styles.get(line["emotion"], styles["neutral"])}}
+            {"text": speakable(line["text"], voice["language"]),
+             "style": {**voice.get("settings", {}), **styles.get(line["emotion"], styles["neutral"])}}
             for line in lines
         ]
         response = self._post("speech", {"lines": styled, "pause": voice.get("pause", 0.4)})
@@ -225,17 +229,23 @@ class ElevenLabs:
         if not self.key:
             raise SystemExit("ELEVENLABS_API_KEY missing: put it in pipeline/.env (see .env.example).")
 
-    def say(self, text: str, style: dict, before: str = "", after: str = "") -> bytes:
-        """One sentence as raw 16-bit mono PCM."""
+    def say(self, text: str, style: dict, language: str, before: str = "", after: str = "") -> bytes:
+        """
+        One sentence as raw 16-bit mono PCM. The language is always sent (`language_code`): without it the voice
+        guesses, and a single word like "die Haltestelle" or a number gets an English accent. Numbers are written
+        out in the language first (speakable.py), so "1000" is never read as "one thousand".
+        """
         model = style.get("model", "eleven_multilingual_v2")
+        said = speakable(text, language)
         body = {
-            "text": f"{style['tag']} {text}" if style.get("tag") else text,
+            "text": f"{style['tag']} {said}" if style.get("tag") else said,
             "model_id": model,
+            "language_code": language,
             "voice_settings": {k: style[k] for k in self.SETTINGS if k in style},
         }
         # The sentences around it keep the intonation flowing as one story (v3 does not take them).
         if model != "eleven_v3":
-            body.update({k: v for k, v in (("previous_text", before), ("next_text", after)) if v})
+            body.update({k: speakable(v, language) for k, v in (("previous_text", before), ("next_text", after)) if v})
 
         def call() -> bytes:
             r = httpx.post(f"{self.URL}/{style['voice_id']}", params={"output_format": f"pcm_{self.RATE}"},
@@ -262,7 +272,7 @@ class ElevenLabs:
             if pcm:
                 pcm += silence
             start = len(pcm) / 2 / self.RATE
-            pcm += self.say(line["text"], style, before, after)
+            pcm += self.say(line["text"], style, voice["language"], before, after)
             marks.append({"text": line["text"], "start": round(start, 3), "end": round(len(pcm) / 2 / self.RATE, 3)})
         return Media(mp3(_wav(pcm, self.RATE)), "audio/mpeg", "elevenlabs", "+".join(sorted(models)),
                      marks)
@@ -283,15 +293,19 @@ class Fake:
 
 
 def retry(make, attempts: int = 6, wait: float = 20.0):
-    """Free tiers allow only a few calls per minute: on a rate limit (429), wait and try again."""
+    """
+    Free tiers allow only a few calls per minute: on a rate limit (429), wait and try again. A dropped connection
+    (the network or the provider hanging up halfway) is tried again too, instead of stopping the whole story.
+    """
     for attempt in range(1, attempts + 1):
         try:
             return make()
         except Exception as e:
+            dropped = isinstance(e, httpx.TransportError)
             # A daily limit does not reset by waiting a minute: stop straight away.
-            if "429" not in str(e) or "per day" in str(e) or attempt == attempts:
+            if (("429" not in str(e) or "per day" in str(e)) and not dropped) or attempt == attempts:
                 raise
-            print(f"    rate limited, waiting {wait:.0f}s ({attempt}/{attempts - 1})")
+            print(f"    {'connection dropped' if dropped else 'rate limited'}, waiting {wait:.0f}s ({attempt}/{attempts - 1})")
             time.sleep(wait)
             wait *= 1.5
 

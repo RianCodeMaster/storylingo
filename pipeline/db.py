@@ -90,6 +90,25 @@ def sync_phrases(language: str, sets: dict, meanings: dict[str, dict[str, str]],
     return changes
 
 
+def redo_core_word_audio(language: str | None = None) -> int:
+    """
+    Mark the recordings of the stories' core words (the word cards before a story) as out of date, so the next
+    `media <story> elevenlabs audio` speaks them again. For a fix in how words are spoken (the language sent along,
+    2026-11): only these, not every tappable word or phrase. Returns how many were marked.
+    """
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            """update assets a set fingerprint = 'redo'
+               from lexemes l
+               where a.id = l.audio_asset_id
+                 and exists (select 1 from story_words w where w.lexeme_id = l.id)
+                 and (%s::text is null or l.language_code = %s)
+                 and a.fingerprint is distinct from 'redo'""",
+            (language, language),
+        )
+        return cur.rowcount
+
+
 def phrase_plan(language: str) -> list[tuple[str, str, str | None]]:
     """Every phrase of a language: (lexeme id, text, fingerprint of its audio or None)."""
     with connect() as conn, conn.cursor() as cur:

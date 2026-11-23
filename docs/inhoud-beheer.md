@@ -170,6 +170,12 @@ Deze komen ook in `CLAUDE.md`, zodat elke Claude-sessie (en elk ander LLM dat de
 - **Nieuwe editie:** een bestaande kopiëren en aanpassen → `sync` → `check`.
 - **Stem wisselen (bijv. ElevenLabs):** `voice:` in het taalbestand aanpassen → `media` → alles van die taal wordt
   opnieuw ingesproken, omdat de stem in de vingerafdruk zit.
+- **Uitspraak in de juiste taal (sinds 2026-11):** elke opname krijgt de taal mee (`language_code` bij ElevenLabs),
+  anders raadt de stem en krijgt een los woord of getal een Engels accent. Getallen worden vóór het inspreken als
+  woorden geschreven in de taal zelf (`pipeline/speakable.py`: "1000" → "mil", "tausend", "duizend"); op het
+  scherm blijven de cijfers staan. Een scène of vraag met een getal heeft daardoor een eigen vingerafdruk en wordt
+  één keer opnieuw ingesproken; de rest niet. `redo-core-words [taal]` markeert alleen de kernwoorden opnieuw (na
+  zo'n uitspraakfix), daarna `media <verhaal> elevenlabs audio`.
 
 ## Overstap
 

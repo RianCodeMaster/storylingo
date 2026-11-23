@@ -28,6 +28,8 @@
                                                                pay, paid (docs/campagnes.md)
     python storylingo.py phrases <language> <level>            DeepSeek drafts the level's phrases (up to 200) in content/phrases/
     python storylingo.py localize-phrases <language> <base>    their meanings for one base language
+    python storylingo.py redo-core-words [language]            mark the core words' recordings out of date (after a
+                                                               fix in how words are spoken); then media … audio
     python storylingo.py phrase-topics <language>               DeepSeek gives every phrase without one a topic
                                                                (health, work, office, … : phrases.TOPICS)
     python storylingo.py media-phrases <language>              their recordings (missing or out of date)
@@ -272,7 +274,9 @@ def make_feedback(language: str) -> None:
 def main(argv: list[str]) -> None:
     command = argv[0] if argv else None
     arg = argv[1] if len(argv) > 1 else None
-    if command not in ("list", "sync", "check", "media-export", "media-import", "funnel", "purchases", "learners", "stripe") and not arg:
+    no_arg = ("list", "sync", "check", "media-export", "media-import", "funnel", "purchases", "learners", "stripe",
+              "redo-core-words")
+    if command not in no_arg and not arg:
         raise SystemExit(__doc__)
 
     if command == "sync":
@@ -354,6 +358,9 @@ def main(argv: list[str]) -> None:
         if len(argv) < 3:
             raise SystemExit(__doc__)
         phrases.localize(arg, argv[2])
+    elif command == "redo-core-words":
+        n = db.redo_core_word_audio(arg)
+        print(f"{n} core-word recordings marked out of date; make them again: media <story> elevenlabs audio")
     elif command == "phrase-topics":
         if not arg:
             raise SystemExit(__doc__)
