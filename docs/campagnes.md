@@ -70,8 +70,12 @@ De doorverwijzing zet het in het adres (`&story=…`, `&start=phrases`, `&topic=
 Het bezoek wordt in alle gevallen gewoon geteld: de bezoeker komt altijd eerst op de welkomstpagina. Wie al eerder
 begonnen is, ziet geen welkomstpagina meer maar zijn startscherm.
 
-De klikbare link in je bio meet per platform: `qissio.com/almanya?utm_source=tiktok&utm_campaign=bio` en
-hetzelfde met `youtube`.
+**Dezelfde video op een ander platform:** zet er `-tt`, `-yt`, `-fb` of `-ig` achter (`qissio.com/v/a01-fb`).
+Die gebruikt de regel van `a01`, maar telt als eigen campagne, zodat je per video per platform ziet waar bezoekers
+vandaan komen. Op Facebook is de link in het bijschrift klikbaar; op Instagram niet (daar klikt men via de bio).
+
+**De link in je bio** is ook een code met een eigen regel: `qissio.com/v/tiktok`, `/v/instagram`, `/v/facebook`,
+`/v/youtube` (campagne = het platform).
 
 ### Welke editie zonder editie in het adres
 

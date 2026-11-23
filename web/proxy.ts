@@ -94,6 +94,9 @@ export function proxy(request: NextRequest) {
 // Short video codes (docs/campagnes.md): links in TikTok captions and Shorts descriptions cannot be clicked, so a
 // video shows a short address that viewers type over, and that address carries the video as its campaign.
 const VIDEO_CODE = /^[a-z0-9-]{1,30}$/;
+// The same video on another platform: "a01-fb" is video a01 (its line in video-codes.json) but its own campaign,
+// so the funnel shows per video per platform where visitors came from.
+const PLATFORM_SUFFIX = /-(tt|yt|fb|ig)$/;
 
 /** One line of lib/video-codes.json: which edition (and track) the video is for, and what it showed. */
 interface VideoGoal {
@@ -115,7 +118,8 @@ function videoCode(request: NextRequest, code: string | undefined) {
   url.search = "";
   const clean = (code ?? "").trim().toLowerCase();
   const valid = VIDEO_CODE.test(clean);
-  const goal: Partial<VideoGoal> = (valid && (VIDEO_GOALS as Record<string, VideoGoal>)[clean]) || {};
+  const goals = VIDEO_GOALS as Record<string, VideoGoal>;
+  const goal: Partial<VideoGoal> = (valid && (goals[clean] ?? goals[clean.replace(PLATFORM_SUFFIX, "")])) || {};
   const edition = open(goal.edition) ? goal.edition : guessEdition(request);
   url.pathname = goal.track && goal.edition === edition ? `/${edition}/${goal.track}` : `/${edition}`;
   if (valid) {
