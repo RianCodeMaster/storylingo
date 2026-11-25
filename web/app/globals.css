@@ -1245,3 +1245,47 @@ button.secondary:hover { border-color: var(--primary); }
 .legal h2 { font-size: 1.1rem; margin-top: 12px; }
 .legal ul { padding-inline-start: 20px; display: flex; flex-direction: column; gap: 4px; }
 .legal a, .muted.small a { text-decoration: underline; }
+
+/* The landing page at / (components/Landing.tsx): the two language choices and one big button first, then why it
+   works, the plans and the questions. */
+.landing { gap: 28px; padding-bottom: 64px; }
+.landing h2 { font-size: 1.25rem; font-weight: 800; }
+.landing .center { text-align: center; }
+.landing-hero { gap: 16px; padding: 24px 20px; border-color: var(--primary); }
+.landing-hero h1 { font-size: 1.9rem; line-height: 1.2; }
+.pair { display: flex; align-items: flex-end; gap: 10px; }
+.pair label { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.pair select {
+  width: 100%;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text);
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+}
+.pair select:focus { outline: none; border-color: var(--primary); }
+.pair-arrow { padding-bottom: 14px; color: var(--muted); font-size: 1.2rem; }
+.cta-big { font-size: 1.25rem; padding: 18px; box-shadow: 0 8px 24px color-mix(in srgb, var(--primary) 35%, transparent); }
+.landing-pillars { list-style: none; display: flex; flex-direction: column; gap: 10px; font-weight: 600; }
+.landing-pillars li { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.landing-section { display: flex; flex-direction: column; gap: 12px; }
+.steps { padding-inline-start: 22px; display: flex; flex-direction: column; gap: 8px; line-height: 1.5; }
+.principles { display: flex; flex-direction: column; gap: 10px; }
+.principles dt { font-weight: 700; }
+.principles dd { color: var(--muted); line-height: 1.5; }
+.principles .term { font-size: 0.8rem; opacity: 0.75; }
+.plans { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 520px) { .plans { grid-template-columns: 1fr; } }
+.plan h3 { font-size: 1.1rem; }
+.plan ul { padding-inline-start: 18px; display: flex; flex-direction: column; gap: 4px; line-height: 1.45; }
+.plan-price { font-size: 1.5rem; font-weight: 800; }
+.plan-plus { border-color: var(--accent); }
+.plan-link { color: var(--accent); font-weight: 700; }
+.faq { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.faq summary { cursor: pointer; font-weight: 700; }
+.faq p { margin-top: 8px; color: var(--muted); line-height: 1.5; }
+.landing-editions { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border); padding-top: 16px; }
+.landing-editions a:hover strong { color: var(--primary); }

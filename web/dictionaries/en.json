@@ -304,7 +304,9 @@
     "levelLink": "All stories at {level}",
     "moreAtLevel": "More stories at {level}",
     "start": "Start free in the app",
-    "levels": "Stories by level"
+    "levels": "Stories by level",
+    "homeTitle": "Learn {lang} with short stories – free | Qissio",
+    "homeDescription": "Learn {lang} with short, funny stories with audio and pictures. Listen, answer out loud and remember the words. 5 minutes a day, from A1 to B1. Start free."
   },
   "pay": {
     "buy": "Continue to payment",
@@ -336,5 +338,57 @@
     "begin": "Start →",
     "storyShort": "Listen and answer out loud, 5 minutes.",
     "phrasesShort": "With voice and meaning, 10 at a time."
+  },
+  "landing": {
+    "metaTitle": "Qissio – learn a language with short, funny stories",
+    "metaDescription": "Learn German, Spanish or Dutch with short, funny stories with audio and pictures. You listen, answer out loud and remember the words. 5 minutes a day, free to start.",
+    "h1": "Learn a language with short, funny stories",
+    "sub": "Listen, answer out loud and remember. 5 minutes a day, from your very first word to B1.",
+    "speak": "I speak",
+    "learn": "I want to learn",
+    "start": "Start learning",
+    "free": "Free, no account needed",
+    "plans": "See the plans",
+    "howTitle": "How it works",
+    "steps": [
+      "Choose your languages and your level.",
+      "Listen to a short story with pictures and answer the questions out loud.",
+      "Review the words at the right moment, so they stay."
+    ],
+    "plansTitle": "Free to start",
+    "freeTitle": "Free",
+    "freePerks": [
+      "{stories} stories per level",
+      "{phrases} useful phrases per level",
+      "Review {reviews} words a day"
+    ],
+    "plusLine": "Everything, without limits",
+    "perMonth": "/ month",
+    "perYear": "or {price} a year",
+    "faqTitle": "Questions",
+    "faq": [
+      {
+        "q": "Is Qissio free?",
+        "a": "Yes. You start without an account and without paying. Every level has free stories and phrases; with Plus you get everything without limits."
+      },
+      {
+        "q": "Which level do I need?",
+        "a": "None. You can start at A1 knowing nothing at all. Already know some? Choose A2 or B1."
+      },
+      {
+        "q": "How long does it take a day?",
+        "a": "About 5 minutes: one story or ten phrases. A little every day works better than a lot once a week."
+      },
+      {
+        "q": "Why stories?",
+        "a": "You remember a story far better than a list. Every story is a bit crazy and keeps repeating the same few words, so they stick by themselves."
+      },
+      {
+        "q": "Does it work on my phone?",
+        "a": "Yes, in the browser of your phone or computer. You can add it to your home screen, like an app."
+      }
+    ],
+    "editionsTitle": "All languages",
+    "other": "Learn another language"
   }
 }

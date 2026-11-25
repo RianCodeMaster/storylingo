@@ -3,36 +3,7 @@ import { EDITIONS, isEdition, showsEverything } from "@/lib/editions";
 // Per video code, what the video showed (docs/campagnes.md): a story video → that story, a phrase video → phrases.
 import VIDEO_GOALS from "@/lib/video-codes.json";
 
-// The edition for each base language, teaching German (the largest niche): where qissio.com itself leads, and where
-// old links from before editions (/nl/…, /ar/…) land.
-const EDITION_FOR: Record<string, string> = { nl: "duits", en: "german", ar: "almanya" };
-const FALLBACK = "german";
-
-/** The visitor's languages from the browser, most wanted first ("ar-SA,ar;q=0.9,en;q=0.8" → ar, ar, en). */
-function languages(header: string | null): string[] {
-  return (header ?? "")
-    .split(",")
-    .map((part) => {
-      const [tag, q] = part.trim().split(";q=");
-      return { lang: tag.slice(0, 2).toLowerCase(), q: q ? Number(q) : 1 };
-    })
-    .filter((l) => l.lang && !Number.isNaN(l.q))
-    .sort((a, b) => b.q - a.q)
-    .map((l) => l.lang);
-}
-
-// The base language of a country where browsers often say English while people read another language at home (a
-// Dutch laptop with English Windows). Only used when the browser's own choice is English (or has no edition): data,
-// one line per country, for every edition alike. The country comes from Vercel and is not stored.
-const COUNTRY_BASE: Record<string, string> = {
-  NL: "nl", BE: "nl", SR: "nl",
-  MA: "ar", DZ: "ar", TN: "ar", LY: "ar", EG: "ar", SD: "ar", SY: "ar", LB: "ar", JO: "ar", PS: "ar", IQ: "ar",
-  SA: "ar", AE: "ar", QA: "ar", KW: "ar", BH: "ar", OM: "ar", YE: "ar", MR: "ar",
-};
-
-// The visitor's last edition, kept in their browser for a year, so qissio.com brings them back to it (and to their
-// progress there) whatever their browser's language. A preference, not tracking: it holds only the edition's name.
-const EDITION_COOKIE = "qissio_edition";
+import { EDITION_COOKIE, EDITION_FOR, guessBase } from "@/lib/visitor";
 
 /** An edition a visitor may be sent to: one that exists and is not a draft (drafts only while developing). */
 const open = (slug: string | undefined): slug is string =>
@@ -48,10 +19,7 @@ const open = (slug: string | undefined): slug is string =>
 function guessEdition(request: NextRequest): string {
   const last = request.cookies.get(EDITION_COOKIE)?.value;
   if (open(last)) return last;
-  const country = COUNTRY_BASE[request.headers.get("x-vercel-ip-country")?.toUpperCase() ?? ""];
-  const lang = languages(request.headers.get("accept-language")).find((l) => EDITION_FOR[l]);
-  const base = (!lang || lang === "en") && country && EDITION_FOR[country] ? country : lang;
-  return base ? EDITION_FOR[base] : FALLBACK;
+  return EDITION_FOR[guessBase(request.headers.get("accept-language"), request.headers.get("x-vercel-ip-country"))];
 }
 
 /** A guess depends on the language, the country and the cookie: caches must never share it between visitors. */
@@ -63,8 +31,9 @@ function guessed(url: URL): NextResponse {
 }
 
 /**
- * - qissio.com itself: on to the edition guessed by guessEdition(), keeping campaign parameters. While developing /
- *   is the overview of editions.
+ * - qissio.com itself: someone who used an edition before goes straight back to it (keeping campaign parameters);
+ *   everyone else gets the landing page (app/(hub)/page.tsx), where they choose the language they speak and the one
+ *   they want to learn. Its language depends on the browser, so no cache may share it between visitors.
  * - /nl/story/123 (old links) becomes /duits/story/123.
  * - /v/<code>: a short address shown in a video, see videoCode().
  * - any page of an edition: that edition is remembered as the visitor's last (EDITION_COOKIE).
@@ -73,9 +42,15 @@ export function proxy(request: NextRequest) {
   const [, first, ...rest] = request.nextUrl.pathname.split("/");
   if (first === "v") return videoCode(request, rest[0]);
   if (!first) {
-    if (showsEverything()) return;
-    request.nextUrl.pathname = `/${guessEdition(request)}`;
-    return guessed(request.nextUrl);
+    const last = request.cookies.get(EDITION_COOKIE)?.value;
+    if (open(last) && !request.nextUrl.searchParams.has("choose")) {
+      request.nextUrl.pathname = `/${last}`;
+      return guessed(request.nextUrl);
+    }
+    const response = NextResponse.next();
+    response.headers.set("Vary", "Accept-Language, Cookie");
+    response.headers.set("Cache-Control", "private, no-store");
+    return response;
   }
   if (open(first)) {
     if (request.cookies.get(EDITION_COOKIE)?.value === first) return;

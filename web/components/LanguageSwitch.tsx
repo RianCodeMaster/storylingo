@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { siblingsOf } from "@/lib/editions";
 import { useI18n } from "@/lib/i18n";
@@ -9,7 +10,8 @@ import { LANGUAGES } from "@/lib/locales";
  * The language of the app, top right: 🌐 and the current language in its own script. It opens the other base
  * languages that teach the same language (the same edition family: almanya, duits, german), each in its own script
  * with its code as a small badge, so anyone finds theirs whatever the page is in. Only editions that exist are
- * offered. Choosing one opens that edition (which the browser then remembers: proxy.ts, qissio_edition).
+ * offered. Choosing one opens that edition (which the browser then remembers: proxy.ts, qissio_edition). Last in the
+ * menu: learning another language altogether, on the landing page at /.
  *
  * keepQuery: the welcome carries the address's campaign and video goal along, so the visit still counts for its
  * video. warn: on the start screen, a learner's progress belongs to the edition, so they are told first.
@@ -26,7 +28,6 @@ export function LanguageSwitch({
   const { dict, edition } = useI18n();
   const [open, setOpen] = useState(false);
   const family = siblingsOf(edition);
-  if (family.length < 2) return null;
 
   function go(slug: string) {
     if (slug === edition.slug) return setOpen(false);
@@ -69,6 +70,11 @@ export function LanguageSwitch({
                 {e.slug === edition.slug && <span className="lang-check">✓</span>}
               </button>
             ))}
+            {/* Another language to learn: the landing page's two choices (?choose skips the way back to here). */}
+            <Link className="lang-item lang-other" href="/?choose=1">
+              <span className="lang-badge">🌍</span>
+              <span className="lang-name">{dict.landing.other}</span>
+            </Link>
           </div>
         </>
       )}

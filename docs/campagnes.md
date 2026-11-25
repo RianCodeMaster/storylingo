@@ -79,21 +79,41 @@ vandaan komen. Op Facebook is de link in het bijschrift klikbaar; op Instagram n
 
 ### Welke editie zonder editie in het adres
 
-Een adres met een editie (`/almanya`, een videocode met een regel) gaat altijd daarheen. Alleen `qissio.com` zelf
-en een videocode zonder regel moeten raden (`web/proxy.ts`, guessEdition), voor elke editie op dezelfde manier:
+Een adres met een editie (`/almanya`, een videocode met een regel) gaat altijd daarheen.
 
-1. **De laatste editie in deze browser.** Wie een editie opent, krijgt het cookie `qissio_edition` (alleen de naam
-   van de editie, een jaar geldig: een voorkeur, geen tracking). Wie terugkomt, komt bij zijn eigen voortgang.
+**`qissio.com` zelf** (`web/proxy.ts`):
+
+1. **Wie al eens een editie opende**, gaat direct terug naar die editie en zijn voortgang. Wie een editie opent,
+   krijgt het cookie `qissio_edition` (alleen de naam van de editie, een jaar geldig: een voorkeur, geen tracking).
+2. **Iedereen anders** krijgt de landingspagina (`app/(hub)/page.tsx`, `components/Landing.tsx`). Bovenaan, als
+   eerste en grootste: "Ik spreek … / Ik wil leren …" en de knop "Begin met leren", die naar de welkomst van die
+   editie gaat (`/<editie>?step=level`, met de campagne-parameters erbij). Daaronder, voor bezoekers én Google: hoe
+   het werkt, waarom het werkt, gratis tegenover Plus met prijs, vragen (ook als FAQ-gegevens voor Google), en
+   links naar alle edities. Geen pop-up: Google telt tekst onder een pop-up nauwelijks mee.
+3. `/?choose=1` toont de landingspagina ook aan wie al een editie heeft: daar leidt "Een andere taal leren" in het
+   🌐-menu heen.
+
+De pagina opent in de taal van de browser (`lib/visitor.ts`, guessBase), en wisselt mee als de bezoeker bij "Ik
+spreek" iets anders kiest. Alle teksten staan in `web/dictionaries/<taal>.json` onder `landing`; een nieuwe editie
+of basistaal verschijnt vanzelf. Alleen tijdens het ontwikkelen staat het overzicht van alle edities op `/editions`.
+
+**Een videocode zonder regel** moet raden (guessEdition), voor elke editie op dezelfde manier:
+
+1. **De laatste editie in deze browser** (het cookie).
 2. **De taal van de browser**, maar Engels telt zwak: in een land met een eigen basistaal (Nederland, België,
-   Marokko, Syrië …, de lijst COUNTRY_BASE) wint het land, want daar hebben veel mensen Engelse Windows of een
-   Engelse telefoon. Het land geeft Vercel mee; het wordt niet opgeslagen.
+   Marokko, Syrië …, de lijst COUNTRY_BASE in `lib/visitor.ts`) wint het land, want daar hebben veel mensen Engelse
+   Windows of een Engelse telefoon. Het land geeft Vercel mee; het wordt niet opgeslagen.
 3. Anders de Engelse editie.
+
+**Voor Google** heeft elke editiepagina een titel met wat mensen intypen ("تعلّم اللغة الألمانية بالقصص مجانًا",
+"Duits leren met korte verhalen – gratis": `seo.homeTitle` in de woordenboeken), hreflang-links naar dezelfde
+doeltaal in de andere basistalen plus `x-default` naar de landingspagina, en gestructureerde gegevens (Course).
 
 Een verkeerde gok is altijd recht te zetten (`components/LanguageSwitch.tsx`): rechtsboven staat 🌐 met de taal van
 de app; het menu toont dezelfde doeltaal in de andere basistalen, elk in hun eigen schrift met de taalcode als
 icoontje. Alleen edities die er zijn. Op het startscherm (🌐 NL) vraagt de app eerst of je wilt wisselen, want je
-voortgang hoort bij de editie. Wie inlogt op een ander apparaat, gaat naar de editie waar hij het laatst mee bezig
-was (`lastEdition`, lib/enrollment.ts).
+voortgang hoort bij de editie. Onderaan het menu staat "Een andere taal leren" (naar de landingspagina). Wie inlogt
+op een ander apparaat, gaat naar de editie waar die het laatst mee bezig was (`lastEdition`, lib/enrollment.ts).
 
 **De wizard bij het eerste bezoek** (Home.tsx): één vraag per scherm, een tik op een kaart selecteert (er springt
 niets weg), en onderaan altijd dezelfde balk met "Terug" en "Verder" (op het laatste scherm "Beginnen"); een balk met

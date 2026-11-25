@@ -9,7 +9,8 @@ import { siteUrl } from "@/lib/site";
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const site = siteUrl();
-  const pages: MetadataRoute.Sitemap = [];
+  // The landing page first: where everyone starts who has not chosen their languages yet.
+  const pages: MetadataRoute.Sitemap = [{ url: `${site}/`, changeFrequency: "weekly", priority: 1 }];
   for (const edition of publicEditions()) {
     const at = (path: string) => `${site}/${edition.slug}${path}`;
     pages.push({ url: at(""), changeFrequency: "weekly", priority: 1 });

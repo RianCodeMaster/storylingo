@@ -304,7 +304,9 @@
     "levelLink": "Alle verhalen op {level}",
     "moreAtLevel": "Meer verhalen op {level}",
     "start": "Begin gratis in de app",
-    "levels": "Verhalen per niveau"
+    "levels": "Verhalen per niveau",
+    "homeTitle": "{lang} leren met korte verhalen – gratis | Qissio",
+    "homeDescription": "Leer {lang} met korte, grappige verhalen met geluid en plaatjes. Luister, antwoord hardop en onthoud de woorden. 5 minuten per dag, van A1 tot B1. Gratis beginnen."
   },
   "pay": {
     "buy": "Verder naar betalen",
@@ -336,5 +338,57 @@
     "begin": "Beginnen →",
     "storyShort": "Luisteren en hardop antwoorden, 5 minuten.",
     "phrasesShort": "Met stem en betekenis, 10 per keer."
+  },
+  "landing": {
+    "metaTitle": "Qissio – leer een taal met korte, grappige verhalen",
+    "metaDescription": "Leer Duits of Spaans met korte, grappige verhalen met geluid en plaatjes. Je luistert, antwoordt hardop en onthoudt de woorden. 5 minuten per dag, gratis beginnen.",
+    "h1": "Leer een taal met korte, grappige verhalen",
+    "sub": "Luisteren, hardop antwoorden en onthouden. 5 minuten per dag, van je allereerste woord tot B1.",
+    "speak": "Ik spreek",
+    "learn": "Ik wil leren",
+    "start": "Begin met leren",
+    "free": "Gratis, geen account nodig",
+    "plans": "Bekijk de plannen",
+    "howTitle": "Zo werkt het",
+    "steps": [
+      "Kies je talen en je niveau.",
+      "Luister naar een kort verhaal met plaatjes en beantwoord de vragen hardop.",
+      "Herhaal de woorden op het juiste moment, zodat ze blijven hangen."
+    ],
+    "plansTitle": "Gratis beginnen",
+    "freeTitle": "Gratis",
+    "freePerks": [
+      "{stories} verhalen per niveau",
+      "{phrases} handige zinnen per niveau",
+      "Elke dag {reviews} woorden herhalen"
+    ],
+    "plusLine": "Alles, zonder limiet",
+    "perMonth": "/ maand",
+    "perYear": "of {price} per jaar",
+    "faqTitle": "Vragen",
+    "faq": [
+      {
+        "q": "Is Qissio gratis?",
+        "a": "Ja. Je begint zonder account en zonder te betalen. Elk niveau heeft gratis verhalen en zinnen; met Plus krijg je alles zonder limiet."
+      },
+      {
+        "q": "Welk niveau heb ik nodig?",
+        "a": "Geen. Je kunt op A1 beginnen zonder iets te kennen. Ken je al wat? Kies dan A2 of B1."
+      },
+      {
+        "q": "Hoeveel tijd kost het per dag?",
+        "a": "Ongeveer 5 minuten: één verhaal of tien zinnen. Elke dag een beetje werkt beter dan één keer per week veel."
+      },
+      {
+        "q": "Waarom verhalen?",
+        "a": "Een verhaal onthoud je veel beter dan een lijstje. Elk verhaal is een beetje gek en herhaalt steeds dezelfde paar woorden, zodat ze vanzelf blijven hangen."
+      },
+      {
+        "q": "Werkt het op mijn telefoon?",
+        "a": "Ja, in de browser van je telefoon of computer. Je kunt het op je beginscherm zetten, net als een app."
+      }
+    ],
+    "editionsTitle": "Alle talen",
+    "other": "Een andere taal leren"
   }
 }
