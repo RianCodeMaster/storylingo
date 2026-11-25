@@ -13,7 +13,8 @@ export function useRound<T extends { lexemeId: string; srs: SrsRow }>(items: T[]
   const [pending, setPending] = useState<Queued<T>[] | null>(null);
   const [answered, setAnswered] = useState(0);
   const [tally, setTally] = useState({ again: 0, hard: 0, good: 0 });
-  const [now, setNow] = useState(() => Date.now());
+  // The clock starts in the browser (with the round), never while the page is built.
+  const [now, setNow] = useState(0);
   const [error, setError] = useState<string | null>(null);
 
   // A new list of cards starts a new round.
@@ -21,6 +22,7 @@ export function useRound<T extends { lexemeId: string; srs: SrsRow }>(items: T[]
     // eslint-disable-next-line react-hooks/set-state-in-effect -- the round follows the loaded cards
     setPending(items ? queued(items) : null);
     setAnswered(0);
+    setNow(Date.now());
   }, [items]);
 
   const next = pending ? nextCard(pending, now) : null;
