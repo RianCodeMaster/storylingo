@@ -35,6 +35,8 @@ export interface Product {
   tags: string[];
   free: Limits | null;
   texts: Record<string, { title: string; text: string; icon: string; perks: string[] }>;
+  /** A membership: how much its target language has now, counted by sync from the content (null otherwise). */
+  counts: { stories: number; phrases: number; levels: string } | null;
 }
 
 export const PRODUCTS = products as Record<string, Product>;
@@ -74,6 +76,20 @@ export async function ownedProducts(): Promise<Set<string>> {
 export const plusOf = (edition: Edition) =>
   Object.values(PRODUCTS).find((p) => p.kind === "membership" && p.editions.includes(edition.slug) && p.status !== "draft") ??
   null;
+
+/**
+ * A product's perks in one base language, with what a membership opens up filled in ({stories}, {phrases},
+ * {levels}): the numbers come from the content, so they grow with it and are written the learner's way.
+ */
+export function perksOf(product: Product, lang: string): string[] {
+  const counts = product.counts;
+  const number = new Intl.NumberFormat(lang);
+  return (product.texts[lang]?.perks ?? []).map((perk) =>
+    perk.replace(/\{(stories|phrases|levels)\}/g, (all, key: "stories" | "phrases" | "levels") =>
+      !counts ? all : key === "levels" ? counts.levels : number.format(counts[key]),
+    ),
+  );
+}
 
 /** "19,00 €" or "٥٫٠٠ €" in the learner's language, with "/ month" added by the caller for a subscription. */
 export function formatPrice(price: Price, lang: string): string {

@@ -148,8 +148,9 @@ Wie direct via een advertentie op de Plus-pagina landt (`/almanya/p/plus-de?utm_
 pagina onthoudt de campagne net als de welkomstpagina. Betalen kan alleen met een account; wie daarvoor inlogt op
 een account van een ander apparaat, telt bij "to pay" en "paid" zonder campagne.
 
-Zet in advertenties altijd het volledige adres (`qissio.com/almanya`), nooit alleen `qissio.com`: de voorpagina kiest
-de editie op de taal van de telefoon, en een Arabischtalige met een Nederlandse telefoon komt dan bij /duits uit.
+Zet in advertenties het volledige adres (`qissio.com/almanya`) of een videocode, niet alleen `qissio.com`: dan komt de
+bezoeker direct in de goede editie en telt hij bij jouw campagne. Wie alleen `qissio.com` intypt, kiest zelf op de
+landingspagina, en dat is één stap extra.
 
 De verhoudingen tussen die kolommen vertellen meer dan de aantallen. Veel bezoekers maar weinig starters betekent
 dat de pagina niet past bij de advertentie. Veel starters maar weinig "week+" betekent dat de inhoud niet aansluit

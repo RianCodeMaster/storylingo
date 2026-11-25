@@ -6,7 +6,7 @@ import en from "@/dictionaries/en.json";
 import nl from "@/dictionaries/nl.json";
 import { publicEditions } from "@/lib/catalog";
 import { direction, LANGUAGES, script } from "@/lib/locales";
-import { formatPrice, plusOf } from "@/lib/products";
+import { formatPrice, perksOf, plusOf } from "@/lib/products";
 import { siteUrl } from "@/lib/site";
 import { guessBase } from "@/lib/visitor";
 
@@ -64,7 +64,10 @@ function landingEditions(): LandingEdition[] {
                 href: `/${e.slug}/p/${plus.slug}`,
                 month: formatPrice(month, e.base),
                 year: formatPrice(year, e.base),
-                perks: plus.texts[e.base]?.perks ?? [],
+                // What a year saves against twelve months, as a whole percentage.
+                save: Math.round(100 * (1 - year.amount / (12 * month.amount))),
+                text: plus.texts[e.base]?.text ?? "",
+                perks: perksOf(plus, e.base),
               }
             : null,
         free: plus?.free

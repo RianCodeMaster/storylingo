@@ -30,6 +30,11 @@ die taal (Plus Duits voor almanya, duits en german). Pakketten zoals de DTZ-trai
 
 Een taal zonder Plus-product (of met een Plus op `draft`) heeft geen limieten.
 
+**Wat Plus geeft** staat onder `perks` in hetzelfde bestand, per basistaal. Daar mag `{phrases}`, `{stories}` en
+`{levels}` in staan: sync telt bij elke run hoeveel zinnen en gepubliceerde verhalen de taal heeft en van welk tot welk
+niveau (`counts` in `web/lib/products.json`). Zo staat er "nu al 600 zinnen" en groeit dat getal vanzelf mee. De
+productpagina en de landingspagina tonen dezelfde regels.
+
 ## Wie bewaakt wat
 
 | | bewaakt door |

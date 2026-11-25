@@ -9,7 +9,7 @@ import { currentAccount } from "@/lib/account";
 import { recordProductSeen } from "@/lib/attribution";
 import { startCheckout } from "@/lib/checkout";
 import { useI18n } from "@/lib/i18n";
-import { formatPrice, ownedProducts, type Price, PRODUCTS, visibleProducts } from "@/lib/products";
+import { formatPrice, ownedProducts, perksOf, type Price, PRODUCTS, visibleProducts } from "@/lib/products";
 import { finishedStories, listStories } from "@/lib/story";
 import { ensureLearner } from "@/lib/supabase";
 import type { StoryCard } from "@/lib/types";
@@ -114,7 +114,7 @@ export function ProductPage({ slug }: { slug: string }) {
 
       {text.perks.length > 0 && (
         <ul className="perks">
-          {text.perks.map((perk) => (
+          {perksOf(product, edition.base).map((perk) => (
             <li key={perk}>✓ {perk}</li>
           ))}
         </ul>

@@ -38,7 +38,9 @@ class Text(BaseModel):
     title: str
     text: str            # one or two lines: what it gives
     icon: str = "🎁"
-    perks: list[str] = []   # what you get, one line each (the product page lists them)
+    # What you get, one line each (the product page and the landing page list them). A membership's lines may say
+    # {stories}, {phrases} and {levels}: what its target language has now, counted by sync, so they grow by themselves.
+    perks: list[str] = []
 
 
 class Free(BaseModel):
@@ -141,8 +143,28 @@ def membership(target: str) -> Product | None:
     return next((p for p in all_products().values() if p.kind == "membership" and target in p.targets()), None)
 
 
+def counts(product: Product) -> dict | None:
+    """
+    How much a membership opens up now: the published stories and the phrases of its target languages, and the levels
+    they cover ("A1–B1"). Counted from the content, so a new story or phrase raises the number without a change here.
+    """
+    if product.kind != "membership":
+        return None
+    import content
+    import phrases
+    targets = product.targets()
+    stories = [d for d in content.all_stories() if d.brief.language in targets and d.status == "published"]
+    sets = {(t, level): phrases.read(t, level) for t in targets for level in phrases.LEVELS if phrases.path(t, level).exists()}
+    levels = sorted({d.brief.level for d in stories} | {level for (_, level), found in sets.items() if found})
+    return {
+        "stories": len(stories),
+        "phrases": sum(len(found) for found in sets.values()),
+        "levels": f"{levels[0]}–{levels[-1]}" if len(levels) > 1 else "".join(levels),
+    }
+
+
 def web_json() -> str:
-    data = {slug: p.model_dump() for slug, p in all_products().items()}
+    data = {slug: {**p.model_dump(), "counts": counts(p)} for slug, p in all_products().items()}
     return json.dumps(data, ensure_ascii=False, indent=2) + "\n"
 
 

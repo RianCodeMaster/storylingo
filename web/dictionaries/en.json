@@ -363,8 +363,11 @@
       "Review {reviews} words a day"
     ],
     "plusLine": "Everything, without limits",
+    "plusBadge": "You never run out",
     "perMonth": "/ month",
     "perYear": "or {price} a year",
+    "save": "save {pct}%",
+    "plusCta": "Discover Plus",
     "faqTitle": "Questions",
     "faq": [
       {

@@ -379,8 +379,11 @@
       "مراجعة {reviews} كلمة يوميًا"
     ],
     "plusLine": "كل شيء، بلا حدود",
+    "plusBadge": "لن تنتهي من التعلّم أبدًا",
     "perMonth": "/ شهريًا",
     "perYear": "أو {price} سنويًا",
+    "save": "وفّر {pct}%",
+    "plusCta": "اكتشف Plus",
     "faqTitle": "أسئلة",
     "faq": [
       {

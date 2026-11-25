@@ -363,8 +363,11 @@
       "Elke dag {reviews} woorden herhalen"
     ],
     "plusLine": "Alles, zonder limiet",
+    "plusBadge": "Je raakt nooit uitgeleerd",
     "perMonth": "/ maand",
     "perYear": "of {price} per jaar",
+    "save": "bespaar {pct}%",
+    "plusCta": "Ontdek Plus",
     "faqTitle": "Vragen",
     "faq": [
       {

@@ -17,7 +17,7 @@ export interface LandingEdition {
   name: string;
   tagline: string;
   color: string;
-  plus: { href: string; month: string; year: string; perks: string[] } | null;
+  plus: { href: string; month: string; year: string; save: number; text: string; perks: string[] } | null;
   free: { stories: number; phrases: number; reviews: number } | null;
 }
 
@@ -40,8 +40,11 @@ export interface LandingTexts {
     freeTitle: string;
     freePerks: string[];
     plusLine: string;
+    plusBadge: string;
     perMonth: string;
     perYear: string;
+    save: string;
+    plusCta: string;
     faqTitle: string;
     faq: { q: string; a: string }[];
     editionsTitle: string;
@@ -184,19 +187,23 @@ export function Landing(props: {
           </div>
           {edition.plus && (
             <div className="card plan plan-plus">
+              <p className="plan-badge">✨ {L.t.plusBadge}</p>
               <h3>⭐ Plus</h3>
               <p className="plan-price">
                 {edition.plus.month} <span className="small muted">{L.t.perMonth}</span>
               </p>
-              <p className="small muted">{fill(L.t.perYear, { price: edition.plus.year })}</p>
-              <p>{L.t.plusLine}</p>
-              <ul>
+              <p className="small muted">
+                {fill(L.t.perYear, { price: edition.plus.year })}
+                {edition.plus.save > 0 && <span className="plan-save"> {fill(L.t.save, { pct: edition.plus.save })}</span>}
+              </p>
+              <p className="plan-line">{edition.plus.text || L.t.plusLine}</p>
+              <ul className="plan-perks">
                 {edition.plus.perks.map((p) => (
                   <li key={p}>{p}</li>
                 ))}
               </ul>
-              <a className="plan-link" href={edition.plus.href}>
-                {L.t.plans} {L.dir === "rtl" ? "←" : "→"}
+              <a className="cta plan-cta" href={edition.plus.href}>
+                {L.t.plusCta} {L.dir === "rtl" ? "←" : "→"}
               </a>
             </div>
           )}

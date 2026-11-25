@@ -1282,8 +1282,29 @@ button.secondary:hover { border-color: var(--primary); }
 .plan h3 { font-size: 1.1rem; }
 .plan ul { padding-inline-start: 18px; display: flex; flex-direction: column; gap: 4px; line-height: 1.45; }
 .plan-price { font-size: 1.5rem; font-weight: 800; }
-.plan-plus { border-color: var(--accent); }
-.plan-link { color: var(--accent); font-weight: 700; }
+/* Plus stands out: it is where everything is. On a wide screen it takes more room than Free. */
+@media (min-width: 521px) { .plans { grid-template-columns: 2fr 3fr; } }
+.plan { display: flex; flex-direction: column; gap: 6px; }
+.plan-plus {
+  border: 2px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  box-shadow: 0 8px 28px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.plan-badge {
+  align-self: flex-start;
+  background: var(--accent);
+  color: #1a1a1a;
+  font-weight: 800;
+  font-size: 0.85rem;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.plan-save { color: var(--accent); font-weight: 700; }
+.plan-line { font-weight: 700; line-height: 1.4; }
+.plan .plan-perks { list-style: none; padding: 0; gap: 8px; }
+.plan-perks li { position: relative; padding-inline-start: 26px; }
+.plan-perks li::before { content: "✓"; position: absolute; inset-inline-start: 0; color: var(--accent); font-weight: 900; }
+.plan-cta { margin-top: auto; text-align: center; }
 .faq { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
 .faq summary { cursor: pointer; font-weight: 700; }
 .faq p { margin-top: 8px; color: var(--muted); line-height: 1.5; }
