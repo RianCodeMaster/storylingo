@@ -39,7 +39,7 @@ class Text(BaseModel):
     text: str            # one or two lines: what it gives
     icon: str = "🎁"
     # What you get, one line each (the product page and the landing page list them). A membership's lines may say
-    # {stories}, {phrases} and {levels}: what its target language has now, counted by sync, so they grow by themselves.
+    # {stories}, {phrases}, {words} and {levels}: what its target language has now, counted by sync, so they grow by themselves.
     perks: list[str] = []
 
 
@@ -53,6 +53,9 @@ class Free(BaseModel):
     phrases_per_level: int = 10
     phrases_per_topic: int = 5     # and per level the first of every topic (phrases.TOPICS): a taste of a topic video
     phrases_per_day: int = 10
+    words_per_level: int = 50      # the word trainer (words.py), the same way: per level the first words,
+    words_per_topic: int = 5       # the first few of every topic,
+    words_per_day: int = 10        # and a few new ones a day
     reviews_per_day: int = 20
 
 
@@ -145,13 +148,15 @@ def membership(target: str) -> Product | None:
 
 def counts(product: Product) -> dict | None:
     """
-    How much a membership opens up now: the published stories and the phrases of its target languages, and the levels
+    How much a membership opens up now: the published stories, the phrases and the words of its target languages, and
+    the levels
     they cover ("A1–B1"). Counted from the content, so a new story or phrase raises the number without a change here.
     """
     if product.kind != "membership":
         return None
     import content
     import phrases
+    import words
     targets = product.targets()
     stories = [d for d in content.all_stories() if d.brief.language in targets and d.status == "published"]
     sets = {(t, level): phrases.read(t, level) for t in targets for level in phrases.LEVELS if phrases.path(t, level).exists()}
@@ -159,6 +164,7 @@ def counts(product: Product) -> dict | None:
     return {
         "stories": len(stories),
         "phrases": sum(len(found) for found in sets.values()),
+        "words": sum(len(found) for t in targets for found in words.all_sets(t).values()),
         "levels": f"{levels[0]}–{levels[-1]}" if len(levels) > 1 else "".join(levels),
     }
 

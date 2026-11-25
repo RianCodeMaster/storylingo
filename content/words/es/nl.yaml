@@ -1,0 +1,1502 @@
+# What each word means for learners with this base language, and its example sentence translated. Made by
+# `storylingo.py localize-words`; corrections by hand are welcome (then: storylingo.py sync).
+ser:
+  meaning: zijn (eigenschap)
+  example: Ik ben student.
+estar:
+  meaning: zijn (toestand), zich bevinden
+  example: Ik ben thuis.
+tener:
+  meaning: hebben
+  example: Ik heb twee broers.
+hacer:
+  meaning: doen, maken
+  example: Vandaag kook ik.
+ir:
+  meaning: gaan
+  example: Ik ga naar het werk.
+poder:
+  meaning: kunnen
+  example: Ik kan vandaag niet gaan.
+querer:
+  meaning: willen, houden van
+  example: Ik wil een koffie.
+decir:
+  meaning: zeggen
+  example: Ik weet niet wat ik moet zeggen.
+saber:
+  meaning: weten
+  example: Ik weet het antwoord niet.
+ver:
+  meaning: zien
+  example: Ik kijk televisie.
+comer:
+  meaning: eten
+  example: Ik eet elke dag fruit.
+beber:
+  meaning: drinken
+  example: Ik drink elke dag water.
+vivir:
+  meaning: wonen, leven
+  example: Ik woon in een flat.
+trabajar:
+  meaning: werken
+  example: Ik werk in een winkel.
+hablar:
+  meaning: spreken, praten
+  example: Ik spreek een beetje Spaans.
+comprar:
+  meaning: kopen
+  example: Ik koop brood in de winkel.
+necesitar:
+  meaning: nodig hebben
+  example: Ik heb hulp nodig.
+gustar:
+  meaning: leuk vinden, lusten
+  example: Ik vind koffie lekker.
+"y":
+  meaning: en
+  example: Ik eet brood en kaas.
+o:
+  meaning: of
+  example: Wil je thee of koffie?
+pero:
+  meaning: maar
+  example: Ik wil gaan, maar ik kan niet.
+porque:
+  meaning: omdat
+  example: Ik ga niet omdat ik moe ben.
+que:
+  meaning: dat
+  example: Ik denk dat het waar is.
+de:
+  meaning: van, uit
+  example: Ik kom van huis.
+en:
+  meaning: in
+  example: Ik woon in een klein huis.
+a:
+  meaning: naar
+  example: Ik ga naar huis.
+con:
+  meaning: met
+  example: Ik ga met mijn vriend.
+por:
+  meaning: door, langs
+  example: Ik loop door het park.
+para:
+  meaning: voor
+  example: Dit cadeau is voor jou.
+"no":
+  meaning: nee, niet
+  example: Ik wil geen koffie, dank je.
+sí:
+  meaning: ja
+  example: Ja, ik wil een koffie.
+muy:
+  meaning: heel, zeer
+  example: Het huis is heel groot.
+más:
+  meaning: meer
+  example: Ik wil meer water, alstublieft.
+también:
+  meaning: ook
+  example: Ik woon ook hier.
+el agua:
+  meaning: het water
+  example: Ik drink het water uit de fles.
+la casa:
+  meaning: het huis
+  example: Mijn huis is dicht bij het park.
+la comida:
+  meaning: het eten, de maaltijd
+  example: Het eten is heel lekker.
+el dinero:
+  meaning: het geld
+  example: Ik heb vandaag niet veel geld.
+el trabajo:
+  meaning: het werk, de baan
+  example: Mijn werk begint om negen uur.
+la tienda:
+  meaning: de winkel
+  example: De winkel opent in de ochtend.
+el médico:
+  meaning: de dokter, de arts
+  example: De dokter werkt in het ziekenhuis.
+la salud:
+  meaning: de gezondheid
+  example: De gezondheid is heel belangrijk.
+la familia:
+  meaning: de familie
+  example: Mijn familie woont dichtbij.
+el amigo:
+  meaning: de vriend
+  example: Mijn vriend woont in mijn straat.
+el tiempo:
+  meaning: de tijd, het weer
+  example: Ik heb vandaag geen tijd.
+el día:
+  meaning: de dag
+  example: De dag is heel lang.
+la hora:
+  meaning: het uur, de tijd
+  example: Hoe laat is het nu?
+hoy:
+  meaning: vandaag
+  example: Vandaag werk ik thuis.
+mañana:
+  meaning: morgen, ochtend
+  example: Morgen ga ik naar mijn werk.
+ahora:
+  meaning: nu
+  example: Nu kan ik niet praten.
+el coche:
+  meaning: de auto
+  example: De auto staat op straat.
+el autobús:
+  meaning: de bus
+  example: Ik wacht op de bus bij de halte.
+el tren:
+  meaning: de trein
+  example: De trein komt om acht uur aan.
+la estación:
+  meaning: het station
+  example: Het station is dicht bij huis.
+el billete:
+  meaning: het kaartje, het ticket
+  example: Ik koop een treinkaartje.
+la oficina:
+  meaning: het kantoor
+  example: Ik werk op een klein kantoor.
+el restaurante:
+  meaning: het restaurant
+  example: Vandaag eten we in het restaurant.
+la cuenta:
+  meaning: de rekening
+  example: De rekening, alstublieft.
+bien:
+  meaning: goed, wel
+  example: Vandaag voel ik me heel goed.
+mal:
+  meaning: slecht, verkeerd
+  example: Ik voel me niet slecht.
+el hombre:
+  meaning: de man
+  example: Die man is mijn buurman.
+la mujer:
+  meaning: de vrouw
+  example: De vrouw werkt bij de bank.
+el niño:
+  meaning: de jongen, het kind
+  example: Het kind speelt op straat.
+la niña:
+  meaning: het meisje
+  example: Het meisje leest een boek.
+la gente:
+  meaning: de mensen
+  example: Er zijn veel mensen op straat.
+algo:
+  meaning: iets
+  example: Wil je iets te drinken?
+nada:
+  meaning: niets
+  example: Ik heb niets nodig, dank je.
+todo:
+  meaning: alles
+  example: Alles is goed, dank je.
+mucho:
+  meaning: veel
+  example: Ik werk veel deze week.
+poco:
+  meaning: weinig
+  example: Ik heb weinig tijd vandaag.
+aquí:
+  meaning: hier
+  example: Je kunt hier wachten.
+allí:
+  meaning: daar
+  example: De apotheek is daar.
+cerca:
+  meaning: dichtbij
+  example: De bank is hier dichtbij.
+lejos:
+  meaning: ver
+  example: Het strand is ver.
+siempre:
+  meaning: altijd
+  example: Ik drink altijd koffie met melk bij het ontbijt.
+abrir:
+  meaning: openen
+  example: Kun je het raam openen?
+cerrar:
+  meaning: sluiten
+  example: Ik ga de deur sluiten.
+entrar:
+  meaning: binnenkomen
+  example: Kom het kantoor binnen, alsjeblieft.
+salir:
+  meaning: weggaan, uitgaan
+  example: Ik ga 's ochtends het huis uit.
+llegar:
+  meaning: aankomen
+  example: Ik kom met de metro aan op het werk.
+esperar:
+  meaning: wachten
+  example: Wacht hier even.
+ayudar:
+  meaning: helpen
+  example: Kun je me alsjeblieft helpen?
+entender:
+  meaning: begrijpen
+  example: Ik begrijp dit woord niet.
+aprender:
+  meaning: leren
+  example: Ik wil Spaans leren.
+leer:
+  meaning: lezen
+  example: Ik lees graag de krant.
+escribir:
+  meaning: schrijven
+  example: Ik schrijf een e-mail aan mijn baas.
+pagar:
+  meaning: betalen
+  example: Ik ga met de kaart betalen.
+contento:
+  meaning: blij, tevreden
+  example: Ik ben blij met mijn werk.
+triste:
+  meaning: verdrietig
+  example: Mijn vriend is vandaag verdrietig.
+cansado:
+  meaning: moe
+  example: Ik ben moe na het werk.
+el supermercado:
+  meaning: de supermarkt
+  example: Ik koop het eten in de supermarkt.
+el pan:
+  meaning: het brood
+  example: Ik koop brood in de supermarkt.
+la leche:
+  meaning: de melk
+  example: Ik drink 's ochtends melk.
+el café:
+  meaning: de koffie
+  example: Ik drink koffie met melk.
+la fruta:
+  meaning: het fruit
+  example: Ik eet elke dag fruit.
+el precio:
+  meaning: de prijs
+  example: De prijs is heel hoog.
+la tarjeta:
+  meaning: de kaart, de pinpas
+  example: Ik betaal met de kaart, alsjeblieft.
+la mesa:
+  meaning: de tafel
+  example: Dek de tafel, alsjeblieft.
+la cama:
+  meaning: het bed
+  example: Mijn bed is heel groot.
+la puerta:
+  meaning: de deur
+  example: Doe de deur dicht, alsjeblieft.
+la ventana:
+  meaning: het raam
+  example: Doe het raam open, het is warm.
+el baño:
+  meaning: de badkamer, het toilet
+  example: De badkamer is daar.
+la llave:
+  meaning: de sleutel
+  example: Geef me de huissleutel.
+el avión:
+  meaning: het vliegtuig
+  example: Het vliegtuig vertrekt nu.
+el aeropuerto:
+  meaning: de luchthaven
+  example: Ik ga met de taxi naar de luchthaven.
+la parada:
+  meaning: de halte, de stop
+  example: De bushalte is dichtbij.
+el metro:
+  meaning: de metro
+  example: Ik ga met de metro naar het werk.
+la maleta:
+  meaning: de koffer
+  example: Mijn koffer is heel zwaar.
+el hotel:
+  meaning: het hotel
+  example: Het hotel ligt dicht bij het strand.
+el jefe:
+  meaning: de baas
+  example: Mijn baas werkt op kantoor.
+el correo:
+  meaning: de post, de e-mail
+  example: Ik schrijf een e-mail aan mijn baas.
+el horario:
+  meaning: het rooster, het schema
+  example: Kijk naar het rooster van het kantoor.
+la cabeza:
+  meaning: het hoofd
+  example: Ik heb hoofdpijn.
+la mano:
+  meaning: de hand
+  example: Was je handen, alsjeblieft.
+la medicina:
+  meaning: het medicijn
+  example: Ik neem 's ochtends mijn medicijn.
+enfermo:
+  meaning: ziek
+  example: Mijn zoon is vandaag ziek.
+la semana:
+  meaning: de week
+  example: Ik werk alle dagen van de week.
+el mes:
+  meaning: de maand
+  example: Deze maand werk ik veel.
+el año:
+  meaning: het jaar
+  example: Dit jaar heb ik vakantie.
+la tarde:
+  meaning: de middag, de avond
+  example: '''s Middags lees ik een boek.'
+hola:
+  meaning: hallo
+  example: Hallo, hoe gaat het?
+gracias:
+  meaning: dank je
+  example: Hartelijk dank voor de hulp.
+adiós:
+  meaning: tot ziens
+  example: Tot ziens, tot morgen.
+perdón:
+  meaning: sorry, pardon
+  example: Pardon, ik begrijp het niet.
+yo:
+  meaning: ik
+  example: Ik woon in een flat.
+tú:
+  meaning: jij
+  example: Jij werkt op een kantoor.
+él:
+  meaning: hij
+  example: Hij is mijn broer.
+ella:
+  meaning: zij
+  example: Zij eet thuis.
+nosotros:
+  meaning: wij
+  example: Wij gaan naar de bioscoop.
+usted:
+  meaning: u
+  example: Hebt u hulp nodig?
+mi:
+  meaning: mijn
+  example: Mijn huis is klein.
+tu:
+  meaning: jouw
+  example: Jouw boek ligt op de tafel.
+su:
+  meaning: zijn, haar, uw
+  example: Zijn auto is nieuw.
+cuándo:
+  meaning: wanneer
+  example: Wanneer kom je thuis?
+cómo:
+  meaning: hoe
+  example: Hoe gaat het vandaag?
+dónde:
+  meaning: waar
+  example: Waar is de apotheek?
+sin:
+  meaning: zonder
+  example: Een koffie zonder suiker, alstublieft.
+sobre:
+  meaning: op, over
+  example: Het boek ligt op de tafel.
+entre:
+  meaning: tussen
+  example: De apotheek ligt tussen twee winkels.
+hasta:
+  meaning: tot
+  example: Ik werk tot vijf uur.
+desde:
+  meaning: vanaf, sinds
+  example: Ik woon hier sinds vorig jaar.
+antes:
+  meaning: voor, eerder
+  example: Voor het eten was ik mijn handen.
+después:
+  meaning: na, later
+  example: Na het werk ga ik naar huis.
+luego:
+  meaning: dan, daarna
+  example: Eerst studeer ik, daarna eet ik avondeten.
+ya:
+  meaning: al
+  example: Ik ben al thuis.
+nunca:
+  meaning: nooit
+  example: Ik drink nooit koffie 's avonds.
+la madre:
+  meaning: moeder
+  example: Mijn moeder werkt thuis.
+el padre:
+  meaning: vader
+  example: Mijn vader eet thuis.
+el hermano:
+  meaning: broer
+  example: Mijn broer woont in een andere stad.
+la hermana:
+  meaning: zus
+  example: Mijn zus studeert Spaans.
+el hijo:
+  meaning: zoon
+  example: Zijn zoon is drie jaar.
+la hija:
+  meaning: dochter
+  example: Mijn dochter gaat naar school.
+feliz:
+  meaning: gelukkig, blij
+  example: Ik ben vandaag heel gelukkig.
+enfadado:
+  meaning: boos, kwaad
+  example: Mijn vader is boos op mij.
+la habitación:
+  meaning: kamer
+  example: De kamer heeft een bed.
+la cocina:
+  meaning: keuken
+  example: De keuken is klein maar schoon.
+la silla:
+  meaning: stoel
+  example: De stoel staat naast de tafel.
+la nevera:
+  meaning: koelkast
+  example: De melk staat in de koelkast.
+el salón:
+  meaning: woonkamer
+  example: De woonkamer heeft een groot raam.
+la carne:
+  meaning: vlees
+  example: Ik eet op vrijdag geen vlees.
+el pescado:
+  meaning: vis
+  example: De vis is erg lekker.
+el pollo:
+  meaning: kip
+  example: We eten 's avonds kip met aardappelen.
+el huevo:
+  meaning: ei
+  example: Ik eet elke ochtend een ei als ontbijt.
+la verdura:
+  meaning: groente
+  example: Ik koop groente op de markt.
+la patata:
+  meaning: aardappel
+  example: De aardappel is goedkoop.
+la manzana:
+  meaning: appel
+  example: Ik eet een appel als dessert.
+el zapato:
+  meaning: schoen
+  example: Deze schoen is erg duur.
+la camisa:
+  meaning: overhemd
+  example: Het overhemd is erg mooi.
+el viaje:
+  meaning: reis
+  example: De reis naar het strand is lang.
+el pasaporte:
+  meaning: paspoort
+  example: Ik heb mijn paspoort nodig voor het vliegtuig.
+la salida:
+  meaning: uitgang, vertrek
+  example: Het vertrek van de trein is om zes uur.
+el ordenador:
+  meaning: computer
+  example: Mijn computer staat op kantoor.
+la carta:
+  meaning: brief
+  example: Ik schrijf een brief aan mijn broer.
+la dirección:
+  meaning: adres
+  example: Schrijf hier uw adres, alstublieft.
+la farmacia:
+  meaning: apotheek
+  example: De apotheek gaat om negen uur open.
+el dolor:
+  meaning: pijn
+  example: Ik heb hoofdpijn.
+la fiebre:
+  meaning: koorts
+  example: Het kind heeft koorts.
+el brazo:
+  meaning: arm
+  example: Mijn arm doet pijn.
+la pierna:
+  meaning: been
+  example: Mijn been doet pijn.
+el pie:
+  meaning: voet
+  example: Mijn voeten doen pijn.
+este:
+  meaning: deze, dit
+  example: Dit boek is erg goed.
+otro:
+  meaning: ander, nog een
+  example: Ik wil nog een koffie, alstublieft.
+cada:
+  meaning: elke, iedere
+  example: Ik eet elke dag fruit.
+tomar:
+  meaning: nemen, drinken
+  example: Ik drink koffie met melk.
+dar:
+  meaning: geven
+  example: Geef me het brood, alstublieft.
+mirar:
+  meaning: kijken, bekijken
+  example: Kijk naar de deur, alstublieft.
+buscar:
+  meaning: zoeken
+  example: Ik zoek de sleutel op tafel.
+encontrar:
+  meaning: vinden
+  example: Ik vind mijn ticket niet.
+llevar:
+  meaning: dragen, meenemen
+  example: Ik draag een wit overhemd.
+poner:
+  meaning: zetten, leggen
+  example: Ik dek de tafel voor het avondeten.
+escuchar:
+  meaning: luisteren, horen
+  example: Ik luister naar muziek in de bus.
+estudiar:
+  meaning: studeren
+  example: Ik studeer elke dag Spaans.
+dormir:
+  meaning: slapen
+  example: Ik slaap acht uur per nacht.
+alguien:
+  meaning: iemand
+  example: Iemand klopt op de deur.
+nadie:
+  meaning: niemand
+  example: Er is niemand thuis.
+pronto:
+  meaning: gauw, binnenkort
+  example: Ik kom snel terug naar huis.
+temprano:
+  meaning: vroeg
+  example: Op maandag sta ik vroeg op.
+tampoco:
+  meaning: ook niet
+  example: Ik wil ook geen koffie.
+la calle:
+  meaning: straat
+  example: Ik woon in een kleine straat.
+el piso:
+  meaning: flat, appartement
+  example: Mijn flat is in het centrum.
+la luz:
+  meaning: licht
+  example: Doe het licht uit, alstublieft.
+el vecino:
+  meaning: buurman
+  example: De buurman is erg aardig.
+el dormitorio:
+  meaning: slaapkamer
+  example: Mijn slaapkamer is klein en schoon.
+la escalera:
+  meaning: trap
+  example: Ik ga de trap op.
+el ascensor:
+  meaning: lift
+  example: De lift werkt vandaag niet.
+el balcón:
+  meaning: balkon
+  example: Ik ontbijt op het balkon.
+el perro:
+  meaning: hond
+  example: De hond speelt in het park.
+el gato:
+  meaning: kat
+  example: Mijn kat slaapt in bed.
+el abuelo:
+  meaning: opa, grootvader
+  example: Mijn opa woont bij ons.
+la abuela:
+  meaning: oma, grootmoeder
+  example: Mijn oma kookt heel goed.
+la fiesta:
+  meaning: feest, party
+  example: Er is een feest bij mij thuis.
+el regalo:
+  meaning: cadeau, geschenk
+  example: Dit cadeau is voor jou.
+el amor:
+  meaning: liefde
+  example: Liefde is belangrijk in het leven.
+el miedo:
+  meaning: angst
+  example: Ik ben bang voor honden.
+el arroz:
+  meaning: rijst
+  example: Ik kook rijst met kip.
+el queso:
+  meaning: kaas
+  example: Ik eet kaas bij het ontbijt.
+el tomate:
+  meaning: tomaat
+  example: Ik doe tomaat in de salade.
+la ensalada:
+  meaning: salade
+  example: De salade bevat tomaat en zout.
+el zumo:
+  meaning: sap
+  example: Ik drink sinaasappelsap.
+el vaso:
+  meaning: glas
+  example: Een glas water, alstublieft.
+el mercado:
+  meaning: markt
+  example: Ik koop fruit op de markt.
+la ropa:
+  meaning: kleding, kleren
+  example: De kleding zit in de koffer.
+el hospital:
+  meaning: ziekenhuis
+  example: Mijn moeder is in het ziekenhuis.
+la pastilla:
+  meaning: pil, tablet
+  example: Ik neem 's ochtends een pil.
+la tos:
+  meaning: hoest
+  example: Ik heb hoest en koorts.
+la gripe:
+  meaning: griep
+  example: Ik heb deze week griep.
+la cita:
+  meaning: afspraak
+  example: Ik heb een afspraak met de dokter.
+el documento:
+  meaning: document
+  example: Ik heb een document nodig voor de reis.
+el formulario:
+  meaning: formulier
+  example: Ik vul het formulier in met een pen.
+la firma:
+  meaning: handtekening
+  example: Ik zet mijn handtekening hier.
+el contrato:
+  meaning: contract
+  example: Ik onderteken het arbeidscontract.
+la empresa:
+  meaning: bedrijf
+  example: Ik werk bij een klein bedrijf.
+la playa:
+  meaning: strand
+  example: We gaan in de zomer naar het strand.
+el mapa:
+  meaning: kaart
+  example: Ik bekijk de kaart in het hotel.
+el taxi:
+  meaning: taxi
+  example: Ik ga met de taxi naar het centrum.
+la bici:
+  meaning: fiets
+  example: Ik ga met de fiets naar het werk.
+grande:
+  meaning: groot
+  example: Mijn huis is groot en nieuw.
+pequeño:
+  meaning: klein
+  example: De hond is klein en wit.
+nuevo:
+  meaning: nieuw
+  example: Ik heb een nieuwe mobiel.
+caro:
+  meaning: duur
+  example: Dit restaurant is erg duur.
+el teléfono:
+  meaning: telefoon
+  example: Mijn telefoon ligt op tafel.
+el móvil:
+  meaning: mobiele telefoon
+  example: Ik gebruik mijn mobiel om te bellen.
+la noche:
+  meaning: nacht
+  example: '''s Nachts lees ik een beetje.'
+la persona:
+  meaning: persoon
+  example: Die persoon is erg vriendelijk.
+el chico:
+  meaning: jongen
+  example: De jongen woont dichtbij.
+la chica:
+  meaning: meisje
+  example: Het meisje werkt in de winkel.
+el profesor:
+  meaning: leraar, docent
+  example: De leraar spreekt langzaam.
+el estudiante:
+  meaning: student
+  example: De student leest in de klas.
+la ciudad:
+  meaning: stad
+  example: Mijn stad is erg groot.
+el pueblo:
+  meaning: dorp
+  example: Mijn dorp is klein en rustig.
+el parque:
+  meaning: park
+  example: De kinderen spelen in het park.
+el banco:
+  meaning: bank
+  example: Ik heb geld op de bank.
+la bolsa:
+  meaning: tas
+  example: De tas ligt op de stoel.
+barato:
+  meaning: goedkoop
+  example: Deze koffie is erg goedkoop.
+abierto:
+  meaning: open
+  example: De bank is open.
+cerrado:
+  meaning: gesloten
+  example: Het café is vandaag gesloten.
+limpio:
+  meaning: schoon
+  example: De badkamer is erg schoon.
+sucio:
+  meaning: vies
+  example: De vloer is vies.
+rápido:
+  meaning: snel
+  example: De trein is erg snel.
+lento:
+  meaning: langzaam
+  example: De bus rijdt erg langzaam.
+fácil:
+  meaning: makkelijk
+  example: Deze oefening is erg makkelijk.
+difícil:
+  meaning: moeilijk
+  example: Het examen is moeilijk.
+frío:
+  meaning: koud
+  example: De koffie is koud.
+caliente:
+  meaning: heet
+  example: De soep is erg heet.
+el desayuno:
+  meaning: ontbijt
+  example: Het ontbijt is om acht uur.
+la cena:
+  meaning: avondeten, diner
+  example: Het avondeten staat op tafel.
+la bebida:
+  meaning: drank
+  example: De drank staat in de koelkast.
+cocinar:
+  meaning: koken
+  example: Ik kook graag op zondag.
+limpiar:
+  meaning: schoonmaken
+  example: Ik maak elke dag de keuken schoon.
+lavar:
+  meaning: wassen
+  example: Ik was de kleren op zaterdag.
+empezar:
+  meaning: beginnen
+  example: De les begint om tien uur.
+terminar:
+  meaning: eindigen, afmaken
+  example: Het werk eindigt om zes uur.
+preguntar:
+  meaning: vragen
+  example: Ik vraag het aan de leraar.
+llamar:
+  meaning: bellen, noemen
+  example: Ik ga de dokter bellen.
+contestar:
+  meaning: antwoorden, opnemen
+  example: Ik neem de telefoon niet op.
+pensar:
+  meaning: denken
+  example: Ik denk aan mijn vakantie.
+creer:
+  meaning: geloven, denken
+  example: Ik geloof van wel.
+conocer:
+  meaning: kennen
+  example: Ik ken je zus.
+visitar:
+  meaning: bezoeken
+  example: Ik ga mijn moeder bezoeken.
+viajar:
+  meaning: reizen
+  example: Ik reis graag met de trein.
+caminar:
+  meaning: wandelen, lopen
+  example: We wandelen door het park.
+subir:
+  meaning: omhooggaan, instappen
+  example: Ik ga de trap op.
+bajar:
+  meaning: omlaaggaan, uitstappen
+  example: Ik ga even naar de supermarkt.
+menos:
+  meaning: minder
+  example: Ik wil minder suiker.
+entonces:
+  meaning: dan, toen
+  example: Dan gaan we naar huis.
+si:
+  meaning: als
+  example: Als het regent, gaan we niet naar buiten.
+cuando:
+  meaning: wanneer, als
+  example: Als ik thuiskom, eet ik.
+como:
+  meaning: zoals
+  example: Ik praat zoals mijn vader.
+el ojo:
+  meaning: oog
+  example: Mijn oog doet pijn.
+la boca:
+  meaning: mond
+  example: Open je mond, alsjeblieft.
+la nariz:
+  meaning: neus
+  example: Mijn neus is verstopt.
+el diente:
+  meaning: tand
+  example: Ik heb pijn aan een tand.
+la cara:
+  meaning: gezicht
+  example: Was je gezicht.
+el estómago:
+  meaning: maag
+  example: Mijn maag doet pijn.
+el pelo:
+  meaning: haar
+  example: Ik heb kort haar.
+el minuto:
+  meaning: minuut
+  example: Wacht een minuut.
+el cumpleaños:
+  meaning: verjaardag
+  example: Mijn verjaardag is in mei.
+las vacaciones:
+  meaning: vakantie
+  example: Ik ben deze week op vakantie.
+el mar:
+  meaning: zee
+  example: De zee is vandaag rustig.
+la montaña:
+  meaning: berg
+  example: We gaan naar de bergen.
+ni:
+  meaning: noch, ook niet
+  example: Ik wil geen koffie en geen thee.
+claro:
+  meaning: natuurlijk, duidelijk
+  example: Natuurlijk, je kunt met me meekomen.
+vale:
+  meaning: oké
+  example: Oké, we zien elkaar om zes uur.
+bueno:
+  meaning: nou, oké
+  example: Nou, ik ga met je mee.
+solo:
+  meaning: alleen, slechts
+  example: Ik wil alleen een glas water.
+quizás:
+  meaning: misschien
+  example: Misschien kom ik morgen.
+la botella:
+  meaning: fles
+  example: Een fles water, alstublieft.
+el plato:
+  meaning: bord, gerecht
+  example: Het bord staat op tafel.
+la taza:
+  meaning: kopje, kop
+  example: Ik wil een kop koffie.
+el tenedor:
+  meaning: vork
+  example: De vork ligt rechts.
+la cuchara:
+  meaning: lepel
+  example: De lepel is voor de soep.
+el cuchillo:
+  meaning: mes
+  example: Snijd het brood met het mes.
+el azúcar:
+  meaning: suiker
+  example: Ik doe suiker in de koffie.
+la sal:
+  meaning: zout
+  example: De soep heeft meer zout nodig.
+el aceite:
+  meaning: olie
+  example: Ik kook met olijfolie.
+la naranja:
+  meaning: sinaasappel
+  example: Ik eet elke dag een sinaasappel.
+el plátano:
+  meaning: banaan
+  example: De banaan is een vrucht.
+la cebolla:
+  meaning: ui
+  example: De ui doet me huilen.
+la cerveza:
+  meaning: bier
+  example: Een koud bier, alstublieft.
+el vino:
+  meaning: wijn
+  example: Ik drink rode wijn bij het avondeten.
+el té:
+  meaning: thee
+  example: Ik heb liever thee met citroen.
+el sofá:
+  meaning: bank, sofa
+  example: De bank staat in de woonkamer.
+la lámpara:
+  meaning: lamp
+  example: De lamp staat naast het bed.
+la pared:
+  meaning: muur, wand
+  example: Er hangt een schilderij aan de muur.
+el suelo:
+  meaning: vloer, grond
+  example: De vloer van de keuken is schoon.
+el techo:
+  meaning: plafond, dak
+  example: De lamp hangt aan het plafond.
+el jardín:
+  meaning: tuin
+  example: De kinderen spelen in de tuin.
+el espejo:
+  meaning: spiegel
+  example: Ik kijk in de spiegel.
+la toalla:
+  meaning: handdoek
+  example: De handdoek is in de badkamer.
+el jabón:
+  meaning: zeep
+  example: Er is geen zeep in de badkamer.
+la ducha:
+  meaning: douche
+  example: De douche is heel heet.
+el ruido:
+  meaning: lawaai, geluid
+  example: Het lawaai van de straat is hard.
+el señor:
+  meaning: meneer, heer
+  example: De heer is erg vriendelijk.
+la señora:
+  meaning: mevrouw, vrouw
+  example: De mevrouw praat met mijn moeder.
+el bebé:
+  meaning: baby
+  example: De baby slaapt in zijn bed.
+el primo:
+  meaning: neef
+  example: Mijn neef is tien jaar.
+la prima:
+  meaning: nicht
+  example: Mijn nicht studeert aan de universiteit.
+el tío:
+  meaning: oom
+  example: Mijn oom werkt bij een bank.
+la tía:
+  meaning: tante
+  example: Mijn tante kookt heel goed.
+la reunión:
+  meaning: vergadering, bijeenkomst
+  example: De vergadering is om tien uur.
+el compañero:
+  meaning: collega, maat
+  example: Mijn collega werkt op kantoor.
+el sueldo:
+  meaning: salaris, loon
+  example: Het salaris is deze maand laag.
+la espalda:
+  meaning: rug
+  example: Mijn rug doet pijn.
+el dedo:
+  meaning: vinger
+  example: Mijn vinger doet pijn.
+la oreja:
+  meaning: oor
+  example: Mijn rechteroor doet pijn.
+el corazón:
+  meaning: hart
+  example: Mijn hart doet pijn.
+la receta:
+  meaning: recept, doktersrecept
+  example: De dokter geeft me een recept.
+la alergia:
+  meaning: allergie
+  example: Ik ben allergisch voor pollen.
+la entrada:
+  meaning: kaartje, ingang
+  example: De toegang tot het museum is gratis.
+el andén:
+  meaning: perron
+  example: De trein vertrekt van perron twee.
+el vuelo:
+  meaning: vlucht
+  example: De vlucht vertrekt om acht uur.
+el asiento:
+  meaning: stoel, zitplaats
+  example: Mijn stoel is bij het raam.
+la llegada:
+  meaning: aankomst
+  example: De aankomst van de trein is om twee uur.
+el retraso:
+  meaning: vertraging
+  example: De vlucht heeft een uur vertraging.
+el barco:
+  meaning: schip, boot
+  example: De boot gaat naar de eilanden.
+la moto:
+  meaning: motor, motorfiets
+  example: Ik ga met de motor naar het werk.
+la gasolina:
+  meaning: benzine
+  example: Benzine is heel duur.
+el aparcamiento:
+  meaning: parkeerplaats, parking
+  example: Er is geen plaats op de parkeerplaats.
+la policía:
+  meaning: politie
+  example: De politie is op straat.
+el permiso:
+  meaning: vergunning, toestemming
+  example: Ik heb een werkvergunning nodig.
+cuánto:
+  meaning: hoeveel
+  example: Hoeveel kost het brood?
+quién:
+  meaning: wie
+  example: Wie is de baas?
+cuál:
+  meaning: welke
+  example: Wat is je adres?
+ese:
+  meaning: die
+  example: Die bus gaat naar het centrum.
+nuestro:
+  meaning: ons, onze
+  example: Ons appartement is klein.
+todavía:
+  meaning: nog
+  example: Ik ben nog niet klaar.
+bastante:
+  meaning: nogal, genoeg
+  example: Het appartement is nogal groot.
+delante:
+  meaning: voor, vooraan
+  example: De bank is vooraan.
+detrás:
+  meaning: achter
+  example: De badkamer is achter.
+dentro:
+  meaning: binnen, in
+  example: Het geld is binnen.
+fuera:
+  meaning: buiten
+  example: De hond is buiten.
+encima:
+  meaning: bovenop
+  example: De mobiel ligt bovenop.
+debajo:
+  meaning: onder, eronder
+  example: De sleutel ligt eronder.
+ahí:
+  meaning: daar
+  example: Het boek ligt daar.
+la derecha:
+  meaning: rechterkant, rechts
+  example: De apotheek is aan de rechterkant.
+la izquierda:
+  meaning: linkerkant, links
+  example: Sla linksaf.
+primero:
+  meaning: eerste
+  example: De eerste is mijn stoel.
+último:
+  meaning: laatste
+  example: Dit is de laatste trein.
+siguiente:
+  meaning: volgende
+  example: De volgende halte is de mijne.
+algún:
+  meaning: enig, een of ander
+  example: Heb je een probleem?
+ningún:
+  meaning: geen, geen enkel
+  example: Er is geen enkele stoel.
+el centro:
+  meaning: centrum, stadscentrum
+  example: Ik ga met de metro naar het centrum.
+la plaza:
+  meaning: plein
+  example: Het plein is dichtbij.
+la esquina:
+  meaning: hoek
+  example: De winkel is op de hoek.
+el barrio:
+  meaning: buurt, wijk
+  example: Mijn buurt is rustig.
+la carretera:
+  meaning: weg, snelweg
+  example: De weg is nat.
+el semáforo:
+  meaning: verkeerslicht
+  example: Wacht bij het verkeerslicht.
+el conductor:
+  meaning: bestuurder, chauffeur
+  example: De chauffeur is vriendelijk.
+el equipaje:
+  meaning: bagage
+  example: Mijn bagage is in het hotel.
+la ventanilla:
+  meaning: loket, raampje
+  example: Ik koop het kaartje aan het loket.
+la terraza:
+  meaning: terras
+  example: We ontbijten op het terras.
+el comedor:
+  meaning: eetkamer
+  example: We eten in de eetkamer.
+el pasillo:
+  meaning: gang, corridor
+  example: De wc is in de gang.
+el patio:
+  meaning: binnenplaats, tuin
+  example: De hond is in de tuin.
+la lavadora:
+  meaning: wasmachine
+  example: De wasmachine staat in de keuken.
+el lavabo:
+  meaning: wastafel
+  example: De wastafel is schoon.
+la servilleta:
+  meaning: servet
+  example: Ik heb een servet nodig.
+el euro:
+  meaning: euro
+  example: De koffie kost een euro.
+la caja:
+  meaning: kassa, doos
+  example: Ik betaal bij de kassa.
+la panadería:
+  meaning: bakkerij
+  example: Ik koop brood in de bakkerij.
+la sopa:
+  meaning: soep
+  example: De soep is heet.
+la pasta:
+  meaning: pasta
+  example: Ik kook pasta met tomaat.
+el bocadillo:
+  meaning: broodje
+  example: Ik eet een broodje.
+el jamón:
+  meaning: ham
+  example: De ham is duur.
+el yogur:
+  meaning: yoghurt
+  example: Ik eet 's ochtends yoghurt.
+el postre:
+  meaning: dessert, nagerecht
+  example: Het dessert is fruit.
+el menú:
+  meaning: menu
+  example: Het dagmenu is goedkoop.
+el camarero:
+  meaning: ober
+  example: De ober brengt de rekening.
+el dentista:
+  meaning: tandarts
+  example: Ik ga naar de tandarts.
+la enfermera:
+  meaning: verpleegster
+  example: De verpleegster is vriendelijk.
+doler:
+  meaning: pijn doen
+  example: Ik heb hoofdpijn.
+descansar:
+  meaning: uitrusten, rusten
+  example: Ik rust uit in het weekend.
+la temperatura:
+  meaning: temperatuur, koorts
+  example: Je hebt koorts.
+el gimnasio:
+  meaning: sportschool, gym
+  example: Ik ga naar de sportschool.
+coger:
+  meaning: nemen, pakken
+  example: Neem de bus op de hoek.
+volver:
+  meaning: terugkomen, terugkeren
+  example: Ik kom om zes uur thuis.
+venir:
+  meaning: komen
+  example: Kom je naar het feest?
+oír:
+  meaning: horen
+  example: Ik hoor niet goed.
+jugar:
+  meaning: spelen
+  example: Ik speel voetbal met vrienden.
+usar:
+  meaning: gebruiken
+  example: Ik gebruik mijn mobiel voor mijn werk.
+el reloj:
+  meaning: klok, horloge
+  example: Mijn horloge staat op tafel.
+el armario:
+  meaning: kledingkast
+  example: De kleren hangen in de kast.
+el bolso:
+  meaning: handtas
+  example: Mijn handtas is klein en zwart.
+la mochila:
+  meaning: rugzak
+  example: Ik neem de rugzak mee naar het werk.
+el paraguas:
+  meaning: paraplu
+  example: Het regent vandaag; ik heb de paraplu nodig.
+las gafas:
+  meaning: bril
+  example: Ik kan mijn bril niet vinden.
+el abrigo:
+  meaning: jas
+  example: Het is koud; trek je jas aan.
+el pantalón:
+  meaning: broek
+  example: Deze broek zit erg comfortabel.
+el vestido:
+  meaning: jurk
+  example: Zij draagt een blauwe jurk.
+la falda:
+  meaning: rok
+  example: De witte rok hangt in de kast.
+la chaqueta:
+  meaning: jasje
+  example: Mijn nieuwe jasje is van wol.
+el jersey:
+  meaning: trui
+  example: Ik stop de trui in de koffer.
+el cepillo:
+  meaning: borstel
+  example: Ik gebruik de borstel twee keer per dag.
+el papel:
+  meaning: papier
+  example: Ik heb papier nodig om een brief te schrijven.
+el bolígrafo:
+  meaning: pen
+  example: Heb je een blauwe pen?
+la carpeta:
+  meaning: map
+  example: De documenten zitten in de map.
+la llamada:
+  meaning: telefoontje, oproep
+  example: Ik heb om tien uur een telefoontje.
+el cliente:
+  meaning: klant
+  example: De klant wacht op kantoor.
+la factura:
+  meaning: factuur, rekening
+  example: Ik betaal de elektriciteitsrekening.
+el recibo:
+  meaning: bonnetje, ontvangstbewijs
+  example: Ik bewaar het bonnetje van de aankoop.
+el cambio:
+  meaning: wisselgeld, verandering
+  example: Hebt u wisselgeld voor tien euro?
+la moneda:
+  meaning: munt, muntstuk
+  example: Er ligt een muntstuk op de grond.
+el sol:
+  meaning: zon
+  example: Vandaag schijnt de zon en het is warm.
+la lluvia:
+  meaning: regen
+  example: Regen is goed voor de planten.
+el viento:
+  meaning: wind
+  example: Het waait op het strand.
+la nieve:
+  meaning: sneeuw
+  example: In de winter ligt er sneeuw in de bergen.
+la mantequilla:
+  meaning: boter
+  example: Ik doe boter op het brood.
+el helado:
+  meaning: ijs, ijsje
+  example: Ik wil een chocolade-ijsje.
+el chocolate:
+  meaning: chocolade
+  example: Warme chocolade is erg lekker.
+la tarta:
+  meaning: taart
+  example: De verjaardagstaart is voor jou.
+el limón:
+  meaning: citroen
+  example: Ik doe citroen in de salade.
+la pera:
+  meaning: peer
+  example: De peer is rijp en zoet.
+la uva:
+  meaning: druif
+  example: Ik eet druiven bij het ontbijt.
+el melón:
+  meaning: meloen
+  example: De meloen is fris en zoet.
+la sandía:
+  meaning: watermeloen
+  example: In de zomer kopen we watermeloen.
+la garganta:
+  meaning: keel
+  example: Ik heb keelpijn.
+el pecho:
+  meaning: borst
+  example: Ik heb pijn op de borst.
+el cuello:
+  meaning: nek, hals
+  example: Mijn nek doet pijn.
+la sangre:
+  meaning: bloed
+  example: Bloed is rood.
+la piel:
+  meaning: huid
+  example: Bescherm de huid tegen de zon.
+el hueso:
+  meaning: bot
+  example: Het bot van de arm is gebroken.
+la rodilla:
+  meaning: knie
+  example: Mijn knie doet pijn als ik ren.
+el codo:
+  meaning: elleboog
+  example: Ik heb mijn elleboog gestoten.
+el tobillo:
+  meaning: enkel
+  example: Mijn enkel is opgezwollen.
+el lunes:
+  meaning: maandag
+  example: Maandag begin ik met werken.
+el martes:
+  meaning: dinsdag
+  example: Dinsdag heb ik een afspraak.
+el miércoles:
+  meaning: woensdag
+  example: Woensdag gaan we naar de bioscoop.
+el jueves:
+  meaning: donderdag
+  example: Donderdag is mijn vrije dag.
+el viernes:
+  meaning: vrijdag
+  example: Vrijdag eten we thuis.
+el sábado:
+  meaning: zaterdag
+  example: Zaterdag ga ik winkelen.
+el domingo:
+  meaning: zondag
+  example: Zondag rust ik thuis uit.
+la primavera:
+  meaning: lente, voorjaar
+  example: In de lente bloeien veel bloemen.
+el verano:
+  meaning: zomer
+  example: In de zomer gaan we naar het strand.
+el otoño:
+  meaning: herfst, najaar
+  example: In de herfst regent het meer.
+el invierno:
+  meaning: winter
+  example: In de winter is het erg koud.
+el norte:
+  meaning: noorden
+  example: Ik woon in het noorden.
+el sur:
+  meaning: zuiden
+  example: Ik woon in het zuiden.
+el este:
+  meaning: oosten
+  example: De zon komt op in het oosten.
+el oeste:
+  meaning: westen
+  example: De zon gaat onder in het westen.
+el nombre:
+  meaning: naam
+  example: Ik ken je naam niet.
+el libro:
+  meaning: het boek
+  example: Mijn boek ligt op tafel.
+la foto:
+  meaning: de foto
+  example: Kijk eens naar deze foto van mijn familie.
+casi:
+  meaning: bijna
+  example: Ik ontbijt bijna altijd thuis.
+el país:
+  meaning: het land
+  example: Mijn land is klein en rustig.
+el deporte:
+  meaning: de sport
+  example: Ik sport twee keer per week.
+la música:
+  meaning: de muziek
+  example: Ik hou erg van Spaanse muziek.
+la televisión:
+  meaning: de televisie
+  example: Ik kijk 's avonds televisie.
+la película:
+  meaning: de film
+  example: De film begint om acht uur.
+desayunar:
+  meaning: ontbijten
+  example: Ik ontbijt met koffie en toast.
+levantarse:
+  meaning: opstaan
+  example: Ik sta om zeven uur op.
+correr:
+  meaning: rennen, hardlopen
+  example: Ik ren elke ochtend in het park.
+despacio:
+  meaning: langzaam
+  example: Praat wat langzamer, alsjeblieft.
+alto:
+  meaning: lang, hoog
+  example: Mijn broer is erg lang.
+joven:
+  meaning: jong
+  example: Mijn leraar is vrij jong.
+viejo:
+  meaning: oud
+  example: Deze auto is oud.
+largo:
+  meaning: lang
+  example: De reis is erg lang.
+corto:
+  meaning: kort
+  example: De weg is kort en gemakkelijk.
+nervioso:
+  meaning: zenuwachtig
+  example: Ik ben zenuwachtig voor het examen.
+interesante:
+  meaning: interessant
+  example: Dit boek is erg interessant.
+bonito:
+  meaning: mooi, leuk
+  example: Je jurk is erg mooi.

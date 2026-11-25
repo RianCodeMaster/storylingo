@@ -21,6 +21,9 @@ export interface Limits {
   phrases_per_level: number;
   phrases_per_topic: number; // and per level the first of every topic
   phrases_per_day: number;
+  words_per_level: number; // the word trainer, like the phrases
+  words_per_topic: number;
+  words_per_day: number;
   reviews_per_day: number;
 }
 
@@ -36,7 +39,7 @@ export interface Product {
   free: Limits | null;
   texts: Record<string, { title: string; text: string; icon: string; perks: string[] }>;
   /** A membership: how much its target language has now, counted by sync from the content (null otherwise). */
-  counts: { stories: number; phrases: number; levels: string } | null;
+  counts: { stories: number; phrases: number; words: number; levels: string } | null;
 }
 
 export const PRODUCTS = products as Record<string, Product>;
@@ -79,13 +82,13 @@ export const plusOf = (edition: Edition) =>
 
 /**
  * A product's perks in one base language, with what a membership opens up filled in ({stories}, {phrases},
- * {levels}): the numbers come from the content, so they grow with it and are written the learner's way.
+ * {words}, {levels}): the numbers come from the content, so they grow with it and are written the learner's way.
  */
 export function perksOf(product: Product, lang: string): string[] {
   const counts = product.counts;
   const number = new Intl.NumberFormat(lang);
   return (product.texts[lang]?.perks ?? []).map((perk) =>
-    perk.replace(/\{(stories|phrases|levels)\}/g, (all, key: "stories" | "phrases" | "levels") =>
+    perk.replace(/\{(stories|phrases|words|levels)\}/g, (all, key: "stories" | "phrases" | "words" | "levels") =>
       !counts ? all : key === "levels" ? counts.levels : number.format(counts[key]),
     ),
   );

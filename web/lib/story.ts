@@ -1,5 +1,6 @@
 import { type AssetRef, assetUrl, type One, one } from "./assets";
 import type { Edition } from "./editions";
+import { NEW_ROW, schedule, SRS_COLUMNS, type SrsRow, toColumns } from "./srs";
 import { supabase } from "./supabase";
 import type { CoreWord, GlossEntry, Question, Scene, Sentence, Story, StoryCard, Target } from "./types";
 
@@ -172,7 +173,7 @@ export async function recordAnswer(sessionId: string, questionId: string, given:
 }
 
 /**
- * A tapped word is a word the learner does not know yet: log it and schedule it for review tomorrow.
+ * A tapped word is a word the learner does not know yet: log it and schedule it for review soon.
  */
 export async function recordLookup(userId: string, lexemeId: string, sceneId: string, sessionId: string | null) {
   const sb = supabase();
@@ -181,21 +182,16 @@ export async function recordLookup(userId: string, lexemeId: string, sceneId: st
     .insert({ user_id: userId, lexeme_id: lexemeId, scene_id: sceneId, session_id: sessionId });
   if (error) throw error;
 
+  // A tapped word is one the learner did not know: as if answered "again" (lib/srs.ts), so it comes back soon.
   const { data: prev, error: readError } = await sb
     .from("user_lexeme_state")
-    .select("exposures, correct, ease")
+    .select(SRS_COLUMNS)
     .eq("lexeme_id", lexemeId)
-    .maybeSingle();
+    .maybeSingle<SrsRow>();
   if (readError) throw readError;
-  const { error: writeError } = await sb.from("user_lexeme_state").upsert({
-    user_id: userId,
-    lexeme_id: lexemeId,
-    exposures: (prev?.exposures ?? 0) + 1,
-    correct: prev?.correct ?? 0,
-    ease: prev?.ease ?? 2.5,
-    interval_days: 1,
-    due_at: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
-  });
+  const { error: writeError } = await sb
+    .from("user_lexeme_state")
+    .upsert({ user_id: userId, lexeme_id: lexemeId, ...toColumns(schedule(prev ?? NEW_ROW, "again")) });
   if (writeError) throw writeError;
 }
 
@@ -213,7 +209,7 @@ export async function finishSession(sessionId: string, userId: string, results: 
 
 /**
  * Practice results (lexeme -> times seen and right) into spaced repetition: everything right pushes the next review
- * further away, a mistake brings it back tomorrow. Shared by stories and the phrases section.
+ * further away, a mistake brings it back soon (lib/srs.ts). Shared by stories and the phrases section.
  */
 export async function saveResults(userId: string, results: Results) {
   if (results.size === 0) return;
@@ -222,26 +218,21 @@ export async function saveResults(userId: string, results: Results) {
   const ids = [...results.keys()];
   const { data: existing, error: readError } = await sb
     .from("user_lexeme_state")
-    .select("lexeme_id, exposures, correct, ease, interval_days")
-    .in("lexeme_id", ids);
+    .select(`lexeme_id, ${SRS_COLUMNS}`)
+    .in("lexeme_id", ids)
+    .returns<(SrsRow & { lexeme_id: string })[]>();
   if (readError) throw readError;
   const byId = new Map(existing.map((r) => [r.lexeme_id, r]));
 
-  const DAY = 24 * 60 * 60 * 1000;
+  // One answer per item for the whole story: all right is "good", any mistake "again" (lib/srs.ts).
   const rows = ids.map((lexemeId) => {
     const r = results.get(lexemeId)!;
-    const prev = byId.get(lexemeId) ?? { exposures: 0, correct: 0, ease: 2.5, interval_days: 0 };
-    const perfect = r.correct === r.seen;
-    const ease = perfect ? Number(prev.ease) : Math.max(1.3, Number(prev.ease) - 0.2);
-    const interval = perfect ? Math.max(1, Math.round(prev.interval_days * ease)) : 1;
+    const prev = byId.get(lexemeId);
+    const row = schedule(prev ? { ...prev } : NEW_ROW, r.correct === r.seen ? "good" : "again");
     return {
       user_id: userId,
       lexeme_id: lexemeId,
-      exposures: prev.exposures + r.seen,
-      correct: prev.correct + r.correct,
-      ease,
-      interval_days: interval,
-      due_at: new Date(Date.now() + interval * DAY).toISOString(),
+      ...toColumns({ ...row, exposures: (prev?.exposures ?? 0) + r.seen, correct: (prev?.correct ?? 0) + r.correct }),
     };
   });
   const { error: writeError } = await sb.from("user_lexeme_state").upsert(rows);

@@ -21,6 +21,7 @@ import db
 import editions
 import languages
 import phrases
+import words
 from localize import count, gaps
 from mediajobs import media_jobs, phrase_jobs
 from curriculum import above, curriculum
@@ -38,6 +39,10 @@ def _texts(node, path=""):
     elif isinstance(node, dict):
         for key, value in node.items():
             yield from _texts(value, f"{path}.{key}" if path else key)
+    elif isinstance(node, list):
+        # A list of texts (the landing page's steps, questions): every item is a text of its own.
+        for i, value in enumerate(node):
+            yield from _texts(value, f"{path}[{i}]")
     else:
         yield path, node
 
@@ -191,6 +196,19 @@ def phrase_problems(bases: list[str]) -> list[str]:
     return problems
 
 
+def word_problems(bases: list[str]) -> list[str]:
+    """The word trainer of every language that has one: meanings complete, the database up to date."""
+    problems = []
+    for language in words.languages_with_words():
+        offered = [b for b in db.pair_bases(language) if b in bases]
+        problems += words.gaps(language, offered)
+        sets = words.all_sets(language)
+        meanings = {b: words.meanings(language, b) for b in offered}
+        if sets and (changes := db.sync_words(language, sets, meanings, dry_run=True)):
+            problems.append(f"{language}: database differs ({', '.join(changes)})  (fix: storylingo.py sync)")
+    return problems
+
+
 def check(base: str | None = None) -> bool:
     """Print every problem per area; True when there are none."""
     areas: dict[str, list[str]] = {}
@@ -223,6 +241,7 @@ def check(base: str | None = None) -> bool:
     areas["database"] = drift + [f"[{b}] {p}" for b in bases for p in db.base_gaps(b)]
     areas["media"] = [p for doc in stories for p in media_gaps(doc)]
     areas["phrases"] = phrase_problems(bases)
+    areas["words"] = word_problems(bases)
 
     for area, problems in areas.items():
         print(f"{'✓' if not problems else '✗'} {area}" + (f": {len(problems)} problem(s)" if problems else ""))

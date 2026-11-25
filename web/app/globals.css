@@ -1310,3 +1310,8 @@ button.secondary:hover { border-color: var(--primary); }
 .faq p { margin-top: 8px; color: var(--muted); line-height: 1.5; }
 .landing-editions { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border); padding-top: 16px; }
 .landing-editions a:hover strong { color: var(--primary); }
+
+/* The word trainer's example sentence, under the answer: the word in a sentence, and that sentence in your language. */
+.word-example { display: flex; flex-direction: column; gap: 4px; margin-top: 12px; padding-top: 10px;
+  border-top: 1px solid var(--border); text-align: center; line-height: 1.45; }
+.waiting { display: flex; flex-direction: column; gap: 10px; text-align: center; }

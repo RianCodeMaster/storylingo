@@ -185,6 +185,23 @@
     "allTopics": "All",
     "topicsLabel": "Topics"
   },
+  "vocab": {
+    "title": "Vocabulary",
+    "intro": "The key words of your level, each with an example sentence. Learn them ten at a time; then they come back in your review, together with the words from the stories.",
+    "progress": "{learned} of {total} learned",
+    "learn": "Learn 10 new words",
+    "allLearned": "You have practised every word of this level.",
+    "card": "Word {n} of {total}",
+    "hint": "Listen and read. What does it mean? Think first, then look.",
+    "done": "These words will come back in your review.",
+    "more": "10 more",
+    "back": "← Back to vocabulary",
+    "homeHint": "{learned} of {total} at {level}",
+    "understand": "👂 Understand",
+    "say": "🗣️ Say",
+    "sayHint": "How do you say this? Say it out loud, then look.",
+    "showAnswer": "Show answer"
+  },
   "word": {
     "meaningOf": "Meaning of {word}",
     "speak": "Pronounce",
@@ -193,15 +210,22 @@
   "review": {
     "title": "Review",
     "loading": "Loading review…",
-    "nothing": "Nothing to review today 🎉",
-    "nothingHint": "Words you look up or answer wrong in a story come back here by themselves.",
+    "nothing": "Nothing to review right now 🎉",
+    "nothingHint": "What you learn in stories, phrases and vocabulary comes back here by itself, just before you would forget it. Meanwhile, learn something new:",
     "done": "Done! 🎉",
     "tally": "{good} known · {hard} unsure · {again} not yet",
-    "doneHint": "What you knew comes back in a few days. What you didn't know, tomorrow.",
+    "doneHint": "What you knew comes back in a few days. What you didn't know comes by again in a few minutes.",
     "reveal": "Show meaning",
     "again": "Didn't know",
     "hard": "Unsure",
-    "good": "Knew it"
+    "good": "Knew it",
+    "wait": "A short wait: this card comes back in {time}.",
+    "waitWhy": "Repeating right away only tests what you just saw. After a short pause, you really remember it.",
+    "stopNow": "Stop, review later",
+    "first": "First review {n} words that are due today",
+    "manyNew": "You've already learned {n} new ones today. More is fine, but every new card comes back in your review over the next days.",
+    "learnWords": "📚 Learn new words",
+    "learnPhrases": "💬 Learn new phrases"
   },
   "nav": {
     "home": "To the start",
@@ -209,7 +233,7 @@
   },
   "tiles": {
     "stories": "Stories",
-    "words": "Words",
+    "words": "Review",
     "count": "{done} of {total}",
     "due": {
       "one": "{n} to review",
@@ -267,6 +291,8 @@
     "lockedLevel": "The other stories of this level are in Plus.",
     "phrasesToday": "Today's {n} new phrases are done. Another {n} tomorrow, or unlimited with Plus.",
     "phrasesLevel": "The first {free} phrases of this level are free. With Plus you get all {total}.",
+    "wordsToday": "You've had your {n} new words for today. {n} more tomorrow, or unlimited with Plus.",
+    "wordsLevel": "The first {free} words of this level are free. With Plus you get all {total}.",
     "reviewsToday": "You reviewed {n} words today, the most without Plus. Carry on tomorrow, or unlimited with Plus.",
     "afterStory": "Well done! With Plus you get every story and no daily limit.",
     "perMonthOf": "{price} per month",

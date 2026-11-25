@@ -1,14 +1,16 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { tierOf, usageToday } from "@/lib/plus";
 import { ownedProducts, type Product } from "@/lib/products";
-import { type Grade, loadDue, nextState, type ReviewCard, saveGrade } from "@/lib/review";
+import { type Grade, loadDue, type ReviewCard } from "@/lib/review";
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner } from "@/lib/supabase";
 import TopBar from "./TopBar";
 import { Upsell } from "./Upsell";
+import { useRound } from "./useRound";
 
 /** The three answers to "did you know it?", shared with the phrases section. */
 export const GRADES: { grade: Grade; className: string }[] = [
@@ -16,6 +18,23 @@ export const GRADES: { grade: Grade; className: string }[] = [
   { grade: "hard", className: "" },
   { grade: "good", className: "correct" },
 ];
+
+/**
+ * The pause in a round when the only cards left are ones that came back and are not due yet: a short countdown (it
+ * goes on by itself), or stop now and meet them in the review later. Shared with the phrases and words.
+ */
+export function Waiting({ ms, onStop }: { ms: number; onStop: () => void }) {
+  const { dict, fill } = useI18n();
+  const s = Math.max(0, Math.ceil(ms / 1000));
+  const time = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+  return (
+    <div className="card waiting">
+      <p className="story-text">⏳ {fill(dict.review.wait, { time })}</p>
+      <p className="muted">{dict.review.waitWhy}</p>
+      <button onClick={onStop}>{dict.review.stopNow}</button>
+    </div>
+  );
+}
 
 /** The story sentence with the reviewed word in bold. */
 function Context({ card }: { card: ReviewCard }) {
@@ -35,26 +54,25 @@ function Context({ card }: { card: ReviewCard }) {
 export default function Review() {
   const { lang, dict, fill, edition } = useI18n();
   const [userId, setUserId] = useState<string | null>(null);
-  const [queue, setQueue] = useState<ReviewCard[] | null>(null);
-  const [index, setIndex] = useState(0);
+  const [cards, setCards] = useState<ReviewCard[] | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [tally, setTally] = useState({ again: 0, hard: 0, good: 0 });
-  const [error, setError] = useState<string | null>(null);
+  const [stopped, setStopped] = useState(false);
+  const [loadError, setLoadError] = useState<string | null>(null);
   // Without Plus a few cards a day; what is due beyond that waits for tomorrow (or Plus).
   const [capped, setCapped] = useState<{ plus: Product | null; n: number } | null>(null);
+  const round = useRound(cards, userId);
+  const card = round.current;
 
   useEffect(() => {
     (async () => {
       setUserId(await ensureLearner(lang));
-      const [due, owned, today] = await Promise.all([loadDue(lang, edition.target), ownedProducts(), usageToday()]);
+      const [due, owned, today] = await Promise.all([loadDue(lang, edition.target), ownedProducts(), usageToday(edition.target)]);
       const tier = tierOf(edition, owned);
       const left = tier.limits ? Math.max(0, tier.limits.reviews_per_day - today.reviews) : due.length;
       if (due.length > left) setCapped({ plus: tier.plus, n: tier.limits?.reviews_per_day ?? 0 });
-      setQueue(due.slice(0, left));
-    })().catch((e) => setError(String(e.message ?? e)));
+      setCards(due.slice(0, left));
+    })().catch((e) => setLoadError(String(e.message ?? e)));
   }, [lang, edition]);
-
-  const card = queue?.[index];
 
   // Hear each word as it appears, before seeing its meaning.
   useEffect(() => {
@@ -63,24 +81,26 @@ export default function Review() {
   }, [card]);
 
   function answer(grade: Grade) {
-    if (!card || !userId) return;
-    const next = nextState(card, grade);
-    saveGrade(userId, card, grade, next).catch((e) => setError(e.message));
-    setTally((t) => ({ ...t, [grade]: t[grade] + 1 }));
-    // A word you did not know comes back once more at the end of this round, with its updated state.
-    if (grade === "again") setQueue((q) => [...q!, { ...card, ...next }]);
+    round.answer(grade);
     setRevealed(false);
-    setIndex((i) => i + 1);
   }
 
   const bar = <TopBar title={dict.tiles.words} />;
+  const error = loadError ?? round.error;
 
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
-  if (!queue) return <main><p className="muted">{dict.review.loading}</p></main>;
+  if (!cards) return <main><p className="muted">{dict.review.loading}</p></main>;
 
   const capNote = capped && <Upsell plus={capped.plus} line={fill(dict.plus.reviewsToday, { n: capped.n })} />;
+  // Nothing (more) due is never a dead end: learning something new is always one tap away.
+  const learnNew = (
+    <div className="row">
+      <Link className="cta" href={`/${edition.slug}/words`}>{dict.review.learnWords}</Link>
+      <Link className="cta" href={`/${edition.slug}/phrases`}>{dict.review.learnPhrases}</Link>
+    </div>
+  );
 
-  if (queue.length === 0) {
+  if (cards.length === 0) {
     return (
       <main>
         {bar}
@@ -90,6 +110,22 @@ export default function Review() {
             <p className="muted">{dict.review.nothingHint}</p>
           </div>
         )}
+        {learnNew}
+      </main>
+    );
+  }
+
+  if (round.done || stopped) {
+    return (
+      <main>
+        {bar}
+        <h2>{dict.review.done}</h2>
+        <div className="card">
+          <p className="story-text">{fill(dict.review.tally, round.tally)}</p>
+          <p className="muted">{dict.review.doneHint}</p>
+        </div>
+        {capNote}
+        {learnNew}
       </main>
     );
   }
@@ -98,24 +134,20 @@ export default function Review() {
     return (
       <main>
         {bar}
-        <h2>{dict.review.done}</h2>
-        <div className="card">
-          <p className="story-text">{fill(dict.review.tally, tally)}</p>
-          <p className="muted">{dict.review.doneHint}</p>
-        </div>
-        {capNote}
+        <Waiting ms={round.waiting ?? 0} onStop={() => setStopped(true)} />
       </main>
     );
   }
 
+  const total = round.answered + round.left;
   return (
     <main>
       {bar}
       <div className="progress">
-        <div style={{ width: `${(index / queue.length) * 100}%` }} />
+        <div style={{ width: `${(round.answered / total) * 100}%` }} />
       </div>
       <span className="badge">
-        {index + 1} / {queue.length}
+        {round.answered + 1} / {total}
       </span>
       <div className="card review-card">
         <p className="review-word" dir="ltr">

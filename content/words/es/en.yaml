@@ -1,0 +1,1502 @@
+# What each word means for learners with this base language, and its example sentence translated. Made by
+# `storylingo.py localize-words`; corrections by hand are welcome (then: storylingo.py sync).
+ser:
+  meaning: to be
+  example: I am a student.
+estar:
+  meaning: to be (state)
+  example: I am at home.
+tener:
+  meaning: to have
+  example: I have two brothers.
+hacer:
+  meaning: to do, to make
+  example: Today I'm making the food.
+ir:
+  meaning: to go
+  example: I'm going to work.
+poder:
+  meaning: can, to be able
+  example: I can't go today.
+querer:
+  meaning: to want
+  example: I want a coffee.
+decir:
+  meaning: to say, to tell
+  example: I don't know what to say.
+saber:
+  meaning: to know
+  example: I don't know the answer.
+ver:
+  meaning: to see
+  example: I watch television.
+comer:
+  meaning: to eat
+  example: I eat fruit every day.
+beber:
+  meaning: to drink
+  example: I drink water every day.
+vivir:
+  meaning: to live
+  example: I live in a flat.
+trabajar:
+  meaning: to work
+  example: I work in a shop.
+hablar:
+  meaning: to speak, to talk
+  example: I speak a little Spanish.
+comprar:
+  meaning: to buy
+  example: I buy bread at the shop.
+necesitar:
+  meaning: to need
+  example: I need help.
+gustar:
+  meaning: to like
+  example: I like coffee.
+"y":
+  meaning: and
+  example: I eat bread and cheese.
+o:
+  meaning: or
+  example: Do you want tea or coffee?
+pero:
+  meaning: but
+  example: I want to go, but I can't.
+porque:
+  meaning: because
+  example: I'm not going because I'm tired.
+que:
+  meaning: that
+  example: I think that it's true.
+de:
+  meaning: of, from
+  example: I come from home.
+en:
+  meaning: in, on
+  example: I live in a small house.
+a:
+  meaning: to
+  example: I'm going home.
+con:
+  meaning: with
+  example: I'm going with my friend.
+por:
+  meaning: by, through
+  example: I pass through the park.
+para:
+  meaning: for, in order to
+  example: This gift is for you.
+"no":
+  meaning: no, not
+  example: I don't want coffee, thanks.
+sí:
+  meaning: "yes"
+  example: Yes, I want a coffee.
+muy:
+  meaning: very
+  example: The house is very big.
+más:
+  meaning: more
+  example: I want more water, please.
+también:
+  meaning: also, too
+  example: I also live here.
+el agua:
+  meaning: water
+  example: I drink the water from the bottle.
+la casa:
+  meaning: house
+  example: My house is near the park.
+la comida:
+  meaning: food, meal
+  example: The food is very good.
+el dinero:
+  meaning: money
+  example: I don't have much money today.
+el trabajo:
+  meaning: work, job
+  example: My job starts at nine.
+la tienda:
+  meaning: shop, store
+  example: The shop opens in the morning.
+el médico:
+  meaning: doctor
+  example: The doctor works in the hospital.
+la salud:
+  meaning: health
+  example: Health is very important.
+la familia:
+  meaning: family
+  example: My family lives nearby.
+el amigo:
+  meaning: friend
+  example: My friend lives on my street.
+el tiempo:
+  meaning: time, weather
+  example: I don't have time today.
+el día:
+  meaning: day
+  example: The day is very long.
+la hora:
+  meaning: hour, time
+  example: What time is it now?
+hoy:
+  meaning: today
+  example: Today I'm working from home.
+mañana:
+  meaning: tomorrow, morning
+  example: Tomorrow I'm going to work.
+ahora:
+  meaning: now
+  example: I can't talk now.
+el coche:
+  meaning: car
+  example: The car is in the street.
+el autobús:
+  meaning: bus
+  example: I'm waiting for the bus at the stop.
+el tren:
+  meaning: train
+  example: The train arrives at eight.
+la estación:
+  meaning: station
+  example: The station is near home.
+el billete:
+  meaning: ticket
+  example: I'm buying a train ticket.
+la oficina:
+  meaning: office
+  example: I work in a small office.
+el restaurante:
+  meaning: restaurant
+  example: We're eating at the restaurant today.
+la cuenta:
+  meaning: bill, check
+  example: The bill, please.
+bien:
+  meaning: well, fine
+  example: Today I am very well.
+mal:
+  meaning: badly, bad
+  example: I don't feel bad.
+el hombre:
+  meaning: man
+  example: That man is my neighbor.
+la mujer:
+  meaning: woman
+  example: The woman works at the bank.
+el niño:
+  meaning: boy, child
+  example: The boy is playing in the street.
+la niña:
+  meaning: girl
+  example: The girl is reading a book.
+la gente:
+  meaning: people
+  example: There are many people in the street.
+algo:
+  meaning: something
+  example: Do you want something to drink?
+nada:
+  meaning: nothing
+  example: I don't need anything, thanks.
+todo:
+  meaning: everything, all
+  example: Everything is fine, thanks.
+mucho:
+  meaning: a lot, much
+  example: I'm working a lot this week.
+poco:
+  meaning: little, few
+  example: I have little time today.
+aquí:
+  meaning: here
+  example: You can wait here.
+allí:
+  meaning: there
+  example: The pharmacy is there.
+cerca:
+  meaning: near
+  example: The bank is near here.
+lejos:
+  meaning: far
+  example: The beach is far.
+siempre:
+  meaning: always
+  example: I always have coffee with milk for breakfast.
+abrir:
+  meaning: open
+  example: Can you open the window?
+cerrar:
+  meaning: close
+  example: I'm going to close the door.
+entrar:
+  meaning: enter, go in
+  example: Enter the office, please.
+salir:
+  meaning: go out, leave
+  example: I leave home in the morning.
+llegar:
+  meaning: arrive
+  example: I arrive at work by metro.
+esperar:
+  meaning: wait
+  example: Wait here a moment.
+ayudar:
+  meaning: help
+  example: Can you help me, please?
+entender:
+  meaning: understand
+  example: I don't understand this word.
+aprender:
+  meaning: learn
+  example: I want to learn Spanish.
+leer:
+  meaning: read
+  example: I like to read the newspaper.
+escribir:
+  meaning: write
+  example: I'm writing an email to my boss.
+pagar:
+  meaning: pay
+  example: I'm going to pay by card.
+contento:
+  meaning: happy, pleased
+  example: I'm happy with my job.
+triste:
+  meaning: sad
+  example: My friend is sad today.
+cansado:
+  meaning: tired
+  example: I'm tired after work.
+el supermercado:
+  meaning: supermarket
+  example: I buy the food at the supermarket.
+el pan:
+  meaning: bread
+  example: I buy bread at the supermarket.
+la leche:
+  meaning: milk
+  example: I drink milk in the morning.
+el café:
+  meaning: coffee
+  example: I have coffee with milk.
+la fruta:
+  meaning: fruit
+  example: I eat fruit every day.
+el precio:
+  meaning: price
+  example: The price is very high.
+la tarjeta:
+  meaning: card
+  example: I'll pay by card, please.
+la mesa:
+  meaning: table
+  example: Set the table, please.
+la cama:
+  meaning: bed
+  example: My bed is very big.
+la puerta:
+  meaning: door
+  example: Close the door, please.
+la ventana:
+  meaning: window
+  example: Open the window; it's hot.
+el baño:
+  meaning: bathroom
+  example: The bathroom is there.
+la llave:
+  meaning: key
+  example: Give me the house key.
+el avión:
+  meaning: plane
+  example: The plane leaves now.
+el aeropuerto:
+  meaning: airport
+  example: I'm going to the airport by taxi.
+la parada:
+  meaning: stop
+  example: The bus stop is near.
+el metro:
+  meaning: metro, subway
+  example: I go to work by metro.
+la maleta:
+  meaning: suitcase
+  example: My suitcase is very heavy.
+el hotel:
+  meaning: hotel
+  example: The hotel is near the beach.
+el jefe:
+  meaning: boss
+  example: My boss works in the office.
+el correo:
+  meaning: mail, email
+  example: I'm writing an email to my boss.
+el horario:
+  meaning: schedule, timetable
+  example: Look at the office schedule.
+la cabeza:
+  meaning: head
+  example: My head hurts.
+la mano:
+  meaning: hand
+  example: Wash your hands, please.
+la medicina:
+  meaning: medicine
+  example: I take the medicine in the morning.
+enfermo:
+  meaning: sick, ill
+  example: My son is sick today.
+la semana:
+  meaning: week
+  example: I work every day of the week.
+el mes:
+  meaning: month
+  example: I'm working a lot this month.
+el año:
+  meaning: year
+  example: I have vacation this year.
+la tarde:
+  meaning: afternoon
+  example: In the afternoon I read a book.
+hola:
+  meaning: hello
+  example: Hello, how are you?
+gracias:
+  meaning: thank you
+  example: Thank you very much for the help.
+adiós:
+  meaning: goodbye
+  example: Goodbye, see you tomorrow.
+perdón:
+  meaning: sorry
+  example: Sorry, I don't understand.
+yo:
+  meaning: I
+  example: I live in a flat.
+tú:
+  meaning: you
+  example: You work in an office.
+él:
+  meaning: he
+  example: He is my brother.
+ella:
+  meaning: she
+  example: She eats at home.
+nosotros:
+  meaning: we
+  example: We are going to the cinema.
+usted:
+  meaning: you formal
+  example: Do you need help?
+mi:
+  meaning: my
+  example: My house is small.
+tu:
+  meaning: your
+  example: Your book is on the table.
+su:
+  meaning: his, her, your
+  example: His car is new.
+cuándo:
+  meaning: when
+  example: When do you get home?
+cómo:
+  meaning: how
+  example: How are you today?
+dónde:
+  meaning: where
+  example: Where is the pharmacy?
+sin:
+  meaning: without
+  example: A coffee without sugar, please.
+sobre:
+  meaning: on, about
+  example: The book is on the table.
+entre:
+  meaning: between
+  example: The pharmacy is between two shops.
+hasta:
+  meaning: until
+  example: I work until five.
+desde:
+  meaning: from, since
+  example: I have lived here since last year.
+antes:
+  meaning: before
+  example: Before eating, I wash my hands.
+después:
+  meaning: after
+  example: After work, I go home.
+luego:
+  meaning: then
+  example: First I study, then I have dinner.
+ya:
+  meaning: already
+  example: I'm already at home.
+nunca:
+  meaning: never
+  example: I never drink coffee at night.
+la madre:
+  meaning: mother
+  example: My mother works at home.
+el padre:
+  meaning: father
+  example: My father eats at home.
+el hermano:
+  meaning: brother
+  example: My brother lives in another city.
+la hermana:
+  meaning: sister
+  example: My sister studies Spanish.
+el hijo:
+  meaning: son
+  example: Her son is three years old.
+la hija:
+  meaning: daughter
+  example: My daughter goes to school.
+feliz:
+  meaning: happy
+  example: I am very happy today.
+enfadado:
+  meaning: angry
+  example: My father is angry with me.
+la habitación:
+  meaning: room
+  example: The room has a bed.
+la cocina:
+  meaning: kitchen
+  example: The kitchen is small but clean.
+la silla:
+  meaning: chair
+  example: The chair is next to the table.
+la nevera:
+  meaning: fridge
+  example: The milk is in the fridge.
+el salón:
+  meaning: living room
+  example: The living room has a big window.
+la carne:
+  meaning: meat
+  example: I don't eat meat on Fridays.
+el pescado:
+  meaning: fish
+  example: The fish is very good.
+el pollo:
+  meaning: chicken
+  example: We have chicken with potatoes for dinner.
+el huevo:
+  meaning: egg
+  example: I have an egg for breakfast every morning.
+la verdura:
+  meaning: vegetables
+  example: I buy vegetables at the market.
+la patata:
+  meaning: potato
+  example: The potato is cheap.
+la manzana:
+  meaning: apple
+  example: I have an apple for dessert.
+el zapato:
+  meaning: shoe
+  example: This shoe is very expensive.
+la camisa:
+  meaning: shirt
+  example: The shirt is very nice.
+el viaje:
+  meaning: trip
+  example: The trip to the beach is long.
+el pasaporte:
+  meaning: passport
+  example: I need my passport for the flight.
+la salida:
+  meaning: exit, departure
+  example: The train's departure is at six.
+el ordenador:
+  meaning: computer
+  example: My computer is in the office.
+la carta:
+  meaning: letter
+  example: I am writing a letter to my brother.
+la dirección:
+  meaning: address
+  example: Write your address here, please.
+la farmacia:
+  meaning: pharmacy
+  example: The pharmacy opens at nine.
+el dolor:
+  meaning: pain
+  example: I have a headache.
+la fiebre:
+  meaning: fever
+  example: The child has a fever.
+el brazo:
+  meaning: arm
+  example: My arm hurts.
+la pierna:
+  meaning: leg
+  example: My leg hurts.
+el pie:
+  meaning: foot
+  example: My feet hurt.
+este:
+  meaning: this
+  example: This book is very good.
+otro:
+  meaning: other, another
+  example: I want another coffee, please.
+cada:
+  meaning: each, every
+  example: I eat fruit every day.
+tomar:
+  meaning: take, drink
+  example: I drink coffee with milk.
+dar:
+  meaning: give
+  example: Give me the bread, please.
+mirar:
+  meaning: look
+  example: Look at the door, please.
+buscar:
+  meaning: look for
+  example: I'm looking for the key on the table.
+encontrar:
+  meaning: find
+  example: I can't find my ticket.
+llevar:
+  meaning: wear, carry
+  example: I'm wearing a white shirt.
+poner:
+  meaning: put
+  example: I'm setting the table for dinner.
+escuchar:
+  meaning: listen
+  example: I listen to music on the bus.
+estudiar:
+  meaning: study
+  example: I study Spanish every day.
+dormir:
+  meaning: sleep
+  example: I sleep eight hours every night.
+alguien:
+  meaning: someone
+  example: Someone is knocking at the door.
+nadie:
+  meaning: nobody
+  example: There's nobody at home.
+pronto:
+  meaning: soon
+  example: I'll be home soon.
+temprano:
+  meaning: early
+  example: I get up early on Mondays.
+tampoco:
+  meaning: neither
+  example: I don't want coffee either.
+la calle:
+  meaning: street
+  example: I live on a small street.
+el piso:
+  meaning: flat, apartment
+  example: My flat is in the centre.
+la luz:
+  meaning: light
+  example: Turn off the light, please.
+el vecino:
+  meaning: neighbour
+  example: The neighbour is very nice.
+el dormitorio:
+  meaning: bedroom
+  example: My bedroom is small and clean.
+la escalera:
+  meaning: stairs
+  example: I go up the stairs.
+el ascensor:
+  meaning: lift, elevator
+  example: The lift isn't working today.
+el balcón:
+  meaning: balcony
+  example: I have breakfast on the balcony.
+el perro:
+  meaning: dog
+  example: The dog is playing in the park.
+el gato:
+  meaning: cat
+  example: My cat sleeps on the bed.
+el abuelo:
+  meaning: grandfather
+  example: My grandfather lives with us.
+la abuela:
+  meaning: grandmother
+  example: My grandmother cooks very well.
+la fiesta:
+  meaning: party
+  example: There's a party at my house.
+el regalo:
+  meaning: gift, present
+  example: This gift is for you.
+el amor:
+  meaning: love
+  example: Love is important in life.
+el miedo:
+  meaning: fear
+  example: I'm afraid of dogs.
+el arroz:
+  meaning: rice
+  example: I cook rice with chicken.
+el queso:
+  meaning: cheese
+  example: I eat cheese for breakfast.
+el tomate:
+  meaning: tomato
+  example: I put tomato in the salad.
+la ensalada:
+  meaning: salad
+  example: The salad has tomato and salt.
+el zumo:
+  meaning: juice
+  example: I drink orange juice.
+el vaso:
+  meaning: glass
+  example: A glass of water, please.
+el mercado:
+  meaning: market
+  example: I buy fruit at the market.
+la ropa:
+  meaning: clothes
+  example: The clothes are in the suitcase.
+el hospital:
+  meaning: hospital
+  example: My mother is in hospital.
+la pastilla:
+  meaning: pill, tablet
+  example: I take a pill in the morning.
+la tos:
+  meaning: cough
+  example: I have a cough and a fever.
+la gripe:
+  meaning: flu
+  example: I have the flu this week.
+la cita:
+  meaning: appointment
+  example: I have an appointment with the doctor.
+el documento:
+  meaning: document
+  example: I need a document for the trip.
+el formulario:
+  meaning: form
+  example: I fill in the form with a pen.
+la firma:
+  meaning: signature
+  example: I put my signature here.
+el contrato:
+  meaning: contract
+  example: I sign the work contract.
+la empresa:
+  meaning: company
+  example: I work at a small company.
+la playa:
+  meaning: beach
+  example: We go to the beach in summer.
+el mapa:
+  meaning: map
+  example: I look at the map in the hotel.
+el taxi:
+  meaning: taxi
+  example: I go to the centre by taxi.
+la bici:
+  meaning: bike
+  example: I go to work by bike.
+grande:
+  meaning: big
+  example: My house is big and new.
+pequeño:
+  meaning: small
+  example: The dog is small and white.
+nuevo:
+  meaning: new
+  example: I have a new mobile phone.
+caro:
+  meaning: expensive
+  example: This restaurant is very expensive.
+el teléfono:
+  meaning: telephone, phone
+  example: My phone is on the table.
+el móvil:
+  meaning: mobile phone, cell phone
+  example: I use my mobile phone to make calls.
+la noche:
+  meaning: night
+  example: At night I read a bit.
+la persona:
+  meaning: person
+  example: That person is very kind.
+el chico:
+  meaning: boy
+  example: The boy lives nearby.
+la chica:
+  meaning: girl
+  example: The girl works in the shop.
+el profesor:
+  meaning: teacher
+  example: The teacher speaks slowly.
+el estudiante:
+  meaning: student
+  example: The student reads in class.
+la ciudad:
+  meaning: city
+  example: My city is very big.
+el pueblo:
+  meaning: town, village
+  example: My town is small and quiet.
+el parque:
+  meaning: park
+  example: The children play in the park.
+el banco:
+  meaning: bank, bench
+  example: I have money in the bank.
+la bolsa:
+  meaning: bag
+  example: The bag is on the chair.
+barato:
+  meaning: cheap
+  example: This coffee is very cheap.
+abierto:
+  meaning: open
+  example: The bank is open.
+cerrado:
+  meaning: closed
+  example: The bar is closed today.
+limpio:
+  meaning: clean
+  example: The bathroom is very clean.
+sucio:
+  meaning: dirty
+  example: The floor is dirty.
+rápido:
+  meaning: fast, quick
+  example: The train is very fast.
+lento:
+  meaning: slow
+  example: The bus goes very slowly.
+fácil:
+  meaning: easy
+  example: This exercise is very easy.
+difícil:
+  meaning: difficult, hard
+  example: The exam is difficult.
+frío:
+  meaning: cold
+  example: The coffee is cold.
+caliente:
+  meaning: hot
+  example: The soup is very hot.
+el desayuno:
+  meaning: breakfast
+  example: Breakfast is at eight.
+la cena:
+  meaning: dinner, supper
+  example: Dinner is on the table.
+la bebida:
+  meaning: drink, beverage
+  example: The drink is in the fridge.
+cocinar:
+  meaning: to cook
+  example: I like to cook on Sundays.
+limpiar:
+  meaning: to clean
+  example: I clean the kitchen every day.
+lavar:
+  meaning: to wash
+  example: I wash the clothes on Saturdays.
+empezar:
+  meaning: to start, to begin
+  example: The class starts at ten.
+terminar:
+  meaning: to finish, to end
+  example: Work finishes at six.
+preguntar:
+  meaning: to ask
+  example: I ask the teacher.
+llamar:
+  meaning: to call
+  example: I'm going to call the doctor.
+contestar:
+  meaning: to answer, to reply
+  example: I don't answer the phone.
+pensar:
+  meaning: to think
+  example: I'm thinking about my holidays.
+creer:
+  meaning: to believe, to think
+  example: I think so.
+conocer:
+  meaning: to know, to meet
+  example: I know your sister.
+visitar:
+  meaning: to visit
+  example: I'm going to visit my mother.
+viajar:
+  meaning: to travel
+  example: I like to travel by train.
+caminar:
+  meaning: to walk
+  example: We walk in the park.
+subir:
+  meaning: to go up, to climb
+  example: I go up the stairs.
+bajar:
+  meaning: to go down, to get off
+  example: I go down to the supermarket.
+menos:
+  meaning: less, fewer
+  example: I want less sugar.
+entonces:
+  meaning: then, so
+  example: Then, let's go home.
+si:
+  meaning: if
+  example: If it rains, we don't go out.
+cuando:
+  meaning: when
+  example: When I arrive, I have dinner.
+como:
+  meaning: as, like
+  example: I speak like my father.
+el ojo:
+  meaning: eye
+  example: My eye hurts.
+la boca:
+  meaning: mouth
+  example: Open your mouth, please.
+la nariz:
+  meaning: nose
+  example: I have a blocked nose.
+el diente:
+  meaning: tooth
+  example: I have a toothache.
+la cara:
+  meaning: face
+  example: Wash your face.
+el estómago:
+  meaning: stomach
+  example: My stomach hurts.
+el pelo:
+  meaning: hair
+  example: I have short hair.
+el minuto:
+  meaning: minute
+  example: Wait a minute.
+el cumpleaños:
+  meaning: birthday
+  example: My birthday is in May.
+las vacaciones:
+  meaning: holidays, vacation
+  example: I'm on holiday this week.
+el mar:
+  meaning: sea
+  example: The sea is calm today.
+la montaña:
+  meaning: mountain
+  example: We're going to the mountains.
+ni:
+  meaning: nor, neither
+  example: I don't want coffee or tea.
+claro:
+  meaning: of course, clear
+  example: Of course, you can come with me.
+vale:
+  meaning: okay
+  example: Okay, see you at six.
+bueno:
+  meaning: well, okay
+  example: Well, I'll go with you.
+solo:
+  meaning: only, alone
+  example: I only want a glass of water.
+quizás:
+  meaning: maybe
+  example: Maybe I'll come tomorrow.
+la botella:
+  meaning: bottle
+  example: A bottle of water, please.
+el plato:
+  meaning: plate, dish
+  example: The plate is on the table.
+la taza:
+  meaning: cup
+  example: I want a cup of coffee.
+el tenedor:
+  meaning: fork
+  example: The fork is on the right.
+la cuchara:
+  meaning: spoon
+  example: The spoon is for the soup.
+el cuchillo:
+  meaning: knife
+  example: Cut the bread with the knife.
+el azúcar:
+  meaning: sugar
+  example: I put sugar in the coffee.
+la sal:
+  meaning: salt
+  example: The soup needs more salt.
+el aceite:
+  meaning: oil
+  example: I cook with olive oil.
+la naranja:
+  meaning: orange
+  example: I eat an orange every day.
+el plátano:
+  meaning: banana
+  example: The banana is a fruit.
+la cebolla:
+  meaning: onion
+  example: The onion makes me cry.
+la cerveza:
+  meaning: beer
+  example: A cold beer, please.
+el vino:
+  meaning: wine
+  example: I drink red wine at dinner.
+el té:
+  meaning: tea
+  example: I prefer tea with lemon.
+el sofá:
+  meaning: sofa
+  example: The sofa is in the living room.
+la lámpara:
+  meaning: lamp
+  example: The lamp is next to the bed.
+la pared:
+  meaning: wall
+  example: There is a picture on the wall.
+el suelo:
+  meaning: floor, ground
+  example: The kitchen floor is clean.
+el techo:
+  meaning: ceiling, roof
+  example: The lamp hangs from the ceiling.
+el jardín:
+  meaning: garden
+  example: The children are playing in the garden.
+el espejo:
+  meaning: mirror
+  example: I look at myself in the mirror.
+la toalla:
+  meaning: towel
+  example: The towel is in the bathroom.
+el jabón:
+  meaning: soap
+  example: There is no soap in the bathroom.
+la ducha:
+  meaning: shower
+  example: The shower is very hot.
+el ruido:
+  meaning: noise
+  example: The street noise is loud.
+el señor:
+  meaning: man, Mr
+  example: The man is very kind.
+la señora:
+  meaning: woman, Mrs
+  example: The woman is talking to my mother.
+el bebé:
+  meaning: baby
+  example: The baby is sleeping in his bed.
+el primo:
+  meaning: cousin (m)
+  example: My cousin is ten years old.
+la prima:
+  meaning: cousin (f)
+  example: My cousin studies at university.
+el tío:
+  meaning: uncle
+  example: My uncle works at a bank.
+la tía:
+  meaning: aunt
+  example: My aunt cooks very well.
+la reunión:
+  meaning: meeting
+  example: The meeting is at ten.
+el compañero:
+  meaning: colleague, mate
+  example: My colleague works in the office.
+el sueldo:
+  meaning: salary
+  example: The salary is low this month.
+la espalda:
+  meaning: back
+  example: My back hurts.
+el dedo:
+  meaning: finger
+  example: My finger hurts.
+la oreja:
+  meaning: ear
+  example: My right ear hurts.
+el corazón:
+  meaning: heart
+  example: My heart hurts.
+la receta:
+  meaning: prescription, recipe
+  example: The doctor gives me a prescription.
+la alergia:
+  meaning: allergy
+  example: I am allergic to pollen.
+la entrada:
+  meaning: ticket, entrance
+  example: The museum entrance is free.
+el andén:
+  meaning: platform
+  example: The train leaves from platform two.
+el vuelo:
+  meaning: flight
+  example: The flight leaves at eight.
+el asiento:
+  meaning: seat
+  example: My seat is next to the window.
+la llegada:
+  meaning: arrival
+  example: The train's arrival is at two.
+el retraso:
+  meaning: delay
+  example: The flight has a one-hour delay.
+el barco:
+  meaning: boat, ship
+  example: The boat goes to the islands.
+la moto:
+  meaning: motorbike
+  example: I go to work by motorbike.
+la gasolina:
+  meaning: petrol
+  example: Petrol is very expensive.
+el aparcamiento:
+  meaning: parking
+  example: There is no space in the parking lot.
+la policía:
+  meaning: police
+  example: The police are on the street.
+el permiso:
+  meaning: permit, licence
+  example: I need a work permit.
+cuánto:
+  meaning: how much
+  example: How much is the bread?
+quién:
+  meaning: who
+  example: Who is the boss?
+cuál:
+  meaning: which, what
+  example: What is your address?
+ese:
+  meaning: that
+  example: That bus goes to the city centre.
+nuestro:
+  meaning: our
+  example: Our flat is small.
+todavía:
+  meaning: still, yet
+  example: I'm not ready yet.
+bastante:
+  meaning: quite, enough
+  example: The flat is quite big.
+delante:
+  meaning: in front
+  example: The bank is in front.
+detrás:
+  meaning: behind
+  example: The bathroom is behind.
+dentro:
+  meaning: inside
+  example: The money is inside.
+fuera:
+  meaning: outside
+  example: The dog is outside.
+encima:
+  meaning: on top
+  example: The phone is on top.
+debajo:
+  meaning: underneath
+  example: The key is underneath.
+ahí:
+  meaning: there
+  example: The book is there.
+la derecha:
+  meaning: right side
+  example: The pharmacy is on the right.
+la izquierda:
+  meaning: left side
+  example: Turn left.
+primero:
+  meaning: first
+  example: The first one is my seat.
+último:
+  meaning: last
+  example: This is the last train.
+siguiente:
+  meaning: next
+  example: The next stop is mine.
+algún:
+  meaning: any
+  example: Do you have any problem?
+ningún:
+  meaning: no, any
+  example: There are no seats.
+el centro:
+  meaning: city centre
+  example: I'm going to the city centre by metro.
+la plaza:
+  meaning: square
+  example: The square is nearby.
+la esquina:
+  meaning: corner
+  example: The shop is on the corner.
+el barrio:
+  meaning: neighbourhood
+  example: My neighbourhood is quiet.
+la carretera:
+  meaning: road
+  example: The road is wet.
+el semáforo:
+  meaning: traffic light
+  example: Wait at the traffic light.
+el conductor:
+  meaning: driver
+  example: The driver is friendly.
+el equipaje:
+  meaning: luggage
+  example: My luggage is at the hotel.
+la ventanilla:
+  meaning: ticket window
+  example: I buy the ticket at the ticket window.
+la terraza:
+  meaning: terrace
+  example: We have breakfast on the terrace.
+el comedor:
+  meaning: dining room
+  example: We eat in the dining room.
+el pasillo:
+  meaning: corridor
+  example: The bathroom is in the corridor.
+el patio:
+  meaning: patio, yard
+  example: The dog is in the yard.
+la lavadora:
+  meaning: washing machine
+  example: The washing machine is in the kitchen.
+el lavabo:
+  meaning: sink
+  example: The sink is clean.
+la servilleta:
+  meaning: napkin
+  example: I need a napkin.
+el euro:
+  meaning: euro
+  example: The coffee costs one euro.
+la caja:
+  meaning: checkout, box
+  example: I pay at the checkout.
+la panadería:
+  meaning: bakery
+  example: I buy bread at the bakery.
+la sopa:
+  meaning: soup
+  example: The soup is hot.
+la pasta:
+  meaning: pasta
+  example: I'm cooking pasta with tomato.
+el bocadillo:
+  meaning: sandwich
+  example: I'm having a sandwich.
+el jamón:
+  meaning: ham
+  example: The ham is expensive.
+el yogur:
+  meaning: yoghurt
+  example: I have yoghurt in the morning.
+el postre:
+  meaning: dessert
+  example: Dessert is fruit.
+el menú:
+  meaning: menu
+  example: The menu of the day is cheap.
+el camarero:
+  meaning: waiter
+  example: The waiter brings the bill.
+el dentista:
+  meaning: dentist
+  example: I'm going to the dentist.
+la enfermera:
+  meaning: nurse
+  example: The nurse is friendly.
+doler:
+  meaning: to hurt
+  example: My head hurts.
+descansar:
+  meaning: to rest
+  example: I rest on the weekend.
+la temperatura:
+  meaning: temperature, fever
+  example: You have a fever.
+el gimnasio:
+  meaning: gym
+  example: I go to the gym.
+coger:
+  meaning: to take
+  example: Take the bus at the corner.
+volver:
+  meaning: to return
+  example: I return home at six.
+venir:
+  meaning: to come
+  example: Are you coming to the party?
+oír:
+  meaning: to hear
+  example: I can't hear well.
+jugar:
+  meaning: to play
+  example: I play football with friends.
+usar:
+  meaning: to use
+  example: I use my phone for work.
+el reloj:
+  meaning: clock, watch
+  example: My watch is on the table.
+el armario:
+  meaning: wardrobe
+  example: The clothes are in the wardrobe.
+el bolso:
+  meaning: handbag
+  example: My handbag is small and black.
+la mochila:
+  meaning: backpack
+  example: I carry my backpack to work.
+el paraguas:
+  meaning: umbrella
+  example: It's raining today; I need the umbrella.
+las gafas:
+  meaning: glasses
+  example: I can't find my glasses.
+el abrigo:
+  meaning: coat
+  example: It's cold; put on your coat.
+el pantalón:
+  meaning: trousers
+  example: These trousers are very comfortable.
+el vestido:
+  meaning: dress
+  example: She is wearing a blue dress.
+la falda:
+  meaning: skirt
+  example: The white skirt is in the wardrobe.
+la chaqueta:
+  meaning: jacket
+  example: My new jacket is made of wool.
+el jersey:
+  meaning: jumper, sweater
+  example: I put the jumper in the suitcase.
+el cepillo:
+  meaning: brush
+  example: I use the brush twice a day.
+el papel:
+  meaning: paper
+  example: I need paper to write a letter.
+el bolígrafo:
+  meaning: pen
+  example: Do you have a blue pen?
+la carpeta:
+  meaning: folder
+  example: The documents are in the folder.
+la llamada:
+  meaning: call
+  example: I have a call at ten.
+el cliente:
+  meaning: customer
+  example: The customer is waiting in the office.
+la factura:
+  meaning: invoice, bill
+  example: I pay the electricity bill.
+el recibo:
+  meaning: receipt
+  example: I keep the shopping receipt.
+el cambio:
+  meaning: change
+  example: Do you have change for ten euros?
+la moneda:
+  meaning: coin
+  example: There is a coin on the floor.
+el sol:
+  meaning: sun
+  example: It's sunny and hot today.
+la lluvia:
+  meaning: rain
+  example: Rain is good for plants.
+el viento:
+  meaning: wind
+  example: It's windy on the beach.
+la nieve:
+  meaning: snow
+  example: In winter there is snow in the mountains.
+la mantequilla:
+  meaning: butter
+  example: I put butter on the bread.
+el helado:
+  meaning: ice cream
+  example: I want a chocolate ice cream.
+el chocolate:
+  meaning: chocolate
+  example: Hot chocolate is very tasty.
+la tarta:
+  meaning: cake
+  example: The birthday cake is for you.
+el limón:
+  meaning: lemon
+  example: I put lemon in the salad.
+la pera:
+  meaning: pear
+  example: The pear is ripe and sweet.
+la uva:
+  meaning: grape
+  example: I eat grapes for breakfast.
+el melón:
+  meaning: melon
+  example: The melon is fresh and sweet.
+la sandía:
+  meaning: watermelon
+  example: In summer we buy watermelon.
+la garganta:
+  meaning: throat
+  example: My throat hurts.
+el pecho:
+  meaning: chest
+  example: I have pain in my chest.
+el cuello:
+  meaning: neck
+  example: My neck hurts.
+la sangre:
+  meaning: blood
+  example: Blood is red.
+la piel:
+  meaning: skin
+  example: Protect your skin from the sun.
+el hueso:
+  meaning: bone
+  example: The bone in my arm is broken.
+la rodilla:
+  meaning: knee
+  example: My knee hurts when I run.
+el codo:
+  meaning: elbow
+  example: I've hit my elbow.
+el tobillo:
+  meaning: ankle
+  example: My ankle is swollen.
+el lunes:
+  meaning: Monday
+  example: I start work on Monday.
+el martes:
+  meaning: Tuesday
+  example: I have an appointment on Tuesday.
+el miércoles:
+  meaning: Wednesday
+  example: On Wednesday we're going to the cinema.
+el jueves:
+  meaning: Thursday
+  example: Thursday is my day off.
+el viernes:
+  meaning: Friday
+  example: On Friday we have dinner at home.
+el sábado:
+  meaning: Saturday
+  example: On Saturday I go shopping.
+el domingo:
+  meaning: Sunday
+  example: On Sunday I rest at home.
+la primavera:
+  meaning: spring
+  example: In spring there are many flowers.
+el verano:
+  meaning: summer
+  example: In summer we go to the beach.
+el otoño:
+  meaning: autumn
+  example: In autumn it rains more.
+el invierno:
+  meaning: winter
+  example: In winter it is very cold.
+el norte:
+  meaning: north
+  example: I live in the north.
+el sur:
+  meaning: south
+  example: I live in the south.
+el este:
+  meaning: east
+  example: The sun rises in the east.
+el oeste:
+  meaning: west
+  example: The sun sets in the west.
+el nombre:
+  meaning: name
+  example: I don't know your name.
+el libro:
+  meaning: book
+  example: My book is on the table.
+la foto:
+  meaning: photo
+  example: Look at this photo of my family.
+casi:
+  meaning: almost
+  example: I almost always have breakfast at home.
+el país:
+  meaning: country
+  example: My country is small and quiet.
+el deporte:
+  meaning: sport
+  example: I do sport twice a week.
+la música:
+  meaning: music
+  example: I really like Spanish music.
+la televisión:
+  meaning: television, TV
+  example: I watch television at night.
+la película:
+  meaning: film, movie
+  example: The film starts at eight.
+desayunar:
+  meaning: have breakfast
+  example: I have coffee with toast for breakfast.
+levantarse:
+  meaning: get up, stand up
+  example: I get up at seven.
+correr:
+  meaning: run
+  example: I run in the park every morning.
+despacio:
+  meaning: slowly
+  example: Speak more slowly, please.
+alto:
+  meaning: tall, high
+  example: My brother is very tall.
+joven:
+  meaning: young
+  example: My teacher is quite young.
+viejo:
+  meaning: old
+  example: This car is old.
+largo:
+  meaning: long
+  example: The trip is very long.
+corto:
+  meaning: short
+  example: The path is short and easy.
+nervioso:
+  meaning: nervous
+  example: I am nervous about the exam.
+interesante:
+  meaning: interesting
+  example: This book is very interesting.
+bonito:
+  meaning: pretty, nice
+  example: Your dress is very pretty.

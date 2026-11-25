@@ -33,6 +33,9 @@
     python storylingo.py phrase-topics <language>               DeepSeek gives every phrase without one a topic
                                                                (health, work, office, … : phrases.TOPICS)
     python storylingo.py media-phrases <language>              their recordings (missing or out of date)
+    python storylingo.py words <language> <level> [count]      DeepSeek drafts the level's words for the word trainer,
+                                                               each with an example sentence, in content/words/
+    python storylingo.py localize-words <language> <base>      their meanings (and examples) for one base language
     python storylingo.py media-export                          copy every picture and recording out of the local database
     python storylingo.py media-import --cloud                  … and into the cloud (instead of making them again)
 
@@ -60,6 +63,7 @@ import editions  # noqa: E402
 import languages  # noqa: E402
 import media  # noqa: E402
 import phrases  # noqa: E402
+import words  # noqa: E402
 import products  # noqa: E402
 import transfer  # noqa: E402
 import yamlio  # noqa: E402
@@ -99,6 +103,10 @@ def sync(slug: str | None = None) -> None:
         bases = [b for b in languages.all_languages() if languages.get(b).is_base]
         changes = db.sync_phrases(language, phrases.all_sets(language), {b: phrases.meanings(language, b) for b in bases})
         print(f"  phrases {language}: " + (", ".join(changes) if changes else "up to date"))
+    for language in words.languages_with_words() if not slug else []:
+        bases = [b for b in languages.all_languages() if languages.get(b).is_base]
+        changes = db.sync_words(language, words.all_sets(language), {b: words.meanings(language, b) for b in bases})
+        print(f"  words {language}: " + (", ".join(changes) if changes else "up to date"))
     docs = [content.read(slug)] if slug else content.all_stories()
     for doc in docs:
         # A scene or question added by hand may have no key yet: give it one in the file first.
@@ -354,6 +362,15 @@ def main(argv: list[str]) -> None:
             raise SystemExit(__doc__)
         phrases.generate(arg, argv[2])
         print(f"Read content/phrases/{arg}/{argv[2]}.yaml, then: localize-phrases, sync, media-phrases {arg}")
+    elif command == "words":
+        if len(argv) < 3:
+            raise SystemExit(__doc__)
+        words.generate(arg, argv[2], int(argv[3]) if len(argv) > 3 else None)
+        print(f"Read content/words/{arg}/{argv[2]}.yaml, then: localize-words {arg} <base>, sync")
+    elif command == "localize-words":
+        if len(argv) < 3:
+            raise SystemExit(__doc__)
+        words.localize(arg, argv[2])
     elif command == "localize-phrases":
         if len(argv) < 3:
             raise SystemExit(__doc__)

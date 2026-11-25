@@ -90,6 +90,76 @@ def sync_phrases(language: str, sets: dict, meanings: dict[str, dict[str, str]],
     return changes
 
 
+def sync_words(language: str, sets: dict, meanings: dict, dry_run: bool = False) -> list[str]:
+    """
+    Make the word trainer of one target language match content/words/<language>/ (words.py): a lexeme (kind 'word')
+    per word, shared with the stories' glossary when it is the same word, its level, place, topics and example in
+    `words`, its meaning and translated example per base language in lexeme_glosses. A word removed from the files
+    leaves the trainer; its lexeme stays, so learners keep what they practised.
+    """
+    with connect() as conn, conn.cursor() as cur:
+        cur.execute(
+            """select l.text, w.level, w.position, w.topics, w.topic_rank, w.example from words w
+               join lexemes l on l.id = w.lexeme_id where l.language_code = %s""",
+            (language,),
+        )
+        old = {r[0]: (str(r[1]), r[2], list(r[3]), r[4], r[5]) for r in cur.fetchall()}
+        cur.execute(
+            """select l.text, g.base_language, g.gloss, g.example from words w join lexemes l on l.id = w.lexeme_id
+               join lexeme_glosses g on g.lexeme_id = l.id where l.language_code = %s""",
+            (language,),
+        )
+        old_glosses = {(r[0], r[1]): (r[2], r[3]) for r in cur.fetchall()}
+        wanted = {}
+        for level, items in sets.items():
+            for position, (word, rank) in enumerate(zip(items, phrases_mod.topic_ranks(items)), 1):
+                wanted[word.text] = (level, position, list(word.topics), rank, word.example)
+        changed = sum(1 for t, v in wanted.items() if old.get(t) != v)
+        # A word a story also glosses keeps the story's meaning (it fits the story); the list adds its example.
+        glossed = sum(
+            1 for base, found in meanings.items() for t, m in found.items()
+            if t in wanted and ((t, base) not in old_glosses or old_glosses[(t, base)][1] != m.example))
+        removed = [t for t in old if t not in wanted]
+        for text, (level, position, topics, rank, example) in wanted.items():
+            # A word a story already brought in keeps its level from there (the lexeme is shared).
+            cur.execute(
+                """insert into lexemes (language_code, kind, text, cefr_level) values (%s, 'word', %s, %s)
+                   on conflict (language_code, text) do update set text = excluded.text returning id""",
+                (language, text, level),
+            )
+            lexeme_id = cur.fetchone()[0]
+            cur.execute(
+                """insert into words (lexeme_id, level, position, topics, topic_rank, example)
+                   values (%s, %s, %s, %s, %s, %s)
+                   on conflict (lexeme_id) do update set level = excluded.level, position = excluded.position,
+                     topics = excluded.topics, topic_rank = excluded.topic_rank, example = excluded.example""",
+                (lexeme_id, level, position, topics, rank, example),
+            )
+            for base, found in meanings.items():
+                if m := found.get(text):
+                    cur.execute(
+                        """insert into lexeme_glosses (lexeme_id, base_language, gloss, example) values (%s, %s, %s, %s)
+                           on conflict (lexeme_id, base_language) do update set example = excluded.example""",
+                        (lexeme_id, base, m.meaning, m.example),
+                    )
+        if removed:
+            cur.execute(
+                """delete from words w using lexemes l
+                   where l.id = w.lexeme_id and l.language_code = %s and l.text = any(%s)""",
+                (language, removed),
+            )
+        if dry_run:
+            conn.rollback()
+    changes = []
+    if changed:
+        changes.append(f"{changed} words new or moved")
+    if glossed:
+        changes.append(f"{glossed} meanings new or changed")
+    if removed:
+        changes.append(f"{len(removed)} words removed")
+    return changes
+
+
 def redo_core_word_audio(language: str | None = None) -> int:
     """
     Mark the recordings of the stories' core words (the word cards before a story) as out of date, so the next

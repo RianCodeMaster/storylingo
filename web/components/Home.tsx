@@ -113,6 +113,7 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   const [choice, setChoice] = useState<string | null>(null);
   const [due, setDue] = useState(0);
   const [phrases, setPhrases] = useState<PhraseProgress>({});
+  const [words, setWords] = useState<PhraseProgress>({});
   const [finished, setFinished] = useState<Set<string>>(new Set());
   const [owned, setOwned] = useState<Set<string>>(new Set());
   const [anonymous, setAnonymous] = useState(true);
@@ -158,15 +159,16 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
     (async () => {
       const learner = await ensureLearner(lang);
       setUserId(learner);
-      const [enrolled, dueCount, done, list, phraseCounts, mine, today] = await Promise.all([
+      const [enrolled, dueCount, done, list, phraseCounts, wordCounts, mine, today] = await Promise.all([
         getEnrollment(edition.slug), countDue(edition.target), finishedStories(), listStories(edition),
-        phraseProgress(edition.target), ownedProducts(), usageToday(),
+        phraseProgress(edition.target), phraseProgress(edition.target, "words"), ownedProducts(), usageToday(edition.target),
       ]);
       setOwned(mine);
       setUsage(today);
       setAnonymous((await currentAccount())?.anonymous ?? true);
       if (!enrolled) void recordVisit(learner, edition.slug, arrival(edition.slug, trackSlug));
       setPhrases(phraseCounts);
+      setWords(wordCounts);
       setDue(dueCount);
       setFinished(done);
       setStories(list);
@@ -397,6 +399,9 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
   // The phrases section stops at B1: a higher level practises the B1 phrases.
   const phraseLevel = phrases[mine] ? mine : Object.keys(phrases).sort().at(-1);
   const phraseCount = phraseLevel ? phrases[phraseLevel] : undefined;
+  // The word trainer the same way (only in a language that has one).
+  const wordLevel = words[mine] ? mine : Object.keys(words).sort().at(-1);
+  const wordCount = wordLevel ? words[wordLevel] : undefined;
 
   return (
     <main className="dash">
@@ -471,6 +476,13 @@ export function Home({ trackSlug = null }: { trackSlug?: string | null }) {
             <span className="tile-icon">💬</span>
             <strong>{dict.phrases.title}</strong>
             <span className="tile-sub">{fill(dict.tiles.count, { done: phraseCount.learned, total: phraseCount.total })}</span>
+          </Link>
+        )}
+        {wordCount && (
+          <Link href={`${home}/words`} className="tile">
+            <span className="tile-icon">📚</span>
+            <strong>{dict.vocab.title}</strong>
+            <span className="tile-sub">{fill(dict.tiles.count, { done: wordCount.learned, total: wordCount.total })}</span>
           </Link>
         )}
         {visibleProducts(edition, owned).map((p) => (

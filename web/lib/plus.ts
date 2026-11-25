@@ -36,16 +36,25 @@ export interface Usage {
   newStories: number; // stories started today for the first time
   startedEver: Set<string>; // every story ever started (replaying those is free)
   newPhrases: number; // phrases practised today for the first time
-  reviews: number; // word review cards answered today (not counting new phrases)
+  newWords: number; // words of the word trainer practised today for the first time
+  reviews: number; // word review cards answered today (not counting new phrases or words)
 }
 
-/** What the learner did today, to compare with the limits. */
-export async function usageToday(): Promise<Usage> {
+/**
+ * What the learner did today, to compare with the limits. New phrases, new words and reviews count per target
+ * language (target): learning German words today does not use up the Spanish ones.
+ */
+export async function usageToday(target?: string): Promise<Usage> {
   const since = todayStart();
   const sb = supabase();
   const [{ data: sessions, error: e1 }, { data: today, error: e2 }] = await Promise.all([
     sb.from("sessions").select("story_id, started_at"),
-    sb.from("reviews").select("lexeme_id, lexemes!inner ( phrases ( level ) )").gte("created_at", since),
+    (target
+      ? sb.from("reviews")
+          .select("lexeme_id, lexemes!inner ( language_code, phrases ( level ), words ( level ) )")
+          .eq("lexemes.language_code", target)
+      : sb.from("reviews").select("lexeme_id, lexemes!inner ( phrases ( level ), words ( level ) )")
+    ).gte("created_at", since),
   ]);
   if (e1 || e2) throw e1 ?? e2;
 
@@ -56,26 +65,36 @@ export async function usageToday(): Promise<Usage> {
   }
   const newStories = [...first.values()].filter((at) => at >= since).length;
 
-  // A phrase is new today when it has no review before today.
-  const phraseIds = [...new Set(today.filter((r) => hasPhrase(r.lexemes)).map((r) => r.lexeme_id as string))];
+  // A phrase or list word is new today when it has no review before today.
+  const ids = (section: "phrases" | "words") =>
+    [...new Set(today.filter((r) => inSection(r.lexemes, section)).map((r) => r.lexeme_id as string))];
+  const phraseIds = ids("phrases");
+  const wordIds = ids("words");
   let older = new Set<string>();
-  if (phraseIds.length) {
-    const { data, error } = await sb.from("reviews").select("lexeme_id").in("lexeme_id", phraseIds).lt("created_at", since);
+  if (phraseIds.length || wordIds.length) {
+    const { data, error } = await sb
+      .from("reviews")
+      .select("lexeme_id")
+      .in("lexeme_id", [...phraseIds, ...wordIds])
+      .lt("created_at", since);
     if (error) throw error;
     older = new Set(data.map((r) => r.lexeme_id as string));
   }
-  const fresh = new Set(phraseIds.filter((id) => !older.has(id)));
+  const freshPhrases = phraseIds.filter((id) => !older.has(id));
+  const freshWords = wordIds.filter((id) => !older.has(id));
+  const fresh = new Set([...freshPhrases, ...freshWords]);
   return {
     newStories,
     startedEver: new Set(first.keys()),
-    newPhrases: fresh.size,
+    newPhrases: freshPhrases.length,
+    newWords: freshWords.length,
     reviews: today.filter((r) => !fresh.has(r.lexeme_id as string)).length,
   };
 }
 
-function hasPhrase(lexeme: unknown): boolean {
-  const l = (Array.isArray(lexeme) ? lexeme[0] : lexeme) as { phrases?: unknown } | null;
-  const p = l?.phrases;
+function inSection(lexeme: unknown, section: "phrases" | "words"): boolean {
+  const l = (Array.isArray(lexeme) ? lexeme[0] : lexeme) as Record<string, unknown> | null;
+  const p = l?.[section];
   return Array.isArray(p) ? p.length > 0 : !!p;
 }
 

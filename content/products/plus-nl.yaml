@@ -15,6 +15,9 @@ free:
   phrases_per_level: 10    # per level the first 10 phrases
   phrases_per_topic: 5     # and per level the first 5 of every topic (gezondheid, werk, ...)
   phrases_per_day: 10      # of which 10 new a day
+  words_per_level: 50      # word trainer: per level the first 50 words
+  words_per_topic: 5       # and per level the first 5 of every topic
+  words_per_day: 10        # of which 10 new a day
   reviews_per_day: 20      # word review: 20 cards a day
 texts:
   ar:

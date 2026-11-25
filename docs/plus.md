@@ -18,6 +18,9 @@ free:
   phrases_per_level: 10    # per niveau de eerste 10 zinnen
   phrases_per_topic: 5     # en per niveau de eerste 5 van elk onderwerp (dokter, werk, …: om te proeven)
   phrases_per_day: 10      # waarvan 10 nieuwe per dag
+  words_per_level: 50      # woordenschat: per niveau de eerste 50 woorden
+  words_per_topic: 5       # en de eerste 5 van elk onderwerp
+  words_per_day: 10        # waarvan 10 nieuwe per dag
   reviews_per_day: 20      # 20 woorden herhalen per dag
 ```
 
@@ -30,7 +33,7 @@ die taal (Plus Duits voor almanya, duits en german). Pakketten zoals de DTZ-trai
 
 Een taal zonder Plus-product (of met een Plus op `draft`) heeft geen limieten.
 
-**Wat Plus geeft** staat onder `perks` in hetzelfde bestand, per basistaal. Daar mag `{phrases}`, `{stories}` en
+**Wat Plus geeft** staat onder `perks` in hetzelfde bestand, per basistaal. Daar mag `{phrases}`, `{words}`, `{stories}` en
 `{levels}` in staan: sync telt bij elke run hoeveel zinnen en gepubliceerde verhalen de taal heeft en van welk tot welk
 niveau (`counts` in `web/lib/products.json`). Zo staat er "nu al 600 zinnen" en groeit dat getal vanzelf mee. De
 productpagina en de landingspagina tonen dezelfde regels.

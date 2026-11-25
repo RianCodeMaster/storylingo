@@ -64,6 +64,35 @@ de woorden uit de verhalen.
 Een zin aanpassen: in het niveaubestand de tekst wijzigen, `localize-phrases` (hij vertaalt alleen de nieuwe tekst),
 `sync`, `media-phrases`. `check` bewaakt volle niveaus, geen dubbelingen, betekenissen en opnames.
 
+## Woordenschat
+
+Het onderdeel **Woordenschat** (de woordentrainer) werkt net als Zinnen, maar met losse woorden: per doeltaal en
+niveau de belangrijkste woorden, de meest gebruikte eerst (`content/words/<taal>/A1.yaml` …), elk in de
+woordenboekvorm (Duitse zelfstandige naamwoorden met der/die/das) en met één korte voorbeeldzin. De betekenis en de
+vertaalde voorbeeldzin staan per basistaal in `content/words/<taal>/<basis>.yaml`. Een woord dat ook in een verhaal
+voorkomt, is hetzelfde woord: wat je in het ene oefent, telt in het andere. In de app leer je ze tien tegelijk als
+kaart (het woord, dan de betekenis en de voorbeeldzin), daarna gaan ze in dezelfde herhaling.
+
+```bash
+.venv/Scripts/python storylingo.py words de A1              # DeepSeek maakt de lijst (A1: 500, A2: 700, B1: 1200)
+.venv/Scripts/python storylingo.py localize-words de ar     # betekenis en voorbeeldzin voor één basistaal
+.venv/Scripts/python storylingo.py sync                     # in de database
+```
+
+Gratis zijn per niveau de eerste 50 woorden en de eerste 5 van elk onderwerp, 10 nieuwe per dag (`words_per_…` in
+het Plus-product); met Plus alles. Er zijn nog geen opnames: de app spreekt woorden zonder opname uit met de stem van
+de browser. Plaatjes kunnen later, alleen voor woorden die je kunt tekenen.
+
+## Herhalen
+
+Wanneer een woord, zin of structuur terugkomt, rekent de app uit met **FSRS** (`web/lib/srs.ts`), het model dat ook
+Anki gebruikt: per item hoe stevig het geheugen is en hoe moeilijk het item, en het volgende moment net voordat je
+het zou vergeten (90% kans dat je het nog weet). Een nieuw of vergeten item komt na minuten terug (1 en 10 minuten),
+daarna na een dag, een paar dagen, weken. Nooit meteen: in een ronde komt een "fout"-kaart pas terug na minstens drie
+andere kaarten en niet voor zijn tijd; is er niets anders meer, dan wacht het scherm even (of je stopt en ziet hem
+later in je herhaling). Wat klaarstaat gaat voor nieuw: de zinnen- en woordenpagina wijzen eerst naar de herhaling.
+Zonder Plus 10 nieuwe per dag per onderdeel; met Plus geen grens, wel een opmerking vanaf 20 nieuwe op een dag.
+
 ## Een nieuw verhaal maken
 
 1. Kopieer een brief in `content/briefs/de/` en pas thema, niveau, tags en doelstructuren aan.

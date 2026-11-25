@@ -1,0 +1,2005 @@
+# Words for the word trainer, most useful first. Every edition with this target language shows them. text: the
+# dictionary form (German nouns with der/die/das, verbs as infinitive), exactly like the stories' glossary, so a
+# word met in a story is the same word here. example: one short sentence at this level. hint: English, for the
+# translator and for you; learners never see it. Edit freely (a changed text is a new word: it needs a meaning again,
+# `localize-words` adds it), then: storylingo.py sync.
+- text: ser
+  example: Soy estudiante.
+  hint: to be
+  topics: [everyday]
+- text: estar
+  example: Estoy en casa.
+  hint: to be (state)
+  topics: [everyday]
+- text: tener
+  example: Tengo dos hermanos.
+  hint: to have
+  topics: [everyday]
+- text: hacer
+  example: Hoy hago la comida.
+  hint: to do/make
+  topics: [everyday]
+- text: ir
+  example: Voy al trabajo.
+  hint: to go
+  topics: [travel]
+- text: poder
+  example: No puedo ir hoy.
+  hint: can
+  topics: [everyday]
+- text: querer
+  example: Quiero un café.
+  hint: to want
+  topics: [everyday]
+- text: decir
+  example: No sé qué decir.
+  hint: to say
+  topics: [everyday]
+- text: saber
+  example: No sé la respuesta.
+  hint: to know
+  topics: [everyday]
+- text: ver
+  example: Veo la televisión.
+  hint: to see
+  topics: [everyday]
+- text: comer
+  example: Como fruta cada día.
+  hint: to eat
+  topics: [shopping]
+- text: beber
+  example: Bebo agua todos los días.
+  hint: to drink
+  topics: [shopping]
+- text: vivir
+  example: Vivo en un piso.
+  hint: to live
+  topics: [housing]
+- text: trabajar
+  example: Trabajo en una tienda.
+  hint: to work
+  topics: [work]
+- text: hablar
+  example: Hablo español un poco.
+  hint: to speak
+  topics: [social]
+- text: comprar
+  example: Compro pan en la tienda.
+  hint: to buy
+  topics: [shopping]
+- text: necesitar
+  example: Necesito ayuda.
+  hint: to need
+  topics: [everyday]
+- text: gustar
+  example: Me gusta el café.
+  hint: to like
+  topics: [social]
+- text: "y"
+  example: Como pan y queso.
+  hint: and
+  topics: [everyday]
+- text: o
+  example: ¿Quieres té o café?
+  hint: or
+  topics: [everyday]
+- text: pero
+  example: Quiero ir, pero no puedo.
+  hint: but
+  topics: [everyday]
+- text: porque
+  example: No voy porque estoy cansado.
+  hint: because
+  topics: [everyday]
+- text: que
+  example: Creo que es verdad.
+  hint: that
+  topics: [everyday]
+- text: de
+  example: Vengo de casa.
+  hint: of/from
+  topics: [everyday]
+- text: en
+  example: Vivo en una casa pequeña.
+  hint: in
+  topics: [everyday]
+- text: a
+  example: Voy a casa.
+  hint: to
+  topics: [everyday]
+- text: con
+  example: Voy con mi amigo.
+  hint: with
+  topics: [everyday]
+- text: por
+  example: Paso por el parque.
+  hint: by/through
+  topics: [everyday]
+- text: para
+  example: Este regalo es para ti.
+  hint: for
+  topics: [everyday]
+- text: "no"
+  example: No quiero café, gracias.
+  hint: no/not
+  topics: [everyday]
+- text: sí
+  example: Sí, quiero un café.
+  hint: "yes"
+  topics: [everyday]
+- text: muy
+  example: La casa es muy grande.
+  hint: very
+  topics: [everyday]
+- text: más
+  example: Quiero más agua, por favor.
+  hint: more
+  topics: [everyday]
+- text: también
+  example: Yo también vivo aquí.
+  hint: also
+  topics: [everyday]
+- text: el agua
+  example: Bebo el agua de la botella.
+  hint: water
+  topics: [shopping]
+- text: la casa
+  example: Mi casa está cerca del parque.
+  hint: house
+  topics: [housing]
+- text: la comida
+  example: La comida está muy buena.
+  hint: food
+  topics: [shopping]
+- text: el dinero
+  example: No tengo mucho dinero hoy.
+  hint: money
+  topics: [shopping]
+- text: el trabajo
+  example: Mi trabajo empieza a las nueve.
+  hint: work/job
+  topics: [work]
+- text: la tienda
+  example: La tienda abre por la mañana.
+  hint: shop
+  topics: [shopping]
+- text: el médico
+  example: El médico trabaja en el hospital.
+  hint: doctor
+  topics: [health]
+- text: la salud
+  example: La salud es muy importante.
+  hint: health
+  topics: [health]
+- text: la familia
+  example: Mi familia vive cerca.
+  hint: family
+  topics: [social]
+- text: el amigo
+  example: Mi amigo vive en mi calle.
+  hint: friend
+  topics: [social]
+- text: el tiempo
+  example: No tengo tiempo hoy.
+  hint: time
+  topics: [everyday]
+- text: el día
+  example: El día es muy largo.
+  hint: day
+  topics: [everyday]
+- text: la hora
+  example: ¿Qué hora es ahora?
+  hint: hour/time
+  topics: [everyday]
+- text: hoy
+  example: Hoy trabajo en casa.
+  hint: today
+  topics: [everyday]
+- text: mañana
+  example: Mañana voy al trabajo.
+  hint: tomorrow
+  topics: [everyday]
+- text: ahora
+  example: Ahora no puedo hablar.
+  hint: now
+  topics: [everyday]
+- text: el coche
+  example: El coche está en la calle.
+  hint: car
+  topics: [travel]
+- text: el autobús
+  example: Espero el autobús en la parada.
+  hint: bus
+  topics: [travel]
+- text: el tren
+  example: El tren llega a las ocho.
+  hint: train
+  topics: [travel]
+- text: la estación
+  example: La estación está cerca de casa.
+  hint: station
+  topics: [travel]
+- text: el billete
+  example: Compro un billete de tren.
+  hint: ticket
+  topics: [travel]
+- text: la oficina
+  example: Trabajo en una oficina pequeña.
+  hint: office
+  topics: [office]
+- text: el restaurante
+  example: Comemos en el restaurante hoy.
+  hint: restaurant
+  topics: [shopping]
+- text: la cuenta
+  example: La cuenta, por favor.
+  hint: bill
+  topics: [shopping]
+- text: bien
+  example: Hoy estoy muy bien.
+  hint: well
+  topics: [social]
+- text: mal
+  example: No me siento mal.
+  hint: badly
+  topics: [social]
+- text: el hombre
+  example: Ese hombre es mi vecino.
+  hint: man
+  topics: [social]
+- text: la mujer
+  example: La mujer trabaja en el banco.
+  hint: woman
+  topics: [social]
+- text: el niño
+  example: El niño juega en la calle.
+  hint: boy, child
+  topics: [social]
+- text: la niña
+  example: La niña lee un libro.
+  hint: girl
+  topics: [social]
+- text: la gente
+  example: Hay mucha gente en la calle.
+  hint: people
+  topics: [social]
+- text: algo
+  example: ¿Quieres algo de beber?
+  hint: something
+  topics: [everyday]
+- text: nada
+  example: No necesito nada, gracias.
+  hint: nothing
+  topics: [everyday]
+- text: todo
+  example: Todo está bien, gracias.
+  hint: everything
+  topics: [everyday]
+- text: mucho
+  example: Trabajo mucho esta semana.
+  hint: a lot
+  topics: [everyday]
+- text: poco
+  example: Tengo poco tiempo hoy.
+  hint: little, few
+  topics: [everyday]
+- text: aquí
+  example: Puedes esperar aquí.
+  hint: here
+  topics: [everyday]
+- text: allí
+  example: La farmacia está allí.
+  hint: there
+  topics: [everyday]
+- text: cerca
+  example: El banco está cerca de aquí.
+  hint: near
+  topics: [everyday]
+- text: lejos
+  example: La playa está lejos.
+  hint: far
+  topics: [travel]
+- text: siempre
+  example: Siempre desayuno café con leche.
+  hint: always
+  topics: [everyday]
+- text: abrir
+  example: ¿Puedes abrir la ventana?
+  hint: open
+  topics: [housing]
+- text: cerrar
+  example: Voy a cerrar la puerta.
+  hint: close
+  topics: [housing]
+- text: entrar
+  example: Entra en la oficina, por favor.
+  hint: enter
+  topics: [office]
+- text: salir
+  example: Salgo de casa por la mañana.
+  hint: go out
+  topics: [everyday]
+- text: llegar
+  example: Llego al trabajo en metro.
+  hint: arrive
+  topics: [work, travel]
+- text: esperar
+  example: Espera aquí un momento.
+  hint: wait
+  topics: [everyday]
+- text: ayudar
+  example: ¿Me puedes ayudar, por favor?
+  hint: help
+  topics: [everyday]
+- text: entender
+  example: No entiendo esta palabra.
+  hint: understand
+  topics: [everyday]
+- text: aprender
+  example: Quiero aprender español.
+  hint: learn
+  topics: [everyday]
+- text: leer
+  example: Me gusta leer el periódico.
+  hint: read
+  topics: [everyday]
+- text: escribir
+  example: Escribo un correo a mi jefe.
+  hint: write
+  topics: [office]
+- text: pagar
+  example: Voy a pagar con tarjeta.
+  hint: pay
+  topics: [shopping]
+- text: contento
+  example: Estoy contento con mi trabajo.
+  hint: happy
+  topics: [social]
+- text: triste
+  example: Mi amigo está triste hoy.
+  hint: sad
+  topics: [social]
+- text: cansado
+  example: Estoy cansado después del trabajo.
+  hint: tired
+  topics: [social]
+- text: el supermercado
+  example: Compro la comida en el supermercado.
+  hint: supermarket
+  topics: [shopping]
+- text: el pan
+  example: Compro pan en el supermercado.
+  hint: bread
+  topics: [shopping]
+- text: la leche
+  example: Bebo leche por la mañana.
+  hint: milk
+  topics: [shopping]
+- text: el café
+  example: Tomo café con leche.
+  hint: coffee
+  topics: [shopping]
+- text: la fruta
+  example: Como fruta todos los días.
+  hint: fruit
+  topics: [shopping]
+- text: el precio
+  example: El precio es muy alto.
+  hint: price
+  topics: [shopping]
+- text: la tarjeta
+  example: Pago con tarjeta, por favor.
+  hint: card
+  topics: [shopping]
+- text: la mesa
+  example: Pon la mesa, por favor.
+  hint: table
+  topics: [housing]
+- text: la cama
+  example: Mi cama es muy grande.
+  hint: bed
+  topics: [housing]
+- text: la puerta
+  example: Cierra la puerta, por favor.
+  hint: door
+  topics: [housing]
+- text: la ventana
+  example: Abre la ventana, hace calor.
+  hint: window
+  topics: [housing]
+- text: el baño
+  example: El baño está allí.
+  hint: bathroom
+  topics: [housing]
+- text: la llave
+  example: Dame la llave de casa.
+  hint: key
+  topics: [housing]
+- text: el avión
+  example: El avión sale ahora.
+  hint: plane
+  topics: [travel]
+- text: el aeropuerto
+  example: Voy al aeropuerto en taxi.
+  hint: airport
+  topics: [travel]
+- text: la parada
+  example: La parada del autobús está cerca.
+  hint: stop
+  topics: [travel]
+- text: el metro
+  example: Voy al trabajo en metro.
+  hint: metro
+  topics: [travel]
+- text: la maleta
+  example: Mi maleta es muy pesada.
+  hint: suitcase
+  topics: [travel]
+- text: el hotel
+  example: El hotel está cerca de la playa.
+  hint: hotel
+  topics: [travel]
+- text: el jefe
+  example: Mi jefe trabaja en la oficina.
+  hint: boss
+  topics: [work]
+- text: el correo
+  example: Escribo un correo a mi jefe.
+  hint: mail, email
+  topics: [office]
+- text: el horario
+  example: Mira el horario de la oficina.
+  hint: schedule
+  topics: [office]
+- text: la cabeza
+  example: Me duele la cabeza.
+  hint: head
+  topics: [health]
+- text: la mano
+  example: Lávate las manos, por favor.
+  hint: hand
+  topics: [health]
+- text: la medicina
+  example: Tomo la medicina por la mañana.
+  hint: medicine
+  topics: [health]
+- text: enfermo
+  example: Mi hijo está enfermo hoy.
+  hint: sick
+  topics: [health]
+- text: la semana
+  example: Trabajo todos los días de la semana.
+  hint: week
+  topics: [work]
+- text: el mes
+  example: Este mes trabajo mucho.
+  hint: month
+  topics: [work]
+- text: el año
+  example: Este año tengo vacaciones.
+  hint: year
+  topics: [everyday]
+- text: la tarde
+  example: Por la tarde leo un libro.
+  hint: afternoon
+  topics: [everyday]
+- text: hola
+  example: Hola, ¿cómo estás?
+  hint: hello
+  topics: [social]
+- text: gracias
+  example: Muchas gracias por la ayuda.
+  hint: thank you
+  topics: [social]
+- text: adiós
+  example: Adiós, hasta mañana.
+  hint: goodbye
+  topics: [social]
+- text: perdón
+  example: Perdón, no entiendo.
+  hint: sorry
+  topics: [social]
+- text: yo
+  example: Yo vivo en un piso.
+  hint: I
+  topics: [everyday]
+- text: tú
+  example: Tú trabajas en una oficina.
+  hint: you
+  topics: [everyday]
+- text: él
+  example: Él es mi hermano.
+  hint: he
+  topics: [everyday]
+- text: ella
+  example: Ella come en casa.
+  hint: she
+  topics: [everyday]
+- text: nosotros
+  example: Nosotros vamos al cine.
+  hint: we
+  topics: [everyday]
+- text: usted
+  example: ¿Usted necesita ayuda?
+  hint: you formal
+  topics: [everyday]
+- text: mi
+  example: Mi casa es pequeña.
+  hint: my
+  topics: [everyday]
+- text: tu
+  example: Tu libro está en la mesa.
+  hint: your
+  topics: [everyday]
+- text: su
+  example: Su coche es nuevo.
+  hint: his/her/your
+  topics: [everyday]
+- text: cuándo
+  example: ¿Cuándo llegas a casa?
+  hint: when
+  topics: [everyday]
+- text: cómo
+  example: ¿Cómo estás hoy?
+  hint: how
+  topics: [everyday]
+- text: dónde
+  example: ¿Dónde está la farmacia?
+  hint: where
+  topics: [everyday]
+- text: sin
+  example: Un café sin azúcar, por favor.
+  hint: without
+  topics: [everyday]
+- text: sobre
+  example: El libro está sobre la mesa.
+  hint: on/about
+  topics: [everyday]
+- text: entre
+  example: La farmacia está entre dos tiendas.
+  hint: between
+  topics: [everyday]
+- text: hasta
+  example: Trabajo hasta las cinco.
+  hint: until
+  topics: [everyday]
+- text: desde
+  example: Vivo aquí desde el año pasado.
+  hint: from/since
+  topics: [everyday]
+- text: antes
+  example: Antes de comer, lavo las manos.
+  hint: before
+  topics: [everyday]
+- text: después
+  example: Después de trabajar, voy a casa.
+  hint: after
+  topics: [everyday]
+- text: luego
+  example: Primero estudio, luego ceno.
+  hint: then
+  topics: [everyday]
+- text: ya
+  example: Ya estoy en casa.
+  hint: already
+  topics: [everyday]
+- text: nunca
+  example: Nunca bebo café por la noche.
+  hint: never
+  topics: [everyday]
+- text: la madre
+  example: Mi madre trabaja en casa.
+  hint: mother
+  topics: [social]
+- text: el padre
+  example: Mi padre come en casa.
+  hint: father
+  topics: [social]
+- text: el hermano
+  example: Mi hermano vive en otra ciudad.
+  hint: brother
+  topics: [social]
+- text: la hermana
+  example: Mi hermana estudia español.
+  hint: sister
+  topics: [social]
+- text: el hijo
+  example: Su hijo tiene tres años.
+  hint: son
+  topics: [social]
+- text: la hija
+  example: Mi hija va al colegio.
+  hint: daughter
+  topics: [social]
+- text: feliz
+  example: Estoy muy feliz hoy.
+  hint: happy
+  topics: [social]
+- text: enfadado
+  example: Mi padre está enfadado conmigo.
+  hint: angry
+  topics: [social]
+- text: la habitación
+  example: La habitación tiene una cama.
+  hint: room
+  topics: [housing]
+- text: la cocina
+  example: La cocina es pequeña pero limpia.
+  hint: kitchen
+  topics: [housing]
+- text: la silla
+  example: La silla está junto a la mesa.
+  hint: chair
+  topics: [housing]
+- text: la nevera
+  example: La leche está en la nevera.
+  hint: fridge
+  topics: [housing]
+- text: el salón
+  example: El salón tiene una ventana grande.
+  hint: living room
+  topics: [housing]
+- text: la carne
+  example: No como carne los viernes.
+  hint: meat
+  topics: [shopping]
+- text: el pescado
+  example: El pescado está muy bueno.
+  hint: fish
+  topics: [shopping]
+- text: el pollo
+  example: Cenamos pollo con patatas.
+  hint: chicken
+  topics: [shopping]
+- text: el huevo
+  example: Desayuno un huevo cada mañana.
+  hint: egg
+  topics: [shopping]
+- text: la verdura
+  example: Compro verdura en el mercado.
+  hint: vegetables
+  topics: [shopping]
+- text: la patata
+  example: La patata es barata.
+  hint: potato
+  topics: [shopping]
+- text: la manzana
+  example: Como una manzana de postre.
+  hint: apple
+  topics: [shopping]
+- text: el zapato
+  example: Este zapato es muy caro.
+  hint: shoe
+  topics: [shopping]
+- text: la camisa
+  example: La camisa es muy bonita.
+  hint: shirt
+  topics: [shopping]
+- text: el viaje
+  example: El viaje a la playa es largo.
+  hint: trip
+  topics: [travel]
+- text: el pasaporte
+  example: Necesito el pasaporte para el avión.
+  hint: passport
+  topics: [travel]
+- text: la salida
+  example: La salida del tren es a las seis.
+  hint: exit/departure
+  topics: [travel]
+- text: el ordenador
+  example: Mi ordenador está en la oficina.
+  hint: computer
+  topics: [work, office]
+- text: la carta
+  example: Escribo una carta a mi hermano.
+  hint: letter
+  topics: [office]
+- text: la dirección
+  example: Escriba su dirección aquí, por favor.
+  hint: address
+  topics: [office]
+- text: la farmacia
+  example: La farmacia abre a las nueve.
+  hint: pharmacy
+  topics: [health]
+- text: el dolor
+  example: Tengo dolor de cabeza.
+  hint: pain
+  topics: [health]
+- text: la fiebre
+  example: El niño tiene fiebre.
+  hint: fever
+  topics: [health]
+- text: el brazo
+  example: Me duele el brazo.
+  hint: arm
+  topics: [health]
+- text: la pierna
+  example: Me duele la pierna.
+  hint: leg
+  topics: [health]
+- text: el pie
+  example: Me duelen los pies.
+  hint: foot
+  topics: [health]
+- text: este
+  example: Este libro es muy bueno.
+  hint: this
+  topics: [everyday]
+- text: otro
+  example: Quiero otro café, por favor.
+  hint: other/another
+  topics: [everyday, shopping]
+- text: cada
+  example: Como fruta cada día.
+  hint: each/every
+  topics: [everyday]
+- text: tomar
+  example: Tomo café con leche.
+  hint: take/drink
+  topics: [shopping]
+- text: dar
+  example: Dame el pan, por favor.
+  hint: give
+  topics: [everyday]
+- text: mirar
+  example: Mira la puerta, por favor.
+  hint: look
+  topics: [everyday]
+- text: buscar
+  example: Busco la llave en la mesa.
+  hint: look for
+  topics: [everyday]
+- text: encontrar
+  example: No encuentro mi billete.
+  hint: find
+  topics: [travel, everyday]
+- text: llevar
+  example: Llevo una camisa blanca.
+  hint: wear/carry
+  topics: [everyday]
+- text: poner
+  example: Pongo la mesa para cenar.
+  hint: put
+  topics: [everyday]
+- text: escuchar
+  example: Escucho música en el autobús.
+  hint: listen
+  topics: [everyday]
+- text: estudiar
+  example: Estudio español todos los días.
+  hint: study
+  topics: [everyday]
+- text: dormir
+  example: Duermo ocho horas cada noche.
+  hint: sleep
+  topics: [health, everyday]
+- text: alguien
+  example: Alguien llama a la puerta.
+  hint: someone
+  topics: [social, everyday]
+- text: nadie
+  example: No hay nadie en casa.
+  hint: nobody
+  topics: [social, everyday]
+- text: pronto
+  example: Vuelvo pronto a casa.
+  hint: soon
+  topics: [everyday]
+- text: temprano
+  example: Me levanto temprano los lunes.
+  hint: early
+  topics: [everyday]
+- text: tampoco
+  example: Yo tampoco quiero café.
+  hint: neither
+  topics: [everyday, social]
+- text: la calle
+  example: Vivo en una calle pequeña.
+  hint: street
+  topics: [housing, travel]
+- text: el piso
+  example: Mi piso está en el centro.
+  hint: flat/apartment
+  topics: [housing]
+- text: la luz
+  example: Apaga la luz, por favor.
+  hint: light
+  topics: [housing]
+- text: el vecino
+  example: El vecino es muy simpático.
+  hint: neighbour
+  topics: [social, housing]
+- text: el dormitorio
+  example: Mi dormitorio es pequeño y limpio.
+  hint: bedroom
+  topics: [housing]
+- text: la escalera
+  example: Subo por la escalera.
+  hint: stairs
+  topics: [housing]
+- text: el ascensor
+  example: El ascensor no funciona hoy.
+  hint: lift/elevator
+  topics: [housing]
+- text: el balcón
+  example: Desayuno en el balcón.
+  hint: balcony
+  topics: [housing]
+- text: el perro
+  example: El perro juega en el parque.
+  hint: dog
+  topics: [social, everyday]
+- text: el gato
+  example: Mi gato duerme en la cama.
+  hint: cat
+  topics: [social, everyday]
+- text: el abuelo
+  example: Mi abuelo vive con nosotros.
+  hint: grandfather
+  topics: [social]
+- text: la abuela
+  example: Mi abuela cocina muy bien.
+  hint: grandmother
+  topics: [social]
+- text: la fiesta
+  example: Hay una fiesta en mi casa.
+  hint: party
+  topics: [social]
+- text: el regalo
+  example: Este regalo es para ti.
+  hint: gift
+  topics: [social, shopping]
+- text: el amor
+  example: El amor es importante en la vida.
+  hint: love
+  topics: [social]
+- text: el miedo
+  example: Tengo miedo de los perros.
+  hint: fear
+  topics: [social]
+- text: el arroz
+  example: Cocino arroz con pollo.
+  hint: rice
+  topics: [shopping]
+- text: el queso
+  example: Como queso en el desayuno.
+  hint: cheese
+  topics: [shopping]
+- text: el tomate
+  example: Pongo tomate en la ensalada.
+  hint: tomato
+  topics: [shopping]
+- text: la ensalada
+  example: La ensalada tiene tomate y sal.
+  hint: salad
+  topics: [shopping]
+- text: el zumo
+  example: Bebo zumo de naranja.
+  hint: juice
+  topics: [shopping]
+- text: el vaso
+  example: Un vaso de agua, por favor.
+  hint: glass
+  topics: [shopping]
+- text: el mercado
+  example: Compro fruta en el mercado.
+  hint: market
+  topics: [shopping]
+- text: la ropa
+  example: La ropa está en la maleta.
+  hint: clothes
+  topics: [shopping, travel]
+- text: el hospital
+  example: Mi madre está en el hospital.
+  hint: hospital
+  topics: [health]
+- text: la pastilla
+  example: Tomo una pastilla por la mañana.
+  hint: pill
+  topics: [health]
+- text: la tos
+  example: Tengo tos y fiebre.
+  hint: cough
+  topics: [health]
+- text: la gripe
+  example: Tengo gripe esta semana.
+  hint: flu
+  topics: [health]
+- text: la cita
+  example: Tengo una cita con el médico.
+  hint: appointment
+  topics: [health, office]
+- text: el documento
+  example: Necesito un documento para el viaje.
+  hint: document
+  topics: [office, travel]
+- text: el formulario
+  example: Relleno el formulario con un bolígrafo.
+  hint: form
+  topics: [office]
+- text: la firma
+  example: Pongo mi firma aquí.
+  hint: signature
+  topics: [office]
+- text: el contrato
+  example: Firmo el contrato de trabajo.
+  hint: contract
+  topics: [work, office]
+- text: la empresa
+  example: Trabajo en una empresa pequeña.
+  hint: company
+  topics: [work]
+- text: la playa
+  example: Vamos a la playa en verano.
+  hint: beach
+  topics: [travel]
+- text: el mapa
+  example: Miro el mapa en el hotel.
+  hint: map
+  topics: [travel]
+- text: el taxi
+  example: Voy al centro en taxi.
+  hint: taxi
+  topics: [travel]
+- text: la bici
+  example: Voy al trabajo en bici.
+  hint: bike
+  topics: [travel]
+- text: grande
+  example: Mi casa es grande y nueva.
+  hint: big
+  topics: [housing]
+- text: pequeño
+  example: El perro es pequeño y blanco.
+  hint: small
+  topics: [everyday]
+- text: nuevo
+  example: Tengo un móvil nuevo.
+  hint: new
+  topics: [everyday, shopping]
+- text: caro
+  example: Este restaurante es muy caro.
+  hint: expensive
+  topics: [shopping]
+- text: el teléfono
+  example: Mi teléfono está en la mesa.
+  hint: telephone
+  topics: [everyday, office]
+- text: el móvil
+  example: Uso el móvil para llamar.
+  hint: mobile phone
+  topics: [everyday, office]
+- text: la noche
+  example: Por la noche leo un poco.
+  hint: night
+  topics: [everyday]
+- text: la persona
+  example: Esa persona es muy amable.
+  hint: person
+  topics: [social]
+- text: el chico
+  example: El chico vive cerca.
+  hint: boy
+  topics: [social]
+- text: la chica
+  example: La chica trabaja en la tienda.
+  hint: girl
+  topics: [social, work]
+- text: el profesor
+  example: El profesor habla despacio.
+  hint: teacher
+  topics: [work]
+- text: el estudiante
+  example: El estudiante lee en clase.
+  hint: student
+  topics: [everyday]
+- text: la ciudad
+  example: Mi ciudad es muy grande.
+  hint: city
+  topics: [travel, everyday]
+- text: el pueblo
+  example: Mi pueblo es pequeño y tranquilo.
+  hint: town
+  topics: [travel, everyday]
+- text: el parque
+  example: Los niños juegan en el parque.
+  hint: park
+  topics: [everyday, travel]
+- text: el banco
+  example: Tengo dinero en el banco.
+  hint: bank
+  topics: [office]
+- text: la bolsa
+  example: La bolsa está en la silla.
+  hint: bag
+  topics: [shopping]
+- text: barato
+  example: Este café es muy barato.
+  hint: cheap
+  topics: [shopping]
+- text: abierto
+  example: El banco está abierto.
+  hint: open
+  topics: [shopping, office]
+- text: cerrado
+  example: El bar está cerrado hoy.
+  hint: closed
+  topics: [shopping]
+- text: limpio
+  example: El baño está muy limpio.
+  hint: clean
+  topics: [housing]
+- text: sucio
+  example: El suelo está sucio.
+  hint: dirty
+  topics: [housing]
+- text: rápido
+  example: El tren es muy rápido.
+  hint: fast
+  topics: [travel]
+- text: lento
+  example: El autobús va muy lento.
+  hint: slow
+  topics: [travel]
+- text: fácil
+  example: Este ejercicio es muy fácil.
+  hint: easy
+  topics: [everyday]
+- text: difícil
+  example: El examen es difícil.
+  hint: difficult
+  topics: [everyday, work]
+- text: frío
+  example: El café está frío.
+  hint: cold
+  topics: [everyday, shopping]
+- text: caliente
+  example: La sopa está muy caliente.
+  hint: hot
+  topics: [shopping, everyday]
+- text: el desayuno
+  example: El desayuno es a las ocho.
+  hint: breakfast
+  topics: [shopping, everyday]
+- text: la cena
+  example: La cena está en la mesa.
+  hint: dinner
+  topics: [shopping, everyday]
+- text: la bebida
+  example: La bebida está en la nevera.
+  hint: drink
+  topics: [shopping]
+- text: cocinar
+  example: Me gusta cocinar los domingos.
+  hint: to cook
+  topics: [shopping, housing]
+- text: limpiar
+  example: Limpio la cocina cada día.
+  hint: to clean
+  topics: [housing]
+- text: lavar
+  example: Lavo la ropa los sábados.
+  hint: to wash
+  topics: [housing]
+- text: empezar
+  example: La clase empieza a las diez.
+  hint: to start
+  topics: [everyday, work]
+- text: terminar
+  example: El trabajo termina a las seis.
+  hint: to finish
+  topics: [work, everyday]
+- text: preguntar
+  example: Pregunto al profesor.
+  hint: to ask
+  topics: [social, everyday]
+- text: llamar
+  example: Voy a llamar al médico.
+  hint: to call
+  topics: [everyday, health]
+- text: contestar
+  example: No contesto el teléfono.
+  hint: to answer
+  topics: [everyday, social]
+- text: pensar
+  example: Pienso en mis vacaciones.
+  hint: to think
+  topics: [everyday]
+- text: creer
+  example: Creo que sí.
+  hint: to believe
+  topics: [everyday]
+- text: conocer
+  example: Conozco a tu hermana.
+  hint: to know
+  topics: [social]
+- text: visitar
+  example: Voy a visitar a mi madre.
+  hint: to visit
+  topics: [social, travel]
+- text: viajar
+  example: Me gusta viajar en tren.
+  hint: to travel
+  topics: [travel]
+- text: caminar
+  example: Caminamos por el parque.
+  hint: to walk
+  topics: [travel, health]
+- text: subir
+  example: Subo las escaleras.
+  hint: to go up
+  topics: [housing, travel]
+- text: bajar
+  example: Bajo al supermercado.
+  hint: to go down
+  topics: [housing, shopping]
+- text: menos
+  example: Quiero menos azúcar.
+  hint: less
+  topics: [shopping, everyday]
+- text: entonces
+  example: Entonces, vamos a casa.
+  hint: then
+  topics: [everyday]
+- text: si
+  example: Si llueve, no salimos.
+  hint: if
+  topics: [everyday]
+- text: cuando
+  example: Cuando llego, ceno.
+  hint: when
+  topics: [everyday]
+- text: como
+  example: Hablo como mi padre.
+  hint: as/like
+  topics: [everyday]
+- text: el ojo
+  example: Me duele el ojo.
+  hint: eye
+  topics: [health]
+- text: la boca
+  example: Abre la boca, por favor.
+  hint: mouth
+  topics: [health]
+- text: la nariz
+  example: Tengo la nariz tapada.
+  hint: nose
+  topics: [health]
+- text: el diente
+  example: Me duele un diente.
+  hint: tooth
+  topics: [health]
+- text: la cara
+  example: Lávate la cara.
+  hint: face
+  topics: [health, everyday]
+- text: el estómago
+  example: Me duele el estómago.
+  hint: stomach
+  topics: [health]
+- text: el pelo
+  example: Tengo el pelo corto.
+  hint: hair
+  topics: [health, everyday]
+- text: el minuto
+  example: Espera un minuto.
+  hint: minute
+  topics: [everyday]
+- text: el cumpleaños
+  example: Mi cumpleaños es en mayo.
+  hint: birthday
+  topics: [social]
+- text: las vacaciones
+  example: Estoy de vacaciones esta semana.
+  hint: holidays
+  topics: [travel]
+- text: el mar
+  example: El mar está tranquilo hoy.
+  hint: sea
+  topics: [travel]
+- text: la montaña
+  example: Vamos a la montaña.
+  hint: mountain
+  topics: [travel]
+- text: ni
+  example: No quiero café ni té.
+  hint: nor, neither
+  topics: [everyday]
+- text: claro
+  example: Claro, puedes venir conmigo.
+  hint: of course
+  topics: [everyday]
+- text: vale
+  example: Vale, nos vemos a las seis.
+  hint: okay
+  topics: [everyday]
+- text: bueno
+  example: Bueno, yo voy contigo.
+  hint: well, okay
+  topics: [everyday]
+- text: solo
+  example: Solo quiero un vaso de agua.
+  hint: only, alone
+  topics: [everyday]
+- text: quizás
+  example: Quizás vengo mañana.
+  hint: maybe
+  topics: [everyday]
+- text: la botella
+  example: Una botella de agua, por favor.
+  hint: bottle
+  topics: [shopping]
+- text: el plato
+  example: El plato está en la mesa.
+  hint: plate, dish
+  topics: [shopping]
+- text: la taza
+  example: Quiero una taza de café.
+  hint: cup
+  topics: [shopping]
+- text: el tenedor
+  example: El tenedor está a la derecha.
+  hint: fork
+  topics: [shopping]
+- text: la cuchara
+  example: La cuchara es para la sopa.
+  hint: spoon
+  topics: [shopping]
+- text: el cuchillo
+  example: Corta el pan con el cuchillo.
+  hint: knife
+  topics: [shopping]
+- text: el azúcar
+  example: Pongo azúcar en el café.
+  hint: sugar
+  topics: [shopping]
+- text: la sal
+  example: La sopa necesita más sal.
+  hint: salt
+  topics: [shopping]
+- text: el aceite
+  example: Cocino con aceite de oliva.
+  hint: oil
+  topics: [shopping]
+- text: la naranja
+  example: Como una naranja cada día.
+  hint: orange
+  topics: [shopping]
+- text: el plátano
+  example: El plátano es una fruta.
+  hint: banana
+  topics: [shopping]
+- text: la cebolla
+  example: La cebolla me hace llorar.
+  hint: onion
+  topics: [shopping]
+- text: la cerveza
+  example: Una cerveza fría, por favor.
+  hint: beer
+  topics: [shopping]
+- text: el vino
+  example: Bebo vino tinto en la cena.
+  hint: wine
+  topics: [shopping]
+- text: el té
+  example: Prefiero té con limón.
+  hint: tea
+  topics: [shopping]
+- text: el sofá
+  example: El sofá está en el salón.
+  hint: sofa
+  topics: [housing]
+- text: la lámpara
+  example: La lámpara está al lado de la cama.
+  hint: lamp
+  topics: [housing]
+- text: la pared
+  example: Hay un cuadro en la pared.
+  hint: wall
+  topics: [housing]
+- text: el suelo
+  example: El suelo de la cocina está limpio.
+  hint: floor, ground
+  topics: [housing]
+- text: el techo
+  example: La lámpara cuelga del techo.
+  hint: ceiling, roof
+  topics: [housing]
+- text: el jardín
+  example: Los niños juegan en el jardín.
+  hint: garden
+  topics: [housing]
+- text: el espejo
+  example: Me miro en el espejo.
+  hint: mirror
+  topics: [housing]
+- text: la toalla
+  example: La toalla está en el baño.
+  hint: towel
+  topics: [housing]
+- text: el jabón
+  example: No hay jabón en el baño.
+  hint: soap
+  topics: [housing]
+- text: la ducha
+  example: La ducha está muy caliente.
+  hint: shower
+  topics: [housing]
+- text: el ruido
+  example: El ruido de la calle es fuerte.
+  hint: noise
+  topics: [housing]
+- text: el señor
+  example: El señor es muy amable.
+  hint: man, Mr
+  topics: [social]
+- text: la señora
+  example: La señora habla con mi madre.
+  hint: woman, Mrs
+  topics: [social]
+- text: el bebé
+  example: El bebé duerme en su cama.
+  hint: baby
+  topics: [social]
+- text: el primo
+  example: Mi primo tiene diez años.
+  hint: cousin (m)
+  topics: [social]
+- text: la prima
+  example: Mi prima estudia en la universidad.
+  hint: cousin (f)
+  topics: [social]
+- text: el tío
+  example: Mi tío trabaja en un banco.
+  hint: uncle
+  topics: [social]
+- text: la tía
+  example: Mi tía cocina muy bien.
+  hint: aunt
+  topics: [social]
+- text: la reunión
+  example: La reunión es a las diez.
+  hint: meeting
+  topics: [work]
+- text: el compañero
+  example: Mi compañero trabaja en la oficina.
+  hint: colleague, mate
+  topics: [work]
+- text: el sueldo
+  example: El sueldo es bajo este mes.
+  hint: salary
+  topics: [work]
+- text: la espalda
+  example: Me duele la espalda.
+  hint: back
+  topics: [health]
+- text: el dedo
+  example: Me duele el dedo.
+  hint: finger
+  topics: [health]
+- text: la oreja
+  example: Me duele la oreja derecha.
+  hint: ear
+  topics: [health]
+- text: el corazón
+  example: Me duele el corazón.
+  hint: heart
+  topics: [health]
+- text: la receta
+  example: El médico me da una receta.
+  hint: prescription, recipe
+  topics: [health]
+- text: la alergia
+  example: Tengo alergia al polen.
+  hint: allergy
+  topics: [health]
+- text: la entrada
+  example: La entrada del museo es gratis.
+  hint: ticket, entrance
+  topics: [travel]
+- text: el andén
+  example: El tren sale del andén dos.
+  hint: platform
+  topics: [travel]
+- text: el vuelo
+  example: El vuelo sale a las ocho.
+  hint: flight
+  topics: [travel]
+- text: el asiento
+  example: Mi asiento está junto a la ventana.
+  hint: seat
+  topics: [travel]
+- text: la llegada
+  example: La llegada del tren es a las dos.
+  hint: arrival
+  topics: [travel]
+- text: el retraso
+  example: El vuelo tiene un retraso de una hora.
+  hint: delay
+  topics: [travel]
+- text: el barco
+  example: El barco va a las islas.
+  hint: boat, ship
+  topics: [travel]
+- text: la moto
+  example: Voy al trabajo en moto.
+  hint: motorbike
+  topics: [travel]
+- text: la gasolina
+  example: La gasolina está muy cara.
+  hint: petrol
+  topics: [travel]
+- text: el aparcamiento
+  example: No hay sitio en el aparcamiento.
+  hint: parking
+  topics: [travel]
+- text: la policía
+  example: La policía está en la calle.
+  hint: police
+  topics: [office]
+- text: el permiso
+  example: Necesito un permiso de trabajo.
+  hint: permit, licence
+  topics: [office]
+- text: cuánto
+  example: ¿Cuánto cuesta el pan?
+  hint: how much
+  topics: [shopping]
+- text: quién
+  example: ¿Quién es el jefe?
+  hint: who
+  topics: [work, social]
+- text: cuál
+  example: ¿Cuál es tu dirección?
+  hint: which
+  topics: [office]
+- text: ese
+  example: Ese autobús va al centro.
+  hint: that
+  topics: [travel]
+- text: nuestro
+  example: Nuestro piso es pequeño.
+  hint: our
+  topics: [housing]
+- text: todavía
+  example: Todavía no estoy listo.
+  hint: still, yet
+  topics: [everyday]
+- text: bastante
+  example: El piso es bastante grande.
+  hint: quite, enough
+  topics: [housing]
+- text: delante
+  example: El banco está delante.
+  hint: in front
+  topics: [travel]
+- text: detrás
+  example: El baño está detrás.
+  hint: behind
+  topics: [housing]
+- text: dentro
+  example: El dinero está dentro.
+  hint: inside
+  topics: [shopping]
+- text: fuera
+  example: El perro está fuera.
+  hint: outside
+  topics: [housing]
+- text: encima
+  example: El móvil está encima.
+  hint: on top
+  topics: [housing]
+- text: debajo
+  example: La llave está debajo.
+  hint: underneath
+  topics: [housing]
+- text: ahí
+  example: El libro está ahí.
+  hint: there
+  topics: [everyday]
+- text: la derecha
+  example: La farmacia está a la derecha.
+  hint: right side
+  topics: [health, travel]
+- text: la izquierda
+  example: Gira a la izquierda.
+  hint: left side
+  topics: [travel]
+- text: primero
+  example: El primero es mi asiento.
+  hint: first
+  topics: [travel]
+- text: último
+  example: Este es el último tren.
+  hint: last
+  topics: [travel]
+- text: siguiente
+  example: La siguiente parada es mía.
+  hint: next
+  topics: [travel]
+- text: algún
+  example: ¿Tienes algún problema?
+  hint: any
+  topics: [social]
+- text: ningún
+  example: No hay ningún asiento.
+  hint: no, any
+  topics: [travel]
+- text: el centro
+  example: Voy al centro en metro.
+  hint: city centre
+  topics: [travel]
+- text: la plaza
+  example: La plaza está cerca.
+  hint: square
+  topics: [travel]
+- text: la esquina
+  example: La tienda está en la esquina.
+  hint: corner
+  topics: [shopping]
+- text: el barrio
+  example: Mi barrio es tranquilo.
+  hint: neighbourhood
+  topics: [housing]
+- text: la carretera
+  example: La carretera está mojada.
+  hint: road
+  topics: [travel]
+- text: el semáforo
+  example: Espera en el semáforo.
+  hint: traffic light
+  topics: [travel]
+- text: el conductor
+  example: El conductor es amable.
+  hint: driver
+  topics: [travel]
+- text: el equipaje
+  example: Mi equipaje está en el hotel.
+  hint: luggage
+  topics: [travel]
+- text: la ventanilla
+  example: Compro el billete en la ventanilla.
+  hint: ticket window
+  topics: [travel]
+- text: la terraza
+  example: Desayunamos en la terraza.
+  hint: terrace
+  topics: [housing]
+- text: el comedor
+  example: Comemos en el comedor.
+  hint: dining room
+  topics: [housing]
+- text: el pasillo
+  example: El baño está en el pasillo.
+  hint: corridor
+  topics: [housing]
+- text: el patio
+  example: El perro está en el patio.
+  hint: patio, yard
+  topics: [housing]
+- text: la lavadora
+  example: La lavadora está en la cocina.
+  hint: washing machine
+  topics: [housing]
+- text: el lavabo
+  example: El lavabo está limpio.
+  hint: sink
+  topics: [housing]
+- text: la servilleta
+  example: Necesito una servilleta.
+  hint: napkin
+  topics: [shopping]
+- text: el euro
+  example: El café cuesta un euro.
+  hint: euro
+  topics: [shopping]
+- text: la caja
+  example: Pago en la caja.
+  hint: checkout, box
+  topics: [shopping]
+- text: la panadería
+  example: Compro pan en la panadería.
+  hint: bakery
+  topics: [shopping]
+- text: la sopa
+  example: La sopa está caliente.
+  hint: soup
+  topics: [shopping]
+- text: la pasta
+  example: Cocino pasta con tomate.
+  hint: pasta
+  topics: [shopping]
+- text: el bocadillo
+  example: Como un bocadillo.
+  hint: sandwich
+  topics: [shopping]
+- text: el jamón
+  example: El jamón es caro.
+  hint: ham
+  topics: [shopping]
+- text: el yogur
+  example: Como yogur por la mañana.
+  hint: yoghurt
+  topics: [shopping]
+- text: el postre
+  example: El postre es fruta.
+  hint: dessert
+  topics: [shopping]
+- text: el menú
+  example: El menú del día es barato.
+  hint: menu
+  topics: [shopping]
+- text: el camarero
+  example: El camarero trae la cuenta.
+  hint: waiter
+  topics: [shopping]
+- text: el dentista
+  example: Voy al dentista.
+  hint: dentist
+  topics: [health]
+- text: la enfermera
+  example: La enfermera es amable.
+  hint: nurse
+  topics: [health]
+- text: doler
+  example: Me duele la cabeza.
+  hint: to hurt
+  topics: [health]
+- text: descansar
+  example: Descanso el fin de semana.
+  hint: to rest
+  topics: [health, everyday]
+- text: la temperatura
+  example: Tienes temperatura.
+  hint: temperature, fever
+  topics: [health]
+- text: el gimnasio
+  example: Voy al gimnasio.
+  hint: gym
+  topics: [health]
+- text: coger
+  example: Coge el autobús en la esquina.
+  hint: to take
+  topics: [travel]
+- text: volver
+  example: Vuelvo a casa a las seis.
+  hint: to return
+  topics: [travel, everyday]
+- text: venir
+  example: ¿Vienes a la fiesta?
+  hint: to come
+  topics: [social]
+- text: oír
+  example: No oigo bien.
+  hint: to hear
+  topics: [health]
+- text: jugar
+  example: Juego al fútbol con amigos.
+  hint: to play
+  topics: [social]
+- text: usar
+  example: Uso el móvil para trabajar.
+  hint: to use
+  topics: [work]
+- text: el reloj
+  example: Mi reloj está en la mesa.
+  hint: clock, watch
+  topics: [everyday]
+- text: el armario
+  example: La ropa está en el armario.
+  hint: wardrobe
+  topics: [housing]
+- text: el bolso
+  example: Mi bolso es pequeño y negro.
+  hint: handbag
+  topics: [everyday]
+- text: la mochila
+  example: Llevo la mochila al trabajo.
+  hint: backpack
+  topics: [travel]
+- text: el paraguas
+  example: Hoy llueve; necesito el paraguas.
+  hint: umbrella
+  topics: [everyday]
+- text: las gafas
+  example: No encuentro mis gafas.
+  hint: glasses
+  topics: [everyday]
+- text: el abrigo
+  example: Hace frío; ponte el abrigo.
+  hint: coat
+  topics: [shopping]
+- text: el pantalón
+  example: Este pantalón es muy cómodo.
+  hint: trousers
+  topics: [shopping]
+- text: el vestido
+  example: Ella lleva un vestido azul.
+  hint: dress
+  topics: [shopping]
+- text: la falda
+  example: La falda blanca está en el armario.
+  hint: skirt
+  topics: [shopping]
+- text: la chaqueta
+  example: Mi chaqueta nueva es de lana.
+  hint: jacket
+  topics: [shopping]
+- text: el jersey
+  example: Pongo el jersey en la maleta.
+  hint: jumper
+  topics: [shopping]
+- text: el cepillo
+  example: Uso el cepillo dos veces al día.
+  hint: brush
+  topics: [health]
+- text: el papel
+  example: Necesito papel para escribir una carta.
+  hint: paper
+  topics: [office]
+- text: el bolígrafo
+  example: ¿Tienes un bolígrafo azul?
+  hint: pen
+  topics: [office]
+- text: la carpeta
+  example: Los documentos están en la carpeta.
+  hint: folder
+  topics: [office]
+- text: la llamada
+  example: Tengo una llamada a las diez.
+  hint: call
+  topics: [work]
+- text: el cliente
+  example: El cliente espera en la oficina.
+  hint: customer
+  topics: [work]
+- text: la factura
+  example: Pago la factura de la luz.
+  hint: invoice
+  topics: [office]
+- text: el recibo
+  example: Guardo el recibo de la compra.
+  hint: receipt
+  topics: [shopping]
+- text: el cambio
+  example: ¿Tiene cambio de diez euros?
+  hint: change
+  topics: [shopping]
+- text: la moneda
+  example: Hay una moneda en el suelo.
+  hint: coin
+  topics: [shopping]
+- text: el sol
+  example: Hoy hace sol y calor.
+  hint: sun
+  topics: [everyday]
+- text: la lluvia
+  example: La lluvia es buena para las plantas.
+  hint: rain
+  topics: [everyday]
+- text: el viento
+  example: Hace viento en la playa.
+  hint: wind
+  topics: [everyday]
+- text: la nieve
+  example: En invierno hay nieve en la montaña.
+  hint: snow
+  topics: [everyday]
+- text: la mantequilla
+  example: Pongo mantequilla en el pan.
+  hint: butter
+  topics: [shopping]
+- text: el helado
+  example: Quiero un helado de chocolate.
+  hint: ice cream
+  topics: [shopping]
+- text: el chocolate
+  example: El chocolate caliente está muy rico.
+  hint: chocolate
+  topics: [shopping]
+- text: la tarta
+  example: La tarta de cumpleaños es para ti.
+  hint: cake
+  topics: [shopping]
+- text: el limón
+  example: Pongo limón en la ensalada.
+  hint: lemon
+  topics: [shopping]
+- text: la pera
+  example: La pera está madura y dulce.
+  hint: pear
+  topics: [shopping]
+- text: la uva
+  example: Como uvas en el desayuno.
+  hint: grape
+  topics: [shopping]
+- text: el melón
+  example: El melón es fresco y dulce.
+  hint: melon
+  topics: [shopping]
+- text: la sandía
+  example: En verano compramos sandía.
+  hint: watermelon
+  topics: [shopping]
+- text: la garganta
+  example: Me duele la garganta.
+  hint: throat
+  topics: [health]
+- text: el pecho
+  example: Tengo dolor en el pecho.
+  hint: chest
+  topics: [health]
+- text: el cuello
+  example: Me duele el cuello.
+  hint: neck
+  topics: [health]
+- text: la sangre
+  example: La sangre es roja.
+  hint: blood
+  topics: [health]
+- text: la piel
+  example: Protege la piel del sol.
+  hint: skin
+  topics: [health]
+- text: el hueso
+  example: El hueso del brazo está roto.
+  hint: bone
+  topics: [health]
+- text: la rodilla
+  example: Me duele la rodilla al correr.
+  hint: knee
+  topics: [health]
+- text: el codo
+  example: Me he golpeado el codo.
+  hint: elbow
+  topics: [health]
+- text: el tobillo
+  example: Tengo el tobillo hinchado.
+  hint: ankle
+  topics: [health]
+- text: el lunes
+  example: El lunes empiezo el trabajo.
+  hint: Monday
+  topics: [everyday]
+- text: el martes
+  example: El martes tengo una cita.
+  hint: Tuesday
+  topics: [everyday]
+- text: el miércoles
+  example: El miércoles vamos al cine.
+  hint: Wednesday
+  topics: [everyday]
+- text: el jueves
+  example: El jueves es mi día libre.
+  hint: Thursday
+  topics: [everyday]
+- text: el viernes
+  example: El viernes cenamos en casa.
+  hint: Friday
+  topics: [everyday]
+- text: el sábado
+  example: El sábado voy de compras.
+  hint: Saturday
+  topics: [everyday]
+- text: el domingo
+  example: El domingo descanso en casa.
+  hint: Sunday
+  topics: [everyday]
+- text: la primavera
+  example: En primavera hay muchas flores.
+  hint: spring
+  topics: [everyday]
+- text: el verano
+  example: En verano vamos a la playa.
+  hint: summer
+  topics: [everyday]
+- text: el otoño
+  example: En otoño llueve más.
+  hint: autumn
+  topics: [everyday]
+- text: el invierno
+  example: En invierno hace mucho frío.
+  hint: winter
+  topics: [everyday]
+- text: el norte
+  example: Vivo en el norte.
+  hint: north
+  topics: [travel]
+- text: el sur
+  example: Vivo en el sur.
+  hint: south
+  topics: [travel]
+- text: el este
+  example: El sol sale por el este.
+  hint: east
+  topics: [travel]
+- text: el oeste
+  example: El sol se pone por el oeste.
+  hint: west
+  topics: [travel]
+- text: el nombre
+  example: No sé tu nombre.
+  hint: name
+  topics: [social, office]
+- text: el libro
+  example: Mi libro está en la mesa.
+  hint: book
+  topics: [everyday]
+- text: la foto
+  example: Mira esta foto de mi familia.
+  hint: photo
+  topics: [social, everyday]
+- text: casi
+  example: Casi siempre desayuno en casa.
+  hint: almost
+  topics: [everyday]
+- text: el país
+  example: Mi país es pequeño y tranquilo.
+  hint: country
+  topics: [travel]
+- text: el deporte
+  example: Hago deporte dos veces por semana.
+  hint: sport
+  topics: [health, everyday]
+- text: la música
+  example: Me gusta mucho la música española.
+  hint: music
+  topics: [social, everyday]
+- text: la televisión
+  example: Veo la televisión por la noche.
+  hint: television
+  topics: [everyday]
+- text: la película
+  example: La película empieza a las ocho.
+  hint: film
+  topics: [everyday, social]
+- text: desayunar
+  example: Desayuno café con tostadas.
+  hint: have breakfast
+  topics: [shopping, everyday]
+- text: levantarse
+  example: Me levanto a las siete.
+  hint: get up
+  topics: [everyday, health]
+- text: correr
+  example: Corro en el parque cada mañana.
+  hint: run
+  topics: [health, everyday]
+- text: despacio
+  example: Habla más despacio, por favor.
+  hint: slowly
+  topics: [everyday]
+- text: alto
+  example: Mi hermano es muy alto.
+  hint: tall
+  topics: [social]
+- text: joven
+  example: Mi profesor es bastante joven.
+  hint: young
+  topics: [social]
+- text: viejo
+  example: Este coche es viejo.
+  hint: old
+  topics: [social]
+- text: largo
+  example: El viaje es muy largo.
+  hint: long
+  topics: [everyday]
+- text: corto
+  example: El camino es corto y fácil.
+  hint: short
+  topics: [everyday]
+- text: nervioso
+  example: Estoy nervioso por el examen.
+  hint: nervous
+  topics: [social, health]
+- text: interesante
+  example: Este libro es muy interesante.
+  hint: interesting
+  topics: [everyday, social]
+- text: bonito
+  example: Tu vestido es muy bonito.
+  hint: pretty
+  topics: [shopping, social]

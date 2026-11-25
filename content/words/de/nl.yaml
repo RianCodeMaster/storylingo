@@ -1,0 +1,1502 @@
+# What each word means for learners with this base language, and its example sentence translated. Made by
+# `storylingo.py localize-words`; corrections by hand are welcome (then: storylingo.py sync).
+und:
+  meaning: en
+  example: Ik drink water en koffie.
+ich:
+  meaning: ik
+  example: Ik woon in de stad.
+du:
+  meaning: jij
+  example: Waar woon je?
+nicht:
+  meaning: niet
+  example: Ik begrijp dat niet.
+sein:
+  meaning: zijn
+  example: Ik wil thuis zijn.
+haben:
+  meaning: hebben
+  example: Wij hebben een huis.
+ein:
+  meaning: een
+  example: Dat is een hond.
+auch:
+  meaning: ook
+  example: Ik wil ook koffie.
+sehr:
+  meaning: heel, zeer
+  example: Dat is heel goed.
+mit:
+  meaning: met
+  example: Ik kom met de bus.
+für:
+  meaning: voor
+  example: Het brood is voor jou.
+aber:
+  meaning: maar
+  example: Ik ben moe, maar gelukkig.
+oder:
+  meaning: of
+  example: Wil je thee of koffie?
+in:
+  meaning: in
+  example: Ik woon in een huis.
+auf:
+  meaning: op
+  example: Het boek ligt op tafel.
+gehen:
+  meaning: gaan
+  example: Wij gaan naar huis.
+kommen:
+  meaning: komen
+  example: Waar komt u vandaan?
+machen:
+  meaning: doen, maken
+  example: Wat doe je vandaag?
+sagen:
+  meaning: zeggen
+  example: Zeg dat alsjeblieft nog eens.
+sehen:
+  meaning: zien
+  example: Ik zie de bus.
+essen:
+  meaning: eten
+  example: Wij eten brood met kaas.
+trinken:
+  meaning: drinken
+  example: Ik drink graag water.
+kaufen:
+  meaning: kopen
+  example: Ik koop brood en melk.
+wohnen:
+  meaning: wonen
+  example: Wij wonen in de stad.
+arbeiten:
+  meaning: werken
+  example: Ik werk op kantoor.
+sprechen:
+  meaning: spreken
+  example: Spreekt u Duits?
+verstehen:
+  meaning: begrijpen
+  example: Ik begrijp de vraag niet.
+brauchen:
+  meaning: nodig hebben
+  example: Wij hebben water en brood nodig.
+können:
+  meaning: kunnen
+  example: Kun je me helpen?
+müssen:
+  meaning: moeten
+  example: Ik moet vandaag werken.
+gut:
+  meaning: goed
+  example: Het eten is goed.
+groß:
+  meaning: groot
+  example: Het huis is heel groot.
+klein:
+  meaning: klein
+  example: De woning is klein.
+neu:
+  meaning: nieuw
+  example: Ik heb een nieuwe telefoon.
+alt:
+  meaning: oud
+  example: Mijn fiets is oud.
+teuer:
+  meaning: duur
+  example: De auto is te duur.
+billig:
+  meaning: goedkoop
+  example: Het brood is goedkoop.
+krank:
+  meaning: ziek
+  example: Mijn kind is ziek.
+glücklich:
+  meaning: gelukkig
+  example: Ik ben vandaag gelukkig.
+müde:
+  meaning: moe
+  example: Ik ben heel moe.
+der Mann:
+  meaning: de man
+  example: De man koopt brood.
+die Frau:
+  meaning: de vrouw
+  example: De vrouw werkt op kantoor.
+das Kind:
+  meaning: het kind
+  example: Het kind speelt in het huis.
+die Familie:
+  meaning: de familie
+  example: Mijn familie woont in de stad.
+der Freund:
+  meaning: de vriend
+  example: Mijn vriend komt vandaag.
+das Haus:
+  meaning: het huis
+  example: Het huis heeft een keuken.
+die Wohnung:
+  meaning: de woning, het appartement
+  example: De woning is klein en nieuw.
+das Zimmer:
+  meaning: de kamer
+  example: De kamer heeft een raam.
+die Küche:
+  meaning: de keuken
+  example: De keuken is heel klein.
+die Zeit:
+  meaning: de tijd
+  example: Ik heb geen tijd.
+das Wasser:
+  meaning: het water
+  example: Ik drink veel water.
+das Brot:
+  meaning: het brood
+  example: Het brood is vers.
+der Kaffee:
+  meaning: de koffie
+  example: De koffie is te heet.
+das Geld:
+  meaning: het geld
+  example: Ik heb geen geld.
+der Supermarkt:
+  meaning: de supermarkt
+  example: De supermarkt is vandaag open.
+die Arbeit:
+  meaning: het werk
+  example: Het werk begint om acht.
+der Arzt:
+  meaning: de dokter, de arts
+  example: De dokter komt vandaag.
+der Termin:
+  meaning: de afspraak
+  example: Ik heb een afspraak.
+der Zug:
+  meaning: de trein
+  example: De trein komt om tien.
+der Bus:
+  meaning: de bus
+  example: Ik ga met de bus.
+zu:
+  meaning: te
+  example: Dat is te duur.
+aus:
+  meaning: uit
+  example: Ik kom uit het kantoor.
+bei:
+  meaning: bij
+  example: Ik woon bij mijn familie.
+von:
+  meaning: van
+  example: Het boek is van mij.
+nach:
+  meaning: naar, na
+  example: Ik ga naar huis.
+vor:
+  meaning: voor
+  example: De auto staat voor het huis.
+über:
+  meaning: over
+  example: We praten over het weer.
+ohne:
+  meaning: zonder
+  example: Ik drink koffie zonder suiker.
+um:
+  meaning: om, rond
+  example: Ik kom om acht.
+hier:
+  meaning: hier
+  example: Hier is mijn plek.
+dort:
+  meaning: daar
+  example: Daar is het toilet.
+dann:
+  meaning: dan
+  example: Ik eet, dan ga ik.
+wann:
+  meaning: wanneer
+  example: Wanneer kom je?
+wie:
+  meaning: hoe
+  example: Hoe gaat het met je?
+was:
+  meaning: wat
+  example: Wat wil je drinken?
+wo:
+  meaning: waar
+  example: Waar is het station?
+warum:
+  meaning: waarom
+  example: Waarom ben je moe?
+weil:
+  meaning: omdat
+  example: Ik blijf hier, omdat het regent.
+dass:
+  meaning: dat
+  example: Ik geloof dat hij komt.
+wenn:
+  meaning: als, wanneer
+  example: Als het regent, blijf ik hier.
+fahren:
+  meaning: rijden, gaan
+  example: Ik ga met de bus.
+nehmen:
+  meaning: nemen
+  example: Ik neem de trein.
+geben:
+  meaning: geven
+  example: Geef me alsjeblieft het brood.
+finden:
+  meaning: vinden
+  example: Ik vind de sleutel niet.
+suchen:
+  meaning: zoeken
+  example: Ik zoek mijn tas.
+bleiben:
+  meaning: blijven
+  example: Ik blijf thuis.
+schlafen:
+  meaning: slapen
+  example: Ik slaap acht uur.
+aufstehen:
+  meaning: opstaan
+  example: Ik sta om zeven uur op.
+kochen:
+  meaning: koken
+  example: Ik kook vandaag soep.
+bezahlen:
+  meaning: betalen
+  example: Ik betaal met de kaart.
+kosten:
+  meaning: kosten
+  example: Wat kost het brood?
+möchten:
+  meaning: willen, graag willen
+  example: Ik wil graag een koffie.
+helfen:
+  meaning: helpen
+  example: Kun je me helpen?
+fragen:
+  meaning: vragen
+  example: Ik vraag het aan de leraar.
+antworten:
+  meaning: antwoorden
+  example: Antwoord me alsjeblieft.
+der Tisch:
+  meaning: de tafel
+  example: De tafel is nieuw.
+die Tür:
+  meaning: de deur
+  example: De deur is open.
+der Schlüssel:
+  meaning: de sleutel
+  example: Waar is mijn sleutel?
+der Kopf:
+  meaning: het hoofd
+  example: Mijn hoofd doet pijn.
+die Medizin:
+  meaning: het medicijn
+  example: Ik neem het medicijn.
+der Beruf:
+  meaning: het beroep
+  example: Wat is je beroep?
+das Büro:
+  meaning: het kantoor
+  example: Ik werk op kantoor.
+der Brief:
+  meaning: de brief
+  example: Ik schrijf een brief.
+das Formular:
+  meaning: het formulier
+  example: Ik vul het formulier in.
+das Geschäft:
+  meaning: de winkel, het bedrijf
+  example: De winkel is vandaag dicht.
+der Apfel:
+  meaning: de appel
+  example: De appel is rood.
+das Auto:
+  meaning: de auto
+  example: De auto is oud.
+der Bahnhof:
+  meaning: het station
+  example: Het station is daar.
+die Fahrkarte:
+  meaning: het ticket, het kaartje
+  example: Ik koop een ticket.
+das Wetter:
+  meaning: het weer
+  example: Het weer is mooi.
+schön:
+  meaning: mooi
+  example: Het huis is mooi.
+schnell:
+  meaning: snel
+  example: De trein is snel.
+leicht:
+  meaning: makkelijk, licht
+  example: De opgave is makkelijk.
+schwer:
+  meaning: zwaar, moeilijk
+  example: De tas is zwaar.
+richtig:
+  meaning: juist, correct
+  example: Het antwoord is juist.
+falsch:
+  meaning: fout, onjuist
+  example: Dat is fout.
+sauber:
+  meaning: schoon
+  example: De kamer is schoon.
+gesund:
+  meaning: gezond
+  example: Fruit is gezond.
+freundlich:
+  meaning: vriendelijk
+  example: De vrouw is vriendelijk.
+traurig:
+  meaning: verdrietig
+  example: Hij is vandaag verdrietig.
+ja:
+  meaning: ja
+  example: Ja, dat klopt.
+nein:
+  meaning: nee
+  example: Nee, ik heb geen tijd.
+bitte:
+  meaning: alsjeblieft, graag
+  example: Alstublieft, hier is uw koffie.
+danke:
+  meaning: dank je, bedankt
+  example: Bedankt, dat is heel vriendelijk.
+hallo:
+  meaning: hallo
+  example: Hallo, hoe gaat het met je?
+tschüss:
+  meaning: doei
+  example: Doei, tot morgen!
+er:
+  meaning: hij
+  example: Hij woont hier.
+sie:
+  meaning: zij, ze
+  example: Zij werkt op kantoor.
+es:
+  meaning: het
+  example: Het is vandaag koud.
+wir:
+  meaning: wij
+  example: Wij leren samen Duits.
+ihr:
+  meaning: jullie
+  example: Jullie komen later, toch?
+mein:
+  meaning: mijn
+  example: Mijn broer is student.
+dein:
+  meaning: jouw
+  example: Jouw sleutel ligt daar.
+kein:
+  meaning: geen
+  example: Ik heb geen geld.
+mehr:
+  meaning: meer
+  example: Ik wil meer water.
+viel:
+  meaning: veel
+  example: Hij heeft veel werk.
+wenig:
+  meaning: weinig
+  example: Wij hebben weinig tijd.
+etwas:
+  meaning: iets
+  example: Wil je iets drinken?
+nichts:
+  meaning: niets
+  example: Ik begrijp niets.
+man:
+  meaning: men
+  example: Men kan hier parkeren.
+der Tag:
+  meaning: de dag
+  example: De dag begint om zeven.
+die Nacht:
+  meaning: de nacht
+  example: De nacht is rustig.
+der Morgen:
+  meaning: de ochtend
+  example: '''s Ochtends drink ik koffie.'
+der Abend:
+  meaning: de avond
+  example: '''s Avonds kijk ik televisie.'
+die Woche:
+  meaning: de week
+  example: De week heeft zeven dagen.
+der Monat:
+  meaning: de maand
+  example: De maand is bijna voorbij.
+das Jahr:
+  meaning: het jaar
+  example: Het jaar heeft twaalf maanden.
+die Stunde:
+  meaning: het uur
+  example: De cursus duurt een uur.
+der Vater:
+  meaning: de vader
+  example: Mijn vader kookt vanavond.
+die Mutter:
+  meaning: de moeder
+  example: Mijn moeder werkt op kantoor.
+der Bruder:
+  meaning: de broer
+  example: Mijn broer woont hier.
+die Schwester:
+  meaning: de zus
+  example: Mijn zus is nog klein.
+der Junge:
+  meaning: de jongen
+  example: De jongen speelt in de tuin.
+das Mädchen:
+  meaning: het meisje
+  example: Het meisje leest een boek.
+die Angst:
+  meaning: de angst
+  example: Ik ben bang voor honden.
+die Freude:
+  meaning: de vreugde
+  example: De vreugde is groot.
+der Stuhl:
+  meaning: de stoel
+  example: De stoel staat bij de tafel.
+das Bett:
+  meaning: het bed
+  example: Het bed is heel comfortabel.
+das Fenster:
+  meaning: het raam
+  example: Open alsjeblieft het raam.
+das Bad:
+  meaning: de badkamer
+  example: De badkamer is klein maar schoon.
+die Toilette:
+  meaning: het toilet
+  example: Het toilet is daar links.
+der Markt:
+  meaning: de markt
+  example: Wij kopen fruit op de markt.
+das Restaurant:
+  meaning: het restaurant
+  example: Het restaurant is vandaag gesloten.
+die Rechnung:
+  meaning: de rekening
+  example: De rekening, alstublieft.
+das Frühstück:
+  meaning: het ontbijt
+  example: Het ontbijt is om acht uur.
+die Milch:
+  meaning: de melk
+  example: Ik drink melk bij het ontbijt.
+das Fleisch:
+  meaning: het vlees
+  example: Het vlees is in de koelkast.
+der Fisch:
+  meaning: de vis
+  example: De vis smaakt heel goed.
+das Gemüse:
+  meaning: de groente
+  example: Ik koop verse groente.
+der Reis:
+  meaning: de rijst
+  example: Wij eten rijst met groente.
+die Krankheit:
+  meaning: de ziekte
+  example: De ziekte is niet erg.
+das Krankenhaus:
+  meaning: het ziekenhuis
+  example: Hij werkt in het ziekenhuis.
+die Apotheke:
+  meaning: de apotheek
+  example: De apotheek is daar vlakbij.
+der Chef:
+  meaning: de baas
+  example: De baas is er vandaag niet.
+die Firma:
+  meaning: het bedrijf
+  example: Het bedrijf is heel groot.
+der Kollege:
+  meaning: de collega
+  example: Mijn collega helpt me vaak.
+die E-Mail:
+  meaning: de e-mail
+  example: Ik schrijf een e-mail.
+der Computer:
+  meaning: de computer
+  example: De computer is nieuw.
+die Straße:
+  meaning: de straat
+  example: De straat is heel lang.
+die Stadt:
+  meaning: de stad
+  example: De stad is groot en mooi.
+an:
+  meaning: aan, op
+  example: Ik ga naar het meer.
+durch:
+  meaning: door
+  example: Wij lopen door het park.
+gegen:
+  meaning: tegen
+  example: De tablet helpt tegen hoofdpijn.
+seit:
+  meaning: sinds, al
+  example: Ik woon hier al een jaar.
+bis:
+  meaning: tot
+  example: Ik werk tot twaalf uur.
+unter:
+  meaning: onder
+  example: De kat is onder de tafel.
+neben:
+  meaning: naast
+  example: De stoel staat naast de tafel.
+zwischen:
+  meaning: tussen
+  example: De bank is tussen de huizen.
+hinter:
+  meaning: achter
+  example: De tuin is achter het huis.
+ab:
+  meaning: vanaf
+  example: De trein vertrekt vanaf acht uur.
+heute:
+  meaning: vandaag
+  example: Vandaag ga ik naar de dokter.
+morgen:
+  meaning: morgen
+  example: Morgen ga ik naar de stad.
+gestern:
+  meaning: gisteren
+  example: Gisteren was ik op kantoor.
+jetzt:
+  meaning: nu
+  example: Nu kook ik het eten.
+immer:
+  meaning: altijd
+  example: Hij komt altijd te laat.
+oft:
+  meaning: vaak
+  example: Wij eten vaak in het restaurant.
+nie:
+  meaning: nooit
+  example: Ik drink nooit koffie.
+noch:
+  meaning: nog
+  example: Ik heb nog melk nodig.
+lesen:
+  meaning: lezen
+  example: Ik lees een boek.
+schreiben:
+  meaning: schrijven
+  example: Ik schrijf een e-mail.
+hören:
+  meaning: horen
+  example: Ik luister naar muziek.
+anrufen:
+  meaning: bellen
+  example: Ik bel de dokter.
+einkaufen:
+  meaning: boodschappen doen
+  example: Wij doen boodschappen in de supermarkt.
+anfangen:
+  meaning: beginnen
+  example: De cursus begint om negen uur.
+einladen:
+  meaning: uitnodigen
+  example: Ik nodig mijn vrienden uit.
+besuchen:
+  meaning: bezoeken
+  example: Wij bezoeken mijn ouders.
+treffen:
+  meaning: ontmoeten
+  example: Ik ontmoet mijn vriend.
+warten:
+  meaning: wachten
+  example: Ik wacht op de bus.
+bringen:
+  meaning: brengen
+  example: Ik breng je het brood.
+öffnen:
+  meaning: openen
+  example: Ik open het raam.
+schließen:
+  meaning: sluiten
+  example: Ik sluit de deur.
+bestellen:
+  meaning: bestellen
+  example: Wij bestellen een soep.
+wissen:
+  meaning: weten
+  example: Ik weet het niet.
+denken:
+  meaning: denken
+  example: Ik denk vaak aan je.
+der Name:
+  meaning: naam
+  example: Mijn naam is erg lang.
+das Telefon:
+  meaning: telefoon
+  example: De telefoon is kapot.
+die Nummer:
+  meaning: nummer
+  example: Ik heb je nummer.
+die Adresse:
+  meaning: adres
+  example: Wat is je adres?
+der Job:
+  meaning: baan
+  example: Mijn baan is erg goed.
+der Garten:
+  meaning: tuin
+  example: De tuin is erg mooi.
+der Schrank:
+  meaning: kast
+  example: De kleding is in de kast.
+das Sofa:
+  meaning: bank
+  example: De bank is nieuw.
+die Lampe:
+  meaning: lamp
+  example: De lamp is in de kamer.
+die Treppe:
+  meaning: trap
+  example: De trap is daar links.
+der Käse:
+  meaning: kaas
+  example: De kaas is erg lekker.
+das Ei:
+  meaning: ei
+  example: Ik eet een ei.
+der Salat:
+  meaning: salade
+  example: De salade is vers.
+die Kartoffel:
+  meaning: aardappel
+  example: De aardappel is klein.
+der Saft:
+  meaning: sap
+  example: Ik drink een sap.
+der Tee:
+  meaning: thee
+  example: De thee is heet.
+die Tablette:
+  meaning: tablet
+  example: Ik neem een tablet.
+der Zahn:
+  meaning: tand
+  example: Mijn tand doet pijn.
+das Bein:
+  meaning: been
+  example: Mijn been doet pijn.
+der Bauch:
+  meaning: buik
+  example: Mijn buik doet pijn.
+der Flughafen:
+  meaning: vliegveld
+  example: Het vliegveld is ver weg.
+die U-Bahn:
+  meaning: metro
+  example: De metro komt zo.
+das Ticket:
+  meaning: ticket
+  example: Ik koop een ticket.
+die Meinung:
+  meaning: mening
+  example: Dat is mijn mening.
+das Problem:
+  meaning: probleem
+  example: Het probleem is niet groot.
+das Geschenk:
+  meaning: cadeau
+  example: Het cadeau is voor jou.
+gern:
+  meaning: graag
+  example: Ik drink graag koffie.
+lernen:
+  meaning: leren
+  example: Ik leer elke dag Duits.
+das Buch:
+  meaning: boek
+  example: Ik lees een goed boek.
+die Schule:
+  meaning: school
+  example: De school begint om acht.
+die Frage:
+  meaning: vraag
+  example: Ik heb een vraag.
+die Antwort:
+  meaning: antwoord
+  example: Jouw antwoord is juist.
+spielen:
+  meaning: spelen
+  example: De kinderen spelen in de tuin.
+vielleicht:
+  meaning: misschien
+  example: Misschien komt hij morgen.
+wieder:
+  meaning: weer, opnieuw
+  example: We zien elkaar morgen weer.
+zusammen:
+  meaning: samen
+  example: Wij koken samen.
+allein:
+  meaning: alleen
+  example: Ik woon alleen.
+bald:
+  meaning: gauw, binnenkort
+  example: De bus komt binnenkort.
+fast:
+  meaning: bijna
+  example: Ik ben bijna klaar.
+genau:
+  meaning: precies, exact
+  example: Dat is precies goed.
+links:
+  meaning: links
+  example: De bank is links.
+rechts:
+  meaning: rechts
+  example: De winkel is rechts.
+das Essen:
+  meaning: eten, maaltijd
+  example: Het eten smaakt heel goed.
+der Hunger:
+  meaning: honger
+  example: Ik heb veel honger.
+die Flasche:
+  meaning: fles
+  example: De fles water is leeg.
+das Glas:
+  meaning: glas
+  example: Een glas water, alstublieft.
+die Tasse:
+  meaning: kop, kopje
+  example: Een kopje koffie, alstublieft.
+die Speisekarte:
+  meaning: menu, kaart
+  example: Het menu ligt op tafel.
+der Kellner:
+  meaning: ober, kelner
+  example: De ober brengt het eten.
+sitzen:
+  meaning: zitten
+  example: Wij zitten in het park.
+stehen:
+  meaning: staan
+  example: Ik sta voor de deur.
+liegen:
+  meaning: liggen
+  example: Het boek ligt op tafel.
+laufen:
+  meaning: rennen, lopen
+  example: Hij rent snel naar huis.
+schwimmen:
+  meaning: zwemmen
+  example: Ik zwem graag in het meer.
+fliegen:
+  meaning: vliegen
+  example: Wij vliegen morgen naar huis.
+der Kühlschrank:
+  meaning: koelkast
+  example: De koelkast is bijna leeg.
+der Herd:
+  meaning: fornuis
+  example: Het fornuis is heet.
+das Regal:
+  meaning: rek, plank
+  example: De boeken staan in het rek.
+die Wand:
+  meaning: muur
+  example: De muur is wit.
+das Licht:
+  meaning: licht
+  example: Doe alsjeblieft het licht aan.
+der Park:
+  meaning: park
+  example: Wij wandelen in het park.
+der See:
+  meaning: meer
+  example: Het meer is in de zomer warm.
+das Meer:
+  meaning: zee
+  example: Wij gaan naar de zee.
+das Fahrrad:
+  meaning: fiets
+  example: Mijn fiets is nieuw.
+die Sonne:
+  meaning: zon
+  example: Vandaag schijnt de zon.
+der Regen:
+  meaning: regen
+  example: De regen is vandaag hevig.
+der Schnee:
+  meaning: sneeuw
+  example: In de winter ligt er veel sneeuw.
+der Wind:
+  meaning: wind
+  example: De wind is vandaag koud.
+der Sommer:
+  meaning: zomer
+  example: De zomer is heel warm.
+die Farbe:
+  meaning: kleur
+  example: Welke kleur vind je mooi?
+rot:
+  meaning: rood
+  example: Mijn auto is rood.
+blau:
+  meaning: blauw
+  example: De lucht is vandaag blauw.
+grün:
+  meaning: groen
+  example: De deur is groen.
+gelb:
+  meaning: geel
+  example: De zon is geel.
+schwarz:
+  meaning: zwart
+  example: Ik drink koffie zwart.
+die Hand:
+  meaning: hand
+  example: Mijn hand is koud.
+der Fuß:
+  meaning: voet
+  example: Mijn voet doet pijn.
+das Internet:
+  meaning: internet
+  example: Ik heb internet nodig voor mijn werk.
+die Bank:
+  meaning: bank
+  example: Zij werkt bij een bank.
+der Geburtstag:
+  meaning: verjaardag
+  example: Mijn verjaardag is morgen.
+das Fest:
+  meaning: feest, festival
+  example: Wij vieren een groot feest.
+die Party:
+  meaning: feest, party
+  example: Het feest begint om acht.
+das Wort:
+  meaning: woord
+  example: Ik begrijp dit woord niet.
+die Sprache:
+  meaning: taal
+  example: Duits is een mooie taal.
+der Lehrer:
+  meaning: leraar
+  example: De leraar legt de opdracht uit.
+der Mensch:
+  meaning: mens
+  example: De mens heeft vrienden nodig.
+als:
+  meaning: dan, wanneer
+  example: Ik ben ouder dan jij.
+denn:
+  meaning: want
+  example: Ik blijf hier, want ik ben moe.
+also:
+  meaning: dus, nou
+  example: Dus, ik kom morgen.
+doch:
+  meaning: jawel, maar
+  example: Jawel, dat is juist.
+ob:
+  meaning: of
+  example: Ik weet niet of hij komt.
+wohin:
+  meaning: waarheen
+  example: Waarheen ga je?
+woher:
+  meaning: waar vandaan
+  example: Waar kom je vandaan?
+welcher:
+  meaning: welke
+  example: Welke film is goed?
+jeder:
+  meaning: elke, iedere
+  example: Elke dag is anders.
+zurück:
+  meaning: terug
+  example: Ik kom zo terug.
+dürfen:
+  meaning: mogen
+  example: Mag ik hier zitten?
+wollen:
+  meaning: willen
+  example: Ik wil naar huis.
+sollen:
+  meaning: moeten, zou moeten
+  example: Je moet stil zijn.
+werden:
+  meaning: worden
+  example: Het wordt koud.
+heißen:
+  meaning: heten
+  example: Hoe heet je?
+leben:
+  meaning: leven, wonen
+  example: Ik woon in de stad.
+lieben:
+  meaning: houden van
+  example: Ik hou van mijn familie.
+tragen:
+  meaning: dragen
+  example: Ik draag een jas.
+waschen:
+  meaning: wassen
+  example: Ik was mijn handen.
+frühstücken:
+  meaning: ontbijten
+  example: Ik ontbijt om acht uur.
+abholen:
+  meaning: ophalen
+  example: Ik haal je op.
+ankommen:
+  meaning: aankomen
+  example: De trein komt aan.
+einsteigen:
+  meaning: instappen
+  example: Wij stappen in de bus.
+aussteigen:
+  meaning: uitstappen
+  example: Wij stappen uit de trein.
+zahlen:
+  meaning: betalen
+  example: Ik betaal met de kaart.
+die Uhr:
+  meaning: klok, horloge
+  example: De klok is kapot.
+das Handy:
+  meaning: mobiele telefoon
+  example: Mijn mobiel is nieuw.
+der Fernseher:
+  meaning: televisie, tv-toestel
+  example: De televisie staat aan.
+die Musik:
+  meaning: muziek
+  example: Ik luister graag muziek.
+der Film:
+  meaning: film
+  example: De film is goed.
+das Foto:
+  meaning: foto
+  example: De foto is mooi.
+die Tasche:
+  meaning: tas
+  example: Mijn tas is zwaar.
+die Brille:
+  meaning: bril
+  example: Waar is mijn bril?
+der Regenschirm:
+  meaning: paraplu
+  example: Ik heb een paraplu nodig.
+die Minute:
+  meaning: minuut
+  example: Wacht een minuut, alsjeblieft.
+der Moment:
+  meaning: moment
+  example: Een moment, alsjeblieft.
+das Wochenende:
+  meaning: weekend
+  example: In het weekend ben ik vrij.
+die Hose:
+  meaning: broek
+  example: De broek is te klein.
+das Hemd:
+  meaning: hemd
+  example: Het hemd is blauw.
+die Jacke:
+  meaning: jas, jack
+  example: De jas is warm.
+der Schuh:
+  meaning: schoen
+  example: De schoen is nieuw.
+die Größe:
+  meaning: maat, grootte
+  example: Welke maat heeft u nodig?
+der Preis:
+  meaning: prijs
+  example: De prijs is goed.
+die Kasse:
+  meaning: kassa
+  example: Betaal alstublieft bij de kassa.
+das Obst:
+  meaning: fruit
+  example: Ik koop fruit op de markt.
+der Zucker:
+  meaning: suiker
+  example: Doe je suiker in de thee?
+die Suppe:
+  meaning: soep
+  example: De soep is heet.
+der Kuchen:
+  meaning: cake, taart
+  example: De cake smaakt goed.
+der Wein:
+  meaning: wijn
+  example: De wijn is rood.
+der Balkon:
+  meaning: balkon
+  example: Het balkon is klein.
+der Nachbar:
+  meaning: buurman, buur
+  example: Mijn buurman is vriendelijk.
+die Miete:
+  meaning: huur
+  example: De huur is te hoog.
+die Heizung:
+  meaning: verwarming
+  example: De verwarming is kapot.
+der Teppich:
+  meaning: tapijt, vloerkleed
+  example: Het tapijt is nieuw.
+das Dach:
+  meaning: dak
+  example: Het dak is oud.
+der Boden:
+  meaning: vloer, grond
+  example: De vloer is schoon.
+der Koffer:
+  meaning: koffer
+  example: De koffer is zwaar.
+der Urlaub:
+  meaning: vakantie
+  example: Mijn vakantie begint morgen.
+das Hotel:
+  meaning: hotel
+  example: Het hotel is klein.
+die Haltestelle:
+  meaning: halte, stop
+  example: De halte is daar.
+die Eltern:
+  meaning: ouders
+  example: Mijn ouders wonen hier.
+der Sohn:
+  meaning: zoon
+  example: Haar zoon is nog klein.
+die Tochter:
+  meaning: dochter
+  example: De dochter gaat naar school.
+die Freundin:
+  meaning: vriendin
+  example: Mijn vriendin komt vanavond.
+das Baby:
+  meaning: baby
+  example: De baby slaapt nu.
+der Opa:
+  meaning: opa
+  example: Mijn opa woont bij ons.
+die Oma:
+  meaning: oma
+  example: Mijn oma kookt heel goed.
+der Onkel:
+  meaning: oom
+  example: Mijn oom bezoekt ons morgen.
+die Tante:
+  meaning: tante
+  example: Mijn tante woont hiernaast.
+die Leute:
+  meaning: mensen
+  example: Veel mensen komen naar het feest.
+die Hilfe:
+  meaning: hulp
+  example: Ik heb je hulp nodig.
+böse:
+  meaning: boos, kwaad
+  example: Ben je boos op mij?
+zufrieden:
+  meaning: tevreden
+  example: Ik ben tevreden met het werk.
+nervös:
+  meaning: zenuwachtig
+  example: Ik ben vandaag erg zenuwachtig.
+lachen:
+  meaning: lachen
+  example: De kinderen lachen hard.
+der Hund:
+  meaning: hond
+  example: De hond speelt in de tuin.
+die Katze:
+  meaning: kat
+  example: De kat slaapt op de bank.
+die Butter:
+  meaning: boter
+  example: De boter is in de koelkast.
+die Banane:
+  meaning: banaan
+  example: Ik eet graag een banaan.
+die Tomate:
+  meaning: tomaat
+  example: De salade heeft veel tomaten.
+die Wurst:
+  meaning: worst
+  example: De worst smaakt erg goed.
+der Teller:
+  meaning: bord
+  example: Het bord staat op tafel.
+die Decke:
+  meaning: deken
+  example: De deken is helemaal nieuw.
+das Kissen:
+  meaning: kussen
+  example: Het kussen ligt op het bed.
+die Waschmaschine:
+  meaning: wasmachine
+  example: De wasmachine is in de badkamer.
+der Müll:
+  meaning: afval, vuilnis
+  example: Wij brengen het afval naar buiten.
+der Arm:
+  meaning: arm
+  example: Mijn arm doet pijn.
+die Nase:
+  meaning: neus
+  example: Mijn neus is helemaal rood.
+das Auge:
+  meaning: oog
+  example: Mijn oog is rood.
+wehtun:
+  meaning: pijn doen
+  example: Mijn hoofd doet pijn.
+das Fieber:
+  meaning: koorts
+  example: Het kind heeft koorts.
+die Pause:
+  meaning: pauze
+  example: We nemen een korte pauze.
+der Fehler:
+  meaning: fout
+  example: Dat is een kleine fout.
+die Aufgabe:
+  meaning: taak, opgave
+  example: Deze taak is niet moeilijk.
+das Amt:
+  meaning: overheidskantoor
+  example: Het overheidskantoor is vandaag gesloten.
+der Ausweis:
+  meaning: identiteitsbewijs, legitimatie
+  example: Laat alstublieft uw identiteitsbewijs zien.
+unterschreiben:
+  meaning: ondertekenen
+  example: Gelieve hier te ondertekenen.
+pünktlich:
+  meaning: op tijd, punctueel
+  example: De trein komt op tijd.
+dauern:
+  meaning: duren
+  example: De rit duurt een uur.
+das Taxi:
+  meaning: taxi
+  example: We nemen een taxi.
+das Flugzeug:
+  meaning: vliegtuig
+  example: Het vliegtuig vliegt hoog.
+nur:
+  meaning: alleen, slechts
+  example: Ik heb maar één vraag.
+schon:
+  meaning: al, reeds
+  example: Ik ben al thuis.
+alles:
+  meaning: alles
+  example: Alles is in orde.
+alle:
+  meaning: alle, allemaal
+  example: Iedereen komt naar het feest.
+leider:
+  meaning: helaas
+  example: Helaas heb ik geen tijd.
+natürlich:
+  meaning: natuurlijk
+  example: Natuurlijk help ik je.
+sicher:
+  meaning: zeker, veilig
+  example: Weet je het zeker?
+genug:
+  meaning: genoeg
+  example: We hebben genoeg tijd.
+ganz:
+  meaning: heel, helemaal
+  example: Ik ben heel moe.
+halb:
+  meaning: half
+  example: Het is half acht.
+bisschen:
+  meaning: een beetje
+  example: Ik heb een beetje hulp nodig.
+zuerst:
+  meaning: eerst
+  example: Eerst ontbijten we.
+danach:
+  meaning: daarna
+  example: Daarna gaan we boodschappen doen.
+später:
+  meaning: later
+  example: We spreken later af.
+früh:
+  meaning: vroeg
+  example: Ik sta vroeg op.
+spät:
+  meaning: laat
+  example: Het is al laat.
+jemand:
+  meaning: iemand
+  example: Iemand belt.
+niemand:
+  meaning: niemand
+  example: Niemand is op kantoor.
+beginnen:
+  meaning: beginnen
+  example: De cursus begint om negen.
+kalt:
+  meaning: koud
+  example: Het water is vandaag erg koud.
+warm:
+  meaning: warm
+  example: De soep is nog warm.
+heiß:
+  meaning: heet
+  example: De koffie is te heet.
+wichtig:
+  meaning: belangrijk
+  example: Dat is heel belangrijk voor mij.
+frei:
+  meaning: vrij, beschikbaar
+  example: Is deze plek nog vrij?
+offen:
+  meaning: open
+  example: De winkel is nu open.
+geschlossen:
+  meaning: gesloten
+  example: De apotheek is vandaag gesloten.
+fertig:
+  meaning: klaar, gereed
+  example: Ik ben bijna klaar met het werk.
+voll:
+  meaning: vol
+  example: De bus is vandaag erg vol.
+leer:
+  meaning: leeg
+  example: De fles is leeg.
+satt:
+  meaning: vol, verzadigd
+  example: Ik zit vol, dank je.
+hungrig:
+  meaning: hongerig
+  example: Het kind heeft veel honger.
+durstig:
+  meaning: dorstig
+  example: Na het sporten heb ik dorst.
+lecker:
+  meaning: lekker
+  example: De taart is erg lekker.
+lang:
+  meaning: lang
+  example: De film is te lang.
+kurz:
+  meaning: kort
+  example: Ik heb maar even tijd.
+langsam:
+  meaning: langzaam
+  example: De auto is erg langzaam.
+laut:
+  meaning: luid, hard
+  example: De muziek is te hard.
+leise:
+  meaning: zacht, stil
+  example: Praat alsjeblieft zacht.
+dunkel:
+  meaning: donker
+  example: De kamer is erg donker.
+hell:
+  meaning: licht, helder
+  example: De keuken is mooi licht.
+nass:
+  meaning: nat
+  example: Mijn jas is nat.
+trocken:
+  meaning: droog
+  example: De handdoek is droog.
+schmutzig:
+  meaning: vies, vuil
+  example: De schoenen zijn vies.
+lustig:
+  meaning: grappig, vrolijk
+  example: De film is erg grappig.
+interessant:
+  meaning: interessant
+  example: Het boek is erg interessant.
+langweilig:
+  meaning: saai
+  example: De les is nooit saai.
+modern:
+  meaning: modern
+  example: De woning is erg modern.
+gleich:
+  meaning: zo, gelijk
+  example: Ik kom zo.
+süß:
+  meaning: zoet, schattig
+  example: De taart is te zoet.
+salzig:
+  meaning: zout
+  example: De soep is te zout.
+sauer:
+  meaning: zuur
+  example: De citroen is erg zuur.
+dick:
+  meaning: dik
+  example: De trui is te dik.
+dünn:
+  meaning: dun
+  example: Het papier is erg dun.
+zeigen:
+  meaning: laten zien, tonen
+  example: Kun je me de foto laten zien?
+schmecken:
+  meaning: smaken
+  example: Hoe smaakt de soep je?
+vergessen:
+  meaning: vergeten
+  example: Ik ben de afspraak vergeten.
+verkaufen:
+  meaning: verkopen
+  example: We verkopen onze oude auto.
+verlieren:
+  meaning: verliezen
+  example: Ik heb mijn sleutel verloren.
+wünschen:
+  meaning: wensen
+  example: Ik wens je veel geluk.
+schicken:
+  meaning: sturen, verzenden
+  example: Ik stuur je een e-mail.
+reservieren:
+  meaning: reserveren
+  example: Ik wil een tafel reserveren.
+reparieren:
+  meaning: repareren
+  example: Kun je de fiets repareren?
+putzen:
+  meaning: schoonmaken, poetsen
+  example: Ik maak vandaag de keuken schoon.
+duschen:
+  meaning: douchen
+  example: Ik douche elke ochtend.
+feiern:
+  meaning: vieren
+  example: We vieren vandaag mijn verjaardag.
+tanzen:
+  meaning: dansen
+  example: Ze danst heel goed.
+singen:
+  meaning: zingen
+  example: We zingen een lied.
+telefonieren:
+  meaning: bellen, telefoneren
+  example: Ik bel met mijn moeder.
+weinen:
+  meaning: huilen, wenen
+  example: De baby huilt hard.
+mieten:
+  meaning: huren
+  example: We huren een klein appartement.
+packen:
+  meaning: inpakken, pakken
+  example: Ik pak mijn koffer in.
+probieren:
+  meaning: proberen, proeven
+  example: Wil je de taart proeven?
+schenken:
+  meaning: cadeau doen, schenken
+  example: Ik geef haar bloemen.
+aufmachen:
+  meaning: opendoen, openmaken
+  example: Kun je het raam opendoen?
+zumachen:
+  meaning: dichtdoen, sluiten
+  example: Doe alsjeblieft de deur dicht.
+anziehen:
+  meaning: aantrekken
+  example: Ik trek mijn jas aan.
+holen:
+  meaning: halen
+  example: Ik haal snel brood.
+schneiden:
+  meaning: snijden
+  example: Ik snijd het brood.
+setzen:
+  meaning: gaan zitten
+  example: Gaat u alstublieft zitten.
+manchmal:
+  meaning: soms
+  example: Soms ga ik 's avonds wandelen.
+sofort:
+  meaning: onmiddellijk, meteen
+  example: Ik kom meteen naar het station.
+da:
+  meaning: daar
+  example: Daar is mijn nieuwe rugzak.
+erst:
+  meaning: pas, eerst
+  example: De bus komt pas om acht.
+der Mund:
+  meaning: mond
+  example: Mijn mond is droog.
+das Ohr:
+  meaning: oor
+  example: Mijn oor doet pijn.
+der Hals:
+  meaning: nek, keel
+  example: Mijn keel doet pijn.
+der Rücken:
+  meaning: rug
+  example: Mijn rug doet vandaag pijn.
+das Wohnzimmer:
+  meaning: woonkamer
+  example: De woonkamer is heel licht.
+das Schlafzimmer:
+  meaning: slaapkamer
+  example: In de slaapkamer is het donker.
+der Spiegel:
+  meaning: spiegel
+  example: De spiegel hangt in de badkamer.
+die Gabel:
+  meaning: vork
+  example: De vork ligt naast het bord.
+das Messer:
+  meaning: mes
+  example: Het mes ligt op tafel.
+der Löffel:
+  meaning: lepel
+  example: Ik heb een lepel nodig voor de soep.
+die Schokolade:
+  meaning: chocolade
+  example: De chocolade smaakt heel zoet.
+das Papier:
+  meaning: papier
+  example: Ik heb papier nodig voor de printer.
+der Stift:
+  meaning: pen, stift
+  example: De pen ligt op tafel.
+der Rucksack:
+  meaning: rugzak
+  example: Mijn rugzak is heel zwaar.
+der Bahnsteig:
+  meaning: perron
+  example: De trein vertrekt van perron drie.
+die Verspätung:
+  meaning: vertraging
+  example: De trein heeft tien minuten vertraging.

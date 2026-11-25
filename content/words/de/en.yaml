@@ -1,0 +1,1502 @@
+# What each word means for learners with this base language, and its example sentence translated. Made by
+# `storylingo.py localize-words`; corrections by hand are welcome (then: storylingo.py sync).
+und:
+  meaning: and
+  example: I drink water and coffee.
+ich:
+  meaning: I
+  example: I live in the city.
+du:
+  meaning: you (informal)
+  example: Where do you live?
+nicht:
+  meaning: not
+  example: I do not understand that.
+sein:
+  meaning: to be
+  example: I want to be at home.
+haben:
+  meaning: to have
+  example: We have a house.
+ein:
+  meaning: a, an
+  example: That is a dog.
+auch:
+  meaning: also
+  example: I would also like coffee.
+sehr:
+  meaning: very
+  example: That is very good.
+mit:
+  meaning: with
+  example: I am coming by bus.
+für:
+  meaning: for
+  example: The bread is for you.
+aber:
+  meaning: but
+  example: I am tired but happy.
+oder:
+  meaning: or
+  example: Would you like tea or coffee?
+in:
+  meaning: in
+  example: I live in a house.
+auf:
+  meaning: "on"
+  example: The book is on the table.
+gehen:
+  meaning: to go
+  example: We are going home.
+kommen:
+  meaning: to come
+  example: Where do you come from?
+machen:
+  meaning: to do, to make
+  example: What are you doing today?
+sagen:
+  meaning: to say
+  example: Please say that again.
+sehen:
+  meaning: to see
+  example: I see the bus.
+essen:
+  meaning: to eat
+  example: We are eating bread with cheese.
+trinken:
+  meaning: to drink
+  example: I like drinking water.
+kaufen:
+  meaning: to buy
+  example: I am buying bread and milk.
+wohnen:
+  meaning: to live
+  example: We live in the city.
+arbeiten:
+  meaning: to work
+  example: I work in the office.
+sprechen:
+  meaning: to speak
+  example: Do you speak German?
+verstehen:
+  meaning: to understand
+  example: I do not understand the question.
+brauchen:
+  meaning: to need
+  example: We need water and bread.
+können:
+  meaning: can, be able to
+  example: Can you help me?
+müssen:
+  meaning: must, have to
+  example: I have to work today.
+gut:
+  meaning: good
+  example: The food is good.
+groß:
+  meaning: big
+  example: The house is very big.
+klein:
+  meaning: small
+  example: The apartment is small.
+neu:
+  meaning: new
+  example: I have a new phone.
+alt:
+  meaning: old
+  example: My bicycle is old.
+teuer:
+  meaning: expensive
+  example: The car is too expensive.
+billig:
+  meaning: cheap
+  example: The bread is cheap.
+krank:
+  meaning: sick
+  example: My child is sick.
+glücklich:
+  meaning: happy
+  example: I am happy today.
+müde:
+  meaning: tired
+  example: I am very tired.
+der Mann:
+  meaning: the man
+  example: The man is buying bread.
+die Frau:
+  meaning: the woman
+  example: The woman works in the office.
+das Kind:
+  meaning: the child
+  example: The child is playing in the house.
+die Familie:
+  meaning: the family
+  example: My family lives in the city.
+der Freund:
+  meaning: the friend
+  example: My friend is coming today.
+das Haus:
+  meaning: the house
+  example: The house has a kitchen.
+die Wohnung:
+  meaning: the apartment
+  example: The apartment is small and new.
+das Zimmer:
+  meaning: the room
+  example: The room has a window.
+die Küche:
+  meaning: the kitchen
+  example: The kitchen is very small.
+die Zeit:
+  meaning: the time
+  example: I have no time.
+das Wasser:
+  meaning: the water
+  example: I drink a lot of water.
+das Brot:
+  meaning: the bread
+  example: The bread is fresh.
+der Kaffee:
+  meaning: the coffee
+  example: The coffee is too hot.
+das Geld:
+  meaning: the money
+  example: I have no money.
+der Supermarkt:
+  meaning: the supermarket
+  example: The supermarket is open today.
+die Arbeit:
+  meaning: the work
+  example: Work begins at eight.
+der Arzt:
+  meaning: the doctor
+  example: The doctor is coming today.
+der Termin:
+  meaning: the appointment
+  example: I have an appointment.
+der Zug:
+  meaning: the train
+  example: The train arrives at ten.
+der Bus:
+  meaning: the bus
+  example: I go by bus.
+zu:
+  meaning: too
+  example: That is too expensive.
+aus:
+  meaning: from, out of
+  example: I come from the office.
+bei:
+  meaning: at, with
+  example: I live with my family.
+von:
+  meaning: from, of
+  example: The book is from me.
+nach:
+  meaning: to, after
+  example: I am going home.
+vor:
+  meaning: in front of
+  example: The car is in front of the house.
+über:
+  meaning: about, over
+  example: We are talking about the weather.
+ohne:
+  meaning: without
+  example: I drink coffee without sugar.
+um:
+  meaning: at, around
+  example: I am coming at eight.
+hier:
+  meaning: here
+  example: Here is my seat.
+dort:
+  meaning: there
+  example: The toilet is there.
+dann:
+  meaning: then
+  example: I eat, then I go.
+wann:
+  meaning: when
+  example: When are you coming?
+wie:
+  meaning: how
+  example: How are you?
+was:
+  meaning: what
+  example: What would you like to drink?
+wo:
+  meaning: where
+  example: Where is the train station?
+warum:
+  meaning: why
+  example: Why are you tired?
+weil:
+  meaning: because
+  example: I am staying here because it is raining.
+dass:
+  meaning: that
+  example: I think that he is coming.
+wenn:
+  meaning: if, when
+  example: If it rains, I will stay here.
+fahren:
+  meaning: to drive, go
+  example: I am going by bus.
+nehmen:
+  meaning: to take
+  example: I am taking the train.
+geben:
+  meaning: to give
+  example: Please give me the bread.
+finden:
+  meaning: to find
+  example: I cannot find the key.
+suchen:
+  meaning: to search, to look for
+  example: I am looking for my bag.
+bleiben:
+  meaning: to stay
+  example: I am staying at home.
+schlafen:
+  meaning: to sleep
+  example: I sleep eight hours.
+aufstehen:
+  meaning: to get up
+  example: I get up at seven.
+kochen:
+  meaning: to cook
+  example: I am cooking soup today.
+bezahlen:
+  meaning: to pay
+  example: I am paying by card.
+kosten:
+  meaning: to cost
+  example: How much does the bread cost?
+möchten:
+  meaning: would like
+  example: I would like a coffee.
+helfen:
+  meaning: to help
+  example: Can you help me?
+fragen:
+  meaning: to ask
+  example: I am asking the teacher.
+antworten:
+  meaning: to answer
+  example: Please answer me.
+der Tisch:
+  meaning: table
+  example: The table is new.
+die Tür:
+  meaning: door
+  example: The door is open.
+der Schlüssel:
+  meaning: key
+  example: Where is my key?
+der Kopf:
+  meaning: head
+  example: My head hurts.
+die Medizin:
+  meaning: medicine
+  example: I am taking the medicine.
+der Beruf:
+  meaning: profession, job
+  example: What is your job?
+das Büro:
+  meaning: office
+  example: I work in the office.
+der Brief:
+  meaning: letter
+  example: I am writing a letter.
+das Formular:
+  meaning: form
+  example: I am filling out the form.
+das Geschäft:
+  meaning: shop, business
+  example: The shop is closed today.
+der Apfel:
+  meaning: apple
+  example: The apple is red.
+das Auto:
+  meaning: car
+  example: The car is old.
+der Bahnhof:
+  meaning: train station
+  example: The train station is there.
+die Fahrkarte:
+  meaning: ticket
+  example: I am buying a ticket.
+das Wetter:
+  meaning: weather
+  example: The weather is nice.
+schön:
+  meaning: beautiful, nice
+  example: The house is beautiful.
+schnell:
+  meaning: fast
+  example: The train is fast.
+leicht:
+  meaning: easy, light
+  example: The task is easy.
+schwer:
+  meaning: heavy, difficult
+  example: The bag is heavy.
+richtig:
+  meaning: correct
+  example: The answer is correct.
+falsch:
+  meaning: wrong
+  example: That is wrong.
+sauber:
+  meaning: clean
+  example: The room is clean.
+gesund:
+  meaning: healthy
+  example: Fruit is healthy.
+freundlich:
+  meaning: friendly
+  example: The woman is friendly.
+traurig:
+  meaning: sad
+  example: He is sad today.
+ja:
+  meaning: "yes"
+  example: Yes, that is correct.
+nein:
+  meaning: "no"
+  example: No, I have no time.
+bitte:
+  meaning: please
+  example: Here is your coffee, please.
+danke:
+  meaning: thanks
+  example: Thank you, that is very kind.
+hallo:
+  meaning: hello
+  example: Hello, how are you?
+tschüss:
+  meaning: bye
+  example: Bye, see you tomorrow!
+er:
+  meaning: he
+  example: He lives here.
+sie:
+  meaning: she, they
+  example: She works in the office.
+es:
+  meaning: it
+  example: It is cold today.
+wir:
+  meaning: we
+  example: We are learning German together.
+ihr:
+  meaning: you all
+  example: You all are coming later, right?
+mein:
+  meaning: my
+  example: My brother is a student.
+dein:
+  meaning: your
+  example: Your key is over there.
+kein:
+  meaning: no, not any
+  example: I have no money.
+mehr:
+  meaning: more
+  example: I would like more water.
+viel:
+  meaning: much, many
+  example: He has a lot of work.
+wenig:
+  meaning: little, few
+  example: We have little time.
+etwas:
+  meaning: something
+  example: Would you like something to drink?
+nichts:
+  meaning: nothing
+  example: I understand nothing.
+man:
+  meaning: one, people
+  example: You can park here.
+der Tag:
+  meaning: day
+  example: The day begins at seven.
+die Nacht:
+  meaning: night
+  example: The night is quiet.
+der Morgen:
+  meaning: morning
+  example: In the morning I drink coffee.
+der Abend:
+  meaning: evening
+  example: In the evening I watch TV.
+die Woche:
+  meaning: week
+  example: The week has seven days.
+der Monat:
+  meaning: month
+  example: The month is almost over.
+das Jahr:
+  meaning: year
+  example: The year has twelve months.
+die Stunde:
+  meaning: hour
+  example: The course lasts an hour.
+der Vater:
+  meaning: father
+  example: My father is cooking tonight.
+die Mutter:
+  meaning: mother
+  example: My mother works in an office.
+der Bruder:
+  meaning: brother
+  example: My brother lives here.
+die Schwester:
+  meaning: sister
+  example: My sister is still small.
+der Junge:
+  meaning: boy
+  example: The boy is playing in the garden.
+das Mädchen:
+  meaning: girl
+  example: The girl is reading a book.
+die Angst:
+  meaning: fear
+  example: I am afraid of dogs.
+die Freude:
+  meaning: joy
+  example: The joy is great.
+der Stuhl:
+  meaning: chair
+  example: The chair is by the table.
+das Bett:
+  meaning: bed
+  example: The bed is very comfortable.
+das Fenster:
+  meaning: window
+  example: Please open the window.
+das Bad:
+  meaning: bathroom
+  example: The bathroom is small but clean.
+die Toilette:
+  meaning: toilet
+  example: The toilet is over there on the left.
+der Markt:
+  meaning: market
+  example: We buy fruit at the market.
+das Restaurant:
+  meaning: restaurant
+  example: The restaurant is closed today.
+die Rechnung:
+  meaning: bill
+  example: The bill, please.
+das Frühstück:
+  meaning: breakfast
+  example: Breakfast is at eight.
+die Milch:
+  meaning: milk
+  example: I drink milk for breakfast.
+das Fleisch:
+  meaning: meat
+  example: The meat is in the fridge.
+der Fisch:
+  meaning: fish
+  example: The fish tastes very good.
+das Gemüse:
+  meaning: vegetables
+  example: I am buying fresh vegetables.
+der Reis:
+  meaning: rice
+  example: We eat rice with vegetables.
+die Krankheit:
+  meaning: illness
+  example: The illness is not serious.
+das Krankenhaus:
+  meaning: hospital
+  example: He works in the hospital.
+die Apotheke:
+  meaning: pharmacy
+  example: The pharmacy is right over there.
+der Chef:
+  meaning: boss
+  example: The boss is not here today.
+die Firma:
+  meaning: company
+  example: The company is very large.
+der Kollege:
+  meaning: colleague
+  example: My colleague often helps me.
+die E-Mail:
+  meaning: email
+  example: I am writing an email.
+der Computer:
+  meaning: computer
+  example: The computer is new.
+die Straße:
+  meaning: street
+  example: The street is very long.
+die Stadt:
+  meaning: city
+  example: The city is big and beautiful.
+an:
+  meaning: at, on
+  example: I am going to the lake.
+durch:
+  meaning: through
+  example: We are going through the park.
+gegen:
+  meaning: against
+  example: The tablet helps against headaches.
+seit:
+  meaning: since, for
+  example: I have lived here for a year.
+bis:
+  meaning: until
+  example: I work until twelve o'clock.
+unter:
+  meaning: under
+  example: The cat is under the table.
+neben:
+  meaning: next to
+  example: The chair is next to the table.
+zwischen:
+  meaning: between
+  example: The bank is between the houses.
+hinter:
+  meaning: behind
+  example: The garden is behind the house.
+ab:
+  meaning: from
+  example: The train departs from eight o'clock.
+heute:
+  meaning: today
+  example: Today I am going to the doctor.
+morgen:
+  meaning: tomorrow
+  example: Tomorrow I am going into town.
+gestern:
+  meaning: yesterday
+  example: Yesterday I was at the office.
+jetzt:
+  meaning: now
+  example: Now I am cooking the meal.
+immer:
+  meaning: always
+  example: He always arrives late.
+oft:
+  meaning: often
+  example: We often eat at the restaurant.
+nie:
+  meaning: never
+  example: I never drink coffee.
+noch:
+  meaning: still, more
+  example: I still need milk.
+lesen:
+  meaning: to read
+  example: I am reading a book.
+schreiben:
+  meaning: to write
+  example: I am writing an email.
+hören:
+  meaning: to hear, to listen
+  example: I am listening to music.
+anrufen:
+  meaning: to call
+  example: I am calling the doctor.
+einkaufen:
+  meaning: to shop
+  example: We are shopping at the supermarket.
+anfangen:
+  meaning: to begin
+  example: The course begins at nine.
+einladen:
+  meaning: to invite
+  example: I am inviting my friends.
+besuchen:
+  meaning: to visit
+  example: We are visiting my parents.
+treffen:
+  meaning: to meet
+  example: I am meeting my friend.
+warten:
+  meaning: to wait
+  example: I am waiting for the bus.
+bringen:
+  meaning: to bring
+  example: I am bringing you the bread.
+öffnen:
+  meaning: to open
+  example: I am opening the window.
+schließen:
+  meaning: to close
+  example: I am closing the door.
+bestellen:
+  meaning: to order
+  example: We are ordering a soup.
+wissen:
+  meaning: to know
+  example: I don't know.
+denken:
+  meaning: to think
+  example: I often think of you.
+der Name:
+  meaning: name
+  example: My name is very long.
+das Telefon:
+  meaning: telephone
+  example: The telephone is broken.
+die Nummer:
+  meaning: number
+  example: I have your number.
+die Adresse:
+  meaning: address
+  example: What is your address?
+der Job:
+  meaning: job
+  example: My job is very good.
+der Garten:
+  meaning: garden
+  example: The garden is very beautiful.
+der Schrank:
+  meaning: cupboard, wardrobe
+  example: The clothes are in the cupboard.
+das Sofa:
+  meaning: sofa
+  example: The sofa is new.
+die Lampe:
+  meaning: lamp
+  example: The lamp is in the room.
+die Treppe:
+  meaning: stairs
+  example: The stairs are over there on the left.
+der Käse:
+  meaning: cheese
+  example: The cheese is very tasty.
+das Ei:
+  meaning: egg
+  example: I am eating an egg.
+der Salat:
+  meaning: salad
+  example: The salad is fresh.
+die Kartoffel:
+  meaning: potato
+  example: The potato is small.
+der Saft:
+  meaning: juice
+  example: I am drinking some juice.
+der Tee:
+  meaning: tea
+  example: The tea is hot.
+die Tablette:
+  meaning: tablet
+  example: I am taking a tablet.
+der Zahn:
+  meaning: tooth
+  example: My tooth hurts.
+das Bein:
+  meaning: leg
+  example: My leg hurts.
+der Bauch:
+  meaning: stomach
+  example: My stomach hurts.
+der Flughafen:
+  meaning: airport
+  example: The airport is far away.
+die U-Bahn:
+  meaning: metro, subway
+  example: The metro is coming soon.
+das Ticket:
+  meaning: ticket
+  example: I am buying a ticket.
+die Meinung:
+  meaning: opinion
+  example: That is my opinion.
+das Problem:
+  meaning: problem
+  example: The problem is not big.
+das Geschenk:
+  meaning: gift
+  example: The gift is for you.
+gern:
+  meaning: gladly, like to
+  example: I like drinking coffee.
+lernen:
+  meaning: to learn
+  example: I learn German every day.
+das Buch:
+  meaning: book
+  example: I am reading a good book.
+die Schule:
+  meaning: school
+  example: School starts at eight.
+die Frage:
+  meaning: question
+  example: I have a question.
+die Antwort:
+  meaning: answer
+  example: Your answer is correct.
+spielen:
+  meaning: to play
+  example: The children are playing in the garden.
+vielleicht:
+  meaning: maybe, perhaps
+  example: Maybe he is coming tomorrow.
+wieder:
+  meaning: again
+  example: We will meet again tomorrow.
+zusammen:
+  meaning: together
+  example: We are cooking together.
+allein:
+  meaning: alone
+  example: I live alone.
+bald:
+  meaning: soon
+  example: The bus is coming soon.
+fast:
+  meaning: almost
+  example: I am almost done.
+genau:
+  meaning: exactly
+  example: That is exactly right.
+links:
+  meaning: left
+  example: The bank is on the left.
+rechts:
+  meaning: right
+  example: The shop is on the right.
+das Essen:
+  meaning: food, meal
+  example: The food tastes very good.
+der Hunger:
+  meaning: hunger
+  example: I am very hungry.
+die Flasche:
+  meaning: bottle
+  example: The bottle of water is empty.
+das Glas:
+  meaning: glass
+  example: A glass of water, please.
+die Tasse:
+  meaning: cup
+  example: A cup of coffee, please.
+die Speisekarte:
+  meaning: menu
+  example: The menu is on the table.
+der Kellner:
+  meaning: waiter
+  example: The waiter brings the food.
+sitzen:
+  meaning: to sit
+  example: We are sitting in the park.
+stehen:
+  meaning: to stand
+  example: I am standing in front of the door.
+liegen:
+  meaning: to lie
+  example: The book is lying on the table.
+laufen:
+  meaning: to run, to walk
+  example: He runs home quickly.
+schwimmen:
+  meaning: to swim
+  example: I like swimming in the lake.
+fliegen:
+  meaning: to fly
+  example: We are flying home tomorrow.
+der Kühlschrank:
+  meaning: fridge
+  example: The fridge is almost empty.
+der Herd:
+  meaning: stove
+  example: The stove is hot.
+das Regal:
+  meaning: shelf
+  example: The books are on the shelf.
+die Wand:
+  meaning: wall
+  example: The wall is white.
+das Licht:
+  meaning: light
+  example: Please turn on the light.
+der Park:
+  meaning: park
+  example: We are walking in the park.
+der See:
+  meaning: lake
+  example: The lake is warm in summer.
+das Meer:
+  meaning: sea
+  example: We are going to the sea.
+das Fahrrad:
+  meaning: bicycle
+  example: My bicycle is new.
+die Sonne:
+  meaning: sun
+  example: The sun is shining today.
+der Regen:
+  meaning: rain
+  example: The rain is heavy today.
+der Schnee:
+  meaning: snow
+  example: There is a lot of snow in winter.
+der Wind:
+  meaning: wind
+  example: The wind is cold today.
+der Sommer:
+  meaning: summer
+  example: Summer is very warm.
+die Farbe:
+  meaning: color
+  example: Which color do you like?
+rot:
+  meaning: red
+  example: My car is red.
+blau:
+  meaning: blue
+  example: The sky is blue today.
+grün:
+  meaning: green
+  example: The door is green.
+gelb:
+  meaning: yellow
+  example: The sun is yellow.
+schwarz:
+  meaning: black
+  example: I drink coffee black.
+die Hand:
+  meaning: hand
+  example: My hand is cold.
+der Fuß:
+  meaning: foot
+  example: My foot hurts.
+das Internet:
+  meaning: internet
+  example: I need the internet for work.
+die Bank:
+  meaning: bank, bench
+  example: She works at a bank.
+der Geburtstag:
+  meaning: birthday
+  example: My birthday is tomorrow.
+das Fest:
+  meaning: festival, party
+  example: We are celebrating a big festival.
+die Party:
+  meaning: party
+  example: The party starts at eight.
+das Wort:
+  meaning: word
+  example: I don't understand this word.
+die Sprache:
+  meaning: language
+  example: German is a beautiful language.
+der Lehrer:
+  meaning: teacher
+  example: The teacher explains the exercise.
+der Mensch:
+  meaning: human, person
+  example: People need friends.
+als:
+  meaning: than, when
+  example: I am older than you.
+denn:
+  meaning: because
+  example: I am staying here because I am tired.
+also:
+  meaning: so
+  example: So, I will come tomorrow.
+doch:
+  meaning: yes, but
+  example: Yes, that is correct.
+ob:
+  meaning: whether
+  example: I don't know whether he is coming.
+wohin:
+  meaning: where to
+  example: Where are you going?
+woher:
+  meaning: where from
+  example: Where are you from?
+welcher:
+  meaning: which
+  example: Which film is good?
+jeder:
+  meaning: every
+  example: Every day is different.
+zurück:
+  meaning: back
+  example: I will be right back.
+dürfen:
+  meaning: be allowed
+  example: May I sit here?
+wollen:
+  meaning: want
+  example: I want to go home.
+sollen:
+  meaning: should
+  example: You should be quiet.
+werden:
+  meaning: become
+  example: It is getting cold.
+heißen:
+  meaning: be called
+  example: What is your name?
+leben:
+  meaning: live
+  example: I live in the city.
+lieben:
+  meaning: love
+  example: I love my family.
+tragen:
+  meaning: carry, wear
+  example: I am wearing a jacket.
+waschen:
+  meaning: wash
+  example: I wash my hands.
+frühstücken:
+  meaning: eat breakfast
+  example: I eat breakfast at eight.
+abholen:
+  meaning: pick up
+  example: I will pick you up.
+ankommen:
+  meaning: arrive
+  example: The train is arriving.
+einsteigen:
+  meaning: get in
+  example: We get on the bus.
+aussteigen:
+  meaning: get out
+  example: We get off the train.
+zahlen:
+  meaning: pay
+  example: I pay by card.
+die Uhr:
+  meaning: clock, watch
+  example: The clock is broken.
+das Handy:
+  meaning: mobile phone
+  example: My mobile phone is new.
+der Fernseher:
+  meaning: TV set
+  example: The TV is on.
+die Musik:
+  meaning: music
+  example: I like listening to music.
+der Film:
+  meaning: film
+  example: The film is good.
+das Foto:
+  meaning: photo
+  example: The photo is beautiful.
+die Tasche:
+  meaning: bag
+  example: My bag is heavy.
+die Brille:
+  meaning: glasses
+  example: Where are my glasses?
+der Regenschirm:
+  meaning: umbrella
+  example: I need an umbrella.
+die Minute:
+  meaning: minute
+  example: Wait a minute, please.
+der Moment:
+  meaning: moment
+  example: One moment, please.
+das Wochenende:
+  meaning: weekend
+  example: I am free on the weekend.
+die Hose:
+  meaning: trousers
+  example: The trousers are too small.
+das Hemd:
+  meaning: shirt
+  example: The shirt is blue.
+die Jacke:
+  meaning: jacket
+  example: The jacket is warm.
+der Schuh:
+  meaning: shoe
+  example: The shoe is new.
+die Größe:
+  meaning: size
+  example: What size do you need?
+der Preis:
+  meaning: price
+  example: The price is good.
+die Kasse:
+  meaning: checkout
+  example: Please pay at the checkout.
+das Obst:
+  meaning: fruit
+  example: I buy fruit at the market.
+der Zucker:
+  meaning: sugar
+  example: Do you take sugar in your tea?
+die Suppe:
+  meaning: soup
+  example: The soup is hot.
+der Kuchen:
+  meaning: cake
+  example: The cake tastes good.
+der Wein:
+  meaning: wine
+  example: The wine is red.
+der Balkon:
+  meaning: balcony
+  example: The balcony is small.
+der Nachbar:
+  meaning: neighbor
+  example: My neighbor is friendly.
+die Miete:
+  meaning: rent
+  example: The rent is too high.
+die Heizung:
+  meaning: heating
+  example: The heating is broken.
+der Teppich:
+  meaning: carpet
+  example: The carpet is new.
+das Dach:
+  meaning: roof
+  example: The roof is old.
+der Boden:
+  meaning: floor
+  example: The floor is clean.
+der Koffer:
+  meaning: suitcase
+  example: The suitcase is heavy.
+der Urlaub:
+  meaning: holiday
+  example: My holiday starts tomorrow.
+das Hotel:
+  meaning: hotel
+  example: The hotel is small.
+die Haltestelle:
+  meaning: stop
+  example: The stop is over there.
+die Eltern:
+  meaning: parents
+  example: My parents live here.
+der Sohn:
+  meaning: son
+  example: Her son is still small.
+die Tochter:
+  meaning: daughter
+  example: The daughter goes to school.
+die Freundin:
+  meaning: female friend, girlfriend
+  example: My friend is coming tonight.
+das Baby:
+  meaning: baby
+  example: The baby is sleeping now.
+der Opa:
+  meaning: grandpa
+  example: My grandpa lives with us.
+die Oma:
+  meaning: grandma
+  example: My grandma cooks very well.
+der Onkel:
+  meaning: uncle
+  example: My uncle is visiting us tomorrow.
+die Tante:
+  meaning: aunt
+  example: My aunt lives next door.
+die Leute:
+  meaning: people
+  example: Many people are coming to the party.
+die Hilfe:
+  meaning: help
+  example: I need your help.
+böse:
+  meaning: angry, evil
+  example: Are you angry with me?
+zufrieden:
+  meaning: satisfied, content
+  example: I am satisfied with the work.
+nervös:
+  meaning: nervous
+  example: I am very nervous today.
+lachen:
+  meaning: laugh
+  example: The children laugh loudly.
+der Hund:
+  meaning: dog
+  example: The dog is playing in the garden.
+die Katze:
+  meaning: cat
+  example: The cat is sleeping on the sofa.
+die Butter:
+  meaning: butter
+  example: The butter is in the fridge.
+die Banane:
+  meaning: banana
+  example: I like eating a banana.
+die Tomate:
+  meaning: tomato
+  example: The salad has many tomatoes.
+die Wurst:
+  meaning: sausage
+  example: The sausage tastes very good.
+der Teller:
+  meaning: plate
+  example: The plate is on the table.
+die Decke:
+  meaning: blanket, ceiling
+  example: The blanket is brand new.
+das Kissen:
+  meaning: pillow
+  example: The pillow is on the bed.
+die Waschmaschine:
+  meaning: washing machine
+  example: The washing machine is in the bathroom.
+der Müll:
+  meaning: trash, garbage
+  example: We take out the trash.
+der Arm:
+  meaning: arm
+  example: My arm hurts.
+die Nase:
+  meaning: nose
+  example: My nose is completely red.
+das Auge:
+  meaning: eye
+  example: My eye is red.
+wehtun:
+  meaning: hurt
+  example: My head hurts.
+das Fieber:
+  meaning: fever
+  example: The child has a fever.
+die Pause:
+  meaning: break
+  example: We are taking a short break.
+der Fehler:
+  meaning: mistake, error
+  example: That is a small mistake.
+die Aufgabe:
+  meaning: task, exercise
+  example: This task is not difficult.
+das Amt:
+  meaning: office, authority
+  example: The office is closed today.
+der Ausweis:
+  meaning: ID card, identification
+  example: Please show your ID card.
+unterschreiben:
+  meaning: sign
+  example: Please sign here.
+pünktlich:
+  meaning: on time, punctual
+  example: The train arrives on time.
+dauern:
+  meaning: last, take time
+  example: The trip takes an hour.
+das Taxi:
+  meaning: taxi
+  example: We are taking a taxi.
+das Flugzeug:
+  meaning: airplane
+  example: The airplane flies high.
+nur:
+  meaning: only
+  example: I have only one question.
+schon:
+  meaning: already
+  example: I am already at home.
+alles:
+  meaning: everything
+  example: Everything is okay.
+alle:
+  meaning: all, everyone
+  example: Everyone is coming to the party.
+leider:
+  meaning: unfortunately
+  example: Unfortunately, I have no time.
+natürlich:
+  meaning: of course, naturally
+  example: Of course I will help you.
+sicher:
+  meaning: sure, safe
+  example: Are you sure?
+genug:
+  meaning: enough
+  example: We have enough time.
+ganz:
+  meaning: quite, whole
+  example: I am quite tired.
+halb:
+  meaning: half
+  example: It is half past seven.
+bisschen:
+  meaning: a little, a bit
+  example: I need a little help.
+zuerst:
+  meaning: first, at first
+  example: First we have breakfast.
+danach:
+  meaning: afterwards, after that
+  example: Afterwards we go shopping.
+später:
+  meaning: later
+  example: We will meet later.
+früh:
+  meaning: early
+  example: I get up early.
+spät:
+  meaning: late
+  example: It is already late.
+jemand:
+  meaning: someone, somebody
+  example: Someone is calling.
+niemand:
+  meaning: nobody, no one
+  example: Nobody is in the office.
+beginnen:
+  meaning: begin, start
+  example: The course begins at nine.
+kalt:
+  meaning: cold
+  example: The water is very cold today.
+warm:
+  meaning: warm
+  example: The soup is still warm.
+heiß:
+  meaning: hot
+  example: The coffee is too hot.
+wichtig:
+  meaning: important
+  example: That is very important to me.
+frei:
+  meaning: free
+  example: Is this seat still free?
+offen:
+  meaning: open
+  example: The shop is open now.
+geschlossen:
+  meaning: closed
+  example: The pharmacy is closed today.
+fertig:
+  meaning: finished, ready
+  example: I will soon be finished with work.
+voll:
+  meaning: full
+  example: The bus is very full today.
+leer:
+  meaning: empty
+  example: The bottle is empty.
+satt:
+  meaning: full, not hungry
+  example: I'm full, thanks.
+hungrig:
+  meaning: hungry
+  example: The child is very hungry.
+durstig:
+  meaning: thirsty
+  example: After exercising, I'm thirsty.
+lecker:
+  meaning: tasty
+  example: The cake is very tasty.
+lang:
+  meaning: long
+  example: The film is too long.
+kurz:
+  meaning: short
+  example: I only have a short time.
+langsam:
+  meaning: slow
+  example: The car is very slow.
+laut:
+  meaning: loud
+  example: The music is too loud.
+leise:
+  meaning: quiet
+  example: Please speak quietly.
+dunkel:
+  meaning: dark
+  example: The room is very dark.
+hell:
+  meaning: bright
+  example: The kitchen is nice and bright.
+nass:
+  meaning: wet
+  example: My jacket is wet.
+trocken:
+  meaning: dry
+  example: The towel is dry.
+schmutzig:
+  meaning: dirty
+  example: The shoes are dirty.
+lustig:
+  meaning: funny
+  example: The film is very funny.
+interessant:
+  meaning: interesting
+  example: The book is very interesting.
+langweilig:
+  meaning: boring
+  example: The class is never boring.
+modern:
+  meaning: modern
+  example: The apartment is very modern.
+gleich:
+  meaning: soon, equal
+  example: I'm coming soon.
+süß:
+  meaning: sweet
+  example: The cake is too sweet.
+salzig:
+  meaning: salty
+  example: The soup is too salty.
+sauer:
+  meaning: sour
+  example: The lemon is very sour.
+dick:
+  meaning: thick, fat
+  example: The sweater is too thick.
+dünn:
+  meaning: thin
+  example: The paper is very thin.
+zeigen:
+  meaning: to show
+  example: Can you show me the photo?
+schmecken:
+  meaning: to taste
+  example: How does the soup taste to you?
+vergessen:
+  meaning: to forget
+  example: I forgot the appointment.
+verkaufen:
+  meaning: to sell
+  example: We are selling our old car.
+verlieren:
+  meaning: to lose
+  example: I have lost my key.
+wünschen:
+  meaning: to wish
+  example: I wish you good luck.
+schicken:
+  meaning: to send
+  example: I'll send you an email.
+reservieren:
+  meaning: to reserve
+  example: I would like to reserve a table.
+reparieren:
+  meaning: to repair
+  example: Can you repair the bicycle?
+putzen:
+  meaning: to clean
+  example: I am cleaning the kitchen today.
+duschen:
+  meaning: to shower
+  example: I shower every morning.
+feiern:
+  meaning: to celebrate
+  example: We are celebrating my birthday today.
+tanzen:
+  meaning: to dance
+  example: She dances very well.
+singen:
+  meaning: to sing
+  example: We are singing a song.
+telefonieren:
+  meaning: to phone
+  example: I'm on the phone with my mother.
+weinen:
+  meaning: to cry
+  example: The baby is crying loudly.
+mieten:
+  meaning: to rent
+  example: We are renting a small apartment.
+packen:
+  meaning: to pack
+  example: I am packing my suitcase.
+probieren:
+  meaning: to try
+  example: Would you like to try the cake?
+schenken:
+  meaning: to gift
+  example: I'm giving her flowers.
+aufmachen:
+  meaning: to open
+  example: Can you open the window?
+zumachen:
+  meaning: to close
+  example: Please close the door.
+anziehen:
+  meaning: to put on
+  example: I am putting on my jacket.
+holen:
+  meaning: to fetch
+  example: I'll go get some bread quickly.
+schneiden:
+  meaning: to cut
+  example: I am cutting the bread.
+setzen:
+  meaning: to sit down
+  example: Please sit down.
+manchmal:
+  meaning: sometimes
+  example: Sometimes I go for a walk in the evening.
+sofort:
+  meaning: immediately, right away
+  example: I'm coming to the station immediately.
+da:
+  meaning: there
+  example: There is my new backpack.
+erst:
+  meaning: not until, only
+  example: The bus isn't coming until eight.
+der Mund:
+  meaning: mouth
+  example: My mouth is dry.
+das Ohr:
+  meaning: ear
+  example: My ear hurts.
+der Hals:
+  meaning: neck, throat
+  example: My throat hurts.
+der Rücken:
+  meaning: back
+  example: My back hurts today.
+das Wohnzimmer:
+  meaning: living room
+  example: The living room is very bright.
+das Schlafzimmer:
+  meaning: bedroom
+  example: It is dark in the bedroom.
+der Spiegel:
+  meaning: mirror
+  example: The mirror hangs in the bathroom.
+die Gabel:
+  meaning: fork
+  example: The fork is next to the plate.
+das Messer:
+  meaning: knife
+  example: The knife is on the table.
+der Löffel:
+  meaning: spoon
+  example: I need a spoon for the soup.
+die Schokolade:
+  meaning: chocolate
+  example: The chocolate tastes very sweet.
+das Papier:
+  meaning: paper
+  example: I need paper for the printer.
+der Stift:
+  meaning: pen, pencil
+  example: The pen is on the table.
+der Rucksack:
+  meaning: backpack
+  example: My backpack is very heavy.
+der Bahnsteig:
+  meaning: platform
+  example: The train departs from platform three.
+die Verspätung:
+  meaning: delay
+  example: The train has a ten-minute delay.

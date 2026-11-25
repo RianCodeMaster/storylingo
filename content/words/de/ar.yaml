@@ -1,0 +1,1502 @@
+# What each word means for learners with this base language, and its example sentence translated. Made by
+# `storylingo.py localize-words`; corrections by hand are welcome (then: storylingo.py sync).
+und:
+  meaning: و
+  example: أشرب الماء والقهوة.
+ich:
+  meaning: أنا
+  example: أسكن في المدينة.
+du:
+  meaning: أنت (غير رسمي)
+  example: أين تسكن؟
+nicht:
+  meaning: لا، ليس
+  example: لا أفهم ذلك.
+sein:
+  meaning: يكون
+  example: أريد أن أكون في المنزل.
+haben:
+  meaning: يملك
+  example: لدينا منزل.
+ein:
+  meaning: أداة تنكير
+  example: هذا كلب.
+auch:
+  meaning: أيضًا
+  example: أريد قهوة أيضًا.
+sehr:
+  meaning: جدًا
+  example: هذا جيد جدًا.
+mit:
+  meaning: مع
+  example: آتي بالحافلة.
+für:
+  meaning: لـ، من أجل
+  example: الخبز لك.
+aber:
+  meaning: لكن
+  example: أنا متعب لكن سعيد.
+oder:
+  meaning: أو
+  example: هل تريد شايًا أم قهوة؟
+in:
+  meaning: في
+  example: أسكن في منزل.
+auf:
+  meaning: على
+  example: الكتاب على الطاولة.
+gehen:
+  meaning: يذهب
+  example: نذهب إلى المنزل.
+kommen:
+  meaning: يأتي
+  example: من أين أنت؟
+machen:
+  meaning: يفعل، يصنع
+  example: ماذا تفعل اليوم؟
+sagen:
+  meaning: يقول
+  example: قل ذلك مرة أخرى من فضلك.
+sehen:
+  meaning: يرى
+  example: أرى الحافلة.
+essen:
+  meaning: يأكل
+  example: نأكل خبزًا مع الجبن.
+trinken:
+  meaning: يشرب
+  example: أحب أن أشرب الماء.
+kaufen:
+  meaning: يشتري
+  example: أشتري الخبز والحليب.
+wohnen:
+  meaning: يسكن
+  example: نسكن في المدينة.
+arbeiten:
+  meaning: يعمل
+  example: أعمل في المكتب.
+sprechen:
+  meaning: يتكلم
+  example: هل تتحدث الألمانية؟
+verstehen:
+  meaning: يفهم
+  example: لا أفهم السؤال.
+brauchen:
+  meaning: يحتاج
+  example: نحتاج الماء والخبز.
+können:
+  meaning: يستطيع، يمكن
+  example: هل يمكنك مساعدتي؟
+müssen:
+  meaning: يجب، يتعين
+  example: يجب أن أعمل اليوم.
+gut:
+  meaning: جيد
+  example: الطعام جيد.
+groß:
+  meaning: كبير
+  example: المنزل كبير جدًا.
+klein:
+  meaning: صغير
+  example: الشقة صغيرة.
+neu:
+  meaning: جديد
+  example: لدي هاتف جديد.
+alt:
+  meaning: قديم، عجوز
+  example: دراجتي قديمة.
+teuer:
+  meaning: غالٍ
+  example: السيارة غالية جدًا.
+billig:
+  meaning: رخيص
+  example: الخبز رخيص.
+krank:
+  meaning: مريض
+  example: طفلي مريض.
+glücklich:
+  meaning: سعيد
+  example: أنا سعيد اليوم.
+müde:
+  meaning: متعب
+  example: أنا متعب جدًا.
+der Mann:
+  meaning: الرجل
+  example: الرجل يشتري الخبز.
+die Frau:
+  meaning: المرأة
+  example: المرأة تعمل في المكتب.
+das Kind:
+  meaning: الطفل
+  example: الطفل يلعب في المنزل.
+die Familie:
+  meaning: العائلة
+  example: عائلتي تسكن في المدينة.
+der Freund:
+  meaning: الصديق
+  example: صديقي يأتي اليوم.
+das Haus:
+  meaning: المنزل
+  example: المنزل به مطبخ.
+die Wohnung:
+  meaning: الشقة
+  example: الشقة صغيرة وجديدة.
+das Zimmer:
+  meaning: الغرفة
+  example: الغرفة بها نافذة.
+die Küche:
+  meaning: المطبخ
+  example: المطبخ صغير جدًا.
+die Zeit:
+  meaning: الوقت
+  example: ليس لدي وقت.
+das Wasser:
+  meaning: الماء
+  example: أشرب الكثير من الماء.
+das Brot:
+  meaning: الخبز
+  example: الخبز طازج.
+der Kaffee:
+  meaning: القهوة
+  example: القهوة ساخنة جدًا.
+das Geld:
+  meaning: المال
+  example: ليس لدي مال.
+der Supermarkt:
+  meaning: السوبرماركت
+  example: السوبرماركت مفتوح اليوم.
+die Arbeit:
+  meaning: العمل
+  example: يبدأ العمل في الثامنة.
+der Arzt:
+  meaning: الطبيب
+  example: الطبيب يأتي اليوم.
+der Termin:
+  meaning: الموعد
+  example: لدي موعد.
+der Zug:
+  meaning: القطار
+  example: القطار يأتي في العاشرة.
+der Bus:
+  meaning: الحافلة
+  example: أذهب بالحافلة.
+zu:
+  meaning: جدًا
+  example: هذا غالٍ جدًا.
+aus:
+  meaning: من، خارج
+  example: أنا قادم من المكتب.
+bei:
+  meaning: عند، مع
+  example: أسكن مع عائلتي.
+von:
+  meaning: من
+  example: الكتاب من عندي.
+nach:
+  meaning: إلى، بعد
+  example: أذهب إلى المنزل.
+vor:
+  meaning: أمام
+  example: السيارة أمام المنزل.
+über:
+  meaning: عن، فوق
+  example: نتحدث عن الطقس.
+ohne:
+  meaning: بدون
+  example: أشرب القهوة بدون سكر.
+um:
+  meaning: في، حوالي
+  example: آتي في الثامنة.
+hier:
+  meaning: هنا
+  example: هنا مكاني.
+dort:
+  meaning: هناك
+  example: هناك الحمام.
+dann:
+  meaning: ثم، بعد ذلك
+  example: آكل ثم أذهب.
+wann:
+  meaning: متى
+  example: متى تأتي؟
+wie:
+  meaning: كيف
+  example: كيف حالك؟
+was:
+  meaning: ماذا
+  example: ماذا تريد أن تشرب؟
+wo:
+  meaning: أين
+  example: أين محطة القطار؟
+warum:
+  meaning: لماذا
+  example: لماذا أنت متعب؟
+weil:
+  meaning: لأن
+  example: سأبقى هنا لأنها تمطر.
+dass:
+  meaning: أن
+  example: أعتقد أنه سيأتي.
+wenn:
+  meaning: إذا، عندما
+  example: إذا أمطرت، سأبقى هنا.
+fahren:
+  meaning: يقود، يذهب
+  example: أذهب بالحافلة.
+nehmen:
+  meaning: يأخذ
+  example: أستقل القطار.
+geben:
+  meaning: يعطي
+  example: أعطني الخبز من فضلك.
+finden:
+  meaning: يجد
+  example: لا أجد المفتاح.
+suchen:
+  meaning: يبحث
+  example: أبحث عن حقيبتي.
+bleiben:
+  meaning: يبقى
+  example: أبقى في المنزل.
+schlafen:
+  meaning: ينام
+  example: أنام ثماني ساعات.
+aufstehen:
+  meaning: يستيقظ، ينهض
+  example: أستيقظ في السابعة.
+kochen:
+  meaning: يطبخ
+  example: أطبخ الحساء اليوم.
+bezahlen:
+  meaning: يدفع
+  example: أدفع بالبطاقة.
+kosten:
+  meaning: يكلف
+  example: كم يكلف الخبز؟
+möchten:
+  meaning: أود، أرغب
+  example: أود قهوة.
+helfen:
+  meaning: يساعد
+  example: هل يمكنك مساعدتي؟
+fragen:
+  meaning: يسأل
+  example: أسأل المعلم.
+antworten:
+  meaning: يجيب
+  example: أجبني من فضلك.
+der Tisch:
+  meaning: الطاولة
+  example: الطاولة جديدة.
+die Tür:
+  meaning: الباب
+  example: الباب مفتوح.
+der Schlüssel:
+  meaning: المفتاح
+  example: أين مفتاحي؟
+der Kopf:
+  meaning: الرأس
+  example: رأسي يؤلمني.
+die Medizin:
+  meaning: الدواء
+  example: أتناول الدواء.
+der Beruf:
+  meaning: المهنة، الوظيفة
+  example: ما مهنتك؟
+das Büro:
+  meaning: المكتب
+  example: أعمل في المكتب.
+der Brief:
+  meaning: الرسالة
+  example: أكتب رسالة.
+das Formular:
+  meaning: الاستمارة
+  example: أملأ الاستمارة.
+das Geschäft:
+  meaning: المتجر، العمل
+  example: المتجر مغلق اليوم.
+der Apfel:
+  meaning: التفاحة
+  example: التفاحة حمراء.
+das Auto:
+  meaning: السيارة
+  example: السيارة قديمة.
+der Bahnhof:
+  meaning: محطة القطار
+  example: محطة القطار هناك.
+die Fahrkarte:
+  meaning: تذكرة
+  example: أشتري تذكرة.
+das Wetter:
+  meaning: الطقس
+  example: الطقس جميل.
+schön:
+  meaning: جميل، حسن
+  example: المنزل جميل.
+schnell:
+  meaning: سريع
+  example: القطار سريع.
+leicht:
+  meaning: سهل، خفيف
+  example: المهمة سهلة.
+schwer:
+  meaning: ثقيل، صعب
+  example: الحقيبة ثقيلة.
+richtig:
+  meaning: صحيح
+  example: الإجابة صحيحة.
+falsch:
+  meaning: خطأ
+  example: هذا خطأ.
+sauber:
+  meaning: نظيف
+  example: الغرفة نظيفة.
+gesund:
+  meaning: صحي
+  example: الفاكهة صحية.
+freundlich:
+  meaning: ودود
+  example: المرأة ودودة.
+traurig:
+  meaning: حزين
+  example: هو حزين اليوم.
+ja:
+  meaning: نعم
+  example: نعم، هذا صحيح.
+nein:
+  meaning: لا
+  example: لا، ليس لدي وقت.
+bitte:
+  meaning: من فضلك، تفضل
+  example: تفضل، هذه قهوتك.
+danke:
+  meaning: شكرًا
+  example: شكرًا، هذا لطف كبير.
+hallo:
+  meaning: مرحبًا
+  example: مرحبًا، كيف حالك؟
+tschüss:
+  meaning: إلى اللقاء
+  example: إلى اللقاء، إلى الغد!
+er:
+  meaning: هو
+  example: هو يسكن هنا.
+sie:
+  meaning: هي، هم
+  example: هي تعمل في المكتب.
+es:
+  meaning: هو/هي لغير العاقل
+  example: الجو بارد اليوم.
+wir:
+  meaning: نحن
+  example: نحن نتعلم الألمانية معًا.
+ihr:
+  meaning: أنتم
+  example: أنتم تأتون لاحقًا، أليس كذلك؟
+mein:
+  meaning: خاصتي
+  example: أخي طالب.
+dein:
+  meaning: خاصتك
+  example: مفتاحك هناك.
+kein:
+  meaning: لا/ليس أي
+  example: ليس لدي مال.
+mehr:
+  meaning: أكثر
+  example: أريد المزيد من الماء.
+viel:
+  meaning: كثير
+  example: لديه عمل كثير.
+wenig:
+  meaning: قليل
+  example: لدينا وقت قليل.
+etwas:
+  meaning: شيء ما
+  example: هل تريد أن تشرب شيئًا؟
+nichts:
+  meaning: لا شيء
+  example: أنا لا أفهم شيئًا.
+man:
+  meaning: المرء، الناس
+  example: يمكن للمرء ركن السيارة هنا.
+der Tag:
+  meaning: اليوم
+  example: يبدأ اليوم في السابعة.
+die Nacht:
+  meaning: الليل
+  example: الليل هادئ.
+der Morgen:
+  meaning: الصباح
+  example: في الصباح أشرب القهوة.
+der Abend:
+  meaning: المساء
+  example: في المساء أشاهد التلفاز.
+die Woche:
+  meaning: الأسبوع
+  example: الأسبوع فيه سبعة أيام.
+der Monat:
+  meaning: الشهر
+  example: الشهر على وشك الانتهاء.
+das Jahr:
+  meaning: السنة
+  example: السنة فيها اثنا عشر شهرًا.
+die Stunde:
+  meaning: الساعة
+  example: الدورة تستغرق ساعة.
+der Vater:
+  meaning: الأب
+  example: أبي يطبخ هذا المساء.
+die Mutter:
+  meaning: الأم
+  example: أمي تعمل في المكتب.
+der Bruder:
+  meaning: الأخ
+  example: أخي يسكن هنا.
+die Schwester:
+  meaning: الأخت
+  example: أختي ما زالت صغيرة.
+der Junge:
+  meaning: الولد
+  example: الولد يلعب في الحديقة.
+das Mädchen:
+  meaning: الفتاة
+  example: الفتاة تقرأ كتابًا.
+die Angst:
+  meaning: الخوف
+  example: أخاف من الكلاب.
+die Freude:
+  meaning: الفرح
+  example: الفرح كبير.
+der Stuhl:
+  meaning: الكرسي
+  example: الكرسي عند الطاولة.
+das Bett:
+  meaning: السرير
+  example: السرير مريح جدًا.
+das Fenster:
+  meaning: النافذة
+  example: من فضلك افتح النافذة.
+das Bad:
+  meaning: الحمام
+  example: الحمام صغير لكن نظيف.
+die Toilette:
+  meaning: المرحاض
+  example: المرحاض هناك على اليسار.
+der Markt:
+  meaning: السوق
+  example: نشتري الفاكهة من السوق.
+das Restaurant:
+  meaning: المطعم
+  example: المطعم مغلق اليوم.
+die Rechnung:
+  meaning: الفاتورة، الحساب
+  example: الفاتورة، من فضلك.
+das Frühstück:
+  meaning: الفطور
+  example: الفطور في الثامنة.
+die Milch:
+  meaning: الحليب
+  example: أشرب الحليب مع الفطور.
+das Fleisch:
+  meaning: اللحم
+  example: اللحم في الثلاجة.
+der Fisch:
+  meaning: السمك
+  example: السمك طعمه لذيذ جدًا.
+das Gemüse:
+  meaning: الخضار
+  example: أشتري خضارًا طازجًا.
+der Reis:
+  meaning: الأرز
+  example: نأكل الأرز مع الخضار.
+die Krankheit:
+  meaning: المرض
+  example: المرض ليس خطيرًا.
+das Krankenhaus:
+  meaning: المستشفى
+  example: هو يعمل في المستشفى.
+die Apotheke:
+  meaning: الصيدلية
+  example: الصيدلية هناك مباشرة.
+der Chef:
+  meaning: المدير، الرئيس
+  example: المدير ليس هنا اليوم.
+die Firma:
+  meaning: الشركة
+  example: الشركة كبيرة جدًا.
+der Kollege:
+  meaning: الزميل
+  example: زميلي يساعدني كثيرًا.
+die E-Mail:
+  meaning: البريد الإلكتروني
+  example: أكتب بريدًا إلكترونيًا.
+der Computer:
+  meaning: الحاسوب
+  example: الحاسوب جديد.
+die Straße:
+  meaning: الشارع
+  example: الشارع طويل جدًا.
+die Stadt:
+  meaning: المدينة
+  example: المدينة كبيرة وجميلة.
+an:
+  meaning: على، عند
+  example: أذهب إلى البحيرة.
+durch:
+  meaning: عبر، من خلال
+  example: نمر عبر الحديقة.
+gegen:
+  meaning: ضد
+  example: القرص يساعد ضد الصداع.
+seit:
+  meaning: منذ
+  example: أعيش هنا منذ سنة.
+bis:
+  meaning: حتى
+  example: أعمل حتى الساعة الثانية عشرة.
+unter:
+  meaning: تحت
+  example: القطة تحت الطاولة.
+neben:
+  meaning: بجانب
+  example: الكرسي بجانب الطاولة.
+zwischen:
+  meaning: بين
+  example: البنك بين المنازل.
+hinter:
+  meaning: خلف
+  example: الحديقة خلف المنزل.
+ab:
+  meaning: من
+  example: القطار ينطلق من الساعة الثامنة.
+heute:
+  meaning: اليوم
+  example: اليوم أذهب إلى الطبيب.
+morgen:
+  meaning: غداً
+  example: غداً أذهب إلى المدينة.
+gestern:
+  meaning: أمس
+  example: أمس كنت في المكتب.
+jetzt:
+  meaning: الآن
+  example: الآن أطبخ الطعام.
+immer:
+  meaning: دائماً
+  example: هو يأتي دائماً متأخراً.
+oft:
+  meaning: غالباً
+  example: نأكل غالباً في المطعم.
+nie:
+  meaning: أبداً
+  example: لا أشرب القهوة أبداً.
+noch:
+  meaning: لا يزال، المزيد
+  example: أحتاج المزيد من الحليب.
+lesen:
+  meaning: يقرأ
+  example: أقرأ كتاباً.
+schreiben:
+  meaning: يكتب
+  example: أكتب بريداً إلكترونياً.
+hören:
+  meaning: يسمع، يستمع
+  example: أستمع إلى الموسيقى.
+anrufen:
+  meaning: يتصل بـ
+  example: أتصل بالطبيب.
+einkaufen:
+  meaning: يتسوق
+  example: نتسوق في السوبرماركت.
+anfangen:
+  meaning: يبدأ
+  example: تبدأ الدورة في التاسعة.
+einladen:
+  meaning: يدعو
+  example: أدعو أصدقائي.
+besuchen:
+  meaning: يزور
+  example: نزور والديّ.
+treffen:
+  meaning: يلتقي
+  example: ألتقي بصديقي.
+warten:
+  meaning: ينتظر
+  example: أنتظر الحافلة.
+bringen:
+  meaning: يجلب، يحضر
+  example: أحضر لك الخبز.
+öffnen:
+  meaning: يفتح
+  example: أفتح النافذة.
+schließen:
+  meaning: يغلق
+  example: أغلق الباب.
+bestellen:
+  meaning: يطلب
+  example: نطلب حساءً.
+wissen:
+  meaning: يعرف
+  example: أنا لا أعرف.
+denken:
+  meaning: يفكر
+  example: أفكر فيك كثيراً.
+der Name:
+  meaning: الاسم
+  example: اسمي طويل جداً.
+das Telefon:
+  meaning: الهاتف
+  example: الهاتف معطل.
+die Nummer:
+  meaning: الرقم
+  example: لدي رقمك.
+die Adresse:
+  meaning: العنوان
+  example: ما هو عنوانك؟
+der Job:
+  meaning: الوظيفة
+  example: وظيفتي جيدة جداً.
+der Garten:
+  meaning: الحديقة
+  example: الحديقة جميلة جداً.
+der Schrank:
+  meaning: الخزانة
+  example: الملابس في الخزانة.
+das Sofa:
+  meaning: الأريكة
+  example: الأريكة جديدة.
+die Lampe:
+  meaning: المصباح
+  example: المصباح في الغرفة.
+die Treppe:
+  meaning: الدرج
+  example: الدرج هناك على اليسار.
+der Käse:
+  meaning: الجبن
+  example: الجبن لذيذ جداً.
+das Ei:
+  meaning: البيضة
+  example: آكل بيضة.
+der Salat:
+  meaning: السلطة
+  example: السلطة طازجة.
+die Kartoffel:
+  meaning: البطاطا
+  example: حبة البطاطا صغيرة.
+der Saft:
+  meaning: العصير
+  example: أشرب عصيراً.
+der Tee:
+  meaning: الشاي
+  example: الشاي ساخن.
+die Tablette:
+  meaning: القرص
+  example: آخذ قرصاً.
+der Zahn:
+  meaning: السن
+  example: سنّي يؤلمني.
+das Bein:
+  meaning: الساق
+  example: ساقي تؤلمني.
+der Bauch:
+  meaning: البطن
+  example: بطني يؤلمني.
+der Flughafen:
+  meaning: المطار
+  example: المطار بعيد.
+die U-Bahn:
+  meaning: المترو
+  example: المترو سيأتي حالاً.
+das Ticket:
+  meaning: التذكرة
+  example: أشتري تذكرة.
+die Meinung:
+  meaning: الرأي
+  example: هذا رأيي.
+das Problem:
+  meaning: المشكلة
+  example: المشكلة ليست كبيرة.
+das Geschenk:
+  meaning: الهدية
+  example: الهدية لك.
+gern:
+  meaning: بحب، بسرور
+  example: أحب شرب القهوة.
+lernen:
+  meaning: يتعلم
+  example: أتعلم الألمانية كل يوم.
+das Buch:
+  meaning: الكتاب
+  example: أقرأ كتابًا جيدًا.
+die Schule:
+  meaning: المدرسة
+  example: تبدأ المدرسة في الثامنة.
+die Frage:
+  meaning: السؤال
+  example: لدي سؤال.
+die Antwort:
+  meaning: الجواب، الإجابة
+  example: إجابتك صحيحة.
+spielen:
+  meaning: يلعب
+  example: يلعب الأطفال في الحديقة.
+vielleicht:
+  meaning: ربما
+  example: ربما يأتي غدًا.
+wieder:
+  meaning: مرة أخرى، مجددًا
+  example: نلتقي غدًا مرة أخرى.
+zusammen:
+  meaning: معًا
+  example: نطبخ معًا.
+allein:
+  meaning: وحده، بمفرده
+  example: أعيش وحدي.
+bald:
+  meaning: قريبًا
+  example: ستأتي الحافلة قريبًا.
+fast:
+  meaning: تقريبًا
+  example: أنا تقريبًا انتهيت.
+genau:
+  meaning: بالضبط، تمامًا
+  example: هذا صحيح تمامًا.
+links:
+  meaning: يسارًا، على اليسار
+  example: البنك على اليسار.
+rechts:
+  meaning: يمينًا، على اليمين
+  example: المتجر على اليمين.
+das Essen:
+  meaning: الطعام، الوجبة
+  example: الطعام لذيذ جدًا.
+der Hunger:
+  meaning: الجوع
+  example: لدي جوع شديد.
+die Flasche:
+  meaning: الزجاجة
+  example: زجاجة الماء فارغة.
+das Glas:
+  meaning: كوب، زجاج
+  example: كوب ماء، من فضلك.
+die Tasse:
+  meaning: الفنجان، الكوب
+  example: فنجان قهوة، من فضلك.
+die Speisekarte:
+  meaning: قائمة الطعام
+  example: قائمة الطعام على الطاولة.
+der Kellner:
+  meaning: النادل
+  example: النادل يجلب الطعام.
+sitzen:
+  meaning: يجلس
+  example: نجلس في الحديقة.
+stehen:
+  meaning: يقف
+  example: أقف أمام الباب.
+liegen:
+  meaning: يرقد، يقع
+  example: الكتاب موضوع على الطاولة.
+laufen:
+  meaning: يجري، يركض
+  example: يجري بسرعة إلى المنزل.
+schwimmen:
+  meaning: يسبح
+  example: أحب السباحة في البحيرة.
+fliegen:
+  meaning: يطير، يسافر جوًا
+  example: نسافر غدًا بالطائرة إلى الوطن.
+der Kühlschrank:
+  meaning: الثلاجة
+  example: الثلاجة فارغة تقريبًا.
+der Herd:
+  meaning: الموقد
+  example: الموقد ساخن.
+das Regal:
+  meaning: الرف
+  example: الكتب على الرف.
+die Wand:
+  meaning: الجدار
+  example: الجدار أبيض.
+das Licht:
+  meaning: الضوء
+  example: أشعل الضوء من فضلك.
+der Park:
+  meaning: المنتزه، الحديقة
+  example: نتنزه في المنتزه.
+der See:
+  meaning: البحيرة
+  example: البحيرة دافئة في الصيف.
+das Meer:
+  meaning: البحر
+  example: نذهب إلى البحر.
+das Fahrrad:
+  meaning: الدراجة
+  example: دراجتي جديدة.
+die Sonne:
+  meaning: الشمس
+  example: تسطع الشمس اليوم.
+der Regen:
+  meaning: المطر
+  example: المطر شديد اليوم.
+der Schnee:
+  meaning: الثلج
+  example: في الشتاء يوجد ثلج كثير.
+der Wind:
+  meaning: الرياح
+  example: الرياح باردة اليوم.
+der Sommer:
+  meaning: الصيف
+  example: الصيف دافئ جدًا.
+die Farbe:
+  meaning: اللون
+  example: أي لون تحب؟
+rot:
+  meaning: أحمر
+  example: سيارتي حمراء.
+blau:
+  meaning: أزرق
+  example: السماء زرقاء اليوم.
+grün:
+  meaning: أخضر
+  example: الباب أخضر.
+gelb:
+  meaning: أصفر
+  example: الشمس صفراء.
+schwarz:
+  meaning: أسود
+  example: أشرب القهوة سوداء.
+die Hand:
+  meaning: اليد
+  example: يدي باردة.
+der Fuß:
+  meaning: القدم
+  example: قدمي تؤلمني.
+das Internet:
+  meaning: الإنترنت
+  example: أحتاج الإنترنت للعمل.
+die Bank:
+  meaning: البنك، المقعد
+  example: تعمل في بنك.
+der Geburtstag:
+  meaning: عيد الميلاد
+  example: عيد ميلادي غدًا.
+das Fest:
+  meaning: الحفل، المهرجان
+  example: نحتفل بحفل كبير.
+die Party:
+  meaning: الحفلة
+  example: تبدأ الحفلة في الثامنة.
+das Wort:
+  meaning: الكلمة
+  example: لا أفهم هذه الكلمة.
+die Sprache:
+  meaning: اللغة
+  example: الألمانية لغة جميلة.
+der Lehrer:
+  meaning: المعلم، المدرس
+  example: المعلم يشرح المهمة.
+der Mensch:
+  meaning: الإنسان، الشخص
+  example: الإنسان يحتاج إلى أصدقاء.
+als:
+  meaning: من، عندما
+  example: أنا أكبر منك.
+denn:
+  meaning: لأن
+  example: سأبقى هنا لأنني متعب.
+also:
+  meaning: إذن
+  example: إذن، سآتي غدًا.
+doch:
+  meaning: بلى، لكن
+  example: بلى، هذا صحيح.
+ob:
+  meaning: ما إذا
+  example: لا أعرف ما إذا كان سيأتي.
+wohin:
+  meaning: إلى أين
+  example: إلى أين تسافر؟
+woher:
+  meaning: من أين
+  example: من أين أنت؟
+welcher:
+  meaning: أي
+  example: أي فيلم جيد؟
+jeder:
+  meaning: كل
+  example: كل يوم مختلف.
+zurück:
+  meaning: إلى الخلف
+  example: سأعود بعد قليل.
+dürfen:
+  meaning: يُسمح له
+  example: هل يُسمح لي بالجلوس هنا؟
+wollen:
+  meaning: يريد
+  example: أريد العودة إلى المنزل.
+sollen:
+  meaning: ينبغي
+  example: يجب أن تكون هادئًا.
+werden:
+  meaning: يصبح
+  example: الجو يصبح باردًا.
+heißen:
+  meaning: يُسمى
+  example: ما اسمك؟
+leben:
+  meaning: يعيش
+  example: أعيش في المدينة.
+lieben:
+  meaning: يحب
+  example: أحب عائلتي.
+tragen:
+  meaning: يحمل، يرتدي
+  example: أرتدي سترة.
+waschen:
+  meaning: يغسل
+  example: أغسل يدي.
+frühstücken:
+  meaning: يتناول الفطور
+  example: أتناول الفطور في الثامنة.
+abholen:
+  meaning: يذهب لإحضار
+  example: سآتي لأخذك.
+ankommen:
+  meaning: يصل
+  example: يصل القطار.
+einsteigen:
+  meaning: يركب
+  example: نركب الحافلة.
+aussteigen:
+  meaning: ينزل
+  example: ننزل من القطار.
+zahlen:
+  meaning: يدفع
+  example: أدفع بالبطاقة.
+die Uhr:
+  meaning: الساعة
+  example: الساعة معطلة.
+das Handy:
+  meaning: الهاتف المحمول
+  example: هاتفي المحمول جديد.
+der Fernseher:
+  meaning: التلفاز
+  example: التلفاز مشغّل.
+die Musik:
+  meaning: الموسيقى
+  example: أحب الاستماع إلى الموسيقى.
+der Film:
+  meaning: الفيلم
+  example: الفيلم جيد.
+das Foto:
+  meaning: الصورة
+  example: الصورة جميلة.
+die Tasche:
+  meaning: الحقيبة
+  example: حقيبتي ثقيلة.
+die Brille:
+  meaning: النظارة
+  example: أين نظارتي؟
+der Regenschirm:
+  meaning: المظلة
+  example: أحتاج مظلة.
+die Minute:
+  meaning: الدقيقة
+  example: انتظر دقيقة، من فضلك.
+der Moment:
+  meaning: اللحظة
+  example: لحظة، من فضلك.
+das Wochenende:
+  meaning: عطلة نهاية الأسبوع
+  example: أكون متفرغًا في عطلة نهاية الأسبوع.
+die Hose:
+  meaning: البنطال
+  example: البنطال صغير جدًا.
+das Hemd:
+  meaning: القميص
+  example: القميص أزرق.
+die Jacke:
+  meaning: السترة
+  example: السترة دافئة.
+der Schuh:
+  meaning: الحذاء
+  example: الحذاء جديد.
+die Größe:
+  meaning: المقاس، الحجم
+  example: أي مقاس تحتاج؟
+der Preis:
+  meaning: السعر
+  example: السعر جيد.
+die Kasse:
+  meaning: الكاشير، الصندوق
+  example: يرجى الدفع عند الكاشير.
+das Obst:
+  meaning: الفواكه
+  example: أشتري الفواكه من السوق.
+der Zucker:
+  meaning: السكر
+  example: هل تضع السكر في الشاي؟
+die Suppe:
+  meaning: الحساء
+  example: الحساء ساخن.
+der Kuchen:
+  meaning: الكعك
+  example: الكعك لذيذ.
+der Wein:
+  meaning: النبيذ
+  example: النبيذ أحمر.
+der Balkon:
+  meaning: الشرفة
+  example: الشرفة صغيرة.
+der Nachbar:
+  meaning: الجار
+  example: جاري ودود.
+die Miete:
+  meaning: الإيجار
+  example: الإيجار مرتفع جدًا.
+die Heizung:
+  meaning: التدفئة
+  example: التدفئة معطلة.
+der Teppich:
+  meaning: السجادة
+  example: السجادة جديدة.
+das Dach:
+  meaning: السطح
+  example: السطح قديم.
+der Boden:
+  meaning: الأرضية
+  example: الأرضية نظيفة.
+der Koffer:
+  meaning: حقيبة السفر
+  example: حقيبة السفر ثقيلة.
+der Urlaub:
+  meaning: العطلة
+  example: عطلتي تبدأ غدًا.
+das Hotel:
+  meaning: الفندق
+  example: الفندق صغير.
+die Haltestelle:
+  meaning: الموقف
+  example: الموقف هناك.
+die Eltern:
+  meaning: الوالدان
+  example: والداي يسكنان هنا.
+der Sohn:
+  meaning: الابن
+  example: ابنها ما زال صغيرًا.
+die Tochter:
+  meaning: الابنة
+  example: الابنة تذهب إلى المدرسة.
+die Freundin:
+  meaning: الصديقة
+  example: صديقتي ستأتي هذا المساء.
+das Baby:
+  meaning: الرضيع
+  example: الرضيع نائم الآن.
+der Opa:
+  meaning: الجد
+  example: جدي يسكن معنا.
+die Oma:
+  meaning: الجدة
+  example: جدتي تطبخ جيدًا جدًا.
+der Onkel:
+  meaning: العم، الخال
+  example: عمي يزورنا غدًا.
+die Tante:
+  meaning: العمة، الخالة
+  example: خالتي تسكن بجانبنا.
+die Leute:
+  meaning: الناس
+  example: يأتي كثير من الناس إلى الحفلة.
+die Hilfe:
+  meaning: المساعدة
+  example: أحتاج مساعدتك.
+böse:
+  meaning: غاضب
+  example: هل أنت غاضب مني؟
+zufrieden:
+  meaning: راضٍ
+  example: أنا راضٍ عن العمل.
+nervös:
+  meaning: متوتر
+  example: أنا متوتر جدًا اليوم.
+lachen:
+  meaning: يضحك
+  example: الأطفال يضحكون بصوت عالٍ.
+der Hund:
+  meaning: الكلب
+  example: الكلب يلعب في الحديقة.
+die Katze:
+  meaning: القطة
+  example: القطة نائمة على الأريكة.
+die Butter:
+  meaning: الزبدة
+  example: الزبدة في الثلاجة.
+die Banane:
+  meaning: الموزة
+  example: أحب أن آكل موزة.
+die Tomate:
+  meaning: الطماطم
+  example: السلطة فيها كثير من الطماطم.
+die Wurst:
+  meaning: النقانق
+  example: النقانق طعمها لذيذ جدًا.
+der Teller:
+  meaning: الطبق
+  example: الطبق على الطاولة.
+die Decke:
+  meaning: البطانية
+  example: البطانية جديدة تمامًا.
+das Kissen:
+  meaning: الوسادة
+  example: الوسادة على السرير.
+die Waschmaschine:
+  meaning: الغسالة
+  example: الغسالة في الحمام.
+der Müll:
+  meaning: القمامة
+  example: نخرج القمامة.
+der Arm:
+  meaning: الذراع
+  example: ذراعي تؤلمني.
+die Nase:
+  meaning: الأنف
+  example: أنفي أحمر تمامًا.
+das Auge:
+  meaning: العين
+  example: عيني حمراء.
+wehtun:
+  meaning: يؤلم
+  example: رأسي يؤلمني.
+das Fieber:
+  meaning: الحمى
+  example: الطفل مصاب بالحمى.
+die Pause:
+  meaning: الاستراحة
+  example: نأخذ استراحة قصيرة.
+der Fehler:
+  meaning: الخطأ
+  example: هذا خطأ صغير.
+die Aufgabe:
+  meaning: المهمة
+  example: هذه المهمة ليست صعبة.
+das Amt:
+  meaning: المكتب الحكومي
+  example: المكتب الحكومي مغلق اليوم.
+der Ausweis:
+  meaning: بطاقة الهوية
+  example: يرجى إظهار بطاقة هويتك.
+unterschreiben:
+  meaning: يوقّع
+  example: يرجى التوقيع هنا.
+pünktlich:
+  meaning: في الموعد
+  example: القطار يصل في الموعد.
+dauern:
+  meaning: يستغرق
+  example: الرحلة تستغرق ساعة.
+das Taxi:
+  meaning: سيارة الأجرة
+  example: نأخذ سيارة أجرة.
+das Flugzeug:
+  meaning: الطائرة
+  example: الطائرة تحلق عاليًا.
+nur:
+  meaning: فقط
+  example: لدي سؤال واحد فقط.
+schon:
+  meaning: بالفعل
+  example: أنا في البيت بالفعل.
+alles:
+  meaning: كل شيء
+  example: كل شيء على ما يرام.
+alle:
+  meaning: الجميع
+  example: الجميع سيأتون إلى الحفلة.
+leider:
+  meaning: للأسف
+  example: للأسف ليس لدي وقت.
+natürlich:
+  meaning: بالطبع
+  example: بالطبع سأساعدك.
+sicher:
+  meaning: متأكد
+  example: هل أنت متأكد؟
+genug:
+  meaning: كافٍ
+  example: لدينا وقت كافٍ.
+ganz:
+  meaning: تمامًا
+  example: أنا متعب تمامًا.
+halb:
+  meaning: نصف
+  example: إنها السابعة والنصف.
+bisschen:
+  meaning: قليلًا
+  example: أحتاج قليلًا من المساعدة.
+zuerst:
+  meaning: أولًا
+  example: أولًا نتناول الفطور.
+danach:
+  meaning: بعد ذلك
+  example: بعد ذلك نذهب للتسوق.
+später:
+  meaning: لاحقًا
+  example: سنتقابل لاحقًا.
+früh:
+  meaning: مبكرًا
+  example: أستيقظ مبكرًا.
+spät:
+  meaning: متأخرًا
+  example: الوقت متأخر بالفعل.
+jemand:
+  meaning: شخص ما
+  example: شخص ما يتصل.
+niemand:
+  meaning: لا أحد
+  example: لا أحد في المكتب.
+beginnen:
+  meaning: يبدأ
+  example: الدورة تبدأ في التاسعة.
+kalt:
+  meaning: بارد
+  example: الماء بارد جدًا اليوم.
+warm:
+  meaning: دافئ
+  example: الحساء ما زال دافئًا.
+heiß:
+  meaning: ساخن
+  example: القهوة ساخنة جدًا.
+wichtig:
+  meaning: مهم
+  example: هذا مهم جدًا بالنسبة لي.
+frei:
+  meaning: متاح، خالٍ
+  example: هل هذا المقعد ما زال متاحًا؟
+offen:
+  meaning: مفتوح
+  example: المتجر مفتوح الآن.
+geschlossen:
+  meaning: مغلق
+  example: الصيدلية مغلقة اليوم.
+fertig:
+  meaning: منتهٍ، جاهز
+  example: سأنتهي من العمل قريبًا.
+voll:
+  meaning: ممتلئ
+  example: الحافلة ممتلئة جدًا اليوم.
+leer:
+  meaning: فارغ
+  example: الزجاجة فارغة.
+satt:
+  meaning: شبعان، ممتلئ
+  example: أنا شبعان، شكرًا.
+hungrig:
+  meaning: جائع
+  example: الطفل جائع جدًا.
+durstig:
+  meaning: عطشان
+  example: بعد التمرين أشعر بالعطش.
+lecker:
+  meaning: لذيذ
+  example: الكعكة لذيذة جدًا.
+lang:
+  meaning: طويل
+  example: الفيلم طويل جدًا.
+kurz:
+  meaning: قصير
+  example: لدي وقت قصير فقط.
+langsam:
+  meaning: بطيء
+  example: السيارة بطيئة جدًا.
+laut:
+  meaning: صاخب، عالٍ
+  example: الموسيقى عالية جدًا.
+leise:
+  meaning: هادئ، منخفض
+  example: من فضلك تحدث بهدوء.
+dunkel:
+  meaning: مظلم، داكن
+  example: الغرفة مظلمة جدًا.
+hell:
+  meaning: مضيء، فاتح
+  example: المطبخ مضيء وجميل.
+nass:
+  meaning: مبلل
+  example: معطفي مبلل.
+trocken:
+  meaning: جاف
+  example: المنشفة جافة.
+schmutzig:
+  meaning: متسخ
+  example: الأحذية متسخة.
+lustig:
+  meaning: مضحك
+  example: الفيلم مضحك جدًا.
+interessant:
+  meaning: مثير للاهتمام
+  example: الكتاب مثير للاهتمام جدًا.
+langweilig:
+  meaning: ممل
+  example: الدرس ليس مملًا أبدًا.
+modern:
+  meaning: حديث، عصري
+  example: الشقة عصرية جدًا.
+gleich:
+  meaning: قريبًا، متساوٍ
+  example: سآتي قريبًا.
+süß:
+  meaning: حلو
+  example: الكعكة حلوة جدًا.
+salzig:
+  meaning: مالح
+  example: الحساء مالح جدًا.
+sauer:
+  meaning: حامض
+  example: الليمون حامض جدًا.
+dick:
+  meaning: سميك، بدين
+  example: السترة الصوفية سميكة جدًا.
+dünn:
+  meaning: رقيق، نحيف
+  example: الورق رقيق جدًا.
+zeigen:
+  meaning: يُظهر، يعرض
+  example: هل يمكنك أن تريني الصورة؟
+schmecken:
+  meaning: يتذوق، يكون طعمه
+  example: كيف تجد طعم الحساء؟
+vergessen:
+  meaning: ينسى
+  example: لقد نسيت الموعد.
+verkaufen:
+  meaning: يبيع
+  example: نبيع سيارتنا القديمة.
+verlieren:
+  meaning: يفقد، يخسر
+  example: لقد فقدت مفتاحي.
+wünschen:
+  meaning: يتمنى
+  example: أتمنى لك حظًا سعيدًا.
+schicken:
+  meaning: يرسل
+  example: سأرسل لك بريدًا إلكترونيًا.
+reservieren:
+  meaning: يحجز
+  example: أود حجز طاولة.
+reparieren:
+  meaning: يصلح
+  example: هل يمكنك إصلاح الدراجة؟
+putzen:
+  meaning: ينظف
+  example: أنظف المطبخ اليوم.
+duschen:
+  meaning: يستحم
+  example: أستحم كل صباح.
+feiern:
+  meaning: يحتفل
+  example: نحتفل اليوم بعيد ميلادي.
+tanzen:
+  meaning: يرقص
+  example: إنها ترقص جيدًا جدًا.
+singen:
+  meaning: يغني
+  example: نغني أغنية.
+telefonieren:
+  meaning: يتصل هاتفيًا
+  example: أتحدث هاتفيًا مع أمي.
+weinen:
+  meaning: يبكي
+  example: الطفل يبكي بصوت عالٍ.
+mieten:
+  meaning: يستأجر
+  example: نستأجر شقة صغيرة.
+packen:
+  meaning: يحزم
+  example: أحزم حقيبتي.
+probieren:
+  meaning: يجرب، يتذوق
+  example: هل تود أن تجرب الكعكة؟
+schenken:
+  meaning: يهدي
+  example: سأهديها زهورًا.
+aufmachen:
+  meaning: يفتح
+  example: هل يمكنك فتح النافذة؟
+zumachen:
+  meaning: يغلق
+  example: من فضلك أغلق الباب.
+anziehen:
+  meaning: يلبس، يرتدي
+  example: ألبس معطفي.
+holen:
+  meaning: يجلب
+  example: سأجلب الخبز بسرعة.
+schneiden:
+  meaning: يقطع
+  example: أقطع الخبز.
+setzen:
+  meaning: يجلس
+  example: من فضلك اجلس.
+manchmal:
+  meaning: أحيانًا
+  example: أحيانًا أتمشى في المساء.
+sofort:
+  meaning: فورًا
+  example: سآتي إلى المحطة فورًا.
+da:
+  meaning: هناك
+  example: هناك حقيبة ظهري الجديدة.
+erst:
+  meaning: ليس قبل
+  example: الحافلة لا تأتي قبل الثامنة.
+der Mund:
+  meaning: الفم
+  example: فمي جاف.
+das Ohr:
+  meaning: الأذن
+  example: أذني تؤلمني.
+der Hals:
+  meaning: الرقبة، الحلق
+  example: حلقي يؤلمني.
+der Rücken:
+  meaning: الظهر
+  example: ظهري يؤلمني اليوم.
+das Wohnzimmer:
+  meaning: غرفة المعيشة
+  example: غرفة المعيشة مشرقة جدًا.
+das Schlafzimmer:
+  meaning: غرفة النوم
+  example: غرفة النوم مظلمة.
+der Spiegel:
+  meaning: المرآة
+  example: المرآة معلقة في الحمام.
+die Gabel:
+  meaning: الشوكة
+  example: الشوكة بجانب الطبق.
+das Messer:
+  meaning: السكين
+  example: السكين على الطاولة.
+der Löffel:
+  meaning: الملعقة
+  example: أحتاج ملعقة للحساء.
+die Schokolade:
+  meaning: الشوكولاتة
+  example: الشوكولاتة حلوة جدًا.
+das Papier:
+  meaning: الورق
+  example: أحتاج ورقًا للطابعة.
+der Stift:
+  meaning: القلم
+  example: القلم على الطاولة.
+der Rucksack:
+  meaning: حقيبة الظهر
+  example: حقيبة ظهري ثقيلة جدًا.
+der Bahnsteig:
+  meaning: الرصيف
+  example: يغادر القطار من الرصيف الثالث.
+die Verspätung:
+  meaning: التأخير
+  example: القطار متأخر عشر دقائق.

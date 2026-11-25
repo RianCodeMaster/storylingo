@@ -101,6 +101,16 @@ and `storylingo.py check` must end with "complete and in sync"; every problem it
   A phrase is a lexeme (kind 'phrase') plus a `phrases` row (level, position): audio, meanings and spaced repetition
   come from the word machinery. Recipe: `phrases <lang> <level>` → read → `localize-phrases <lang> <base>` → `sync`
   → `media-phrases <lang>` → `check`. A changed text is a new phrase.
+- **Spaced repetition is FSRS** (`web/lib/srs.ts`, ts-fsrs 5.4.2 pinned; 90% retention, learning steps 1m/10m,
+  relearning 10m). Every writer of `user_lexeme_state` goes through `schedule()`: review, phrases/words rounds
+  (`components/useRound.ts`), story results and tapped words (`lib/story.ts`). Never show a card right after its
+  answer: in a round an "again" card returns after ≥3 other cards and not before its due time (the `Waiting` screen);
+  (re)learning cards are due by the minute, review cards by the day (`dueFilter` in lib/review.ts).
+- **Word trainer ("Woordenschat", section `words`):** the phrases section's twin for single words (pipeline/words.py,
+  table `words` with level, position, topics, example; `lexeme_glosses.example` holds the example per base language).
+  A list word is the same lexeme as a story glossary word with the same dictionary form. The app's card screen is
+  shared: `components/Phrases.tsx` with `section="words"` (texts in `dict.vocab`, since `dict.words` is the story's
+  core-word intro). Recipe: `words <lang> <level>` → read → `localize-words <lang> <base>` → `sync` → `check`.
 - **Audio is MP3** (64 kbit/s, `media.mp3`), part of every recording's fingerprint (`fingerprint.AUDIO_FORMAT`).
 - **Levels:** a story's targets must be in `content/curriculum/<lang>.yaml` at its level or below, with the same
   concept; `check` fails otherwise and warns (⚠) when >10% of non-core words are above the level. Learners have a

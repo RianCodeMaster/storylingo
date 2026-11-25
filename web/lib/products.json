@@ -59,6 +59,9 @@
       "phrases_per_level": 10,
       "phrases_per_topic": 5,
       "phrases_per_day": 10,
+      "words_per_level": 50,
+      "words_per_topic": 5,
+      "words_per_day": 10,
       "reviews_per_day": 20
     },
     "texts": {
@@ -70,6 +73,7 @@
           "كل القصص في كل المستويات، وقصص جديدة باستمرار",
           "قصص بقدر ما تريد كل يوم، بلا حد يومي",
           "كل الجمل للحياة اليومية، {phrases} جملة حتى الآن: عند الطبيب، في العمل، في المتجر، وتزداد باستمرار",
+          "مدرّب الكلمات: {words} كلمة حتى الآن، لكل كلمة جملة مثال، والقائمة تكبر باستمرار",
           "مراجعة الكلمات بلا حدود، في اللحظة التي تكاد تنساها فيها",
           "تعلّم بإيقاعك: ربع ساعة أو المساء كله",
           "اشتراك واحد للغة كلها، بأي لغة تستخدم التطبيق"
@@ -83,6 +87,7 @@
           "Alle verhalen van {levels}, en er komen steeds nieuwe bij",
           "Zoveel verhalen per dag als je wilt, zonder daglimiet",
           "Alle zinnen voor het echte leven, nu al {phrases}: bij de dokter, op je werk, in de winkel, en er komen er steeds meer bij",
+          "Een woordentrainer met nu al {words} woorden, elk met een voorbeeldzin, en de lijst groeit steeds verder",
           "Onbeperkt woorden herhalen, precies op het moment dat je ze dreigt te vergeten",
           "Leer in je eigen tempo: een kwartier of de hele avond",
           "Eén abonnement voor de hele taal, in welke taal je de app ook gebruikt"
@@ -96,6 +101,7 @@
           "Every story from {levels}, with new ones added all the time",
           "As many stories a day as you like, no daily limit",
           "Every phrase for real life, already {phrases}: at the doctor, at work, in the shop, and the list keeps growing",
+          "A word trainer with already {words} words, each with an example sentence, and the list keeps growing",
           "Unlimited word review, right when you are about to forget a word",
           "Learn at your own pace: fifteen minutes or the whole evening",
           "One subscription for the whole language, whatever language you use the app in"
@@ -105,6 +111,7 @@
     "counts": {
       "stories": 12,
       "phrases": 600,
+      "words": 500,
       "levels": "A1–B1"
     }
   },
@@ -138,6 +145,9 @@
       "phrases_per_level": 10,
       "phrases_per_topic": 5,
       "phrases_per_day": 10,
+      "words_per_level": 50,
+      "words_per_topic": 5,
+      "words_per_day": 10,
       "reviews_per_day": 20
     },
     "texts": {
@@ -184,6 +194,7 @@
     "counts": {
       "stories": 12,
       "phrases": 600,
+      "words": 500,
       "levels": "A1–B1"
     }
   },
@@ -215,6 +226,9 @@
       "phrases_per_level": 10,
       "phrases_per_topic": 5,
       "phrases_per_day": 10,
+      "words_per_level": 50,
+      "words_per_topic": 5,
+      "words_per_day": 10,
       "reviews_per_day": 20
     },
     "texts": {
@@ -235,6 +249,7 @@
     "counts": {
       "stories": 12,
       "phrases": 600,
+      "words": 500,
       "levels": "A1–B1"
     }
   }

@@ -1,0 +1,1502 @@
+# What each word means for learners with this base language, and its example sentence translated. Made by
+# `storylingo.py localize-words`; corrections by hand are welcome (then: storylingo.py sync).
+zijn:
+  meaning: يكون
+  example: أنا في البيت.
+hebben:
+  meaning: يملك، لديه
+  example: لديّ دراجة.
+gaan:
+  meaning: يذهب
+  example: نذهب إلى البيت.
+komen:
+  meaning: يأتي
+  example: هل تأتي غدًا؟
+doen:
+  meaning: يفعل
+  example: ماذا تفعل الآن؟
+kunnen:
+  meaning: يستطيع
+  example: هل تستطيع المساعدة؟
+willen:
+  meaning: يريد
+  example: أريد قهوة.
+moeten:
+  meaning: يجب أن
+  example: يجب أن تنتظر.
+maken:
+  meaning: يصنع، يحضّر
+  example: أحضّر طعامًا.
+zien:
+  meaning: يرى
+  example: أرى الحافلة.
+zeggen:
+  meaning: يقول
+  example: ماذا تقول؟
+weten:
+  meaning: يعرف
+  example: لا أعرف.
+eten:
+  meaning: يأكل
+  example: نأكل خبزًا.
+drinken:
+  meaning: يشرب
+  example: أشرب ماءً.
+wonen:
+  meaning: يسكن
+  example: أسكن هنا.
+werken:
+  meaning: يعمل
+  example: هو يعمل في البيت.
+kopen:
+  meaning: يشتري
+  example: أشتري خبزًا.
+betalen:
+  meaning: يدفع
+  example: أدفع ثمن القهوة.
+de:
+  meaning: الـ (للمذكر والمؤنث)
+  example: الكلب لطيف.
+het:
+  meaning: الـ (محايد)
+  example: الخبز طازج.
+een:
+  meaning: أداة تنكير
+  example: لديّ كتاب.
+en:
+  meaning: و
+  example: قهوة وشاي.
+of:
+  meaning: أو
+  example: نعم أو لا؟
+maar:
+  meaning: لكن
+  example: صغير لكن جميل.
+niet:
+  meaning: ليس، لا
+  example: أنا لست متعبًا.
+ik:
+  meaning: أنا
+  example: أسكن هنا.
+jij:
+  meaning: أنت
+  example: أنت لطيف.
+hij:
+  meaning: هو
+  example: هو يعمل في البيت.
+wij:
+  meaning: نحن
+  example: نحن نأكل معًا.
+wat:
+  meaning: ماذا
+  example: ما هذا؟
+waar:
+  meaning: أين
+  example: أين الحافلة؟
+hoe:
+  meaning: كيف
+  example: كيف حالك؟
+nu:
+  meaning: الآن
+  example: سأذهب الآن.
+vandaag:
+  meaning: اليوم
+  example: أعمل اليوم.
+morgen:
+  meaning: غدًا
+  example: إلى الغد!
+gisteren:
+  meaning: أمس
+  example: كنت مريضًا أمس.
+altijd:
+  meaning: دائمًا
+  example: أشرب الماء دائمًا.
+nooit:
+  meaning: أبدًا
+  example: لا آتي متأخرًا أبدًا.
+ook:
+  meaning: أيضًا
+  example: أريد قهوة أيضًا.
+hier:
+  meaning: هنا
+  example: تتوقف الحافلة هنا.
+goed:
+  meaning: جيد
+  example: هذا جيد.
+groot:
+  meaning: كبير
+  example: البيت كبير.
+klein:
+  meaning: صغير
+  example: الغرفة صغيرة.
+nieuw:
+  meaning: جديد
+  example: لديّ دراجة جديدة.
+oud:
+  meaning: قديم
+  example: دراجتي قديمة.
+blij:
+  meaning: سعيد
+  example: أنا سعيد.
+moe:
+  meaning: متعب
+  example: أنا متعب.
+ziek:
+  meaning: مريض
+  example: هو مريض.
+het huis:
+  meaning: البيت
+  example: البيت جميل.
+het water:
+  meaning: الماء
+  example: أشرب ماءً.
+het brood:
+  meaning: الخبز
+  example: أشتري خبزًا.
+de koffie:
+  meaning: القهوة
+  example: أشرب قهوة.
+de winkel:
+  meaning: المتجر
+  example: المتجر مفتوح.
+het geld:
+  meaning: المال
+  example: ليس لديّ مال.
+het werk:
+  meaning: العمل
+  example: أبحث عن عمل.
+de dokter:
+  meaning: الطبيب
+  example: أذهب إلى الطبيب.
+het ziekenhuis:
+  meaning: المستشفى
+  example: الطبيب يعمل في المستشفى.
+de fiets:
+  meaning: الدراجة
+  example: أذهب بالدراجة.
+de bus:
+  meaning: الحافلة
+  example: الحافلة تأتي الآن.
+de brief:
+  meaning: الرسالة
+  example: أكتب رسالة.
+in:
+  meaning: في
+  example: أعيش في قرية.
+op:
+  meaning: على
+  example: الكتاب على الطاولة.
+aan:
+  meaning: على، مضاء
+  example: المصباح مضاء.
+met:
+  meaning: مع
+  example: أذهب بالحافلة.
+voor:
+  meaning: لـ، من أجل
+  example: هذا الخبز لك.
+bij:
+  meaning: عند، بالقرب من
+  example: أعيش عند والدَي.
+naar:
+  meaning: إلى
+  example: نذهب إلى البيت.
+van:
+  meaning: من، لـ
+  example: هذا الكتاب لي.
+uit:
+  meaning: من، خارج
+  example: أنزل من الحافلة.
+over:
+  meaning: عن
+  example: نتحدث عن العمل.
+onder:
+  meaning: تحت
+  example: القطة تحت الطاولة.
+tussen:
+  meaning: بين
+  example: الأريكة بين الكراسي.
+naast:
+  meaning: بجانب
+  example: أجلس بجانب صديقي.
+achter:
+  meaning: خلف
+  example: الحديقة خلف البيت.
+door:
+  meaning: عبر، خلال
+  example: نمشي عبر المدينة.
+om:
+  meaning: في، حول
+  example: آتي في الثامنة.
+dat:
+  meaning: أن، ذلك
+  example: أرى أنه قادم.
+die:
+  meaning: الذي، تلك
+  example: الرجل الذي يمشي هناك لطيف.
+dit:
+  meaning: هذا
+  example: هذه دراجتي.
+deze:
+  meaning: هذا، هذه
+  example: هذه السترة جديدة.
+mijn:
+  meaning: ـي، خاصتي
+  example: مفتاحي على الطاولة.
+jouw:
+  meaning: ـك، خاصتك
+  example: هل هذه حقيبتك؟
+ze:
+  meaning: هي، هم
+  example: هي تسكن في المدينة.
+er:
+  meaning: هناك
+  example: لا يوجد حليب.
+daar:
+  meaning: هناك
+  example: هناك تقف الحافلة.
+want:
+  meaning: لأن
+  example: أبقى في البيت لأنني مريض.
+omdat:
+  meaning: لأن
+  example: لا آتي لأنني متعب.
+als:
+  meaning: إذا، عندما
+  example: إذا أمطرت، أبقى في البيت.
+de man:
+  meaning: الرجل
+  example: الرجل يقرأ الصحيفة.
+de vrouw:
+  meaning: المرأة
+  example: المرأة تعمل في المتجر.
+het kind:
+  meaning: الطفل
+  example: الطفل يلعب في الحديقة.
+de vriend:
+  meaning: الصديق
+  example: صديقي يسكن في المدينة.
+de familie:
+  meaning: العائلة
+  example: عائلتي كبيرة جدًا.
+boos:
+  meaning: غاضب
+  example: هو غاضب مني.
+verdrietig:
+  meaning: حزين
+  example: هي حزينة اليوم.
+leuk:
+  meaning: لطيف، ممتع
+  example: ذلك الكتاب ممتع جدًا.
+de tafel:
+  meaning: الطاولة
+  example: الطاولة في المطبخ.
+de stoel:
+  meaning: الكرسي
+  example: الكرسي عند النافذة.
+het bed:
+  meaning: السرير
+  example: السرير في غرفة النوم.
+de deur:
+  meaning: الباب
+  example: الباب مفتوح.
+de sleutel:
+  meaning: المفتاح
+  example: أبحث عن مفتاحي.
+de melk:
+  meaning: الحليب
+  example: أشرب الحليب كل يوم.
+de thee:
+  meaning: الشاي
+  example: هل تريد شايًا بالسكر؟
+de kaas:
+  meaning: الجبن
+  example: الجبن في الثلاجة.
+de appel:
+  meaning: التفاحة
+  example: آكل تفاحة.
+de trein:
+  meaning: القطار
+  example: القطار يأتي في التاسعة.
+de auto:
+  meaning: السيارة
+  example: السيارة أمام الباب.
+het station:
+  meaning: المحطة
+  example: أنتظر في المحطة.
+de baas:
+  meaning: المدير
+  example: مديري يعمل في المكتب.
+de afspraak:
+  meaning: الموعد
+  example: لدي موعد غدًا.
+de telefoon:
+  meaning: الهاتف
+  example: هاتفي على الطاولة.
+de pijn:
+  meaning: الألم
+  example: لدي ألم في رأسي.
+de koorts:
+  meaning: الحمى
+  example: الطفل مصاب بالحمى.
+het medicijn:
+  meaning: الدواء
+  example: آخذ الدواء بعد الأكل.
+lopen:
+  meaning: يمشي
+  example: نمشي إلى المتجر.
+praten:
+  meaning: يتحدث
+  example: نتحدث عن العمل.
+luisteren:
+  meaning: يستمع
+  example: أريد أن أستمع.
+lezen:
+  meaning: يقرأ
+  example: أريد أن أقرأ.
+slapen:
+  meaning: ينام
+  example: أريد أن أنام.
+zoeken:
+  meaning: يبحث
+  example: نبحث عن منزل جديد.
+veel:
+  meaning: كثير
+  example: أقرأ كتباً كثيرة.
+weinig:
+  meaning: قليل
+  example: لدي وقت قليل.
+genoeg:
+  meaning: كافٍ
+  example: لدينا خبز كافٍ.
+vaak:
+  meaning: غالباً
+  example: يأتي هنا غالباً.
+soms:
+  meaning: أحياناً
+  example: أشرب الشاي أحياناً.
+weer:
+  meaning: مرة أخرى
+  example: تمطر مرة أخرى.
+nog:
+  meaning: لا يزال، بعد
+  example: ليس لدي مال بعد.
+al:
+  meaning: بالفعل
+  example: المتجر مفتوح بالفعل.
+de tijd:
+  meaning: الوقت
+  example: ليس لدي وقت.
+de week:
+  meaning: الأسبوع
+  example: الأسبوع طويل.
+de avond:
+  meaning: المساء
+  example: نأكل في المساء.
+vroeg:
+  meaning: مبكراً
+  example: أستيقظ مبكراً.
+staan:
+  meaning: يقف
+  example: الحافلة تقف عند المحطة.
+zitten:
+  meaning: يجلس
+  example: نجلس على الأريكة.
+blijven:
+  meaning: يبقى
+  example: أبقى في المنزل اليوم.
+beginnen:
+  meaning: يبدأ
+  example: يبدأ الدرس الآن.
+stoppen:
+  meaning: يتوقف
+  example: يتوقف القطار هنا.
+wachten:
+  meaning: ينتظر
+  example: هل تنتظر الحافلة؟
+helpen:
+  meaning: يساعد
+  example: هل يمكنك مساعدتي؟
+vragen:
+  meaning: يسأل
+  example: أسأل عن الطريق.
+bellen:
+  meaning: يتصل
+  example: اتصل بالطبيب.
+geven:
+  meaning: يعطي
+  example: أعطني الكتاب.
+nemen:
+  meaning: يأخذ
+  example: آخذ القطار.
+pakken:
+  meaning: يأخذ، يلتقط
+  example: خذ معطفك.
+brengen:
+  meaning: يجلب، يحضر
+  example: أحضر الخبز معك.
+halen:
+  meaning: يجلب، يحضر
+  example: أجلب الخبز من المتجر.
+koken:
+  meaning: يطبخ
+  example: هي تطبخ الطعام.
+wassen:
+  meaning: يغسل
+  example: اغسل يديك.
+spelen:
+  meaning: يلعب
+  example: يلعب الأطفال في الخارج.
+fietsen:
+  meaning: يركب الدراجة
+  example: نركب الدراجات إلى المحطة.
+rijden:
+  meaning: يقود، يركب
+  example: يقود إلى المنزل.
+leren:
+  meaning: يتعلم
+  example: أتعلم الهولندية.
+vinden:
+  meaning: يجد
+  example: لا أجد المفتاح.
+denken:
+  meaning: يفكر
+  example: أفكر فيك.
+kijken:
+  meaning: ينظر
+  example: انظر إلى الخريطة.
+voelen:
+  meaning: يشعر
+  example: لا أشعر أنني بخير.
+de moeder:
+  meaning: الأم
+  example: أمي لطيفة.
+de vader:
+  meaning: الأب
+  example: أبي يعمل كثيراً.
+de broer:
+  meaning: الأخ
+  example: أخي يسكن هنا.
+de zus:
+  meaning: الأخت
+  example: أختي صغيرة.
+de jongen:
+  meaning: الولد
+  example: الولد يلعب في الخارج.
+het meisje:
+  meaning: الفتاة
+  example: الفتاة تقرأ كتاباً.
+de buurman:
+  meaning: الجار
+  example: الجار لطيف.
+de kamer:
+  meaning: الغرفة
+  example: الغرفة كبيرة.
+de keuken:
+  meaning: المطبخ
+  example: أطبخ في المطبخ.
+de badkamer:
+  meaning: الحمام
+  example: الحمام نظيف.
+de tuin:
+  meaning: الحديقة
+  example: نجلس في الحديقة.
+het raam:
+  meaning: النافذة
+  example: افتح النافذة.
+de tandarts:
+  meaning: طبيب الأسنان
+  example: أذهب إلى طبيب الأسنان.
+de hand:
+  meaning: اليد
+  example: اغسل يديك.
+de buik:
+  meaning: البطن
+  example: بطني تؤلمني.
+de apotheek:
+  meaning: الصيدلية
+  example: الصيدلية مغلقة.
+gezond:
+  meaning: صحي
+  example: الأكل الصحي جيد.
+de baan:
+  meaning: الوظيفة
+  example: لديه وظيفة جديدة.
+de collega:
+  meaning: الزميل
+  example: زميلي لطيف.
+het kantoor:
+  meaning: المكتب
+  example: أعمل في المكتب.
+de markt:
+  meaning: السوق
+  example: نشتري الفاكهة في السوق.
+de prijs:
+  meaning: السعر
+  example: السعر مرتفع جداً.
+de tas:
+  meaning: الحقيبة
+  example: حقيبتي ثقيلة.
+de jas:
+  meaning: المعطف
+  example: ارتدِ معطفك.
+dan:
+  meaning: ثم
+  example: أولاً نأكل ثم نعمل.
+eerst:
+  meaning: أولاً
+  example: أولاً أشرب القهوة.
+daarna:
+  meaning: بعد ذلك
+  example: بعد ذلك أذهب إلى المنزل.
+tot:
+  meaning: حتى، إلى
+  example: إلى الغد!
+graag:
+  meaning: بكل سرور
+  example: أشرب الشاي بكل سرور.
+misschien:
+  meaning: ربما
+  example: ربما آتي غداً.
+bijna:
+  meaning: تقريباً
+  example: الساعة تقريباً الخامسة.
+de naam:
+  meaning: الاسم
+  example: ما اسمك؟
+de supermarkt:
+  meaning: السوبرماركت
+  example: أذهب إلى السوبرماركت.
+de televisie:
+  meaning: التلفاز
+  example: التلفاز مفتوح.
+de radio:
+  meaning: الراديو
+  example: الراديو منخفض الصوت.
+het boek:
+  meaning: الكتاب
+  example: أقرأ كتاباً.
+de krant:
+  meaning: الصحيفة
+  example: هو يقرأ الصحيفة.
+de foto:
+  meaning: الصورة
+  example: هذه صورة جميلة.
+de muziek:
+  meaning: الموسيقى
+  example: أستمع إلى الموسيقى.
+de film:
+  meaning: الفيلم
+  example: الفيلم جميل.
+de dochter:
+  meaning: الابنة
+  example: ابنتي عمرها ست سنوات.
+de zoon:
+  meaning: الابن
+  example: ابنهما يعيش هنا.
+de ouders:
+  meaning: الوالدان
+  example: والداي يعيشان هنا.
+de vriendin:
+  meaning: الصديقة
+  example: صديقتي لطيفة.
+de buurvrouw:
+  meaning: الجارة
+  example: الجارة لطيفة.
+de baby:
+  meaning: الرضيع
+  example: الرضيع نائم الآن.
+de oma:
+  meaning: الجدة
+  example: جدتي كبيرة في السن.
+de opa:
+  meaning: الجد
+  example: جدي يعيش وحده.
+de verjaardag:
+  meaning: عيد الميلاد
+  example: عيد ميلادي غداً.
+de woonkamer:
+  meaning: غرفة المعيشة
+  example: غرفة المعيشة كبيرة.
+het toilet:
+  meaning: المرحاض
+  example: المرحاض هناك.
+de douche:
+  meaning: الدش
+  example: الدش دافئ.
+de trap:
+  meaning: الدرج
+  example: الدرج عالٍ.
+de muur:
+  meaning: الجدار
+  example: الجدار أبيض.
+de lamp:
+  meaning: المصباح
+  example: المصباح معطّل.
+het licht:
+  meaning: الضوء
+  example: الضوء مضاء.
+de bakker:
+  meaning: الخباز
+  example: المخبز مغلق.
+de boterham:
+  meaning: شطيرة
+  example: آكل شطيرة.
+het fruit:
+  meaning: الفاكهة
+  example: أشتري الفاكهة من السوق.
+de banaan:
+  meaning: الموزة
+  example: الموزة صفراء.
+de aardappel:
+  meaning: البطاطس
+  example: حبة البطاطس كبيرة.
+de groente:
+  meaning: الخضروات
+  example: آكل الكثير من الخضروات.
+het vlees:
+  meaning: اللحم
+  example: اللحم غالي.
+de kip:
+  meaning: الدجاج
+  example: الدجاج لذيذ.
+het ei:
+  meaning: البيضة
+  example: البيضة بنية.
+de suiker:
+  meaning: السكر
+  example: أضع السكر في الشاي.
+het zout:
+  meaning: الملح
+  example: الملح نفد.
+de soep:
+  meaning: الشوربة
+  example: الشوربة ساخنة.
+de huisarts:
+  meaning: الطبيب العام
+  example: أذهب إلى الطبيب العام.
+de bril:
+  meaning: النظارة
+  example: نظارتي مكسورة.
+verkouden:
+  meaning: مصاب بالزكام
+  example: أنا مصاب بالزكام.
+de griep:
+  meaning: الإنفلونزا
+  example: لدي الإنفلونزا.
+slecht:
+  meaning: سيئ
+  example: أشعر بحالة سيئة.
+de tram:
+  meaning: الترام
+  example: الترام يأتي الآن.
+de metro:
+  meaning: المترو
+  example: أستقل المترو.
+de boot:
+  meaning: القارب
+  example: القارب كبير.
+het vliegtuig:
+  meaning: الطائرة
+  example: الطائرة متأخرة.
+het kaartje:
+  meaning: التذكرة
+  example: أشتري تذكرة.
+de vakantie:
+  meaning: العطلة
+  example: العطلة طويلة.
+de gemeente:
+  meaning: البلدية
+  example: أتصل بالبلدية.
+de pen:
+  meaning: القلم
+  example: أكتب بقلم.
+het papier:
+  meaning: الورق
+  example: الورق أبيض.
+de e-mail:
+  meaning: البريد الإلكتروني
+  example: أرسل بريداً إلكترونياً.
+de bank:
+  meaning: البنك، الأريكة
+  example: أذهب إلى البنك.
+ja:
+  meaning: نعم
+  example: نعم، هذا صحيح.
+nee:
+  meaning: لا
+  example: لا، لن آتي.
+geen:
+  meaning: لا، ليس أي
+  example: ليس لدي وقت.
+heel:
+  meaning: جدا
+  example: الجو حار جدا اليوم.
+alleen:
+  meaning: وحدي، فقط
+  example: أعيش وحدي في هذا المنزل.
+dus:
+  meaning: لذلك
+  example: أنا متعب، لذلك سأذهب للنوم.
+wel:
+  meaning: بالفعل
+  example: لدي بالفعل مظلة.
+wie:
+  meaning: من
+  example: من هي تلك المرأة؟
+waarom:
+  meaning: لماذا
+  example: لماذا أنت متأخر جدا؟
+hoeveel:
+  meaning: كم
+  example: كم تكلف هذه الحقيبة؟
+zonder:
+  meaning: بدون
+  example: أشرب القهوة بدون سكر.
+tegen:
+  meaning: ضد
+  example: الدراجة مسندة إلى الحائط.
+na:
+  meaning: بعد
+  example: بعد العمل أذهب إلى المنزل.
+samen:
+  meaning: معا
+  example: نأكل معا في المطبخ.
+even:
+  meaning: لحظة، قليلا
+  example: أنتظر الحافلة لحظة.
+de dag:
+  meaning: اليوم
+  example: يبدأ اليوم في الساعة السابعة.
+de ochtend:
+  meaning: الصباح
+  example: في الصباح أشرب القهوة.
+de middag:
+  meaning: بعد الظهر
+  example: بعد الظهر أذهب إلى المنزل.
+het weekend:
+  meaning: عطلة نهاية الأسبوع
+  example: في عطلة نهاية الأسبوع أكون في المنزل.
+de maand:
+  meaning: الشهر
+  example: هذا الشهر مزدحم جدا.
+het jaar:
+  meaning: السنة
+  example: أعيش هنا منذ سنة.
+het hoofd:
+  meaning: الرأس
+  example: رأسي يؤلمني.
+de arm:
+  meaning: الذراع
+  example: ذراعي تؤلمني.
+de voet:
+  meaning: القدم
+  example: أشعر بألم في قدمي.
+de keel:
+  meaning: الحلق
+  example: حلقي يؤلمني.
+de pil:
+  meaning: حبة دواء
+  example: خذ حبة كل يوم.
+het recept:
+  meaning: الوصفة الطبية
+  example: يعطيني الطبيب وصفة طبية.
+het formulier:
+  meaning: الاستمارة
+  example: املأ هذه الاستمارة.
+het paspoort:
+  meaning: جواز السفر
+  example: جواز سفري في الحقيبة.
+de postcode:
+  meaning: الرمز البريدي
+  example: رمزي البريدي مكتوب على الرسالة.
+het adres:
+  meaning: العنوان
+  example: ما عنوانك؟
+de computer:
+  meaning: الحاسوب
+  example: أعمل كل يوم على الحاسوب.
+het bericht:
+  meaning: الرسالة
+  example: سأرسل لك رسالة.
+de school:
+  meaning: المدرسة
+  example: تبدأ المدرسة في الساعة الثامنة.
+de les:
+  meaning: الدرس
+  example: الدرس ممتع جدا اليوم.
+de leraar:
+  meaning: المعلم
+  example: يشرح المعلم التمرين.
+de klant:
+  meaning: العميل
+  example: يدفع العميل عند الصندوق.
+de rekening:
+  meaning: الفاتورة
+  example: هل يمكنني الحصول على الفاتورة من فضلك؟
+de schoen:
+  meaning: الحذاء
+  example: هذا الحذاء صغير جدا.
+de broek:
+  meaning: البنطال
+  example: أبحث عن بنطال جديد.
+de trui:
+  meaning: الكنزة
+  example: أرتدي كنزة دافئة اليوم.
+de fles:
+  meaning: الزجاجة
+  example: زجاجة الماء على الطاولة.
+het glas:
+  meaning: كأس، زجاج
+  example: هل تريد كأس ماء؟
+de kassa:
+  meaning: الصندوق
+  example: هل تدفع عند الصندوق؟
+de hond:
+  meaning: الكلب
+  example: الكلب يمشي في الحديقة.
+de kat:
+  meaning: القطة
+  example: القطة نائمة على الكرسي.
+de kast:
+  meaning: الخزانة
+  example: الأكواب في الخزانة.
+de bloem:
+  meaning: الزهرة
+  example: أشتري زهرة لها.
+de wc:
+  meaning: المرحاض
+  example: المرحاض بجانب الحمام.
+links:
+  meaning: يسار
+  example: المرحاض على اليسار.
+rechts:
+  meaning: يمين
+  example: المتجر على اليمين.
+de weg:
+  meaning: الطريق
+  example: لا أعرف الطريق.
+de kaart:
+  meaning: خريطة، بطاقة
+  example: هل لديك خريطة للمدينة؟
+de stad:
+  meaning: المدينة
+  example: أعيش في مدينة كبيرة.
+het gesprek:
+  meaning: المحادثة
+  example: لدينا محادثة قصيرة.
+de vraag:
+  meaning: السؤال
+  example: لدي سؤال لك.
+het antwoord:
+  meaning: الجواب
+  example: الجواب غير صحيح.
+bang:
+  meaning: خائف
+  example: أنا خائف من الكلب.
+rustig:
+  meaning: هادئ
+  example: الحي هادئ جدا.
+gezellig:
+  meaning: مريح، أنيس
+  example: كان الحفل لطيفا جدا.
+mogen:
+  meaning: يُسمح، يمكن
+  example: هل يمكنني الجلوس هنا؟
+zullen:
+  meaning: سوف
+  example: سنتصل غدًا.
+begrijpen:
+  meaning: يفهم
+  example: لا أفهم السؤال.
+gebruiken:
+  meaning: يستخدم
+  example: أستخدم الحاسوب.
+horen:
+  meaning: يسمع
+  example: أسمع الهاتف.
+schrijven:
+  meaning: يكتب
+  example: أكتب رسالة.
+bestellen:
+  meaning: يطلب
+  example: أطلب فنجان قهوة.
+opstaan:
+  meaning: ينهض، يستيقظ
+  example: أستيقظ في السابعة.
+wandelen:
+  meaning: يتمشى
+  example: نتمشى في المدينة.
+het uur:
+  meaning: الساعة
+  example: يستغرق الدرس ساعة.
+de minuut:
+  meaning: الدقيقة
+  example: انتظر دقيقة.
+de nacht:
+  meaning: الليل
+  example: أنام جيدًا في الليل.
+de klok:
+  meaning: الساعة
+  example: الساعة معطلة.
+het bord:
+  meaning: الطبق
+  example: ضع الطبق على الطاولة.
+het mes:
+  meaning: السكين
+  example: السكين على الطاولة.
+de vork:
+  meaning: الشوكة
+  example: آكل بالشوكة.
+de lepel:
+  meaning: الملعقة
+  example: الملعقة قذرة.
+het kopje:
+  meaning: الفنجان
+  example: هل تريد فنجان شاي؟
+de rijst:
+  meaning: الأرز
+  example: نأكل الأرز مع الدجاج.
+de vis:
+  meaning: السمك
+  example: السمك طازج اليوم.
+de boter:
+  meaning: الزبدة
+  example: ضع بعض الزبدة على خبزك.
+de tomaat:
+  meaning: الطماطم
+  example: الطماطم حمراء ولذيذة.
+het ijs:
+  meaning: الآيس كريم
+  example: الأطفال يأكلون الآيس كريم.
+de koek:
+  meaning: كعكة صغيرة
+  example: آخذ كعكة مع القهوة.
+het ontbijt:
+  meaning: الفطور
+  example: الفطور في الثامنة.
+de lunch:
+  meaning: الغداء
+  example: نتناول الغداء في المدينة.
+de pauze:
+  meaning: الاستراحة
+  example: لدينا استراحة في الثانية عشرة.
+het haar:
+  meaning: الشعر
+  example: لديها شعر طويل.
+de neus:
+  meaning: الأنف
+  example: أنفي أحمر.
+de mond:
+  meaning: الفم
+  example: افتح فمك.
+het oor:
+  meaning: الأذن
+  example: أذني تؤلمني.
+het oog:
+  meaning: العين
+  example: أشعر بألم في عيني.
+de rug:
+  meaning: الظهر
+  example: ظهري يؤلمني.
+het been:
+  meaning: الساق، الرجل
+  example: ساقه تؤلمه.
+de vinger:
+  meaning: الإصبع
+  example: إصبعي يؤلمني.
+de tand:
+  meaning: السن
+  example: السن يؤلم.
+gelukkig:
+  meaning: سعيد
+  example: أنا سعيد اليوم.
+druk:
+  meaning: مشغول
+  example: أنا مشغول في العمل.
+lief:
+  meaning: لطيف، حلو
+  example: الكلب لطيف جدًا.
+aardig:
+  meaning: لطيف
+  example: جاري لطيف.
+saai:
+  meaning: ممل
+  example: الفيلم ممل قليلًا.
+laat:
+  meaning: متأخر
+  example: أنا متأخر اليوم.
+duur:
+  meaning: غالي
+  example: هذه الحقيبة غالية جدًا.
+goedkoop:
+  meaning: رخيص
+  example: التفاح رخيص اليوم.
+warm:
+  meaning: دافئ
+  example: الماء دافئ.
+koud:
+  meaning: بارد
+  example: الجو بارد اليوم.
+heet:
+  meaning: ساخن
+  example: الحساء ساخن جدًا.
+lekker:
+  meaning: لذيذ
+  example: الحساء لذيذ جدًا.
+vies:
+  meaning: قذر
+  example: المطبخ قذر.
+schoon:
+  meaning: نظيف
+  example: المنزل نظيف.
+mooi:
+  meaning: جميل
+  example: الحديقة جميلة جدًا.
+lang:
+  meaning: طويل
+  example: الطريق طويل.
+kort:
+  meaning: قصير
+  example: الدرس قصير اليوم.
+jong:
+  meaning: صغير، شاب
+  example: الكلب ما زال صغيرًا.
+open:
+  meaning: مفتوح
+  example: المتجر مفتوح.
+dicht:
+  meaning: مغلق
+  example: البنك مغلق اليوم.
+vol:
+  meaning: ممتلئ
+  example: الحافلة ممتلئة.
+leeg:
+  meaning: فارغ
+  example: الكأس فارغ.
+moeilijk:
+  meaning: صعب
+  example: السؤال صعب.
+makkelijk:
+  meaning: سهل
+  example: الدرس سهل.
+krijgen:
+  meaning: يحصل على، يستلم
+  example: أحصل على هدية.
+spreken:
+  meaning: يتكلم
+  example: لا أتكلم الإنجليزية.
+vertellen:
+  meaning: يخبر، يحكي
+  example: حدّثني عن عملك.
+kennen:
+  meaning: يعرف الأشخاص
+  example: لا أعرف ذلك الرجل.
+liggen:
+  meaning: يستلقي، يقع
+  example: القطة مستلقية على السرير.
+de straat:
+  meaning: الشارع
+  example: أعيش في هذا الشارع.
+het nummer:
+  meaning: الرقم
+  example: أكتب الرقم.
+belangrijk:
+  meaning: مهم
+  example: العمل مهم بالنسبة لي.
+iets:
+  meaning: شيء ما
+  example: هل تريد شيئًا لتشربه؟
+niets:
+  meaning: لا شيء
+  example: لا أحتاج شيئًا.
+alles:
+  meaning: كل شيء
+  example: كل شيء جاهز الآن.
+iemand:
+  meaning: شخص ما
+  example: هناك شخص ما عند الباب.
+niemand:
+  meaning: لا أحد
+  example: لا أحد في المنزل.
+elkaar:
+  meaning: بعضنا البعض
+  example: نحن نساعد بعضنا البعض.
+klaar:
+  meaning: جاهز، منتهٍ
+  example: هل انتهيت بالفعل؟
+snel:
+  meaning: سريع، بسرعة
+  example: القطار يسير بسرعة.
+langzaam:
+  meaning: بطيء، ببطء
+  example: الحافلة تسير ببطء.
+proberen:
+  meaning: يحاول، يجرب
+  example: أحاول مرة أخرى.
+bezoeken:
+  meaning: يزور
+  example: نزور جدتي اليوم.
+uitnodigen:
+  meaning: يدعو
+  example: أدعو أصدقائي.
+vieren:
+  meaning: يحتفل
+  example: نحتفل بعيد ميلادي في المنزل.
+lachen:
+  meaning: يضحك
+  example: الطفل يضحك في وجهي.
+zingen:
+  meaning: يغني
+  example: هي تغني أغنية جميلة.
+zwemmen:
+  meaning: يسبح
+  example: أحب السباحة في البحر.
+dragen:
+  meaning: يرتدي، يحمل
+  example: هو يرتدي معطفًا أزرق.
+sturen:
+  meaning: يرسل
+  example: سأرسل لك رسالة.
+sluiten:
+  meaning: يغلق
+  example: أغلق الباب، من فضلك.
+de slaapkamer:
+  meaning: غرفة النوم
+  example: غرفة النوم في الطابق العلوي.
+de vloer:
+  meaning: الأرضية
+  example: الأرضية مبللة.
+de buurt:
+  meaning: الحي
+  example: نسكن في حي هادئ.
+het dorp:
+  meaning: القرية
+  example: جدتي تعيش في قرية.
+de hoek:
+  meaning: الزاوية
+  example: المتجر عند الزاوية.
+de brug:
+  meaning: الجسر
+  example: الجسر مغلق.
+de zee:
+  meaning: البحر
+  example: نذهب إلى البحر.
+het strand:
+  meaning: الشاطئ
+  example: الشاطئ مزدحم اليوم.
+de taxi:
+  meaning: سيارة أجرة
+  example: نأخذ تاكسي إلى المنزل.
+het vliegveld:
+  meaning: المطار
+  example: التاكسي يتجه إلى المطار.
+het hotel:
+  meaning: الفندق
+  example: الفندق ليس غاليًا.
+de reis:
+  meaning: الرحلة
+  example: تستغرق الرحلة ساعتين.
+het verkeer:
+  meaning: حركة المرور
+  example: هناك حركة مرور كثيفة اليوم.
+het bedrijf:
+  meaning: الشركة
+  example: أبي يعمل في شركة.
+de post:
+  meaning: البريد
+  example: يصل البريد في الساعة العاشرة.
+de chef:
+  meaning: المدير، الرئيس
+  example: مديري مريض اليوم.
+de slager:
+  meaning: الجزار
+  example: الجزار يبيع اللحم.
+het broodje:
+  meaning: لفة خبز، ساندويتش
+  example: آكل لفة خبز بالجبن.
+de wortel:
+  meaning: جزرة
+  example: الجزرة برتقالية.
+de ober:
+  meaning: النادل
+  example: النادل يجلب الطعام.
+het restaurant:
+  meaning: المطعم
+  example: نأكل في مطعم.
+de maag:
+  meaning: المعدة
+  example: معدتي تؤلمني.
+de schouder:
+  meaning: الكتف
+  example: كتفي يؤلمني.
+de knie:
+  meaning: الركبة
+  example: ركبتي تؤلمني.
+de pleister:
+  meaning: ضمادة لاصقة
+  example: أحتاج إلى ضمادة لاصقة.
+de liefde:
+  meaning: الحب
+  example: الحب مهم.
+het feest:
+  meaning: الحفلة
+  example: تبدأ الحفلة في الساعة الثامنة.
+de gast:
+  meaning: الضيف
+  example: يصل الضيوف في الساعة السابعة.
+donker:
+  meaning: مظلم، داكن
+  example: إنه مظلم في الخارج الآن.
+nat:
+  meaning: مبلل
+  example: معطفي مبلل من المطر.
+droog:
+  meaning: جاف
+  example: الغسيل جاف الآن.
+zoet:
+  meaning: حلو
+  example: كعكة التفاح هذه حلوة.
+zuur:
+  meaning: حامض
+  example: الليمون طعمه حامض.
+je:
+  meaning: أنت (غير رسمي)
+  example: هل لديك قلم لي؟
+we:
+  meaning: نحن
+  example: سنذهب معاً إلى السوق.
+jullie:
+  meaning: أنتم
+  example: أنتم تسكنون في بيت كبير.
+u:
+  meaning: أنت (رسمي)
+  example: كيف حالك؟
+wanneer:
+  meaning: متى
+  example: متى تعود إلى المنزل؟
+worden:
+  meaning: يصبح
+  example: أريد أن أصبح طبيباً لاحقاً.
+hun:
+  meaning: خاصتهم
+  example: بيتهم كبير جداً.
+ons:
+  meaning: إيانا، خاصتنا
+  example: هل تأتي لتأكل عندنا؟
+onze:
+  meaning: خاصتنا
+  example: سيارتنا أمام البيت.
+alle:
+  meaning: كل
+  example: كل الأطفال في البيت اليوم.
+allemaal:
+  meaning: جميعاً، كلهم
+  example: نحن جميعاً متعبون قليلاً.
+iedereen:
+  meaning: الجميع
+  example: الجميع الآن في المطبخ.
+zo:
+  meaning: هكذا، جداً
+  example: الجو بارد جداً اليوم.
+zelf:
+  meaning: بنفسي
+  example: أنا أعدّ الطعام بنفسي.
+erg:
+  meaning: جداً
+  example: الشوربة ساخنة جداً.
+ander:
+  meaning: آخر
+  example: أريد كتاباً آخر.
+eigen:
+  meaning: خاص
+  example: لديها غرفة خاصة بها.
+gewoon:
+  meaning: فقط، عادي
+  example: أشرب الماء فقط.
+meestal:
+  meaning: عادةً
+  example: عادةً أذهب بالدراجة إلى عملي.
+ergens:
+  meaning: في مكان ما
+  example: أبحث عن زاوية هادئة في مكان ما.
+huilen:
+  meaning: يبكي
+  example: الطفل يبكي بشدة.
+dansen:
+  meaning: يرقص
+  example: نرقص على الموسيقى.
+vliegen:
+  meaning: يطير
+  example: سنسافر بالطائرة غداً إلى الوطن.
+reizen:
+  meaning: يسافر
+  example: أحب السفر بالقطار.
+rennen:
+  meaning: يركض
+  example: هو يركض إلى الحافلة.
+vallen:
+  meaning: يسقط
+  example: أقع على الدرج.
+verkopen:
+  meaning: يبيع
+  example: هي تبيع الخبز في المتجر.
+kiezen:
+  meaning: يختار
+  example: أختار السترة الحمراء.
+vergeten:
+  meaning: ينسى
+  example: أنسى مفتاحي كثيراً.
+houden:
+  meaning: يحب، يعجبه
+  example: أحب القهوة القوية.
+heten:
+  meaning: يُدعى، يُسمى
+  example: ما اسم كلبك؟
+meenemen:
+  meaning: يأخذ معه
+  example: خذ مظلتك معك إلى الخارج.
+ophalen:
+  meaning: يأخذ، يلتقط
+  example: سآتي لأخذك من المحطة.
+terugkomen:
+  meaning: يعود
+  example: سأعود غداً مبكراً.
+instappen:
+  meaning: يركب
+  example: نركب القطار.
+uitstappen:
+  meaning: ينزل
+  example: أنزل عند المحطة.
+parkeren:
+  meaning: يركن
+  example: أركن السيارة هنا.
+kosten:
+  meaning: يكلف
+  example: كم تكلف هذه الأحذية؟
+gebeuren:
+  meaning: يحدث
+  example: ماذا يحدث اليوم؟
+regenen:
+  meaning: تمطر
+  example: ستمطر بعد قليل.
+het sap:
+  meaning: العصير
+  example: أحب شرب العصير الطازج.
+de wijn:
+  meaning: النبيذ
+  example: نشرب النبيذ مع الطعام.
+de sinaasappel:
+  meaning: البرتقالة
+  example: آكل برتقالة.
+de ui:
+  meaning: البصل
+  example: تحتاج الشوربة إلى بصلة.
+de agenda:
+  meaning: المفكرة، التقويم
+  example: أنظر في مفكرتي.
+de koelkast:
+  meaning: الثلاجة
+  example: الحليب في الثلاجة.
+de wasmachine:
+  meaning: الغسالة
+  example: الغسالة معطلة اليوم.
+de oven:
+  meaning: الفرن
+  example: الدجاج في الفرن.
+de pan:
+  meaning: المقلاة، القدر
+  example: القدر على النار.
+de spiegel:
+  meaning: المرآة
+  example: أنظر في المرآة.
+het plafond:
+  meaning: السقف
+  example: المصباح معلق بالسقف.
+het hart:
+  meaning: القلب
+  example: قلبي ينبض بسرعة كبيرة.
+het gezicht:
+  meaning: الوجه
+  example: اغسل وجهك بالماء.
+de lip:
+  meaning: الشفة
+  example: شفتي جافة جداً.
+de teen:
+  meaning: إصبع القدم
+  example: أصطدم إصبع قدمي بالطاولة.
+de hoofdpijn:
+  meaning: الصداع
+  example: لدي صداع شديد اليوم.
+de vergadering:
+  meaning: الاجتماع
+  example: يبدأ الاجتماع عند الساعة التاسعة.
+de pinpas:
+  meaning: بطاقة الدفع، بطاقة الخصم
+  example: أدفع ببطاقة الدفع.
+de bushalte:
+  meaning: موقف الحافلات
+  example: موقف الحافلات بجانب المتجر.
+de zon:
+  meaning: الشمس
+  example: الشمس مشرقة اليوم.
+de handdoek:
+  meaning: منشفة
+  example: المنشفة معلقة في الحمام.
+de zeep:
+  meaning: صابون
+  example: أغسل يدي بالصابون.
+de tandenborstel:
+  meaning: فرشاة أسنان
+  example: أنظف أسناني بفرشاة الأسنان.
+de tandpasta:
+  meaning: معجون أسنان
+  example: معجون الأسنان بجانب المرآة.
+de buikpijn:
+  meaning: ألم في البطن، مغص
+  example: عندي ألم في البطن بعد الأكل.
+de keelpijn:
+  meaning: ألم في الحلق
+  example: عندي ألم في الحلق وصداع.
+de pindakaas:
+  meaning: زبدة الفول السوداني
+  example: آكل شطيرة بزبدة الفول السوداني.
+de chocolade:
+  meaning: شوكولاتة
+  example: الشوكولاتة حلوة ولذيذة.
+de portemonnee:
+  meaning: محفظة
+  example: محفظتي في حقيبتي.
+de bon:
+  meaning: إيصال، فاتورة
+  example: الإيصال في حقيبتي.
+buiten:
+  meaning: خارج، في الخارج
+  example: يلعب الأطفال في الخارج.
+binnen:
+  meaning: داخل، في الداخل
+  example: نبقى في الداخل اليوم.
+boven:
+  meaning: فوق
+  example: المصباح معلق فوق الطاولة.
+beneden:
+  meaning: بالأسفل، في الطابق السفلي
+  example: المطبخ بالأسفل.
+het stoplicht:
+  meaning: إشارة مرور
+  example: انتظر عند إشارة المرور.
+de halte:
+  meaning: موقف، محطة
+  example: تتوقف الحافلة عند الموقف.
+het ticket:
+  meaning: تذكرة
+  example: أشتري تذكرة للقطار.
+de parkeerplaats:
+  meaning: موقف سيارات
+  example: السيارة في موقف السيارات.
+de envelop:
+  meaning: ظرف
+  example: الرسالة داخل الظرف.
+de printer:
+  meaning: طابعة
+  example: الطابعة في المكتب.

@@ -1,0 +1,1502 @@
+# What each word means for learners with this base language, and its example sentence translated. Made by
+# `storylingo.py localize-words`; corrections by hand are welcome (then: storylingo.py sync).
+ser:
+  meaning: يكون (صفة دائمة)
+  example: أنا طالب.
+estar:
+  meaning: يكون (حالة)
+  example: أنا في البيت.
+tener:
+  meaning: يملك، لديه
+  example: لدي أخوان.
+hacer:
+  meaning: يفعل، يصنع
+  example: اليوم أطبخ الطعام.
+ir:
+  meaning: يذهب
+  example: أذهب إلى العمل.
+poder:
+  meaning: يستطيع، يمكن
+  example: لا أستطيع الذهاب اليوم.
+querer:
+  meaning: يريد
+  example: أريد قهوة.
+decir:
+  meaning: يقول
+  example: لا أعرف ماذا أقول.
+saber:
+  meaning: يعرف
+  example: لا أعرف الجواب.
+ver:
+  meaning: يرى
+  example: أشاهد التلفاز.
+comer:
+  meaning: يأكل
+  example: آكل الفاكهة كل يوم.
+beber:
+  meaning: يشرب
+  example: أشرب الماء كل يوم.
+vivir:
+  meaning: يعيش
+  example: أعيش في شقة.
+trabajar:
+  meaning: يعمل
+  example: أعمل في متجر.
+hablar:
+  meaning: يتكلم
+  example: أتحدث الإسبانية قليلا.
+comprar:
+  meaning: يشتري
+  example: أشتري الخبز من المتجر.
+necesitar:
+  meaning: يحتاج
+  example: أحتاج مساعدة.
+gustar:
+  meaning: يعجب، يحب
+  example: أحب القهوة.
+"y":
+  meaning: و
+  example: آكل الخبز والجبن.
+o:
+  meaning: أو
+  example: هل تريد شايا أم قهوة؟
+pero:
+  meaning: لكن
+  example: أريد الذهاب، لكن لا أستطيع.
+porque:
+  meaning: لأن
+  example: لا أذهب لأنني متعب.
+que:
+  meaning: أن
+  example: أعتقد أنه صحيح.
+de:
+  meaning: من
+  example: أنا قادم من البيت.
+en:
+  meaning: في
+  example: أعيش في بيت صغير.
+a:
+  meaning: إلى
+  example: أذهب إلى البيت.
+con:
+  meaning: مع
+  example: أذهب مع صديقي.
+por:
+  meaning: عبر، بواسطة
+  example: أمر عبر الحديقة.
+para:
+  meaning: لأجل
+  example: هذه الهدية لك.
+"no":
+  meaning: لا
+  example: لا أريد قهوة، شكرا.
+sí:
+  meaning: نعم
+  example: نعم، أريد قهوة.
+muy:
+  meaning: جدا
+  example: البيت كبير جدا.
+más:
+  meaning: أكثر
+  example: أريد المزيد من الماء، من فضلك.
+también:
+  meaning: أيضا
+  example: أنا أيضا أعيش هنا.
+el agua:
+  meaning: الماء
+  example: أشرب الماء من الزجاجة.
+la casa:
+  meaning: البيت
+  example: بيتي قريب من الحديقة.
+la comida:
+  meaning: الطعام
+  example: الطعام لذيذ جدا.
+el dinero:
+  meaning: المال
+  example: ليس لدي مال كثير اليوم.
+el trabajo:
+  meaning: العمل، الوظيفة
+  example: عملي يبدأ في التاسعة.
+la tienda:
+  meaning: المتجر
+  example: المتجر يفتح صباحا.
+el médico:
+  meaning: الطبيب
+  example: الطبيب يعمل في المستشفى.
+la salud:
+  meaning: الصحة
+  example: الصحة مهمة جدا.
+la familia:
+  meaning: العائلة
+  example: عائلتي تعيش قريبا.
+el amigo:
+  meaning: الصديق
+  example: صديقي يعيش في شارعي.
+el tiempo:
+  meaning: الوقت
+  example: ليس لدي وقت اليوم.
+el día:
+  meaning: اليوم
+  example: اليوم طويل جدا.
+la hora:
+  meaning: الساعة، الوقت
+  example: كم الساعة الآن؟
+hoy:
+  meaning: اليوم
+  example: اليوم أعمل في البيت.
+mañana:
+  meaning: غدا
+  example: غدا أذهب إلى العمل.
+ahora:
+  meaning: الآن
+  example: الآن لا أستطيع التحدث.
+el coche:
+  meaning: السيارة
+  example: السيارة في الشارع.
+el autobús:
+  meaning: الحافلة
+  example: أنتظر الحافلة في المحطة.
+el tren:
+  meaning: القطار
+  example: القطار يصل في الثامنة.
+la estación:
+  meaning: المحطة
+  example: المحطة قريبة من البيت.
+el billete:
+  meaning: التذكرة
+  example: أشتري تذكرة قطار.
+la oficina:
+  meaning: المكتب
+  example: أعمل في مكتب صغير.
+el restaurante:
+  meaning: المطعم
+  example: نأكل في المطعم اليوم.
+la cuenta:
+  meaning: الفاتورة، الحساب
+  example: الفاتورة، من فضلك.
+bien:
+  meaning: جيدا، بخير
+  example: أنا بخير جدا اليوم.
+mal:
+  meaning: بشكل سيئ، سيئ
+  example: لا أشعر بالسوء.
+el hombre:
+  meaning: رجل
+  example: ذلك الرجل جاري.
+la mujer:
+  meaning: امرأة
+  example: المرأة تعمل في البنك.
+el niño:
+  meaning: ولد، طفل
+  example: الطفل يلعب في الشارع.
+la niña:
+  meaning: فتاة، طفلة
+  example: الفتاة تقرأ كتابًا.
+la gente:
+  meaning: ناس
+  example: هناك الكثير من الناس في الشارع.
+algo:
+  meaning: شيء ما
+  example: هل تريد شيئًا للشرب؟
+nada:
+  meaning: لا شيء
+  example: لا أحتاج شيئًا، شكرًا.
+todo:
+  meaning: كل شيء
+  example: كل شيء بخير، شكرًا.
+mucho:
+  meaning: كثيرًا
+  example: أعمل كثيرًا هذا الأسبوع.
+poco:
+  meaning: قليل
+  example: لدي وقت قليل اليوم.
+aquí:
+  meaning: هنا
+  example: يمكنك الانتظار هنا.
+allí:
+  meaning: هناك
+  example: الصيدلية هناك.
+cerca:
+  meaning: قريب
+  example: البنك قريب من هنا.
+lejos:
+  meaning: بعيد
+  example: الشاطئ بعيد.
+siempre:
+  meaning: دائمًا
+  example: أفطر دائمًا قهوة بالحليب.
+abrir:
+  meaning: يفتح
+  example: هل يمكنك فتح النافذة؟
+cerrar:
+  meaning: يغلق
+  example: سأغلق الباب.
+entrar:
+  meaning: يدخل
+  example: ادخل المكتب، من فضلك.
+salir:
+  meaning: يخرج
+  example: أخرج من المنزل صباحًا.
+llegar:
+  meaning: يصل
+  example: أصل إلى العمل بالمترو.
+esperar:
+  meaning: ينتظر
+  example: انتظر هنا لحظة.
+ayudar:
+  meaning: يساعد
+  example: هل يمكنك مساعدتي، من فضلك؟
+entender:
+  meaning: يفهم
+  example: لا أفهم هذه الكلمة.
+aprender:
+  meaning: يتعلم
+  example: أريد تعلم الإسبانية.
+leer:
+  meaning: يقرأ
+  example: أحب قراءة الصحيفة.
+escribir:
+  meaning: يكتب
+  example: أكتب بريدًا إلكترونيًا لمديري.
+pagar:
+  meaning: يدفع
+  example: سأدفع بالبطاقة.
+contento:
+  meaning: سعيد
+  example: أنا سعيد بعملي.
+triste:
+  meaning: حزين
+  example: صديقي حزين اليوم.
+cansado:
+  meaning: متعب
+  example: أنا متعب بعد العمل.
+el supermercado:
+  meaning: سوبرماركت
+  example: أشتري الطعام من السوبرماركت.
+el pan:
+  meaning: خبز
+  example: أشتري الخبز من السوبرماركت.
+la leche:
+  meaning: حليب
+  example: أشرب الحليب صباحًا.
+el café:
+  meaning: قهوة
+  example: أشرب قهوة بالحليب.
+la fruta:
+  meaning: فاكهة
+  example: آكل الفاكهة كل يوم.
+el precio:
+  meaning: سعر
+  example: السعر مرتفع جدًا.
+la tarjeta:
+  meaning: بطاقة
+  example: أدفع بالبطاقة، من فضلك.
+la mesa:
+  meaning: طاولة
+  example: جهز الطاولة، من فضلك.
+la cama:
+  meaning: سرير
+  example: سريري كبير جدًا.
+la puerta:
+  meaning: باب
+  example: أغلق الباب، من فضلك.
+la ventana:
+  meaning: نافذة
+  example: افتح النافذة، الجو حار.
+el baño:
+  meaning: حمام
+  example: الحمام هناك.
+la llave:
+  meaning: مفتاح
+  example: أعطني مفتاح المنزل.
+el avión:
+  meaning: طائرة
+  example: الطائرة تغادر الآن.
+el aeropuerto:
+  meaning: مطار
+  example: أذهب إلى المطار بسيارة أجرة.
+la parada:
+  meaning: موقف، محطة
+  example: موقف الحافلة قريب.
+el metro:
+  meaning: مترو
+  example: أذهب إلى العمل بالمترو.
+la maleta:
+  meaning: حقيبة سفر
+  example: حقيبتي ثقيلة جدًا.
+el hotel:
+  meaning: فندق
+  example: الفندق قريب من الشاطئ.
+el jefe:
+  meaning: مدير، رئيس
+  example: مديري يعمل في المكتب.
+el correo:
+  meaning: بريد، بريد إلكتروني
+  example: أكتب بريدًا إلكترونيًا لمديري.
+el horario:
+  meaning: جدول مواعيد
+  example: انظر جدول مواعيد المكتب.
+la cabeza:
+  meaning: رأس
+  example: رأسي يؤلمني.
+la mano:
+  meaning: يد
+  example: اغسل يديك، من فضلك.
+la medicina:
+  meaning: دواء
+  example: آخذ الدواء صباحًا.
+enfermo:
+  meaning: مريض
+  example: ابني مريض اليوم.
+la semana:
+  meaning: أسبوع
+  example: أعمل كل أيام الأسبوع.
+el mes:
+  meaning: شهر
+  example: هذا الشهر أعمل كثيرًا.
+el año:
+  meaning: سنة
+  example: هذه السنة لدي عطلة.
+la tarde:
+  meaning: بعد الظهر
+  example: بعد الظهر أقرأ كتابًا.
+hola:
+  meaning: مرحبًا
+  example: مرحبًا، كيف حالك؟
+gracias:
+  meaning: شكرًا
+  example: شكرًا جزيلًا على المساعدة.
+adiós:
+  meaning: وداعًا
+  example: وداعًا، إلى الغد.
+perdón:
+  meaning: آسف، عفوًا
+  example: عفوًا، لا أفهم.
+yo:
+  meaning: أنا
+  example: أنا أسكن في شقة.
+tú:
+  meaning: أنت
+  example: أنت تعمل في مكتب.
+él:
+  meaning: هو
+  example: هو أخي.
+ella:
+  meaning: هي
+  example: هي تأكل في المنزل.
+nosotros:
+  meaning: نحن
+  example: نحن نذهب إلى السينما.
+usted:
+  meaning: أنت (رسمي)
+  example: هل تحتاج مساعدة؟
+mi:
+  meaning: خاصتي
+  example: بيتي صغير.
+tu:
+  meaning: خاصتك
+  example: كتابك على الطاولة.
+su:
+  meaning: خاصته/خاصتها/خاصتك
+  example: سيارته جديدة.
+cuándo:
+  meaning: متى
+  example: متى تصل إلى المنزل؟
+cómo:
+  meaning: كيف
+  example: كيف حالك اليوم؟
+dónde:
+  meaning: أين
+  example: أين الصيدلية؟
+sin:
+  meaning: بدون
+  example: قهوة بدون سكر، من فضلك.
+sobre:
+  meaning: على، حول
+  example: الكتاب على الطاولة.
+entre:
+  meaning: بين
+  example: الصيدلية بين متجرين.
+hasta:
+  meaning: حتى
+  example: أعمل حتى الخامسة.
+desde:
+  meaning: من، منذ
+  example: أعيش هنا منذ العام الماضي.
+antes:
+  meaning: قبل
+  example: قبل تناول الطعام، أغسل يدي.
+después:
+  meaning: بعد
+  example: بعد العمل، أذهب إلى المنزل.
+luego:
+  meaning: ثم، لاحقًا
+  example: أولًا أدرس، ثم أتعشى.
+ya:
+  meaning: بالفعل
+  example: أنا بالفعل في المنزل.
+nunca:
+  meaning: أبدًا، مطلقًا
+  example: لا أشرب القهوة ليلًا أبدًا.
+la madre:
+  meaning: الأم
+  example: أمي تعمل في المنزل.
+el padre:
+  meaning: الأب
+  example: أبي يأكل في المنزل.
+el hermano:
+  meaning: الأخ
+  example: أخي يعيش في مدينة أخرى.
+la hermana:
+  meaning: الأخت
+  example: أختي تدرس الإسبانية.
+el hijo:
+  meaning: الابن
+  example: ابنه يبلغ من العمر ثلاث سنوات.
+la hija:
+  meaning: الابنة
+  example: ابنتي تذهب إلى المدرسة.
+feliz:
+  meaning: سعيد
+  example: أنا سعيد جدًا اليوم.
+enfadado:
+  meaning: غاضب
+  example: أبي غاضب مني.
+la habitación:
+  meaning: الغرفة
+  example: الغرفة بها سرير.
+la cocina:
+  meaning: المطبخ
+  example: المطبخ صغير لكنه نظيف.
+la silla:
+  meaning: الكرسي
+  example: الكرسي بجانب الطاولة.
+la nevera:
+  meaning: الثلاجة
+  example: الحليب في الثلاجة.
+el salón:
+  meaning: غرفة المعيشة
+  example: غرفة المعيشة بها نافذة كبيرة.
+la carne:
+  meaning: اللحم
+  example: لا آكل اللحم أيام الجمعة.
+el pescado:
+  meaning: السمك
+  example: السمك لذيذ جدًا.
+el pollo:
+  meaning: الدجاج
+  example: نتعشى دجاجًا مع البطاطس.
+el huevo:
+  meaning: البيضة
+  example: أتناول بيضة في الفطور كل صباح.
+la verdura:
+  meaning: الخضار
+  example: أشتري الخضار من السوق.
+la patata:
+  meaning: البطاطس
+  example: البطاطس رخيصة.
+la manzana:
+  meaning: التفاحة
+  example: آكل تفاحة كتحلية.
+el zapato:
+  meaning: الحذاء
+  example: هذا الحذاء غالٍ جدًا.
+la camisa:
+  meaning: القميص
+  example: القميص جميل جدًا.
+el viaje:
+  meaning: الرحلة
+  example: الرحلة إلى الشاطئ طويلة.
+el pasaporte:
+  meaning: جواز السفر
+  example: أحتاج جواز السفر للطائرة.
+la salida:
+  meaning: الخروج، المغادرة
+  example: مغادرة القطار في السادسة.
+el ordenador:
+  meaning: الحاسوب
+  example: حاسوبي في المكتب.
+la carta:
+  meaning: الرسالة
+  example: أكتب رسالة إلى أخي.
+la dirección:
+  meaning: العنوان
+  example: اكتب عنوانك هنا، من فضلك.
+la farmacia:
+  meaning: الصيدلية
+  example: الصيدلية تفتح في التاسعة.
+el dolor:
+  meaning: الألم
+  example: لدي صداع.
+la fiebre:
+  meaning: الحمى
+  example: الطفل مصاب بالحمى.
+el brazo:
+  meaning: الذراع
+  example: ذراعي تؤلمني.
+la pierna:
+  meaning: الساق
+  example: ساقي تؤلمني.
+el pie:
+  meaning: القدم
+  example: قدماي تؤلمانني.
+este:
+  meaning: هذا
+  example: هذا الكتاب جيد جدًا.
+otro:
+  meaning: آخر
+  example: أريد قهوة أخرى من فضلك.
+cada:
+  meaning: كل
+  example: آكل الفاكهة كل يوم.
+tomar:
+  meaning: يأخذ، يشرب
+  example: أشرب قهوة بالحليب.
+dar:
+  meaning: يعطي
+  example: أعطني الخبز من فضلك.
+mirar:
+  meaning: ينظر
+  example: انظر إلى الباب من فضلك.
+buscar:
+  meaning: يبحث عن
+  example: أبحث عن المفتاح على الطاولة.
+encontrar:
+  meaning: يجد
+  example: لا أجد تذكرتي.
+llevar:
+  meaning: يحمل، يرتدي
+  example: أرتدي قميصًا أبيض.
+poner:
+  meaning: يضع
+  example: أجهّز المائدة للعشاء.
+escuchar:
+  meaning: يستمع
+  example: أستمع إلى الموسيقى في الحافلة.
+estudiar:
+  meaning: يدرس
+  example: أدرس الإسبانية كل يوم.
+dormir:
+  meaning: ينام
+  example: أنام ثماني ساعات كل ليلة.
+alguien:
+  meaning: شخص ما
+  example: شخص ما يطرق الباب.
+nadie:
+  meaning: لا أحد
+  example: لا يوجد أحد في المنزل.
+pronto:
+  meaning: قريبًا
+  example: أعود قريبًا إلى المنزل.
+temprano:
+  meaning: مبكرًا
+  example: أستيقظ مبكرًا أيام الاثنين.
+tampoco:
+  meaning: أيضًا لا
+  example: أنا أيضًا لا أريد قهوة.
+la calle:
+  meaning: الشارع
+  example: أعيش في شارع صغير.
+el piso:
+  meaning: الشقة، الطابق
+  example: شقتي في المركز.
+la luz:
+  meaning: الضوء، الكهرباء
+  example: أطفئ الضوء من فضلك.
+el vecino:
+  meaning: الجار
+  example: الجار لطيف جدًا.
+el dormitorio:
+  meaning: غرفة النوم
+  example: غرفة نومي صغيرة ونظيفة.
+la escalera:
+  meaning: الدرج
+  example: أصعد الدرج.
+el ascensor:
+  meaning: المصعد
+  example: المصعد لا يعمل اليوم.
+el balcón:
+  meaning: الشرفة
+  example: أتناول الفطور في الشرفة.
+el perro:
+  meaning: الكلب
+  example: الكلب يلعب في الحديقة.
+el gato:
+  meaning: القط
+  example: قطي ينام في السرير.
+el abuelo:
+  meaning: الجد
+  example: جدي يعيش معنا.
+la abuela:
+  meaning: الجدة
+  example: جدتي تطبخ جيدًا جدًا.
+la fiesta:
+  meaning: الحفلة
+  example: هناك حفلة في منزلي.
+el regalo:
+  meaning: الهدية
+  example: هذه الهدية لك.
+el amor:
+  meaning: الحب
+  example: الحب مهم في الحياة.
+el miedo:
+  meaning: الخوف
+  example: أخاف من الكلاب.
+el arroz:
+  meaning: الأرز
+  example: أطبخ الأرز مع الدجاج.
+el queso:
+  meaning: الجبن
+  example: آكل الجبن في الفطور.
+el tomate:
+  meaning: الطماطم
+  example: أضع الطماطم في السلطة.
+la ensalada:
+  meaning: السلطة
+  example: السلطة فيها طماطم وملح.
+el zumo:
+  meaning: العصير
+  example: أشرب عصير البرتقال.
+el vaso:
+  meaning: الكوب
+  example: كوب ماء من فضلك.
+el mercado:
+  meaning: السوق
+  example: أشتري الفاكهة في السوق.
+la ropa:
+  meaning: الملابس
+  example: الملابس في الحقيبة.
+el hospital:
+  meaning: المستشفى
+  example: أمي في المستشفى.
+la pastilla:
+  meaning: القرص
+  example: أتناول قرصًا في الصباح.
+la tos:
+  meaning: السعال
+  example: لدي سعال وحمى.
+la gripe:
+  meaning: الإنفلونزا
+  example: لدي إنفلونزا هذا الأسبوع.
+la cita:
+  meaning: الموعد
+  example: لدي موعد مع الطبيب.
+el documento:
+  meaning: الوثيقة
+  example: أحتاج وثيقة للسفر.
+el formulario:
+  meaning: الاستمارة
+  example: أملأ الاستمارة بقلم حبر.
+la firma:
+  meaning: التوقيع
+  example: أضع توقيعي هنا.
+el contrato:
+  meaning: العقد
+  example: أوقع عقد العمل.
+la empresa:
+  meaning: الشركة
+  example: أعمل في شركة صغيرة.
+la playa:
+  meaning: الشاطئ
+  example: نذهب إلى الشاطئ في الصيف.
+el mapa:
+  meaning: الخريطة
+  example: أنظر إلى الخريطة في الفندق.
+el taxi:
+  meaning: التاكسي
+  example: أذهب إلى المركز بالتاكسي.
+la bici:
+  meaning: الدراجة
+  example: أذهب إلى العمل بالدراجة.
+grande:
+  meaning: كبير
+  example: منزلي كبير وجديد.
+pequeño:
+  meaning: صغير
+  example: الكلب صغير وأبيض.
+nuevo:
+  meaning: جديد
+  example: لدي هاتف جديد.
+caro:
+  meaning: غالٍ
+  example: هذا المطعم غالٍ جدًا.
+el teléfono:
+  meaning: هاتف
+  example: هاتفي على الطاولة.
+el móvil:
+  meaning: هاتف محمول
+  example: أستخدم الهاتف المحمول للاتصال.
+la noche:
+  meaning: ليل، ليلة
+  example: في الليل أقرأ قليلاً.
+la persona:
+  meaning: شخص
+  example: ذلك الشخص لطيف جداً.
+el chico:
+  meaning: فتى، ولد
+  example: الفتى يسكن قريباً.
+la chica:
+  meaning: فتاة
+  example: الفتاة تعمل في المتجر.
+el profesor:
+  meaning: مدرّس، أستاذ
+  example: المدرّس يتحدث ببطء.
+el estudiante:
+  meaning: طالب
+  example: الطالب يقرأ في الصف.
+la ciudad:
+  meaning: مدينة
+  example: مدينتي كبيرة جداً.
+el pueblo:
+  meaning: بلدة، قرية
+  example: بلدتي صغيرة وهادئة.
+el parque:
+  meaning: حديقة عامة
+  example: الأطفال يلعبون في الحديقة.
+el banco:
+  meaning: بنك، مقعد
+  example: لديّ مال في البنك.
+la bolsa:
+  meaning: حقيبة، كيس
+  example: الحقيبة على الكرسي.
+barato:
+  meaning: رخيص
+  example: هذه القهوة رخيصة جداً.
+abierto:
+  meaning: مفتوح
+  example: البنك مفتوح.
+cerrado:
+  meaning: مغلق
+  example: البار مغلق اليوم.
+limpio:
+  meaning: نظيف
+  example: الحمام نظيف جداً.
+sucio:
+  meaning: قذر، متسخ
+  example: الأرضية متسخة.
+rápido:
+  meaning: سريع
+  example: القطار سريع جداً.
+lento:
+  meaning: بطيء
+  example: الحافلة تسير ببطء شديد.
+fácil:
+  meaning: سهل
+  example: هذا التمرين سهل جداً.
+difícil:
+  meaning: صعب
+  example: الامتحان صعب.
+frío:
+  meaning: بارد
+  example: القهوة باردة.
+caliente:
+  meaning: ساخن
+  example: الحساء ساخن جداً.
+el desayuno:
+  meaning: فطور
+  example: الفطور في الثامنة.
+la cena:
+  meaning: عشاء
+  example: العشاء على الطاولة.
+la bebida:
+  meaning: مشروب
+  example: المشروب في الثلاجة.
+cocinar:
+  meaning: يطبخ
+  example: أحب الطبخ أيام الأحد.
+limpiar:
+  meaning: ينظف
+  example: أنظف المطبخ كل يوم.
+lavar:
+  meaning: يغسل
+  example: أغسل الملابس أيام السبت.
+empezar:
+  meaning: يبدأ
+  example: يبدأ الدرس في العاشرة.
+terminar:
+  meaning: ينتهي
+  example: ينتهي العمل في السادسة.
+preguntar:
+  meaning: يسأل
+  example: أسأل المدرّس.
+llamar:
+  meaning: يتصل، ينادي
+  example: سأتصل بالطبيب.
+contestar:
+  meaning: يجيب، يرد
+  example: لا أرد على الهاتف.
+pensar:
+  meaning: يفكر
+  example: أفكر في عطلتي.
+creer:
+  meaning: يعتقد، يؤمن
+  example: أعتقد ذلك.
+conocer:
+  meaning: يعرف، يتعرف
+  example: أعرف أختك.
+visitar:
+  meaning: يزور
+  example: سأزور أمي.
+viajar:
+  meaning: يسافر
+  example: أحب السفر بالقطار.
+caminar:
+  meaning: يمشي
+  example: نمشي في الحديقة.
+subir:
+  meaning: يصعد، يرفع
+  example: أصعد السلالم.
+bajar:
+  meaning: ينزل، يخفض
+  example: أنزل إلى السوبرماركت.
+menos:
+  meaning: أقل
+  example: أريد سكراً أقل.
+entonces:
+  meaning: ثم، إذن
+  example: إذن، نذهب إلى المنزل.
+si:
+  meaning: إذا
+  example: إذا أمطرت، لا نخرج.
+cuando:
+  meaning: عندما
+  example: عندما أصل، أتناول العشاء.
+como:
+  meaning: مثل، كما
+  example: أتحدث مثل أبي.
+el ojo:
+  meaning: عين
+  example: تؤلمني عيني.
+la boca:
+  meaning: فم
+  example: افتح فمك، من فضلك.
+la nariz:
+  meaning: أنف
+  example: أنفي مسدود.
+el diente:
+  meaning: سن
+  example: يؤلمني سن.
+la cara:
+  meaning: وجه
+  example: اغسل وجهك.
+el estómago:
+  meaning: معدة
+  example: تؤلمني معدتي.
+el pelo:
+  meaning: شعر
+  example: شعري قصير.
+el minuto:
+  meaning: دقيقة
+  example: انتظر دقيقة.
+el cumpleaños:
+  meaning: عيد ميلاد
+  example: عيد ميلادي في مايو.
+las vacaciones:
+  meaning: عطلة، إجازة
+  example: أنا في عطلة هذا الأسبوع.
+el mar:
+  meaning: بحر
+  example: البحر هادئ اليوم.
+la montaña:
+  meaning: جبل
+  example: نذهب إلى الجبل.
+ni:
+  meaning: ولا، لا
+  example: لا أريد قهوة ولا شايًا.
+claro:
+  meaning: طبعًا
+  example: طبعًا، يمكنك المجيء معي.
+vale:
+  meaning: حسنًا
+  example: حسنًا، نلتقي في السادسة.
+bueno:
+  meaning: حسنًا، طيبًا
+  example: حسنًا، سأذهب معك.
+solo:
+  meaning: فقط، وحيد
+  example: أريد فقط كوب ماء.
+quizás:
+  meaning: ربما
+  example: ربما آتي غدًا.
+la botella:
+  meaning: زجاجة
+  example: زجاجة ماء، من فضلك.
+el plato:
+  meaning: طبق
+  example: الطبق على الطاولة.
+la taza:
+  meaning: كوب، فنجان
+  example: أريد كوب قهوة.
+el tenedor:
+  meaning: شوكة
+  example: الشوكة على اليمين.
+la cuchara:
+  meaning: ملعقة
+  example: الملعقة للحساء.
+el cuchillo:
+  meaning: سكين
+  example: اقطع الخبز بالسكين.
+el azúcar:
+  meaning: سكر
+  example: أضع السكر في القهوة.
+la sal:
+  meaning: ملح
+  example: الحساء يحتاج مزيدًا من الملح.
+el aceite:
+  meaning: زيت
+  example: أطبخ بزيت الزيتون.
+la naranja:
+  meaning: برتقالة
+  example: آكل برتقالة كل يوم.
+el plátano:
+  meaning: موز
+  example: الموز فاكهة.
+la cebolla:
+  meaning: بصل
+  example: البصل يجعلني أبكي.
+la cerveza:
+  meaning: جعة، بيرة
+  example: بيرة باردة، من فضلك.
+el vino:
+  meaning: نبيذ
+  example: أشرب نبيذًا أحمر على العشاء.
+el té:
+  meaning: شاي
+  example: أفضل الشاي مع الليمون.
+el sofá:
+  meaning: أريكة
+  example: الأريكة في غرفة الجلوس.
+la lámpara:
+  meaning: مصباح
+  example: المصباح بجانب السرير.
+la pared:
+  meaning: جدار
+  example: هناك لوحة على الجدار.
+el suelo:
+  meaning: أرضية، أرض
+  example: أرضية المطبخ نظيفة.
+el techo:
+  meaning: سقف
+  example: المصباح معلق من السقف.
+el jardín:
+  meaning: حديقة
+  example: الأطفال يلعبون في الحديقة.
+el espejo:
+  meaning: مرآة
+  example: أنظر في المرآة.
+la toalla:
+  meaning: منشفة
+  example: المنشفة في الحمام.
+el jabón:
+  meaning: صابون
+  example: لا يوجد صابون في الحمام.
+la ducha:
+  meaning: دش
+  example: الدش ساخن جدًا.
+el ruido:
+  meaning: ضجيج، ضوضاء
+  example: ضجيج الشارع قوي.
+el señor:
+  meaning: رجل، السيد
+  example: السيد لطيف جدًا.
+la señora:
+  meaning: امرأة، السيدة
+  example: السيدة تتحدث مع أمي.
+el bebé:
+  meaning: طفل، رضيع
+  example: الرضيع ينام في سريره.
+el primo:
+  meaning: ابن العم/الخال
+  example: ابن عمي عمره عشر سنوات.
+la prima:
+  meaning: ابنة العم/الخال
+  example: ابنة عمي تدرس في الجامعة.
+el tío:
+  meaning: عم، خال
+  example: عمي يعمل في بنك.
+la tía:
+  meaning: عمة، خالة
+  example: خالتي تطبخ جيدًا جدًا.
+la reunión:
+  meaning: اجتماع
+  example: الاجتماع في الساعة العاشرة.
+el compañero:
+  meaning: زميل، رفيق
+  example: زميلي يعمل في المكتب.
+el sueldo:
+  meaning: راتب
+  example: الراتب منخفض هذا الشهر.
+la espalda:
+  meaning: ظهر
+  example: يؤلمني ظهري.
+el dedo:
+  meaning: إصبع
+  example: يؤلمني إصبعي.
+la oreja:
+  meaning: أذن
+  example: تؤلمني أذني اليمنى.
+el corazón:
+  meaning: قلب
+  example: قلبي يؤلمني.
+la receta:
+  meaning: وصفة طبية، وصفة
+  example: الطبيب يعطيني وصفة.
+la alergia:
+  meaning: حساسية
+  example: لدي حساسية من حبوب اللقاح.
+la entrada:
+  meaning: تذكرة، مدخل
+  example: دخول المتحف مجاني.
+el andén:
+  meaning: رصيف
+  example: القطار يغادر من الرصيف الثاني.
+el vuelo:
+  meaning: رحلة جوية
+  example: الرحلة الجوية تنطلق في الثامنة.
+el asiento:
+  meaning: مقعد
+  example: مقعدي بجانب النافذة.
+la llegada:
+  meaning: وصول
+  example: وصول القطار في الثانية.
+el retraso:
+  meaning: تأخير
+  example: لدى الرحلة تأخير ساعة.
+el barco:
+  meaning: قارب، سفينة
+  example: السفينة تذهب إلى الجزر.
+la moto:
+  meaning: دراجة نارية
+  example: أذهب إلى العمل بالدراجة النارية.
+la gasolina:
+  meaning: بنزين
+  example: البنزين غالٍ جدًا.
+el aparcamiento:
+  meaning: موقف سيارات
+  example: لا يوجد مكان في موقف السيارات.
+la policía:
+  meaning: شرطة
+  example: الشرطة في الشارع.
+el permiso:
+  meaning: تصريح، رخصة
+  example: أحتاج تصريح عمل.
+cuánto:
+  meaning: كم
+  example: كم سعر الخبز؟
+quién:
+  meaning: من
+  example: من هو المدير؟
+cuál:
+  meaning: أي
+  example: ما عنوانك؟
+ese:
+  meaning: ذلك
+  example: تلك الحافلة تتجه إلى وسط المدينة.
+nuestro:
+  meaning: خاصتنا
+  example: شقتنا صغيرة.
+todavía:
+  meaning: لا يزال، بعد
+  example: لست مستعدًا بعد.
+bastante:
+  meaning: إلى حد كبير، كفاية
+  example: الشقة كبيرة إلى حد ما.
+delante:
+  meaning: أمام
+  example: البنك في الأمام.
+detrás:
+  meaning: خلف
+  example: الحمام في الخلف.
+dentro:
+  meaning: داخل
+  example: المال في الداخل.
+fuera:
+  meaning: خارج
+  example: الكلب في الخارج.
+encima:
+  meaning: فوق
+  example: الهاتف في الأعلى.
+debajo:
+  meaning: تحت
+  example: المفتاح بالأسفل.
+ahí:
+  meaning: هناك
+  example: الكتاب هناك.
+la derecha:
+  meaning: اليمين
+  example: الصيدلية على اليمين.
+la izquierda:
+  meaning: اليسار
+  example: انعطف إلى اليسار.
+primero:
+  meaning: الأول
+  example: الأول هو مقعدي.
+último:
+  meaning: الأخير
+  example: هذا هو القطار الأخير.
+siguiente:
+  meaning: التالي
+  example: المحطة التالية هي محطتي.
+algún:
+  meaning: أي
+  example: هل لديك أي مشكلة؟
+ningún:
+  meaning: لا، أي
+  example: لا يوجد أي مقعد.
+el centro:
+  meaning: وسط المدينة
+  example: أذهب إلى وسط المدينة بالمترو.
+la plaza:
+  meaning: الساحة
+  example: الساحة قريبة.
+la esquina:
+  meaning: الزاوية
+  example: المتجر عند الزاوية.
+el barrio:
+  meaning: الحي
+  example: حيّي هادئ.
+la carretera:
+  meaning: الطريق
+  example: الطريق مبلل.
+el semáforo:
+  meaning: إشارة المرور
+  example: انتظر عند إشارة المرور.
+el conductor:
+  meaning: السائق
+  example: السائق لطيف.
+el equipaje:
+  meaning: الأمتعة
+  example: أمتعتي في الفندق.
+la ventanilla:
+  meaning: شباك التذاكر
+  example: أشتري التذكرة من الشباك.
+la terraza:
+  meaning: التراس
+  example: نتناول الفطور في التراس.
+el comedor:
+  meaning: غرفة الطعام
+  example: نأكل في غرفة الطعام.
+el pasillo:
+  meaning: الممر
+  example: الحمام في الممر.
+el patio:
+  meaning: الفناء
+  example: الكلب في الفناء.
+la lavadora:
+  meaning: الغسالة
+  example: الغسالة في المطبخ.
+el lavabo:
+  meaning: المغسلة
+  example: المغسلة نظيفة.
+la servilleta:
+  meaning: منديل المائدة
+  example: أحتاج منديلًا.
+el euro:
+  meaning: اليورو
+  example: القهوة تكلف يورو واحدًا.
+la caja:
+  meaning: صندوق الدفع، صندوق
+  example: أدفع عند الصندوق.
+la panadería:
+  meaning: المخبز
+  example: أشتري الخبز من المخبز.
+la sopa:
+  meaning: الحساء
+  example: الحساء ساخن.
+la pasta:
+  meaning: المعكرونة
+  example: أطبخ المعكرونة مع الطماطم.
+el bocadillo:
+  meaning: الشطيرة
+  example: آكل شطيرة.
+el jamón:
+  meaning: لحم الخنزير
+  example: لحم الخنزير غالٍ.
+el yogur:
+  meaning: الزبادي
+  example: آكل الزبادي في الصباح.
+el postre:
+  meaning: الحلوى
+  example: الحلوى فاكهة.
+el menú:
+  meaning: قائمة الطعام
+  example: قائمة طعام اليوم رخيصة.
+el camarero:
+  meaning: النادل
+  example: النادل يجلب الحساب.
+el dentista:
+  meaning: طبيب الأسنان
+  example: أذهب إلى طبيب الأسنان.
+la enfermera:
+  meaning: الممرضة
+  example: الممرضة لطيفة.
+doler:
+  meaning: يؤلم
+  example: رأسي يؤلمني.
+descansar:
+  meaning: يستريح
+  example: أستريح في عطلة نهاية الأسبوع.
+la temperatura:
+  meaning: الحرارة، الحمى
+  example: لديك حمى.
+el gimnasio:
+  meaning: صالة الرياضة
+  example: أذهب إلى صالة الرياضة.
+coger:
+  meaning: يأخذ
+  example: خذ الحافلة عند الزاوية.
+volver:
+  meaning: يعود
+  example: أعود إلى المنزل في السادسة.
+venir:
+  meaning: يأتي
+  example: هل تأتي إلى الحفلة؟
+oír:
+  meaning: يسمع
+  example: لا أسمع جيدًا.
+jugar:
+  meaning: يلعب
+  example: ألعب كرة القدم مع الأصدقاء.
+usar:
+  meaning: يستخدم
+  example: أستخدم الهاتف للعمل.
+el reloj:
+  meaning: ساعة
+  example: ساعتي على الطاولة.
+el armario:
+  meaning: خزانة ملابس
+  example: الملابس في خزانة الملابس.
+el bolso:
+  meaning: حقيبة يد
+  example: حقيبتي صغيرة وسوداء.
+la mochila:
+  meaning: حقيبة ظهر
+  example: أحمل حقيبة الظهر إلى العمل.
+el paraguas:
+  meaning: مظلة
+  example: اليوم تمطر؛ أحتاج المظلة.
+las gafas:
+  meaning: نظارات
+  example: لا أجد نظاراتي.
+el abrigo:
+  meaning: معطف
+  example: الجو بارد؛ ارتدِ المعطف.
+el pantalón:
+  meaning: بنطال
+  example: هذا البنطال مريح جدًا.
+el vestido:
+  meaning: فستان
+  example: هي ترتدي فستانًا أزرق.
+la falda:
+  meaning: تنورة
+  example: التنورة البيضاء في خزانة الملابس.
+la chaqueta:
+  meaning: سترة
+  example: سترتي الجديدة من الصوف.
+el jersey:
+  meaning: كنزة صوفية
+  example: أضع الكنزة في الحقيبة.
+el cepillo:
+  meaning: فرشاة
+  example: أستخدم الفرشاة مرتين يوميًا.
+el papel:
+  meaning: ورق
+  example: أحتاج ورقًا لكتابة رسالة.
+el bolígrafo:
+  meaning: قلم حبر
+  example: هل لديك قلم حبر أزرق؟
+la carpeta:
+  meaning: مجلد
+  example: المستندات في المجلد.
+la llamada:
+  meaning: مكالمة
+  example: لدي مكالمة في الساعة العاشرة.
+el cliente:
+  meaning: عميل
+  example: العميل ينتظر في المكتب.
+la factura:
+  meaning: فاتورة
+  example: أدفع فاتورة الكهرباء.
+el recibo:
+  meaning: إيصال
+  example: أحفظ إيصال الشراء.
+el cambio:
+  meaning: فكة، تغيير
+  example: هل لديك فكة لعشرة يورو؟
+la moneda:
+  meaning: عملة معدنية
+  example: هناك عملة معدنية على الأرض.
+el sol:
+  meaning: شمس
+  example: اليوم الجو مشمس وحار.
+la lluvia:
+  meaning: مطر
+  example: المطر مفيد للنباتات.
+el viento:
+  meaning: ريح
+  example: تهب الريح على الشاطئ.
+la nieve:
+  meaning: ثلج
+  example: في الشتاء يوجد ثلج في الجبل.
+la mantequilla:
+  meaning: زبدة
+  example: أضع الزبدة على الخبز.
+el helado:
+  meaning: آيس كريم
+  example: أريد آيس كريم بالشوكولاتة.
+el chocolate:
+  meaning: شوكولاتة
+  example: الشوكولاتة الساخنة لذيذة جدًا.
+la tarta:
+  meaning: كعكة
+  example: كعكة عيد الميلاد لك.
+el limón:
+  meaning: ليمون
+  example: أضع الليمون في السلطة.
+la pera:
+  meaning: كمثرى
+  example: الكمثرى ناضجة وحلوة.
+la uva:
+  meaning: عنب
+  example: آكل العنب في الفطور.
+el melón:
+  meaning: شمام
+  example: الشمام منعش وحلو.
+la sandía:
+  meaning: بطيخ
+  example: في الصيف نشتري البطيخ.
+la garganta:
+  meaning: حلق
+  example: أشعر بألم في حلقي.
+el pecho:
+  meaning: صدر
+  example: أشعر بألم في صدري.
+el cuello:
+  meaning: رقبة
+  example: أشعر بألم في رقبتي.
+la sangre:
+  meaning: دم
+  example: الدم أحمر.
+la piel:
+  meaning: بشرة، جلد
+  example: احمِ بشرتك من الشمس.
+el hueso:
+  meaning: عظم
+  example: عظم الذراع مكسور.
+la rodilla:
+  meaning: ركبة
+  example: أشعر بألم في ركبتي عند الجري.
+el codo:
+  meaning: مرفق
+  example: اصطدمت بمرفقي.
+el tobillo:
+  meaning: كاحل
+  example: كاحلي متورم.
+el lunes:
+  meaning: الاثنين
+  example: أبدأ العمل يوم الاثنين.
+el martes:
+  meaning: الثلاثاء
+  example: لدي موعد يوم الثلاثاء.
+el miércoles:
+  meaning: الأربعاء
+  example: نذهب إلى السينما يوم الأربعاء.
+el jueves:
+  meaning: الخميس
+  example: الخميس هو يوم عطلتي.
+el viernes:
+  meaning: الجمعة
+  example: نتعشى في المنزل يوم الجمعة.
+el sábado:
+  meaning: السبت
+  example: أذهب للتسوق يوم السبت.
+el domingo:
+  meaning: الأحد
+  example: أسترخي في المنزل يوم الأحد.
+la primavera:
+  meaning: ربيع
+  example: في الربيع توجد أزهار كثيرة.
+el verano:
+  meaning: صيف
+  example: في الصيف نذهب إلى الشاطئ.
+el otoño:
+  meaning: خريف
+  example: في الخريف تمطر أكثر.
+el invierno:
+  meaning: شتاء
+  example: في الشتاء يكون الجو باردًا جدًا.
+el norte:
+  meaning: شمال
+  example: أعيش في الشمال.
+el sur:
+  meaning: جنوب
+  example: أعيش في الجنوب.
+el este:
+  meaning: شرق
+  example: تشرق الشمس من الشرق.
+el oeste:
+  meaning: غرب
+  example: تغرب الشمس في الغرب.
+el nombre:
+  meaning: اسم
+  example: لا أعرف اسمك.
+el libro:
+  meaning: كتاب
+  example: كتابي على الطاولة.
+la foto:
+  meaning: صورة
+  example: انظر إلى هذه الصورة لعائلتي.
+casi:
+  meaning: تقريبًا
+  example: أفطر تقريبًا دائمًا في المنزل.
+el país:
+  meaning: بلد
+  example: بلدي صغير وهادئ.
+el deporte:
+  meaning: رياضة
+  example: أمارس الرياضة مرتين في الأسبوع.
+la música:
+  meaning: موسيقى
+  example: أحب الموسيقى الإسبانية كثيرًا.
+la televisión:
+  meaning: تلفاز، تلفزيون
+  example: أشاهد التلفاز في الليل.
+la película:
+  meaning: فيلم
+  example: يبدأ الفيلم في الثامنة.
+desayunar:
+  meaning: يفطر، يتناول الفطور
+  example: أتناول القهوة مع التوست على الفطور.
+levantarse:
+  meaning: يستيقظ، ينهض
+  example: أستيقظ في السابعة.
+correr:
+  meaning: يركض
+  example: أركض في الحديقة كل صباح.
+despacio:
+  meaning: ببطء
+  example: تحدث ببطء أكثر، من فضلك.
+alto:
+  meaning: طويل، مرتفع
+  example: أخي طويل جدًا.
+joven:
+  meaning: شاب، صغير السن
+  example: أستاذي شاب إلى حد ما.
+viejo:
+  meaning: قديم، عجوز
+  example: هذه السيارة قديمة.
+largo:
+  meaning: طويل
+  example: الرحلة طويلة جدًا.
+corto:
+  meaning: قصير
+  example: الطريق قصير وسهل.
+nervioso:
+  meaning: متوتر، قلق
+  example: أنا متوتر بسبب الامتحان.
+interesante:
+  meaning: مثير للاهتمام
+  example: هذا الكتاب مثير للاهتمام جدًا.
+bonito:
+  meaning: جميل
+  example: فستانك جميل جدًا.

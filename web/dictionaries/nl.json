@@ -185,6 +185,23 @@
     "allTopics": "Alle",
     "topicsLabel": "Onderwerpen"
   },
+  "vocab": {
+    "title": "Woordenschat",
+    "intro": "De belangrijkste woorden van je niveau, elk met een voorbeeldzin. Leer ze tien tegelijk; daarna komen ze vanzelf terug in je herhaling, samen met de woorden uit de verhalen.",
+    "progress": "{learned} van {total} geleerd",
+    "learn": "Leer 10 nieuwe woorden",
+    "allLearned": "Je hebt alle woorden van dit niveau geoefend.",
+    "card": "Woord {n} van {total}",
+    "hint": "Luister en lees. Wat betekent het? Bedenk het, kijk dan pas.",
+    "done": "Deze woorden komen terug in je herhaling.",
+    "more": "Nog 10",
+    "back": "← Terug naar woordenschat",
+    "homeHint": "{learned} van {total} op {level}",
+    "understand": "👂 Verstaan",
+    "say": "🗣️ Zeggen",
+    "sayHint": "Hoe zeg je dit? Zeg het hardop, kijk dan pas.",
+    "showAnswer": "Toon antwoord"
+  },
   "word": {
     "meaningOf": "Betekenis van {word}",
     "speak": "Uitspreken",
@@ -193,15 +210,22 @@
   "review": {
     "title": "Herhalen",
     "loading": "Herhaling laden…",
-    "nothing": "Niets te herhalen vandaag 🎉",
-    "nothingHint": "Woorden die je opzoekt of fout beantwoordt in een verhaal, komen hier vanzelf terug.",
+    "nothing": "Niets te herhalen op dit moment 🎉",
+    "nothingHint": "Wat je leert in verhalen, zinnen en woordenschat komt hier vanzelf terug, net voordat je het zou vergeten. Leer intussen iets nieuws:",
     "done": "Klaar! 🎉",
     "tally": "{good} wist je · {hard} twijfel · {again} nog niet",
-    "doneHint": "Wat je wist, zie je pas over een paar dagen terug. Wat je niet wist, morgen weer.",
+    "doneHint": "Wat je wist, zie je pas over een paar dagen terug. Wat je niet wist, komt over een paar minuten nog eens langs.",
     "reveal": "Toon betekenis",
     "again": "Wist ik niet",
     "hard": "Twijfel",
-    "good": "Wist ik"
+    "good": "Wist ik",
+    "wait": "Even wachten: dit kaartje komt over {time} terug.",
+    "waitWhy": "Meteen herhalen test alleen wat je net zag. Na een korte pauze onthoud je het echt.",
+    "stopNow": "Stoppen, later herhalen",
+    "first": "Eerst {n} woorden herhalen die vandaag klaarstaan",
+    "manyNew": "Je leerde vandaag al {n} nieuwe. Meer mag, maar elke nieuwe kaart komt de komende dagen terug in je herhaling.",
+    "learnWords": "📚 Nieuwe woorden leren",
+    "learnPhrases": "💬 Nieuwe zinnen leren"
   },
   "nav": {
     "home": "Naar het begin",
@@ -209,7 +233,7 @@
   },
   "tiles": {
     "stories": "Verhalen",
-    "words": "Woorden",
+    "words": "Herhalen",
     "count": "{done} van {total}",
     "due": {
       "one": "{n} om te herhalen",
@@ -267,6 +291,8 @@
     "lockedLevel": "De andere verhalen van dit niveau zitten in Plus.",
     "phrasesToday": "Je {n} nieuwe zinnen van vandaag zitten erop. Morgen weer {n}, of onbeperkt met Plus.",
     "phrasesLevel": "De eerste {free} zinnen van dit niveau zijn gratis. Met Plus heb je alle {total}.",
+    "wordsToday": "Je {n} nieuwe woorden van vandaag zitten erop. Morgen weer {n}, of onbeperkt met Plus.",
+    "wordsLevel": "De eerste {free} woorden van dit niveau zijn gratis. Met Plus heb je alle {total}.",
     "reviewsToday": "Je hebt vandaag {n} woorden herhaald, het maximum zonder Plus. Morgen verder, of onbeperkt met Plus.",
     "afterStory": "Goed bezig! Met Plus heb je alle verhalen en geen daglimiet.",
     "perMonthOf": "{price} per maand",

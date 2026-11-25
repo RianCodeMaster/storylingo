@@ -1,0 +1,2005 @@
+# Words for the word trainer, most useful first. Every edition with this target language shows them. text: the
+# dictionary form (German nouns with der/die/das, verbs as infinitive), exactly like the stories' glossary, so a
+# word met in a story is the same word here. example: one short sentence at this level. hint: English, for the
+# translator and for you; learners never see it. Edit freely (a changed text is a new word: it needs a meaning again,
+# `localize-words` adds it), then: storylingo.py sync.
+- text: zijn
+  example: Ik ben thuis.
+  hint: to be
+  topics: [everyday]
+- text: hebben
+  example: Ik heb een fiets.
+  hint: to have
+  topics: [everyday]
+- text: gaan
+  example: We gaan naar huis.
+  hint: to go
+  topics: [everyday]
+- text: komen
+  example: Kom je morgen?
+  hint: to come
+  topics: [everyday]
+- text: doen
+  example: Wat doe je nu?
+  hint: to do
+  topics: [everyday]
+- text: kunnen
+  example: Kun je helpen?
+  hint: can
+  topics: [everyday]
+- text: willen
+  example: Ik wil koffie.
+  hint: to want
+  topics: [everyday]
+- text: moeten
+  example: Je moet wachten.
+  hint: must
+  topics: [everyday]
+- text: maken
+  example: Ik maak eten.
+  hint: to make
+  topics: [everyday]
+- text: zien
+  example: Ik zie de bus.
+  hint: to see
+  topics: [everyday]
+- text: zeggen
+  example: Wat zeg je?
+  hint: to say
+  topics: [everyday]
+- text: weten
+  example: Ik weet het niet.
+  hint: to know
+  topics: [everyday]
+- text: eten
+  example: We eten brood.
+  hint: to eat
+  topics: [shopping]
+- text: drinken
+  example: Ik drink water.
+  hint: to drink
+  topics: [shopping]
+- text: wonen
+  example: Ik woon hier.
+  hint: to live
+  topics: [housing]
+- text: werken
+  example: Hij werkt thuis.
+  hint: to work
+  topics: [work]
+- text: kopen
+  example: Ik koop brood.
+  hint: to buy
+  topics: [shopping]
+- text: betalen
+  example: Ik betaal de koffie.
+  hint: to pay
+  topics: [shopping]
+- text: de
+  example: De hond is lief.
+  hint: the (common)
+  topics: [everyday]
+- text: het
+  example: Het brood is vers.
+  hint: the (neuter)
+  topics: [everyday]
+- text: een
+  example: Ik heb een boek.
+  hint: a/an
+  topics: [everyday]
+- text: en
+  example: Koffie en thee.
+  hint: and
+  topics: [everyday]
+- text: of
+  example: Ja of nee?
+  hint: or
+  topics: [everyday]
+- text: maar
+  example: Klein maar fijn.
+  hint: but
+  topics: [everyday]
+- text: niet
+  example: Ik ben niet moe.
+  hint: not
+  topics: [everyday]
+- text: ik
+  example: Ik woon hier.
+  hint: I
+  topics: [social]
+- text: jij
+  example: Jij bent aardig.
+  hint: you (informal)
+  topics: [social]
+- text: hij
+  example: Hij werkt thuis.
+  hint: he
+  topics: [social]
+- text: wij
+  example: Wij eten samen.
+  hint: we
+  topics: [social]
+- text: wat
+  example: Wat is dat?
+  hint: what
+  topics: [everyday]
+- text: waar
+  example: Waar is de bus?
+  hint: where
+  topics: [travel]
+- text: hoe
+  example: Hoe gaat het?
+  hint: how
+  topics: [social]
+- text: nu
+  example: Ik ga nu.
+  hint: now
+  topics: [everyday]
+- text: vandaag
+  example: Ik werk vandaag.
+  hint: today
+  topics: [everyday]
+- text: morgen
+  example: Tot morgen!
+  hint: tomorrow
+  topics: [everyday]
+- text: gisteren
+  example: Ik was gisteren ziek.
+  hint: yesterday
+  topics: [everyday]
+- text: altijd
+  example: Ik drink altijd water.
+  hint: always
+  topics: [everyday]
+- text: nooit
+  example: Ik kom nooit laat.
+  hint: never
+  topics: [everyday]
+- text: ook
+  example: Ik wil ook koffie.
+  hint: also
+  topics: [everyday]
+- text: hier
+  example: De bus stopt hier.
+  hint: here
+  topics: [travel]
+- text: goed
+  example: Dat is goed.
+  hint: good
+  topics: [everyday]
+- text: groot
+  example: Het huis is groot.
+  hint: big
+  topics: [housing]
+- text: klein
+  example: De kamer is klein.
+  hint: small
+  topics: [housing]
+- text: nieuw
+  example: Ik heb een nieuwe fiets.
+  hint: new
+  topics: [shopping]
+- text: oud
+  example: Mijn fiets is oud.
+  hint: old
+  topics: [everyday]
+- text: blij
+  example: Ik ben blij.
+  hint: happy
+  topics: [social]
+- text: moe
+  example: Ik ben moe.
+  hint: tired
+  topics: [health]
+- text: ziek
+  example: Hij is ziek.
+  hint: sick
+  topics: [health]
+- text: het huis
+  example: Het huis is mooi.
+  hint: house
+  topics: [housing]
+- text: het water
+  example: Ik drink water.
+  hint: water
+  topics: [shopping]
+- text: het brood
+  example: Ik koop brood.
+  hint: bread
+  topics: [shopping]
+- text: de koffie
+  example: Ik drink koffie.
+  hint: coffee
+  topics: [shopping]
+- text: de winkel
+  example: De winkel is open.
+  hint: shop
+  topics: [shopping]
+- text: het geld
+  example: Ik heb geen geld.
+  hint: money
+  topics: [shopping]
+- text: het werk
+  example: Ik zoek werk.
+  hint: work
+  topics: [work]
+- text: de dokter
+  example: Ik ga naar de dokter.
+  hint: doctor
+  topics: [health]
+- text: het ziekenhuis
+  example: De dokter werkt in het ziekenhuis.
+  hint: hospital
+  topics: [health]
+- text: de fiets
+  example: Ik ga met de fiets.
+  hint: bicycle
+  topics: [travel]
+- text: de bus
+  example: De bus komt nu.
+  hint: bus
+  topics: [travel]
+- text: de brief
+  example: Ik schrijf een brief.
+  hint: letter
+  topics: [office]
+- text: in
+  example: Ik woon in een dorp.
+  hint: in
+  topics: [everyday]
+- text: op
+  example: Het boek ligt op de tafel.
+  hint: "on"
+  topics: [everyday]
+- text: aan
+  example: De lamp is aan.
+  hint: on/at
+  topics: [everyday]
+- text: met
+  example: Ik ga met de bus.
+  hint: with
+  topics: [everyday]
+- text: voor
+  example: Dit brood is voor jou.
+  hint: for
+  topics: [everyday]
+- text: bij
+  example: Ik woon bij mijn ouders.
+  hint: at/near
+  topics: [everyday]
+- text: naar
+  example: Wij gaan naar huis.
+  hint: to
+  topics: [everyday]
+- text: van
+  example: Dit is het boek van mij.
+  hint: of/from
+  topics: [everyday]
+- text: uit
+  example: Ik stap uit de bus.
+  hint: out/from
+  topics: [travel]
+- text: over
+  example: Wij praten over het werk.
+  hint: about
+  topics: [everyday]
+- text: onder
+  example: De kat zit onder de tafel.
+  hint: under
+  topics: [everyday]
+- text: tussen
+  example: De bank staat tussen de stoelen.
+  hint: between
+  topics: [everyday]
+- text: naast
+  example: Ik zit naast mijn vriend.
+  hint: next to
+  topics: [everyday]
+- text: achter
+  example: De tuin ligt achter het huis.
+  hint: behind
+  topics: [housing]
+- text: door
+  example: Wij lopen door de stad.
+  hint: through
+  topics: [travel]
+- text: om
+  example: Ik kom om acht uur.
+  hint: at/around
+  topics: [everyday]
+- text: dat
+  example: Ik zie dat hij komt.
+  hint: that
+  topics: [everyday]
+- text: die
+  example: De man die daar loopt is aardig.
+  hint: that/which
+  topics: [everyday]
+- text: dit
+  example: Dit is mijn fiets.
+  hint: this
+  topics: [everyday]
+- text: deze
+  example: Deze jas is nieuw.
+  hint: this/these
+  topics: [everyday]
+- text: mijn
+  example: Mijn sleutel ligt op tafel.
+  hint: my
+  topics: [everyday]
+- text: jouw
+  example: Is dit jouw tas?
+  hint: your
+  topics: [everyday]
+- text: ze
+  example: Ze woont in de stad.
+  hint: she/they
+  topics: [social]
+- text: er
+  example: Er is geen melk.
+  hint: there
+  topics: [everyday]
+- text: daar
+  example: Daar staat de bus.
+  hint: there
+  topics: [travel]
+- text: want
+  example: Ik blijf thuis, want ik ben ziek.
+  hint: because
+  topics: [everyday]
+- text: omdat
+  example: Ik kom niet, omdat ik moe ben.
+  hint: because
+  topics: [everyday]
+- text: als
+  example: Als het regent, blijf ik thuis.
+  hint: if/when
+  topics: [everyday]
+- text: de man
+  example: De man leest de krant.
+  hint: the man
+  topics: [social]
+- text: de vrouw
+  example: De vrouw werkt in de winkel.
+  hint: the woman
+  topics: [social]
+- text: het kind
+  example: Het kind speelt in de tuin.
+  hint: the child
+  topics: [social]
+- text: de vriend
+  example: Mijn vriend woont in de stad.
+  hint: the friend
+  topics: [social]
+- text: de familie
+  example: Mijn familie is heel groot.
+  hint: the family
+  topics: [social]
+- text: boos
+  example: Hij is boos op mij.
+  hint: angry
+  topics: [social]
+- text: verdrietig
+  example: Zij is verdrietig vandaag.
+  hint: sad
+  topics: [social]
+- text: leuk
+  example: Dat boek is heel leuk.
+  hint: nice/fun
+  topics: [social]
+- text: de tafel
+  example: De tafel staat in de keuken.
+  hint: the table
+  topics: [housing]
+- text: de stoel
+  example: De stoel staat bij het raam.
+  hint: the chair
+  topics: [housing]
+- text: het bed
+  example: Het bed staat in de slaapkamer.
+  hint: the bed
+  topics: [housing]
+- text: de deur
+  example: De deur is open.
+  hint: the door
+  topics: [housing]
+- text: de sleutel
+  example: Ik zoek mijn sleutel.
+  hint: the key
+  topics: [housing]
+- text: de melk
+  example: Ik drink elke dag melk.
+  hint: the milk
+  topics: [shopping]
+- text: de thee
+  example: Wil je thee met suiker?
+  hint: the tea
+  topics: [shopping]
+- text: de kaas
+  example: De kaas ligt in de koelkast.
+  hint: the cheese
+  topics: [shopping]
+- text: de appel
+  example: Ik eet een appel.
+  hint: the apple
+  topics: [shopping]
+- text: de trein
+  example: De trein komt om negen uur.
+  hint: the train
+  topics: [travel]
+- text: de auto
+  example: De auto staat voor de deur.
+  hint: the car
+  topics: [travel]
+- text: het station
+  example: Ik wacht op het station.
+  hint: the station
+  topics: [travel]
+- text: de baas
+  example: Mijn baas werkt in het kantoor.
+  hint: the boss
+  topics: [work]
+- text: de afspraak
+  example: Ik heb morgen een afspraak.
+  hint: the appointment
+  topics: [office]
+- text: de telefoon
+  example: Mijn telefoon ligt op tafel.
+  hint: the telephone
+  topics: [office]
+- text: de pijn
+  example: Ik heb pijn in mijn hoofd.
+  hint: the pain
+  topics: [health]
+- text: de koorts
+  example: Het kind heeft koorts.
+  hint: the fever
+  topics: [health]
+- text: het medicijn
+  example: Ik neem het medicijn na het eten.
+  hint: the medicine
+  topics: [health]
+- text: lopen
+  example: Wij lopen naar de winkel.
+  hint: to walk
+  topics: [everyday]
+- text: praten
+  example: Wij praten over het werk.
+  hint: to talk
+  topics: [social]
+- text: luisteren
+  example: Ik wil graag luisteren.
+  hint: to listen
+  topics: [everyday]
+- text: lezen
+  example: Ik wil graag lezen.
+  hint: to read
+  topics: [everyday]
+- text: slapen
+  example: Ik wil graag slapen.
+  hint: to sleep
+  topics: [everyday]
+- text: zoeken
+  example: Wij zoeken een nieuw huis.
+  hint: to search
+  topics: [everyday]
+- text: veel
+  example: Ik lees veel boeken.
+  hint: much, many
+  topics: [everyday]
+- text: weinig
+  example: Ik heb weinig tijd.
+  hint: little, few
+  topics: [everyday]
+- text: genoeg
+  example: Wij hebben genoeg brood.
+  hint: enough
+  topics: [everyday]
+- text: vaak
+  example: Hij komt vaak hier.
+  hint: often
+  topics: [everyday]
+- text: soms
+  example: Soms drink ik thee.
+  hint: sometimes
+  topics: [everyday]
+- text: weer
+  example: Het regent weer.
+  hint: again
+  topics: [everyday]
+- text: nog
+  example: Ik heb nog geen geld.
+  hint: still, yet
+  topics: [everyday]
+- text: al
+  example: De winkel is al open.
+  hint: already
+  topics: [shopping]
+- text: de tijd
+  example: Ik heb geen tijd.
+  hint: time
+  topics: [everyday]
+- text: de week
+  example: De week is lang.
+  hint: week
+  topics: [everyday]
+- text: de avond
+  example: Wij eten in de avond.
+  hint: evening
+  topics: [everyday]
+- text: vroeg
+  example: Ik sta vroeg op.
+  hint: early
+  topics: [everyday]
+- text: staan
+  example: De bus staat bij de halte.
+  hint: to stand
+  topics: [travel]
+- text: zitten
+  example: Wij zitten op de bank.
+  hint: to sit
+  topics: [everyday]
+- text: blijven
+  example: Ik blijf vandaag thuis.
+  hint: to stay
+  topics: [everyday]
+- text: beginnen
+  example: De les begint nu.
+  hint: to begin
+  topics: [everyday]
+- text: stoppen
+  example: De trein stopt hier.
+  hint: to stop
+  topics: [travel]
+- text: wachten
+  example: Wacht je op de bus?
+  hint: to wait
+  topics: [travel]
+- text: helpen
+  example: Kun je mij helpen?
+  hint: to help
+  topics: [social]
+- text: vragen
+  example: Ik vraag de weg.
+  hint: to ask
+  topics: [travel]
+- text: bellen
+  example: Bel de dokter.
+  hint: to call
+  topics: [health]
+- text: geven
+  example: Geef mij het boek.
+  hint: to give
+  topics: [everyday]
+- text: nemen
+  example: Ik neem de trein.
+  hint: to take
+  topics: [travel]
+- text: pakken
+  example: Pak je jas.
+  hint: to take, grab
+  topics: [everyday]
+- text: brengen
+  example: Breng het brood mee.
+  hint: to bring
+  topics: [everyday]
+- text: halen
+  example: Ik haal brood bij de winkel.
+  hint: to fetch
+  topics: [shopping]
+- text: koken
+  example: Zij kookt het eten.
+  hint: to cook
+  topics: [shopping]
+- text: wassen
+  example: Was je handen.
+  hint: to wash
+  topics: [health]
+- text: spelen
+  example: De kinderen spelen buiten.
+  hint: to play
+  topics: [social]
+- text: fietsen
+  example: Wij fietsen naar het station.
+  hint: to cycle
+  topics: [travel]
+- text: rijden
+  example: Hij rijdt naar huis.
+  hint: to drive, ride
+  topics: [travel]
+- text: leren
+  example: Ik leer Nederlands.
+  hint: to learn
+  topics: [everyday]
+- text: vinden
+  example: Ik vind de sleutel niet.
+  hint: to find
+  topics: [everyday]
+- text: denken
+  example: Ik denk aan jou.
+  hint: to think
+  topics: [social]
+- text: kijken
+  example: Kijk naar de kaart.
+  hint: to look
+  topics: [travel]
+- text: voelen
+  example: Ik voel mij niet goed.
+  hint: to feel
+  topics: [health]
+- text: de moeder
+  example: Mijn moeder is lief.
+  hint: mother
+  topics: [social]
+- text: de vader
+  example: Mijn vader werkt veel.
+  hint: father
+  topics: [social]
+- text: de broer
+  example: Mijn broer woont hier.
+  hint: brother
+  topics: [social]
+- text: de zus
+  example: Mijn zus is jong.
+  hint: sister
+  topics: [social]
+- text: de jongen
+  example: De jongen speelt buiten.
+  hint: boy
+  topics: [social]
+- text: het meisje
+  example: Het meisje leest een boek.
+  hint: girl
+  topics: [social]
+- text: de buurman
+  example: De buurman is aardig.
+  hint: neighbor, male
+  topics: [social]
+- text: de kamer
+  example: De kamer is groot.
+  hint: room
+  topics: [housing]
+- text: de keuken
+  example: Ik kook in de keuken.
+  hint: kitchen
+  topics: [housing]
+- text: de badkamer
+  example: De badkamer is schoon.
+  hint: bathroom
+  topics: [housing]
+- text: de tuin
+  example: Wij zitten in de tuin.
+  hint: garden
+  topics: [housing]
+- text: het raam
+  example: Doe het raam open.
+  hint: window
+  topics: [housing]
+- text: de tandarts
+  example: Ik ga naar de tandarts.
+  hint: dentist
+  topics: [health]
+- text: de hand
+  example: Was je handen.
+  hint: hand
+  topics: [health]
+- text: de buik
+  example: Mijn buik doet pijn.
+  hint: belly
+  topics: [health]
+- text: de apotheek
+  example: De apotheek is dicht.
+  hint: pharmacy
+  topics: [health]
+- text: gezond
+  example: Gezond eten is goed.
+  hint: healthy
+  topics: [health]
+- text: de baan
+  example: Hij heeft een nieuwe baan.
+  hint: job
+  topics: [work]
+- text: de collega
+  example: Mijn collega is aardig.
+  hint: colleague
+  topics: [work]
+- text: het kantoor
+  example: Ik werk op kantoor.
+  hint: office
+  topics: [office]
+- text: de markt
+  example: Wij kopen fruit op de markt.
+  hint: market
+  topics: [shopping]
+- text: de prijs
+  example: De prijs is te hoog.
+  hint: price
+  topics: [shopping]
+- text: de tas
+  example: Mijn tas is zwaar.
+  hint: bag
+  topics: [shopping]
+- text: de jas
+  example: Trek je jas aan.
+  hint: coat
+  topics: [everyday]
+- text: dan
+  example: Eerst eten, dan werken.
+  hint: then
+  topics: [everyday]
+- text: eerst
+  example: Eerst drink ik koffie.
+  hint: first
+  topics: [everyday]
+- text: daarna
+  example: Daarna ga ik naar huis.
+  hint: afterwards
+  topics: [everyday]
+- text: tot
+  example: Tot morgen!
+  hint: until
+  topics: [everyday]
+- text: graag
+  example: Ik drink graag thee.
+  hint: gladly
+  topics: [social]
+- text: misschien
+  example: Misschien kom ik morgen.
+  hint: maybe
+  topics: [everyday]
+- text: bijna
+  example: Het is bijna vijf uur.
+  hint: almost
+  topics: [everyday]
+- text: de naam
+  example: Wat is je naam?
+  hint: name
+  topics: [social]
+- text: de supermarkt
+  example: Ik ga naar de supermarkt.
+  hint: supermarket
+  topics: [shopping]
+- text: de televisie
+  example: De televisie staat aan.
+  hint: television
+  topics: [everyday]
+- text: de radio
+  example: De radio staat zacht.
+  hint: radio
+  topics: [everyday]
+- text: het boek
+  example: Ik lees een boek.
+  hint: book
+  topics: [everyday]
+- text: de krant
+  example: Hij leest de krant.
+  hint: newspaper
+  topics: [everyday]
+- text: de foto
+  example: Dit is een mooie foto.
+  hint: photo
+  topics: [everyday]
+- text: de muziek
+  example: Ik luister naar muziek.
+  hint: music
+  topics: [everyday]
+- text: de film
+  example: De film is mooi.
+  hint: film
+  topics: [everyday]
+- text: de dochter
+  example: Mijn dochter is zes.
+  hint: daughter
+  topics: [social]
+- text: de zoon
+  example: Hun zoon woont hier.
+  hint: son
+  topics: [social]
+- text: de ouders
+  example: Mijn ouders wonen hier.
+  hint: parents
+  topics: [social]
+- text: de vriendin
+  example: Mijn vriendin is lief.
+  hint: female friend
+  topics: [social]
+- text: de buurvrouw
+  example: De buurvrouw is aardig.
+  hint: female neighbour
+  topics: [social]
+- text: de baby
+  example: De baby slaapt nu.
+  hint: baby
+  topics: [social]
+- text: de oma
+  example: Mijn oma is oud.
+  hint: grandmother
+  topics: [social]
+- text: de opa
+  example: Mijn opa woont alleen.
+  hint: grandfather
+  topics: [social]
+- text: de verjaardag
+  example: Mijn verjaardag is morgen.
+  hint: birthday
+  topics: [social]
+- text: de woonkamer
+  example: De woonkamer is groot.
+  hint: living room
+  topics: [housing]
+- text: het toilet
+  example: Het toilet is daar.
+  hint: toilet
+  topics: [housing]
+- text: de douche
+  example: De douche is warm.
+  hint: shower
+  topics: [housing]
+- text: de trap
+  example: De trap is hoog.
+  hint: stairs
+  topics: [housing]
+- text: de muur
+  example: De muur is wit.
+  hint: wall
+  topics: [housing]
+- text: de lamp
+  example: De lamp is stuk.
+  hint: lamp
+  topics: [housing]
+- text: het licht
+  example: Het licht is aan.
+  hint: light
+  topics: [housing]
+- text: de bakker
+  example: De bakker is dicht.
+  hint: baker
+  topics: [shopping]
+- text: de boterham
+  example: Ik eet een boterham.
+  hint: sandwich
+  topics: [shopping]
+- text: het fruit
+  example: Ik koop fruit op de markt.
+  hint: fruit
+  topics: [shopping]
+- text: de banaan
+  example: De banaan is geel.
+  hint: banana
+  topics: [shopping]
+- text: de aardappel
+  example: De aardappel is groot.
+  hint: potato
+  topics: [shopping]
+- text: de groente
+  example: Ik eet veel groente.
+  hint: vegetables
+  topics: [shopping]
+- text: het vlees
+  example: Het vlees is duur.
+  hint: meat
+  topics: [shopping]
+- text: de kip
+  example: De kip is lekker.
+  hint: chicken
+  topics: [shopping]
+- text: het ei
+  example: Het ei is bruin.
+  hint: egg
+  topics: [shopping]
+- text: de suiker
+  example: Ik neem suiker in de thee.
+  hint: sugar
+  topics: [shopping]
+- text: het zout
+  example: Het zout is op.
+  hint: salt
+  topics: [shopping]
+- text: de soep
+  example: De soep is heet.
+  hint: soup
+  topics: [shopping]
+- text: de huisarts
+  example: Ik ga naar de huisarts.
+  hint: GP
+  topics: [health]
+- text: de bril
+  example: Mijn bril is kapot.
+  hint: glasses
+  topics: [health]
+- text: verkouden
+  example: Ik ben verkouden.
+  hint: have a cold
+  topics: [health]
+- text: de griep
+  example: Ik heb de griep.
+  hint: flu
+  topics: [health]
+- text: slecht
+  example: Ik voel me slecht.
+  hint: bad
+  topics: [health]
+- text: de tram
+  example: De tram komt nu.
+  hint: tram
+  topics: [travel]
+- text: de metro
+  example: Ik neem de metro.
+  hint: metro
+  topics: [travel]
+- text: de boot
+  example: De boot is groot.
+  hint: boat
+  topics: [travel]
+- text: het vliegtuig
+  example: Het vliegtuig is laat.
+  hint: airplane
+  topics: [travel]
+- text: het kaartje
+  example: Ik koop een kaartje.
+  hint: ticket
+  topics: [travel]
+- text: de vakantie
+  example: De vakantie is lang.
+  hint: holiday
+  topics: [travel]
+- text: de gemeente
+  example: Ik bel de gemeente.
+  hint: municipality
+  topics: [office]
+- text: de pen
+  example: Ik schrijf met een pen.
+  hint: pen
+  topics: [office]
+- text: het papier
+  example: Het papier is wit.
+  hint: paper
+  topics: [office]
+- text: de e-mail
+  example: Ik stuur een e-mail.
+  hint: email
+  topics: [office]
+- text: de bank
+  example: Ik ga naar de bank.
+  hint: bank
+  topics: [office]
+- text: ja
+  example: Ja, dat klopt.
+  hint: "yes"
+  topics: [everyday]
+- text: nee
+  example: Nee, ik kom niet.
+  hint: "no"
+  topics: [everyday]
+- text: geen
+  example: Ik heb geen tijd.
+  hint: not any
+  topics: [everyday]
+- text: heel
+  example: Het is heel warm vandaag.
+  hint: very
+  topics: [everyday]
+- text: alleen
+  example: Ik woon alleen in dit huis.
+  hint: alone, only
+  topics: [social]
+- text: dus
+  example: Ik ben moe, dus ik ga slapen.
+  hint: so
+  topics: [everyday]
+- text: wel
+  example: Ik heb wel een paraplu.
+  hint: indeed
+  topics: [everyday]
+- text: wie
+  example: Wie is die vrouw?
+  hint: who
+  topics: [social]
+- text: waarom
+  example: Waarom ben je zo laat?
+  hint: why
+  topics: [everyday]
+- text: hoeveel
+  example: Hoeveel kost deze tas?
+  hint: how much
+  topics: [shopping]
+- text: zonder
+  example: Ik drink koffie zonder suiker.
+  hint: without
+  topics: [everyday]
+- text: tegen
+  example: De fiets staat tegen de muur.
+  hint: against
+  topics: [everyday]
+- text: na
+  example: Na het werk ga ik naar huis.
+  hint: after
+  topics: [everyday]
+- text: samen
+  example: We eten samen in de keuken.
+  hint: together
+  topics: [social]
+- text: even
+  example: Ik wacht even op de bus.
+  hint: briefly
+  topics: [everyday]
+- text: de dag
+  example: De dag begint om zeven uur.
+  hint: day
+  topics: [everyday]
+- text: de ochtend
+  example: In de ochtend drink ik koffie.
+  hint: morning
+  topics: [everyday]
+- text: de middag
+  example: In de middag ga ik naar huis.
+  hint: afternoon
+  topics: [everyday]
+- text: het weekend
+  example: In het weekend ben ik thuis.
+  hint: weekend
+  topics: [everyday]
+- text: de maand
+  example: Deze maand is heel druk.
+  hint: month
+  topics: [everyday]
+- text: het jaar
+  example: Ik woon hier al een jaar.
+  hint: year
+  topics: [everyday]
+- text: het hoofd
+  example: Mijn hoofd doet pijn.
+  hint: head
+  topics: [health]
+- text: de arm
+  example: Mijn arm doet pijn.
+  hint: arm
+  topics: [health]
+- text: de voet
+  example: Ik heb pijn aan mijn voet.
+  hint: foot
+  topics: [health]
+- text: de keel
+  example: Mijn keel doet pijn.
+  hint: throat
+  topics: [health]
+- text: de pil
+  example: Neem elke dag een pil.
+  hint: pill
+  topics: [health]
+- text: het recept
+  example: De dokter geeft mij een recept.
+  hint: prescription
+  topics: [health]
+- text: het formulier
+  example: Vul dit formulier maar in.
+  hint: form
+  topics: [office]
+- text: het paspoort
+  example: Mijn paspoort ligt in de tas.
+  hint: passport
+  topics: [office, travel]
+- text: de postcode
+  example: Mijn postcode staat op de brief.
+  hint: postcode
+  topics: [office]
+- text: het adres
+  example: Wat is uw adres?
+  hint: address
+  topics: [office]
+- text: de computer
+  example: Ik werk elke dag op de computer.
+  hint: computer
+  topics: [office, work]
+- text: het bericht
+  example: Ik stuur u een bericht.
+  hint: message
+  topics: [office]
+- text: de school
+  example: De school begint om acht uur.
+  hint: school
+  topics: [work]
+- text: de les
+  example: De les is vandaag heel leuk.
+  hint: lesson
+  topics: [work]
+- text: de leraar
+  example: De leraar legt de oefening uit.
+  hint: teacher
+  topics: [work]
+- text: de klant
+  example: De klant betaalt bij de kassa.
+  hint: customer
+  topics: [work, shopping]
+- text: de rekening
+  example: Mag ik de rekening, alstublieft?
+  hint: bill
+  topics: [shopping]
+- text: de schoen
+  example: Deze schoen is te klein.
+  hint: shoe
+  topics: [shopping]
+- text: de broek
+  example: Ik zoek een nieuwe broek.
+  hint: trousers
+  topics: [shopping]
+- text: de trui
+  example: Ik draag vandaag een warme trui.
+  hint: sweater
+  topics: [shopping]
+- text: de fles
+  example: De fles water staat op tafel.
+  hint: bottle
+  topics: [shopping]
+- text: het glas
+  example: Wil je een glas water?
+  hint: glass
+  topics: [shopping]
+- text: de kassa
+  example: Betaal je bij de kassa?
+  hint: checkout
+  topics: [shopping]
+- text: de hond
+  example: De hond loopt in de tuin.
+  hint: dog
+  topics: [housing]
+- text: de kat
+  example: De kat slaapt op de stoel.
+  hint: cat
+  topics: [housing]
+- text: de kast
+  example: De kopjes staan in de kast.
+  hint: cupboard
+  topics: [housing]
+- text: de bloem
+  example: Ik koop een bloem voor haar.
+  hint: flower
+  topics: [housing]
+- text: de wc
+  example: De wc is naast de badkamer.
+  hint: toilet
+  topics: [housing]
+- text: links
+  example: Het toilet is links.
+  hint: left
+  topics: [travel]
+- text: rechts
+  example: De winkel is rechts.
+  hint: right
+  topics: [travel]
+- text: de weg
+  example: Ik weet de weg niet.
+  hint: way
+  topics: [travel]
+- text: de kaart
+  example: Heb je een kaart van de stad?
+  hint: map
+  topics: [travel]
+- text: de stad
+  example: Ik woon in een grote stad.
+  hint: city
+  topics: [travel]
+- text: het gesprek
+  example: We hebben een kort gesprek.
+  hint: conversation
+  topics: [social]
+- text: de vraag
+  example: Ik heb een vraag voor u.
+  hint: question
+  topics: [social]
+- text: het antwoord
+  example: Het antwoord is niet goed.
+  hint: answer
+  topics: [social]
+- text: bang
+  example: Ik ben bang voor de hond.
+  hint: afraid
+  topics: [social]
+- text: rustig
+  example: De buurt is heel rustig.
+  hint: quiet
+  topics: [social]
+- text: gezellig
+  example: Het feest was erg gezellig.
+  hint: cosy
+  topics: [social]
+- text: mogen
+  example: Mag ik hier zitten?
+  hint: may
+  topics: [everyday]
+- text: zullen
+  example: We zullen morgen bellen.
+  hint: will, shall
+  topics: [everyday]
+- text: begrijpen
+  example: Ik begrijp de vraag niet.
+  hint: understand
+  topics: [everyday]
+- text: gebruiken
+  example: Ik gebruik de computer.
+  hint: use
+  topics: [everyday]
+- text: horen
+  example: Ik hoor de telefoon.
+  hint: hear
+  topics: [everyday]
+- text: schrijven
+  example: Ik schrijf een brief.
+  hint: write
+  topics: [office]
+- text: bestellen
+  example: Ik bestel een kopje koffie.
+  hint: order
+  topics: [shopping]
+- text: opstaan
+  example: Ik sta om zeven uur op.
+  hint: get up
+  topics: [everyday]
+- text: wandelen
+  example: We wandelen in de stad.
+  hint: walk
+  topics: [travel]
+- text: het uur
+  example: De les duurt een uur.
+  hint: hour
+  topics: [everyday]
+- text: de minuut
+  example: Wacht even een minuut.
+  hint: minute
+  topics: [everyday]
+- text: de nacht
+  example: Ik slaap goed in de nacht.
+  hint: night
+  topics: [everyday]
+- text: de klok
+  example: De klok is stuk.
+  hint: clock
+  topics: [housing]
+- text: het bord
+  example: Zet het bord op tafel.
+  hint: plate
+  topics: [shopping]
+- text: het mes
+  example: Het mes ligt op tafel.
+  hint: knife
+  topics: [shopping]
+- text: de vork
+  example: Ik eet met een vork.
+  hint: fork
+  topics: [shopping]
+- text: de lepel
+  example: De lepel is vies.
+  hint: spoon
+  topics: [shopping]
+- text: het kopje
+  example: Wil je een kopje thee?
+  hint: cup
+  topics: [shopping]
+- text: de rijst
+  example: We eten rijst met kip.
+  hint: rice
+  topics: [shopping]
+- text: de vis
+  example: De vis is vers vandaag.
+  hint: fish
+  topics: [shopping]
+- text: de boter
+  example: Doe wat boter op je brood.
+  hint: butter
+  topics: [shopping]
+- text: de tomaat
+  example: De tomaat is rood en lekker.
+  hint: tomato
+  topics: [shopping]
+- text: het ijs
+  example: De kinderen eten ijs.
+  hint: ice cream
+  topics: [shopping]
+- text: de koek
+  example: Ik neem een koek bij de koffie.
+  hint: cookie
+  topics: [shopping]
+- text: het ontbijt
+  example: Het ontbijt is om acht uur.
+  hint: breakfast
+  topics: [shopping]
+- text: de lunch
+  example: We eten lunch in de stad.
+  hint: lunch
+  topics: [shopping]
+- text: de pauze
+  example: We hebben pauze om twaalf uur.
+  hint: break
+  topics: [work]
+- text: het haar
+  example: Zij heeft lang haar.
+  hint: hair
+  topics: [health]
+- text: de neus
+  example: Mijn neus is rood.
+  hint: nose
+  topics: [health]
+- text: de mond
+  example: Doe je mond open.
+  hint: mouth
+  topics: [health]
+- text: het oor
+  example: Mijn oor doet pijn.
+  hint: ear
+  topics: [health]
+- text: het oog
+  example: Ik heb pijn in mijn oog.
+  hint: eye
+  topics: [health]
+- text: de rug
+  example: Mijn rug doet pijn.
+  hint: back
+  topics: [health]
+- text: het been
+  example: Hij heeft pijn in zijn been.
+  hint: leg
+  topics: [health]
+- text: de vinger
+  example: Mijn vinger doet pijn.
+  hint: finger
+  topics: [health]
+- text: de tand
+  example: De tand doet pijn.
+  hint: tooth
+  topics: [health]
+- text: gelukkig
+  example: Ik ben gelukkig vandaag.
+  hint: happy
+  topics: [social]
+- text: druk
+  example: Ik ben druk op mijn werk.
+  hint: busy
+  topics: [work]
+- text: lief
+  example: De hond is heel lief.
+  hint: kind, sweet
+  topics: [social]
+- text: aardig
+  example: Mijn buurman is aardig.
+  hint: nice
+  topics: [social]
+- text: saai
+  example: De film is een beetje saai.
+  hint: boring
+  topics: [social]
+- text: laat
+  example: Ik ben laat vandaag.
+  hint: late
+  topics: [everyday]
+- text: duur
+  example: Deze tas is te duur.
+  hint: expensive
+  topics: [shopping]
+- text: goedkoop
+  example: De appels zijn goedkoop vandaag.
+  hint: cheap
+  topics: [shopping]
+- text: warm
+  example: Het water is warm.
+  hint: warm
+  topics: [everyday]
+- text: koud
+  example: Het is koud vandaag.
+  hint: cold
+  topics: [everyday]
+- text: heet
+  example: De soep is heel heet.
+  hint: hot
+  topics: [everyday]
+- text: lekker
+  example: De soep is heel lekker.
+  hint: tasty
+  topics: [shopping]
+- text: vies
+  example: De keuken is vies.
+  hint: dirty
+  topics: [housing]
+- text: schoon
+  example: Het huis is schoon.
+  hint: clean
+  topics: [housing]
+- text: mooi
+  example: De tuin is heel mooi.
+  hint: beautiful
+  topics: [everyday]
+- text: lang
+  example: De weg is lang.
+  hint: long, tall
+  topics: [everyday]
+- text: kort
+  example: De les is kort vandaag.
+  hint: short
+  topics: [everyday]
+- text: jong
+  example: De hond is nog jong.
+  hint: young
+  topics: [social]
+- text: open
+  example: De winkel is open.
+  hint: open
+  topics: [shopping]
+- text: dicht
+  example: De bank is dicht vandaag.
+  hint: closed
+  topics: [shopping]
+- text: vol
+  example: De bus is vol.
+  hint: full
+  topics: [everyday]
+- text: leeg
+  example: Het glas is leeg.
+  hint: empty
+  topics: [everyday]
+- text: moeilijk
+  example: De vraag is moeilijk.
+  hint: difficult
+  topics: [everyday]
+- text: makkelijk
+  example: De les is makkelijk.
+  hint: easy
+  topics: [everyday]
+- text: krijgen
+  example: Ik krijg een cadeau.
+  hint: get, receive
+  topics: [everyday]
+- text: spreken
+  example: Ik spreek geen Engels.
+  hint: speak
+  topics: [everyday]
+- text: vertellen
+  example: Vertel eens over je werk.
+  hint: tell
+  topics: [social, everyday]
+- text: kennen
+  example: Ik ken die man niet.
+  hint: know (people)
+  topics: [social]
+- text: liggen
+  example: De kat ligt op het bed.
+  hint: lie
+  topics: [everyday, housing]
+- text: de straat
+  example: Ik woon in deze straat.
+  hint: street
+  topics: [housing]
+- text: het nummer
+  example: Ik schrijf het nummer op.
+  hint: number
+  topics: [office, everyday]
+- text: belangrijk
+  example: Werk is belangrijk voor mij.
+  hint: important
+  topics: [everyday]
+- text: iets
+  example: Wil je iets drinken?
+  hint: something
+  topics: [everyday]
+- text: niets
+  example: Ik heb niets nodig.
+  hint: nothing
+  topics: [everyday]
+- text: alles
+  example: Alles is nu klaar.
+  hint: everything
+  topics: [everyday]
+- text: iemand
+  example: Er is iemand aan de deur.
+  hint: someone
+  topics: [everyday]
+- text: niemand
+  example: Niemand is thuis.
+  hint: nobody
+  topics: [everyday]
+- text: elkaar
+  example: Wij helpen elkaar.
+  hint: each other
+  topics: [social]
+- text: klaar
+  example: Ben je al klaar?
+  hint: ready, finished
+  topics: [everyday]
+- text: snel
+  example: De trein gaat snel.
+  hint: fast
+  topics: [everyday]
+- text: langzaam
+  example: De bus rijdt langzaam.
+  hint: slow
+  topics: [everyday]
+- text: proberen
+  example: Ik probeer het nog een keer.
+  hint: try
+  topics: [everyday]
+- text: bezoeken
+  example: Wij bezoeken oma vandaag.
+  hint: visit
+  topics: [social]
+- text: uitnodigen
+  example: Ik nodig mijn vrienden uit.
+  hint: invite
+  topics: [social]
+- text: vieren
+  example: Wij vieren mijn verjaardag thuis.
+  hint: celebrate
+  topics: [social]
+- text: lachen
+  example: De baby lacht naar mij.
+  hint: laugh
+  topics: [social]
+- text: zingen
+  example: Zij zingt een mooi lied.
+  hint: sing
+  topics: [social]
+- text: zwemmen
+  example: Ik zwem graag in de zee.
+  hint: swim
+  topics: [everyday, travel]
+- text: dragen
+  example: Hij draagt een blauwe jas.
+  hint: wear, carry
+  topics: [everyday]
+- text: sturen
+  example: Ik stuur je een bericht.
+  hint: send
+  topics: [office, everyday]
+- text: sluiten
+  example: Sluit de deur, alsjeblieft.
+  hint: close
+  topics: [housing, everyday]
+- text: de slaapkamer
+  example: De slaapkamer is boven.
+  hint: bedroom
+  topics: [housing]
+- text: de vloer
+  example: De vloer is nat.
+  hint: floor
+  topics: [housing]
+- text: de buurt
+  example: Wij wonen in een rustige buurt.
+  hint: neighbourhood
+  topics: [housing]
+- text: het dorp
+  example: Mijn oma woont in een dorp.
+  hint: village
+  topics: [housing]
+- text: de hoek
+  example: De winkel is om de hoek.
+  hint: corner
+  topics: [housing]
+- text: de brug
+  example: De brug is dicht.
+  hint: bridge
+  topics: [travel]
+- text: de zee
+  example: Wij gaan naar de zee.
+  hint: sea
+  topics: [travel]
+- text: het strand
+  example: Het strand is vandaag druk.
+  hint: beach
+  topics: [travel]
+- text: de taxi
+  example: Wij nemen een taxi naar huis.
+  hint: taxi
+  topics: [travel]
+- text: het vliegveld
+  example: De taxi gaat naar het vliegveld.
+  hint: airport
+  topics: [travel]
+- text: het hotel
+  example: Het hotel is niet duur.
+  hint: hotel
+  topics: [travel]
+- text: de reis
+  example: De reis duurt twee uur.
+  hint: trip
+  topics: [travel]
+- text: het verkeer
+  example: Er is veel verkeer vandaag.
+  hint: traffic
+  topics: [travel]
+- text: het bedrijf
+  example: Mijn vader werkt bij een bedrijf.
+  hint: company
+  topics: [work]
+- text: de post
+  example: De post komt om tien uur.
+  hint: mail
+  topics: [office]
+- text: de chef
+  example: Mijn chef is vandaag ziek.
+  hint: boss
+  topics: [work]
+- text: de slager
+  example: De slager verkoopt vlees.
+  hint: butcher
+  topics: [shopping]
+- text: het broodje
+  example: Ik eet een broodje met kaas.
+  hint: bread roll
+  topics: [shopping]
+- text: de wortel
+  example: De wortel is oranje.
+  hint: carrot
+  topics: [shopping]
+- text: de ober
+  example: De ober brengt het eten.
+  hint: waiter
+  topics: [shopping]
+- text: het restaurant
+  example: Wij eten in een restaurant.
+  hint: restaurant
+  topics: [shopping]
+- text: de maag
+  example: Mijn maag doet pijn.
+  hint: stomach
+  topics: [health]
+- text: de schouder
+  example: Mijn schouder doet pijn.
+  hint: shoulder
+  topics: [health]
+- text: de knie
+  example: Mijn knie doet pijn.
+  hint: knee
+  topics: [health]
+- text: de pleister
+  example: Ik heb een pleister nodig.
+  hint: plaster
+  topics: [health]
+- text: de liefde
+  example: Liefde is belangrijk.
+  hint: love
+  topics: [social]
+- text: het feest
+  example: Het feest begint om acht uur.
+  hint: party
+  topics: [social]
+- text: de gast
+  example: De gasten komen om zeven uur.
+  hint: guest
+  topics: [social]
+- text: donker
+  example: Het is nu donker buiten.
+  hint: dark
+  topics: [everyday]
+- text: nat
+  example: Mijn jas is nat van de regen.
+  hint: wet
+  topics: [everyday]
+- text: droog
+  example: De was is nu droog.
+  hint: dry
+  topics: [everyday]
+- text: zoet
+  example: Deze appeltaart is zoet.
+  hint: sweet
+  topics: [shopping]
+- text: zuur
+  example: De citroen smaakt zuur.
+  hint: sour
+  topics: [shopping]
+- text: je
+  example: Heb je een pen voor mij?
+  hint: you informal
+  topics: [everyday]
+- text: we
+  example: We gaan samen naar de markt.
+  hint: we
+  topics: [everyday]
+- text: jullie
+  example: Jullie wonen in een groot huis.
+  hint: you plural
+  topics: [social]
+- text: u
+  example: Hoe gaat het met u?
+  hint: you formal
+  topics: [social]
+- text: wanneer
+  example: Wanneer kom je naar huis?
+  hint: when
+  topics: [everyday]
+- text: worden
+  example: Ik wil later dokter worden.
+  hint: become
+  topics: [everyday]
+- text: hun
+  example: Hun huis is heel groot.
+  hint: their
+  topics: [social]
+- text: ons
+  example: Kom je bij ons eten?
+  hint: us our
+  topics: [social]
+- text: onze
+  example: Onze auto staat voor het huis.
+  hint: our
+  topics: [social]
+- text: alle
+  example: Alle kinderen zijn vandaag thuis.
+  hint: all
+  topics: [everyday]
+- text: allemaal
+  example: We zijn allemaal een beetje moe.
+  hint: all
+  topics: [everyday]
+- text: iedereen
+  example: Iedereen is nu in de keuken.
+  hint: everyone
+  topics: [social]
+- text: zo
+  example: Het is vandaag zo koud.
+  hint: so
+  topics: [everyday]
+- text: zelf
+  example: Ik maak het eten zelf.
+  hint: myself
+  topics: [everyday]
+- text: erg
+  example: De soep is erg heet.
+  hint: very
+  topics: [everyday]
+- text: ander
+  example: Ik wil een ander boek.
+  hint: other
+  topics: [everyday]
+- text: eigen
+  example: Zij heeft een eigen kamer.
+  hint: own
+  topics: [housing]
+- text: gewoon
+  example: Ik drink gewoon water.
+  hint: just normal
+  topics: [everyday]
+- text: meestal
+  example: Ik fiets meestal naar mijn werk.
+  hint: usually
+  topics: [everyday]
+- text: ergens
+  example: Ik zoek ergens een rustig plekje.
+  hint: somewhere
+  topics: [everyday]
+- text: huilen
+  example: De baby huilt heel hard.
+  hint: cry
+  topics: [social]
+- text: dansen
+  example: We dansen op de muziek.
+  hint: dance
+  topics: [social]
+- text: vliegen
+  example: We vliegen morgen naar huis.
+  hint: fly
+  topics: [travel]
+- text: reizen
+  example: Ik reis graag met de trein.
+  hint: travel
+  topics: [travel]
+- text: rennen
+  example: Hij rent naar de bus.
+  hint: run
+  topics: [travel]
+- text: vallen
+  example: Ik val op de trap.
+  hint: fall
+  topics: [health]
+- text: verkopen
+  example: Zij verkoopt brood in de winkel.
+  hint: sell
+  topics: [work]
+- text: kiezen
+  example: Ik kies de rode trui.
+  hint: choose
+  topics: [shopping]
+- text: vergeten
+  example: Ik vergeet mijn sleutel vaak.
+  hint: forget
+  topics: [everyday]
+- text: houden
+  example: Ik houd van sterke koffie.
+  hint: love like
+  topics: [social]
+- text: heten
+  example: Hoe heet je hond?
+  hint: be called
+  topics: [social]
+- text: meenemen
+  example: Neem je paraplu mee naar buiten.
+  hint: take along
+  topics: [everyday]
+- text: ophalen
+  example: Ik haal je op bij het station.
+  hint: pick up
+  topics: [travel]
+- text: terugkomen
+  example: Ik kom morgen vroeg terug.
+  hint: come back
+  topics: [travel]
+- text: instappen
+  example: We stappen in de trein.
+  hint: get in
+  topics: [travel]
+- text: uitstappen
+  example: Ik stap uit bij de halte.
+  hint: get out
+  topics: [travel]
+- text: parkeren
+  example: Ik parkeer de auto hier.
+  hint: park
+  topics: [travel]
+- text: kosten
+  example: Hoeveel kosten deze schoenen?
+  hint: cost
+  topics: [shopping]
+- text: gebeuren
+  example: Wat gebeurt er vandaag?
+  hint: happen
+  topics: [everyday]
+- text: regenen
+  example: Het gaat straks regenen.
+  hint: rain
+  topics: [everyday]
+- text: het sap
+  example: Ik drink graag vers sap.
+  hint: juice
+  topics: [shopping]
+- text: de wijn
+  example: We drinken wijn bij het eten.
+  hint: wine
+  topics: [shopping]
+- text: de sinaasappel
+  example: Ik eet een sinaasappel.
+  hint: orange
+  topics: [shopping]
+- text: de ui
+  example: De soep heeft een ui nodig.
+  hint: onion
+  topics: [shopping]
+- text: de agenda
+  example: Ik kijk in mijn agenda.
+  hint: calendar
+  topics: [office]
+- text: de koelkast
+  example: De melk staat in de koelkast.
+  hint: fridge
+  topics: [housing]
+- text: de wasmachine
+  example: De wasmachine is vandaag kapot.
+  hint: washing machine
+  topics: [housing]
+- text: de oven
+  example: De kip zit in de oven.
+  hint: oven
+  topics: [housing]
+- text: de pan
+  example: De pan staat op het vuur.
+  hint: pan
+  topics: [housing]
+- text: de spiegel
+  example: Ik kijk in de spiegel.
+  hint: mirror
+  topics: [housing]
+- text: het plafond
+  example: De lamp hangt aan het plafond.
+  hint: ceiling
+  topics: [housing]
+- text: het hart
+  example: Mijn hart klopt heel snel.
+  hint: heart
+  topics: [health]
+- text: het gezicht
+  example: Was je gezicht met water.
+  hint: face
+  topics: [health]
+- text: de lip
+  example: Mijn lip is erg droog.
+  hint: lip
+  topics: [health]
+- text: de teen
+  example: Ik stoot mijn teen aan de tafel.
+  hint: toe
+  topics: [health]
+- text: de hoofdpijn
+  example: Ik heb vandaag veel hoofdpijn.
+  hint: headache
+  topics: [health]
+- text: de vergadering
+  example: De vergadering begint om negen uur.
+  hint: meeting
+  topics: [work]
+- text: de pinpas
+  example: Ik betaal met mijn pinpas.
+  hint: debit card
+  topics: [shopping]
+- text: de bushalte
+  example: De bushalte is naast de winkel.
+  hint: bus stop
+  topics: [travel]
+- text: de zon
+  example: De zon schijnt vandaag.
+  hint: sun
+  topics: [everyday]
+- text: de handdoek
+  example: De handdoek hangt in de badkamer.
+  hint: towel
+  topics: [housing]
+- text: de zeep
+  example: Ik was mijn handen met zeep.
+  hint: soap
+  topics: [health]
+- text: de tandenborstel
+  example: Ik poets mijn tanden met de tandenborstel.
+  hint: toothbrush
+  topics: [health]
+- text: de tandpasta
+  example: De tandpasta ligt naast de spiegel.
+  hint: toothpaste
+  topics: [health]
+- text: de buikpijn
+  example: Ik heb buikpijn na het eten.
+  hint: stomach ache
+  topics: [health]
+- text: de keelpijn
+  example: Ik heb keelpijn en hoofdpijn.
+  hint: sore throat
+  topics: [health]
+- text: de pindakaas
+  example: Ik eet een boterham met pindakaas.
+  hint: peanut butter
+  topics: [shopping]
+- text: de chocolade
+  example: De chocolade is zoet en lekker.
+  hint: chocolate
+  topics: [shopping]
+- text: de portemonnee
+  example: Mijn portemonnee zit in mijn tas.
+  hint: wallet
+  topics: [shopping]
+- text: de bon
+  example: De bon zit in mijn tas.
+  hint: receipt
+  topics: [shopping]
+- text: buiten
+  example: De kinderen spelen buiten.
+  hint: outside
+  topics: [everyday]
+- text: binnen
+  example: We blijven vandaag binnen.
+  hint: inside
+  topics: [everyday]
+- text: boven
+  example: De lamp hangt boven de tafel.
+  hint: above
+  topics: [housing]
+- text: beneden
+  example: Beneden is de keuken.
+  hint: downstairs
+  topics: [housing]
+- text: het stoplicht
+  example: Wacht bij het stoplicht.
+  hint: traffic light
+  topics: [travel]
+- text: de halte
+  example: De bus stopt bij de halte.
+  hint: stop
+  topics: [travel]
+- text: het ticket
+  example: Ik koop een ticket voor de trein.
+  hint: ticket
+  topics: [travel]
+- text: de parkeerplaats
+  example: De auto staat op de parkeerplaats.
+  hint: parking place
+  topics: [travel]
+- text: de envelop
+  example: De brief zit in de envelop.
+  hint: envelope
+  topics: [office]
+- text: de printer
+  example: De printer staat op het kantoor.
+  hint: printer
+  topics: [office]
