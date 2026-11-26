@@ -1500,3 +1500,5220 @@ interesante:
 bonito:
   meaning: جميل
   example: فستانك جميل جدًا.
+aunque:
+  meaning: رغم أن، مع أن
+  example: رغم أنني متعب، أذهب إلى العمل.
+mientras:
+  meaning: بينما
+  example: أستمع إلى الموسيقى بينما أطبخ.
+además:
+  meaning: علاوة على ذلك، بالإضافة إلى ذلك
+  example: بالإضافة إلى ذلك، تحتوي الشقة على شرفة.
+así:
+  meaning: هكذا
+  example: افعله هكذا، من فضلك.
+tan:
+  meaning: جدًا، إلى هذا الحد
+  example: كان الامتحان سهلًا جدًا.
+tanto:
+  meaning: كثيرًا، بقدر كبير
+  example: لا تعمل كثيرًا اليوم.
+mismo:
+  meaning: نفسه، ذاته
+  example: أسكن في نفس الحي.
+varios:
+  meaning: عدة، بضعة
+  example: لدي عدة رسائل بريد إلكتروني بحاجة إلى رد.
+sino:
+  meaning: بل
+  example: ليس أزرق، بل أخضر.
+durante:
+  meaning: خلال، أثناء
+  example: درست طوال فترة العصر.
+hacia:
+  meaning: نحو، باتجاه
+  example: امشِ نحو المحطة.
+contra:
+  meaning: ضد، مقابل
+  example: وضعت الدراجة مسندة إلى الجدار.
+según:
+  meaning: حسب، وفقًا لـ
+  example: حسب الجدول، نفتح في التاسعة.
+incluso:
+  meaning: حتى
+  example: حتى المدير جاء إلى الحفلة.
+abajo:
+  meaning: بالأسفل، تحت
+  example: الحمام بالأسفل.
+arriba:
+  meaning: بالأعلى، فوق
+  example: المكتب بالأعلى.
+adelante:
+  meaning: إلى الأمام، تفضل بالدخول
+  example: تفضل بالدخول، من فضلك.
+atrás:
+  meaning: للخلف، خلفًا
+  example: انظر إلى الخلف قبل الخروج.
+enfrente:
+  meaning: مقابل، في الجهة المقابلة
+  example: البنك في الجهة المقابلة.
+excepto:
+  meaning: ما عدا، باستثناء
+  example: نفتح كل الأيام ما عدا الأحد.
+bajo:
+  meaning: تحت
+  example: القط تحت الطاولة.
+importante:
+  meaning: مهم
+  example: من المهم الوصول مبكرًا.
+posible:
+  meaning: ممكن
+  example: هل من الممكن الدفع بالبطاقة؟
+imposible:
+  meaning: مستحيل
+  example: من المستحيل ركن السيارة هنا.
+necesario:
+  meaning: ضروري
+  example: ليس من الضروري حجز طاولة.
+diferente:
+  meaning: مختلف
+  example: أخي مختلف جدًا.
+igual:
+  meaning: نفسه، لا يهم
+  example: لا يهم، لا مشكلة.
+tranquilo:
+  meaning: هادئ
+  example: الحي هادئ جدًا.
+ocupado:
+  meaning: مشغول، محتل
+  example: الحمام مشغول.
+libre:
+  meaning: حر، متاح
+  example: هل هذه الطاولة فارغة؟
+simpático:
+  meaning: لطيف، ودود
+  example: جارك لطيف جدًا.
+antipático:
+  meaning: غير ودود، كريه
+  example: كان النادل غير ودود بعض الشيء.
+amable:
+  meaning: لطيف، طيب
+  example: كانت الممرضة لطيفة جدًا.
+serio:
+  meaning: جاد، خطير
+  example: إنها مشكلة خطيرة.
+alegre:
+  meaning: مبتهج، سعيد
+  example: أنت مبتهج جدًا اليوم.
+famoso:
+  meaning: مشهور
+  example: إنه مطعم مشهور.
+peligroso:
+  meaning: خطير
+  example: القيادة بهذه الطريقة خطيرة.
+malo:
+  meaning: سيئ، فاسد
+  example: هذا الزبادي فاسد.
+aceptar:
+  meaning: يقبل
+  example: أقبل العرض، شكرًا.
+acabar:
+  meaning: ينتهي، للتو
+  example: وصلت إلى المنزل للتو.
+acordarse:
+  meaning: يتذكر
+  example: لا أتذكر اسمه.
+acostarse:
+  meaning: يذهب للنوم، يستلقي
+  example: أنام متأخرًا أيام الجمعة.
+alquilar:
+  meaning: يستأجر، يؤجر
+  example: أريد استئجار شقة.
+apagar:
+  meaning: يطفئ
+  example: أطفئ الضوء، من فضلك.
+aparcar:
+  meaning: يركن، يوقف السيارة
+  example: لا أستطيع ركن السيارة هنا.
+arreglar:
+  meaning: يصلح، يرمم
+  example: الفني يصلح الحاسوب.
+avisar:
+  meaning: ينبه، يخبر
+  example: أخبرني عندما تصل.
+bailar:
+  meaning: يرقص
+  example: رقصنا في الحفلة.
+cambiar:
+  meaning: يغير، يبدل
+  example: أريد صرف نقود.
+cancelar:
+  meaning: يلغي
+  example: عليّ إلغاء الموعد.
+cantar:
+  meaning: يغني
+  example: ابنتي تغني جيدًا جدًا.
+casarse:
+  meaning: يتزوج
+  example: سيتزوجان في يونيو.
+cenar:
+  meaning: يتعشى
+  example: نتعشى في التاسعة.
+cobrar:
+  meaning: يقبض، يحصل على المال
+  example: أقبض الراتب يوم الجمعة.
+comenzar:
+  meaning: يبدأ
+  example: يبدأ الفيلم الآن.
+conducir:
+  meaning: يقود
+  example: قد ببطء، من فضلك.
+contar:
+  meaning: يحكي، يعد
+  example: احكِ لي المشكلة.
+cortar:
+  meaning: يقطع
+  example: اقطع الخبز، من فضلك.
+costar:
+  meaning: يكلف
+  example: كم سعر هذه الكنزة؟
+cuidar:
+  meaning: يعتني بـ، يرعى
+  example: اعتنِ بأخيك.
+el puesto:
+  meaning: وظيفة، منصب
+  example: أريد وظيفة في هذه الشركة.
+la tarea:
+  meaning: مهمة، واجب
+  example: اليوم لدي الكثير من المهام في العمل.
+la lista:
+  meaning: قائمة
+  example: اكتب قائمة المشتريات.
+la oferta:
+  meaning: عرض خاص
+  example: هذه التفاحات في عرض خاص اليوم.
+el descuento:
+  meaning: خصم
+  example: هل يمكنك أن تعطيني خصمًا؟
+la talla:
+  meaning: مقاس
+  example: هل لديك هذا القميص بمقاسي؟
+el probador:
+  meaning: غرفة القياس
+  example: غرفة القياس في آخر المتجر.
+la rebaja:
+  meaning: تخفيض، خصم
+  example: هناك تخفيض على هذا القميص.
+el dependiente:
+  meaning: بائع
+  example: ساعدني البائع كثيرًا.
+el carrito:
+  meaning: عربة تسوق
+  example: خذ عربة للمتجر.
+el refresco:
+  meaning: مشروب غازي
+  example: أريد مشروبًا غازيًا باردًا، من فضلك.
+la hamburguesa:
+  meaning: هامبرغر
+  example: طلبنا هامبرغر مع بطاطس مقلية.
+la pizza:
+  meaning: بيتزا
+  example: هذه البيتزا لذيذة جدًا.
+el sándwich:
+  meaning: ساندويتش
+  example: آكل ساندويتشًا في العمل.
+la lechuga:
+  meaning: خس
+  example: ضع الخس في السلطة.
+la zanahoria:
+  meaning: جزر
+  example: الجزر مفيد للبصر.
+el ajo:
+  meaning: ثوم
+  example: أضع الثوم في الحساء.
+la harina:
+  meaning: طحين
+  example: أحتاج طحينًا لعمل كعكة.
+la miel:
+  meaning: عسل
+  example: أحب العسل مع الخبز.
+el atún:
+  meaning: تونة
+  example: هناك تونة في السلطة.
+el bistec:
+  meaning: ستيك، شريحة لحم
+  example: الستيك ني جدًا.
+la tapa:
+  meaning: مقبلات، طبق صغير
+  example: هنا نطلب طبقًا صغيرًا مع المشروب.
+el alquiler:
+  meaning: إيجار
+  example: إيجار الشقة غالٍ جدًا.
+el garaje:
+  meaning: مرآب
+  example: السيارة في المرآب.
+el mueble:
+  meaning: قطعة أثاث
+  example: قطعة الأثاث هذه قديمة لكنها جميلة.
+el microondas:
+  meaning: ميكروويف
+  example: أسخن الحساء في الميكروويف.
+la calefacción:
+  meaning: تدفئة
+  example: التدفئة لا تعمل في الشتاء.
+la basura:
+  meaning: قمامة
+  example: أخرج القمامة قبل النوم.
+el resfriado:
+  meaning: زكام، برد
+  example: لدي زكام ولن أذهب إلى العمل.
+el síntoma:
+  meaning: عَرَض
+  example: هذا العَرَض طبيعي مع الإنفلونزا.
+la consulta:
+  meaning: عيادة
+  example: عيادة الطبيب تفتح الساعة التاسعة.
+la vacuna:
+  meaning: لقاح
+  example: أعطوني لقاح الإنفلونزا.
+la herida:
+  meaning: جرح
+  example: اغسل الجرح بالماء والصابون.
+el seguro:
+  meaning: تأمين
+  example: لدي تأمين للسيارة.
+la urgencia:
+  meaning: حالة طارئة
+  example: لدي حالة طارئة وسأذهب إلى المستشفى.
+el cinturón:
+  meaning: حزام الأمان
+  example: اربط حزام الأمان قبل الانطلاق.
+el pasajero:
+  meaning: راكب
+  example: الراكب ينتظر على الرصيف.
+el tranvía:
+  meaning: ترام
+  example: الترام يمر كل عشر دقائق.
+la autopista:
+  meaning: طريق سريع
+  example: الطريق السريع مزدحم أيام الأحد.
+la gasolinera:
+  meaning: محطة وقود
+  example: توقفنا في محطة الوقود للتزود بالوقود.
+la reserva:
+  meaning: حجز
+  example: لدي حجز لشخصين.
+el destino:
+  meaning: وجهة
+  example: وجهتنا قرية صغيرة.
+la pareja:
+  meaning: شريك، رفيق
+  example: أنا وشريكي نعيش معًا.
+la boda:
+  meaning: زفاف، حفل زفاف
+  example: حفل الزفاف في يونيو في الريف.
+la amistad:
+  meaning: صداقة
+  example: الصداقة مهمة جدًا بالنسبة لي.
+la invitación:
+  meaning: دعوة
+  example: شكرًا على الدعوة إلى حفلتك.
+finalmente:
+  meaning: أخيرًا
+  example: أخيرًا وصلنا إلى البيت متعبين جدًا.
+perdonar:
+  meaning: يسامح
+  example: من الصعب مسامحة كذبة.
+pues:
+  meaning: حسنًا، إذن
+  example: حسنًا، أنا أفضل البقاء في المنزل.
+la entrevista:
+  meaning: مقابلة عمل
+  example: غدًا لدي مقابلة عمل.
+la impresora:
+  meaning: طابعة
+  example: الطابعة لا تعمل في المكتب.
+la pantalla:
+  meaning: شاشة
+  example: شاشة الحاسوب كبيرة جدًا.
+el teclado:
+  meaning: لوحة مفاتيح
+  example: لوحة المفاتيح هذه تكتب جيدًا.
+el informe:
+  meaning: تقرير
+  example: عليّ تسليم التقرير يوم الاثنين.
+el carné:
+  meaning: رخصة قيادة
+  example: أحمل رخصة القيادة في حقيبتي.
+la multa:
+  meaning: غرامة
+  example: فُرضت عليّ غرامة بسبب الوقوف الخاطئ.
+el ayuntamiento:
+  meaning: بلدية، مبنى البلدية
+  example: لدي موعد في البلدية.
+la solicitud:
+  meaning: طلب، استمارة طلب
+  example: ملأت استمارة الطلب للوظيفة.
+el sello:
+  meaning: طابع
+  example: أحتاج طابعًا لهذه الرسالة.
+la fotocopia:
+  meaning: نسخة ضوئية
+  example: اصنع نسختين ضوئيتين من جواز سفرك.
+pedir:
+  meaning: يطلب
+  example: سأطلب الحساب، من فضلك.
+preferir:
+  meaning: يفضّل
+  example: أفضّل الشاي بالحليب.
+perder:
+  meaning: يفقد، يخسر
+  example: فاتتني الحافلة هذا الصباح.
+enviar:
+  meaning: يرسل
+  example: سأرسل الطرد اليوم.
+explicar:
+  meaning: يشرح
+  example: هل يمكنك شرح المشكلة مرة أخرى؟
+firmar:
+  meaning: يوقّع
+  example: يجب أن توقّع هنا، من فضلك.
+gastar:
+  meaning: ينفق، يصرف
+  example: لا أريد أن أصرف الكثير من المال اليوم.
+guardar:
+  meaning: يحفظ، يحتفظ
+  example: احتفظ بالإيصال في المحفظة.
+intentar:
+  meaning: يحاول
+  example: سأحاول الاتصال لاحقًا.
+invitar:
+  meaning: يدعو
+  example: أدعوك على قهوة.
+mejorar:
+  meaning: يحسّن
+  example: آمل أن أحسّن إسبانيتي هذا العام.
+olvidar:
+  meaning: ينسى
+  example: لا تنسَ المفاتيح في المنزل.
+preparar:
+  meaning: يحضّر، يجهّز
+  example: سأحضّر العشاء الآن.
+probar:
+  meaning: يجرّب، يتذوق
+  example: هل يمكنني تجربة هذا القميص؟
+recordar:
+  meaning: يتذكر
+  example: لا أتذكر اسم الفندق.
+reservar:
+  meaning: يحجز
+  example: أريد حجز طاولة لشخصين.
+aburrido:
+  meaning: ممل
+  example: كانت المباراة مملة جدًا.
+divertido:
+  meaning: ممتع، مضحك
+  example: إنها لعبة ممتعة جدًا.
+preocupado:
+  meaning: قلق
+  example: أنا قلق بشأن امتحاني.
+sano:
+  meaning: صحي
+  example: هذه القائمة صحية ورخيصة.
+delgado:
+  meaning: نحيف
+  example: أخي نحيف جدًا الآن.
+guapo:
+  meaning: وسيم
+  example: ذلك الشاب وسيم جدًا.
+cómodo:
+  meaning: مريح
+  example: هذه الأريكة مريحة جدًا.
+moderno:
+  meaning: حديث، عصري
+  example: المطبخ له تصميم عصري.
+el problema:
+  meaning: المشكلة
+  example: المشكلة هي أنني لا أملك وقتًا.
+la idea:
+  meaning: الفكرة
+  example: تبدو لي فكرة جيدة.
+la información:
+  meaning: المعلومات
+  example: أحتاج إلى مزيد من المعلومات عن الدورة.
+la pregunta:
+  meaning: السؤال
+  example: لدي سؤال عن الامتحان.
+la respuesta:
+  meaning: الجواب، الإجابة
+  example: لا أعرف الإجابة الصحيحة.
+la razón:
+  meaning: السبب
+  example: لا أفهم سبب غضبك.
+el momento:
+  meaning: اللحظة، الوقت
+  example: هذه هي اللحظة المثالية.
+la palabra:
+  meaning: الكلمة
+  example: لا أعرف هذه الكلمة بالإسبانية.
+la clase:
+  meaning: الحصة، الصف
+  example: تبدأ الحصة في التاسعة.
+el curso:
+  meaning: الدورة
+  example: أتابع دورة لغة إنجليزية عبر الإنترنت.
+el examen:
+  meaning: الامتحان
+  example: امتحان القيادة صعب.
+la escuela:
+  meaning: المدرسة
+  example: يذهب الأطفال إلى المدرسة.
+la biblioteca:
+  meaning: المكتبة
+  example: أدرس في مكتبة الحي.
+el diccionario:
+  meaning: القاموس
+  example: أبحث عن الكلمة في القاموس.
+el cine:
+  meaning: السينما
+  example: سنذهب إلى السينما الليلة.
+el museo:
+  meaning: المتحف
+  example: يفتح المتحف في العاشرة.
+el partido:
+  meaning: المباراة
+  example: تبدأ المباراة في الثامنة.
+el equipo:
+  meaning: الفريق
+  example: فريقي يلعب غدًا.
+la fecha:
+  meaning: التاريخ
+  example: ما هو تاريخ الموعد؟
+el beso:
+  meaning: القبلة
+  example: أعطاها قبلة على الخد.
+el abrazo:
+  meaning: العناق
+  example: أعطاني عناقًا قويًا جدًا.
+la sonrisa:
+  meaning: الابتسامة
+  example: لديها ابتسامة جميلة جدًا.
+la verdad:
+  meaning: الحقيقة
+  example: قل لي الحقيقة، من فضلك.
+la enfermedad:
+  meaning: المرض
+  example: المرض ليس خطيرًا.
+la dieta:
+  meaning: الحمية، النظام الغذائي
+  example: الحمية مهمة للصحة.
+la ambulancia:
+  meaning: الإسعاف
+  example: اتصل بالإسعاف، بسرعة.
+el accidente:
+  meaning: الحادث
+  example: وقع حادث على الطريق.
+el edificio:
+  meaning: المبنى
+  example: المبنى له أربعة طوابق.
+la planta:
+  meaning: الطابق
+  example: أعيش في الطابق الأرضي.
+el horno:
+  meaning: الفرن
+  example: الدجاج في الفرن.
+la sartén:
+  meaning: المقلاة
+  example: المقلاة متسخة جدًا.
+la carnicería:
+  meaning: الملحمة
+  example: أشتري الدجاج من الملحمة.
+el escaparate:
+  meaning: واجهة المتجر
+  example: انظر إلى واجهة ذلك المتجر.
+el paquete:
+  meaning: الطرد، الحزمة
+  example: يصل الطرد غدًا.
+el mostrador:
+  meaning: المنضدة، الكاونتر
+  example: ادفع عند المنضدة، من فضلك.
+la frutería:
+  meaning: متجر الفواكه
+  example: البرتقال في متجر الفواكه.
+el mensaje:
+  meaning: الرسالة
+  example: تركت لك رسالة على الهاتف المحمول.
+el tamaño:
+  meaning: المقاس، الحجم
+  example: هل لديك هذا القميص بمقاس آخر؟
+el ticket:
+  meaning: الإيصال
+  example: احتفظ بالإيصال تحسبًا لأي طارئ.
+la cola:
+  meaning: الطابور، الذيل
+  example: هناك طابور طويل في السوبرماركت.
+el cajero:
+  meaning: الصراف الآلي، أمين الصندوق
+  example: أسحب نقودًا من صراف البنك.
+la cesta:
+  meaning: السلة
+  example: ضع الفاكهة في السلة من فضلك.
+la devolución:
+  meaning: الإرجاع
+  example: أريد إرجاع هذه الأحذية.
+la etiqueta:
+  meaning: الملصق، البطاقة
+  example: انظر إلى الملصق لمعرفة السعر.
+el bolsillo:
+  meaning: الجيب
+  example: أحمل المفاتيح في جيبي.
+el calcetín:
+  meaning: الجورب
+  example: أحتاج إلى شراء جوارب جديدة.
+la bufanda:
+  meaning: الوشاح
+  example: ارتدِ الوشاح، الجو بارد جدًا.
+el sombrero:
+  meaning: القبعة
+  example: تعجبني تلك القبعة المصنوعة من القش.
+el traje:
+  meaning: البدلة
+  example: أرتدي بدلة لحضور حفل الزفاف.
+el botón:
+  meaning: الزر
+  example: سقط زر من القميص.
+el cajón:
+  meaning: الدرج
+  example: أدوات المائدة في الدرج.
+el enchufe:
+  meaning: المقبس
+  example: لا أجد مقبسًا للشاحن.
+la bombilla:
+  meaning: المصباح الكهربائي
+  example: مصباح الصالة لا يعمل.
+el fregadero:
+  meaning: حوض المطبخ
+  example: هناك أطباق متسخة في حوض المطبخ.
+la plancha:
+  meaning: المكواة
+  example: المكواة في الخزانة.
+el contenedor:
+  meaning: حاوية النفايات
+  example: ارمِ القمامة في الحاوية الصفراء.
+el champú:
+  meaning: الشامبو
+  example: أحتاج إلى شراء شامبو للشعر.
+la crema:
+  meaning: الكريم
+  example: أضع كريمًا على يدي.
+el peine:
+  meaning: المشط
+  example: أين المشط؟ لا أجده.
+la tirita:
+  meaning: اللاصقة الجراحية
+  example: ضع لاصقة جراحية على إصبعك.
+el termómetro:
+  meaning: ميزان الحرارة
+  example: ميزان الحرارة في صندوق الإسعافات.
+el mareo:
+  meaning: الدوار
+  example: أشعر بدوار وأحتاج إلى الجلوس.
+la venda:
+  meaning: الضمادة
+  example: يضع لي الطبيب ضمادة.
+el botiquín:
+  meaning: صندوق الإسعافات
+  example: نحفظ الحبوب في صندوق الإسعافات.
+la mascarilla:
+  meaning: الكمامة
+  example: ارتدِ كمامة في الصيدلية.
+el análisis:
+  meaning: تحليل الدم
+  example: أجروا لي تحليل دم.
+la pausa:
+  meaning: الاستراحة
+  example: نشرب قهوة في الاستراحة.
+el turno:
+  meaning: الوردية، الدور
+  example: اليوم أعمل في الوردية الليلية.
+la nómina:
+  meaning: كشف الراتب
+  example: يصل كشف الراتب في آخر يوم من الشهر.
+el currículum:
+  meaning: السيرة الذاتية
+  example: أرسلت سيرتي الذاتية إلى الشركة.
+el despacho:
+  meaning: المكتب
+  example: المدير في مكتبه.
+el proyecto:
+  meaning: المشروع
+  example: نعمل معًا في مشروع جديد.
+el calendario:
+  meaning: التقويم
+  example: انظر إلى التقويم من أجل الموعد.
+la agenda:
+  meaning: المفكرة
+  example: دوّن الاجتماع في المفكرة.
+el lápiz:
+  meaning: قلم الرصاص
+  example: هل تعيرني قلم رصاص من فضلك؟
+el cuaderno:
+  meaning: الدفتر
+  example: أكتب الواجبات في الدفتر.
+la goma:
+  meaning: الممحاة
+  example: أمحو الخطأ بالممحاة.
+las tijeras:
+  meaning: المقص
+  example: قص الورقة بالمقص.
+la pila:
+  meaning: البطارية الصغيرة
+  example: جهاز التحكم لا يعمل بدون بطاريات.
+el cargador:
+  meaning: الشاحن
+  example: تركت الشاحن في المنزل.
+el mando:
+  meaning: جهاز التحكم
+  example: أين جهاز تحكم التلفاز؟
+el ratón:
+  meaning: فأرة الحاسوب
+  example: فأرة الحاسوب لا تعمل.
+la contraseña:
+  meaning: كلمة المرور
+  example: لا أتذكر كلمة مرور الواي فاي.
+los auriculares:
+  meaning: سماعات الرأس
+  example: أستمع إلى الموسيقى بالسماعات.
+la cámara:
+  meaning: الكاميرا
+  example: ألتقط صورًا بالكاميرا الجديدة.
+la batería:
+  meaning: البطارية
+  example: نفدت بطارية الهاتف.
+el buzón:
+  meaning: صندوق البريد
+  example: اترك الرسالة في صندوق البريد.
+la ida:
+  meaning: رحلة الذهاب
+  example: اشتريت تذكرة الذهاب فقط.
+la vuelta:
+  meaning: العودة
+  example: تذكرة العودة أغلى.
+la rotonda:
+  meaning: الدوار
+  example: خذ المخرج الثاني من الدوار.
+la avería:
+  meaning: العطل
+  example: السيارة بها عطل في المحرك.
+el taller:
+  meaning: الورشة
+  example: آخذ السيارة إلى الورشة غدًا.
+el mecánico:
+  meaning: الميكانيكي
+  example: يفحص الميكانيكي السيارة.
+la aduana:
+  meaning: الجمارك
+  example: مررنا بالجمارك في المطار.
+la acera:
+  meaning: الرصيف
+  example: يمشي الأطفال على الرصيف.
+el peatón:
+  meaning: المارّ، أحد المشاة
+  example: للمارّ الأولوية في الممر.
+dejar:
+  meaning: يترك، يدع
+  example: أترك المفاتيح على الطاولة.
+pasar:
+  meaning: يمضي، يمر
+  example: أمضي عطلة نهاية الأسبوع في البيت.
+seguir:
+  meaning: يواصل، يتبع
+  example: تابع مباشرة حتى الساحة.
+sentirse:
+  meaning: يشعر
+  example: أشعر بتعب قليل.
+traer:
+  meaning: يجلب
+  example: أجلب الحلوى إلى الحفلة.
+demasiado:
+  meaning: أكثر من اللازم، جدًا
+  example: هذه القهوة ساخنة جدًا.
+mejor:
+  meaning: أفضل
+  example: هذه الشقة أفضل من الأخرى.
+vender:
+  meaning: يبيع
+  example: أبيع دراجتي القديمة.
+recoger:
+  meaning: يلتقط، يأخذ
+  example: آخذ الأطفال الساعة الخامسة.
+repetir:
+  meaning: يعيد، يكرر
+  example: هل يمكنك إعادة السؤال من فضلك؟
+responder:
+  meaning: يجيب، يرد
+  example: أجب على الرسالة هذه الليلة.
+romper:
+  meaning: يكسر
+  example: لا أريد كسر الكأس.
+sacar:
+  meaning: يُخرج، يأخذ خارجًا
+  example: أخرج القمامة من فضلك.
+saludar:
+  meaning: يحيّي، يسلّم
+  example: سلّم على الجارة عند الخروج.
+servir:
+  meaning: يقدّم، ينفع
+  example: لأي شيء يُستخدم هذا الزر؟
+tardar:
+  meaning: يستغرق وقتًا، يتأخر
+  example: الحافلة تستغرق عشر دقائق.
+tirar:
+  meaning: يرمي، يقذف
+  example: ارمِ الورقة في القمامة.
+tocar:
+  meaning: يلمس، يعزف
+  example: لا تلمس المقبس، إنه خطر.
+vestir:
+  meaning: يلبس، يرتدي
+  example: أرتدي ملابسي بسرعة في الصباح.
+parecer:
+  meaning: يبدو، يظهر
+  example: تبدو لي فكرة جيدة.
+ofrecer:
+  meaning: يقدّم، يعرض
+  example: أعرض عليك قهوة في البيت.
+permitir:
+  meaning: يسمح
+  example: لا يسمحون بالكلاب في الفندق.
+presentar:
+  meaning: يقدّم، يعرّف
+  example: أعرّفك بزميلتي في العمل.
+prestar:
+  meaning: يعير، يقرض
+  example: هل تعيرني قلمك؟
+recibir:
+  meaning: يستقبل، يتلقى
+  example: أتلقى رسائل من البنك.
+recomendar:
+  meaning: ينصح، يوصي
+  example: أنصحك بسمك اليوم.
+regalar:
+  meaning: يهدي
+  example: أهدي أمي زهورًا.
+robar:
+  meaning: يسرق
+  example: سرقوا في المكتب.
+compartir:
+  meaning: يشارك، يتقاسم
+  example: نتشارك الشقة نحن صديقان.
+comprender:
+  meaning: يفهم، يستوعب
+  example: لا أفهم هذه الكلمة.
+conseguir:
+  meaning: يحصل على، ينجح في
+  example: حصلت على تذاكر السينما.
+continuar:
+  meaning: يواصل، يستمر
+  example: استمر مستقيمًا في هذا الشارع.
+cruzar:
+  meaning: يعبر
+  example: اعبر الشارع من المعبر.
+elegir:
+  meaning: يختار
+  example: اختر حلوى من القائمة.
+encender:
+  meaning: يشعل، يضيء
+  example: أضيء ضوء الممر.
+enseñar:
+  meaning: يُري، يعلّم
+  example: أرني الصور من فضلك.
+entregar:
+  meaning: يسلّم، يقدّم
+  example: أسلّم التقرير إلى المدير.
+funcionar:
+  meaning: يعمل، يشتغل
+  example: المصعد لا يعمل اليوم.
+ganar:
+  meaning: يفوز، يكسب
+  example: فريقي يفوز في المباراة.
+imprimir:
+  meaning: يطبع
+  example: أطبع الاستمارة في المكتب.
+llenar:
+  meaning: يملأ
+  example: املأ القنينة بالماء.
+llover:
+  meaning: يمطر
+  example: تمطر كثيرًا في الشمال.
+mover:
+  meaning: يحرّك، ينقل
+  example: انقل الطاولة إلى الصالة.
+participar:
+  meaning: يشارك
+  example: أشارك في دورة لتعلم الإسبانية.
+pasear:
+  meaning: يتمشى
+  example: نتمشى في الحديقة.
+quejarse:
+  meaning: يشكو، يتذمر
+  example: أشكو من ضجيج المقهى.
+interesar:
+  meaning: يهمّ، يثير الاهتمام
+  example: يهمني التاريخ كثيرًا.
+suficiente:
+  meaning: كافٍ
+  example: لدينا طعام كافٍ للجميع.
+peor:
+  meaning: أسوأ
+  example: اليوم الازدحام أسوأ.
+enseguida:
+  meaning: فورًا، حالًا
+  example: أعود حالًا، انتظر هنا.
+normalmente:
+  meaning: عادةً، في العادة
+  example: عادةً أتناول القهوة مع الخبز المحمص في الفطور.
+jamás:
+  meaning: أبدًا، قط
+  example: لم أرَ قط فيلمًا بهذا الطول.
+la vida:
+  meaning: الحياة
+  example: الحياة في القرية هادئة.
+la suerte:
+  meaning: الحظ
+  example: حظًا سعيدًا في الامتحان.
+el teatro:
+  meaning: المسرح
+  example: نذهب إلى المسرح يوم السبت.
+el concierto:
+  meaning: الحفل الموسيقي
+  example: الحفل يبدأ في الثامنة.
+el campo:
+  meaning: الريف
+  example: أجدادي يعيشون في الريف.
+el sobre:
+  meaning: الظرف
+  example: ضع الرسالة في الظرف.
+la ayuda:
+  meaning: المساعدة
+  example: شكرًا على مساعدتك.
+el favor:
+  meaning: الخدمة، المعروف
+  example: هل تسدي لي خدمة؟
+deber:
+  meaning: يجب، يدين
+  example: يجب أن ترتاح قليلًا.
+almorzar:
+  meaning: يتناول الغداء
+  example: أتناول الغداء دائمًا في الثانية.
+despertarse:
+  meaning: يستيقظ
+  example: أستيقظ في السابعة.
+ducharse:
+  meaning: يستحم
+  example: أستحم في الصباح.
+sentarse:
+  meaning: يجلس
+  example: اجلس هنا، من فضلك.
+nadar:
+  meaning: يسبح
+  example: أسبح مرتين في الأسبوع.
+parar:
+  meaning: يتوقف
+  example: تتوقف الحافلة هنا.
+devolver:
+  meaning: يعيد شيئًا
+  example: أريد إعادة هذا القميص.
+ahorrar:
+  meaning: يدخر، يوفر
+  example: أدخر المال كل شهر.
+encantar:
+  meaning: يحب كثيرًا، يُبهر
+  example: أحب الشوكولاتة كثيرًا.
+quedar:
+  meaning: يتفق، يلتقي
+  example: نتلاقى في الثامنة.
+celebrar:
+  meaning: يحتفل
+  example: نحتفل بعيد ميلادك في البيت.
+reír:
+  meaning: يضحك
+  example: أضحك كثيرًا معهم.
+llorar:
+  meaning: يبكي
+  example: الطفل يبكي كثيرًا.
+discutir:
+  meaning: يتجادل، يناقش
+  example: لا تتجادل مع أخيك.
+charlar:
+  meaning: يدردش
+  example: ندردش قليلًا في البار.
+despedirse:
+  meaning: يودع، يقول وداعًا
+  example: أودّع أصدقائي.
+ordenar:
+  meaning: يرتب، يأمر
+  example: رتّب غرفتك، من فضلك.
+planchar:
+  meaning: يكوي الملابس
+  example: عليّ أن أكوي القميص.
+fumar:
+  meaning: يدخن
+  example: لا يمكن التدخين هنا.
+girar:
+  meaning: ينعطف، يستدير
+  example: انعطف يمينًا.
+durar:
+  meaning: يدوم، يستغرق
+  example: تستغرق الرحلة ساعتين.
+valer:
+  meaning: يساوي، يستحق
+  example: كم سعر هذا القميص؟
+montar:
+  meaning: يركب
+  example: أحب ركوب الدراجة.
+entrenar:
+  meaning: يتدرب
+  example: أتدرب في الصالة الرياضية.
+ponerse:
+  meaning: يرتدي
+  example: أرتدي المعطف.
+quitarse:
+  meaning: يخلع
+  example: اخلع حذاءك.
+probarse:
+  meaning: يقيس الملابس
+  example: هل يمكنني قياس التنورة؟
+secarse:
+  meaning: يجفف نفسه
+  example: جفف شعرك، الجو بارد.
+peinarse:
+  meaning: يمشط شعره
+  example: أمشط شعري قبل الخروج.
+enfadarse:
+  meaning: يغضب
+  example: والدي يغضب بسهولة.
+preocuparse:
+  meaning: يقلق
+  example: لا تقلق بشأن ذلك.
+aún:
+  meaning: ما زال، بعد
+  example: ما زلت أنتظر ردّك.
+ojalá:
+  meaning: أتمنى، ليت
+  example: أتمنى أن تشرق الشمس غدًا.
+la mermelada:
+  meaning: المربى
+  example: آكل خبزًا مع المربى.
+la galleta:
+  meaning: البسكويت
+  example: آخذ بسكويتة مع القهوة.
+la lata:
+  meaning: علبة، صفيح
+  example: أريد علبة تونة.
+la pimienta:
+  meaning: الفلفل
+  example: ضع قليلًا من الفلفل.
+el pastel:
+  meaning: الكعكة
+  example: الكعكة لذيذة جدًا.
+la almohada:
+  meaning: الوسادة
+  example: الوسادة ناعمة جدًا.
+la manta:
+  meaning: البطانية
+  example: أحتاج بطانية في السرير.
+la sábana:
+  meaning: الملاءة
+  example: أغيّر الملاءة كل أسبوع.
+la cortina:
+  meaning: الستارة
+  example: أغلق الستارة، من فضلك.
+la alfombra:
+  meaning: السجادة
+  example: السجادة في غرفة الجلوس.
+el cuadro:
+  meaning: اللوحة، الصورة
+  example: هناك لوحة على الحائط.
+la estantería:
+  meaning: الرف، خزانة الكتب
+  example: الكتب في خزانة الكتب.
+el grifo:
+  meaning: الصنبور
+  example: أغلق الصنبور، من فضلك.
+la bañera:
+  meaning: حوض الاستحمام
+  example: القط ينام في حوض الاستحمام.
+el ventilador:
+  meaning: المروحة
+  example: أشغّل المروحة في الصيف.
+el congelador:
+  meaning: المجمّد، الفريزر
+  example: اللحم في المجمّد.
+el guante:
+  meaning: القفاز
+  example: لقد أضعت قفازًا.
+la corbata:
+  meaning: ربطة العنق
+  example: والدي يرتدي ربطة عنق إلى العمل.
+la cartera:
+  meaning: المحفظة
+  example: لا أجد محفظتي.
+el pañuelo:
+  meaning: المنديل
+  example: أستخدم منديلًا لأنفي.
+la peluquería:
+  meaning: صالون الحلاقة
+  example: أذهب إلى صالون الحلاقة هذا السبت.
+la recepción:
+  meaning: الاستقبال
+  example: المفتاح في الاستقبال.
+el paro:
+  meaning: البطالة
+  example: هو عاطل عن العمل منذ مايو.
+la fotocopiadora:
+  meaning: آلة التصوير
+  example: آلة التصوير لا تعمل اليوم.
+la muela:
+  meaning: الضرس، السن
+  example: أشعر بألم في ضرسي.
+ambos:
+  meaning: كلاهما
+  example: كلاهما يعيشان في نفس الحي.
+apenas:
+  meaning: بالكاد
+  example: بالكاد لدي وقت للأكل.
+justo:
+  meaning: بالضبط، للتو
+  example: وصلت إلى الاجتماع في الوقت المناسب تمامًا.
+cierto:
+  meaning: صحيح، مؤكد
+  example: صحيح أنه تمطر كثيرًا هنا.
+propio:
+  meaning: خاص
+  example: لدي مكتبي الخاص في المنزل.
+faltar:
+  meaning: ينقص
+  example: ينقص قليل من الملح.
+felicitar:
+  meaning: يهنئ
+  example: أهنئك على عملك الجديد.
+gritar:
+  meaning: يصرخ
+  example: لا تصرخ، من فضلك.
+mudarse:
+  meaning: ينتقل للسكن
+  example: سننتقل إلى شقة أخرى قريبًا.
+nacer:
+  meaning: يُولد
+  example: وُلد ابن أخي في أبريل.
+oler:
+  meaning: يشم، تفوح منه رائحة
+  example: هذه الزهرة رائحتها طيبة جدًا.
+opinar:
+  meaning: يرى، يعبّر برأيه
+  example: ما رأيك في الفيلم؟
+organizar:
+  meaning: ينظم
+  example: أنظم حفلة يوم السبت.
+reciclar:
+  meaning: يعيد التدوير
+  example: نعيد تدوير الورق والبلاستيك.
+rellenar:
+  meaning: يملأ
+  example: املأ النموذج ببياناتك.
+reparar:
+  meaning: يصلح
+  example: الميكانيكي يصلح السيارة.
+toser:
+  meaning: يسعل
+  example: الطفل يسعل كثيرًا في الليل.
+el mundo:
+  meaning: العالم
+  example: أريد السفر حول العالم كله.
+el idioma:
+  meaning: اللغة
+  example: الإسبانية لغة جميلة.
+el grupo:
+  meaning: المجموعة
+  example: أذهب إلى مجموعة محادثة.
+el plan:
+  meaning: الخطة
+  example: هل لديك خطة لعطلة نهاية الأسبوع؟
+el consejo:
+  meaning: النصيحة
+  example: أعطاني صديقي نصيحة جيدة.
+el secreto:
+  meaning: السر
+  example: أحفظ سر صديقي.
+la mentira:
+  meaning: الكذبة
+  example: تلك الكذبة ليست جيدة.
+el humor:
+  meaning: المزاج، الفكاهة
+  example: مزاجه جيد في الصباح.
+el error:
+  meaning: الخطأ
+  example: هناك خطأ في الفاتورة.
+la solución:
+  meaning: الحل
+  example: نبحث عن حل للمشكلة.
+el resultado:
+  meaning: النتيجة
+  example: نتيجة الامتحان جيدة.
+la nota:
+  meaning: الدرجة، الملاحظة
+  example: أحصل على درجات جيدة في الدورة.
+la frase:
+  meaning: الجملة
+  example: لا أفهم هذه الجملة.
+la letra:
+  meaning: الخط، الحرف
+  example: اكتب اسمك بخط واضح.
+la asignatura:
+  meaning: المادة الدراسية
+  example: مادتي المفضلة هي التاريخ.
+la noticia:
+  meaning: الخبر
+  example: قرأت خبرًا مثيرًا للاهتمام جدًا.
+el periódico:
+  meaning: الصحيفة
+  example: أشتري الصحيفة كل صباح.
+el usuario:
+  meaning: المستخدم
+  example: اكتب اسم المستخدم الخاص بك.
+el gasto:
+  meaning: المصروف، النفقة
+  example: أتحكم في مصاريف المنزل.
+la queja:
+  meaning: الشكوى
+  example: أريد تقديم شكوى.
+el servicio:
+  meaning: الخدمة
+  example: خدمة المطعم بطيئة.
+el producto:
+  meaning: المنتج
+  example: هذا المنتج أرخص.
+el artículo:
+  meaning: السلعة، المقال
+  example: تلك السلعة معروضة بخصم.
+la marca:
+  meaning: العلامة التجارية
+  example: هذه العلامة التجارية للقهوة جيدة.
+el color:
+  meaning: اللون
+  example: أفضل هذا اللون الأزرق.
+el vinagre:
+  meaning: الخل
+  example: أضع الخل في السلطة.
+la ternera:
+  meaning: لحم البقر
+  example: لحم البقر لذيذ جدًا اليوم.
+el jarabe:
+  meaning: الشراب
+  example: آخذ شرابًا للسعال.
+la pomada:
+  meaning: المرهم، الكريم
+  example: ضع مرهمًا على الجرح.
+la inyección:
+  meaning: الحقنة
+  example: الممرض يعطيني حقنة.
+la cerradura:
+  meaning: القفل
+  example: قفل الباب مكسور.
+el timbre:
+  meaning: جرس الباب
+  example: جرس الباب في المنزل لا يعمل.
+el portal:
+  meaning: مدخل العمارة
+  example: أنتظرك في مدخل المبنى.
+el turista:
+  meaning: السائح
+  example: السائح يسأل عن المتحف.
+la excursión:
+  meaning: رحلة قصيرة
+  example: نقوم برحلة إلى الجبل.
+el guía:
+  meaning: المرشد
+  example: المرشد يشرح النصب التذكاري.
+el invitado:
+  meaning: الضيف
+  example: هناك ضيف في الحفلة.
+el dueño:
+  meaning: المالك
+  example: مالك الشقة لطيف.
+el bombero:
+  meaning: رجل الإطفاء
+  example: رجل الإطفاء يصل بسرعة كبيرة.
+el abogado:
+  meaning: المحامي
+  example: محامي يراجع العقد.
+el ingeniero:
+  meaning: المهندس
+  example: أعمل مهندسًا في شركة.
+enamorado:
+  meaning: واقع في الحب
+  example: هو واقع في حب جارته.
+tímido:
+  meaning: خجول
+  example: أخي خجول جدًا.
+la prisa:
+  meaning: العجلة
+  example: أنا في عجلة، سأتأخر عن العمل.
+la sorpresa:
+  meaning: مفاجأة
+  example: كانت الحفلة مفاجأة جميلة جدا.
+la alegría:
+  meaning: فرح، بهجة
+  example: زيارتك تمنحني فرحا كبيرا.
+la tristeza:
+  meaning: حزن
+  example: الحزن ظاهر على وجهه.
+la opinión:
+  meaning: رأي
+  example: أريد معرفة رأيك في الخطة.
+la decisión:
+  meaning: قرار
+  example: كان القرار صعبا على الجميع.
+la duda:
+  meaning: شك
+  example: لدي شك حول الواجب.
+la conversación:
+  meaning: محادثة
+  example: كانت المحادثة مع مديرتي قصيرة.
+la espera:
+  meaning: انتظار
+  example: الانتظار عند الطبيب طويل.
+el silencio:
+  meaning: صمت
+  example: يعجبني الصمت في الصباح.
+el saludo:
+  meaning: تحية
+  example: التحية اللطيفة تفتح أبوابا كثيرة.
+el cariño:
+  meaning: مودة، حنان
+  example: حنانه يجعلني أشعر بحال جيدة.
+la risa:
+  meaning: ضحك
+  example: ضحكه معدٍ ومبهج.
+sorprendido:
+  meaning: متفاجئ
+  example: أنا متفاجئ من الخبر.
+la paz:
+  meaning: سلام
+  example: أبحث عن السلام والهدوء في المنزل.
+el almuerzo:
+  meaning: غداء
+  example: الغداء في الساعة الثانية.
+la merienda:
+  meaning: وجبة خفيفة
+  example: نتناول وجبة خفيفة في منتصف بعد الظهر.
+la propina:
+  meaning: إكرامية، بقشيش
+  example: تركنا إكرامية في المطعم.
+la calidad:
+  meaning: جودة
+  example: جودة هذا القميص جيدة.
+el mediodía:
+  meaning: منتصف النهار، الظهيرة
+  example: نأكل ظهرا في العمل.
+la medianoche:
+  meaning: منتصف الليل
+  example: يغادر القطار منتصف الليل.
+la nube:
+  meaning: سحابة
+  example: هناك سحابة رمادية في السماء.
+el cielo:
+  meaning: سماء
+  example: السماء زرقاء وصافية اليوم.
+el árbol:
+  meaning: شجرة
+  example: هناك شجرة كبيرة في الحديقة.
+el animal:
+  meaning: حيوان
+  example: حيواني المفضل هو الكلب.
+el pájaro:
+  meaning: طائر، عصفور
+  example: طائر يغني عند النافذة.
+el pez:
+  meaning: سمكة
+  example: السمكة تسبح في الماء.
+el fuego:
+  meaning: نار
+  example: لا تلمس النار، إنها خطيرة.
+la muñeca:
+  meaning: معصم
+  example: يؤلمني معصمي عند الكتابة.
+el hombro:
+  meaning: كتف
+  example: أشعر بألم في كتفي الأيمن.
+la barriga:
+  meaning: بطن
+  example: يؤلمني بطني بعد الأكل.
+el oído:
+  meaning: أذن
+  example: لا أسمع جيدا بهذه الأذن.
+la vista:
+  meaning: نظر، بصر
+  example: عندي ضعف في النظر القريب.
+la carrera:
+  meaning: تخصص جامعي، مسار دراسي
+  example: أدرس تخصصا جامعيا في المعلوماتية.
+el título:
+  meaning: شهادة
+  example: أحتاج الشهادة للعمل.
+la práctica:
+  meaning: ممارسة، تدريب
+  example: الممارسة تصنع الماهر.
+el juez:
+  meaning: قاض
+  example: القاضي يستمع إلى الشهود.
+la ley:
+  meaning: قانون
+  example: القانون يحمي المواطنين.
+la frontera:
+  meaning: حدود
+  example: عبرنا الحدود بجواز السفر.
+el extranjero:
+  meaning: الخارج
+  example: أعيش في الخارج منذ سنوات.
+la vía:
+  meaning: سكة، مسار
+  example: القطار على السكة رقم اثنين.
+el sótano:
+  meaning: قبو، بدروم
+  example: نحفظ الحقائب في القبو.
+el colchón:
+  meaning: مرتبة، فراش
+  example: هذه المرتبة مريحة جدا.
+la mesilla:
+  meaning: طاولة سرير
+  example: أترك النظارات على طاولة السرير.
+el sillón:
+  meaning: كرسي بذراعين
+  example: أجلس في الكرسي بذراعين في الصالة.
+la olla:
+  meaning: قدر
+  example: أضع الأرز في القدر.
+el lavavajillas:
+  meaning: غسالة أطباق
+  example: غسالة أطباقي لا تعمل جيدا.
+el secador:
+  meaning: مجفف شعر
+  example: مجفف الشعر في الحمام.
+la escoba:
+  meaning: مكنسة
+  example: المكنسة خلف الباب.
+la librería:
+  meaning: مكتبة لبيع الكتب
+  example: أشتري كتابا في مكتبة بيع الكتب.
+la zapatería:
+  meaning: محل أحذية
+  example: يوجد محل أحذية عند الزاوية.
+la pescadería:
+  meaning: محل سمك
+  example: السمك الطازج في محل السمك.
+la pastelería:
+  meaning: متجر حلويات
+  example: كعكة متجر الحلويات لذيذة.
+el quiosco:
+  meaning: كشك صحف
+  example: أشتري الصحيفة من كشك الصحف.
+la lavandería:
+  meaning: مغسلة، غرفة غسيل
+  example: أغسل الملابس في المغسلة.
+colgar:
+  meaning: يعلق
+  example: سأعلق المعطف هناك.
+meter:
+  meaning: يضع، يدخل
+  example: ضع الملابس في الحقيبة.
+empujar:
+  meaning: يدفع
+  example: ادفع الباب لتفتحه.
+señalar:
+  meaning: يشير إلى
+  example: المرشد يشير إلى الطريق الصحيح.
+apuntar:
+  meaning: يسجل، يدون
+  example: سجل رقم هاتفي.
+la compra:
+  meaning: التسوق، المشتريات
+  example: أتسوق أيام السبت.
+el bar:
+  meaning: بار، مقهى
+  example: أتناول الفطور في البار الواقع في الزاوية.
+el sitio:
+  meaning: مكان، موقع
+  example: هذا المكان هادئ جدًا.
+el lugar:
+  meaning: مكان
+  example: إنه مكان جيد للأكل.
+la cosa:
+  meaning: شيء
+  example: ضع الأشياء على الطاولة.
+el descanso:
+  meaning: استراحة، راحة
+  example: أحتاج إلى استراحة عشر دقائق.
+la rutina:
+  meaning: روتين
+  example: روتيني يبدأ في السابعة.
+el despertador:
+  meaning: منبه
+  example: المنبه يرن مبكرًا جدًا.
+la alarma:
+  meaning: منبه، إنذار
+  example: المنبه يرن في السابعة.
+el paseo:
+  meaning: نزهة، مشي
+  example: نتمشى في الحديقة.
+el ejercicio:
+  meaning: تمرين، ممارسة
+  example: أمارس الرياضة ثلاث مرات في الأسبوع.
+la siesta:
+  meaning: قيلولة
+  example: بعد الأكل آخذ قيلولة.
+la radio:
+  meaning: راديو
+  example: أستمع إلى الراديو في الصباح.
+la canción:
+  meaning: أغنية
+  example: هذه الأغنية جميلة جدًا.
+el juego:
+  meaning: لعبة
+  example: تلك اللعبة ممتعة جدًا.
+la revista:
+  meaning: مجلة
+  example: أقرأ مجلة في القطار.
+la cafetería:
+  meaning: مقهى، كافيتيريا
+  example: نشرب القهوة في المقهى في وسط المدينة.
+la flor:
+  meaning: زهرة
+  example: أشتري زهرة لأمي.
+el aire:
+  meaning: هواء
+  example: أحتاج هواءً نقيًا في المكتب.
+el hielo:
+  meaning: جليد، ثلج
+  example: ضع ثلجًا في الكأس، من فضلك.
+la parte:
+  meaning: جزء
+  example: هذا الجزء من الكتاب سهل.
+el lado:
+  meaning: جانب
+  example: بيتي في الجانب الآخر.
+la diferencia:
+  meaning: فرق
+  example: هناك فرق كبير بين الاثنين.
+el tema:
+  meaning: موضوع
+  example: ذلك الموضوع مثير جدًا.
+vosotros:
+  meaning: أنتم
+  example: هل تعيشون في وسط المدينة؟
+le:
+  meaning: له، لها
+  example: أعطي الهدية لأمي.
+nos:
+  meaning: لنا، أنفسنا
+  example: نلتقي يوم الاثنين في البار.
+la edad:
+  meaning: عمر
+  example: في أي عمر تعلمت السباحة؟
+el novio:
+  meaning: حبيب، خطيب
+  example: حبيبي يعيش في حي آخر.
+la novia:
+  meaning: حبيبة، عروس
+  example: العروس ترتدي فستانًا أبيض.
+el marido:
+  meaning: زوج
+  example: زوجها يعمل في بنك.
+la esposa:
+  meaning: زوجة
+  example: زوجتي مدرسة لغة إنجليزية.
+el adulto:
+  meaning: بالغ
+  example: البالغ يحتاج إلى ثماني ساعات نوم.
+el anciano:
+  meaning: مسن، شيخ
+  example: المسن يتمشى في الحديقة.
+la broma:
+  meaning: مزحة
+  example: كانت مجرد مزحة، لا تغضب.
+la pena:
+  meaning: أسف، حزن
+  example: يؤسفني عدم الذهاب إلى الحفلة.
+la ilusión:
+  meaning: حماس، أمل
+  example: أنا متحمس جدًا للرحلة.
+el estrés:
+  meaning: توتر
+  example: التوتر ليس جيدًا للصحة.
+la revisión:
+  meaning: فحص، مراجعة
+  example: لدي فحص عند طبيب الأسنان.
+la experiencia:
+  meaning: خبرة
+  example: لدي خبرة في الأعمال المكتبية.
+el archivo:
+  meaning: ملف
+  example: احفظ الملف في ذلك المجلد.
+el camino:
+  meaning: طريق، درب
+  example: هذا الطريق يؤدي إلى القرية.
+el río:
+  meaning: نهر
+  example: يمر النهر قرب بيتي.
+el puente:
+  meaning: جسر
+  example: نعبر الجسر للذهاب إلى الوسط.
+el lago:
+  meaning: بحيرة
+  example: البحيرة هادئة في الصباح.
+el bosque:
+  meaning: غابة
+  example: تمشينا في الغابة يوم الأحد.
+la isla:
+  meaning: جزيرة
+  example: الجزيرة صغيرة لكنها جميلة.
+la costa:
+  meaning: ساحل
+  example: في الصيف نذهب إلى الساحل.
+la tormenta:
+  meaning: عاصفة
+  example: العاصفة تصل الليلة.
+el viajero:
+  meaning: مسافر
+  example: المسافر ينتظر على الرصيف.
+el camping:
+  meaning: مخيم
+  example: ننام في مخيم قرب البحر.
+el bañador:
+  meaning: لباس سباحة
+  example: أرتدي لباس السباحة على الشاطئ.
+la gorra:
+  meaning: قبعة
+  example: أرتدي قبعة عندما تكون الشمس ساطعة.
+el pijama:
+  meaning: بيجامة
+  example: أنام ببيجامة قطنية.
+el perfume:
+  meaning: عطر
+  example: أمي تستخدم عطرًا خفيفًا.
+el anillo:
+  meaning: خاتم
+  example: ذلك الخاتم الذهبي غالٍ.
+la joya:
+  meaning: جوهرة
+  example: هذه الجوهرة غالية جدًا.
+la afición:
+  meaning: هواية
+  example: هوايتي هي القراءة.
+la lectura:
+  meaning: قراءة
+  example: القراءة تساعدني على الاسترخاء.
+la moda:
+  meaning: موضة
+  example: الموضة تتغير كل عام.
+sin embargo:
+  meaning: ومع ذلك
+  example: إنه غالٍ؛ ومع ذلك، سأشتريه.
+decidir:
+  meaning: يقرر
+  example: قررت تغيير عملي.
+aparecer:
+  meaning: يظهر
+  example: ظهر هاتفي على الأريكة.
+ocurrir:
+  meaning: يحدث
+  example: ماذا حدث أمس في المكتب؟
+tratar:
+  meaning: يحاول، يعالج
+  example: سأحاول مساعدتك.
+mantener:
+  meaning: يحافظ على
+  example: أريد الحفاظ على الهدوء.
+evitar:
+  meaning: يتجنب
+  example: أحاول تجنب الزحام في الصباح.
+disfrutar:
+  meaning: يستمتع
+  example: استمتعنا كثيرًا بالرحلة.
+cumplir:
+  meaning: يبلغ العمر
+  example: عيد ميلادي يوم الاثنين.
+atender:
+  meaning: يخدم، ينتبه
+  example: النادل يخدم جيدًا.
+reconocer:
+  meaning: يتعرف على
+  example: لم أتعرف على أختك.
+suponer:
+  meaning: يفترض
+  example: أفترض أنك ستصل متأخرًا.
+resolver:
+  meaning: يحل
+  example: حلّ الفني المشكلة.
+respetar:
+  meaning: يحترم
+  example: يجب احترام القواعد.
+echar:
+  meaning: يرمي
+  example: ارمِ الرسالة في صندوق البريد.
+desaparecer:
+  meaning: يختفي
+  example: اختفت محفظتي من الحقيبة.
+depender:
+  meaning: يعتمد على
+  example: كل شيء يعتمد على الطقس.
+aumentar:
+  meaning: يزيد
+  example: ارتفع السعر قليلًا.
+dedicar:
+  meaning: يخصص
+  example: أخصص ساعتين للرياضة.
+describir:
+  meaning: يصف
+  example: صِف حيّك في سطرين.
+dudar:
+  meaning: يشك
+  example: أشك في أنه سيأتي اليوم.
+fijarse:
+  meaning: يلاحظ، ينتبه
+  example: انتبه إلى السعر.
+aconsejar:
+  meaning: ينصح
+  example: أنصحك بالراحة قليلًا.
+anunciar:
+  meaning: يعلن
+  example: أعلنت الشركة مواعيد جديدة.
+proponer:
+  meaning: يقترح
+  example: أقترح اجتماعًا يوم الثلاثاء.
+proteger:
+  meaning: يحمي
+  example: احمِ بياناتك الشخصية.
+reunirse:
+  meaning: يجتمع
+  example: نجتمع في الساعة العاشرة.
+solicitar:
+  meaning: يتقدم بطلب
+  example: تقدمت بطلب منحة في المكتب.
+valorar:
+  meaning: يقدر
+  example: أقدّر مساعدتك كثيرًا.
+luchar:
+  meaning: يناضل، يقاتل
+  example: نناضل من أجل ظروف أفضل.
+negar:
+  meaning: ينكر
+  example: ينكر أنه كسر الكأس.
+pertenecer:
+  meaning: ينتمي إلى
+  example: هذا الكتاب ملك لأختي.
+disculparse:
+  meaning: يعتذر
+  example: اعتذر عن الوصول متأخرًا.
+el futuro:
+  meaning: المستقبل
+  example: أفكر في المستقبل بهدوء.
+la situación:
+  meaning: الوضع
+  example: الوضع صعب، لكنه سيتحسن.
+el tipo:
+  meaning: النوع، الرجل
+  example: يعجبني ذلك النوع من القهوة.
+la oportunidad:
+  meaning: الفرصة
+  example: هذه فرصة جيدة.
+el ejemplo:
+  meaning: المثال
+  example: أعطني مثالًا واضحًا.
+la falta:
+  meaning: النقص
+  example: نقص النوم يتعبني.
+la relación:
+  meaning: العلاقة
+  example: لدينا علاقة جيدة.
+la seguridad:
+  meaning: السلامة، الأمان
+  example: السلامة أولًا.
+el objetivo:
+  meaning: الهدف
+  example: الهدف هو الانتهاء اليوم.
+la opción:
+  meaning: الخيار
+  example: لا يوجد خيار آخر.
+la importancia:
+  meaning: الأهمية
+  example: لا أرى أهمية المشكلة.
+el acuerdo:
+  meaning: الاتفاق
+  example: توصلنا إلى اتفاق عادل.
+la costumbre:
+  meaning: العادة
+  example: من العادة تناول العشاء متأخرًا.
+la fuerza:
+  meaning: القوة
+  example: أحتاج قوة للصعود.
+el esfuerzo:
+  meaning: الجهد
+  example: بالجهد، كل شيء ممكن.
+el éxito:
+  meaning: النجاح
+  example: النجاح يتطلب صبرًا.
+el sistema:
+  meaning: النظام
+  example: النظام يعمل بشكل جيد جدًا.
+la sociedad:
+  meaning: المجتمع
+  example: المجتمع يتغير بسرعة.
+la zona:
+  meaning: المنطقة
+  example: هذه المنطقة هادئة جدًا.
+la ventaja:
+  meaning: الميزة
+  example: الميزة هي السعر.
+el desarrollo:
+  meaning: التطوير
+  example: تطوير المشروع يسير بشكل جيد.
+la distancia:
+  meaning: المسافة
+  example: المسافة إلى المركز قصيرة.
+el riesgo:
+  meaning: الخطر
+  example: هناك خطر هطول المطر.
+el daño:
+  meaning: الضرر، الأذى
+  example: الضربة لم تسبب ضررًا.
+la explicación:
+  meaning: الشرح
+  example: شرحك كان واضحًا جدًا.
+la prueba:
+  meaning: الاختبار
+  example: كانت نتيجة الفحص الطبي جيدة.
+la beca:
+  meaning: المنحة
+  example: طلبت منحة للدراسة.
+la vivienda:
+  meaning: السكن، المنزل
+  example: السكن قريب من المركز.
+la hipoteca:
+  meaning: الرهن العقاري
+  example: ندفع الرهن العقاري كل شهر.
+el préstamo:
+  meaning: القرض
+  example: طلبت قرضًا لشراء السيارة.
+la mudanza:
+  meaning: الانتقال، نقل الأثاث
+  example: كان الانتقال متعبًا جدًا.
+el inquilino:
+  meaning: المستأجر
+  example: يدفع المستأجر الإيجار كل شهر.
+la fianza:
+  meaning: التأمين، العربون
+  example: تركنا تأمينًا للشقة.
+la reparación:
+  meaning: الإصلاح
+  example: كلف إصلاح السقف كثيرًا.
+la instalación:
+  meaning: التركيب
+  example: تركيب الكهرباء جديد.
+la limpieza:
+  meaning: التنظيف
+  example: أقوم بالتنظيف أيام السبت.
+el transporte:
+  meaning: النقل
+  example: أستخدم النقل العام كل يوم.
+el atasco:
+  meaning: ازدحام المرور
+  example: كان هناك ازدحام مروري هائل على الطريق السريع.
+el carril:
+  meaning: المسار، الحارة
+  example: غيّر المسار بحذر.
+la matrícula:
+  meaning: لوحة السيارة، رقم التسجيل
+  example: لوحة أرقام السيارة جديدة.
+el transbordo:
+  meaning: التبديل، النقل
+  example: عليك التبديل في المحطة التالية.
+el puerto:
+  meaning: الميناء
+  example: وصلت السفينة إلى الميناء صباحًا.
+el trámite:
+  meaning: الإجراء
+  example: الإجراء سريع إذا كان لديك موعد.
+el plazo:
+  meaning: المهلة، الموعد النهائي
+  example: تنتهي المهلة يوم الجمعة.
+la identidad:
+  meaning: الهوية
+  example: أحتاج وثيقة هوية.
+el certificado:
+  meaning: الشهادة
+  example: اطلب الشهادة في البلدية.
+renovar:
+  meaning: يجدد
+  example: عليّ تجديد جواز السفر قريبًا.
+gestionar:
+  meaning: يعالج، يدير
+  example: سأعالج التصريح غدًا.
+reclamar:
+  meaning: يشتكي، يطالب
+  example: أريد الاعتراض على فاتورة الهاتف.
+la jornada:
+  meaning: يوم العمل، الدوام
+  example: يبدأ دوامي في الثامنة.
+la formación:
+  meaning: التدريب، التكوين
+  example: تقدم الشركة تدريبًا للموظفين.
+la presentación:
+  meaning: العرض التقديمي، التقديم
+  example: يبدأ العرض التقديمي في العاشرة.
+la responsabilidad:
+  meaning: المسؤولية
+  example: أن تكون مديرًا مسؤولية كبيرة.
+contratar:
+  meaning: يوظف، يتعاقد
+  example: سيوظفون شخصين.
+despedir:
+  meaning: يفصل، يطرد
+  example: يمكن للشركة فصل أي شخص.
+jubilarse:
+  meaning: يتقاعد
+  example: يريد أبي أن يتقاعد هذا العام.
+la huelga:
+  meaning: الإضراب
+  example: العمال في إضراب.
+la prevención:
+  meaning: الوقاية
+  example: الوقاية أساسية للصحة.
+el tratamiento:
+  meaning: العلاج
+  example: يستمر العلاج ثلاثة أسابيع.
+la operación:
+  meaning: العملية
+  example: نجحت العملية.
+el músculo:
+  meaning: العضلة
+  example: تؤلمني عضلة الذراع.
+la respiración:
+  meaning: التنفس
+  example: يساعد التنفس العميق على الاسترخاء.
+recetar:
+  meaning: يصف دواء
+  example: يمكن للطبيب أن يصف شرابًا.
+contagiarse:
+  meaning: يصاب بالعدوى
+  example: من السهل الإصابة بالإنفلونزا في الشتاء.
+vacunarse:
+  meaning: يتلقى التطعيم
+  example: يجب أن تتلقى التطعيم قبل الرحلة.
+aliviar:
+  meaning: يخفف
+  example: يساعد هذا الشاي على تخفيف الألم.
+empeorar:
+  meaning: يسوء، يزداد سوءًا
+  example: قد تسوء صحته دون علاج.
+el efectivo:
+  meaning: النقد، نقدًا
+  example: أفضّل الدفع نقدًا.
+la garantía:
+  meaning: الضمان
+  example: يغطي الضمان الإصلاح.
+caducar:
+  meaning: تنتهي صلاحيته، ينتهي
+  example: قد تنتهي صلاحية الزبادي غدًا.
+congelar:
+  meaning: يجمد، يجمّد
+  example: سأجمّد اللحم.
+freír:
+  meaning: يقلي
+  example: قلي البيض سهل جدًا.
+hervir:
+  meaning: يغلي
+  example: يجب غلي الماء أولًا.
+mezclar:
+  meaning: يخلط
+  example: اخلط الدقيق مع الحليب.
+añadir:
+  meaning: يضيف
+  example: أضف قليلًا من الملح.
+pelar:
+  meaning: يقشر
+  example: تقشير البطاطس يستغرق وقتًا.
+envolver:
+  meaning: يلف، يغلف
+  example: هل يمكنكم تغليف الهدية من فضلكم؟
+la confianza:
+  meaning: الثقة، الوثوق
+  example: الثقة مهمة في العلاقة الزوجية.
+el respeto:
+  meaning: الاحترام
+  example: يساعد الاحترام على التعايش بشكل أفضل.
+la comunicación:
+  meaning: التواصل
+  example: يتحسن التواصل بالحوار.
+la discusión:
+  meaning: الجدال، النقاش
+  example: كان لدينا جدال بسبب المال.
+la disculpa:
+  meaning: الاعتذار
+  example: كان اعتذاره صادقًا وسريعًا.
+el comportamiento:
+  meaning: السلوك
+  example: أدهش سلوكه الجميع.
+la actitud:
+  meaning: الموقف، التوجه
+  example: موقفك الإيجابي يساعد كثيرًا.
+la paciencia:
+  meaning: الصبر
+  example: تحتاج إلى صبر كبير مع الأطفال.
+por lo tanto:
+  meaning: لذلك، بالتالي
+  example: كان متعبًا؛ لذلك غادر.
+ya que:
+  meaning: بما أن، لأن
+  example: لم يأتِ لأنه كان مريضًا.
+probablemente:
+  meaning: على الأرجح، ربما
+  example: على الأرجح سنتأخر عن العشاء.
+seguramente:
+  meaning: على الأرجح، بالتأكيد
+  example: على الأرجح أنه غادر العمل بالفعل.
+actualmente:
+  meaning: حالياً
+  example: أعيش حالياً مع والدَيّ.
+últimamente:
+  meaning: مؤخراً
+  example: لم أنم جيداً مؤخراً في الليل.
+la baja:
+  meaning: إجازة مرضية، انخفاض
+  example: هو في إجازة مرضية منذ الاثنين.
+el salario:
+  meaning: الراتب
+  example: أتقاضى الراتب في نهاية الشهر.
+el especialista:
+  meaning: المختص
+  example: طبيبي يرسلني إلى المختص.
+la tensión:
+  meaning: ضغط الدم، التوتر
+  example: الطبيب يقيس لي ضغط الدم.
+el apoyo:
+  meaning: الدعم
+  example: شكراً لدعمك في كل الأوقات.
+la educación:
+  meaning: الأدب، التعليم
+  example: الأدب مهم على المائدة.
+la preocupación:
+  meaning: القلق
+  example: قلقه بشأن الامتحان طبيعي.
+el conflicto:
+  meaning: النزاع، الخلاف
+  example: حاولوا حل النزاع دون صراخ.
+la emoción:
+  meaning: العاطفة، الإثارة
+  example: تأثرت كثيراً عندما رأيتهم.
+el carácter:
+  meaning: الطبع، الشخصية
+  example: لديه طبع طيب وصبر كبير.
+la personalidad:
+  meaning: الشخصية
+  example: شخصيته مرحة وهادئة.
+la motivación:
+  meaning: الحافز، الدافع
+  example: الحافز مفتاح للدراسة.
+el ascenso:
+  meaning: الترقية
+  example: أعطوه ترقية في العمل.
+el despido:
+  meaning: الطرد، الفصل من العمل
+  example: كان الطرد مفاجأة للجميع.
+el autónomo:
+  meaning: العامل المستقل
+  example: أخي يعمل لحسابه الخاص ويعمل كثيراً.
+el presupuesto:
+  meaning: عرض سعر، ميزانية
+  example: طلب عرض سعر من السباك.
+el requisito:
+  meaning: الشرط، المتطلب
+  example: هذا الشرط إلزامي لتقديم طلب الحصول على مقعد.
+el impreso:
+  meaning: النموذج، الاستمارة
+  example: املأ هذا النموذج ووقّع أدناه.
+el funcionario:
+  meaning: الموظف الحكومي
+  example: راجع الموظف الحكومي طلبي بهدوء.
+el registro:
+  meaning: السجل، التسجيل
+  example: يتم التسجيل في هذا المكتب.
+el justificante:
+  meaning: المستند المثبت، الإثبات
+  example: أحتاج المستند المثبت لطلب الإجازة المرضية.
+la tasa:
+  meaning: الرسم، المعدل
+  example: يجب دفع رسم بلدي.
+la renovación:
+  meaning: التجديد
+  example: تجديد الرخصة يستغرق أسبوعين.
+la administración:
+  meaning: الإدارة
+  example: تفتح الإدارة من التاسعة إلى الثانية.
+la analítica:
+  meaning: تحليل الدم
+  example: نتائج تحليل الدم تظهر غداً.
+la radiografía:
+  meaning: الأشعة السينية
+  example: أجروا لي أشعة سينية على الذراع.
+el vendaje:
+  meaning: الضمادة، التضميد
+  example: تغطي الضمادة الجرح كله.
+la recuperación:
+  meaning: الشفاء، التعافي
+  example: كان التعافي بعد العملية سريعاً.
+el chequeo:
+  meaning: الفحص الطبي
+  example: أجري فحصاً طبياً كل سنة.
+la cicatriz:
+  meaning: الندبة
+  example: تبقى له ندبة في الركبة.
+la taquilla:
+  meaning: شباك التذاكر
+  example: اشتريت التذاكر من شباك التذاكر.
+la escala:
+  meaning: توقف وسطي، مقياس
+  example: نتوقف في مدينة أخرى أثناء الرحلة.
+el alojamiento:
+  meaning: مكان الإقامة، الإقامة
+  example: يشمل مكان الإقامة الفطور والواي فاي.
+la estancia:
+  meaning: الإقامة
+  example: كانت إقامتنا في الفندق قصيرة.
+el turismo:
+  meaning: السياحة
+  example: السياحة تملأ الساحل في الصيف.
+la pensión:
+  meaning: نُزل، معاش
+  example: نِمنا في نُزل قرب الميناء.
+la grúa:
+  meaning: شاحنة السحب، الرافعة
+  example: أخذت شاحنة السحب السيارة المعطلة.
+la charcutería:
+  meaning: متجر اللحوم الباردة
+  example: أشتري لحم الخنزير المقدد من متجر اللحوم الباردة في الحي.
+la ración:
+  meaning: الحصة، طبق
+  example: طلبنا حصة من العجة للمشاركة.
+la barra:
+  meaning: طاولة البار، قضيب
+  example: انتظرنا واقفين عند البار.
+el cubierto:
+  meaning: رسم الجلوس، غطاء
+  example: رسم الجلوس يكلّف يورو واحداً.
+la jarra:
+  meaning: الكوز، الجرة
+  example: أحضر كوز ماء من فضلك.
+el fontanero:
+  meaning: السباك
+  example: أصلح السباك تسرب الحمام.
+el electricista:
+  meaning: الكهربائي
+  example: سيفحص الكهربائي المقابس غداً.
+la reforma:
+  meaning: التجديد، الإصلاح
+  example: كلف تجديد المطبخ كثيراً.
+el electrodoméstico:
+  meaning: الجهاز المنزلي
+  example: هذا الجهاز المنزلي يستهلك كهرباء كثيرة.
+la persiana:
+  meaning: الستارة، المصراع
+  example: أنزل الستارة، الشمس قوية.
+el trastero:
+  meaning: غرفة التخزين، المخزن
+  example: نحفظ الحقائب في غرفة التخزين.
+la comunidad:
+  meaning: المجتمع، جمعية السكان
+  example: جمعية السكان ترفع الاشتراك كل عام.
+la inmobiliaria:
+  meaning: الوكالة العقارية
+  example: أرتنا الوكالة العقارية شقتين.
+el casero:
+  meaning: المالك، صاحب البيت
+  example: لم يُرجع المالك مبلغ الضمان.
+la envidia:
+  meaning: الحسد
+  example: أشعر بالحسد تجاه عمله الجديد.
+los celos:
+  meaning: الغيرة
+  example: الغيرة يمكن أن تضر بالعلاقة.
+el orgullo:
+  meaning: الفخر، الكبرياء
+  example: يتحدث عن ابنه بفخر.
+la vergüenza:
+  meaning: الخجل، العار
+  example: أشعر بالخجل من التحدث أمام الناس.
+la soledad:
+  meaning: الوحدة
+  example: الوحدة يمكن أن تكون قاسية جداً.
+la tecnología:
+  meaning: التكنولوجيا
+  example: التكنولوجيا تسهّل حياتنا اليومية كثيراً.
+la energía:
+  meaning: الطاقة
+  example: هذا المنزل يستخدم الطاقة الشمسية طوال العام.
+el medio ambiente:
+  meaning: البيئة
+  example: علينا جميعًا حماية البيئة.
+la contaminación:
+  meaning: التلوث
+  example: تلوث الهواء مشكلة خطيرة.
+el reciclaje:
+  meaning: إعادة التدوير
+  example: إعادة تدوير البلاستيك تساعد الكوكب.
+el plástico:
+  meaning: البلاستيك
+  example: نحاول استخدام بلاستيك أقل في المنزل.
+el envase:
+  meaning: العبوة, التغليف
+  example: هذه العبوة الزجاجية يمكن إعادة تدويرها.
+el cartón:
+  meaning: الكرتون
+  example: ضع الكرتون في الحاوية الزرقاء.
+la aplicación:
+  meaning: التطبيق
+  example: هذا التطبيق يُستخدم لتعلم اللغات.
+la conexión:
+  meaning: الاتصال
+  example: الاتصال بالإنترنت بطيء جدًا.
+el dispositivo:
+  meaning: الجهاز
+  example: يتصل الجهاز بالواي فاي.
+el dato:
+  meaning: البيان, المعلومة
+  example: يجب حماية البيانات الشخصية.
+la protección:
+  meaning: الحماية
+  example: حماية البيانات حق.
+la privacidad:
+  meaning: الخصوصية
+  example: الخصوصية على الإنترنت تقلق الجميع.
+el perfil:
+  meaning: الملف الشخصي
+  example: يتضمن ملف المستخدم صورة.
+la red:
+  meaning: الشبكة
+  example: غيّرت الشبكة الاجتماعية قواعدها.
+la infección:
+  meaning: العدوى, الإصابة
+  example: وصف الطبيب مضادات حيوية للعدوى.
+la molestia:
+  meaning: انزعاج, ألم
+  example: أشعر بوجع خفيف في ركبتي.
+el embarazo:
+  meaning: الحمل
+  example: استمر الحمل تسعة أشهر.
+el mercadillo:
+  meaning: سوق شعبي
+  example: يفتح السوق الشعبي صباح الأحد.
+la papelería:
+  meaning: متجر القرطاسية
+  example: اشتريت مظاريف من متجر القرطاسية في الحي.
+la ferretería:
+  meaning: متجر أدوات
+  example: أحتاج براغي من متجر الأدوات.
+la tintorería:
+  meaning: التنظيف الجاف
+  example: أخذت البدلة إلى التنظيف الجاف.
+la ampliación:
+  meaning: التوسعة
+  example: ستكلف توسعة الشقة كثيرًا.
+la inspección:
+  meaning: التفتيش
+  example: تفتيش المبنى يوم الجمعة.
+instalar:
+  meaning: تركيب, تثبيت
+  example: ركّبوا التدفئة في أكتوبر.
+el ático:
+  meaning: بنتهاوس, شقة علوية
+  example: للشقة العلوية شرفة كبيرة.
+la cancelación:
+  meaning: الإلغاء
+  example: أزعجنا إلغاء الرحلة كثيرًا.
+la pérdida:
+  meaning: الفقدان, الضياع
+  example: فقدان الأمتعة مشكلة.
+la tarifa:
+  meaning: الأجرة, التعرفة
+  example: ارتفعت أجرة القطار.
+la ruta:
+  meaning: الطريق, المسار
+  example: أقصر طريق يمر عبر الجسر.
+el reembolso:
+  meaning: استرداد المال
+  example: طلبت استرداد ثمن التذكرة الملغاة.
+la gestión:
+  meaning: الإدارة
+  example: إدارة الوقت مهمة جدًا.
+la contratación:
+  meaning: التوظيف
+  example: يبدأ توظيف موظفين جدد غدًا.
+la plantilla:
+  meaning: الموظفون, الطاقم
+  example: موظفو الشركة شباب جدًا.
+la negociación:
+  meaning: التفاوض
+  example: استمر التفاوض على العقد ساعتين.
+la estrategia:
+  meaning: الاستراتيجية
+  example: نحتاج استراتيجية لنبيع أكثر.
+la investigación:
+  meaning: البحث
+  example: البحث الطبي يحتاج مزيدًا من المال العام.
+el ingreso:
+  meaning: الدخل
+  example: دخله لا يغطي المصاريف الشهرية.
+la deuda:
+  meaning: الدين
+  example: عندي دين للبنك.
+el ahorro:
+  meaning: التوفير
+  example: توفير الطاقة يقلل الفاتورة.
+el impuesto:
+  meaning: الضريبة
+  example: ارتفعت الضرائب كثيرًا هذا العام.
+la obligación:
+  meaning: الواجب, الالتزام
+  example: دفع الضرائب واجب.
+el derecho:
+  meaning: الحق
+  example: لديك الحق في إرجاع المنتج.
+la condición:
+  meaning: الشرط
+  example: إنه شرط للعقد.
+la norma:
+  meaning: القاعدة
+  example: يجب احترام قواعد المبنى.
+la sanción:
+  meaning: العقوبة, الغرامة
+  example: كانت الغرامة عقوبة قاسية جدًا.
+denunciar:
+  meaning: يبلّغ, يشتكي
+  example: سأبلّغ عن السرقة في مركز الشرطة.
+la reclamación:
+  meaning: الشكوى
+  example: قدمت شكوى في المتجر.
+tramitar:
+  meaning: إنجاز, معالجة
+  example: أنجزت إجراءات جواز السفر في مركز الشرطة.
+la libertad:
+  meaning: الحرية
+  example: حرية التعبير حق أساسي.
+la igualdad:
+  meaning: المساواة
+  example: المساواة بين الرجال والنساء ضرورية.
+la pobreza:
+  meaning: الفقر
+  example: يؤثر الفقر في كثير من عائلات الحي.
+la convivencia:
+  meaning: التعايش
+  example: التعايش بين الجيران جيد جدًا.
+la infancia:
+  meaning: الطفولة
+  example: كانت طفولتي سعيدة جدًا في القرية.
+la adolescencia:
+  meaning: المراهقة
+  example: المراهقة مرحلة صعبة.
+la juventud:
+  meaning: الشباب
+  example: يستخدم شباب اليوم الكثير من التقنية.
+el compromiso:
+  meaning: الالتزام, الارتباط
+  example: لدي التزام عائلي يوم السبت.
+el matrimonio:
+  meaning: الزواج
+  example: تم عقد الزواج في مبنى البلدية.
+el divorcio:
+  meaning: الطلاق
+  example: كان الطلاق قرارًا صعبًا.
+agradecer:
+  meaning: يشكر
+  example: أشكرك كثيرًا على مساعدتك.
+prometer:
+  meaning: يعد
+  example: أعدك بأنني سأصل مبكرًا.
+mentir:
+  meaning: يكذب
+  example: لا أحب أن تكذب عليّ.
+confiar:
+  meaning: يثق
+  example: يمكنك أن تثق بي.
+apoyar:
+  meaning: يدعم
+  example: عائلتي تدعمني دائمًا.
+animar:
+  meaning: يشجّع
+  example: شجعتني صديقتي على المواصلة.
+molestar:
+  meaning: يزعج
+  example: هل يزعجك أن أفتح النافذة؟
+soportar:
+  meaning: يتحمل
+  example: لا أتحمل هذا الضجيج.
+calmarse:
+  meaning: يهدأ
+  example: اهدأ، كل شيء سيكون على ما يرام.
+alegrarse:
+  meaning: يفرح
+  example: أنا سعيد جدًا برؤيتك.
+sorprender:
+  meaning: يفاجئ
+  example: فاجأني الخبر كثيرًا.
+aburrirse:
+  meaning: يشعر بالملل
+  example: أشعر بالملل أيام الأحد في المنزل.
+divertirse:
+  meaning: يستمتع
+  example: استمتعنا كثيرًا في الحفلة.
+enamorarse:
+  meaning: يقع في الحب
+  example: وقع في حبها في الصيف.
+divorciarse:
+  meaning: يتطلق
+  example: تطلقا بعد سنوات كثيرة.
+acostumbrarse:
+  meaning: يعتاد
+  example: لقد اعتدت البرد بالفعل.
+esforzarse:
+  meaning: يجتهد
+  example: علينا أن نجتهد أكثر.
+lograr:
+  meaning: يحقق
+  example: أخيرًا حققت الترقية.
+prohibir:
+  meaning: يمنع
+  example: الشركة تمنع التدخين في الداخل.
+obligar:
+  meaning: يُجبر
+  example: أجبرنا المدير على البقاء.
+advertir:
+  meaning: يحذّر
+  example: أحذرك أن الطريق سيئ.
+admitir:
+  meaning: يعترف
+  example: أعترف أنني أخطأت.
+rechazar:
+  meaning: يرفض
+  example: رفضوا طلبي دون تفسير.
+confirmar:
+  meaning: يؤكد
+  example: أكّد الحجز قبل الجمعة.
+conectar:
+  meaning: يوصل
+  example: وصّل الكابل بالحاسوب.
+descargar:
+  meaning: يحمّل
+  example: حمّل النموذج من الموقع.
+borrar:
+  meaning: يحذف
+  example: احذف ذلك الملف، من فضلك.
+secar:
+  meaning: يجفف
+  example: جفف الأطباق قبل وضعها.
+asar:
+  meaning: يشوي
+  example: سنشوي الدجاج في الفرن.
+batir:
+  meaning: يخفق
+  example: اخفق البيض مع السكر.
+agradable:
+  meaning: لطيف
+  example: كانت أمسية لطيفة جدًا.
+ruidoso:
+  meaning: صاخب
+  example: الحي صاخب في الليل.
+oscuro:
+  meaning: مظلم
+  example: الممر مظلم جدًا.
+ligero:
+  meaning: خفيف
+  example: خذ معطفًا خفيفًا للسفر.
+pesado:
+  meaning: ثقيل
+  example: هذه الحزمة ثقيلة جدًا.
+duro:
+  meaning: صلب
+  example: المرتبة صلبة جدًا.
+blando:
+  meaning: طري
+  example: الخبز طري اليوم.
+fuerte:
+  meaning: قوي
+  example: لديه ألم شديد جدًا.
+débil:
+  meaning: ضعيف
+  example: أشعر بالضعف بعد الإنفلونزا.
+vacío:
+  meaning: فارغ
+  example: الثلاجة فارغة تقريبًا.
+lleno:
+  meaning: ممتلئ
+  example: الحافلة ممتلئة.
+ancho:
+  meaning: واسع
+  example: الرصيف واسع إلى حد ما.
+estrecho:
+  meaning: ضيق
+  example: هذا الشارع ضيق جدًا.
+orgulloso:
+  meaning: فخور
+  example: أنا فخور بفريقي.
+celoso:
+  meaning: غيور
+  example: لا تكن غيورًا، لا يوجد سبب.
+agradecido:
+  meaning: ممتن
+  example: أنا ممتن جدًا لمساعدتك.
+decepcionado:
+  meaning: خائب الأمل
+  example: شعرت بخيبة أمل من النتيجة.
+satisfecho:
+  meaning: راضٍ
+  example: أنا راضٍ عن عملي.
+inseguro:
+  meaning: غير واثق
+  example: أشعر بعدم الثقة في الاجتماعات.
+valiente:
+  meaning: شجاع
+  example: كان شجاعًا جدًا عندما أبلغ عنه.
+generoso:
+  meaning: كريم
+  example: جاري كريم جدًا.
+egoísta:
+  meaning: أناني
+  example: أحيانًا أكون أنانيًا قليلًا.
+honesto:
+  meaning: صادق
+  example: أفضّل أن أكون صادقًا معك.
+la herramienta:
+  meaning: الأداة
+  example: أحتاج أداة لإصلاحه.
+el tornillo:
+  meaning: البرغي
+  example: ينقص برغي في هذا الكرسي.
+el destornillador:
+  meaning: المفك
+  example: أعطني المفك، من فضلك.
+la cinta:
+  meaning: الشريط اللاصق
+  example: ألصق الورقة بالشريط اللاصق.
+el pegamento:
+  meaning: الغراء
+  example: لا أجد الغراء.
+el interruptor:
+  meaning: المفتاح الكهربائي
+  example: المفتاح بجانب الباب.
+la linterna:
+  meaning: المصباح اليدوي
+  example: خذ مصباحًا يدويًا احتياطًا.
+el ambiente:
+  meaning: الجو، البيئة
+  example: جو الحانة لطيف.
+el debate:
+  meaning: النقاش
+  example: كان النقاش حول العمل مثيرًا للاهتمام.
+la causa:
+  meaning: السبب
+  example: سبب المشكلة هو الضجيج.
+el motivo:
+  meaning: السبب، الدافع
+  example: لا أفهم سبب غضبك.
+el efecto:
+  meaning: التأثير
+  example: الدواء له تأثير سريع.
+la consecuencia:
+  meaning: النتيجة
+  example: كان التأخير نتيجة المطر.
+la posibilidad:
+  meaning: الإمكانية
+  example: توجد إمكانية لتغيير التاريخ.
+la necesidad:
+  meaning: الحاجة، الضرورة
+  example: أشعر بحاجة إلى الراحة قليلًا.
+el interés:
+  meaning: الاهتمام
+  example: أبدي اهتمامًا بتعلم الإسبانية.
+la atención:
+  meaning: الانتباه
+  example: انتبه إلى التعليمات.
+el cuidado:
+  meaning: العناية، الحذر
+  example: كن حذرًا مع الأرضية المبللة.
+la mejora:
+  meaning: التحسن
+  example: تحسن الصحة واضح.
+la reducción:
+  meaning: التخفيض
+  example: تخفيض السعر يساعدنا.
+el aumento:
+  meaning: الزيادة
+  example: زيادة الإيجار تقلقني.
+la elección:
+  meaning: الاختيار، الانتقاء
+  example: اختيار القائمة صعب.
+la organización:
+  meaning: التنظيم، المنظمة
+  example: تنظيم الرحلة يستغرق وقتًا.
+el control:
+  meaning: التحكم
+  example: التحكم في النفقات مهم.
+la sugerencia:
+  meaning: الاقتراح
+  example: اقتراحك يبدو مفيدًا جدًا.
+la propuesta:
+  meaning: الاقتراح
+  example: اقتراح المدير مثير للاهتمام.
+el técnico:
+  meaning: الفني
+  example: الفني يصلح التدفئة.
+el paciente:
+  meaning: المريض
+  example: المريض ينتظر الطبيب.
+el farmacéutico:
+  meaning: الصيدلي
+  example: الصيدلي ينصحني بهذا المرهم.
+el alta:
+  meaning: إذن الخروج
+  example: أعطوني تصريح الخروج أمس.
+el mantel:
+  meaning: مفرش المائدة
+  example: ضع مفرش المائدة على الطاولة.
+el tendedero:
+  meaning: منشر الغسيل
+  example: الملابس على منشر الغسيل.
+la sección:
+  meaning: القسم
+  example: أبحث عن قسم الفواكه.
+el peaje:
+  meaning: رسوم الطريق
+  example: دفعنا رسوم الطريق على الطريق السريع.
+las afueras:
+  meaning: الضواحي
+  example: أعيش في ضواحي المدينة.
+la tolerancia:
+  meaning: التسامح
+  example: التسامح يساعد على التعايش بشكل أفضل.
+la generosidad:
+  meaning: الكرم
+  example: كرمه فاجأني كثيرًا.
+la honestidad:
+  meaning: الصدق
+  example: الصدق مهم في العمل.
+la sinceridad:
+  meaning: الصراحة
+  example: أقدر صراحتك عند الحديث.
+la esperanza:
+  meaning: الأمل
+  example: لدي أمل في العثور على عمل.
+la calma:
+  meaning: الهدوء
+  example: أحتاج إلى هدوء بعد العمل.
+la guerra:
+  meaning: الحرب
+  example: الحرب تسبب ألمًا كبيرًا.
+la política:
+  meaning: السياسة
+  example: لا أتحدث عن السياسة على العشاء.
+la religión:
+  meaning: الدين
+  example: الدين موضوع شخصي.
+el olor:
+  meaning: الرائحة
+  example: رائحة القهوة توقظني.
+el sabor:
+  meaning: الطعم، المذاق
+  example: هذا المثلج طعمه جيد.
+la forma:
+  meaning: الشكل، الطريقة
+  example: طريقة الدفع بسيطة.
+el peso:
+  meaning: الوزن
+  example: وزن الحقيبة صحيح.
+la altura:
+  meaning: الارتفاع
+  example: ارتفاع المبنى مثير للإعجاب.
+la velocidad:
+  meaning: السرعة
+  example: سرعة القطار عالية.
+el estilo:
+  meaning: الأسلوب
+  example: يعجبني أسلوب هذا القميص.
+la cultura:
+  meaning: الثقافة
+  example: الثقافة الإسبانية تهمني كثيرًا.
+el arte:
+  meaning: الفن
+  example: الفن الحديث يملأ المتحف.
+la literatura:
+  meaning: الأدب
+  example: أدرس الأدب في الجامعة.
+el espectáculo:
+  meaning: العرض
+  example: يبدأ العرض في الثامنة.
+la exposición:
+  meaning: المعرض
+  example: معرض الصور مجاني.
+comprobar:
+  meaning: يتحقق
+  example: يجب أن أتحقق من عنوان الفندق.
+sugerir:
+  meaning: يقترح
+  example: أقترح عليك زيارة المتحف.
+comentar:
+  meaning: يعلق، يناقش
+  example: أريد مناقشة المشكلة مع مديري.
+mencionar:
+  meaning: يذكر
+  example: ذكر السعر في الاجتماع.
+resumir:
+  meaning: يلخص
+  example: سألخص النص.
+traducir:
+  meaning: يترجم
+  example: أستطيع ترجمة هذه الرسالة إلى الإنجليزية.
+pronunciar:
+  meaning: ينطق
+  example: من الصعب نطق هذه الكلمة.
+significar:
+  meaning: يعني
+  example: ماذا تعني هذه الكلمة بالإسبانية؟
+asegurarse:
+  meaning: يتأكد
+  example: يجب أن تتأكد من إغلاق الباب.
+atreverse:
+  meaning: يجرؤ
+  example: لا أجرؤ على السؤال.
+arrepentirse:
+  meaning: يندم
+  example: أندم على عدم ذهابي.
+la hoja:
+  meaning: الورقة
+  example: أحتاج إلى ورقة لكتابة الرسالة.
+la máquina:
+  meaning: الآلة
+  example: هذه الآلة لا تعمل جيدًا اليوم.
+el vendedor:
+  meaning: البائع
+  example: البائع يشرح لي السعر.
+la venta:
+  meaning: البيع، التخفيضات
+  example: يبدأ البيع يوم الاثنين صباحًا.
+la entrega:
+  meaning: التسليم
+  example: يصل تسليم الطرد بعد الظهر.
+el reparto:
+  meaning: التوصيل
+  example: توصيل البيتزا يستغرق نصف ساعة.
+el mensajero:
+  meaning: عامل التوصيل
+  example: عامل التوصيل يجلب طردًا إلى المنزل.
+el uniforme:
+  meaning: الزي الرسمي
+  example: أرتدي الزي الرسمي في العمل.
+respirar:
+  meaning: يتنفس
+  example: أجد صعوبة في التنفس عندما أركض.
+caerse:
+  meaning: يسقط
+  example: جدي سقط في المنزل.
+romperse:
+  meaning: ينكسر
+  example: كسر ذراعه أثناء اللعب.
+curar:
+  meaning: يعالج، يشفي
+  example: الطبيب يعالج الجرح بمرهم.
+operar:
+  meaning: يُجري عملية
+  example: غدًا يُجرون لي عملية في الركبة.
+marearse:
+  meaning: يشعر بالدوار
+  example: أشعر بالدوار في السيارة.
+vomitar:
+  meaning: يتقيأ
+  example: تقيأ الطفل بعد الأكل.
+estornudar:
+  meaning: يعطس
+  example: أعطس كثيرًا بسبب الحساسية.
+sangrar:
+  meaning: ينزف
+  example: الجرح ما زال ينزف قليلًا.
+mejorarse:
+  meaning: يتحسن
+  example: أتمنى أن تتحسن قريبًا.
+el catarro:
+  meaning: الزكام
+  example: عندي زكام ولن أذهب إلى العمل.
+la caída:
+  meaning: السقوط
+  example: كان السقوط على الرصيف.
+la quemadura:
+  meaning: الحرق
+  example: ضع مرهمًا على الحرق.
+la señal:
+  meaning: الإشارة
+  example: تلك الإشارة تدل على مخرج الطوارئ.
+el límite:
+  meaning: الحد
+  example: حد السرعة قريب.
+el cruce:
+  meaning: التقاطع
+  example: انعطف يمينًا عند التقاطع.
+el trayecto:
+  meaning: الرحلة، المسار
+  example: الرحلة قصيرة ومريحة.
+la duración:
+  meaning: المدة
+  example: مدة الرحلة قصيرة.
+el desvío:
+  meaning: التحويلة
+  example: هناك تحويلة بسبب الأعمال.
+el combustible:
+  meaning: الوقود
+  example: الوقود غالي جدًا.
+la conducción:
+  meaning: القيادة
+  example: القيادة تحت المطر خطيرة.
+el clima:
+  meaning: المناخ، الطقس
+  example: المناخ هنا معتدل جدًا.
+la naturaleza:
+  meaning: الطبيعة
+  example: أحب المشي في الطبيعة.
+el paisaje:
+  meaning: المنظر الطبيعي
+  example: المنظر من الجبل جميل جدًا.
+la piscina:
+  meaning: المسبح
+  example: مسبح المبنى يفتح في الصيف.
+el tejado:
+  meaning: السقف
+  example: السقف يحتاج إلى إصلاح.
+el portero:
+  meaning: البواب
+  example: البواب يفتح الباب الرئيسي.
+la obra:
+  meaning: الأشغال
+  example: هناك أشغال في شارع المنزل.
+la decoración:
+  meaning: الديكور
+  example: ديكور الصالة عصري.
+el rincón:
+  meaning: الزاوية، الركن
+  example: الأريكة في الزاوية.
+el enfado:
+  meaning: الغضب
+  example: كان غضبه بسبب أمر تافه.
+la amabilidad:
+  meaning: اللطف
+  example: شكرًا على لطفك معي.
+la simpatía:
+  meaning: الود
+  example: أعجبنا ود النادل.
+la timidez:
+  meaning: الخجل
+  example: خجله يمنعه من التحدث أمام الناس.
+la valentía:
+  meaning: الشجاعة
+  example: شجاعته فاجأتني كثيرًا.
+el adolescente:
+  meaning: المراهق
+  example: المراهق يقضي وقتًا طويلًا مع الأصدقاء.
+la publicidad:
+  meaning: الإعلان، الدعاية
+  example: دعاية السوبرماركت موجودة على الباب.
+el anuncio:
+  meaning: الإعلان
+  example: رأيت الإعلان في الصحيفة.
+el cartel:
+  meaning: الملصق، اللافتة
+  example: ملصق الحفل على الحائط.
+la prensa:
+  meaning: الصحافة
+  example: الصحافة تتحدث كثيرًا عن السياسة.
+el reportaje:
+  meaning: التقرير
+  example: التقرير عن الرحلة مثير للاهتمام.
+la portada:
+  meaning: الغلاف
+  example: الخبر يظهر على الغلاف.
+la actuación:
+  meaning: العرض، الأداء
+  example: عرض المجموعة كان ممتعًا جدًا.
+el actor:
+  meaning: الممثل
+  example: الممثل يتحدث بصوت عالٍ.
+el escenario:
+  meaning: المسرح
+  example: المغني على المسرح.
+el público:
+  meaning: الجمهور
+  example: صفق الجمهور في النهاية.
+la pintura:
+  meaning: اللوحة، الطلاء
+  example: طلاء هذا الجدار جديد.
+la escultura:
+  meaning: المنحوتة، النحت
+  example: المنحوتة في المتحف.
+el dibujo:
+  meaning: الرسم
+  example: رسمت رسمًا للمنزل.
+dibujar:
+  meaning: يرسم
+  example: أحب الرسم في الدفتر.
+pintar:
+  meaning: يدهن، يرسم
+  example: سأدهن المطبخ باللون الأبيض.
+la desventaja:
+  meaning: العيب
+  example: العيب هو السعر المرتفع جدًا.
+aprobar:
+  meaning: ينجح
+  example: أتمنى أن أنجح في الامتحان غدًا.
+suspender:
+  meaning: يرسب في الامتحان
+  example: رسبت في امتحان القيادة.
+equivocarse:
+  meaning: يخطئ، يغلط
+  example: أخذت الحافلة الخطأ.
+solucionar:
+  meaning: يحل، يصلح
+  example: سنحل المشكلة معًا.
+reducir:
+  meaning: يقلل، يخفض
+  example: علينا تقليل النفقات.
+planificar:
+  meaning: يخطط
+  example: خططنا للمشروع بهدوء.
+informar:
+  meaning: يُبلغ، يُعلم
+  example: أبلغت الشركة العملاء.
+comunicar:
+  meaning: يتواصل، يُبلغ
+  example: أبلغ رئيسك بالتغيير.
+negociar:
+  meaning: يتفاوض
+  example: سنتفاوض على السعر النهائي.
+publicar:
+  meaning: ينشر، يعلن
+  example: نشروا الإعلان على الإنترنت.
+adjuntar:
+  meaning: يرفق
+  example: أُرفق المستند بالبريد.
+colaborar:
+  meaning: يتعاون
+  example: أحب التعاون مع زملائي.
+renunciar:
+  meaning: يستقيل، يتخلى
+  example: استقال من العمل بسبب التوتر.
+facturar:
+  meaning: يسجّل الأمتعة
+  example: هل يمكنني تسجيل الحقيبة هنا؟
+invertir:
+  meaning: يستثمر
+  example: أفضل الاستثمار في التدريب.
+votar:
+  meaning: يصوت
+  example: سنصوت يوم الأحد.
+criticar:
+  meaning: ينتقد
+  example: لا أحب انتقاد الآخرين.
+desconfiar:
+  meaning: لا يثق، يرتاب
+  example: لا أثق بتلك العروض الرخيصة جدًا.
+amenazar:
+  meaning: يهدد
+  example: هدد جاره.
+defender:
+  meaning: يدافع
+  example: سأدافع عن رأيي.
+investigar:
+  meaning: يحقق، يبحث
+  example: تحقق الشرطة في الحادث.
+descubrir:
+  meaning: يكتشف
+  example: اكتشفت بارًا هادئًا جدًا.
+inventar:
+  meaning: يخترع، يختلق
+  example: يختلق دائمًا أعذارًا للوصول متأخرًا.
+desarrollar:
+  meaning: يطوّر، ينمّي
+  example: تطوّر الشركة تطبيقات جديدة.
+producir:
+  meaning: ينتج
+  example: ينتج هذا المصنع مشروبات غازية.
+consumir:
+  meaning: يستهلك، يتناول
+  example: من المستحسن تناول الفاكهة كل يوم.
+desmayarse:
+  meaning: يفقد الوعي، يُغمى عليه
+  example: أُغمي عليه في السوبرماركت.
+torcerse:
+  meaning: يلوي مفصلًا، يلتوي
+  example: لويت كاحلي أثناء اللعب.
+quemarse:
+  meaning: يحرق نفسه، يحترق
+  example: أحرقت يدي أثناء الطبخ.
+relajarse:
+  meaning: يسترخي
+  example: أحتاج أن أسترخي بعد العمل.
+el peligro:
+  meaning: الخطر
+  example: هناك خطر حريق في الغابة.
+la casualidad:
+  meaning: الصدفة
+  example: كان لقاؤنا هناك صدفة.
+la violencia:
+  meaning: العنف
+  example: العنف لا يحل المشكلات.
+responsable:
+  meaning: مسؤول
+  example: هو مسؤول في التزامه بمواعيده.
+puntual:
+  meaning: دقيق المواعيد، ملتزم بالوقت
+  example: كن ملتزمًا بالوقت في المقابلة.
+la crítica:
+  meaning: النقد، الانتقاد
+  example: يتقبل الانتقادات جيدًا.
+la comprensión:
+  meaning: التفهم، الفهم
+  example: شكرًا لتفهمك.
+el egoísmo:
+  meaning: الأنانية
+  example: الأنانية تضر بالصداقات.
+el ánimo:
+  meaning: الروح المعنوية، التشجيع
+  example: أحتاج إلى تشجيع للمتابعة.
+la ansiedad:
+  meaning: القلق
+  example: القلق يسلب منه النوم.
+la época:
+  meaning: الفترة، العصر
+  example: في تلك الفترة لم تكن هناك هواتف محمولة.
+la temporada:
+  meaning: الموسم
+  example: يبدأ موسم التزلج قريبًا.
+el rato:
+  meaning: فترة قصيرة، وقت
+  example: انتظرنا قليلًا في الطابور.
+la madrugada:
+  meaning: الفجر، الساعات الأولى
+  example: وصلنا إلى المنزل في الساعات الأولى من الصباح.
+el amanecer:
+  meaning: الفجر، الشروق
+  example: شروق الشمس على الشاطئ جميل.
+complicado:
+  meaning: معقد
+  example: الإجراء معقد جدًا.
+la demanda:
+  meaning: الطلب
+  example: ارتفع الطلب على الشقق.
+la celebración:
+  meaning: الاحتفال
+  example: سيكون الاحتفال في الحديقة.
+el inodoro:
+  meaning: المرحاض
+  example: المرحاض في نهاية الممر.
+la cantidad:
+  meaning: الكمية، المقدار
+  example: اشترِ كمية صغيرة من الأرز.
+la intolerancia:
+  meaning: عدم التحمل، التعصب
+  example: يعاني من عدم تحمل اللاكتوز.
+la azotea:
+  meaning: السطح
+  example: ننشر الملابس على السطح.
+la campaña:
+  meaning: الحملة
+  example: تبدأ الحملة الشهر المقبل.
+el voto:
+  meaning: الصوت الانتخابي، التصويت
+  example: صوته مهم في الانتخابات.
+el político:
+  meaning: السياسي
+  example: تحدث السياسي مع السكان.
+el estado:
+  meaning: الدولة
+  example: تساعد الدولة الأسر.
+el ladrón:
+  meaning: اللص، السارق
+  example: أوقفت الشرطة اللص.
+la defensa:
+  meaning: الدفاع
+  example: قدم الدفاع أدلة جديدة.
+el ciudadano:
+  meaning: المواطن
+  example: قدم المواطن شكوى رسمية.
+la población:
+  meaning: السكان، عدد السكان
+  example: يزداد عدد سكان القرية ببطء.
+el empleo:
+  meaning: الوظيفة، العمل
+  example: أبحث عن عمل في وسط المدينة.
+el aprendizaje:
+  meaning: التعلم
+  example: تعلم اللغات يتطلب ممارسة.
+el departamento:
+  meaning: القسم
+  example: أعمل في قسم المبيعات.
+la actividad:
+  meaning: النشاط
+  example: النشاط مجاني للأعضاء.
+el hábito:
+  meaning: العادة
+  example: القراءة قبل النوم عادة جيدة.
+la promesa:
+  meaning: الوعد
+  example: أوفى بوعده ووصل في الموعد.
+la despedida:
+  meaning: الوداع
+  example: كان الوداع مؤثراً جداً.
+la bienvenida:
+  meaning: الترحيب
+  example: استقبلونا بترحيب حار جداً.
+el encuentro:
+  meaning: اللقاء
+  example: سيكون اللقاء في الساحة.
+la charla:
+  meaning: محادثة، حديث
+  example: قدمنا حديثاً عن إعادة التدوير.
+la teoría:
+  meaning: النظرية
+  example: النظرية أسهل من التطبيق.
+la justicia:
+  meaning: العدالة
+  example: يجب أن تحمي العدالة الجميع.
+la solidaridad:
+  meaning: التضامن
+  example: يساعد التضامن في الأوقات الصعبة.
+la discriminación:
+  meaning: التمييز
+  example: التمييز لا عذر له.
+la separación:
+  meaning: الانفصال
+  example: كان الانفصال صعباً على الزوجين.
+el nacimiento:
+  meaning: الولادة
+  example: كانت ولادة الطفل هذا الصباح.
+la muerte:
+  meaning: الموت
+  example: أثرت وفاة كلبه فيه.
+la jubilación:
+  meaning: التقاعد
+  example: سيكون تقاعده العام المقبل.
+la oposición:
+  meaning: امتحان وظيفي
+  example: يدرس لامتحان وظيفي ليصبح موظفاً حكومياً.
+el proveedor:
+  meaning: المورد
+  example: يتأخر المورد في تسليم البضاعة.
+la facultad:
+  meaning: الكلية
+  example: أدرس الحقوق في الكلية.
+el instituto:
+  meaning: المدرسة الثانوية
+  example: يذهب الأطفال إلى المدرسة الثانوية بالحافلة.
+la guardería:
+  meaning: الحضانة
+  example: نترك الطفل في الحضانة.
+el máster:
+  meaning: الماجستير
+  example: يدرس ماجستيراً في المعلوماتية.
+el abono:
+  meaning: اشتراك موسمي
+  example: أشتري الاشتراك الشهري للمترو.
+la avenida:
+  meaning: الجادة
+  example: الجادة مقطوعة بسبب الأشغال.
+la autoestima:
+  meaning: تقدير الذات
+  example: تحسن تقديره لذاته مع الرياضة.
+la empatía:
+  meaning: التعاطف
+  example: يساعد التعاطف على فهم الآخرين.
+la depresión:
+  meaning: الاكتئاب
+  example: يحتاج الاكتئاب إلى علاج طبي.
+el antibiótico:
+  meaning: المضاد الحيوي
+  example: وصف لي الطبيب مضاداً حيوياً.
+el cerebro:
+  meaning: الدماغ
+  example: يحتاج الدماغ إلى الراحة ليتعلم.
+la digestión:
+  meaning: الهضم
+  example: المشي بعد الأكل يسهل الهضم.
+el desmayo:
+  meaning: الإغماء
+  example: أصيب بإغماء في العمل.
+las muletas:
+  meaning: العكازات
+  example: يمشي بالعكازات منذ الحادث.
+el yeso:
+  meaning: الجبس
+  example: لديه جبس على ساقه.
+la ecografía:
+  meaning: الموجات فوق الصوتية
+  example: أظهرت الموجات فوق الصوتية أن كل شيء بخير.
+la anestesia:
+  meaning: التخدير
+  example: أُجريت العملية بتخدير موضعي.
+el quirófano:
+  meaning: غرفة العمليات
+  example: دخل غرفة العمليات صباحاً.
+la dosis:
+  meaning: الجرعة
+  example: خذ الجرعة التي حددها الطبيب.
+el analgésico:
+  meaning: مسكن الألم
+  example: أحتاج إلى مسكن للألم.
+la diarrea:
+  meaning: الإسهال
+  example: يمكن أن يسبب الإسهال جفافاً.
+el estreñimiento:
+  meaning: الإمساك
+  example: تساعد الألياف ضد الإمساك.
+la mejilla:
+  meaning: الخد
+  example: وضع اللون الأحمر على خده.
+la uña:
+  meaning: الظفر
+  example: كسر ظفراً أثناء الطبخ.
+el pulmón:
+  meaning: الرئة
+  example: التدخين يضر بالرئتين.
+el hígado:
+  meaning: الكبد
+  example: يعالج الكبد مواد كثيرة.
+el riñón:
+  meaning: الكلية
+  example: شرب الماء يحافظ على الكليتين.
+la cintura:
+  meaning: الخصر
+  example: الحزام يضغط على الخصر.
+la frente:
+  meaning: الجبهة
+  example: جبهته دافئة بسبب الحمى.
+la barbilla:
+  meaning: الذقن
+  example: أسند ذقنه إلى يده.
+la floristería:
+  meaning: محل الزهور
+  example: اشتريت زهوراً من محل الزهور.
+la joyería:
+  meaning: محل المجوهرات
+  example: الخاتم في محل المجوهرات.
+la perfumería:
+  meaning: محل العطور
+  example: اشتريت كولونيا من محل العطور.
+el váter:
+  meaning: المرحاض
+  example: المرحاض في نهاية الممر.
+la encimera:
+  meaning: سطح المطبخ
+  example: تركت المقلاة على سطح المطبخ.
+la caldera:
+  meaning: سخان الماء
+  example: سخان الماء لا يعمل في الشتاء.
+la gotera:
+  meaning: التسرب
+  example: التسرب يقع على السرير.
+el ferry:
+  meaning: العبارة
+  example: عبرنا النهر بالعبارة.
+la agencia:
+  meaning: الوكالة
+  example: حجزت الرحلة في وكالة.
+la videollamada:
+  meaning: مكالمة فيديو
+  example: أجرينا مكالمة فيديو مع الجدة.
+así que:
+  meaning: لذلك، إذن
+  example: أنا متعب، لذلك سأذهب.
+por eso:
+  meaning: لهذا السبب، لذلك
+  example: إنها تمطر، لذلك آخذ مظلة.
+a pesar de:
+  meaning: على الرغم من
+  example: على الرغم من المطر، خرجنا.
+mientras que:
+  meaning: بينما، في حين أن
+  example: أنا أطبخ بينما هو ينظف.
+para que:
+  meaning: لكي، حتى
+  example: تحدث بصوت عالٍ لكي يسمعك.
+a menos que:
+  meaning: إلا إذا
+  example: لن أذهب إلا إذا أتيت.
+acercarse:
+  meaning: يقترب
+  example: اقترب، أريد التحدث معك.
+asegurar:
+  meaning: يؤكد، يضمن
+  example: أؤكد لك أنني سأصل قريبًا.
+analizar:
+  meaning: يحلل
+  example: سنحلل المشكلة.
+controlar:
+  meaning: يتحكم، يفحص
+  example: يجب أن تراقب المصروف الشهري.
+consultar:
+  meaning: يستشير، يتحقق من
+  example: تحقق من التاريخ على الموقع.
+construir:
+  meaning: يبني
+  example: يبنون منازل في الحي.
+considerar:
+  meaning: يعتبر، ينظر في
+  example: أعتبر فكرتك جيدة جدًا.
+conservar:
+  meaning: يحافظ، يحفظ
+  example: احفظ اللحم في مكان بارد.
+convertir:
+  meaning: يحوّل
+  example: حوّلوا المحل إلى متجر.
+convencer:
+  meaning: يقنع
+  example: لا أستطيع إقناع مديري.
+corregir:
+  meaning: يصحح
+  example: صحح الأخطاء في التقرير.
+crear:
+  meaning: ينشئ، يخلق
+  example: أنشأنا مجموعة دراسة.
+desear:
+  meaning: يتمنى
+  example: أتمنى لك حظًا كبيرًا غدًا.
+educar:
+  meaning: يربي، يعلّم
+  example: من الصعب تربية الأبناء.
+eliminar:
+  meaning: يحذف، يزيل
+  example: احذف البيانات القديمة.
+engañar:
+  meaning: يخدع
+  example: لا تحاول خداعي مرة أخرى.
+escapar:
+  meaning: يهرب
+  example: هرب القط من النافذة.
+escoger:
+  meaning: يختار
+  example: اختر لونًا للجدار.
+esconder:
+  meaning: يخفي
+  example: أخفى المفاتيح في الدرج.
+exigir:
+  meaning: يطالب، يتطلب
+  example: أطالب بشرح واضح.
+expresar:
+  meaning: يعبّر عن
+  example: عبّر عن رأيك بهدوء.
+formar:
+  meaning: يشكل، يدرب
+  example: يشكلون فريقًا جيدًا جدًا.
+imaginar:
+  meaning: يتخيل
+  example: تخيل العيش قرب البحر.
+incluir:
+  meaning: يشمل، يتضمن
+  example: السعر يشمل الفطور.
+indicar:
+  meaning: يشير، يدل
+  example: الخريطة تشير إلى الطريق الصحيح.
+juntar:
+  meaning: يجمع، يضم
+  example: جمعنا مالًا للهدية.
+justificar:
+  meaning: يبرر
+  example: عليك تبرير غيابك.
+medir:
+  meaning: يقيس
+  example: قِس النافذة قبل الشراء.
+merecer:
+  meaning: يستحق
+  example: تستحق راحة طويلة.
+ofender:
+  meaning: يهين، يجرح
+  example: لم أقصد إهانة أحد.
+adaptarse:
+  meaning: يتكيف
+  example: من السهل التكيف مع هذه المدينة.
+avanzar:
+  meaning: يتقدم، يتحرك
+  example: حركة المرور لا تتقدم إطلاقًا.
+cocer:
+  meaning: يسلق، يطبخ
+  example: اسلق البطاطس عشر دقائق.
+combinar:
+  meaning: يناسب، يمزج
+  example: هذا القميص يناسب كل شيء.
+competir:
+  meaning: ينافس
+  example: شركتنا تنافس علامات تجارية كبيرة.
+consistir:
+  meaning: يتكون من
+  example: الدورة تتكون من خمس حصص.
+contener:
+  meaning: يحتوي على
+  example: هذا المشروب يحتوي على سكر كثير.
+dañar:
+  meaning: يتلف، يضر
+  example: أتلفت الرطوبة الجدار.
+enfermar:
+  meaning: يمرض
+  example: مرض أثناء الرحلة.
+grabar:
+  meaning: يسجل
+  example: سأسجل الاجتماع.
+imitar:
+  meaning: يقلد
+  example: الطفل يقلد أباه.
+impedir:
+  meaning: يمنع
+  example: الثلج يمنع الخروج من المنزل.
+influir:
+  meaning: يؤثر
+  example: الطقس يؤثر في المزاج.
+interpretar:
+  meaning: يؤدي، يفسر
+  example: هي تؤدي دورها جيدًا.
+introducir:
+  meaning: يدخل، يدرج
+  example: أدخل البطاقة في الصراف.
+lanzar:
+  meaning: يطلق
+  example: الشركة تطلق منتجًا جديدًا.
+limitar:
+  meaning: يحد من
+  example: حدّ من استخدام الهاتف.
+culpar:
+  meaning: يلوم
+  example: لا تلوم الآخرين.
+la transferencia:
+  meaning: تحويل بنكي
+  example: أجريت تحويلًا بنكيًا إلى المالك.
+el sentimiento:
+  meaning: شعور
+  example: إنه شعور يصعب تفسيره.
+la culpa:
+  meaning: ذنب، لوم
+  example: لا ذنب لي في هذا.
+capaz:
+  meaning: قادر
+  example: أنت قادر على النجاح في الامتحان.
+consciente:
+  meaning: واعٍ
+  example: أنا واعٍ بأخطائي.
+enorme:
+  meaning: ضخم
+  example: يعيشون في منزل ضخم.
+la lengua:
+  meaning: لسان، لغة
+  example: أحرقت لساني بالحساء.
+el hogar:
+  meaning: المنزل، البيت
+  example: أنا مرتاح جدًا في بيتي.
+la denuncia:
+  meaning: شكوى، بلاغ
+  example: قدّمت بلاغًا في مركز الشرطة.
+el pedido:
+  meaning: الطلب
+  example: سيصل الطلب صباح غد.
+el almacén:
+  meaning: المستودع
+  example: نحفظ الصناديق في المستودع.
+la colada:
+  meaning: الغسيل
+  example: اليوم يجب أن أغسل الغسيل.
+el detergente:
+  meaning: منظّف الغسيل
+  example: أحتاج منظّفًا للغسالة.
+la fregona:
+  meaning: الممسحة
+  example: أعطني الممسحة من فضلك.
+la vajilla:
+  meaning: الأطباق، أدوات المائدة
+  example: نغسل الأطباق بعد العشاء.
+el radiador:
+  meaning: المشعاع
+  example: المشعاع لا يدفّئ هذه الغرفة.
+la estufa:
+  meaning: المدفأة، الموقد
+  example: أشعل المدفأة، الجو بارد جدًا.
+el escritorio:
+  meaning: المكتب
+  example: لديّ الحاسوب على المكتب.
+el marisco:
+  meaning: المأكولات البحرية
+  example: أحب المأكولات البحرية الطازجة.
+el pimiento:
+  meaning: الفلفل
+  example: أضف فلفلة حمراء إلى الصلصة.
+el pepino:
+  meaning: الخيار
+  example: قطّع الخيار للسلطة.
+la calabaza:
+  meaning: اليقطين
+  example: اليوم نصنع حساء اليقطين.
+la berenjena:
+  meaning: الباذنجان
+  example: نشوي الباذنجان بقليل من الزيت.
+la fresa:
+  meaning: الفراولة
+  example: هذه الفراولة حلوة جدًا.
+la cereza:
+  meaning: الكرز
+  example: الكرز في موسمه.
+el melocotón:
+  meaning: الخوخ
+  example: الخوخ ناضج وعصيري.
+la piña:
+  meaning: الأناناس
+  example: اشتريت أناناسًا في السوق.
+el garbanzo:
+  meaning: الحمّص
+  example: اليوم نأكل الحمّص مع السبانخ.
+la lenteja:
+  meaning: العدس
+  example: العدس يحتاج مزيدًا من الملح.
+el monedero:
+  meaning: المحفظة
+  example: أضعت المحفظة في السوق.
+la zapatilla:
+  meaning: الشبشب، الحذاء الرياضي
+  example: أبحث عن حذاء رياضي مريح للمشي.
+la bata:
+  meaning: الروب
+  example: ارتدِ الروب بعد الاستحمام.
+el edredón:
+  meaning: اللحاف
+  example: في الشتاء أستخدم لحافًا سميكًا.
+el flexo:
+  meaning: مصباح المكتب
+  example: أحتاج مصباح مكتب للدراسة ليلًا.
+el felpudo:
+  meaning: سجادة الباب
+  example: امسح قدميك على سجادة الباب.
+la valla:
+  meaning: السياج
+  example: طلينا سياج الحديقة.
+el cubo:
+  meaning: الدلو
+  example: املأ الدلو بماء ساخن.
+el trapo:
+  meaning: الخرقة
+  example: نظّف الطاولة بخرقة.
+el labio:
+  meaning: الشفة
+  example: شفتاي جافتان من البرد.
+la tripa:
+  meaning: البطن
+  example: يؤلمني بطني منذ أمس.
+la ampolla:
+  meaning: النفطة
+  example: ظهرت لديّ نفطة في قدمي.
+el prospecto:
+  meaning: النشرة
+  example: اقرأ نشرة الدواء قبل تناول الحبة.
+el ibuprofeno:
+  meaning: الإيبوبروفين
+  example: وصف لي الطبيب الإيبوبروفين.
+el esparadrapo:
+  meaning: اللاصق الطبي
+  example: ضع لاصقًا طبيًا على الجرح.
+el bienestar:
+  meaning: الرفاهية، العافية
+  example: الرياضة تحسّن العافية العامة.
+el sindicato:
+  meaning: النقابة
+  example: دعت النقابة إلى إضراب.
+el juicio:
+  meaning: المحاكمة
+  example: ستكون المحاكمة الأسبوع المقبل.
+el testigo:
+  meaning: الشاهد
+  example: أدلى الشاهد بإفادته أمام القاضي.
+declarar:
+  meaning: يصرّح، يشهد
+  example: اضطررت للإدلاء بإفادتي في مركز الشرطة.
+la comisaría:
+  meaning: مركز الشرطة
+  example: ذهبت إلى مركز الشرطة لأقدّم بلاغًا عنه.
+la licencia:
+  meaning: الرخصة
+  example: أحتاج رخصة لفتح الحانة.
+el itinerario:
+  meaning: مسار الرحلة
+  example: يتضمن مسار الرحلة ثلاث مدن.
+el albergue:
+  meaning: النُزل
+  example: نِمنا في نُزل في القرية.
+el atardecer:
+  meaning: الغروب
+  example: رأينا الغروب من الشاطئ.
+la artesanía:
+  meaning: الحرف اليدوية
+  example: اشتريت مشغولات يدوية من السوق الصغير.
+el recuerdo:
+  meaning: التذكار
+  example: اشتريت تذكارًا لأمي.
+el adaptador:
+  meaning: المحول
+  example: أحتاج محولًا للمقبس.
+admirar:
+  meaning: يقدّر، يُعجب بـ
+  example: أُعجب كثيرًا بجدتي.
+la admiración:
+  meaning: الإعجاب
+  example: أشعر بالإعجاب تجاه أستاذتي.
+el funeral:
+  meaning: الجنازة
+  example: ستكون الجنازة يوم الثلاثاء.
+sonreír:
+  meaning: يبتسم
+  example: يبتسم دائمًا عندما يراني.
+abrazar:
+  meaning: يعانق
+  example: عانقني عند الوداع.
+besar:
+  meaning: يقبّل
+  example: قبّلها على خدها.
+la lágrima:
+  meaning: الدمعة
+  example: كانت هناك دمعة على وجهه.
+el grito:
+  meaning: الصرخة
+  example: سمعت صرخة في الشارع.
+la mirada:
+  meaning: النظرة
+  example: وجّه إليّ نظرة جدية.
+aclarar:
+  meaning: يوضّح
+  example: هل يمكنك أن توضّح لي هذا الأمر؟
+aplicar:
+  meaning: يطبّق, يضع
+  example: سأضع هذا الكريم.
+apuntarse:
+  meaning: يسجل, ينضم
+  example: سأسجل في دورة اللغة الإنجليزية.
+arriesgarse:
+  meaning: يخاطر
+  example: لا أريد أن أخاطر دون معلومات.
+asistir:
+  meaning: يحضر
+  example: سأحضر الاجتماع.
+atravesar:
+  meaning: يعبر, يقطع
+  example: علينا عبور الحديقة.
+callarse:
+  meaning: يصمت, يسكت
+  example: من فضلكم، اصمتوا لحظة.
+cargar:
+  meaning: يحمل, يشحن
+  example: عليّ شحن الهاتف.
+causar:
+  meaning: يسبب
+  example: الضجيج يسبب لي صداعًا.
+colocar:
+  meaning: يضع, يرتب
+  example: ضع الكتب على الرف.
+comparar:
+  meaning: يقارن
+  example: سأقارن السعرين.
+cubrir:
+  meaning: يغطي
+  example: الثلج يغطي الحديقة كلها.
+dirigir:
+  meaning: يدير, يقود
+  example: هي تدير فريقًا صغيرًا.
+distinguir:
+  meaning: يميز
+  example: لا أميز الألوان جيدًا.
+emplear:
+  meaning: يوظف, يستخدم
+  example: الشركة توظف عشرين شخصًا.
+encargar:
+  meaning: يطلب
+  example: سأطلب بيتزا.
+enterarse:
+  meaning: يعلم, يكتشف
+  example: علمت بالخبر أمس.
+establecer:
+  meaning: يؤسس, يضع
+  example: يريدون وضع قواعد جديدة.
+experimentar:
+  meaning: يجرب, يختبر
+  example: أريد تجربة أشياء جديدة.
+explotar:
+  meaning: ينفجر, يستغل
+  example: قد ينفجر البالون.
+extender:
+  meaning: ينشر, يمد
+  example: وزّع الكريم على ذراعك.
+fijar:
+  meaning: يحدد, يثبت
+  example: حدد تاريخ الاجتماع.
+fingir:
+  meaning: يتظاهر
+  example: لا تتظاهر بأنك مريض.
+herir:
+  meaning: يجرح
+  example: الزجاج قد يجرح الأطفال.
+huir:
+  meaning: يهرب
+  example: حاول اللص الهرب.
+levantar:
+  meaning: يرفع
+  example: ساعدني في رفع الطاولة.
+pescar:
+  meaning: يصطاد
+  example: أبي يصطاد أيام الأحد.
+repartir:
+  meaning: يوزع
+  example: سنوزع المنشورات.
+revisar:
+  meaning: يفحص, يراجع
+  example: الطبيب يفحص تحاليلي.
+saltar:
+  meaning: يقفز
+  example: الأطفال يقفزون في الحديقة.
+sustituir:
+  meaning: يستبدل
+  example: سأستبدل الفلتر القديم.
+aguantar:
+  meaning: يتحمل
+  example: لا أتحمل هذا الحر.
+aprovechar:
+  meaning: يستغل, ينتهز
+  example: استفد من خصم السوبرماركت.
+cometer:
+  meaning: يرتكب
+  example: ارتكبت خطأ في الاستمارة.
+confesar:
+  meaning: يعترف
+  example: أعترف بأني نسيت الموعد.
+enfrentarse:
+  meaning: يواجه
+  example: عليك مواجهة مخاوفك.
+la niebla:
+  meaning: الضباب
+  example: الضباب يغطي الطريق.
+la ola:
+  meaning: الموجة
+  example: موجة كبيرة وصلت إلى الرمل.
+la arena:
+  meaning: الرمل
+  example: الأطفال يلعبون بالرمل.
+la crisis:
+  meaning: الأزمة
+  example: أثرت الأزمة على كثير من العائلات.
+la economía:
+  meaning: الاقتصاد
+  example: اقتصاد البلاد يتحسن.
+el insomnio:
+  meaning: الأرق
+  example: الأرق يتعبني كثيرًا.
+la migraña:
+  meaning: الصداع النصفي
+  example: عندي صداع نصفي شديد جدًا.
+la náusea:
+  meaning: الغثيان
+  example: أشعر بالغثيان والدوخة.
+la fractura:
+  meaning: الكسر
+  example: الكسر يحتاج راحة.
+la caries:
+  meaning: التسوس
+  example: عالج طبيب الأسنان تسوسًا عندي.
+el papeleo:
+  meaning: الأوراق الإدارية
+  example: هناك أوراق كثيرة في المكتب.
+la estadística:
+  meaning: الإحصاء
+  example: الإحصاء يُظهر بطالة أقل.
+la encuesta:
+  meaning: الاستبيان, الاستطلاع
+  example: املأ الاستبيان من فضلك.
+la autorización:
+  meaning: الإذن, التفويض
+  example: أحتاج إذن مديري.
+el visado:
+  meaning: التأشيرة
+  example: طلبت التأشيرة للسفر.
+el enlace:
+  meaning: الرابط
+  example: اضغط هذا الرابط للتنزيل.
+la manifestación:
+  meaning: المظاهرة
+  example: كانت المظاهرة هادئة جدًا.
+la butaca:
+  meaning: المقعد, الكرسي
+  example: حجزت مقعدين للمسرح.
+el altavoz:
+  meaning: مكبر الصوت
+  example: مكبر الصوت لا يعمل جيدًا.
+la suscripción:
+  meaning: الاشتراك
+  example: ألغيت اشتراكي في الصحيفة.
+el fracaso:
+  meaning: الفشل
+  example: علمه الفشل درسًا.
+el desempleo:
+  meaning: البطالة
+  example: البطالة تقلق الشباب.
+la inundación:
+  meaning: الفيضان
+  example: أضر الفيضان بعدة منازل.
+la felicitación:
+  meaning: التهنئة
+  example: قدمت له تهنئتي بترقيته.
+la fila:
+  meaning: الصف, الطابور
+  example: يوجد طابور طويل في البنك.
+el negocio:
+  meaning: عمل تجاري
+  example: أخي لديه مشروع تجاري صغير.
+la tortilla:
+  meaning: عجة
+  example: عجة البطاطس لذيذة جدًا.
+la regla:
+  meaning: قاعدة
+  example: لا أفهم هذه القاعدة في اللعبة.
+el cheque:
+  meaning: شيك
+  example: دفعت بشيك لا ببطاقة.
+la sucursal:
+  meaning: فرع
+  example: البنك لديه فرع هنا.
+el domicilio:
+  meaning: عنوان السكن
+  example: اكتب عنوان سكنك في الاستمارة.
+la comisión:
+  meaning: عمولة بنكية
+  example: البنك يتقاضى مني عمولة.
+la instancia:
+  meaning: استمارة طلب
+  example: املأ الاستمارة ووقّعها.
+la humedad:
+  meaning: رطوبة
+  example: الرطوبة أتلفت الحائط.
+la percha:
+  meaning: علاقة ملابس
+  example: علّق المعطف على العلاقة.
+la funda:
+  meaning: غطاء، حافظة
+  example: غطاء الوسادة متسخ.
+el estante:
+  meaning: رف
+  example: ضع الكتب على الرف.
+la nata:
+  meaning: كريمة
+  example: أريد القهوة بالكريمة.
+la salchicha:
+  meaning: سجق
+  example: اشترِ سجقًا للعشاء.
+la barba:
+  meaning: لحية
+  example: جاري أطلق لحيته.
+el bigote:
+  meaning: شارب
+  example: ذلك الرجل لديه شارب أبيض.
+la ceja:
+  meaning: حاجب
+  example: احترق أحد حاجبيه.
+la pelea:
+  meaning: شجار، خلاف
+  example: كان بينهما شجار على المال.
+el malentendido:
+  meaning: سوء تفاهم
+  example: كان كل شيء سوء تفاهم بيننا.
+el llanto:
+  meaning: بكاء
+  example: بكاء الطفل أيقظني.
+el cumplido:
+  meaning: مجاملة
+  example: قال لي مجاملة لطيفة جدًا.
+alejarse:
+  meaning: يبتعد
+  example: لا تبتعد كثيرًا عن المجموعة.
+sudar:
+  meaning: يتعرق
+  example: أتعرق كثيرًا عندما أمارس الرياضة.
+cuidarse:
+  meaning: يعتني بنفسه
+  example: عليك أن تعتني بنفسك أكثر.
+estirar:
+  meaning: يمدد
+  example: مدّد ذراعيك قبل الجري.
+golpearse:
+  meaning: يضرب نفسه
+  example: ضربت ركبتي عندما سقطت.
+cortarse:
+  meaning: يجرح نفسه
+  example: احذر، لا تجرح نفسك بالزجاج.
+atragantarse:
+  meaning: يغص
+  example: غصّ بحبة زيتون.
+ahogarse:
+  meaning: يغرق
+  example: كاد يغرق في المسبح.
+arrancar:
+  meaning: يشغّل المحرك
+  example: السيارة لا تشتغل هذا الصباح.
+frenar:
+  meaning: يفرمل
+  example: افرمل قبل ممر المشاة.
+adelantar:
+  meaning: يتجاوز
+  example: تجاوزت السيارة شاحنة.
+chocar:
+  meaning: يصطدم
+  example: كدنا نصطدم بشجرة.
+el maletero:
+  meaning: صندوق السيارة
+  example: اترك الحقيبة في صندوق السيارة.
+el volante:
+  meaning: عجلة القيادة
+  example: أدر عجلة القيادة إلى اليمين.
+el retrovisor:
+  meaning: مرآة خلفية
+  example: انظر في المرآة الخلفية قبل الفرملة.
+el túnel:
+  meaning: نفق
+  example: النفق مغلق بسبب الأشغال.
+la sombrilla:
+  meaning: مظلة شاطئ
+  example: ضع المظلة قرب البحر.
+la tumbona:
+  meaning: كرسي استلقاء
+  example: استأجرنا كرسيين للاستلقاء على الشاطئ.
+el carro:
+  meaning: عربة تسوق
+  example: خذ عربة للتسوق.
+la presión:
+  meaning: ضغط الدم
+  example: الطبيب يقيس ضغطي.
+la inflamación:
+  meaning: التهاب
+  example: رأى الطبيب التهابًا خفيفًا.
+el asma:
+  meaning: الربو
+  example: ابني مصاب بالربو منذ صغره.
+la diabetes:
+  meaning: السكري
+  example: جدتها مصابة بالسكري.
+el lunar:
+  meaning: شامة
+  example: أزالوا لي شامة.
+matricularse:
+  meaning: يسجل
+  example: سجلت في الجامعة.
+inscribirse:
+  meaning: يسجل
+  example: يمكنك التسجيل في الدورة عبر الإنترنت.
+presentarse:
+  meaning: يتقدم، يقدم نفسه
+  example: تقدمت لوظيفة موظف استقبال.
+reconciliarse:
+  meaning: يتصالح
+  example: بعد الشجار تصالحا.
+avergonzarse:
+  meaning: يخجل
+  example: خجلت من خطئي.
+emocionarse:
+  meaning: يتأثر
+  example: تأثرت بالفيلم.
+sorprenderse:
+  meaning: يتفاجأ
+  example: فوجئت برؤيته هناك.
+la grieta:
+  meaning: شق
+  example: هناك شق في السقف.
+la vitrocerámica:
+  meaning: موقد كهربائي
+  example: الموقد الكهربائي متسخ.
+la secadora:
+  meaning: مجفف ملابس
+  example: الملابس في المجفف.
+el resguardo:
+  meaning: إيصال، إثبات
+  example: احتفظ بإيصال الشراء.
+el comprobante:
+  meaning: إثبات دفع
+  example: أحتاج إثباتًا للدفع.
+el becario:
+  meaning: متدرب
+  example: الشركة تبحث عن متدرب.
+la huella:
+  meaning: بصمة
+  example: ضع بصمتك في الوثيقة.
+por supuesto:
+  meaning: بالطبع
+  example: بالطبع يمكنك استخدام هاتفي.
+tal vez:
+  meaning: ربما
+  example: ربما أتأخر عن الموعد.
+a lo mejor:
+  meaning: ربما
+  example: ربما نذهب إلى السينما.
+de repente:
+  meaning: فجأة
+  example: فجأة بدأت تمطر.
+en cambio:
+  meaning: في المقابل
+  example: أما أنا، فأفضل القطار.
+por ejemplo:
+  meaning: على سبيل المثال
+  example: على سبيل المثال، يمكنك الدفع بالبطاقة.
+sobre todo:
+  meaning: خاصةً
+  example: أحب الفاكهة، خاصةً التفاح.
+por cierto:
+  meaning: بالمناسبة
+  example: بالمناسبة، هل عندك الساعة؟
+de hecho:
+  meaning: في الواقع
+  example: في الواقع، كنت أعرفه بالفعل.
+en realidad:
+  meaning: في الحقيقة
+  example: في الحقيقة، لا أرغب في الخروج.
+al final:
+  meaning: في النهاية
+  example: في النهاية وجدنا شقة.
+en general:
+  meaning: بشكل عام
+  example: بشكل عام، الناس لطفاء.
+de todas formas:
+  meaning: على أي حال
+  example: على أي حال، سأتصل بك لاحقًا.
+por lo menos:
+  meaning: على الأقل
+  example: على الأقل وصلنا في الوقت المحدد.
+más bien:
+  meaning: بالأحرى
+  example: بالأحرى أفضل البقاء في المنزل.
+sin duda:
+  meaning: بلا شك
+  example: بلا شك، إنه الخيار الأفضل.
+en fin:
+  meaning: على أي حال
+  example: على أي حال، سنرى ما سيحدث.
+por último:
+  meaning: أخيرًا
+  example: أخيرًا، وقّع هنا بالأسفل.
+de nuevo:
+  meaning: من جديد
+  example: اتصل بي من جديد لاحقًا.
+otra vez:
+  meaning: مرة أخرى
+  example: عليك المحاولة مرة أخرى.
+a menudo:
+  meaning: غالبًا
+  example: غالبًا أتناول الفطور في المقهى.
+por fin:
+  meaning: أخيرًا
+  example: أخيرًا أنهيت التقرير.
+de momento:
+  meaning: في الوقت الحالي
+  example: في الوقت الحالي، أنا بخير هكذا.
+por ahora:
+  meaning: في الوقت الحالي
+  example: في الوقت الحالي ليس لدي عمل.
+al principio:
+  meaning: في البداية
+  example: في البداية صعب عليّ الفهم.
+al menos:
+  meaning: على الأقل
+  example: على الأقل، أخبرني قبل ذلك.
+el comercio:
+  meaning: المتجر، التجارة
+  example: المتجر يغلق في الثامنة.
+el ingrediente:
+  meaning: المكوّن
+  example: ينقص مكوّن في الوصفة.
+la especia:
+  meaning: التوابل
+  example: هذه التوابل تعطي نكهة كثيرة.
+el aperitivo:
+  meaning: المقبلات، وجبة خفيفة
+  example: تناولنا وجبة خفيفة قبل الغداء.
+el modelo:
+  meaning: النموذج، الموديل
+  example: يعجبني هذا الموديل من الأحذية.
+la competencia:
+  meaning: المنافسة
+  example: المنافسة تخفض الأسعار.
+la comparación:
+  meaning: المقارنة
+  example: مقارنة الأسعار تساعد.
+el medicamento:
+  meaning: الدواء
+  example: أتناول هذا الدواء كل يوم.
+el virus:
+  meaning: الفيروس
+  example: الفيروس ينتقل بسهولة.
+el reconocimiento:
+  meaning: الفحص الطبي
+  example: يُجرون لي فحصًا طبيًا.
+el masaje:
+  meaning: التدليك
+  example: التدليك يرخيني كثيرًا.
+el sueño:
+  meaning: النوم، الحلم
+  example: أحتاج ثماني ساعات من النوم.
+el encargo:
+  meaning: المهمة، الطلب
+  example: لدي مهمة للغد.
+la sede:
+  meaning: المقر
+  example: المقر في المركز.
+el desacuerdo:
+  meaning: الخلاف
+  example: كان هناك خلاف في الاجتماع.
+la copia:
+  meaning: النسخة
+  example: اصنع نسخة من العقد.
+el escáner:
+  meaning: الماسح الضوئي
+  example: الماسح الضوئي لا يعمل اليوم.
+el acceso:
+  meaning: الوصول، الدخول
+  example: ليس لدي وصول إلى النظام.
+la clave:
+  meaning: كلمة المرور، المفتاح
+  example: نسيت كلمة مرور البريد.
+la visita:
+  meaning: الزيارة
+  example: نقوم بزيارة للشقة.
+la orientación:
+  meaning: الاتجاه، التوجيه
+  example: الشقة لها اتجاه جيد.
+amueblado:
+  meaning: مفروش
+  example: الشقة مفروشة.
+el aviso:
+  meaning: الإشعار، التنبيه
+  example: هناك إشعار على الباب.
+el vehículo:
+  meaning: المركبة
+  example: المركبة في الورشة.
+el crucero:
+  meaning: الرحلة البحرية
+  example: رحلة بحرية في البحر المتوسط.
+el pasaje:
+  meaning: التذكرة، الممر
+  example: اشتريت التذكرة عبر الإنترنت.
+el parking:
+  meaning: موقف السيارات
+  example: موقف السيارات ممتلئ.
+la rabia:
+  meaning: الغضب، الحنق
+  example: أشعر بالغضب مما حدث.
+la nostalgia:
+  meaning: الحنين
+  example: أشعر بالحنين إلى قريتي.
+el complejo:
+  meaning: العقدة، المجمع
+  example: لديه عقدة بسبب طوله.
+la concentración:
+  meaning: التركيز
+  example: أحتاج التركيز للدراسة.
+la imaginación:
+  meaning: الخيال
+  example: استخدم الخيال لحل ذلك.
+la recomendación:
+  meaning: التوصية
+  example: أتبع توصيتك.
+el portátil:
+  meaning: الحاسوب المحمول
+  example: أعمل بالحاسوب المحمول في المنزل.
+es decir:
+  meaning: أي
+  example: أي أننا لا نستطيع المجيء.
+por un lado:
+  meaning: من ناحية
+  example: من ناحية، إنه رخيص جدًا.
+por otro lado:
+  meaning: من ناحية أخرى
+  example: من ناحية أخرى، إنه بعيد جدًا.
+puesto que:
+  meaning: بما أن، لأن
+  example: لم يأتِ لأنه كان مريضًا.
+o sea:
+  meaning: أي، يعني
+  example: يعني أنك لن تأتي.
+de modo que:
+  meaning: بحيث، لذلك
+  example: وصل متأخرًا، لذلك انتظرنا.
+aun así:
+  meaning: مع ذلك
+  example: مع ذلك، أفضّل البقاء.
+por lo visto:
+  meaning: على ما يبدو
+  example: على ما يبدو، لا توجد أماكن.
+de todas maneras:
+  meaning: على أي حال
+  example: على أي حال، سأذهب غدًا.
+en resumen:
+  meaning: باختصار
+  example: باختصار، سار كل شيء على ما يرام.
+la aspiradora:
+  meaning: المكنسة الكهربائية
+  example: أستخدم المكنسة الكهربائية كل سبت.
+el llavero:
+  meaning: حاملة المفاتيح
+  example: لقد فقدت حاملة المفاتيح.
+el freno:
+  meaning: الفرامل
+  example: فرامل السيارة لا تعمل جيدًا.
+el acelerador:
+  meaning: دواسة الوقود
+  example: اضغط دواسة الوقود بحذر.
+el arcén:
+  meaning: حافة الطريق
+  example: توقفت السيارة على حافة الطريق.
+el surtidor:
+  meaning: مضخة الوقود
+  example: مضخة البنزين لا تعمل.
+el embrague:
+  meaning: القابض، الدبرياج
+  example: اضغط الدبرياج لتغيير السرعة.
+la furgoneta:
+  meaning: شاحنة صغيرة، فان
+  example: استأجرنا شاحنة صغيرة لنقل الأثاث.
+el rotulador:
+  meaning: قلم تحديد
+  example: اكتب الاسم بقلم تحديد.
+la grapadora:
+  meaning: دباسة
+  example: الدباسة لا تحتوي على دبابيس.
+el clip:
+  meaning: مشبك ورق
+  example: ثبّت الأوراق بمشبك ورق.
+el archivador:
+  meaning: ملف حفظ، مجلد
+  example: احفظ المستندات في ملف الحفظ.
+el proyector:
+  meaning: جهاز العرض
+  example: جهاز العرض لا يعمل جيدًا.
+la pizarra:
+  meaning: السبورة
+  example: اكتب التاريخ على السبورة.
+el calabacín:
+  meaning: الكوسة
+  example: الكوسة طازجة اليوم.
+el brócoli:
+  meaning: البروكلي
+  example: اسلق البروكلي خمس دقائق.
+la coliflor:
+  meaning: القرنبيط، الزهرة
+  example: القرنبيط مع البطاطس لذيذ.
+el aguacate:
+  meaning: الأفوكادو
+  example: الأفوكادو غالٍ جدًا اليوم.
+la espinaca:
+  meaning: السبانخ
+  example: السبانخ صحية جدًا.
+el puerro:
+  meaning: الكراث
+  example: الكراث في الثلاجة.
+la ciruela:
+  meaning: البرقوق، الخوخ
+  example: البرقوق ناضج.
+el kiwi:
+  meaning: الكيوي
+  example: الكيوي غني بالفيتامين.
+la gasa:
+  meaning: الشاش
+  example: ضع شاشًا على الجرح.
+el suero:
+  meaning: محلول ملحي، مصل
+  example: أعطاه الطبيب محلولًا ملحيًا بالوريد.
+el pulso:
+  meaning: النبض
+  example: أخذ الممرض نبضي.
+el paracetamol:
+  meaning: الباراسيتامول
+  example: آخذ الباراسيتامول لتخفيف الألم.
+la aspirina:
+  meaning: الأسبرين
+  example: هل لديك أسبرين للألم؟
+la pinza:
+  meaning: مشبك غسيل
+  example: ينقص مشبك غسيل للملابس.
+el estropajo:
+  meaning: ليفة تنظيف
+  example: ليفة التنظيف في الحوض.
+el ambientador:
+  meaning: معطر جو
+  example: وضعت معطر جو في الحمام.
+el candado:
+  meaning: قفل
+  example: أغلق الدراجة بقفل.
+la mirilla:
+  meaning: ثقب الباب، عين الباب
+  example: انظر من عين الباب قبل أن تفتح.
+el pestillo:
+  meaning: مزلاج
+  example: أغلق المزلاج ليلًا.
+la cadena:
+  meaning: سلسلة
+  example: ضع السلسلة على الباب.
+la antena:
+  meaning: هوائي
+  example: هوائي التلفاز لا يعمل.
+el capó:
+  meaning: غطاء المحرك
+  example: افتح غطاء محرك السيارة.
+el parabrisas:
+  meaning: الزجاج الأمامي
+  example: الزجاج الأمامي متسخ.
+el intermitente:
+  meaning: إشارة الانعطاف
+  example: شغّل إشارة الانعطاف قبل أن تنعطف.
+el casco:
+  meaning: خوذة
+  example: ارتدِ الخوذة على الدراجة النارية.
+la cortesía:
+  meaning: اللطف، المجاملة
+  example: اللطف مهم.
+la grosería:
+  meaning: الوقاحة، الفظاظة
+  example: أدهشتني وقاحته.
+la enhorabuena:
+  meaning: تهانينا، تهنئة
+  example: أقدم لك تهانئي.
+el pésame:
+  meaning: تعازي
+  example: قدمت له التعازي أمس.
+el brindis:
+  meaning: نخب
+  example: نشرب نخبًا للعروسين.
+la vela:
+  meaning: شمعة
+  example: اطفئ شموع الكعكة.
+la reconciliación:
+  meaning: مصالحة
+  example: بعد الشجار حدثت مصالحة.
+la humildad:
+  meaning: تواضع
+  example: أثر فيّ تواضعه.
+la antipatía:
+  meaning: نفور، كراهية
+  example: لا يوجد نفور بينهما.
+el centro comercial:
+  meaning: مركز تجاري
+  example: نذهب إلى المركز التجاري بعد الظهر.
+la alimentación:
+  meaning: تغذية، غذاء
+  example: التغذية الصحية مهمة.
+la universidad:
+  meaning: الجامعة
+  example: أختي تدرس في الجامعة.
+el camión:
+  meaning: الشاحنة
+  example: الشاحنة تسد مدخل المرآب.
+la higiene:
+  meaning: النظافة
+  example: النظافة الشخصية تمنع كثيراً من العدوى.
+el aire acondicionado:
+  meaning: التكييف
+  example: شغّل المكيف، الجو حار.
+el cable:
+  meaning: كابل، سلك
+  example: هذا الكابل لا يعمل جيداً.
+la copa:
+  meaning: كأس، مشروب
+  example: هل تريد أن نشرب كأساً معاً؟
+el pasado:
+  meaning: الماضي
+  example: لا يمكن تغيير الماضي.
+el presente:
+  meaning: الحاضر
+  example: الحاضر هو ما يهم.
+el tiempo libre:
+  meaning: وقت الفراغ
+  example: ليس لديّ الكثير من وقت الفراغ هذا الأسبوع.
+el ocio:
+  meaning: الترفيه، وقت الفراغ
+  example: الترفيه مهم للراحة.
+la medida:
+  meaning: قياس، إجراء
+  example: أحتاج القياس الدقيق للنافذة.
+calcular:
+  meaning: يحسب
+  example: حاول حساب السعر النهائي.
+la impresión:
+  meaning: انطباع
+  example: لديّ انطباع بأنه غاضب.
+el envío:
+  meaning: شحنة، توصيل
+  example: تصل الشحنة صباح الغد.
+la postal:
+  meaning: بطاقة بريدية
+  example: أرسل لك بطاقة بريدية من فالنسيا.
+el código postal:
+  meaning: الرمز البريدي
+  example: اكتب رمزك البريدي هنا.
+la notificación:
+  meaning: إشعار
+  example: تلقيت إشعاراً من البنك.
+la descarga:
+  meaning: تنزيل
+  example: يستغرق التنزيل خمس دقائق.
+la planificación:
+  meaning: تخطيط
+  example: تخطيط الرحلة يستغرق وقتاً.
+el recordatorio:
+  meaning: تذكير
+  example: وضعت تذكيراً للموعد.
+la conducta:
+  meaning: سلوك
+  example: أدهشني سلوكه كثيراً.
+la creatividad:
+  meaning: الإبداع
+  example: يساعد الإبداع على حل المشكلات.
+la actualidad:
+  meaning: الشؤون الجارية، الأخبار
+  example: أقرأ الأخبار الجارية كل يوم.
+el premio:
+  meaning: جائزة
+  example: فاز بجائزة التصوير.
+la fama:
+  meaning: شهرة
+  example: قد تكون الشهرة صعبة التحمل.
+actuar:
+  meaning: يتصرف، يمثل
+  example: سيؤدي الممثلون الليلة.
+brindar:
+  meaning: يشرب نخباً
+  example: لنشرب نخباً لعملك الجديد.
+el vídeo:
+  meaning: فيديو
+  example: شاهد هذا الفيديو، إنه ممتع جداً.
+la enseñanza:
+  meaning: تعليم، تدريس
+  example: تدريس اللغات يتطلب صبراً.
+la ciencia:
+  meaning: علم
+  example: العلم يفسر أشياء كثيرة.
+la informática:
+  meaning: المعلوماتية، الحاسوب
+  example: يدرس المعلوماتية في الجامعة.
+la ingeniería:
+  meaning: هندسة
+  example: ابن عمي يدرس الهندسة الصناعية.
+el titular:
+  meaning: عنوان رئيسي
+  example: كان عنوان الصحيفة مثيراً للقلق.
+la gráfica:
+  meaning: رسم بياني
+  example: يُظهر الرسم البياني المبيعات السنوية.
+la tabla:
+  meaning: جدول، لوح
+  example: املأ الجدول ببياناتك.
+el porcentaje:
+  meaning: نسبة مئوية
+  example: انخفضت نسبة البطالة.
+la media:
+  meaning: متوسط
+  example: احسب متوسط الدرجات.
+el total:
+  meaning: المجموع، الإجمالي
+  example: إجمالي المشتريات اثنا عشر يورو.
+sumar:
+  meaning: يجمع
+  example: سأجمع هذه المبالغ.
+dividir:
+  meaning: يقسم
+  example: اقسم الكعكة إلى ثماني قطع.
+el diagnóstico:
+  meaning: تشخيص
+  example: كان تشخيص الطبيب واضحاً.
+la lesión:
+  meaning: إصابة
+  example: الإصابة ليست خطيرة.
+el golpe:
+  meaning: ضربة، صدمة
+  example: أصبت بضربة على ركبتي.
+la postura:
+  meaning: وضعية الجسم
+  example: حافظ على وضعية صحيحة عند الجلوس.
+la relajación:
+  meaning: استرخاء
+  example: الاسترخاء قبل النوم يساعد.
+la vitamina:
+  meaning: فيتامين
+  example: البرتقال يحتوي على الكثير من فيتامين C.
+la proteína:
+  meaning: بروتين
+  example: اللحم مصدر للبروتين.
+la fibra:
+  meaning: ألياف
+  example: الفاكهة تحتوي على الكثير من الألياف.
+la grasa:
+  meaning: دهون
+  example: هذا الطعام يحتوي على دهون كثيرة جداً.
+la caloría:
+  meaning: سعرة حرارية
+  example: هذا المشروب يحتوي على سعرات حرارية قليلة.
+el colesterol:
+  meaning: كوليسترول
+  example: ارتفاع الكوليسترول سيئ للقلب.
+la gramática:
+  meaning: قواعد اللغة
+  example: قواعد اللغة الإسبانية ليست صعبة.
+el vocabulario:
+  meaning: مفردات
+  example: أتعلم مفردات جديدة كل يوم.
+la pronunciación:
+  meaning: نطق
+  example: تحسّن نطقك للإسبانية.
+la ortografía:
+  meaning: إملاء
+  example: احترس من الإملاء في الامتحان.
+el borrador:
+  meaning: مسودة
+  example: اكتب مسودة قبل التقرير.
+la corrección:
+  meaning: تصحيح، مراجعة
+  example: تصحيح النص يستغرق وقتاً.
+la expresión:
+  meaning: تعبير
+  example: التعبير الشفهي مهم جداً.
+quedarse:
+  meaning: يبقى
+  example: بقيت في المنزل طوال اليوم.
+irse:
+  meaning: يرحل، يغادر
+  example: غادرنا قبل النهاية.
+llevarse:
+  meaning: يتفاهم، يتوافق
+  example: أتفاهم جيداً مع زملائي.
+apetecer:
+  meaning: يرغب في
+  example: لا أرغب في الخروج هذه الليلة.
+parecerse:
+  meaning: يشبه
+  example: تشبه أباك كثيرًا.
+preocupar:
+  meaning: يقلق
+  example: الخبر يقلقني كثيرًا.
+cansarse:
+  meaning: يتعب
+  example: أتعب عند صعود السلالم.
+acercar:
+  meaning: يقرّب
+  example: قرّب الكرسي إلى الطاولة.
+calentar:
+  meaning: يسخّن
+  example: سخّن الحساء دقيقة واحدة.
+dormirse:
+  meaning: ينام
+  example: نمت على الأريكة.
+despertar:
+  meaning: يوقظ
+  example: الضجيج أيقظ الجيران.
+vestirse:
+  meaning: يلبس
+  example: يلبس ملابس أنيقة جدًا للعمل.
+olvidarse:
+  meaning: ينسى
+  example: نسيت المفاتيح في البيت.
+afeitarse:
+  meaning: يحلق
+  example: يحلق كل صباح.
+maquillarse:
+  meaning: يضع مكياجًا
+  example: تضع مكياجًا خفيفًا في الصباح.
+asustar:
+  meaning: يخيف
+  example: الفيلم أخاف الأطفال.
+temer:
+  meaning: يخاف
+  example: أخاف أن يتأخر.
+temblar:
+  meaning: يرتجف
+  example: ترتجف يداي من البرد.
+portarse:
+  meaning: يتصرف
+  example: تصرف بشكل جيد جدًا معي.
+alegrar:
+  meaning: يسعد
+  example: يسعدني رؤيتك سعيدًا.
+enfadar:
+  meaning: يغضب
+  example: سلوكه أغضب الجميع.
+aburrir:
+  meaning: يضجر
+  example: الفيلم أضجر الأطفال.
+divertir:
+  meaning: يسلّي
+  example: اللعبة سلّت الجميع كثيرًا.
+cansar:
+  meaning: يرهق
+  example: المشي أرهقني كثيرًا.
+calentarse:
+  meaning: يتدفأ
+  example: دفّأت يديّ بالنار.
+volverse:
+  meaning: يصبح
+  example: أصبح غير لطيف جدًا مع الجميع.
+alejar:
+  meaning: يبعد
+  example: أبعد الكرسي عن النافذة.
+la rueda:
+  meaning: عجلة
+  example: انثقبت إحدى العجلات في الطريق السريع.
+el motor:
+  meaning: محرك
+  example: محرك السيارة يصدر صوتًا غريبًا.
+la cremallera:
+  meaning: سحاب
+  example: انكسر سحاب سترتي.
+el algodón:
+  meaning: قطن
+  example: أفضل قمصان القطن في الصيف.
+la lana:
+  meaning: صوف
+  example: هذه الكنزة من الصوف الخالص.
+la seda:
+  meaning: حرير
+  example: البلوزة من الحرير الطبيعي.
+el gorro:
+  meaning: قبعة
+  example: ضع القبعة، الجو بارد جدًا.
+la cerilla:
+  meaning: عود ثقاب
+  example: أشعل الشمعة بعود ثقاب.
+el mechero:
+  meaning: ولاعة
+  example: هل لديك ولاعة للنار؟
+la cuerda:
+  meaning: حبل
+  example: علّق الملابس بحبل.
+el martillo:
+  meaning: مطرقة
+  example: أحتاج المطرقة لتعليق اللوحة.
+el clavo:
+  meaning: مسمار
+  example: وضع مسمارًا في الجدار.
+el gancho:
+  meaning: خطاف
+  example: علّق المعطف على الخطاف.
+la cirugía:
+  meaning: جراحة
+  example: كانت الجراحة سريعة ونجحت.
+el empaste:
+  meaning: حشوة
+  example: وضع لي طبيب الأسنان حشوة اليوم.
+el colirio:
+  meaning: قطرة عين
+  example: وصف لي الطبيب قطرة عين.
+el protector solar:
+  meaning: واقي شمس
+  example: ضع واقي شمس على الشاطئ.
+la judía verde:
+  meaning: فاصولياء خضراء
+  example: اشتريت فاصولياء خضراء من السوق.
+el guisante:
+  meaning: بازلاء
+  example: أضف البازلاء إلى الحساء.
+la remolacha:
+  meaning: شمندر
+  example: اشتريت شمندرًا للسلطة.
+la acelga:
+  meaning: سلق
+  example: طبخت سلقًا مع البطاطس.
+la col:
+  meaning: ملفوف
+  example: طبخت ملفوفًا مع البطاطس.
+el muelle:
+  meaning: رصيف
+  example: السفينة راسية على الرصيف.
+el susto:
+  meaning: خوف
+  example: أصابني خوف شديد.
+la tranquilidad:
+  meaning: هدوء
+  example: أبحث عن الهدوء في الريف.
+la felicidad:
+  meaning: سعادة
+  example: السعادة في الأشياء الصغيرة.
+la confusión:
+  meaning: ارتباك
+  example: شعرت بالارتباك عند سماع الخبر.
+el aburrimiento:
+  meaning: ملل
+  example: الملل جعلني أخرج.
+la diversión:
+  meaning: متعة
+  example: كانت الحفلة متعة خالصة.
+el entusiasmo:
+  meaning: حماس
+  example: كان يتحدث بحماس كبير.
+la pereza:
+  meaning: كسل
+  example: اليوم أشعر بالكسل لطهو الطعام.
+la alcachofa:
+  meaning: خرشوف
+  example: الخرشوف غالٍ جدًا اليوم.
+el apio:
+  meaning: كرفس
+  example: الكرفس يعطي نكهة للحساء.
+más o menos:
+  meaning: تقريبًا
+  example: كان الامتحان سهلًا تقريبًا.
+poco a poco:
+  meaning: شيئًا فشيئًا
+  example: شيئًا فشيئًا أتعلم الإسبانية.
+por suerte:
+  meaning: لحسن الحظ
+  example: لحسن الحظ، وجدت المفاتيح بسرعة.
+por desgracia:
+  meaning: للأسف
+  example: للأسف، أُلغيت الرحلة.
+la mitad:
+  meaning: النصف
+  example: أكلت فقط نصف الطبق.
+la mancha:
+  meaning: البقعة
+  example: هناك بقعة على قميصك.
+el agujero:
+  meaning: الثقب
+  example: هناك ثقب في البنطال.
+la sombra:
+  meaning: الظل
+  example: لنبحث عن ظل لنأكل.
+el escalón:
+  meaning: الدرجة، درجة السلم
+  example: احترس، الدرجة الأخيرة مكسورة.
+útil:
+  meaning: مفيد
+  example: هذا التطبيق مفيد جدًا.
+suave:
+  meaning: ناعم، لطيف
+  example: هذه الكنزة ناعمة جدًا.
+seco:
+  meaning: جاف
+  example: الدجاج جاف قليلًا.
+fresco:
+  meaning: طازج، بارد
+  example: السمك طازج جدًا.
+roto:
+  meaning: مكسور
+  example: المصعد مكسور مرة أخرى.
+dulce:
+  meaning: حلو
+  example: هذا النبيذ حلو جدًا.
+salado:
+  meaning: مالح
+  example: الجامون مالح جدًا.
+amargo:
+  meaning: مر
+  example: القهوة مرة جدًا.
+picante:
+  meaning: حار
+  example: الصلصة حارة جدًا.
+antiguo:
+  meaning: قديم، سابق
+  example: أعيش في مبنى قديم.
+típico:
+  meaning: نموذجي، تقليدي
+  example: جربنا طبقًا تقليديًا من هنا.
+estupendo:
+  meaning: رائع
+  example: كان الفندق رائعًا.
+gracioso:
+  meaning: مضحك
+  example: أخوك مضحك جدًا.
+molesto:
+  meaning: مزعج
+  example: الضجيج مزعج جدًا.
+incómodo:
+  meaning: غير مريح
+  example: هذا المقعد غير مريح جدًا.
+silencioso:
+  meaning: هادئ
+  example: الحي هادئ جدًا.
+sincero:
+  meaning: صادق، مخلص
+  example: شكرًا لكونك صادقًا جدًا.
+cariñoso:
+  meaning: حنون
+  example: جدي حنون جدًا.
+agotado:
+  meaning: منهك
+  example: بعد العمل أنا منهك.
+optimista:
+  meaning: متفائل
+  example: هي دائمًا متفائلة جدًا.
+pesimista:
+  meaning: متشائم
+  example: لا تكن متشائمًا بشأن الامتحان.
+impaciente:
+  meaning: غير صبور
+  example: الطفل غير صبور للخروج.
+tacaño:
+  meaning: بخيل
+  example: جاري بخيل جدًا.
+vago:
+  meaning: كسول
+  example: زميلي كسول قليلًا.
+odiar:
+  meaning: يكره
+  example: أكره الانتظار في البنك.
+soñar:
+  meaning: يحلم
+  example: الليلة الماضية حلمت ببلدتي.
+insistir:
+  meaning: يصر
+  example: أصر على دفع الفاتورة.
+apretar:
+  meaning: يضغط، يعصر
+  example: اضغط زر المصعد.
+soltar:
+  meaning: يفلت، يترك
+  example: لا تفلت يدي في السوق.
+tapar:
+  meaning: يغطي
+  example: غطِّ القدر حتى يغلي.
+soplar:
+  meaning: ينفخ
+  example: انفخ الحساء، إنه ساخن جدًا.
+doblar:
+  meaning: يطوي، ينعطف
+  example: اطوِ الملابس قبل وضعها بعيدًا.
+mojarse:
+  meaning: يتبلل
+  example: لا تتبلل، إنها تمطر.
+agacharse:
+  meaning: ينحني
+  example: انحنِ لالتقاط القلم.
+morder:
+  meaning: يعض
+  example: كلبي يعض الأحذية.
+tragar:
+  meaning: يبلع
+  example: حلقي يؤلمني عند البلع.
+masticar:
+  meaning: يمضغ
+  example: امضغ جيدًا قبل البلع.
+arrastrar:
+  meaning: يجر
+  example: اجرّ الكرسي إلى الطاولة.
+exagerar:
+  meaning: يبالغ
+  example: لا تبالغ، لم يكن الأمر بهذا السوء.
+adivinar:
+  meaning: يخمن
+  example: خمّن من سيأتي للعشاء.
+insultar:
+  meaning: يهين، يشتم
+  example: لا تشتم زملاءك.
+pelearse:
+  meaning: يتشاجر، يتقاتل
+  example: تشاجرا بسبب تفاهة.
+el chiste:
+  meaning: النكتة
+  example: عمي يروي نكاتًا مضحكة جدًا.
+el folleto:
+  meaning: الكتيب، المنشور
+  example: يشرح هذا الكتيب المسارات.
+el sobrino:
+  meaning: ابن الأخ أو الأخت
+  example: ابن أخي عمره خمس سنوات فقط.
+la suegra:
+  meaning: الحماة
+  example: حماتي تطبخ جيدًا جدًا.
+el nieto:
+  meaning: الحفيد
+  example: حفيده يعيش في مدينة أخرى.
+en absoluto:
+  meaning: إطلاقًا، أبدًا
+  example: لا يعجبني على الإطلاق، إطلاقًا.
+a la vez:
+  meaning: في الوقت نفسه
+  example: لا أستطيع فعل شيئين في الوقت نفسه.
+del todo:
+  meaning: تمامًا
+  example: المشروع ليس منتهيًا تمامًا.
+en cuanto:
+  meaning: بمجرد أن
+  example: سأتصل بك بمجرد وصولي إلى المنزل.
+mientras tanto:
+  meaning: في هذه الأثناء
+  example: أدرس؛ في هذه الأثناء، هو يطبخ.
+en primer lugar:
+  meaning: أولًا
+  example: أولًا، املأ النموذج.
+por casualidad:
+  meaning: بالصدفة
+  example: وجدت بطاقتك بالصدفة.
+a continuación:
+  meaning: بعد ذلك، فيما يلي
+  example: بعد ذلك، اقرأ التعليمات.
+la despensa:
+  meaning: مخزن المؤن
+  example: أحفظ الأرز في مخزن المؤن.
+la bandeja:
+  meaning: صينية
+  example: ضع الكؤوس في الصينية.
+el cazo:
+  meaning: قدر صغير
+  example: سخّن الحليب في القدر الصغير.
+la batidora:
+  meaning: خلاط
+  example: اخفق البيض بالخلاط.
+la cafetera:
+  meaning: آلة قهوة
+  example: آلة القهوة بجانب النافذة.
+el abrelatas:
+  meaning: فتاحة علب
+  example: لا أجد فتاحة العلب في أي مكان.
+el sacacorchos:
+  meaning: فتاحة قوارير
+  example: افتح الزجاجة بفتاحة القوارير.
+la bayeta:
+  meaning: خرقة تنظيف
+  example: نظّف الطاولة بخرقة تنظيف.
+el recogedor:
+  meaning: مجرفة الكنس
+  example: أحضر مجرفة الكنس والمكنسة.
+el autocar:
+  meaning: حافلة ركاب
+  example: تنطلق الحافلة في الثامنة.
+la litera:
+  meaning: سرير بطابقين
+  example: الغرفة فيها سريران بطابقين.
+el aterrizaje:
+  meaning: هبوط
+  example: كان الهبوط سلسًا جدًا.
+el despegue:
+  meaning: إقلاع
+  example: تأخر الإقلاع ساعة.
+la azafata:
+  meaning: مضيفة طيران
+  example: أحضرت لنا المضيفة الماء.
+el piloto:
+  meaning: طيار
+  example: أعلن الطيار عن اضطرابات جوية.
+el embarque:
+  meaning: صعود الطائرة
+  example: يبدأ صعود الطائرة في العاشرة.
+la terminal:
+  meaning: صالة المطار
+  example: الصالة في آخر المطار.
+el afecto:
+  meaning: مودة، حنان
+  example: منحني حنانه قوة كبيرة.
+la ternura:
+  meaning: حنان، رقة
+  example: يعامل الأطفال بحنان.
+la lealtad:
+  meaning: ولاء، إخلاص
+  example: الولاء مهم في الصداقة.
+la compañía:
+  meaning: شركة، رفقة
+  example: أستمتع كثيرًا برفقتك.
+el grado:
+  meaning: درجة
+  example: انخفضت الحرارة عدة درجات.
+la sequía:
+  meaning: جفاف
+  example: الجفاف يؤثر على المنطقة كلها.
+el granizo:
+  meaning: بَرَد
+  example: حطّم البَرَد النوافذ.
+la helada:
+  meaning: صقيع
+  example: أحرق الصقيع نباتات الحديقة.
+el pronóstico:
+  meaning: توقعات، نشرة جوية
+  example: تتوقع النشرة الجوية مطرًا غدًا.
+el relámpago:
+  meaning: برق
+  example: أضاء البرق السماء كلها.
+el trueno:
+  meaning: رعد
+  example: أيقظني الرعد ليلًا.
+la brisa:
+  meaning: نسيم
+  example: نسيم منعش يأتي من البحر.
+el arcoíris:
+  meaning: قوس قزح
+  example: بعد المطر ظهر قوس قزح.
+el folio:
+  meaning: ورقة
+  example: اكتب اسمك على الورقة.
+la grapa:
+  meaning: دبوس ورق
+  example: ينقص التقرير دبوس ورق واحد.
+el remitente:
+  meaning: مرسل
+  example: اكتب المرسل خلف الظرف.
+el destinatario:
+  meaning: مستلم
+  example: المستلم يسكن في مدريد.
+el adjunto:
+  meaning: مرفق
+  example: راجع المرفق في بريدي.
+la escayola:
+  meaning: جبيرة
+  example: على ساقه جبيرة.
+la acidez:
+  meaning: حموضة المعدة
+  example: أشعر بحموضة المعدة بعد الأكل.
+el apósito:
+  meaning: ضمادة
+  example: غطِّ الجرح بضمادة.
+la fisioterapia:
+  meaning: علاج طبيعي
+  example: أذهب إلى العلاج الطبيعي بسبب الألم.
+la parcela:
+  meaning: قطعة أرض
+  example: للبيت قطعة أرض كبيرة.
+la urbanización:
+  meaning: مجمع سكني
+  example: نسكن في مجمع سكني هادئ.
+el chalé:
+  meaning: فيلا
+  example: استأجروا فيلا قرب البحر.
+la buhardilla:
+  meaning: غرفة علوية
+  example: الغرفة العلوية فيها ضوء كثير.
+el recibidor:
+  meaning: بهو المدخل
+  example: اترك الأحذية في بهو المدخل.
+el lavadero:
+  meaning: غرفة غسيل
+  example: الغسالة في غرفة الغسيل.
+la pechuga:
+  meaning: صدر
+  example: صدر الدجاج طري جدًا.
+el filete:
+  meaning: شريحة لحم
+  example: اطلب شريحة لحم قليلة الطهي.
+la merluza:
+  meaning: سمك النازلي
+  example: سمك النازلي طازج اليوم.
+el salmón:
+  meaning: سلمون
+  example: يُطهى السلمون بسرعة كبيرة.
+el langostino:
+  meaning: جمبري
+  example: الجمبري عليه عرض.
+la gamba:
+  meaning: جمبري
+  example: الجمبري يأتي من البحر.
+el calamar:
+  meaning: حبار
+  example: طلبنا حبارًا مشويًا.
+el bacalao:
+  meaning: سمك القد
+  example: سمك القد فيه ثوم كثير.
+el cerdo:
+  meaning: لحم خنزير
+  example: لا آكل لحم الخنزير.
+la línea:
+  meaning: خط
+  example: خذ الخط الثاني للمترو.
+la habilidad:
+  meaning: مهارة، قدرة
+  example: لديه مهارة في اللغات.
+la capacidad:
+  meaning: سعة، قدرة
+  example: لديه قدرة على حل المشكلات.
+el pago:
+  meaning: دفع
+  example: يتم الدفع بالبطاقة.
+la excusa:
+  meaning: عذر
+  example: تضع دائمًا العذر نفسه.
+la decepción:
+  meaning: خيبة أمل
+  example: كانت خيبة أمل كبيرة للجميع.
+el insulto:
+  meaning: إهانة، شتيمة
+  example: لا أقبل الإهانات في بيتي.
+la advertencia:
+  meaning: تحذير
+  example: تجاهل تحذير الطبيب.
+la amenaza:
+  meaning: تهديد
+  example: التهديد لا يخيفني.
+la tendencia:
+  meaning: اتجاه، توجه
+  example: هذا الاتجاه رائج جداً.
+la industria:
+  meaning: صناعة
+  example: صناعة النسيج توفر العمل هنا.
+la agricultura:
+  meaning: زراعة
+  example: تعتمد الزراعة على المناخ.
+el convenio:
+  meaning: اتفاق جماعي
+  example: يحسّن الاتفاق الجماعي الأجور.
+la cifra:
+  meaning: رقم، عدد
+  example: انخفض رقم البطالة.
+la libreta:
+  meaning: دفتر
+  example: سجّل العنوان في الدفتر.
+la papelera:
+  meaning: سلة المهملات
+  example: ارمِ تلك الأوراق في سلة المهملات.
+el vidrio:
+  meaning: زجاج
+  example: يُعاد تدوير الزجاج في الحاوية الخضراء.
+la madera:
+  meaning: خشب
+  example: الطاولة من خشب فاتح.
+el metal:
+  meaning: معدن
+  example: المفتاح من معدن.
+la tela:
+  meaning: قماش
+  example: هذا القماش ناعم جداً.
+el cuero:
+  meaning: جلد
+  example: هذه الأحذية من جلد.
+el fondo:
+  meaning: قاع، خلفية
+  example: المفاتيح في قاع الحقيبة.
+el borde:
+  meaning: حافة
+  example: لا تضع الكأس على الحافة.
+la superficie:
+  meaning: سطح
+  example: نظّف سطح الطاولة.
+la posición:
+  meaning: موضع، وضعية
+  example: غيّر موضع الكرسي.
+el hueco:
+  meaning: فراغ، فجوة
+  example: هناك فراغ متاح في الرف.
+la fachada:
+  meaning: واجهة
+  example: واجهة المبنى بيضاء.
+el taladro:
+  meaning: مثقاب
+  example: أحتاج مثقاباً للحائط.
+el suavizante:
+  meaning: منعم ملابس
+  example: ضع منعم الملابس في الغسالة.
+el cesto:
+  meaning: سلة
+  example: ضع الملابس في السلة.
+la tostadora:
+  meaning: محمصة
+  example: الخبز في المحمصة.
+el póster:
+  meaning: ملصق
+  example: علّقت ملصقاً في غرفتي.
+la infusión:
+  meaning: شاي أعشاب
+  example: أفضل شاي الأعشاب قبل النوم.
+el caldo:
+  meaning: مرق
+  example: مرق الدجاج ساخن.
+la salsa:
+  meaning: صلصة
+  example: تحتوي هذه الصلصة على الطماطم والثوم.
+el cordero:
+  meaning: لحم ضأن
+  example: لحم الضأن طري جداً.
+el pavo:
+  meaning: ديك رومي
+  example: في عيد الميلاد نأكل الديك الرومي المشوي.
+la sardina:
+  meaning: سردين
+  example: السردين المشوي لذيذ.
+el mejillón:
+  meaning: بلح البحر
+  example: بلح البحر رخيص اليوم.
+la trucha:
+  meaning: سمك التروتة
+  example: تُطبخ التروتة في الفرن.
+el maíz:
+  meaning: ذرة
+  example: أضف الذرة إلى السلطة.
+la seta:
+  meaning: فطر
+  example: لا تأكل ذلك الفطر فقد يكون ساماً.
+el champiñón:
+  meaning: فطر (مشروم)
+  example: اغسل الفطر قبل الطهي.
+el mango:
+  meaning: مانجو
+  example: المانجو حلو وناضج.
+el higo:
+  meaning: تين
+  example: في سبتمبر نأكل تيناً طازجاً.
+la picadura:
+  meaning: لدغة، قرصة
+  example: لدي لدغة بعوضة.
+la encía:
+  meaning: لثة
+  example: تنزف لثتي عند التنظيف.
+el esguince:
+  meaning: التواء
+  example: أصبت بالتواء في الكاحل.
+el muslo:
+  meaning: فخذ
+  example: يؤلمني فخذي بعد الجري.
+la pantorrilla:
+  meaning: ربلة الساق
+  example: تؤلمني ربلة ساقي عند المشي.
+el envoltorio:
+  meaning: غلاف، تغليف
+  example: ارمِ الغلاف في الحاوية الصفراء.
+fregar:
+  meaning: غسل الأطباق
+  example: غسل الأطباق يمللني.
+barrer:
+  meaning: يكنس
+  example: اكنس أرضية المطبخ.
+tender:
+  meaning: ينشر الغسيل
+  example: أنشر الغسيل في الشرفة.
+regar:
+  meaning: يسقي
+  example: اسقِ النباتات كل صباح.
+pegar:
+  meaning: يلصق
+  example: ألصق الصورة على الورقة.
+escanear:
+  meaning: يمسح ضوئياً
+  example: امسح المستند ضوئياً، من فضلك.
+vaciar:
+  meaning: يفرغ
+  example: أفرغ الزجاجة في الكأس.
+atar:
+  meaning: يربط
+  example: اربط الطرد بحبل.
+perezoso:
+  meaning: كسول
+  example: أخي كسول جداً.
+el empleado:
+  meaning: موظف
+  example: طلب الموظف هويتي.
+el ambulatorio:
+  meaning: مركز صحي
+  example: المركز الصحي قريب من بيتي.
+en efecto:
+  meaning: في الواقع، بالفعل
+  example: بالفعل، الاجتماع غداً.
+el empresario:
+  meaning: رجل أعمال
+  example: وقّع رجل الأعمال العقد.

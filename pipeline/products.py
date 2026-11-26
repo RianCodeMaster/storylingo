@@ -52,11 +52,9 @@ class Free(BaseModel):
     stories_per_day: int = 1
     phrases_per_level: int = 10
     phrases_per_topic: int = 5     # and per level the first of every topic (phrases.TOPICS): a taste of a topic video
-    phrases_per_day: int = 10
     words_per_level: int = 50      # the word trainer (words.py), the same way: per level the first words,
-    words_per_topic: int = 5       # the first few of every topic,
-    words_per_day: int = 10        # and a few new ones a day
-    reviews_per_day: int = 20
+    words_per_topic: int = 5       # and the first few of every topic. No limit per day on new phrases or words:
+                                   # whoever wants to learn more today can (the free part is per level).
 
 
 class Product(BaseModel):

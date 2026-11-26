@@ -1,0 +1,4805 @@
+# Words for the word trainer, most useful first. Every edition with this target language shows them. text: the
+# dictionary form (German nouns with der/die/das, verbs as infinitive), exactly like the stories' glossary, so a
+# word met in a story is the same word here. example: one short sentence at this level. hint: English, for the
+# translator and for you; learners never see it. Edit freely (a changed text is a new word: it needs a meaning again,
+# `localize-words` adds it), then: storylingo.py sync.
+- text: de manier
+  example: Op deze manier werkt het beter.
+  hint: way, manner
+  topics: [everyday]
+- text: het doel
+  example: Wat is het doel van deze cursus?
+  hint: goal, aim
+  topics: [work, everyday]
+- text: de mogelijkheid
+  example: Er is een mogelijkheid om te ruilen.
+  hint: possibility, option
+  topics: [shopping, everyday]
+- text: de situatie
+  example: De situatie is nu heel vervelend.
+  hint: situation
+  topics: [social, everyday]
+- text: veranderen
+  example: Ik wil mijn baan veranderen.
+  hint: to change
+  topics: [work]
+- text: verwachten
+  example: We verwachten morgen een drukke dag.
+  hint: to expect
+  topics: [work, everyday]
+- text: het voorbeeld
+  example: Kun je een voorbeeld geven?
+  hint: example
+  topics: [everyday, work]
+- text: de omgeving
+  example: De omgeving van ons huis is rustig.
+  hint: surroundings, environment
+  topics: [housing]
+- text: regelen
+  example: Ik regel vandaag de afspraak.
+  hint: to arrange
+  topics: [office, everyday]
+- text: ontvangen
+  example: Zij ontvangen veel klanten in de winkel.
+  hint: to receive
+  topics: [shopping, work]
+- text: reageren
+  example: Reageer je snel op die e-mail?
+  hint: to react
+  topics: [office, work]
+- text: de toestemming
+  example: Ik heb toestemming van mijn baas.
+  hint: permission
+  topics: [work, office]
+- text: het onderzoek
+  example: Het onderzoek naar de klachten duurt lang.
+  hint: research, investigation
+  topics: [health, work]
+- text: genieten
+  example: We genieten van de vrije dag.
+  hint: to enjoy
+  topics: [social, everyday]
+- text: herinneren
+  example: Kun je je die afspraak nog herinneren?
+  hint: to remember
+  topics: [everyday, social]
+- text: geloven
+  example: Ik geloof niet dat het waar is.
+  hint: to believe
+  topics: [social]
+- text: beslissen
+  example: We moeten snel beslissen over het huis.
+  hint: to decide
+  topics: [housing]
+- text: controleren
+  example: Controleer je het formulier goed?
+  hint: to check
+  topics: [office]
+- text: de waarde
+  example: De waarde van het huis stijgt.
+  hint: value
+  topics: [housing]
+- text: het voordeel
+  example: Een voordeel is de korte reis.
+  hint: advantage
+  topics: [travel, work]
+- text: het nadeel
+  example: Een nadeel is de hoge prijs.
+  hint: disadvantage
+  topics: [shopping]
+- text: de verandering
+  example: De verandering op het werk is groot.
+  hint: change
+  topics: [work]
+- text: de oorzaak
+  example: Wat is de oorzaak van de pijn?
+  hint: cause
+  topics: [health]
+- text: het gevolg
+  example: Het gevolg is dat we later komen.
+  hint: consequence, result
+  topics: [everyday]
+- text: informeren
+  example: Ik informeer de klant over de prijs.
+  hint: to inform
+  topics: [shopping, work]
+- text: melden
+  example: Meld de fout meteen bij de balie.
+  hint: to report
+  topics: [office]
+- text: klagen
+  example: Zij klagen vaak over het lawaai.
+  hint: to complain
+  topics: [social, housing]
+- text: merken
+  example: Ik merk dat je moe bent.
+  hint: to notice
+  topics: [social]
+- text: overleggen
+  example: We overleggen eerst met de baas.
+  hint: to consult
+  topics: [work]
+- text: verbeteren
+  example: Ik wil mijn uitspraak graag verbeteren.
+  hint: to improve
+  topics: [everyday, work]
+- text: vergelijken
+  example: Vergelijk de prijzen voor je koopt.
+  hint: to compare
+  topics: [shopping]
+- text: verklaren
+  example: Kun je dat nog eens verklaren?
+  hint: to explain
+  topics: [office, everyday]
+- text: voorkomen
+  example: Zo voorkom je veel problemen op het werk.
+  hint: to prevent
+  topics: [work, health]
+- text: waarschuwen
+  example: De dokter waarschuwt voor te veel stress.
+  hint: to warn
+  topics: [health]
+- text: weigeren
+  example: Hij weigert de nieuwe taak.
+  hint: to refuse
+  topics: [work]
+- text: aanbieden
+  example: Zij bieden hem een baan aan.
+  hint: to offer
+  topics: [work]
+- text: accepteren
+  example: Ik accepteer de uitnodiging graag.
+  hint: to accept
+  topics: [social]
+- text: adviseren
+  example: De huisarts adviseert rust en veel water.
+  hint: to advise
+  topics: [health]
+- text: de voorwaarde
+  example: De voorwaarde staat in het contract.
+  hint: condition
+  topics: [work, office]
+- text: de zekerheid
+  example: Ik wil zekerheid over de prijs.
+  hint: certainty
+  topics: [shopping]
+- text: het gedrag
+  example: Zijn gedrag verrast de hele groep.
+  hint: behaviour
+  topics: [social]
+- text: het onderwerp
+  example: Het onderwerp van de les is gezondheid.
+  hint: subject, topic
+  topics: [everyday, work]
+- text: actief
+  example: Blijf actief voor een goede gezondheid.
+  hint: active
+  topics: [health]
+- text: beroemd
+  example: Deze zanger is hier heel beroemd.
+  hint: famous
+  topics: [social]
+- text: eenvoudig
+  example: De uitleg is eenvoudig en duidelijk.
+  hint: simple
+  topics: [everyday]
+- text: geschikt
+  example: Deze jas is geschikt voor koud weer.
+  hint: suitable
+  topics: [shopping]
+- text: ingewikkeld
+  example: Het formulier is te ingewikkeld voor mij.
+  hint: complicated
+  topics: [office]
+- text: openbaar
+  example: De openbare weg is hier heel druk.
+  hint: public
+  topics: [travel]
+- text: persoonlijk
+  example: Ik heb een persoonlijke vraag.
+  hint: personal
+  topics: [social]
+- text: serieus
+  example: Neem de klacht serieus, alsjeblieft.
+  hint: serious
+  topics: [shopping, work]
+- text: verantwoordelijk
+  example: Wie is verantwoordelijk voor deze taak?
+  hint: responsible
+  topics: [work]
+- text: verplicht
+  example: De cursus is verplicht voor iedereen.
+  hint: obligatory
+  topics: [work, office]
+- text: dankzij
+  example: Dankzij jou heb ik de baan.
+  hint: thanks to
+  topics: [work, social]
+- text: echter
+  example: Ik was echter te laat voor de les.
+  hint: however
+  topics: [everyday]
+- text: helaas
+  example: Helaas heb ik geen tijd vandaag.
+  hint: unfortunately
+  topics: [everyday, social]
+- text: hoewel
+  example: Hoewel het regent, gaan we wandelen.
+  hint: although
+  topics: [everyday]
+- text: inmiddels
+  example: Ik ben inmiddels klaar met werken.
+  hint: meanwhile, by now
+  topics: [work, everyday]
+- text: ondanks
+  example: Ondanks de regen gaat de reis door.
+  hint: despite
+  topics: [travel]
+- text: tenzij
+  example: We gaan, tenzij het hard regent.
+  hint: unless
+  topics: [everyday, travel]
+- text: zodra
+  example: Bel me zodra je thuis bent.
+  hint: as soon as
+  topics: [social, everyday]
+- text: de invloed
+  example: Sociale media hebben veel invloed op jongeren.
+  hint: influence
+  topics: [social]
+- text: de ontwikkeling
+  example: De technische ontwikkeling gaat heel snel.
+  hint: development
+  topics: [everyday]
+- text: de kwaliteit
+  example: De kwaliteit van dit product is goed.
+  hint: quality
+  topics: [shopping]
+- text: de techniek
+  example: Dankzij techniek werken we sneller.
+  hint: technology
+  topics: [everyday]
+- text: de samenleving
+  example: In onze samenleving moet iedereen meedoen.
+  hint: society
+  topics: [social]
+- text: de cultuur
+  example: Elke cultuur heeft eigen feesten en gewoonten.
+  hint: culture
+  topics: [social]
+- text: de overheid
+  example: De overheid neemt nieuwe maatregelen.
+  hint: government
+  topics: [office]
+- text: de wet
+  example: De wet verbiedt bellen in de auto.
+  hint: law
+  topics: [office]
+- text: de veiligheid
+  example: Veiligheid op straat is belangrijk.
+  hint: safety
+  topics: [social]
+- text: de discussie
+  example: We hadden een lange discussie over het plan.
+  hint: discussion
+  topics: [work]
+- text: de organisatie
+  example: De organisatie zoekt nieuwe medewerkers.
+  hint: organization
+  topics: [work]
+- text: het evenement
+  example: Het evenement begint om acht uur.
+  hint: event
+  topics: [social]
+- text: de samenwerking
+  example: Goede samenwerking maakt het werk makkelijker.
+  hint: cooperation
+  topics: [work]
+- text: het overleg
+  example: Morgen hebben we overleg met de baas.
+  hint: consultation
+  topics: [work]
+- text: de conclusie
+  example: Na het onderzoek trokken we een conclusie.
+  hint: conclusion
+  topics: [office]
+- text: het bestand
+  example: Ik stuur het bestand per e-mail.
+  hint: file
+  topics: [office]
+- text: de bijlage
+  example: De bijlage bevat de nieuwe prijslijst.
+  hint: attachment
+  topics: [office]
+- text: het verslag
+  example: Ik schrijf morgen het verslag van de vergadering.
+  hint: report
+  topics: [office]
+- text: de presentatie
+  example: Zij geeft een presentatie over het project.
+  hint: presentation
+  topics: [work]
+- text: het project
+  example: Het project duurt nog drie maanden.
+  hint: project
+  topics: [work]
+- text: het personeel
+  example: Het personeel krijgt een nieuwe pauzeruimte.
+  hint: staff
+  topics: [work]
+- text: de service
+  example: De service in dit restaurant is slecht.
+  hint: service
+  topics: [shopping]
+- text: de garantie
+  example: Op deze telefoon zit twee jaar garantie.
+  hint: guarantee
+  topics: [shopping]
+- text: de reparatie
+  example: De reparatie van mijn fiets kost veel geld.
+  hint: repair
+  topics: [shopping]
+- text: de korting
+  example: Ik kreeg tien procent korting.
+  hint: discount
+  topics: [shopping]
+- text: de ontspanning
+  example: Ik zoek ontspanning in de tuin.
+  hint: relaxation
+  topics: [health]
+- text: de behandeling
+  example: De behandeling bij de dokter was pijnlijk.
+  hint: treatment
+  topics: [health]
+- text: de uitslag
+  example: De uitslag van het bloedonderzoek is goed.
+  hint: result
+  topics: [health]
+- text: de verhuizing
+  example: De verhuizing naar onze nieuwe woning was zwaar.
+  hint: move house
+  topics: [housing]
+- text: de makelaar
+  example: De makelaar laat ons het huis zien.
+  hint: estate agent
+  topics: [housing]
+- text: het meubel
+  example: Dit meubel past niet in de kamer.
+  hint: piece of furniture
+  topics: [housing]
+- text: de rit
+  example: De rit naar het strand duurde een uur.
+  hint: ride
+  topics: [travel]
+- text: het abonnement
+  example: Mijn abonnement op de trein is verlopen.
+  hint: subscription
+  topics: [travel]
+- text: de afrit
+  example: Neem de afrit bij het volgende dorp.
+  hint: exit
+  topics: [travel]
+- text: de voorrang
+  example: Op de rotonde heb je geen voorrang.
+  hint: right of way
+  topics: [travel]
+- text: de boete
+  example: Ik kreeg een boete voor te hard rijden.
+  hint: fine
+  topics: [travel]
+- text: het ongeluk
+  example: Bij het ongeluk raakte niemand gewond.
+  hint: accident
+  topics: [travel]
+- text: de passagier
+  example: De passagier moet zijn kaartje laten zien.
+  hint: passenger
+  topics: [travel]
+- text: de grens
+  example: We staken de grens over bij de douane.
+  hint: border
+  topics: [travel]
+- text: de reservering
+  example: Ik kan mijn reservering helaas niet annuleren.
+  hint: reservation
+  topics: [travel]
+- text: de annulering
+  example: De annulering van de reis kost geld.
+  hint: cancellation
+  topics: [travel]
+- text: het respect
+  example: Wij hebben veel respect voor elkaar.
+  hint: respect
+  topics: [social]
+- text: de vriendschap
+  example: Hun vriendschap is na jaren nog sterk.
+  hint: friendship
+  topics: [social]
+- text: de indruk
+  example: Zij maakte een goede indruk tijdens het gesprek.
+  hint: impression
+  topics: [social]
+- text: de kennis
+  example: Met deze cursus vergroot je je kennis.
+  hint: knowledge
+  topics: [work]
+- text: de angst
+  example: Hij heeft angst voor honden.
+  hint: fear
+  topics: [health]
+- text: bovendien
+  example: Hij is ziek; bovendien heeft hij koorts.
+  hint: besides
+  topics: [everyday]
+- text: namelijk
+  example: Ik kom later, namelijk om drie uur.
+  hint: namely
+  topics: [everyday]
+- text: vanwege
+  example: De trein is laat vanwege het weer.
+  hint: because of
+  topics: [travel]
+- text: vervolgens
+  example: We eten eerst; vervolgens gaan we wandelen.
+  hint: then
+  topics: [everyday]
+- text: uiteindelijk
+  example: Uiteindelijk vond ik mijn sleutel terug.
+  hint: finally
+  topics: [everyday]
+- text: daarnaast
+  example: Daarnaast moet je ook je paspoort meenemen.
+  hint: besides that
+  topics: [everyday]
+- text: hierdoor
+  example: Het regent; hierdoor komt de trein later.
+  hint: because of this
+  topics: [everyday]
+- text: waarmee
+  example: Dit is het formulier waarmee je bestelt.
+  hint: with which
+  topics: [office]
+- text: waardoor
+  example: Het was druk, waardoor we te laat kwamen.
+  hint: as a result
+  topics: [everyday]
+- text: totdat
+  example: Wacht hier totdat de dokter je roept.
+  hint: until
+  topics: [health]
+- text: zolang
+  example: Je mag blijven zolang je wilt.
+  hint: as long as
+  topics: [everyday]
+- text: doordat
+  example: De bus was laat doordat het sneeuwde.
+  hint: because
+  topics: [travel]
+- text: tegenwoordig
+  example: Tegenwoordig bestellen veel mensen online.
+  hint: nowadays
+  topics: [everyday]
+- text: onlangs
+  example: Onlangs ben ik naar de tandarts geweest.
+  hint: recently
+  topics: [health]
+- text: de behoefte
+  example: Ik heb behoefte aan rust.
+  hint: need
+  topics: [everyday]
+- text: de gelegenheid
+  example: Ik heb geen gelegenheid om te komen.
+  hint: opportunity
+  topics: [everyday]
+- text: de verantwoordelijkheid
+  example: Dit is mijn verantwoordelijkheid.
+  hint: responsibility
+  topics: [work]
+- text: de voorbereiding
+  example: De voorbereiding duurt nog een week.
+  hint: preparation
+  topics: [work]
+- text: de verbinding
+  example: De verbinding is erg slecht.
+  hint: connection
+  topics: [everyday]
+- text: de klantenservice
+  example: De klantenservice helpt mij snel.
+  hint: customer service
+  topics: [shopping]
+- text: de leiding
+  example: De leiding van het bedrijf is nieuw.
+  hint: management
+  topics: [work]
+- text: aanpassen
+  example: Ik moet mijn plan aanpassen.
+  hint: adjust
+  topics: [work]
+- text: afhangen
+  example: Dat hangt van het weer af.
+  hint: depend on
+  topics: [everyday]
+- text: afronden
+  example: We moeten de taak vandaag afronden.
+  hint: finish
+  topics: [work]
+- text: behandelen
+  example: De dokter behandelt mijn knie.
+  hint: treat
+  topics: [health]
+- text: besteden
+  example: Ik besteed veel tijd aan werk.
+  hint: spend
+  topics: [work]
+- text: bewegen
+  example: Je moet elke dag bewegen.
+  hint: move
+  topics: [health]
+- text: bijhouden
+  example: Ik houd mijn uitgaven goed bij.
+  hint: keep track
+  topics: [office]
+- text: combineren
+  example: Ik kan werk en studie combineren.
+  hint: combine
+  topics: [work]
+- text: doorbrengen
+  example: We brengen de dag thuis door.
+  hint: spend time
+  topics: [social]
+- text: ervaren
+  example: Ik ervaar veel stress op werk.
+  hint: experience
+  topics: [work]
+- text: functioneren
+  example: Het apparaat functioneert niet goed.
+  hint: function
+  topics: [everyday]
+- text: herstellen
+  example: Ik moet goed herstellen na de operatie.
+  hint: recover
+  topics: [health]
+- text: inleveren
+  example: Lever je formulier morgen in.
+  hint: hand in
+  topics: [office]
+- text: inschrijven
+  example: Ik wil mij graag inschrijven.
+  hint: register
+  topics: [office]
+- text: installeren
+  example: We installeren vandaag de nieuwe printer.
+  hint: install
+  topics: [office]
+- text: leveren
+  example: De winkel levert morgen het pakket.
+  hint: deliver
+  topics: [shopping]
+- text: ondertekenen
+  example: U moet hier uw contract ondertekenen.
+  hint: sign
+  topics: [office]
+- text: ontmoeten
+  example: Ik ontmoet mijn vrienden vanavond.
+  hint: meet
+  topics: [social]
+- text: opbouwen
+  example: We bouwen langzaam een band op.
+  hint: build up
+  topics: [social]
+- text: opnemen
+  example: Ik neem de telefoon op.
+  hint: answer
+  topics: [everyday]
+- text: opslaan
+  example: Sla het bestand goed op.
+  hint: save
+  topics: [office]
+- text: organiseren
+  example: We organiseren een feest voor haar.
+  hint: organize
+  topics: [social]
+- text: overwegen
+  example: Ik overweeg een nieuwe baan.
+  hint: consider
+  topics: [work]
+- text: repareren
+  example: Kun je mijn fiets repareren?
+  hint: repair
+  topics: [everyday]
+- text: schijnen
+  example: De zon schijnt vandaag fel.
+  hint: shine
+  topics: [everyday]
+- text: solliciteren
+  example: Ik solliciteer naar een nieuwe baan.
+  hint: apply for job
+  topics: [work]
+- text: stemmen
+  example: We stemmen vandaag op een partij.
+  hint: vote
+  topics: [office]
+- text: toevoegen
+  example: Voeg wat zout aan de soep toe.
+  hint: add
+  topics: [shopping]
+- text: uitspreken
+  example: Kun je dat woord uitspreken?
+  hint: pronounce
+  topics: [everyday]
+- text: verdwijnen
+  example: Mijn sleutels zijn plotseling verdwenen.
+  hint: disappear
+  topics: [everyday]
+- text: verhuren
+  example: Wij verhuren een kamer aan studenten.
+  hint: rent out
+  topics: [housing]
+- text: vermijden
+  example: Ik wil drukte liever vermijden.
+  hint: avoid
+  topics: [everyday]
+- text: veroorzaken
+  example: Roken kan veel gezondheidsproblemen veroorzaken.
+  hint: cause
+  topics: [health]
+- text: verrassen
+  example: We willen haar met een feest verrassen.
+  hint: surprise
+  topics: [social]
+- text: verzoeken
+  example: Ik verzoek u vriendelijk om te wachten.
+  hint: request
+  topics: [office]
+- text: voorbereiden
+  example: Ik moet mij goed voorbereiden.
+  hint: prepare
+  topics: [work]
+- text: noodzakelijk
+  example: Het is noodzakelijk om te reserveren.
+  hint: necessary
+  topics: [everyday]
+- text: onmiddellijk
+  example: Bel de dokter onmiddellijk.
+  hint: immediately
+  topics: [health]
+- text: prettig
+  example: Het was een prettig gesprek.
+  hint: pleasant
+  topics: [social]
+- text: redelijk
+  example: De prijs is redelijk.
+  hint: reasonable
+  topics: [shopping]
+- text: tevreden
+  example: Ik ben tevreden met mijn werk.
+  hint: satisfied
+  topics: [work]
+- text: voldoende
+  example: We hebben voldoende tijd om te eten.
+  hint: enough
+  topics: [everyday]
+- text: zelfstandig
+  example: Ik werk graag zelfstandig.
+  hint: independently
+  topics: [work]
+- text: zuinig
+  example: We moeten zuinig met energie omgaan.
+  hint: economical
+  topics: [housing]
+- text: algemeen
+  example: Dat is een algemeen probleem.
+  hint: general
+  topics: [everyday]
+- text: tijdelijk
+  example: Ik heb een tijdelijke baan.
+  hint: temporary
+  topics: [work]
+- text: volledig
+  example: Het formulier is volledig ingevuld.
+  hint: complete
+  topics: [office]
+- text: onbekend
+  example: De oorzaak is nog onbekend.
+  hint: unknown
+  topics: [everyday]
+- text: verrassend
+  example: Het nieuws was verrassend goed.
+  hint: surprising
+  topics: [social]
+- text: de vergoeding
+  example: De vergoeding voor de reis is geregeld.
+  hint: compensation
+  topics: [work]
+- text: de uitgave
+  example: De uitgave voor het feest is hoog.
+  hint: expense
+  topics: [shopping]
+- text: het overzicht
+  example: Kun je een overzicht maken?
+  hint: overview
+  topics: [office]
+- text: de verplichting
+  example: Een cursus volgen is een verplichting.
+  hint: obligation
+  topics: [office]
+- text: inderdaad
+  example: Inderdaad, dat klopt.
+  hint: indeed
+  topics: [everyday]
+- text: uiteraard
+  example: Uiteraard help ik je.
+  hint: of course
+  topics: [everyday]
+- text: wellicht
+  example: Wellicht kom ik later.
+  hint: perhaps
+  topics: [everyday]
+- text: vanuit
+  example: We vertrekken vanuit het hotel.
+  hint: from
+  topics: [travel]
+- text: ondertussen
+  example: Ondertussen kook ik het eten.
+  hint: meanwhile
+  topics: [everyday]
+- text: lijken
+  example: Het lijkt een goed idee.
+  hint: to seem
+  topics: [everyday]
+- text: blijken
+  example: Het blijkt een fout te zijn.
+  hint: to turn out
+  topics: [everyday]
+- text: noemen
+  example: Hoe noem je dat in het Nederlands?
+  hint: to call
+  topics: [everyday]
+- text: tellen
+  example: Kun je tot tien tellen?
+  hint: to count
+  topics: [everyday]
+- text: trekken
+  example: Trek aan de deur om binnen te komen.
+  hint: to pull
+  topics: [everyday]
+- text: vullen
+  example: Ik vul de fles met water.
+  hint: to fill
+  topics: [everyday]
+- text: wijzen
+  example: Hij wijst naar de kaart.
+  hint: to point
+  topics: [travel]
+- text: zakken
+  example: De temperatuur zakt snel vanavond.
+  hint: to fall
+  topics: [everyday]
+- text: zenden
+  example: Ik zend je een bericht.
+  hint: to send
+  topics: [office]
+- text: deelnemen
+  example: Ik wil graag deelnemen aan de cursus.
+  hint: to participate
+  topics: [work]
+- text: bespreken
+  example: We moeten het plan morgen bespreken.
+  hint: to discuss
+  topics: [work]
+- text: bieden
+  example: Hij biedt hulp aan zijn buurman.
+  hint: to offer
+  topics: [social]
+- text: groeien
+  example: De planten groeien snel in de lente.
+  hint: to grow
+  topics: [housing]
+- text: ontwikkelen
+  example: We ontwikkelen een nieuwe app.
+  hint: to develop
+  topics: [work]
+- text: overleven
+  example: Hij heeft de ramp overleefd.
+  hint: to survive
+  topics: [health]
+- text: aanwezig
+  example: Alle studenten zijn vandaag aanwezig.
+  hint: present
+  topics: [work]
+- text: afwezig
+  example: Hij is vandaag afwezig door ziekte.
+  hint: absent
+  topics: [work]
+- text: bekend
+  example: Deze artiest is heel bekend.
+  hint: famous
+  topics: [social]
+- text: bezorgd
+  example: Ik ben bezorgd over mijn moeder.
+  hint: worried
+  topics: [health]
+- text: dankbaar
+  example: Ik ben je erg dankbaar.
+  hint: grateful
+  topics: [social]
+- text: dapper
+  example: De brandweerman is erg dapper.
+  hint: brave
+  topics: [social]
+- text: enthousiast
+  example: Zij is enthousiast over het plan.
+  hint: enthusiastic
+  topics: [social]
+- text: geduldig
+  example: Wees geduldig, het duurt even.
+  hint: patient
+  topics: [social]
+- text: handig
+  example: Een smartphone is handig.
+  hint: handy
+  topics: [everyday]
+- text: herkenbaar
+  example: Zijn stem is heel herkenbaar.
+  hint: recognizable
+  topics: [social]
+- text: de factuur
+  example: De factuur moet voor vrijdag betaald worden.
+  hint: invoice
+  topics: [office]
+- text: de overeenkomst
+  example: We hebben een overeenkomst getekend.
+  hint: agreement
+  topics: [work]
+- text: de procedure
+  example: De procedure duurt twee weken.
+  hint: procedure
+  topics: [office]
+- text: de toestand
+  example: De toestand van de patiënt is stabiel.
+  hint: condition
+  topics: [health]
+- text: de waarschuwing
+  example: Ik kreeg een waarschuwing van de politie.
+  hint: warning
+  topics: [everyday]
+- text: de voorkeur
+  example: Mijn voorkeur gaat uit naar thee.
+  hint: preference
+  topics: [shopping]
+- text: de herinnering
+  example: Ik heb mooie herinneringen aan die reis.
+  hint: memory
+  topics: [social]
+- text: de gedachte
+  example: Die gedachte maakt me blij.
+  hint: thought
+  topics: [social]
+- text: de generatie
+  example: Mijn generatie denkt anders over werk.
+  hint: generation
+  topics: [social]
+- text: de inwoner
+  example: De inwoners van het dorp protesteren.
+  hint: resident
+  topics: [housing]
+- text: de jeugd
+  example: In mijn jeugd speelde ik buiten.
+  hint: youth
+  topics: [social]
+- text: de boer
+  example: De boer werkt op het land.
+  hint: farmer
+  topics: [work]
+- text: de brandweer
+  example: De brandweer kwam snel naar het ongeluk.
+  hint: fire brigade
+  topics: [health]
+- text: de briefkaart
+  example: Ik stuur een briefkaart uit Spanje.
+  hint: postcard
+  topics: [travel]
+- text: de douane
+  example: We moesten lang wachten bij de douane.
+  hint: customs
+  topics: [travel]
+- text: de postbode
+  example: De postbode brengt een pakket.
+  hint: postman
+  topics: [everyday]
+- text: de reiziger
+  example: De reiziger wacht op het perron.
+  hint: traveler
+  topics: [travel]
+- text: de gordel
+  example: Doe je gordel om voor we vertrekken.
+  hint: seatbelt
+  topics: [travel]
+- text: de schade
+  example: De schade aan de auto is groot.
+  hint: damage
+  topics: [travel]
+- text: de spier
+  example: Mijn spier doet pijn na het sporten.
+  hint: muscle
+  topics: [health]
+- text: de heup
+  example: Mijn heup doet pijn als ik loop.
+  hint: hip
+  topics: [health]
+- text: de lever
+  example: De lever is een belangrijk orgaan.
+  hint: liver
+  topics: [health]
+- text: de nier
+  example: Mijn nier werkt niet goed.
+  hint: kidney
+  topics: [health]
+- text: de tolk
+  example: De tolk vertaalt het gesprek.
+  hint: interpreter
+  topics: [work]
+- text: de deelnemer
+  example: Elke deelnemer krijgt een certificaat.
+  hint: participant
+  topics: [work]
+- text: de deskundige
+  example: De deskundige legt het probleem uit.
+  hint: expert
+  topics: [work]
+- text: de ondernemer
+  example: De ondernemer start een nieuw bedrijf.
+  hint: entrepreneur
+  topics: [work]
+- text: de cliënt
+  example: De cliënt is tevreden met de service.
+  hint: client
+  topics: [work]
+- text: de maatregel
+  example: De overheid neemt nieuwe maatregelen.
+  hint: measure
+  topics: [office]
+- text: de regering
+  example: De regering neemt een belangrijke beslissing.
+  hint: government
+  topics: [office]
+- text: de betaling
+  example: De betaling is nog niet gelukt.
+  hint: payment
+  topics: [shopping]
+- text: de boodschap
+  example: Ik doe even een boodschap voor je.
+  hint: errand, message
+  topics: [everyday]
+- text: het huishouden
+  example: Het huishouden kost veel tijd.
+  hint: household chores
+  topics: [housing]
+- text: het afval
+  example: Het afval moet elke week buiten.
+  hint: waste, rubbish
+  topics: [everyday]
+- text: de uitkering
+  example: Ik vraag een uitkering aan.
+  hint: benefit, welfare payment
+  topics: [office]
+- text: de toeslag
+  example: De toeslag wordt elke maand betaald.
+  hint: allowance, benefit
+  topics: [office]
+- text: de inkomsten
+  example: Mijn inkomsten zijn deze maand lager.
+  hint: income
+  topics: [work]
+- text: de vaardigheid
+  example: Goede communicatie is een belangrijke vaardigheid.
+  hint: skill
+  topics: [work]
+- text: de huurder
+  example: De huurder moet de woning netjes houden.
+  hint: tenant
+  topics: [housing]
+- text: de verhuurder
+  example: De verhuurder lost het probleem snel op.
+  hint: landlord
+  topics: [housing]
+- text: de lekkage
+  example: De lekkage komt van het dak.
+  hint: leak
+  topics: [housing]
+- text: de afvoer
+  example: De afvoer van de douche is verstopt.
+  hint: drain
+  topics: [housing]
+- text: de wachttijd
+  example: De wachttijd bij de dokter is lang.
+  hint: waiting time
+  topics: [health]
+- text: de verwijzing
+  example: Ik heb een verwijzing van de huisarts.
+  hint: referral
+  topics: [health]
+- text: de bezorging
+  example: De bezorging duurt meestal twee dagen.
+  hint: delivery
+  topics: [shopping]
+- text: het pakket
+  example: Het pakket wordt morgen bezorgd.
+  hint: parcel
+  topics: [shopping]
+- text: de postzegel
+  example: Ik plak een postzegel op de envelop.
+  hint: stamp
+  topics: [everyday]
+- text: de container
+  example: De container is vol, we moeten wachten.
+  hint: container, bin
+  topics: [housing, everyday]
+- text: de spits
+  example: In de spits is de weg druk.
+  hint: rush hour
+  topics: [travel]
+- text: de dienstregeling
+  example: De dienstregeling verandert vanaf volgende maand.
+  hint: timetable
+  topics: [travel]
+- text: de parkeergarage
+  example: In de parkeergarage is het vaak druk.
+  hint: car park
+  topics: [travel]
+- text: de omleiding
+  example: Er is een omleiding door de wegwerkzaamheden.
+  hint: diversion
+  topics: [travel]
+- text: het verkeerslicht
+  example: Wacht hier tot het verkeerslicht groen is.
+  hint: traffic light
+  topics: [travel]
+- text: het tankstation
+  example: We stoppen bij het volgende tankstation.
+  hint: petrol station
+  topics: [travel]
+- text: de tussenstop
+  example: We hebben een korte tussenstop.
+  hint: stopover
+  topics: [travel]
+- text: de heenreis
+  example: De heenreis duurde bijna drie uur.
+  hint: outbound journey
+  topics: [travel]
+- text: de terugreis
+  example: De terugreis was erg vermoeiend.
+  hint: return journey
+  topics: [travel]
+- text: de landing
+  example: De landing was zacht en rustig.
+  hint: landing
+  topics: [travel]
+- text: de bijwerking
+  example: Deze pil heeft een vervelende bijwerking.
+  hint: side effect
+  topics: [health]
+- text: de dosering
+  example: Volg de dosering op de verpakking.
+  hint: dosage
+  topics: [health]
+- text: de therapie
+  example: De therapie duurt ongeveer drie maanden.
+  hint: therapy
+  topics: [health]
+- text: de spoed
+  example: Bel bij spoed direct de huisarts.
+  hint: emergency
+  topics: [health]
+- text: de aandoening
+  example: Zij heeft een chronische aandoening.
+  hint: condition, ailment
+  topics: [health]
+- text: de ontsteking
+  example: De ontsteking is nu gelukkig weg.
+  hint: inflammation, infection
+  topics: [health]
+- text: de bloeddruk
+  example: De verpleegkundige meet mijn bloeddruk.
+  hint: blood pressure
+  topics: [health]
+- text: de voeding
+  example: Goede voeding is belangrijk voor je gezondheid.
+  hint: nutrition
+  topics: [health]
+- text: de eetlust
+  example: Ik heb vandaag weinig eetlust.
+  hint: appetite
+  topics: [health]
+- text: de misselijkheid
+  example: De misselijkheid is na de maaltijd erger.
+  hint: nausea
+  topics: [health]
+- text: de zwangerschap
+  example: Tijdens de zwangerschap moet je genoeg rusten.
+  hint: pregnancy
+  topics: [health]
+- text: de bevalling
+  example: De bevalling verliep gelukkig zonder problemen.
+  hint: childbirth
+  topics: [health]
+- text: het litteken
+  example: Het litteken is na een jaar vervaagd.
+  hint: scar
+  topics: [health]
+- text: de eigenschap
+  example: Geduld is een goede eigenschap.
+  hint: quality, trait
+  topics: [social]
+- text: de opvoeding
+  example: De opvoeding van kinderen kost veel energie.
+  hint: upbringing, parenting
+  topics: [social]
+- text: de eenzaamheid
+  example: Eenzaamheid komt ook bij jongeren voor.
+  hint: loneliness
+  topics: [social]
+- text: de teleurstelling
+  example: De uitslag was een grote teleurstelling.
+  hint: disappointment
+  topics: [social]
+- text: de spanning
+  example: Voor het examen voel ik veel spanning.
+  hint: tension
+  topics: [social]
+- text: de twijfel
+  example: Er is nog twijfel over de datum.
+  hint: doubt
+  topics: [social]
+- text: het compliment
+  example: Hij gaf me een aardig compliment.
+  hint: compliment
+  topics: [social]
+- text: de geboorte
+  example: De geboorte van hun dochter was bijzonder.
+  hint: birth
+  topics: [health, social]
+- text: de peuter
+  example: De peuter speelt graag met blokken.
+  hint: toddler
+  topics: [social]
+- text: de kleuter
+  example: Onze kleuter gaat volgend jaar naar school.
+  hint: preschooler
+  topics: [social]
+- text: de puber
+  example: Een puber wil steeds meer zelf beslissen.
+  hint: teenager
+  topics: [social]
+- text: de volwassene
+  example: Als volwassene moet je zelf keuzes maken.
+  hint: adult
+  topics: [social]
+- text: de alleenstaande
+  example: Als alleenstaande betaal ik meer huur.
+  hint: single person
+  topics: [social, housing]
+- text: de polis
+  example: Bewaar de polis op een veilige plek.
+  hint: insurance policy
+  topics: [office]
+- text: de premie
+  example: De premie gaat volgend jaar omhoog.
+  hint: insurance premium
+  topics: [office]
+- text: de radiator
+  example: Zet de radiator niet helemaal dicht.
+  hint: radiator
+  topics: [housing]
+- text: het stopcontact
+  example: Het stopcontact is kapot en gevaarlijk.
+  hint: socket
+  topics: [housing]
+- text: de schakelaar
+  example: De schakelaar zit naast de deur.
+  hint: switch
+  topics: [housing]
+- text: de meterkast
+  example: De meterkast zit in de gang.
+  hint: meter cupboard
+  topics: [housing]
+- text: de uitleg
+  example: De uitleg van de leraar was heel duidelijk.
+  hint: explanation
+  topics: [everyday]
+- text: de reactie
+  example: Zijn reactie op het nieuws was verrast.
+  hint: reaction
+  topics: [social]
+- text: de verwachting
+  example: De verwachting is dat het morgen regent.
+  hint: expectation
+  topics: [everyday]
+- text: het resultaat
+  example: Het resultaat van de test was goed.
+  hint: result
+  topics: [work]
+- text: het apparaat
+  example: Dit apparaat werkt niet meer.
+  hint: device
+  topics: [everyday]
+- text: het programma
+  example: Het programma begint om acht uur.
+  hint: program
+  topics: [everyday]
+- text: het detail
+  example: Ik heb elk detail van het verhaal onthouden.
+  hint: detail
+  topics: [everyday]
+- text: de mededeling
+  example: Er is een belangrijke mededeling van de directeur.
+  hint: announcement
+  topics: [office]
+- text: de bevestiging
+  example: Ik wacht nog op de bevestiging van de afspraak.
+  hint: confirmation
+  topics: [office]
+- text: de oproep
+  example: Ik heb een oproep van de dokter gemist.
+  hint: call
+  topics: [health]
+- text: de verbetering
+  example: Er is een kleine verbetering in je gezondheid.
+  hint: improvement
+  topics: [health]
+- text: de afslag
+  example: Neem de volgende afslag naar de snelweg.
+  hint: exit
+  topics: [travel]
+- text: de bestemming
+  example: De trein heeft zijn bestemming bereikt.
+  hint: destination
+  topics: [travel]
+- text: de automaat
+  example: Ik zoek een automaat voor geld.
+  hint: machine, ATM
+  topics: [shopping]
+- text: de pinautomaat
+  example: De pinautomaat is buiten gebruik.
+  hint: ATM
+  topics: [shopping]
+- text: de bakkerij
+  example: De bakkerij op de hoek verkoopt vers brood.
+  hint: bakery
+  topics: [shopping]
+- text: de bezorger
+  example: De bezorger brengt het pakket morgen.
+  hint: delivery person
+  topics: [shopping]
+- text: de consument
+  example: De consument kiest steeds vaker voor biologisch.
+  hint: consumer
+  topics: [shopping]
+- text: de folder
+  example: In de folder staat een aanbieding voor koffie.
+  hint: brochure
+  topics: [shopping]
+- text: de winkelier
+  example: De winkelier geeft geen geld terug.
+  hint: shopkeeper
+  topics: [shopping]
+- text: het product
+  example: Dit product is helaas niet op voorraad.
+  hint: product
+  topics: [shopping]
+- text: het voedsel
+  example: Het voedsel in het restaurant was lekker.
+  hint: food
+  topics: [shopping]
+- text: het winkelcentrum
+  example: Het winkelcentrum is op zondag open.
+  hint: shopping center
+  topics: [shopping]
+- text: de bewoner
+  example: De bewoners van het appartement klagen over lawaai.
+  hint: resident
+  topics: [housing]
+- text: de hal
+  example: In de hal staat een grote spiegel.
+  hint: hall
+  topics: [housing]
+- text: de achtertuin
+  example: De kinderen spelen in de achtertuin.
+  hint: backyard
+  topics: [housing]
+- text: de huurwoning
+  example: We zoeken een huurwoning in de stad.
+  hint: rental house
+  topics: [housing]
+- text: de kookplaat
+  example: De kookplaat is vies, ik maak hem schoon.
+  hint: stove
+  topics: [housing]
+- text: de leuning
+  example: Houd de leuning van de trap vast.
+  hint: railing
+  topics: [housing]
+- text: de oprit
+  example: De auto staat op de oprit.
+  hint: driveway
+  topics: [housing]
+- text: de schutting
+  example: De schutting tussen onze tuinen is kapot.
+  hint: fence
+  topics: [housing]
+- text: de stekker
+  example: De stekker past niet in het stopcontact.
+  hint: plug
+  topics: [housing]
+- text: de tegel
+  example: Er zit een scheur in de tegel.
+  hint: tile
+  topics: [housing]
+- text: de verhuisdoos
+  example: We hebben nog tien verhuisdozen nodig.
+  hint: moving box
+  topics: [housing]
+- text: de waslijn
+  example: De was hangt buiten aan de waslijn.
+  hint: clothesline
+  topics: [housing]
+- text: het behang
+  example: Het behang in de woonkamer is oud.
+  hint: wallpaper
+  topics: [housing]
+- text: het nachtkastje
+  example: Mijn bril ligt op het nachtkastje.
+  hint: nightstand
+  topics: [housing]
+- text: het terras
+  example: We drinken koffie op het terras.
+  hint: terrace
+  topics: [shopping]
+- text: de bezem
+  example: Ik veeg de vloer met de bezem.
+  hint: broom
+  topics: [housing]
+- text: de deadline
+  example: De deadline voor het project is volgende week.
+  hint: deadline
+  topics: [work]
+- text: de notitie
+  example: Ik maak een notitie van de vergadering.
+  hint: note
+  topics: [office]
+- text: de vergunning
+  example: Voor de verbouwing heeft u een vergunning nodig.
+  hint: permit
+  topics: [office]
+- text: de verklaring
+  example: De politie vroeg om een verklaring.
+  hint: statement
+  topics: [office]
+- text: de inschrijving
+  example: De inschrijving voor de cursus sluit morgen.
+  hint: registration
+  topics: [office]
+- text: de instructie
+  example: Lees de instructie goed voordat je begint.
+  hint: instruction
+  topics: [office]
+- text: de werkdag
+  example: Mijn werkdag begint om acht uur.
+  hint: workday
+  topics: [work]
+- text: de bekeuring
+  example: Ik kreeg een bekeuring voor te hard rijden.
+  hint: fine
+  topics: [travel]
+- text: het achterlicht
+  example: Het achterlicht van je fiets is kapot.
+  hint: rear light
+  topics: [travel]
+- text: het kanaal
+  example: We varen met de boot door het kanaal.
+  hint: canal
+  topics: [travel]
+- text: het kruispunt
+  example: Bij het kruispunt moet je linksaf.
+  hint: intersection
+  topics: [travel]
+- text: het nummerbord
+  example: Het nummerbord van de auto is gestolen.
+  hint: license plate
+  topics: [travel]
+- text: het vervoer
+  example: Het openbaar vervoer is duur geworden.
+  hint: transport
+  topics: [travel]
+- text: het parkeerterrein
+  example: Het parkeerterrein is vol, we moeten wachten.
+  hint: parking lot
+  topics: [travel]
+- text: de emotie
+  example: Hij toont weinig emotie tijdens het gesprek.
+  hint: emotion
+  topics: [social]
+- text: de eerlijkheid
+  example: Eerlijkheid is belangrijk in een relatie.
+  hint: honesty
+  topics: [social]
+- text: de irritatie
+  example: Er is veel irritatie tussen de buren.
+  hint: irritation
+  topics: [social]
+- text: de dankbaarheid
+  example: Ik voel veel dankbaarheid voor je hulp.
+  hint: gratitude
+  topics: [social]
+- text: de ambitie
+  example: Zij heeft de ambitie om manager te worden.
+  hint: ambition
+  topics: [work]
+- text: de boosheid
+  example: Zijn boosheid was na een uur voorbij.
+  hint: anger
+  topics: [social]
+- text: de blijdschap
+  example: De blijdschap was groot na de geboorte.
+  hint: joy
+  topics: [social]
+- text: de leeftijd
+  example: Op welke leeftijd mag je stemmen?
+  hint: age
+  topics: [social, everyday]
+- text: de periode
+  example: Deze periode is erg druk op mijn werk.
+  hint: period
+  topics: [everyday, work]
+- text: de termijn
+  example: De termijn voor de betaling is kort.
+  hint: deadline, term
+  topics: [office, everyday]
+- text: de houding
+  example: Zijn houding tegenover het plan verrast mij.
+  hint: attitude, posture
+  topics: [social]
+- text: de opluchting
+  example: Na het goede nieuws voelde ik opluchting.
+  hint: relief
+  topics: [social]
+- text: het verleden
+  example: In het verleden woonde ik daar.
+  hint: past
+  topics: [everyday]
+- text: de bevolking
+  example: De bevolking van deze stad groeit snel.
+  hint: population
+  topics: [social, everyday]
+- text: de blessure
+  example: Hij heeft een blessure aan zijn knie.
+  hint: injury
+  topics: [health]
+- text: het gewicht
+  example: Het gewicht van mijn koffer is te hoog.
+  hint: weight
+  topics: [health, travel]
+- text: de luchthaven
+  example: We staan vroeg op de luchthaven.
+  hint: airport
+  topics: [travel]
+- text: de inrichting
+  example: De inrichting van de kamer is modern.
+  hint: interior, layout
+  topics: [housing]
+- text: het slot
+  example: Het slot van de voordeur is kapot.
+  hint: lock
+  topics: [housing]
+- text: het bestek
+  example: Het bestek ligt in de la.
+  hint: cutlery
+  topics: [shopping]
+- text: de salade
+  example: Ik neem een salade bij de lunch.
+  hint: salad
+  topics: [shopping]
+- text: de worst
+  example: De worst is vandaag in de aanbieding.
+  hint: sausage
+  topics: [shopping]
+- text: de mosterd
+  example: Ik doe graag mosterd op mijn brood.
+  hint: mustard
+  topics: [shopping]
+- text: de azijn
+  example: Je maakt de saus zuur met azijn.
+  hint: vinegar
+  topics: [shopping]
+- text: de noot
+  example: Ik ben allergisch voor elke noot.
+  hint: nut
+  topics: [shopping, health]
+- text: de snack
+  example: Na het werk neem ik vaak een snack.
+  hint: snack
+  topics: [shopping]
+- text: het nagerecht
+  example: Als nagerecht neem ik graag ijs.
+  hint: dessert
+  topics: [shopping]
+- text: het voorgerecht
+  example: Het voorgerecht is een kleine salade.
+  hint: starter
+  topics: [shopping]
+- text: het hoofdgerecht
+  example: Als hoofdgerecht kies ik de kip.
+  hint: main course
+  topics: [shopping]
+- text: de serveerster
+  example: De serveerster brengt ons de menukaart.
+  hint: waitress
+  topics: [shopping]
+- text: de magnetron
+  example: Ik warm de soep op in de magnetron.
+  hint: microwave
+  topics: [housing, shopping]
+- text: de waterkoker
+  example: De waterkoker staat naast het aanrecht.
+  hint: kettle
+  topics: [housing]
+- text: de deurbel
+  example: De deurbel doet het niet meer.
+  hint: doorbell
+  topics: [housing]
+- text: het hek
+  example: Het hek om de tuin is nieuw.
+  hint: gate, fence
+  topics: [housing]
+- text: de offerte
+  example: Kunt u mij een offerte sturen?
+  hint: quote, offer
+  topics: [work, office]
+- text: de notulen
+  example: De notulen van de vergadering staan online.
+  hint: meeting minutes
+  topics: [office]
+- text: de leidinggevende
+  example: Mijn leidinggevende is vandaag niet aanwezig.
+  hint: manager, supervisor
+  topics: [work]
+- text: de directie
+  example: De directie neemt morgen een beslissing.
+  hint: management, board
+  topics: [work]
+- text: de carrière
+  example: Zij wil graag carrière maken in de zorg.
+  hint: career
+  topics: [work]
+- text: de promotie
+  example: Hij hoopt dit jaar promotie te krijgen.
+  hint: promotion
+  topics: [work]
+- text: het ontslag
+  example: Na het ontslag zoekt hij ander werk.
+  hint: dismissal, resignation
+  topics: [work]
+- text: de productie
+  example: De productie in de fabriek ligt stil.
+  hint: production
+  topics: [work]
+- text: de werkdruk
+  example: De werkdruk op kantoor is hoog.
+  hint: work pressure
+  topics: [work]
+- text: de sollicitatiebrief
+  example: Ik stuur vandaag mijn sollicitatiebrief op.
+  hint: application letter
+  topics: [work]
+- text: het kwartaal
+  example: De cijfers van dit kwartaal zijn goed.
+  hint: quarter (year)
+  topics: [office, work]
+- text: de psycholoog
+  example: De psycholoog helpt haar met haar angst.
+  hint: psychologist
+  topics: [health]
+- text: de fysiotherapeut
+  example: De fysiotherapeut oefent met mijn schouder.
+  hint: physiotherapist
+  topics: [health]
+- text: de hersenen
+  example: De hersenen hebben zuurstof nodig.
+  hint: brain
+  topics: [health]
+- text: de ademhaling
+  example: Zijn ademhaling gaat nu weer normaal.
+  hint: breathing
+  topics: [health]
+- text: het bot
+  example: Het bot is na de val gebroken.
+  hint: bone
+  topics: [health]
+- text: de handbagage
+  example: Mijn handbagage mag mee in het vliegtuig.
+  hint: hand luggage
+  topics: [travel]
+- text: het visum
+  example: Voor dat land heb ik een visum nodig.
+  hint: visa
+  topics: [travel]
+- text: de zitplaats
+  example: Is deze zitplaats nog vrij?
+  hint: seat
+  topics: [travel]
+- text: het reisbureau
+  example: Ik boek mijn reis via het reisbureau.
+  hint: travel agency
+  topics: [travel]
+- text: de reisverzekering
+  example: Zonder reisverzekering ga ik niet op reis.
+  hint: travel insurance
+  topics: [travel]
+- text: de veerboot
+  example: De veerboot vaart elk uur naar de overkant.
+  hint: ferry
+  topics: [travel]
+- text: aangezien
+  example: Aangezien het regent, blijven we binnen.
+  hint: since, because
+  topics: [everyday]
+- text: vrijwel
+  example: Het werk is vrijwel klaar.
+  hint: almost, virtually
+  topics: [everyday]
+- text: nauwelijks
+  example: Ik heb nauwelijks tijd om te eten.
+  hint: hardly
+  topics: [everyday]
+- text: gedurende
+  example: Gedurende de vakantie is de winkel dicht.
+  hint: during
+  topics: [everyday]
+- text: daarentegen
+  example: Hij houdt van vis; zij daarentegen eet vlees.
+  hint: on the other hand
+  topics: [everyday]
+- text: desondanks
+  example: Het was druk; desondanks kwamen we op tijd.
+  hint: nevertheless
+  topics: [everyday]
+- text: kortom
+  example: Kortom, we moeten nog veel doen.
+  hint: in short
+  topics: [everyday]
+- text: tevens
+  example: Zij is leraar en tevens schrijver.
+  hint: also, additionally
+  topics: [everyday]
+- text: eveneens
+  example: Hij kwam laat en zij eveneens.
+  hint: likewise
+  topics: [everyday]
+- text: waarvan
+  example: De app waarvan ik houd is gratis.
+  hint: of which
+  topics: [everyday]
+- text: waarover
+  example: Het onderwerp waarover we praten is moeilijk.
+  hint: about which
+  topics: [everyday]
+- text: afzeggen
+  example: Ik moet de afspraak helaas afzeggen.
+  hint: cancel
+  topics: [work]
+- text: besluiten
+  example: We hebben besloten om eerder te vertrekken.
+  hint: decide
+  topics: [everyday]
+- text: ruilen
+  example: Kan ik dit artikel ruilen?
+  hint: exchange
+  topics: [shopping]
+- text: retourneren
+  example: U kunt het pakket binnen drie dagen retourneren.
+  hint: return
+  topics: [shopping]
+- text: inpakken
+  example: Kunt u het cadeau mooi inpakken?
+  hint: wrap, pack
+  topics: [shopping]
+- text: afhalen
+  example: We halen vanavond eten af bij de pizzeria.
+  hint: pick up
+  topics: [shopping]
+- text: schoonmaken
+  example: Ik moet het huis nog schoonmaken.
+  hint: clean
+  topics: [housing]
+- text: stofzuigen
+  example: Zij stofzuigt elke zaterdag de woonkamer.
+  hint: vacuum
+  topics: [housing]
+- text: ophangen
+  example: Ik wil die foto in de kamer ophangen.
+  hint: hang up
+  topics: [housing]
+- text: verven
+  example: We gaan de muur morgen verven.
+  hint: paint
+  topics: [housing]
+- text: strijken
+  example: Hij moet zijn overhemd nog strijken.
+  hint: iron
+  topics: [housing]
+- text: schenken
+  example: Wil je mij wat koffie schenken?
+  hint: pour
+  topics: [shopping]
+- text: serveren
+  example: Het restaurant serveert vanaf zes uur warm eten.
+  hint: serve
+  topics: [shopping]
+- text: snijden
+  example: Snijd de ui in kleine stukjes.
+  hint: cut
+  topics: [shopping]
+- text: lukken
+  example: Het is mij gelukkig toch gelukt.
+  hint: succeed
+  topics: [everyday]
+- text: herkennen
+  example: Ik herken dat liedje meteen.
+  hint: recognize
+  topics: [everyday]
+- text: beseffen
+  example: Ik besef nu pas hoe laat het is.
+  hint: realize
+  topics: [everyday]
+- text: beloven
+  example: Je moet mij beloven dat je komt.
+  hint: promise
+  topics: [social]
+- text: bedanken
+  example: Ik wil je vriendelijk bedanken voor de hulp.
+  hint: thank
+  topics: [social]
+- text: missen
+  example: Ik mis mijn familie heel erg.
+  hint: miss
+  topics: [social]
+- text: durven
+  example: Durf je alleen in het donker te lopen?
+  hint: dare
+  topics: [social]
+- text: dromen
+  example: Ik droom vaak over een huis aan zee.
+  hint: dream
+  topics: [social]
+- text: zojuist
+  example: De dokter is zojuist vertrokken.
+  hint: just now
+  topics: [everyday]
+- text: nogal
+  example: Het is nogal koud buiten vandaag.
+  hint: rather, quite
+  topics: [everyday]
+- text: landen
+  example: Het vliegtuig landt over tien minuten.
+  hint: land
+  topics: [travel]
+- text: opstijgen
+  example: We mogen pas om acht uur opstijgen.
+  hint: take off
+  topics: [travel]
+- text: inchecken
+  example: We moeten twee uur voor vertrek inchecken.
+  hint: check in
+  topics: [travel]
+- text: tanken
+  example: Ik moet onderweg nog even tanken.
+  hint: refuel
+  topics: [travel]
+- text: de storing
+  example: Er is een storing in het netwerk.
+  hint: malfunction
+  topics: [office]
+- text: het netwerk
+  example: Het netwerk werkt vandaag niet goed.
+  hint: network
+  topics: [office]
+- text: de bijeenkomst
+  example: De bijeenkomst begint om drie uur.
+  hint: meeting
+  topics: [work]
+- text: de vacature
+  example: Ik zag een interessante vacature op internet.
+  hint: vacancy
+  topics: [work]
+- text: de proeftijd
+  example: De proeftijd duurt meestal twee maanden.
+  hint: probation period
+  topics: [work]
+- text: het diploma
+  example: Hij heeft zijn diploma eindelijk gehaald.
+  hint: diploma
+  topics: [work]
+- text: plaatsvinden
+  example: De vergadering zal morgen plaatsvinden.
+  hint: take place
+  topics: [work]
+- text: maandelijks
+  example: De rekening komt maandelijks per post.
+  hint: monthly
+  topics: [office]
+- text: jaarlijks
+  example: De controle is jaarlijks gratis.
+  hint: yearly
+  topics: [office]
+- text: de aanrijding
+  example: Er was een aanrijding op de snelweg.
+  hint: collision
+  topics: [travel]
+- text: de rem
+  example: De rem van mijn fiets is kapot.
+  hint: brake
+  topics: [travel]
+- text: het stuur
+  example: Hij houdt zijn handen aan het stuur.
+  hint: steering wheel
+  topics: [travel]
+- text: de accu
+  example: De accu van de auto is leeg.
+  hint: battery
+  topics: [travel]
+- text: de boeking
+  example: Ik heb de boeking net bevestigd.
+  hint: booking
+  topics: [travel]
+- text: het symptoom
+  example: Dit symptoom kan op stress wijzen.
+  hint: symptom
+  topics: [health]
+- text: de vaccinatie
+  example: De vaccinatie is gratis voor kinderen.
+  hint: vaccination
+  topics: [health]
+- text: de bijsluiter
+  example: Lees de bijsluiter goed voor gebruik.
+  hint: package leaflet
+  topics: [health]
+- text: de verwijsbrief
+  example: De dokter gaf mij een verwijsbrief.
+  hint: referral letter
+  topics: [health]
+- text: zwanger
+  example: Mijn zus is zwanger van haar eerste kind.
+  hint: pregnant
+  topics: [health]
+- text: de pijnstiller
+  example: Neem een pijnstiller tegen de hoofdpijn.
+  hint: painkiller
+  topics: [health]
+- text: opgelucht
+  example: Ik was opgelucht na het goede nieuws.
+  hint: relieved
+  topics: [social]
+- text: teleurgesteld
+  example: Hij was teleurgesteld over de uitslag.
+  hint: disappointed
+  topics: [social]
+- text: zenuwachtig
+  example: Ze is altijd zenuwachtig voor een examen.
+  hint: nervous
+  topics: [social]
+- text: eenzaam
+  example: Hij voelt zich soms eenzaam in de stad.
+  hint: lonely
+  topics: [social]
+- text: vrolijk
+  example: De kinderen zijn vrolijk aan het spelen.
+  hint: cheerful
+  topics: [social]
+- text: grappig
+  example: Die film was echt heel grappig.
+  hint: funny
+  topics: [social]
+- text: het kleingeld
+  example: Heb je wat kleingeld voor de automaat?
+  hint: small change
+  topics: [shopping]
+- text: de kassabon
+  example: Bewaar de kassabon goed voor de garantie.
+  hint: receipt
+  topics: [shopping]
+- text: de hamer
+  example: Geef mij de hamer even aan.
+  hint: hammer
+  topics: [housing]
+- text: de schroevendraaier
+  example: Ik heb een schroevendraaier nodig voor deze kast.
+  hint: screwdriver
+  topics: [housing]
+- text: het gereedschap
+  example: Het gereedschap ligt in de schuur.
+  hint: tools
+  topics: [housing]
+- text: de klus
+  example: Deze klus is te moeilijk voor mij.
+  hint: job, chore
+  topics: [housing]
+- text: het contact
+  example: Ik heb goed contact met mijn buren.
+  hint: contact
+  topics: [social]
+- text: de actie
+  example: Deze week is er actie op koffie.
+  hint: promotion
+  topics: [shopping]
+- text: het merk
+  example: Dit merk ken ik niet.
+  hint: brand
+  topics: [shopping]
+- text: de verpakking
+  example: De verpakking is al open.
+  hint: packaging
+  topics: [shopping]
+- text: de levering
+  example: De levering komt morgen tussen tien en twaalf.
+  hint: delivery
+  topics: [shopping]
+- text: de voorraad
+  example: De voorraad is bijna op.
+  hint: stock
+  topics: [shopping]
+- text: de ontmoeting
+  example: De ontmoeting was heel prettig.
+  hint: meeting
+  topics: [social]
+- text: de kennismaking
+  example: De kennismaking verliep heel goed.
+  hint: introduction
+  topics: [social]
+- text: de vereniging
+  example: Zij is lid van een vereniging.
+  hint: association
+  topics: [social]
+- text: het lid
+  example: Ik ben lid van de sportschool.
+  hint: member
+  topics: [social]
+- text: de vrijwilliger
+  example: De vrijwilliger helpt elke week in het buurthuis.
+  hint: volunteer
+  topics: [work]
+- text: de stemming
+  example: De stemming in het team is goed.
+  hint: mood
+  topics: [social]
+- text: de bezorgdheid
+  example: Er is veel bezorgdheid over zijn gezondheid.
+  hint: concern
+  topics: [social]
+- text: de schaamte
+  example: Hij voelde schaamte na de fout.
+  hint: shame
+  topics: [social]
+- text: het verdriet
+  example: Zij heeft veel verdriet na het verlies.
+  hint: sadness
+  topics: [social]
+- text: de borst
+  example: Hij heeft pijn in zijn borst.
+  hint: chest
+  topics: [health]
+- text: de tong
+  example: Ik heb mijn tong verbrand.
+  hint: tongue
+  topics: [health]
+- text: het voorhoofd
+  example: Zij heeft een pleister op haar voorhoofd.
+  hint: forehead
+  topics: [health]
+- text: de wang
+  example: De wang is dik en rood.
+  hint: cheek
+  topics: [health]
+- text: de darm
+  example: De darm is ontstoken.
+  hint: intestine
+  topics: [health]
+- text: de verpleegkundige
+  example: De verpleegkundige komt zo bij u.
+  hint: nurse
+  topics: [health]
+- text: het herstel
+  example: Het herstel duurt nog enkele weken.
+  hint: recovery
+  topics: [health]
+- text: de leefstijl
+  example: Een gezonde leefstijl is belangrijk.
+  hint: lifestyle
+  topics: [health]
+- text: het bezwaar
+  example: Hij maakt bezwaar tegen de beslissing.
+  hint: objection
+  topics: [office]
+- text: de aangifte
+  example: Zij doet aangifte bij de politie.
+  hint: police report
+  topics: [office]
+- text: het bewijs
+  example: Heb je bewijs van betaling?
+  hint: proof
+  topics: [office]
+- text: het origineel
+  example: Het origineel ligt in het dossier.
+  hint: original
+  topics: [office]
+- text: de adreswijziging
+  example: Ik stuur de adreswijziging naar de gemeente.
+  hint: change of address
+  topics: [office]
+- text: de machtiging
+  example: De machtiging is nog niet ondertekend.
+  hint: authorization
+  topics: [office]
+- text: de stempel
+  example: De stempel staat op het formulier.
+  hint: stamp
+  topics: [office]
+- text: de woonplaats
+  example: Mijn woonplaats staat op het formulier.
+  hint: place of residence
+  topics: [office]
+- text: de nationaliteit
+  example: Wat is uw nationaliteit?
+  hint: nationality
+  topics: [office]
+- text: de burger
+  example: De burger heeft recht op uitleg.
+  hint: citizen
+  topics: [office]
+- text: de overnachting
+  example: De overnachting in het hotel was duur.
+  hint: overnight stay
+  topics: [travel]
+- text: de geldautomaat
+  example: De geldautomaat is buiten gebruik.
+  hint: ATM
+  topics: [everyday]
+- text: de instapkaart
+  example: Laat uw instapkaart zien bij de gate.
+  hint: boarding pass
+  topics: [travel]
+- text: het wisselkantoor
+  example: Het wisselkantoor is in de hal.
+  hint: currency exchange
+  topics: [travel]
+- text: de autoverhuur
+  example: De autoverhuur is bij de uitgang.
+  hint: car rental
+  topics: [travel]
+- text: de benzinepomp
+  example: De benzinepomp is kapot.
+  hint: fuel pump
+  topics: [travel]
+- text: de pechhulp
+  example: We bellen de pechhulp.
+  hint: roadside assistance
+  topics: [travel]
+- text: de rijstrook
+  example: Blijf in de rechter rijstrook.
+  hint: lane
+  topics: [travel]
+- text: het huurcontract
+  example: Lees het huurcontract goed door.
+  hint: rental contract
+  topics: [housing]
+- text: de borg
+  example: De borg is één maand huur.
+  hint: deposit
+  topics: [housing]
+- text: de huismeester
+  example: De huismeester repareert de kapotte deur.
+  hint: caretaker
+  topics: [housing]
+- text: de dweil
+  example: De dweil ligt in de emmer.
+  hint: mop
+  topics: [housing]
+- text: de wasmand
+  example: De was zit in de wasmand.
+  hint: laundry basket
+  topics: [housing]
+- text: de schoonmaak
+  example: De schoonmaak is elke donderdag.
+  hint: cleaning
+  topics: [housing]
+- text: de loodgieter
+  example: De loodgieter komt de lekkage repareren.
+  hint: plumber
+  topics: [housing]
+- text: de verf
+  example: De verf is nog nat.
+  hint: paint
+  topics: [housing]
+- text: de planning
+  example: De planning staat in de agenda.
+  hint: schedule
+  topics: [work]
+- text: de prioriteit
+  example: Dit is nu onze hoogste prioriteit.
+  hint: priority
+  topics: [work]
+- text: waarbij
+  example: Het gesprek waarbij ik was, was kort.
+  hint: at which
+  topics: [everyday]
+- text: waarin
+  example: Het huis waarin ik woon, is oud.
+  hint: in which
+  topics: [everyday]
+- text: waarop
+  example: De stoel waarop ik zit, is kapot.
+  hint: on which
+  topics: [everyday]
+- text: waarna
+  example: We eten eerst, waarna we gaan wandelen.
+  hint: after which
+  topics: [everyday]
+- text: blijkbaar
+  example: Hij is blijkbaar al vertrokken.
+  hint: apparently
+  topics: [everyday]
+- text: immers
+  example: Je moet komen, je hebt het immers beloofd.
+  hint: after all
+  topics: [everyday]
+- text: de paskamer
+  example: De paskamer is daar links.
+  hint: fitting room
+  topics: [shopping]
+- text: de uitverkoop
+  example: In de uitverkoop zijn de prijzen lager.
+  hint: sale
+  topics: [shopping]
+- text: de mand
+  example: Ik pak een mand bij de ingang.
+  hint: basket
+  topics: [shopping]
+- text: het internet
+  example: Ik zoek de openingstijden op het internet.
+  hint: internet
+  topics: [everyday]
+- text: de website
+  example: De website van de gemeente is vernieuwd.
+  hint: website
+  topics: [everyday]
+- text: de inhoud
+  example: De inhoud van de brief is duidelijk.
+  hint: content
+  topics: [office]
+- text: de wedstrijd
+  example: De wedstrijd begint om acht uur.
+  hint: match
+  topics: [everyday]
+- text: het team
+  example: Ons team werkt goed samen.
+  hint: team
+  topics: [work]
+- text: de training
+  example: De training duurt twee uur.
+  hint: training
+  topics: [work]
+- text: aanmelden
+  example: Ik wil me aanmelden voor de cursus.
+  hint: register
+  topics: [office]
+- text: bekijken
+  example: We gaan de foto's samen bekijken.
+  hint: look at
+  topics: [everyday]
+- text: delen
+  example: Kun je de sleutel met mij delen?
+  hint: share
+  topics: [everyday]
+- text: breken
+  example: Pas op, het glas kan breken.
+  hint: break
+  topics: [everyday]
+- text: de vrijheid
+  example: Ik geniet van mijn vrijheid in het weekend.
+  hint: freedom
+  topics: [social]
+- text: de routine
+  example: Mijn routine is elke dag hetzelfde.
+  hint: routine
+  topics: [everyday]
+- text: het karakter
+  example: Hij heeft een vriendelijk karakter.
+  hint: character
+  topics: [social]
+- text: de vermoeidheid
+  example: De vermoeidheid komt door te weinig slaap.
+  hint: fatigue
+  topics: [health]
+- text: de inspanning
+  example: Met veel inspanning lukt het wel.
+  hint: effort
+  topics: [work]
+- text: de onderneming
+  example: Zij werkt bij een kleine onderneming.
+  hint: company
+  topics: [work]
+- text: de portie
+  example: Deze portie is te groot voor mij.
+  hint: portion
+  topics: [shopping]
+- text: de fooi
+  example: We laten een fooi achter.
+  hint: tip
+  topics: [shopping]
+- text: de monteur
+  example: De monteur komt morgen de kraan repareren.
+  hint: mechanic
+  topics: [housing]
+- text: de vaatwasser
+  example: De vaatwasser is na het eten vol.
+  hint: dishwasher
+  topics: [housing]
+- text: het tijdschrift
+  example: Ik lees graag een tijdschrift in de trein.
+  hint: magazine
+  topics: [everyday]
+- text: de speler
+  example: De speler scoorde in de laatste minuut.
+  hint: player
+  topics: [everyday]
+- text: het recht
+  example: Je hebt recht op een nieuwe afspraak.
+  hint: right
+  topics: [office]
+- text: de plicht
+  example: Het is mijn plicht om het te melden.
+  hint: duty
+  topics: [office]
+- text: aanraden
+  example: Ik kan je deze dokter aanraden.
+  hint: recommend
+  topics: [health]
+- text: aantrekken
+  example: Trek een warme jas aan.
+  hint: put on
+  topics: [everyday]
+- text: afwassen
+  example: Wie wil er na het eten afwassen?
+  hint: do dishes
+  topics: [housing]
+- text: bakken
+  example: Ik ga vanavond brood bakken.
+  hint: bake
+  topics: [shopping]
+- text: bloeden
+  example: Mijn vinger begint te bloeden.
+  hint: bleed
+  topics: [health]
+- text: drogen
+  example: Laat de was maar aan de lijn drogen.
+  hint: dry
+  topics: [housing]
+- text: drukken
+  example: Druk op de knop om te starten.
+  hint: press
+  topics: [everyday]
+- text: duwen
+  example: Duw de deur niet zo hard dicht.
+  hint: push
+  topics: [everyday]
+- text: gedragen
+  example: Hij gedraagt zich niet netjes.
+  hint: behave
+  topics: [social]
+- text: gooien
+  example: Gooi het afval in de juiste bak.
+  hint: throw
+  topics: [everyday]
+- text: knippen
+  example: Ik moet mijn nagels nog knippen.
+  hint: cut
+  topics: [everyday]
+- text: laden
+  example: Kun je mijn telefoon even laden?
+  hint: charge
+  topics: [everyday]
+- text: mengen
+  example: Meng de melk met de bloem.
+  hint: mix
+  topics: [shopping]
+- text: meten
+  example: De dokter meet mijn bloeddruk.
+  hint: measure
+  topics: [health]
+- text: scheiden
+  example: Ze gaan helaas scheiden.
+  hint: divorce
+  topics: [social]
+- text: schuiven
+  example: Schuif de stoel iets naar links.
+  hint: slide
+  topics: [housing]
+- text: steken
+  example: Steek je hand niet in de zak.
+  hint: put in
+  topics: [everyday]
+- text: tillen
+  example: Kun je die doos tillen?
+  hint: lift
+  topics: [everyday]
+- text: vangen
+  example: De kat probeert een muis te vangen.
+  hint: catch
+  topics: [everyday]
+- text: verbinden
+  example: De verpleegkundige komt de wond verbinden.
+  hint: bandage
+  topics: [health]
+- text: verplaatsen
+  example: We moeten de kast samen verplaatsen.
+  hint: move
+  topics: [housing]
+- text: verwonden
+  example: Hij kan zich lelijk verwonden.
+  hint: injure
+  topics: [health]
+- text: beleefd
+  example: Wees altijd beleefd tegen de ober.
+  hint: polite
+  topics: [social]
+- text: digitaal
+  example: Je kunt het formulier digitaal invullen.
+  hint: digital
+  topics: [office]
+- text: eerder
+  example: Ik ben eerder thuis dan gisteren.
+  hint: earlier
+  topics: [everyday]
+- text: elektrisch
+  example: Mijn fiets is nu elektrisch.
+  hint: electric
+  topics: [travel]
+- text: eng
+  example: Die film is echt eng.
+  hint: scary
+  topics: [social]
+- text: gemiddeld
+  example: Gemiddeld wacht je hier tien minuten.
+  hint: on average
+  topics: [everyday]
+- text: giftig
+  example: Deze schoonmaakmiddelen zijn giftig.
+  hint: toxic
+  topics: [housing]
+- text: kwaad
+  example: Ben je nog kwaad op mij?
+  hint: angry
+  topics: [social]
+- text: medisch
+  example: Zij heeft om medische hulp gevraagd.
+  hint: medical
+  topics: [health]
+- text: nuttig
+  example: Deze tips zijn erg nuttig.
+  hint: useful
+  topics: [everyday]
+- text: officieel
+  example: Dit is een officiële brief van de gemeente.
+  hint: official
+  topics: [office]
+- text: tenslotte
+  example: Tenslotte wil ik iedereen bedanken.
+  hint: finally
+  topics: [social]
+- text: zeer
+  example: Het is vandaag zeer warm.
+  hint: very
+  topics: [everyday]
+- text: wekelijks
+  example: We hebben wekelijks een teamoverleg.
+  hint: weekly
+  topics: [work]
+- text: de instantie
+  example: De gemeente is een belangrijke instantie.
+  hint: authority, body
+  topics: [office]
+- text: de hypotheek
+  example: We hebben een hypotheek voor het huis.
+  hint: mortgage
+  topics: [housing]
+- text: de huurtoeslag
+  example: Ik vraag huurtoeslag aan bij de gemeente.
+  hint: rent benefit
+  topics: [housing]
+- text: de zorgverzekering
+  example: Mijn zorgverzekering vergoedt de fysiotherapie.
+  hint: health insurance
+  topics: [health]
+- text: de arbeidsmarkt
+  example: De arbeidsmarkt verandert snel.
+  hint: labour market
+  topics: [work]
+- text: de werkplek
+  example: Mijn werkplek is naast het raam.
+  hint: workplace
+  topics: [work]
+- text: de bezichtiging
+  example: We hebben morgen een bezichtiging.
+  hint: viewing
+  topics: [housing]
+- text: de verbouwing
+  example: De verbouwing duurt nog drie maanden.
+  hint: renovation
+  topics: [housing]
+- text: de aansluiting
+  example: Ik mis de aansluiting op de bus.
+  hint: connection
+  topics: [travel]
+- text: de navigatie
+  example: De navigatie zegt dat we links moeten.
+  hint: navigation
+  topics: [travel]
+- text: de oplader
+  example: Waar is mijn oplader gebleven?
+  hint: charger
+  topics: [everyday]
+- text: de batterij
+  example: De batterij van mijn telefoon is leeg.
+  hint: battery
+  topics: [everyday]
+- text: de afstandsbediening
+  example: Geef mij de afstandsbediening even.
+  hint: remote control
+  topics: [everyday]
+- text: de schaar
+  example: Ik zoek een schaar om te knippen.
+  hint: scissors
+  topics: [everyday]
+- text: het restje
+  example: Er is nog een restje soep.
+  hint: leftover
+  topics: [everyday]
+- text: de kinderopvang
+  example: De kinderopvang is duur geworden.
+  hint: childcare
+  topics: [social]
+- text: de basisschool
+  example: Mijn dochter zit op de basisschool.
+  hint: primary school
+  topics: [everyday]
+- text: de zorgverzekeraar
+  example: Mijn zorgverzekeraar vergoedt de therapie.
+  hint: health insurer
+  topics: [health]
+- text: de huisartsenpost
+  example: Bel de huisartsenpost bij spoed.
+  hint: emergency GP
+  topics: [health]
+- text: de fysiotherapie
+  example: Zij krijgt fysiotherapie voor haar rug.
+  hint: physiotherapy
+  topics: [health]
+- text: de diëtist
+  example: De diëtist geeft advies over eten.
+  hint: dietitian
+  topics: [health]
+- text: de infectie
+  example: De infectie gaat gelukkig vanzelf over.
+  hint: infection
+  topics: [health]
+- text: het gips
+  example: Zij heeft gips om haar arm.
+  hint: plaster cast
+  topics: [health]
+- text: de revalidatie
+  example: Na de operatie volgt revalidatie.
+  hint: rehabilitation
+  topics: [health]
+- text: de bijbaan
+  example: Hij heeft een bijbaan in de winkel.
+  hint: side job
+  topics: [work]
+- text: de overuren
+  example: Ik maak veel overuren deze week.
+  hint: overtime
+  topics: [work]
+- text: de loonstrook
+  example: Mijn loonstrook komt elke maand.
+  hint: payslip
+  topics: [work]
+- text: de beoordeling
+  example: De beoordeling van mijn werk was positief.
+  hint: assessment
+  topics: [work]
+- text: de vakbond
+  example: De vakbond helpt bij problemen op het werk.
+  hint: trade union
+  topics: [work]
+- text: de arbeidsovereenkomst
+  example: Ik heb mijn arbeidsovereenkomst ondertekend.
+  hint: employment contract
+  topics: [work]
+- text: de volmacht
+  example: Zij gaf mij een volmacht.
+  hint: power of attorney
+  topics: [office]
+- text: de uitschrijving
+  example: De uitschrijving bij de gemeente kost tijd.
+  hint: deregistration
+  topics: [office]
+- text: de geboorteakte
+  example: Ik vraag een geboorteakte aan.
+  hint: birth certificate
+  topics: [office]
+- text: de verlenging
+  example: Ik vraag een verlenging van mijn visum.
+  hint: extension
+  topics: [office]
+- text: de bijstand
+  example: Hij krijgt bijstand van de gemeente.
+  hint: social assistance
+  topics: [office]
+- text: de schuld
+  example: Zij heeft een schuld bij de bank.
+  hint: debt
+  topics: [office]
+- text: de lening
+  example: We vragen een lening aan.
+  hint: loan
+  topics: [office]
+- text: de rente
+  example: De rente op de lening is hoog.
+  hint: interest
+  topics: [office]
+- text: de belastingaangifte
+  example: De belastingaangifte is ingewikkeld.
+  hint: tax return
+  topics: [office]
+- text: de servicekosten
+  example: De servicekosten zijn bij de huur inbegrepen.
+  hint: service charges
+  topics: [housing]
+- text: de energierekening
+  example: De energierekening is dit jaar hoog.
+  hint: energy bill
+  topics: [housing]
+- text: het voorschot
+  example: Je betaalt eerst een voorschot.
+  hint: advance payment
+  topics: [housing]
+- text: de woningcorporatie
+  example: De woningcorporatie repareert de keuken.
+  hint: housing corporation
+  topics: [housing]
+- text: de slagerij
+  example: Ik koop vlees bij de slagerij.
+  hint: butcher's shop
+  topics: [shopping]
+- text: de groenteboer
+  example: De groenteboer verkoopt verse groente.
+  hint: greengrocer
+  topics: [shopping]
+- text: de houdbaarheidsdatum
+  example: Kijk naar de houdbaarheidsdatum op de verpakking.
+  hint: expiry date
+  topics: [shopping]
+- text: de frisdrank
+  example: Wil je frisdrank of water?
+  hint: soft drink
+  topics: [shopping]
+- text: de vegetariër
+  example: Zij is vegetariër en eet geen vlees.
+  hint: vegetarian
+  topics: [shopping]
+- text: de zuivel
+  example: Zuivel staat in de koelkast.
+  hint: dairy
+  topics: [shopping]
+- text: de zonnebril
+  example: Ik heb mijn zonnebril nodig.
+  hint: sunglasses
+  topics: [everyday]
+- text: de broodrooster
+  example: Het brood zit in de broodrooster.
+  hint: toaster
+  topics: [everyday]
+- text: het koffiezetapparaat
+  example: Het koffiezetapparaat is kapot.
+  hint: coffee maker
+  topics: [everyday]
+- text: daarbij
+  example: Daarbij heb ik hulp nodig.
+  hint: with that
+  topics: [everyday]
+- text: hierbij
+  example: Hierbij stuur ik mijn cv.
+  hint: herewith
+  topics: [office]
+- text: hiervoor
+  example: Hiervoor moet je betalen.
+  hint: for this
+  topics: [everyday]
+- text: hierna
+  example: Hierna gaan we naar huis.
+  hint: after this
+  topics: [everyday]
+- text: tenminste
+  example: Je moet tenminste tien minuten wachten.
+  hint: at least
+  topics: [everyday]
+- text: hooguit
+  example: Het duurt hooguit een uur.
+  hint: at most
+  topics: [everyday]
+- text: afhankelijk
+  example: Dat is afhankelijk van het weer.
+  hint: dependent
+  topics: [everyday]
+- text: het geval
+  example: In dit geval bel je de dokter.
+  hint: case
+  topics: [everyday]
+- text: de buur
+  example: Mijn buur helpt me met de tuin.
+  hint: neighbor
+  topics: [social]
+- text: het geduld
+  example: Ik heb geen geduld meer.
+  hint: patience
+  topics: [social]
+- text: de spijt
+  example: Hij heeft spijt van zijn keuze.
+  hint: regret
+  topics: [social]
+- text: de moed
+  example: Ze had de moed om te gaan.
+  hint: courage
+  topics: [social]
+- text: jaloers
+  example: Ik ben jaloers op haar succes.
+  hint: jealous
+  topics: [social]
+- text: nieuwsgierig
+  example: Het kind is erg nieuwsgierig.
+  hint: curious
+  topics: [social]
+- text: verbaasd
+  example: Ik was verbaasd over zijn antwoord.
+  hint: surprised
+  topics: [social]
+- text: ontevreden
+  example: De klant is ontevreden over de service.
+  hint: dissatisfied
+  topics: [social, work]
+- text: de onzekerheid
+  example: De onzekerheid over mijn baan is groot.
+  hint: uncertainty
+  topics: [social, work]
+- text: de aanwezigheid
+  example: Uw aanwezigheid bij de vergadering is verplicht.
+  hint: presence
+  topics: [work, office]
+- text: de afwezigheid
+  example: Zijn afwezigheid viel iedereen op.
+  hint: absence
+  topics: [work]
+- text: de praktijk
+  example: De praktijk is op werkdagen open.
+  hint: medical practice
+  topics: [health]
+- text: de maagpijn
+  example: Ik heb veel last van maagpijn.
+  hint: stomach pain
+  topics: [health]
+- text: de oorpijn
+  example: Het kind heeft oorpijn.
+  hint: earache
+  topics: [health]
+- text: de tandpijn
+  example: Ik heb plotseling erge tandpijn.
+  hint: toothache
+  topics: [health]
+- text: de jeuk
+  example: Die muggenbult geeft veel jeuk.
+  hint: itching
+  topics: [health]
+- text: de eerste hulp
+  example: De eerste hulp is dag en nacht open.
+  hint: first aid
+  topics: [health]
+- text: de kuur
+  example: De kuur duurt twee weken.
+  hint: course of treatment
+  topics: [health]
+- text: de rolstoel
+  example: Mijn oma zit tijdelijk in een rolstoel.
+  hint: wheelchair
+  topics: [health]
+- text: de verzorging
+  example: De verzorging van mijn vader kost tijd.
+  hint: care
+  topics: [health]
+- text: de begeleiding
+  example: Ik krijg begeleiding bij mijn werk.
+  hint: guidance
+  topics: [work]
+- text: de werkervaring
+  example: Hij heeft veel werkervaring in de zorg.
+  hint: work experience
+  topics: [work]
+- text: het uitzendbureau
+  example: Ik zoek werk via een uitzendbureau.
+  hint: temp agency
+  topics: [work]
+- text: de receptionist
+  example: De receptionist geeft mij de sleutel.
+  hint: receptionist
+  topics: [work, office]
+- text: de prestatie
+  example: Haar prestatie op het werk is goed.
+  hint: performance
+  topics: [work]
+- text: het inkomen
+  example: Mijn inkomen is dit jaar lager.
+  hint: income
+  topics: [office]
+- text: de achternaam
+  example: Vul hier uw achternaam in.
+  hint: surname
+  topics: [office]
+- text: de voornaam
+  example: Mijn voornaam is moeilijk uit te spreken.
+  hint: first name
+  topics: [office]
+- text: de geboortedatum
+  example: Wat is uw geboortedatum?
+  hint: date of birth
+  topics: [office]
+- text: het dossier
+  example: Het dossier ligt bij de gemeente.
+  hint: file
+  topics: [office]
+- text: de registratie
+  example: De registratie duurt twee werkdagen.
+  hint: registration
+  topics: [office]
+- text: de ambtenaar
+  example: De ambtenaar vraagt om mijn paspoort.
+  hint: civil servant
+  topics: [office]
+- text: de boodschappenlijst
+  example: Ik maak eerst een boodschappenlijst.
+  hint: shopping list
+  topics: [shopping, everyday]
+- text: de klantenkaart
+  example: Met de klantenkaart krijg je korting.
+  hint: loyalty card
+  topics: [shopping]
+- text: de prei
+  example: Ik koop een prei voor de soep.
+  hint: leek
+  topics: [shopping]
+- text: de spinazie
+  example: Spinazie is gezond en snel klaar.
+  hint: spinach
+  topics: [shopping]
+- text: de druif
+  example: De druiven zijn nu in de aanbieding.
+  hint: grape
+  topics: [shopping]
+- text: de boon
+  example: Ik eet graag bonen in de soep.
+  hint: bean
+  topics: [shopping]
+- text: de berging
+  example: De fietsen staan in de berging.
+  hint: storage room
+  topics: [housing]
+- text: de huisregels
+  example: De huisregels hangen in de hal.
+  hint: house rules
+  topics: [housing]
+- text: het rookverbod
+  example: In het gebouw geldt een rookverbod.
+  hint: smoking ban
+  topics: [housing]
+- text: de huurprijs
+  example: De huurprijs stijgt volgend jaar.
+  hint: rent
+  topics: [housing]
+- text: het rijtjeshuis
+  example: Ze wonen in een klein rijtjeshuis.
+  hint: terraced house
+  topics: [housing]
+- text: de vuilnisbak
+  example: Zet de vuilnisbak aan de straat.
+  hint: rubbish bin
+  topics: [housing, everyday]
+- text: de lantaarnpaal
+  example: De lantaarnpaal is al weken kapot.
+  hint: streetlight
+  topics: [housing, everyday]
+- text: het openbaar vervoer
+  example: Ik reis graag met het openbaar vervoer.
+  hint: public transport
+  topics: [travel]
+- text: de vertrektijd
+  example: De vertrektijd is half negen.
+  hint: departure time
+  topics: [travel]
+- text: de aankomsttijd
+  example: Wat is de aankomsttijd van de trein?
+  hint: arrival time
+  topics: [travel]
+- text: de reisplanner
+  example: Ik kijk even in de reisplanner.
+  hint: journey planner
+  topics: [travel]
+- text: de incheckbalie
+  example: Ga naar de incheckbalie bij de ingang.
+  hint: check-in desk
+  topics: [travel]
+- text: de bagageband
+  example: Onze koffer komt op bagageband drie.
+  hint: baggage belt
+  topics: [travel]
+- text: de wagon
+  example: Stap in de tweede wagon.
+  hint: carriage
+  topics: [travel]
+- text: de omweg
+  example: We nemen een omweg door de file.
+  hint: detour
+  topics: [travel]
+- text: de dierentuin
+  example: We gaan zondag naar de dierentuin.
+  hint: zoo
+  topics: [travel, everyday]
+- text: het zwembad
+  example: Het zwembad is vandaag gesloten.
+  hint: swimming pool
+  topics: [travel, everyday]
+- text: de speeltuin
+  example: De kinderen spelen in de speeltuin.
+  hint: playground
+  topics: [travel, everyday]
+- text: het theater
+  example: We hebben kaartjes voor het theater.
+  hint: theatre
+  topics: [travel, everyday]
+- text: de attractie
+  example: De attractie trekt veel toeristen.
+  hint: attraction
+  topics: [travel]
+- text: de verloofde
+  example: Mijn verloofde woont nog thuis.
+  hint: fiancé
+  topics: [social]
+- text: de getuige
+  example: Zij is getuige op de bruiloft.
+  hint: witness
+  topics: [social]
+- text: beschrijven
+  example: Kunt u het probleem kort beschrijven?
+  hint: to describe
+  topics: [everyday]
+- text: berekenen
+  example: Ik bereken de kosten van de reis.
+  hint: to calculate
+  topics: [everyday]
+- text: nadenken
+  example: Ik moet even goed nadenken.
+  hint: to think
+  topics: [everyday]
+- text: kloppen
+  example: Klopt het dat u morgen komt?
+  hint: to be correct
+  topics: [everyday]
+- text: vertrouwen
+  example: Ik vertrouw hem volledig.
+  hint: to trust
+  topics: [social]
+- text: sparen
+  example: Ik spaar voor een nieuwe fiets.
+  hint: to save
+  topics: [shopping]
+- text: uitgeven
+  example: Hij geeft veel geld uit aan kleding.
+  hint: to spend
+  topics: [shopping]
+- text: besparen
+  example: We besparen geld door minder te kopen.
+  hint: to save
+  topics: [shopping]
+- text: uitrusten
+  example: Je moet goed uitrusten na het werk.
+  hint: to rest
+  topics: [health]
+- text: genezen
+  example: De wond geneest snel.
+  hint: to heal
+  topics: [health]
+- text: benieuwd
+  example: Ik ben benieuwd naar je verhaal.
+  hint: curious
+  topics: [social]
+- text: bereid
+  example: Hij is bereid om te helpen.
+  hint: willing
+  topics: [social]
+- text: betrouwbaar
+  example: Hij is een betrouwbare collega.
+  hint: reliable
+  topics: [work]
+- text: bewust
+  example: Zij is zich bewust van het risico.
+  hint: conscious
+  topics: [health]
+- text: boeiend
+  example: Het boek is erg boeiend.
+  hint: fascinating
+  topics: [everyday]
+- text: compleet
+  example: De bestelling is compleet.
+  hint: complete
+  topics: [shopping]
+- text: dringend
+  example: Ik heb een dringende vraag.
+  hint: urgent
+  topics: [everyday]
+- text: gewend
+  example: Ik ben gewend om vroeg op te staan.
+  hint: used to
+  topics: [everyday]
+- text: heftig
+  example: Het was een heftige gebeurtenis.
+  hint: intense
+  topics: [social]
+- text: lichamelijk
+  example: Lichamelijk werk is zwaar.
+  hint: physical
+  topics: [health]
+- text: mentaal
+  example: Mentale gezondheid is belangrijk.
+  hint: mental
+  topics: [health]
+- text: merkbaar
+  example: Het verschil is duidelijk merkbaar.
+  hint: noticeable
+  topics: [everyday]
+- text: onafhankelijk
+  example: Zij is nu financieel onafhankelijk.
+  hint: independent
+  topics: [work]
+- text: ongeduldig
+  example: Hij wordt ongeduldig van wachten.
+  hint: impatient
+  topics: [social]
+- text: ongelukkig
+  example: Zij voelt zich ongelukkig op haar werk.
+  hint: unhappy
+  topics: [social]
+- text: schudden
+  example: Schud de fles voor gebruik.
+  hint: to shake
+  topics: [health]
+- text: spoelen
+  example: Spoel je mond na het tandenpoetsen.
+  hint: to rinse
+  topics: [health]
+- text: buigen
+  example: Je moet je knieën buigen.
+  hint: to bend
+  topics: [health]
+- text: beoordelen
+  example: De baas beoordeelt mijn werk.
+  hint: to assess
+  topics: [work]
+- text: communiceren
+  example: We communiceren via e-mail.
+  hint: to communicate
+  topics: [work]
+- text: vergaderen
+  example: We vergaderen elke maandagochtend.
+  hint: to meet
+  topics: [work]
+- text: wijzigen
+  example: U kunt uw afspraak online wijzigen.
+  hint: to change
+  topics: [office]
+- text: begeleiden
+  example: De gids begeleidt de toeristen.
+  hint: to guide
+  topics: [travel]
+- text: botsen
+  example: De auto's botsen op de kruising.
+  hint: to collide
+  topics: [travel]
+- text: boren
+  example: Hij boort een gat in de muur.
+  hint: to drill
+  topics: [housing]
+- text: stinken
+  example: De vuilnisbak stinkt.
+  hint: to stink
+  topics: [housing]
+- text: weggooien
+  example: Gooi de lege fles weg.
+  hint: to throw away
+  topics: [housing]
+- text: erven
+  example: Zij erft een huis van haar oom.
+  hint: to inherit
+  topics: [housing]
+- text: plakken
+  example: Plak de foto in het album.
+  hint: to stick
+  topics: [everyday]
+- text: opzoeken
+  example: Zoek het woord op in het woordenboek.
+  hint: to look up
+  topics: [everyday]
+- text: de werkloosheid
+  example: De werkloosheid is gestegen.
+  hint: unemployment
+  topics: [work]
+- text: de stagiair
+  example: De stagiair werkt op de afdeling.
+  hint: intern
+  topics: [work]
+- text: de boekhouder
+  example: De boekhouder controleert de facturen.
+  hint: bookkeeper
+  topics: [office]
+- text: de leverancier
+  example: De leverancier brengt de goederen morgen.
+  hint: supplier
+  topics: [work]
+- text: het magazijn
+  example: De dozen staan in het magazijn.
+  hint: warehouse
+  topics: [work]
+- text: de boekhouding
+  example: Zij doet de boekhouding van het bedrijf.
+  hint: bookkeeping
+  topics: [office]
+- text: de inboedel
+  example: De inboedel is verzekerd tegen schade.
+  hint: household contents
+  topics: [housing]
+- text: de kneuzing
+  example: De kneuzing doet veel pijn.
+  hint: bruise
+  topics: [health]
+- text: de migraine
+  example: Zij heeft vaak last van migraine.
+  hint: migraine
+  topics: [health]
+- text: de duizeligheid
+  example: Duizeligheid kan door medicijnen komen.
+  hint: dizziness
+  topics: [health]
+- text: de verveling
+  example: Uit verveling ging hij een rondje lopen.
+  hint: boredom
+  topics: [social]
+- text: de jaloezie
+  example: Jaloezie kan een relatie kapotmaken.
+  hint: jealousy
+  topics: [social]
+- text: de trots
+  example: Hij voelt trots na zijn prestatie.
+  hint: pride
+  topics: [social]
+- text: de opwinding
+  example: De opwinding voor het feest was groot.
+  hint: excitement
+  topics: [social]
+- text: de nervositeit
+  example: Zijn nervositeit was duidelijk te merken.
+  hint: nervousness
+  topics: [social]
+- text: de traditie
+  example: Het is een traditie om samen te eten.
+  hint: tradition
+  topics: [social]
+- text: het geloof
+  example: Zij heeft een sterk geloof.
+  hint: faith
+  topics: [social]
+- text: de politiek
+  example: Hij is geïnteresseerd in de politiek.
+  hint: politics
+  topics: [everyday]
+- text: de verkiezing
+  example: De verkiezingen zijn volgende maand.
+  hint: election
+  topics: [everyday]
+- text: het pensioen
+  example: Hij gaat volgend jaar met pensioen.
+  hint: pension
+  topics: [work]
+- text: vooral
+  example: Ik houd vooral van pasta en vis.
+  hint: especially
+  topics: [social, everyday]
+- text: zelden
+  example: Ik ga zelden met de bus.
+  hint: rarely
+  topics: [everyday, travel]
+- text: eventueel
+  example: We kunnen eventueel later afspreken.
+  hint: possibly
+  topics: [everyday]
+- text: alsnog
+  example: Hij kwam alsnog naar de vergadering.
+  hint: after all
+  topics: [everyday, work]
+- text: sowieso
+  example: Ik kom sowieso naar het feest.
+  hint: anyway
+  topics: [social, everyday]
+- text: onderweg
+  example: Ik bel je onderweg naar huis.
+  hint: on the way
+  topics: [travel, everyday]
+- text: juist
+  example: Juist vandaag regent het hard.
+  hint: just, precisely
+  topics: [everyday]
+- text: recent
+  example: Ik heb recent een nieuwe baan gevonden.
+  hint: recently
+  topics: [work, everyday]
+- text: daarnet
+  example: Ik heb hem daarnet nog gebeld.
+  hint: just now
+  topics: [everyday]
+- text: direct
+  example: Ik kom direct naar je toe.
+  hint: immediately
+  topics: [everyday]
+- text: behoren
+  example: Dat boek behoort tot de cursus.
+  hint: belong to
+  topics: [everyday]
+- text: wennen
+  example: Ik moet nog wennen aan het nieuwe huis.
+  hint: get used
+  topics: [housing, social]
+- text: vergissen
+  example: Ik vergis me vaak in de tijd.
+  hint: be mistaken
+  topics: [everyday]
+- text: rekenen
+  example: Kun je goed rekenen met geld?
+  hint: calculate
+  topics: [everyday, shopping]
+- text: opschieten
+  example: We moeten opschieten, de bus komt zo.
+  hint: hurry up
+  topics: [everyday, travel]
+- text: meedoen
+  example: Doe je mee aan de wedstrijd?
+  hint: join in
+  topics: [social]
+- text: tegenkomen
+  example: Ik kwam hem gisteren op straat tegen.
+  hint: meet by chance
+  topics: [social]
+- text: liegen
+  example: Hij liegt nooit tegen zijn ouders.
+  hint: lie
+  topics: [social]
+- text: schrikken
+  example: Ik schrik van dat harde geluid.
+  hint: be startled
+  topics: [social]
+- text: glimlachen
+  example: Ze glimlacht lief naar de baby.
+  hint: smile
+  topics: [social]
+- text: ontspannen
+  example: Ik ontspan thuis graag met muziek.
+  hint: relax
+  topics: [health, social]
+- text: opvallen
+  example: Het valt me op dat hij stil is.
+  hint: stand out
+  topics: [social]
+- text: storen
+  example: Het lawaai stoort mij bij het werken.
+  hint: bother
+  topics: [work, social]
+- text: zwijgen
+  example: Ze zwijgt tijdens de hele vergadering.
+  hint: be silent
+  topics: [work, social]
+- text: dwingen
+  example: De baas dwingt hem om te blijven.
+  hint: force
+  topics: [work, social]
+- text: leiden
+  example: Zij leidt het project al twee jaar.
+  hint: lead
+  topics: [work]
+- text: onderhandelen
+  example: We onderhandelen over de prijs van de auto.
+  hint: negotiate
+  topics: [work, shopping]
+- text: profiteren
+  example: We profiteren van de korting deze week.
+  hint: benefit from
+  topics: [shopping]
+- text: schelen
+  example: Dat scheelt veel geld op de rekening.
+  hint: make a difference
+  topics: [shopping]
+- text: smaken
+  example: De soep smaakt naar knoflook.
+  hint: taste
+  topics: [shopping]
+- text: tekenen
+  example: U moet hieronder tekenen voor ontvangst.
+  hint: sign
+  topics: [office]
+- text: toestaan
+  example: De baas staat korte pauzes toe.
+  hint: allow
+  topics: [work, office]
+- text: terugbellen
+  example: Kunt u mij vanmiddag terugbellen?
+  hint: call back
+  topics: [office, everyday]
+- text: uitkijken
+  example: Kijk uit voor de auto op de hoek.
+  hint: watch out
+  topics: [travel, everyday]
+- text: ophouden
+  example: Het houdt op met regenen.
+  hint: stop
+  topics: [everyday]
+- text: opbellen
+  example: Ik bel je straks even op.
+  hint: call
+  topics: [everyday]
+- text: uitlenen
+  example: Ik wil mijn boek niet uitlenen.
+  hint: lend out
+  topics: [social]
+- text: trouwen
+  example: Ze trouwen volgende maand in het dorp.
+  hint: marry
+  topics: [social]
+- text: vluchten
+  example: Ze vluchten voor het slechte weer.
+  hint: flee
+  topics: [travel, social]
+- text: werpen
+  example: Hij werpt de bal naar mij.
+  hint: throw
+  topics: [social]
+- text: de apotheker
+  example: De apotheker legt het medicijn goed uit.
+  hint: pharmacist
+  topics: [health]
+- text: de doktersassistent
+  example: De doktersassistent maakt een afspraak voor u.
+  hint: doctor's assistant
+  topics: [health]
+- text: de verzorger
+  example: De verzorger helpt mijn vader elke ochtend.
+  hint: carer
+  topics: [health, social]
+- text: de opname
+  example: De opname in het ziekenhuis duurde een week.
+  hint: hospital admission
+  topics: [health]
+- text: de dosis
+  example: Neem niet meer dan één dosis per dag.
+  hint: dose
+  topics: [health]
+- text: het sollicitatiegesprek
+  example: Het sollicitatiegesprek is volgende week.
+  hint: job interview
+  topics: [work, office]
+- text: de uitzendkracht
+  example: De uitzendkracht werkt tijdelijk op de afdeling.
+  hint: temp worker
+  topics: [work]
+- text: de arbeidsvoorwaarde
+  example: De arbeidsvoorwaarde staat in het contract.
+  hint: employment condition
+  topics: [work, office]
+- text: de manager
+  example: De manager bespreekt het plan met het team.
+  hint: manager
+  topics: [work]
+- text: de klasgenoot
+  example: Mijn klasgenoot helpt me met de opdracht.
+  hint: classmate
+  topics: [social]
+- text: de medestudent
+  example: Mijn medestudent leent mij zijn aantekeningen.
+  hint: fellow student
+  topics: [social, work]
+- text: de teamgenoot
+  example: Mijn teamgenoot neemt vandaag de leiding.
+  hint: teammate
+  topics: [work, social]
+- text: de huisbaas
+  example: De huisbaas repareert vandaag de kapotte kraan.
+  hint: landlord
+  topics: [housing]
+- text: de woonruimte
+  example: De woonruimte is klein maar erg gezellig.
+  hint: living space
+  topics: [housing]
+- text: de etage
+  example: Wij wonen op de derde etage.
+  hint: floor
+  topics: [housing]
+- text: de buurtbewoner
+  example: De buurtbewoner klaagt over het lawaai.
+  hint: local resident
+  topics: [housing, social]
+- text: de huisgenoot
+  example: Mijn huisgenoot doet de afwas nooit.
+  hint: housemate
+  topics: [housing, social]
+- text: de voetganger
+  example: De voetganger steekt voorzichtig over.
+  hint: pedestrian
+  topics: [travel]
+- text: de fietser
+  example: De fietser heeft voorrang op het fietspad.
+  hint: cyclist
+  topics: [travel]
+- text: de automobilist
+  example: De automobilist wacht voor het rode licht.
+  hint: car driver
+  topics: [travel]
+- text: alhoewel
+  example: Alhoewel het regent, gaan we toch wandelen.
+  hint: although
+  topics: [everyday]
+- text: indien
+  example: Indien u vragen heeft, bel gerust.
+  hint: if
+  topics: [office]
+- text: hiermee
+  example: Hiermee kunt u het formulier versturen.
+  hint: with this
+  topics: [office]
+- text: daarop
+  example: Daarop gaf hij geen antwoord.
+  hint: after that
+  topics: [social]
+- text: hierover
+  example: Ik wil hierover nog even praten.
+  hint: about this
+  topics: [social]
+- text: waarheen
+  example: Waarheen gaat deze trein?
+  hint: where to
+  topics: [travel]
+- text: overmorgen
+  example: Overmorgen heb ik een afspraak.
+  hint: day after tomorrow
+  topics: [everyday]
+- text: eergisteren
+  example: Eergisteren was hij nog ziek.
+  hint: day before yesterday
+  topics: [everyday]
+- text: vast
+  example: Hij komt vast te laat.
+  hint: probably
+  topics: [everyday]
+- text: amper
+  example: Ik heb amper tijd vandaag.
+  hint: barely
+  topics: [everyday]
+- text: behoorlijk
+  example: Het was behoorlijk koud gisteren.
+  hint: quite
+  topics: [everyday]
+- text: tamelijk
+  example: De trein was tamelijk vol.
+  hint: fairly
+  topics: [travel]
+- text: enorm
+  example: Het is enorm druk vandaag.
+  hint: huge
+  topics: [everyday]
+- text: oorspronkelijk
+  example: Oorspronkelijk kom ik uit het noorden.
+  hint: originally
+  topics: [social]
+- text: de glimlach
+  example: Ze heeft altijd een glimlach op haar gezicht.
+  hint: smile
+  topics: [social]
+- text: de begroeting
+  example: Hij geeft ons een vriendelijke begroeting.
+  hint: greeting
+  topics: [social]
+- text: de heimwee
+  example: Ze heeft heimwee naar haar familie.
+  hint: homesickness
+  topics: [social]
+- text: de hekel
+  example: Ik heb een hekel aan liegen.
+  hint: dislike
+  topics: [social]
+- text: de waardering
+  example: Ze krijgt veel waardering voor haar werk.
+  hint: appreciation
+  topics: [work]
+- text: de ergernis
+  example: Zijn gedrag is een grote ergernis.
+  hint: annoyance
+  topics: [social]
+- text: de wachtrij
+  example: De wachtrij bij de kassa is lang.
+  hint: queue
+  topics: [shopping]
+- text: de openingstijd
+  example: De openingstijd is tot zes uur.
+  hint: opening time
+  topics: [shopping]
+- text: de sluitingstijd
+  example: De sluitingstijd is op zondag vroeg.
+  hint: closing time
+  topics: [shopping]
+- text: het aanrecht
+  example: Leg de borden op het aanrecht.
+  hint: kitchen counter
+  topics: [housing]
+- text: de gootsteen
+  example: De gootsteen zit helemaal verstopt.
+  hint: sink
+  topics: [housing]
+- text: het schoonmaakmiddel
+  example: Het schoonmaakmiddel staat onder de gootsteen.
+  hint: cleaning product
+  topics: [housing]
+- text: de wasdroger
+  example: De wasdroger is kapot.
+  hint: dryer
+  topics: [housing]
+- text: de strijkbout
+  example: De strijkbout staat op de kast.
+  hint: iron
+  topics: [housing]
+- text: het washok
+  example: De wasmachine staat in het washok.
+  hint: laundry room
+  topics: [housing]
+- text: het trappenhuis
+  example: Het trappenhuis ruikt naar verf.
+  hint: stairwell
+  topics: [housing]
+- text: de galerij
+  example: De voordeur komt uit op een galerij.
+  hint: balcony corridor
+  topics: [housing]
+- text: de vloerbedekking
+  example: De vloerbedekking is erg oud.
+  hint: carpeting
+  topics: [housing]
+- text: het laminaat
+  example: We leggen nieuw laminaat in de kamer.
+  hint: laminate
+  topics: [housing]
+- text: de kwast
+  example: Ik verf de muur met een kwast.
+  hint: brush
+  topics: [housing]
+- text: het verlengsnoer
+  example: Het verlengsnoer ligt naast de bank.
+  hint: extension cord
+  topics: [housing]
+- text: de pakketdienst
+  example: De pakketdienst komt vanmiddag langs.
+  hint: parcel service
+  topics: [shopping]
+- text: de koerier
+  example: De koerier brengt het pakket morgen.
+  hint: courier
+  topics: [shopping]
+- text: het garantiebewijs
+  example: Bewaar het garantiebewijs goed.
+  hint: warranty document
+  topics: [shopping]
+- text: de aanbetaling
+  example: We doen een aanbetaling voor de auto.
+  hint: down payment
+  topics: [shopping]
+- text: het retourtje
+  example: Ik koop een retourtje naar de kust.
+  hint: return ticket
+  topics: [travel]
+- text: het enkeltje
+  example: Ik neem een enkeltje naar de stad.
+  hint: single ticket
+  topics: [travel]
+- text: de overtocht
+  example: De overtocht met de boot duurt een uur.
+  hint: crossing
+  topics: [travel]
+- text: de hoestdrank
+  example: Ze koopt hoestdrank bij de apotheek.
+  hint: cough syrup
+  topics: [health]
+- text: de bloedtest
+  example: De dokter neemt morgen een bloedtest af.
+  hint: blood test
+  topics: [health]
+- text: het consult
+  example: Het consult duurde maar tien minuten.
+  hint: consultation
+  topics: [health]
+- text: de kruk
+  example: Hij loopt tijdelijk met een kruk.
+  hint: crutch
+  topics: [health]
+- text: de neusspray
+  example: Gebruik de neusspray twee keer per dag.
+  hint: nasal spray
+  topics: [health]
+- text: de opzegging
+  example: De opzegging moet schriftelijk gebeuren.
+  hint: cancellation
+  topics: [work]
+- text: de sollicitatieprocedure
+  example: De sollicitatieprocedure duurt ongeveer drie weken.
+  hint: application process
+  topics: [work]
+- text: thuiswerken
+  example: Thuiswerken is soms best handig.
+  hint: work from home
+  topics: [work]
+- text: de scanner
+  example: De scanner werkt vandaag niet goed.
+  hint: scanner
+  topics: [office]
+- text: het kopieerapparaat
+  example: Het kopieerapparaat is kapot.
+  hint: copier
+  topics: [office]
+- text: de nietmachine
+  example: De nietmachine zit in de bovenste la.
+  hint: stapler
+  topics: [office]
+- text: de ordner
+  example: Doe het contract in de ordner.
+  hint: binder
+  topics: [office]
+- text: de balpen
+  example: Mag ik uw balpen even lenen?
+  hint: ballpoint pen
+  topics: [office]
+- text: het plakband
+  example: Pak even het plakband uit de la.
+  hint: tape
+  topics: [office]
+- text: de lijm
+  example: De lijm is helemaal opgedroogd.
+  hint: glue
+  topics: [office]
+- text: het werkoverleg
+  example: Het werkoverleg is elke maandag.
+  hint: work meeting
+  topics: [work]
+- text: de teamleider
+  example: De teamleider bespreekt de planning.
+  hint: team leader
+  topics: [work]
+- text: de vergaderruimte
+  example: De vergaderruimte is vandaag bezet.
+  hint: meeting room
+  topics: [office]
+- text: toen
+  example: Toen ik thuis kwam, was hij al weg.
+  hint: when/then
+  topics: [everyday]
+- text: verschillend
+  example: We hebben verschillende meningen over het plan.
+  hint: different
+  topics: [everyday]
+- text: de vergissing
+  example: Dat was een vergissing van mij.
+  hint: mistake
+  topics: [everyday]
+- text: de bedoeling
+  example: Wat is de bedoeling van deze afspraak?
+  hint: intention
+  topics: [everyday]
+- text: de soort
+  example: Wat voor soort werk zoek je?
+  hint: kind/type
+  topics: [everyday]
+- text: het bezoek
+  example: We krijgen vanavond bezoek van vrienden.
+  hint: visit/visitors
+  topics: [social]
+- text: de belofte
+  example: Hij houdt zijn belofte altijd.
+  hint: promise
+  topics: [social]
+- text: de steun
+  example: Ik heb veel steun aan mijn familie.
+  hint: support
+  topics: [social]
+- text: de werkvloer
+  example: De werkvloer is erg druk vandaag.
+  hint: workplace
+  topics: [work]
+- text: de motivatie
+  example: Mijn motivatie voor het werk is laag.
+  hint: motivation
+  topics: [work]
+- text: het voorstel
+  example: Ik heb een voorstel voor het team.
+  hint: proposal
+  topics: [work]
+- text: de kritiek
+  example: Ik krijg veel kritiek op mijn werk.
+  hint: criticism
+  topics: [work]
+- text: de caissière
+  example: De caissière scant alle boodschappen.
+  hint: cashier
+  topics: [shopping]
+- text: het biljet
+  example: Ik betaal met een biljet van tien.
+  hint: banknote
+  topics: [shopping]
+- text: de airco
+  example: De airco maakt veel lawaai.
+  hint: air conditioning
+  topics: [housing]
+- text: het stof
+  example: Er zit veel stof op de kast.
+  hint: dust
+  topics: [housing]
+- text: de spons
+  example: Ik was de auto met een spons.
+  hint: sponge
+  topics: [housing]
+- text: de spijker
+  example: Hang de foto met een spijker op.
+  hint: nail
+  topics: [housing]
+- text: de schroef
+  example: Draai de schroef goed vast.
+  hint: screw
+  topics: [housing]
+- text: de zaag
+  example: De zaag is niet scherp genoeg.
+  hint: saw
+  topics: [housing]
+- text: de ladder
+  example: Zet de ladder tegen de muur.
+  hint: ladder
+  topics: [housing]
+- text: het gras
+  example: Het gras moet nodig gemaaid worden.
+  hint: grass
+  topics: [housing]
+- text: de heg
+  example: De heg is te hoog geworden.
+  hint: hedge
+  topics: [housing]
+- text: de neef
+  example: Mijn neef woont bij mij in de buurt.
+  hint: cousin/nephew
+  topics: [social]
+- text: de nicht
+  example: Mijn nicht komt dit weekend logeren.
+  hint: cousin/niece
+  topics: [social]
+- text: de vreemde
+  example: Praat niet met een vreemde.
+  hint: stranger
+  topics: [social]
+- text: de tiener
+  example: Mijn tiener wil niet mee.
+  hint: teenager
+  topics: [social]
+- text: de oudere
+  example: De oudere heeft hulp nodig.
+  hint: elderly person
+  topics: [social]
+- text: de deksel
+  example: Doe de deksel op de pan.
+  hint: lid
+  topics: [shopping]
+- text: het blikje
+  example: Ik drink een blikje cola.
+  hint: can
+  topics: [shopping]
+- text: het pak
+  example: Ik koop een pak melk.
+  hint: pack
+  topics: [shopping]
+- text: het zakje
+  example: Doe de appels in een zakje.
+  hint: bag
+  topics: [shopping]
+- text: de perforator
+  example: De perforator maakt gaten in het papier.
+  hint: hole punch
+  topics: [office]
+- text: de piloot
+  example: De piloot verwelkomt de passagiers.
+  hint: pilot
+  topics: [travel]
+- text: de stewardess
+  example: De stewardess brengt ons drinken.
+  hint: flight attendant
+  topics: [travel]
+- text: de ansichtkaart
+  example: Ik stuur een ansichtkaart naar huis.
+  hint: postcard
+  topics: [travel]
+- text: de reisgenoot
+  example: Mijn reisgenoot is heel aardig.
+  hint: travel companion
+  topics: [travel]
+- text: het vakantiehuis
+  example: We huren een vakantiehuis aan zee.
+  hint: holiday home
+  topics: [travel]
+- text: de mist
+  example: Er hangt mist boven de weg.
+  hint: fog
+  topics: [travel]
+- text: de zonsondergang
+  example: De zonsondergang is prachtig.
+  hint: sunset
+  topics: [travel]
+- text: de frustratie
+  example: Ik voel frustratie over het werk.
+  hint: frustration
+  topics: [social]
+- text: de schok
+  example: Het nieuws was een schok.
+  hint: shock
+  topics: [social]
+- text: de woede
+  example: Hij reageert met woede.
+  hint: anger
+  topics: [social]
+- text: het pakje
+  example: Er ligt een pakje voor je klaar.
+  hint: package
+  topics: [everyday]
+- text: de verjaardagskaart
+  example: Ik stuur een verjaardagskaart naar oma.
+  hint: birthday card
+  topics: [social]
+- text: de wenskaart
+  example: Ik koop een wenskaart voor haar.
+  hint: greeting card
+  topics: [shopping]
+- text: de zorgverlener
+  example: De zorgverlener komt bij de patiënt thuis.
+  hint: care provider
+  topics: [health]
+- text: de verpleging
+  example: De verpleging helpt de patiënt elke dag.
+  hint: nursing
+  topics: [health]
+- text: de rib
+  example: Ik heb pijn aan mijn rib.
+  hint: rib
+  topics: [health]
+- text: de duim
+  example: Ik heb mijn duim gesneden.
+  hint: thumb
+  topics: [health]
+- text: de adem
+  example: Ik ben na het rennen buiten adem.
+  hint: breath
+  topics: [health]
+- text: de spray
+  example: Gebruik de spray twee keer per dag.
+  hint: spray
+  topics: [health]
+- text: de druppel
+  example: Neem tien druppels na het eten.
+  hint: drop
+  topics: [health]
+- text: de zakdoek
+  example: Ik heb een zakdoek nodig.
+  hint: tissue
+  topics: [health]
+- text: de muts
+  example: Het is koud, doe je muts op.
+  hint: hat
+  topics: [shopping]
+- text: de riem
+  example: Mijn riem is te los.
+  hint: belt
+  topics: [shopping]
+- text: de knoop
+  example: Er mist een knoop aan mijn jas.
+  hint: button
+  topics: [shopping]
+- text: de rits
+  example: De rits van mijn tas is kapot.
+  hint: zipper
+  topics: [shopping]
+- text: de zaklamp
+  example: Pak de zaklamp, het is donker.
+  hint: flashlight
+  topics: [everyday]
+- text: de kaars
+  example: Steek een kaars aan vanavond.
+  hint: candle
+  topics: [housing]
+- text: de uitdaging
+  example: Deze baan is een echte uitdaging voor mij.
+  hint: challenge
+  topics: [work]
+- text: de regeling
+  example: De nieuwe regeling geldt vanaf volgende maand.
+  hint: arrangement, scheme
+  topics: [office]
+- text: de eis
+  example: De eis van de baas is duidelijk.
+  hint: requirement
+  topics: [work]
+- text: oplossen
+  example: We moeten dit probleem snel oplossen.
+  hint: to solve
+  topics: [everyday]
+- text: aanpakken
+  example: We moeten het samen aanpakken.
+  hint: to tackle
+  topics: [work]
+- text: overtuigen
+  example: Ik probeer hem te overtuigen.
+  hint: to convince
+  topics: [social]
+- text: twijfelen
+  example: Ik twijfel nog over mijn keuze.
+  hint: to doubt
+  topics: [social]
+- text: verbieden
+  example: De wet verbiedt roken in het restaurant.
+  hint: to forbid
+  topics: [office]
+- text: erkennen
+  example: Hij erkent dat hij een fout maakte.
+  hint: to admit, recognize
+  topics: [social]
+- text: toegeven
+  example: Geef maar toe, je had ongelijk.
+  hint: to admit
+  topics: [social]
+- text: samenwerken
+  example: We moeten beter samenwerken op kantoor.
+  hint: to cooperate
+  topics: [work]
+- text: ondersteunen
+  example: Mijn collega ondersteunt mij bij het project.
+  hint: to support
+  topics: [work]
+- text: verzorgen
+  example: Zij verzorgt haar zieke vader.
+  hint: to care for
+  topics: [health]
+- text: onderzoeken
+  example: De dokter wil mijn bloed onderzoeken.
+  hint: to examine
+  topics: [health]
+- text: de voorziening
+  example: Deze voorziening is gratis voor studenten.
+  hint: facility
+  topics: [everyday]
+- text: de vooruitgang
+  example: Je maakt goede vooruitgang met Nederlands.
+  hint: progress
+  topics: [everyday]
+- text: de groei
+  example: De groei van het bedrijf is duidelijk.
+  hint: growth
+  topics: [work]
+- text: de gebeurtenis
+  example: Het feest was een bijzondere gebeurtenis.
+  hint: event
+  topics: [social]
+- text: de opvatting
+  example: Zijn opvatting over werk is anders.
+  hint: opinion, view
+  topics: [social]
+- text: de overtuiging
+  example: Zij spreekt met veel overtuiging.
+  hint: conviction
+  topics: [social]
+- text: de tevredenheid
+  example: De klant liet zijn tevredenheid blijken.
+  hint: satisfaction
+  topics: [shopping]
+- text: de gemeenschap
+  example: De gemeenschap helpt elkaar in deze wijk.
+  hint: community
+  topics: [social]
+- text: de aanpak
+  example: De aanpak van het probleem werkt goed.
+  hint: approach
+  topics: [work]
+- text: uitdagen
+  example: Die vraag daagt mij uit.
+  hint: to challenge
+  topics: [social]
+- text: eisen
+  example: De klanten eisen een betere service.
+  hint: to demand
+  topics: [work]
+- text: ontkennen
+  example: Zij ontkent alles wat hij zegt.
+  hint: to deny
+  topics: [social]
+- text: beweren
+  example: Hij beweert dat hij ziek was.
+  hint: to claim
+  topics: [social]
+- text: wegen
+  example: Kun je dit pakje even wegen?
+  hint: to weigh
+  topics: [shopping]
+- text: draaien
+  example: Draai de knop naar links.
+  hint: to turn
+  topics: [housing]
+- text: verdelen
+  example: We verdelen het werk onder elkaar.
+  hint: to divide
+  topics: [work]
+- text: kwijtraken
+  example: Ik ben mijn sleutels kwijtgeraakt.
+  hint: to lose
+  topics: [everyday]
+- text: stelen
+  example: Iemand heeft mijn fiets gestolen.
+  hint: to steal
+  topics: [everyday]
+- text: gewond
+  example: Bij het ongeluk raakte hij gewond.
+  hint: injured
+  topics: [health]
+- text: gestrest
+  example: Ik voel me gestrest voor het examen.
+  hint: stressed
+  topics: [health]
+- text: energiek
+  example: Na een goede nacht ben ik energiek.
+  hint: energetic
+  topics: [health]
+- text: fit
+  example: Door te sporten blijf ik fit.
+  hint: fit
+  topics: [health]
+- text: schadelijk
+  example: Te veel suiker is schadelijk.
+  hint: harmful
+  topics: [health]
+- text: ongeschikt
+  example: Deze stoel is ongeschikt voor kinderen.
+  hint: unsuitable
+  topics: [housing]
+- text: onmogelijk
+  example: Het is onmogelijk om nu te komen.
+  hint: impossible
+  topics: [everyday]
+- text: onduidelijk
+  example: De uitleg was nogal onduidelijk.
+  hint: unclear
+  topics: [everyday]
+- text: onzeker
+  example: Hij is onzeker over zijn sollicitatie.
+  hint: insecure, uncertain
+  topics: [social]
+- text: modern
+  example: Het gebouw ziet er modern uit.
+  hint: modern
+  topics: [housing]
+- text: traditioneel
+  example: Dit is een traditioneel gerecht.
+  hint: traditional
+  topics: [shopping]
+- text: cultureel
+  example: We bezoeken een cultureel evenement.
+  hint: cultural
+  topics: [social]
+- text: vreemd
+  example: Het eten smaakt een beetje vreemd.
+  hint: strange
+  topics: [shopping]
+- text: speciaal
+  example: Ik kook iets speciaals voor je.
+  hint: special
+  topics: [shopping]
+- text: verrast
+  example: Ik was verrast door het cadeau.
+  hint: surprised
+  topics: [social]
+- text: geschokt
+  example: We waren geschokt door het nieuws.
+  hint: shocked
+  topics: [social]
+- text: geïnteresseerd
+  example: Ben je geïnteresseerd in deze cursus?
+  hint: interested
+  topics: [work]
+- text: betrokken
+  example: Zij is erg betrokken bij de buurt.
+  hint: involved
+  topics: [social]
+- text: professioneel
+  example: Hij gedraagt zich zeer professioneel.
+  hint: professional
+  topics: [work]
+- text: werkelijk
+  example: Is dat werkelijk gebeurd?
+  hint: really, actual
+  topics: [everyday]
+- text: absoluut
+  example: Ik ben absoluut geen expert.
+  hint: absolutely
+  topics: [everyday]
+- text: beslist
+  example: Ik ga beslist naar de vergadering.
+  hint: definitely
+  topics: [everyday]
+- text: het risico
+  example: Er is een risico op vertraging.
+  hint: risk
+  topics: [travel]
+- text: het besluit
+  example: Het besluit valt volgende week.
+  hint: decision
+  topics: [office]
+- text: de aanpassing
+  example: De aanpassing aan de wet kost tijd.
+  hint: adjustment
+  topics: [office]
+- text: de breuk
+  example: Hij heeft een breuk in zijn arm.
+  hint: fracture
+  topics: [health]
+- text: de omstandigheid
+  example: Deze omstandigheid maakt het moeilijk.
+  hint: circumstance
+  topics: [everyday]
+- text: het bestuur
+  example: Het bestuur vergadert elke maand.
+  hint: board
+  topics: [work]
+- text: roken
+  example: Je mag hier niet roken.
+  hint: smoke
+  topics: [health, everyday]
+- text: studeren
+  example: Ik studeer Nederlands in de avond.
+  hint: study
+  topics: [everyday]
+- text: ontdekken
+  example: We ontdekken een nieuw café.
+  hint: discover
+  topics: [everyday, social]
+- text: spannend
+  example: De film was erg spannend.
+  hint: exciting
+  topics: [everyday, social]
+- text: vriendelijk
+  example: De buurvrouw is altijd vriendelijk.
+  hint: friendly
+  topics: [social]
+- text: simpel
+  example: De uitleg is gelukkig heel simpel.
+  hint: simple
+  topics: [everyday]
+- text: sociaal
+  example: Hij is heel sociaal op feestjes.
+  hint: social
+  topics: [social]
+- text: kritisch
+  example: Mijn baas is soms erg kritisch.
+  hint: critical
+  topics: [work, social]
+- text: logisch
+  example: Het is logisch dat je moe bent.
+  hint: logical
+  topics: [everyday]
+- text: kalm
+  example: Blijf kalm en adem rustig.
+  hint: calm
+  topics: [health, social]
+- text: knap
+  example: Zij is knap en ook aardig.
+  hint: good-looking, clever
+  topics: [social]
+- text: lui
+  example: Hij is niet lui, maar moe.
+  hint: lazy
+  topics: [social]
+- text: verlegen
+  example: Het kind is een beetje verlegen.
+  hint: shy
+  topics: [social]
+- text: verstandig
+  example: Het is verstandig om te sparen.
+  hint: sensible
+  topics: [everyday]
+- text: verward
+  example: Na de val was hij even verward.
+  hint: confused
+  topics: [health, social]
+- text: verschrikkelijk
+  example: Het weer was verschrikkelijk vandaag.
+  hint: terrible
+  topics: [everyday]
+- text: relaxed
+  example: Na de vakantie voel ik me relaxed.
+  hint: relaxed
+  topics: [social, health]
+- text: opgewonden
+  example: De kinderen zijn opgewonden voor het feest.
+  hint: excited
+  topics: [social]
+- text: onverwacht
+  example: Er kwam onverwacht bezoek.
+  hint: unexpected
+  topics: [social, everyday]
+- text: praktisch
+  example: De cursus is heel praktisch.
+  hint: practical
+  topics: [work, everyday]
+- text: romantisch
+  example: We hadden een romantisch etentje.
+  hint: romantic
+  topics: [social]
+- text: succesvol
+  example: Het project was erg succesvol.
+  hint: successful
+  topics: [work]
+- text: sympathiek
+  example: Mijn nieuwe collega is sympathiek.
+  hint: likeable
+  topics: [work, social]
+- text: uitstekend
+  example: Ik voel me uitstekend vandaag.
+  hint: excellent
+  topics: [health]
+- text: uniek
+  example: Elke wijk is een beetje uniek.
+  hint: unique
+  topics: [everyday]
+- text: typisch
+  example: Dat is typisch Nederlands weer.
+  hint: typical
+  topics: [everyday]
+- text: frustrerend
+  example: Wachten bij de gemeente is frustrerend.
+  hint: frustrating
+  topics: [office, social]
+- text: irritant
+  example: Dat geluid is echt irritant.
+  hint: annoying
+  topics: [everyday, social]
+- text: creatief
+  example: Zij is heel creatief met papier.
+  hint: creative
+  topics: [work, social]
+- text: duurzaam
+  example: We kopen duurzame producten.
+  hint: sustainable
+  topics: [shopping, housing]
+- text: gelijk
+  example: Je hebt gelijk over die prijs.
+  hint: right, equal
+  topics: [social, shopping]
+- text: tegelijk
+  example: We kunnen niet alles tegelijk doen.
+  hint: at once
+  topics: [everyday]
+- text: intussen
+  example: Ik kook intussen de pasta.
+  hint: meanwhile
+  topics: [everyday]
+- text: vooraf
+  example: Betaal je vooraf of achteraf?
+  hint: in advance
+  topics: [shopping, travel]
+- text: zometeen
+  example: Ik bel je zometeen terug.
+  hint: in a moment
+  topics: [everyday]
+- text: sindsdien
+  example: Sindsdien wonen we in Utrecht.
+  hint: since then
+  topics: [everyday]
+- text: ontbijten
+  example: We ontbijten elke ochtend samen.
+  hint: have breakfast
+  topics: [shopping]
+- text: opeten
+  example: We moeten de restjes opeten.
+  hint: finish eating
+  topics: [shopping]
+- text: opgeven
+  example: Je moet je snel opgeven voor de cursus.
+  hint: register, give up
+  topics: [office, work]
+- text: redden
+  example: Ik kan het alleen niet redden.
+  hint: manage
+  topics: [everyday]
+- text: schreeuwen
+  example: De kinderen schreeuwen in de tuin.
+  hint: shout
+  topics: [social]
+- text: slagen
+  example: Ik hoop dat je voor het examen slaagt.
+  hint: pass, succeed
+  topics: [everyday]
+- text: sterven
+  example: Mijn oma is vorig jaar gestorven.
+  hint: die
+  topics: [health, social]
+- text: uitkomen
+  example: Dat komt mij morgen goed uit.
+  hint: suit, work out
+  topics: [everyday]
+- text: uitmaken
+  example: Dat maakt mij echt niet uit.
+  hint: matter
+  topics: [social, everyday]
+- text: uitstellen
+  example: We moeten de vergadering niet uitstellen.
+  hint: postpone
+  topics: [work, office]
+- text: uitzoeken
+  example: Ik zoek het morgen even uit.
+  hint: figure out
+  topics: [everyday, office]
+- text: versturen
+  example: Ik verstuur de brief vandaag.
+  hint: send
+  topics: [office]
+- text: vertalen
+  example: Kun je deze zin voor mij vertalen?
+  hint: translate
+  topics: [office, travel]
+- text: wisselen
+  example: Waar kan ik geld wisselen?
+  hint: exchange
+  topics: [travel, shopping]
+- text: zweten
+  example: Ik zweet veel als het warm is.
+  hint: sweat
+  topics: [health]
+- text: de kiespijn
+  example: Ik heb al twee dagen kiespijn.
+  hint: toothache
+  topics: [health]
+- text: de diarree
+  example: Hij heeft last van diarree.
+  hint: diarrhea
+  topics: [health]
+- text: de spierpijn
+  example: Na het sporten heb ik spierpijn.
+  hint: muscle pain
+  topics: [health]
+- text: de kramp
+  example: Ik kreeg kramp in mijn been.
+  hint: cramp
+  topics: [health]
+- text: de thermometer
+  example: De thermometer geeft 38 graden aan.
+  hint: thermometer
+  topics: [health]
+- text: de brandwond
+  example: Ze heeft een brandwond aan haar hand.
+  hint: burn wound
+  topics: [health]
+- text: de reiskosten
+  example: De reiskosten worden vergoed.
+  hint: travel expenses
+  topics: [work, travel]
+- text: de levertijd
+  example: De levertijd is ongeveer een week.
+  hint: delivery time
+  topics: [shopping]
+- text: de pannenkoek
+  example: Ik bak een pannenkoek.
+  hint: pancake
+  topics: [shopping]
+- text: volgen
+  example: Ik volg op dit moment een cursus.
+  hint: follow, take course
+  topics: [everyday, work]
+- text: opzeggen
+  example: Ik wil mijn abonnement volgende maand opzeggen.
+  hint: cancel, terminate
+  topics: [everyday, office]
+- text: vervangen
+  example: De kapotte lamp moet snel worden vervangen.
+  hint: replace
+  topics: [housing, everyday]
+- text: overmaken
+  example: Kun je het bedrag vandaag nog overmaken?
+  hint: transfer money
+  topics: [office, shopping]
+- text: het wachtwoord
+  example: Ik ben mijn wachtwoord voor de website vergeten.
+  hint: password
+  topics: [office, everyday]
+- text: de handleiding
+  example: Lees eerst de handleiding voordat je iets doet.
+  hint: manual
+  topics: [everyday, office]
+- text: het examen
+  example: Het examen begint morgen om negen uur.
+  hint: exam
+  topics: [everyday, work]
+- text: de studie
+  example: Zij volgt een studie aan de universiteit.
+  hint: study, degree
+  topics: [everyday, work]
+- text: de bibliotheek
+  example: Ik leen elke week boeken bij de bibliotheek.
+  hint: library
+  topics: [everyday, social]
+- text: de docent
+  example: De docent legt de oefening rustig uit.
+  hint: teacher, lecturer
+  topics: [everyday, work]
+- text: het verlof
+  example: Ik neem volgende week twee dagen verlof.
+  hint: leave from work
+  topics: [work]
+- text: declareren
+  example: Je kunt je reiskosten bij je baas declareren.
+  hint: claim expenses
+  topics: [work, office]
+- text: vergoeden
+  example: De werkgever vergoedt de reiskosten volledig.
+  hint: reimburse, cover
+  topics: [work, office]
+- text: de declaratie
+  example: Vul de declaratie in voor je reiskosten.
+  hint: expense claim
+  topics: [work, office]
+- text: de onkosten
+  example: De onkosten worden binnen een week vergoed.
+  hint: expenses
+  topics: [work, office]
+- text: de begroting
+  example: De begroting is nog niet rond.
+  hint: budget
+  topics: [work, office]
+- text: de opdrachtgever
+  example: De opdrachtgever wil het werk morgen zien.
+  hint: client, contractor
+  topics: [work]
+- text: de aanstelling
+  example: Zij kreeg een vaste aanstelling bij het bedrijf.
+  hint: appointment, contract
+  topics: [work]
+- text: het dienstverband
+  example: Mijn dienstverband loopt tot december.
+  hint: employment contract
+  topics: [work]
+- text: de nachtdienst
+  example: Zij werkt graag in de nachtdienst.
+  hint: night shift
+  topics: [work]
+- text: de ziekmelding
+  example: Na de ziekmelding bleef hij thuis.
+  hint: sick report
+  topics: [work, health]
+- text: de vakantiedagen
+  example: Hoeveel vakantiedagen heb jij nog over?
+  hint: holiday days
+  topics: [work]
+- text: flexibel
+  example: Mijn werktijden zijn gelukkig heel flexibel.
+  hint: flexible
+  topics: [work]
+- text: voltijds
+  example: Hij werkt voltijds bij een grote bank.
+  hint: full-time
+  topics: [work]
+- text: momenteel
+  example: Momenteel werk ik twee dagen thuis.
+  hint: currently
+  topics: [everyday]
+- text: grotendeels
+  example: Het werk is grotendeels klaar.
+  hint: largely, mostly
+  topics: [everyday, work]
+- text: de aanmelding
+  example: De aanmelding voor de cursus is vandaag geopend.
+  hint: registration
+  topics: [office, everyday]
+- text: de wijziging
+  example: Door een wijziging kom ik later.
+  hint: change
+  topics: [office, work]
+- text: afmelden
+  example: Ik moet me helaas afmelden voor de les.
+  hint: report absent
+  topics: [office, everyday]
+- text: uitschrijven
+  example: Je moet je tijdig uitschrijven bij de gemeente.
+  hint: deregister
+  topics: [office]
+- text: verlengen
+  example: Ik wil mijn abonnement graag verlengen.
+  hint: extend, renew
+  topics: [everyday, office]
+- text: verzetten
+  example: Kunnen we de afspraak naar morgen verzetten?
+  hint: reschedule
+  topics: [everyday, office]
+- text: doorgeven
+  example: Kun je die boodschap aan haar doorgeven?
+  hint: pass on
+  topics: [office, everyday]
+- text: doorsturen
+  example: Kun je die e-mail naar mij doorsturen?
+  hint: forward
+  topics: [office]
+- text: terugsturen
+  example: Ik moet het pakket vandaag nog terugsturen.
+  hint: send back
+  topics: [shopping, office]
+- text: uitprinten
+  example: Ik moet het formulier nog even uitprinten.
+  hint: print out
+  topics: [office]
+- text: downloaden
+  example: Je kunt de app gratis downloaden.
+  hint: download
+  topics: [everyday]
+- text: inloggen
+  example: Je moet eerst inloggen met je wachtwoord.
+  hint: log in
+  topics: [everyday]
+- text: uitloggen
+  example: Vergeet niet om uit te loggen.
+  hint: log out
+  topics: [everyday]
+- text: vernieuwen
+  example: Mijn paspoort moet ik volgend jaar vernieuwen.
+  hint: renew
+  topics: [office, everyday]
+- text: onderhouden
+  example: De eigenaar moet het huis goed onderhouden.
+  hint: maintain
+  topics: [housing, work]
+- text: storten
+  example: Ik moet nog geld op mijn rekening storten.
+  hint: deposit
+  topics: [office]
+- text: terugbetalen
+  example: Ik moet hem nog geld terugbetalen.
+  hint: pay back
+  topics: [office, shopping]
+- text: voorschieten
+  example: Ik heb de kosten voor het werk voorgeschoten.
+  hint: advance money
+  topics: [work, office]
+- text: hoesten
+  example: Hij hoest al drie dagen flink.
+  hint: cough
+  topics: [health]
+- text: niezen
+  example: Ik moet steeds niezen door de pollen.
+  hint: sneeze
+  topics: [health]
+- text: overgeven
+  example: Zij moest vanmorgen plotseling overgeven.
+  hint: vomit
+  topics: [health]
+- text: blesseren
+  example: Hij heeft zich tijdens het voetballen geblesseerd.
+  hint: injure
+  topics: [health]
+- text: verbranden
+  example: Ik heb mijn hand verbrand aan de oven.
+  hint: burn
+  topics: [health]
+- text: ademen
+  example: Probeer rustig door je neus te ademen.
+  hint: breathe
+  topics: [health]
+- text: slikken
+  example: Het is moeilijk om deze pillen te slikken.
+  hint: swallow
+  topics: [health]
+- text: rusten
+  example: Je moet na de operatie goed rusten.
+  hint: rest
+  topics: [health]
+- text: sporten
+  example: Ik probeer drie keer per week te sporten.
+  hint: exercise
+  topics: [health]
+- text: afvallen
+  example: Zij wil graag een paar kilo afvallen.
+  hint: lose weight
+  topics: [health]
+- text: de diagnose
+  example: De arts stelde snel de juiste diagnose.
+  hint: diagnosis
+  topics: [health]
+- text: het eigen risico
+  example: Het eigen risico is dit jaar hoger geworden.
+  hint: excess, deductible
+  topics: [health]
+- text: de huisartspraktijk
+  example: Bel de huisartspraktijk voor een afspraak.
+  hint: GP practice
+  topics: [health]
+- text: het overgewicht
+  example: Het overgewicht kan gezondheidsproblemen veroorzaken.
+  hint: excess weight
+  topics: [health]
+- text: de belangstelling
+  example: Er is veel belangstelling voor de cursus.
+  hint: interest
+  topics: [social, work]
+- text: het conflict
+  example: We hebben het conflict samen opgelost.
+  hint: conflict
+  topics: [social, work]
+- text: het weer
+  example: Het weer is vandaag mooi.
+  hint: weather
+  topics: [everyday]
+- text: de app
+  example: Ik gebruik een app voor het weer.
+  hint: app
+  topics: [everyday]
+- text: de knop
+  example: Druk op de rode knop.
+  hint: button
+  topics: [everyday]
+- text: het liedje
+  example: Dit liedje is erg populair.
+  hint: song
+  topics: [everyday]
+- text: de zender
+  example: Welke zender kijk je?
+  hint: channel
+  topics: [everyday]
+- text: de sportschool
+  example: Ik ga naar de sportschool.
+  hint: gym
+  topics: [everyday]
+- text: de scooter
+  example: Hij gaat met de scooter naar zijn werk.
+  hint: scooter
+  topics: [travel]
+- text: het bad
+  example: Ik neem een warm bad.
+  hint: bath
+  topics: [housing]
+- text: afdrogen
+  example: Kun je de borden afdrogen?
+  hint: to dry off
+  topics: [housing]
+- text: de mens
+  example: De mens is een sociaal dier.
+  hint: human
+  topics: [social]
+- text: het huwelijk
+  example: Hun huwelijk is erg gelukkig.
+  hint: marriage
+  topics: [social]
+- text: de scheiding
+  example: Na de scheiding verhuisde ze.
+  hint: divorce
+  topics: [social]
+- text: de club
+  example: Hij zit in een voetbalclub.
+  hint: club
+  topics: [social]
+- text: de visite
+  example: We hebben visite vanavond.
+  hint: visitors
+  topics: [social]
+- text: de vreugde
+  example: De vreugde was groot na de overwinning.
+  hint: joy
+  topics: [social]
+- text: ruziën
+  example: Ze ruziën vaak over geld.
+  hint: to argue
+  topics: [social]
+- text: zich ergeren
+  example: Ik erger me aan het lawaai.
+  hint: to be annoyed
+  topics: [social]
+- text: zich schamen
+  example: Hij schaamt zich voor zijn fout.
+  hint: to be ashamed
+  topics: [social]
+- text: zich vervelen
+  example: Ik verveel me tijdens de les.
+  hint: to be bored
+  topics: [social]
+- text: verlangen
+  example: Ik verlang naar de zomer.
+  hint: to long for
+  topics: [social]
+- text: de ster
+  example: Je ziet veel sterren vanavond.
+  hint: star
+  topics: [everyday]
+- text: het concert
+  example: We gaan naar een concert.
+  hint: concert
+  topics: [everyday]
+- text: de voorstelling
+  example: De voorstelling begint om acht uur.
+  hint: performance
+  topics: [everyday]
+- text: de arts
+  example: De arts onderzocht de patiënt.
+  hint: doctor
+  topics: [health]
+- text: de bil
+  example: Ik heb pijn aan mijn bil.
+  hint: buttock
+  topics: [health]
+- text: de binnenstad
+  example: We wandelden door de binnenstad.
+  hint: city center
+  topics: [travel]
+- text: de bladzijde
+  example: Sla de bladzijde om.
+  hint: page
+  topics: [everyday]
+- text: de boekhandel
+  example: Ik koop boeken bij de boekhandel.
+  hint: bookstore
+  topics: [shopping]
+- text: de bol
+  example: De bol van de lamp is kapot.
+  hint: bulb
+  topics: [housing]
+- text: de borrel
+  example: We drinken een borrel na het werk.
+  hint: drink
+  topics: [social]
+- text: de bouw
+  example: Hij werkt in de bouw.
+  hint: construction
+  topics: [work]
+- text: de brand
+  example: Er was een brand in het gebouw.
+  hint: fire
+  topics: [everyday]
+- text: de brochure
+  example: Ik heb een brochure van het hotel.
+  hint: brochure
+  topics: [travel]
+- text: de buis
+  example: De buis is verstopt.
+  hint: pipe
+  topics: [housing]
+- text: de buitenkant
+  example: De buitenkant van het huis is geverfd.
+  hint: outside
+  topics: [housing]
+- text: de camera
+  example: Ik heb een nieuwe camera gekocht.
+  hint: camera
+  topics: [everyday]
+- text: het centrum
+  example: We zijn in het centrum van de stad.
+  hint: center
+  topics: [travel]
+- text: de combinatie
+  example: Dit is een goede combinatie.
+  hint: combination
+  topics: [everyday]
+- text: de communicatie
+  example: De communicatie met de klant verliep goed.
+  hint: communication
+  topics: [work]
+- text: de deal
+  example: We hebben een deal gesloten.
+  hint: deal
+  topics: [work]
+- text: het rapport
+  example: Ik moet het rapport morgen inleveren.
+  hint: report
+  topics: [work]
+- text: de aankoop
+  example: De aankoop van een nieuwe auto is duur.
+  hint: purchase
+  topics: [shopping]
+- text: de verkoop
+  example: De verkoop van het huis is rond.
+  hint: sale
+  topics: [shopping]
+- text: het statiegeld
+  example: Op deze fles zit statiegeld.
+  hint: deposit
+  topics: [shopping]
+- text: het schap
+  example: Het brood ligt in het schap.
+  hint: shelf
+  topics: [shopping]
+- text: het lidmaatschap
+  example: Mijn lidmaatschap is verlopen.
+  hint: membership
+  topics: [everyday]
+- text: schelden
+  example: Hij begon te schelden.
+  hint: to swear
+  topics: [social]
+- text: het certificaat
+  example: Hij heeft een certificaat voor zijn opleiding.
+  hint: certificate
+  topics: [work]
+- text: de categorie
+  example: In welke categorie valt dit product?
+  hint: category
+  topics: [shopping]
+- text: de kennisgeving
+  example: Ik heb een kennisgeving van de gemeente ontvangen.
+  hint: notification
+  topics: [office]
+- text: de aankondiging
+  example: De aankondiging stond in de krant.
+  hint: announcement
+  topics: [office]
+- text: flauwvallen
+  example: Ze viel flauw tijdens de les.
+  hint: to faint
+  topics: [health]
+- text: de wegenwacht
+  example: De wegenwacht kwam ons helpen.
+  hint: roadside assistance
+  topics: [travel]
+- text: het binnenland
+  example: We reizen door het binnenland.
+  hint: inland
+  topics: [travel]
+- text: betreuren
+  example: Ik betreur mijn beslissing.
+  hint: to regret
+  topics: [social]
+- text: de ruil
+  example: De ruil was een goede deal.
+  hint: exchange
+  topics: [shopping]
+- text: dweilen
+  example: Ik moet de vloer dweilen.
+  hint: to mop
+  topics: [housing]
+- text: verbouwen
+  example: We willen de keuken verbouwen.
+  hint: to renovate
+  topics: [housing]
+- text: behangen
+  example: We gaan de woonkamer behangen.
+  hint: to wallpaper
+  topics: [housing]
+- text: de boor
+  example: Ik heb een boor nodig voor de muur.
+  hint: drill
+  topics: [housing]

@@ -18,7 +18,7 @@ export interface LandingEdition {
   tagline: string;
   color: string;
   plus: { href: string; month: string; year: string; save: number; text: string; perks: string[] } | null;
-  free: { stories: number; phrases: number; reviews: number } | null;
+  free: { stories: number; phrases: number; words: number } | null;
 }
 
 export interface LandingTexts {

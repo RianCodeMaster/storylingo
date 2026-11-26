@@ -1,0 +1,2161 @@
+# Words for the word trainer, most useful first. Every edition with this target language shows them. text: the
+# dictionary form (German nouns with der/die/das, verbs as infinitive), exactly like the stories' glossary, so a
+# word met in a story is the same word here. example: one short sentence at this level. hint: English, for the
+# translator and for you; learners never see it. Edit freely (a changed text is a new word: it needs a meaning again,
+# `localize-words` adds it), then: storylingo.py sync.
+- text: die Information
+  example: Diese Information ist sehr wichtig.
+  hint: information
+  topics: [office, travel]
+- text: die Idee
+  example: Das ist eine gute Idee.
+  hint: idea
+  topics: [everyday]
+- text: das Beispiel
+  example: Kannst du ein Beispiel geben?
+  hint: example
+  topics: [everyday]
+- text: die Karte
+  example: Ich habe die Karte dabei.
+  hint: card, map
+  topics: [travel]
+- text: das Gespräch
+  example: Das Gespräch war sehr hilfreich.
+  hint: conversation
+  topics: [social, work]
+- text: das Gefühl
+  example: Ich habe ein gutes Gefühl.
+  hint: feeling
+  topics: [social]
+- text: die Freizeit
+  example: In meiner Freizeit lese ich Bücher.
+  hint: free time
+  topics: [everyday]
+- text: das Hobby
+  example: Mein Hobby ist Musik hören.
+  hint: hobby
+  topics: [everyday]
+- text: das Gesicht
+  example: Sein Gesicht ist ganz rot.
+  hint: face
+  topics: [health, social]
+- text: die Haut
+  example: Meine Haut ist sehr trocken.
+  hint: skin
+  topics: [health]
+- text: der Finger
+  example: Mein Finger tut sehr weh.
+  hint: finger
+  topics: [health]
+- text: die Erkältung
+  example: Ich habe eine starke Erkältung.
+  hint: cold illness
+  topics: [health]
+- text: das Herz
+  example: Mein Herz schlägt schnell.
+  hint: heart
+  topics: [health]
+- text: die Hausaufgabe
+  example: Ich mache meine Hausaufgaben am Abend.
+  hint: homework
+  topics: [everyday]
+- text: die Bibliothek
+  example: Die Bibliothek ist heute geschlossen.
+  hint: library
+  topics: [everyday]
+- text: die Kamera
+  example: Die Kamera ist sehr teuer.
+  hint: camera
+  topics: [everyday]
+- text: die Anmeldung
+  example: Die Anmeldung ist im Büro.
+  hint: registration
+  topics: [office]
+- text: die Auskunft
+  example: Wo bekomme ich eine Auskunft?
+  hint: information
+  topics: [office, travel]
+- text: der Aufzug
+  example: Der Aufzug ist leider kaputt.
+  hint: elevator
+  topics: [housing]
+- text: der Bleistift
+  example: Ich brauche einen Bleistift für die Prüfung.
+  hint: pencil
+  topics: [office, everyday]
+- text: der Drucker
+  example: Der Drucker funktioniert heute nicht.
+  hint: printer
+  topics: [office]
+- text: das Heft
+  example: Schreib die Antwort ins Heft.
+  hint: notebook
+  topics: [office, everyday]
+- text: der Kalender
+  example: Der Termin steht im Kalender.
+  hint: calendar
+  topics: [office]
+- text: der Eingang
+  example: Der Eingang ist rechts neben der Garage.
+  hint: entrance
+  topics: [housing, travel]
+- text: die Bäckerei
+  example: Die Bäckerei öffnet um sieben.
+  hint: bakery
+  topics: [shopping]
+- text: das Brötchen
+  example: Ich kaufe zwei Brötchen beim Bäcker.
+  hint: bread roll
+  topics: [shopping]
+- text: das Café
+  example: Wir treffen uns im Café.
+  hint: cafe
+  topics: [shopping, social]
+- text: das Getränk
+  example: Möchten Sie ein kaltes Getränk?
+  hint: drink
+  topics: [shopping]
+- text: das Gericht
+  example: Dieses Gericht schmeckt sehr gut.
+  hint: dish, meal
+  topics: [shopping]
+- text: die Gurke
+  example: Ich schneide eine Gurke für den Salat.
+  hint: cucumber
+  topics: [shopping]
+- text: das Huhn
+  example: Wir essen heute Huhn mit Reis.
+  hint: chicken
+  topics: [shopping]
+- text: die Jeans
+  example: Diese Jeans passt mir gut.
+  hint: jeans
+  topics: [shopping]
+- text: die Kette
+  example: Die Kette ist aus Gold.
+  hint: necklace, chain
+  topics: [shopping]
+- text: der Friseur
+  example: Ich gehe morgen zum Friseur.
+  hint: hairdresser
+  topics: [shopping, everyday]
+- text: das Badezimmer
+  example: Das Badezimmer ist klein aber sauber.
+  hint: bathroom
+  topics: [housing]
+- text: die Dusche
+  example: Die Dusche ist im Badezimmer.
+  hint: shower
+  topics: [housing]
+- text: die Ecke
+  example: Das Geschäft ist um die Ecke.
+  hint: corner
+  topics: [housing, travel]
+- text: die Garage
+  example: Das Auto steht in der Garage.
+  hint: garage
+  topics: [housing]
+- text: das Gebäude
+  example: Das Gebäude ist sehr alt.
+  hint: building
+  topics: [housing, travel]
+- text: das Geschirr
+  example: Das Geschirr ist noch nicht sauber.
+  hint: dishes
+  topics: [housing]
+- text: das Handtuch
+  example: Das Handtuch liegt im Badezimmer.
+  hint: towel
+  topics: [housing]
+- text: der Hof
+  example: Die Kinder spielen im Hof.
+  hint: yard, courtyard
+  topics: [housing]
+- text: das Holz
+  example: Der Tisch ist aus Holz.
+  hint: wood
+  topics: [housing]
+- text: der Keller
+  example: Die Fahrräder stehen im Keller.
+  hint: cellar, basement
+  topics: [housing]
+- text: der Baum
+  example: Der Baum steht vor dem Haus.
+  hint: tree
+  topics: [housing, everyday]
+- text: die Blume
+  example: Diese Blume riecht sehr gut.
+  hint: flower
+  topics: [housing, everyday]
+- text: das Bild
+  example: Das Bild hängt an der Wand.
+  hint: picture
+  topics: [housing, everyday]
+- text: das Haar
+  example: Sie hat lange schwarze Haare.
+  hint: hair
+  topics: [health]
+- text: das Ausland
+  example: Sie arbeitet ein Jahr im Ausland.
+  hint: foreign countries
+  topics: [travel, work]
+- text: der Fahrplan
+  example: Der Fahrplan hängt am Bahnsteig.
+  hint: timetable
+  topics: [travel]
+- text: der Führerschein
+  example: Ich habe meinen Führerschein gemacht.
+  hint: driving licence
+  topics: [travel]
+- text: das Gepäck
+  example: Mein Gepäck ist noch am Flughafen.
+  hint: luggage
+  topics: [travel]
+- text: das Gleis
+  example: Der Zug fährt auf Gleis drei.
+  hint: platform, track
+  topics: [travel]
+- text: der Hafen
+  example: Das Schiff ist im Hafen.
+  hint: harbour
+  topics: [travel]
+- text: die Ehefrau
+  example: Seine Ehefrau arbeitet im Krankenhaus.
+  hint: wife
+  topics: [social]
+- text: der Ehemann
+  example: Ihr Ehemann kocht sehr gut.
+  hint: husband
+  topics: [social]
+- text: die Einladung
+  example: Danke für die Einladung zum Essen.
+  hint: invitation
+  topics: [social]
+- text: die Entschuldigung
+  example: Entschuldigung, wo ist der Bahnhof?
+  hint: apology
+  topics: [social]
+- text: der Gast
+  example: Der Gast möchte die Speisekarte sehen.
+  hint: guest
+  topics: [social, shopping]
+- text: der Gruß
+  example: Viele Grüße an deine Familie.
+  hint: greeting
+  topics: [social]
+- text: die Gesundheit
+  example: Die Gesundheit ist wichtiger als Geld.
+  hint: health
+  topics: [health]
+- text: die Bewerbung
+  example: Ich schreibe eine Bewerbung für die Stelle.
+  hint: application
+  topics: [work]
+- text: die Stelle
+  example: Ich suche eine neue Stelle.
+  hint: position
+  topics: [work]
+- text: der Vertrag
+  example: Der Vertrag gilt für zwei Jahre.
+  hint: contract
+  topics: [work, office]
+- text: die Ausbildung
+  example: Die Ausbildung dauert drei Jahre.
+  hint: training
+  topics: [work]
+- text: das Konto
+  example: Ich öffne ein Konto bei der Bank.
+  hint: bank account
+  topics: [office]
+- text: die Überweisung
+  example: Die Überweisung dauert zwei Tage.
+  hint: transfer
+  topics: [office]
+- text: der Antrag
+  example: Ich stelle einen Antrag beim Amt.
+  hint: application
+  topics: [office]
+- text: die Unterschrift
+  example: Hier fehlt noch Ihre Unterschrift.
+  hint: signature
+  topics: [office]
+- text: die Quittung
+  example: Bitte geben Sie mir die Quittung.
+  hint: receipt
+  topics: [shopping]
+- text: der Rabatt
+  example: Auf das Kleid gibt es Rabatt.
+  hint: discount
+  topics: [shopping]
+- text: die Kreditkarte
+  example: Kann ich mit Kreditkarte zahlen?
+  hint: credit card
+  topics: [shopping]
+- text: das Kleingeld
+  example: Ich habe kein Kleingeld dabei.
+  hint: small change
+  topics: [shopping]
+- text: der Einkaufswagen
+  example: Der Einkaufswagen ist schon voll.
+  hint: shopping cart
+  topics: [shopping]
+- text: die Tüte
+  example: Möchten Sie eine Tüte?
+  hint: bag
+  topics: [shopping]
+- text: die Packung
+  example: Ich nehme eine Packung Butter.
+  hint: pack
+  topics: [shopping]
+- text: die Dose
+  example: Die Dose Cola steht im Regal.
+  hint: can
+  topics: [shopping]
+- text: der Becher
+  example: Ein Becher Joghurt, bitte.
+  hint: cup
+  topics: [shopping]
+- text: das Sonderangebot
+  example: Milch ist heute im Sonderangebot.
+  hint: special offer
+  topics: [shopping]
+- text: die Öffnungszeit
+  example: Die Öffnungszeit ist am Samstag kurz.
+  hint: opening hours
+  topics: [shopping]
+- text: der Umtausch
+  example: Der Umtausch ist bis Montag möglich.
+  hint: exchange
+  topics: [shopping]
+- text: die Garantie
+  example: Auf das Handy gibt es Garantie.
+  hint: guarantee
+  topics: [shopping]
+- text: der Mietvertrag
+  example: Der Mietvertrag ist schon unterschrieben.
+  hint: rental contract
+  topics: [housing]
+- text: die Nebenkosten
+  example: Die Nebenkosten sind im Preis enthalten.
+  hint: additional costs
+  topics: [housing]
+- text: die Kaution
+  example: Die Kaution beträgt zwei Monatsmieten.
+  hint: deposit
+  topics: [housing]
+- text: der Vermieter
+  example: Der Vermieter kommt morgen vorbei.
+  hint: landlord
+  topics: [housing]
+- text: der Mieter
+  example: Der Mieter zahlt die Miete pünktlich.
+  hint: tenant
+  topics: [housing]
+- text: das Erdgeschoss
+  example: Wir wohnen im Erdgeschoss.
+  hint: ground floor
+  topics: [housing]
+- text: der Stock
+  example: Die Wohnung liegt im dritten Stock.
+  hint: floor
+  topics: [housing]
+- text: der Flur
+  example: Die Schuhe stehen im Flur.
+  hint: hallway
+  topics: [housing]
+- text: die Steckdose
+  example: Die Steckdose ist hinter dem Sofa.
+  hint: power outlet
+  topics: [housing]
+- text: der Briefkasten
+  example: Die Post ist im Briefkasten.
+  hint: mailbox
+  topics: [housing]
+- text: der Wasserhahn
+  example: Der Wasserhahn tropft die ganze Nacht.
+  hint: faucet
+  topics: [housing]
+- text: das Waschbecken
+  example: Das Waschbecken ist schon sauber.
+  hint: sink
+  topics: [housing]
+- text: die Reparatur
+  example: Die Reparatur kostet leider viel Geld.
+  hint: repair
+  topics: [housing]
+- text: die Reise
+  example: Die Reise war sehr schön.
+  hint: trip
+  topics: [travel]
+- text: der Anschluss
+  example: Ich habe den Anschluss verpasst.
+  hint: connection
+  topics: [travel]
+- text: das Abteil
+  example: Wir sitzen im letzten Abteil.
+  hint: compartment
+  topics: [travel]
+- text: der Sitzplatz
+  example: Ich habe einen Sitzplatz reserviert.
+  hint: seat
+  topics: [travel]
+- text: die Grenze
+  example: Die Grenze ist noch weit weg.
+  hint: border
+  topics: [travel]
+- text: der Zoll
+  example: Wir müssen durch den Zoll.
+  hint: customs
+  topics: [travel]
+- text: die Fähre
+  example: Die Fähre fährt jede Stunde.
+  hint: ferry
+  topics: [travel]
+- text: das Schiff
+  example: Das Schiff kommt heute Abend an.
+  hint: ship
+  topics: [travel]
+- text: die Straßenbahn
+  example: Die Straßenbahn hält direkt hier.
+  hint: tram
+  topics: [travel]
+- text: das Motorrad
+  example: Er fährt gern Motorrad.
+  hint: motorcycle
+  topics: [travel]
+- text: der Stau
+  example: Wir stehen im Stau.
+  hint: traffic jam
+  topics: [travel]
+- text: die Tankstelle
+  example: Die Tankstelle ist gleich um die Ecke.
+  hint: gas station
+  topics: [travel]
+- text: das Benzin
+  example: Das Benzin ist wieder teurer.
+  hint: gasoline
+  topics: [travel]
+- text: der Parkplatz
+  example: Ich suche einen Parkplatz.
+  hint: parking space
+  topics: [travel]
+- text: die Autobahn
+  example: Die Autobahn ist heute voll.
+  hint: highway
+  topics: [travel]
+- text: die Ampel
+  example: Die Ampel ist rot.
+  hint: traffic light
+  topics: [travel]
+- text: die Werkstatt
+  example: Das Auto ist in der Werkstatt.
+  hint: repair shop
+  topics: [travel]
+- text: die Laune
+  example: Heute habe ich gute Laune.
+  hint: mood
+  topics: [social]
+- text: die Überraschung
+  example: Die Party war eine schöne Überraschung.
+  hint: surprise
+  topics: [social]
+- text: das Vertrauen
+  example: Vertrauen ist wichtig in einer Freundschaft.
+  hint: trust
+  topics: [social]
+- text: der Streit
+  example: Wir hatten gestern einen kleinen Streit.
+  hint: argument
+  topics: [social]
+- text: deshalb
+  example: Es regnet, deshalb bleiben wir zu Hause.
+  hint: therefore
+  topics: [everyday]
+- text: trotzdem
+  example: Ich bin müde, trotzdem gehe ich joggen.
+  hint: nevertheless
+  topics: [everyday]
+- text: obwohl
+  example: Obwohl es regnet, gehen wir spazieren.
+  hint: although
+  topics: [everyday]
+- text: während
+  example: Während ich koche, hört er Musik.
+  hint: while
+  topics: [everyday]
+- text: die Nachricht
+  example: Ich habe eine gute Nachricht für dich.
+  hint: message, news
+  topics: [social]
+- text: das Paket
+  example: Das Paket ist heute angekommen.
+  hint: parcel
+  topics: [office, shopping]
+- text: der Pass
+  example: Mein Pass liegt in der Tasche.
+  hint: passport
+  topics: [travel, office]
+- text: der Ausflug
+  example: Der Ausflug macht viel Spaß.
+  hint: excursion, trip
+  topics: [travel]
+- text: die Ankunft
+  example: Die Ankunft ist für morgen geplant.
+  hint: arrival
+  topics: [travel]
+- text: der Aufenthalt
+  example: Der Aufenthalt im Hotel war kurz.
+  hint: stay
+  topics: [travel]
+- text: erzählen
+  example: Er erzählt eine lustige Geschichte.
+  hint: tell, narrate
+  topics: [social]
+- text: fehlen
+  example: Mir fehlt noch ein Stück Kuchen.
+  hint: be missing
+  topics: [shopping]
+- text: hoffen
+  example: Ich hoffe auf gutes Wetter.
+  hint: hope
+  topics: [everyday]
+- text: üben
+  example: Wir üben heute Deutsch.
+  hint: practise
+  topics: [everyday]
+- text: wiederholen
+  example: Können Sie die Frage wiederholen?
+  hint: repeat
+  topics: [everyday, office]
+- text: überweisen
+  example: Ich überweise das Geld morgen.
+  hint: transfer money
+  topics: [office]
+- text: sparen
+  example: Wir sparen für eine Reise.
+  hint: save money
+  topics: [shopping, everyday]
+- text: stören
+  example: Bitte stören Sie mich nicht.
+  hint: disturb
+  topics: [social]
+- text: höflich
+  example: Der Verkäufer ist sehr höflich.
+  hint: polite
+  topics: [social, shopping]
+- text: plötzlich
+  example: Plötzlich beginnt es zu regnen.
+  hint: suddenly
+  topics: [everyday]
+- text: ruhig
+  example: Das Zimmer ist sehr ruhig.
+  hint: quiet
+  topics: [housing]
+- text: die Prüfung
+  example: Die Prüfung ist nächste Woche.
+  hint: exam
+  topics: [work, office]
+- text: der Unterricht
+  example: Der Unterricht beginnt bald.
+  hint: lessons
+  topics: [work, office]
+- text: der Student
+  example: Der Student wohnt in einem Zimmer.
+  hint: student
+  topics: [work, office]
+- text: die Universität
+  example: Die Universität ist heute geschlossen.
+  hint: university
+  topics: [work, office]
+- text: der Schüler
+  example: Der Schüler macht seine Hausaufgabe.
+  hint: pupil
+  topics: [work, office]
+- text: der Zahnarzt
+  example: Ich habe morgen einen Termin beim Zahnarzt.
+  hint: dentist
+  topics: [health]
+- text: der Unfall
+  example: Bei dem Unfall ist niemand verletzt.
+  hint: accident
+  topics: [health, travel]
+- text: der Verkehr
+  example: Der Verkehr ist heute sehr stark.
+  hint: traffic
+  topics: [travel]
+- text: das Verkehrsmittel
+  example: Welches Verkehrsmittel nimmst du?
+  hint: transport means
+  topics: [travel]
+- text: der Körper
+  example: Der Körper braucht Ruhe und Wasser.
+  hint: body
+  topics: [health]
+- text: der Magen
+  example: Mein Magen tut weh.
+  hint: stomach
+  topics: [health]
+- text: die Schulter
+  example: Meine Schulter tut seit gestern weh.
+  hint: shoulder
+  topics: [health]
+- text: die Untersuchung
+  example: Die Untersuchung beim Arzt war kurz.
+  hint: medical exam
+  topics: [health]
+- text: der Schlaf
+  example: Guter Schlaf ist sehr wichtig.
+  hint: sleep
+  topics: [health]
+- text: der Schnupfen
+  example: Ich habe einen starken Schnupfen.
+  hint: head cold
+  topics: [health]
+- text: die Möbel
+  example: Die Möbel sind neu und modern.
+  hint: furniture
+  topics: [housing]
+- text: der Raum
+  example: Der Raum ist hell und groß.
+  hint: room, space
+  topics: [housing, office]
+- text: das Rathaus
+  example: Das Rathaus ist im Zentrum.
+  hint: town hall
+  topics: [office]
+- text: der Schalter
+  example: Der Schalter ist gleich geschlossen.
+  hint: counter
+  topics: [office]
+- text: das Dokument
+  example: Bitte bringen Sie das Dokument mit.
+  hint: document
+  topics: [office]
+- text: der Kunde
+  example: Der Kunde möchte ein Brot kaufen.
+  hint: customer
+  topics: [shopping, work]
+- text: der Laden
+  example: Der Laden öffnet bald.
+  hint: shop
+  topics: [shopping]
+- text: der Imbiss
+  example: Am Imbiss essen wir eine Wurst.
+  hint: snack stand
+  topics: [shopping]
+- text: der Kiosk
+  example: Am Kiosk kaufe ich eine Zeitung.
+  hint: kiosk
+  topics: [shopping]
+- text: die Ware
+  example: Die Ware ist gut verpackt.
+  hint: goods
+  topics: [shopping]
+- text: das Produkt
+  example: Dieses Produkt ist sehr beliebt.
+  hint: product
+  topics: [shopping]
+- text: der Pullover
+  example: Der Pullover ist zu klein.
+  hint: sweater
+  topics: [shopping]
+- text: die Seife
+  example: Die Seife liegt im Badezimmer.
+  hint: soap
+  topics: [housing]
+- text: der Herbst
+  example: Im Herbst regnet es oft.
+  hint: autumn
+  topics: [everyday]
+- text: die Zeitschrift
+  example: Diese Zeitschrift ist sehr interessant.
+  hint: magazine
+  topics: [everyday]
+- text: das Thema
+  example: Das Thema ist heute sehr wichtig.
+  hint: topic
+  topics: [everyday]
+- text: der Tipp
+  example: Hast du einen Tipp für mich?
+  hint: tip
+  topics: [everyday]
+- text: der Traum
+  example: Mein Traum ist eine eigene Wohnung.
+  hint: dream
+  topics: [social]
+- text: der Verein
+  example: Der Verein trifft sich am Abend.
+  hint: club
+  topics: [social]
+- text: die Ruhe
+  example: Ich brauche jetzt etwas Ruhe.
+  hint: rest, quiet
+  topics: [social, health]
+- text: der Spaß
+  example: Der Ausflug macht viel Spaß.
+  hint: fun
+  topics: [social]
+- text: die Situation
+  example: Die Situation ist nicht einfach.
+  hint: situation
+  topics: [social, everyday]
+- text: die Sorge
+  example: Ich habe eine große Sorge.
+  hint: worry
+  topics: [social]
+- text: der Strand
+  example: Am Strand ist es heute warm.
+  hint: beach
+  topics: [travel]
+- text: die Sehenswürdigkeit
+  example: Die Sehenswürdigkeit ist sehr alt.
+  hint: sight
+  topics: [travel]
+- text: das Schloss
+  example: Das Schloss steht auf einem Berg.
+  hint: castle
+  topics: [travel]
+- text: der Tourist
+  example: Der Tourist fragt nach dem Weg.
+  hint: tourist
+  topics: [travel]
+- text: erklären
+  example: Kannst du mir das bitte erklären?
+  hint: explain
+  topics: [everyday]
+- text: entscheiden
+  example: Wir müssen uns heute entscheiden.
+  hint: decide
+  topics: [everyday]
+- text: fühlen
+  example: Ich fühle mich heute nicht gut.
+  hint: feel
+  topics: [health, social]
+- text: anbieten
+  example: Er bietet mir Hilfe an.
+  hint: offer
+  topics: [social]
+- text: empfehlen
+  example: Kannst du ein Restaurant empfehlen?
+  hint: recommend
+  topics: [shopping]
+- text: vorbereiten
+  example: Ich bereite das Essen vor.
+  hint: prepare
+  topics: [everyday]
+- text: versuchen
+  example: Ich versuche, früher zu schlafen.
+  hint: try
+  topics: [everyday]
+- text: passieren
+  example: Was ist gestern passiert?
+  hint: happen
+  topics: [everyday]
+- text: gehören
+  example: Diese Tasche gehört meiner Schwester.
+  hint: belong to
+  topics: [everyday]
+- text: gefallen
+  example: Das neue Sofa gefällt mir.
+  hint: be pleasing
+  topics: [housing, social]
+- text: passen
+  example: Die Jacke passt mir gut.
+  hint: fit
+  topics: [shopping]
+- text: reden
+  example: Wir müssen über den Plan reden.
+  hint: talk
+  topics: [social]
+- text: schauen
+  example: Schau mal aus dem Fenster!
+  hint: look
+  topics: [everyday]
+- text: sammeln
+  example: Die Kinder sammeln bunte Steine.
+  hint: collect
+  topics: [everyday]
+- text: studieren
+  example: Sie möchte Medizin studieren.
+  hint: study
+  topics: [work]
+- text: übernachten
+  example: Wir übernachten zwei Nächte im Hotel.
+  hint: stay overnight
+  topics: [travel]
+- text: umziehen
+  example: Wir ziehen nächsten Monat um.
+  hint: move house
+  topics: [housing]
+- text: verletzen
+  example: Er hat sich beim Sport verletzt.
+  hint: injure
+  topics: [health]
+- text: vermieten
+  example: Sie vermieten ihre Wohnung im Sommer.
+  hint: rent out
+  topics: [housing]
+- text: verpassen
+  example: Ich habe den Bus verpasst.
+  hint: miss
+  topics: [travel]
+- text: vorschlagen
+  example: Ich schlage ein Café vor.
+  hint: suggest
+  topics: [social]
+- text: vorstellen
+  example: Darf ich mich kurz vorstellen?
+  hint: introduce
+  topics: [social, work]
+- text: wechseln
+  example: Kann ich den Termin wechseln?
+  hint: change
+  topics: [office]
+- text: ziehen
+  example: Wir ziehen den Schrank nach links.
+  hint: pull
+  topics: [housing]
+- text: die Kleidung
+  example: Die Kleidung ist im Schrank.
+  hint: clothing
+  topics: [shopping, housing]
+- text: das Land
+  example: Wir fahren aufs Land.
+  hint: country
+  topics: [travel]
+- text: der Platz
+  example: Ist dieser Platz noch frei?
+  hint: place, seat
+  topics: [travel, social]
+- text: die Post
+  example: Die Post ist heute geschlossen.
+  hint: post office
+  topics: [office, everyday]
+- text: die Zeitung
+  example: Ich lese morgens die Zeitung.
+  hint: newspaper
+  topics: [everyday]
+- text: das Kino
+  example: Wir gehen heute ins Kino.
+  hint: cinema
+  topics: [social]
+- text: der Fluss
+  example: Der Fluss ist sehr breit.
+  hint: river
+  topics: [travel]
+- text: der Himmel
+  example: Der Himmel ist heute blau.
+  hint: sky
+  topics: [everyday]
+- text: die Kirche
+  example: Die Kirche ist im Zentrum.
+  hint: church
+  topics: [travel]
+- text: das Dorf
+  example: Meine Oma wohnt in einem Dorf.
+  hint: village
+  topics: [housing, travel]
+- text: die Mode
+  example: Die Mode ändert sich schnell.
+  hint: fashion
+  topics: [shopping]
+- text: der Sport
+  example: Sport ist gut für die Gesundheit.
+  hint: sport
+  topics: [health]
+- text: das Spiel
+  example: Das Spiel beginnt um acht.
+  hint: game
+  topics: [social]
+- text: der Teil
+  example: Dieser Teil ist sehr wichtig.
+  hint: part
+  topics: [everyday]
+- text: der Weg
+  example: Der Weg zum Bahnhof ist kurz.
+  hint: way, path
+  topics: [travel]
+- text: das Ziel
+  example: Das Ziel ist noch weit.
+  hint: goal, destination
+  topics: [travel, work]
+- text: die Zukunft
+  example: In der Zukunft möchte ich reisen.
+  hint: future
+  topics: [everyday]
+- text: der Winter
+  example: Im Winter brauchen wir warme Kleidung.
+  hint: winter
+  topics: [everyday]
+- text: der Frühling
+  example: Im Frühling blühen viele Blumen.
+  hint: spring
+  topics: [everyday]
+- text: die Wolke
+  example: Eine dunkle Wolke kommt näher.
+  hint: cloud
+  topics: [everyday]
+- text: das Salz
+  example: Gib bitte etwas Salz in die Suppe.
+  hint: salt
+  topics: [shopping]
+- text: die Nudel
+  example: Ich koche heute Nudeln mit Tomaten.
+  hint: noodle
+  topics: [shopping]
+- text: der Topf
+  example: Der Topf steht auf dem Herd.
+  hint: pot
+  topics: [housing]
+- text: der Sessel
+  example: Der Sessel ist sehr bequem.
+  hint: armchair
+  topics: [housing]
+- text: besonders
+  example: Heute ist es besonders kalt.
+  hint: especially
+  topics: [everyday]
+- text: eigentlich
+  example: Eigentlich wollte ich zu Hause bleiben.
+  hint: actually
+  topics: [everyday]
+- text: endlich
+  example: Endlich ist das Wochenende da!
+  hint: finally
+  topics: [everyday]
+- text: draußen
+  example: Die Kinder spielen draußen im Garten.
+  hint: outside
+  topics: [everyday]
+- text: drinnen
+  example: Es ist kalt, wir bleiben drinnen.
+  hint: inside
+  topics: [everyday]
+- text: oben
+  example: Die Wohnung ist oben im Haus.
+  hint: upstairs
+  topics: [housing]
+- text: unten
+  example: Der Keller ist unten im Haus.
+  hint: downstairs
+  topics: [housing]
+- text: vorher
+  example: Ruf mich bitte vorher an.
+  hint: beforehand
+  topics: [everyday]
+- text: nachher
+  example: Nachher gehen wir einkaufen.
+  hint: afterwards
+  topics: [everyday]
+- text: überall
+  example: In der Stadt gibt es überall Cafés.
+  hint: everywhere
+  topics: [travel, everyday]
+- text: wegen
+  example: Wegen des Regens bleiben wir hier.
+  hint: because of
+  topics: [everyday]
+- text: damit
+  example: Ich koche, damit wir zusammen essen.
+  hint: so that
+  topics: [everyday]
+- text: bekommen
+  example: Ich bekomme morgen einen Brief.
+  hint: receive, get
+  topics: [everyday]
+- text: lassen
+  example: Ich lasse das Auto zu Hause.
+  hint: let, leave
+  topics: [everyday]
+- text: tun
+  example: Was kann ich für dich tun?
+  hint: do
+  topics: [everyday]
+- text: benutzen
+  example: Ich benutze den Computer jeden Tag.
+  hint: use
+  topics: [everyday]
+- text: sich freuen
+  example: Ich freue mich auf den Urlaub.
+  hint: be glad
+  topics: [social]
+- text: möglich
+  example: Ist das morgen noch möglich?
+  hint: possible
+  topics: [everyday]
+- text: gerade
+  example: Ich komme gerade nach Hause.
+  hint: just now
+  topics: [everyday]
+- text: sonst
+  example: Sonst noch etwas, bitte?
+  hint: anything else
+  topics: [shopping]
+- text: informieren
+  example: Bitte informieren Sie mich morgen.
+  hint: inform
+  topics: [office]
+- text: interessieren
+  example: Das Thema interessiert mich sehr.
+  hint: interest
+  topics: [social]
+- text: ausfüllen
+  example: Bitte füllen Sie das Formular aus.
+  hint: fill in
+  topics: [office]
+- text: anmelden
+  example: Ich muss mich beim Amt anmelden.
+  hint: register
+  topics: [office]
+- text: besprechen
+  example: Wir besprechen das Problem im Team.
+  hint: discuss
+  topics: [work]
+- text: stattfinden
+  example: Das Fest findet im Park statt.
+  hint: take place
+  topics: [social]
+- text: teilnehmen
+  example: Ich nehme am Kurs teil.
+  hint: take part
+  topics: [work]
+- text: prüfen
+  example: Bitte prüfen Sie die Rechnung.
+  hint: check
+  topics: [office]
+- text: verschieben
+  example: Wir müssen den Termin verschieben.
+  hint: postpone
+  topics: [office]
+- text: bestätigen
+  example: Bitte bestätigen Sie den Termin.
+  hint: confirm
+  topics: [office]
+- text: abgeben
+  example: Ich gebe das Paket am Schalter ab.
+  hint: hand in
+  topics: [office]
+- text: deswegen
+  example: Ich bin krank, deswegen komme ich nicht.
+  hint: therefore
+  topics: [everyday]
+- text: darum
+  example: Ich habe keine Zeit, darum komme ich nicht.
+  hint: that's why
+  topics: [everyday]
+- text: meistens
+  example: Ich fahre meistens mit dem Bus.
+  hint: mostly
+  topics: [everyday]
+- text: zuletzt
+  example: Zuletzt besuchen wir den Markt.
+  hint: finally
+  topics: [everyday]
+- text: selten
+  example: Er trinkt selten Kaffee.
+  hint: rarely
+  topics: [everyday]
+- text: morgens
+  example: Morgens trinke ich immer Kaffee.
+  hint: in the morning
+  topics: [everyday]
+- text: abends
+  example: Abends sehe ich gern fern.
+  hint: in the evening
+  topics: [everyday]
+- text: nachts
+  example: Nachts ist die Straße sehr ruhig.
+  hint: at night
+  topics: [everyday]
+- text: sich ärgern
+  example: Ich ärgere mich über den Stau.
+  hint: be annoyed
+  topics: [social]
+- text: sich entschuldigen
+  example: Ich entschuldige mich für die Verspätung.
+  hint: apologize
+  topics: [social]
+- text: sich ausruhen
+  example: Ich ruhe mich am Wochenende aus.
+  hint: rest
+  topics: [health]
+- text: sich beeilen
+  example: Bitte beeil dich, wir sind spät.
+  hint: hurry
+  topics: [everyday]
+- text: wütend
+  example: Ich bin wütend auf meinen Bruder.
+  hint: angry
+  topics: [social]
+- text: stolz
+  example: Ich bin stolz auf dich.
+  hint: proud
+  topics: [social]
+- text: einsam
+  example: Allein zu leben ist oft einsam.
+  hint: lonely
+  topics: [social]
+- text: verliebt
+  example: Ich bin in meine Nachbarin verliebt.
+  hint: in love
+  topics: [social]
+- text: die Besprechung
+  example: Die Besprechung beginnt am Morgen.
+  hint: meeting
+  topics: [work]
+- text: die Abteilung
+  example: Ich arbeite in der Abteilung Einkauf.
+  hint: department
+  topics: [work]
+- text: der Lebenslauf
+  example: Bitte schicken Sie den Lebenslauf mit.
+  hint: CV
+  topics: [work]
+- text: das Praktikum
+  example: Ich mache ein Praktikum im Büro.
+  hint: internship
+  topics: [work]
+- text: der Einkauf
+  example: Der Einkauf dauert nicht lange.
+  hint: shopping
+  topics: [shopping]
+- text: der Nachtisch
+  example: Was möchten Sie als Nachtisch?
+  hint: dessert
+  topics: [shopping]
+- text: das Trinkgeld
+  example: Wir geben dem Kellner Trinkgeld.
+  hint: tip
+  topics: [shopping]
+- text: tauschen
+  example: Kann ich das Hemd tauschen?
+  hint: exchange
+  topics: [shopping]
+- text: vergleichen
+  example: Wir vergleichen die Preise im Supermarkt.
+  hint: compare
+  topics: [shopping]
+- text: die Torte
+  example: Die Torte ist sehr lecker.
+  hint: cake
+  topics: [shopping]
+- text: der Umzug
+  example: Der Umzug ist nächste Woche.
+  hint: move
+  topics: [housing]
+- text: die Klingel
+  example: Die Klingel ist schon wieder kaputt.
+  hint: doorbell
+  topics: [housing]
+- text: der Hausmeister
+  example: Der Hausmeister repariert die Tür.
+  hint: caretaker
+  topics: [housing]
+- text: die Glühbirne
+  example: Die Glühbirne ist kaputt.
+  hint: light bulb
+  topics: [housing]
+- text: der Vorhang
+  example: Der Vorhang ist noch neu.
+  hint: curtain
+  topics: [housing]
+- text: umsteigen
+  example: Sie müssen am Hauptbahnhof umsteigen.
+  hint: change trains
+  topics: [travel]
+- text: abfahren
+  example: Der Zug fährt bald ab.
+  hint: depart
+  topics: [travel]
+- text: einchecken
+  example: Wir checken im Hotel ein.
+  hint: check in
+  topics: [travel]
+- text: die Fahrt
+  example: Die Fahrt dauert sehr lange.
+  hint: journey
+  topics: [travel]
+- text: der Schaffner
+  example: Der Schaffner kontrolliert die Tickets.
+  hint: train conductor
+  topics: [travel]
+- text: die Praxis
+  example: Ich habe morgen einen Termin in der Praxis.
+  hint: doctor's office
+  topics: [health]
+- text: das Rezept
+  example: Ich habe ein Rezept vom Arzt.
+  hint: prescription
+  topics: [health]
+- text: der Krankenwagen
+  example: Der Krankenwagen kommt sofort.
+  hint: ambulance
+  topics: [health]
+- text: die Verletzung
+  example: Die Verletzung tut sehr weh.
+  hint: injury
+  topics: [health]
+- text: wählen
+  example: Wählen Sie bitte eine Nummer.
+  hint: choose, dial
+  topics: [office]
+- text: der Anfang
+  example: Am Anfang war alles neu.
+  hint: beginning
+  topics: [everyday]
+- text: das Ende
+  example: Am Ende waren alle müde.
+  hint: end
+  topics: [everyday]
+- text: die Person
+  example: Diese Person kenne ich nicht.
+  hint: person
+  topics: [social]
+- text: das Glück
+  example: Viel Glück bei der Prüfung!
+  hint: luck
+  topics: [social]
+- text: die Luft
+  example: Ich brauche frische Luft.
+  hint: air
+  topics: [health, everyday]
+- text: der Strom
+  example: Der Strom ist heute ausgefallen.
+  hint: electricity
+  topics: [housing]
+- text: die Brücke
+  example: Die Brücke ist sehr alt.
+  hint: bridge
+  topics: [travel]
+- text: die Kreuzung
+  example: An der Kreuzung links abbiegen.
+  hint: crossroads
+  topics: [travel]
+- text: der Stadtplan
+  example: Ich brauche einen Stadtplan.
+  hint: city map
+  topics: [travel]
+- text: das Reisebüro
+  example: Wir buchen im Reisebüro.
+  hint: travel agency
+  topics: [travel]
+- text: der Kugelschreiber
+  example: Der Kugelschreiber schreibt nicht mehr.
+  hint: ballpoint pen
+  topics: [office]
+- text: die Briefmarke
+  example: Ich brauche eine Briefmarke.
+  hint: postage stamp
+  topics: [office]
+- text: der Zettel
+  example: Schreib es auf den Zettel.
+  hint: note slip
+  topics: [office]
+- text: die Liste
+  example: Die Liste ist noch nicht fertig.
+  hint: list
+  topics: [office]
+- text: die Kosten
+  example: Die Kosten sind zu hoch.
+  hint: costs
+  topics: [office]
+- text: der Vorschlag
+  example: Dein Vorschlag ist sehr gut.
+  hint: suggestion
+  topics: [office]
+- text: der Schmerz
+  example: Ich habe starke Schmerzen.
+  hint: pain
+  topics: [health]
+- text: das Medikament
+  example: Nimm das Medikament jeden Morgen.
+  hint: medicine
+  topics: [health]
+- text: der Durst
+  example: Nach dem Sport habe ich Durst.
+  hint: thirst
+  topics: [health]
+- text: die Hitze
+  example: Bei dieser Hitze trinke ich viel.
+  hint: heat
+  topics: [health, everyday]
+- text: der Wecker
+  example: Der Wecker klingelt um sieben.
+  hint: alarm clock
+  topics: [everyday]
+- text: der Rock
+  example: Der Rock passt mir gut.
+  hint: skirt
+  topics: [shopping]
+- text: das Kleid
+  example: Das Kleid ist zu teuer.
+  hint: dress
+  topics: [shopping]
+- text: der Anzug
+  example: Er trägt einen schwarzen Anzug.
+  hint: suit
+  topics: [shopping, work]
+- text: die Bluse
+  example: Die Bluse gefällt mir sehr.
+  hint: blouse
+  topics: [shopping]
+- text: der Joghurt
+  example: Ich esse Joghurt mit Obst.
+  hint: yogurt
+  topics: [shopping]
+- text: das Eis
+  example: Im Sommer essen wir Eis.
+  hint: ice cream
+  topics: [shopping]
+- text: das Bier
+  example: Er trinkt ein Bier.
+  hint: beer
+  topics: [shopping]
+- text: die Zwiebel
+  example: Die Zwiebel macht mich weinen.
+  hint: onion
+  topics: [shopping]
+- text: die Mahlzeit
+  example: Die Mahlzeit war sehr lecker.
+  hint: meal
+  topics: [shopping]
+- text: der Koch
+  example: Der Koch arbeitet im Restaurant.
+  hint: cook
+  topics: [work]
+- text: die Kollegin
+  example: Meine Kollegin ist heute krank.
+  hint: female colleague
+  topics: [work]
+- text: die Lehrerin
+  example: Die Lehrerin erklärt die Aufgabe.
+  hint: female teacher
+  topics: [work]
+- text: der Verkäufer
+  example: Der Verkäufer hilft mir.
+  hint: salesman
+  topics: [work, shopping]
+- text: die Erfahrung
+  example: Er hat viel Erfahrung im Beruf.
+  hint: experience
+  topics: [work]
+- text: das Zeugnis
+  example: Ich habe mein Zeugnis bekommen.
+  hint: certificate
+  topics: [work]
+- text: der Feiertag
+  example: Der Feiertag ist nächste Woche.
+  hint: public holiday
+  topics: [everyday]
+- text: die Nachbarin
+  example: Meine Nachbarin ist sehr freundlich.
+  hint: female neighbor
+  topics: [social]
+- text: die Liebe
+  example: Liebe ist manchmal kompliziert.
+  hint: love
+  topics: [social]
+- text: der Wunsch
+  example: Hast du einen Wunsch?
+  hint: wish
+  topics: [social]
+- text: das Interesse
+  example: Ich habe Interesse an Musik.
+  hint: interest
+  topics: [social]
+- text: die Gruppe
+  example: Die Gruppe trifft sich morgen.
+  hint: group
+  topics: [social]
+- text: der Satz
+  example: Der Satz ist zu lang.
+  hint: sentence
+  topics: [everyday]
+- text: das Ding
+  example: Das Ding ist kaputt.
+  hint: thing
+  topics: [everyday]
+- text: die Hälfte
+  example: Die Hälfte ist genug.
+  hint: half
+  topics: [everyday]
+- text: der Grund
+  example: Nenn mir einen guten Grund.
+  hint: reason
+  topics: [everyday]
+- text: die Lösung
+  example: Die Lösung ist ganz einfach.
+  hint: solution
+  topics: [everyday]
+- text: der Ort
+  example: Der Ort ist sehr schön.
+  hint: place
+  topics: [travel]
+- text: das Theater
+  example: Wir gehen ins Theater.
+  hint: theater
+  topics: [social]
+- text: die Polizei
+  example: Ruf schnell die Polizei!
+  hint: police
+  topics: [office]
+- text: abbiegen
+  example: Biegen Sie an der Ecke ab.
+  hint: turn
+  topics: [travel]
+- text: abnehmen
+  example: Ich möchte drei Kilo abnehmen.
+  hint: lose weight
+  topics: [health]
+- text: anprobieren
+  example: Darf ich die Jacke anprobieren?
+  hint: try on
+  topics: [shopping]
+- text: aufräumen
+  example: Ich muss mein Zimmer aufräumen.
+  hint: tidy up
+  topics: [housing]
+- text: ausziehen
+  example: Wir ziehen nächsten Monat aus.
+  hint: move out
+  topics: [housing]
+- text: backen
+  example: Ich backe einen Kuchen.
+  hint: bake
+  topics: [shopping]
+- text: beantworten
+  example: Bitte beantworten Sie meine Frage.
+  hint: answer
+  topics: [office]
+- text: sich bedanken
+  example: Ich möchte mich herzlich bedanken.
+  hint: thank
+  topics: [social]
+- text: sich beschweren
+  example: Ich möchte mich beschweren.
+  hint: complain
+  topics: [office]
+- text: besichtigen
+  example: Wir besichtigen morgen die Wohnung.
+  hint: view
+  topics: [housing, travel]
+- text: die Geschichte
+  example: Die Geschichte ist sehr interessant.
+  hint: story, history
+  topics: [everyday]
+- text: der Stress
+  example: Ich habe viel Stress bei der Arbeit.
+  hint: stress
+  topics: [social, work]
+- text: die Hochzeit
+  example: Die Hochzeit ist im Sommer.
+  hint: wedding
+  topics: [social]
+- text: das Museum
+  example: Das Museum ist heute geschlossen.
+  hint: museum
+  topics: [everyday]
+- text: die Freundschaft
+  example: Unsere Freundschaft ist sehr wichtig.
+  hint: friendship
+  topics: [social]
+- text: der Kontakt
+  example: Ich habe keinen Kontakt zu ihm.
+  hint: contact
+  topics: [social]
+- text: die Hoffnung
+  example: Ich habe die Hoffnung noch nicht verloren.
+  hint: hope
+  topics: [social]
+- text: die Stimmung
+  example: Die Stimmung ist heute sehr gut.
+  hint: mood, atmosphere
+  topics: [social]
+- text: die Wäsche
+  example: Die Wäsche ist noch nass.
+  hint: laundry
+  topics: [housing]
+- text: die Hausarbeit
+  example: Heute mache ich die Hausarbeit.
+  hint: housework
+  topics: [housing]
+- text: das Konzert
+  example: Wir gehen heute ins Konzert.
+  hint: concert
+  topics: [everyday]
+- text: die Ausstellung
+  example: Die Ausstellung ist sehr interessant.
+  hint: exhibition
+  topics: [everyday]
+- text: die Sekunde
+  example: Warte bitte eine Sekunde.
+  hint: second
+  topics: [everyday]
+- text: die Temperatur
+  example: Die Temperatur ist heute sehr hoch.
+  hint: temperature
+  topics: [health, everyday]
+- text: das Gewitter
+  example: Heute Abend kommt ein Gewitter.
+  hint: thunderstorm
+  topics: [everyday]
+- text: der Nebel
+  example: Bei Nebel fahre ich langsam.
+  hint: fog
+  topics: [travel, everyday]
+- text: die Jahreszeit
+  example: Der Herbst ist meine liebste Jahreszeit.
+  hint: season
+  topics: [everyday]
+- text: der Augenblick
+  example: Warte einen Augenblick, bitte.
+  hint: moment
+  topics: [everyday]
+- text: die Geduld
+  example: Ich habe keine Geduld mehr.
+  hint: patience
+  topics: [social]
+- text: die Wut
+  example: Seine Wut war schnell vorbei.
+  hint: anger
+  topics: [social]
+- text: die Beziehung
+  example: Sie haben eine gute Beziehung.
+  hint: relationship
+  topics: [social]
+- text: das Kompliment
+  example: Das ist ein nettes Kompliment.
+  hint: compliment
+  topics: [social]
+- text: der Mülleimer
+  example: Der Mülleimer ist schon voll.
+  hint: trash can
+  topics: [housing]
+- text: die Mülltonne
+  example: Die Mülltonne steht vor dem Haus.
+  hint: trash bin
+  topics: [housing]
+- text: der Handwerker
+  example: Der Handwerker repariert die Heizung.
+  hint: craftsman
+  topics: [housing]
+- text: die Spülmaschine
+  example: Die Spülmaschine läuft seit Stunden.
+  hint: dishwasher
+  topics: [housing]
+- text: der Staubsauger
+  example: Der Staubsauger ist sehr laut.
+  hint: vacuum cleaner
+  topics: [housing]
+- text: die Bettwäsche
+  example: Ich wechsle heute die Bettwäsche.
+  hint: bed linen
+  topics: [housing]
+- text: der Kassenzettel
+  example: Der Kassenzettel ist in der Tüte.
+  hint: receipt
+  topics: [shopping]
+- text: die Metzgerei
+  example: Ich kaufe Fleisch in der Metzgerei.
+  hint: butcher shop
+  topics: [shopping]
+- text: die Bedienung
+  example: Die Bedienung bringt uns die Speisekarte.
+  hint: service, waiter
+  topics: [shopping]
+- text: die Vorspeise
+  example: Als Vorspeise nehme ich Suppe.
+  hint: starter
+  topics: [shopping]
+- text: das Hauptgericht
+  example: Das Hauptgericht kostet zwölf Euro.
+  hint: main course
+  topics: [shopping]
+- text: die Portion
+  example: Die Portion ist viel zu groß.
+  hint: portion
+  topics: [shopping]
+- text: der Knoblauch
+  example: Ich koche mit viel Knoblauch.
+  hint: garlic
+  topics: [shopping]
+- text: das Kilo
+  example: Das Kilo Tomaten kostet zwei Euro.
+  hint: kilo
+  topics: [shopping]
+- text: die Abfahrt
+  example: Die Abfahrt ist um acht Uhr.
+  hint: departure
+  topics: [travel]
+- text: der Fahrgast
+  example: Der Fahrgast wartet auf den Bus.
+  hint: passenger
+  topics: [travel]
+- text: die Reservierung
+  example: Ich habe eine Reservierung für heute Abend.
+  hint: reservation
+  topics: [travel, shopping]
+- text: der Reiseführer
+  example: Der Reiseführer zeigt uns die Stadt.
+  hint: guidebook, guide
+  topics: [travel]
+- text: der Reifen
+  example: Der Reifen ist leider kaputt.
+  hint: tire
+  topics: [travel]
+- text: die Panne
+  example: Wir hatten eine Panne auf der Autobahn.
+  hint: breakdown
+  topics: [travel]
+- text: das Gehalt
+  example: Das Gehalt kommt am Monatsende.
+  hint: salary
+  topics: [work]
+- text: die Gebühr
+  example: Die Gebühr beträgt zehn Euro.
+  hint: fee
+  topics: [office]
+- text: die Warteschlange
+  example: Die Warteschlange ist sehr lang.
+  hint: queue
+  topics: [office]
+- text: das Passwort
+  example: Ich habe mein Passwort vergessen.
+  hint: password
+  topics: [office]
+- text: die Datei
+  example: Die Datei ist auf dem Computer.
+  hint: file
+  topics: [office]
+- text: der Bildschirm
+  example: Der Bildschirm ist zu hell.
+  hint: screen
+  topics: [office]
+- text: der Automat
+  example: Der Automat nimmt keine Karten.
+  hint: machine
+  topics: [office]
+- text: die Krankenkasse
+  example: Meine Krankenkasse zahlt die Medikamente.
+  hint: health insurance
+  topics: [health]
+- text: der Husten
+  example: Ich habe seit gestern Husten.
+  hint: cough
+  topics: [health]
+- text: die Allergie
+  example: Ich habe eine Allergie gegen Nüsse.
+  hint: allergy
+  topics: [health]
+- text: die Impfung
+  example: Die Impfung tut nicht weh.
+  hint: vaccination
+  topics: [health]
+- text: der Verband
+  example: Der Arzt macht einen Verband.
+  hint: bandage
+  topics: [health]
+- text: die Salbe
+  example: Die Salbe hilft gegen Schmerzen.
+  hint: ointment
+  topics: [health]
+- text: die Sprechstunde
+  example: Die Sprechstunde beginnt um neun.
+  hint: consultation hours
+  topics: [health]
+- text: der Notarzt
+  example: Wir rufen sofort den Notarzt.
+  hint: emergency doctor
+  topics: [health]
+- text: übermorgen
+  example: Übermorgen habe ich keine Zeit.
+  hint: day after tomorrow
+  topics: [everyday]
+- text: außerdem
+  example: Außerdem brauche ich noch Milch.
+  hint: besides, also
+  topics: [everyday]
+- text: ungefähr
+  example: Ich komme ungefähr um acht.
+  hint: approximately
+  topics: [everyday]
+- text: sogar
+  example: Er spricht sogar ein bisschen Deutsch.
+  hint: even
+  topics: [everyday]
+- text: kaum
+  example: Ich habe kaum Zeit für Sport.
+  hint: hardly
+  topics: [everyday]
+- text: zwar
+  example: Sie ist zwar müde, arbeitet aber weiter.
+  hint: admittedly
+  topics: [everyday]
+- text: entweder
+  example: Entweder wir gehen heute oder morgen.
+  hint: either
+  topics: [everyday]
+- text: falls
+  example: Falls es regnet, bleiben wir zu Hause.
+  hint: in case
+  topics: [everyday]
+- text: nachdem
+  example: Nachdem ich gegessen habe, gehe ich los.
+  hint: after
+  topics: [everyday]
+- text: seitdem
+  example: Seitdem er hier wohnt, ist er glücklich.
+  hint: since then
+  topics: [everyday]
+- text: übrigens
+  example: Übrigens, der Kurs beginnt morgen früher.
+  hint: by the way
+  topics: [everyday]
+- text: die Verabredung
+  example: Ich habe heute eine Verabredung.
+  hint: appointment
+  topics: [social]
+- text: der Vormittag
+  example: Am Vormittag habe ich einen Termin.
+  hint: late morning
+  topics: [everyday]
+- text: der Nachmittag
+  example: Am Nachmittag gehen wir ins Kino.
+  hint: afternoon
+  topics: [everyday]
+- text: der Schreibtisch
+  example: Mein Schreibtisch steht am Fenster.
+  hint: desk
+  topics: [office]
+- text: die Telefonnummer
+  example: Wie ist deine Telefonnummer?
+  hint: phone number
+  topics: [office]
+- text: die Bestätigung
+  example: Ich brauche eine Bestätigung für das Amt.
+  hint: confirmation
+  topics: [office]
+- text: der Feierabend
+  example: Um sechs habe ich endlich Feierabend.
+  hint: end of workday
+  topics: [work]
+- text: die Arbeitszeit
+  example: Meine Arbeitszeit beginnt um acht Uhr.
+  hint: working hours
+  topics: [work]
+- text: der Arbeitsplatz
+  example: Mein Arbeitsplatz ist sehr ruhig.
+  hint: workplace
+  topics: [work]
+- text: das Wörterbuch
+  example: Ich benutze oft das Wörterbuch.
+  hint: dictionary
+  topics: [everyday]
+- text: die Postkarte
+  example: Ich schicke dir eine Postkarte.
+  hint: postcard
+  topics: [travel]
+- text: das Radio
+  example: Im Auto höre ich immer Radio.
+  hint: radio
+  topics: [everyday]
+- text: die Geschwister
+  example: Hast du Geschwister?
+  hint: siblings
+  topics: [social]
+- text: die Entscheidung
+  example: Das war eine schwere Entscheidung.
+  hint: decision
+  topics: [social]
+- text: der Patient
+  example: Der Patient wartet schon im Zimmer.
+  hint: patient
+  topics: [health]
+- text: die Krankmeldung
+  example: Ich schicke die Krankmeldung an die Firma.
+  hint: sick note
+  topics: [health, work]
+- text: die Kantine
+  example: Wir essen mittags in der Kantine.
+  hint: canteen
+  topics: [work]
+- text: der Berg
+  example: Wir wandern heute auf den Berg.
+  hint: mountain
+  topics: [travel]
+- text: der Wald
+  example: Hinter dem Haus ist ein Wald.
+  hint: forest
+  topics: [travel]
+- text: der Ausgang
+  example: Der Ausgang ist am Ende des Gangs.
+  hint: exit
+  topics: [travel]
+- text: die Rolltreppe
+  example: Nimm die Rolltreppe in den ersten Stock.
+  hint: escalator
+  topics: [travel]
+- text: das Datum
+  example: Welches Datum haben wir heute?
+  hint: date
+  topics: [office]
+- text: der Zeitpunkt
+  example: Der Zeitpunkt für den Termin passt mir.
+  hint: point in time
+  topics: [office]
+- text: die Kälte
+  example: Bei dieser Kälte bleibe ich drinnen.
+  hint: cold
+  topics: [everyday]
+- text: der Sturm
+  example: Der Sturm hat den Garten zerstört.
+  hint: storm
+  topics: [everyday]
+- text: der Wetterbericht
+  example: Der Wetterbericht sagt Regen an.
+  hint: weather forecast
+  topics: [everyday]
+- text: frisch
+  example: Das Brot ist heute ganz frisch.
+  hint: fresh
+  topics: [shopping]
+- text: schlecht
+  example: Mir ist heute schlecht.
+  hint: bad/ill
+  topics: [health]
+- text: jung
+  example: Sie ist noch sehr jung.
+  hint: young
+  topics: [social]
+- text: nett
+  example: Dein Nachbar ist wirklich nett.
+  hint: nice
+  topics: [social]
+- text: einfach
+  example: Die Aufgabe ist ganz einfach.
+  hint: simple
+  topics: [everyday]
+- text: gefährlich
+  example: Diese Straße ist sehr gefährlich.
+  hint: dangerous
+  topics: [travel]
+- text: bequem
+  example: Dieser Stuhl ist sehr bequem.
+  hint: comfortable
+  topics: [housing]
+- text: berühmt
+  example: Der Koch ist sehr berühmt.
+  hint: famous
+  topics: [social]
+- text: froh
+  example: Ich bin froh über deine Hilfe.
+  hint: glad
+  topics: [social]
+- text: hübsch
+  example: Deine Wohnung ist wirklich hübsch.
+  hint: pretty
+  topics: [housing]
+- text: klar
+  example: Die Antwort ist mir klar.
+  hint: clear
+  topics: [everyday]
+- text: komisch
+  example: Der Film war wirklich komisch.
+  hint: funny/strange
+  topics: [social]
+- text: normal
+  example: Das ist ganz normal.
+  hint: normal
+  topics: [everyday]
+- text: ordentlich
+  example: Bitte halte dein Zimmer ordentlich.
+  hint: tidy
+  topics: [housing]
+- text: praktisch
+  example: Diese Tasche ist sehr praktisch.
+  hint: practical
+  topics: [everyday]
+- text: schwach
+  example: Ich fühle mich heute schwach.
+  hint: weak
+  topics: [health]
+- text: stark
+  example: Der Kaffee ist sehr stark.
+  hint: strong
+  topics: [everyday]
+- text: toll
+  example: Das Konzert war wirklich toll.
+  hint: great
+  topics: [social]
+- text: weit
+  example: Der Weg ist zu weit.
+  hint: far
+  topics: [travel]
+- text: ehrlich
+  example: Sei bitte ehrlich zu mir.
+  hint: honest
+  topics: [social]
+- text: fleißig
+  example: Sie arbeitet sehr fleißig.
+  hint: hard-working
+  topics: [work]
+- text: gemütlich
+  example: Das Wohnzimmer ist sehr gemütlich.
+  hint: cozy
+  topics: [housing]
+- text: die Badewanne
+  example: Die Badewanne ist voll mit Wasser.
+  hint: bathtub
+  topics: [housing]
+- text: die Pfanne
+  example: Die Pfanne steht auf dem Herd.
+  hint: pan
+  topics: [housing]
+- text: der Backofen
+  example: Der Backofen ist noch heiß.
+  hint: oven
+  topics: [housing]
+- text: die Mikrowelle
+  example: Ich wärme die Suppe in der Mikrowelle.
+  hint: microwave
+  topics: [housing]
+- text: kennen
+  example: Kennst du den neuen Nachbarn?
+  hint: know a person
+  topics: [social]
+- text: halten
+  example: Der Zug hält in Köln.
+  hint: hold, stop
+  topics: [travel]
+- text: stellen
+  example: Stell die Flasche auf den Tisch.
+  hint: put, place
+  topics: [housing]
+- text: reisen
+  example: Wir reisen im Sommer nach Italien.
+  hint: travel
+  topics: [travel]
+- text: rauchen
+  example: Hier darf man nicht rauchen.
+  hint: smoke
+  topics: [health]
+- text: rufen
+  example: Der Lehrer ruft meinen Namen.
+  hint: call, shout
+  topics: [social]
+- text: parken
+  example: Hier darf man nicht parken.
+  hint: park a car
+  topics: [travel]
+- text: planen
+  example: Wir planen den Urlaub zusammen.
+  hint: plan
+  topics: [travel]
+- text: verdienen
+  example: Sie verdient gut in ihrem Beruf.
+  hint: earn
+  topics: [work]
+- text: verbieten
+  example: Meine Eltern verbieten mir das.
+  hint: forbid
+  topics: [social]
+- text: scheinen
+  example: Die Sonne scheint heute hell.
+  hint: shine
+  topics: [everyday]
+- text: schaffen
+  example: Ich schaffe das bis morgen.
+  hint: manage, do
+  topics: [work]
+- text: zählen
+  example: Bitte zählen Sie das Geld.
+  hint: count
+  topics: [shopping]
+- text: wahr
+  example: Das ist wirklich wahr.
+  hint: 'true'
+  topics: [everyday]
+- text: kaputt
+  example: Mein Handy ist schon wieder kaputt.
+  hint: broken
+  topics: [everyday]
+- text: letzte
+  example: Das ist der letzte Bus.
+  hint: last
+  topics: [travel]
+- text: gemeinsam
+  example: Wir kochen heute gemeinsam.
+  hint: together
+  topics: [social]
+- text: geradeaus
+  example: Gehen Sie immer geradeaus.
+  hint: straight ahead
+  topics: [travel]
+- text: hoffentlich
+  example: Hoffentlich kommt der Zug pünktlich.
+  hint: hopefully
+  topics: [travel]
+- text: recht
+  example: Du hast mit deiner Idee recht.
+  hint: right, correct
+  topics: [everyday]
+- text: die Sache
+  example: Diese Sache ist sehr wichtig.
+  hint: thing, matter
+  topics: [everyday]
+- text: die Welt
+  example: Ich möchte die Welt sehen.
+  hint: world
+  topics: [travel]
+- text: der Kurs
+  example: Der Kurs beginnt am Montag.
+  hint: course
+  topics: [work]
+- text: der Plan
+  example: Wir haben einen guten Plan.
+  hint: plan
+  topics: [work]
+- text: die Seite
+  example: Öffnen Sie das Buch auf Seite zehn.
+  hint: page, side
+  topics: [office]
+- text: die Bestellung
+  example: Meine Bestellung kommt morgen an.
+  hint: order
+  topics: [shopping]
+- text: der Besuch
+  example: Wir haben heute Besuch.
+  hint: visit, guests
+  topics: [social]
+- text: der Appetit
+  example: Ich habe keinen Appetit.
+  hint: appetite
+  topics: [shopping]
+- text: das Alter
+  example: Er kennt ihr Alter nicht.
+  hint: age
+  topics: [social]
+- text: der Bäcker
+  example: Der Bäcker öffnet um sechs Uhr.
+  hint: baker
+  topics: [shopping]
+- text: bauen
+  example: Sie bauen ein neues Haus.
+  hint: build
+  topics: [housing]
+- text: bedeuten
+  example: Was bedeutet dieses Wort?
+  hint: mean
+  topics: [everyday]
+- text: bekannt
+  example: Diese Stadt ist sehr bekannt.
+  hint: well-known
+  topics: [travel]
+- text: buchen
+  example: Wir buchen ein Hotel für zwei Nächte.
+  hint: book
+  topics: [travel]
+- text: danken
+  example: Ich danke dir für die Hilfe.
+  hint: thank
+  topics: [social]
+- text: decken
+  example: Wir decken den Tisch jetzt.
+  hint: set a table
+  topics: [housing]
+- text: drücken
+  example: Bitte drücken Sie den Knopf.
+  hint: press
+  topics: [office]
+- text: einpacken
+  example: Ich packe das Geschenk ein.
+  hint: wrap, pack
+  topics: [shopping]
+- text: eintragen
+  example: Tragen Sie bitte Ihren Namen ein.
+  hint: enter, register
+  topics: [office]
+- text: die Feier
+  example: Die Feier beginnt um acht.
+  hint: celebration
+  topics: [social]
+- text: das Feuer
+  example: Das Feuer im Ofen brennt.
+  hint: fire
+  topics: [housing]
+- text: der Fleck
+  example: Da ist ein Fleck auf dem Hemd.
+  hint: stain, spot
+  topics: [housing]
+- text: fremd
+  example: Ich bin hier fremd.
+  hint: unfamiliar
+  topics: [travel]
+- text: die Frucht
+  example: Diese Frucht schmeckt sehr süß.
+  hint: fruit
+  topics: [shopping]
+- text: die Gegend
+  example: Die Gegend ist sehr ruhig.
+  hint: area, region
+  topics: [travel]
+- text: das Gerät
+  example: Das Gerät funktioniert nicht mehr.
+  hint: device
+  topics: [housing]
+- text: das Gewicht
+  example: Das Gewicht ist normal.
+  hint: weight
+  topics: [health]
+- text: gießen
+  example: Ich gieße die Blumen jeden Morgen.
+  hint: water, pour
+  topics: [housing]
+- text: der Glückwunsch
+  example: Herzlichen Glückwunsch zum Geburtstag!
+  hint: congratulations
+  topics: [social]
+- text: gratulieren
+  example: Ich gratuliere dir zum Geburtstag.
+  hint: congratulate
+  topics: [social]
+- text: gucken
+  example: Guck mal, der Bus kommt.
+  hint: look
+  topics: [everyday]
+- text: der Haushalt
+  example: Ich mache den Haushalt heute.
+  hint: household
+  topics: [housing]
+- text: heizen
+  example: Wir heizen im Winter mit Gas.
+  hint: heat
+  topics: [housing]
+- text: die Insel
+  example: Wir machen Urlaub auf einer Insel.
+  hint: island
+  topics: [travel]
+- text: joggen
+  example: Ich jogge jeden Morgen im Park.
+  hint: jog
+  topics: [health]
+- text: die Klasse
+  example: Meine Klasse ist sehr groß.
+  hint: class
+  topics: [everyday]
+- text: der Knopf
+  example: Der Knopf ist abgefallen.
+  hint: button
+  topics: [shopping]
+- text: die Kopie
+  example: Machen Sie bitte eine Kopie.
+  hint: copy
+  topics: [office]
+- text: kopieren
+  example: Bitte kopieren Sie das Dokument.
+  hint: copy
+  topics: [office]
+- text: die Kraft
+  example: Ich habe keine Kraft mehr.
+  hint: strength
+  topics: [health]

@@ -1500,3 +1500,5220 @@ der Bahnsteig:
 die Verspätung:
   meaning: delay
   example: The train has a ten-minute delay.
+die Information:
+  meaning: information
+  example: This information is very important.
+die Idee:
+  meaning: idea
+  example: That is a good idea.
+das Beispiel:
+  meaning: example
+  example: Can you give an example?
+die Karte:
+  meaning: card, map
+  example: I have the card with me.
+das Gespräch:
+  meaning: conversation
+  example: The conversation was very helpful.
+das Gefühl:
+  meaning: feeling
+  example: I have a good feeling.
+die Freizeit:
+  meaning: free time
+  example: In my free time I read books.
+das Hobby:
+  meaning: hobby
+  example: My hobby is listening to music.
+das Gesicht:
+  meaning: face
+  example: His face is completely red.
+die Haut:
+  meaning: skin
+  example: My skin is very dry.
+der Finger:
+  meaning: finger
+  example: My finger hurts very much.
+die Erkältung:
+  meaning: cold
+  example: I have a bad cold.
+das Herz:
+  meaning: heart
+  example: My heart is beating fast.
+die Hausaufgabe:
+  meaning: homework
+  example: I do my homework in the evening.
+die Bibliothek:
+  meaning: library
+  example: The library is closed today.
+die Kamera:
+  meaning: camera
+  example: The camera is very expensive.
+die Anmeldung:
+  meaning: registration
+  example: The registration is in the office.
+die Auskunft:
+  meaning: information
+  example: Where can I get information?
+der Aufzug:
+  meaning: elevator
+  example: The elevator is unfortunately broken.
+der Bleistift:
+  meaning: pencil
+  example: I need a pencil for the exam.
+der Drucker:
+  meaning: printer
+  example: The printer is not working today.
+das Heft:
+  meaning: notebook
+  example: Write the answer in the notebook.
+der Kalender:
+  meaning: calendar
+  example: The appointment is in the calendar.
+der Eingang:
+  meaning: entrance
+  example: The entrance is to the right of the garage.
+die Bäckerei:
+  meaning: bakery
+  example: The bakery opens at seven.
+das Brötchen:
+  meaning: bread roll
+  example: I am buying two bread rolls at the bakery.
+das Café:
+  meaning: cafe
+  example: We are meeting at the cafe.
+das Getränk:
+  meaning: drink
+  example: Would you like a cold drink?
+das Gericht:
+  meaning: dish, meal
+  example: This dish tastes very good.
+die Gurke:
+  meaning: cucumber
+  example: I am cutting a cucumber for the salad.
+das Huhn:
+  meaning: chicken
+  example: We are eating chicken with rice today.
+die Jeans:
+  meaning: jeans
+  example: These jeans fit me well.
+die Kette:
+  meaning: necklace, chain
+  example: The necklace is made of gold.
+der Friseur:
+  meaning: hairdresser
+  example: I am going to the hairdresser tomorrow.
+das Badezimmer:
+  meaning: bathroom
+  example: The bathroom is small but clean.
+die Dusche:
+  meaning: shower
+  example: The shower is in the bathroom.
+die Ecke:
+  meaning: corner
+  example: The shop is around the corner.
+die Garage:
+  meaning: garage
+  example: The car is in the garage.
+das Gebäude:
+  meaning: building
+  example: The building is very old.
+das Geschirr:
+  meaning: dishes
+  example: The dishes are not clean yet.
+das Handtuch:
+  meaning: towel
+  example: The towel is in the bathroom.
+der Hof:
+  meaning: yard, courtyard
+  example: The children are playing in the yard.
+das Holz:
+  meaning: wood
+  example: The table is made of wood.
+der Keller:
+  meaning: cellar, basement
+  example: The bicycles are in the basement.
+der Baum:
+  meaning: tree
+  example: The tree is in front of the house.
+die Blume:
+  meaning: flower
+  example: This flower smells very good.
+das Bild:
+  meaning: picture
+  example: The picture hangs on the wall.
+das Haar:
+  meaning: hair
+  example: She has long black hair.
+das Ausland:
+  meaning: foreign countries
+  example: She is working abroad for a year.
+der Fahrplan:
+  meaning: timetable
+  example: The timetable is on the platform.
+der Führerschein:
+  meaning: driving licence
+  example: I have obtained my driving licence.
+das Gepäck:
+  meaning: luggage
+  example: My luggage is still at the airport.
+das Gleis:
+  meaning: platform, track
+  example: The train departs from platform three.
+der Hafen:
+  meaning: harbour
+  example: The ship is in the harbour.
+die Ehefrau:
+  meaning: wife
+  example: His wife works in the hospital.
+der Ehemann:
+  meaning: husband
+  example: Her husband cooks very well.
+die Einladung:
+  meaning: invitation
+  example: Thanks for the invitation to dinner.
+die Entschuldigung:
+  meaning: apology
+  example: Excuse me, where is the train station?
+der Gast:
+  meaning: guest
+  example: The guest would like to see the menu.
+der Gruß:
+  meaning: greeting
+  example: Best regards to your family.
+die Gesundheit:
+  meaning: health
+  example: Health is more important than money.
+die Bewerbung:
+  meaning: application, job application
+  example: I am writing an application for the position.
+die Stelle:
+  meaning: position, job
+  example: I am looking for a new job.
+der Vertrag:
+  meaning: contract
+  example: The contract is valid for two years.
+die Ausbildung:
+  meaning: training, apprenticeship
+  example: The training lasts three years.
+das Konto:
+  meaning: bank account
+  example: I am opening a bank account at the bank.
+die Überweisung:
+  meaning: transfer
+  example: The transfer takes two days.
+der Antrag:
+  meaning: application, request
+  example: I am submitting an application to the office.
+die Unterschrift:
+  meaning: signature
+  example: Your signature is still missing here.
+die Quittung:
+  meaning: receipt
+  example: Please give me the receipt.
+der Rabatt:
+  meaning: discount
+  example: There is a discount on the dress.
+die Kreditkarte:
+  meaning: credit card
+  example: Can I pay by credit card?
+das Kleingeld:
+  meaning: small change, coins
+  example: I don't have any small change with me.
+der Einkaufswagen:
+  meaning: shopping cart
+  example: The shopping cart is already full.
+die Tüte:
+  meaning: bag
+  example: Would you like a bag?
+die Packung:
+  meaning: pack, packet
+  example: I'll take a pack of butter.
+die Dose:
+  meaning: can, tin
+  example: The can of cola is on the shelf.
+der Becher:
+  meaning: cup, tub
+  example: A cup of yogurt, please.
+das Sonderangebot:
+  meaning: special offer
+  example: Milk is on special offer today.
+die Öffnungszeit:
+  meaning: opening hours
+  example: The opening hours are short on Saturday.
+der Umtausch:
+  meaning: exchange
+  example: The exchange is possible until Monday.
+die Garantie:
+  meaning: guarantee, warranty
+  example: The phone has a warranty.
+der Mietvertrag:
+  meaning: rental contract, lease
+  example: The rental contract has already been signed.
+die Nebenkosten:
+  meaning: additional costs, utilities
+  example: The additional costs are included in the price.
+die Kaution:
+  meaning: deposit
+  example: The deposit is two months' rent.
+der Vermieter:
+  meaning: landlord
+  example: The landlord is coming by tomorrow.
+der Mieter:
+  meaning: tenant
+  example: The tenant pays the rent on time.
+das Erdgeschoss:
+  meaning: ground floor
+  example: We live on the ground floor.
+der Stock:
+  meaning: floor, storey
+  example: The apartment is on the third floor.
+der Flur:
+  meaning: hallway, corridor
+  example: The shoes are in the hallway.
+die Steckdose:
+  meaning: power outlet, socket
+  example: The power outlet is behind the sofa.
+der Briefkasten:
+  meaning: mailbox
+  example: The mail is in the mailbox.
+der Wasserhahn:
+  meaning: faucet, tap
+  example: The faucet is dripping all night.
+das Waschbecken:
+  meaning: sink, washbasin
+  example: The sink is already clean.
+die Reparatur:
+  meaning: repair
+  example: The repair unfortunately costs a lot of money.
+die Reise:
+  meaning: trip, journey
+  example: The trip was very nice.
+der Anschluss:
+  meaning: connection
+  example: I missed the connection.
+das Abteil:
+  meaning: compartment
+  example: We are sitting in the last compartment.
+der Sitzplatz:
+  meaning: seat
+  example: I have reserved a seat.
+die Grenze:
+  meaning: border
+  example: The border is still far away.
+der Zoll:
+  meaning: customs
+  example: We have to go through customs.
+die Fähre:
+  meaning: ferry
+  example: The ferry leaves every hour.
+das Schiff:
+  meaning: ship
+  example: The ship arrives this evening.
+die Straßenbahn:
+  meaning: tram
+  example: The tram stops right here.
+das Motorrad:
+  meaning: motorcycle
+  example: He likes riding a motorcycle.
+der Stau:
+  meaning: traffic jam
+  example: We are stuck in a traffic jam.
+die Tankstelle:
+  meaning: gas station
+  example: The gas station is just around the corner.
+das Benzin:
+  meaning: gasoline, petrol
+  example: Gasoline is more expensive again.
+der Parkplatz:
+  meaning: parking space, parking lot
+  example: I am looking for a parking space.
+die Autobahn:
+  meaning: highway, motorway
+  example: The highway is busy today.
+die Ampel:
+  meaning: traffic light
+  example: The traffic light is red.
+die Werkstatt:
+  meaning: repair shop, workshop
+  example: The car is at the repair shop.
+die Laune:
+  meaning: mood
+  example: Today I am in a good mood.
+die Überraschung:
+  meaning: surprise
+  example: The party was a nice surprise.
+das Vertrauen:
+  meaning: trust
+  example: Trust is important in a friendship.
+der Streit:
+  meaning: argument, quarrel
+  example: We had a small argument yesterday.
+deshalb:
+  meaning: therefore, that's why
+  example: It is raining, therefore we are staying at home.
+trotzdem:
+  meaning: nevertheless, anyway
+  example: I am tired, nevertheless I am going jogging.
+obwohl:
+  meaning: although
+  example: Although it is raining, we are going for a walk.
+während:
+  meaning: while
+  example: While I cook, he listens to music.
+die Nachricht:
+  meaning: message, news
+  example: I have good news for you.
+das Paket:
+  meaning: parcel
+  example: The parcel arrived today.
+der Pass:
+  meaning: passport
+  example: My passport is in the bag.
+der Ausflug:
+  meaning: excursion, trip
+  example: The trip is a lot of fun.
+die Ankunft:
+  meaning: arrival
+  example: The arrival is planned for tomorrow.
+der Aufenthalt:
+  meaning: stay
+  example: The stay at the hotel was short.
+erzählen:
+  meaning: tell, narrate
+  example: He tells a funny story.
+fehlen:
+  meaning: be missing
+  example: I'm still missing a piece of cake.
+hoffen:
+  meaning: hope
+  example: I hope for good weather.
+üben:
+  meaning: practise
+  example: We are practising German today.
+wiederholen:
+  meaning: repeat
+  example: Can you repeat the question?
+überweisen:
+  meaning: transfer money
+  example: I'll transfer the money tomorrow.
+sparen:
+  meaning: save money
+  example: We are saving for a trip.
+stören:
+  meaning: disturb
+  example: Please don't disturb me.
+höflich:
+  meaning: polite
+  example: The salesman is very polite.
+plötzlich:
+  meaning: suddenly
+  example: Suddenly it starts to rain.
+ruhig:
+  meaning: quiet
+  example: The room is very quiet.
+die Prüfung:
+  meaning: exam
+  example: The exam is next week.
+der Unterricht:
+  meaning: lessons, class
+  example: The lesson starts soon.
+der Student:
+  meaning: student
+  example: The student lives in a room.
+die Universität:
+  meaning: university
+  example: The university is closed today.
+der Schüler:
+  meaning: pupil
+  example: The pupil is doing his homework.
+der Zahnarzt:
+  meaning: dentist
+  example: I have an appointment at the dentist tomorrow.
+der Unfall:
+  meaning: accident
+  example: No one was injured in the accident.
+der Verkehr:
+  meaning: traffic
+  example: The traffic is very heavy today.
+das Verkehrsmittel:
+  meaning: means of transport
+  example: Which means of transport do you take?
+der Körper:
+  meaning: body
+  example: The body needs rest and water.
+der Magen:
+  meaning: stomach
+  example: My stomach hurts.
+die Schulter:
+  meaning: shoulder
+  example: My shoulder has been hurting since yesterday.
+die Untersuchung:
+  meaning: medical exam, checkup
+  example: The medical examination at the doctor's was short.
+der Schlaf:
+  meaning: sleep
+  example: Good sleep is very important.
+der Schnupfen:
+  meaning: head cold, cold
+  example: I have a bad cold.
+die Möbel:
+  meaning: furniture
+  example: The furniture is new and modern.
+der Raum:
+  meaning: room, space
+  example: The room is bright and big.
+das Rathaus:
+  meaning: town hall
+  example: The town hall is in the centre.
+der Schalter:
+  meaning: counter
+  example: The counter is closing soon.
+das Dokument:
+  meaning: document
+  example: Please bring the document with you.
+der Kunde:
+  meaning: customer
+  example: The customer wants to buy a loaf of bread.
+der Laden:
+  meaning: shop
+  example: The shop opens soon.
+der Imbiss:
+  meaning: snack stand
+  example: We eat a sausage at the snack stand.
+der Kiosk:
+  meaning: kiosk
+  example: I buy a newspaper at the kiosk.
+die Ware:
+  meaning: goods
+  example: The goods are well packed.
+das Produkt:
+  meaning: product
+  example: This product is very popular.
+der Pullover:
+  meaning: sweater
+  example: The sweater is too small.
+die Seife:
+  meaning: soap
+  example: The soap is in the bathroom.
+der Herbst:
+  meaning: autumn
+  example: It often rains in autumn.
+die Zeitschrift:
+  meaning: magazine
+  example: This magazine is very interesting.
+das Thema:
+  meaning: topic
+  example: The topic is very important today.
+der Tipp:
+  meaning: tip
+  example: Do you have a tip for me?
+der Traum:
+  meaning: dream
+  example: My dream is my own flat.
+der Verein:
+  meaning: club
+  example: The club meets in the evening.
+die Ruhe:
+  meaning: rest, quiet
+  example: I need some rest now.
+der Spaß:
+  meaning: fun
+  example: The trip is a lot of fun.
+die Situation:
+  meaning: situation
+  example: The situation is not easy.
+die Sorge:
+  meaning: worry
+  example: I have a big worry.
+der Strand:
+  meaning: beach
+  example: It is warm at the beach today.
+die Sehenswürdigkeit:
+  meaning: sight, attraction
+  example: The sight is very old.
+das Schloss:
+  meaning: castle, lock
+  example: The castle stands on a mountain.
+der Tourist:
+  meaning: tourist
+  example: The tourist asks for directions.
+erklären:
+  meaning: explain
+  example: Can you please explain that to me?
+entscheiden:
+  meaning: decide
+  example: We have to decide today.
+fühlen:
+  meaning: feel
+  example: I don't feel well today.
+anbieten:
+  meaning: offer
+  example: He offers me help.
+empfehlen:
+  meaning: recommend
+  example: Can you recommend a restaurant?
+vorbereiten:
+  meaning: prepare
+  example: I am preparing the food.
+versuchen:
+  meaning: try
+  example: I am trying to go to bed earlier.
+passieren:
+  meaning: happen
+  example: What happened yesterday?
+gehören:
+  meaning: belong to
+  example: This bag belongs to my sister.
+gefallen:
+  meaning: be pleasing to
+  example: I like the new sofa.
+passen:
+  meaning: fit
+  example: The jacket fits me well.
+reden:
+  meaning: talk
+  example: We need to talk about the plan.
+schauen:
+  meaning: look
+  example: Look out the window!
+sammeln:
+  meaning: collect
+  example: The children are collecting colorful stones.
+studieren:
+  meaning: study
+  example: She wants to study medicine.
+übernachten:
+  meaning: stay overnight
+  example: We are staying two nights at the hotel.
+umziehen:
+  meaning: move house
+  example: We are moving next month.
+verletzen:
+  meaning: injure
+  example: He injured himself while playing sports.
+vermieten:
+  meaning: rent out
+  example: They are renting out their apartment in the summer.
+verpassen:
+  meaning: miss
+  example: I missed the bus.
+vorschlagen:
+  meaning: suggest
+  example: I suggest a café.
+vorstellen:
+  meaning: introduce
+  example: May I introduce myself briefly?
+wechseln:
+  meaning: change
+  example: Can I change the appointment?
+ziehen:
+  meaning: pull
+  example: We are pulling the wardrobe to the left.
+die Kleidung:
+  meaning: clothing
+  example: The clothes are in the wardrobe.
+das Land:
+  meaning: country, countryside
+  example: We are going to the countryside.
+der Platz:
+  meaning: place, seat
+  example: Is this seat still free?
+die Post:
+  meaning: post office
+  example: The post office is closed today.
+die Zeitung:
+  meaning: newspaper
+  example: I read the newspaper in the morning.
+das Kino:
+  meaning: cinema
+  example: We are going to the cinema today.
+der Fluss:
+  meaning: river
+  example: The river is very wide.
+der Himmel:
+  meaning: sky
+  example: The sky is blue today.
+die Kirche:
+  meaning: church
+  example: The church is in the center.
+das Dorf:
+  meaning: village
+  example: My grandma lives in a village.
+die Mode:
+  meaning: fashion
+  example: Fashion changes quickly.
+der Sport:
+  meaning: sport
+  example: Sport is good for your health.
+das Spiel:
+  meaning: game
+  example: The game starts at eight.
+der Teil:
+  meaning: part
+  example: This part is very important.
+der Weg:
+  meaning: way, path
+  example: The way to the station is short.
+das Ziel:
+  meaning: goal, destination
+  example: The destination is still far away.
+die Zukunft:
+  meaning: future
+  example: In the future I want to travel.
+der Winter:
+  meaning: winter
+  example: In winter we need warm clothes.
+der Frühling:
+  meaning: spring
+  example: In spring many flowers bloom.
+die Wolke:
+  meaning: cloud
+  example: A dark cloud is coming closer.
+das Salz:
+  meaning: salt
+  example: Please add some salt to the soup.
+die Nudel:
+  meaning: noodle
+  example: I am cooking noodles with tomatoes today.
+der Topf:
+  meaning: pot
+  example: The pot is on the stove.
+der Sessel:
+  meaning: armchair
+  example: The armchair is very comfortable.
+besonders:
+  meaning: especially
+  example: Today it is especially cold.
+eigentlich:
+  meaning: actually
+  example: Actually, I wanted to stay at home.
+endlich:
+  meaning: finally
+  example: Finally, the weekend is here!
+draußen:
+  meaning: outside
+  example: The children are playing outside in the garden.
+drinnen:
+  meaning: inside
+  example: It is cold; we are staying inside.
+oben:
+  meaning: upstairs
+  example: The apartment is upstairs in the building.
+unten:
+  meaning: downstairs
+  example: The cellar is downstairs in the building.
+vorher:
+  meaning: beforehand
+  example: Please call me beforehand.
+nachher:
+  meaning: afterwards
+  example: Afterwards we are going shopping.
+überall:
+  meaning: everywhere
+  example: There are cafés everywhere in the city.
+wegen:
+  meaning: because of
+  example: Because of the rain, we are staying here.
+damit:
+  meaning: so that
+  example: I am cooking so that we can eat together.
+bekommen:
+  meaning: receive, get
+  example: I am getting a letter tomorrow.
+lassen:
+  meaning: let, leave
+  example: I leave the car at home.
+tun:
+  meaning: do
+  example: What can I do for you?
+benutzen:
+  meaning: use
+  example: I use the computer every day.
+sich freuen:
+  meaning: be glad, look forward to
+  example: I am looking forward to the vacation.
+möglich:
+  meaning: possible
+  example: Is that still possible tomorrow?
+gerade:
+  meaning: just now
+  example: I'm just getting home.
+sonst:
+  meaning: anything else
+  example: Anything else, please?
+informieren:
+  meaning: inform
+  example: Please inform me tomorrow.
+interessieren:
+  meaning: interest
+  example: The topic interests me very much.
+ausfüllen:
+  meaning: fill in
+  example: Please fill in the form.
+anmelden:
+  meaning: register
+  example: I have to register at the office.
+besprechen:
+  meaning: discuss
+  example: We'll discuss the problem as a team.
+stattfinden:
+  meaning: take place
+  example: The festival takes place in the park.
+teilnehmen:
+  meaning: take part
+  example: I am taking part in the course.
+prüfen:
+  meaning: check
+  example: Please check the invoice.
+verschieben:
+  meaning: postpone
+  example: We have to postpone the appointment.
+bestätigen:
+  meaning: confirm
+  example: Please confirm the appointment.
+abgeben:
+  meaning: hand in
+  example: I hand in the package at the counter.
+deswegen:
+  meaning: therefore
+  example: I'm sick, therefore I'm not coming.
+darum:
+  meaning: that's why
+  example: I have no time, that's why I'm not coming.
+meistens:
+  meaning: mostly
+  example: I mostly take the bus.
+zuletzt:
+  meaning: finally
+  example: Finally, we visit the market.
+selten:
+  meaning: rarely
+  example: He rarely drinks coffee.
+morgens:
+  meaning: in the morning
+  example: In the morning I always drink coffee.
+abends:
+  meaning: in the evening
+  example: In the evening I like watching TV.
+nachts:
+  meaning: at night
+  example: At night the street is very quiet.
+sich ärgern:
+  meaning: be annoyed
+  example: I'm annoyed about the traffic jam.
+sich entschuldigen:
+  meaning: apologize
+  example: I apologize for the delay.
+sich ausruhen:
+  meaning: rest
+  example: I rest on the weekend.
+sich beeilen:
+  meaning: hurry
+  example: Please hurry, we are late.
+wütend:
+  meaning: angry
+  example: I am angry at my brother.
+stolz:
+  meaning: proud
+  example: I am proud of you.
+einsam:
+  meaning: lonely
+  example: Living alone is often lonely.
+verliebt:
+  meaning: in love
+  example: I am in love with my neighbor.
+die Besprechung:
+  meaning: meeting
+  example: The meeting begins in the morning.
+die Abteilung:
+  meaning: department
+  example: I work in the purchasing department.
+der Lebenslauf:
+  meaning: CV
+  example: Please include your CV.
+das Praktikum:
+  meaning: internship
+  example: I am doing an internship in the office.
+der Einkauf:
+  meaning: shopping
+  example: The shopping doesn't take long.
+der Nachtisch:
+  meaning: dessert
+  example: What would you like for dessert?
+das Trinkgeld:
+  meaning: tip
+  example: We give the waiter a tip.
+tauschen:
+  meaning: exchange
+  example: Can I exchange the shirt?
+vergleichen:
+  meaning: compare
+  example: We compare the prices at the supermarket.
+die Torte:
+  meaning: cake
+  example: The cake is very delicious.
+der Umzug:
+  meaning: move
+  example: The move is next week.
+die Klingel:
+  meaning: doorbell
+  example: The doorbell is broken again.
+der Hausmeister:
+  meaning: caretaker
+  example: The caretaker repairs the door.
+die Glühbirne:
+  meaning: light bulb
+  example: The light bulb is broken.
+der Vorhang:
+  meaning: curtain
+  example: The curtain is still new.
+umsteigen:
+  meaning: change trains
+  example: You have to change trains at the main station.
+abfahren:
+  meaning: depart
+  example: The train departs soon.
+einchecken:
+  meaning: check in
+  example: We check in at the hotel.
+die Fahrt:
+  meaning: journey
+  example: The journey takes a very long time.
+der Schaffner:
+  meaning: train conductor
+  example: The train conductor checks the tickets.
+die Praxis:
+  meaning: doctor's office
+  example: I have an appointment at the doctor's office tomorrow.
+das Rezept:
+  meaning: prescription
+  example: I have a prescription from the doctor.
+der Krankenwagen:
+  meaning: ambulance
+  example: The ambulance is coming right away.
+die Verletzung:
+  meaning: injury
+  example: The injury hurts very much.
+wählen:
+  meaning: choose, dial
+  example: Please dial a number.
+der Anfang:
+  meaning: beginning
+  example: At the beginning everything was new.
+das Ende:
+  meaning: end
+  example: In the end, everyone was tired.
+die Person:
+  meaning: person
+  example: I don't know this person.
+das Glück:
+  meaning: luck, happiness
+  example: Good luck on the exam!
+die Luft:
+  meaning: air
+  example: I need fresh air.
+der Strom:
+  meaning: electricity, power
+  example: The power went out today.
+die Brücke:
+  meaning: bridge
+  example: The bridge is very old.
+die Kreuzung:
+  meaning: crossroads, intersection
+  example: Turn left at the intersection.
+der Stadtplan:
+  meaning: city map
+  example: I need a city map.
+das Reisebüro:
+  meaning: travel agency
+  example: We book at the travel agency.
+der Kugelschreiber:
+  meaning: ballpoint pen
+  example: The ballpoint pen doesn't write anymore.
+die Briefmarke:
+  meaning: postage stamp
+  example: I need a postage stamp.
+der Zettel:
+  meaning: note, slip
+  example: Write it on the slip of paper.
+die Liste:
+  meaning: list
+  example: The list isn't finished yet.
+die Kosten:
+  meaning: costs
+  example: The costs are too high.
+der Vorschlag:
+  meaning: suggestion
+  example: Your suggestion is very good.
+der Schmerz:
+  meaning: pain
+  example: I have severe pain.
+das Medikament:
+  meaning: medicine
+  example: Take the medicine every morning.
+der Durst:
+  meaning: thirst
+  example: I'm thirsty after exercise.
+die Hitze:
+  meaning: heat
+  example: In this heat I drink a lot.
+der Wecker:
+  meaning: alarm clock
+  example: The alarm clock rings at seven.
+der Rock:
+  meaning: skirt
+  example: The skirt fits me well.
+das Kleid:
+  meaning: dress
+  example: The dress is too expensive.
+der Anzug:
+  meaning: suit
+  example: He is wearing a black suit.
+die Bluse:
+  meaning: blouse
+  example: I like the blouse very much.
+der Joghurt:
+  meaning: yogurt
+  example: I eat yogurt with fruit.
+das Eis:
+  meaning: ice cream, ice
+  example: In summer we eat ice cream.
+das Bier:
+  meaning: beer
+  example: He drinks a beer.
+die Zwiebel:
+  meaning: onion
+  example: The onion makes me cry.
+die Mahlzeit:
+  meaning: meal
+  example: The meal was very tasty.
+der Koch:
+  meaning: cook
+  example: The cook works in the restaurant.
+die Kollegin:
+  meaning: female colleague
+  example: My colleague is sick today.
+die Lehrerin:
+  meaning: female teacher
+  example: The teacher explains the task.
+der Verkäufer:
+  meaning: salesman
+  example: The salesman helps me.
+die Erfahrung:
+  meaning: experience
+  example: He has a lot of experience in his job.
+das Zeugnis:
+  meaning: certificate, report
+  example: I received my certificate.
+der Feiertag:
+  meaning: public holiday
+  example: The public holiday is next week.
+die Nachbarin:
+  meaning: female neighbor
+  example: My neighbor is very friendly.
+die Liebe:
+  meaning: love
+  example: Love is sometimes complicated.
+der Wunsch:
+  meaning: wish
+  example: Do you have a wish?
+das Interesse:
+  meaning: interest
+  example: I am interested in music.
+die Gruppe:
+  meaning: group
+  example: The group is meeting tomorrow.
+der Satz:
+  meaning: sentence
+  example: The sentence is too long.
+das Ding:
+  meaning: thing
+  example: The thing is broken.
+die Hälfte:
+  meaning: half
+  example: Half is enough.
+der Grund:
+  meaning: reason
+  example: Give me a good reason.
+die Lösung:
+  meaning: solution
+  example: The solution is very simple.
+der Ort:
+  meaning: place
+  example: The place is very beautiful.
+das Theater:
+  meaning: theater
+  example: We are going to the theater.
+die Polizei:
+  meaning: police
+  example: Call the police quickly!
+abbiegen:
+  meaning: turn
+  example: Turn at the corner.
+abnehmen:
+  meaning: lose weight, take off
+  example: I want to lose three kilos.
+anprobieren:
+  meaning: try on
+  example: May I try on the jacket?
+aufräumen:
+  meaning: tidy up
+  example: I have to tidy up my room.
+ausziehen:
+  meaning: move out, take off
+  example: We are moving out next month.
+backen:
+  meaning: bake
+  example: I am baking a cake.
+beantworten:
+  meaning: answer
+  example: Please answer my question.
+sich bedanken:
+  meaning: thank
+  example: I would like to thank you sincerely.
+sich beschweren:
+  meaning: complain
+  example: I would like to complain.
+besichtigen:
+  meaning: view, inspect
+  example: We are viewing the apartment tomorrow.
+die Geschichte:
+  meaning: story, history
+  example: The story is very interesting.
+der Stress:
+  meaning: stress
+  example: I have a lot of stress at work.
+die Hochzeit:
+  meaning: wedding
+  example: The wedding is in summer.
+das Museum:
+  meaning: museum
+  example: The museum is closed today.
+die Freundschaft:
+  meaning: friendship
+  example: Our friendship is very important.
+der Kontakt:
+  meaning: contact
+  example: I have no contact with him.
+die Hoffnung:
+  meaning: hope
+  example: I haven't lost hope yet.
+die Stimmung:
+  meaning: mood, atmosphere
+  example: The mood today is very good.
+die Wäsche:
+  meaning: laundry
+  example: The laundry is still wet.
+die Hausarbeit:
+  meaning: housework
+  example: Today I'm doing the housework.
+das Konzert:
+  meaning: concert
+  example: We're going to the concert today.
+die Ausstellung:
+  meaning: exhibition
+  example: The exhibition is very interesting.
+die Sekunde:
+  meaning: second
+  example: Please wait a second.
+die Temperatur:
+  meaning: temperature
+  example: The temperature is very high today.
+das Gewitter:
+  meaning: thunderstorm
+  example: There's a thunderstorm coming tonight.
+der Nebel:
+  meaning: fog
+  example: I drive slowly in fog.
+die Jahreszeit:
+  meaning: season
+  example: Autumn is my favorite season.
+der Augenblick:
+  meaning: moment
+  example: Wait a moment, please.
+die Geduld:
+  meaning: patience
+  example: I have no patience left.
+die Wut:
+  meaning: anger
+  example: His anger passed quickly.
+die Beziehung:
+  meaning: relationship
+  example: They have a good relationship.
+das Kompliment:
+  meaning: compliment
+  example: That is a nice compliment.
+der Mülleimer:
+  meaning: trash can
+  example: The trash can is already full.
+die Mülltonne:
+  meaning: trash bin
+  example: The trash bin is in front of the house.
+der Handwerker:
+  meaning: craftsman
+  example: The craftsman is repairing the heating.
+die Spülmaschine:
+  meaning: dishwasher
+  example: The dishwasher has been running for hours.
+der Staubsauger:
+  meaning: vacuum cleaner
+  example: The vacuum cleaner is very loud.
+die Bettwäsche:
+  meaning: bed linen
+  example: I'm changing the bed linen today.
+der Kassenzettel:
+  meaning: receipt
+  example: The receipt is in the bag.
+die Metzgerei:
+  meaning: butcher shop
+  example: I buy meat at the butcher shop.
+die Bedienung:
+  meaning: service, waiter
+  example: The waiter brings us the menu.
+die Vorspeise:
+  meaning: starter
+  example: For a starter I'll have soup.
+das Hauptgericht:
+  meaning: main course
+  example: The main course costs twelve euros.
+die Portion:
+  meaning: portion
+  example: The portion is far too big.
+der Knoblauch:
+  meaning: garlic
+  example: I cook with a lot of garlic.
+das Kilo:
+  meaning: kilo
+  example: A kilo of tomatoes costs two euros.
+die Abfahrt:
+  meaning: departure
+  example: Departure is at eight o'clock.
+der Fahrgast:
+  meaning: passenger
+  example: The passenger is waiting for the bus.
+die Reservierung:
+  meaning: reservation
+  example: I have a reservation for tonight.
+der Reiseführer:
+  meaning: guidebook, guide
+  example: The guide is showing us the city.
+der Reifen:
+  meaning: tire
+  example: The tire is broken, unfortunately.
+die Panne:
+  meaning: breakdown
+  example: We had a breakdown on the highway.
+das Gehalt:
+  meaning: salary
+  example: The salary comes at the end of the month.
+die Gebühr:
+  meaning: fee
+  example: The fee is ten euros.
+die Warteschlange:
+  meaning: queue
+  example: The queue is very long.
+das Passwort:
+  meaning: password
+  example: I forgot my password.
+die Datei:
+  meaning: file
+  example: The file is on the computer.
+der Bildschirm:
+  meaning: screen
+  example: The screen is too bright.
+der Automat:
+  meaning: machine
+  example: The machine doesn't take cards.
+die Krankenkasse:
+  meaning: health insurance
+  example: My health insurance pays for the medication.
+der Husten:
+  meaning: cough
+  example: I've had a cough since yesterday.
+die Allergie:
+  meaning: allergy
+  example: I have an allergy to nuts.
+die Impfung:
+  meaning: vaccination
+  example: The vaccination doesn't hurt.
+der Verband:
+  meaning: bandage
+  example: The doctor applies a bandage.
+die Salbe:
+  meaning: ointment
+  example: The ointment helps with pain.
+die Sprechstunde:
+  meaning: consultation hours
+  example: Consultation hours begin at nine.
+der Notarzt:
+  meaning: emergency doctor
+  example: We're calling the emergency doctor right away.
+übermorgen:
+  meaning: day after tomorrow
+  example: I don't have time the day after tomorrow.
+außerdem:
+  meaning: besides, also
+  example: Besides, I still need milk.
+ungefähr:
+  meaning: approximately
+  example: I'll come at approximately eight.
+sogar:
+  meaning: even
+  example: He even speaks a little German.
+kaum:
+  meaning: hardly, barely
+  example: I hardly have time for sports.
+zwar:
+  meaning: admittedly, indeed
+  example: She is tired, but she keeps working.
+entweder:
+  meaning: either
+  example: Either we go today or tomorrow.
+falls:
+  meaning: in case, if
+  example: If it rains, we will stay at home.
+nachdem:
+  meaning: after
+  example: After I eat, I will leave.
+seitdem:
+  meaning: since then, since
+  example: Since he has lived here, he has been happy.
+übrigens:
+  meaning: by the way
+  example: By the way, the course starts earlier tomorrow.
+die Verabredung:
+  meaning: appointment, date
+  example: I have an appointment today.
+der Vormittag:
+  meaning: late morning
+  example: I have an appointment in the late morning.
+der Nachmittag:
+  meaning: afternoon
+  example: In the afternoon we are going to the cinema.
+der Schreibtisch:
+  meaning: desk
+  example: My desk is by the window.
+die Telefonnummer:
+  meaning: phone number
+  example: What is your phone number?
+die Bestätigung:
+  meaning: confirmation
+  example: I need a confirmation for the office.
+der Feierabend:
+  meaning: end of workday
+  example: At six I finally finish work.
+die Arbeitszeit:
+  meaning: working hours
+  example: My working hours start at eight.
+der Arbeitsplatz:
+  meaning: workplace, job
+  example: My workplace is very quiet.
+das Wörterbuch:
+  meaning: dictionary
+  example: I often use the dictionary.
+die Postkarte:
+  meaning: postcard
+  example: I will send you a postcard.
+das Radio:
+  meaning: radio
+  example: I always listen to the radio in the car.
+die Geschwister:
+  meaning: siblings
+  example: Do you have siblings?
+die Entscheidung:
+  meaning: decision
+  example: That was a difficult decision.
+der Patient:
+  meaning: patient
+  example: The patient is already waiting in the room.
+die Krankmeldung:
+  meaning: sick note
+  example: I am sending the sick note to the company.
+die Kantine:
+  meaning: canteen
+  example: We eat lunch in the canteen.
+der Berg:
+  meaning: mountain
+  example: We are hiking up the mountain today.
+der Wald:
+  meaning: forest
+  example: There is a forest behind the house.
+der Ausgang:
+  meaning: exit
+  example: The exit is at the end of the corridor.
+die Rolltreppe:
+  meaning: escalator
+  example: Take the escalator to the first floor.
+das Datum:
+  meaning: date
+  example: What is the date today?
+der Zeitpunkt:
+  meaning: point in time
+  example: The time for the appointment works for me.
+die Kälte:
+  meaning: cold, coldness
+  example: In this cold, I am staying indoors.
+der Sturm:
+  meaning: storm
+  example: The storm destroyed the garden.
+der Wetterbericht:
+  meaning: weather forecast
+  example: The weather forecast predicts rain.
+frisch:
+  meaning: fresh
+  example: The bread is very fresh today.
+schlecht:
+  meaning: bad, unwell
+  example: I feel sick today.
+jung:
+  meaning: young
+  example: She is still very young.
+nett:
+  meaning: nice, kind
+  example: Your neighbor is really nice.
+einfach:
+  meaning: simple, easy
+  example: The task is quite simple.
+gefährlich:
+  meaning: dangerous
+  example: This street is very dangerous.
+bequem:
+  meaning: comfortable
+  example: This chair is very comfortable.
+berühmt:
+  meaning: famous
+  example: The chef is very famous.
+froh:
+  meaning: glad
+  example: I am glad about your help.
+hübsch:
+  meaning: pretty
+  example: Your apartment is really pretty.
+klar:
+  meaning: clear, obvious
+  example: The answer is clear to me.
+komisch:
+  meaning: funny, strange
+  example: The film was really funny.
+normal:
+  meaning: normal
+  example: That is completely normal.
+ordentlich:
+  meaning: tidy, orderly
+  example: Please keep your room tidy.
+praktisch:
+  meaning: practical
+  example: This bag is very practical.
+schwach:
+  meaning: weak
+  example: I feel weak today.
+stark:
+  meaning: strong
+  example: The coffee is very strong.
+toll:
+  meaning: great
+  example: The concert was really great.
+weit:
+  meaning: far, wide
+  example: The route is too far.
+ehrlich:
+  meaning: honest
+  example: Please be honest with me.
+fleißig:
+  meaning: hard-working
+  example: She works very hard.
+gemütlich:
+  meaning: cozy, comfortable
+  example: The living room is very cozy.
+die Badewanne:
+  meaning: bathtub
+  example: The bathtub is full of water.
+die Pfanne:
+  meaning: pan
+  example: The pan is on the stove.
+der Backofen:
+  meaning: oven
+  example: The oven is still hot.
+die Mikrowelle:
+  meaning: microwave
+  example: I will heat the soup in the microwave.
+kennen:
+  meaning: know, be acquainted with
+  example: Do you know the new neighbor?
+halten:
+  meaning: hold, stop
+  example: The train stops in Cologne.
+stellen:
+  meaning: put, place
+  example: Put the bottle on the table.
+reisen:
+  meaning: travel
+  example: We are traveling to Italy in the summer.
+rauchen:
+  meaning: smoke
+  example: You are not allowed to smoke here.
+rufen:
+  meaning: call, shout
+  example: The teacher calls my name.
+parken:
+  meaning: park
+  example: You must not park here.
+planen:
+  meaning: plan
+  example: We are planning the vacation together.
+verdienen:
+  meaning: earn
+  example: She earns a good salary in her job.
+verbieten:
+  meaning: forbid
+  example: My parents forbid me to do that.
+scheinen:
+  meaning: shine
+  example: The sun is shining brightly today.
+schaffen:
+  meaning: manage, do
+  example: I'll get that done by tomorrow.
+zählen:
+  meaning: count
+  example: Please count the money.
+wahr:
+  meaning: 'true'
+  example: That is really true.
+kaputt:
+  meaning: broken
+  example: My phone is broken again.
+letzte:
+  meaning: last
+  example: That is the last bus.
+gemeinsam:
+  meaning: together
+  example: We are cooking together today.
+geradeaus:
+  meaning: straight ahead
+  example: Keep going straight ahead.
+hoffentlich:
+  meaning: hopefully
+  example: Hopefully the train will arrive on time.
+recht:
+  meaning: right, correct
+  example: You are right about your idea.
+die Sache:
+  meaning: thing, matter
+  example: This matter is very important.
+die Welt:
+  meaning: world
+  example: I want to see the world.
+der Kurs:
+  meaning: course
+  example: The course begins on Monday.
+der Plan:
+  meaning: plan
+  example: We have a good plan.
+die Seite:
+  meaning: page, side
+  example: Open the book to page ten.
+die Bestellung:
+  meaning: order
+  example: My order arrives tomorrow.
+der Besuch:
+  meaning: visit, guests
+  example: We have visitors today.
+der Appetit:
+  meaning: appetite
+  example: I have no appetite.
+das Alter:
+  meaning: age
+  example: He does not know her age.
+der Bäcker:
+  meaning: baker
+  example: The baker opens at six o'clock.
+bauen:
+  meaning: build
+  example: They are building a new house.
+bedeuten:
+  meaning: mean
+  example: What does this word mean?
+bekannt:
+  meaning: well-known
+  example: This city is very well-known.
+buchen:
+  meaning: book
+  example: We are booking a hotel for two nights.
+danken:
+  meaning: thank
+  example: I thank you for your help.
+decken:
+  meaning: set a table
+  example: We are setting the table now.
+drücken:
+  meaning: press
+  example: Please press the button.
+einpacken:
+  meaning: wrap, pack
+  example: I am wrapping the gift.
+eintragen:
+  meaning: enter, register
+  example: Please enter your name.
+die Feier:
+  meaning: celebration
+  example: The celebration begins at eight.
+das Feuer:
+  meaning: fire
+  example: The fire in the stove is burning.
+der Fleck:
+  meaning: stain, spot
+  example: There is a stain on the shirt.
+fremd:
+  meaning: unfamiliar
+  example: I am a stranger here.
+die Frucht:
+  meaning: fruit
+  example: This fruit tastes very sweet.
+die Gegend:
+  meaning: area, region
+  example: The area is very quiet.
+das Gerät:
+  meaning: device
+  example: The device no longer works.
+das Gewicht:
+  meaning: weight
+  example: The weight is normal.
+gießen:
+  meaning: water, pour
+  example: I water the flowers every morning.
+der Glückwunsch:
+  meaning: congratulations
+  example: Congratulations on your birthday!
+gratulieren:
+  meaning: congratulate
+  example: I congratulate you on your birthday.
+gucken:
+  meaning: look
+  example: Look, the bus is coming.
+der Haushalt:
+  meaning: household
+  example: I am doing the housework today.
+heizen:
+  meaning: heat
+  example: We heat with gas in winter.
+die Insel:
+  meaning: island
+  example: We are vacationing on an island.
+joggen:
+  meaning: jog
+  example: I jog in the park every morning.
+die Klasse:
+  meaning: class
+  example: My class is very big.
+der Knopf:
+  meaning: button
+  example: The button has fallen off.
+die Kopie:
+  meaning: copy
+  example: Please make a copy.
+kopieren:
+  meaning: copy
+  example: Please copy the document.
+die Kraft:
+  meaning: strength
+  example: I have no strength left.
+die Möglichkeit:
+  meaning: possibility
+  example: There is no other possibility.
+der Unterschied:
+  meaning: difference
+  example: The difference is not very big.
+die Bedeutung:
+  meaning: meaning, importance
+  example: The meaning of this word is unclear.
+die Gelegenheit:
+  meaning: opportunity
+  example: I had no opportunity to ask.
+die Sicherheit:
+  meaning: safety, security
+  example: Safety is important to us at home.
+der Erfolg:
+  meaning: success
+  example: Success depends on preparation.
+die Gesellschaft:
+  meaning: society
+  example: Society is changing quickly.
+die Umwelt:
+  meaning: environment
+  example: We must protect the environment better.
+die Verantwortung:
+  meaning: responsibility
+  example: He is responsible for the project.
+die Unterstützung:
+  meaning: support
+  example: Thanks for your support!
+die Erklärung:
+  meaning: explanation
+  example: His explanation was short and clear.
+der Vorteil:
+  meaning: advantage
+  example: The advantage is the short distance.
+der Nachteil:
+  meaning: disadvantage
+  example: Every advantage also has a disadvantage.
+die Absicht:
+  meaning: intention
+  example: That was not my intention.
+der Eindruck:
+  meaning: impression
+  example: You make a very good impression.
+die Erinnerung:
+  meaning: memory
+  example: I have a nice memory of it.
+die Enttäuschung:
+  meaning: disappointment
+  example: The disappointment was clearly visible.
+die Einstellung:
+  meaning: attitude, setting
+  example: His attitude toward work is positive.
+die Gewohnheit:
+  meaning: habit
+  example: Smoking is a bad habit.
+die Fähigkeit:
+  meaning: ability
+  example: She has the ability to learn quickly.
+die Ernährung:
+  meaning: nutrition, diet
+  example: A healthy diet is important for the body.
+die Bewegung:
+  meaning: movement, exercise
+  example: Exercise helps against back pain.
+die Behandlung:
+  meaning: treatment
+  example: The treatment takes about two weeks.
+die Operation:
+  meaning: surgery
+  example: The operation was successful.
+die Entspannung:
+  meaning: relaxation
+  example: After work I need relaxation.
+das Angebot:
+  meaning: offer, sale
+  example: The offer is valid only this week.
+die Qualität:
+  meaning: quality
+  example: The quality of the goods is good.
+die Auswahl:
+  meaning: selection
+  example: The selection in the shop is large.
+der Geschmack:
+  meaning: taste
+  example: The taste is a bit too salty.
+die Zutat:
+  meaning: ingredient
+  example: This ingredient is missing from the soup.
+die Frist:
+  meaning: deadline
+  example: The deadline ends next week.
+die Kündigung:
+  meaning: termination, notice
+  example: The termination must be in writing.
+die Versicherung:
+  meaning: insurance
+  example: The insurance pays for the damage.
+der Betrag:
+  meaning: amount
+  example: The amount is in the account.
+die Fortbildung:
+  meaning: training, further education
+  example: The training takes place next week.
+der Auftrag:
+  meaning: order, assignment
+  example: The order is almost finished.
+die Unterkunft:
+  meaning: accommodation
+  example: We are looking for affordable accommodation.
+die Buchung:
+  meaning: booking
+  example: The booking was confirmed immediately.
+die Ermäßigung:
+  meaning: discount
+  example: Is there a discount for students?
+die Umleitung:
+  meaning: detour
+  example: The detour goes through the village.
+die Baustelle:
+  meaning: construction site
+  example: The construction site blocks the road.
+der Schaden:
+  meaning: damage
+  example: The damage to the car is small.
+der Lärm:
+  meaning: noise
+  example: The noise from the street is disturbing.
+die Nachbarschaft:
+  meaning: neighborhood
+  example: The neighborhood often helps each other.
+die Hausordnung:
+  meaning: house rules
+  example: The house rules are posted in the hallway.
+die Besichtigung:
+  meaning: viewing
+  example: The viewing of the apartment is tomorrow.
+die Verpackung:
+  meaning: packaging
+  example: The packaging can be recycled.
+die Mühe:
+  meaning: effort
+  example: The effort was worth it.
+die Regel:
+  meaning: rule
+  example: This rule applies to everyone.
+die Pflicht:
+  meaning: duty
+  example: It is my duty to help.
+die Richtung:
+  meaning: direction
+  example: We are driving in the wrong direction.
+die Umgebung:
+  meaning: surroundings
+  example: The surroundings of the apartment are quiet.
+schließlich:
+  meaning: finally
+  example: Finally, we found an apartment.
+allerdings:
+  meaning: however
+  example: The price is good, however there is no warranty.
+trotz:
+  meaning: despite
+  example: Despite the rain, we are going for a walk.
+außer:
+  meaning: except, besides
+  example: No one except me is coming to the party.
+sodass:
+  meaning: so that
+  example: It is raining, so we are staying at home.
+sowohl:
+  meaning: both
+  example: Both the boss and I are sick.
+weder:
+  meaning: neither
+  example: Neither the bus nor the train is running.
+zunächst:
+  meaning: first, initially
+  example: First I have to fill out the form.
+sich bewerben:
+  meaning: apply for a job
+  example: I am applying for a new position.
+der Arbeitgeber:
+  meaning: employer
+  example: My employer pays the salary on time.
+das Vorstellungsgespräch:
+  meaning: job interview
+  example: The job interview is on Monday at ten.
+verantwortlich:
+  meaning: responsible
+  example: Who is responsible for the order?
+zuverlässig:
+  meaning: reliable
+  example: She is a reliable colleague.
+die Probezeit:
+  meaning: probation period
+  example: The probation period lasts six months.
+die Überstunden:
+  meaning: overtime
+  example: I worked a lot of overtime this week.
+die Schicht:
+  meaning: shift
+  example: My shift starts at six today.
+der Lohn:
+  meaning: wage, pay
+  example: The wage is paid at the end of the month.
+stressig:
+  meaning: stressful
+  example: Work is stressful at the moment.
+die Behörde:
+  meaning: authority, public office
+  example: The authority sends me a letter.
+der Beamte:
+  meaning: civil servant
+  example: The civil servant checks my application.
+die Unterlage:
+  meaning: document
+  example: I have to copy this document.
+der Nachweis:
+  meaning: proof, evidence
+  example: Please bring proof.
+die Bescheinigung:
+  meaning: certificate
+  example: The certificate must be signed.
+die Abmeldung:
+  meaning: deregistration
+  example: The deregistration must be done by Friday.
+die Ummeldung:
+  meaning: re-registration
+  example: After moving I need a re-registration.
+die Wartezeit:
+  meaning: waiting time
+  example: The waiting time at the office is long.
+die Reklamation:
+  meaning: complaint
+  example: I have a complaint about the printer.
+die Lieferung:
+  meaning: delivery
+  example: The delivery comes tomorrow afternoon.
+die Beratung:
+  meaning: advice, consultation
+  example: The advice in the shop was very good.
+das Lebensmittel:
+  meaning: food item, food
+  example: We buy food for the whole week.
+vegetarisch:
+  meaning: vegetarian
+  example: This dish is vegetarian and delicious.
+das Gewürz:
+  meaning: spice
+  example: This spice goes well with rice.
+haltbar:
+  meaning: keeps fresh, durable
+  example: The milk is still good for two days.
+die Werbung:
+  meaning: advertising, advertisement
+  example: Advertising on the internet annoys me.
+sich erholen:
+  meaning: recover, relax
+  example: I can really relax on vacation.
+sich erkälten:
+  meaning: catch a cold
+  example: I catch a cold easily in this weather.
+allergisch:
+  meaning: allergic
+  example: I am allergic to nuts.
+anstrengend:
+  meaning: exhausting, strenuous
+  example: The sport is very exhausting today.
+erschöpft:
+  meaning: exhausted
+  example: After work I am totally exhausted.
+ungesund:
+  meaning: unhealthy
+  example: Too much sugar is unhealthy.
+fit:
+  meaning: fit
+  example: I feel fit after sport.
+das Symptom:
+  meaning: symptom
+  example: Fever is a typical symptom.
+die Ursache:
+  meaning: cause
+  example: The cause of the pain is unclear.
+die Folge:
+  meaning: consequence
+  example: The consequences of the illness are serious.
+die Renovierung:
+  meaning: renovation
+  example: The renovation of the kitchen takes a long time.
+die Wohngemeinschaft:
+  meaning: shared flat
+  example: We live in a shared flat.
+die Einrichtung:
+  meaning: furnishing, furnishings
+  example: The apartment's furnishings are modern.
+die Lage:
+  meaning: location, situation
+  example: The location of the flat is quiet.
+unordentlich:
+  meaning: untidy, messy
+  example: His room is often untidy.
+der Flug:
+  meaning: flight
+  example: The flight takes only an hour.
+der Fahrschein:
+  meaning: ticket
+  example: I buy a ticket at the machine.
+die Jugendherberge:
+  meaning: youth hostel
+  example: We stay overnight in a youth hostel.
+das Doppelzimmer:
+  meaning: double room
+  example: I have reserved a double room.
+die Rückfahrt:
+  meaning: return trip
+  example: The return trip is planned for Sunday.
+sich unterhalten:
+  meaning: chat, converse
+  example: We chat about the film.
+sich verabreden:
+  meaning: arrange to meet
+  example: We arrange to meet tomorrow evening.
+sich streiten:
+  meaning: argue, quarrel
+  example: The children often argue.
+sich kümmern:
+  meaning: care for, look after
+  example: She looks after her sick mother.
+sich erinnern:
+  meaning: remember, recall
+  example: I remember the day.
+sich verabschieden:
+  meaning: say goodbye
+  example: We say goodbye at the station.
+der Erwachsene:
+  meaning: adult
+  example: Adults must help the children.
+der Jugendliche:
+  meaning: young person, teenager
+  example: Teenagers need freedom and rules.
+sobald:
+  meaning: as soon as
+  example: As soon as I am finished, I will call.
+solange:
+  meaning: as long as
+  example: As long as you are here, I will help you.
+statt:
+  meaning: instead of
+  example: We take tea instead of coffee.
+wahrscheinlich:
+  meaning: probably
+  example: He will probably come a little later.
+persönlich:
+  meaning: personally, in person
+  example: I want to speak to him personally.
+öffentlich:
+  meaning: public
+  example: The building is open to the public.
+bevor:
+  meaning: before
+  example: Wash your hands before you eat.
+nämlich:
+  meaning: namely, because
+  example: I'll come later, because I still have work.
+daher:
+  meaning: therefore
+  example: It's raining, therefore we'll stay home.
+inzwischen:
+  meaning: meanwhile, by now
+  example: By now I live alone.
+der Partner:
+  meaning: partner
+  example: My partner cooks better than I do.
+das Paar:
+  meaning: couple
+  example: The couple lives on the third floor.
+die Ehe:
+  meaning: marriage
+  example: Marriage is not always easy.
+der Respekt:
+  meaning: respect
+  example: I have great respect for her.
+das Verhalten:
+  meaning: behavior
+  example: His behavior is unclear to me.
+der Mut:
+  meaning: courage
+  example: She has the courage to travel alone.
+der Zweifel:
+  meaning: doubt
+  example: I have no doubts.
+die Rücksicht:
+  meaning: consideration, regard
+  example: Be considerate of the neighbors.
+die Eigenschaft:
+  meaning: quality, trait
+  example: Patience is a good quality.
+der Charakter:
+  meaning: character
+  example: He has a calm character.
+die Scheidung:
+  meaning: divorce
+  example: After the divorce she moved.
+die Trennung:
+  meaning: separation
+  example: The separation was very hard.
+der Arbeitnehmer:
+  meaning: employee
+  example: The employee has many rights.
+der Druck:
+  meaning: pressure
+  example: I am under pressure at work.
+die Stellenanzeige:
+  meaning: job advertisement
+  example: I found a job advertisement.
+die Absage:
+  meaning: rejection, refusal
+  example: Unfortunately, a rejection came by email.
+die Zusage:
+  meaning: acceptance, confirmation
+  example: Finally I received the confirmation.
+die Belastung:
+  meaning: burden, strain
+  example: The job is a great burden.
+die Steuer:
+  meaning: tax
+  example: The tax must be paid soon.
+der Kontoauszug:
+  meaning: bank statement
+  example: The bank statement is on the table.
+der Ordner:
+  meaning: folder, binder
+  example: Put the contract in the folder.
+die Tastatur:
+  meaning: keyboard
+  example: The keyboard is very dirty today.
+die Maus:
+  meaning: computer mouse
+  example: The mouse is next to the screen.
+der Anhang:
+  meaning: attachment
+  example: The file is in the attachment.
+der Stempel:
+  meaning: stamp
+  example: The official puts a stamp.
+die Bedingung:
+  meaning: condition
+  example: The condition is in the contract.
+die Genehmigung:
+  meaning: permit, approval
+  example: For the renovation we need a permit.
+der Wohnsitz:
+  meaning: residence
+  example: Please register your residence.
+die Aufenthaltserlaubnis:
+  meaning: residence permit
+  example: My residence permit is valid for two more years.
+die Staatsangehörigkeit:
+  meaning: nationality
+  example: Please enter your nationality.
+die Wunde:
+  meaning: wound
+  example: The wound must stay clean.
+die Spritze:
+  meaning: injection
+  example: The doctor gives me an injection.
+die Übelkeit:
+  meaning: nausea
+  example: I have nausea and fever.
+der Schwindel:
+  meaning: dizziness
+  example: The dizziness comes suddenly.
+der Durchfall:
+  meaning: diarrhea
+  example: Diarrhea and fever keep me in bed.
+die Wirkung:
+  meaning: effect
+  example: The tablets have a quick effect.
+die Diagnose:
+  meaning: diagnosis
+  example: Fortunately, the diagnosis was good.
+die Notaufnahme:
+  meaning: emergency room
+  example: We're going to the emergency room immediately.
+scharf:
+  meaning: spicy, sharp
+  example: The soup is too spicy for me.
+bitter:
+  meaning: bitter
+  example: The coffee tastes bitter today.
+roh:
+  meaning: raw
+  example: Vegetables should often be eaten raw.
+der Inhalt:
+  meaning: contents
+  example: The contents of the bottle are red.
+die Mülltrennung:
+  meaning: waste sorting
+  example: Waste sorting is very important for us.
+die Sicherung:
+  meaning: fuse
+  example: The power is out, check the fuse.
+die Anzeige:
+  meaning: advertisement, ad
+  example: We have an advertisement for the apartment.
+die Verbindung:
+  meaning: connection
+  example: Unfortunately, the connection is bad today.
+der Umstieg:
+  meaning: transfer
+  example: The transfer is at the next station.
+die Hinfahrt:
+  meaning: outward journey
+  example: The outward journey takes three hours.
+der Reisebus:
+  meaning: coach bus
+  example: We're going to the sea by coach.
+die Pension:
+  meaning: guesthouse, boarding house
+  example: We're staying overnight in a small guesthouse.
+der Prospekt:
+  meaning: brochure
+  example: The brochure has many offers.
+die Bordkarte:
+  meaning: boarding pass
+  example: Please show your boarding pass.
+andererseits:
+  meaning: on the other hand
+  example: On the other hand, the apartment is too expensive.
+jedenfalls:
+  meaning: anyway
+  example: Anyway, I'll come tomorrow.
+die Art:
+  meaning: kind, type
+  example: I like this kind of music.
+die Weise:
+  meaning: way, manner
+  example: In this way we save time.
+der Alltag:
+  meaning: everyday life
+  example: In everyday life I have little time.
+der Mitarbeiter:
+  meaning: employee, staff member
+  example: The new employee is very friendly.
+der Betrieb:
+  meaning: company, business
+  example: The company is looking for new employees.
+die Diskussion:
+  meaning: discussion
+  example: The discussion was long and interesting.
+gewinnen:
+  meaning: to win, to gain
+  example: I want to win the game.
+die Natur:
+  meaning: nature
+  example: We enjoy nature at the weekend.
+das Pflaster:
+  meaning: adhesive bandage, plaster
+  example: I need an adhesive bandage for the wound.
+der Fahrer:
+  meaning: driver
+  example: The driver is waiting in front of the hotel.
+die Rückgabe:
+  meaning: return
+  example: Returns are only possible with a receipt.
+der Gutschein:
+  meaning: voucher, gift card
+  example: I have a voucher for the restaurant.
+die Beschwerde:
+  meaning: complaint
+  example: I am writing a complaint about the service.
+der Apotheker:
+  meaning: pharmacist
+  example: The pharmacist explains the tablets to me.
+die Krankschreibung:
+  meaning: sick note, medical certificate
+  example: I have a sick note from the doctor.
+der Hausarzt:
+  meaning: family doctor, GP
+  example: I am going to the family doctor tomorrow.
+die Therapie:
+  meaning: therapy
+  example: The therapy takes several weeks.
+das Visum:
+  meaning: visa
+  example: I need a visa for the trip.
+die Botschaft:
+  meaning: embassy, message
+  example: I am going to the embassy tomorrow.
+die Mitteilung:
+  meaning: message, notification
+  example: I have an important message for you.
+die Erlaubnis:
+  meaning: permission
+  example: I need my parents' permission.
+erlauben:
+  meaning: to allow, to permit
+  example: My parents allow me to go on the trip.
+der Artikel:
+  meaning: article, item
+  example: I am reading an interesting article.
+die Notiz:
+  meaning: note
+  example: I am making a note for tomorrow.
+die Veranstaltung:
+  meaning: event
+  example: The event takes place in the park.
+die Eintrittskarte:
+  meaning: admission ticket
+  example: I am buying an admission ticket for the museum.
+die Landschaft:
+  meaning: landscape, scenery
+  example: The landscape is really beautiful.
+die Aussicht:
+  meaning: view, prospect
+  example: From here you have a beautiful view.
+die Übernachtung:
+  meaning: overnight stay
+  example: The overnight stay at the hotel was expensive.
+die Anreise:
+  meaning: journey there, arrival
+  example: The journey there by train takes a long time.
+die Abreise:
+  meaning: departure
+  example: The departure is planned for Sunday.
+der Fernbus:
+  meaning: long-distance bus, coach
+  example: The long-distance bus is cheaper than the train.
+das Kennzeichen:
+  meaning: licence plate, characteristic
+  example: I am noting down the car's licence plate.
+der Strafzettel:
+  meaning: parking ticket
+  example: I got a parking ticket.
+die Küste:
+  meaning: coast
+  example: We are going to the coast at the weekend.
+der Mietpreis:
+  meaning: rental price, rent
+  example: The rental price is too high.
+die Wohnungsbesichtigung:
+  meaning: flat viewing, apartment viewing
+  example: I have a flat viewing tomorrow.
+die Hausverwaltung:
+  meaning: property management
+  example: The property management is repairing the elevator.
+der Einzug:
+  meaning: moving in, entry
+  example: Moving in was very stressful.
+der Auszug:
+  meaning: moving out, extract
+  example: Moving out of the apartment was stressful.
+der Dachboden:
+  meaning: attic, loft
+  example: The suitcases are in the attic.
+die Terrasse:
+  meaning: terrace, patio
+  example: We are having breakfast on the terrace.
+die Routine:
+  meaning: routine
+  example: My morning routine is important.
+der Humor:
+  meaning: humour
+  example: He has a good sense of humour.
+das Lob:
+  meaning: praise
+  example: The praise made me very happy.
+die Kritik:
+  meaning: criticism, review
+  example: I can take criticism well.
+der Konflikt:
+  meaning: conflict
+  example: We must resolve the conflict.
+das Argument:
+  meaning: argument, reason
+  example: Your argument convinces me.
+der Verwandte:
+  meaning: relative
+  example: A relative is visiting us tomorrow.
+die Erziehung:
+  meaning: upbringing, education
+  example: Raising children is exhausting.
+die Freiheit:
+  meaning: freedom, liberty
+  example: Freedom is very important to me.
+der Frieden:
+  meaning: peace
+  example: We want to live in peace.
+die Stimme:
+  meaning: voice, vote
+  example: She has a calm voice.
+das Lied:
+  meaning: song
+  example: I like the song very much.
+die Mannschaft:
+  meaning: team
+  example: Our team won the game.
+das Ergebnis:
+  meaning: result
+  example: The result was better than expected.
+die Chance:
+  meaning: chance, opportunity
+  example: That is a good opportunity for you.
+das Pech:
+  meaning: bad luck, pitch
+  example: I had bad luck with the weather.
+der Zufall:
+  meaning: coincidence, chance
+  example: It was just a coincidence.
+die Gefahr:
+  meaning: danger
+  example: Fortunately, the danger is over.
+der Umweltschutz:
+  meaning: environmental protection
+  example: Environmental protection is important for everyone.
+das Klima:
+  meaning: climate
+  example: The climate is changing quickly.
+bereits:
+  meaning: already
+  example: I have already eaten.
+dennoch:
+  meaning: nevertheless
+  example: It is raining, nevertheless I am going for a walk.
+jedoch:
+  meaning: however
+  example: I wanted to come, however I had no time.
+einerseits:
+  meaning: on one hand
+  example: On one hand it is expensive, on the other hand it is very good.
+teilweise:
+  meaning: partly
+  example: The answer is partly correct.
+ziemlich:
+  meaning: quite
+  example: The book is quite interesting.
+völlig:
+  meaning: completely
+  example: I am completely tired.
+unbedingt:
+  meaning: absolutely, necessarily
+  example: You absolutely must go to the doctor.
+eventuell:
+  meaning: possibly
+  example: I might come later.
+möglicherweise:
+  meaning: possibly
+  example: It might rain tomorrow.
+weshalb:
+  meaning: why
+  example: Why didn't you call?
+wieso:
+  meaning: why
+  example: Why are you so sad?
+nirgendwo:
+  meaning: nowhere
+  example: I can't find my key anywhere.
+irgendwo:
+  meaning: somewhere
+  example: I lost my phone somewhere.
+irgendwann:
+  meaning: sometime
+  example: I'll visit you sometime.
+irgendwie:
+  meaning: somehow
+  example: Somehow I have the feeling you're lying.
+sowieso:
+  meaning: anyway
+  example: I'm going to be late anyway.
+ebenfalls:
+  meaning: likewise
+  example: I like coffee, and my brother does too.
+zusätzlich:
+  meaning: additionally
+  example: Additionally, I need milk.
+ansonsten:
+  meaning: otherwise
+  example: Hurry up, otherwise we'll miss the train.
+häufig:
+  meaning: frequently
+  example: I often go to the cinema.
+gelegentlich:
+  meaning: occasionally
+  example: Occasionally I drink a glass of wine.
+rechtzeitig:
+  meaning: in time
+  example: Please come to the appointment on time.
+meist:
+  meaning: mostly, usually
+  example: I usually ride my bike.
+bestimmt:
+  meaning: definitely, certainly
+  example: He'll definitely be late.
+mehrere:
+  meaning: several
+  example: I have several questions.
+das Blut:
+  meaning: blood
+  example: The doctor is taking my blood.
+der Blutdruck:
+  meaning: blood pressure
+  example: My blood pressure is too high today.
+die Lunge:
+  meaning: lung
+  example: Smoking is bad for the lungs.
+der Darm:
+  meaning: intestine
+  example: The intestine is an important organ.
+die Niere:
+  meaning: kidney
+  example: The kidney filters the blood.
+die Leber:
+  meaning: liver
+  example: Alcohol harms the liver.
+das Gehirn:
+  meaning: brain
+  example: The brain needs a lot of oxygen.
+der Knochen:
+  meaning: bone
+  example: The bone is broken.
+der Muskel:
+  meaning: muscle
+  example: The muscle hurts after exercise.
+das Gelenk:
+  meaning: joint
+  example: The joint is swollen.
+die Vorsorge:
+  meaning: prevention
+  example: Prevention is better than cure.
+die Klinik:
+  meaning: clinic, hospital
+  example: He is in the clinic.
+die Währung:
+  meaning: currency
+  example: I need to change money into another currency.
+der Wechselkurs:
+  meaning: exchange rate
+  example: The exchange rate is bad today.
+das Einzelzimmer:
+  meaning: single room
+  example: I would like to book a single room.
+die Rezeption:
+  meaning: reception
+  example: The reception is staffed around the clock.
+das Bargeld:
+  meaning: cash
+  example: I prefer to pay in cash.
+die EC-Karte:
+  meaning: debit card
+  example: Can I pay by debit card?
+der Geldautomat:
+  meaning: ATM
+  example: I have to go to the ATM.
+die Rente:
+  meaning: pension
+  example: He will soon receive his pension.
+die Sendung:
+  meaning: consignment, shipment
+  example: The consignment has not arrived yet.
+die Akte:
+  meaning: file
+  example: The file is on the desk.
+der Widerspruch:
+  meaning: objection, contradiction
+  example: I am lodging an objection against the notice.
+die Vollmacht:
+  meaning: power of attorney
+  example: You need power of attorney to sign.
+die Beglaubigung:
+  meaning: certification
+  example: I need certification of my signature.
+heiraten:
+  meaning: to marry
+  example: They want to get married in the summer.
+sich trennen:
+  meaning: to separate, to break up
+  example: Unfortunately, they want to separate.
+ängstlich:
+  meaning: anxious
+  example: The child is anxious during a thunderstorm.
+sich sorgen:
+  meaning: to worry
+  example: I worry about my mother.
+geduldig:
+  meaning: patient
+  example: Please be patient with the children.
+mutig:
+  meaning: brave
+  example: It was brave of you to say that.
+sympathisch:
+  meaning: likeable
+  example: Your new colleague is very likeable.
+vertrauen:
+  meaning: to trust
+  example: I trust you completely.
+respektieren:
+  meaning: to respect
+  example: We must respect other people's opinions.
+ändern:
+  meaning: to change
+  example: I have to change my appointment.
+aufhören:
+  meaning: to stop
+  example: Please stop smoking.
+aufpassen:
+  meaning: to watch out, to look after
+  example: Keep an eye on the children!
+aussehen:
+  meaning: to look, to appear
+  example: You look tired today.
+beenden:
+  meaning: to finish, to end
+  example: I want to finish the work.
+beschreiben:
+  meaning: to describe
+  example: Can you describe the problem?
+besitzen:
+  meaning: to own
+  example: He owns a big house.
+diskutieren:
+  meaning: to discuss
+  example: We are discussing the topic.
+erledigen:
+  meaning: to complete, to deal with
+  example: I still have to complete a task.
+erreichen:
+  meaning: to reach
+  example: When will we reach the station?
+funktionieren:
+  meaning: to work, to function
+  example: The elevator is not working.
+kennenlernen:
+  meaning: to get to know, to meet
+  example: I want to get to know new people.
+kontrollieren:
+  meaning: to check, to inspect
+  example: Please check the bill.
+lösen:
+  meaning: to solve
+  example: We have to solve the problem.
+mitnehmen:
+  meaning: to take along
+  example: Take an umbrella with you.
+nennen:
+  meaning: to name, to mention
+  example: Can you give an example?
+sondern:
+  meaning: but rather
+  example: I don't drink coffee, but rather tea.
+je:
+  meaning: ever, each
+  example: The more, the better.
+desto:
+  meaning: the (with comparison)
+  example: The earlier, the better.
+etwa:
+  meaning: about, approximately
+  example: It takes about ten minutes.
+beinahe:
+  meaning: almost, nearly
+  example: I almost came too late.
+berichten:
+  meaning: to report
+  example: The newspaper reports on the accident.
+beruhigen:
+  meaning: to calm, to calm down
+  example: Please calm down!
+beschäftigen:
+  meaning: to employ, to occupy
+  example: The company employs 50 staff.
+beschließen:
+  meaning: to decide, to resolve
+  example: We decide to go.
+betreuen:
+  meaning: to care for, to look after
+  example: She looks after the children.
+einnehmen:
+  meaning: to take (medicine)
+  example: Take the tablets.
+einschlafen:
+  meaning: to fall asleep
+  example: I can't fall asleep.
+entdecken:
+  meaning: to discover
+  example: We discover new places.
+entwickeln:
+  meaning: to develop
+  example: We are developing a new product.
+der Anruf:
+  meaning: phone call, call
+  example: I received a phone call.
+der Bericht:
+  meaning: report
+  example: I am reading the report.
+die Daten:
+  meaning: data
+  example: The data are saved.
+die Entfernung:
+  meaning: distance
+  example: The distance is large.
+die Änderung:
+  meaning: change, alteration
+  example: The change is important.
+der Bürger:
+  meaning: citizen
+  example: The citizens are protesting.
+die Ahnung:
+  meaning: idea, clue
+  example: I have no idea.
+der Arbeiter:
+  meaning: worker
+  example: The worker is repairing the roof.
+die Ausnahme:
+  meaning: exception
+  example: That is an exception.
+der Ausdruck:
+  meaning: expression, term
+  example: The expression is wrong.
+der Bankautomat:
+  meaning: ATM, cash machine
+  example: I am going to the ATM.
+die Einnahme:
+  meaning: taking (medicine), intake
+  example: Taking the medicine is important.
+die Erfindung:
+  meaning: invention
+  example: The invention is brilliant.
+die Fabrik:
+  meaning: factory
+  example: The factory produces cars.
+der Fortschritt:
+  meaning: progress
+  example: We are making progress.
+aktiv:
+  meaning: active
+  example: I am physically active.
+allgemein:
+  meaning: general, generally
+  example: That is generally known.
+angenehm:
+  meaning: pleasant, agreeable
+  example: The weather is pleasant.
+ärgerlich:
+  meaning: annoying, irritating
+  example: That is really annoying.
+ausgezeichnet:
+  meaning: excellent
+  example: The food was excellent.
+ausreichend:
+  meaning: sufficient, enough
+  example: The money is sufficient.
+bereit:
+  meaning: ready
+  example: I am ready to go.
+beschäftigt:
+  meaning: busy
+  example: I am very busy today.
+besorgt:
+  meaning: worried, concerned
+  example: She is worried about him.
+bewusst:
+  meaning: aware, conscious
+  example: I am aware of that.
+anstatt:
+  meaning: instead of
+  example: Instead of studying, he is playing.
+innerhalb:
+  meaning: within
+  example: The project will be finished within a week.
+außerhalb:
+  meaning: outside, outside of
+  example: We live outside the city.
+aufgrund:
+  meaning: due to, because of
+  example: Due to the rain, we are staying.
+dank:
+  meaning: thanks to
+  example: Thanks to you, I made it.
+bitten:
+  meaning: to ask, to request
+  example: I would like to ask you for help.
+merken:
+  meaning: remember, note
+  example: I'll remember your phone number.
+stimmen:
+  meaning: be correct
+  example: That's right, you're completely right.
+organisieren:
+  meaning: organize
+  example: I'm organizing the trip for us.
+vereinbaren:
+  meaning: arrange, agree
+  example: We're arranging an appointment for Monday.
+begrüßen:
+  meaning: welcome, greet
+  example: The boss greets the new colleagues.
+erwarten:
+  meaning: expect
+  example: I expect your answer by tomorrow.
+konzentrieren:
+  meaning: concentrate
+  example: I can't concentrate here.
+ausmachen:
+  meaning: switch off
+  example: Please turn off the light in the hallway.
+hängen:
+  meaning: hang
+  example: The picture hangs above the sofa.
+stecken:
+  meaning: be stuck
+  example: The key is still in the lock.
+legen:
+  meaning: lay, put
+  example: Put the bag on the table.
+fallen:
+  meaning: fall
+  example: Careful, or you'll fall on the stairs.
+steigen:
+  meaning: rise
+  example: Unfortunately, prices are rising every month.
+sinken:
+  meaning: fall, sink
+  example: The temperature is falling sharply tonight.
+wachsen:
+  meaning: grow
+  example: The children are growing very fast.
+brechen:
+  meaning: break
+  example: He broke his leg.
+bluten:
+  meaning: bleed
+  example: The wound is still bleeding a little.
+atmen:
+  meaning: breathe
+  example: After running, I can hardly breathe.
+niesen:
+  meaning: sneeze
+  example: She sneezes because of the allergy.
+untersuchen:
+  meaning: examine
+  example: The doctor is examining my back today.
+behandeln:
+  meaning: treat
+  example: The doctor treats the wound with ointment.
+operieren:
+  meaning: operate
+  example: They need to operate on the knee tomorrow.
+messen:
+  meaning: measure
+  example: The nurse is measuring my blood pressure.
+impfen:
+  meaning: vaccinate
+  example: The doctor vaccinates the children against flu.
+verschreiben:
+  meaning: prescribe
+  example: The doctor prescribes me a new medication.
+schwanger:
+  meaning: pregnant
+  example: My colleague has been pregnant since April.
+überrascht:
+  meaning: surprised
+  example: She was very surprised by the news.
+enttäuscht:
+  meaning: disappointed
+  example: I am disappointed with the result.
+verheiratet:
+  meaning: married
+  example: My sister has been married since May.
+geschieden:
+  meaning: divorced
+  example: He has been divorced for a year.
+ledig:
+  meaning: single, unmarried
+  example: She is still single and lives alone.
+eifersüchtig:
+  meaning: jealous
+  example: He is often jealous of her.
+peinlich:
+  meaning: embarrassing
+  example: The mistake was very embarrassing to me.
+ernst:
+  meaning: serious
+  example: This is a serious situation for us.
+selbstständig:
+  meaning: independent, freelance
+  example: She works freelance from home.
+täglich:
+  meaning: daily
+  example: I take the bus daily.
+wöchentlich:
+  meaning: weekly
+  example: We have a short meeting weekly.
+monatlich:
+  meaning: monthly
+  example: I pay the rent monthly.
+jährlich:
+  meaning: yearly
+  example: The exam takes place every year in May.
+mindestens:
+  meaning: at least
+  example: The course lasts at least six weeks.
+höchstens:
+  meaning: at most
+  example: We need at most ten minutes.
+spätestens:
+  meaning: at the latest
+  example: Please come by eight o'clock at the latest.
+überhaupt:
+  meaning: at all
+  example: I have no time at all today.
+tatsächlich:
+  meaning: actually, really
+  example: He actually missed the last train.
+indem:
+  meaning: by, while
+  example: You learn German by practicing a lot.
+der Absender:
+  meaning: sender
+  example: The sender is at the top of the letter.
+der Empfänger:
+  meaning: recipient
+  example: The recipient lives in another city.
+die Postleitzahl:
+  meaning: postcode
+  example: Please write the postcode clearly.
+der Betreff:
+  meaning: subject line
+  example: Write the subject line in the first line.
+der Beleg:
+  meaning: receipt, proof
+  example: Please keep the receipt safe.
+der Kassenbon:
+  meaning: receipt
+  example: I need the receipt for the complaint.
+die Matratze:
+  meaning: mattress
+  example: The new mattress is very comfortable.
+die Kommode:
+  meaning: dresser
+  example: The dresser is next to the bed.
+der Wasserkocher:
+  meaning: electric kettle
+  example: The electric kettle is broken again.
+die Kaffeemaschine:
+  meaning: coffee machine
+  example: The coffee machine is in the kitchen.
+die Vergangenheit:
+  meaning: past
+  example: In the past, everything was different.
+sich erkundigen:
+  meaning: inquire
+  example: I inquire about the timetable.
+sich gewöhnen:
+  meaning: get used to
+  example: I am getting used to the weather.
+sich befinden:
+  meaning: be located
+  example: The office is located on the ground floor.
+der Fall:
+  meaning: case
+  example: In this case, we call the doctor.
+der Blick:
+  meaning: look, glance
+  example: A glance at the clock is enough.
+die Rolle:
+  meaning: role
+  example: She plays an important role in the team.
+der Schritt:
+  meaning: step
+  example: The first step is often the hardest.
+das Programm:
+  meaning: program
+  example: The program runs on the computer.
+der Wert:
+  meaning: value
+  example: The value of the house has risen.
+die Wahl:
+  meaning: choice, election
+  example: The election takes place next week.
+der Rat:
+  meaning: advice
+  example: Good advice can help a lot.
+die Ordnung:
+  meaning: order, tidiness
+  example: Order at the workplace saves time.
+die Menge:
+  meaning: quantity, amount
+  example: We need a large amount of water.
+die Reihe:
+  meaning: row, series
+  example: We are sitting in the first row.
+das Gegenteil:
+  meaning: opposite
+  example: The opposite of hot is cold.
+der Typ:
+  meaning: type, guy
+  example: He is a quiet guy.
+die Nähe:
+  meaning: nearness, vicinity
+  example: The apartment is close to the station.
+der Bereich:
+  meaning: area, field
+  example: This is an important area of the company.
+die Funktion:
+  meaning: function
+  example: This function in the program is new.
+der Prozess:
+  meaning: process
+  example: The process takes several weeks.
+das System:
+  meaning: system
+  example: The system has not worked since yesterday.
+die Struktur:
+  meaning: structure
+  example: The structure of the report is clear.
+der Dienst:
+  meaning: service, duty
+  example: Duty begins at eight o'clock.
+die Leistung:
+  meaning: performance
+  example: His performance in the course has improved.
+die Tätigkeit:
+  meaning: occupation, activity
+  example: My work in the office is varied.
+die Vorbereitung:
+  meaning: preparation
+  example: Preparation for the exam takes time.
+die Maßnahme:
+  meaning: measure, action
+  example: The measure helps against the noise.
+die Zustimmung:
+  meaning: approval, consent
+  example: We need the boss's approval.
+die Übersicht:
+  meaning: overview
+  example: The overview shows all appointments.
+das Verfahren:
+  meaning: procedure
+  example: The procedure takes several months.
+das Gesetz:
+  meaning: law
+  example: The new law applies from January.
+die Grundlage:
+  meaning: basis, foundation
+  example: Trust is the basis of cooperation.
+die Kenntnis:
+  meaning: knowledge
+  example: She has a good knowledge of mathematics.
+die Nachfrage:
+  meaning: demand
+  example: The demand for apartments is high.
+der Handel:
+  meaning: trade
+  example: Trade in food is growing.
+die Erwartung:
+  meaning: expectation
+  example: The customers' expectations are high.
+der Einfluss:
+  meaning: influence
+  example: She has great influence on the team.
+das Verhältnis:
+  meaning: relationship
+  example: The relationship with colleagues is good.
+das Verständnis:
+  meaning: understanding
+  example: Thank you for your understanding.
+die Reaktion:
+  meaning: reaction
+  example: His reaction was completely surprising.
+die Lüge:
+  meaning: lie
+  example: A lie often destroys trust.
+die Schuld:
+  meaning: fault, guilt
+  example: He blames me for the mistake.
+die Überlegung:
+  meaning: consideration
+  example: After brief consideration, she said yes.
+der Versuch:
+  meaning: attempt
+  example: The attempt was unfortunately not successful.
+der Zusammenhang:
+  meaning: connection
+  example: There is a connection between stress and illness.
+der Zweck:
+  meaning: purpose
+  example: The purpose of this trip is business.
+die Förderung:
+  meaning: support, funding
+  example: The office offers funding for courses.
+die Weiterbildung:
+  meaning: further training
+  example: The company pays for further training.
+die Führung:
+  meaning: guided tour
+  example: The guided tour through the museum starts soon.
+beantragen:
+  meaning: apply for
+  example: I would like to apply for a new passport.
+die Politik:
+  meaning: politics
+  example: We often discuss politics in the evening.
+das Prinzip:
+  meaning: principle
+  example: The principle is simple and clear.
+das Erlebnis:
+  meaning: experience
+  example: The trip was a wonderful experience.
+das Benehmen:
+  meaning: behavior, manners
+  example: His behavior was very polite.
+die Debatte:
+  meaning: debate
+  example: The debate on television was interesting.
+der Bescheid:
+  meaning: notification
+  example: I will let you know tomorrow.
+die Aussprache:
+  meaning: pronunciation
+  example: The pronunciation of the word is difficult.
+der Ausländer:
+  meaning: foreigner
+  example: The foreigner is learning German quickly.
+benötigen:
+  meaning: need, require
+  example: We still need some documents.
+erhalten:
+  meaning: receive
+  example: You will receive the answer by mail.
+annehmen:
+  meaning: accept
+  example: We gladly accept your suggestion.
+bestehen:
+  meaning: consist of, pass
+  example: The exam consists of two parts.
+gelten:
+  meaning: be valid
+  example: This rule applies to everyone.
+das Recht:
+  meaning: right, law
+  example: Everyone has the right to assistance.
+die Wahrheit:
+  meaning: truth
+  example: The truth is not simple.
+der Sinn:
+  meaning: sense, meaning
+  example: That makes no sense.
+die Entwicklung:
+  meaning: development
+  example: The city's development is positive.
+der Beitrag:
+  meaning: contribution, fee
+  example: The fee is ten euros.
+der Abschluss:
+  meaning: degree, completion
+  example: She completed her degree.
+die Übung:
+  meaning: exercise, practice
+  example: This exercise helps with back pain.
+die Meldung:
+  meaning: report, announcement
+  example: The report came this morning.
+der Austausch:
+  meaning: exchange
+  example: The exchange with colleagues helps.
+die Sicht:
+  meaning: view
+  example: From my perspective, that is wrong.
+die Planung:
+  meaning: planning
+  example: The planning will take another two weeks.
+die Organisation:
+  meaning: organization
+  example: Organizing the festival was difficult.
+die Sitzung:
+  meaning: meeting
+  example: The meeting begins at nine.
+die Vorstellung:
+  meaning: idea, performance
+  example: The performance was really good.
+der Anlass:
+  meaning: occasion, reason
+  example: The occasion is a birthday.
+die Absprache:
+  meaning: agreement
+  example: We made an agreement.
+die Veränderung:
+  meaning: change
+  example: I don't like the change.
+die Teilnahme:
+  meaning: participation
+  example: Participation in the course is voluntary.
+die Anleitung:
+  meaning: instructions
+  example: The instructions are easy to understand.
+der Bewohner:
+  meaning: resident
+  example: The resident complains about noise.
+die Höhe:
+  meaning: height, amount
+  example: The amount of rent is important.
+die Mitte:
+  meaning: middle, center
+  example: The table is in the middle.
+die Zahlung:
+  meaning: payment
+  example: Payment is by card.
+der Verkauf:
+  meaning: sale
+  example: The sale starts early.
+der Eintritt:
+  meaning: admission, entrance
+  example: Admission to the museum costs money.
+der Transport:
+  meaning: transport
+  example: The transport of the furniture was expensive.
+die Warnung:
+  meaning: warning
+  example: The warning came in time.
+das Verbot:
+  meaning: ban, prohibition
+  example: The ban applies from tomorrow.
+der Verbrauch:
+  meaning: consumption
+  example: Electricity consumption is high.
+der Verlust:
+  meaning: loss
+  example: The loss hurts him very much.
+der Wechsel:
+  meaning: change
+  example: Changing jobs was the right thing.
+die Beförderung:
+  meaning: promotion, transport
+  example: He is happy about the promotion.
+der Wettbewerb:
+  meaning: competition
+  example: The competition is very tough.
+die Forderung:
+  meaning: demand
+  example: The demand has not been met.
+die Begründung:
+  meaning: justification, reason
+  example: The justification is missing from the application.
+der Anspruch:
+  meaning: claim, entitlement
+  example: You are entitled to vacation.
+die Anstrengung:
+  meaning: effort
+  example: The effort was too great.
+die Aufmerksamkeit:
+  meaning: attention
+  example: She needs a lot of attention.
+die Drohung:
+  meaning: threat
+  example: The threat frightened him.
+der Dank:
+  meaning: thanks
+  example: The neighbors' gratitude was great.
+die Ersparnis:
+  meaning: savings
+  example: The savings are unfortunately very small.
+die Handlung:
+  meaning: action, plot
+  example: The plot in the film is exciting.
+die Rede:
+  meaning: speech
+  example: His speech was short and clear.
+die Sammlung:
+  meaning: collection
+  example: The collection is on the shelf.
+die Spannung:
+  meaning: tension
+  example: The tension in the room was noticeable.
+der Stand:
+  meaning: status, stand
+  example: The state of things is good.
+die Stellung:
+  meaning: position, job
+  example: She has a good position.
+die Wiederholung:
+  meaning: repetition
+  example: Repetition helps with learning.
+das Wissen:
+  meaning: knowledge
+  example: His knowledge is impressive.
+das Zeichen:
+  meaning: sign, signal
+  example: Give me a sign.
+das Zentrum:
+  meaning: center
+  example: The center is easily accessible.
+abhängen:
+  meaning: depend
+  example: That depends on the weather.
+abschließen:
+  meaning: complete, lock
+  example: Please lock the door.
+anpassen:
+  meaning: adapt
+  example: We have to adapt the plan.
+ausleihen:
+  meaning: borrow, lend
+  example: Can I borrow the book?
+beachten:
+  meaning: observe, note
+  example: Please observe the rules.
+bedienen:
+  meaning: serve, operate
+  example: The waiter serves the guests.
+beeinflussen:
+  meaning: influence
+  example: The weather influences the mood.
+bemerken:
+  meaning: notice
+  example: I noticed the mistake.
+bestimmen:
+  meaning: determine
+  example: The boss determines the rules.
+beraten:
+  meaning: advise
+  example: The salesperson advises the customers in a friendly way.
+ausgeben:
+  meaning: spend
+  example: I spend too much money.
+kündigen:
+  meaning: cancel, quit
+  example: She is cancelling her contract at the end of the month.
+verlängern:
+  meaning: extend
+  example: I would like to extend my contract.
+einstellen:
+  meaning: hire
+  example: The company is hiring new employees.
+entlassen:
+  meaning: lay off
+  example: The company is laying off ten employees.
+leiten:
+  meaning: manage
+  example: She has been managing the department for a long time.
+übernehmen:
+  meaning: take over
+  example: He is taking over the new task.
+vertreten:
+  meaning: stand in, represent
+  example: I am standing in for my colleague today.
+absagen:
+  meaning: cancel
+  example: Unfortunately, I have to cancel the appointment.
+zustimmen:
+  meaning: agree
+  example: The boss agrees to the plan.
+ablehnen:
+  meaning: reject
+  example: The office rejects the application.
+bearbeiten:
+  meaning: process
+  example: I am processing the application today.
+ausstellen:
+  meaning: issue
+  example: The office issues the passport.
+ummelden:
+  meaning: re-register
+  example: After moving, I have to re-register.
+abmelden:
+  meaning: deregister
+  example: I have to deregister at the office.
+stempeln:
+  meaning: stamp
+  example: The official stamps the form.
+sortieren:
+  meaning: sort
+  example: I sort the papers by date.
+ablegen:
+  meaning: file
+  example: Please file the record.
+heften:
+  meaning: staple
+  example: Please staple the sheets together.
+drucken:
+  meaning: print
+  example: Please print out the form.
+scannen:
+  meaning: scan
+  example: Please scan the ID card.
+speichern:
+  meaning: save
+  example: Save the file before closing.
+löschen:
+  meaning: delete
+  example: I delete the old files.
+notieren:
+  meaning: note down
+  example: I note the appointment in my calendar.
+weiterleiten:
+  meaning: forward
+  example: Please forward the email.
+umtauschen:
+  meaning: exchange
+  example: I would like to exchange these trousers.
+reklamieren:
+  meaning: complain
+  example: We are making a complaint about the defective refrigerator.
+liefern:
+  meaning: deliver
+  example: The supermarket delivers for orders from ten euros.
+stornieren:
+  meaning: cancel
+  example: Unfortunately, I have to cancel the hotel booking.
+sich verspäten:
+  meaning: be delayed
+  example: The train is delayed by ten minutes.
+tanken:
+  meaning: refuel
+  example: I still need to refuel.
+landen:
+  meaning: land
+  example: The plane lands on time.
+starten:
+  meaning: start
+  example: The train departs in five minutes.
+anhalten:
+  meaning: stop
+  example: The bus stops at the next corner.
+losfahren:
+  meaning: set off
+  example: We are setting off early tomorrow morning.
+abfliegen:
+  meaning: take off
+  example: Our plane takes off early tomorrow morning.
+bremsen:
+  meaning: brake
+  example: He brakes before the intersection.
+mitfahren:
+  meaning: ride along
+  example: May I ride along in the car?
+auschecken:
+  meaning: check out
+  example: We are checking out early tomorrow morning.
+spülen:
+  meaning: wash up
+  example: I wash up the dishes after dinner.
+staubsaugen:
+  meaning: vacuum
+  example: I still have to vacuum today.
+bügeln:
+  meaning: iron
+  example: He irons his shirts on Sunday.
+das Waschmittel:
+  meaning: detergent
+  example: We still need detergent for the laundry.
+die Klimaanlage:
+  meaning: air conditioning
+  example: The air conditioning is not working.
+der Puls:
+  meaning: pulse
+  example: The doctor takes the pulse.
+der Notausgang:
+  meaning: emergency exit
+  example: The emergency exit is to the left of the stairs.
+der Pfeffer:
+  meaning: pepper
+  example: The pepper is next to the salt.
+das Öl:
+  meaning: oil
+  example: We still need oil for the salad.
+das Mehl:
+  meaning: flour
+  example: We need flour for the cake.
+die Soße:
+  meaning: sauce
+  example: The sauce tastes very good.
+die Schüssel:
+  meaning: bowl
+  example: The bowl is in the kitchen cupboard.
+die Drogerie:
+  meaning: drugstore
+  example: I buy shampoo at the drugstore.
+der Korb:
+  meaning: basket
+  example: The basket is next to the checkout.
+der Gürtel:
+  meaning: belt
+  example: The belt does not match the trousers.
+der Mantel:
+  meaning: coat
+  example: In winter I wear a warm coat.
+die Müdigkeit:
+  meaning: tiredness
+  example: The tiredness is from too little sleep.
+der Schlafmangel:
+  meaning: lack of sleep
+  example: Lack of sleep often makes me ill.
+die Sucht:
+  meaning: addiction
+  example: Smoking can become an addiction.
+der Sonnenbrand:
+  meaning: sunburn
+  example: It is easy to get sunburn at the beach.
+der Mittag:
+  meaning: midday
+  example: At midday I eat in the cafeteria.
+der Fußgänger:
+  meaning: pedestrian
+  example: Pedestrians have the right of way here.
+der Fahrstuhl:
+  meaning: elevator, lift
+  example: The elevator is unfortunately out of service.
+die Serviette:
+  meaning: napkin
+  example: Please give me a napkin.
+der Essig:
+  meaning: vinegar
+  example: The salad needs a little more vinegar.
+die Krankenschwester:
+  meaning: nurse
+  example: The nurse measures the blood pressure.
+der Pfleger:
+  meaning: caregiver
+  example: The caregiver helps the old man.
+der Personalausweis:
+  meaning: ID card
+  example: Please show your ID card.
+der Arbeitsvertrag:
+  meaning: employment contract
+  example: I signed the employment contract.
+die Anstellung:
+  meaning: employment, position
+  example: She has found a new position.
+der Ärger:
+  meaning: anger, trouble
+  example: There is trouble because of the noise.
+soweit:
+  meaning: as far as
+  example: As far as I know, the shop is closed.
+zumindest:
+  meaning: at least
+  example: At least I have time on the weekend.
+gegenüber:
+  meaning: opposite
+  example: The pharmacy is opposite the station.
+der Kreisverkehr:
+  meaning: roundabout
+  example: You have to drive slowly in the roundabout.
+die Fahrprüfung:
+  meaning: driving test
+  example: She passed the driving test.
+die Hauptstraße:
+  meaning: main street
+  example: The shop is on the main street.
+der Werktag:
+  meaning: workday, weekday
+  example: On workdays she gets up early.
+die Gegenwart:
+  meaning: present, present time
+  example: We live fast in the present.
+sich verhalten:
+  meaning: behave
+  example: He behaved wrongly.
+verzichten:
+  meaning: do without, give up
+  example: I want to do without sugar.
+hilfsbereit:
+  meaning: helpful
+  example: My neighbor is very helpful.
+neugierig:
+  meaning: curious
+  example: Children are often very curious.
+schüchtern:
+  meaning: shy
+  example: He is a shy boy.
+selbstbewusst:
+  meaning: self-confident
+  example: She is very self-confident.
+flexibel:
+  meaning: flexible
+  example: We need flexible working hours.
+kreativ:
+  meaning: creative
+  example: You have to be creative for this task.
+ehrgeizig:
+  meaning: ambitious
+  example: He is very ambitious.
+weich:
+  meaning: soft
+  example: The bed is too soft.
+hart:
+  meaning: hard
+  example: The bread is old and hard.
+eng:
+  meaning: tight, narrow
+  example: The trousers are too tight for me.
+locker:
+  meaning: loose, relaxed
+  example: The shirt fits very loosely.
+sich verlieben:
+  meaning: fall in love
+  example: She fell in love with him.
+sich versöhnen:
+  meaning: make up, reconcile
+  example: After the argument, they made up.
+sich weigern:
+  meaning: refuse
+  example: He refuses to help.
+sich schämen:
+  meaning: be ashamed
+  example: You don't have to be ashamed.
+sich fürchten:
+  meaning: be afraid
+  example: The child is afraid of the dark.
+sich wundern:
+  meaning: be surprised
+  example: I am surprised at his behavior.
+sich langweilen:
+  meaning: be bored
+  example: I never get bored on vacation.
+rücksichtsvoll:
+  meaning: considerate
+  example: He is always considerate.
+egoistisch:
+  meaning: selfish
+  example: His behavior was rather selfish.
+gelassen:
+  meaning: calm
+  example: She stays calm even under stress.
+unhöflich:
+  meaning: impolite
+  example: That was an impolite answer.
+die Eifersucht:
+  meaning: jealousy
+  example: Jealousy can destroy a relationship.
+die Trauer:
+  meaning: grief, mourning
+  example: After the loss, he felt deep grief.
+der Neid:
+  meaning: envy
+  example: Envy is not a good feeling.
+die Zufriedenheit:
+  meaning: satisfaction, contentment
+  example: Contentment is more important than a lot of money.
+die Einsamkeit:
+  meaning: loneliness, solitude
+  example: Many old people suffer from loneliness.
+die Nervosität:
+  meaning: nervousness
+  example: I feel nervous before the exam.
+die Meldebescheinigung:
+  meaning: registration certificate
+  example: You need a registration certificate for the application.
+die Geburtsurkunde:
+  meaning: birth certificate
+  example: Please present the birth certificate.
+die Steuererklärung:
+  meaning: tax return
+  example: The tax return must be submitted by May.
+die Aufenthaltsgenehmigung:
+  meaning: residence permit
+  example: He is applying for a new residence permit.
+die Fahrgemeinschaft:
+  meaning: carpool
+  example: We carpool to work.
+sich verloben:
+  meaning: get engaged
+  example: They got engaged on vacation.
+sich benehmen:
+  meaning: behave
+  example: The children behaved well.
+sich verändern:
+  meaning: change
+  example: The city has changed a lot.
+handeln:
+  meaning: be about, act
+  example: It is about a problem.
+die Pflege:
+  meaning: care
+  example: She works in care.
+die Teilzeit:
+  meaning: part-time
+  example: She works only part-time.
+der Notfall:
+  meaning: emergency
+  example: In an emergency, call immediately.
+die Kontrolle:
+  meaning: check, inspection
+  example: The police are carrying out a check.
+das Mittagessen:
+  meaning: lunch
+  example: After lunch we take a break.
+das Abendessen:
+  meaning: dinner
+  example: Tonight there is soup for dinner.
+die Zahnbürste:
+  meaning: toothbrush
+  example: I'm buying a new toothbrush.
+die Zahnpasta:
+  meaning: toothpaste
+  example: The toothpaste is almost empty.
+die Schublade:
+  meaning: drawer
+  example: The drawer is stuck again.
+das Bügeleisen:
+  meaning: iron
+  example: The iron is still hot.
+der Mitbewohner:
+  meaning: flatmate, roommate
+  example: My flatmate is cooking tonight.
+der Honig:
+  meaning: honey
+  example: I put honey in my tea.
+die Marmelade:
+  meaning: jam
+  example: There is jam for breakfast.
+die Karotte:
+  meaning: carrot
+  example: I'm buying carrots for the soup.
+der Pilz:
+  meaning: mushroom
+  example: The mushrooms taste fresh and delicious.
+der Schinken:
+  meaning: ham
+  example: I'd like ham for breakfast.
+der Quark:
+  meaning: quark
+  example: Quark is healthy and tasty.
+die Sahne:
+  meaning: cream
+  example: The cream goes into the cake.
+das Müsli:
+  meaning: muesli
+  example: Muesli with milk is my breakfast.
+der Keks:
+  meaning: biscuit, cookie
+  example: The children want a biscuit.
+der Zimt:
+  meaning: cinnamon
+  example: Cinnamon goes well with apple cake.
+die Buchhandlung:
+  meaning: bookshop, bookstore
+  example: I'm buying the book at the bookshop.
+das Shampoo:
+  meaning: shampoo
+  example: The shampoo smells very good.
+die Creme:
+  meaning: cream
+  example: This cream helps with dry skin.
+das Taschentuch:
+  meaning: tissue, handkerchief
+  example: I have a tissue in my bag.
+der Kamm:
+  meaning: comb
+  example: The comb is in the bathroom.
+die Bürste:
+  meaning: brush
+  example: The brush is in the cupboard.
+der Rasierer:
+  meaning: razor
+  example: The razor needs new batteries.
+die Kerze:
+  meaning: candle
+  example: The candle is burning on the table.
+die Dekoration:
+  meaning: decoration
+  example: The decoration for the party is ready.
+der Snack:
+  meaning: snack
+  example: I'm eating a small snack.
+der Mietwagen:
+  meaning: rental car
+  example: We're taking a rental car for the trip.
+das Navi:
+  meaning: satnav, GPS
+  example: The satnav shows us the right way.
+die Vorfahrt:
+  meaning: right of way
+  example: At the crossroads, right of way applies.
+die Geschwindigkeit:
+  meaning: speed
+  example: The speed was much too high.
+der Rettungsdienst:
+  meaning: ambulance service, emergency service
+  example: The ambulance service came very quickly.
+der Arztbesuch:
+  meaning: doctor visit, doctor's appointment
+  example: The doctor's visit was quite stressful yesterday.
+die Gesundheitskarte:
+  meaning: health card, insurance card
+  example: Please show your health card.
+das Attest:
+  meaning: medical certificate, doctor's note
+  example: The doctor writes a medical certificate for me.
+der Verdienst:
+  meaning: earnings, income
+  example: His earnings are enough for the rent.
+der Nebenjob:
+  meaning: side job
+  example: He has a side job on weekends.
+die Arbeitslosigkeit:
+  meaning: unemployment
+  example: Unemployment is high in the region.
+der Arbeitsunfall:
+  meaning: work accident
+  example: The work accident was reported immediately.
+die Bedienungsanleitung:
+  meaning: manual, instructions
+  example: The manual is in the box.
+die Bekanntschaft:
+  meaning: acquaintance
+  example: Our acquaintance began on vacation.
+die Begegnung:
+  meaning: encounter, meeting
+  example: The encounter with her was lovely.
+die Begeisterung:
+  meaning: enthusiasm
+  example: She shows great enthusiasm for music.
+das Mitleid:
+  meaning: pity, compassion
+  example: I feel pity for him.
+die Sympathie:
+  meaning: liking, sympathy
+  example: There was an immediate liking between us.
+die Dankbarkeit:
+  meaning: gratitude
+  example: He showed his gratitude with flowers.
+die Fantasie:
+  meaning: imagination
+  example: Children have a lot of imagination.
+das Missverständnis:
+  meaning: misunderstanding
+  example: There was a small misunderstanding.
+der Kompromiss:
+  meaning: compromise
+  example: We found a good compromise.
+die Toleranz:
+  meaning: tolerance
+  example: Tolerance is important in a group.
+die Höflichkeit:
+  meaning: politeness
+  example: Politeness costs nothing.
+die Pünktlichkeit:
+  meaning: punctuality
+  example: Punctuality is important at work.
+die Zuverlässigkeit:
+  meaning: reliability
+  example: Reliability is very important to me.
+die Freundlichkeit:
+  meaning: friendliness, kindness
+  example: Friendliness helps at work.
+die Ehrlichkeit:
+  meaning: honesty
+  example: Honesty is the best foundation.
+die Industrie:
+  meaning: industry
+  example: Industry needs new skilled workers.
+die Karriere:
+  meaning: career
+  example: She is building a career in the company.
+die Konkurrenz:
+  meaning: competition
+  example: The competition is very strong.
+mitteilen:
+  meaning: inform, tell
+  example: Please inform me of the change.
+versprechen:
+  meaning: promise
+  example: I promise you that I’ll come.
+behalten:
+  meaning: keep
+  example: You can go ahead and keep the book.
+zuhören:
+  meaning: listen
+  example: Please listen to me now.
+nachdenken:
+  meaning: think about, consider
+  example: I need to think about your suggestion.
+schwierig:
+  meaning: difficult
+  example: The exam was really very difficult.
+kompliziert:
+  meaning: complicated
+  example: The form is too complicated for me.
+deutlich:
+  meaning: clear, distinct
+  example: Please speak clearly and slowly.
+nötig:
+  meaning: necessary
+  example: Is it necessary to sign the application?
+unmöglich:
+  meaning: impossible
+  example: Without a ticket, the trip is impossible.
+zurückgeben:
+  meaning: give back, return
+  example: Please give me back the key.
+mitbringen:
+  meaning: bring along
+  example: Can you please bring some bread along?
+mitkommen:
+  meaning: come along
+  example: Would you like to come along to the market?
+mitmachen:
+  meaning: participate, join in
+  example: I’d like to participate in the course.
+nachfragen:
+  meaning: ask again, inquire
+  example: Please ask the landlord.
+ausprobieren:
+  meaning: try out
+  example: Try out the new device.
+aufschreiben:
+  meaning: write down
+  example: Please write down the address.
+wegwerfen:
+  meaning: throw away
+  example: Throw the rubbish in the bin.
+zurückkommen:
+  meaning: come back
+  example: I’ll come back later.
+sich entspannen:
+  meaning: relax
+  example: At the weekend I want to relax.
+herunterladen:
+  meaning: download
+  example: Please download the file.
+klicken:
+  meaning: click
+  example: Please click on the link.
+abheben:
+  meaning: withdraw money
+  example: I want to withdraw money from the ATM.
+einzahlen:
+  meaning: pay in, deposit
+  example: Please deposit the amount.
+auspacken:
+  meaning: unpack
+  example: Please unpack the stuff.
+früher:
+  meaning: in the past, earlier
+  example: I used to live in Berlin.
+damals:
+  meaning: back then
+  example: Back then everything was completely different.
+demnächst:
+  meaning: soon
+  example: We’re moving to a new apartment soon.
+bisher:
+  meaning: so far
+  example: So far I haven’t received an answer.
+neulich:
+  meaning: recently
+  example: Recently I met a friend.
+direkt:
+  meaning: directly, direct
+  example: The train goes directly to the main station.
+privat:
+  meaning: private
+  example: This is a private conversation.
+spannend:
+  meaning: exciting
+  example: The film was really exciting.
+die Vereinbarung:
+  meaning: agreement
+  example: We made a clear agreement.
+die Unterhaltung:
+  meaning: conversation
+  example: The conversation with her was very nice.
+das Mitglied:
+  meaning: member
+  example: He is a member of our sports club.
+der Teilnehmer:
+  meaning: participant
+  example: Every participant gets a certificate.
+die Gemeinschaft:
+  meaning: community
+  example: The community helps each other.
+die Zusammenarbeit:
+  meaning: cooperation, collaboration
+  example: Cooperation in the team works well.
+die Rückkehr:
+  meaning: return
+  example: After returning, we have to update our registration.
+der Abschied:
+  meaning: farewell, goodbye
+  example: Saying goodbye to friends is hard.
+die Begrüßung:
+  meaning: welcome, greeting
+  example: The welcome was warm and friendly.
+die Beschreibung:
+  meaning: description
+  example: The description of the route was wrong.
+die Erzählung:
+  meaning: story, narrative
+  example: Her story about the trip was interesting.
+die Erholung:
+  meaning: recovery, rest
+  example: After the vacation I need rest.
+die Betreuung:
+  meaning: care, supervision
+  example: The care of the children is well organized.
+die Verbesserung:
+  meaning: improvement
+  example: The improvement of the situation will take time.
+die Konzentration:
+  meaning: concentration
+  example: Noise disturbs my concentration at work.
+die Sauberkeit:
+  meaning: cleanliness
+  example: Cleanliness is important in the kitchen.
+die Ablehnung:
+  meaning: rejection
+  example: The rejection of the application came by mail.
+die Annahme:
+  meaning: acceptance
+  example: The acceptance of the package is confirmed.
+die Voraussetzung:
+  meaning: requirement, prerequisite
+  example: Good German skills are a requirement.
+die Zusammenfassung:
+  meaning: summary
+  example: Please write a short summary.
+unsicher:
+  meaning: unsure, insecure
+  example: I’m still unsure about the decision.
+unnötig:
+  meaning: unnecessary
+  example: This discussion is completely unnecessary.
+unzufrieden:
+  meaning: dissatisfied
+  example: The customer is dissatisfied with the service.
+unglücklich:
+  meaning: unhappy
+  example: She is unhappy about the rejection.
+unfreundlich:
+  meaning: unfriendly
+  example: The salesperson was very unfriendly today.
+unpünktlich:
+  meaning: late, unpunctual
+  example: The bus is late again today.
+unzuverlässig:
+  meaning: unreliable
+  example: His answers are often unreliable.
+dagegen:
+  meaning: against it
+  example: I have nothing against it.
+beziehungsweise:
+  meaning: or rather, respectively
+  example: Monday or Tuesday works well for me.
+sowie:
+  meaning: as well as
+  example: I need milk as well as bread.
+zudem:
+  meaning: furthermore, in addition
+  example: He is tired and furthermore ill.
+ebenso:
+  meaning: likewise, equally
+  example: I feel the same way.
+entlang:
+  meaning: along
+  example: Walk along the street.
+ständig:
+  meaning: constantly, all the time
+  example: He complains constantly.
+hauptsächlich:
+  meaning: mainly, primarily
+  example: I mainly drink water.
+allmählich:
+  meaning: gradually
+  example: It is gradually getting dark.
+somit:
+  meaning: therefore, thus
+  example: Therefore, the question is settled.
+der Bürgersteig:
+  meaning: sidewalk
+  example: Please stay on the sidewalk.
+die Fußgängerzone:
+  meaning: pedestrian zone
+  example: Driving is forbidden in the pedestrian zone.
+der Zebrastreifen:
+  meaning: crosswalk
+  example: Cross the street at the crosswalk.
+die Einbahnstraße:
+  meaning: one-way street
+  example: This street is a one-way street.
+das Parkhaus:
+  meaning: parking garage
+  example: I park the car in the parking garage.
+der Fensterplatz:
+  meaning: window seat
+  example: I would like a window seat.
+die Fahrkartenkontrolle:
+  meaning: ticket inspection
+  example: During the ticket inspection I show my ticket.
+der Reisepass:
+  meaning: passport
+  example: My passport is still valid.
+der Aushang:
+  meaning: notice
+  example: The notice is posted on the ground floor.
+die Aushilfe:
+  meaning: temporary helper, temp
+  example: They work as a temp in the shop.
+das Bewerbungsschreiben:
+  meaning: cover letter
+  example: I am sending the cover letter by email.
+die Arbeitserlaubnis:
+  meaning: work permit
+  example: For the job I need a work permit.
+die Krankenversicherung:
+  meaning: health insurance
+  example: The health insurance pays for the treatment.
+die Zulassung:
+  meaning: admission, approval
+  example: The admission for the course of study has arrived.
+die Heiratsurkunde:
+  meaning: marriage certificate
+  example: For the registration we need the marriage certificate.
+die Grundschule:
+  meaning: primary school
+  example: My son goes to primary school.
+das Gymnasium:
+  meaning: secondary school, grammar school
+  example: She attends secondary school.
+die Note:
+  meaning: grade
+  example: She has a good grade in math.
+die Kopfschmerzen:
+  meaning: headache
+  example: I have a bad headache today.
+die Halsschmerzen:
+  meaning: sore throat
+  example: Warm tea helps with a sore throat.
+die Bauchschmerzen:
+  meaning: stomach ache
+  example: The stomach ache comes and goes.
+die Zahnschmerzen:
+  meaning: toothache
+  example: Toothaches are really very unpleasant.
+der Schal:
+  meaning: scarf
+  example: In winter I wear a scarf.
+die Socke:
+  meaning: sock
+  example: A sock is lying under the bed.
+der Handschuh:
+  meaning: glove
+  example: I lost a glove.
+die Mütze:
+  meaning: cap, hat
+  example: Put on a cap!
+die Gardine:
+  meaning: curtain
+  example: The curtain in the living room is new.
+wach:
+  meaning: awake
+  example: After the coffee I am finally awake.
+verletzt:
+  meaning: injured
+  example: Fortunately, the driver is only slightly injured.
+ansteckend:
+  meaning: contagious
+  example: The disease is not contagious.
+schmerzhaft:
+  meaning: painful
+  example: The treatment was quite painful.
+gestresst:
+  meaning: stressed
+  example: After work I am often stressed.
+entspannt:
+  meaning: relaxed
+  example: On the weekend I am completely relaxed.
+aufgeregt:
+  meaning: nervous, excited
+  example: Before the exam I am very nervous.
+beliebt:
+  meaning: popular
+  example: This café is popular with students.
+erfolgreich:
+  meaning: successful
+  example: She successfully passed the exam.
+dankbar:
+  meaning: grateful
+  example: I am very grateful to you.
+humorvoll:
+  meaning: humorous
+  example: My colleague is very humorous.
+unruhig:
+  meaning: restless
+  example: The child is sleeping restlessly.
+sich auskennen:
+  meaning: know one's way around
+  example: I don't know my way around the city.
+sich anstrengen:
+  meaning: make an effort
+  example: You have to make more of an effort.
+sich einigen:
+  meaning: agree
+  example: We agreed on a price.
+sich umdrehen:
+  meaning: turn around
+  example: Please turn around once.
+sich umsehen:
+  meaning: look around
+  example: I just want to look around the store.
+besorgen:
+  meaning: get, buy
+  example: I still need to get milk.
+zusagen:
+  meaning: accept, confirm
+  example: He has confirmed for tomorrow.
+ausladen:
+  meaning: uninvite, cancel invitation
+  example: Unfortunately, we have to uninvite the guests.
+zurückrufen:
+  meaning: call back
+  example: I will call you back later.
+weitergeben:
+  meaning: pass on
+  example: Please pass on the information.
+weggehen:
+  meaning: go out
+  example: On the weekend we often go out.
+meinen:
+  meaning: think, mean
+  example: I think that is correct.
+führen:
+  meaning: lead
+  example: The path leads to the station.
+verlassen:
+  meaning: leave
+  example: He leaves the office at six.
+verbessern:
+  meaning: improve
+  example: I would like to improve my German.
+verbinden:
+  meaning: connect
+  example: Please connect me with the doctor.
+teilen:
+  meaning: share
+  example: We share the bill.
+sterben:
+  meaning: die
+  example: My plant dies without water.
+retten:
+  meaning: rescue
+  example: The fire department rescues the dog.
+schützen:
+  meaning: protect
+  example: Sunscreen protects the skin.
+überlegen:
+  meaning: consider
+  example: I am still considering whether to come.
+erkennen:
+  meaning: recognize
+  example: I recognize him in the photo.
+genießen:
+  meaning: enjoy
+  example: We enjoy the quiet evening.
+ausgehen:
+  meaning: go out
+  example: We are going out tonight.
+ausschalten:
+  meaning: switch off
+  example: Please switch off the light.
+einschalten:
+  meaning: switch on
+  example: Please switch on the TV.
+auswählen:
+  meaning: choose
+  example: Please choose a suitable gift.
+aufnehmen:
+  meaning: take on
+  example: The company takes on new employees.
+begleiten:
+  meaning: accompany
+  example: I will accompany you to the doctor.
+bieten:
+  meaning: offer
+  example: The hotel offers quiet rooms.
+brennen:
+  meaning: burn
+  example: The fire burns in the fireplace.
+einfallen:
+  meaning: occur to
+  example: I cannot think of the password.
+eintreten:
+  meaning: enter
+  example: Please enter quietly.
+entstehen:
+  meaning: arise
+  example: The rain causes damage.
+erfinden:
+  meaning: invent
+  example: He invents a new machine.
+feststellen:
+  meaning: determine, detect
+  example: The doctor identifies an allergy.
+füllen:
+  meaning: fill
+  example: Fill the bottle with water.
+gelingen:
+  meaning: succeed
+  example: The cake turned out well.
+greifen:
+  meaning: grab, reach
+  example: Please reach for the salt.
+klappen:
+  meaning: work out
+  example: With your help it works out.
+klingen:
+  meaning: sound
+  example: That sounds like a good idea.
+leiden:
+  meaning: suffer
+  example: She suffers from severe headaches.
+leihen:
+  meaning: borrow, lend
+  example: Can you lend me your bike?
+mischen:
+  meaning: mix
+  example: Mix flour and sugar together.
+pflegen:
+  meaning: care for
+  example: She cares for her sick mother.
+raten:
+  meaning: advise
+  example: I advise you to go to bed early.
+rechnen:
+  meaning: calculate, expect
+  example: We expect high costs.
+reichen:
+  meaning: be enough
+  example: The money is not enough for the vacation.
+reinigen:
+  meaning: clean
+  example: I clean the kitchen thoroughly.
+schieben:
+  meaning: push
+  example: He pushes the table to the wall.
+senden:
+  meaning: send
+  example: She sends me a package.
+stoßen:
+  meaning: bump
+  example: I bump into the table.
+träumen:
+  meaning: dream
+  example: I dream of a trip.
+treiben:
+  meaning: do, drive
+  example: We like doing sports.
+trennen:
+  meaning: separate
+  example: Please separate the trash.
+übersetzen:
+  meaning: translate
+  example: Can you translate the letter?
+übertreiben:
+  meaning: exaggerate
+  example: You are exaggerating your fear.
+vermeiden:
+  meaning: avoid
+  example: You should avoid stress.
+vermissen:
+  meaning: miss
+  example: I miss my family.
+verschwinden:
+  meaning: disappear
+  example: My key has disappeared.
+versorgen:
+  meaning: care for
+  example: She cares for her sick mother.
+verstecken:
+  meaning: hide
+  example: The cat hides under the sofa.
+verteilen:
+  meaning: distribute
+  example: The boss distributes the tasks.
+verwenden:
+  meaning: use
+  example: I use little salt when cooking.
+warnen:
+  meaning: warn
+  example: The doctor warns against too much stress.
+wiegen:
+  meaning: weigh
+  example: How much does this package weigh?
+zunehmen:
+  meaning: gain weight
+  example: In winter I often gain weight.
+der Hinweis:
+  meaning: hint, note
+  example: The note on the sign helps.
+der Überblick:
+  meaning: overview
+  example: The table gives a good overview.
+der Empfang:
+  meaning: reception
+  example: The reception is on the ground floor.
+der Rest:
+  meaning: rest
+  example: I will bring the rest later.
+dabei:
+  meaning: while doing so
+  example: He reads and listens to music at the same time.
+dafür:
+  meaning: for that
+  example: I am very interested in that.
+davon:
+  meaning: of it
+  example: I didn't know anything about that.
+dazu:
+  meaning: for that
+  example: I need more time for that.
+daran:
+  meaning: of it
+  example: I often think about it.
+darauf:
+  meaning: about it
+  example: I am really looking forward to it.
+stattdessen:
+  meaning: instead
+  example: Instead, I'll have tea.
+zufällig:
+  meaning: by chance
+  example: I met him by chance.
+absichtlich:
+  meaning: on purpose
+  example: He did that on purpose.
+mittlerweile:
+  meaning: meanwhile
+  example: I live alone now.
+der Vergleich:
+  meaning: comparison
+  example: The comparison shows big differences.
+das Geheimnis:
+  meaning: secret
+  example: She has a secret.
+der Vorgesetzte:
+  meaning: supervisor
+  example: My supervisor isn't here today.
+die Personalabteilung:
+  meaning: HR department
+  example: The HR department is checking my documents.
+die Vollzeit:
+  meaning: full-time work
+  example: She works full-time now.
+die Kündigungsfrist:
+  meaning: notice period
+  example: The notice period is three months.
+der Dauerauftrag:
+  meaning: standing order
+  example: I pay the rent by standing order.
+der Kredit:
+  meaning: loan
+  example: The bank gives him a loan.
+die Urkunde:
+  meaning: certificate
+  example: The certificate is in the folder.
+der Kassierer:
+  meaning: cashier
+  example: The cashier gives me the change.
+das Wechselgeld:
+  meaning: change
+  example: I didn't get the change.
+der Einkaufszettel:
+  meaning: shopping list
+  example: I'm writing a shopping list.
+die Einkaufstasche:
+  meaning: shopping bag
+  example: Take a shopping bag with you.
+das Etikett:
+  meaning: label
+  example: The label shows the price.
+das Haltbarkeitsdatum:
+  meaning: expiry date
+  example: Check the expiry date on the package.
+der Behälter:
+  meaning: container
+  example: The container is still empty.
+der Deckel:
+  meaning: lid
+  example: The lid doesn't fit on the pot.
+das Pfand:
+  meaning: deposit
+  example: You pay a deposit for the bottle.
+der Eimer:
+  meaning: bucket
+  example: The bucket is in the kitchen.
+der Schwamm:
+  meaning: sponge
+  example: Take a sponge for cleaning.
+der Kleiderbügel:
+  meaning: clothes hanger
+  example: Hang the jacket on the clothes hanger.
+die Unterwäsche:
+  meaning: underwear
+  example: You can find underwear on the second floor.
+der Motor:
+  meaning: engine
+  example: The engine makes a loud noise.
+die Bremse:
+  meaning: brake
+  example: The brake isn't working properly.
+der Kofferraum:
+  meaning: car trunk
+  example: The suitcase fits in the trunk.
+der Abflug:
+  meaning: flight departure
+  example: The departure is at eight o'clock.
+die Landung:
+  meaning: landing
+  example: The landing was right on time.
+die Sicherheitskontrolle:
+  meaning: security check
+  example: The security check takes a long time.
+der Wagen:
+  meaning: car, carriage
+  example: The car has four doors.
+das Handgepäck:
+  meaning: hand luggage
+  example: My hand luggage is too heavy.
+die Einreise:
+  meaning: entry
+  example: Entry was no problem.
+die Route:
+  meaning: route
+  example: This route is shorter.
+das Zelt:
+  meaning: tent
+  example: We sleep in the tent.
+der Campingplatz:
+  meaning: campsite
+  example: We are staying overnight at the campsite.
+das Knie:
+  meaning: knee
+  example: My knee hurts after running.
+der Ellenbogen:
+  meaning: elbow
+  example: He injured his elbow.
+der Zeh:
+  meaning: toe
+  example: The toe is red and swollen.
+die Hüfte:
+  meaning: hip
+  example: She has pain in her hip.
+die Verlobung:
+  meaning: engagement
+  example: We are celebrating our engagement in summer.
+der Stolz:
+  meaning: pride
+  example: His pride was hurt.
+der Kummer:
+  meaning: sorrow
+  example: She has great sorrow.
+die Hilfsbereitschaft:
+  meaning: helpfulness
+  example: His helpfulness is impressive.
+die Neugier:
+  meaning: curiosity
+  example: His curiosity was stronger.
+die Reihenfolge:
+  meaning: order, sequence
+  example: Please observe the order.
+die Ähnlichkeit:
+  meaning: similarity
+  example: The similarity is hard to believe.
+der Gangplatz:
+  meaning: aisle seat
+  example: I would like an aisle seat.
+die Gepäckausgabe:
+  meaning: baggage claim
+  example: We are waiting at baggage claim.
+die Wanderung:
+  meaning: hike
+  example: The hike takes three hours.
+der Besen:
+  meaning: broom
+  example: The broom is in the corner.
+die Fliese:
+  meaning: tile
+  example: The tile in the bathroom is broken.
+aufwachen:
+  meaning: wake up
+  example: I wake up at six every morning.
+angeben:
+  meaning: state, indicate
+  example: Please state your name at the counter.
+ankreuzen:
+  meaning: tick, mark
+  example: Please tick the correct answer.
+ausdrucken:
+  meaning: print out
+  example: I still have to print out the application.
+hochladen:
+  meaning: upload
+  example: Please upload the photo here.
+anklicken:
+  meaning: click on
+  example: Please click on the green button.
+sich einloggen:
+  meaning: log in
+  example: I log in with the password.
+sich ausloggen:
+  meaning: log out
+  example: Please log out at the end.
+einwerfen:
+  meaning: post, insert
+  example: Post the letter in the mailbox.
+zustellen:
+  meaning: deliver
+  example: The package will be delivered tomorrow.
+vorlegen:
+  meaning: present, show
+  example: Please show your ID at the entrance.
+einreichen:
+  meaning: submit
+  example: Submit the documents by Friday.
+genehmigen:
+  meaning: approve
+  example: The boss still has to approve the vacation.
+einhalten:
+  meaning: comply with
+  example: We must comply with the rules at work.
+verhandeln:
+  meaning: negotiate
+  example: The company is negotiating with the supplier.
+braten:
+  meaning: fry, roast
+  example: I fry the meat in the pan.
+schälen:
+  meaning: peel
+  example: Please peel the potatoes for the meal.
+würzen:
+  meaning: season
+  example: You have to season the soup better.
+abwaschen:
+  meaning: wash up
+  example: After cooking I have to wash up.
+husten:
+  meaning: cough
+  example: The child has been coughing very badly since yesterday.
+trösten:
+  meaning: comfort
+  example: She comforts her friend after the argument.
+verreisen:
+  meaning: travel away
+  example: We are going away next week for three days.
+aufmerksam:
+  meaning: attentive
+  example: He always listens very attentively.
+ungeduldig:
+  meaning: impatient
+  example: Please wait, I am so impatient.
+neidisch:
+  meaning: envious
+  example: She is envious of his success.
+großzügig:
+  meaning: generous
+  example: My neighbor is very generous.
+sparsam:
+  meaning: thrifty
+  example: She lives thriftily and rarely buys new things.
+ähnlich:
+  meaning: similar
+  example: The two rooms are very similar.
+unterschiedlich:
+  meaning: different
+  example: The colleagues' opinions are different.
+die Aufregung:
+  meaning: excitement
+  example: Excitement is high before the exam.
+die Kindheit:
+  meaning: childhood
+  example: My childhood was very happy.
+die Jugend:
+  meaning: youth
+  example: In his youth he played football.
+die Diele:
+  meaning: hallway
+  example: Please put the shoes in the hallway.
+die Ärztin:
+  meaning: female doctor
+  example: The doctor is examining my back today.
+der Notar:
+  meaning: notary
+  example: The notary certifies our signatures.
+die Anlage:
+  meaning: attachment
+  example: The attachment to the application is still missing.
+der Zugang:
+  meaning: access
+  example: Access to the building is blocked.
+der Ausblick:
+  meaning: view
+  example: From the balcony we have a beautiful view.
+die Rundfahrt:
+  meaning: sightseeing tour
+  example: The sightseeing tour through the city takes two hours.
+die Durchsage:
+  meaning: announcement
+  example: The announcement at the station was barely understandable.
+das Schicksal:
+  meaning: fate
+  example: Nobody knows his fate.
+die Grippe:
+  meaning: flu
+  example: I have the flu and am staying in bed.
+die Infektion:
+  meaning: infection
+  example: The infection must be treated quickly.
+der Virus:
+  meaning: virus
+  example: The virus is spreading very quickly.
+die Narbe:
+  meaning: scar
+  example: After the operation, a small scar remains.
+der Gips:
+  meaning: cast
+  example: The doctor put my arm in a cast.
+die Krücke:
+  meaning: crutch
+  example: He walks on crutches after the accident.
+der Rollstuhl:
+  meaning: wheelchair
+  example: My grandmother needs a wheelchair now.
+schwindelig:
+  meaning: dizzy
+  example: I feel dizzy, I'll sit down.
+übel:
+  meaning: nauseous
+  example: After the meal I felt nauseous.
+erkältet:
+  meaning: having a cold
+  example: I have a cold and am staying home today.
+heiser:
+  meaning: hoarse
+  example: After the concert I was completely hoarse.
+die Stärke:
+  meaning: strength
+  example: Patience is an important strength at work.
+die Schwäche:
+  meaning: weakness
+  example: Every person has a small weakness.
+die Qualifikation:
+  meaning: qualification
+  example: I lack the qualification for this position.
+die Umschulung:
+  meaning: retraining
+  example: He is starting a new retraining course in the fall.
+die Bereitschaft:
+  meaning: willingness
+  example: Her willingness to help is great.
+die Einigung:
+  meaning: agreement
+  example: After a long dispute, there was finally an agreement.
+die Versöhnung:
+  meaning: reconciliation
+  example: The reconciliation with him was not easy.
+die Verwandtschaft:
+  meaning: relatives
+  example: All the relatives are coming to the wedding.
+die Uhrzeit:
+  meaning: time of day
+  example: Do you know the exact time?
+das Besteck:
+  meaning: cutlery
+  example: The cutlery is next to the plate.
+die Energie:
+  meaning: energy
+  example: We should save energy.
+die Batterie:
+  meaning: battery
+  example: The phone battery is dead.
+der Laptop:
+  meaning: laptop
+  example: My laptop is very slow today.
+die Schere:
+  meaning: scissors
+  example: The scissors are in the drawer.
+der Hammer:
+  meaning: hammer
+  example: The hammer is in the basement.
+der Nagel:
+  meaning: nail, fingernail
+  example: I need a nail for the picture.
+die Leiter:
+  meaning: ladder
+  example: The ladder is in the garage.
+der Stecker:
+  meaning: plug
+  example: The plug does not fit in the socket.
+die Spüle:
+  meaning: sink
+  example: The glass is next to the sink.
+der Ofen:
+  meaning: oven, stove
+  example: The cake is already in the oven.
+die Waage:
+  meaning: scales
+  example: The scales are in the bathroom.
+der Umschlag:
+  meaning: envelope
+  example: The letter is still in the envelope.
+das Blatt:
+  meaning: sheet of paper, leaf
+  example: Please take a new sheet of paper.
+die Landkarte:
+  meaning: map
+  example: You can find the lake on the map.
+die Landstraße:
+  meaning: country road
+  example: We drive along the country road to the village.
+die Ausfahrt:
+  meaning: exit
+  example: Take the next exit.
+der Stiefel:
+  meaning: boot
+  example: In winter I wear warm boots.
+der Reißverschluss:
+  meaning: zip
+  example: The zip on my jacket is broken.
+die Umkleidekabine:
+  meaning: changing room, fitting room
+  example: The changing room is unfortunately occupied.
+die Zitrone:
+  meaning: lemon
+  example: I need a lemon for the salad.
+die Birne:
+  meaning: pear, light bulb
+  example: The pear is ripe and sweet.
+der Senf:
+  meaning: mustard
+  example: I like mustard with sausage.
+der Spinat:
+  meaning: spinach
+  example: Spinach is healthy and very tasty.
+der Lachs:
+  meaning: salmon
+  example: I am buying fresh salmon for today.
+die Haferflocken:
+  meaning: oats
+  example: For breakfast I eat oats with milk.
+das Mineralwasser:
+  meaning: mineral water
+  example: I would like a mineral water, please.
+die Migräne:
+  meaning: migraine
+  example: With migraine, sometimes only rest helps.
+die Zahnseide:
+  meaning: dental floss
+  example: I use dental floss every evening.
+das Deo:
+  meaning: deodorant
+  example: The deodorant is in the bathroom.
+der Berater:
+  meaning: adviser, consultant
+  example: The adviser helps me with the application.
+das Bürgerbüro:
+  meaning: citizens' office
+  example: The citizens' office is closed today.
+das Anschreiben:
+  meaning: cover letter
+  example: The cover letter is unfortunately too long.
+die Bewerbungsfrist:
+  meaning: application deadline
+  example: The application deadline ends on Friday.
+die Rate:
+  meaning: instalment, rate
+  example: We pay for the car in instalments.
+die Zinsen:
+  meaning: interest
+  example: The interest on the loan is high.
+die Schwierigkeit:
+  meaning: difficulty
+  example: I have difficulties with the form.
+der Gewinn:
+  meaning: profit, winnings
+  example: The profit benefits the school.
+die Form:
+  meaning: shape, form
+  example: The cake has a round shape.
+der Geruch:
+  meaning: smell, odour
+  example: The smell from the kitchen is delicious.
+der Toaster:
+  meaning: toaster
+  example: The toaster is unfortunately broken.
+das Tablett:
+  meaning: tray
+  example: The waiter brings us the tray.
+der Dosenöffner:
+  meaning: can opener
+  example: The can opener is in the drawer.
+der Korkenzieher:
+  meaning: corkscrew
+  example: Do you have a corkscrew for the wine?
+das Schneidebrett:
+  meaning: cutting board
+  example: The cutting board is next to the stove.
+das Backblech:
+  meaning: baking tray
+  example: The baking tray is already in the oven.
+der Mixer:
+  meaning: blender, mixer
+  example: The blender makes the juice smooth.
+das Sieb:
+  meaning: sieve, strainer
+  example: I need a sieve for the tea.
+die Kultur:
+  meaning: culture
+  example: I am interested in other cultures.
+die Religion:
+  meaning: religion
+  example: Religion does not matter to him.
+der Glaube:
+  meaning: faith, belief
+  example: Faith gives her strength.
+die Wirtschaft:
+  meaning: economy
+  example: The economy needs well-trained specialists.
+die Wissenschaft:
+  meaning: science
+  example: Science is looking for a solution.
+die Forschung:
+  meaning: research
+  example: Research helps medicine.
+die Technik:
+  meaning: technology, technique
+  example: Technology makes life easier.
+das Publikum:
+  meaning: audience
+  example: The audience clapped for a long time and loudly.
+die Aufführung:
+  meaning: performance
+  example: The performance begins at eight o'clock.
+die Sehnsucht:
+  meaning: longing, yearning
+  example: She longs for her family.
+die Zuneigung:
+  meaning: affection
+  example: Small gestures often show affection.
+das Team:
+  meaning: team
+  example: The team works well together.
+der Angestellte:
+  meaning: employee
+  example: The employee works in the office.
+die Rückmeldung:
+  meaning: feedback, reply
+  example: I am still waiting for your feedback.
+die Anweisung:
+  meaning: instruction
+  example: Follow the boss's instructions.
+der Praktikant:
+  meaning: intern
+  example: The intern is learning at the company.
+die Motivation:
+  meaning: motivation
+  example: The employees' motivation has dropped.
+die Flexibilität:
+  meaning: flexibility
+  example: Flexibility is expected on the job.
+der Zeitdruck:
+  meaning: time pressure
+  example: I make mistakes under time pressure.
+die Gehaltsverhandlung:
+  meaning: salary negotiation
+  example: The salary negotiation was successful.
+die Arbeitsagentur:
+  meaning: employment agency
+  example: The employment agency helps with the job search.
+die Rücksprache:
+  meaning: consultation
+  example: Please check with us beforehand.
+die Teamfähigkeit:
+  meaning: teamwork skills
+  example: Teamwork skills are important at work.
+der Lieferant:
+  meaning: supplier
+  example: The supplier brings the goods today.
+der Liefertermin:
+  meaning: delivery date
+  example: The delivery date was postponed.
+die Entlassung:
+  meaning: dismissal
+  example: The dismissal came as a surprise to him.
+die Selbstständigkeit:
+  meaning: self-employment
+  example: She dreams of self-employment.
+die Mahnung:
+  meaning: payment reminder
+  example: The payment reminder came by mail.
+der Vorgang:
+  meaning: case, process
+  example: The case is still being processed.
+die Bearbeitung:
+  meaning: processing
+  example: Processing takes a few days.
+die Erstattung:
+  meaning: refund
+  example: The refund will be made to your account.
+der Einspruch:
+  meaning: objection
+  example: He filed an objection against the notice.
+das Porto:
+  meaning: postage
+  example: The postage for the letter has risen.
+die Mappe:
+  meaning: folder
+  example: The documents are in the folder.
+der Kopierer:
+  meaning: copier
+  example: The copier is not working today.
+der Scanner:
+  meaning: scanner
+  example: The scanner does not recognize the text.
+das Fax:
+  meaning: fax
+  example: I'll send the form by fax.
+der Tacker:
+  meaning: stapler
+  example: The stapler is in the desk.
+der USB-Stick:
+  meaning: USB stick
+  example: Save the file on the USB stick.
+die Bestellnummer:
+  meaning: order number
+  example: The order number is on the invoice.
+die Lieferadresse:
+  meaning: delivery address
+  example: Please provide the delivery address.
+der Kundendienst:
+  meaning: customer service
+  example: Customer service helps with problems.
+der Sonderpreis:
+  meaning: special price
+  example: There is a special price today.
+der Ausverkauf:
+  meaning: sale
+  example: Everything is cheaper in the sale.
+der Ladenschluss:
+  meaning: closing time
+  example: Shortly before closing time it is empty.
+die Kundenkarte:
+  meaning: loyalty card
+  example: With the loyalty card you get a discount.
+der Pfandautomat:
+  meaning: bottle return machine
+  example: The bottle return machine is not accepting bottles.
+der Vorrat:
+  meaning: supply, stock
+  example: We have a supply of pasta.
+der Strohhalm:
+  meaning: drinking straw
+  example: The child drinks with a straw.
+der Ketchup:
+  meaning: ketchup
+  example: He eats fries with ketchup.
+die Mayonnaise:
+  meaning: mayonnaise
+  example: I don't like mayonnaise on the salad.
+der Trockner:
+  meaning: dryer
+  example: The laundry is still in the dryer.
+die Reinigung:
+  meaning: dry cleaner
+  example: I'm taking the coat to the dry cleaner.
+die Wäscherei:
+  meaning: laundry
+  example: The laundry is closed today.
+das Wartezimmer:
+  meaning: waiting room
+  example: Many patients are sitting in the waiting room.
+die Nebenwirkung:
+  meaning: side effect
+  example: The medication has no side effects.
+der Befund:
+  meaning: medical result
+  example: The doctor discusses the result with me.
+die Zahnspange:
+  meaning: braces
+  example: She has been wearing braces for a year.
+der Anschlusszug:
+  meaning: connecting train
+  example: The connecting train leaves in ten minutes.
+der Fahrkartenautomat:
+  meaning: ticket machine
+  example: She bought a ticket at the ticket machine.
+die Endstation:
+  meaning: last stop
+  example: We get off at the last stop.
+der Umweg:
+  meaning: detour
+  example: Because of the construction site, we took a detour.
+die Strecke:
+  meaning: route, distance
+  example: The route to Berlin is long.
+der Passagier:
+  meaning: passenger
+  example: The passengers are waiting at the gate.
+der Parkautomat:
+  meaning: parking meter
+  example: The parking meter only takes coins.
+die Ferien:
+  meaning: holidays
+  example: During the holidays we go to the sea.
+die Wettervorhersage:
+  meaning: weather forecast
+  example: The weather forecast reports rain.
+der Grad:
+  meaning: degree
+  example: Today it is ten degrees.
+die Bevölkerung:
+  meaning: population
+  example: The city's population is growing.
+die Öffentlichkeit:
+  meaning: public
+  example: The event is open to the public.
+die Anerkennung:
+  meaning: recognition
+  example: She received a lot of recognition for her work.
+vorsichtig:
+  meaning: careful
+  example: Be careful on the wet stairs.
+ansehen:
+  meaning: watch, look at
+  example: We're watching a film today.
+beide:
+  meaning: both
+  example: Both children already go to school.
+unterwegs:
+  meaning: on the way, out and about
+  example: I'm out and about all day today.
+zuständig:
+  meaning: responsible
+  example: Who is responsible for the application?
+klären:
+  meaning: clarify
+  example: We still need to clarify the question.
+melden:
+  meaning: report, check in
+  example: Please check in at reception.
+abschicken:
+  meaning: send off
+  example: I'll send the package off tomorrow.
+erwähnen:
+  meaning: mention
+  example: He didn't mention the problem.
+hinweisen:
+  meaning: point out
+  example: He points out the deadline.
+überzeugen:
+  meaning: convince
+  example: His arguments convinced me.
+verursachen:
+  meaning: cause
+  example: The noise causes me stress.
+schätzen:
+  meaning: appreciate
+  example: I really appreciate your help.
+lächeln:
+  meaning: smile
+  example: She always smiles kindly.
+nachschauen:
+  meaning: check
+  example: Please check the calendar.
+vorbeikommen:
+  meaning: come by
+  example: Come by our place tomorrow.
+zusammenfassen:
+  meaning: summarize
+  example: Summarize the text briefly.
+durchführen:
+  meaning: carry out
+  example: We will carry out the exam tomorrow.
+bevorzugen:
+  meaning: prefer
+  example: I prefer the train.
+entsorgen:
+  meaning: dispose of
+  example: Please dispose of the garbage properly.
+erfahren:
+  meaning: find out
+  example: I found out about the accident.
+beibringen:
+  meaning: teach
+  example: He teaches me German.
+wenden:
+  meaning: turn, contact
+  example: Please contact the office.
+ansprechen:
+  meaning: address, speak to
+  example: Talk to the boss directly.
+technisch:
+  meaning: technical
+  example: The problem is technical.
+digital:
+  meaning: digital
+  example: Many applications are digital now.
+jederzeit:
+  meaning: anytime
+  example: You can call anytime.
+zurzeit:
+  meaning: currently
+  example: Currently I am looking for a new apartment.
+irgendein:
+  meaning: some, any
+  example: Some employee called.
+solch:
+  meaning: such
+  example: We often have such problems.
+dauernd:
+  meaning: constantly
+  example: He is constantly sick.
+süchtig:
+  meaning: addicted
+  example: He is addicted to coffee.
+die Bildung:
+  meaning: education
+  example: Education is important for the future.
+die Kommunikation:
+  meaning: communication
+  example: Good communication is important in a team.
+der Arbeitsmarkt:
+  meaning: job market
+  example: The job market is difficult at the moment.
+die Verwaltung:
+  meaning: administration
+  example: The administration is on the first floor.
+der Staat:
+  meaning: state
+  example: The state funds many schools.
+die Regierung:
+  meaning: government
+  example: The government passed a new rule.
+die Vorschrift:
+  meaning: regulation
+  example: This regulation applies to everyone.
+die Gemeinde:
+  meaning: municipality
+  example: The municipality is building a new swimming pool.
+die Generation:
+  meaning: generation
+  example: My generation thinks differently about technology.
+die Persönlichkeit:
+  meaning: personality
+  example: She has a strong personality.
+die Leidenschaft:
+  meaning: passion
+  example: She cooks with great passion.
+die Kreativität:
+  meaning: creativity
+  example: This work requires creativity.
+die Armut:
+  meaning: poverty
+  example: Poverty is a big problem.
+der Reichtum:
+  meaning: wealth
+  example: Wealth doesn't always make you happy.
+der Klimawandel:
+  meaning: climate change
+  example: Climate change affects all countries.
+der Service:
+  meaning: service
+  example: The service at the hotel was good.
+die Beilage:
+  meaning: side dish
+  example: I'll have a salad as a side dish.
+der Vegetarier:
+  meaning: vegetarian
+  example: My brother is a vegetarian.
+der Wochenmarkt:
+  meaning: weekly market
+  example: On Saturdays I go to the weekly market.
+der Metzger:
+  meaning: butcher
+  example: The butcher has fresh meat.
+die Traube:
+  meaning: grape
+  example: The grapes are very sweet.
+die Zunge:
+  meaning: tongue
+  example: I bit my tongue.
+die Lippe:
+  meaning: lip
+  example: My lips are completely dry.
+die Stirn:
+  meaning: forehead
+  example: He has pain on his forehead.
+heilen:
+  meaning: heal
+  example: The wound is healing very quickly.
+die Mitfahrgelegenheit:
+  meaning: carpool ride
+  example: I'm looking for a carpool ride to Berlin.
+der Mitfahrer:
+  meaning: passenger
+  example: The passenger was late.
+die Heimreise:
+  meaning: journey home
+  example: The journey home was very exhausting.

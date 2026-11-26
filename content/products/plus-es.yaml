@@ -13,12 +13,9 @@ free:
   stories_per_level: 2     # per level the first 2 stories (in the order the app shows them)
   stories_per_day: 1       # of which 1 new story a day; replaying a story is always free
   phrases_per_level: 10    # per level the first 10 phrases
-  phrases_per_topic: 5     # and per level the first 5 of every topic (gezondheid, werk, ...)
-  phrases_per_day: 10      # of which 10 new a day
+  phrases_per_topic: 5     # and per level the first 5 of every topic (gezondheid, werk, ...); no limit per day
   words_per_level: 50      # word trainer: per level the first 50 words
   words_per_topic: 5       # and per level the first 5 of every topic
-  words_per_day: 10        # of which 10 new a day
-  reviews_per_day: 20      # word review: 20 cards a day
 texts:
   ar:
     icon: ⭐
@@ -28,7 +25,7 @@ texts:
       - "كل القصص في كل المستويات، وقصص جديدة باستمرار"
       - "قصص بقدر ما تريد كل يوم، بلا حد يومي"
       - "كل الجمل للحياة اليومية، {phrases} جملة حتى الآن: عند الطبيب، في العمل، في المتجر، وتزداد باستمرار"
-      - "مراجعة الكلمات بلا حدود، في اللحظة التي تكاد تنساها فيها"
+      - "مدرّب الكلمات: {words} كلمة حتى الآن، لكل كلمة جملة مثال، والقائمة تكبر باستمرار"
       - "تعلّم بإيقاعك: ربع ساعة أو المساء كله"
       - "اشتراك واحد للغة كلها، بأي لغة تستخدم التطبيق"
   nl:
@@ -39,7 +36,7 @@ texts:
       - "Alle verhalen van {levels}, en er komen steeds nieuwe bij"
       - "Zoveel verhalen per dag als je wilt, zonder daglimiet"
       - "Alle zinnen voor het echte leven, nu al {phrases}: bij de dokter, op je werk, in de winkel, en er komen er steeds meer bij"
-      - "Onbeperkt woorden herhalen, precies op het moment dat je ze dreigt te vergeten"
+      - "Een woordentrainer met nu al {words} woorden, elk met een voorbeeldzin, en de lijst groeit steeds verder"
       - "Leer in je eigen tempo: een kwartier of de hele avond"
       - "Eén abonnement voor de hele taal, in welke taal je de app ook gebruikt"
   en:
@@ -50,6 +47,6 @@ texts:
       - "Every story from {levels}, with new ones added all the time"
       - "As many stories a day as you like, no daily limit"
       - "Every phrase for real life, already {phrases}: at the doctor, at work, in the shop, and the list keeps growing"
-      - "Unlimited word review, right when you are about to forget a word"
+      - "A word trainer with already {words} words, each with an example sentence, and the list keeps growing"
       - "Learn at your own pace: fifteen minutes or the whole evening"
       - "One subscription for the whole language, whatever language you use the app in"

@@ -13,12 +13,9 @@ free:
   stories_per_level: 2     # per level the first 2 stories (in the order the app shows them)
   stories_per_day: 1       # of which 1 new story a day; replaying a story is always free
   phrases_per_level: 10    # per level the first 10 phrases
-  phrases_per_topic: 5     # and per level the first 5 of every topic (gezondheid, werk, ...)
-  phrases_per_day: 10      # of which 10 new a day
+  phrases_per_topic: 5     # and per level the first 5 of every topic (gezondheid, werk, ...); no limit per day
   words_per_level: 50      # word trainer: per level the first 50 words
   words_per_topic: 5       # and per level the first 5 of every topic
-  words_per_day: 10        # of which 10 new a day
-  reviews_per_day: 20      # word review: 20 cards a day
 texts:
   ar:
     icon: ⭐
@@ -28,6 +25,6 @@ texts:
       - "كل القصص في كل المستويات، وقصص جديدة باستمرار"
       - "قصص بقدر ما تريد كل يوم، بلا حد يومي"
       - "كل الجمل للحياة اليومية، {phrases} جملة حتى الآن: عند الطبيب، في العمل، في المتجر، وتزداد باستمرار"
-      - "مراجعة الكلمات بلا حدود، في اللحظة التي تكاد تنساها فيها"
+      - "مدرّب الكلمات: {words} كلمة حتى الآن، لكل كلمة جملة مثال، والقائمة تكبر باستمرار"
       - "تعلّم بإيقاعك: ربع ساعة أو المساء كله"
       - "اشتراك واحد للغة كلها، بأي لغة تستخدم التطبيق"

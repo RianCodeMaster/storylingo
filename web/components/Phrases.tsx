@@ -6,11 +6,12 @@ import { useDevActions } from "@/lib/devtools";
 import { getEnrollment } from "@/lib/enrollment";
 import { useI18n } from "@/lib/i18n";
 import {
-  isTopic, learnedPhrases, loadPhrases, type PhraseCard, phraseTotal, type Section, type Topic, TOPICS, topicTotals,
+  isTopic, learnedPhrases, loadPhrases, type PhraseCard, phraseProgress, type PhraseProgress, phraseTotal,
+  type Section, type Topic, TOPICS, topicTotals,
 } from "@/lib/phrases";
 import { type Tier, tierOf, type Usage, usageToday } from "@/lib/plus";
 import { ownedProducts } from "@/lib/products";
-import { countDue } from "@/lib/review";
+import { countDue, loadStates } from "@/lib/review";
 import { type Grade, NEW_ROW } from "@/lib/srs";
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner, supabase } from "@/lib/supabase";
@@ -20,11 +21,9 @@ import { Upsell } from "./Upsell";
 import { useRound } from "./useRound";
 
 const BATCH = 10;
-// More new cards a day is allowed (with Plus there is no limit), but every new card brings reviews in the days after:
+// As many new cards a day as the learner wants, but every new card brings reviews in the days after:
 // from this many on, the page says so, so a learner who wants a fast pace chooses it knowingly.
 const MANY_NEW = 20;
-// The phrases and the words go up to B1 (content/phrases|words/<language>/A1|A2|B1.yaml).
-const PHRASE_LEVELS: readonly string[] = ["A1", "A2", "B1"];
 const DIRECTION_KEY = "storylingo.phraseDirection";
 
 /** understand: hear and read the phrase, recall its meaning. say: read the meaning, say the phrase, then hear it. */
@@ -43,7 +42,7 @@ function Practice({
   const { dict, fill, lang: base } = useI18n();
   const T = section === "words" ? dict.vocab : dict.phrases;
   const [userId, setUserId] = useState<string | null>(null);
-  const [cards] = useState(() => batch.map((p) => ({ ...p, srs: NEW_ROW })));
+  const [cards] = useState(() => batch.map((p) => ({ ...p, srs: p.srs ?? NEW_ROW })));
   const [revealed, setRevealed] = useState(false);
   const [stopped, setStopped] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -136,13 +135,21 @@ function Practice({
   );
 }
 
+const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"];
+const rank = (level: string) => LEVEL_ORDER.indexOf(level);
+
 /**
- * A card section of an edition at the learner's level, the phrases or the word trainer: how far they are, and ten new
- * cards at a time. Both work the same; only their texts, their table and their free limits differ.
+ * A card section of an edition, the phrases or the word trainer: per level how far the learner is, and ten new cards
+ * at a time, as many rounds a day as they like (no daily limit; without Plus a level has its free part). It opens at
+ * the learner's level, or the nearest level below it that has cards; the other levels are one tap away. When a level
+ * is done, the next level and practising again (the learned cards, the least stable first) keep the box from running
+ * empty. Both sections work the same; only their texts, their table and their free part differ.
  */
 export default function Phrases({ section = "phrases" }: { section?: Section }) {
   const { lang, dict, fill, edition } = useI18n();
   const T = section === "words" ? dict.vocab : dict.phrases;
+  const [mine, setMine] = useState<string | null>(null); // the learner's own level in this edition
+  const [levels, setLevels] = useState<PhraseProgress>({}); // the levels this section has, with counts
   const [level, setLevel] = useState<string | null>(null);
   const [direction, setDirection] = useState<Direction>("understand");
   const [phrases, setPhrases] = useState<PhraseCard[] | null>(null);
@@ -157,7 +164,7 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
   const [topics, setTopics] = useState<Partial<Record<Topic, number>>>({});
   const [due, setDue] = useState(0); // review cards waiting: those first, then new ones
 
-  // Start at the learner's level in this edition (the phrases stop at B1), in the direction chosen last time.
+  // Open at the learner's level, or the nearest level below it with cards, in the direction chosen last time.
   useEffect(() => {
     const asked = new URLSearchParams(window.location.search).get("topic");
     // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only value, unknown during server render
@@ -167,11 +174,15 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
     } catch {}
     (async () => {
       await ensureLearner(lang);
-      const enrolled = await getEnrollment(edition.slug);
-      const mine = enrolled?.level;
-      setLevel(mine && PHRASE_LEVELS.includes(mine) ? mine : mine ? "B1" : "A1");
+      const [enrolled, progress] = await Promise.all([getEnrollment(edition.slug), phraseProgress(edition.target, section)]);
+      const own = enrolled?.level ?? "A1";
+      const have = Object.keys(progress).sort((a, b) => rank(a) - rank(b));
+      const below = have.filter((l) => rank(l) <= rank(own));
+      setMine(own);
+      setLevels(progress);
+      setLevel(below.at(-1) ?? have[0] ?? null);
     })().catch((e) => setError(String(e.message ?? e)));
-  }, [lang, edition.slug]);
+  }, [lang, edition.slug, edition.target, section]);
 
   function chooseDirection(d: Direction) {
     setDirection(d);
@@ -180,7 +191,12 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
     } catch {}
   }
 
-  // Test tools (development only): practise this level's phrases again from scratch.
+  function chooseLevel(l: string) {
+    setPhrases(null);
+    setLevel(l);
+  }
+
+  // Test tools (development only): practise this level's cards again from scratch.
   useDevActions([
     {
       label: section === "words" ? "Woorden van dit niveau weer als nieuw" : "Zinnen van dit niveau weer als nieuw",
@@ -195,11 +211,11 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
   useEffect(() => {
     if (!level || batch) return;
     (async () => {
-      // The database hands out only the free phrases without Plus; the total says how many there are in all.
-      const [list, done, all, perTopic, owned, today, waiting] = await Promise.all([
+      // The database hands out only the free part without Plus; the total says how many there are in all.
+      const [list, done, all, perTopic, owned, today, waiting, progress] = await Promise.all([
         loadPhrases(edition, level, topic, section), learnedPhrases(edition.target, section),
         phraseTotal(edition.target, level, section), topicTotals(edition.target, level, section), ownedProducts(),
-        usageToday(edition.target), countDue(edition.target),
+        usageToday(edition.target), countDue(edition.target), phraseProgress(edition.target, section),
       ]);
       setDue(waiting);
       setPhrases(list);
@@ -208,6 +224,7 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
       setTopics(perTopic);
       setTier(tierOf(edition, owned));
       setUsage(today);
+      setLevels(progress);
     })().catch((e) => setError(String(e.message ?? e)));
   }, [level, edition, batch, topic, section]);
 
@@ -219,6 +236,20 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
     if (t) url.searchParams.set("topic", t);
     else url.searchParams.delete("topic");
     window.history.replaceState(null, "", url);
+  }
+
+  /** Practise learned cards again, before they are due: the least stable first (FSRS takes the early review in). */
+  async function practiseAgain() {
+    try {
+      const known = (phrases ?? []).filter((p) => learned.has(p.lexemeId));
+      const states = await loadStates(known.map((p) => p.lexemeId));
+      const ordered = known
+        .map((p) => ({ ...p, srs: states.get(p.lexemeId) }))
+        .sort((a, b) => (a.srs?.stability ?? 0) - (b.srs?.stability ?? 0));
+      setBatch(ordered.slice(0, BATCH));
+    } catch (e) {
+      setError(String((e as Error).message ?? e));
+    }
   }
 
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
@@ -233,19 +264,28 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
 
   const fresh = phrases?.filter((p) => !learned.has(p.lexemeId)) ?? [];
   const done = (phrases?.length ?? 0) - fresh.length;
-  // Without Plus: a few new phrases a day, and per level only the first ones (the rest is locked).
+  // Without Plus a level has its free part (the rest is locked); there is no limit per day.
   const limits = tier?.limits;
-  const perDay = section === "words" ? limits?.words_per_day : limits?.phrases_per_day;
   const usedToday = section === "words" ? usage?.newWords : usage?.newPhrases;
-  const leftToday = perDay !== undefined && usedToday !== undefined ? Math.max(0, perDay - usedToday) : BATCH;
-  const upsell = section === "words"
-    ? { today: dict.plus.wordsToday, level: dict.plus.wordsLevel }
-    : { today: dict.plus.phrasesToday, level: dict.plus.phrasesLevel };
+  const upsellLevel = section === "words" ? dict.plus.wordsLevel : dict.plus.phrasesLevel;
   const lockedPart = !!limits && total > (phrases?.length ?? 0);
+  const order = Object.keys(levels).sort((a, b) => rank(a) - rank(b));
+  const next = level ? order.find((l) => rank(l) > rank(level)) : undefined;
   return (
     <main>
       <TopBar title={topic ? `${T.title}: ${dict.phrases.topics[topic]}` : T.title} />
       <p className="muted">{T.intro}</p>
+      {/* The levels this section has, each with how far the learner is; their own level has a star. */}
+      {order.length > 0 && (
+        <nav className="topic-chips" aria-label={dict.level.yours}>
+          {order.map((l) => (
+            <button key={l} className={l === level ? "chosen-level" : ""} onClick={() => chooseLevel(l)}>
+              {l === mine ? "★ " : ""}
+              {l} <span className="small muted">{levels[l].learned}/{levels[l].total}</span>
+            </button>
+          ))}
+        </nav>
+      )}
       {/* Topics of daily life: the ones this level has, as chips; "all" goes back to the whole level. */}
       {Object.keys(topics).length > 0 && (
         <nav className="topic-chips" aria-label={dict.phrases.topicsLabel}>
@@ -258,12 +298,6 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
             </button>
           ))}
         </nav>
-      )}
-      {/* Only the learner's level (chosen once, changed on the start screen): no choosing here. */}
-      {level && (
-        <span className="badge">
-          {dict.level.yours}: {level} · {dict.level.names[level as keyof typeof dict.level.names]}
-        </span>
       )}
       <div className="row">
         {(["understand", "say"] as const).map((d) => (
@@ -287,23 +321,28 @@ export default function Phrases({ section = "phrases" }: { section?: Section }) 
               🔁 {fill(dict.review.first, { n: due })} <span className="arrow">→</span>
             </Link>
           )}
-          {!limits && usedToday !== undefined && usedToday >= MANY_NEW && (
+          {usedToday !== undefined && usedToday >= MANY_NEW && (
             <p className="muted small">{fill(dict.review.manyNew, { n: usedToday })}</p>
           )}
-          {fresh.length > 0 && leftToday > 0 ? (
-            <button className="primary" onClick={() => setBatch(fresh.slice(0, Math.min(BATCH, leftToday)))}>
+          {fresh.length > 0 ? (
+            <button className="primary" onClick={() => setBatch(fresh.slice(0, BATCH))}>
               {fresh.length < BATCH ? T.more : T.learn}
             </button>
-          ) : fresh.length > 0 ? (
-            <Upsell plus={tier.plus} line={fill(upsell.today, { n: perDay ?? BATCH })} />
           ) : lockedPart ? (
-            <Upsell plus={tier.plus} line={fill(upsell.level, { free: phrases.length, total })} />
+            <Upsell plus={tier.plus} line={fill(upsellLevel, { free: phrases.length, total })} />
           ) : (
             <p className="muted">{T.allLearned}</p>
           )}
           {lockedPart && fresh.length > 0 && (
-            <Upsell plus={tier.plus} line={fill(upsell.level, { free: phrases.length, total })} small />
+            <Upsell plus={tier.plus} line={fill(upsellLevel, { free: phrases.length, total })} small />
           )}
+          {/* The box never runs empty: the next level, and practising what was learned again. */}
+          {fresh.length === 0 && next && (
+            <button className="primary" onClick={() => chooseLevel(next)}>
+              {fill(dict.level.readyButton, { level: next })} <span className="arrow">→</span>
+            </button>
+          )}
+          {done > 0 && <button onClick={() => void practiseAgain()}>🔁 {dict.review.practiseAgain}</button>}
         </div>
       )}
     </main>

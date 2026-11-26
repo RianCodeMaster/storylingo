@@ -3,13 +3,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
-import { tierOf, usageToday } from "@/lib/plus";
-import { ownedProducts, type Product } from "@/lib/products";
 import { type Grade, loadDue, type ReviewCard } from "@/lib/review";
 import { narrate, stopSpeaking } from "@/lib/speech";
 import { ensureLearner } from "@/lib/supabase";
 import TopBar from "./TopBar";
-import { Upsell } from "./Upsell";
 import { useRound } from "./useRound";
 
 /** The three answers to "did you know it?", shared with the phrases section. */
@@ -58,19 +55,14 @@ export default function Review() {
   const [revealed, setRevealed] = useState(false);
   const [stopped, setStopped] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
-  // Without Plus a few cards a day; what is due beyond that waits for tomorrow (or Plus).
-  const [capped, setCapped] = useState<{ plus: Product | null; n: number } | null>(null);
   const round = useRound(cards, userId);
   const card = round.current;
 
   useEffect(() => {
     (async () => {
       setUserId(await ensureLearner(lang));
-      const [due, owned, today] = await Promise.all([loadDue(lang, edition.target), ownedProducts(), usageToday(edition.target)]);
-      const tier = tierOf(edition, owned);
-      const left = tier.limits ? Math.max(0, tier.limits.reviews_per_day - today.reviews) : due.length;
-      if (due.length > left) setCapped({ plus: tier.plus, n: tier.limits?.reviews_per_day ?? 0 });
-      setCards(due.slice(0, left));
+      // Everything that is due, without a daily limit: what is due should be repeated now, that is what makes it stick.
+      setCards(await loadDue(lang, edition.target));
     })().catch((e) => setLoadError(String(e.message ?? e)));
   }, [lang, edition]);
 
@@ -91,7 +83,6 @@ export default function Review() {
   if (error) return <main><p className="card">{fill(dict.common.error, { error })}</p></main>;
   if (!cards) return <main><p className="muted">{dict.review.loading}</p></main>;
 
-  const capNote = capped && <Upsell plus={capped.plus} line={fill(dict.plus.reviewsToday, { n: capped.n })} />;
   // Nothing (more) due is never a dead end: learning something new is always one tap away.
   const learnNew = (
     <div className="row">
@@ -104,12 +95,10 @@ export default function Review() {
     return (
       <main>
         {bar}
-        {capNote || (
-          <div className="card">
-            <p className="story-text">{dict.review.nothing}</p>
-            <p className="muted">{dict.review.nothingHint}</p>
-          </div>
-        )}
+        <div className="card">
+          <p className="story-text">{dict.review.nothing}</p>
+          <p className="muted">{dict.review.nothingHint}</p>
+        </div>
         {learnNew}
       </main>
     );
@@ -124,7 +113,6 @@ export default function Review() {
           <p className="story-text">{fill(dict.review.tally, round.tally)}</p>
           <p className="muted">{dict.review.doneHint}</p>
         </div>
-        {capNote}
         {learnNew}
       </main>
     );

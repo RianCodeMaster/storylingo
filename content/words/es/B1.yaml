@@ -1,0 +1,4805 @@
+# Words for the word trainer, most useful first. Every edition with this target language shows them. text: the
+# dictionary form (German nouns with der/die/das, verbs as infinitive), exactly like the stories' glossary, so a
+# word met in a story is the same word here. example: one short sentence at this level. hint: English, for the
+# translator and for you; learners never see it. Edit freely (a changed text is a new word: it needs a meaning again,
+# `localize-words` adds it), then: storylingo.py sync.
+- text: sin embargo
+  example: Es caro; sin embargo, lo compro.
+  hint: however
+  topics: [everyday]
+- text: decidir
+  example: He decidido cambiar de trabajo.
+  hint: to decide
+  topics: [everyday]
+- text: aparecer
+  example: Mi móvil apareció en el sofá.
+  hint: to appear
+  topics: [everyday]
+- text: ocurrir
+  example: ¿Qué ocurrió ayer en la oficina?
+  hint: to happen
+  topics: [everyday]
+- text: tratar
+  example: Voy a tratar de ayudarte.
+  hint: to try; treat
+  topics: [social]
+- text: mantener
+  example: Quiero mantener la calma.
+  hint: to keep
+  topics: [everyday]
+- text: evitar
+  example: Intento evitar el tráfico por la mañana.
+  hint: to avoid
+  topics: [everyday]
+- text: disfrutar
+  example: Disfrutamos mucho del viaje.
+  hint: to enjoy
+  topics: [social, travel]
+- text: cumplir
+  example: Cumplo años el lunes.
+  hint: to turn age
+  topics: [social]
+- text: atender
+  example: El camarero atiende muy bien.
+  hint: to serve; attend
+  topics: [shopping]
+- text: reconocer
+  example: No reconocí a tu hermana.
+  hint: to recognize
+  topics: [social]
+- text: suponer
+  example: Supongo que llegarás tarde.
+  hint: to suppose
+  topics: [everyday]
+- text: resolver
+  example: El técnico resolvió el problema.
+  hint: to solve
+  topics: [work]
+- text: respetar
+  example: Hay que respetar las normas.
+  hint: to respect
+  topics: [social]
+- text: echar
+  example: Echa la carta al buzón.
+  hint: to throw
+  topics: [everyday]
+- text: desaparecer
+  example: Mi cartera desapareció del bolso.
+  hint: to disappear
+  topics: [everyday]
+- text: depender
+  example: Todo depende del tiempo.
+  hint: to depend
+  topics: [everyday]
+- text: aumentar
+  example: El precio aumentó un poco.
+  hint: to increase
+  topics: [shopping]
+- text: dedicar
+  example: Dedico dos horas al deporte.
+  hint: to dedicate
+  topics: [everyday]
+- text: describir
+  example: Describe tu barrio en dos líneas.
+  hint: to describe
+  topics: [everyday]
+- text: dudar
+  example: Dudo que venga hoy.
+  hint: to doubt
+  topics: [everyday]
+- text: fijarse
+  example: Fíjate en el precio.
+  hint: to notice
+  topics: [shopping]
+- text: aconsejar
+  example: Te aconsejo descansar un poco.
+  hint: to advise
+  topics: [health]
+- text: anunciar
+  example: La empresa anunció nuevos horarios.
+  hint: to announce
+  topics: [work]
+- text: proponer
+  example: Propongo una reunión el martes.
+  hint: to propose
+  topics: [work]
+- text: proteger
+  example: Protege tus datos personales.
+  hint: to protect
+  topics: [office]
+- text: reunirse
+  example: Nos reunimos a las diez.
+  hint: to meet
+  topics: [work]
+- text: solicitar
+  example: Solicité una beca en la oficina.
+  hint: to apply for
+  topics: [office]
+- text: valorar
+  example: Valoro mucho tu ayuda.
+  hint: to value
+  topics: [social]
+- text: luchar
+  example: Luchamos por mejores condiciones.
+  hint: to fight
+  topics: [work, social]
+- text: negar
+  example: Niega que rompió el vaso.
+  hint: to deny
+  topics: [everyday]
+- text: pertenecer
+  example: Este libro pertenece a mi hermana.
+  hint: to belong
+  topics: [social]
+- text: disculparse
+  example: Se disculpó por llegar tarde.
+  hint: to apologise
+  topics: [social]
+- text: el futuro
+  example: Pienso en el futuro con calma.
+  hint: the future
+  topics: [everyday]
+- text: la situación
+  example: La situación es difícil, pero mejorará.
+  hint: the situation
+  topics: [everyday]
+- text: el tipo
+  example: Ese tipo de café me gusta.
+  hint: type; guy
+  topics: [everyday]
+- text: la oportunidad
+  example: Esta es una buena oportunidad.
+  hint: the opportunity
+  topics: [work]
+- text: el ejemplo
+  example: Dame un ejemplo claro.
+  hint: the example
+  topics: [everyday]
+- text: la falta
+  example: La falta de sueño me cansa.
+  hint: lack
+  topics: [health]
+- text: la relación
+  example: Tenemos una buena relación.
+  hint: relationship
+  topics: [social]
+- text: la seguridad
+  example: La seguridad es lo primero.
+  hint: safety
+  topics: [travel]
+- text: el objetivo
+  example: El objetivo es terminar hoy.
+  hint: the goal
+  topics: [work]
+- text: la opción
+  example: No hay otra opción.
+  hint: the option
+  topics: [everyday]
+- text: la importancia
+  example: No veo la importancia del problema.
+  hint: importance
+  topics: [everyday]
+- text: el acuerdo
+  example: Llegamos a un acuerdo justo.
+  hint: agreement
+  topics: [work]
+- text: la costumbre
+  example: Es costumbre cenar tarde.
+  hint: custom
+  topics: [social]
+- text: la fuerza
+  example: Necesito fuerza para subir.
+  hint: strength
+  topics: [health]
+- text: el esfuerzo
+  example: Con esfuerzo, todo es posible.
+  hint: effort
+  topics: [work]
+- text: el éxito
+  example: El éxito requiere paciencia.
+  hint: success
+  topics: [work]
+- text: el sistema
+  example: El sistema funciona bastante bien.
+  hint: the system
+  topics: [office]
+- text: la sociedad
+  example: La sociedad está cambiando rápido.
+  hint: society
+  topics: [social]
+- text: la zona
+  example: Esta zona es muy tranquila.
+  hint: the area
+  topics: [housing]
+- text: la ventaja
+  example: La ventaja es el precio.
+  hint: advantage
+  topics: [shopping]
+- text: el desarrollo
+  example: El desarrollo del proyecto va bien.
+  hint: development
+  topics: [work]
+- text: la distancia
+  example: La distancia al centro es corta.
+  hint: distance
+  topics: [travel]
+- text: el riesgo
+  example: Hay riesgo de lluvia.
+  hint: risk
+  topics: [travel]
+- text: el daño
+  example: El golpe no causó daño.
+  hint: damage; harm
+  topics: [health]
+- text: la explicación
+  example: Tu explicación fue muy clara.
+  hint: explanation
+  topics: [everyday]
+- text: la prueba
+  example: La prueba médica salió bien.
+  hint: test
+  topics: [health]
+- text: la beca
+  example: Pedí una beca para estudiar.
+  hint: scholarship
+  topics: [office]
+- text: la vivienda
+  example: La vivienda está cerca del centro.
+  hint: housing, home
+  topics: [housing]
+- text: la hipoteca
+  example: Pagamos la hipoteca todos los meses.
+  hint: mortgage
+  topics: [housing]
+- text: el préstamo
+  example: Pedí un préstamo para comprar el coche.
+  hint: loan
+  topics: [housing, office]
+- text: la mudanza
+  example: La mudanza fue muy cansada.
+  hint: move, relocation
+  topics: [housing]
+- text: el inquilino
+  example: El inquilino paga el alquiler cada mes.
+  hint: tenant
+  topics: [housing]
+- text: la fianza
+  example: Dejamos una fianza para el piso.
+  hint: deposit
+  topics: [housing]
+- text: la reparación
+  example: La reparación del tejado costó mucho.
+  hint: repair
+  topics: [housing]
+- text: la instalación
+  example: La instalación de la luz es nueva.
+  hint: installation
+  topics: [housing]
+- text: la limpieza
+  example: Hago la limpieza los sábados.
+  hint: cleaning
+  topics: [housing]
+- text: el transporte
+  example: Uso el transporte público cada día.
+  hint: transport
+  topics: [travel]
+- text: el atasco
+  example: Había un atasco enorme en la autopista.
+  hint: traffic jam
+  topics: [travel]
+- text: el carril
+  example: Cambia de carril con cuidado.
+  hint: lane
+  topics: [travel]
+- text: la matrícula
+  example: La matrícula del coche es nueva.
+  hint: registration plate
+  topics: [travel]
+- text: el transbordo
+  example: Tienes que hacer transbordo en la siguiente estación.
+  hint: transfer
+  topics: [travel]
+- text: el puerto
+  example: El barco llegó al puerto por la mañana.
+  hint: port
+  topics: [travel]
+- text: el trámite
+  example: El trámite es rápido si tienes cita.
+  hint: procedure
+  topics: [office]
+- text: el plazo
+  example: El plazo termina el viernes.
+  hint: deadline
+  topics: [office]
+- text: la identidad
+  example: Necesito un documento de identidad.
+  hint: identity
+  topics: [office]
+- text: el certificado
+  example: Pide el certificado en el ayuntamiento.
+  hint: certificate
+  topics: [office]
+- text: renovar
+  example: Tengo que renovar el pasaporte pronto.
+  hint: renew
+  topics: [office]
+- text: gestionar
+  example: Voy a gestionar el permiso mañana.
+  hint: manage, process
+  topics: [office]
+- text: reclamar
+  example: Quiero reclamar la factura del teléfono.
+  hint: complain, claim
+  topics: [office, shopping]
+- text: la jornada
+  example: Mi jornada empieza a las ocho.
+  hint: working day
+  topics: [work]
+- text: la formación
+  example: La empresa ofrece formación a los empleados.
+  hint: training
+  topics: [work]
+- text: la presentación
+  example: La presentación empieza a las diez.
+  hint: presentation
+  topics: [work]
+- text: la responsabilidad
+  example: Es una gran responsabilidad ser jefe.
+  hint: responsibility
+  topics: [work, social]
+- text: contratar
+  example: Van a contratar a dos personas.
+  hint: hire
+  topics: [work]
+- text: despedir
+  example: La empresa puede despedir a cualquiera.
+  hint: fire, dismiss
+  topics: [work]
+- text: jubilarse
+  example: Mi padre quiere jubilarse este año.
+  hint: retire
+  topics: [work]
+- text: la huelga
+  example: Los trabajadores están en huelga.
+  hint: strike
+  topics: [work]
+- text: la prevención
+  example: La prevención es clave para la salud.
+  hint: prevention
+  topics: [health]
+- text: el tratamiento
+  example: El tratamiento dura tres semanas.
+  hint: treatment
+  topics: [health]
+- text: la operación
+  example: La operación fue bien.
+  hint: operation
+  topics: [health]
+- text: el músculo
+  example: Me duele el músculo del brazo.
+  hint: muscle
+  topics: [health]
+- text: la respiración
+  example: La respiración profunda ayuda a relajarse.
+  hint: breathing
+  topics: [health]
+- text: recetar
+  example: El médico puede recetar un jarabe.
+  hint: prescribe
+  topics: [health]
+- text: contagiarse
+  example: Es fácil contagiarse de gripe en invierno.
+  hint: catch disease
+  topics: [health]
+- text: vacunarse
+  example: Debes vacunarse antes del viaje.
+  hint: get vaccinated
+  topics: [health]
+- text: aliviar
+  example: Este té ayuda a aliviar el dolor.
+  hint: relieve
+  topics: [health]
+- text: empeorar
+  example: Su salud puede empeorar sin tratamiento.
+  hint: get worse
+  topics: [health]
+- text: el efectivo
+  example: Prefiero pagar en efectivo.
+  hint: cash
+  topics: [shopping]
+- text: la garantía
+  example: La garantía cubre la reparación.
+  hint: warranty
+  topics: [shopping]
+- text: caducar
+  example: El yogur puede caducar mañana.
+  hint: expire
+  topics: [shopping]
+- text: congelar
+  example: Voy a congelar la carne.
+  hint: freeze
+  topics: [shopping]
+- text: freír
+  example: Freír los huevos es muy fácil.
+  hint: fry
+  topics: [shopping]
+- text: hervir
+  example: Hay que hervir el agua primero.
+  hint: boil
+  topics: [shopping]
+- text: mezclar
+  example: Mezclar la harina con leche.
+  hint: mix
+  topics: [shopping]
+- text: añadir
+  example: Añadir un poco de sal.
+  hint: add
+  topics: [shopping]
+- text: pelar
+  example: Pelar las patatas lleva tiempo.
+  hint: peel
+  topics: [shopping]
+- text: envolver
+  example: Pueden envolver el regalo, por favor.
+  hint: wrap
+  topics: [shopping]
+- text: la confianza
+  example: La confianza es importante en pareja.
+  hint: trust, confidence
+  topics: [social]
+- text: el respeto
+  example: El respeto ayuda a convivir mejor.
+  hint: respect
+  topics: [social]
+- text: la comunicación
+  example: La comunicación mejora con el diálogo.
+  hint: communication
+  topics: [social]
+- text: la discusión
+  example: Tuvimos una discusión por dinero.
+  hint: argument, discussion
+  topics: [social]
+- text: la disculpa
+  example: Su disculpa fue sincera y rápida.
+  hint: apology
+  topics: [social]
+- text: el comportamiento
+  example: Su comportamiento sorprendió a todos.
+  hint: behaviour
+  topics: [social]
+- text: la actitud
+  example: Tu actitud positiva ayuda mucho.
+  hint: attitude
+  topics: [social]
+- text: la paciencia
+  example: Con niños necesitas mucha paciencia.
+  hint: patience
+  topics: [social]
+- text: por lo tanto
+  example: Estaba cansado; por lo tanto, se fue.
+  hint: therefore
+  topics: [everyday]
+- text: ya que
+  example: No vino ya que estaba enfermo.
+  hint: since, because
+  topics: [everyday]
+- text: probablemente
+  example: Probablemente llegaremos tarde a la cena.
+  hint: probably
+  topics: [everyday]
+- text: seguramente
+  example: Seguramente ya ha salido del trabajo.
+  hint: probably
+  topics: [everyday]
+- text: actualmente
+  example: Actualmente vivo con mis padres.
+  hint: currently
+  topics: [everyday]
+- text: últimamente
+  example: Últimamente no duermo bien por las noches.
+  hint: lately
+  topics: [everyday]
+- text: la baja
+  example: Está de baja desde el lunes.
+  hint: sick leave
+  topics: [health, work]
+- text: el salario
+  example: Cobro el salario a final de mes.
+  hint: salary
+  topics: [work]
+- text: el especialista
+  example: Mi médico me envía al especialista.
+  hint: specialist
+  topics: [health]
+- text: la tensión
+  example: El médico me toma la tensión.
+  hint: blood pressure
+  topics: [health]
+- text: el apoyo
+  example: Gracias por tu apoyo en todo momento.
+  hint: support
+  topics: [social]
+- text: la educación
+  example: La educación es importante en la mesa.
+  hint: manners
+  topics: [social]
+- text: la preocupación
+  example: Su preocupación por el examen es normal.
+  hint: worry
+  topics: [social]
+- text: el conflicto
+  example: Intentaron resolver el conflicto sin gritos.
+  hint: conflict
+  topics: [social, work]
+- text: la emoción
+  example: Sentí mucha emoción al verlos.
+  hint: emotion
+  topics: [social]
+- text: el carácter
+  example: Tiene buen carácter y mucha paciencia.
+  hint: character
+  topics: [social]
+- text: la personalidad
+  example: Su personalidad es alegre y tranquila.
+  hint: personality
+  topics: [social]
+- text: la motivación
+  example: La motivación es clave para estudiar.
+  hint: motivation
+  topics: [work]
+- text: el ascenso
+  example: Le dieron un ascenso en el trabajo.
+  hint: promotion
+  topics: [work]
+- text: el despido
+  example: El despido fue una sorpresa para todos.
+  hint: dismissal
+  topics: [work, social]
+- text: el autónomo
+  example: Mi hermano es autónomo y trabaja mucho.
+  hint: self-employed
+  topics: [work]
+- text: el presupuesto
+  example: Pidió un presupuesto al fontanero.
+  hint: estimate
+  topics: [work, housing]
+- text: el requisito
+  example: Este requisito es obligatorio para solicitar plaza.
+  hint: requirement
+  topics: [office]
+- text: el impreso
+  example: Rellene este impreso y firme abajo.
+  hint: form
+  topics: [office]
+- text: el funcionario
+  example: El funcionario revisó mi solicitud con calma.
+  hint: civil servant
+  topics: [office, work]
+- text: el registro
+  example: El registro se hace en esta oficina.
+  hint: registry
+  topics: [office]
+- text: el justificante
+  example: Necesito el justificante para pedir la baja.
+  hint: proof document
+  topics: [office, health]
+- text: la tasa
+  example: Hay que pagar una tasa municipal.
+  hint: fee
+  topics: [office]
+- text: la renovación
+  example: La renovación del carné tarda dos semanas.
+  hint: renewal
+  topics: [office]
+- text: la administración
+  example: La administración abre de nueve a dos.
+  hint: administration
+  topics: [office]
+- text: la analítica
+  example: Los resultados de la analítica salen mañana.
+  hint: blood test
+  topics: [health]
+- text: la radiografía
+  example: Me hicieron una radiografía del brazo.
+  hint: X-ray
+  topics: [health]
+- text: el vendaje
+  example: El vendaje cubre toda la herida.
+  hint: bandage
+  topics: [health]
+- text: la recuperación
+  example: La recuperación después de la operación fue rápida.
+  hint: recovery
+  topics: [health]
+- text: el chequeo
+  example: Hago un chequeo médico cada año.
+  hint: check-up
+  topics: [health]
+- text: la cicatriz
+  example: Le queda una cicatriz en la rodilla.
+  hint: scar
+  topics: [health]
+- text: la taquilla
+  example: Compré los billetes en la taquilla.
+  hint: ticket office
+  topics: [travel, shopping]
+- text: la escala
+  example: Hacemos escala en otra ciudad.
+  hint: stopover
+  topics: [travel]
+- text: el alojamiento
+  example: El alojamiento incluye desayuno y wifi.
+  hint: accommodation
+  topics: [travel, housing]
+- text: la estancia
+  example: Nuestra estancia en el hotel fue corta.
+  hint: stay
+  topics: [travel]
+- text: el turismo
+  example: El turismo llena la costa en verano.
+  hint: tourism
+  topics: [travel]
+- text: la pensión
+  example: Dormimos en una pensión cerca del puerto.
+  hint: guesthouse
+  topics: [travel, housing]
+- text: la grúa
+  example: La grúa se llevó el coche averiado.
+  hint: tow truck
+  topics: [travel]
+- text: la charcutería
+  example: Compro jamón en la charcutería del barrio.
+  hint: delicatessen
+  topics: [shopping]
+- text: la ración
+  example: Pedimos una ración de tortilla para compartir.
+  hint: portion
+  topics: [shopping]
+- text: la barra
+  example: Esperamos de pie junto a la barra.
+  hint: bar counter
+  topics: [shopping]
+- text: el cubierto
+  example: El cubierto cuesta un euro.
+  hint: cover charge
+  topics: [shopping]
+- text: la jarra
+  example: Traiga una jarra de agua, por favor.
+  hint: jug
+  topics: [shopping]
+- text: el fontanero
+  example: El fontanero arregló la fuga del baño.
+  hint: plumber
+  topics: [housing]
+- text: el electricista
+  example: El electricista revisará los enchufes mañana.
+  hint: electrician
+  topics: [housing]
+- text: la reforma
+  example: La reforma de la cocina costó mucho.
+  hint: renovation
+  topics: [housing]
+- text: el electrodoméstico
+  example: Ese electrodoméstico gasta mucha electricidad.
+  hint: appliance
+  topics: [housing]
+- text: la persiana
+  example: Baja la persiana, hace mucho sol.
+  hint: blind
+  topics: [housing]
+- text: el trastero
+  example: Guardamos las maletas en el trastero.
+  hint: storage room
+  topics: [housing]
+- text: la comunidad
+  example: La comunidad sube la cuota cada año.
+  hint: community
+  topics: [housing, social]
+- text: la inmobiliaria
+  example: La inmobiliaria nos enseñó dos pisos.
+  hint: estate agency
+  topics: [housing]
+- text: el casero
+  example: El casero no devolvió la fianza.
+  hint: landlord
+  topics: [housing]
+- text: la envidia
+  example: Siento envidia de su nuevo trabajo.
+  hint: envy
+  topics: [social]
+- text: los celos
+  example: Los celos pueden dañar una relación.
+  hint: jealousy
+  topics: [social]
+- text: el orgullo
+  example: Habla de su hijo con orgullo.
+  hint: pride
+  topics: [social]
+- text: la vergüenza
+  example: Me da vergüenza hablar en público.
+  hint: shame
+  topics: [social]
+- text: la soledad
+  example: La soledad puede ser muy dura.
+  hint: loneliness
+  topics: [social]
+- text: la tecnología
+  example: La tecnología facilita mucho nuestra vida diaria.
+  hint: technology
+  topics: [everyday]
+- text: la energía
+  example: Esta casa usa energía solar todo el año.
+  hint: energy
+  topics: [everyday, housing]
+- text: el medio ambiente
+  example: Debemos proteger el medio ambiente entre todos.
+  hint: environment
+  topics: [everyday]
+- text: la contaminación
+  example: La contaminación del aire es un problema grave.
+  hint: pollution
+  topics: [everyday]
+- text: el reciclaje
+  example: El reciclaje del plástico ayuda al planeta.
+  hint: recycling
+  topics: [everyday]
+- text: el plástico
+  example: Intentamos usar menos plástico en casa.
+  hint: plastic
+  topics: [everyday]
+- text: el envase
+  example: Este envase de vidrio se puede reciclar.
+  hint: packaging
+  topics: [shopping, everyday]
+- text: el cartón
+  example: Echa el cartón en el contenedor azul.
+  hint: cardboard
+  topics: [everyday]
+- text: la aplicación
+  example: Esta aplicación sirve para aprender idiomas.
+  hint: app
+  topics: [everyday]
+- text: la conexión
+  example: La conexión a internet es muy lenta.
+  hint: connection
+  topics: [everyday]
+- text: el dispositivo
+  example: El dispositivo se conecta al wifi.
+  hint: device
+  topics: [everyday]
+- text: el dato
+  example: Los datos personales deben estar protegidos.
+  hint: data
+  topics: [office, everyday]
+- text: la protección
+  example: La protección de datos es un derecho.
+  hint: protection
+  topics: [office, everyday]
+- text: la privacidad
+  example: La privacidad en internet preocupa a todos.
+  hint: privacy
+  topics: [everyday]
+- text: el perfil
+  example: El perfil de usuario incluye una foto.
+  hint: profile
+  topics: [everyday]
+- text: la red
+  example: La red social cambió sus normas.
+  hint: network
+  topics: [everyday]
+- text: la infección
+  example: El médico recetó antibióticos para la infección.
+  hint: infection
+  topics: [health]
+- text: la molestia
+  example: Siento una molestia en la rodilla.
+  hint: discomfort
+  topics: [health]
+- text: el embarazo
+  example: El embarazo duró nueve meses.
+  hint: pregnancy
+  topics: [health]
+- text: el mercadillo
+  example: El mercadillo abre los domingos por la mañana.
+  hint: street market
+  topics: [shopping]
+- text: la papelería
+  example: Compré sobres en la papelería del barrio.
+  hint: stationery shop
+  topics: [shopping]
+- text: la ferretería
+  example: Necesito tornillos de la ferretería.
+  hint: hardware store
+  topics: [shopping]
+- text: la tintorería
+  example: Llevé el traje a la tintorería.
+  hint: dry cleaner's
+  topics: [shopping]
+- text: la ampliación
+  example: La ampliación del piso costará mucho.
+  hint: extension
+  topics: [housing]
+- text: la inspección
+  example: La inspección del edificio es el viernes.
+  hint: inspection
+  topics: [housing, office]
+- text: instalar
+  example: Instalaron la calefacción en octubre.
+  hint: to install
+  topics: [housing]
+- text: el ático
+  example: El ático tiene una terraza grande.
+  hint: penthouse
+  topics: [housing]
+- text: la cancelación
+  example: La cancelación del vuelo nos fastidió mucho.
+  hint: cancellation
+  topics: [travel]
+- text: la pérdida
+  example: La pérdida de equipaje es un problema.
+  hint: loss
+  topics: [travel]
+- text: la tarifa
+  example: La tarifa del tren ha subido.
+  hint: fare
+  topics: [travel, shopping]
+- text: la ruta
+  example: La ruta más corta pasa por el puente.
+  hint: route
+  topics: [travel]
+- text: el reembolso
+  example: Solicité el reembolso del billete cancelado.
+  hint: refund
+  topics: [travel, shopping]
+- text: la gestión
+  example: La gestión del tiempo es muy importante.
+  hint: management
+  topics: [work]
+- text: la contratación
+  example: La contratación de nuevos empleados empieza mañana.
+  hint: hiring
+  topics: [work]
+- text: la plantilla
+  example: La plantilla de la empresa es muy joven.
+  hint: staff
+  topics: [work]
+- text: la negociación
+  example: La negociación del contrato duró dos horas.
+  hint: negotiation
+  topics: [work]
+- text: la estrategia
+  example: Necesitamos una estrategia para vender más.
+  hint: strategy
+  topics: [work]
+- text: la investigación
+  example: La investigación médica necesita más dinero público.
+  hint: research
+  topics: [work, health]
+- text: el ingreso
+  example: Sus ingresos no cubren los gastos mensuales.
+  hint: income
+  topics: [work]
+- text: la deuda
+  example: Tengo una deuda con el banco.
+  hint: debt
+  topics: [work, shopping]
+- text: el ahorro
+  example: El ahorro de energía reduce la factura.
+  hint: saving
+  topics: [everyday, housing]
+- text: el impuesto
+  example: Este año los impuestos han subido mucho.
+  hint: tax
+  topics: [office]
+- text: la obligación
+  example: Es una obligación pagar los impuestos.
+  hint: obligation
+  topics: [office]
+- text: el derecho
+  example: Tienes derecho a devolver el producto.
+  hint: right
+  topics: [office, shopping]
+- text: la condición
+  example: Es una condición para el contrato.
+  hint: condition
+  topics: [work]
+- text: la norma
+  example: Hay que respetar las normas del edificio.
+  hint: rule
+  topics: [office, housing]
+- text: la sanción
+  example: La multa fue una sanción muy dura.
+  hint: penalty
+  topics: [office]
+- text: denunciar
+  example: Voy a denunciar el robo en comisaría.
+  hint: to report
+  topics: [office]
+- text: la reclamación
+  example: Presenté una reclamación en la tienda.
+  hint: complaint
+  topics: [shopping, office]
+- text: tramitar
+  example: Tramité el pasaporte en la comisaría.
+  hint: to process
+  topics: [office, travel]
+- text: la libertad
+  example: La libertad de expresión es un derecho básico.
+  hint: freedom
+  topics: [social]
+- text: la igualdad
+  example: La igualdad entre hombres y mujeres es necesaria.
+  hint: equality
+  topics: [social]
+- text: la pobreza
+  example: La pobreza afecta a muchas familias del barrio.
+  hint: poverty
+  topics: [social]
+- text: la convivencia
+  example: La convivencia entre vecinos es bastante buena.
+  hint: coexistence
+  topics: [social, housing]
+- text: la infancia
+  example: Mi infancia fue muy feliz en el pueblo.
+  hint: childhood
+  topics: [social]
+- text: la adolescencia
+  example: La adolescencia es una etapa difícil.
+  hint: adolescence
+  topics: [social]
+- text: la juventud
+  example: La juventud de hoy usa mucha tecnología.
+  hint: youth
+  topics: [social]
+- text: el compromiso
+  example: Tengo un compromiso familiar el sábado.
+  hint: commitment
+  topics: [social]
+- text: el matrimonio
+  example: El matrimonio se celebró en el ayuntamiento.
+  hint: marriage
+  topics: [social]
+- text: el divorcio
+  example: El divorcio fue una decisión difícil.
+  hint: divorce
+  topics: [social]
+- text: agradecer
+  example: Te agradezco mucho tu ayuda.
+  hint: thank
+  topics: [social]
+- text: prometer
+  example: Te prometo que llegaré temprano.
+  hint: promise
+  topics: [social]
+- text: mentir
+  example: No me gusta que me mientas.
+  hint: tell lies
+  topics: [social]
+- text: confiar
+  example: Puedes confiar en mí.
+  hint: trust
+  topics: [social]
+- text: apoyar
+  example: Mi familia siempre me apoya.
+  hint: support
+  topics: [social]
+- text: animar
+  example: Mi amiga me animó a seguir.
+  hint: encourage
+  topics: [social]
+- text: molestar
+  example: ¿Te molesta si abro la ventana?
+  hint: bother
+  topics: [social]
+- text: soportar
+  example: No soporto este ruido.
+  hint: stand, bear
+  topics: [social]
+- text: calmarse
+  example: Cálmate, todo saldrá bien.
+  hint: calm down
+  topics: [social]
+- text: alegrarse
+  example: Me alegro mucho de verte.
+  hint: be glad
+  topics: [social]
+- text: sorprender
+  example: La noticia me sorprendió mucho.
+  hint: surprise
+  topics: [social]
+- text: aburrirse
+  example: Me aburro los domingos en casa.
+  hint: get bored
+  topics: [everyday]
+- text: divertirse
+  example: Nos divertimos mucho en la fiesta.
+  hint: have fun
+  topics: [social]
+- text: enamorarse
+  example: Se enamoró de ella en verano.
+  hint: fall in love
+  topics: [social]
+- text: divorciarse
+  example: Se divorciaron después de muchos años.
+  hint: get divorced
+  topics: [social]
+- text: acostumbrarse
+  example: Ya me he acostumbrado al frío.
+  hint: get used to
+  topics: [everyday]
+- text: esforzarse
+  example: Tenemos que esforzarnos más.
+  hint: make effort
+  topics: [work]
+- text: lograr
+  example: Por fin logré el ascenso.
+  hint: achieve
+  topics: [work]
+- text: prohibir
+  example: La empresa prohíbe fumar dentro.
+  hint: forbid
+  topics: [office]
+- text: obligar
+  example: El jefe nos obligó a quedarnos.
+  hint: force
+  topics: [work]
+- text: advertir
+  example: Te advierto que la carretera está mal.
+  hint: warn
+  topics: [travel]
+- text: admitir
+  example: Admito que me equivoqué.
+  hint: admit
+  topics: [work]
+- text: rechazar
+  example: Rechazaron mi solicitud sin explicación.
+  hint: reject
+  topics: [office]
+- text: confirmar
+  example: Confirma la reserva antes del viernes.
+  hint: confirm
+  topics: [travel]
+- text: conectar
+  example: Conecta el cable al ordenador.
+  hint: connect
+  topics: [office]
+- text: descargar
+  example: Descarga el formulario de la web.
+  hint: download
+  topics: [office]
+- text: borrar
+  example: Borra ese archivo, por favor.
+  hint: delete
+  topics: [office]
+- text: secar
+  example: Seca los platos antes de guardarlos.
+  hint: dry
+  topics: [housing]
+- text: asar
+  example: Vamos a asar el pollo al horno.
+  hint: roast
+  topics: [shopping]
+- text: batir
+  example: Bate los huevos con el azúcar.
+  hint: beat
+  topics: [shopping]
+- text: agradable
+  example: Fue una tarde muy agradable.
+  hint: pleasant
+  topics: [social]
+- text: ruidoso
+  example: El barrio es ruidoso por la noche.
+  hint: noisy
+  topics: [housing]
+- text: oscuro
+  example: El pasillo es muy oscuro.
+  hint: dark
+  topics: [housing]
+- text: ligero
+  example: Lleva un abrigo ligero para viajar.
+  hint: light
+  topics: [travel]
+- text: pesado
+  example: Este paquete es demasiado pesado.
+  hint: heavy
+  topics: [everyday]
+- text: duro
+  example: El colchón es demasiado duro.
+  hint: hard
+  topics: [housing]
+- text: blando
+  example: El pan está blando hoy.
+  hint: soft
+  topics: [shopping]
+- text: fuerte
+  example: Tiene un dolor muy fuerte.
+  hint: strong
+  topics: [health]
+- text: débil
+  example: Me siento débil después de la gripe.
+  hint: weak
+  topics: [health]
+- text: vacío
+  example: La nevera está casi vacía.
+  hint: empty
+  topics: [housing]
+- text: lleno
+  example: El autobús va lleno.
+  hint: full
+  topics: [travel]
+- text: ancho
+  example: La acera es bastante ancha.
+  hint: wide
+  topics: [housing]
+- text: estrecho
+  example: Esta calle es muy estrecha.
+  hint: narrow
+  topics: [housing]
+- text: orgulloso
+  example: Estoy orgulloso de mi equipo.
+  hint: proud
+  topics: [social]
+- text: celoso
+  example: No seas celoso, no hay motivo.
+  hint: jealous
+  topics: [social]
+- text: agradecido
+  example: Estoy muy agradecido por tu ayuda.
+  hint: grateful
+  topics: [social]
+- text: decepcionado
+  example: Quedé decepcionado con el resultado.
+  hint: disappointed
+  topics: [social]
+- text: satisfecho
+  example: Estoy satisfecho con mi trabajo.
+  hint: satisfied
+  topics: [work]
+- text: inseguro
+  example: Me siento inseguro en reuniones.
+  hint: insecure
+  topics: [social]
+- text: valiente
+  example: Fue muy valiente al denunciarlo.
+  hint: brave
+  topics: [social]
+- text: generoso
+  example: Mi vecino es muy generoso.
+  hint: generous
+  topics: [social]
+- text: egoísta
+  example: A veces soy un poco egoísta.
+  hint: selfish
+  topics: [social]
+- text: honesto
+  example: Prefiero ser honesto contigo.
+  hint: honest
+  topics: [social]
+- text: la herramienta
+  example: Necesito una herramienta para arreglarlo.
+  hint: tool
+  topics: [housing]
+- text: el tornillo
+  example: Falta un tornillo en esta silla.
+  hint: screw
+  topics: [housing]
+- text: el destornillador
+  example: Pásame el destornillador, por favor.
+  hint: screwdriver
+  topics: [housing]
+- text: la cinta
+  example: Pega el papel con cinta.
+  hint: tape
+  topics: [office]
+- text: el pegamento
+  example: No encuentro el pegamento.
+  hint: glue
+  topics: [office]
+- text: el interruptor
+  example: El interruptor está junto a la puerta.
+  hint: switch
+  topics: [housing]
+- text: la linterna
+  example: Lleva una linterna por si acaso.
+  hint: torch
+  topics: [travel]
+- text: el ambiente
+  example: El ambiente del bar es agradable.
+  hint: atmosphere, environment
+  topics: [everyday, social]
+- text: el debate
+  example: El debate sobre el trabajo fue interesante.
+  hint: debate
+  topics: [work, social]
+- text: la causa
+  example: La causa del problema es el ruido.
+  hint: cause
+  topics: [everyday]
+- text: el motivo
+  example: No entiendo el motivo de tu enfado.
+  hint: reason, motive
+  topics: [social, everyday]
+- text: el efecto
+  example: La medicina tiene un efecto rápido.
+  hint: effect
+  topics: [health]
+- text: la consecuencia
+  example: El retraso fue consecuencia de la lluvia.
+  hint: consequence
+  topics: [travel, everyday]
+- text: la posibilidad
+  example: Existe la posibilidad de cambiar la fecha.
+  hint: possibility
+  topics: [everyday, office]
+- text: la necesidad
+  example: Tengo la necesidad de descansar un poco.
+  hint: need, necessity
+  topics: [everyday, health]
+- text: el interés
+  example: Muestro interés por aprender español.
+  hint: interest
+  topics: [everyday, social]
+- text: la atención
+  example: Presta atención a las instrucciones.
+  hint: attention
+  topics: [everyday, work]
+- text: el cuidado
+  example: Ten cuidado con el suelo mojado.
+  hint: care, caution
+  topics: [health, everyday]
+- text: la mejora
+  example: La mejora de la salud es visible.
+  hint: improvement
+  topics: [health, work]
+- text: la reducción
+  example: La reducción del precio nos ayuda.
+  hint: reduction
+  topics: [shopping, work]
+- text: el aumento
+  example: El aumento del alquiler me preocupa.
+  hint: increase
+  topics: [housing, work]
+- text: la elección
+  example: La elección del menú es difícil.
+  hint: choice, selection
+  topics: [shopping, everyday]
+- text: la organización
+  example: La organización del viaje lleva tiempo.
+  hint: organization
+  topics: [travel, work]
+- text: el control
+  example: El control del gasto es importante.
+  hint: control
+  topics: [office, work]
+- text: la sugerencia
+  example: Tu sugerencia me parece muy útil.
+  hint: suggestion
+  topics: [work, social]
+- text: la propuesta
+  example: La propuesta del jefe es interesante.
+  hint: proposal
+  topics: [work]
+- text: el técnico
+  example: El técnico arregla la calefacción.
+  hint: technician
+  topics: [housing, work]
+- text: el paciente
+  example: El paciente espera al médico.
+  hint: patient
+  topics: [health]
+- text: el farmacéutico
+  example: El farmacéutico me recomienda esta pomada.
+  hint: pharmacist
+  topics: [health]
+- text: el alta
+  example: Me dieron el alta ayer.
+  hint: hospital discharge
+  topics: [health, office]
+- text: el mantel
+  example: Pon el mantel en la mesa.
+  hint: tablecloth
+  topics: [housing, shopping]
+- text: el tendedero
+  example: La ropa está en el tendedero.
+  hint: drying rack
+  topics: [housing]
+- text: la sección
+  example: Busco la sección de frutas.
+  hint: section
+  topics: [shopping]
+- text: el peaje
+  example: Pagamos el peaje en la autopista.
+  hint: toll
+  topics: [travel]
+- text: las afueras
+  example: Vivo en las afueras de la ciudad.
+  hint: outskirts
+  topics: [housing, travel]
+- text: la tolerancia
+  example: La tolerancia ayuda a convivir mejor.
+  hint: tolerance
+  topics: [social]
+- text: la generosidad
+  example: Su generosidad me sorprendió mucho.
+  hint: generosity
+  topics: [social]
+- text: la honestidad
+  example: La honestidad es importante en el trabajo.
+  hint: honesty
+  topics: [social, work]
+- text: la sinceridad
+  example: Agradezco tu sinceridad al hablar.
+  hint: sincerity
+  topics: [social]
+- text: la esperanza
+  example: Tengo esperanza de encontrar trabajo.
+  hint: hope
+  topics: [social, work]
+- text: la calma
+  example: Necesito calma después del trabajo.
+  hint: calm
+  topics: [social, health]
+- text: la guerra
+  example: La guerra causa mucho dolor.
+  hint: war
+  topics: [social]
+- text: la política
+  example: No hablo de política en la cena.
+  hint: politics
+  topics: [social, everyday]
+- text: la religión
+  example: La religión es un tema personal.
+  hint: religion
+  topics: [social]
+- text: el olor
+  example: El olor del café me despierta.
+  hint: smell, odor
+  topics: [everyday, shopping]
+- text: el sabor
+  example: Este helado tiene buen sabor.
+  hint: taste, flavor
+  topics: [shopping, everyday]
+- text: la forma
+  example: La forma de pago es sencilla.
+  hint: form, way
+  topics: [shopping, office]
+- text: el peso
+  example: El peso de la maleta es correcto.
+  hint: weight
+  topics: [travel]
+- text: la altura
+  example: La altura del edificio es impresionante.
+  hint: height
+  topics: [housing, everyday]
+- text: la velocidad
+  example: La velocidad del tren es alta.
+  hint: speed
+  topics: [travel]
+- text: el estilo
+  example: Me gusta el estilo de esta camisa.
+  hint: style
+  topics: [shopping]
+- text: la cultura
+  example: La cultura española me interesa mucho.
+  hint: culture
+  topics: [social, everyday]
+- text: el arte
+  example: El arte moderno llena el museo.
+  hint: art
+  topics: [everyday, social]
+- text: la literatura
+  example: Estudio literatura en la universidad.
+  hint: literature
+  topics: [everyday]
+- text: el espectáculo
+  example: El espectáculo empieza a las ocho.
+  hint: show, performance
+  topics: [everyday, social]
+- text: la exposición
+  example: La exposición de fotos es gratuita.
+  hint: exhibition
+  topics: [everyday, social]
+- text: comprobar
+  example: Debo comprobar la dirección del hotel.
+  hint: to check
+  topics: [travel, office]
+- text: sugerir
+  example: Te sugiero visitar el museo.
+  hint: to suggest
+  topics: [social, travel]
+- text: comentar
+  example: Quiero comentar el problema con mi jefe.
+  hint: to comment, discuss
+  topics: [work]
+- text: mencionar
+  example: Mencionó el precio en la reunión.
+  hint: to mention
+  topics: [work, office]
+- text: resumir
+  example: Voy a resumir el texto.
+  hint: to summarize
+  topics: [work, everyday]
+- text: traducir
+  example: Puedo traducir esta carta al inglés.
+  hint: to translate
+  topics: [office, everyday]
+- text: pronunciar
+  example: Es difícil pronunciar esta palabra.
+  hint: to pronounce
+  topics: [everyday]
+- text: significar
+  example: ¿Qué significa esta palabra en español?
+  hint: to mean
+  topics: [everyday]
+- text: asegurarse
+  example: Debes asegurarte de cerrar la puerta.
+  hint: to make sure
+  topics: [everyday, housing]
+- text: atreverse
+  example: No me atrevo a preguntar.
+  hint: to dare
+  topics: [social]
+- text: arrepentirse
+  example: Me arrepiento de no haber ido.
+  hint: to regret
+  topics: [social, everyday]
+- text: la hoja
+  example: Necesito una hoja para escribir la carta.
+  hint: sheet of paper
+  topics: [office, everyday]
+- text: la máquina
+  example: Esta máquina no funciona bien hoy.
+  hint: machine
+  topics: [work, everyday]
+- text: el vendedor
+  example: El vendedor me explica el precio.
+  hint: salesperson
+  topics: [shopping, work]
+- text: la venta
+  example: La venta empieza el lunes por la mañana.
+  hint: sale
+  topics: [shopping]
+- text: la entrega
+  example: La entrega del paquete llega por la tarde.
+  hint: delivery
+  topics: [work, shopping]
+- text: el reparto
+  example: El reparto de pizza tarda media hora.
+  hint: delivery
+  topics: [work, shopping]
+- text: el mensajero
+  example: El mensajero trae un paquete a casa.
+  hint: courier
+  topics: [work]
+- text: el uniforme
+  example: Llevo uniforme en el trabajo.
+  hint: uniform
+  topics: [work]
+- text: respirar
+  example: Me cuesta respirar cuando corro.
+  hint: breathe
+  topics: [health]
+- text: caerse
+  example: Mi abuelo se cayó en casa.
+  hint: fall down
+  topics: [health]
+- text: romperse
+  example: Se rompió el brazo jugando.
+  hint: break a bone
+  topics: [health]
+- text: curar
+  example: El médico cura la herida con crema.
+  hint: cure, treat
+  topics: [health]
+- text: operar
+  example: Mañana me operan de la rodilla.
+  hint: operate
+  topics: [health]
+- text: marearse
+  example: Me mareo en el coche.
+  hint: get dizzy
+  topics: [health]
+- text: vomitar
+  example: El niño vomitó después de comer.
+  hint: vomit
+  topics: [health]
+- text: estornudar
+  example: Estornudo mucho por la alergia.
+  hint: sneeze
+  topics: [health]
+- text: sangrar
+  example: La herida sigue sangrando un poco.
+  hint: bleed
+  topics: [health]
+- text: mejorarse
+  example: Espero que te mejores pronto.
+  hint: get better
+  topics: [health]
+- text: el catarro
+  example: Tengo catarro y no voy a trabajar.
+  hint: cold
+  topics: [health]
+- text: la caída
+  example: La caída fue en la acera.
+  hint: fall
+  topics: [health]
+- text: la quemadura
+  example: Ponte crema en la quemadura.
+  hint: burn
+  topics: [health]
+- text: la señal
+  example: Esa señal indica la salida de emergencia.
+  hint: sign
+  topics: [travel, everyday]
+- text: el límite
+  example: El límite de velocidad está cerca.
+  hint: limit
+  topics: [travel]
+- text: el cruce
+  example: Gira a la derecha en el cruce.
+  hint: crossing
+  topics: [travel]
+- text: el trayecto
+  example: El trayecto es corto y cómodo.
+  hint: journey
+  topics: [travel]
+- text: la duración
+  example: La duración del viaje es corta.
+  hint: duration
+  topics: [travel]
+- text: el desvío
+  example: Hay un desvío por las obras.
+  hint: detour
+  topics: [travel]
+- text: el combustible
+  example: El combustible está muy caro.
+  hint: fuel
+  topics: [travel]
+- text: la conducción
+  example: La conducción con lluvia es peligrosa.
+  hint: driving
+  topics: [travel]
+- text: el clima
+  example: El clima de aquí es muy suave.
+  hint: climate
+  topics: [everyday]
+- text: la naturaleza
+  example: Me gusta caminar por la naturaleza.
+  hint: nature
+  topics: [travel, everyday]
+- text: el paisaje
+  example: El paisaje desde la montaña es precioso.
+  hint: landscape
+  topics: [travel]
+- text: la piscina
+  example: La piscina del edificio abre en verano.
+  hint: swimming pool
+  topics: [housing, social]
+- text: el tejado
+  example: El tejado necesita una reparación.
+  hint: roof
+  topics: [housing]
+- text: el portero
+  example: El portero abre la puerta principal.
+  hint: doorman
+  topics: [housing]
+- text: la obra
+  example: Hay obras en la calle de casa.
+  hint: building work
+  topics: [housing]
+- text: la decoración
+  example: La decoración del salón es moderna.
+  hint: decoration
+  topics: [housing]
+- text: el rincón
+  example: El sofá está en el rincón.
+  hint: corner
+  topics: [housing]
+- text: el enfado
+  example: Su enfado fue por una tontería.
+  hint: anger
+  topics: [social]
+- text: la amabilidad
+  example: Gracias por tu amabilidad conmigo.
+  hint: kindness
+  topics: [social]
+- text: la simpatía
+  example: La simpatía del camarero nos gustó.
+  hint: friendliness
+  topics: [social]
+- text: la timidez
+  example: Su timidez le impide hablar en público.
+  hint: shyness
+  topics: [social]
+- text: la valentía
+  example: Su valentía me sorprendió mucho.
+  hint: courage
+  topics: [social]
+- text: el adolescente
+  example: El adolescente pasa mucho tiempo con amigos.
+  hint: teenager
+  topics: [social]
+- text: la publicidad
+  example: La publicidad del supermercado está en la puerta.
+  hint: advertising
+  topics: [everyday, shopping]
+- text: el anuncio
+  example: Vi el anuncio en el periódico.
+  hint: advert
+  topics: [everyday]
+- text: el cartel
+  example: El cartel del concierto está en la pared.
+  hint: poster
+  topics: [everyday]
+- text: la prensa
+  example: La prensa habla mucho de política.
+  hint: press
+  topics: [everyday]
+- text: el reportaje
+  example: El reportaje sobre el viaje es interesante.
+  hint: report
+  topics: [everyday]
+- text: la portada
+  example: La noticia sale en la portada.
+  hint: cover
+  topics: [everyday]
+- text: la actuación
+  example: La actuación del grupo fue muy divertida.
+  hint: performance
+  topics: [everyday, social]
+- text: el actor
+  example: El actor habla con voz fuerte.
+  hint: actor
+  topics: [everyday]
+- text: el escenario
+  example: El cantante está en el escenario.
+  hint: stage
+  topics: [everyday]
+- text: el público
+  example: El público aplaudió al final.
+  hint: audience
+  topics: [everyday, social]
+- text: la pintura
+  example: La pintura de esta pared es nueva.
+  hint: painting, paint
+  topics: [housing, everyday]
+- text: la escultura
+  example: La escultura está en el museo.
+  hint: sculpture
+  topics: [everyday]
+- text: el dibujo
+  example: Hice un dibujo de la casa.
+  hint: drawing
+  topics: [everyday]
+- text: dibujar
+  example: Me gusta dibujar en el cuaderno.
+  hint: draw
+  topics: [everyday]
+- text: pintar
+  example: Voy a pintar la cocina de blanco.
+  hint: paint
+  topics: [housing, everyday]
+- text: la desventaja
+  example: La desventaja es el precio tan alto.
+  hint: disadvantage
+  topics: [everyday]
+- text: aprobar
+  example: Espero aprobar el examen mañana.
+  hint: pass an exam
+  topics: [everyday]
+- text: suspender
+  example: Suspendí el examen de conducir.
+  hint: fail an exam
+  topics: [everyday]
+- text: equivocarse
+  example: Me he equivocado de autobús.
+  hint: make a mistake
+  topics: [everyday]
+- text: solucionar
+  example: Vamos a solucionar el problema juntos.
+  hint: solve, fix
+  topics: [everyday]
+- text: reducir
+  example: Tenemos que reducir los gastos.
+  hint: reduce, cut down
+  topics: [everyday]
+- text: planificar
+  example: Planificamos el proyecto con calma.
+  hint: plan
+  topics: [work]
+- text: informar
+  example: La empresa informó a los clientes.
+  hint: inform
+  topics: [work]
+- text: comunicar
+  example: Comunica el cambio a tu jefe.
+  hint: communicate
+  topics: [work]
+- text: negociar
+  example: Vamos a negociar el precio final.
+  hint: negotiate
+  topics: [work]
+- text: publicar
+  example: Publicaron el anuncio en internet.
+  hint: publish, post
+  topics: [work]
+- text: adjuntar
+  example: Adjunto el documento en el correo.
+  hint: attach
+  topics: [office]
+- text: colaborar
+  example: Me gusta colaborar con mis compañeros.
+  hint: collaborate
+  topics: [work]
+- text: renunciar
+  example: Renunció al trabajo por estrés.
+  hint: resign, give up
+  topics: [work]
+- text: facturar
+  example: ¿Puedo facturar la maleta aquí?
+  hint: check in luggage
+  topics: [travel]
+- text: invertir
+  example: Prefiero invertir en formación.
+  hint: invest
+  topics: [work]
+- text: votar
+  example: Vamos a votar el domingo.
+  hint: vote
+  topics: [office]
+- text: criticar
+  example: No me gusta criticar a los demás.
+  hint: criticize
+  topics: [social]
+- text: desconfiar
+  example: Desconfío de esas ofertas tan baratas.
+  hint: distrust
+  topics: [social]
+- text: amenazar
+  example: Amenazó a su vecino.
+  hint: threaten
+  topics: [social]
+- text: defender
+  example: Voy a defender mi opinión.
+  hint: defend
+  topics: [social]
+- text: investigar
+  example: La policía investiga el accidente.
+  hint: investigate
+  topics: [office]
+- text: descubrir
+  example: Descubrí un bar muy tranquilo.
+  hint: discover
+  topics: [everyday]
+- text: inventar
+  example: Siempre inventa excusas para llegar tarde.
+  hint: invent
+  topics: [everyday]
+- text: desarrollar
+  example: La empresa desarrolla nuevas aplicaciones.
+  hint: develop
+  topics: [work]
+- text: producir
+  example: Esta fábrica produce refrescos.
+  hint: produce
+  topics: [work]
+- text: consumir
+  example: Conviene consumir fruta cada día.
+  hint: consume
+  topics: [shopping]
+- text: desmayarse
+  example: Se desmayó en el supermercado.
+  hint: faint
+  topics: [health]
+- text: torcerse
+  example: Me torcí el tobillo jugando.
+  hint: twist a joint
+  topics: [health]
+- text: quemarse
+  example: Me quemé la mano cocinando.
+  hint: burn oneself
+  topics: [health]
+- text: relajarse
+  example: Necesito relajarme después del trabajo.
+  hint: relax
+  topics: [health]
+- text: el peligro
+  example: Hay peligro de incendio en el bosque.
+  hint: danger
+  topics: [everyday]
+- text: la casualidad
+  example: Fue una casualidad encontrarnos allí.
+  hint: coincidence
+  topics: [everyday]
+- text: la violencia
+  example: La violencia no resuelve los problemas.
+  hint: violence
+  topics: [social]
+- text: responsable
+  example: Es responsable con su horario.
+  hint: responsible
+  topics: [work]
+- text: puntual
+  example: Sé puntual en la entrevista.
+  hint: punctual
+  topics: [work]
+- text: la crítica
+  example: Acepta bien las críticas.
+  hint: criticism
+  topics: [social]
+- text: la comprensión
+  example: Gracias por tu comprensión.
+  hint: understanding
+  topics: [social]
+- text: el egoísmo
+  example: El egoísmo daña las amistades.
+  hint: selfishness
+  topics: [social]
+- text: el ánimo
+  example: Necesito ánimo para seguir.
+  hint: spirit, encouragement
+  topics: [health]
+- text: la ansiedad
+  example: La ansiedad le quita el sueño.
+  hint: anxiety
+  topics: [health]
+- text: la época
+  example: En esa época no había móviles.
+  hint: period, era
+  topics: [everyday]
+- text: la temporada
+  example: La temporada de esquí empieza pronto.
+  hint: season
+  topics: [travel]
+- text: el rato
+  example: Esperamos un rato en la cola.
+  hint: while
+  topics: [everyday]
+- text: la madrugada
+  example: Llegamos a casa de madrugada.
+  hint: early hours
+  topics: [everyday]
+- text: el amanecer
+  example: El amanecer en la playa es bonito.
+  hint: dawn
+  topics: [travel]
+- text: complicado
+  example: El trámite es demasiado complicado.
+  hint: complicated
+  topics: [office]
+- text: la demanda
+  example: La demanda de pisos ha subido.
+  hint: demand
+  topics: [housing]
+- text: la celebración
+  example: La celebración será en el jardín.
+  hint: celebration
+  topics: [social]
+- text: el inodoro
+  example: El inodoro está al fondo del pasillo.
+  hint: toilet
+  topics: [housing]
+- text: la cantidad
+  example: Compra una cantidad pequeña de arroz.
+  hint: amount, quantity
+  topics: [shopping]
+- text: la intolerancia
+  example: Tiene intolerancia a la lactosa.
+  hint: intolerance
+  topics: [health]
+- text: la azotea
+  example: Tendemos la ropa en la azotea.
+  hint: rooftop
+  topics: [housing]
+- text: la campaña
+  example: La campaña empieza el próximo mes.
+  hint: campaign
+  topics: [work]
+- text: el voto
+  example: Su voto es importante en las elecciones.
+  hint: vote
+  topics: [office]
+- text: el político
+  example: El político habló con los vecinos.
+  hint: politician
+  topics: [office]
+- text: el estado
+  example: El estado ayuda a las familias.
+  hint: state
+  topics: [office]
+- text: el ladrón
+  example: La policía detuvo al ladrón.
+  hint: thief
+  topics: [office]
+- text: la defensa
+  example: La defensa presentó nuevas pruebas.
+  hint: defense
+  topics: [office]
+- text: el ciudadano
+  example: El ciudadano presentó una queja formal.
+  hint: citizen
+  topics: [social]
+- text: la población
+  example: La población del pueblo aumenta lentamente.
+  hint: population
+  topics: [social]
+- text: el empleo
+  example: Busco empleo en el centro de la ciudad.
+  hint: job
+  topics: [work]
+- text: el aprendizaje
+  example: El aprendizaje de idiomas requiere práctica.
+  hint: learning
+  topics: [everyday]
+- text: el departamento
+  example: Trabajo en el departamento de ventas.
+  hint: department
+  topics: [work]
+- text: la actividad
+  example: La actividad es gratuita para los socios.
+  hint: activity
+  topics: [everyday]
+- text: el hábito
+  example: Leer antes de dormir es un buen hábito.
+  hint: habit
+  topics: [everyday]
+- text: la promesa
+  example: Cumplió su promesa y llegó puntual.
+  hint: promise
+  topics: [social]
+- text: la despedida
+  example: La despedida fue muy emotiva.
+  hint: farewell
+  topics: [social]
+- text: la bienvenida
+  example: Nos dieron una bienvenida muy cálida.
+  hint: welcome
+  topics: [social]
+- text: el encuentro
+  example: El encuentro será en la plaza.
+  hint: meeting
+  topics: [social]
+- text: la charla
+  example: Dimos una charla sobre reciclaje.
+  hint: talk
+  topics: [social]
+- text: la teoría
+  example: La teoría es más fácil que la práctica.
+  hint: theory
+  topics: [everyday]
+- text: la justicia
+  example: La justicia debe proteger a todos.
+  hint: justice
+  topics: [social]
+- text: la solidaridad
+  example: La solidaridad ayuda en momentos difíciles.
+  hint: solidarity
+  topics: [social]
+- text: la discriminación
+  example: La discriminación no tiene excusa.
+  hint: discrimination
+  topics: [social]
+- text: la separación
+  example: La separación fue difícil para la pareja.
+  hint: separation
+  topics: [social]
+- text: el nacimiento
+  example: El nacimiento del bebé fue esta mañana.
+  hint: birth
+  topics: [health]
+- text: la muerte
+  example: La muerte de su perro le afectó.
+  hint: death
+  topics: [social]
+- text: la jubilación
+  example: Su jubilación será el próximo año.
+  hint: retirement
+  topics: [work]
+- text: la oposición
+  example: Estudia una oposición para funcionario.
+  hint: civil service exam
+  topics: [work]
+- text: el proveedor
+  example: El proveedor tarda en entregar la mercancía.
+  hint: supplier
+  topics: [work]
+- text: la facultad
+  example: Estudio Derecho en la facultad.
+  hint: faculty
+  topics: [everyday]
+- text: el instituto
+  example: Los niños van al instituto en autobús.
+  hint: secondary school
+  topics: [everyday]
+- text: la guardería
+  example: Dejamos al niño en la guardería.
+  hint: nursery
+  topics: [everyday]
+- text: el máster
+  example: Hace un máster de informática.
+  hint: master's degree
+  topics: [everyday]
+- text: el abono
+  example: Compro el abono mensual del metro.
+  hint: season ticket
+  topics: [travel]
+- text: la avenida
+  example: La avenida está cortada por obras.
+  hint: avenue
+  topics: [travel]
+- text: la autoestima
+  example: Su autoestima mejoró con el deporte.
+  hint: self-esteem
+  topics: [social]
+- text: la empatía
+  example: La empatía ayuda a entender a otros.
+  hint: empathy
+  topics: [social]
+- text: la depresión
+  example: La depresión necesita tratamiento médico.
+  hint: depression
+  topics: [health]
+- text: el antibiótico
+  example: El médico me recetó un antibiótico.
+  hint: antibiotic
+  topics: [health]
+- text: el cerebro
+  example: El cerebro necesita descanso para aprender.
+  hint: brain
+  topics: [health]
+- text: la digestión
+  example: Caminar después de comer facilita la digestión.
+  hint: digestion
+  topics: [health]
+- text: el desmayo
+  example: Sufrió un desmayo en el trabajo.
+  hint: fainting
+  topics: [health]
+- text: las muletas
+  example: Anda con muletas desde el accidente.
+  hint: crutches
+  topics: [health]
+- text: el yeso
+  example: Lleva un yeso en la pierna.
+  hint: plaster cast
+  topics: [health]
+- text: la ecografía
+  example: La ecografía mostró que todo va bien.
+  hint: ultrasound
+  topics: [health]
+- text: la anestesia
+  example: La operación fue con anestesia local.
+  hint: anaesthesia
+  topics: [health]
+- text: el quirófano
+  example: Entró en el quirófano por la mañana.
+  hint: operating room
+  topics: [health]
+- text: la dosis
+  example: Tome la dosis indicada por el médico.
+  hint: dose
+  topics: [health]
+- text: el analgésico
+  example: Necesito un analgésico para el dolor.
+  hint: painkiller
+  topics: [health]
+- text: la diarrea
+  example: La diarrea puede causar deshidratación.
+  hint: diarrhoea
+  topics: [health]
+- text: el estreñimiento
+  example: La fibra ayuda contra el estreñimiento.
+  hint: constipation
+  topics: [health]
+- text: la mejilla
+  example: Se pintó la mejilla de rojo.
+  hint: cheek
+  topics: [health]
+- text: la uña
+  example: Se rompió una uña al cocinar.
+  hint: nail
+  topics: [health]
+- text: el pulmón
+  example: Fumar daña los pulmones.
+  hint: lung
+  topics: [health]
+- text: el hígado
+  example: El hígado procesa muchas sustancias.
+  hint: liver
+  topics: [health]
+- text: el riñón
+  example: Beber agua cuida los riñones.
+  hint: kidney
+  topics: [health]
+- text: la cintura
+  example: El cinturón aprieta en la cintura.
+  hint: waist
+  topics: [health]
+- text: la frente
+  example: Tiene la frente caliente por la fiebre.
+  hint: forehead
+  topics: [health]
+- text: la barbilla
+  example: Se apoyó la barbilla en la mano.
+  hint: chin
+  topics: [health]
+- text: la floristería
+  example: Compré flores en la floristería.
+  hint: flower shop
+  topics: [shopping]
+- text: la joyería
+  example: El anillo está en la joyería.
+  hint: jewellery shop
+  topics: [shopping]
+- text: la perfumería
+  example: Compré colonia en la perfumería.
+  hint: perfume shop
+  topics: [shopping]
+- text: el váter
+  example: El váter está al fondo del pasillo.
+  hint: toilet
+  topics: [housing]
+- text: la encimera
+  example: Dejé la sartén en la encimera.
+  hint: countertop
+  topics: [housing]
+- text: la caldera
+  example: La caldera no funciona en invierno.
+  hint: boiler
+  topics: [housing]
+- text: la gotera
+  example: La gotera cae sobre la cama.
+  hint: leak
+  topics: [housing]
+- text: el ferry
+  example: Cruzamos el río en el ferry.
+  hint: ferry
+  topics: [travel]
+- text: la agencia
+  example: Reservé el viaje en una agencia.
+  hint: agency
+  topics: [travel]
+- text: la videollamada
+  example: Hicimos una videollamada con la abuela.
+  hint: video call
+  topics: [everyday]
+- text: así que
+  example: Estoy cansado, así que me voy.
+  hint: so, therefore
+  topics: [everyday]
+- text: por eso
+  example: Llueve, por eso llevo paraguas.
+  hint: that's why
+  topics: [everyday]
+- text: a pesar de
+  example: A pesar de la lluvia, salimos.
+  hint: despite
+  topics: [everyday]
+- text: mientras que
+  example: Yo cocino mientras que él limpia.
+  hint: whereas, while
+  topics: [everyday]
+- text: para que
+  example: Habla alto para que te oiga.
+  hint: so that
+  topics: [everyday]
+- text: a menos que
+  example: No iré a menos que vengas.
+  hint: unless
+  topics: [everyday]
+- text: acercarse
+  example: Acércate, quiero hablar contigo.
+  hint: to approach
+  topics: [social, everyday]
+- text: asegurar
+  example: Te aseguro que llegaré pronto.
+  hint: to assure
+  topics: [social]
+- text: analizar
+  example: Vamos a analizar el problema.
+  hint: to analyse
+  topics: [work]
+- text: controlar
+  example: Debes controlar el gasto mensual.
+  hint: to control, check
+  topics: [office]
+- text: consultar
+  example: Consulta la fecha en la web.
+  hint: to consult, check
+  topics: [office]
+- text: construir
+  example: Construyen casas en el barrio.
+  hint: to build
+  topics: [housing]
+- text: considerar
+  example: Considero tu idea muy buena.
+  hint: to consider
+  topics: [work]
+- text: conservar
+  example: Conserva la carne en frío.
+  hint: to keep, preserve
+  topics: [shopping]
+- text: convertir
+  example: Han convertido el local en tienda.
+  hint: to convert
+  topics: [housing, work]
+- text: convencer
+  example: No logro convencer a mi jefe.
+  hint: to convince
+  topics: [work, social]
+- text: corregir
+  example: Corrige los errores del informe.
+  hint: to correct
+  topics: [office]
+- text: crear
+  example: Hemos creado un grupo de estudio.
+  hint: to create
+  topics: [social, work]
+- text: desear
+  example: Te deseo mucha suerte mañana.
+  hint: to wish
+  topics: [social]
+- text: educar
+  example: Es difícil educar a los hijos.
+  hint: to raise, educate
+  topics: [social]
+- text: eliminar
+  example: Elimina los datos antiguos.
+  hint: to delete, eliminate
+  topics: [office]
+- text: engañar
+  example: No intentes engañarme otra vez.
+  hint: to deceive
+  topics: [social]
+- text: escapar
+  example: El gato escapó por la ventana.
+  hint: to escape
+  topics: [everyday]
+- text: escoger
+  example: Escoge un color para la pared.
+  hint: to choose
+  topics: [shopping, housing]
+- text: esconder
+  example: Escondió las llaves en el cajón.
+  hint: to hide
+  topics: [everyday]
+- text: exigir
+  example: Exijo una explicación clara.
+  hint: to demand
+  topics: [work, office]
+- text: expresar
+  example: Expresa tu opinión con calma.
+  hint: to express
+  topics: [social]
+- text: formar
+  example: Forman un equipo muy bueno.
+  hint: to form, train
+  topics: [work]
+- text: imaginar
+  example: Imagina vivir cerca del mar.
+  hint: to imagine
+  topics: [social, everyday]
+- text: incluir
+  example: El precio incluye el desayuno.
+  hint: to include
+  topics: [travel, shopping]
+- text: indicar
+  example: El mapa indica el camino correcto.
+  hint: to indicate
+  topics: [travel]
+- text: juntar
+  example: Juntamos dinero para el regalo.
+  hint: to put together
+  topics: [social, shopping]
+- text: justificar
+  example: Tienes que justificar tu ausencia.
+  hint: to justify
+  topics: [office]
+- text: medir
+  example: Mide la ventana antes de comprar.
+  hint: to measure
+  topics: [housing, shopping]
+- text: merecer
+  example: Te mereces un descanso largo.
+  hint: to deserve
+  topics: [social]
+- text: ofender
+  example: No quise ofender a nadie.
+  hint: to offend
+  topics: [social]
+- text: adaptarse
+  example: Es fácil adaptarse a esta ciudad.
+  hint: to adapt
+  topics: [social, travel]
+- text: avanzar
+  example: El tráfico no avanza nada.
+  hint: to advance, move
+  topics: [travel]
+- text: cocer
+  example: Cuece las patatas diez minutos.
+  hint: to boil, cook
+  topics: [shopping]
+- text: combinar
+  example: Esta camisa combina con todo.
+  hint: to match, combine
+  topics: [shopping]
+- text: competir
+  example: Nuestra empresa compite con grandes marcas.
+  hint: to compete
+  topics: [work]
+- text: consistir
+  example: El curso consiste en cinco clases.
+  hint: to consist
+  topics: [work, everyday]
+- text: contener
+  example: Esta bebida contiene mucha azúcar.
+  hint: to contain
+  topics: [shopping, health]
+- text: dañar
+  example: La humedad dañó la pared.
+  hint: to damage
+  topics: [housing]
+- text: enfermar
+  example: Enfermó durante el viaje.
+  hint: to get ill
+  topics: [health, travel]
+- text: grabar
+  example: Voy a grabar la reunión.
+  hint: to record
+  topics: [work, office]
+- text: imitar
+  example: El niño imita a su padre.
+  hint: to imitate
+  topics: [social]
+- text: impedir
+  example: La nieve impide salir de casa.
+  hint: to prevent
+  topics: [travel, everyday]
+- text: influir
+  example: El clima influye en el ánimo.
+  hint: to influence
+  topics: [social]
+- text: interpretar
+  example: Ella interpreta bien su papel.
+  hint: to perform, interpret
+  topics: [work, social]
+- text: introducir
+  example: Introduce la tarjeta en el cajero.
+  hint: to insert
+  topics: [office, shopping]
+- text: lanzar
+  example: La empresa lanza un producto nuevo.
+  hint: to launch
+  topics: [work, shopping]
+- text: limitar
+  example: Limita el uso del móvil.
+  hint: to limit
+  topics: [everyday]
+- text: culpar
+  example: No culpes a los demás.
+  hint: to blame
+  topics: [social]
+- text: la transferencia
+  example: Hice una transferencia al casero.
+  hint: bank transfer
+  topics: [office, housing]
+- text: el sentimiento
+  example: Es un sentimiento difícil de explicar.
+  hint: feeling
+  topics: [social]
+- text: la culpa
+  example: No tengo la culpa de esto.
+  hint: fault, blame
+  topics: [social]
+- text: capaz
+  example: Eres capaz de aprobar el examen.
+  hint: capable
+  topics: [social, work]
+- text: consciente
+  example: Soy consciente de mis errores.
+  hint: aware
+  topics: [social]
+- text: enorme
+  example: Viven en una casa enorme.
+  hint: huge
+  topics: [housing]
+- text: la lengua
+  example: Me he quemado la lengua con la sopa.
+  hint: tongue; language
+  topics: [health]
+- text: el hogar
+  example: Estoy muy a gusto en mi hogar.
+  hint: home, household
+  topics: [housing]
+- text: la denuncia
+  example: Puse una denuncia en comisaría.
+  hint: complaint, report
+  topics: [office]
+- text: el pedido
+  example: El pedido llegará mañana por la mañana.
+  hint: order
+  topics: [work, shopping]
+- text: el almacén
+  example: Guardamos las cajas en el almacén.
+  hint: warehouse
+  topics: [work]
+- text: la colada
+  example: Hoy tengo que hacer la colada.
+  hint: laundry
+  topics: [everyday]
+- text: el detergente
+  example: Necesito detergente para la lavadora.
+  hint: detergent
+  topics: [everyday, housing]
+- text: la fregona
+  example: Pásame la fregona, por favor.
+  hint: mop
+  topics: [housing, everyday]
+- text: la vajilla
+  example: Lavamos la vajilla después de cenar.
+  hint: dishes, tableware
+  topics: [everyday, housing]
+- text: el radiador
+  example: El radiador no calienta esta habitación.
+  hint: radiator
+  topics: [housing]
+- text: la estufa
+  example: Enciende la estufa, hace mucho frío.
+  hint: heater, stove
+  topics: [housing]
+- text: el escritorio
+  example: Tengo el ordenador en el escritorio.
+  hint: desk
+  topics: [office, housing]
+- text: el marisco
+  example: Me encanta el marisco fresco.
+  hint: seafood
+  topics: [shopping]
+- text: el pimiento
+  example: Añade un pimiento rojo a la salsa.
+  hint: pepper
+  topics: [shopping]
+- text: el pepino
+  example: Corta el pepino para la ensalada.
+  hint: cucumber
+  topics: [shopping]
+- text: la calabaza
+  example: Hoy hacemos sopa de calabaza.
+  hint: pumpkin
+  topics: [shopping]
+- text: la berenjena
+  example: Asamos la berenjena con un poco de aceite.
+  hint: aubergine
+  topics: [shopping]
+- text: la fresa
+  example: Esta fresa está muy dulce.
+  hint: strawberry
+  topics: [shopping]
+- text: la cereza
+  example: Las cerezas están de temporada.
+  hint: cherry
+  topics: [shopping]
+- text: el melocotón
+  example: El melocotón está maduro y jugoso.
+  hint: peach
+  topics: [shopping]
+- text: la piña
+  example: Compré una piña en el mercado.
+  hint: pineapple
+  topics: [shopping]
+- text: el garbanzo
+  example: Hoy comemos garbanzos con espinacas.
+  hint: chickpea
+  topics: [shopping]
+- text: la lenteja
+  example: Las lentejas necesitan más sal.
+  hint: lentil
+  topics: [shopping]
+- text: el monedero
+  example: He perdido el monedero en el mercado.
+  hint: purse
+  topics: [shopping]
+- text: la zapatilla
+  example: Busco unas zapatillas cómodas para caminar.
+  hint: slipper, trainer
+  topics: [shopping]
+- text: la bata
+  example: Ponte la bata después de la ducha.
+  hint: robe
+  topics: [housing, everyday]
+- text: el edredón
+  example: En invierno uso un edredón grueso.
+  hint: duvet
+  topics: [housing]
+- text: el flexo
+  example: Necesito un flexo para estudiar de noche.
+  hint: desk lamp
+  topics: [housing, office]
+- text: el felpudo
+  example: Limpia los pies en el felpudo.
+  hint: doormat
+  topics: [housing]
+- text: la valla
+  example: Pintamos la valla del jardín.
+  hint: fence
+  topics: [housing]
+- text: el cubo
+  example: Llena el cubo con agua caliente.
+  hint: bucket
+  topics: [everyday, housing]
+- text: el trapo
+  example: Limpia la mesa con un trapo.
+  hint: cloth
+  topics: [everyday, housing]
+- text: el labio
+  example: Tengo los labios secos por el frío.
+  hint: lip
+  topics: [health]
+- text: la tripa
+  example: Me duele la tripa desde ayer.
+  hint: belly
+  topics: [health]
+- text: la ampolla
+  example: Me ha salido una ampolla en el pie.
+  hint: blister
+  topics: [health]
+- text: el prospecto
+  example: Lee el prospecto antes de tomar la pastilla.
+  hint: leaflet
+  topics: [health]
+- text: el ibuprofeno
+  example: El médico me recetó ibuprofeno.
+  hint: ibuprofen
+  topics: [health]
+- text: el esparadrapo
+  example: Pon un esparadrapo en la herida.
+  hint: plaster
+  topics: [health]
+- text: el bienestar
+  example: El deporte mejora el bienestar general.
+  hint: well-being
+  topics: [health]
+- text: el sindicato
+  example: El sindicato convocó una huelga.
+  hint: trade union
+  topics: [work]
+- text: el juicio
+  example: El juicio será la próxima semana.
+  hint: trial
+  topics: [office]
+- text: el testigo
+  example: El testigo declaró ante el juez.
+  hint: witness
+  topics: [office]
+- text: declarar
+  example: Tuve que declarar en comisaría.
+  hint: declare, testify
+  topics: [office]
+- text: la comisaría
+  example: Fui a la comisaría a denunciarlo.
+  hint: police station
+  topics: [office]
+- text: la licencia
+  example: Necesito una licencia para abrir el bar.
+  hint: licence
+  topics: [office, work]
+- text: el itinerario
+  example: El itinerario incluye tres ciudades.
+  hint: itinerary
+  topics: [travel]
+- text: el albergue
+  example: Dormimos en un albergue del pueblo.
+  hint: hostel
+  topics: [travel]
+- text: el atardecer
+  example: Vimos el atardecer desde la playa.
+  hint: sunset
+  topics: [travel]
+- text: la artesanía
+  example: Compré artesanía en el mercadillo.
+  hint: craftwork
+  topics: [travel, shopping]
+- text: el recuerdo
+  example: Compré un recuerdo para mi madre.
+  hint: souvenir
+  topics: [travel]
+- text: el adaptador
+  example: Necesito un adaptador para el enchufe.
+  hint: adapter
+  topics: [travel, everyday]
+- text: admirar
+  example: Admiro mucho a mi abuela.
+  hint: admire
+  topics: [social]
+- text: la admiración
+  example: Siento admiración por mi profesora.
+  hint: admiration
+  topics: [social]
+- text: el funeral
+  example: El funeral será el martes.
+  hint: funeral
+  topics: [social]
+- text: sonreír
+  example: Siempre sonríe cuando me ve.
+  hint: smile
+  topics: [social]
+- text: abrazar
+  example: Me abrazó al despedirse.
+  hint: hug
+  topics: [social]
+- text: besar
+  example: La besó en la mejilla.
+  hint: kiss
+  topics: [social]
+- text: la lágrima
+  example: Tenía una lágrima en la cara.
+  hint: tear
+  topics: [social]
+- text: el grito
+  example: Oí un grito en la calle.
+  hint: shout
+  topics: [social]
+- text: la mirada
+  example: Me dirigió una mirada seria.
+  hint: look, gaze
+  topics: [social]
+- text: aclarar
+  example: ¿Puedes aclararme esta duda?
+  hint: clarify
+  topics: [everyday]
+- text: aplicar
+  example: Voy a aplicar esta crema.
+  hint: apply
+  topics: [health]
+- text: apuntarse
+  example: Me apunto al curso de inglés.
+  hint: sign up
+  topics: [everyday]
+- text: arriesgarse
+  example: No quiero arriesgarme sin información.
+  hint: take a risk
+  topics: [social]
+- text: asistir
+  example: Voy a asistir a la reunión.
+  hint: attend
+  topics: [work]
+- text: atravesar
+  example: Tenemos que atravesar el parque.
+  hint: cross
+  topics: [travel]
+- text: callarse
+  example: Por favor, callaos un momento.
+  hint: be quiet
+  topics: [social]
+- text: cargar
+  example: Tengo que cargar el móvil.
+  hint: load; charge
+  topics: [everyday]
+- text: causar
+  example: El ruido me causa dolor de cabeza.
+  hint: cause
+  topics: [health, everyday]
+- text: colocar
+  example: Coloca los libros en la estantería.
+  hint: place
+  topics: [housing]
+- text: comparar
+  example: Voy a comparar los dos precios.
+  hint: compare
+  topics: [shopping]
+- text: cubrir
+  example: La nieve cubre todo el jardín.
+  hint: cover
+  topics: [housing]
+- text: dirigir
+  example: Ella dirige un equipo pequeño.
+  hint: lead; direct
+  topics: [work]
+- text: distinguir
+  example: No distingo bien los colores.
+  hint: distinguish
+  topics: [health, everyday]
+- text: emplear
+  example: La empresa emplea a veinte personas.
+  hint: employ; use
+  topics: [work]
+- text: encargar
+  example: Voy a encargar una pizza.
+  hint: order
+  topics: [shopping]
+- text: enterarse
+  example: Me enteré ayer de la noticia.
+  hint: find out
+  topics: [social, everyday]
+- text: establecer
+  example: Quieren establecer nuevas normas.
+  hint: establish
+  topics: [office]
+- text: experimentar
+  example: Quiero experimentar cosas nuevas.
+  hint: experience; experiment
+  topics: [social]
+- text: explotar
+  example: El globo puede explotar.
+  hint: explode; exploit
+  topics: [everyday]
+- text: extender
+  example: Extiende la crema por el brazo.
+  hint: spread; extend
+  topics: [health]
+- text: fijar
+  example: Fija la fecha de la reunión.
+  hint: fix; set
+  topics: [office]
+- text: fingir
+  example: No finjas que estás enfermo.
+  hint: pretend
+  topics: [social]
+- text: herir
+  example: El cristal puede herir a los niños.
+  hint: injure
+  topics: [health]
+- text: huir
+  example: El ladrón intentó huir.
+  hint: flee
+  topics: [everyday]
+- text: levantar
+  example: Ayúdame a levantar la mesa.
+  hint: lift
+  topics: [housing]
+- text: pescar
+  example: Mi padre pesca los domingos.
+  hint: fish
+  topics: [everyday]
+- text: repartir
+  example: Vamos a repartir los folletos.
+  hint: hand out
+  topics: [work, office]
+- text: revisar
+  example: El médico revisa mis análisis.
+  hint: check; review
+  topics: [health]
+- text: saltar
+  example: Los niños saltan en el parque.
+  hint: jump
+  topics: [everyday]
+- text: sustituir
+  example: Voy a sustituir el filtro viejo.
+  hint: replace
+  topics: [housing]
+- text: aguantar
+  example: No aguanto este calor.
+  hint: bear; endure
+  topics: [everyday]
+- text: aprovechar
+  example: Aprovecha el descuento del supermercado.
+  hint: take advantage
+  topics: [shopping]
+- text: cometer
+  example: Cometí un error en el formulario.
+  hint: commit
+  topics: [office]
+- text: confesar
+  example: Confieso que olvidé la cita.
+  hint: confess
+  topics: [social]
+- text: enfrentarse
+  example: Debes enfrentarte a tus miedos.
+  hint: face; confront
+  topics: [social]
+- text: la niebla
+  example: La niebla cubre la carretera.
+  hint: fog
+  topics: [travel]
+- text: la ola
+  example: Una ola grande llegó a la arena.
+  hint: wave
+  topics: [travel, everyday]
+- text: la arena
+  example: Los niños juegan con la arena.
+  hint: sand
+  topics: [travel, everyday]
+- text: la crisis
+  example: La crisis afectó a muchas familias.
+  hint: crisis
+  topics: [work, everyday]
+- text: la economía
+  example: La economía del país está mejorando.
+  hint: economy
+  topics: [work]
+- text: el insomnio
+  example: El insomnio me cansa mucho.
+  hint: insomnia
+  topics: [health]
+- text: la migraña
+  example: Tengo una migraña muy fuerte.
+  hint: migraine
+  topics: [health]
+- text: la náusea
+  example: Siento náusea y mareo.
+  hint: nausea
+  topics: [health]
+- text: la fractura
+  example: La fractura necesita reposo.
+  hint: fracture
+  topics: [health]
+- text: la caries
+  example: El dentista me curó una caries.
+  hint: cavity; tooth decay
+  topics: [health]
+- text: el papeleo
+  example: Hay mucho papeleo en la oficina.
+  hint: paperwork
+  topics: [office]
+- text: la estadística
+  example: La estadística muestra menos paro.
+  hint: statistics
+  topics: [work, office]
+- text: la encuesta
+  example: Rellena la encuesta, por favor.
+  hint: survey
+  topics: [office]
+- text: la autorización
+  example: Necesito la autorización de mi jefe.
+  hint: authorization
+  topics: [office, work]
+- text: el visado
+  example: Solicité el visado para viajar.
+  hint: visa
+  topics: [travel, office]
+- text: el enlace
+  example: Pulsa este enlace para descargar.
+  hint: link
+  topics: [office, everyday]
+- text: la manifestación
+  example: La manifestación fue muy tranquila.
+  hint: demonstration
+  topics: [social, everyday]
+- text: la butaca
+  example: Reservé dos butacas para el teatro.
+  hint: seat; armchair
+  topics: [everyday]
+- text: el altavoz
+  example: El altavoz no funciona bien.
+  hint: speaker
+  topics: [everyday]
+- text: la suscripción
+  example: Cancelé mi suscripción al periódico.
+  hint: subscription
+  topics: [everyday, office]
+- text: el fracaso
+  example: El fracaso le enseñó una lección.
+  hint: failure
+  topics: [social, work]
+- text: el desempleo
+  example: El desempleo preocupa a los jóvenes.
+  hint: unemployment
+  topics: [work, social]
+- text: la inundación
+  example: La inundación dañó varias casas.
+  hint: flood
+  topics: [housing, everyday]
+- text: la felicitación
+  example: Le di mi felicitación por su ascenso.
+  hint: congratulation
+  topics: [social, work]
+- text: la fila
+  example: Hay una fila larga en el banco.
+  hint: queue, line
+  topics: [everyday]
+- text: el negocio
+  example: Mi hermano tiene un negocio pequeño.
+  hint: business
+  topics: [work]
+- text: la tortilla
+  example: La tortilla de patatas está muy buena.
+  hint: omelette
+  topics: [shopping]
+- text: la regla
+  example: No entiendo esta regla del juego.
+  hint: rule
+  topics: [everyday]
+- text: el cheque
+  example: Pagué con cheque, no con tarjeta.
+  hint: cheque
+  topics: [office]
+- text: la sucursal
+  example: El banco tiene una sucursal aquí.
+  hint: branch
+  topics: [office]
+- text: el domicilio
+  example: Escriba su domicilio en el formulario.
+  hint: home address
+  topics: [office]
+- text: la comisión
+  example: El banco me cobra una comisión.
+  hint: bank fee
+  topics: [office]
+- text: la instancia
+  example: Rellene la instancia y fírmela.
+  hint: application form
+  topics: [office]
+- text: la humedad
+  example: La humedad ha estropeado la pared.
+  hint: damp, humidity
+  topics: [housing]
+- text: la percha
+  example: Cuelga el abrigo en la percha.
+  hint: coat hanger
+  topics: [housing]
+- text: la funda
+  example: La funda de la almohada está sucia.
+  hint: cover, case
+  topics: [housing]
+- text: el estante
+  example: Pon los libros en el estante.
+  hint: shelf
+  topics: [housing]
+- text: la nata
+  example: Quiero el café con nata.
+  hint: cream
+  topics: [shopping]
+- text: la salchicha
+  example: Compra salchichas para la cena.
+  hint: sausage
+  topics: [shopping]
+- text: la barba
+  example: Mi vecino se ha dejado barba.
+  hint: beard
+  topics: [social]
+- text: el bigote
+  example: Ese señor tiene bigote blanco.
+  hint: moustache
+  topics: [social]
+- text: la ceja
+  example: Se ha quemado una ceja.
+  hint: eyebrow
+  topics: [health]
+- text: la pelea
+  example: Tuvieron una pelea por dinero.
+  hint: fight, argument
+  topics: [social]
+- text: el malentendido
+  example: Todo fue un malentendido entre nosotros.
+  hint: misunderstanding
+  topics: [social]
+- text: el llanto
+  example: El llanto del bebé me despertó.
+  hint: crying
+  topics: [social]
+- text: el cumplido
+  example: Me hizo un cumplido muy bonito.
+  hint: compliment
+  topics: [social]
+- text: alejarse
+  example: No te alejes demasiado del grupo.
+  hint: move away
+  topics: [everyday]
+- text: sudar
+  example: Sudo mucho cuando hago deporte.
+  hint: sweat
+  topics: [health]
+- text: cuidarse
+  example: Tienes que cuidarte más.
+  hint: take care
+  topics: [health]
+- text: estirar
+  example: Estira los brazos antes de correr.
+  hint: stretch
+  topics: [health]
+- text: golpearse
+  example: Me golpeé la rodilla al caer.
+  hint: hit oneself
+  topics: [health]
+- text: cortarse
+  example: Cuidado, no te cortes con el cristal.
+  hint: cut oneself
+  topics: [health]
+- text: atragantarse
+  example: Se atragantó con una aceituna.
+  hint: choke
+  topics: [health]
+- text: ahogarse
+  example: Casi se ahoga en la piscina.
+  hint: drown
+  topics: [health]
+- text: arrancar
+  example: El coche no arranca esta mañana.
+  hint: start engine
+  topics: [travel]
+- text: frenar
+  example: Frena antes del paso de peatones.
+  hint: brake
+  topics: [travel]
+- text: adelantar
+  example: El coche adelantó a un camión.
+  hint: overtake
+  topics: [travel]
+- text: chocar
+  example: Casi chocamos con un árbol.
+  hint: crash, collide
+  topics: [travel]
+- text: el maletero
+  example: Deja la maleta en el maletero.
+  hint: car boot
+  topics: [travel]
+- text: el volante
+  example: Gira el volante a la derecha.
+  hint: steering wheel
+  topics: [travel]
+- text: el retrovisor
+  example: Mira por el retrovisor antes de frenar.
+  hint: rear-view mirror
+  topics: [travel]
+- text: el túnel
+  example: El túnel está cerrado por obras.
+  hint: tunnel
+  topics: [travel]
+- text: la sombrilla
+  example: Pon la sombrilla cerca del mar.
+  hint: beach umbrella
+  topics: [travel]
+- text: la tumbona
+  example: Alquilamos dos tumbonas en la playa.
+  hint: sun lounger
+  topics: [travel]
+- text: el carro
+  example: Coge un carro para la compra.
+  hint: trolley
+  topics: [shopping]
+- text: la presión
+  example: El médico me toma la presión.
+  hint: blood pressure
+  topics: [health]
+- text: la inflamación
+  example: El médico vio una inflamación leve.
+  hint: inflammation
+  topics: [health]
+- text: el asma
+  example: Mi hijo tiene asma desde pequeño.
+  hint: asthma
+  topics: [health]
+- text: la diabetes
+  example: Su abuela tiene diabetes.
+  hint: diabetes
+  topics: [health]
+- text: el lunar
+  example: Me han quitado un lunar.
+  hint: mole
+  topics: [health]
+- text: matricularse
+  example: Me matriculé en la universidad.
+  hint: enrol
+  topics: [office]
+- text: inscribirse
+  example: Puedes inscribirte en el curso por internet.
+  hint: register
+  topics: [office]
+- text: presentarse
+  example: Me presenté al puesto de recepcionista.
+  hint: apply, introduce
+  topics: [work]
+- text: reconciliarse
+  example: Después de la pelea se reconciliaron.
+  hint: make up
+  topics: [social]
+- text: avergonzarse
+  example: Me avergoncé de mi error.
+  hint: be ashamed
+  topics: [social]
+- text: emocionarse
+  example: Me emocioné con la película.
+  hint: be moved
+  topics: [social]
+- text: sorprenderse
+  example: Me sorprendí al verle allí.
+  hint: be surprised
+  topics: [social]
+- text: la grieta
+  example: Hay una grieta en el techo.
+  hint: crack
+  topics: [housing]
+- text: la vitrocerámica
+  example: La vitrocerámica está sucia.
+  hint: hob
+  topics: [housing]
+- text: la secadora
+  example: La ropa está en la secadora.
+  hint: dryer
+  topics: [housing]
+- text: el resguardo
+  example: Guarda el resguardo de la compra.
+  hint: receipt, proof
+  topics: [office]
+- text: el comprobante
+  example: Necesito un comprobante del pago.
+  hint: proof of payment
+  topics: [office]
+- text: el becario
+  example: La empresa busca un becario.
+  hint: intern
+  topics: [work]
+- text: la huella
+  example: Ponga su huella en el documento.
+  hint: fingerprint
+  topics: [office]
+- text: por supuesto
+  example: Por supuesto, puedes usar mi móvil.
+  hint: of course
+  topics: [everyday]
+- text: tal vez
+  example: Tal vez llegue tarde a la cita.
+  hint: maybe
+  topics: [everyday]
+- text: a lo mejor
+  example: A lo mejor vamos al cine.
+  hint: maybe
+  topics: [everyday]
+- text: de repente
+  example: De repente empezó a llover.
+  hint: suddenly
+  topics: [everyday]
+- text: en cambio
+  example: En cambio, yo prefiero el tren.
+  hint: on the other hand
+  topics: [everyday]
+- text: por ejemplo
+  example: Por ejemplo, puedes pagar con tarjeta.
+  hint: for example
+  topics: [everyday]
+- text: sobre todo
+  example: Me gusta la fruta, sobre todo la manzana.
+  hint: especially
+  topics: [everyday]
+- text: por cierto
+  example: Por cierto, ¿tienes hora?
+  hint: by the way
+  topics: [social]
+- text: de hecho
+  example: De hecho, ya lo sabía.
+  hint: in fact
+  topics: [everyday]
+- text: en realidad
+  example: En realidad, no me apetece salir.
+  hint: actually
+  topics: [everyday]
+- text: al final
+  example: Al final encontramos piso.
+  hint: in the end
+  topics: [everyday]
+- text: en general
+  example: En general, la gente es amable.
+  hint: in general
+  topics: [social]
+- text: de todas formas
+  example: De todas formas, te llamo luego.
+  hint: anyway
+  topics: [everyday]
+- text: por lo menos
+  example: Por lo menos, llegamos a tiempo.
+  hint: at least
+  topics: [everyday]
+- text: más bien
+  example: Más bien prefiero quedarme en casa.
+  hint: rather
+  topics: [everyday]
+- text: sin duda
+  example: Sin duda, es la mejor opción.
+  hint: definitely
+  topics: [everyday]
+- text: en fin
+  example: En fin, ya veremos qué pasa.
+  hint: anyway
+  topics: [everyday]
+- text: por último
+  example: Por último, firma aquí abajo.
+  hint: finally
+  topics: [office]
+- text: de nuevo
+  example: Llámame de nuevo más tarde.
+  hint: again
+  topics: [everyday]
+- text: otra vez
+  example: Tienes que intentarlo otra vez.
+  hint: again
+  topics: [everyday]
+- text: a menudo
+  example: A menudo desayuno en el bar.
+  hint: often
+  topics: [everyday]
+- text: por fin
+  example: Por fin terminé el informe.
+  hint: finally
+  topics: [work]
+- text: de momento
+  example: De momento, estoy bien así.
+  hint: for now
+  topics: [everyday]
+- text: por ahora
+  example: Por ahora no tengo trabajo.
+  hint: for now
+  topics: [work]
+- text: al principio
+  example: Al principio me costó entender.
+  hint: at first
+  topics: [everyday]
+- text: al menos
+  example: Al menos, avísame antes.
+  hint: at least
+  topics: [everyday]
+- text: el comercio
+  example: El comercio cierra a las ocho.
+  hint: shop, business
+  topics: [shopping]
+- text: el ingrediente
+  example: Falta un ingrediente en la receta.
+  hint: ingredient
+  topics: [shopping]
+- text: la especia
+  example: Esta especia da mucho sabor.
+  hint: spice
+  topics: [shopping]
+- text: el aperitivo
+  example: Tomamos un aperitivo antes de comer.
+  hint: appetizer, snack
+  topics: [shopping]
+- text: el modelo
+  example: Me gusta este modelo de zapatos.
+  hint: model
+  topics: [shopping]
+- text: la competencia
+  example: La competencia baja los precios.
+  hint: competition
+  topics: [shopping, work]
+- text: la comparación
+  example: La comparación de precios ayuda.
+  hint: comparison
+  topics: [shopping]
+- text: el medicamento
+  example: Tomo este medicamento cada día.
+  hint: medicine
+  topics: [health]
+- text: el virus
+  example: El virus se contagia fácilmente.
+  hint: virus
+  topics: [health]
+- text: el reconocimiento
+  example: Me hacen un reconocimiento médico.
+  hint: medical check
+  topics: [health]
+- text: el masaje
+  example: El masaje me relaja mucho.
+  hint: massage
+  topics: [health]
+- text: el sueño
+  example: Necesito ocho horas de sueño.
+  hint: sleep
+  topics: [health]
+- text: el encargo
+  example: Tengo un encargo para mañana.
+  hint: assignment, order
+  topics: [work]
+- text: la sede
+  example: La sede está en el centro.
+  hint: headquarters
+  topics: [work, office]
+- text: el desacuerdo
+  example: Hubo desacuerdo en la reunión.
+  hint: disagreement
+  topics: [work]
+- text: la copia
+  example: Haz una copia del contrato.
+  hint: copy
+  topics: [office]
+- text: el escáner
+  example: El escáner no funciona hoy.
+  hint: scanner
+  topics: [office]
+- text: el acceso
+  example: No tengo acceso al sistema.
+  hint: access
+  topics: [office]
+- text: la clave
+  example: Olvidé la clave del correo.
+  hint: password, key
+  topics: [office]
+- text: la visita
+  example: Hacemos una visita al piso.
+  hint: visit
+  topics: [housing]
+- text: la orientación
+  example: El piso tiene buena orientación.
+  hint: orientation
+  topics: [housing]
+- text: amueblado
+  example: El piso está amueblado.
+  hint: furnished
+  topics: [housing]
+- text: el aviso
+  example: Hay un aviso en la puerta.
+  hint: notice
+  topics: [housing]
+- text: el vehículo
+  example: El vehículo está en el taller.
+  hint: vehicle
+  topics: [travel]
+- text: el crucero
+  example: Un crucero por el Mediterráneo.
+  hint: cruise
+  topics: [travel]
+- text: el pasaje
+  example: Compré el pasaje por internet.
+  hint: ticket, passage
+  topics: [travel]
+- text: el parking
+  example: El parking está lleno.
+  hint: car park
+  topics: [travel]
+- text: la rabia
+  example: Siento rabia por lo que pasó.
+  hint: anger, rage
+  topics: [social]
+- text: la nostalgia
+  example: Siento nostalgia de mi pueblo.
+  hint: nostalgia
+  topics: [social]
+- text: el complejo
+  example: Tiene complejo por su altura.
+  hint: complex
+  topics: [social]
+- text: la concentración
+  example: Necesito concentración para estudiar.
+  hint: concentration
+  topics: [everyday]
+- text: la imaginación
+  example: Usa la imaginación para resolverlo.
+  hint: imagination
+  topics: [everyday]
+- text: la recomendación
+  example: Sigo tu recomendación.
+  hint: recommendation
+  topics: [everyday]
+- text: el portátil
+  example: Trabajo con el portátil en casa.
+  hint: laptop
+  topics: [work]
+- text: es decir
+  example: Es decir, no podemos venir.
+  hint: that is
+  topics: [everyday]
+- text: por un lado
+  example: Por un lado, es muy barato.
+  hint: on one hand
+  topics: [everyday]
+- text: por otro lado
+  example: Por otro lado, está bastante lejos.
+  hint: on the other hand
+  topics: [everyday]
+- text: puesto que
+  example: No vino puesto que estaba enfermo.
+  hint: since
+  topics: [everyday]
+- text: o sea
+  example: O sea, que no vienes.
+  hint: that is
+  topics: [everyday]
+- text: de modo que
+  example: Llegó tarde, de modo que esperamos.
+  hint: so that
+  topics: [everyday]
+- text: aun así
+  example: Aun así, prefiero quedarme.
+  hint: even so
+  topics: [everyday]
+- text: por lo visto
+  example: Por lo visto, no hay plazas.
+  hint: apparently
+  topics: [everyday]
+- text: de todas maneras
+  example: De todas maneras, iré mañana.
+  hint: anyway
+  topics: [everyday]
+- text: en resumen
+  example: En resumen, todo salió bien.
+  hint: in summary
+  topics: [everyday]
+- text: la aspiradora
+  example: Paso la aspiradora todos los sábados.
+  hint: vacuum cleaner
+  topics: [housing]
+- text: el llavero
+  example: He perdido el llavero.
+  hint: keyring
+  topics: [everyday]
+- text: el freno
+  example: El freno del coche va mal.
+  hint: brake
+  topics: [travel]
+- text: el acelerador
+  example: Pisa el acelerador con cuidado.
+  hint: accelerator
+  topics: [travel]
+- text: el arcén
+  example: El coche paró en el arcén.
+  hint: hard shoulder
+  topics: [travel]
+- text: el surtidor
+  example: El surtidor de gasolina no funciona.
+  hint: fuel pump
+  topics: [travel]
+- text: el embrague
+  example: Pisa el embrague para cambiar.
+  hint: clutch
+  topics: [travel]
+- text: la furgoneta
+  example: Alquilamos una furgoneta para la mudanza.
+  hint: van
+  topics: [travel]
+- text: el rotulador
+  example: Escribe el nombre con rotulador.
+  hint: marker pen
+  topics: [office]
+- text: la grapadora
+  example: La grapadora no tiene grapas.
+  hint: stapler
+  topics: [office]
+- text: el clip
+  example: Sujeta las hojas con un clip.
+  hint: paperclip
+  topics: [office]
+- text: el archivador
+  example: Guarda los documentos en el archivador.
+  hint: binder
+  topics: [office]
+- text: el proyector
+  example: El proyector no funciona bien.
+  hint: projector
+  topics: [office]
+- text: la pizarra
+  example: Escribe la fecha en la pizarra.
+  hint: whiteboard
+  topics: [office]
+- text: el calabacín
+  example: El calabacín está fresco hoy.
+  hint: courgette
+  topics: [shopping]
+- text: el brócoli
+  example: Cuece el brócoli cinco minutos.
+  hint: broccoli
+  topics: [shopping]
+- text: la coliflor
+  example: La coliflor con patatas está buena.
+  hint: cauliflower
+  topics: [shopping]
+- text: el aguacate
+  example: El aguacate está muy caro hoy.
+  hint: avocado
+  topics: [shopping]
+- text: la espinaca
+  example: Las espinacas son muy sanas.
+  hint: spinach
+  topics: [shopping]
+- text: el puerro
+  example: El puerro está en la nevera.
+  hint: leek
+  topics: [shopping]
+- text: la ciruela
+  example: Las ciruelas están maduras.
+  hint: plum
+  topics: [shopping]
+- text: el kiwi
+  example: El kiwi tiene mucha vitamina.
+  hint: kiwi
+  topics: [shopping]
+- text: la gasa
+  example: Pon una gasa sobre la herida.
+  hint: gauze
+  topics: [health]
+- text: el suero
+  example: El médico le puso suero.
+  hint: saline drip
+  topics: [health]
+- text: el pulso
+  example: El enfermero me tomó el pulso.
+  hint: pulse
+  topics: [health]
+- text: el paracetamol
+  example: Tomo paracetamol para el dolor.
+  hint: paracetamol
+  topics: [health]
+- text: la aspirina
+  example: ¿Tienes una aspirina para el dolor?
+  hint: aspirin
+  topics: [health]
+- text: la pinza
+  example: Falta una pinza para la ropa.
+  hint: clothes peg
+  topics: [housing]
+- text: el estropajo
+  example: El estropajo está en el fregadero.
+  hint: scouring pad
+  topics: [housing]
+- text: el ambientador
+  example: Puse ambientador en el baño.
+  hint: air freshener
+  topics: [housing]
+- text: el candado
+  example: Cierra la bici con candado.
+  hint: padlock
+  topics: [travel]
+- text: la mirilla
+  example: Mira por la mirilla antes de abrir.
+  hint: peephole
+  topics: [housing]
+- text: el pestillo
+  example: Cierra el pestillo por la noche.
+  hint: latch
+  topics: [housing]
+- text: la cadena
+  example: Pon la cadena en la puerta.
+  hint: chain
+  topics: [housing]
+- text: la antena
+  example: La antena de la tele no funciona.
+  hint: aerial
+  topics: [housing]
+- text: el capó
+  example: Abre el capó del coche.
+  hint: bonnet
+  topics: [travel]
+- text: el parabrisas
+  example: El parabrisas está sucio.
+  hint: windscreen
+  topics: [travel]
+- text: el intermitente
+  example: Pon el intermitente antes de girar.
+  hint: indicator
+  topics: [travel]
+- text: el casco
+  example: Ponte el casco en la moto.
+  hint: helmet
+  topics: [travel]
+- text: la cortesía
+  example: La cortesía es importante.
+  hint: courtesy
+  topics: [social]
+- text: la grosería
+  example: Su grosería me sorprendió.
+  hint: rudeness
+  topics: [social]
+- text: la enhorabuena
+  example: Te doy la enhorabuena.
+  hint: congratulations
+  topics: [social]
+- text: el pésame
+  example: Le di el pésame ayer.
+  hint: condolences
+  topics: [social]
+- text: el brindis
+  example: Hacemos un brindis por los novios.
+  hint: toast
+  topics: [social]
+- text: la vela
+  example: Sopla las velas de la tarta.
+  hint: candle
+  topics: [social]
+- text: la reconciliación
+  example: Tras la pelea hubo reconciliación.
+  hint: reconciliation
+  topics: [social]
+- text: la humildad
+  example: Su humildad me impresionó.
+  hint: humility
+  topics: [social]
+- text: la antipatía
+  example: No hay antipatía entre ellos.
+  hint: dislike
+  topics: [social]
+- text: el centro comercial
+  example: Vamos al centro comercial esta tarde.
+  hint: shopping centre
+  topics: [shopping]
+- text: la alimentación
+  example: La alimentación saludable es importante.
+  hint: food, diet
+  topics: [health]
+- text: la universidad
+  example: Mi hermana estudia en la universidad.
+  hint: university
+  topics: [everyday]
+- text: el camión
+  example: El camión bloquea la entrada del garaje.
+  hint: lorry, truck
+  topics: [travel]
+- text: la higiene
+  example: La higiene personal evita muchas infecciones.
+  hint: hygiene
+  topics: [health]
+- text: el aire acondicionado
+  example: Enciende el aire acondicionado, hace calor.
+  hint: air conditioning
+  topics: [housing]
+- text: el cable
+  example: Este cable no funciona bien.
+  hint: cable, wire
+  topics: [office]
+- text: la copa
+  example: ¿Quieres tomar una copa conmigo?
+  hint: glass, drink
+  topics: [social]
+- text: el pasado
+  example: El pasado no se puede cambiar.
+  hint: past
+  topics: [everyday]
+- text: el presente
+  example: El presente es lo que importa.
+  hint: present
+  topics: [everyday]
+- text: el tiempo libre
+  example: No tengo mucho tiempo libre esta semana.
+  hint: free time
+  topics: [everyday]
+- text: el ocio
+  example: El ocio es importante para descansar.
+  hint: leisure
+  topics: [everyday]
+- text: la medida
+  example: Necesito la medida exacta de la ventana.
+  hint: measurement, measure
+  topics: [housing]
+- text: calcular
+  example: Intenta calcular el precio final.
+  hint: to calculate
+  topics: [everyday]
+- text: la impresión
+  example: Tengo la impresión de que está enfadado.
+  hint: impression
+  topics: [social]
+- text: el envío
+  example: El envío llega mañana por la mañana.
+  hint: shipment, delivery
+  topics: [shopping]
+- text: la postal
+  example: Te envío una postal desde Valencia.
+  hint: postcard
+  topics: [travel]
+- text: el código postal
+  example: Escribe tu código postal aquí.
+  hint: postcode
+  topics: [office]
+- text: la notificación
+  example: Recibí una notificación del banco.
+  hint: notification
+  topics: [office]
+- text: la descarga
+  example: La descarga tarda cinco minutos.
+  hint: download
+  topics: [office]
+- text: la planificación
+  example: La planificación del viaje lleva tiempo.
+  hint: planning
+  topics: [travel]
+- text: el recordatorio
+  example: Puse un recordatorio para la cita.
+  hint: reminder
+  topics: [office]
+- text: la conducta
+  example: Su conducta me sorprendió bastante.
+  hint: behaviour
+  topics: [social]
+- text: la creatividad
+  example: La creatividad ayuda a resolver problemas.
+  hint: creativity
+  topics: [social]
+- text: la actualidad
+  example: Leo las noticias de actualidad cada día.
+  hint: current affairs
+  topics: [everyday]
+- text: el premio
+  example: Ganó el premio de fotografía.
+  hint: prize, award
+  topics: [social]
+- text: la fama
+  example: La fama puede ser difícil de llevar.
+  hint: fame
+  topics: [social]
+- text: actuar
+  example: Los actores actuarán esta noche.
+  hint: to act, perform
+  topics: [everyday]
+- text: brindar
+  example: Brindemos por tu nuevo trabajo.
+  hint: to toast
+  topics: [social]
+- text: el vídeo
+  example: Mira este vídeo, es muy divertido.
+  hint: video
+  topics: [everyday]
+- text: la enseñanza
+  example: La enseñanza de idiomas requiere paciencia.
+  hint: teaching, education
+  topics: [work]
+- text: la ciencia
+  example: La ciencia explica muchas cosas.
+  hint: science
+  topics: [everyday]
+- text: la informática
+  example: Estudia informática en la universidad.
+  hint: computing, IT
+  topics: [work]
+- text: la ingeniería
+  example: Mi primo estudia ingeniería industrial.
+  hint: engineering
+  topics: [work]
+- text: el titular
+  example: El titular del periódico era alarmante.
+  hint: headline
+  topics: [everyday]
+- text: la gráfica
+  example: La gráfica muestra las ventas anuales.
+  hint: chart, graph
+  topics: [office]
+- text: la tabla
+  example: Rellena la tabla con tus datos.
+  hint: table, chart
+  topics: [office]
+- text: el porcentaje
+  example: El porcentaje de paro ha bajado.
+  hint: percentage
+  topics: [work]
+- text: la media
+  example: Calcula la media de las notas.
+  hint: average
+  topics: [everyday]
+- text: el total
+  example: El total de la compra es doce euros.
+  hint: total
+  topics: [shopping]
+- text: sumar
+  example: Voy a sumar estas cantidades.
+  hint: to add up
+  topics: [office]
+- text: dividir
+  example: Divide la tarta en ocho trozos.
+  hint: to divide
+  topics: [everyday]
+- text: el diagnóstico
+  example: El diagnóstico del médico fue claro.
+  hint: diagnosis
+  topics: [health]
+- text: la lesión
+  example: La lesión no es grave.
+  hint: injury
+  topics: [health]
+- text: el golpe
+  example: Me di un golpe en la rodilla.
+  hint: blow, hit
+  topics: [health]
+- text: la postura
+  example: Mantén una postura correcta al sentarte.
+  hint: posture
+  topics: [health]
+- text: la relajación
+  example: La relajación antes de dormir ayuda.
+  hint: relaxation
+  topics: [health]
+- text: la vitamina
+  example: La naranja tiene mucha vitamina C.
+  hint: vitamin
+  topics: [health]
+- text: la proteína
+  example: La carne es una fuente de proteína.
+  hint: protein
+  topics: [health]
+- text: la fibra
+  example: La fruta contiene mucha fibra.
+  hint: fibre
+  topics: [health]
+- text: la grasa
+  example: Esta comida tiene demasiada grasa.
+  hint: fat
+  topics: [health]
+- text: la caloría
+  example: Esta bebida tiene pocas calorías.
+  hint: calorie
+  topics: [health]
+- text: el colesterol
+  example: El colesterol alto es malo para el corazón.
+  hint: cholesterol
+  topics: [health]
+- text: la gramática
+  example: La gramática española no es difícil.
+  hint: grammar
+  topics: [everyday]
+- text: el vocabulario
+  example: Aprendo vocabulario nuevo cada día.
+  hint: vocabulary
+  topics: [everyday]
+- text: la pronunciación
+  example: Tu pronunciación del español ha mejorado.
+  hint: pronunciation
+  topics: [everyday]
+- text: la ortografía
+  example: Cuidado con la ortografía en el examen.
+  hint: spelling
+  topics: [everyday]
+- text: el borrador
+  example: Escribe un borrador antes del informe.
+  hint: draft
+  topics: [office]
+- text: la corrección
+  example: La corrección del texto lleva tiempo.
+  hint: correction, proofreading
+  topics: [office]
+- text: la expresión
+  example: La expresión oral es muy importante.
+  hint: expression
+  topics: [everyday]
+- text: quedarse
+  example: Me quedé en casa todo el día.
+  hint: to stay
+  topics: [everyday]
+- text: irse
+  example: Nos fuimos antes del final.
+  hint: to leave
+  topics: [social]
+- text: llevarse
+  example: Me llevo bien con mis compañeros.
+  hint: get along
+  topics: [social]
+- text: apetecer
+  example: No me apetece salir esta noche.
+  hint: to feel like
+  topics: [social]
+- text: parecerse
+  example: Te pareces mucho a tu padre.
+  hint: to look like
+  topics: [social]
+- text: preocupar
+  example: La noticia me preocupa mucho.
+  hint: to worry
+  topics: [social]
+- text: cansarse
+  example: Me canso al subir las escaleras.
+  hint: to get tired
+  topics: [health]
+- text: acercar
+  example: Acerca la silla a la mesa.
+  hint: bring closer
+  topics: [everyday]
+- text: calentar
+  example: Calienta la sopa un minuto.
+  hint: to heat
+  topics: [everyday]
+- text: dormirse
+  example: Me dormí en el sofá.
+  hint: fall asleep
+  topics: [everyday]
+- text: despertar
+  example: El ruido despertó a los vecinos.
+  hint: to wake
+  topics: [everyday]
+- text: vestirse
+  example: Se viste muy elegante para trabajar.
+  hint: get dressed
+  topics: [everyday]
+- text: olvidarse
+  example: Me olvidé las llaves en casa.
+  hint: to forget
+  topics: [everyday]
+- text: afeitarse
+  example: Se afeita todas las mañanas.
+  hint: to shave
+  topics: [everyday]
+- text: maquillarse
+  example: Se maquilla poco por la mañana.
+  hint: put on makeup
+  topics: [everyday]
+- text: asustar
+  example: La película asustó a los niños.
+  hint: to scare
+  topics: [social]
+- text: temer
+  example: Temo que llegue tarde.
+  hint: to fear
+  topics: [social]
+- text: temblar
+  example: Me tiemblan las manos de frío.
+  hint: to tremble
+  topics: [health]
+- text: portarse
+  example: Se portó muy bien conmigo.
+  hint: to behave
+  topics: [social]
+- text: alegrar
+  example: Me alegra verte tan contento.
+  hint: make happy
+  topics: [social]
+- text: enfadar
+  example: Su actitud enfadó a todos.
+  hint: to anger
+  topics: [social]
+- text: aburrir
+  example: La película aburrió a los niños.
+  hint: to bore
+  topics: [social]
+- text: divertir
+  example: El juego divirtió mucho a todos.
+  hint: to amuse
+  topics: [social]
+- text: cansar
+  example: La caminata me cansó bastante.
+  hint: to tire
+  topics: [health]
+- text: calentarse
+  example: Me calenté las manos al fuego.
+  hint: to warm up
+  topics: [health]
+- text: volverse
+  example: Se volvió muy antipático con todos.
+  hint: to become
+  topics: [social]
+- text: alejar
+  example: Aleja la silla de la ventana.
+  hint: move away
+  topics: [everyday]
+- text: la rueda
+  example: Se me pinchó una rueda en la autopista.
+  hint: wheel
+  topics: [travel]
+- text: el motor
+  example: El motor del coche hace un ruido raro.
+  hint: engine
+  topics: [travel]
+- text: la cremallera
+  example: Se me rompió la cremallera de la chaqueta.
+  hint: zip
+  topics: [shopping]
+- text: el algodón
+  example: Prefiero camisetas de algodón en verano.
+  hint: cotton
+  topics: [shopping]
+- text: la lana
+  example: Este jersey es de lana pura.
+  hint: wool
+  topics: [shopping]
+- text: la seda
+  example: La blusa es de seda natural.
+  hint: silk
+  topics: [shopping]
+- text: el gorro
+  example: Ponte el gorro, hace mucho frío.
+  hint: hat
+  topics: [everyday]
+- text: la cerilla
+  example: Encendió la vela con una cerilla.
+  hint: match
+  topics: [everyday]
+- text: el mechero
+  example: ¿Tienes un mechero para el fuego?
+  hint: lighter
+  topics: [everyday]
+- text: la cuerda
+  example: Colgó la ropa con una cuerda.
+  hint: rope
+  topics: [housing]
+- text: el martillo
+  example: Necesito el martillo para colgar el cuadro.
+  hint: hammer
+  topics: [housing]
+- text: el clavo
+  example: Puso un clavo en la pared.
+  hint: nail
+  topics: [housing]
+- text: el gancho
+  example: Cuelga el abrigo en el gancho.
+  hint: hook
+  topics: [housing]
+- text: la cirugía
+  example: La cirugía fue rápida y salió bien.
+  hint: surgery
+  topics: [health]
+- text: el empaste
+  example: El dentista me puso un empaste hoy.
+  hint: filling
+  topics: [health]
+- text: el colirio
+  example: El médico me recetó un colirio.
+  hint: eye drops
+  topics: [health]
+- text: el protector solar
+  example: Ponte protector solar en la playa.
+  hint: sunscreen
+  topics: [health]
+- text: la judía verde
+  example: Compré judías verdes en el mercado.
+  hint: green bean
+  topics: [shopping]
+- text: el guisante
+  example: Añade guisantes a la sopa.
+  hint: pea
+  topics: [shopping]
+- text: la remolacha
+  example: Compré remolacha para la ensalada.
+  hint: beetroot
+  topics: [shopping]
+- text: la acelga
+  example: Cociné acelgas con patatas.
+  hint: chard
+  topics: [shopping]
+- text: la col
+  example: Cociné col con patatas.
+  hint: cabbage
+  topics: [shopping]
+- text: el muelle
+  example: El barco está atracado en el muelle.
+  hint: dock
+  topics: [travel]
+- text: el susto
+  example: Me llevé un susto enorme.
+  hint: fright
+  topics: [social]
+- text: la tranquilidad
+  example: Busco tranquilidad en el campo.
+  hint: calm
+  topics: [social]
+- text: la felicidad
+  example: La felicidad está en las pequeñas cosas.
+  hint: happiness
+  topics: [social]
+- text: la confusión
+  example: Sentí confusión al oír la noticia.
+  hint: confusion
+  topics: [social]
+- text: el aburrimiento
+  example: El aburrimiento me hizo salir.
+  hint: boredom
+  topics: [social]
+- text: la diversión
+  example: La fiesta fue pura diversión.
+  hint: fun
+  topics: [social]
+- text: el entusiasmo
+  example: Hablaba con mucho entusiasmo.
+  hint: enthusiasm
+  topics: [social]
+- text: la pereza
+  example: Hoy me da pereza cocinar.
+  hint: laziness
+  topics: [social]
+- text: la alcachofa
+  example: Las alcachofas están muy caras hoy.
+  hint: artichoke
+  topics: [shopping]
+- text: el apio
+  example: El apio da sabor a la sopa.
+  hint: celery
+  topics: [shopping]
+- text: más o menos
+  example: El examen fue más o menos fácil.
+  hint: more or less
+  topics: [everyday]
+- text: poco a poco
+  example: Poco a poco estoy aprendiendo español.
+  hint: little by little
+  topics: [everyday]
+- text: por suerte
+  example: Por suerte, encontré las llaves enseguida.
+  hint: luckily
+  topics: [everyday]
+- text: por desgracia
+  example: Por desgracia, el vuelo se canceló.
+  hint: unfortunately
+  topics: [everyday]
+- text: la mitad
+  example: Solo comí la mitad del plato.
+  hint: half
+  topics: [shopping]
+- text: la mancha
+  example: Hay una mancha en tu camisa.
+  hint: stain
+  topics: [everyday]
+- text: el agujero
+  example: Hay un agujero en el pantalón.
+  hint: hole
+  topics: [housing]
+- text: la sombra
+  example: Busquemos una sombra para comer.
+  hint: shade
+  topics: [everyday]
+- text: el escalón
+  example: Cuidado, el último escalón está roto.
+  hint: step, stair
+  topics: [housing]
+- text: útil
+  example: Esta aplicación es muy útil.
+  hint: useful
+  topics: [everyday]
+- text: suave
+  example: Este jersey es muy suave.
+  hint: soft, gentle
+  topics: [shopping]
+- text: seco
+  example: El pollo está un poco seco.
+  hint: dry
+  topics: [shopping]
+- text: fresco
+  example: El pescado está muy fresco.
+  hint: fresh, cool
+  topics: [shopping]
+- text: roto
+  example: El ascensor está roto otra vez.
+  hint: broken
+  topics: [housing]
+- text: dulce
+  example: Este vino es demasiado dulce.
+  hint: sweet
+  topics: [shopping]
+- text: salado
+  example: El jamón está muy salado.
+  hint: salty
+  topics: [shopping]
+- text: amargo
+  example: El café está demasiado amargo.
+  hint: bitter
+  topics: [shopping]
+- text: picante
+  example: La salsa es demasiado picante.
+  hint: spicy
+  topics: [shopping]
+- text: antiguo
+  example: Vivo en un edificio antiguo.
+  hint: old, former
+  topics: [housing]
+- text: típico
+  example: Probamos un plato típico de aquí.
+  hint: typical
+  topics: [travel]
+- text: estupendo
+  example: El hotel era estupendo.
+  hint: great, wonderful
+  topics: [travel]
+- text: gracioso
+  example: Tu hermano es muy gracioso.
+  hint: funny
+  topics: [social]
+- text: molesto
+  example: El ruido es muy molesto.
+  hint: annoying
+  topics: [everyday]
+- text: incómodo
+  example: Este asiento es muy incómodo.
+  hint: uncomfortable
+  topics: [travel]
+- text: silencioso
+  example: El barrio es muy silencioso.
+  hint: quiet
+  topics: [housing]
+- text: sincero
+  example: Gracias por ser tan sincero.
+  hint: sincere, honest
+  topics: [social]
+- text: cariñoso
+  example: Mi abuelo es muy cariñoso.
+  hint: affectionate
+  topics: [social]
+- text: agotado
+  example: Después del trabajo estoy agotado.
+  hint: exhausted
+  topics: [health]
+- text: optimista
+  example: Ella siempre es muy optimista.
+  hint: optimistic
+  topics: [social]
+- text: pesimista
+  example: No seas pesimista con el examen.
+  hint: pessimistic
+  topics: [social]
+- text: impaciente
+  example: El niño está impaciente por salir.
+  hint: impatient
+  topics: [social]
+- text: tacaño
+  example: Mi vecino es bastante tacaño.
+  hint: stingy
+  topics: [social]
+- text: vago
+  example: Mi compañero es un poco vago.
+  hint: lazy
+  topics: [work]
+- text: odiar
+  example: Odio esperar en el banco.
+  hint: to hate
+  topics: [social]
+- text: soñar
+  example: Anoche soñé con mi pueblo.
+  hint: to dream
+  topics: [everyday]
+- text: insistir
+  example: Insistió en pagar la cuenta.
+  hint: to insist
+  topics: [social]
+- text: apretar
+  example: Aprieta el botón del ascensor.
+  hint: to press, squeeze
+  topics: [everyday]
+- text: soltar
+  example: No sueltes mi mano en el mercado.
+  hint: to let go
+  topics: [everyday]
+- text: tapar
+  example: Tapa la olla para que hierva.
+  hint: to cover
+  topics: [everyday]
+- text: soplar
+  example: Sopla la sopa, está muy caliente.
+  hint: to blow
+  topics: [everyday]
+- text: doblar
+  example: Dobla la ropa antes de guardarla.
+  hint: to fold, turn
+  topics: [everyday]
+- text: mojarse
+  example: No te mojes, está lloviendo.
+  hint: to get wet
+  topics: [everyday]
+- text: agacharse
+  example: Agáchate para coger el bolígrafo.
+  hint: to bend down
+  topics: [everyday]
+- text: morder
+  example: Mi perro muerde los zapatos.
+  hint: to bite
+  topics: [everyday]
+- text: tragar
+  example: Me duele la garganta al tragar.
+  hint: to swallow
+  topics: [health]
+- text: masticar
+  example: Mastica bien antes de tragar.
+  hint: to chew
+  topics: [health]
+- text: arrastrar
+  example: Arrastra la silla hasta la mesa.
+  hint: to drag
+  topics: [everyday]
+- text: exagerar
+  example: No exageres, no fue para tanto.
+  hint: to exaggerate
+  topics: [social]
+- text: adivinar
+  example: Adivina quién viene a cenar.
+  hint: to guess
+  topics: [social]
+- text: insultar
+  example: No insultes a tus compañeros.
+  hint: to insult
+  topics: [social]
+- text: pelearse
+  example: Se pelearon por una tontería.
+  hint: to quarrel, fight
+  topics: [social]
+- text: el chiste
+  example: Mi tío cuenta chistes muy buenos.
+  hint: joke
+  topics: [social]
+- text: el folleto
+  example: Este folleto explica las rutas.
+  hint: brochure, leaflet
+  topics: [travel]
+- text: el sobrino
+  example: Mi sobrino tiene solo cinco años.
+  hint: nephew
+  topics: [social]
+- text: la suegra
+  example: Mi suegra cocina muy bien.
+  hint: mother-in-law
+  topics: [social]
+- text: el nieto
+  example: Su nieto vive en otra ciudad.
+  hint: grandson
+  topics: [social]
+- text: en absoluto
+  example: No me gusta nada, en absoluto.
+  hint: not at all
+  topics: [everyday]
+- text: a la vez
+  example: No puedo hacer dos cosas a la vez.
+  hint: at the same time
+  topics: [everyday]
+- text: del todo
+  example: El proyecto no está terminado del todo.
+  hint: completely
+  topics: [work]
+- text: en cuanto
+  example: Te llamo en cuanto llegue a casa.
+  hint: as soon as
+  topics: [everyday]
+- text: mientras tanto
+  example: Estudio; mientras tanto, él cocina.
+  hint: meanwhile
+  topics: [everyday]
+- text: en primer lugar
+  example: En primer lugar, rellena el formulario.
+  hint: firstly
+  topics: [office]
+- text: por casualidad
+  example: Encontré tu carné por casualidad.
+  hint: by chance
+  topics: [everyday]
+- text: a continuación
+  example: A continuación, lea las instrucciones.
+  hint: next
+  topics: [office]
+- text: la despensa
+  example: Guardo el arroz en la despensa.
+  hint: pantry
+  topics: [shopping, housing]
+- text: la bandeja
+  example: Pon los vasos en la bandeja.
+  hint: tray
+  topics: [shopping, everyday]
+- text: el cazo
+  example: Calienta la leche en el cazo.
+  hint: saucepan
+  topics: [shopping, housing]
+- text: la batidora
+  example: Bate los huevos con la batidora.
+  hint: blender
+  topics: [shopping]
+- text: la cafetera
+  example: La cafetera está junto a la ventana.
+  hint: coffee maker
+  topics: [housing]
+- text: el abrelatas
+  example: No encuentro el abrelatas por ninguna parte.
+  hint: can opener
+  topics: [shopping]
+- text: el sacacorchos
+  example: Abre la botella con el sacacorchos.
+  hint: corkscrew
+  topics: [shopping]
+- text: la bayeta
+  example: Limpia la mesa con una bayeta.
+  hint: cleaning cloth
+  topics: [housing]
+- text: el recogedor
+  example: Trae el recogedor y la escoba.
+  hint: dustpan
+  topics: [housing]
+- text: el autocar
+  example: El autocar sale a las ocho.
+  hint: coach bus
+  topics: [travel]
+- text: la litera
+  example: La habitación tiene dos literas.
+  hint: bunk bed
+  topics: [travel, housing]
+- text: el aterrizaje
+  example: El aterrizaje fue muy suave.
+  hint: landing
+  topics: [travel]
+- text: el despegue
+  example: El despegue se retrasó una hora.
+  hint: takeoff
+  topics: [travel]
+- text: la azafata
+  example: La azafata nos trajo agua.
+  hint: flight attendant
+  topics: [travel]
+- text: el piloto
+  example: El piloto anunció turbulencias.
+  hint: pilot
+  topics: [travel]
+- text: el embarque
+  example: El embarque empieza a las diez.
+  hint: boarding
+  topics: [travel]
+- text: la terminal
+  example: La terminal está al final del aeropuerto.
+  hint: terminal
+  topics: [travel]
+- text: el afecto
+  example: Su afecto me dio mucha fuerza.
+  hint: affection
+  topics: [social]
+- text: la ternura
+  example: Trata a los niños con ternura.
+  hint: tenderness
+  topics: [social]
+- text: la lealtad
+  example: La lealtad es importante en la amistad.
+  hint: loyalty
+  topics: [social]
+- text: la compañía
+  example: Disfruto mucho de tu compañía.
+  hint: company
+  topics: [social]
+- text: el grado
+  example: La temperatura ha bajado varios grados.
+  hint: degree
+  topics: [everyday]
+- text: la sequía
+  example: La sequía afecta a toda la región.
+  hint: drought
+  topics: [everyday]
+- text: el granizo
+  example: El granizo rompió las ventanas.
+  hint: hail
+  topics: [everyday]
+- text: la helada
+  example: La helada quemó las plantas del jardín.
+  hint: frost
+  topics: [everyday]
+- text: el pronóstico
+  example: El pronóstico anuncia lluvia para mañana.
+  hint: forecast
+  topics: [everyday]
+- text: el relámpago
+  example: Un relámpago iluminó todo el cielo.
+  hint: lightning
+  topics: [everyday]
+- text: el trueno
+  example: El trueno me despertó de noche.
+  hint: thunder
+  topics: [everyday]
+- text: la brisa
+  example: Una brisa fresca viene del mar.
+  hint: breeze
+  topics: [everyday]
+- text: el arcoíris
+  example: Después de la lluvia salió el arcoíris.
+  hint: rainbow
+  topics: [everyday]
+- text: el folio
+  example: Escribe tu nombre en el folio.
+  hint: sheet of paper
+  topics: [office]
+- text: la grapa
+  example: Falta una grapa en el informe.
+  hint: staple
+  topics: [office]
+- text: el remitente
+  example: Escribe el remitente detrás del sobre.
+  hint: sender
+  topics: [office]
+- text: el destinatario
+  example: El destinatario vive en Madrid.
+  hint: recipient
+  topics: [office]
+- text: el adjunto
+  example: Revisa el adjunto de mi correo.
+  hint: attachment
+  topics: [office]
+- text: la escayola
+  example: Lleva escayola en la pierna.
+  hint: plaster cast
+  topics: [health]
+- text: la acidez
+  example: Tengo acidez después de comer.
+  hint: heartburn
+  topics: [health]
+- text: el apósito
+  example: Cubre la herida con un apósito.
+  hint: dressing
+  topics: [health]
+- text: la fisioterapia
+  example: Voy a fisioterapia por el dolor.
+  hint: physiotherapy
+  topics: [health]
+- text: la parcela
+  example: La casa tiene una parcela grande.
+  hint: plot
+  topics: [housing]
+- text: la urbanización
+  example: Vivimos en una urbanización tranquila.
+  hint: housing estate
+  topics: [housing]
+- text: el chalé
+  example: Alquilaron un chalé cerca del mar.
+  hint: detached house
+  topics: [housing]
+- text: la buhardilla
+  example: La buhardilla tiene mucha luz.
+  hint: attic room
+  topics: [housing]
+- text: el recibidor
+  example: Deja los zapatos en el recibidor.
+  hint: entrance hall
+  topics: [housing]
+- text: el lavadero
+  example: La lavadora está en el lavadero.
+  hint: utility room
+  topics: [housing]
+- text: la pechuga
+  example: La pechuga de pollo está muy tierna.
+  hint: breast
+  topics: [shopping]
+- text: el filete
+  example: Pide un filete poco hecho.
+  hint: steak
+  topics: [shopping]
+- text: la merluza
+  example: La merluza está fresca hoy.
+  hint: hake
+  topics: [shopping]
+- text: el salmón
+  example: El salmón se cocina muy rápido.
+  hint: salmon
+  topics: [shopping]
+- text: el langostino
+  example: Los langostinos están de oferta.
+  hint: prawn
+  topics: [shopping]
+- text: la gamba
+  example: La gamba viene del mar.
+  hint: prawn
+  topics: [shopping]
+- text: el calamar
+  example: Pedimos calamares a la plancha.
+  hint: squid
+  topics: [shopping]
+- text: el bacalao
+  example: El bacalao lleva mucho ajo.
+  hint: cod
+  topics: [shopping]
+- text: el cerdo
+  example: No como carne de cerdo.
+  hint: pork
+  topics: [shopping]
+- text: la línea
+  example: Coge la línea dos del metro.
+  hint: line (transport)
+  topics: [travel]
+- text: la habilidad
+  example: Tiene habilidad para los idiomas.
+  hint: ability, skill
+  topics: [work]
+- text: la capacidad
+  example: Tiene capacidad para resolver problemas.
+  hint: capacity, ability
+  topics: [work]
+- text: el pago
+  example: El pago se hace con tarjeta.
+  hint: payment
+  topics: [shopping]
+- text: la excusa
+  example: Siempre pones la misma excusa.
+  hint: excuse
+  topics: [social]
+- text: la decepción
+  example: Fue una gran decepción para todos.
+  hint: disappointment
+  topics: [social]
+- text: el insulto
+  example: No acepto insultos en mi casa.
+  hint: insult
+  topics: [social]
+- text: la advertencia
+  example: Ignoró la advertencia del médico.
+  hint: warning
+  topics: [health]
+- text: la amenaza
+  example: La amenaza no me da miedo.
+  hint: threat
+  topics: [social]
+- text: la tendencia
+  example: Esta tendencia está muy de moda.
+  hint: trend
+  topics: [everyday]
+- text: la industria
+  example: La industria textil da trabajo aquí.
+  hint: industry
+  topics: [work]
+- text: la agricultura
+  example: La agricultura depende del clima.
+  hint: agriculture
+  topics: [work]
+- text: el convenio
+  example: El convenio mejora los salarios.
+  hint: collective agreement
+  topics: [work]
+- text: la cifra
+  example: La cifra del paro ha bajado.
+  hint: figure, number
+  topics: [work]
+- text: la libreta
+  example: Apunta la dirección en la libreta.
+  hint: notebook
+  topics: [office]
+- text: la papelera
+  example: Tira esos papeles a la papelera.
+  hint: wastepaper basket
+  topics: [office]
+- text: el vidrio
+  example: El vidrio se recicla en el contenedor verde.
+  hint: glass (material)
+  topics: [everyday]
+- text: la madera
+  example: La mesa es de madera clara.
+  hint: wood
+  topics: [housing]
+- text: el metal
+  example: La llave es de metal.
+  hint: metal
+  topics: [everyday]
+- text: la tela
+  example: Esta tela es muy suave.
+  hint: fabric
+  topics: [shopping]
+- text: el cuero
+  example: Estas botas son de cuero.
+  hint: leather
+  topics: [shopping]
+- text: el fondo
+  example: Las llaves están en el fondo del bolso.
+  hint: bottom, back
+  topics: [everyday]
+- text: el borde
+  example: No pongas el vaso en el borde.
+  hint: edge
+  topics: [housing]
+- text: la superficie
+  example: Limpia la superficie de la mesa.
+  hint: surface
+  topics: [housing]
+- text: la posición
+  example: Cambia la posición de la silla.
+  hint: position
+  topics: [housing]
+- text: el hueco
+  example: Hay un hueco libre en la estantería.
+  hint: gap, space
+  topics: [housing]
+- text: la fachada
+  example: La fachada del edificio es blanca.
+  hint: facade
+  topics: [housing]
+- text: el taladro
+  example: Necesito un taladro para la pared.
+  hint: drill
+  topics: [housing]
+- text: el suavizante
+  example: Echa suavizante en la lavadora.
+  hint: fabric softener
+  topics: [housing]
+- text: el cesto
+  example: Pon la ropa en el cesto.
+  hint: basket
+  topics: [housing]
+- text: la tostadora
+  example: El pan está en la tostadora.
+  hint: toaster
+  topics: [housing]
+- text: el póster
+  example: Puse un póster en mi cuarto.
+  hint: poster
+  topics: [housing]
+- text: la infusión
+  example: Prefiero una infusión antes de dormir.
+  hint: herbal tea
+  topics: [health]
+- text: el caldo
+  example: El caldo de pollo está caliente.
+  hint: broth, stock
+  topics: [shopping]
+- text: la salsa
+  example: Esta salsa lleva tomate y ajo.
+  hint: sauce
+  topics: [shopping]
+- text: el cordero
+  example: El cordero está muy tierno.
+  hint: lamb
+  topics: [shopping]
+- text: el pavo
+  example: En Navidad comemos pavo asado.
+  hint: turkey
+  topics: [shopping]
+- text: la sardina
+  example: Las sardinas a la plancha están ricas.
+  hint: sardine
+  topics: [shopping]
+- text: el mejillón
+  example: Los mejillones son baratos hoy.
+  hint: mussel
+  topics: [shopping]
+- text: la trucha
+  example: La trucha se cocina al horno.
+  hint: trout
+  topics: [shopping]
+- text: el maíz
+  example: Añade maíz a la ensalada.
+  hint: corn, maize
+  topics: [shopping]
+- text: la seta
+  example: No comas esa seta, puede ser tóxica.
+  hint: mushroom
+  topics: [shopping]
+- text: el champiñón
+  example: Lava los champiñones antes de cocinar.
+  hint: button mushroom
+  topics: [shopping]
+- text: el mango
+  example: El mango está dulce y maduro.
+  hint: mango
+  topics: [shopping]
+- text: el higo
+  example: En septiembre comemos higos frescos.
+  hint: fig
+  topics: [shopping]
+- text: la picadura
+  example: Tengo una picadura de mosquito.
+  hint: bite, sting
+  topics: [health]
+- text: la encía
+  example: Me sangran las encías al cepillarme.
+  hint: gum (mouth)
+  topics: [health]
+- text: el esguince
+  example: Me he hecho un esguince en el tobillo.
+  hint: sprain
+  topics: [health]
+- text: el muslo
+  example: Me duele el muslo después de correr.
+  hint: thigh
+  topics: [health]
+- text: la pantorrilla
+  example: Me duele la pantorrilla al caminar.
+  hint: calf (leg)
+  topics: [health]
+- text: el envoltorio
+  example: Tira el envoltorio al contenedor amarillo.
+  hint: wrapper, packaging
+  topics: [shopping]
+- text: fregar
+  example: Fregar los platos me aburre.
+  hint: to wash up
+  topics: [housing]
+- text: barrer
+  example: Barre el suelo de la cocina.
+  hint: to sweep
+  topics: [housing]
+- text: tender
+  example: Tiendo la ropa en el balcón.
+  hint: to hang laundry
+  topics: [housing]
+- text: regar
+  example: Riega las plantas cada mañana.
+  hint: to water
+  topics: [housing]
+- text: pegar
+  example: Pega la foto en la hoja.
+  hint: to stick, glue
+  topics: [office]
+- text: escanear
+  example: Escanea el documento, por favor.
+  hint: to scan
+  topics: [office]
+- text: vaciar
+  example: Vacía la botella en el vaso.
+  hint: to empty
+  topics: [everyday]
+- text: atar
+  example: Ata el paquete con una cuerda.
+  hint: to tie
+  topics: [everyday]
+- text: perezoso
+  example: Mi hermano es muy perezoso.
+  hint: lazy
+  topics: [social]
+- text: el empleado
+  example: El empleado me pidió el carné.
+  hint: employee
+  topics: [work]
+- text: el ambulatorio
+  example: El ambulatorio está cerca de mi casa.
+  hint: health centre
+  topics: [health]
+- text: en efecto
+  example: En efecto, la reunión es mañana.
+  hint: indeed
+  topics: [everyday]
+- text: el empresario
+  example: El empresario firmó el contrato.
+  hint: businessman
+  topics: [work]

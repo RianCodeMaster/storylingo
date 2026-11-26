@@ -20,11 +20,8 @@ export interface Limits {
   stories_per_day: number;
   phrases_per_level: number;
   phrases_per_topic: number; // and per level the first of every topic
-  phrases_per_day: number;
   words_per_level: number; // the word trainer, like the phrases
   words_per_topic: number;
-  words_per_day: number;
-  reviews_per_day: number;
 }
 
 export interface Product {

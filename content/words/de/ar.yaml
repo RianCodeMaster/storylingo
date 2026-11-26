@@ -1500,3 +1500,5220 @@ der Bahnsteig:
 die Verspätung:
   meaning: التأخير
   example: القطار متأخر عشر دقائق.
+die Information:
+  meaning: معلومة
+  example: هذه المعلومة مهمة جدًا.
+die Idee:
+  meaning: فكرة
+  example: هذه فكرة جيدة.
+das Beispiel:
+  meaning: مثال
+  example: هل يمكنك إعطاء مثال؟
+die Karte:
+  meaning: بطاقة، خريطة
+  example: لديّ البطاقة معي.
+das Gespräch:
+  meaning: محادثة، حديث
+  example: كانت المحادثة مفيدة جدًا.
+das Gefühl:
+  meaning: شعور
+  example: لديّ شعور جيد.
+die Freizeit:
+  meaning: وقت الفراغ
+  example: في وقت فراغي أقرأ كتبًا.
+das Hobby:
+  meaning: هواية
+  example: هوايتي الاستماع إلى الموسيقى.
+das Gesicht:
+  meaning: وجه
+  example: وجهه أحمر تمامًا.
+die Haut:
+  meaning: جلد، بشرة
+  example: بشرتي جافة جدًا.
+der Finger:
+  meaning: إصبع
+  example: إصبعي يؤلمني كثيرًا.
+die Erkältung:
+  meaning: زكام، نزلة برد
+  example: لديّ زكام شديد.
+das Herz:
+  meaning: قلب
+  example: قلبي ينبض بسرعة.
+die Hausaufgabe:
+  meaning: واجب منزلي
+  example: أقوم بواجباتي المنزلية في المساء.
+die Bibliothek:
+  meaning: مكتبة
+  example: المكتبة مغلقة اليوم.
+die Kamera:
+  meaning: كاميرا
+  example: الكاميرا غالية جدًا.
+die Anmeldung:
+  meaning: تسجيل
+  example: التسجيل في المكتب.
+die Auskunft:
+  meaning: معلومات، استعلام
+  example: من أين أحصل على معلومات؟
+der Aufzug:
+  meaning: مصعد
+  example: المصعد معطل للأسف.
+der Bleistift:
+  meaning: قلم رصاص
+  example: أحتاج قلم رصاص للامتحان.
+der Drucker:
+  meaning: طابعة
+  example: الطابعة لا تعمل اليوم.
+das Heft:
+  meaning: دفتر
+  example: اكتب الإجابة في الدفتر.
+der Kalender:
+  meaning: تقويم
+  example: الموعد موجود في التقويم.
+der Eingang:
+  meaning: مدخل
+  example: المدخل على اليمين بجانب المرآب.
+die Bäckerei:
+  meaning: مخبز
+  example: المخبز يفتح الساعة السابعة.
+das Brötchen:
+  meaning: خبز صغير
+  example: أشتري قطعتين من الخبز الصغير من المخبز.
+das Café:
+  meaning: مقهى
+  example: نتقابل في المقهى.
+das Getränk:
+  meaning: مشروب
+  example: هل تريد مشروبًا باردًا؟
+das Gericht:
+  meaning: طبق، وجبة
+  example: هذا الطبق لذيذ جدًا.
+die Gurke:
+  meaning: خيار
+  example: أقطع خيارة للسلطة.
+das Huhn:
+  meaning: دجاج
+  example: نأكل اليوم دجاجًا مع أرز.
+die Jeans:
+  meaning: جينز، بنطال جينز
+  example: بنطال الجينز هذا يناسبني جيدًا.
+die Kette:
+  meaning: قلادة، سلسلة
+  example: القلادة من ذهب.
+der Friseur:
+  meaning: حلاق، مصفف شعر
+  example: سأذهب غدًا إلى الحلاق.
+das Badezimmer:
+  meaning: حمام
+  example: الحمام صغير لكنه نظيف.
+die Dusche:
+  meaning: دش
+  example: الدش في الحمام.
+die Ecke:
+  meaning: زاوية، ركن
+  example: المتجر حول الزاوية.
+die Garage:
+  meaning: مرآب
+  example: السيارة في المرآب.
+das Gebäude:
+  meaning: مبنى
+  example: المبنى قديم جدًا.
+das Geschirr:
+  meaning: أطباق، أواني
+  example: الأطباق ليست نظيفة بعد.
+das Handtuch:
+  meaning: منشفة
+  example: المنشفة في الحمام.
+der Hof:
+  meaning: فناء، ساحة
+  example: يلعب الأطفال في الفناء.
+das Holz:
+  meaning: خشب
+  example: الطاولة من خشب.
+der Keller:
+  meaning: قبو، بدروم
+  example: الدراجات في القبو.
+der Baum:
+  meaning: شجرة
+  example: الشجرة أمام المنزل.
+die Blume:
+  meaning: زهرة
+  example: هذه الزهرة رائحتها جيدة جدًا.
+das Bild:
+  meaning: صورة
+  example: الصورة معلقة على الحائط.
+das Haar:
+  meaning: شعر
+  example: لديها شعر أسود طويل.
+das Ausland:
+  meaning: الخارج، بلاد أجنبية
+  example: تعمل سنة في الخارج.
+der Fahrplan:
+  meaning: جدول مواعيد
+  example: الجدول معلق على رصيف المحطة.
+der Führerschein:
+  meaning: رخصة قيادة
+  example: استخرجت رخصة القيادة.
+das Gepäck:
+  meaning: أمتعة
+  example: أمتعتي لا تزال في المطار.
+das Gleis:
+  meaning: رصيف، سكة
+  example: القطار على الرصيف الثالث.
+der Hafen:
+  meaning: ميناء
+  example: السفينة في الميناء.
+die Ehefrau:
+  meaning: زوجة
+  example: زوجته تعمل في المستشفى.
+der Ehemann:
+  meaning: زوج
+  example: زوجها يطبخ جيدًا جدًا.
+die Einladung:
+  meaning: دعوة
+  example: شكرًا على دعوة العشاء.
+die Entschuldigung:
+  meaning: اعتذار، عفوًا
+  example: عفوًا، أين محطة القطار؟
+der Gast:
+  meaning: ضيف
+  example: الضيف يريد رؤية قائمة الطعام.
+der Gruß:
+  meaning: تحية
+  example: تحياتي لعائلتك.
+die Gesundheit:
+  meaning: الصحة
+  example: الصحة أهم من المال.
+die Bewerbung:
+  meaning: طلب توظيف
+  example: أكتب طلب توظيف لهذه الوظيفة.
+die Stelle:
+  meaning: وظيفة، منصب
+  example: أبحث عن وظيفة جديدة.
+der Vertrag:
+  meaning: عقد
+  example: العقد ساري لمدة عامين.
+die Ausbildung:
+  meaning: تدريب مهني
+  example: يستغرق التدريب المهني ثلاث سنوات.
+das Konto:
+  meaning: حساب بنكي
+  example: أفتح حسابًا في البنك.
+die Überweisung:
+  meaning: تحويل، حوالة
+  example: يستغرق التحويل يومين.
+der Antrag:
+  meaning: طلب، استمارة
+  example: أقدّم طلبًا إلى الإدارة.
+die Unterschrift:
+  meaning: توقيع
+  example: لا يزال توقيعك ناقصًا هنا.
+die Quittung:
+  meaning: إيصال
+  example: من فضلك أعطني الإيصال.
+der Rabatt:
+  meaning: خصم
+  example: يوجد خصم على الفستان.
+die Kreditkarte:
+  meaning: بطاقة ائتمان
+  example: هل يمكنني الدفع ببطاقة الائتمان؟
+das Kleingeld:
+  meaning: فكة، عملات صغيرة
+  example: ليس معي فكة.
+der Einkaufswagen:
+  meaning: عربة تسوق
+  example: عربة التسوق ممتلئة بالفعل.
+die Tüte:
+  meaning: كيس
+  example: هل تريد كيسًا؟
+die Packung:
+  meaning: عبوة، علبة
+  example: آخذ عبوة زبدة.
+die Dose:
+  meaning: علبة، عبوة
+  example: علبة الكولا على الرف.
+der Becher:
+  meaning: كوب، علبة
+  example: علبة زبادي، من فضلك.
+das Sonderangebot:
+  meaning: عرض خاص
+  example: الحليب اليوم في عرض خاص.
+die Öffnungszeit:
+  meaning: وقت الفتح، ساعات العمل
+  example: وقت الفتح قصير يوم السبت.
+der Umtausch:
+  meaning: استبدال
+  example: الاستبدال ممكن حتى الاثنين.
+die Garantie:
+  meaning: ضمان
+  example: الهاتف مشمول بضمان.
+der Mietvertrag:
+  meaning: عقد إيجار
+  example: عقد الإيجار موقّع بالفعل.
+die Nebenkosten:
+  meaning: تكاليف إضافية، مصاريف جانبية
+  example: التكاليف الإضافية مشمولة في السعر.
+die Kaution:
+  meaning: تأمين، عربون
+  example: التأمين يعادل إيجار شهرين.
+der Vermieter:
+  meaning: مالك العقار، المؤجر
+  example: صاحب العقار يمر غدًا.
+der Mieter:
+  meaning: مستأجر
+  example: المستأجر يدفع الإيجار في الوقت المحدد.
+das Erdgeschoss:
+  meaning: الطابق الأرضي
+  example: نسكن في الطابق الأرضي.
+der Stock:
+  meaning: طابق
+  example: الشقة في الطابق الثالث.
+der Flur:
+  meaning: مدخل، ممر
+  example: الأحذية في المدخل.
+die Steckdose:
+  meaning: مقبس كهرباء
+  example: المقبس خلف الأريكة.
+der Briefkasten:
+  meaning: صندوق بريد
+  example: البريد في صندوق البريد.
+der Wasserhahn:
+  meaning: صنبور
+  example: الصنبور يقطر طوال الليل.
+das Waschbecken:
+  meaning: حوض غسيل
+  example: حوض الغسيل نظيف بالفعل.
+die Reparatur:
+  meaning: إصلاح
+  example: الإصلاح للأسف يكلف الكثير من المال.
+die Reise:
+  meaning: رحلة
+  example: كانت الرحلة جميلة جدًا.
+der Anschluss:
+  meaning: اتصال، وصلة
+  example: فاتني الاتصال.
+das Abteil:
+  meaning: مقصورة
+  example: نجلس في المقصورة الأخيرة.
+der Sitzplatz:
+  meaning: مقعد
+  example: لقد حجزت مقعدًا.
+die Grenze:
+  meaning: حدود، حد
+  example: الحدود لا تزال بعيدة.
+der Zoll:
+  meaning: جمارك
+  example: يجب أن نمر عبر الجمارك.
+die Fähre:
+  meaning: عبّارة
+  example: العبّارة تبحر كل ساعة.
+das Schiff:
+  meaning: سفينة
+  example: السفينة تصل هذا المساء.
+die Straßenbahn:
+  meaning: ترام
+  example: الترام يتوقف هنا مباشرة.
+das Motorrad:
+  meaning: دراجة نارية
+  example: يحب قيادة الدراجة النارية.
+der Stau:
+  meaning: ازدحام مروري
+  example: نحن عالقون في الازدحام.
+die Tankstelle:
+  meaning: محطة وقود
+  example: محطة الوقود قريبة جدًا.
+das Benzin:
+  meaning: بنزين
+  example: أصبح البنزين أغلى مرة أخرى.
+der Parkplatz:
+  meaning: موقف سيارات
+  example: أبحث عن موقف سيارات.
+die Autobahn:
+  meaning: طريق سريع
+  example: الطريق السريع مزدحم اليوم.
+die Ampel:
+  meaning: إشارة مرور
+  example: إشارة المرور حمراء.
+die Werkstatt:
+  meaning: ورشة إصلاح
+  example: السيارة في الورشة.
+die Laune:
+  meaning: مزاج
+  example: اليوم مزاجي جيد.
+die Überraschung:
+  meaning: مفاجأة
+  example: كانت الحفلة مفاجأة جميلة.
+das Vertrauen:
+  meaning: ثقة
+  example: الثقة مهمة في الصداقة.
+der Streit:
+  meaning: جدال، خلاف
+  example: كان لدينا خلاف صغير أمس.
+deshalb:
+  meaning: لذلك، لهذا السبب
+  example: إنها تمطر، لذلك نبقى في البيت.
+trotzdem:
+  meaning: مع ذلك، رغم ذلك
+  example: أنا متعب، مع ذلك سأذهب للركض.
+obwohl:
+  meaning: رغم أن، على الرغم من أن
+  example: على الرغم من أن الجو ممطر، نخرج في نزهة.
+während:
+  meaning: بينما، خلال
+  example: بينما أطبخ، يستمع إلى الموسيقى.
+die Nachricht:
+  meaning: خبر، رسالة
+  example: لدي خبر جيد لك.
+das Paket:
+  meaning: طرد
+  example: وصل الطرد اليوم.
+der Pass:
+  meaning: جواز سفر
+  example: جواز سفري في الحقيبة.
+der Ausflug:
+  meaning: رحلة، نزهة
+  example: الرحلة ممتعة جدًا.
+die Ankunft:
+  meaning: وصول
+  example: الوصول مخطط له غدًا.
+der Aufenthalt:
+  meaning: إقامة
+  example: كانت الإقامة في الفندق قصيرة.
+erzählen:
+  meaning: يحكي، يروي
+  example: هو يحكي قصة طريفة.
+fehlen:
+  meaning: ينقص، يغيب
+  example: ما زالت تنقصني قطعة كعكة.
+hoffen:
+  meaning: يأمل
+  example: آمل في طقس جيد.
+üben:
+  meaning: يتدرب، يمارس
+  example: نمارس الألمانية اليوم.
+wiederholen:
+  meaning: يكرر
+  example: هل يمكنك تكرار السؤال؟
+überweisen:
+  meaning: يحوّل مالًا
+  example: سأحوّل المال غدًا.
+sparen:
+  meaning: يدّخر، يوفر
+  example: ندّخر من أجل رحلة.
+stören:
+  meaning: يزعج
+  example: من فضلك لا تزعجني.
+höflich:
+  meaning: مهذب، لطيف
+  example: البائع مهذب جدًا.
+plötzlich:
+  meaning: فجأة
+  example: فجأة تبدأ السماء بالمطر.
+ruhig:
+  meaning: هادئ
+  example: الغرفة هادئة جدًا.
+die Prüfung:
+  meaning: امتحان
+  example: الامتحان الأسبوع القادم.
+der Unterricht:
+  meaning: دروس، حصة
+  example: يبدأ الدرس قريبًا.
+der Student:
+  meaning: طالب جامعي
+  example: الطالب يسكن في غرفة.
+die Universität:
+  meaning: جامعة
+  example: الجامعة مغلقة اليوم.
+der Schüler:
+  meaning: تلميذ
+  example: التلميذ ينجز واجبه.
+der Zahnarzt:
+  meaning: طبيب أسنان
+  example: لدي موعد عند طبيب الأسنان غدًا.
+der Unfall:
+  meaning: حادث
+  example: لم يُصب أحد في الحادث.
+der Verkehr:
+  meaning: حركة المرور
+  example: حركة المرور كثيفة جدًا اليوم.
+das Verkehrsmittel:
+  meaning: وسيلة نقل
+  example: أي وسيلة نقل تأخذ؟
+der Körper:
+  meaning: جسم
+  example: الجسم يحتاج إلى راحة وماء.
+der Magen:
+  meaning: معدة
+  example: معدتي تؤلمني.
+die Schulter:
+  meaning: كتف
+  example: كتفي تؤلمني منذ أمس.
+die Untersuchung:
+  meaning: فحص طبي
+  example: كان الفحص عند الطبيب قصيرًا.
+der Schlaf:
+  meaning: نوم
+  example: النوم الجيد مهم جدًا.
+der Schnupfen:
+  meaning: زكام
+  example: لدي زكام شديد.
+die Möbel:
+  meaning: أثاث
+  example: الأثاث جديد وعصري.
+der Raum:
+  meaning: غرفة، مساحة
+  example: الغرفة مشرقة وكبيرة.
+das Rathaus:
+  meaning: بلدية
+  example: البلدية في المركز.
+der Schalter:
+  meaning: شبّاك
+  example: الشباك سيُغلق حالًا.
+das Dokument:
+  meaning: مستند، وثيقة
+  example: من فضلك أحضر الوثيقة معك.
+der Kunde:
+  meaning: زبون، عميل
+  example: الزبون يريد شراء رغيف خبز.
+der Laden:
+  meaning: متجر
+  example: المتجر يفتح قريبًا.
+der Imbiss:
+  meaning: كشك طعام
+  example: نأكل نقانقًا عند كشك الطعام.
+der Kiosk:
+  meaning: كشك
+  example: أشتري صحيفة من الكشك.
+die Ware:
+  meaning: بضاعة
+  example: البضاعة مغلفة جيدًا.
+das Produkt:
+  meaning: منتج
+  example: هذا المنتج شائع جدًا.
+der Pullover:
+  meaning: سترة صوفية
+  example: السترة الصوفية صغيرة جدًا.
+die Seife:
+  meaning: صابون
+  example: الصابون في الحمام.
+der Herbst:
+  meaning: خريف
+  example: غالبًا ما تمطر في الخريف.
+die Zeitschrift:
+  meaning: مجلة
+  example: هذه المجلة مثيرة للاهتمام جدًا.
+das Thema:
+  meaning: موضوع
+  example: الموضوع مهم جدًا اليوم.
+der Tipp:
+  meaning: نصيحة
+  example: هل لديك نصيحة لي؟
+der Traum:
+  meaning: حلم
+  example: حلمي هو شقة خاصة.
+der Verein:
+  meaning: نادٍ، جمعية
+  example: النادي يجتمع في المساء.
+die Ruhe:
+  meaning: هدوء، راحة
+  example: أحتاج إلى بعض الهدوء الآن.
+der Spaß:
+  meaning: مرح، متعة
+  example: الرحلة ممتعة جدًا.
+die Situation:
+  meaning: موقف، حالة
+  example: الوضع ليس سهلًا.
+die Sorge:
+  meaning: قلق، هم
+  example: لدي قلق كبير.
+der Strand:
+  meaning: شاطئ
+  example: على الشاطئ الجو دافئ اليوم.
+die Sehenswürdigkeit:
+  meaning: معلم سياحي
+  example: المعلم السياحي قديم جدًا.
+das Schloss:
+  meaning: قلعة، قفل
+  example: تقع القلعة على جبل.
+der Tourist:
+  meaning: سائح
+  example: السائح يسأل عن الطريق.
+erklären:
+  meaning: يشرح، يوضح
+  example: هل يمكنك أن تشرح لي ذلك من فضلك؟
+entscheiden:
+  meaning: يقرر
+  example: يجب أن نقرر اليوم.
+fühlen:
+  meaning: يشعر
+  example: لا أشعر أنني بخير اليوم.
+anbieten:
+  meaning: يعرض، يقدم
+  example: هو يعرض عليّ المساعدة.
+empfehlen:
+  meaning: يوصي، ينصح
+  example: هل يمكنك أن توصي بمطعم؟
+vorbereiten:
+  meaning: يحضّر
+  example: أحضّر الطعام.
+versuchen:
+  meaning: يحاول
+  example: أحاول أن أنام مبكرًا.
+passieren:
+  meaning: يحدث
+  example: ماذا حدث أمس؟
+gehören:
+  meaning: يخص، ينتمي إلى
+  example: هذه الحقيبة تخص أختي.
+gefallen:
+  meaning: يعجب
+  example: الأريكة الجديدة تعجبني.
+passen:
+  meaning: يناسب، يلائم
+  example: السترة تناسبني جيدًا.
+reden:
+  meaning: يتحدث
+  example: يجب أن نتحدث عن الخطة.
+schauen:
+  meaning: ينظر
+  example: انظر من النافذة!
+sammeln:
+  meaning: يجمع
+  example: الأطفال يجمعون حجارة ملونة.
+studieren:
+  meaning: يدرس
+  example: تريد أن تدرس الطب.
+übernachten:
+  meaning: يبيت
+  example: نبيت ليلتين في الفندق.
+umziehen:
+  meaning: ينتقل
+  example: سننتقل الشهر القادم.
+verletzen:
+  meaning: يجرح، يصيب
+  example: أصيب أثناء ممارسة الرياضة.
+vermieten:
+  meaning: يؤجر
+  example: يؤجرون شقتهم في الصيف.
+verpassen:
+  meaning: يفوت
+  example: فاتني الباص.
+vorschlagen:
+  meaning: يقترح
+  example: أقترح مقهى.
+vorstellen:
+  meaning: يعرّف، يقدّم
+  example: هل يمكنني أن أقدّم نفسي باختصار؟
+wechseln:
+  meaning: يغيّر، يبدّل
+  example: هل يمكنني تغيير الموعد؟
+ziehen:
+  meaning: يسحب
+  example: نسحب الخزانة إلى اليسار.
+die Kleidung:
+  meaning: الملابس
+  example: الملابس في الخزانة.
+das Land:
+  meaning: البلد، الريف
+  example: نذهب إلى الريف.
+der Platz:
+  meaning: مكان، مقعد
+  example: هل هذا المقعد ما زال فارغًا؟
+die Post:
+  meaning: مكتب البريد
+  example: مكتب البريد مغلق اليوم.
+die Zeitung:
+  meaning: الصحيفة
+  example: أقرأ الصحيفة صباحًا.
+das Kino:
+  meaning: السينما
+  example: نذهب اليوم إلى السينما.
+der Fluss:
+  meaning: النهر
+  example: النهر عريض جدًا.
+der Himmel:
+  meaning: السماء
+  example: السماء زرقاء اليوم.
+die Kirche:
+  meaning: الكنيسة
+  example: الكنيسة في المركز.
+das Dorf:
+  meaning: القرية
+  example: جدتي تسكن في قرية.
+die Mode:
+  meaning: الموضة، الأزياء
+  example: الموضة تتغير بسرعة.
+der Sport:
+  meaning: الرياضة
+  example: الرياضة جيدة للصحة.
+das Spiel:
+  meaning: اللعبة
+  example: تبدأ اللعبة في الثامنة.
+der Teil:
+  meaning: الجزء
+  example: هذا الجزء مهم جدًا.
+der Weg:
+  meaning: الطريق، المسار
+  example: الطريق إلى المحطة قصير.
+das Ziel:
+  meaning: الهدف، الوجهة
+  example: الهدف لا يزال بعيدًا.
+die Zukunft:
+  meaning: المستقبل
+  example: في المستقبل أريد أن أسافر.
+der Winter:
+  meaning: الشتاء
+  example: في الشتاء نحتاج ملابس دافئة.
+der Frühling:
+  meaning: الربيع
+  example: في الربيع تتفتح أزهار كثيرة.
+die Wolke:
+  meaning: السحابة
+  example: سحابة داكنة تقترب.
+das Salz:
+  meaning: الملح
+  example: أضف قليلًا من الملح إلى الحساء.
+die Nudel:
+  meaning: المعكرونة
+  example: أطبخ اليوم معكرونة بالطماطم.
+der Topf:
+  meaning: القدر
+  example: القدر على الموقد.
+der Sessel:
+  meaning: كرسي بذراعين
+  example: الكرسي بذراعين مريح جدًا.
+besonders:
+  meaning: خاصة، بشكل خاص
+  example: اليوم بارد بشكل خاص.
+eigentlich:
+  meaning: في الواقع، أصلًا
+  example: في الواقع أردت البقاء في المنزل.
+endlich:
+  meaning: أخيرًا
+  example: أخيرًا حان وقت عطلة نهاية الأسبوع!
+draußen:
+  meaning: في الخارج
+  example: الأطفال يلعبون في الخارج في الحديقة.
+drinnen:
+  meaning: في الداخل
+  example: الجو بارد، نبقى في الداخل.
+oben:
+  meaning: في الأعلى، فوق
+  example: الشقة في الطابق العلوي من المبنى.
+unten:
+  meaning: في الأسفل، تحت
+  example: القبو في الطابق السفلي من المبنى.
+vorher:
+  meaning: قبل ذلك، مسبقًا
+  example: اتصل بي من فضلك قبل ذلك.
+nachher:
+  meaning: بعد ذلك، لاحقًا
+  example: بعد ذلك نذهب للتسوق.
+überall:
+  meaning: في كل مكان
+  example: في المدينة توجد مقاهٍ في كل مكان.
+wegen:
+  meaning: بسبب
+  example: بسبب المطر نبقى هنا.
+damit:
+  meaning: لكي، حتى
+  example: أطبخ لكي نأكل معًا.
+bekommen:
+  meaning: يحصل على، يستلم
+  example: سأستلم رسالة غدًا.
+lassen:
+  meaning: يترك، يدع
+  example: أترك السيارة في البيت.
+tun:
+  meaning: يفعل
+  example: ماذا يمكنني أن أفعل من أجلك؟
+benutzen:
+  meaning: يستخدم
+  example: أستخدم الحاسوب كل يوم.
+sich freuen:
+  meaning: يفرح، يتطلع
+  example: أتطلع إلى العطلة.
+möglich:
+  meaning: ممكن
+  example: هل هذا ممكن غدًا أيضًا؟
+gerade:
+  meaning: الآن، للتو
+  example: عدت للتو إلى البيت.
+sonst:
+  meaning: غير ذلك، وإلا
+  example: أي شيء آخر من فضلك؟
+informieren:
+  meaning: يبلغ، يعلم
+  example: من فضلك أبلغني غدًا.
+interessieren:
+  meaning: يهم، يثير اهتمام
+  example: الموضوع يهمني كثيرًا.
+ausfüllen:
+  meaning: يملأ
+  example: من فضلك املأ الاستمارة.
+anmelden:
+  meaning: يسجل
+  example: عليّ التسجيل في الدائرة.
+besprechen:
+  meaning: يناقش
+  example: نناقش المشكلة في الفريق.
+stattfinden:
+  meaning: يقام، يحدث
+  example: يقام المهرجان في الحديقة.
+teilnehmen:
+  meaning: يشارك
+  example: أشارك في الدورة.
+prüfen:
+  meaning: يفحص، يتحقق
+  example: من فضلك تحقق من الفاتورة.
+verschieben:
+  meaning: يؤجل، يزيح
+  example: يجب أن نؤجل الموعد.
+bestätigen:
+  meaning: يؤكد
+  example: من فضلك أكد الموعد.
+abgeben:
+  meaning: يسلم، يودع
+  example: أسلم الطرد عند الشباك.
+deswegen:
+  meaning: لذلك، لهذا
+  example: أنا مريض، لذلك لن آتي.
+darum:
+  meaning: لذلك، لهذا
+  example: ليس لدي وقت، لذلك لن آتي.
+meistens:
+  meaning: غالبًا، في الأغلب
+  example: غالبًا أذهب بالحافلة.
+zuletzt:
+  meaning: أخيرًا، في النهاية
+  example: في النهاية نزور السوق.
+selten:
+  meaning: نادرًا
+  example: نادرًا ما يشرب القهوة.
+morgens:
+  meaning: صباحًا
+  example: صباحًا أشرب القهوة دائمًا.
+abends:
+  meaning: مساءً
+  example: مساءً أحب مشاهدة التلفاز.
+nachts:
+  meaning: ليلًا
+  example: ليلًا يكون الشارع هادئًا جدًا.
+sich ärgern:
+  meaning: ينزعج، يغضب
+  example: أنزعج من ازدحام المرور.
+sich entschuldigen:
+  meaning: يعتذر
+  example: أعتذر عن التأخير.
+sich ausruhen:
+  meaning: يستريح
+  example: أستريح في عطلة نهاية الأسبوع.
+sich beeilen:
+  meaning: يستعجل، يسرع
+  example: من فضلك أسرع، نحن متأخرون.
+wütend:
+  meaning: غاضب
+  example: أنا غاضب من أخي.
+stolz:
+  meaning: فخور
+  example: أنا فخور بك.
+einsam:
+  meaning: وحيد، موحش
+  example: العيش وحيدًا غالبًا موحش.
+verliebt:
+  meaning: واقع في الحب
+  example: أنا واقع في حب جارتي.
+die Besprechung:
+  meaning: اجتماع
+  example: الاجتماع يبدأ صباحًا.
+die Abteilung:
+  meaning: قسم
+  example: أعمل في قسم المشتريات.
+der Lebenslauf:
+  meaning: سيرة ذاتية
+  example: من فضلك أرفق السيرة الذاتية.
+das Praktikum:
+  meaning: تدريب عملي
+  example: أتدرب عمليًا في المكتب.
+der Einkauf:
+  meaning: تسوق، شراء
+  example: التسوق لا يستغرق وقتًا طويلًا.
+der Nachtisch:
+  meaning: حلوى، تحلية
+  example: ماذا تريد كحلوى؟
+das Trinkgeld:
+  meaning: بقشيش
+  example: نعطي النادل بقشيشًا.
+tauschen:
+  meaning: يبدل، يستبدل
+  example: هل يمكنني استبدال القميص؟
+vergleichen:
+  meaning: يقارن
+  example: نقارن الأسعار في السوبرماركت.
+die Torte:
+  meaning: كعكة، تورتة
+  example: الكعكة لذيذة جدًا.
+der Umzug:
+  meaning: انتقال، نقل
+  example: الانتقال الأسبوع القادم.
+die Klingel:
+  meaning: جرس الباب
+  example: جرس الباب معطل مرة أخرى.
+der Hausmeister:
+  meaning: حارس المبنى
+  example: حارس المبنى يصلح الباب.
+die Glühbirne:
+  meaning: مصباح، لمبة
+  example: اللمبة معطلة.
+der Vorhang:
+  meaning: ستارة
+  example: الستارة لا تزال جديدة.
+umsteigen:
+  meaning: يغيّر القطار، يبدل
+  example: عليك تغيير القطار في المحطة المركزية.
+abfahren:
+  meaning: يغادر، ينطلق
+  example: القطار سيغادر قريبًا.
+einchecken:
+  meaning: يسجل الوصول
+  example: نسجل الوصول في الفندق.
+die Fahrt:
+  meaning: رحلة، سفر
+  example: الرحلة تستغرق وقتًا طويلًا جدًا.
+der Schaffner:
+  meaning: مراقب القطار، محصل
+  example: مراقب القطار يفحص التذاكر.
+die Praxis:
+  meaning: عيادة
+  example: لدي موعد غدًا في العيادة.
+das Rezept:
+  meaning: وصفة طبية
+  example: لدي وصفة طبية من الطبيب.
+der Krankenwagen:
+  meaning: سيارة إسعاف
+  example: سيارة الإسعاف تأتي فورًا.
+die Verletzung:
+  meaning: إصابة
+  example: الإصابة تؤلم كثيرًا.
+wählen:
+  meaning: يختار، يطلب رقمًا
+  example: من فضلك اطلب رقمًا.
+der Anfang:
+  meaning: بداية
+  example: في البداية كان كل شيء جديدًا.
+das Ende:
+  meaning: النهاية
+  example: في النهاية كان الجميع متعبين.
+die Person:
+  meaning: الشخص
+  example: لا أعرف هذا الشخص.
+das Glück:
+  meaning: الحظ، السعادة
+  example: حظًا سعيدًا في الامتحان!
+die Luft:
+  meaning: الهواء
+  example: أحتاج هواءً نقيًا.
+der Strom:
+  meaning: الكهرباء، التيار
+  example: انقطعت الكهرباء اليوم.
+die Brücke:
+  meaning: الجسر
+  example: الجسر قديم جدًا.
+die Kreuzung:
+  meaning: التقاطع
+  example: انعطف يسارًا عند التقاطع.
+der Stadtplan:
+  meaning: خريطة المدينة
+  example: أحتاج خريطة للمدينة.
+das Reisebüro:
+  meaning: وكالة السفر
+  example: نحن نحجز في وكالة السفر.
+der Kugelschreiber:
+  meaning: قلم حبر جاف
+  example: القلم الجاف لم يعد يكتب.
+die Briefmarke:
+  meaning: طابع بريدي
+  example: أحتاج طابع بريد.
+der Zettel:
+  meaning: قصاصة ورق
+  example: اكتب ذلك على القصاصة.
+die Liste:
+  meaning: القائمة
+  example: القائمة ليست جاهزة بعد.
+die Kosten:
+  meaning: التكاليف
+  example: التكاليف مرتفعة جدًا.
+der Vorschlag:
+  meaning: الاقتراح
+  example: اقتراحك جيد جدًا.
+der Schmerz:
+  meaning: الألم
+  example: لدي آلام شديدة.
+das Medikament:
+  meaning: الدواء
+  example: خذ الدواء كل صباح.
+der Durst:
+  meaning: العطش
+  example: بعد الرياضة أشعر بالعطش.
+die Hitze:
+  meaning: الحرارة
+  example: في هذه الحرارة أشرب كثيرًا.
+der Wecker:
+  meaning: المنبه
+  example: المنبه يرن في السابعة.
+der Rock:
+  meaning: التنورة، موسيقى روك
+  example: التنورة تناسبني جيدًا.
+das Kleid:
+  meaning: الفستان
+  example: الفستان غالٍ جدًا.
+der Anzug:
+  meaning: البدلة
+  example: يرتدي بدلة سوداء.
+die Bluse:
+  meaning: البلوزة
+  example: تعجبني البلوزة كثيرًا.
+der Joghurt:
+  meaning: الزبادي
+  example: آكل الزبادي مع الفواكه.
+das Eis:
+  meaning: آيس كريم، جليد
+  example: في الصيف نأكل الآيس كريم.
+das Bier:
+  meaning: البيرة
+  example: يشرب بيرة.
+die Zwiebel:
+  meaning: البصل
+  example: البصل يجعلني أبكي.
+die Mahlzeit:
+  meaning: الوجبة
+  example: كانت الوجبة لذيذة جدًا.
+der Koch:
+  meaning: الطباخ
+  example: يعمل الطباخ في المطعم.
+die Kollegin:
+  meaning: الزميلة
+  example: زميلتي مريضة اليوم.
+die Lehrerin:
+  meaning: المعلمة
+  example: تشرح المعلمة التمرين.
+der Verkäufer:
+  meaning: البائع
+  example: يساعدني البائع.
+die Erfahrung:
+  meaning: الخبرة
+  example: لديه خبرة كبيرة في المهنة.
+das Zeugnis:
+  meaning: الشهادة
+  example: حصلت على شهادتي.
+der Feiertag:
+  meaning: يوم عطلة رسمية
+  example: العطلة الرسمية الأسبوع القادم.
+die Nachbarin:
+  meaning: الجارة
+  example: جارتي لطيفة جدًا.
+die Liebe:
+  meaning: الحب
+  example: الحب أحيانًا معقد.
+der Wunsch:
+  meaning: أمنية، رغبة
+  example: هل لديك أمنية؟
+das Interesse:
+  meaning: الاهتمام
+  example: لدي اهتمام بالموسيقى.
+die Gruppe:
+  meaning: المجموعة
+  example: المجموعة تلتقي غدًا.
+der Satz:
+  meaning: الجملة
+  example: الجملة طويلة جدًا.
+das Ding:
+  meaning: الشيء
+  example: الشيء مكسور.
+die Hälfte:
+  meaning: النصف
+  example: النصف كافٍ.
+der Grund:
+  meaning: السبب
+  example: اذكر لي سببًا جيدًا.
+die Lösung:
+  meaning: الحل
+  example: الحل بسيط جدًا.
+der Ort:
+  meaning: المكان
+  example: المكان جميل جدًا.
+das Theater:
+  meaning: المسرح
+  example: نذهب إلى المسرح.
+die Polizei:
+  meaning: الشرطة
+  example: اتصل بالشرطة بسرعة!
+abbiegen:
+  meaning: ينعطف
+  example: انعطف عند الزاوية.
+abnehmen:
+  meaning: ينقص الوزن، يخسر وزنًا
+  example: أريد إنقاص ثلاثة كيلوغرامات.
+anprobieren:
+  meaning: يقيس، يجرب
+  example: هل يمكنني تجربة السترة؟
+aufräumen:
+  meaning: يرتب
+  example: يجب أن أرتب غرفتي.
+ausziehen:
+  meaning: ينتقل، يخلع
+  example: سننتقل الشهر القادم.
+backen:
+  meaning: يخبز
+  example: أخبز كعكة.
+beantworten:
+  meaning: يجيب على
+  example: أجب على سؤالي من فضلك.
+sich bedanken:
+  meaning: يشكر
+  example: أود أن أشكركم من كل قلبي.
+sich beschweren:
+  meaning: يشتكي
+  example: أريد أن أشتكي.
+besichtigen:
+  meaning: يعاين، يزور
+  example: سنعاين الشقة غدًا.
+die Geschichte:
+  meaning: قصة، تاريخ
+  example: القصة مثيرة جدًا.
+der Stress:
+  meaning: التوتر
+  example: لدي الكثير من التوتر في العمل.
+die Hochzeit:
+  meaning: حفل الزفاف
+  example: حفل الزفاف في الصيف.
+das Museum:
+  meaning: المتحف
+  example: المتحف مغلق اليوم.
+die Freundschaft:
+  meaning: الصداقة
+  example: صداقتنا مهمة جداً.
+der Kontakt:
+  meaning: التواصل
+  example: ليس لدي أي تواصل معه.
+die Hoffnung:
+  meaning: الأمل
+  example: لم أفقد الأمل بعد.
+die Stimmung:
+  meaning: المزاج، الجو
+  example: الجو العام اليوم جيد جداً.
+die Wäsche:
+  meaning: الغسيل
+  example: الغسيل ما زال مبللاً.
+die Hausarbeit:
+  meaning: الأعمال المنزلية
+  example: اليوم أقوم بالأعمال المنزلية.
+das Konzert:
+  meaning: الحفل الموسيقي
+  example: نذهب اليوم إلى الحفل الموسيقي.
+die Ausstellung:
+  meaning: المعرض
+  example: المعرض مثير للاهتمام جداً.
+die Sekunde:
+  meaning: الثانية
+  example: انتظر ثانية من فضلك.
+die Temperatur:
+  meaning: درجة الحرارة
+  example: درجة الحرارة اليوم مرتفعة جداً.
+das Gewitter:
+  meaning: العاصفة الرعدية
+  example: هذا المساء ستأتي عاصفة رعدية.
+der Nebel:
+  meaning: الضباب
+  example: عند الضباب أقود ببطء.
+die Jahreszeit:
+  meaning: الفصل
+  example: الخريف هو فصلي المفضل.
+der Augenblick:
+  meaning: لحظة
+  example: انتظر لحظة، من فضلك.
+die Geduld:
+  meaning: الصبر
+  example: لم يعد لدي صبر.
+die Wut:
+  meaning: الغضب
+  example: غضبه انتهى بسرعة.
+die Beziehung:
+  meaning: العلاقة
+  example: لديهما علاقة جيدة.
+das Kompliment:
+  meaning: المجاملة
+  example: هذه مجاملة لطيفة.
+der Mülleimer:
+  meaning: سلة المهملات
+  example: سلة المهملات ممتلئة بالفعل.
+die Mülltonne:
+  meaning: حاوية القمامة
+  example: حاوية القمامة أمام المنزل.
+der Handwerker:
+  meaning: الحرفي
+  example: الحرفي يصلح التدفئة.
+die Spülmaschine:
+  meaning: غسالة الأطباق
+  example: غسالة الأطباق تعمل منذ ساعات.
+der Staubsauger:
+  meaning: المكنسة الكهربائية
+  example: المكنسة الكهربائية صاخبة جداً.
+die Bettwäsche:
+  meaning: أغطية السرير
+  example: أغير أغطية السرير اليوم.
+der Kassenzettel:
+  meaning: الإيصال
+  example: الإيصال في الكيس.
+die Metzgerei:
+  meaning: محل الجزارة
+  example: أشتري اللحم من محل الجزارة.
+die Bedienung:
+  meaning: الخدمة، النادل
+  example: النادل يجلب لنا قائمة الطعام.
+die Vorspeise:
+  meaning: المقبلات
+  example: سآخذ الحساء كطبق مقبلات.
+das Hauptgericht:
+  meaning: الطبق الرئيسي
+  example: الطبق الرئيسي يكلف اثني عشر يورو.
+die Portion:
+  meaning: الحصة
+  example: الحصة كبيرة جداً.
+der Knoblauch:
+  meaning: الثوم
+  example: أطبخ مع الكثير من الثوم.
+das Kilo:
+  meaning: الكيلو
+  example: كيلو الطماطم يكلف يوروين.
+die Abfahrt:
+  meaning: المغادرة
+  example: المغادرة في الثامنة.
+der Fahrgast:
+  meaning: الراكب
+  example: الراكب ينتظر الحافلة.
+die Reservierung:
+  meaning: الحجز
+  example: لدي حجز لهذا المساء.
+der Reiseführer:
+  meaning: دليل السفر، المرشد
+  example: المرشد يرينا المدينة.
+der Reifen:
+  meaning: الإطار
+  example: الإطار معطوب للأسف.
+die Panne:
+  meaning: العطل
+  example: كان لدينا عطل على الطريق السريع.
+das Gehalt:
+  meaning: الراتب
+  example: الراتب يأتي في نهاية الشهر.
+die Gebühr:
+  meaning: الرسوم
+  example: الرسوم عشرة يورو.
+die Warteschlange:
+  meaning: طابور الانتظار
+  example: طابور الانتظار طويل جداً.
+das Passwort:
+  meaning: كلمة المرور
+  example: نسيت كلمة المرور الخاصة بي.
+die Datei:
+  meaning: الملف
+  example: الملف على الحاسوب.
+der Bildschirm:
+  meaning: الشاشة
+  example: الشاشة ساطعة جداً.
+der Automat:
+  meaning: الآلة
+  example: الآلة لا تقبل البطاقات.
+die Krankenkasse:
+  meaning: التأمين الصحي
+  example: تأميني الصحي يدفع ثمن الأدوية.
+der Husten:
+  meaning: السعال
+  example: لدي سعال منذ أمس.
+die Allergie:
+  meaning: الحساسية
+  example: لدي حساسية من المكسرات.
+die Impfung:
+  meaning: التطعيم
+  example: التطعيم لا يؤلم.
+der Verband:
+  meaning: الضمادة
+  example: الطبيب يضع ضمادة.
+die Salbe:
+  meaning: المرهم
+  example: المرهم يساعد ضد الألم.
+die Sprechstunde:
+  meaning: ساعات الاستشارة
+  example: ساعات الاستشارة تبدأ في التاسعة.
+der Notarzt:
+  meaning: طبيب الطوارئ
+  example: نتصل بطبيب الطوارئ فوراً.
+übermorgen:
+  meaning: بعد غد
+  example: بعد غد ليس لدي وقت.
+außerdem:
+  meaning: بالإضافة إلى ذلك، أيضاً
+  example: بالإضافة إلى ذلك، أحتاج إلى الحليب.
+ungefähr:
+  meaning: تقريباً
+  example: سآتي في الثامنة تقريباً.
+sogar:
+  meaning: حتى
+  example: إنه يتحدث حتى القليل من الألمانية.
+kaum:
+  meaning: بالكاد
+  example: بالكاد لدي وقت للرياضة.
+zwar:
+  meaning: صحيح أن، مع أن
+  example: إنها متعبة، لكنها تواصل العمل.
+entweder:
+  meaning: إما
+  example: إما أن نذهب اليوم أو غدًا.
+falls:
+  meaning: إذا، في حال
+  example: إذا أمطرت، سنبقى في المنزل.
+nachdem:
+  meaning: بعد أن
+  example: بعد أن آكل، سأخرج.
+seitdem:
+  meaning: منذ ذلك الحين، منذ أن
+  example: منذ أن يسكن هنا وهو سعيد.
+übrigens:
+  meaning: بالمناسبة
+  example: بالمناسبة، الدورة تبدأ غدًا مبكرًا.
+die Verabredung:
+  meaning: موعد، اتفاق
+  example: لدي موعد اليوم.
+der Vormittag:
+  meaning: قبل الظهر
+  example: قبل الظهر لدي موعد.
+der Nachmittag:
+  meaning: بعد الظهر
+  example: بعد الظهر نذهب إلى السينما.
+der Schreibtisch:
+  meaning: مكتب
+  example: مكتبي بجوار النافذة.
+die Telefonnummer:
+  meaning: رقم الهاتف
+  example: ما رقم هاتفك؟
+die Bestätigung:
+  meaning: تأكيد، إثبات
+  example: أحتاج إلى تأكيد للدائرة.
+der Feierabend:
+  meaning: نهاية يوم العمل
+  example: في السادسة أخيرًا ينتهي عملي.
+die Arbeitszeit:
+  meaning: وقت العمل، ساعات العمل
+  example: وقت عملي يبدأ في الثامنة.
+der Arbeitsplatz:
+  meaning: مكان العمل
+  example: مكان عملي هادئ جدًا.
+das Wörterbuch:
+  meaning: قاموس
+  example: أستخدم القاموس كثيرًا.
+die Postkarte:
+  meaning: بطاقة بريدية
+  example: سأرسل لك بطاقة بريدية.
+das Radio:
+  meaning: راديو، مذياع
+  example: في السيارة أستمع إلى الراديو دائمًا.
+die Geschwister:
+  meaning: أشقاء، إخوة وأخوات
+  example: هل لديك أشقاء؟
+die Entscheidung:
+  meaning: قرار
+  example: كان ذلك قرارًا صعبًا.
+der Patient:
+  meaning: مريض
+  example: المريض ينتظر في الغرفة بالفعل.
+die Krankmeldung:
+  meaning: شهادة مرضية، إبلاغ بالمرض
+  example: أرسل الشهادة المرضية إلى الشركة.
+die Kantine:
+  meaning: مقصف، كانتين
+  example: نتناول الغداء ظهرًا في المقصف.
+der Berg:
+  meaning: جبل
+  example: نتسلق الجبل اليوم.
+der Wald:
+  meaning: غابة
+  example: خلف البيت توجد غابة.
+der Ausgang:
+  meaning: مخرج
+  example: المخرج في نهاية الممر.
+die Rolltreppe:
+  meaning: سلم متحرك، درج متحرك
+  example: خذ السلم المتحرك إلى الطابق الأول.
+das Datum:
+  meaning: تاريخ
+  example: ما تاريخ اليوم؟
+der Zeitpunkt:
+  meaning: وقت، لحظة
+  example: وقت الموعد يناسبني.
+die Kälte:
+  meaning: برد
+  example: في هذا البرد سأبقى بالداخل.
+der Sturm:
+  meaning: عاصفة
+  example: العاصفة دمرت الحديقة.
+der Wetterbericht:
+  meaning: نشرة الطقس، تقرير الطقس
+  example: تتوقع نشرة الطقس مطرًا.
+frisch:
+  meaning: طازج
+  example: الخبز طازج جدًا اليوم.
+schlecht:
+  meaning: سيئ، مريض
+  example: أشعر بالغثيان اليوم.
+jung:
+  meaning: شاب، صغير السن
+  example: إنها ما زالت صغيرة جدًا.
+nett:
+  meaning: لطيف
+  example: جارك لطيف حقًا.
+einfach:
+  meaning: بسيط، سهل
+  example: المهمة بسيطة جدًا.
+gefährlich:
+  meaning: خطير
+  example: هذا الشارع خطير جدًا.
+bequem:
+  meaning: مريح
+  example: هذا الكرسي مريح جدًا.
+berühmt:
+  meaning: مشهور، شهير
+  example: الطاهي مشهور جدًا.
+froh:
+  meaning: سعيد، مسرور
+  example: أنا سعيد بمساعدتك.
+hübsch:
+  meaning: جميل، لطيف
+  example: شقتك جميلة حقًا.
+klar:
+  meaning: واضح
+  example: الجواب واضح لي.
+komisch:
+  meaning: مضحك، غريب
+  example: كان الفيلم مضحكًا حقًا.
+normal:
+  meaning: طبيعي، عادي
+  example: هذا طبيعي تمامًا.
+ordentlich:
+  meaning: مرتب
+  example: من فضلك أبقِ غرفتك مرتبة.
+praktisch:
+  meaning: عملي
+  example: هذه الحقيبة عملية جدًا.
+schwach:
+  meaning: ضعيف
+  example: أشعر بالضعف اليوم.
+stark:
+  meaning: قوي
+  example: القهوة قوية جدًا.
+toll:
+  meaning: رائع
+  example: كان الحفل رائعًا حقًا.
+weit:
+  meaning: بعيد
+  example: الطريق بعيد جدًا.
+ehrlich:
+  meaning: صادق، بصراحة
+  example: كن صادقًا معي من فضلك.
+fleißig:
+  meaning: مجتهد
+  example: إنها تعمل بجد كبير.
+gemütlich:
+  meaning: مريح، دافئ
+  example: غرفة المعيشة مريحة جدًا.
+die Badewanne:
+  meaning: حوض استحمام
+  example: حوض الاستحمام مليء بالماء.
+die Pfanne:
+  meaning: مقلاة
+  example: المقلاة على الموقد.
+der Backofen:
+  meaning: فرن
+  example: الفرن ما زال ساخنًا.
+die Mikrowelle:
+  meaning: ميكروويف
+  example: أسخّن الحساء في الميكروويف.
+kennen:
+  meaning: يعرف
+  example: هل تعرف الجار الجديد؟
+halten:
+  meaning: يمسك، يتوقف
+  example: القطار يتوقف في كولونيا.
+stellen:
+  meaning: يضع
+  example: ضع الزجاجة على الطاولة.
+reisen:
+  meaning: يسافر
+  example: نسافر في الصيف إلى إيطاليا.
+rauchen:
+  meaning: يدخن
+  example: لا يُسمح بالتدخين هنا.
+rufen:
+  meaning: ينادي، يصرخ
+  example: المعلم ينادي اسمي.
+parken:
+  meaning: يركن السيارة
+  example: لا يُسمح بركن السيارة هنا.
+planen:
+  meaning: يخطط
+  example: نخطط للعطلة معًا.
+verdienen:
+  meaning: يكسب
+  example: تكسب جيدًا في مهنتها.
+verbieten:
+  meaning: يمنع
+  example: والداي يمنعانني من ذلك.
+scheinen:
+  meaning: يشرق، يبدو
+  example: تشرق الشمس اليوم بشكل ساطع.
+schaffen:
+  meaning: ينجز، يستطيع
+  example: سأنجز ذلك حتى الغد.
+zählen:
+  meaning: يعد
+  example: من فضلك عُدّ المال.
+wahr:
+  meaning: صحيح، حقيقي
+  example: هذا صحيح حقًا.
+kaputt:
+  meaning: معطل، مكسور
+  example: هاتفي معطل مرة أخرى.
+letzte:
+  meaning: الأخير
+  example: هذه آخر حافلة.
+gemeinsam:
+  meaning: معًا
+  example: نطبخ اليوم معًا.
+geradeaus:
+  meaning: مستقيمًا
+  example: امشِ دائمًا مستقيمًا.
+hoffentlich:
+  meaning: آمل أن، أتمنى
+  example: آمل أن يصل القطار في الموعد.
+recht:
+  meaning: على حق، صحيح
+  example: أنت على حق في فكرتك.
+die Sache:
+  meaning: الشيء، الأمر
+  example: هذا الأمر مهم جدًا.
+die Welt:
+  meaning: العالم
+  example: أريد أن أرى العالم.
+der Kurs:
+  meaning: الدورة
+  example: تبدأ الدورة يوم الاثنين.
+der Plan:
+  meaning: الخطة
+  example: لدينا خطة جيدة.
+die Seite:
+  meaning: الصفحة، الجانب
+  example: افتح الكتاب على الصفحة عشرة.
+die Bestellung:
+  meaning: الطلب
+  example: طلبي يصل غدًا.
+der Besuch:
+  meaning: الزيارة، الزوار
+  example: لدينا زوار اليوم.
+der Appetit:
+  meaning: الشهية
+  example: ليست لدي شهية.
+das Alter:
+  meaning: العمر
+  example: هو لا يعرف عمرها.
+der Bäcker:
+  meaning: الخباز
+  example: يفتح الخباز الساعة السادسة.
+bauen:
+  meaning: يبني
+  example: هم يبنون منزلًا جديدًا.
+bedeuten:
+  meaning: يعني
+  example: ماذا تعني هذه الكلمة؟
+bekannt:
+  meaning: مشهور، معروف
+  example: هذه المدينة مشهورة جدًا.
+buchen:
+  meaning: يحجز
+  example: نحجز فندقًا لليلتين.
+danken:
+  meaning: يشكر
+  example: أشكرك على المساعدة.
+decken:
+  meaning: يجهز الطاولة
+  example: نجهز الطاولة الآن.
+drücken:
+  meaning: يضغط
+  example: من فضلك اضغط الزر.
+einpacken:
+  meaning: يغلف، يعبئ
+  example: أغلف الهدية.
+eintragen:
+  meaning: يسجل، يدخل
+  example: من فضلك سجل اسمك.
+die Feier:
+  meaning: الحفل
+  example: يبدأ الحفل الساعة الثامنة.
+das Feuer:
+  meaning: النار
+  example: النار في الفرن مشتعلة.
+der Fleck:
+  meaning: البقعة
+  example: هناك بقعة على القميص.
+fremd:
+  meaning: غريب
+  example: أنا غريب هنا.
+die Frucht:
+  meaning: الفاكهة
+  example: هذه الفاكهة طعمها حلو جدًا.
+die Gegend:
+  meaning: المنطقة
+  example: المنطقة هادئة جدًا.
+das Gerät:
+  meaning: الجهاز
+  example: الجهاز لم يعد يعمل.
+das Gewicht:
+  meaning: الوزن
+  example: الوزن طبيعي.
+gießen:
+  meaning: يسقي، يصب
+  example: أسقي الأزهار كل صباح.
+der Glückwunsch:
+  meaning: التهنئة
+  example: أطيب التهاني بعيد ميلادك!
+gratulieren:
+  meaning: يهنئ
+  example: أهنئك بعيد ميلادك.
+gucken:
+  meaning: ينظر
+  example: انظر، الحافلة قادمة.
+der Haushalt:
+  meaning: المنزل، الأعمال المنزلية
+  example: أقوم بالأعمال المنزلية اليوم.
+heizen:
+  meaning: يدفئ
+  example: ندفئ بالغاز في الشتاء.
+die Insel:
+  meaning: الجزيرة
+  example: نقضي العطلة على جزيرة.
+joggen:
+  meaning: يركض
+  example: أركض كل صباح في الحديقة.
+die Klasse:
+  meaning: الصف
+  example: صفي كبير جدًا.
+der Knopf:
+  meaning: الزر
+  example: سقط الزر.
+die Kopie:
+  meaning: النسخة
+  example: من فضلك اصنع نسخة.
+kopieren:
+  meaning: ينسخ
+  example: من فضلك انسخ المستند.
+die Kraft:
+  meaning: القوة
+  example: لم تعد لدي قوة.
+die Möglichkeit:
+  meaning: الإمكانية
+  example: لا توجد إمكانية أخرى.
+der Unterschied:
+  meaning: الفرق
+  example: الفرق ليس كبيرًا جدًا.
+die Bedeutung:
+  meaning: المعنى، الأهمية
+  example: معنى هذه الكلمة غير واضح.
+die Gelegenheit:
+  meaning: الفرصة
+  example: لم تكن لدي فرصة للسؤال.
+die Sicherheit:
+  meaning: السلامة، الأمن
+  example: السلامة تهمنا في المنزل.
+der Erfolg:
+  meaning: النجاح
+  example: يعتمد النجاح على التحضير.
+die Gesellschaft:
+  meaning: المجتمع
+  example: يتغير المجتمع بسرعة.
+die Umwelt:
+  meaning: البيئة
+  example: يجب أن نحمي البيئة بشكل أفضل.
+die Verantwortung:
+  meaning: المسؤولية
+  example: هو يتحمل مسؤولية المشروع.
+die Unterstützung:
+  meaning: الدعم
+  example: شكرًا لدعمك!
+die Erklärung:
+  meaning: التفسير، التوضيح
+  example: كان تفسيره قصيرًا وواضحًا.
+der Vorteil:
+  meaning: الميزة
+  example: الميزة هي الطريق القصير.
+der Nachteil:
+  meaning: العيب
+  example: لكل ميزة عيب أيضًا.
+die Absicht:
+  meaning: النية، القصد
+  example: لم تكن هذه نيتي.
+der Eindruck:
+  meaning: الانطباع
+  example: أنت تعطي انطباعًا جيدًا جدًا.
+die Erinnerung:
+  meaning: الذكرى
+  example: لدي ذكرى جميلة عن ذلك.
+die Enttäuschung:
+  meaning: خيبة الأمل
+  example: كانت خيبة الأمل واضحة للعيان.
+die Einstellung:
+  meaning: الموقف، الإعداد
+  example: موقفه تجاه العمل إيجابي.
+die Gewohnheit:
+  meaning: العادة
+  example: التدخين عادة سيئة.
+die Fähigkeit:
+  meaning: القدرة
+  example: لديها القدرة على التعلم بسرعة.
+die Ernährung:
+  meaning: التغذية
+  example: التغذية الصحية مهمة للجسم.
+die Bewegung:
+  meaning: الحركة، الرياضة
+  example: الحركة تساعد في تخفيف آلام الظهر.
+die Behandlung:
+  meaning: العلاج
+  example: يستغرق العلاج حوالي أسبوعين.
+die Operation:
+  meaning: العملية الجراحية
+  example: كانت العملية الجراحية ناجحة.
+die Entspannung:
+  meaning: الاسترخاء
+  example: بعد العمل أحتاج إلى الاسترخاء.
+das Angebot:
+  meaning: العرض، التخفيض
+  example: هذا العرض ساري هذا الأسبوع فقط.
+die Qualität:
+  meaning: الجودة
+  example: جودة البضاعة جيدة.
+die Auswahl:
+  meaning: الاختيار، التشكيلة
+  example: التشكيلة في المتجر كبيرة.
+der Geschmack:
+  meaning: الطعم
+  example: الطعم مالح قليلًا.
+die Zutat:
+  meaning: المكوّن
+  example: هذا المكوّن ناقص في الحساء.
+die Frist:
+  meaning: الموعد النهائي
+  example: ينتهي الموعد النهائي الأسبوع القادم.
+die Kündigung:
+  meaning: الإنهاء، الإشعار
+  example: يجب أن يتم الإنهاء كتابيًا.
+die Versicherung:
+  meaning: التأمين
+  example: يدفع التأمين قيمة الضرر.
+der Betrag:
+  meaning: المبلغ
+  example: المبلغ في الحساب.
+die Fortbildung:
+  meaning: التدريب، التطوير المهني
+  example: التدريب يقام الأسبوع القادم.
+der Auftrag:
+  meaning: الطلب، المهمة
+  example: الطلب شبه منتهٍ.
+die Unterkunft:
+  meaning: الإقامة، السكن
+  example: نبحث عن سكن رخيص.
+die Buchung:
+  meaning: الحجز
+  example: تم تأكيد الحجز فورًا.
+die Ermäßigung:
+  meaning: الخصم
+  example: هل يوجد خصم للطلاب؟
+die Umleitung:
+  meaning: التحويلة، الطريق البديل
+  example: يمر الطريق البديل عبر القرية.
+die Baustelle:
+  meaning: ورشة البناء
+  example: ورشة البناء تسد الشارع.
+der Schaden:
+  meaning: الضرر
+  example: الضرر بالسيارة صغير.
+der Lärm:
+  meaning: الضجيج
+  example: الضجيج من الشارع مزعج.
+die Nachbarschaft:
+  meaning: الحي، الجيرة
+  example: غالبًا ما يساعد الجيران بعضهم بعضًا.
+die Hausordnung:
+  meaning: قواعد المنزل، النظام الداخلي
+  example: قواعد المنزل معلقة في الممر.
+die Besichtigung:
+  meaning: المعاينة
+  example: معاينة الشقة غدًا.
+die Verpackung:
+  meaning: التغليف
+  example: يمكن إعادة تدوير التغليف.
+die Mühe:
+  meaning: الجهد، العناء
+  example: كان الجهد يستحق العناء.
+die Regel:
+  meaning: القاعدة
+  example: تنطبق هذه القاعدة على الجميع.
+die Pflicht:
+  meaning: الواجب
+  example: من واجبي أن أساعد.
+die Richtung:
+  meaning: الاتجاه
+  example: نحن نسير في الاتجاه الخاطئ.
+die Umgebung:
+  meaning: المحيط
+  example: محيط الشقة هادئ.
+schließlich:
+  meaning: أخيرًا
+  example: أخيرًا وجدنا شقة.
+allerdings:
+  meaning: لكن، مع ذلك
+  example: السعر جيد، لكن الضمان مفقود.
+trotz:
+  meaning: رغم
+  example: رغم المطر نذهب في نزهة.
+außer:
+  meaning: باستثناء، عدا
+  example: لا أحد يأتي إلى الحفلة باستثنائي.
+sodass:
+  meaning: بحيث، لذلك
+  example: إنها تمطر، لذلك نبقى في المنزل.
+sowohl:
+  meaning: كلاهما، كل من
+  example: المدير وأنا كلانا مريضان.
+weder:
+  meaning: لا... ولا
+  example: لا الحافلة ولا القطار يعمل.
+zunächst:
+  meaning: أولًا، بداية
+  example: أولًا يجب أن أملأ النموذج.
+sich bewerben:
+  meaning: التقدم لوظيفة
+  example: أتقدم لوظيفة جديدة.
+der Arbeitgeber:
+  meaning: صاحب العمل
+  example: صاحب عملي يدفع الراتب في الموعد.
+das Vorstellungsgespräch:
+  meaning: مقابلة عمل
+  example: مقابلة العمل يوم الاثنين الساعة العاشرة.
+verantwortlich:
+  meaning: مسؤول
+  example: من المسؤول عن الطلب؟
+zuverlässig:
+  meaning: موثوق
+  example: هي زميلة موثوقة.
+die Probezeit:
+  meaning: فترة التجربة
+  example: فترة التجربة تستمر ستة أشهر.
+die Überstunden:
+  meaning: ساعات إضافية
+  example: لقد عملت ساعات إضافية كثيرة هذا الأسبوع.
+die Schicht:
+  meaning: وردية
+  example: ورديتي تبدأ اليوم في السادسة.
+der Lohn:
+  meaning: أجر
+  example: يُدفع الأجر في نهاية الشهر.
+stressig:
+  meaning: مرهق
+  example: العمل مرهق في الوقت الحالي.
+die Behörde:
+  meaning: جهة رسمية
+  example: ترسل لي الجهة الرسمية خطابًا.
+der Beamte:
+  meaning: موظف حكومي
+  example: يتحقق الموظف الحكومي من طلبي.
+die Unterlage:
+  meaning: مستند
+  example: يجب أن أنسخ هذا المستند.
+der Nachweis:
+  meaning: إثبات
+  example: يرجى إحضار إثبات معك.
+die Bescheinigung:
+  meaning: شهادة
+  example: يجب أن تكون الشهادة موقعة.
+die Abmeldung:
+  meaning: إلغاء التسجيل
+  example: يجب أن يتم إلغاء التسجيل بحلول الجمعة.
+die Ummeldung:
+  meaning: إعادة تسجيل
+  example: بعد الانتقال أحتاج إلى إعادة تسجيل.
+die Wartezeit:
+  meaning: وقت الانتظار
+  example: وقت الانتظار في المكتب طويل.
+die Reklamation:
+  meaning: شكوى
+  example: لدي شكوى بشأن الطابعة.
+die Lieferung:
+  meaning: توصيل
+  example: التوصيل سيصل غدًا بعد الظهر.
+die Beratung:
+  meaning: استشارة
+  example: كانت الاستشارة في المتجر جيدة جدًا.
+das Lebensmittel:
+  meaning: مادة غذائية
+  example: نشتري مواد غذائية للأسبوع كله.
+vegetarisch:
+  meaning: نباتي
+  example: هذا الطبق نباتي ولذيذ.
+das Gewürz:
+  meaning: بهار
+  example: هذا البهار يناسب الأرز جيدًا.
+haltbar:
+  meaning: صالح
+  example: الحليب صالح لمدة يومين آخرين.
+die Werbung:
+  meaning: إعلانات
+  example: الإعلانات على الإنترنت تزعجني.
+sich erholen:
+  meaning: يتعافى، يستريح
+  example: في العطلة أستطيع أن أستريح جيدًا.
+sich erkälten:
+  meaning: يصاب بالبرد
+  example: في هذا الطقس أصاب بالبرد بسهولة.
+allergisch:
+  meaning: حساس
+  example: لدي حساسية من المكسرات.
+anstrengend:
+  meaning: مرهق
+  example: الرياضة مرهقة جدًا اليوم.
+erschöpft:
+  meaning: منهك
+  example: بعد العمل أكون منهكًا تمامًا.
+ungesund:
+  meaning: غير صحي
+  example: الكثير من السكر غير صحي.
+fit:
+  meaning: لائق
+  example: أشعر أنني لائق بعد الرياضة.
+das Symptom:
+  meaning: عَرَض
+  example: الحمى عَرَض نموذجي.
+die Ursache:
+  meaning: سبب
+  example: سبب الألم غير واضح.
+die Folge:
+  meaning: نتيجة
+  example: عواقب المرض خطيرة.
+die Renovierung:
+  meaning: تجديد
+  example: تجديد المطبخ يستغرق وقتًا طويلاً.
+die Wohngemeinschaft:
+  meaning: سكن مشترك
+  example: نحن نعيش في سكن مشترك.
+die Einrichtung:
+  meaning: تأثيث
+  example: تأثيث الشقة حديث.
+die Lage:
+  meaning: موقع
+  example: موقع الشقة هادئ.
+unordentlich:
+  meaning: غير مرتب
+  example: غرفته غالبًا غير مرتبة.
+der Flug:
+  meaning: رحلة جوية
+  example: الرحلة الجوية تستغرق ساعة واحدة فقط.
+der Fahrschein:
+  meaning: تذكرة
+  example: أشتري تذكرة من الآلة.
+die Jugendherberge:
+  meaning: بيت شباب
+  example: نبيت في بيت شباب.
+das Doppelzimmer:
+  meaning: غرفة مزدوجة
+  example: لقد حجزت غرفة مزدوجة.
+die Rückfahrt:
+  meaning: رحلة العودة
+  example: رحلة العودة مخطط لها يوم الأحد.
+sich unterhalten:
+  meaning: يتحدث
+  example: نتحدث عن الفيلم.
+sich verabreden:
+  meaning: يرتب لقاء
+  example: نرتب لقاءً مساء الغد.
+sich streiten:
+  meaning: يتشاجر
+  example: الأطفال يتشاجرون كثيرًا.
+sich kümmern:
+  meaning: يعتني
+  example: هي تعتني بأمها المريضة.
+sich erinnern:
+  meaning: يتذكر
+  example: أتذكر ذلك اليوم.
+sich verabschieden:
+  meaning: يودع
+  example: نودع بعضنا في محطة القطار.
+der Erwachsene:
+  meaning: شخص بالغ
+  example: يجب على البالغين مساعدة الأطفال.
+der Jugendliche:
+  meaning: شاب
+  example: يحتاج الشباب إلى مساحة حرية وقواعد.
+sobald:
+  meaning: بمجرد أن
+  example: بمجرد أن أنتهي، سأتصل.
+solange:
+  meaning: طالما
+  example: طالما أنت هنا، سأساعدك.
+statt:
+  meaning: بدلاً من
+  example: نأخذ الشاي بدلاً من القهوة.
+wahrscheinlich:
+  meaning: على الأرجح
+  example: على الأرجح سيأتي بعد قليل.
+persönlich:
+  meaning: شخصيًا
+  example: أريد التحدث إليه شخصيًا.
+öffentlich:
+  meaning: عام
+  example: المبنى متاح للعامة.
+bevor:
+  meaning: قبل أن
+  example: اغسل يديك قبل أن تأكل.
+nämlich:
+  meaning: أي، لأن
+  example: سآتي لاحقًا، إذ ما زال لديّ عمل.
+daher:
+  meaning: لذلك، لهذا
+  example: إنها تمطر، لذلك نبقى في البيت.
+inzwischen:
+  meaning: في هذه الأثناء
+  example: في هذه الأثناء أسكن وحدي.
+der Partner:
+  meaning: الشريك
+  example: شريكي يطبخ أفضل مني.
+das Paar:
+  meaning: الزوجان، الثنائي
+  example: يسكن الزوجان في الطابق الثالث.
+die Ehe:
+  meaning: الزواج
+  example: الزواج ليس سهلًا دائمًا.
+der Respekt:
+  meaning: الاحترام
+  example: لدي احترام كبير لها.
+das Verhalten:
+  meaning: السلوك
+  example: سلوكه غير واضح لي.
+der Mut:
+  meaning: الشجاعة
+  example: لديها الشجاعة للسفر وحدها.
+der Zweifel:
+  meaning: الشك
+  example: ليس لدي شكوك.
+die Rücksicht:
+  meaning: المراعاة، الاعتبار
+  example: راعِ الجيران.
+die Eigenschaft:
+  meaning: صفة، خاصية
+  example: الصبر صفة جيدة.
+der Charakter:
+  meaning: الطبع، الشخصية
+  example: لديه طبع هادئ.
+die Scheidung:
+  meaning: الطلاق
+  example: بعد الطلاق انتقلت للسكن.
+die Trennung:
+  meaning: الانفصال
+  example: كان الانفصال صعبًا جدًا.
+der Arbeitnehmer:
+  meaning: الموظف، العامل
+  example: للموظف حقوق كثيرة.
+der Druck:
+  meaning: الضغط
+  example: أنا تحت ضغط في العمل.
+die Stellenanzeige:
+  meaning: إعلان وظيفة
+  example: وجدت إعلان وظيفة.
+die Absage:
+  meaning: الرفض
+  example: للأسف جاء الرفض عبر البريد الإلكتروني.
+die Zusage:
+  meaning: القبول، الموافقة
+  example: أخيرًا تلقيت القبول.
+die Belastung:
+  meaning: العبء
+  example: الوظيفة عبء كبير.
+die Steuer:
+  meaning: الضريبة
+  example: يجب دفع الضريبة قريبًا.
+der Kontoauszug:
+  meaning: كشف الحساب
+  example: كشف الحساب على الطاولة.
+der Ordner:
+  meaning: المجلد، الملف
+  example: ضع العقد في المجلد.
+die Tastatur:
+  meaning: لوحة المفاتيح
+  example: لوحة المفاتيح متسخة جدًا اليوم.
+die Maus:
+  meaning: فأرة الحاسوب
+  example: الفأرة بجانب الشاشة.
+der Anhang:
+  meaning: المرفق
+  example: الملف موجود في المرفق.
+der Stempel:
+  meaning: الختم
+  example: الموظف يضع ختمًا.
+die Bedingung:
+  meaning: الشرط
+  example: الشرط مذكور في العقد.
+die Genehmigung:
+  meaning: التصريح، الموافقة
+  example: لإعادة البناء نحتاج إلى تصريح.
+der Wohnsitz:
+  meaning: الإقامة، محل السكن
+  example: يرجى تسجيل محل إقامتك.
+die Aufenthaltserlaubnis:
+  meaning: تصريح الإقامة
+  example: تصريح إقامتي صالح لسنتين أخريين.
+die Staatsangehörigkeit:
+  meaning: الجنسية
+  example: يرجى إدخال الجنسية.
+die Wunde:
+  meaning: الجرح
+  example: يجب أن يبقى الجرح نظيفًا.
+die Spritze:
+  meaning: الحقنة، الإبرة
+  example: الطبيبة تعطيني حقنة.
+die Übelkeit:
+  meaning: الغثيان
+  example: لدي غثيان وحمى.
+der Schwindel:
+  meaning: الدوار
+  example: الدوار يأتي فجأة.
+der Durchfall:
+  meaning: الإسهال
+  example: الإسهال والحمى يبقيانني في السرير.
+die Wirkung:
+  meaning: الأثر، التأثير
+  example: الأقراص لها تأثير سريع.
+die Diagnose:
+  meaning: التشخيص
+  example: لحسن الحظ كان التشخيص جيدًا.
+die Notaufnahme:
+  meaning: قسم الطوارئ
+  example: سنذهب فورًا إلى قسم الطوارئ.
+scharf:
+  meaning: حار
+  example: الحساء حار جدًا بالنسبة لي.
+bitter:
+  meaning: مر
+  example: القهوة طعمها مر اليوم.
+roh:
+  meaning: نيء
+  example: يُفضل أكل الخضار نيئة غالبًا.
+der Inhalt:
+  meaning: المحتوى
+  example: محتوى الزجاجة أحمر.
+die Mülltrennung:
+  meaning: فرز النفايات
+  example: عندنا فرز النفايات مهم جدًا.
+die Sicherung:
+  meaning: المصهر، الفيوز
+  example: انقطع الكهرباء، افحص المصهر.
+die Anzeige:
+  meaning: الإعلان
+  example: لدينا إعلان للشقة.
+die Verbindung:
+  meaning: الاتصال، الربط
+  example: الاتصال سيئ للأسف اليوم.
+der Umstieg:
+  meaning: التحويل، تغيير الوسيلة
+  example: التحويل في المحطة التالية.
+die Hinfahrt:
+  meaning: رحلة الذهاب
+  example: تستغرق رحلة الذهاب ثلاث ساعات.
+der Reisebus:
+  meaning: حافلة السفر
+  example: نسافر بالحافلة إلى البحر.
+die Pension:
+  meaning: بيت ضيافة، نُزل
+  example: نبيت في بيت ضيافة صغير.
+der Prospekt:
+  meaning: الكتيب، البروشور
+  example: في الكتيب العديد من العروض.
+die Bordkarte:
+  meaning: بطاقة الصعود
+  example: يرجى إظهار بطاقة الصعود.
+andererseits:
+  meaning: من ناحية أخرى
+  example: من ناحية أخرى، الشقة غالية جدًا.
+jedenfalls:
+  meaning: على أي حال
+  example: على أي حال سآتي غدًا.
+die Art:
+  meaning: النوع، الطريقة
+  example: أحب هذا النوع من الموسيقى.
+die Weise:
+  meaning: الطريقة، الأسلوب
+  example: بهذه الطريقة نوفر الوقت.
+der Alltag:
+  meaning: الحياة اليومية
+  example: في الحياة اليومية ليس لدي وقت كثير.
+der Mitarbeiter:
+  meaning: موظف
+  example: الموظف الجديد لطيف جدًا.
+der Betrieb:
+  meaning: شركة
+  example: الشركة تبحث عن موظفين جدد.
+die Diskussion:
+  meaning: نقاش
+  example: كان النقاش طويلًا ومثيرًا للاهتمام.
+gewinnen:
+  meaning: يفوز، يكسب
+  example: أريد أن أفوز بالمباراة.
+die Natur:
+  meaning: الطبيعة
+  example: نستمتع بالطبيعة في عطلة نهاية الأسبوع.
+das Pflaster:
+  meaning: لاصقة جروح، رصيف
+  example: أحتاج لاصقة جروح للجرح.
+der Fahrer:
+  meaning: سائق
+  example: السائق ينتظر أمام الفندق.
+die Rückgabe:
+  meaning: إعادة، إرجاع
+  example: الإرجاع ممكن فقط مع الإيصال.
+der Gutschein:
+  meaning: قسيمة، بطاقة هدايا
+  example: لدي قسيمة للمطعم.
+die Beschwerde:
+  meaning: شكوى
+  example: أكتب شكوى بشأن الخدمة.
+der Apotheker:
+  meaning: صيدلي
+  example: الصيدلي يشرح لي الحبوب.
+die Krankschreibung:
+  meaning: شهادة مرضية
+  example: لدي شهادة مرضية من الطبيب.
+der Hausarzt:
+  meaning: طبيب أسرة
+  example: سأذهب غدًا إلى طبيب الأسرة.
+die Therapie:
+  meaning: علاج
+  example: يستغرق العلاج عدة أسابيع.
+das Visum:
+  meaning: تأشيرة
+  example: أحتاج تأشيرة للسفر.
+die Botschaft:
+  meaning: سفارة، رسالة
+  example: سأذهب غدًا إلى السفارة.
+die Mitteilung:
+  meaning: رسالة، إشعار
+  example: لدي رسالة مهمة لك.
+die Erlaubnis:
+  meaning: إذن
+  example: أحتاج إذن والديّ.
+erlauben:
+  meaning: يسمح
+  example: يسمح لي والداي بالسفر.
+der Artikel:
+  meaning: مقال، سلعة
+  example: أقرأ مقالًا مثيرًا للاهتمام.
+die Notiz:
+  meaning: ملاحظة
+  example: أكتب ملاحظة للغد.
+die Veranstaltung:
+  meaning: فعالية، حدث
+  example: تُقام الفعالية في الحديقة.
+die Eintrittskarte:
+  meaning: تذكرة دخول
+  example: أشتري تذكرة دخول للمتحف.
+die Landschaft:
+  meaning: منظر طبيعي
+  example: المنظر الطبيعي جميل حقًا.
+die Aussicht:
+  meaning: منظر، إطلالة
+  example: من هنا توجد إطلالة جميلة.
+die Übernachtung:
+  meaning: مبيت، إقامة ليلية
+  example: كان المبيت في الفندق مكلفًا.
+die Anreise:
+  meaning: رحلة الذهاب
+  example: رحلة الذهاب بالقطار تستغرق وقتًا طويلًا.
+die Abreise:
+  meaning: مغادرة، رحيل
+  example: المغادرة مخططة يوم الأحد.
+der Fernbus:
+  meaning: حافلة بين المدن
+  example: الحافلة بين المدن أرخص من القطار.
+das Kennzeichen:
+  meaning: لوحة سيارة
+  example: أدوّن رقم لوحة السيارة.
+der Strafzettel:
+  meaning: مخالفة مرورية
+  example: تلقيت مخالفة مرورية.
+die Küste:
+  meaning: ساحل
+  example: نذهب إلى الساحل في عطلة نهاية الأسبوع.
+der Mietpreis:
+  meaning: سعر الإيجار
+  example: سعر الإيجار مرتفع جدًا.
+die Wohnungsbesichtigung:
+  meaning: معاينة شقة
+  example: غدًا لدي معاينة شقة.
+die Hausverwaltung:
+  meaning: إدارة المبنى
+  example: إدارة المبنى تصلح المصعد.
+der Einzug:
+  meaning: الانتقال إلى السكن
+  example: كان الانتقال إلى الشقة مرهقًا جدًا.
+der Auszug:
+  meaning: الانتقال من السكن
+  example: كان الانتقال من الشقة مرهقًا.
+der Dachboden:
+  meaning: علية
+  example: الحقائب موجودة في العلية.
+die Terrasse:
+  meaning: شرفة، تراس
+  example: نتناول الإفطار على الشرفة.
+die Routine:
+  meaning: روتين
+  example: روتيني الصباحي مهم.
+der Humor:
+  meaning: حس فكاهي
+  example: لديه حس فكاهي جيد.
+das Lob:
+  meaning: مدح، ثناء
+  example: أفرحني المدح كثيرًا.
+die Kritik:
+  meaning: نقد، انتقاد
+  example: أستطيع تقبل النقد جيدًا.
+der Konflikt:
+  meaning: صراع، نزاع
+  example: علينا حل النزاع.
+das Argument:
+  meaning: حجة، برهان
+  example: حجتك تقنعني.
+der Verwandte:
+  meaning: قريب
+  example: يزورنا قريب غدًا.
+die Erziehung:
+  meaning: تربية
+  example: تربية الأطفال مرهقة.
+die Freiheit:
+  meaning: حرية
+  example: الحرية مهمة جدًا بالنسبة لي.
+der Frieden:
+  meaning: سلام
+  example: نريد أن نعيش بسلام.
+die Stimme:
+  meaning: صوت
+  example: لديها صوت هادئ.
+das Lied:
+  meaning: أغنية
+  example: تعجبني الأغنية كثيرًا.
+die Mannschaft:
+  meaning: فريق
+  example: فريقنا فاز بالمباراة.
+das Ergebnis:
+  meaning: نتيجة
+  example: كانت النتيجة أفضل من المتوقع.
+die Chance:
+  meaning: فرصة
+  example: هذه فرصة جيدة لك.
+das Pech:
+  meaning: سوء حظ
+  example: كان حظي سيئًا فيما يتعلق بالطقس.
+der Zufall:
+  meaning: صدفة
+  example: كانت مجرد صدفة.
+die Gefahr:
+  meaning: خطر
+  example: لحسن الحظ انتهى الخطر.
+der Umweltschutz:
+  meaning: حماية البيئة
+  example: حماية البيئة مهمة للجميع.
+das Klima:
+  meaning: مناخ
+  example: المناخ يتغير بسرعة.
+bereits:
+  meaning: بالفعل
+  example: لقد أكلت بالفعل.
+dennoch:
+  meaning: مع ذلك
+  example: إنها تمطر، ومع ذلك سأتنزه.
+jedoch:
+  meaning: لكن، مع ذلك
+  example: أردت أن آتي، لكن لم يكن لدي وقت.
+einerseits:
+  meaning: من ناحية
+  example: من ناحية هو غالٍ، ومن ناحية أخرى جيد جدًا.
+teilweise:
+  meaning: جزئيًا
+  example: الإجابة صحيحة جزئيًا.
+ziemlich:
+  meaning: إلى حد ما
+  example: الكتاب مثير للاهتمام إلى حد ما.
+völlig:
+  meaning: تمامًا، كليًا
+  example: أنا متعب تمامًا.
+unbedingt:
+  meaning: بالتأكيد، لا بد
+  example: يجب عليك بالتأكيد الذهاب إلى الطبيب.
+eventuell:
+  meaning: ربما، محتمل
+  example: ربما آتي لاحقًا.
+möglicherweise:
+  meaning: ربما، من المحتمل
+  example: من المحتمل أن تمطر غدًا.
+weshalb:
+  meaning: لماذا
+  example: لماذا لم تتصل؟
+wieso:
+  meaning: لماذا
+  example: لماذا أنت حزين هكذا؟
+nirgendwo:
+  meaning: لا مكان
+  example: لا أجد مفتاحي في أي مكان.
+irgendwo:
+  meaning: في مكان ما
+  example: لقد أضعت هاتفي في مكان ما.
+irgendwann:
+  meaning: في وقت ما، يومًا ما
+  example: يومًا ما سأزورك.
+irgendwie:
+  meaning: بطريقة ما، نوعًا ما
+  example: بطريقة ما أشعر أنك تكذب.
+sowieso:
+  meaning: على أي حال، أصلًا
+  example: سأتأخر على أي حال.
+ebenfalls:
+  meaning: كذلك، أيضًا
+  example: أنا أحب القهوة، وأخي كذلك.
+zusätzlich:
+  meaning: إضافةً إلى ذلك، إضافيًا
+  example: إضافة إلى ذلك أحتاج إلى الحليب.
+ansonsten:
+  meaning: وإلا، بخلاف ذلك
+  example: أسرع، وإلا سنفوّت القطار.
+häufig:
+  meaning: غالبًا، بشكل متكرر
+  example: أذهب إلى السينما بشكل متكرر.
+gelegentlich:
+  meaning: أحيانًا، من حين لآخر
+  example: أحيانًا أشرب كأس نبيذ.
+rechtzeitig:
+  meaning: في الوقت المناسب
+  example: يرجى الحضور في الوقت المناسب للموعد.
+meist:
+  meaning: غالبًا، في الغالب
+  example: في الغالب أذهب بالدراجة.
+bestimmt:
+  meaning: بالتأكيد، حتمًا
+  example: سيصل متأخرًا بالتأكيد.
+mehrere:
+  meaning: عدة
+  example: لدي عدة أسئلة.
+das Blut:
+  meaning: الدم
+  example: الطبيب يسحب مني دمًا.
+der Blutdruck:
+  meaning: ضغط الدم
+  example: ضغط دمي اليوم مرتفع جدًا.
+die Lunge:
+  meaning: الرئة
+  example: التدخين مضر بالرئة.
+der Darm:
+  meaning: الأمعاء
+  example: الأمعاء عضو مهم.
+die Niere:
+  meaning: الكلية
+  example: الكلية تصفي الدم.
+die Leber:
+  meaning: الكبد
+  example: الكحول يضر الكبد.
+das Gehirn:
+  meaning: الدماغ
+  example: الدماغ يحتاج إلى الكثير من الأكسجين.
+der Knochen:
+  meaning: العظم
+  example: العظم مكسور.
+der Muskel:
+  meaning: العضلة
+  example: تؤلمني العضلة بعد الرياضة.
+das Gelenk:
+  meaning: المفصل
+  example: المفصل متورم.
+die Vorsorge:
+  meaning: الوقاية، الفحص الوقائي
+  example: الوقاية خير من العلاج.
+die Klinik:
+  meaning: العيادة، المستشفى
+  example: إنه مقيم في المستشفى.
+die Währung:
+  meaning: العملة
+  example: أحتاج إلى تحويل المال إلى عملة أخرى.
+der Wechselkurs:
+  meaning: سعر الصرف
+  example: سعر الصرف اليوم سيئ.
+das Einzelzimmer:
+  meaning: غرفة فردية
+  example: أريد حجز غرفة فردية.
+die Rezeption:
+  meaning: الاستقبال
+  example: الاستقبال مفتوح على مدار الساعة.
+das Bargeld:
+  meaning: النقود السائلة، الكاش
+  example: أفضل الدفع نقدًا.
+die EC-Karte:
+  meaning: بطاقة الخصم
+  example: هل يمكنني الدفع ببطاقة الخصم؟
+der Geldautomat:
+  meaning: الصراف الآلي
+  example: يجب أن أذهب إلى الصراف الآلي.
+die Rente:
+  meaning: التقاعد، المعاش
+  example: سيحصل قريبًا على معاشه.
+die Sendung:
+  meaning: الإرسالية، الشحنة
+  example: الشحنة لم تصل بعد.
+die Akte:
+  meaning: الملف
+  example: الملف على المكتب.
+der Widerspruch:
+  meaning: الاعتراض
+  example: أقدم اعتراضًا على القرار.
+die Vollmacht:
+  meaning: التوكيل، التفويض
+  example: تحتاج إلى توكيل للتوقيع.
+die Beglaubigung:
+  meaning: التصديق
+  example: أحتاج إلى تصديق توقيعي.
+heiraten:
+  meaning: يتزوج
+  example: يريدان الزواج في الصيف.
+sich trennen:
+  meaning: ينفصل
+  example: للأسف يريدان الانفصال.
+ängstlich:
+  meaning: خائف، قلق
+  example: الطفل خائف أثناء العاصفة الرعدية.
+sich sorgen:
+  meaning: يقلق
+  example: أقلق على أمي.
+geduldig:
+  meaning: صبور
+  example: كن صبورًا مع الأطفال من فضلك.
+mutig:
+  meaning: شجاع
+  example: كان شجاعًا منك أن تقول ذلك.
+sympathisch:
+  meaning: محبوب، لطيف
+  example: زميلك الجديد لطيف جدًا.
+vertrauen:
+  meaning: يثق
+  example: أثق بك تمامًا.
+respektieren:
+  meaning: يحترم
+  example: يجب أن نحترم رأي الآخرين.
+ändern:
+  meaning: يغيّر
+  example: يجب أن أغيّر موعدي.
+aufhören:
+  meaning: يتوقف, يتوقف عن
+  example: توقف عن التدخين من فضلك.
+aufpassen:
+  meaning: ينتبه, يحترس
+  example: انتبه للأطفال!
+aussehen:
+  meaning: يبدو
+  example: تبدو متعباً اليوم.
+beenden:
+  meaning: ينهي
+  example: أريد إنهاء العمل.
+beschreiben:
+  meaning: يصف
+  example: هل يمكنك وصف المشكلة؟
+besitzen:
+  meaning: يملك
+  example: يملك منزلاً كبيراً.
+diskutieren:
+  meaning: يناقش
+  example: نناقش الموضوع.
+erledigen:
+  meaning: ينجز
+  example: ما زال عليّ إنجاز مهمة.
+erreichen:
+  meaning: يصل, يبلغ
+  example: متى نصل إلى المحطة؟
+funktionieren:
+  meaning: يعمل, يشتغل
+  example: المصعد لا يعمل.
+kennenlernen:
+  meaning: يتعرف على
+  example: أريد التعرف على أشخاص جدد.
+kontrollieren:
+  meaning: يفحص, يراقب
+  example: افحص الفاتورة من فضلك.
+lösen:
+  meaning: يحل
+  example: علينا حل المشكلة.
+mitnehmen:
+  meaning: يأخذ معه
+  example: خذ مظلة معك.
+nennen:
+  meaning: يذكر, يسمي
+  example: هل يمكنك ذكر مثال؟
+sondern:
+  meaning: بل, وإنما
+  example: لا أشرب القهوة بل الشاي.
+je:
+  meaning: أبداً, لكل
+  example: كلما زاد، كان أفضل.
+desto:
+  meaning: كلما (في المقارنة)
+  example: كلما كان أبكر، كان أفضل.
+etwa:
+  meaning: حوالي
+  example: يستغرق حوالي عشر دقائق.
+beinahe:
+  meaning: تقريباً, يكاد
+  example: كدت أتأخر.
+berichten:
+  meaning: يخبر, ينقل
+  example: تنقل الصحيفة خبر الحادث.
+beruhigen:
+  meaning: يهدئ, يطمئن
+  example: اهدأ من فضلك!
+beschäftigen:
+  meaning: يوظف, يشغل
+  example: الشركة توظف 50 موظفاً.
+beschließen:
+  meaning: يقرر
+  example: نقرر الذهاب.
+betreuen:
+  meaning: يرعى, يعتني
+  example: هي تعتني بالأطفال.
+einnehmen:
+  meaning: يتناول (دواء)
+  example: تناول الأقراص.
+einschlafen:
+  meaning: ينام, يستغرق في النوم
+  example: لا أستطيع النوم.
+entdecken:
+  meaning: يكتشف
+  example: نكتشف أماكن جديدة.
+entwickeln:
+  meaning: يطور
+  example: نطور منتجاً جديداً.
+der Anruf:
+  meaning: مكالمة هاتفية
+  example: تلقيت مكالمة.
+der Bericht:
+  meaning: تقرير
+  example: أقرأ التقرير.
+die Daten:
+  meaning: بيانات
+  example: البيانات محفوظة.
+die Entfernung:
+  meaning: مسافة
+  example: المسافة كبيرة.
+die Änderung:
+  meaning: تغيير
+  example: التغيير مهم.
+der Bürger:
+  meaning: مواطن
+  example: المواطنون يحتجون.
+die Ahnung:
+  meaning: فكرة
+  example: ليس لدي فكرة.
+der Arbeiter:
+  meaning: عامل
+  example: العامل يصلح السقف.
+die Ausnahme:
+  meaning: استثناء
+  example: هذا استثناء.
+der Ausdruck:
+  meaning: تعبير
+  example: التعبير خاطئ.
+der Bankautomat:
+  meaning: ماكينة صراف
+  example: أذهب إلى ماكينة الصراف.
+die Einnahme:
+  meaning: تناول (دواء)
+  example: تناول الدواء مهم.
+die Erfindung:
+  meaning: اختراع
+  example: الاختراع عبقري.
+die Fabrik:
+  meaning: مصنع
+  example: المصنع ينتج سيارات.
+der Fortschritt:
+  meaning: تقدم
+  example: نحقق تقدماً.
+aktiv:
+  meaning: نشيط
+  example: أنا نشيط رياضياً.
+allgemein:
+  meaning: عام
+  example: هذا معروف بشكل عام.
+angenehm:
+  meaning: لطيف
+  example: الطقس لطيف.
+ärgerlich:
+  meaning: مزعج
+  example: هذا مزعج حقاً.
+ausgezeichnet:
+  meaning: ممتاز
+  example: كان الطعام ممتازاً.
+ausreichend:
+  meaning: كافٍ
+  example: المال كافٍ.
+bereit:
+  meaning: مستعد
+  example: أنا مستعد للذهاب.
+beschäftigt:
+  meaning: مشغول
+  example: أنا مشغول جداً اليوم.
+besorgt:
+  meaning: قلق
+  example: هي قلقة عليه.
+bewusst:
+  meaning: مدرك, واعٍ
+  example: أنا مدرك لذلك.
+anstatt:
+  meaning: بدلاً من
+  example: بدلاً من أن يدرس، يلعب.
+innerhalb:
+  meaning: خلال, داخل
+  example: المشروع جاهز خلال أسبوع.
+außerhalb:
+  meaning: خارج
+  example: نسكن خارج المدينة.
+aufgrund:
+  meaning: بسبب
+  example: بسبب المطر نبقى.
+dank:
+  meaning: بفضل
+  example: بفضلك نجحت.
+bitten:
+  meaning: يطلب, يرجو
+  example: أريد أن أطلب منك المساعدة.
+merken:
+  meaning: يتذكر، يلاحظ
+  example: سأحفظ رقم هاتفك.
+stimmen:
+  meaning: يكون صحيحًا
+  example: هذا صحيح، أنت محق تمامًا.
+organisieren:
+  meaning: ينظّم
+  example: أنظّم الرحلة لنا.
+vereinbaren:
+  meaning: يتفق، يرتّب
+  example: نتفق على موعد يوم الاثنين.
+begrüßen:
+  meaning: يرحّب، يحيّي
+  example: المدير يرحب بالزملاء الجدد.
+erwarten:
+  meaning: يتوقع
+  example: أتوقع ردك بحلول الغد.
+konzentrieren:
+  meaning: يركّز
+  example: لا أستطيع التركيز هنا.
+ausmachen:
+  meaning: يطفئ
+  example: أطفئ الضوء في الممر من فضلك.
+hängen:
+  meaning: يعلّق، يكون معلقًا
+  example: الصورة معلقة فوق الأريكة.
+stecken:
+  meaning: يكون عالقًا
+  example: المفتاح لا يزال في القفل.
+legen:
+  meaning: يضع، يمدّ
+  example: ضع الحقيبة على الطاولة.
+fallen:
+  meaning: يسقط
+  example: انتبه، وإلا ستسقط على الدرج.
+steigen:
+  meaning: يرتفع، يصعد
+  example: للأسف الأسعار ترتفع كل شهر.
+sinken:
+  meaning: ينخفض، يغرق
+  example: درجة الحرارة تنخفض بقوة الليلة.
+wachsen:
+  meaning: ينمو
+  example: الأطفال ينمون بسرعة كبيرة.
+brechen:
+  meaning: يكسر
+  example: لقد كسر ساقه.
+bluten:
+  meaning: ينزف
+  example: الجرح لا يزال ينزف قليلًا.
+atmen:
+  meaning: يتنفس
+  example: بعد الجري بالكاد أستطيع التنفس.
+niesen:
+  meaning: يعطس
+  example: هي تعطس بسبب الحساسية.
+untersuchen:
+  meaning: يفحص
+  example: الطبيب يفحص ظهري اليوم.
+behandeln:
+  meaning: يعالج
+  example: الطبيب يعالج الجرح بمرهم.
+operieren:
+  meaning: يُجري عملية جراحية
+  example: يجب أن يجرُوا عملية جراحية للركبة غدًا.
+messen:
+  meaning: يقيس
+  example: الممرضة تقيس ضغط دمي.
+impfen:
+  meaning: يلقّح
+  example: الطبيب يلقح الأطفال ضد الإنفلونزا.
+verschreiben:
+  meaning: يصف (دواء)
+  example: الطبيب يصف لي دواءً جديدًا.
+schwanger:
+  meaning: حامل
+  example: زميلتي حامل منذ أبريل.
+überrascht:
+  meaning: متفاجئ
+  example: كانت متفاجئة جدًا من الخبر.
+enttäuscht:
+  meaning: محبط، خائب
+  example: أنا محبط من النتيجة.
+verheiratet:
+  meaning: متزوج
+  example: أختي متزوجة منذ مايو.
+geschieden:
+  meaning: مطلّق
+  example: هو مطلّق منذ سنة.
+ledig:
+  meaning: أعزب، غير متزوج
+  example: هي لا تزال عزباء وتعيش وحدها.
+eifersüchtig:
+  meaning: غيور
+  example: هو غالبًا يغار منها.
+peinlich:
+  meaning: محرج
+  example: كان الخطأ محرجًا جدًا بالنسبة لي.
+ernst:
+  meaning: جاد، خطير
+  example: هذا موقف خطير لنا.
+selbstständig:
+  meaning: مستقل، يعمل لحسابه
+  example: هي تعمل بشكل مستقل من المنزل.
+täglich:
+  meaning: يوميًا
+  example: أذهب بالحافلة يوميًا.
+wöchentlich:
+  meaning: أسبوعيًا
+  example: لدينا اجتماع قصير أسبوعيًا.
+monatlich:
+  meaning: شهريًا
+  example: أدفع الإيجار شهريًا.
+jährlich:
+  meaning: سنويًا
+  example: الامتحان يُعقد سنويًا في مايو.
+mindestens:
+  meaning: على الأقل
+  example: الدورة تستمر ستة أسابيع على الأقل.
+höchstens:
+  meaning: على الأكثر
+  example: نحتاج عشر دقائق على الأكثر.
+spätestens:
+  meaning: في موعد أقصاه
+  example: من فضلك تعال في الثامنة على أقصى تقدير.
+überhaupt:
+  meaning: إطلاقًا، أصلًا
+  example: ليس لدي أي وقت اليوم على الإطلاق.
+tatsächlich:
+  meaning: فعلاً، في الواقع
+  example: فعلًا فاته آخر قطار.
+indem:
+  meaning: بأن، عن طريق
+  example: تتعلم الألمانية بأن تتدرب كثيرًا.
+der Absender:
+  meaning: المرسل
+  example: المرسل مكتوب أعلى الرسالة.
+der Empfänger:
+  meaning: المستلم
+  example: المستلم يسكن في مدينة أخرى.
+die Postleitzahl:
+  meaning: الرمز البريدي
+  example: من فضلك اكتب الرمز البريدي بوضوح.
+der Betreff:
+  meaning: الموضوع
+  example: اكتب الموضوع في السطر الأول.
+der Beleg:
+  meaning: إيصال، إثبات
+  example: من فضلك احتفظ بالإيصال جيدًا.
+der Kassenbon:
+  meaning: إيصال الصندوق
+  example: أحتاج إيصال الصندوق للاستبدال.
+die Matratze:
+  meaning: المرتبة
+  example: المرتبة الجديدة مريحة جدًا.
+die Kommode:
+  meaning: خزانة أدراج
+  example: خزانة الأدراج بجانب السرير.
+der Wasserkocher:
+  meaning: غلاية كهربائية
+  example: الغلاية الكهربائية تعطلت مرة أخرى.
+die Kaffeemaschine:
+  meaning: آلة القهوة
+  example: آلة القهوة في المطبخ.
+die Vergangenheit:
+  meaning: الماضي
+  example: في الماضي كان كل شيء مختلفًا.
+sich erkundigen:
+  meaning: يستفسر
+  example: أستفسر عن جدول الرحلات.
+sich gewöhnen:
+  meaning: يعتاد على
+  example: أعتاد على الطقس.
+sich befinden:
+  meaning: يقع، يوجد
+  example: المكتب يقع في الطابق الأرضي.
+der Fall:
+  meaning: حالة
+  example: في هذه الحالة نستدعي الطبيب.
+der Blick:
+  meaning: نظرة
+  example: نظرة إلى الساعة تكفي.
+die Rolle:
+  meaning: دور
+  example: تلعب دورًا مهمًا في الفريق.
+der Schritt:
+  meaning: خطوة
+  example: الخطوة الأولى غالبًا هي الأصعب.
+das Programm:
+  meaning: برنامج
+  example: البرنامج يعمل على الحاسوب.
+der Wert:
+  meaning: قيمة
+  example: ارتفعت قيمة المنزل.
+die Wahl:
+  meaning: اختيار، انتخابات
+  example: تجري الانتخابات الأسبوع المقبل.
+der Rat:
+  meaning: نصيحة
+  example: نصيحة جيدة يمكن أن تساعد كثيرًا.
+die Ordnung:
+  meaning: نظام، ترتيب
+  example: الترتيب في مكان العمل يوفر الوقت.
+die Menge:
+  meaning: كمية، مقدار
+  example: نحتاج كمية كبيرة من الماء.
+die Reihe:
+  meaning: صف، سلسلة
+  example: نجلس في الصف الأول.
+das Gegenteil:
+  meaning: عكس
+  example: عكس ساخن هو بارد.
+der Typ:
+  meaning: نوع، رجل
+  example: هو رجل هادئ.
+die Nähe:
+  meaning: قرب، جوار
+  example: تقع الشقة بالقرب من المحطة.
+der Bereich:
+  meaning: مجال، منطقة
+  example: هذا مجال مهم في الشركة.
+die Funktion:
+  meaning: وظيفة
+  example: هذه الوظيفة في البرنامج جديدة.
+der Prozess:
+  meaning: عملية
+  example: تستغرق العملية عدة أسابيع.
+das System:
+  meaning: نظام
+  example: النظام لا يعمل منذ أمس.
+die Struktur:
+  meaning: بنية
+  example: بنية التقرير واضحة.
+der Dienst:
+  meaning: خدمة، واجب
+  example: يبدأ الدوام في الثامنة.
+die Leistung:
+  meaning: أداء، إنجاز
+  example: تحسن أداؤه في الدورة.
+die Tätigkeit:
+  meaning: نشاط، مهنة
+  example: وظيفتي في المكتب متنوعة.
+die Vorbereitung:
+  meaning: تحضير
+  example: التحضير للامتحان يحتاج إلى وقت.
+die Maßnahme:
+  meaning: إجراء
+  example: يساعد هذا الإجراء ضد الضوضاء.
+die Zustimmung:
+  meaning: موافقة
+  example: نحتاج موافقة المدير.
+die Übersicht:
+  meaning: نظرة عامة
+  example: تعرض النظرة العامة جميع المواعيد.
+das Verfahren:
+  meaning: إجراء
+  example: يستغرق الإجراء عدة أشهر.
+das Gesetz:
+  meaning: قانون
+  example: يسري القانون الجديد اعتبارًا من يناير.
+die Grundlage:
+  meaning: أساس
+  example: الثقة هي أساس التعاون.
+die Kenntnis:
+  meaning: معرفة
+  example: لديها معرفة جيدة بالرياضيات.
+die Nachfrage:
+  meaning: طلب
+  example: الطلب على الشقق مرتفع.
+der Handel:
+  meaning: تجارة
+  example: تنمو تجارة المواد الغذائية.
+die Erwartung:
+  meaning: توقع
+  example: توقعات العملاء عالية.
+der Einfluss:
+  meaning: تأثير
+  example: لديها تأثير كبير على الفريق.
+das Verhältnis:
+  meaning: علاقة
+  example: العلاقة بالزملاء جيدة.
+das Verständnis:
+  meaning: فهم، تفهم
+  example: شكرًا على تفهمكم.
+die Reaktion:
+  meaning: رد فعل
+  example: كان رد فعله مفاجئًا تمامًا.
+die Lüge:
+  meaning: كذبة
+  example: الكذبة كثيرًا ما تدمر الثقة.
+die Schuld:
+  meaning: ذنب، لوم
+  example: يلقي عليّ اللوم على الخطأ.
+die Überlegung:
+  meaning: تفكير، تأمل
+  example: بعد تفكير قصير قالت نعم.
+der Versuch:
+  meaning: محاولة
+  example: للأسف لم تكن المحاولة ناجحة.
+der Zusammenhang:
+  meaning: صلة، ارتباط
+  example: توجد صلة بين التوتر والمرض.
+der Zweck:
+  meaning: غرض، هدف
+  example: الغرض من هذه الرحلة تجاري.
+die Förderung:
+  meaning: دعم، تمويل
+  example: تقدم الجهة دعمًا للدورات.
+die Weiterbildung:
+  meaning: تدريب إضافي
+  example: تدفع الشركة تكاليف تدريب إضافي.
+die Führung:
+  meaning: جولة مرشدة
+  example: تبدأ الجولة المرشدة في المتحف حالًا.
+beantragen:
+  meaning: يقدم طلبًا
+  example: أريد تقديم طلب للحصول على جواز سفر جديد.
+die Politik:
+  meaning: سياسة
+  example: كثيرًا ما نناقش السياسة مساءً.
+das Prinzip:
+  meaning: مبدأ
+  example: المبدأ بسيط وواضح.
+das Erlebnis:
+  meaning: تجربة
+  example: كانت الرحلة تجربة جميلة.
+das Benehmen:
+  meaning: سلوك
+  example: كان سلوكه مهذبًا جدًا.
+die Debatte:
+  meaning: مناظرة، نقاش
+  example: كانت المناظرة التلفزيونية مثيرة للاهتمام.
+der Bescheid:
+  meaning: إشعار، إبلاغ
+  example: سأبلغكم غدًا.
+die Aussprache:
+  meaning: نطق
+  example: نطق الكلمة صعب.
+der Ausländer:
+  meaning: أجنبي
+  example: الأجنبي يتعلم الألمانية بسرعة.
+benötigen:
+  meaning: يحتاج
+  example: ما زلنا نحتاج بعض المستندات.
+erhalten:
+  meaning: يتلقى، يحصل على
+  example: ستتلقون الرد بالبريد.
+annehmen:
+  meaning: يقبل
+  example: نقبل اقتراحكم بكل سرور.
+bestehen:
+  meaning: يتكون من، ينجح
+  example: يتكون الامتحان من جزأين.
+gelten:
+  meaning: يسري، ينطبق
+  example: تنطبق هذه القاعدة على الجميع.
+das Recht:
+  meaning: حق، قانون
+  example: لكل شخص الحق في المساعدة.
+die Wahrheit:
+  meaning: الحقيقة
+  example: الحقيقة ليست سهلة.
+der Sinn:
+  meaning: معنى، حس
+  example: هذا لا معنى له.
+die Entwicklung:
+  meaning: تطور، تنمية
+  example: تطور المدينة إيجابي.
+der Beitrag:
+  meaning: مساهمة، رسم
+  example: الرسم يكلف عشرة يورو.
+der Abschluss:
+  meaning: شهادة، إتمام
+  example: لقد حصلت على الشهادة.
+die Übung:
+  meaning: تمرين، تدريب
+  example: هذا التمرين يساعد ضد آلام الظهر.
+die Meldung:
+  meaning: خبر، إعلان
+  example: وصل الخبر هذا الصباح.
+der Austausch:
+  meaning: تبادل
+  example: التبادل مع الزملاء يساعد.
+die Sicht:
+  meaning: رؤية، منظور
+  example: من وجهة نظري هذا خطأ.
+die Planung:
+  meaning: تخطيط
+  example: التخطيط يستغرق أسبوعين آخرين.
+die Organisation:
+  meaning: تنظيم
+  example: تنظيم المهرجان كان صعباً.
+die Sitzung:
+  meaning: اجتماع، جلسة
+  example: الاجتماع يبدأ في التاسعة.
+die Vorstellung:
+  meaning: فكرة، عرض
+  example: العرض كان جيداً حقاً.
+der Anlass:
+  meaning: مناسبة، سبب
+  example: المناسبة عيد ميلاد.
+die Absprache:
+  meaning: اتفاق، ترتيب
+  example: لقد توصلنا إلى اتفاق.
+die Veränderung:
+  meaning: تغيير
+  example: التغيير لا يعجبني.
+die Teilnahme:
+  meaning: مشاركة
+  example: المشاركة في الدورة طوعية.
+die Anleitung:
+  meaning: تعليمات، دليل
+  example: التعليمات سهلة الفهم.
+der Bewohner:
+  meaning: ساكن
+  example: الساكن يشتكي من الضجيج.
+die Höhe:
+  meaning: ارتفاع، مبلغ
+  example: قيمة الإيجار مهمة.
+die Mitte:
+  meaning: وسط، مركز
+  example: الطاولة في الوسط.
+die Zahlung:
+  meaning: دفع
+  example: الدفع بالبطاقة.
+der Verkauf:
+  meaning: بيع
+  example: البيع يبدأ مبكراً.
+der Eintritt:
+  meaning: دخول، رسم دخول
+  example: الدخول إلى المتحف يكلف مالاً.
+der Transport:
+  meaning: نقل
+  example: نقل الأثاث كان مكلفاً.
+die Warnung:
+  meaning: تحذير
+  example: وصل التحذير في الوقت المناسب.
+das Verbot:
+  meaning: حظر، منع
+  example: الحظر يسري من الغد.
+der Verbrauch:
+  meaning: استهلاك
+  example: استهلاك الكهرباء مرتفع.
+der Verlust:
+  meaning: خسارة، فقدان
+  example: الخسارة تؤلمه كثيراً.
+der Wechsel:
+  meaning: تغيير، تبديل
+  example: تغيير الوظيفة كان صحيحاً.
+die Beförderung:
+  meaning: ترقية، نقل
+  example: هو سعيد بالترقية.
+der Wettbewerb:
+  meaning: منافسة، مسابقة
+  example: المنافسة شديدة جداً.
+die Forderung:
+  meaning: مطلب، مطالبة
+  example: المطلب لم يُلبَّ.
+die Begründung:
+  meaning: تبرير، سبب
+  example: التبرير مفقود في الطلب.
+der Anspruch:
+  meaning: حق، مطالبة
+  example: لديهم حق في الإجازة.
+die Anstrengung:
+  meaning: جهد
+  example: الجهد كان كبيراً جداً.
+die Aufmerksamkeit:
+  meaning: انتباه، اهتمام
+  example: تحتاج الكثير من الاهتمام.
+die Drohung:
+  meaning: تهديد
+  example: التهديد أخافه.
+der Dank:
+  meaning: شكر، عرفان
+  example: شكر الجيران كان كبيراً.
+die Ersparnis:
+  meaning: توفير، مدخرات
+  example: التوفير صغير للأسف.
+die Handlung:
+  meaning: حبكة، فعل
+  example: حبكة الفيلم مشوقة.
+die Rede:
+  meaning: خطاب، حديث
+  example: كان خطابه قصيراً وواضحاً.
+die Sammlung:
+  meaning: مجموعة، جمع
+  example: المجموعة في الرف.
+die Spannung:
+  meaning: توتر، تشويق
+  example: كان التوتر في الغرفة واضحاً.
+der Stand:
+  meaning: وضع، حالة
+  example: وضع الأمور جيد.
+die Stellung:
+  meaning: وظيفة، موقف
+  example: لديها وظيفة جيدة.
+die Wiederholung:
+  meaning: تكرار، مراجعة
+  example: التكرار يساعد في التعلم.
+das Wissen:
+  meaning: معرفة، علم
+  example: معرفته مثيرة للإعجاب.
+das Zeichen:
+  meaning: علامة، إشارة
+  example: أعطني إشارة.
+das Zentrum:
+  meaning: مركز
+  example: المركز يسهل الوصول إليه.
+abhängen:
+  meaning: يعتمد على
+  example: ذلك يعتمد على الطقس.
+abschließen:
+  meaning: يكمل، يقفل
+  example: من فضلك أقفل الباب.
+anpassen:
+  meaning: يكيّف، يعدّل
+  example: يجب أن نعدل الخطة.
+ausleihen:
+  meaning: يستعير، يعير
+  example: هل يمكنني استعارة الكتاب؟
+beachten:
+  meaning: يراعي، يلاحظ
+  example: يرجى مراعاة القواعد.
+bedienen:
+  meaning: يخدم، يشغّل
+  example: النادل يخدم الضيوف.
+beeinflussen:
+  meaning: يؤثر على
+  example: الطقس يؤثر على المزاج.
+bemerken:
+  meaning: يلاحظ
+  example: لقد لاحظت الخطأ.
+bestimmen:
+  meaning: يحدد
+  example: المدير يحدد القواعد.
+beraten:
+  meaning: ينصح، يشاور
+  example: البائع ينصح العملاء بلطف.
+ausgeben:
+  meaning: ينفق
+  example: أنا أنفق الكثير من المال.
+kündigen:
+  meaning: يلغي، يستقيل
+  example: إنها تُنهي عقدها في نهاية الشهر.
+verlängern:
+  meaning: يمدد
+  example: أريد تمديد عقدي.
+einstellen:
+  meaning: يوظف
+  example: الشركة توظف موظفين جدد.
+entlassen:
+  meaning: يفصل، يسرّح
+  example: الشركة تفصل عشرة موظفين.
+leiten:
+  meaning: يدير
+  example: إنها تدير القسم منذ وقت طويل.
+übernehmen:
+  meaning: يتولى
+  example: إنه يتولى المهمة الجديدة.
+vertreten:
+  meaning: ينوب عن
+  example: أنا أنوب عن زميلتي اليوم.
+absagen:
+  meaning: يلغي
+  example: للأسف يجب أن ألغي الموعد.
+zustimmen:
+  meaning: يوافق
+  example: المدير يوافق على الخطة.
+ablehnen:
+  meaning: يرفض
+  example: الدائرة ترفض الطلب.
+bearbeiten:
+  meaning: يعالج، ينجز
+  example: أنا أعالج الطلب اليوم.
+ausstellen:
+  meaning: يصدر
+  example: الدائرة تصدر جواز السفر.
+ummelden:
+  meaning: يعيد التسجيل
+  example: يجب أن أعيد تسجيلي بعد الانتقال.
+abmelden:
+  meaning: يلغي التسجيل
+  example: يجب أن ألغي تسجيلي لدى الدائرة.
+stempeln:
+  meaning: يختم
+  example: الموظف يختم النموذج.
+sortieren:
+  meaning: يرتب
+  example: أنا أرتب الأوراق حسب التاريخ.
+ablegen:
+  meaning: يحفظ، يؤرشف
+  example: يرجى حفظ الملف.
+heften:
+  meaning: يدبّس
+  example: يرجى تدبيس الأوراق معًا.
+drucken:
+  meaning: يطبع
+  example: يرجى طباعة النموذج.
+scannen:
+  meaning: يمسح ضوئيًا
+  example: يرجى مسح الهوية ضوئيًا.
+speichern:
+  meaning: يحفظ
+  example: احفظ الملف قبل الإغلاق.
+löschen:
+  meaning: يحذف
+  example: أنا أحذف الملفات القديمة.
+notieren:
+  meaning: يدوّن
+  example: أنا أدوّن الموعد في التقويم.
+weiterleiten:
+  meaning: يحوّل، يمرر
+  example: يرجى تحويل البريد.
+umtauschen:
+  meaning: يستبدل
+  example: أريد استبدال هذا البنطال.
+reklamieren:
+  meaning: يشتكي من
+  example: نحن نشتكي من الثلاجة المعطلة.
+liefern:
+  meaning: يوصل، يسلّم
+  example: السوبرماركت يوصّل بدءًا من عشرة يورو.
+stornieren:
+  meaning: يلغي حجزًا
+  example: للأسف يجب أن ألغي حجز الفندق.
+sich verspäten:
+  meaning: يتأخر
+  example: القطار يتأخر عشر دقائق.
+tanken:
+  meaning: يتزود بالوقود
+  example: يجب أن أتزود بالبنزين.
+landen:
+  meaning: يهبط
+  example: الطائرة تهبط في الموعد.
+starten:
+  meaning: ينطلق، يبدأ
+  example: القطار ينطلق بعد خمس دقائق.
+anhalten:
+  meaning: يتوقف
+  example: الحافلة تتوقف عند الزاوية التالية.
+losfahren:
+  meaning: ينطلق
+  example: سننطلق غدًا في الصباح.
+abfliegen:
+  meaning: تقلع
+  example: طائرتنا تقلع غدًا في الصباح.
+bremsen:
+  meaning: يفرمل
+  example: إنه يفرمل قبل التقاطع.
+mitfahren:
+  meaning: يذهب مع
+  example: هل يمكنني الذهاب معكم بالسيارة؟
+auschecken:
+  meaning: يسجل الخروج
+  example: نسجل الخروج غدًا في الصباح.
+spülen:
+  meaning: يغسل الأطباق
+  example: أنا أغسل الأطباق بعد الطعام.
+staubsaugen:
+  meaning: ينظف بالمكنسة الكهربائية
+  example: يجب أن أنظف بالمكنسة اليوم.
+bügeln:
+  meaning: يكوي
+  example: إنه يكوي قمصانه يوم الأحد.
+das Waschmittel:
+  meaning: منظف الغسيل
+  example: ما زلنا نحتاج منظف غسيل للثياب.
+die Klimaanlage:
+  meaning: المكيف
+  example: المكيف لا يعمل.
+der Puls:
+  meaning: النبض
+  example: الطبيب يقيس النبض.
+der Notausgang:
+  meaning: مخرج الطوارئ
+  example: مخرج الطوارئ على يسار الدرج.
+der Pfeffer:
+  meaning: الفلفل
+  example: الفلفل بجانب الملح.
+das Öl:
+  meaning: الزيت
+  example: ما زلنا بحاجة إلى زيت للسلطة.
+das Mehl:
+  meaning: الطحين
+  example: للكعكة نحتاج طحينًا.
+die Soße:
+  meaning: الصلصة
+  example: الصلصة لذيذة جدًا.
+die Schüssel:
+  meaning: الوعاء
+  example: الوعاء في خزانة المطبخ.
+die Drogerie:
+  meaning: متجر مستحضرات
+  example: أشتري الشامبو من متجر المستحضرات.
+der Korb:
+  meaning: السلة
+  example: السلة بجانب الصندوق.
+der Gürtel:
+  meaning: الحزام
+  example: الحزام لا يناسب البنطال.
+der Mantel:
+  meaning: المعطف
+  example: في الشتاء أرتدي معطفًا دافئًا.
+die Müdigkeit:
+  meaning: التعب
+  example: التعب يأتي من قلة النوم.
+der Schlafmangel:
+  meaning: قلة النوم
+  example: قلة النوم تجعلني مريضًا غالبًا.
+die Sucht:
+  meaning: الإدمان
+  example: التدخين يمكن أن يؤدي إلى الإدمان.
+der Sonnenbrand:
+  meaning: حروق الشمس
+  example: على الشاطئ يصاب المرء بسهولة بحروق الشمس.
+der Mittag:
+  meaning: منتصف النهار
+  example: في منتصف النهار آكل في المقصف.
+der Fußgänger:
+  meaning: الماشي، الراجل
+  example: للمشاة أولوية المرور هنا.
+der Fahrstuhl:
+  meaning: المصعد
+  example: للأسف المصعد معطل.
+die Serviette:
+  meaning: المنديل
+  example: من فضلك أعطني منديلًا.
+der Essig:
+  meaning: الخل
+  example: السلطة تحتاج إلى القليل من الخل.
+die Krankenschwester:
+  meaning: الممرضة
+  example: الممرضة تقيس ضغط الدم.
+der Pfleger:
+  meaning: الممرض، مقدم الرعاية
+  example: الممرض يساعد الرجل العجوز.
+der Personalausweis:
+  meaning: بطاقة الهوية
+  example: من فضلك أظهر بطاقة هويتك.
+der Arbeitsvertrag:
+  meaning: عقد العمل
+  example: لقد وقعت عقد العمل.
+die Anstellung:
+  meaning: الوظيفة، التوظيف
+  example: لقد وجدت وظيفة جديدة.
+der Ärger:
+  meaning: الغضب، المتاعب
+  example: بسبب الضجيج توجد متاعب.
+soweit:
+  meaning: بقدر ما، إلى حد ما
+  example: على حد علمي، المتجر مغلق.
+zumindest:
+  meaning: على الأقل
+  example: على الأقل في عطلة نهاية الأسبوع لدي وقت.
+gegenüber:
+  meaning: مقابل، تجاه
+  example: تقع الصيدلية مقابل محطة القطار.
+der Kreisverkehr:
+  meaning: الدوار
+  example: في الدوار يجب أن تقود ببطء.
+die Fahrprüfung:
+  meaning: اختبار القيادة
+  example: لقد نجحت في اختبار القيادة.
+die Hauptstraße:
+  meaning: الشارع الرئيسي
+  example: يقع المتجر على الشارع الرئيسي.
+der Werktag:
+  meaning: يوم العمل
+  example: في يوم العمل تستيقظ مبكرًا.
+die Gegenwart:
+  meaning: الحاضر، الزمن الحاضر
+  example: في الزمن الحاضر نعيش بسرعة.
+sich verhalten:
+  meaning: يتصرف
+  example: لقد تصرف بشكل خاطئ.
+verzichten:
+  meaning: يستغني عن
+  example: أريد الاستغناء عن السكر.
+hilfsbereit:
+  meaning: مستعد للمساعدة
+  example: جارتي مستعدة جدًا للمساعدة.
+neugierig:
+  meaning: فضولي
+  example: غالبًا ما يكون الأطفال فضوليين جدًا.
+schüchtern:
+  meaning: خجول
+  example: هو ولد خجول.
+selbstbewusst:
+  meaning: واثق من نفسه
+  example: هي واثقة جدًا من نفسها.
+flexibel:
+  meaning: مرن
+  example: نحتاج أوقات عمل مرنة.
+kreativ:
+  meaning: مبدع
+  example: لهذه المهمة يجب أن يكون المرء مبدعًا.
+ehrgeizig:
+  meaning: طموح
+  example: هو طموح جدًا.
+weich:
+  meaning: ناعم، طري
+  example: السرير ناعم جدًا.
+hart:
+  meaning: صلب، قاس
+  example: الخبز قديم وصلب.
+eng:
+  meaning: ضيق
+  example: البنطال ضيق عليّ جدًا.
+locker:
+  meaning: فضفاض، غير مشدود
+  example: القميص فضفاض جدًا.
+sich verlieben:
+  meaning: يقع في الحب
+  example: لقد وقعت في حبه.
+sich versöhnen:
+  meaning: يتصالح
+  example: بعد الشجار تصالحا.
+sich weigern:
+  meaning: يرفض
+  example: إنه يرفض المساعدة.
+sich schämen:
+  meaning: يخجل، يشعر بالخزي
+  example: لا يجب أن تخجل.
+sich fürchten:
+  meaning: يخاف
+  example: الطفل يخاف في الظلام.
+sich wundern:
+  meaning: يتعجب، يستغرب
+  example: أتعجب من سلوكه.
+sich langweilen:
+  meaning: يشعر بالملل
+  example: في العطلة لا أشعر بالملل أبدًا.
+rücksichtsvoll:
+  meaning: مراعٍ للآخرين
+  example: هو دائمًا مراعٍ للآخرين.
+egoistisch:
+  meaning: أناني
+  example: كان سلوكه أنانيًا جدًا.
+gelassen:
+  meaning: هادئ، رابط الجأش
+  example: تبقى هادئة حتى تحت الضغط.
+unhöflich:
+  meaning: غير مهذب
+  example: كان ذلك ردًا غير مهذب.
+die Eifersucht:
+  meaning: الغيرة
+  example: الغيرة يمكن أن تدمر علاقة.
+die Trauer:
+  meaning: الحزن
+  example: بعد الخسارة شعر بحزن شديد.
+der Neid:
+  meaning: الحسد
+  example: الحسد ليس شعورًا جيدًا.
+die Zufriedenheit:
+  meaning: الرضا
+  example: الرضا أهم من المال الكثير.
+die Einsamkeit:
+  meaning: الوحدة
+  example: كثير من كبار السن يعانون من الوحدة.
+die Nervosität:
+  meaning: التوتر، العصبية
+  example: قبل الامتحان أشعر بالتوتر.
+die Meldebescheinigung:
+  meaning: شهادة التسجيل
+  example: للطلب تحتاج إلى شهادة تسجيل.
+die Geburtsurkunde:
+  meaning: شهادة الميلاد
+  example: من فضلك قدّم شهادة الميلاد.
+die Steuererklärung:
+  meaning: الإقرار الضريبي
+  example: يجب تقديم الإقرار الضريبي حتى مايو.
+die Aufenthaltsgenehmigung:
+  meaning: تصريح الإقامة
+  example: إنه يطلب تصريح إقامة جديدًا.
+die Fahrgemeinschaft:
+  meaning: مشاركة السيارة
+  example: نذهب إلى العمل بسيارة مشتركة.
+sich verloben:
+  meaning: يخطب
+  example: لقد خطبا أثناء العطلة.
+sich benehmen:
+  meaning: يتصرف
+  example: لقد تصرف الأطفال بشكل جيد.
+sich verändern:
+  meaning: يتغير
+  example: لقد تغيرت المدينة كثيرًا.
+handeln:
+  meaning: يتعلق الأمر بـ
+  example: يتعلق الأمر بمشكلة.
+die Pflege:
+  meaning: الرعاية
+  example: تعمل في مجال الرعاية.
+die Teilzeit:
+  meaning: الدوام الجزئي
+  example: تعمل بدوام جزئي فقط.
+der Notfall:
+  meaning: حالة طارئة
+  example: في حالة الطوارئ اتصل فورًا.
+die Kontrolle:
+  meaning: تفتيش، مراقبة
+  example: الشرطة تجري تفتيشًا.
+das Mittagessen:
+  meaning: غداء
+  example: بعد الغداء نأخذ استراحة.
+das Abendessen:
+  meaning: عشاء
+  example: على العشاء اليوم هناك حساء.
+die Zahnbürste:
+  meaning: فرشاة أسنان
+  example: أشتري فرشاة أسنان جديدة.
+die Zahnpasta:
+  meaning: معجون أسنان
+  example: معجون الأسنان فارغ تقريبًا.
+die Schublade:
+  meaning: درج
+  example: الدرج عالق مرة أخرى.
+das Bügeleisen:
+  meaning: مكواة
+  example: المكواة لا تزال ساخنة.
+der Mitbewohner:
+  meaning: رفيق سكن
+  example: رفيقي في السكن يطبخ الليلة.
+der Honig:
+  meaning: عسل
+  example: أضع العسل في الشاي.
+die Marmelade:
+  meaning: مربى
+  example: المربى موجود على الفطور.
+die Karotte:
+  meaning: جزرة
+  example: أشتري جزرًا للحساء.
+der Pilz:
+  meaning: فطر، مشروم
+  example: الفطر طازج ولذيذ.
+der Schinken:
+  meaning: لحم خنزير مقدد
+  example: أريد لحم خنزير مقدد على الفطور.
+der Quark:
+  meaning: جبن قريش
+  example: الجبن القريش صحي ولذيذ.
+die Sahne:
+  meaning: كريمة
+  example: تدخل الكريمة في الكعكة.
+das Müsli:
+  meaning: موسلي
+  example: الموسلي بالحليب هو فطوري.
+der Keks:
+  meaning: بسكويت
+  example: الأطفال يريدون قطعة بسكويت.
+der Zimt:
+  meaning: قرفة
+  example: القرفة تناسب كعكة التفاح.
+die Buchhandlung:
+  meaning: متجر كتب
+  example: أشتري الكتاب من متجر الكتب.
+das Shampoo:
+  meaning: شامبو
+  example: رائحة الشامبو جيدة جدًا.
+die Creme:
+  meaning: كريم
+  example: هذا الكريم يساعد ضد جفاف الجلد.
+das Taschentuch:
+  meaning: منديل ورقي
+  example: لدي منديل في الحقيبة.
+der Kamm:
+  meaning: مشط
+  example: المشط في الحمام.
+die Bürste:
+  meaning: فرشاة
+  example: الفرشاة في الخزانة.
+der Rasierer:
+  meaning: ماكينة حلاقة
+  example: ماكينة الحلاقة تحتاج بطاريات جديدة.
+die Kerze:
+  meaning: شمعة
+  example: الشمعة تحترق على الطاولة.
+die Dekoration:
+  meaning: زينة، ديكور
+  example: زينة الحفلة جاهزة.
+der Snack:
+  meaning: وجبة خفيفة
+  example: آكل وجبة خفيفة صغيرة.
+der Mietwagen:
+  meaning: سيارة مستأجرة
+  example: نأخذ سيارة مستأجرة للرحلة.
+das Navi:
+  meaning: جهاز ملاحة
+  example: جهاز الملاحة يرينا الطريق الصحيح.
+die Vorfahrt:
+  meaning: أولوية المرور
+  example: عند التقاطع تسري أولوية المرور.
+die Geschwindigkeit:
+  meaning: سرعة
+  example: كانت السرعة عالية جدًا.
+der Rettungsdienst:
+  meaning: خدمة إسعاف
+  example: جاءت خدمة الإسعاف بسرعة كبيرة.
+der Arztbesuch:
+  meaning: زيارة طبيب
+  example: كانت زيارة الطبيب أمس مرهقة جدًا.
+die Gesundheitskarte:
+  meaning: بطاقة تأمين صحي
+  example: يرجى إظهار بطاقة التأمين الصحي.
+das Attest:
+  meaning: شهادة طبية
+  example: الطبيب يكتب لي شهادة طبية.
+der Verdienst:
+  meaning: دخل، أرباح
+  example: دخله يكفي للإيجار.
+der Nebenjob:
+  meaning: عمل جانبي
+  example: لديه عمل جانبي في عطلة نهاية الأسبوع.
+die Arbeitslosigkeit:
+  meaning: بطالة
+  example: البطالة مرتفعة في المنطقة.
+der Arbeitsunfall:
+  meaning: حادث عمل
+  example: تم الإبلاغ عن حادث العمل فورًا.
+die Bedienungsanleitung:
+  meaning: دليل استخدام
+  example: دليل الاستخدام في الصندوق.
+die Bekanntschaft:
+  meaning: معرفة، تعرّف
+  example: بدأت معرفتنا في العطلة.
+die Begegnung:
+  meaning: لقاء
+  example: كان اللقاء بها جميلاً.
+die Begeisterung:
+  meaning: حماس
+  example: تبدي حماسًا كبيرًا للموسيقى.
+das Mitleid:
+  meaning: شفقة
+  example: أشعر بالشفقة تجاهه.
+die Sympathie:
+  meaning: تعاطف، إعجاب
+  example: كان الإعجاب بيننا فوريًا.
+die Dankbarkeit:
+  meaning: امتنان
+  example: أظهر امتنانه بالزهور.
+die Fantasie:
+  meaning: خيال
+  example: الأطفال لديهم خيال واسع.
+das Missverständnis:
+  meaning: سوء فهم
+  example: حدث سوء فهم صغير.
+der Kompromiss:
+  meaning: حل وسط
+  example: وجدنا حلًا وسطًا جيدًا.
+die Toleranz:
+  meaning: تسامح
+  example: التسامح مهم في المجموعة.
+die Höflichkeit:
+  meaning: أدب، لطف
+  example: الأدب لا يكلف شيئًا.
+die Pünktlichkeit:
+  meaning: التزام بالمواعيد
+  example: الالتزام بالمواعيد مهم في العمل.
+die Zuverlässigkeit:
+  meaning: موثوقية
+  example: الموثوقية مهمة جدًا بالنسبة لي.
+die Freundlichkeit:
+  meaning: ودية، لطف
+  example: اللطف يساعد في المهنة.
+die Ehrlichkeit:
+  meaning: صدق
+  example: الصدق هو أفضل أساس.
+die Industrie:
+  meaning: صناعة
+  example: الصناعة تحتاج كفاءات جديدة.
+die Karriere:
+  meaning: مسيرة مهنية
+  example: تصنع مسيرة مهنية في الشركة.
+die Konkurrenz:
+  meaning: منافسة
+  example: المنافسة قوية جدًا.
+mitteilen:
+  meaning: يبلغ، يخبر
+  example: يرجى إبلاغي بالتغيير.
+versprechen:
+  meaning: يَعِد
+  example: أعدك بأنني سآتي.
+behalten:
+  meaning: يحتفظ بـ
+  example: يمكنك الاحتفاظ بالكتاب.
+zuhören:
+  meaning: يستمع إلى
+  example: من فضلك استمع إليّ الآن.
+nachdenken:
+  meaning: يفكر في
+  example: يجب أن أفكر في اقتراحك.
+schwierig:
+  meaning: صعب
+  example: كان الامتحان صعبًا جدًا بالفعل.
+kompliziert:
+  meaning: معقد
+  example: الاستمارة معقدة جدًا بالنسبة لي.
+deutlich:
+  meaning: واضح، بوضوح
+  example: من فضلك تحدث بوضوح وببطء.
+nötig:
+  meaning: ضروري
+  example: هل من الضروري التوقيع على الطلب؟
+unmöglich:
+  meaning: مستحيل
+  example: السفر بدون تذكرة مستحيل.
+zurückgeben:
+  meaning: يعيد
+  example: من فضلك أعد لي المفتاح.
+mitbringen:
+  meaning: يحضر معه
+  example: هل يمكنك إحضار الخبز من فضلك؟
+mitkommen:
+  meaning: يأتي معه
+  example: هل ترغب في المجيء معي إلى السوق؟
+mitmachen:
+  meaning: يشارك
+  example: أريد المشاركة في الدورة.
+nachfragen:
+  meaning: يستفسر
+  example: من فضلك استفسر من المالك.
+ausprobieren:
+  meaning: يجرب
+  example: جرّب الجهاز الجديد.
+aufschreiben:
+  meaning: يكتب، يدون
+  example: من فضلك اكتب العنوان.
+wegwerfen:
+  meaning: يرمي
+  example: ارمِ القمامة في الحاوية.
+zurückkommen:
+  meaning: يعود
+  example: سأعود لاحقًا.
+sich entspannen:
+  meaning: يسترخي
+  example: في عطلة نهاية الأسبوع أريد أن أسترخي.
+herunterladen:
+  meaning: ينزّل
+  example: من فضلك نزّل الملف.
+klicken:
+  meaning: ينقر
+  example: من فضلك انقر على الرابط.
+abheben:
+  meaning: يسحب نقودًا
+  example: أريد سحب المال من الصراف الآلي.
+einzahlen:
+  meaning: يودع مالًا
+  example: من فضلك أودع المبلغ.
+auspacken:
+  meaning: يفرغ، يفتح
+  example: من فضلك أخرج الأشياء من العبوة.
+früher:
+  meaning: سابقًا، في الماضي
+  example: سابقًا كنت أسكن في برلين.
+damals:
+  meaning: آنذاك، في ذلك الوقت
+  example: في ذلك الوقت كان كل شيء مختلفًا تمامًا.
+demnächst:
+  meaning: قريبًا
+  example: قريبًا سننتقل إلى شقة جديدة.
+bisher:
+  meaning: حتى الآن
+  example: حتى الآن لم أتلقَّ أي رد.
+neulich:
+  meaning: مؤخرًا
+  example: مؤخرًا التقيت بصديق.
+direkt:
+  meaning: مباشرة، مباشر
+  example: القطار يذهب مباشرة إلى المحطة الرئيسية.
+privat:
+  meaning: خاص
+  example: هذه محادثة خاصة.
+spannend:
+  meaning: مشوق، مثير
+  example: كان الفيلم مشوقًا حقًا.
+die Vereinbarung:
+  meaning: اتفاق
+  example: عقدنا اتفاقًا واضحًا.
+die Unterhaltung:
+  meaning: محادثة
+  example: كانت المحادثة معها لطيفة جدًا.
+das Mitglied:
+  meaning: عضو
+  example: هو عضو في نادي الرياضة لدينا.
+der Teilnehmer:
+  meaning: مشارك
+  example: كل مشارك يحصل على شهادة.
+die Gemeinschaft:
+  meaning: مجتمع، جماعة
+  example: المجتمع يساعد بعضه بعضًا.
+die Zusammenarbeit:
+  meaning: تعاون
+  example: التعاون في الفريق يعمل بشكل جيد.
+die Rückkehr:
+  meaning: عودة
+  example: بعد العودة يجب علينا تغيير محل الإقامة.
+der Abschied:
+  meaning: وداع
+  example: الوداع من الأصدقاء صعب.
+die Begrüßung:
+  meaning: ترحيب، تحية
+  example: كان الترحيب حارًا وودودًا.
+die Beschreibung:
+  meaning: وصف
+  example: كان وصف الطريق خاطئًا.
+die Erzählung:
+  meaning: حكاية، سرد
+  example: كانت حكايتها عن الرحلة مثيرة للاهتمام.
+die Erholung:
+  meaning: استجمام، راحة
+  example: بعد العطلة أحتاج إلى راحة.
+die Betreuung:
+  meaning: رعاية، إشراف
+  example: رعاية الأطفال منظمة بشكل جيد.
+die Verbesserung:
+  meaning: تحسين
+  example: تحسين الوضع يستغرق وقتًا.
+die Konzentration:
+  meaning: تركيز
+  example: الضوضاء تزعج تركيزي أثناء العمل.
+die Sauberkeit:
+  meaning: نظافة
+  example: في المطبخ النظافة مهمة.
+die Ablehnung:
+  meaning: رفض
+  example: جاء رفض الطلب بالبريد.
+die Annahme:
+  meaning: قبول، استلام
+  example: تم تأكيد استلام الطرد.
+die Voraussetzung:
+  meaning: شرط، متطلب
+  example: معرفة جيدة بالألمانية شرط أساسي.
+die Zusammenfassung:
+  meaning: ملخص
+  example: من فضلك اكتب ملخصًا قصيرًا.
+unsicher:
+  meaning: غير متأكد
+  example: ما زلت غير متأكد بشأن القرار.
+unnötig:
+  meaning: غير ضروري
+  example: هذا النقاش غير ضروري تمامًا.
+unzufrieden:
+  meaning: غير راضٍ
+  example: العميل غير راضٍ عن الخدمة.
+unglücklich:
+  meaning: غير سعيد، تعيس
+  example: هي غير سعيدة بسبب الرفض.
+unfreundlich:
+  meaning: غير ودود
+  example: كان البائع غير ودود جدًا اليوم.
+unpünktlich:
+  meaning: متأخر، غير دقيق في المواعيد
+  example: الحافلة متأخرة اليوم مرة أخرى.
+unzuverlässig:
+  meaning: غير موثوق
+  example: إجاباته غالبًا غير موثوقة.
+dagegen:
+  meaning: ضد ذلك، معارض
+  example: لا مانع لديّ.
+beziehungsweise:
+  meaning: أو بالأحرى
+  example: الاثنين أو بالأحرى الثلاثاء يناسبني.
+sowie:
+  meaning: وكذلك
+  example: أحتاج الحليب وكذلك الخبز.
+zudem:
+  meaning: علاوة على ذلك
+  example: هو متعب وعلاوة على ذلك مريض.
+ebenso:
+  meaning: بالمثل
+  example: أنا كذلك.
+entlang:
+  meaning: على طول
+  example: امشِ على طول الشارع.
+ständig:
+  meaning: باستمرار
+  example: هو يشكو باستمرار.
+hauptsächlich:
+  meaning: بشكل رئيسي
+  example: أشرب الماء بشكل رئيسي.
+allmählich:
+  meaning: تدريجياً
+  example: يصبح الجو مظلماً تدريجياً.
+somit:
+  meaning: وبالتالي
+  example: وبالتالي فإن السؤال محلول.
+der Bürgersteig:
+  meaning: الرصيف
+  example: يرجى البقاء على الرصيف.
+die Fußgängerzone:
+  meaning: منطقة المشاة
+  example: يُمنع قيادة السيارات في منطقة المشاة.
+der Zebrastreifen:
+  meaning: معبر المشاة
+  example: اعبر الشارع عند معبر المشاة.
+die Einbahnstraße:
+  meaning: شارع باتجاه واحد
+  example: هذا الشارع باتجاه واحد.
+das Parkhaus:
+  meaning: موقف سيارات
+  example: أركن السيارة في موقف السيارات.
+der Fensterplatz:
+  meaning: مقعد النافذة
+  example: أود مقعداً بجوار النافذة.
+die Fahrkartenkontrolle:
+  meaning: تفتيش التذاكر
+  example: عند تفتيش التذاكر أُظهر تذكرتي.
+der Reisepass:
+  meaning: جواز السفر
+  example: جواز سفري لا يزال سارياً.
+der Aushang:
+  meaning: إعلان
+  example: الإعلان معلق في الطابق الأرضي.
+die Aushilfe:
+  meaning: مساعد مؤقت
+  example: يعملون كمساعدين مؤقتين في المتجر.
+das Bewerbungsschreiben:
+  meaning: خطاب التقديم
+  example: أرسل خطاب التقديم بالبريد الإلكتروني.
+die Arbeitserlaubnis:
+  meaning: تصريح العمل
+  example: لهذه الوظيفة أحتاج تصريح عمل.
+die Krankenversicherung:
+  meaning: التأمين الصحي
+  example: التأمين الصحي يدفع تكاليف العلاج.
+die Zulassung:
+  meaning: قبول
+  example: وصل قبول الدراسة.
+die Heiratsurkunde:
+  meaning: شهادة زواج
+  example: للتسجيل نحتاج شهادة الزواج.
+die Grundschule:
+  meaning: المدرسة الابتدائية
+  example: ابني يذهب إلى المدرسة الابتدائية.
+das Gymnasium:
+  meaning: المدرسة الثانوية
+  example: هي تذهب إلى المدرسة الثانوية.
+die Note:
+  meaning: درجة
+  example: في الرياضيات حصلت على درجة جيدة.
+die Kopfschmerzen:
+  meaning: صداع
+  example: لدي صداع شديد اليوم.
+die Halsschmerzen:
+  meaning: ألم الحلق
+  example: عند التهاب الحلق يساعد الشاي الدافئ.
+die Bauchschmerzen:
+  meaning: ألم البطن
+  example: آلام البطن تأتي وتذهب.
+die Zahnschmerzen:
+  meaning: ألم الأسنان
+  example: ألم الأسنان مزعج حقاً.
+der Schal:
+  meaning: وشاح
+  example: في الشتاء أرتدي وشاحاً.
+die Socke:
+  meaning: جورب
+  example: يوجد جورب تحت السرير.
+der Handschuh:
+  meaning: قفاز
+  example: لقد أضعت قفازاً واحداً.
+die Mütze:
+  meaning: قبعة
+  example: ضع قبعة على رأسك!
+die Gardine:
+  meaning: ستارة
+  example: ستارة غرفة المعيشة جديدة.
+wach:
+  meaning: مستيقظ
+  example: بعد القهوة أصبحت مستيقظاً أخيراً.
+verletzt:
+  meaning: مصاب
+  example: السائق لحسن الحظ مصاب بجروح طفيفة فقط.
+ansteckend:
+  meaning: معدٍ
+  example: المرض ليس معدياً.
+schmerzhaft:
+  meaning: مؤلم
+  example: كان العلاج مؤلماً إلى حد ما.
+gestresst:
+  meaning: متوتر
+  example: بعد العمل غالباً ما أكون متوتراً.
+entspannt:
+  meaning: مسترخٍ
+  example: في عطلة نهاية الأسبوع أكون مسترخياً تماماً.
+aufgeregt:
+  meaning: متوتر، متحمس
+  example: قبل الامتحان أكون متوتراً جداً.
+beliebt:
+  meaning: محبوب
+  example: هذا المقهى محبوب لدى الطلاب.
+erfolgreich:
+  meaning: ناجح
+  example: لقد اجتازت الامتحان بنجاح.
+dankbar:
+  meaning: ممتن
+  example: أنا ممتن لك جداً.
+humorvoll:
+  meaning: فكاهي
+  example: زميلي فكاهي جداً.
+unruhig:
+  meaning: مضطرب
+  example: الطفل ينام بشكل مضطرب.
+sich auskennen:
+  meaning: يعرف التنقل
+  example: لا أعرف التنقل في المدينة.
+sich anstrengen:
+  meaning: يبذل جهداً
+  example: عليك أن تبذل جهداً أكبر.
+sich einigen:
+  meaning: يتفق
+  example: لقد اتفقنا على سعر.
+sich umdrehen:
+  meaning: يلتفت
+  example: التفت من فضلك.
+sich umsehen:
+  meaning: يلقي نظرة
+  example: أريد فقط أن ألقي نظرة في المتجر.
+besorgen:
+  meaning: يحضر، يشتري
+  example: يجب أن أحضر الحليب بعد.
+zusagen:
+  meaning: يوافق، يؤكد
+  example: لقد أكد حضوره غداً.
+ausladen:
+  meaning: يلغي الدعوة
+  example: للأسف يجب أن نلغي دعوة الضيوف.
+zurückrufen:
+  meaning: يعاود الاتصال
+  example: سأعاود الاتصال بك لاحقاً.
+weitergeben:
+  meaning: يمرر
+  example: يرجى تمرير المعلومة.
+weggehen:
+  meaning: يخرج
+  example: في عطلة نهاية الأسبوع نخرج غالباً.
+meinen:
+  meaning: يعتقد، يقصد
+  example: أعتقد أن هذا صحيح.
+führen:
+  meaning: يقود, يؤدي
+  example: الطريق يؤدي إلى محطة القطار.
+verlassen:
+  meaning: يترك, يغادر
+  example: يغادر المكتب في السادسة.
+verbessern:
+  meaning: يحسّن
+  example: أريد تحسين لغتي الألمانية.
+verbinden:
+  meaning: يربط, يوصل
+  example: من فضلك حوّل مكالمتي إلى الطبيب.
+teilen:
+  meaning: يقسم, يشارك
+  example: نتقاسم الفاتورة.
+sterben:
+  meaning: يموت
+  example: نبتتي تموت بلا ماء.
+retten:
+  meaning: ينقذ
+  example: رجال الإطفاء ينقذون الكلب.
+schützen:
+  meaning: يحمي
+  example: واقي الشمس يحمي البشرة.
+überlegen:
+  meaning: يفكر, يتأمل
+  example: ما زلت أفكر إن كنت سآتي.
+erkennen:
+  meaning: يتعرف, يميز
+  example: أتعرف عليه في الصورة.
+genießen:
+  meaning: يستمتع
+  example: نستمتع بالمساء الهادئ.
+ausgehen:
+  meaning: يخرج
+  example: نخرج هذا المساء.
+ausschalten:
+  meaning: يطفئ
+  example: أطفئ الضوء من فضلك.
+einschalten:
+  meaning: يشغّل
+  example: شغّل التلفاز من فضلك.
+auswählen:
+  meaning: يختار
+  example: اختر هدية مناسبة من فضلك.
+aufnehmen:
+  meaning: يوظف, يسجّل
+  example: الشركة توظف موظفين جدد.
+begleiten:
+  meaning: يرافق
+  example: أرافقك إلى الطبيب.
+bieten:
+  meaning: يقدم, يعرض
+  example: الفندق يقدم غرفاً هادئة.
+brennen:
+  meaning: يحرق, يحترق
+  example: النار تحترق في المدفأة.
+einfallen:
+  meaning: يخطر ببال
+  example: كلمة المرور لا تخطر ببالي.
+eintreten:
+  meaning: يدخل
+  example: ادخل بهدوء من فضلك.
+entstehen:
+  meaning: ينشأ, يحدث
+  example: يحدث ضرر بسبب المطر.
+erfinden:
+  meaning: يخترع
+  example: يخترع آلة جديدة.
+feststellen:
+  meaning: يحدد, يكتشف
+  example: يكتشف الطبيب حساسية.
+füllen:
+  meaning: يملأ
+  example: املأ الزجاجة بالماء.
+gelingen:
+  meaning: ينجح
+  example: نجحت الكعكة معي بشكل جيد.
+greifen:
+  meaning: يمسك, يتناول
+  example: تناول الملح من فضلك.
+klappen:
+  meaning: ينجح, يعمل
+  example: بمساعدتك ينجح الأمر.
+klingen:
+  meaning: يبدو, يرن
+  example: يبدو هذا كفكرة جيدة.
+leiden:
+  meaning: يعاني
+  example: تعاني من صداع شديد.
+leihen:
+  meaning: يستعير, يعير
+  example: هل يمكنك إعارة دراجتك لي؟
+mischen:
+  meaning: يخلط
+  example: اخلط الدقيق والسكر معاً.
+pflegen:
+  meaning: يعتني, يرعى
+  example: تعتني بأمها المريضة.
+raten:
+  meaning: ينصح
+  example: أنصحك بالنوم مبكراً.
+rechnen:
+  meaning: يحسب, يتوقع
+  example: نتوقع تكاليف عالية.
+reichen:
+  meaning: يكفي, يمد
+  example: المال لا يكفي للعطلة.
+reinigen:
+  meaning: ينظف
+  example: أنظف المطبخ جيداً.
+schieben:
+  meaning: يدفع
+  example: يدفع الطاولة نحو الحائط.
+senden:
+  meaning: يرسل, يبث
+  example: ترسل لي طرداً.
+stoßen:
+  meaning: يصطدم, يدفع
+  example: أصطدم بالطاولة.
+träumen:
+  meaning: يحلم
+  example: أحلم برحلة.
+treiben:
+  meaning: يمارس, يدفع
+  example: نحب ممارسة الرياضة.
+trennen:
+  meaning: يفصل, يفرز
+  example: افرز القمامة من فضلك.
+übersetzen:
+  meaning: يترجم
+  example: هل يمكنك ترجمة الرسالة؟
+übertreiben:
+  meaning: يبالغ
+  example: أنت تبالغ في خوفك.
+vermeiden:
+  meaning: يتجنب
+  example: عليك تجنب التوتر.
+vermissen:
+  meaning: يفتقد
+  example: أفتقد عائلتي.
+verschwinden:
+  meaning: يختفي
+  example: مفتاحي اختفى.
+versorgen:
+  meaning: يعتني, يزود
+  example: تعتني بأمها المريضة.
+verstecken:
+  meaning: يخبئ, يختبئ
+  example: تختبئ القطة تحت الأريكة.
+verteilen:
+  meaning: يوزع
+  example: يوزع المدير المهام.
+verwenden:
+  meaning: يستخدم
+  example: أستخدم قليلاً من الملح في الطبخ.
+warnen:
+  meaning: يحذر
+  example: يحذر الطبيب من الإجهاد الزائد.
+wiegen:
+  meaning: يزن
+  example: كم يزن هذا الطرد؟
+zunehmen:
+  meaning: يزيد, يسمن
+  example: غالباً ما أسمن في الشتاء.
+der Hinweis:
+  meaning: تلميح, ملاحظة
+  example: الإشارة على اللافتة تساعد.
+der Überblick:
+  meaning: نظرة عامة
+  example: الجدول يقدم نظرة عامة جيدة.
+der Empfang:
+  meaning: استقبال
+  example: الاستقبال في الطابق الأرضي.
+der Rest:
+  meaning: بقية, باقي
+  example: سأحضر البقية لاحقاً.
+dabei:
+  meaning: بينما, في الوقت نفسه
+  example: يقرأ ويستمع للموسيقى في الوقت نفسه.
+dafür:
+  meaning: بذلك، من أجل ذلك
+  example: أنا مهتم بذلك كثيرًا.
+davon:
+  meaning: منه، عن ذلك
+  example: لم أكن أعرف شيئًا عن ذلك.
+dazu:
+  meaning: لذلك، إلى ذلك
+  example: أحتاج مزيدًا من الوقت لهذا.
+daran:
+  meaning: بذلك، على ذلك
+  example: أفكر في ذلك كثيرًا.
+darauf:
+  meaning: على ذلك، بذلك
+  example: أنا أتطلع إلى ذلك كثيرًا.
+stattdessen:
+  meaning: بدلاً من ذلك
+  example: بدلًا من ذلك أفضّل الشاي.
+zufällig:
+  meaning: بالصدفة
+  example: قابلته بالصدفة.
+absichtlich:
+  meaning: عن قصد، متعمد
+  example: فعل ذلك عن قصد.
+mittlerweile:
+  meaning: الآن، في هذه الأثناء
+  example: في هذه الأثناء أسكن وحدي.
+der Vergleich:
+  meaning: المقارنة
+  example: تُظهر المقارنة فروقًا كبيرة.
+das Geheimnis:
+  meaning: السر
+  example: لديها سر.
+der Vorgesetzte:
+  meaning: الرئيس في العمل
+  example: مديري ليس هنا اليوم.
+die Personalabteilung:
+  meaning: قسم الموارد البشرية
+  example: قسم الموارد البشرية يفحص مستنداتي.
+die Vollzeit:
+  meaning: دوام كامل
+  example: تعمل الآن بدوام كامل.
+die Kündigungsfrist:
+  meaning: مهلة الإخطار
+  example: مدة الإشعار ثلاثة أشهر.
+der Dauerauftrag:
+  meaning: أمر دفع دائم
+  example: أدفع الإيجار بأمر دفع دائم.
+der Kredit:
+  meaning: القرض
+  example: يمنحه البنك قرضًا.
+die Urkunde:
+  meaning: شهادة، وثيقة
+  example: الشهادة موجودة في الملف.
+der Kassierer:
+  meaning: أمين الصندوق
+  example: يعطيني أمين الصندوق الباقي.
+das Wechselgeld:
+  meaning: الباقي، الفكة
+  example: لم أستلم الباقي.
+der Einkaufszettel:
+  meaning: قائمة التسوق
+  example: أكتب قائمة تسوق.
+die Einkaufstasche:
+  meaning: حقيبة التسوق
+  example: خذ حقيبة تسوق معك.
+das Etikett:
+  meaning: الملصق، البطاقة
+  example: يظهر الملصق السعر.
+das Haltbarkeitsdatum:
+  meaning: تاريخ انتهاء الصلاحية
+  example: تحقق من تاريخ انتهاء الصلاحية على العبوة.
+der Behälter:
+  meaning: الحاوية، الوعاء
+  example: الوعاء لا يزال فارغًا.
+der Deckel:
+  meaning: الغطاء
+  example: الغطاء لا يناسب القدر.
+das Pfand:
+  meaning: تأمين، وديعة
+  example: تدفع تأمينًا مقابل الزجاجة.
+der Eimer:
+  meaning: الدلو
+  example: الدلو في المطبخ.
+der Schwamm:
+  meaning: الإسفنجة
+  example: خذ إسفنجة للتنظيف.
+der Kleiderbügel:
+  meaning: علاقة الملابس
+  example: علّق السترة على علاقة الملابس.
+die Unterwäsche:
+  meaning: الملابس الداخلية
+  example: تجد الملابس الداخلية في الطابق الثاني.
+der Motor:
+  meaning: المحرك
+  example: المحرك يصدر ضجيجًا عاليًا.
+die Bremse:
+  meaning: الفرامل، المكبح
+  example: الفرامل لا تعمل بشكل صحيح.
+der Kofferraum:
+  meaning: صندوق السيارة
+  example: تتسع الحقيبة في صندوق السيارة.
+der Abflug:
+  meaning: الإقلاع، المغادرة
+  example: الإقلاع في الساعة الثامنة.
+die Landung:
+  meaning: الهبوط
+  example: كان الهبوط في الموعد تمامًا.
+die Sicherheitskontrolle:
+  meaning: التفتيش الأمني
+  example: يستغرق التفتيش الأمني وقتًا طويلًا.
+der Wagen:
+  meaning: السيارة، العربة
+  example: السيارة لها أربعة أبواب.
+das Handgepäck:
+  meaning: الأمتعة اليدوية
+  example: أمتعتي اليدوية ثقيلة جدًا.
+die Einreise:
+  meaning: الدخول، دخول البلد
+  example: كان الدخول دون مشاكل.
+die Route:
+  meaning: الطريق، المسار
+  example: هذا المسار أقصر.
+das Zelt:
+  meaning: الخيمة
+  example: ننام في الخيمة.
+der Campingplatz:
+  meaning: مخيم، موقع التخييم
+  example: نبيت في المخيم.
+das Knie:
+  meaning: الركبة
+  example: ركبتي تؤلمني بعد الجري.
+der Ellenbogen:
+  meaning: المرفق
+  example: أصاب مرفقه.
+der Zeh:
+  meaning: إصبع القدم
+  example: إصبع القدم أحمر ومتورّم.
+die Hüfte:
+  meaning: الورك
+  example: تشعر بألم في الورك.
+die Verlobung:
+  meaning: الخطوبة
+  example: نحتفل بخطوبتنا في الصيف.
+der Stolz:
+  meaning: الفخر، الكبرياء
+  example: أُصيب كبرياؤه.
+der Kummer:
+  meaning: الحزن، الهم
+  example: لديها حزن كبير.
+die Hilfsbereitschaft:
+  meaning: الاستعداد للمساعدة
+  example: استعداده للمساعدة مثير للإعجاب.
+die Neugier:
+  meaning: الفضول
+  example: كان فضوله أقوى.
+die Reihenfolge:
+  meaning: الترتيب، التسلسل
+  example: يرجى مراعاة الترتيب.
+die Ähnlichkeit:
+  meaning: التشابه
+  example: التشابه يكاد لا يُصدق.
+der Gangplatz:
+  meaning: مقعد الممر
+  example: أريد مقعدًا على الممر.
+die Gepäckausgabe:
+  meaning: استلام الأمتعة
+  example: ننتظر عند استلام الأمتعة.
+die Wanderung:
+  meaning: المشي الطويل، التنزه
+  example: المشي لمسافات طويلة يستغرق ثلاث ساعات.
+der Besen:
+  meaning: المكنسة
+  example: المكنسة في الزاوية.
+die Fliese:
+  meaning: البلاطة
+  example: بلاطة الحمام مكسورة.
+aufwachen:
+  meaning: يستيقظ
+  example: أستيقظ كل صباح في السادسة.
+angeben:
+  meaning: يذكر، يصرح
+  example: يرجى ذكر اسمك عند شباك الخدمة.
+ankreuzen:
+  meaning: يضع علامة، يؤشر
+  example: يرجى تأشير الإجابة الصحيحة.
+ausdrucken:
+  meaning: يطبع
+  example: لا يزال عليّ طباعة الطلب.
+hochladen:
+  meaning: يرفع
+  example: يرجى رفع الصورة هنا.
+anklicken:
+  meaning: ينقر على
+  example: يرجى النقر على الزر الأخضر.
+sich einloggen:
+  meaning: يسجل الدخول
+  example: أسجل الدخول بكلمة المرور.
+sich ausloggen:
+  meaning: يسجل الخروج
+  example: يرجى تسجيل الخروج في النهاية.
+einwerfen:
+  meaning: يرمي، يُدخل
+  example: يرجى إلقاء الرسالة في الصندوق.
+zustellen:
+  meaning: يسلم، يوصل
+  example: سيُسلَّم الطرد غدًا.
+vorlegen:
+  meaning: يقدم، يعرض
+  example: يرجى إظهار بطاقة هويتك عند المدخل.
+einreichen:
+  meaning: يقدم
+  example: يرجى تقديم المستندات بحلول الجمعة.
+genehmigen:
+  meaning: يوافق على، يعتمد
+  example: لا يزال على المدير الموافقة على الإجازة.
+einhalten:
+  meaning: يلتزم بـ
+  example: يجب علينا الالتزام بقواعد الشركة.
+verhandeln:
+  meaning: يتفاوض
+  example: تتفاوض الشركة مع المورد.
+braten:
+  meaning: يقلي، يشوي
+  example: أقلي اللحم في المقلاة.
+schälen:
+  meaning: يقشر
+  example: يرجى تقشير البطاطس للطعام.
+würzen:
+  meaning: يتبل
+  example: عليك تتبيل الحساء بشكل أفضل.
+abwaschen:
+  meaning: يغسل الأواني
+  example: بعد الطهي يجب أن أغسل الأواني.
+husten:
+  meaning: يسعل
+  example: الطفل يسعل بشدة منذ أمس.
+trösten:
+  meaning: يواسي
+  example: هي تواسي صديقتها بعد الخلاف.
+verreisen:
+  meaning: يسافر
+  example: نسافر الأسبوع القادم لمدة ثلاثة أيام.
+aufmerksam:
+  meaning: منتبه
+  example: إنه يستمع دائمًا بانتباه شديد.
+ungeduldig:
+  meaning: غير صبور
+  example: انتظر من فضلك، فأنا غير صبور جدًا.
+neidisch:
+  meaning: حاسد، يغار
+  example: إنها تغار من نجاحه.
+großzügig:
+  meaning: كريم، سخي
+  example: جاري كريم جدًا.
+sparsam:
+  meaning: مقتصد
+  example: تعيش مقتصدة ونادرًا ما تشتري الجديد.
+ähnlich:
+  meaning: مشابه
+  example: الغرفتان متشابهتان جدًا.
+unterschiedlich:
+  meaning: مختلف
+  example: آراء الزملاء مختلفة.
+die Aufregung:
+  meaning: الإثارة، التوتر
+  example: قبل الامتحان يشتد التوتر.
+die Kindheit:
+  meaning: الطفولة
+  example: كانت طفولتي سعيدة جدًا.
+die Jugend:
+  meaning: الشباب
+  example: في شبابه كان يلعب كرة القدم.
+die Diele:
+  meaning: الردهة، الممر
+  example: ضع الحذاء في الردهة من فضلك.
+die Ärztin:
+  meaning: الطبيبة
+  example: الطبيبة تفحص ظهري اليوم.
+der Notar:
+  meaning: الموثق
+  example: الموثق يصادق على توقيعاتنا.
+die Anlage:
+  meaning: المرفق
+  example: لا يزال مرفق طلب التقديم مفقودًا.
+der Zugang:
+  meaning: الوصول، المدخل
+  example: الوصول إلى المبنى محظور.
+der Ausblick:
+  meaning: المنظر، الإطلالة
+  example: من الشرفة لدينا إطلالة جميلة.
+die Rundfahrt:
+  meaning: جولة سياحية
+  example: تستغرق الجولة السياحية عبر المدينة ساعتين.
+die Durchsage:
+  meaning: الإعلان، النداء
+  example: كان من الصعب فهم الإعلان في محطة القطار.
+das Schicksal:
+  meaning: المصير
+  example: لا أحد يعرف مصيره.
+die Grippe:
+  meaning: الإنفلونزا
+  example: لدي إنفلونزا وسأبقى في السرير.
+die Infektion:
+  meaning: العدوى
+  example: يجب علاج العدوى بسرعة.
+der Virus:
+  meaning: الفيروس
+  example: ينتشر الفيروس بسرعة كبيرة.
+die Narbe:
+  meaning: الندبة
+  example: بعد العملية تبقى ندبة صغيرة.
+der Gips:
+  meaning: الجبس
+  example: وضع الطبيب ذراعي في الجبس.
+die Krücke:
+  meaning: العكاز
+  example: يمشي بعكاز بعد الحادث.
+der Rollstuhl:
+  meaning: الكرسي المتحرك
+  example: جدتي تحتاج الآن إلى كرسي متحرك.
+schwindelig:
+  meaning: دائخ
+  example: أشعر بالدوار، سأجلس.
+übel:
+  meaning: غثيان
+  example: بعد الأكل شعرت بالغثيان.
+erkältet:
+  meaning: مصاب بالبرد، مزكوم
+  example: أنا مصاب بالبرد وسأبقى في المنزل اليوم.
+heiser:
+  meaning: أجش
+  example: بعد الحفل أصبحت أجش تمامًا.
+die Stärke:
+  meaning: القوة
+  example: الصبر قوة مهمة في العمل.
+die Schwäche:
+  meaning: الضعف
+  example: لكل إنسان ضعف صغير.
+die Qualifikation:
+  meaning: المؤهل
+  example: ينقصني المؤهل لهذه الوظيفة.
+die Umschulung:
+  meaning: إعادة التدريب
+  example: يبدأ في الخريف إعادة تدريب جديدة.
+die Bereitschaft:
+  meaning: الاستعداد
+  example: استعدادها للمساعدة كبير.
+die Einigung:
+  meaning: الاتفاق
+  example: بعد خلاف طويل حدث اتفاق أخيرًا.
+die Versöhnung:
+  meaning: المصالحة
+  example: لم تكن المصالحة معه سهلة.
+die Verwandtschaft:
+  meaning: الأقارب
+  example: يحضر حفل الزفاف كل الأقارب.
+die Uhrzeit:
+  meaning: الوقت
+  example: هل تعرف الوقت الدقيق؟
+das Besteck:
+  meaning: أدوات المائدة
+  example: توجد أدوات المائدة بجانب الطبق.
+die Energie:
+  meaning: طاقة
+  example: يجب أن نوفر الطاقة.
+die Batterie:
+  meaning: بطارية
+  example: بطارية الهاتف فارغة.
+der Laptop:
+  meaning: حاسوب محمول
+  example: حاسوبي المحمول بطيء جدًا اليوم.
+die Schere:
+  meaning: مقص
+  example: المقص في الدرج.
+der Hammer:
+  meaning: مطرقة
+  example: المطرقة في القبو.
+der Nagel:
+  meaning: مسمار، ظفر
+  example: أحتاج مسمارًا للصورة.
+die Leiter:
+  meaning: سلّم
+  example: السلّم في المرآب.
+der Stecker:
+  meaning: قابس
+  example: القابس لا يدخل في المقبس.
+die Spüle:
+  meaning: حوض غسيل
+  example: الكأس بجانب الحوض.
+der Ofen:
+  meaning: فرن
+  example: الكعكة في الفرن بالفعل.
+die Waage:
+  meaning: ميزان
+  example: الميزان في الحمام.
+der Umschlag:
+  meaning: ظرف
+  example: الرسالة لا تزال في الظرف.
+das Blatt:
+  meaning: ورقة
+  example: خذ ورقة جديدة من فضلك.
+die Landkarte:
+  meaning: خريطة
+  example: ستجد البحيرة على الخريطة.
+die Landstraße:
+  meaning: طريق ريفي
+  example: نسير عبر الطريق الريفي إلى القرية.
+die Ausfahrt:
+  meaning: مخرج
+  example: خذ المخرج التالي.
+der Stiefel:
+  meaning: حذاء طويل
+  example: أرتدي أحذية طويلة دافئة في الشتاء.
+der Reißverschluss:
+  meaning: سحّاب
+  example: سحّاب سترتي معطل.
+die Umkleidekabine:
+  meaning: غرفة تبديل الملابس
+  example: غرفة القياس مشغولة للأسف.
+die Zitrone:
+  meaning: ليمون
+  example: أحتاج ليمونة للسلطة.
+die Birne:
+  meaning: كمثرى
+  example: الكمثرى ناضجة وحلوة.
+der Senf:
+  meaning: خردل
+  example: أحب الخردل مع النقانق.
+der Spinat:
+  meaning: سبانخ
+  example: السبانخ صحي ولذيذ جدًا.
+der Lachs:
+  meaning: سلمون
+  example: أشتري سلمونًا طازجًا لليوم.
+die Haferflocken:
+  meaning: شوفان
+  example: أتناول الشوفان بالحليب على الفطور.
+das Mineralwasser:
+  meaning: ماء معدني
+  example: أريد ماءً معدنيًا من فضلك.
+die Migräne:
+  meaning: صداع نصفي
+  example: عند الصداع النصفي يساعد الهدوء أحيانًا فقط.
+die Zahnseide:
+  meaning: خيط الأسنان
+  example: أستخدم خيط الأسنان كل مساء.
+das Deo:
+  meaning: مزيل عرق
+  example: مزيل العرق في الحمام.
+der Berater:
+  meaning: مستشار
+  example: المستشار يساعدني في الطلب.
+das Bürgerbüro:
+  meaning: مكتب المواطنين
+  example: مكتب المواطنين مغلق اليوم.
+das Anschreiben:
+  meaning: خطاب التقديم
+  example: خطاب التقديم طويل جدًا للأسف.
+die Bewerbungsfrist:
+  meaning: آخر موعد للتقديم
+  example: آخر موعد للتقديم ينتهي يوم الجمعة.
+die Rate:
+  meaning: قسط
+  example: ندفع ثمن السيارة بالأقساط.
+die Zinsen:
+  meaning: فوائد
+  example: فوائد القرض مرتفعة.
+die Schwierigkeit:
+  meaning: صعوبة
+  example: لدي صعوبات مع النموذج.
+der Gewinn:
+  meaning: ربح
+  example: الربح يعود للمدرسة.
+die Form:
+  meaning: شكل
+  example: الكعكة لها شكل دائري.
+der Geruch:
+  meaning: رائحة
+  example: الرائحة من المطبخ لذيذة.
+der Toaster:
+  meaning: محمصة خبز
+  example: محمصة الخبز معطلة للأسف.
+das Tablett:
+  meaning: صينية
+  example: النادل يحضر لنا الصينية.
+der Dosenöffner:
+  meaning: فتاحة علب
+  example: فتاحة العلب في الدرج.
+der Korkenzieher:
+  meaning: فتاحة قوارير
+  example: هل لديك فتاحة قوارير للنبيذ؟
+das Schneidebrett:
+  meaning: لوح تقطيع
+  example: لوح التقطيع بجانب الموقد.
+das Backblech:
+  meaning: صينية خبز
+  example: صينية الخبز في الفرن بالفعل.
+der Mixer:
+  meaning: خلاط
+  example: الخلاط يجعل العصير ناعمًا.
+das Sieb:
+  meaning: مصفاة
+  example: أحتاج مصفاة للشاي.
+die Kultur:
+  meaning: ثقافة
+  example: أهتم بالثقافات الأخرى.
+die Religion:
+  meaning: دين
+  example: لا يلعب الدين دورًا بالنسبة له.
+der Glaube:
+  meaning: إيمان، اعتقاد
+  example: الإيمان يعطيها قوة.
+die Wirtschaft:
+  meaning: اقتصاد
+  example: الاقتصاد يحتاج كفاءات مدربة جيدًا.
+die Wissenschaft:
+  meaning: علم
+  example: العلم يبحث عن حل.
+die Forschung:
+  meaning: بحث
+  example: البحث يساعد الطب.
+die Technik:
+  meaning: تقنية
+  example: التقنية تجعل الحياة أسهل.
+das Publikum:
+  meaning: جمهور
+  example: صفق الجمهور طويلًا وبصوت عالٍ.
+die Aufführung:
+  meaning: عرض
+  example: يبدأ العرض في الساعة الثامنة.
+die Sehnsucht:
+  meaning: شوق
+  example: لديها شوق إلى عائلتها.
+die Zuneigung:
+  meaning: مودة
+  example: الإيماءات الصغيرة غالبًا تُظهر المودة.
+das Team:
+  meaning: فريق
+  example: الفريق يعمل معًا بشكل جيد.
+der Angestellte:
+  meaning: الموظف
+  example: الموظف يعمل في المكتب.
+die Rückmeldung:
+  meaning: رد، تغذية راجعة
+  example: ما زلت أنتظر ردكم.
+die Anweisung:
+  meaning: تعليمات
+  example: اتبع تعليمات المدير.
+der Praktikant:
+  meaning: المتدرب
+  example: المتدرب يتعلم في الشركة.
+die Motivation:
+  meaning: الحافز، الدافعية
+  example: انخفض حافز الموظفين.
+die Flexibilität:
+  meaning: المرونة
+  example: يُتوقع المرونة في العمل.
+der Zeitdruck:
+  meaning: ضغط الوقت
+  example: تحت ضغط الوقت أرتكب أخطاء.
+die Gehaltsverhandlung:
+  meaning: مفاوضة الراتب
+  example: كانت مفاوضة الراتب ناجحة.
+die Arbeitsagentur:
+  meaning: وكالة العمل، مكتب العمل
+  example: وكالة العمل تساعد في البحث عن وظيفة.
+die Rücksprache:
+  meaning: تشاور، استشارة
+  example: يرجى التشاور مسبقًا.
+die Teamfähigkeit:
+  meaning: مهارات العمل الجماعي
+  example: مهارات العمل الجماعي مهمة في المهنة.
+der Lieferant:
+  meaning: المورد
+  example: المورد يجلب البضاعة اليوم.
+der Liefertermin:
+  meaning: موعد التسليم
+  example: تم تأجيل موعد التسليم.
+die Entlassung:
+  meaning: الفصل من العمل، الإقالة
+  example: كان الفصل مفاجئًا له.
+die Selbstständigkeit:
+  meaning: العمل الحر
+  example: تحلم بالعمل الحر.
+die Mahnung:
+  meaning: إنذار دفع، تذكير بالدفع
+  example: وصل إنذار الدفع بالبريد.
+der Vorgang:
+  meaning: عملية، قضية
+  example: لا تزال العملية قيد المعالجة.
+die Bearbeitung:
+  meaning: المعالجة
+  example: تستغرق المعالجة بضعة أيام.
+die Erstattung:
+  meaning: استرداد
+  example: يتم الاسترداد إلى حسابك.
+der Einspruch:
+  meaning: اعتراض
+  example: قدّم اعتراضًا على القرار.
+das Porto:
+  meaning: رسوم البريد، أجرة البريد
+  example: ارتفعت رسوم البريد للخطاب.
+die Mappe:
+  meaning: ملف، حافظة
+  example: المستندات في الملف.
+der Kopierer:
+  meaning: آلة نسخ، ناسخة
+  example: آلة النسخ لا تعمل اليوم.
+der Scanner:
+  meaning: ماسح ضوئي
+  example: الماسح الضوئي لا يتعرف على النص.
+das Fax:
+  meaning: فاكس
+  example: أرسل النموذج بالفاكس.
+der Tacker:
+  meaning: دباسة
+  example: الدباسة في الدرج.
+der USB-Stick:
+  meaning: ذاكرة USB، فلاشة
+  example: احفظ الملف على ذاكرة USB.
+die Bestellnummer:
+  meaning: رقم الطلب
+  example: رقم الطلب مكتوب على الفاتورة.
+die Lieferadresse:
+  meaning: عنوان التسليم
+  example: يرجى ذكر عنوان التسليم.
+der Kundendienst:
+  meaning: خدمة العملاء
+  example: خدمة العملاء تساعد في المشكلات.
+der Sonderpreis:
+  meaning: سعر خاص
+  example: اليوم هناك سعر خاص.
+der Ausverkauf:
+  meaning: تنزيلات، تصفية
+  example: في التصفية كل شيء أرخص.
+der Ladenschluss:
+  meaning: وقت إغلاق المتجر
+  example: قبل إغلاق المتجر بقليل يكون المكان فارغًا.
+die Kundenkarte:
+  meaning: بطاقة العميل، بطاقة ولاء
+  example: ببطاقة العميل تحصل على خصم.
+der Pfandautomat:
+  meaning: آلة إرجاع القوارير
+  example: آلة إرجاع القوارير لا تقبل الزجاجات.
+der Vorrat:
+  meaning: مخزون، احتياطي
+  example: لدينا مخزون من المعكرونة.
+der Strohhalm:
+  meaning: مصاصة، شفاطة
+  example: الطفل يشرب بمصاصة.
+der Ketchup:
+  meaning: كاتشب
+  example: يأكل البطاطس المقلية مع الكاتشب.
+die Mayonnaise:
+  meaning: مايونيز
+  example: لا أحب المايونيز على السلطة.
+der Trockner:
+  meaning: مجفف
+  example: الغسيل لا يزال في المجفف.
+die Reinigung:
+  meaning: التنظيف الجاف
+  example: آخذ المعطف إلى التنظيف الجاف.
+die Wäscherei:
+  meaning: مغسلة
+  example: المغسلة مغلقة اليوم.
+das Wartezimmer:
+  meaning: غرفة الانتظار
+  example: في غرفة الانتظار يجلس مرضى كثيرون.
+die Nebenwirkung:
+  meaning: أثر جانبي
+  example: الدواء ليس له آثار جانبية.
+der Befund:
+  meaning: نتيجة طبية، تقرير طبي
+  example: يناقش الطبيب النتيجة الطبية معي.
+die Zahnspange:
+  meaning: تقويم أسنان
+  example: ترتدي تقويم أسنان منذ عام.
+der Anschlusszug:
+  meaning: قطار مواصل، قطار ربط
+  example: قطار الربط ينطلق بعد عشر دقائق.
+der Fahrkartenautomat:
+  meaning: آلة تذاكر
+  example: اشترت تذكرة من آلة التذاكر.
+die Endstation:
+  meaning: المحطة النهائية
+  example: ننزل عند المحطة النهائية.
+der Umweg:
+  meaning: طريق أطول، التفاف
+  example: بسبب ورشة البناء أخذنا طريقًا أطول.
+die Strecke:
+  meaning: مسار، مسافة
+  example: المسار إلى برلين طويل.
+der Passagier:
+  meaning: راكب
+  example: الركاب ينتظرون عند البوابة.
+der Parkautomat:
+  meaning: آلة دفع مواقف
+  example: آلة دفع المواقف تقبل النقود المعدنية فقط.
+die Ferien:
+  meaning: العطلة، الإجازة المدرسية
+  example: في العطلة نذهب إلى البحر.
+die Wettervorhersage:
+  meaning: توقعات الطقس
+  example: توقعات الطقس تشير إلى المطر.
+der Grad:
+  meaning: درجة
+  example: اليوم هناك عشر درجات.
+die Bevölkerung:
+  meaning: السكان
+  example: سكان المدينة في ازدياد.
+die Öffentlichkeit:
+  meaning: الجمهور، العلن
+  example: الفعالية مفتوحة للجمهور.
+die Anerkennung:
+  meaning: تقدير، اعتراف
+  example: حصلت على تقدير كبير لعملها.
+vorsichtig:
+  meaning: حذر
+  example: كن حذرًا على الدرج المبلل.
+ansehen:
+  meaning: يشاهد، ينظر إلى
+  example: نشاهد اليوم فيلمًا.
+beide:
+  meaning: كلاهما
+  example: كلا الطفلين يذهبان إلى المدرسة بالفعل.
+unterwegs:
+  meaning: في الطريق، متنقل
+  example: أنا متنقل طوال اليوم.
+zuständig:
+  meaning: مسؤول
+  example: من المسؤول عن الطلب؟
+klären:
+  meaning: يوضح، يحسم
+  example: يجب أن نوضح المسألة بعد.
+melden:
+  meaning: يبلّغ، يسجّل
+  example: يرجى تسجيل حضورك عند الاستقبال.
+abschicken:
+  meaning: يرسل
+  example: سأرسل الطرد غدًا.
+erwähnen:
+  meaning: يذكر
+  example: لم يذكر المشكلة.
+hinweisen:
+  meaning: يشير إلى، ينبّه
+  example: هو يشير إلى الموعد النهائي.
+überzeugen:
+  meaning: يقنع
+  example: حججه أقنعتني.
+verursachen:
+  meaning: يسبب
+  example: الضجيج يسبب لي التوتر.
+schätzen:
+  meaning: يقدّر
+  example: أنا أقدّر مساعدتك كثيرًا.
+lächeln:
+  meaning: يبتسم
+  example: هي تبتسم دائمًا بلطف.
+nachschauen:
+  meaning: يتحقق، ينظر
+  example: يرجى التحقق في التقويم.
+vorbeikommen:
+  meaning: يمرّ، يزور
+  example: مرّ عندنا غدًا.
+zusammenfassen:
+  meaning: يلخّص
+  example: لخّص النص باختصار.
+durchführen:
+  meaning: ينفّذ، يجري
+  example: سنجري الامتحان غدًا.
+bevorzugen:
+  meaning: يفضّل
+  example: أنا أفضّل القطار.
+entsorgen:
+  meaning: يتخلص من
+  example: يرجى التخلص من القمامة بشكل صحيح.
+erfahren:
+  meaning: يعلم، يكتشف
+  example: علمت بالحادث.
+beibringen:
+  meaning: يعلّم
+  example: هو يعلّمني الألمانية.
+wenden:
+  meaning: يتوجه، يلجأ
+  example: توجّه إلى المكتب.
+ansprechen:
+  meaning: يخاطب، يتناول
+  example: خاطب المدير مباشرة.
+technisch:
+  meaning: تقني
+  example: المشكلة تقنية.
+digital:
+  meaning: رقمي
+  example: كثير من الطلبات أصبحت رقمية الآن.
+jederzeit:
+  meaning: في أي وقت
+  example: يمكنك الاتصال في أي وقت.
+zurzeit:
+  meaning: حاليًا
+  example: أبحث حاليًا عن شقة جديدة.
+irgendein:
+  meaning: أحد ما، أي
+  example: اتصل أحد الموظفين.
+solch:
+  meaning: مثل هذا
+  example: غالبًا ما نواجه مثل هذه المشكلات.
+dauernd:
+  meaning: باستمرار
+  example: هو مريض باستمرار.
+süchtig:
+  meaning: مدمن
+  example: هو مدمن على القهوة.
+die Bildung:
+  meaning: التعليم
+  example: التعليم مهم للمستقبل.
+die Kommunikation:
+  meaning: التواصل
+  example: التواصل الجيد مهم في الفريق.
+der Arbeitsmarkt:
+  meaning: سوق العمل
+  example: سوق العمل صعب في الوقت الحالي.
+die Verwaltung:
+  meaning: الإدارة
+  example: الإدارة في الطابق الأول.
+der Staat:
+  meaning: الدولة
+  example: الدولة تدفع تكاليف العديد من المدارس.
+die Regierung:
+  meaning: الحكومة
+  example: أقرّت الحكومة قاعدة جديدة.
+die Vorschrift:
+  meaning: لائحة، تعليمات
+  example: تنطبق هذه اللائحة على الجميع.
+die Gemeinde:
+  meaning: البلدية
+  example: تبني البلدية مسبحًا جديدًا.
+die Generation:
+  meaning: الجيل
+  example: جيلّي يفكر بشكل مختلف حول التقنية.
+die Persönlichkeit:
+  meaning: الشخصية
+  example: لديها شخصية قوية.
+die Leidenschaft:
+  meaning: الشغف
+  example: إنها تطبخ بشغف كبير.
+die Kreativität:
+  meaning: الإبداع
+  example: هذا العمل يتطلب إبداعًا.
+die Armut:
+  meaning: الفقر
+  example: الفقر مشكلة كبيرة.
+der Reichtum:
+  meaning: الثروة
+  example: الثروة لا تجعل المرء سعيدًا دائمًا.
+der Klimawandel:
+  meaning: تغيّر المناخ
+  example: تغيّر المناخ يؤثر على جميع البلدان.
+der Service:
+  meaning: الخدمة
+  example: كانت الخدمة في الفندق جيدة.
+die Beilage:
+  meaning: طبق جانبي
+  example: كطبق جانبي آكل سلطة.
+der Vegetarier:
+  meaning: نباتي
+  example: أخي نباتي.
+der Wochenmarkt:
+  meaning: سوق أسبوعي
+  example: أيام السبت أذهب إلى السوق الأسبوعي.
+der Metzger:
+  meaning: جزار
+  example: لدى الجزار لحم طازج.
+die Traube:
+  meaning: عنب، حبة عنب
+  example: العنب حلو جدًا.
+die Zunge:
+  meaning: لسان
+  example: عضضت لساني.
+die Lippe:
+  meaning: شفة
+  example: شفتاي جافتان تمامًا.
+die Stirn:
+  meaning: جبهة
+  example: لديه ألم في جبهته.
+heilen:
+  meaning: يشفى، يشفي
+  example: الجرح يشفى بسرعة كبيرة.
+die Mitfahrgelegenheit:
+  meaning: مشاركة سيارة، توصيلة
+  example: أبحث عن توصيلة إلى برلين.
+der Mitfahrer:
+  meaning: راكب مرافق
+  example: تأخر الراكب المرافق.
+die Heimreise:
+  meaning: رحلة العودة
+  example: كانت رحلة العودة متعبة جدًا.

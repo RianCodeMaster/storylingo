@@ -1,5 +1,6 @@
 import { type AssetRef, assetUrl, type One, one } from "./assets";
 import type { Edition } from "./editions";
+import type { SrsRow } from "./srs";
 import { supabase } from "./supabase";
 
 /**
@@ -20,6 +21,7 @@ export interface PhraseCard {
   topics: string[]; // health, work, office, … (pipeline/phrases.py TOPICS), the first is the main one
   example?: string | null; // words: a short sentence with the word, and in the base language
   exampleMeaning?: string | null;
+  srs?: SrsRow; // practised before (practising again): its state; new cards start empty
 }
 
 /** The topics of daily life a phrase can belong to, the same for every language (pipeline/phrases.py TOPICS). */

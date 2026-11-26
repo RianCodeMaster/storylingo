@@ -1500,3 +1500,5220 @@ interesante:
 bonito:
   meaning: pretty, nice
   example: Your dress is very pretty.
+aunque:
+  meaning: although
+  example: Although I'm tired, I'm going to work.
+mientras:
+  meaning: while
+  example: I listen to music while I cook.
+además:
+  meaning: besides, also
+  example: Besides, the flat has a terrace.
+así:
+  meaning: like this, thus
+  example: Do it like this, please.
+tan:
+  meaning: so
+  example: The exam was so easy.
+tanto:
+  meaning: so much, so many
+  example: Don't work so much today.
+mismo:
+  meaning: same
+  example: I live in the same neighborhood.
+varios:
+  meaning: several
+  example: I have several pending emails.
+sino:
+  meaning: but rather
+  example: It's not blue, but rather green.
+durante:
+  meaning: during
+  example: I studied during the whole afternoon.
+hacia:
+  meaning: towards
+  example: Walk towards the station.
+contra:
+  meaning: against
+  example: I put the bike against the wall.
+según:
+  meaning: according to
+  example: According to the schedule, we open at nine.
+incluso:
+  meaning: even
+  example: Even the boss came to the party.
+abajo:
+  meaning: downstairs, below
+  example: The bathroom is downstairs.
+arriba:
+  meaning: upstairs, above
+  example: The office is upstairs.
+adelante:
+  meaning: come in, forward
+  example: Please come in.
+atrás:
+  meaning: back, behind
+  example: Look back before leaving.
+enfrente:
+  meaning: opposite, in front
+  example: The bank is opposite.
+excepto:
+  meaning: except
+  example: We open every day except Sunday.
+bajo:
+  meaning: under, low
+  example: The cat is under the table.
+importante:
+  meaning: important
+  example: It is important to arrive early.
+posible:
+  meaning: possible
+  example: Is it possible to pay by card?
+imposible:
+  meaning: impossible
+  example: It's impossible to park here.
+necesario:
+  meaning: necessary
+  example: It's not necessary to book a table.
+diferente:
+  meaning: different
+  example: My brother is very different.
+igual:
+  meaning: same, never mind
+  example: Never mind, it's fine.
+tranquilo:
+  meaning: quiet, calm
+  example: The neighborhood is very quiet.
+ocupado:
+  meaning: occupied, busy
+  example: The bathroom is occupied.
+libre:
+  meaning: free, available
+  example: Is this table free?
+simpático:
+  meaning: friendly, nice
+  example: Your neighbor is very friendly.
+antipático:
+  meaning: unfriendly, unpleasant
+  example: The waiter was a bit unfriendly.
+amable:
+  meaning: kind
+  example: The nurse was very kind.
+serio:
+  meaning: serious
+  example: It's a serious problem.
+alegre:
+  meaning: cheerful, happy
+  example: You're very cheerful today.
+famoso:
+  meaning: famous
+  example: It's a famous restaurant.
+peligroso:
+  meaning: dangerous
+  example: Driving like that is dangerous.
+malo:
+  meaning: bad
+  example: This yogurt is bad.
+aceptar:
+  meaning: accept
+  example: I accept the offer, thanks.
+acabar:
+  meaning: finish, have just
+  example: I have just arrived home.
+acordarse:
+  meaning: remember
+  example: I don't remember his name.
+acostarse:
+  meaning: go to bed
+  example: I go to bed late on Fridays.
+alquilar:
+  meaning: rent
+  example: I want to rent a flat.
+apagar:
+  meaning: turn off
+  example: Turn off the light, please.
+aparcar:
+  meaning: park
+  example: I can't park here.
+arreglar:
+  meaning: repair, fix
+  example: The technician repairs the computer.
+avisar:
+  meaning: notify, warn
+  example: Let me know when you arrive.
+bailar:
+  meaning: dance
+  example: We dance at the party.
+cambiar:
+  meaning: change
+  example: I want to change money.
+cancelar:
+  meaning: cancel
+  example: I have to cancel the appointment.
+cantar:
+  meaning: sing
+  example: My daughter sings very well.
+casarse:
+  meaning: get married
+  example: They are getting married in June.
+cenar:
+  meaning: have dinner
+  example: We have dinner at nine.
+cobrar:
+  meaning: get paid, charge
+  example: I get my salary on Friday.
+comenzar:
+  meaning: begin
+  example: The movie begins now.
+conducir:
+  meaning: drive
+  example: Drive slowly, please.
+contar:
+  meaning: tell, count
+  example: Tell me the problem.
+cortar:
+  meaning: cut
+  example: Cut the bread, please.
+costar:
+  meaning: cost
+  example: How much does this sweater cost?
+cuidar:
+  meaning: look after, take care of
+  example: Look after your brother.
+el puesto:
+  meaning: job position
+  example: I want a position in this company.
+la tarea:
+  meaning: task, homework
+  example: Today I have a lot of tasks at work.
+la lista:
+  meaning: list
+  example: Write the shopping list.
+la oferta:
+  meaning: special offer, offer
+  example: These apples are on special offer today.
+el descuento:
+  meaning: discount
+  example: Can you give me a discount?
+la talla:
+  meaning: size
+  example: Do you have this shirt in my size?
+el probador:
+  meaning: fitting room
+  example: The fitting room is at the back of the shop.
+la rebaja:
+  meaning: discount, sale
+  example: There's a discount on this shirt.
+el dependiente:
+  meaning: shop assistant
+  example: The shop assistant helped me a lot.
+el carrito:
+  meaning: shopping trolley, cart
+  example: Get a trolley for the supermarket.
+el refresco:
+  meaning: soft drink
+  example: I want a cold soft drink, please.
+la hamburguesa:
+  meaning: burger
+  example: We ordered a burger with fries.
+la pizza:
+  meaning: pizza
+  example: This pizza is very good.
+el sándwich:
+  meaning: sandwich
+  example: I eat a sandwich at work.
+la lechuga:
+  meaning: lettuce
+  example: Put lettuce in the salad.
+la zanahoria:
+  meaning: carrot
+  example: Carrots are good for your eyesight.
+el ajo:
+  meaning: garlic
+  example: I put garlic in the soup.
+la harina:
+  meaning: flour
+  example: I need flour to make a cake.
+la miel:
+  meaning: honey
+  example: I like honey with bread.
+el atún:
+  meaning: tuna
+  example: There is tuna in the salad.
+el bistec:
+  meaning: steak
+  example: The steak is very rare.
+la tapa:
+  meaning: snack portion, tapa
+  example: Here we order a tapa with our drink.
+el alquiler:
+  meaning: rent, rental
+  example: The rent for the flat is very expensive.
+el garaje:
+  meaning: garage
+  example: The car is in the garage.
+el mueble:
+  meaning: piece of furniture
+  example: This piece of furniture is old but beautiful.
+el microondas:
+  meaning: microwave
+  example: I heat the soup in the microwave.
+la calefacción:
+  meaning: heating
+  example: The heating doesn't work in winter.
+la basura:
+  meaning: rubbish, trash
+  example: Take out the rubbish before going to bed.
+el resfriado:
+  meaning: cold
+  example: I have a cold and I'm not going to work.
+el síntoma:
+  meaning: symptom
+  example: This symptom is normal with the flu.
+la consulta:
+  meaning: doctor's office, consultation
+  example: The doctor's office opens at nine.
+la vacuna:
+  meaning: vaccine
+  example: I have been given the flu vaccine.
+la herida:
+  meaning: wound
+  example: Wash the wound with soap and water.
+el seguro:
+  meaning: insurance, safe
+  example: I have insurance for the car.
+la urgencia:
+  meaning: emergency, urgency
+  example: I have an emergency and I'm going to the hospital.
+el cinturón:
+  meaning: seat belt, belt
+  example: Put on your seat belt before starting the car.
+el pasajero:
+  meaning: passenger
+  example: The passenger is waiting on the platform.
+el tranvía:
+  meaning: tram
+  example: The tram comes every ten minutes.
+la autopista:
+  meaning: motorway, highway
+  example: The motorway is busy on Sundays.
+la gasolinera:
+  meaning: petrol station, gas station
+  example: We stopped at the petrol station to refuel.
+la reserva:
+  meaning: booking, reservation
+  example: I have a booking for two people.
+el destino:
+  meaning: destination, destiny
+  example: Our destination is a small village.
+la pareja:
+  meaning: partner, couple
+  example: My partner and I live together.
+la boda:
+  meaning: wedding
+  example: The wedding is in June in the countryside.
+la amistad:
+  meaning: friendship
+  example: Friendship is very important to me.
+la invitación:
+  meaning: invitation
+  example: Thanks for the invitation to your party.
+finalmente:
+  meaning: finally
+  example: Finally we got home very tired.
+perdonar:
+  meaning: to forgive
+  example: It is difficult to forgive a lie.
+pues:
+  meaning: well, then
+  example: Well, I prefer to stay at home.
+la entrevista:
+  meaning: job interview, interview
+  example: Tomorrow I have a job interview.
+la impresora:
+  meaning: printer
+  example: The printer doesn't work in the office.
+la pantalla:
+  meaning: screen
+  example: The computer screen is very big.
+el teclado:
+  meaning: keyboard
+  example: This keyboard types very well.
+el informe:
+  meaning: report
+  example: I have to hand in the report on Monday.
+el carné:
+  meaning: driving licence, ID card
+  example: I carry my driving licence in my bag.
+la multa:
+  meaning: fine
+  example: I got a fine for parking badly.
+el ayuntamiento:
+  meaning: town hall
+  example: I have an appointment at the town hall.
+la solicitud:
+  meaning: application form, application
+  example: I filled in the application form for the job.
+el sello:
+  meaning: stamp
+  example: I need a stamp for this letter.
+la fotocopia:
+  meaning: photocopy
+  example: Make two photocopies of your passport.
+pedir:
+  meaning: ask for, order
+  example: I'm going to ask for the bill, please.
+preferir:
+  meaning: prefer
+  example: I prefer tea with milk.
+perder:
+  meaning: lose, miss
+  example: I missed the bus this morning.
+enviar:
+  meaning: send
+  example: I'm going to send the package today.
+explicar:
+  meaning: explain
+  example: Can you explain the problem again?
+firmar:
+  meaning: sign
+  example: You have to sign here, please.
+gastar:
+  meaning: spend
+  example: I don't want to spend a lot of money today.
+guardar:
+  meaning: keep, save
+  example: Keep the receipt in the wallet.
+intentar:
+  meaning: try
+  example: I'm going to try to call later.
+invitar:
+  meaning: invite, treat
+  example: I'll treat you to a coffee.
+mejorar:
+  meaning: improve
+  example: I hope to improve my Spanish this year.
+olvidar:
+  meaning: forget
+  example: Don't forget the keys at home.
+preparar:
+  meaning: prepare
+  example: I'm going to prepare dinner now.
+probar:
+  meaning: try, taste
+  example: Can I try on this shirt?
+recordar:
+  meaning: remember
+  example: I don't remember the hotel's name.
+reservar:
+  meaning: reserve, book
+  example: I want to reserve a table for two.
+aburrido:
+  meaning: boring, bored
+  example: The match was very boring.
+divertido:
+  meaning: fun, funny
+  example: It's a very fun game.
+preocupado:
+  meaning: worried
+  example: I'm worried about my exam.
+sano:
+  meaning: healthy
+  example: This menu is healthy and cheap.
+delgado:
+  meaning: thin, slim
+  example: My brother is very thin now.
+guapo:
+  meaning: handsome, good-looking
+  example: That boy is very handsome.
+cómodo:
+  meaning: comfortable
+  example: This sofa is very comfortable.
+moderno:
+  meaning: modern
+  example: The kitchen has a modern design.
+el problema:
+  meaning: problem
+  example: The problem is that I don't have time.
+la idea:
+  meaning: idea
+  example: I think it's a good idea.
+la información:
+  meaning: information
+  example: I need more information about the course.
+la pregunta:
+  meaning: question
+  example: I have a question about the exam.
+la respuesta:
+  meaning: answer
+  example: I don't know the correct answer.
+la razón:
+  meaning: reason
+  example: I don't understand the reason for your anger.
+el momento:
+  meaning: moment
+  example: This is the perfect moment.
+la palabra:
+  meaning: word
+  example: I don't know this word in Spanish.
+la clase:
+  meaning: class, lesson
+  example: Class starts at nine.
+el curso:
+  meaning: course
+  example: I'm taking an online English course.
+el examen:
+  meaning: exam
+  example: The driving exam is difficult.
+la escuela:
+  meaning: school
+  example: The children go to school.
+la biblioteca:
+  meaning: library
+  example: I study in the neighborhood library.
+el diccionario:
+  meaning: dictionary
+  example: I look up the word in the dictionary.
+el cine:
+  meaning: cinema, movie theater
+  example: We're going to the cinema tonight.
+el museo:
+  meaning: museum
+  example: The museum opens at ten.
+el partido:
+  meaning: match, game
+  example: The match starts at eight.
+el equipo:
+  meaning: team
+  example: My team plays tomorrow.
+la fecha:
+  meaning: date
+  example: What is the date of the appointment?
+el beso:
+  meaning: kiss
+  example: He gave her a kiss on the cheek.
+el abrazo:
+  meaning: hug
+  example: He gave me a big hug.
+la sonrisa:
+  meaning: smile
+  example: She has a very pretty smile.
+la verdad:
+  meaning: truth
+  example: Tell me the truth, please.
+la enfermedad:
+  meaning: illness, disease
+  example: The illness is not serious.
+la dieta:
+  meaning: diet
+  example: Diet is important for health.
+la ambulancia:
+  meaning: ambulance
+  example: Call an ambulance, quickly.
+el accidente:
+  meaning: accident
+  example: There was an accident on the road.
+el edificio:
+  meaning: building
+  example: The building has four floors.
+la planta:
+  meaning: floor, plant
+  example: I live on the ground floor.
+el horno:
+  meaning: oven
+  example: The chicken is in the oven.
+la sartén:
+  meaning: frying pan
+  example: The frying pan is very dirty.
+la carnicería:
+  meaning: butcher's, butcher shop
+  example: I buy the chicken at the butcher's.
+el escaparate:
+  meaning: shop window
+  example: Look at that store's shop window.
+el paquete:
+  meaning: package, parcel
+  example: The package arrives tomorrow.
+el mostrador:
+  meaning: counter
+  example: Pay at the counter, please.
+la frutería:
+  meaning: fruit shop, greengrocer's
+  example: The oranges are at the fruit shop.
+el mensaje:
+  meaning: message
+  example: I've left you a message on your mobile.
+el tamaño:
+  meaning: size
+  example: Do you have this shirt in another size?
+el ticket:
+  meaning: receipt
+  example: Keep the receipt just in case.
+la cola:
+  meaning: queue
+  example: There's a long queue at the supermarket.
+el cajero:
+  meaning: cash machine
+  example: I withdraw money from the bank cash machine.
+la cesta:
+  meaning: shopping basket
+  example: Put the fruit in the basket, please.
+la devolución:
+  meaning: item return
+  example: I want to return these shoes.
+la etiqueta:
+  meaning: label
+  example: Look at the label to see the price.
+el bolsillo:
+  meaning: pocket
+  example: I have the keys in my pocket.
+el calcetín:
+  meaning: sock
+  example: I need to buy new socks.
+la bufanda:
+  meaning: scarf
+  example: Put on your scarf, it's very cold.
+el sombrero:
+  meaning: hat
+  example: I like that straw hat.
+el traje:
+  meaning: suit
+  example: I'm wearing a suit for the wedding.
+el botón:
+  meaning: button
+  example: A button has come off the shirt.
+el cajón:
+  meaning: drawer
+  example: The cutlery is in the drawer.
+el enchufe:
+  meaning: plug socket
+  example: I can't find a plug socket for the charger.
+la bombilla:
+  meaning: light bulb
+  example: The living room light bulb isn't working.
+el fregadero:
+  meaning: kitchen sink
+  example: There are dirty dishes in the kitchen sink.
+la plancha:
+  meaning: iron
+  example: The iron is in the cupboard.
+el contenedor:
+  meaning: waste container
+  example: Throw the rubbish in the yellow container.
+el champú:
+  meaning: shampoo
+  example: I need to buy shampoo for my hair.
+la crema:
+  meaning: cream
+  example: I put cream on my hands.
+el peine:
+  meaning: comb
+  example: Where is the comb? I can't find it.
+la tirita:
+  meaning: plaster
+  example: Put a plaster on your finger.
+el termómetro:
+  meaning: thermometer
+  example: The thermometer is in the first-aid kit.
+el mareo:
+  meaning: dizziness
+  example: I feel dizzy and need to sit down.
+la venda:
+  meaning: bandage
+  example: The doctor puts a bandage on me.
+el botiquín:
+  meaning: first-aid kit
+  example: We keep the pills in the first-aid kit.
+la mascarilla:
+  meaning: face mask
+  example: Wear a face mask in the pharmacy.
+el análisis:
+  meaning: blood test
+  example: They've done a blood test on me.
+la pausa:
+  meaning: break
+  example: We have a coffee during the break.
+el turno:
+  meaning: shift
+  example: Today I'm working the night shift.
+la nómina:
+  meaning: payslip
+  example: The payslip arrives on the last day of the month.
+el currículum:
+  meaning: CV
+  example: I sent my CV to the company.
+el despacho:
+  meaning: office
+  example: The boss is in his office.
+el proyecto:
+  meaning: project
+  example: We're working together on a new project.
+el calendario:
+  meaning: calendar
+  example: Look at the calendar for the appointment.
+la agenda:
+  meaning: diary
+  example: Write the meeting down in the diary.
+el lápiz:
+  meaning: pencil
+  example: Will you lend me a pencil, please?
+el cuaderno:
+  meaning: notebook
+  example: I write the homework in the notebook.
+la goma:
+  meaning: eraser
+  example: I erase the mistake with the eraser.
+las tijeras:
+  meaning: scissors
+  example: Cut the paper with the scissors.
+la pila:
+  meaning: small battery
+  example: The remote doesn't work without batteries.
+el cargador:
+  meaning: charger
+  example: I've left the charger at home.
+el mando:
+  meaning: remote control
+  example: Where is the TV remote control?
+el ratón:
+  meaning: computer mouse
+  example: The computer mouse isn't working.
+la contraseña:
+  meaning: password
+  example: I don't remember the wifi password.
+los auriculares:
+  meaning: headphones
+  example: I listen to music with headphones.
+la cámara:
+  meaning: camera
+  example: I take photos with the new camera.
+la batería:
+  meaning: battery
+  example: The phone has no battery.
+el buzón:
+  meaning: mailbox
+  example: Leave the letter in the mailbox.
+la ida:
+  meaning: outbound trip
+  example: I've only bought the outbound ticket.
+la vuelta:
+  meaning: return trip
+  example: The return ticket is more expensive.
+la rotonda:
+  meaning: roundabout
+  example: Take the second exit off the roundabout.
+la avería:
+  meaning: breakdown
+  example: The car has a breakdown in the engine.
+el taller:
+  meaning: garage
+  example: I'm taking the car to the garage tomorrow.
+el mecánico:
+  meaning: mechanic
+  example: The mechanic checks the car.
+la aduana:
+  meaning: customs
+  example: We go through customs at the airport.
+la acera:
+  meaning: pavement
+  example: The children walk on the pavement.
+el peatón:
+  meaning: pedestrian
+  example: The pedestrian has priority at the crossing.
+dejar:
+  meaning: leave, let
+  example: I leave the keys on the table.
+pasar:
+  meaning: spend, pass
+  example: I spend the weekend at home.
+seguir:
+  meaning: continue, follow
+  example: Continue straight ahead to the square.
+sentirse:
+  meaning: feel
+  example: I feel a little tired.
+traer:
+  meaning: bring
+  example: I bring the dessert to the party.
+demasiado:
+  meaning: too much, too
+  example: This coffee is too hot.
+mejor:
+  meaning: better
+  example: This flat is better than the other one.
+vender:
+  meaning: sell
+  example: I'm selling my old bike.
+recoger:
+  meaning: pick up
+  example: I pick up the children at five.
+repetir:
+  meaning: repeat
+  example: Can you repeat the question, please?
+responder:
+  meaning: answer
+  example: Answer the message tonight.
+romper:
+  meaning: break
+  example: I don't want to break the glass.
+sacar:
+  meaning: take out
+  example: Take out the rubbish, please.
+saludar:
+  meaning: greet
+  example: Say hello to the neighbour when you leave.
+servir:
+  meaning: serve, be useful
+  example: What is this button for?
+tardar:
+  meaning: take time
+  example: The bus takes ten minutes.
+tirar:
+  meaning: throw away
+  example: Throw the paper in the bin.
+tocar:
+  meaning: touch
+  example: Don't touch the socket, it's dangerous.
+vestir:
+  meaning: get dressed, dress
+  example: I get dressed quickly in the morning.
+parecer:
+  meaning: seem
+  example: It seems a good idea to me.
+ofrecer:
+  meaning: offer
+  example: I offer you a coffee at home.
+permitir:
+  meaning: allow
+  example: They don't allow dogs in the hotel.
+presentar:
+  meaning: introduce
+  example: Let me introduce you to my colleague from work.
+prestar:
+  meaning: lend
+  example: Will you lend me your pen?
+recibir:
+  meaning: receive
+  example: I receive letters from the bank.
+recomendar:
+  meaning: recommend
+  example: I recommend the fish of the day.
+regalar:
+  meaning: give as a gift
+  example: I'm giving my mother flowers as a gift.
+robar:
+  meaning: steal
+  example: There has been a robbery at the office.
+compartir:
+  meaning: share
+  example: Two friends and I share a flat.
+comprender:
+  meaning: understand
+  example: I don't understand this word.
+conseguir:
+  meaning: get, manage
+  example: I have got tickets for the cinema.
+continuar:
+  meaning: continue
+  example: Continue straight along this street.
+cruzar:
+  meaning: cross
+  example: Cross the street at the crossing.
+elegir:
+  meaning: choose
+  example: Choose a dessert from the menu.
+encender:
+  meaning: turn on
+  example: I turn on the hallway light.
+enseñar:
+  meaning: show, teach
+  example: Show me the photos, please.
+entregar:
+  meaning: hand in
+  example: I hand in the report to the boss.
+funcionar:
+  meaning: work, function
+  example: The lift isn't working today.
+ganar:
+  meaning: win, earn
+  example: My team is winning the match.
+imprimir:
+  meaning: print
+  example: I print the form at the office.
+llenar:
+  meaning: fill
+  example: Fill the bottle with water.
+llover:
+  meaning: rain
+  example: It rains a lot in the north.
+mover:
+  meaning: move
+  example: Move the table to the living room.
+participar:
+  meaning: take part
+  example: I take part in a Spanish course.
+pasear:
+  meaning: stroll
+  example: We stroll through the park.
+quejarse:
+  meaning: complain
+  example: I complain about the noise from the bar.
+interesar:
+  meaning: interest
+  example: I am very interested in history.
+suficiente:
+  meaning: enough
+  example: We have enough food for everyone.
+peor:
+  meaning: worse
+  example: Today the traffic is worse.
+enseguida:
+  meaning: right away
+  example: I'll be back right away; wait here.
+normalmente:
+  meaning: usually
+  example: I usually have coffee and toast for breakfast.
+jamás:
+  meaning: never
+  example: I have never seen such a long film.
+la vida:
+  meaning: life
+  example: Life in the village is quiet.
+la suerte:
+  meaning: luck
+  example: Good luck on the exam.
+el teatro:
+  meaning: theatre
+  example: We're going to the theatre on Saturday.
+el concierto:
+  meaning: concert
+  example: The concert starts at eight.
+el campo:
+  meaning: countryside
+  example: My grandparents live in the countryside.
+el sobre:
+  meaning: envelope
+  example: Put the letter in the envelope.
+la ayuda:
+  meaning: help
+  example: Thanks for your help.
+el favor:
+  meaning: favor
+  example: Will you do me a favor?
+deber:
+  meaning: must, owe
+  example: You must rest a little.
+almorzar:
+  meaning: eat lunch
+  example: I always have lunch at two.
+despertarse:
+  meaning: wake up
+  example: I wake up at seven.
+ducharse:
+  meaning: take a shower
+  example: I shower in the morning.
+sentarse:
+  meaning: sit down
+  example: Sit here, please.
+nadar:
+  meaning: swim
+  example: I swim twice a week.
+parar:
+  meaning: stop
+  example: The bus stops here.
+devolver:
+  meaning: return something
+  example: I want to return this shirt.
+ahorrar:
+  meaning: save money
+  example: I save money every month.
+encantar:
+  meaning: love, delight
+  example: I love chocolate.
+quedar:
+  meaning: meet, arrange
+  example: We're meeting at eight.
+celebrar:
+  meaning: celebrate
+  example: We celebrate your birthday at home.
+reír:
+  meaning: laugh
+  example: I laugh a lot with them.
+llorar:
+  meaning: cry
+  example: The child cries a lot.
+discutir:
+  meaning: argue
+  example: Don't argue with your brother.
+charlar:
+  meaning: chat
+  example: We chat for a while in the bar.
+despedirse:
+  meaning: say goodbye
+  example: I say goodbye to my friends.
+ordenar:
+  meaning: tidy, order
+  example: Tidy your room, please.
+planchar:
+  meaning: iron clothes
+  example: I have to iron the shirt.
+fumar:
+  meaning: smoke
+  example: You can't smoke here.
+girar:
+  meaning: turn
+  example: Turn right.
+durar:
+  meaning: last
+  example: The trip lasts two hours.
+valer:
+  meaning: cost, be worth
+  example: How much does this T-shirt cost?
+montar:
+  meaning: ride
+  example: I like riding a bike.
+entrenar:
+  meaning: train
+  example: I train at the gym.
+ponerse:
+  meaning: put on
+  example: I put on my coat.
+quitarse:
+  meaning: take off
+  example: Take off your shoes.
+probarse:
+  meaning: try on
+  example: Can I try on the skirt?
+secarse:
+  meaning: dry oneself
+  example: Dry your hair, it's cold.
+peinarse:
+  meaning: comb hair
+  example: I comb my hair before going out.
+enfadarse:
+  meaning: get angry
+  example: My father gets angry easily.
+preocuparse:
+  meaning: worry
+  example: Don't worry about that.
+aún:
+  meaning: still, yet
+  example: I'm still waiting for your answer.
+ojalá:
+  meaning: hopefully
+  example: Hopefully it will be sunny tomorrow.
+la mermelada:
+  meaning: jam
+  example: I eat bread with jam.
+la galleta:
+  meaning: biscuit
+  example: I have a biscuit with coffee.
+la lata:
+  meaning: can, tin
+  example: I want a can of tuna.
+la pimienta:
+  meaning: pepper
+  example: Add a little pepper.
+el pastel:
+  meaning: cake
+  example: The cake is very tasty.
+la almohada:
+  meaning: pillow
+  example: The pillow is very soft.
+la manta:
+  meaning: blanket
+  example: I need a blanket on the bed.
+la sábana:
+  meaning: sheet
+  example: I change the sheet every week.
+la cortina:
+  meaning: curtain
+  example: Close the curtain, please.
+la alfombra:
+  meaning: rug
+  example: The rug is in the living room.
+el cuadro:
+  meaning: picture
+  example: There is a picture on the wall.
+la estantería:
+  meaning: shelf
+  example: The books are on the shelf.
+el grifo:
+  meaning: tap
+  example: Turn off the tap, please.
+la bañera:
+  meaning: bathtub
+  example: The cat sleeps in the bathtub.
+el ventilador:
+  meaning: fan
+  example: I turn on the fan in summer.
+el congelador:
+  meaning: freezer
+  example: The meat is in the freezer.
+el guante:
+  meaning: glove
+  example: I have lost a glove.
+la corbata:
+  meaning: tie
+  example: My father wears a tie to work.
+la cartera:
+  meaning: wallet
+  example: I can't find my wallet.
+el pañuelo:
+  meaning: handkerchief
+  example: I use a handkerchief for my nose.
+la peluquería:
+  meaning: hairdresser's
+  example: I'm going to the hairdresser's this Saturday.
+la recepción:
+  meaning: reception
+  example: The key is at reception.
+el paro:
+  meaning: unemployment
+  example: He has been out of work since May.
+la fotocopiadora:
+  meaning: copier
+  example: The copier isn't working today.
+la muela:
+  meaning: molar, tooth
+  example: One of my molars hurts.
+ambos:
+  meaning: both
+  example: Both live in the same neighborhood.
+apenas:
+  meaning: barely, hardly
+  example: I barely have time to eat.
+justo:
+  meaning: just, exactly
+  example: I arrived just in time for the meeting.
+cierto:
+  meaning: true, certain
+  example: It's true that it rains a lot here.
+propio:
+  meaning: own
+  example: I have my own office at home.
+faltar:
+  meaning: to be missing, to lack
+  example: A little salt is missing.
+felicitar:
+  meaning: to congratulate
+  example: Congratulations on your new job.
+gritar:
+  meaning: to shout
+  example: Don't shout, please.
+mudarse:
+  meaning: to move house
+  example: We're moving to another flat soon.
+nacer:
+  meaning: to be born
+  example: My nephew was born in April.
+oler:
+  meaning: to smell
+  example: This flower smells very good.
+opinar:
+  meaning: to think, to opine
+  example: What do you think of the film?
+organizar:
+  meaning: to organise
+  example: I'm organising a party for Saturday.
+reciclar:
+  meaning: to recycle
+  example: We recycle paper and plastic.
+rellenar:
+  meaning: to fill in
+  example: Fill in the form with your details.
+reparar:
+  meaning: to repair
+  example: The mechanic is repairing the car.
+toser:
+  meaning: to cough
+  example: The child coughs a lot at night.
+el mundo:
+  meaning: world
+  example: I want to travel all over the world.
+el idioma:
+  meaning: language
+  example: Spanish is a beautiful language.
+el grupo:
+  meaning: group
+  example: I go to a conversation group.
+el plan:
+  meaning: plan
+  example: Do you have plans for the weekend?
+el consejo:
+  meaning: advice
+  example: My friend gave me good advice.
+el secreto:
+  meaning: secret
+  example: I keep my friend's secret.
+la mentira:
+  meaning: lie
+  example: That lie isn't good.
+el humor:
+  meaning: mood, humour
+  example: He's in a good mood in the morning.
+el error:
+  meaning: mistake
+  example: There's a mistake on the invoice.
+la solución:
+  meaning: solution
+  example: We're looking for a solution to the problem.
+el resultado:
+  meaning: result
+  example: The exam result is good.
+la nota:
+  meaning: grade, note
+  example: I get good grades in the course.
+la frase:
+  meaning: sentence
+  example: I don't understand this sentence.
+la letra:
+  meaning: handwriting, letter
+  example: Write your name in clear handwriting.
+la asignatura:
+  meaning: school subject
+  example: My favourite subject is history.
+la noticia:
+  meaning: news item
+  example: I read a very interesting news item.
+el periódico:
+  meaning: newspaper
+  example: I buy the newspaper every morning.
+el usuario:
+  meaning: user
+  example: Write your username.
+el gasto:
+  meaning: expense
+  example: I keep track of household expenses.
+la queja:
+  meaning: complaint
+  example: I want to make a complaint.
+el servicio:
+  meaning: service
+  example: The restaurant service is slow.
+el producto:
+  meaning: product
+  example: This product is cheaper.
+el artículo:
+  meaning: item, article
+  example: That item is on sale.
+la marca:
+  meaning: brand
+  example: This brand of coffee is good.
+el color:
+  meaning: colour
+  example: I prefer this blue colour.
+el vinagre:
+  meaning: vinegar
+  example: I put vinegar on the salad.
+la ternera:
+  meaning: beef
+  example: The beef is very good today.
+el jarabe:
+  meaning: syrup
+  example: I take syrup for my cough.
+la pomada:
+  meaning: ointment, cream
+  example: Put ointment on the wound.
+la inyección:
+  meaning: injection
+  example: The nurse gives me an injection.
+la cerradura:
+  meaning: lock
+  example: The door lock is broken.
+el timbre:
+  meaning: doorbell
+  example: The doorbell at home doesn't work.
+el portal:
+  meaning: entrance hall
+  example: I'll wait for you in the entrance hall.
+el turista:
+  meaning: tourist
+  example: The tourist asks about the museum.
+la excursión:
+  meaning: day trip, excursion
+  example: We're going on a day trip to the mountains.
+el guía:
+  meaning: guide
+  example: The guide explains the monument.
+el invitado:
+  meaning: guest
+  example: There's a guest at the party.
+el dueño:
+  meaning: owner
+  example: The owner of the flat is friendly.
+el bombero:
+  meaning: firefighter
+  example: The firefighter arrives very quickly.
+el abogado:
+  meaning: lawyer
+  example: My lawyer reviews the contract.
+el ingeniero:
+  meaning: engineer
+  example: I work as an engineer at a company.
+enamorado:
+  meaning: in love
+  example: He's in love with his neighbour.
+tímido:
+  meaning: shy
+  example: My brother is very shy.
+la prisa:
+  meaning: hurry, rush
+  example: I'm in a hurry, I'm late for work.
+la sorpresa:
+  meaning: surprise
+  example: The party was a very nice surprise.
+la alegría:
+  meaning: joy, happiness
+  example: Your visit brings me great joy.
+la tristeza:
+  meaning: sadness
+  example: Sadness shows on their face.
+la opinión:
+  meaning: opinion
+  example: I want to know your opinion about the plan.
+la decisión:
+  meaning: decision
+  example: The decision was difficult for everyone.
+la duda:
+  meaning: doubt, question
+  example: I have a question about the homework.
+la conversación:
+  meaning: conversation
+  example: The conversation with my boss was short.
+la espera:
+  meaning: wait, waiting
+  example: The wait at the doctor's is long.
+el silencio:
+  meaning: silence
+  example: I like the silence in the morning.
+el saludo:
+  meaning: greeting
+  example: A friendly greeting opens many doors.
+el cariño:
+  meaning: affection, love
+  example: Their affection makes me feel good.
+la risa:
+  meaning: laughter
+  example: Their laughter is contagious and cheerful.
+sorprendido:
+  meaning: surprised
+  example: I am surprised by the news.
+la paz:
+  meaning: peace
+  example: I seek peace and quiet at home.
+el almuerzo:
+  meaning: lunch
+  example: Lunch is at two.
+la merienda:
+  meaning: afternoon snack
+  example: We have an afternoon snack around mid-afternoon.
+la propina:
+  meaning: tip
+  example: We left a tip at the restaurant.
+la calidad:
+  meaning: quality
+  example: The quality of this shirt is good.
+el mediodía:
+  meaning: midday, noon
+  example: We eat at midday at work.
+la medianoche:
+  meaning: midnight
+  example: The train leaves at midnight.
+la nube:
+  meaning: cloud
+  example: There is a gray cloud in the sky.
+el cielo:
+  meaning: sky, heaven
+  example: The sky is blue and clear today.
+el árbol:
+  meaning: tree
+  example: There is a big tree in the garden.
+el animal:
+  meaning: animal
+  example: My favorite animal is the dog.
+el pájaro:
+  meaning: bird
+  example: A bird is singing at the window.
+el pez:
+  meaning: fish
+  example: The fish swims in the water.
+el fuego:
+  meaning: fire
+  example: Don't touch the fire; it's dangerous.
+la muñeca:
+  meaning: wrist, doll
+  example: My wrist hurts when I write.
+el hombro:
+  meaning: shoulder
+  example: I have pain in my right shoulder.
+la barriga:
+  meaning: belly, stomach
+  example: My belly hurts after eating.
+el oído:
+  meaning: ear, hearing
+  example: I can't hear well with this ear.
+la vista:
+  meaning: eyesight, view
+  example: I have poor near vision.
+la carrera:
+  meaning: degree course, career
+  example: I am studying a computer science degree.
+el título:
+  meaning: certificate, degree
+  example: I need the certificate for the job.
+la práctica:
+  meaning: practice
+  example: Practice makes perfect.
+el juez:
+  meaning: judge
+  example: The judge listens to the witnesses.
+la ley:
+  meaning: law
+  example: The law protects citizens.
+la frontera:
+  meaning: border
+  example: We cross the border with our passports.
+el extranjero:
+  meaning: abroad, foreigner
+  example: I have lived abroad for years.
+la vía:
+  meaning: track, lane
+  example: The train is on track two.
+el sótano:
+  meaning: basement, cellar
+  example: We keep the suitcases in the basement.
+el colchón:
+  meaning: mattress
+  example: This mattress is very comfortable.
+la mesilla:
+  meaning: bedside table, nightstand
+  example: I leave my glasses on the bedside table.
+el sillón:
+  meaning: armchair
+  example: I sit in the armchair in the living room.
+la olla:
+  meaning: pot
+  example: I put the rice in the pot.
+el lavavajillas:
+  meaning: dishwasher
+  example: My dishwasher doesn't work well.
+el secador:
+  meaning: hairdryer
+  example: The hairdryer is in the bathroom.
+la escoba:
+  meaning: broom
+  example: The broom is behind the door.
+la librería:
+  meaning: bookshop, bookstore
+  example: I buy a book at the bookshop.
+la zapatería:
+  meaning: shoe shop
+  example: There is a shoe shop on the corner.
+la pescadería:
+  meaning: fish shop, fishmonger's
+  example: The fresh fish is at the fish shop.
+la pastelería:
+  meaning: bakery, pastry shop
+  example: The cake from the bakery is delicious.
+el quiosco:
+  meaning: newsstand, kiosk
+  example: I buy the newspaper at the newsstand.
+la lavandería:
+  meaning: laundry, laundrette
+  example: I wash the clothes in the laundry.
+colgar:
+  meaning: hang up, hang
+  example: I am going to hang the coat there.
+meter:
+  meaning: put in, insert
+  example: Put the clothes in the suitcase.
+empujar:
+  meaning: push
+  example: Push the door to open it.
+señalar:
+  meaning: point out, point to
+  example: The guide points out the correct path.
+apuntar:
+  meaning: write down, note
+  example: Write down my phone number.
+la compra:
+  meaning: shopping, purchase
+  example: I do the shopping on Saturdays.
+el bar:
+  meaning: bar, café
+  example: I have breakfast at the corner bar.
+el sitio:
+  meaning: place, spot
+  example: This place is very quiet.
+el lugar:
+  meaning: place
+  example: It's a good place to eat.
+la cosa:
+  meaning: thing
+  example: Put the things on the table.
+el descanso:
+  meaning: break, rest
+  example: I need a ten-minute break.
+la rutina:
+  meaning: routine
+  example: My routine starts at seven.
+el despertador:
+  meaning: alarm clock
+  example: The alarm clock rings very early.
+la alarma:
+  meaning: alarm
+  example: The alarm rings at seven.
+el paseo:
+  meaning: walk, stroll
+  example: We take a walk in the park.
+el ejercicio:
+  meaning: exercise
+  example: I exercise three times a week.
+la siesta:
+  meaning: afternoon nap
+  example: After lunch I take an afternoon nap.
+la radio:
+  meaning: radio
+  example: I listen to the radio in the morning.
+la canción:
+  meaning: song
+  example: This song is very pretty.
+el juego:
+  meaning: game
+  example: That game is very fun.
+la revista:
+  meaning: magazine
+  example: I read a magazine on the train.
+la cafetería:
+  meaning: coffee shop
+  example: We have coffee at the coffee shop downtown.
+la flor:
+  meaning: flower
+  example: I buy a flower for my mother.
+el aire:
+  meaning: air
+  example: I need fresh air in the office.
+el hielo:
+  meaning: ice
+  example: Put ice in the glass, please.
+la parte:
+  meaning: part
+  example: This part of the book is easy.
+el lado:
+  meaning: side
+  example: My house is on the other side.
+la diferencia:
+  meaning: difference
+  example: There is a big difference between the two.
+el tema:
+  meaning: topic
+  example: That topic is very interesting.
+vosotros:
+  meaning: you plural
+  example: Do you all live downtown?
+le:
+  meaning: to him/her
+  example: I give the gift to my mother.
+nos:
+  meaning: us, ourselves
+  example: We'll see each other Monday at the bar.
+la edad:
+  meaning: age
+  example: At what age did you learn to swim?
+el novio:
+  meaning: boyfriend
+  example: My boyfriend lives in another neighborhood.
+la novia:
+  meaning: girlfriend, bride
+  example: The bride is wearing a white dress.
+el marido:
+  meaning: husband
+  example: Her husband works at a bank.
+la esposa:
+  meaning: wife
+  example: My wife is an English teacher.
+el adulto:
+  meaning: adult
+  example: An adult needs eight hours of sleep.
+el anciano:
+  meaning: elderly man
+  example: The elderly man walks in the park.
+la broma:
+  meaning: joke
+  example: It was just a joke, don't get angry.
+la pena:
+  meaning: pity, sadness
+  example: I feel sad about not going to the party.
+la ilusión:
+  meaning: excitement, hope
+  example: I'm very excited about the trip.
+el estrés:
+  meaning: stress
+  example: Stress is not good for health.
+la revisión:
+  meaning: check-up
+  example: I have a check-up at the dentist.
+la experiencia:
+  meaning: experience
+  example: I have experience in office jobs.
+el archivo:
+  meaning: file
+  example: Save the file in that folder.
+el camino:
+  meaning: path, way
+  example: This path leads to the village.
+el río:
+  meaning: river
+  example: The river runs near my house.
+el puente:
+  meaning: bridge
+  example: We cross the bridge to go downtown.
+el lago:
+  meaning: lake
+  example: The lake is calm in the morning.
+el bosque:
+  meaning: forest
+  example: We walk through the forest on Sunday.
+la isla:
+  meaning: island
+  example: The island is small but pretty.
+la costa:
+  meaning: coast
+  example: In summer we go to the coast.
+la tormenta:
+  meaning: storm
+  example: The storm arrives tonight.
+el viajero:
+  meaning: traveller
+  example: The traveller waits on the platform.
+el camping:
+  meaning: campsite
+  example: We sleep at a campsite near the sea.
+el bañador:
+  meaning: swimsuit
+  example: I put on my swimsuit at the beach.
+la gorra:
+  meaning: cap
+  example: I wear a cap when it's sunny.
+el pijama:
+  meaning: pyjamas
+  example: I sleep in cotton pyjamas.
+el perfume:
+  meaning: perfume
+  example: My mother uses a soft perfume.
+el anillo:
+  meaning: ring
+  example: That gold ring is expensive.
+la joya:
+  meaning: jewel
+  example: This jewel is very expensive.
+la afición:
+  meaning: hobby
+  example: My hobby is reading.
+la lectura:
+  meaning: reading
+  example: Reading helps me relax.
+la moda:
+  meaning: fashion
+  example: Fashion changes every year.
+sin embargo:
+  meaning: however
+  example: It's expensive; however, I'm buying it.
+decidir:
+  meaning: to decide
+  example: I have decided to change jobs.
+aparecer:
+  meaning: to appear
+  example: My phone appeared on the sofa.
+ocurrir:
+  meaning: to happen
+  example: What happened yesterday at the office?
+tratar:
+  meaning: to try, treat
+  example: I'm going to try to help you.
+mantener:
+  meaning: to keep, maintain
+  example: I want to keep calm.
+evitar:
+  meaning: to avoid
+  example: I try to avoid the traffic in the morning.
+disfrutar:
+  meaning: to enjoy
+  example: We enjoyed the trip a lot.
+cumplir:
+  meaning: to turn (age), fulfil
+  example: My birthday is on Monday.
+atender:
+  meaning: to serve, attend to
+  example: The waiter provides very good service.
+reconocer:
+  meaning: to recognize
+  example: I didn't recognize your sister.
+suponer:
+  meaning: to suppose
+  example: I suppose you'll arrive late.
+resolver:
+  meaning: to solve
+  example: The technician solved the problem.
+respetar:
+  meaning: to respect
+  example: You have to respect the rules.
+echar:
+  meaning: to throw, put
+  example: Put the letter in the mailbox.
+desaparecer:
+  meaning: to disappear
+  example: My wallet disappeared from my bag.
+depender:
+  meaning: to depend
+  example: It all depends on the weather.
+aumentar:
+  meaning: to increase
+  example: The price increased a little.
+dedicar:
+  meaning: to dedicate, spend
+  example: I spend two hours on sport.
+describir:
+  meaning: to describe
+  example: Describe your neighbourhood in two lines.
+dudar:
+  meaning: to doubt
+  example: I doubt he'll come today.
+fijarse:
+  meaning: to notice
+  example: Notice the price.
+aconsejar:
+  meaning: to advise
+  example: I advise you to rest a little.
+anunciar:
+  meaning: to announce
+  example: The company announced new hours.
+proponer:
+  meaning: to propose
+  example: I propose a meeting on Tuesday.
+proteger:
+  meaning: to protect
+  example: Protect your personal data.
+reunirse:
+  meaning: to meet
+  example: We're meeting at ten.
+solicitar:
+  meaning: to apply for
+  example: I applied for a scholarship at the office.
+valorar:
+  meaning: to value
+  example: I value your help very much.
+luchar:
+  meaning: to fight
+  example: We are fighting for better conditions.
+negar:
+  meaning: to deny
+  example: He denies that he broke the glass.
+pertenecer:
+  meaning: to belong
+  example: This book belongs to my sister.
+disculparse:
+  meaning: to apologise
+  example: He apologised for arriving late.
+el futuro:
+  meaning: the future
+  example: I think about the future calmly.
+la situación:
+  meaning: the situation
+  example: The situation is difficult, but it will improve.
+el tipo:
+  meaning: type, guy
+  example: I like that type of coffee.
+la oportunidad:
+  meaning: the opportunity
+  example: This is a good opportunity.
+el ejemplo:
+  meaning: the example
+  example: Give me a clear example.
+la falta:
+  meaning: lack
+  example: Lack of sleep makes me tired.
+la relación:
+  meaning: relationship
+  example: We have a good relationship.
+la seguridad:
+  meaning: safety, security
+  example: Safety comes first.
+el objetivo:
+  meaning: the goal
+  example: The goal is to finish today.
+la opción:
+  meaning: the option
+  example: There is no other option.
+la importancia:
+  meaning: importance
+  example: I don't see the importance of the problem.
+el acuerdo:
+  meaning: agreement
+  example: We reached a fair agreement.
+la costumbre:
+  meaning: custom, habit
+  example: It's customary to have dinner late.
+la fuerza:
+  meaning: strength, force
+  example: I need strength to climb.
+el esfuerzo:
+  meaning: effort
+  example: With effort, everything is possible.
+el éxito:
+  meaning: success
+  example: Success requires patience.
+el sistema:
+  meaning: the system
+  example: The system works quite well.
+la sociedad:
+  meaning: society
+  example: Society is changing fast.
+la zona:
+  meaning: the area
+  example: This area is very quiet.
+la ventaja:
+  meaning: advantage
+  example: The advantage is the price.
+el desarrollo:
+  meaning: development
+  example: The project's development is going well.
+la distancia:
+  meaning: distance
+  example: The distance to the centre is short.
+el riesgo:
+  meaning: risk
+  example: There is a risk of rain.
+el daño:
+  meaning: damage, harm
+  example: The blow didn't cause any damage.
+la explicación:
+  meaning: explanation
+  example: Your explanation was very clear.
+la prueba:
+  meaning: test, proof
+  example: The medical test went well.
+la beca:
+  meaning: scholarship, grant
+  example: I applied for a scholarship to study.
+la vivienda:
+  meaning: housing, home
+  example: The home is near the centre.
+la hipoteca:
+  meaning: mortgage
+  example: We pay the mortgage every month.
+el préstamo:
+  meaning: loan
+  example: I took out a loan to buy the car.
+la mudanza:
+  meaning: move, relocation
+  example: The move was very tiring.
+el inquilino:
+  meaning: tenant
+  example: The tenant pays the rent every month.
+la fianza:
+  meaning: deposit
+  example: We left a deposit for the flat.
+la reparación:
+  meaning: repair
+  example: The roof repair cost a lot.
+la instalación:
+  meaning: installation
+  example: The electrical installation is new.
+la limpieza:
+  meaning: cleaning
+  example: I do the cleaning on Saturdays.
+el transporte:
+  meaning: transport
+  example: I use public transport every day.
+el atasco:
+  meaning: traffic jam
+  example: There was a huge traffic jam on the motorway.
+el carril:
+  meaning: lane
+  example: Change lanes carefully.
+la matrícula:
+  meaning: registration plate
+  example: The car's registration plate is new.
+el transbordo:
+  meaning: transfer
+  example: You have to transfer at the next station.
+el puerto:
+  meaning: port
+  example: The ship arrived at the port in the morning.
+el trámite:
+  meaning: procedure
+  example: The procedure is quick if you have an appointment.
+el plazo:
+  meaning: deadline
+  example: The deadline is Friday.
+la identidad:
+  meaning: identity
+  example: I need an identity document.
+el certificado:
+  meaning: certificate
+  example: Ask for the certificate at the town hall.
+renovar:
+  meaning: renew
+  example: I have to renew my passport soon.
+gestionar:
+  meaning: manage, process
+  example: I'm going to process the permit tomorrow.
+reclamar:
+  meaning: complain, claim
+  example: I want to complain about the phone bill.
+la jornada:
+  meaning: working day
+  example: My working day starts at eight.
+la formación:
+  meaning: training
+  example: The company offers training to employees.
+la presentación:
+  meaning: presentation
+  example: The presentation starts at ten.
+la responsabilidad:
+  meaning: responsibility
+  example: Being a boss is a great responsibility.
+contratar:
+  meaning: hire
+  example: They are going to hire two people.
+despedir:
+  meaning: fire, dismiss
+  example: The company can fire anyone.
+jubilarse:
+  meaning: retire
+  example: My father wants to retire this year.
+la huelga:
+  meaning: strike
+  example: The workers are on strike.
+la prevención:
+  meaning: prevention
+  example: Prevention is key to health.
+el tratamiento:
+  meaning: treatment
+  example: The treatment lasts three weeks.
+la operación:
+  meaning: operation
+  example: The operation went well.
+el músculo:
+  meaning: muscle
+  example: My arm muscle hurts.
+la respiración:
+  meaning: breathing
+  example: Deep breathing helps you relax.
+recetar:
+  meaning: prescribe
+  example: The doctor can prescribe a syrup.
+contagiarse:
+  meaning: catch a disease
+  example: It's easy to catch the flu in winter.
+vacunarse:
+  meaning: get vaccinated
+  example: You must get vaccinated before the trip.
+aliviar:
+  meaning: relieve
+  example: This tea helps relieve the pain.
+empeorar:
+  meaning: get worse
+  example: His health may get worse without treatment.
+el efectivo:
+  meaning: cash
+  example: I prefer to pay in cash.
+la garantía:
+  meaning: warranty
+  example: The warranty covers the repair.
+caducar:
+  meaning: expire
+  example: The yoghurt may expire tomorrow.
+congelar:
+  meaning: freeze
+  example: I'm going to freeze the meat.
+freír:
+  meaning: fry
+  example: Frying eggs is very easy.
+hervir:
+  meaning: boil
+  example: You have to boil the water first.
+mezclar:
+  meaning: mix
+  example: Mix the flour with milk.
+añadir:
+  meaning: add
+  example: Add a little salt.
+pelar:
+  meaning: peel
+  example: Peeling the potatoes takes time.
+envolver:
+  meaning: wrap
+  example: Could you wrap the gift, please.
+la confianza:
+  meaning: trust, confidence
+  example: Trust is important in a relationship.
+el respeto:
+  meaning: respect
+  example: Respect helps people live together better.
+la comunicación:
+  meaning: communication
+  example: Communication improves with dialogue.
+la discusión:
+  meaning: argument, discussion
+  example: We had an argument about money.
+la disculpa:
+  meaning: apology
+  example: His apology was sincere and quick.
+el comportamiento:
+  meaning: behaviour
+  example: His behaviour surprised everyone.
+la actitud:
+  meaning: attitude
+  example: Your positive attitude helps a lot.
+la paciencia:
+  meaning: patience
+  example: With children you need a lot of patience.
+por lo tanto:
+  meaning: therefore
+  example: He was tired; therefore, he left.
+ya que:
+  meaning: since, because
+  example: He didn't come because he was ill.
+probablemente:
+  meaning: probably
+  example: We will probably be late for dinner.
+seguramente:
+  meaning: probably
+  example: He has probably already left work.
+actualmente:
+  meaning: currently
+  example: I currently live with my parents.
+últimamente:
+  meaning: lately
+  example: Lately I haven't been sleeping well at night.
+la baja:
+  meaning: sick leave
+  example: He has been on sick leave since Monday.
+el salario:
+  meaning: salary, wage
+  example: I get my salary at the end of the month.
+el especialista:
+  meaning: specialist
+  example: My doctor is sending me to the specialist.
+la tensión:
+  meaning: blood pressure
+  example: The doctor takes my blood pressure.
+el apoyo:
+  meaning: support
+  example: Thanks for your support at all times.
+la educación:
+  meaning: manners, education
+  example: Manners are important at the table.
+la preocupación:
+  meaning: worry, concern
+  example: His worry about the exam is normal.
+el conflicto:
+  meaning: conflict
+  example: They tried to resolve the conflict without shouting.
+la emoción:
+  meaning: emotion, excitement
+  example: I was very moved when I saw them.
+el carácter:
+  meaning: character, temperament
+  example: He has a good character and a lot of patience.
+la personalidad:
+  meaning: personality
+  example: Her personality is cheerful and calm.
+la motivación:
+  meaning: motivation
+  example: Motivation is key to studying.
+el ascenso:
+  meaning: promotion
+  example: They gave him a promotion at work.
+el despido:
+  meaning: dismissal, firing
+  example: The dismissal was a surprise for everyone.
+el autónomo:
+  meaning: self-employed person
+  example: My brother is self-employed and works a lot.
+el presupuesto:
+  meaning: estimate, budget
+  example: He asked the plumber for an estimate.
+el requisito:
+  meaning: requirement
+  example: This requirement is mandatory to apply for a place.
+el impreso:
+  meaning: form
+  example: Fill out this form and sign below.
+el funcionario:
+  meaning: civil servant
+  example: The civil servant reviewed my application calmly.
+el registro:
+  meaning: registry, registration
+  example: Registration takes place in this office.
+el justificante:
+  meaning: proof document
+  example: I need the proof document to request sick leave.
+la tasa:
+  meaning: fee, rate
+  example: You have to pay a municipal fee.
+la renovación:
+  meaning: renewal
+  example: The renewal of the license takes two weeks.
+la administración:
+  meaning: administration
+  example: The administration opens from nine to two.
+la analítica:
+  meaning: blood test
+  example: The blood test results come out tomorrow.
+la radiografía:
+  meaning: X-ray
+  example: They took an X-ray of my arm.
+el vendaje:
+  meaning: bandage, dressing
+  example: The bandage covers the whole wound.
+la recuperación:
+  meaning: recovery
+  example: The recovery after the operation was quick.
+el chequeo:
+  meaning: check-up
+  example: I have a medical check-up every year.
+la cicatriz:
+  meaning: scar
+  example: He has a scar left on his knee.
+la taquilla:
+  meaning: ticket office, locker
+  example: I bought the tickets at the ticket office.
+la escala:
+  meaning: stopover
+  example: We have a stopover in another city.
+el alojamiento:
+  meaning: accommodation
+  example: The accommodation includes breakfast and Wi-Fi.
+la estancia:
+  meaning: stay
+  example: Our stay at the hotel was short.
+el turismo:
+  meaning: tourism
+  example: Tourism fills the coast in summer.
+la pensión:
+  meaning: guesthouse, pension
+  example: We slept in a guesthouse near the port.
+la grúa:
+  meaning: tow truck, crane
+  example: The tow truck took away the broken-down car.
+la charcutería:
+  meaning: delicatessen
+  example: I buy ham at the neighborhood delicatessen.
+la ración:
+  meaning: portion, serving
+  example: We ordered a portion of tortilla to share.
+la barra:
+  meaning: bar counter
+  example: We waited standing next to the bar counter.
+el cubierto:
+  meaning: cover charge, place setting
+  example: The cover charge costs one euro.
+la jarra:
+  meaning: jug, pitcher
+  example: Bring a jug of water, please.
+el fontanero:
+  meaning: plumber
+  example: The plumber fixed the leak in the bathroom.
+el electricista:
+  meaning: electrician
+  example: The electrician will check the sockets tomorrow.
+la reforma:
+  meaning: renovation, reform
+  example: The kitchen renovation cost a lot.
+el electrodoméstico:
+  meaning: appliance
+  example: That appliance uses a lot of electricity.
+la persiana:
+  meaning: blind, shutter
+  example: Lower the blind, it's very sunny.
+el trastero:
+  meaning: storage room
+  example: We keep the suitcases in the storage room.
+la comunidad:
+  meaning: community
+  example: The community raises the fee every year.
+la inmobiliaria:
+  meaning: estate agency
+  example: The estate agency showed us two apartments.
+el casero:
+  meaning: landlord
+  example: The landlord didn't return the deposit.
+la envidia:
+  meaning: envy
+  example: I am envious of his new job.
+los celos:
+  meaning: jealousy
+  example: Jealousy can damage a relationship.
+el orgullo:
+  meaning: pride
+  example: He speaks about his son with pride.
+la vergüenza:
+  meaning: shame, embarrassment
+  example: I am embarrassed to speak in public.
+la soledad:
+  meaning: loneliness, solitude
+  example: Loneliness can be very hard.
+la tecnología:
+  meaning: technology
+  example: Technology makes our daily life much easier.
+la energía:
+  meaning: energy
+  example: This house uses solar energy all year round.
+el medio ambiente:
+  meaning: environment
+  example: We must protect the environment together.
+la contaminación:
+  meaning: pollution
+  example: Air pollution is a serious problem.
+el reciclaje:
+  meaning: recycling
+  example: Plastic recycling helps the planet.
+el plástico:
+  meaning: plastic
+  example: We try to use less plastic at home.
+el envase:
+  meaning: packaging, container
+  example: This glass container can be recycled.
+el cartón:
+  meaning: cardboard
+  example: Put the cardboard in the blue bin.
+la aplicación:
+  meaning: app, application
+  example: This app is for learning languages.
+la conexión:
+  meaning: connection
+  example: The internet connection is very slow.
+el dispositivo:
+  meaning: device
+  example: The device connects to the Wi-Fi.
+el dato:
+  meaning: data, fact
+  example: Personal data must be protected.
+la protección:
+  meaning: protection
+  example: Data protection is a right.
+la privacidad:
+  meaning: privacy
+  example: Privacy on the internet worries everyone.
+el perfil:
+  meaning: profile
+  example: The user profile includes a photo.
+la red:
+  meaning: network, net
+  example: The social network changed its rules.
+la infección:
+  meaning: infection
+  example: The doctor prescribed antibiotics for the infection.
+la molestia:
+  meaning: discomfort, annoyance
+  example: I feel some discomfort in my knee.
+el embarazo:
+  meaning: pregnancy
+  example: The pregnancy lasted nine months.
+el mercadillo:
+  meaning: street market
+  example: The street market opens on Sunday mornings.
+la papelería:
+  meaning: stationery shop
+  example: I bought envelopes at the neighborhood stationery shop.
+la ferretería:
+  meaning: hardware store
+  example: I need screws from the hardware store.
+la tintorería:
+  meaning: dry cleaner's
+  example: I took the suit to the dry cleaner's.
+la ampliación:
+  meaning: extension, enlargement
+  example: The extension of the flat will cost a lot.
+la inspección:
+  meaning: inspection
+  example: The building inspection is on Friday.
+instalar:
+  meaning: to install
+  example: They installed the heating in October.
+el ático:
+  meaning: penthouse, attic
+  example: The penthouse has a large terrace.
+la cancelación:
+  meaning: cancellation
+  example: The flight cancellation annoyed us a lot.
+la pérdida:
+  meaning: loss
+  example: Baggage loss is a problem.
+la tarifa:
+  meaning: fare, rate
+  example: The train fare has gone up.
+la ruta:
+  meaning: route
+  example: The shortest route goes over the bridge.
+el reembolso:
+  meaning: refund
+  example: I requested a refund for the cancelled ticket.
+la gestión:
+  meaning: management
+  example: Time management is very important.
+la contratación:
+  meaning: hiring, recruitment
+  example: The hiring of new employees starts tomorrow.
+la plantilla:
+  meaning: staff, template
+  example: The company's staff is very young.
+la negociación:
+  meaning: negotiation
+  example: The contract negotiation lasted two hours.
+la estrategia:
+  meaning: strategy
+  example: We need a strategy to sell more.
+la investigación:
+  meaning: research, investigation
+  example: Medical research needs more public money.
+el ingreso:
+  meaning: income, admission
+  example: His income does not cover monthly expenses.
+la deuda:
+  meaning: debt
+  example: I have a debt with the bank.
+el ahorro:
+  meaning: saving, savings
+  example: Saving energy reduces the bill.
+el impuesto:
+  meaning: tax
+  example: Taxes have risen a lot this year.
+la obligación:
+  meaning: obligation
+  example: Paying taxes is an obligation.
+el derecho:
+  meaning: right, law
+  example: You have the right to return the product.
+la condición:
+  meaning: condition
+  example: It is a condition for the contract.
+la norma:
+  meaning: rule, standard
+  example: You must respect the building rules.
+la sanción:
+  meaning: penalty, sanction
+  example: The fine was a very harsh penalty.
+denunciar:
+  meaning: to report, to denounce
+  example: I am going to report the robbery at the police station.
+la reclamación:
+  meaning: complaint, claim
+  example: I filed a complaint at the store.
+tramitar:
+  meaning: to process, to handle
+  example: I processed the passport at the police station.
+la libertad:
+  meaning: freedom
+  example: Freedom of expression is a basic right.
+la igualdad:
+  meaning: equality
+  example: Equality between men and women is necessary.
+la pobreza:
+  meaning: poverty
+  example: Poverty affects many families in the neighborhood.
+la convivencia:
+  meaning: coexistence, living together
+  example: Coexistence among neighbors is quite good.
+la infancia:
+  meaning: childhood
+  example: My childhood was very happy in the village.
+la adolescencia:
+  meaning: adolescence
+  example: Adolescence is a difficult stage.
+la juventud:
+  meaning: youth
+  example: Today's youth uses a lot of technology.
+el compromiso:
+  meaning: commitment, engagement
+  example: I have a family commitment on Saturday.
+el matrimonio:
+  meaning: marriage, married couple
+  example: The marriage was held at the city hall.
+el divorcio:
+  meaning: divorce
+  example: The divorce was a difficult decision.
+agradecer:
+  meaning: to thank
+  example: I thank you very much for your help.
+prometer:
+  meaning: promise
+  example: I promise you I'll arrive early.
+mentir:
+  meaning: lie, tell lies
+  example: I don't like you lying to me.
+confiar:
+  meaning: trust
+  example: You can trust me.
+apoyar:
+  meaning: support
+  example: My family always supports me.
+animar:
+  meaning: encourage, cheer up
+  example: My friend encouraged me to keep going.
+molestar:
+  meaning: bother, annoy
+  example: Does it bother you if I open the window?
+soportar:
+  meaning: stand, bear
+  example: I can't stand this noise.
+calmarse:
+  meaning: calm down
+  example: Calm down, everything will turn out fine.
+alegrarse:
+  meaning: be glad, be happy
+  example: I'm very glad to see you.
+sorprender:
+  meaning: surprise
+  example: The news surprised me a lot.
+aburrirse:
+  meaning: get bored
+  example: I get bored at home on Sundays.
+divertirse:
+  meaning: have fun
+  example: We had a lot of fun at the party.
+enamorarse:
+  meaning: fall in love
+  example: He fell in love with her in summer.
+divorciarse:
+  meaning: get divorced
+  example: They got divorced after many years.
+acostumbrarse:
+  meaning: get used to
+  example: I've already gotten used to the cold.
+esforzarse:
+  meaning: make effort, try hard
+  example: We have to try harder.
+lograr:
+  meaning: achieve, manage
+  example: I finally got the promotion.
+prohibir:
+  meaning: forbid, ban
+  example: The company bans smoking inside.
+obligar:
+  meaning: force
+  example: The boss forced us to stay.
+advertir:
+  meaning: warn
+  example: I warn you that the road is in bad condition.
+admitir:
+  meaning: admit
+  example: I admit that I was wrong.
+rechazar:
+  meaning: reject
+  example: They rejected my application without explanation.
+confirmar:
+  meaning: confirm
+  example: Confirm the reservation before Friday.
+conectar:
+  meaning: connect
+  example: Connect the cable to the computer.
+descargar:
+  meaning: download
+  example: Download the form from the website.
+borrar:
+  meaning: delete, erase
+  example: Delete that file, please.
+secar:
+  meaning: dry
+  example: Dry the dishes before putting them away.
+asar:
+  meaning: roast
+  example: We're going to roast the chicken in the oven.
+batir:
+  meaning: beat, whisk
+  example: Beat the eggs with the sugar.
+agradable:
+  meaning: pleasant, nice
+  example: It was a very pleasant afternoon.
+ruidoso:
+  meaning: noisy
+  example: The neighborhood is noisy at night.
+oscuro:
+  meaning: dark
+  example: The hallway is very dark.
+ligero:
+  meaning: light, mild
+  example: Take a light coat for the trip.
+pesado:
+  meaning: heavy, annoying
+  example: This package is too heavy.
+duro:
+  meaning: hard, tough
+  example: The mattress is too hard.
+blando:
+  meaning: soft
+  example: The bread is soft today.
+fuerte:
+  meaning: strong, loud
+  example: He has very severe pain.
+débil:
+  meaning: weak
+  example: I feel weak after the flu.
+vacío:
+  meaning: empty
+  example: The fridge is almost empty.
+lleno:
+  meaning: full
+  example: The bus is full.
+ancho:
+  meaning: wide
+  example: The sidewalk is quite wide.
+estrecho:
+  meaning: narrow
+  example: This street is very narrow.
+orgulloso:
+  meaning: proud
+  example: I'm proud of my team.
+celoso:
+  meaning: jealous
+  example: Don't be jealous, there's no reason.
+agradecido:
+  meaning: grateful
+  example: I'm very grateful for your help.
+decepcionado:
+  meaning: disappointed
+  example: I was disappointed with the result.
+satisfecho:
+  meaning: satisfied
+  example: I'm satisfied with my work.
+inseguro:
+  meaning: insecure, unsafe
+  example: I feel insecure in meetings.
+valiente:
+  meaning: brave
+  example: He was very brave to report it.
+generoso:
+  meaning: generous
+  example: My neighbor is very generous.
+egoísta:
+  meaning: selfish
+  example: Sometimes I'm a bit selfish.
+honesto:
+  meaning: honest
+  example: I prefer to be honest with you.
+la herramienta:
+  meaning: tool
+  example: I need a tool to fix it.
+el tornillo:
+  meaning: screw
+  example: There's a screw missing on this chair.
+el destornillador:
+  meaning: screwdriver
+  example: Pass me the screwdriver, please.
+la cinta:
+  meaning: tape, ribbon
+  example: Stick the paper with tape.
+el pegamento:
+  meaning: glue
+  example: I can't find the glue.
+el interruptor:
+  meaning: switch
+  example: The switch is next to the door.
+la linterna:
+  meaning: torch, flashlight
+  example: Take a flashlight just in case.
+el ambiente:
+  meaning: atmosphere, environment
+  example: The atmosphere in the bar is pleasant.
+el debate:
+  meaning: debate
+  example: The debate about work was interesting.
+la causa:
+  meaning: cause
+  example: The cause of the problem is the noise.
+el motivo:
+  meaning: reason, motive
+  example: I don't understand the reason for your anger.
+el efecto:
+  meaning: effect
+  example: The medicine has a quick effect.
+la consecuencia:
+  meaning: consequence
+  example: The delay was a consequence of the rain.
+la posibilidad:
+  meaning: possibility
+  example: There is the possibility of changing the date.
+la necesidad:
+  meaning: need, necessity
+  example: I have a need to rest a little.
+el interés:
+  meaning: interest
+  example: I show interest in learning Spanish.
+la atención:
+  meaning: attention
+  example: Pay attention to the instructions.
+el cuidado:
+  meaning: care, caution
+  example: Be careful with the wet floor.
+la mejora:
+  meaning: improvement
+  example: The improvement in health is visible.
+la reducción:
+  meaning: reduction
+  example: The reduction in price helps us.
+el aumento:
+  meaning: increase
+  example: The rent increase worries me.
+la elección:
+  meaning: choice, selection
+  example: Choosing the menu is difficult.
+la organización:
+  meaning: organization
+  example: Organizing the trip takes time.
+el control:
+  meaning: control
+  example: Controlling spending is important.
+la sugerencia:
+  meaning: suggestion
+  example: Your suggestion seems very useful to me.
+la propuesta:
+  meaning: proposal
+  example: The boss's proposal is interesting.
+el técnico:
+  meaning: technician
+  example: The technician fixes the heating.
+el paciente:
+  meaning: patient
+  example: The patient is waiting for the doctor.
+el farmacéutico:
+  meaning: pharmacist
+  example: The pharmacist recommends this ointment to me.
+el alta:
+  meaning: hospital discharge
+  example: I was discharged yesterday.
+el mantel:
+  meaning: tablecloth
+  example: Put the tablecloth on the table.
+el tendedero:
+  meaning: drying rack
+  example: The clothes are on the drying rack.
+la sección:
+  meaning: section
+  example: I'm looking for the fruit section.
+el peaje:
+  meaning: toll
+  example: We paid the toll on the highway.
+las afueras:
+  meaning: outskirts
+  example: I live on the outskirts of the city.
+la tolerancia:
+  meaning: tolerance
+  example: Tolerance helps people live together better.
+la generosidad:
+  meaning: generosity
+  example: His generosity surprised me a lot.
+la honestidad:
+  meaning: honesty
+  example: Honesty is important at work.
+la sinceridad:
+  meaning: sincerity
+  example: I appreciate your sincerity when speaking.
+la esperanza:
+  meaning: hope
+  example: I have hope of finding a job.
+la calma:
+  meaning: calm
+  example: I need calm after work.
+la guerra:
+  meaning: war
+  example: War causes a lot of pain.
+la política:
+  meaning: politics
+  example: I don't talk about politics at dinner.
+la religión:
+  meaning: religion
+  example: Religion is a personal topic.
+el olor:
+  meaning: smell, odor
+  example: The smell of coffee wakes me up.
+el sabor:
+  meaning: taste, flavor
+  example: This ice cream has a good flavor.
+la forma:
+  meaning: form, way
+  example: The payment method is simple.
+el peso:
+  meaning: weight
+  example: The weight of the suitcase is correct.
+la altura:
+  meaning: height
+  example: The height of the building is impressive.
+la velocidad:
+  meaning: speed
+  example: The train's speed is high.
+el estilo:
+  meaning: style
+  example: I like the style of this shirt.
+la cultura:
+  meaning: culture
+  example: Spanish culture interests me a lot.
+el arte:
+  meaning: art
+  example: Modern art fills the museum.
+la literatura:
+  meaning: literature
+  example: I study literature at the university.
+el espectáculo:
+  meaning: show, performance
+  example: The show starts at eight.
+la exposición:
+  meaning: exhibition
+  example: The photo exhibition is free.
+comprobar:
+  meaning: to check
+  example: I must check the hotel address.
+sugerir:
+  meaning: to suggest
+  example: I suggest you visit the museum.
+comentar:
+  meaning: to comment, discuss
+  example: I want to discuss the problem with my boss.
+mencionar:
+  meaning: to mention
+  example: He mentioned the price at the meeting.
+resumir:
+  meaning: to summarize
+  example: I'm going to summarize the text.
+traducir:
+  meaning: to translate
+  example: I can translate this letter into English.
+pronunciar:
+  meaning: to pronounce
+  example: It's difficult to pronounce this word.
+significar:
+  meaning: to mean
+  example: What does this word mean in Spanish?
+asegurarse:
+  meaning: to make sure
+  example: You must make sure to close the door.
+atreverse:
+  meaning: to dare
+  example: I don't dare to ask.
+arrepentirse:
+  meaning: to regret
+  example: I regret not having gone.
+la hoja:
+  meaning: sheet of paper
+  example: I need a sheet of paper to write the letter.
+la máquina:
+  meaning: machine
+  example: This machine doesn't work well today.
+el vendedor:
+  meaning: salesperson
+  example: The salesperson explains the price to me.
+la venta:
+  meaning: sale
+  example: The sale starts on Monday morning.
+la entrega:
+  meaning: delivery
+  example: The package delivery arrives in the afternoon.
+el reparto:
+  meaning: delivery
+  example: Pizza delivery takes half an hour.
+el mensajero:
+  meaning: courier
+  example: The courier brings a package home.
+el uniforme:
+  meaning: uniform
+  example: I wear a uniform at work.
+respirar:
+  meaning: breathe
+  example: It's hard for me to breathe when I run.
+caerse:
+  meaning: fall down
+  example: My grandfather fell down at home.
+romperse:
+  meaning: break a bone
+  example: He broke his arm playing.
+curar:
+  meaning: cure, treat
+  example: The doctor treats the wound with cream.
+operar:
+  meaning: operate
+  example: They're operating on my knee tomorrow.
+marearse:
+  meaning: get dizzy
+  example: I get dizzy in the car.
+vomitar:
+  meaning: vomit
+  example: The child vomited after eating.
+estornudar:
+  meaning: sneeze
+  example: I sneeze a lot because of the allergy.
+sangrar:
+  meaning: bleed
+  example: The wound is still bleeding a little.
+mejorarse:
+  meaning: get better
+  example: I hope you get better soon.
+el catarro:
+  meaning: cold
+  example: I have a cold and I'm not going to work.
+la caída:
+  meaning: fall
+  example: The fall was on the sidewalk.
+la quemadura:
+  meaning: burn
+  example: Put cream on the burn.
+la señal:
+  meaning: sign
+  example: That sign indicates the emergency exit.
+el límite:
+  meaning: limit
+  example: The speed limit is near.
+el cruce:
+  meaning: crossing
+  example: Turn right at the crossing.
+el trayecto:
+  meaning: journey
+  example: The journey is short and comfortable.
+la duración:
+  meaning: duration
+  example: The duration of the trip is short.
+el desvío:
+  meaning: detour
+  example: There's a detour because of the roadworks.
+el combustible:
+  meaning: fuel
+  example: Fuel is very expensive.
+la conducción:
+  meaning: driving
+  example: Driving in the rain is dangerous.
+el clima:
+  meaning: climate
+  example: The climate here is very mild.
+la naturaleza:
+  meaning: nature
+  example: I like walking in nature.
+el paisaje:
+  meaning: landscape
+  example: The landscape from the mountain is beautiful.
+la piscina:
+  meaning: swimming pool
+  example: The building's swimming pool opens in summer.
+el tejado:
+  meaning: roof
+  example: The roof needs a repair.
+el portero:
+  meaning: doorman
+  example: The doorman opens the main door.
+la obra:
+  meaning: building work
+  example: There's building work on my street.
+la decoración:
+  meaning: decoration
+  example: The living room decoration is modern.
+el rincón:
+  meaning: corner
+  example: The sofa is in the corner.
+el enfado:
+  meaning: anger
+  example: His anger was over something silly.
+la amabilidad:
+  meaning: kindness
+  example: Thank you for your kindness to me.
+la simpatía:
+  meaning: friendliness
+  example: We liked the waiter's friendliness.
+la timidez:
+  meaning: shyness
+  example: His shyness prevents him from speaking in public.
+la valentía:
+  meaning: courage
+  example: His courage surprised me a lot.
+el adolescente:
+  meaning: teenager
+  example: The teenager spends a lot of time with friends.
+la publicidad:
+  meaning: advertising
+  example: The supermarket advertisement is at the door.
+el anuncio:
+  meaning: advert
+  example: I saw the advert in the newspaper.
+el cartel:
+  meaning: poster
+  example: The concert poster is on the wall.
+la prensa:
+  meaning: press
+  example: The press talks a lot about politics.
+el reportaje:
+  meaning: report
+  example: The report about the trip is interesting.
+la portada:
+  meaning: cover
+  example: The news story appears on the cover.
+la actuación:
+  meaning: performance
+  example: The group's performance was very entertaining.
+el actor:
+  meaning: actor
+  example: The actor speaks in a loud voice.
+el escenario:
+  meaning: stage
+  example: The singer is on stage.
+el público:
+  meaning: audience
+  example: The audience applauded at the end.
+la pintura:
+  meaning: painting, paint
+  example: The paint on this wall is new.
+la escultura:
+  meaning: sculpture
+  example: The sculpture is in the museum.
+el dibujo:
+  meaning: drawing
+  example: I made a drawing of the house.
+dibujar:
+  meaning: draw
+  example: I like drawing in my notebook.
+pintar:
+  meaning: paint
+  example: I'm going to paint the kitchen white.
+la desventaja:
+  meaning: disadvantage
+  example: The disadvantage is the high price.
+aprobar:
+  meaning: pass an exam
+  example: I hope to pass the exam tomorrow.
+suspender:
+  meaning: to fail an exam
+  example: I failed the driving test.
+equivocarse:
+  meaning: to make a mistake
+  example: I got on the wrong bus.
+solucionar:
+  meaning: to solve, fix
+  example: We are going to solve the problem together.
+reducir:
+  meaning: to reduce, cut down
+  example: We have to reduce costs.
+planificar:
+  meaning: to plan
+  example: We planned the project calmly.
+informar:
+  meaning: to inform
+  example: The company informed the customers.
+comunicar:
+  meaning: to communicate
+  example: Communicate the change to your boss.
+negociar:
+  meaning: to negotiate
+  example: We are going to negotiate the final price.
+publicar:
+  meaning: to publish, post
+  example: They published the ad online.
+adjuntar:
+  meaning: to attach
+  example: I am attaching the document to the email.
+colaborar:
+  meaning: to collaborate
+  example: I like collaborating with my colleagues.
+renunciar:
+  meaning: to resign, give up
+  example: They resigned from the job because of stress.
+facturar:
+  meaning: to check in luggage
+  example: Can I check in the suitcase here?
+invertir:
+  meaning: to invest
+  example: I prefer to invest in training.
+votar:
+  meaning: to vote
+  example: We are going to vote on Sunday.
+criticar:
+  meaning: to criticize
+  example: I don't like criticizing others.
+desconfiar:
+  meaning: to distrust
+  example: I don't trust those very cheap deals.
+amenazar:
+  meaning: to threaten
+  example: They threatened their neighbor.
+defender:
+  meaning: to defend
+  example: I am going to defend my opinion.
+investigar:
+  meaning: to investigate
+  example: The police are investigating the accident.
+descubrir:
+  meaning: to discover
+  example: I discovered a very quiet bar.
+inventar:
+  meaning: to invent
+  example: They always make up excuses for being late.
+desarrollar:
+  meaning: to develop
+  example: The company develops new applications.
+producir:
+  meaning: to produce
+  example: This factory produces soft drinks.
+consumir:
+  meaning: to consume
+  example: It is advisable to consume fruit every day.
+desmayarse:
+  meaning: to faint
+  example: They fainted in the supermarket.
+torcerse:
+  meaning: to twist a joint
+  example: I twisted my ankle playing.
+quemarse:
+  meaning: to burn oneself
+  example: I burned my hand cooking.
+relajarse:
+  meaning: to relax
+  example: I need to relax after work.
+el peligro:
+  meaning: danger
+  example: There is a danger of fire in the forest.
+la casualidad:
+  meaning: coincidence
+  example: It was a coincidence that we met there.
+la violencia:
+  meaning: violence
+  example: Violence does not solve problems.
+responsable:
+  meaning: responsible
+  example: They are responsible about their schedule.
+puntual:
+  meaning: punctual
+  example: Be punctual at the interview.
+la crítica:
+  meaning: criticism
+  example: They accept criticism well.
+la comprensión:
+  meaning: understanding
+  example: Thank you for your understanding.
+el egoísmo:
+  meaning: selfishness
+  example: Selfishness damages friendships.
+el ánimo:
+  meaning: spirit, encouragement
+  example: I need encouragement to keep going.
+la ansiedad:
+  meaning: anxiety
+  example: Anxiety is keeping them awake.
+la época:
+  meaning: period, era
+  example: At that time there were no cell phones.
+la temporada:
+  meaning: season
+  example: The ski season starts soon.
+el rato:
+  meaning: while
+  example: We waited a while in line.
+la madrugada:
+  meaning: early hours
+  example: We got home in the early hours.
+el amanecer:
+  meaning: dawn
+  example: Dawn on the beach is beautiful.
+complicado:
+  meaning: complicated
+  example: The procedure is too complicated.
+la demanda:
+  meaning: demand
+  example: The demand for apartments has risen.
+la celebración:
+  meaning: celebration
+  example: The celebration will be in the garden.
+el inodoro:
+  meaning: toilet
+  example: The toilet is at the end of the hall.
+la cantidad:
+  meaning: amount, quantity
+  example: Buy a small amount of rice.
+la intolerancia:
+  meaning: intolerance
+  example: They have lactose intolerance.
+la azotea:
+  meaning: rooftop
+  example: We hang the clothes on the rooftop.
+la campaña:
+  meaning: campaign
+  example: The campaign starts next month.
+el voto:
+  meaning: vote
+  example: Your vote is important in the elections.
+el político:
+  meaning: politician
+  example: The politician spoke with the neighbors.
+el estado:
+  meaning: state
+  example: The state helps families.
+el ladrón:
+  meaning: thief
+  example: The police arrested the thief.
+la defensa:
+  meaning: defense
+  example: The defense presented new evidence.
+el ciudadano:
+  meaning: citizen
+  example: The citizen filed a formal complaint.
+la población:
+  meaning: population
+  example: The town's population is increasing slowly.
+el empleo:
+  meaning: job
+  example: I am looking for a job in the city center.
+el aprendizaje:
+  meaning: learning
+  example: Learning languages requires practice.
+el departamento:
+  meaning: department
+  example: I work in the sales department.
+la actividad:
+  meaning: activity
+  example: The activity is free for members.
+el hábito:
+  meaning: habit
+  example: Reading before bed is a good habit.
+la promesa:
+  meaning: promise
+  example: He kept his promise and arrived on time.
+la despedida:
+  meaning: farewell, goodbye
+  example: The farewell was very emotional.
+la bienvenida:
+  meaning: welcome
+  example: They gave us a very warm welcome.
+el encuentro:
+  meaning: meeting, encounter
+  example: The meeting will be in the square.
+la charla:
+  meaning: talk, chat
+  example: We gave a talk about recycling.
+la teoría:
+  meaning: theory
+  example: Theory is easier than practice.
+la justicia:
+  meaning: justice
+  example: Justice must protect everyone.
+la solidaridad:
+  meaning: solidarity
+  example: Solidarity helps in difficult moments.
+la discriminación:
+  meaning: discrimination
+  example: Discrimination has no excuse.
+la separación:
+  meaning: separation
+  example: The separation was difficult for the couple.
+el nacimiento:
+  meaning: birth
+  example: The baby's birth was this morning.
+la muerte:
+  meaning: death
+  example: His dog's death affected him.
+la jubilación:
+  meaning: retirement
+  example: His retirement will be next year.
+la oposición:
+  meaning: civil service exam, opposition
+  example: He is studying for the civil service exam to become a civil servant.
+el proveedor:
+  meaning: supplier
+  example: The supplier is slow to deliver the goods.
+la facultad:
+  meaning: faculty, school
+  example: I study Law at the faculty.
+el instituto:
+  meaning: secondary school, institute
+  example: The children go to secondary school by bus.
+la guardería:
+  meaning: nursery, daycare
+  example: We leave the child at the nursery.
+el máster:
+  meaning: master's degree
+  example: He is doing a master's in computer science.
+el abono:
+  meaning: season ticket, subscription
+  example: I buy the monthly metro pass.
+la avenida:
+  meaning: avenue
+  example: The avenue is closed for roadworks.
+la autoestima:
+  meaning: self-esteem
+  example: Her self-esteem improved with exercise.
+la empatía:
+  meaning: empathy
+  example: Empathy helps to understand others.
+la depresión:
+  meaning: depression
+  example: Depression needs medical treatment.
+el antibiótico:
+  meaning: antibiotic
+  example: The doctor prescribed me an antibiotic.
+el cerebro:
+  meaning: brain
+  example: The brain needs rest to learn.
+la digestión:
+  meaning: digestion
+  example: Walking after eating aids digestion.
+el desmayo:
+  meaning: fainting, faint
+  example: He suffered a fainting episode at work.
+las muletas:
+  meaning: crutches
+  example: He has been walking on crutches since the accident.
+el yeso:
+  meaning: plaster cast, plaster
+  example: He has a plaster cast on his leg.
+la ecografía:
+  meaning: ultrasound, scan
+  example: The ultrasound showed that everything is fine.
+la anestesia:
+  meaning: anaesthesia
+  example: The operation was under local anaesthesia.
+el quirófano:
+  meaning: operating room, operating theatre
+  example: He went into the operating room in the morning.
+la dosis:
+  meaning: dose
+  example: Take the dose indicated by the doctor.
+el analgésico:
+  meaning: painkiller
+  example: I need a painkiller for the pain.
+la diarrea:
+  meaning: diarrhoea
+  example: Diarrhoea can cause dehydration.
+el estreñimiento:
+  meaning: constipation
+  example: Fibre helps against constipation.
+la mejilla:
+  meaning: cheek
+  example: She painted her cheek red.
+la uña:
+  meaning: nail
+  example: She broke a nail while cooking.
+el pulmón:
+  meaning: lung
+  example: Smoking damages the lungs.
+el hígado:
+  meaning: liver
+  example: The liver processes many substances.
+el riñón:
+  meaning: kidney
+  example: Drinking water takes care of the kidneys.
+la cintura:
+  meaning: waist
+  example: The belt is tight around the waist.
+la frente:
+  meaning: forehead
+  example: His forehead is hot from the fever.
+la barbilla:
+  meaning: chin
+  example: He rested his chin on his hand.
+la floristería:
+  meaning: flower shop
+  example: I bought flowers at the flower shop.
+la joyería:
+  meaning: jewellery shop
+  example: The ring is at the jewellery shop.
+la perfumería:
+  meaning: perfume shop
+  example: I bought cologne at the perfume shop.
+el váter:
+  meaning: toilet
+  example: The toilet is at the end of the hallway.
+la encimera:
+  meaning: countertop, worktop
+  example: I left the frying pan on the countertop.
+la caldera:
+  meaning: boiler
+  example: The boiler doesn't work in winter.
+la gotera:
+  meaning: leak
+  example: The leak is dripping onto the bed.
+el ferry:
+  meaning: ferry
+  example: We crossed the river by ferry.
+la agencia:
+  meaning: agency
+  example: I booked the trip at an agency.
+la videollamada:
+  meaning: video call
+  example: We had a video call with Grandma.
+así que:
+  meaning: so, therefore
+  example: I'm tired, so I'm leaving.
+por eso:
+  meaning: that's why
+  example: It's raining, that's why I'm carrying an umbrella.
+a pesar de:
+  meaning: despite
+  example: Despite the rain, we went out.
+mientras que:
+  meaning: whereas, while
+  example: I cook while he cleans.
+para que:
+  meaning: so that
+  example: Speak loudly so that I can hear you.
+a menos que:
+  meaning: unless
+  example: I won't go unless you come.
+acercarse:
+  meaning: to approach
+  example: Come closer, I want to talk to you.
+asegurar:
+  meaning: to assure
+  example: I assure you that I'll arrive soon.
+analizar:
+  meaning: to analyse
+  example: Let's analyze the problem.
+controlar:
+  meaning: to control, check
+  example: You should control your monthly spending.
+consultar:
+  meaning: to consult, check
+  example: Check the date on the website.
+construir:
+  meaning: to build
+  example: They are building houses in the neighborhood.
+considerar:
+  meaning: to consider
+  example: I consider your idea very good.
+conservar:
+  meaning: to keep, preserve
+  example: Keep the meat refrigerated.
+convertir:
+  meaning: to convert
+  example: They have converted the premises into a shop.
+convencer:
+  meaning: to convince
+  example: I can't convince my boss.
+corregir:
+  meaning: to correct
+  example: Correct the errors in the report.
+crear:
+  meaning: to create
+  example: We have created a study group.
+desear:
+  meaning: to wish
+  example: I wish you lots of luck tomorrow.
+educar:
+  meaning: to raise, educate
+  example: It is difficult to raise children.
+eliminar:
+  meaning: to delete, eliminate
+  example: Delete the old data.
+engañar:
+  meaning: to deceive
+  example: Don't try to deceive me again.
+escapar:
+  meaning: to escape
+  example: The cat escaped through the window.
+escoger:
+  meaning: to choose
+  example: Choose a color for the wall.
+esconder:
+  meaning: to hide
+  example: He hid the keys in the drawer.
+exigir:
+  meaning: to demand
+  example: I demand a clear explanation.
+expresar:
+  meaning: to express
+  example: Express your opinion calmly.
+formar:
+  meaning: to form, train
+  example: They form a very good team.
+imaginar:
+  meaning: to imagine
+  example: Imagine living near the sea.
+incluir:
+  meaning: to include
+  example: The price includes breakfast.
+indicar:
+  meaning: to indicate
+  example: The map indicates the correct route.
+juntar:
+  meaning: to put together
+  example: We pooled money for the gift.
+justificar:
+  meaning: to justify
+  example: You have to justify your absence.
+medir:
+  meaning: to measure
+  example: Measure the window before buying.
+merecer:
+  meaning: to deserve
+  example: You deserve a long rest.
+ofender:
+  meaning: to offend
+  example: I didn't mean to offend anyone.
+adaptarse:
+  meaning: to adapt
+  example: It is easy to adapt to this city.
+avanzar:
+  meaning: to advance, move
+  example: Traffic isn't moving at all.
+cocer:
+  meaning: to boil, cook
+  example: Boil the potatoes for ten minutes.
+combinar:
+  meaning: to match, combine
+  example: This shirt matches everything.
+competir:
+  meaning: to compete
+  example: Our company competes with big brands.
+consistir:
+  meaning: to consist
+  example: The course consists of five classes.
+contener:
+  meaning: to contain
+  example: This drink contains a lot of sugar.
+dañar:
+  meaning: to damage
+  example: The dampness damaged the wall.
+enfermar:
+  meaning: to get ill
+  example: He fell ill during the trip.
+grabar:
+  meaning: to record
+  example: I'm going to record the meeting.
+imitar:
+  meaning: to imitate
+  example: The child imitates his father.
+impedir:
+  meaning: to prevent
+  example: The snow prevents us from leaving the house.
+influir:
+  meaning: to influence
+  example: The weather affects your mood.
+interpretar:
+  meaning: to perform, interpret
+  example: She performs her role well.
+introducir:
+  meaning: to insert
+  example: Insert the card into the ATM.
+lanzar:
+  meaning: to launch
+  example: The company is launching a new product.
+limitar:
+  meaning: to limit
+  example: Limit your mobile phone use.
+culpar:
+  meaning: to blame
+  example: Don't blame others.
+la transferencia:
+  meaning: bank transfer
+  example: I made a bank transfer to the landlord.
+el sentimiento:
+  meaning: feeling
+  example: It is a feeling hard to explain.
+la culpa:
+  meaning: fault, blame
+  example: It's not my fault.
+capaz:
+  meaning: capable
+  example: You are capable of passing the exam.
+consciente:
+  meaning: aware
+  example: I am aware of my mistakes.
+enorme:
+  meaning: huge
+  example: They live in a huge house.
+la lengua:
+  meaning: tongue, language
+  example: I burned my tongue with the soup.
+el hogar:
+  meaning: home, household
+  example: I'm very comfortable in my home.
+la denuncia:
+  meaning: complaint, report
+  example: I filed a report at the police station.
+el pedido:
+  meaning: order
+  example: The order will arrive tomorrow morning.
+el almacén:
+  meaning: warehouse
+  example: We store the boxes in the warehouse.
+la colada:
+  meaning: laundry
+  example: Today I have to do the laundry.
+el detergente:
+  meaning: detergent
+  example: I need detergent for the washing machine.
+la fregona:
+  meaning: mop
+  example: Pass me the mop, please.
+la vajilla:
+  meaning: dishes, tableware
+  example: We wash the dishes after dinner.
+el radiador:
+  meaning: radiator
+  example: The radiator doesn't heat this room.
+la estufa:
+  meaning: heater, stove
+  example: Turn on the heater, it's very cold.
+el escritorio:
+  meaning: desk
+  example: I have the computer on the desk.
+el marisco:
+  meaning: seafood
+  example: I love fresh seafood.
+el pimiento:
+  meaning: pepper
+  example: Add a red pepper to the sauce.
+el pepino:
+  meaning: cucumber
+  example: Cut the cucumber for the salad.
+la calabaza:
+  meaning: pumpkin
+  example: Today we're making pumpkin soup.
+la berenjena:
+  meaning: aubergine
+  example: We roast the aubergine with a little oil.
+la fresa:
+  meaning: strawberry
+  example: This strawberry is very sweet.
+la cereza:
+  meaning: cherry
+  example: Cherries are in season.
+el melocotón:
+  meaning: peach
+  example: The peach is ripe and juicy.
+la piña:
+  meaning: pineapple
+  example: I bought a pineapple at the market.
+el garbanzo:
+  meaning: chickpea
+  example: Today we're eating chickpeas with spinach.
+la lenteja:
+  meaning: lentil
+  example: The lentils need more salt.
+el monedero:
+  meaning: purse
+  example: I've lost my purse at the market.
+la zapatilla:
+  meaning: slipper, trainer
+  example: I'm looking for comfortable trainers for walking.
+la bata:
+  meaning: robe
+  example: Put on your robe after the shower.
+el edredón:
+  meaning: duvet
+  example: In winter I use a thick duvet.
+el flexo:
+  meaning: desk lamp
+  example: I need a desk lamp to study at night.
+el felpudo:
+  meaning: doormat
+  example: Wipe your feet on the doormat.
+la valla:
+  meaning: fence
+  example: We painted the garden fence.
+el cubo:
+  meaning: bucket
+  example: Fill the bucket with hot water.
+el trapo:
+  meaning: cloth
+  example: Clean the table with a cloth.
+el labio:
+  meaning: lip
+  example: My lips are dry from the cold.
+la tripa:
+  meaning: belly
+  example: My stomach has been hurting since yesterday.
+la ampolla:
+  meaning: blister
+  example: I've got a blister on my foot.
+el prospecto:
+  meaning: leaflet
+  example: Read the leaflet before taking the pill.
+el ibuprofeno:
+  meaning: ibuprofen
+  example: The doctor prescribed me ibuprofen.
+el esparadrapo:
+  meaning: plaster
+  example: Put a plaster on the wound.
+el bienestar:
+  meaning: well-being
+  example: Sport improves overall well-being.
+el sindicato:
+  meaning: trade union
+  example: The trade union called a strike.
+el juicio:
+  meaning: trial
+  example: The trial will be next week.
+el testigo:
+  meaning: witness
+  example: The witness testified before the judge.
+declarar:
+  meaning: declare, testify
+  example: I had to testify at the police station.
+la comisaría:
+  meaning: police station
+  example: I went to the police station to report it.
+la licencia:
+  meaning: licence
+  example: I need a licence to open the bar.
+el itinerario:
+  meaning: itinerary
+  example: The itinerary includes three cities.
+el albergue:
+  meaning: hostel
+  example: We slept in a hostel in the village.
+el atardecer:
+  meaning: sunset
+  example: We watched the sunset from the beach.
+la artesanía:
+  meaning: craftwork
+  example: I bought craftwork at the street market.
+el recuerdo:
+  meaning: souvenir
+  example: I bought a souvenir for my mother.
+el adaptador:
+  meaning: adapter
+  example: I need an adapter for the plug.
+admirar:
+  meaning: admire
+  example: I admire my grandmother very much.
+la admiración:
+  meaning: admiration
+  example: I feel admiration for my teacher.
+el funeral:
+  meaning: funeral
+  example: The funeral will be on Tuesday.
+sonreír:
+  meaning: smile
+  example: She always smiles when she sees me.
+abrazar:
+  meaning: hug
+  example: She hugged me when saying goodbye.
+besar:
+  meaning: kiss
+  example: He kissed her on the cheek.
+la lágrima:
+  meaning: tear
+  example: There was a tear on his face.
+el grito:
+  meaning: shout
+  example: I heard a shout in the street.
+la mirada:
+  meaning: look, gaze
+  example: He gave me a serious look.
+aclarar:
+  meaning: clarify
+  example: Can you clarify this for me?
+aplicar:
+  meaning: apply
+  example: I'm going to apply this cream.
+apuntarse:
+  meaning: sign up
+  example: I'm signing up for the English course.
+arriesgarse:
+  meaning: take a risk
+  example: I don't want to take a risk without information.
+asistir:
+  meaning: attend
+  example: I'm going to attend the meeting.
+atravesar:
+  meaning: cross
+  example: We have to cross the park.
+callarse:
+  meaning: be quiet
+  example: Please, be quiet for a moment.
+cargar:
+  meaning: load, charge
+  example: I have to charge my phone.
+causar:
+  meaning: cause
+  example: The noise gives me a headache.
+colocar:
+  meaning: place
+  example: Place the books on the shelf.
+comparar:
+  meaning: compare
+  example: I'm going to compare the two prices.
+cubrir:
+  meaning: cover
+  example: The snow covers the whole garden.
+dirigir:
+  meaning: lead, direct
+  example: She leads a small team.
+distinguir:
+  meaning: distinguish
+  example: I can't distinguish colors well.
+emplear:
+  meaning: employ, use
+  example: The company employs twenty people.
+encargar:
+  meaning: order
+  example: I'm going to order a pizza.
+enterarse:
+  meaning: find out
+  example: I found out about the news yesterday.
+establecer:
+  meaning: establish
+  example: They want to establish new rules.
+experimentar:
+  meaning: experience, experiment
+  example: I want to experience new things.
+explotar:
+  meaning: explode, exploit
+  example: The balloon can explode.
+extender:
+  meaning: spread, extend
+  example: Spread the cream over your arm.
+fijar:
+  meaning: fix, set
+  example: Set the date for the meeting.
+fingir:
+  meaning: pretend
+  example: Don't pretend you're sick.
+herir:
+  meaning: injure
+  example: Glass can injure children.
+huir:
+  meaning: flee
+  example: The thief tried to flee.
+levantar:
+  meaning: lift
+  example: Help me lift the table.
+pescar:
+  meaning: fish
+  example: My father fishes on Sundays.
+repartir:
+  meaning: hand out
+  example: We're going to hand out the leaflets.
+revisar:
+  meaning: check, review
+  example: The doctor reviews my test results.
+saltar:
+  meaning: jump
+  example: The children are jumping in the park.
+sustituir:
+  meaning: replace
+  example: I'm going to replace the old filter.
+aguantar:
+  meaning: bear, endure
+  example: I can't bear this heat.
+aprovechar:
+  meaning: take advantage
+  example: Take advantage of the supermarket discount.
+cometer:
+  meaning: commit
+  example: I made a mistake on the form.
+confesar:
+  meaning: confess
+  example: I confess that I forgot the appointment.
+enfrentarse:
+  meaning: face, confront
+  example: You must face your fears.
+la niebla:
+  meaning: fog
+  example: The fog covers the road.
+la ola:
+  meaning: wave
+  example: A big wave reached the sand.
+la arena:
+  meaning: sand
+  example: The children play with the sand.
+la crisis:
+  meaning: crisis
+  example: The crisis affected many families.
+la economía:
+  meaning: economy
+  example: The country's economy is improving.
+el insomnio:
+  meaning: insomnia
+  example: Insomnia makes me very tired.
+la migraña:
+  meaning: migraine
+  example: I have a very bad migraine.
+la náusea:
+  meaning: nausea
+  example: I feel nausea and dizziness.
+la fractura:
+  meaning: fracture
+  example: The fracture needs rest.
+la caries:
+  meaning: cavity, tooth decay
+  example: The dentist treated my cavity.
+el papeleo:
+  meaning: paperwork
+  example: There is a lot of paperwork in the office.
+la estadística:
+  meaning: statistics
+  example: The statistics show less unemployment.
+la encuesta:
+  meaning: survey
+  example: Fill out the survey, please.
+la autorización:
+  meaning: authorization
+  example: I need my boss's authorization.
+el visado:
+  meaning: visa
+  example: I applied for the visa to travel.
+el enlace:
+  meaning: link
+  example: Click this link to download.
+la manifestación:
+  meaning: demonstration
+  example: The demonstration was very peaceful.
+la butaca:
+  meaning: seat, armchair
+  example: I booked two seats for the theater.
+el altavoz:
+  meaning: speaker
+  example: The speaker isn't working well.
+la suscripción:
+  meaning: subscription
+  example: I canceled my newspaper subscription.
+el fracaso:
+  meaning: failure
+  example: Failure taught him a lesson.
+el desempleo:
+  meaning: unemployment
+  example: Unemployment worries young people.
+la inundación:
+  meaning: flood
+  example: The flood damaged several houses.
+la felicitación:
+  meaning: congratulation
+  example: I gave him my congratulations on his promotion.
+la fila:
+  meaning: queue, line
+  example: There is a long queue at the bank.
+el negocio:
+  meaning: business, deal
+  example: My brother has a small business.
+la tortilla:
+  meaning: omelette
+  example: The potato omelette is very good.
+la regla:
+  meaning: rule, period
+  example: I don't understand this rule of the game.
+el cheque:
+  meaning: cheque
+  example: I paid by cheque, not by card.
+la sucursal:
+  meaning: branch
+  example: The bank has a branch here.
+el domicilio:
+  meaning: home address
+  example: Write your home address on the form.
+la comisión:
+  meaning: bank fee, commission
+  example: The bank charges me a fee.
+la instancia:
+  meaning: application form
+  example: Fill in the application form and sign it.
+la humedad:
+  meaning: damp, humidity
+  example: The damp has damaged the wall.
+la percha:
+  meaning: coat hanger
+  example: Hang the coat on the coat hanger.
+la funda:
+  meaning: cover, case
+  example: The pillowcase is dirty.
+el estante:
+  meaning: shelf
+  example: Put the books on the shelf.
+la nata:
+  meaning: cream
+  example: I want the coffee with cream.
+la salchicha:
+  meaning: sausage
+  example: Buy sausages for dinner.
+la barba:
+  meaning: beard
+  example: My neighbour has grown a beard.
+el bigote:
+  meaning: moustache
+  example: That man has a white moustache.
+la ceja:
+  meaning: eyebrow
+  example: She has burned an eyebrow.
+la pelea:
+  meaning: fight, argument
+  example: They had a fight over money.
+el malentendido:
+  meaning: misunderstanding
+  example: It was all a misunderstanding between us.
+el llanto:
+  meaning: crying
+  example: The baby's crying woke me up.
+el cumplido:
+  meaning: compliment
+  example: He gave me a very nice compliment.
+alejarse:
+  meaning: move away
+  example: Don't move too far away from the group.
+sudar:
+  meaning: sweat
+  example: I sweat a lot when I do sport.
+cuidarse:
+  meaning: take care of oneself
+  example: You have to take better care of yourself.
+estirar:
+  meaning: stretch
+  example: Stretch your arms before running.
+golpearse:
+  meaning: hit oneself, bump oneself
+  example: I hit my knee when I fell.
+cortarse:
+  meaning: cut oneself
+  example: Careful, don't cut yourself on the glass.
+atragantarse:
+  meaning: choke
+  example: He choked on an olive.
+ahogarse:
+  meaning: drown
+  example: He almost drowned in the swimming pool.
+arrancar:
+  meaning: start the engine
+  example: The car won't start this morning.
+frenar:
+  meaning: brake
+  example: Brake before the pedestrian crossing.
+adelantar:
+  meaning: overtake, pass
+  example: The car overtook a lorry.
+chocar:
+  meaning: crash, collide
+  example: We almost crashed into a tree.
+el maletero:
+  meaning: car boot
+  example: Leave the suitcase in the car boot.
+el volante:
+  meaning: steering wheel
+  example: Turn the steering wheel to the right.
+el retrovisor:
+  meaning: rear-view mirror
+  example: Look in the rear-view mirror before braking.
+el túnel:
+  meaning: tunnel
+  example: The tunnel is closed for works.
+la sombrilla:
+  meaning: beach umbrella
+  example: Put the beach umbrella near the sea.
+la tumbona:
+  meaning: sun lounger
+  example: We rented two sun loungers on the beach.
+el carro:
+  meaning: trolley, cart
+  example: Take a trolley for the shopping.
+la presión:
+  meaning: blood pressure
+  example: The doctor takes my blood pressure.
+la inflamación:
+  meaning: inflammation, swelling
+  example: The doctor saw a mild inflammation.
+el asma:
+  meaning: asthma
+  example: My son has had asthma since he was little.
+la diabetes:
+  meaning: diabetes
+  example: His grandmother has diabetes.
+el lunar:
+  meaning: mole, beauty spot
+  example: I had a mole removed.
+matricularse:
+  meaning: enrol, register
+  example: I enrolled at the university.
+inscribirse:
+  meaning: register, enrol
+  example: You can register for the course online.
+presentarse:
+  meaning: apply, introduce oneself
+  example: I applied for the receptionist job.
+reconciliarse:
+  meaning: make up, reconcile
+  example: After the fight they made up.
+avergonzarse:
+  meaning: be ashamed, feel embarrassed
+  example: I was ashamed of my mistake.
+emocionarse:
+  meaning: be moved, get emotional
+  example: I was moved by the film.
+sorprenderse:
+  meaning: be surprised
+  example: I was surprised to see him there.
+la grieta:
+  meaning: crack
+  example: There is a crack in the ceiling.
+la vitrocerámica:
+  meaning: hob, ceramic hob
+  example: The hob is dirty.
+la secadora:
+  meaning: dryer, tumble dryer
+  example: The clothes are in the dryer.
+el resguardo:
+  meaning: receipt, proof
+  example: Keep the receipt for the purchase.
+el comprobante:
+  meaning: proof of payment, receipt
+  example: I need proof of payment.
+el becario:
+  meaning: intern, trainee
+  example: The company is looking for an intern.
+la huella:
+  meaning: fingerprint, trace
+  example: Put your fingerprint on the document.
+por supuesto:
+  meaning: of course
+  example: Of course, you can use my mobile.
+tal vez:
+  meaning: maybe
+  example: Maybe I'll be late for the appointment.
+a lo mejor:
+  meaning: maybe
+  example: Maybe we'll go to the cinema.
+de repente:
+  meaning: suddenly
+  example: Suddenly it started to rain.
+en cambio:
+  meaning: on the other hand
+  example: On the other hand, I prefer the train.
+por ejemplo:
+  meaning: for example
+  example: For example, you can pay by card.
+sobre todo:
+  meaning: especially
+  example: I like fruit, especially apples.
+por cierto:
+  meaning: by the way
+  example: By the way, do you have the time?
+de hecho:
+  meaning: in fact
+  example: In fact, I already knew.
+en realidad:
+  meaning: actually
+  example: Actually, I don't feel like going out.
+al final:
+  meaning: in the end
+  example: In the end we found a flat.
+en general:
+  meaning: in general
+  example: In general, people are friendly.
+de todas formas:
+  meaning: anyway
+  example: Anyway, I'll call you later.
+por lo menos:
+  meaning: at least
+  example: At least we arrived on time.
+más bien:
+  meaning: rather
+  example: I'd rather stay at home.
+sin duda:
+  meaning: definitely
+  example: Without a doubt, it's the best option.
+en fin:
+  meaning: anyway
+  example: Anyway, we'll see what happens.
+por último:
+  meaning: finally
+  example: Finally, sign down here.
+de nuevo:
+  meaning: again
+  example: Call me again later.
+otra vez:
+  meaning: again
+  example: You have to try again.
+a menudo:
+  meaning: often
+  example: I often have breakfast at the bar.
+por fin:
+  meaning: finally
+  example: I finally finished the report.
+de momento:
+  meaning: for now
+  example: For now, I'm fine like this.
+por ahora:
+  meaning: for now
+  example: For now I don't have a job.
+al principio:
+  meaning: at first
+  example: At first it was hard for me to understand.
+al menos:
+  meaning: at least
+  example: At least let me know beforehand.
+el comercio:
+  meaning: shop, business
+  example: The shop closes at eight.
+el ingrediente:
+  meaning: ingredient
+  example: An ingredient is missing from the recipe.
+la especia:
+  meaning: spice
+  example: This spice gives a lot of flavor.
+el aperitivo:
+  meaning: appetizer, snack
+  example: We had an appetizer before lunch.
+el modelo:
+  meaning: model
+  example: I like this model of shoes.
+la competencia:
+  meaning: competition
+  example: The competition lowers prices.
+la comparación:
+  meaning: comparison
+  example: Price comparison helps.
+el medicamento:
+  meaning: medicine
+  example: I take this medicine every day.
+el virus:
+  meaning: virus
+  example: The virus spreads easily.
+el reconocimiento:
+  meaning: medical check
+  example: They're giving me a medical check.
+el masaje:
+  meaning: massage
+  example: The massage relaxes me a lot.
+el sueño:
+  meaning: sleep
+  example: I need eight hours of sleep.
+el encargo:
+  meaning: assignment, order
+  example: I have an assignment for tomorrow.
+la sede:
+  meaning: headquarters
+  example: The headquarters is in the city center.
+el desacuerdo:
+  meaning: disagreement
+  example: There was disagreement at the meeting.
+la copia:
+  meaning: copy
+  example: Make a copy of the contract.
+el escáner:
+  meaning: scanner
+  example: The scanner isn't working today.
+el acceso:
+  meaning: access
+  example: I don't have access to the system.
+la clave:
+  meaning: password, key
+  example: I forgot my email password.
+la visita:
+  meaning: visit
+  example: We're visiting the flat.
+la orientación:
+  meaning: orientation
+  example: The flat has good orientation.
+amueblado:
+  meaning: furnished
+  example: The flat is furnished.
+el aviso:
+  meaning: notice
+  example: There's a notice on the door.
+el vehículo:
+  meaning: vehicle
+  example: The vehicle is at the garage.
+el crucero:
+  meaning: cruise
+  example: A cruise around the Mediterranean.
+el pasaje:
+  meaning: ticket, passage
+  example: I bought the ticket online.
+el parking:
+  meaning: car park
+  example: The car park is full.
+la rabia:
+  meaning: anger, rage
+  example: I feel rage about what happened.
+la nostalgia:
+  meaning: nostalgia
+  example: I feel nostalgia for my hometown.
+el complejo:
+  meaning: complex
+  example: He has a complex about his height.
+la concentración:
+  meaning: concentration
+  example: I need concentration to study.
+la imaginación:
+  meaning: imagination
+  example: Use your imagination to solve it.
+la recomendación:
+  meaning: recommendation
+  example: I'll follow your recommendation.
+el portátil:
+  meaning: laptop
+  example: I work on the laptop at home.
+es decir:
+  meaning: that is
+  example: That is, we can't come.
+por un lado:
+  meaning: on one hand
+  example: On one hand, it's very cheap.
+por otro lado:
+  meaning: on the other hand
+  example: On the other hand, it's quite far.
+puesto que:
+  meaning: since, because
+  example: He didn't come because he was ill.
+o sea:
+  meaning: that is, in other words
+  example: That is, you're not coming.
+de modo que:
+  meaning: so, so that
+  example: He arrived late, so we waited.
+aun así:
+  meaning: even so
+  example: Even so, I prefer to stay.
+por lo visto:
+  meaning: apparently
+  example: Apparently, there are no places left.
+de todas maneras:
+  meaning: anyway, in any case
+  example: Anyway, I'll go tomorrow.
+en resumen:
+  meaning: in summary, in short
+  example: In summary, everything went well.
+la aspiradora:
+  meaning: vacuum cleaner
+  example: I vacuum every Saturday.
+el llavero:
+  meaning: keyring
+  example: I've lost the keyring.
+el freno:
+  meaning: brake
+  example: The car's brake is faulty.
+el acelerador:
+  meaning: accelerator
+  example: Press the accelerator carefully.
+el arcén:
+  meaning: hard shoulder
+  example: The car stopped on the hard shoulder.
+el surtidor:
+  meaning: fuel pump
+  example: The fuel pump isn't working.
+el embrague:
+  meaning: clutch
+  example: Press the clutch to change gear.
+la furgoneta:
+  meaning: van
+  example: We rented a van for the move.
+el rotulador:
+  meaning: marker pen
+  example: Write the name with a marker pen.
+la grapadora:
+  meaning: stapler
+  example: The stapler has no staples.
+el clip:
+  meaning: paperclip
+  example: Hold the sheets together with a paperclip.
+el archivador:
+  meaning: binder
+  example: Keep the documents in the binder.
+el proyector:
+  meaning: projector
+  example: The projector isn't working properly.
+la pizarra:
+  meaning: whiteboard, blackboard
+  example: Write the date on the whiteboard.
+el calabacín:
+  meaning: courgette, zucchini
+  example: The courgette is fresh today.
+el brócoli:
+  meaning: broccoli
+  example: Boil the broccoli for five minutes.
+la coliflor:
+  meaning: cauliflower
+  example: Cauliflower with potatoes is good.
+el aguacate:
+  meaning: avocado
+  example: Avocados are very expensive today.
+la espinaca:
+  meaning: spinach
+  example: Spinach is very healthy.
+el puerro:
+  meaning: leek
+  example: The leek is in the fridge.
+la ciruela:
+  meaning: plum
+  example: The plums are ripe.
+el kiwi:
+  meaning: kiwi
+  example: Kiwi has a lot of vitamin C.
+la gasa:
+  meaning: gauze
+  example: Put a gauze over the wound.
+el suero:
+  meaning: saline drip, serum
+  example: The doctor put him on a saline drip.
+el pulso:
+  meaning: pulse
+  example: The nurse took my pulse.
+el paracetamol:
+  meaning: paracetamol
+  example: I take paracetamol for the pain.
+la aspirina:
+  meaning: aspirin
+  example: Do you have an aspirin for the pain?
+la pinza:
+  meaning: clothes peg, clip
+  example: A clothes peg is missing.
+el estropajo:
+  meaning: scouring pad
+  example: The scouring pad is in the sink.
+el ambientador:
+  meaning: air freshener
+  example: I put air freshener in the bathroom.
+el candado:
+  meaning: padlock
+  example: Lock the bike with a padlock.
+la mirilla:
+  meaning: peephole
+  example: Look through the peephole before opening.
+el pestillo:
+  meaning: latch, bolt
+  example: Close the latch at night.
+la cadena:
+  meaning: chain
+  example: Put the chain on the door.
+la antena:
+  meaning: aerial, antenna
+  example: The TV aerial isn't working.
+el capó:
+  meaning: bonnet, hood
+  example: Open the car bonnet.
+el parabrisas:
+  meaning: windscreen, windshield
+  example: The windscreen is dirty.
+el intermitente:
+  meaning: indicator, turn signal
+  example: Put on the indicator before turning.
+el casco:
+  meaning: helmet
+  example: Put on your helmet on the motorbike.
+la cortesía:
+  meaning: courtesy, politeness
+  example: Courtesy is important.
+la grosería:
+  meaning: rudeness
+  example: His rudeness surprised me.
+la enhorabuena:
+  meaning: congratulations
+  example: I congratulate you.
+el pésame:
+  meaning: condolences
+  example: I offered my condolences yesterday.
+el brindis:
+  meaning: toast
+  example: We make a toast to the bride and groom.
+la vela:
+  meaning: candle, sail
+  example: Blow out the candles on the cake.
+la reconciliación:
+  meaning: reconciliation
+  example: After the fight there was a reconciliation.
+la humildad:
+  meaning: humility
+  example: His humility impressed me.
+la antipatía:
+  meaning: dislike, unfriendliness
+  example: There is no dislike between them.
+el centro comercial:
+  meaning: shopping centre, mall
+  example: We're going to the shopping centre this afternoon.
+la alimentación:
+  meaning: food, diet
+  example: Healthy eating is important.
+la universidad:
+  meaning: university
+  example: My sister studies at university.
+el camión:
+  meaning: lorry, truck
+  example: The lorry is blocking the garage entrance.
+la higiene:
+  meaning: hygiene
+  example: Personal hygiene prevents many infections.
+el aire acondicionado:
+  meaning: air conditioning
+  example: Turn on the air conditioning, it's hot.
+el cable:
+  meaning: cable, wire
+  example: This cable doesn't work well.
+la copa:
+  meaning: glass, drink
+  example: Do you want to have a drink with me?
+el pasado:
+  meaning: past
+  example: The past cannot be changed.
+el presente:
+  meaning: present
+  example: The present is what matters.
+el tiempo libre:
+  meaning: free time
+  example: I don't have much free time this week.
+el ocio:
+  meaning: leisure
+  example: Leisure is important for resting.
+la medida:
+  meaning: measurement, measure
+  example: I need the exact measurement of the window.
+calcular:
+  meaning: to calculate
+  example: Try to calculate the final price.
+la impresión:
+  meaning: impression
+  example: I have the impression that he is angry.
+el envío:
+  meaning: shipment, delivery
+  example: The shipment arrives tomorrow morning.
+la postal:
+  meaning: postcard
+  example: I'm sending you a postcard from Valencia.
+el código postal:
+  meaning: postcode
+  example: Write your postcode here.
+la notificación:
+  meaning: notification
+  example: I received a notification from the bank.
+la descarga:
+  meaning: download
+  example: The download takes five minutes.
+la planificación:
+  meaning: planning
+  example: Planning the trip takes time.
+el recordatorio:
+  meaning: reminder
+  example: I set a reminder for the appointment.
+la conducta:
+  meaning: behaviour
+  example: His behaviour surprised me quite a bit.
+la creatividad:
+  meaning: creativity
+  example: Creativity helps solve problems.
+la actualidad:
+  meaning: current affairs
+  example: I read the news every day.
+el premio:
+  meaning: prize, award
+  example: He won the photography prize.
+la fama:
+  meaning: fame
+  example: Fame can be hard to handle.
+actuar:
+  meaning: to act, perform
+  example: The actors will perform tonight.
+brindar:
+  meaning: to toast
+  example: Let's toast to your new job.
+el vídeo:
+  meaning: video
+  example: Watch this video, it's really funny.
+la enseñanza:
+  meaning: teaching, education
+  example: Language teaching requires patience.
+la ciencia:
+  meaning: science
+  example: Science explains many things.
+la informática:
+  meaning: computing, IT
+  example: She studies IT at university.
+la ingeniería:
+  meaning: engineering
+  example: My cousin studies industrial engineering.
+el titular:
+  meaning: headline
+  example: The newspaper headline was alarming.
+la gráfica:
+  meaning: chart, graph
+  example: The chart shows annual sales.
+la tabla:
+  meaning: table, chart
+  example: Fill in the table with your data.
+el porcentaje:
+  meaning: percentage
+  example: The unemployment percentage has fallen.
+la media:
+  meaning: average
+  example: Calculate the average of the grades.
+el total:
+  meaning: total
+  example: The total for the purchase is twelve euros.
+sumar:
+  meaning: to add up
+  example: I'm going to add up these amounts.
+dividir:
+  meaning: to divide
+  example: Divide the cake into eight pieces.
+el diagnóstico:
+  meaning: diagnosis
+  example: The doctor's diagnosis was clear.
+la lesión:
+  meaning: injury
+  example: The injury is not serious.
+el golpe:
+  meaning: blow, hit
+  example: I banged my knee.
+la postura:
+  meaning: posture
+  example: Maintain good posture when sitting.
+la relajación:
+  meaning: relaxation
+  example: Relaxation before sleeping helps.
+la vitamina:
+  meaning: vitamin
+  example: The orange has a lot of vitamin C.
+la proteína:
+  meaning: protein
+  example: Meat is a source of protein.
+la fibra:
+  meaning: fibre
+  example: Fruit contains a lot of fibre.
+la grasa:
+  meaning: fat
+  example: This food has too much fat.
+la caloría:
+  meaning: calorie
+  example: This drink has few calories.
+el colesterol:
+  meaning: cholesterol
+  example: High cholesterol is bad for the heart.
+la gramática:
+  meaning: grammar
+  example: Spanish grammar is not difficult.
+el vocabulario:
+  meaning: vocabulary
+  example: I learn new vocabulary every day.
+la pronunciación:
+  meaning: pronunciation
+  example: Your Spanish pronunciation has improved.
+la ortografía:
+  meaning: spelling
+  example: Be careful with spelling in the exam.
+el borrador:
+  meaning: draft
+  example: Write a draft before the report.
+la corrección:
+  meaning: correction, proofreading
+  example: Proofreading the text takes time.
+la expresión:
+  meaning: expression
+  example: Oral expression is very important.
+quedarse:
+  meaning: to stay
+  example: I stayed at home all day.
+irse:
+  meaning: to leave
+  example: We left before the end.
+llevarse:
+  meaning: get along
+  example: I get along well with my colleagues.
+apetecer:
+  meaning: to feel like
+  example: I don't feel like going out tonight.
+parecerse:
+  meaning: to look like, resemble
+  example: You look a lot like your father.
+preocupar:
+  meaning: to worry
+  example: The news worries me a lot.
+cansarse:
+  meaning: to get tired
+  example: I get tired going up the stairs.
+acercar:
+  meaning: bring closer, move closer
+  example: Bring the chair closer to the table.
+calentar:
+  meaning: to heat, warm up
+  example: Heat the soup for a minute.
+dormirse:
+  meaning: fall asleep
+  example: I fell asleep on the sofa.
+despertar:
+  meaning: to wake, wake up
+  example: The noise woke the neighbors.
+vestirse:
+  meaning: get dressed
+  example: She dresses very elegantly for work.
+olvidarse:
+  meaning: to forget
+  example: I forgot my keys at home.
+afeitarse:
+  meaning: to shave
+  example: He shaves every morning.
+maquillarse:
+  meaning: put on makeup
+  example: She wears little makeup in the morning.
+asustar:
+  meaning: to scare, frighten
+  example: The movie scared the children.
+temer:
+  meaning: to fear
+  example: I fear he'll arrive late.
+temblar:
+  meaning: to tremble, shake
+  example: My hands are trembling from the cold.
+portarse:
+  meaning: to behave
+  example: He behaved very well toward me.
+alegrar:
+  meaning: make happy, gladden
+  example: It makes me happy to see you so happy.
+enfadar:
+  meaning: to anger, make angry
+  example: His attitude angered everyone.
+aburrir:
+  meaning: to bore
+  example: The movie bored the children.
+divertir:
+  meaning: to amuse, entertain
+  example: The game amused everyone a lot.
+cansar:
+  meaning: to tire, make tired
+  example: The walk tired me quite a bit.
+calentarse:
+  meaning: to warm up
+  example: I warmed my hands by the fire.
+volverse:
+  meaning: to become, turn
+  example: He became very unpleasant to everyone.
+alejar:
+  meaning: move away
+  example: Move the chair away from the window.
+la rueda:
+  meaning: wheel
+  example: I got a flat tyre on the motorway.
+el motor:
+  meaning: engine
+  example: The car engine is making a strange noise.
+la cremallera:
+  meaning: zip, zipper
+  example: The zip on my jacket broke.
+el algodón:
+  meaning: cotton
+  example: I prefer cotton T-shirts in summer.
+la lana:
+  meaning: wool
+  example: This sweater is pure wool.
+la seda:
+  meaning: silk
+  example: The blouse is natural silk.
+el gorro:
+  meaning: hat, beanie
+  example: Put on your hat, it's very cold.
+la cerilla:
+  meaning: match
+  example: He lit the candle with a match.
+el mechero:
+  meaning: lighter
+  example: Do you have a lighter for the fire?
+la cuerda:
+  meaning: rope
+  example: She hung the clothes with a rope.
+el martillo:
+  meaning: hammer
+  example: I need the hammer to hang the picture.
+el clavo:
+  meaning: nail
+  example: He put a nail in the wall.
+el gancho:
+  meaning: hook
+  example: Hang your coat on the hook.
+la cirugía:
+  meaning: surgery
+  example: The surgery was quick and went well.
+el empaste:
+  meaning: filling
+  example: The dentist gave me a filling today.
+el colirio:
+  meaning: eye drops
+  example: The doctor prescribed me eye drops.
+el protector solar:
+  meaning: sunscreen
+  example: Put on sunscreen at the beach.
+la judía verde:
+  meaning: green bean
+  example: I bought green beans at the market.
+el guisante:
+  meaning: pea
+  example: Add peas to the soup.
+la remolacha:
+  meaning: beetroot
+  example: I bought beetroot for the salad.
+la acelga:
+  meaning: chard
+  example: I cooked chard with potatoes.
+la col:
+  meaning: cabbage
+  example: I cooked cabbage with potatoes.
+el muelle:
+  meaning: dock, pier
+  example: The boat is moored at the dock.
+el susto:
+  meaning: fright, scare
+  example: I got a huge fright.
+la tranquilidad:
+  meaning: calm, tranquility
+  example: I look for calm in the countryside.
+la felicidad:
+  meaning: happiness
+  example: Happiness is in the little things.
+la confusión:
+  meaning: confusion
+  example: I felt confusion when I heard the news.
+el aburrimiento:
+  meaning: boredom
+  example: Boredom made me go out.
+la diversión:
+  meaning: fun
+  example: The party was pure fun.
+el entusiasmo:
+  meaning: enthusiasm
+  example: He spoke with a lot of enthusiasm.
+la pereza:
+  meaning: laziness
+  example: Today I can't be bothered to cook.
+la alcachofa:
+  meaning: artichoke
+  example: Artichokes are very expensive today.
+el apio:
+  meaning: celery
+  example: Celery gives flavor to the soup.
+más o menos:
+  meaning: more or less
+  example: The exam was more or less easy.
+poco a poco:
+  meaning: little by little
+  example: Little by little I'm learning Spanish.
+por suerte:
+  meaning: luckily, fortunately
+  example: Luckily, I found the keys right away.
+por desgracia:
+  meaning: unfortunately
+  example: Unfortunately, the flight was cancelled.
+la mitad:
+  meaning: half
+  example: I only ate half of the dish.
+la mancha:
+  meaning: stain
+  example: There is a stain on your shirt.
+el agujero:
+  meaning: hole
+  example: There is a hole in the trousers.
+la sombra:
+  meaning: shade
+  example: Let's find some shade to eat.
+el escalón:
+  meaning: step, stair
+  example: Careful, the last step is broken.
+útil:
+  meaning: useful
+  example: This app is very useful.
+suave:
+  meaning: soft, gentle
+  example: This jumper is very soft.
+seco:
+  meaning: dry
+  example: The chicken is a bit dry.
+fresco:
+  meaning: fresh, cool
+  example: The fish is very fresh.
+roto:
+  meaning: broken
+  example: The lift is broken again.
+dulce:
+  meaning: sweet
+  example: This wine is too sweet.
+salado:
+  meaning: salty
+  example: The ham is very salty.
+amargo:
+  meaning: bitter
+  example: The coffee is too bitter.
+picante:
+  meaning: spicy
+  example: The sauce is too spicy.
+antiguo:
+  meaning: old, former
+  example: I live in an old building.
+típico:
+  meaning: typical
+  example: We tried a typical dish from here.
+estupendo:
+  meaning: great, wonderful
+  example: The hotel was great.
+gracioso:
+  meaning: funny
+  example: Your brother is very funny.
+molesto:
+  meaning: annoying
+  example: The noise is very annoying.
+incómodo:
+  meaning: uncomfortable
+  example: This seat is very uncomfortable.
+silencioso:
+  meaning: quiet
+  example: The neighbourhood is very quiet.
+sincero:
+  meaning: sincere, honest
+  example: Thank you for being so honest.
+cariñoso:
+  meaning: affectionate
+  example: My grandfather is very affectionate.
+agotado:
+  meaning: exhausted
+  example: After work I'm exhausted.
+optimista:
+  meaning: optimistic
+  example: She is always very optimistic.
+pesimista:
+  meaning: pessimistic
+  example: Don't be pessimistic about the exam.
+impaciente:
+  meaning: impatient
+  example: The child is impatient to go out.
+tacaño:
+  meaning: stingy
+  example: My neighbour is quite stingy.
+vago:
+  meaning: lazy
+  example: My colleague is a bit lazy.
+odiar:
+  meaning: to hate
+  example: I hate waiting at the bank.
+soñar:
+  meaning: to dream
+  example: Last night I dreamed about my village.
+insistir:
+  meaning: to insist
+  example: He insisted on paying the bill.
+apretar:
+  meaning: to press, squeeze
+  example: Press the lift button.
+soltar:
+  meaning: to let go
+  example: Don't let go of my hand in the market.
+tapar:
+  meaning: to cover
+  example: Cover the pot so it boils.
+soplar:
+  meaning: to blow
+  example: Blow on the soup, it's very hot.
+doblar:
+  meaning: to fold, turn
+  example: Fold the clothes before putting them away.
+mojarse:
+  meaning: to get wet
+  example: Don't get wet, it's raining.
+agacharse:
+  meaning: to bend down
+  example: Bend down to pick up the pen.
+morder:
+  meaning: to bite
+  example: My dog bites shoes.
+tragar:
+  meaning: to swallow
+  example: My throat hurts when I swallow.
+masticar:
+  meaning: to chew
+  example: Chew well before swallowing.
+arrastrar:
+  meaning: to drag
+  example: Drag the chair over to the table.
+exagerar:
+  meaning: to exaggerate
+  example: Don't exaggerate, it wasn't that bad.
+adivinar:
+  meaning: to guess
+  example: Guess who's coming to dinner.
+insultar:
+  meaning: to insult
+  example: Don't insult your classmates.
+pelearse:
+  meaning: to quarrel, fight
+  example: They quarrelled over something silly.
+el chiste:
+  meaning: joke
+  example: My uncle tells very good jokes.
+el folleto:
+  meaning: brochure, leaflet
+  example: This brochure explains the routes.
+el sobrino:
+  meaning: nephew
+  example: My nephew is only five years old.
+la suegra:
+  meaning: mother-in-law
+  example: My mother-in-law cooks very well.
+el nieto:
+  meaning: grandson
+  example: Their grandson lives in another city.
+en absoluto:
+  meaning: not at all
+  example: I don't like it at all, not at all.
+a la vez:
+  meaning: at the same time
+  example: I can't do two things at the same time.
+del todo:
+  meaning: completely
+  example: The project isn't completely finished.
+en cuanto:
+  meaning: as soon as
+  example: I'll call you as soon as I get home.
+mientras tanto:
+  meaning: meanwhile
+  example: I study; meanwhile, he cooks.
+en primer lugar:
+  meaning: firstly
+  example: Firstly, fill in the form.
+por casualidad:
+  meaning: by chance
+  example: I found your ID card by chance.
+a continuación:
+  meaning: next
+  example: Next, read the instructions.
+la despensa:
+  meaning: pantry
+  example: I keep the rice in the pantry.
+la bandeja:
+  meaning: tray
+  example: Put the glasses on the tray.
+el cazo:
+  meaning: saucepan
+  example: Heat the milk in the saucepan.
+la batidora:
+  meaning: blender
+  example: Beat the eggs with the blender.
+la cafetera:
+  meaning: coffee maker
+  example: The coffee maker is next to the window.
+el abrelatas:
+  meaning: can opener
+  example: I can't find the can opener anywhere.
+el sacacorchos:
+  meaning: corkscrew
+  example: Open the bottle with the corkscrew.
+la bayeta:
+  meaning: cleaning cloth
+  example: Wipe the table with a cleaning cloth.
+el recogedor:
+  meaning: dustpan
+  example: Bring the dustpan and broom.
+el autocar:
+  meaning: coach bus
+  example: The coach leaves at eight.
+la litera:
+  meaning: bunk bed
+  example: The room has two bunk beds.
+el aterrizaje:
+  meaning: landing
+  example: The landing was very smooth.
+el despegue:
+  meaning: takeoff
+  example: The takeoff was delayed by an hour.
+la azafata:
+  meaning: flight attendant
+  example: The flight attendant brought us water.
+el piloto:
+  meaning: pilot
+  example: The pilot announced turbulence.
+el embarque:
+  meaning: boarding
+  example: Boarding starts at ten.
+la terminal:
+  meaning: terminal
+  example: The terminal is at the end of the airport.
+el afecto:
+  meaning: affection
+  example: His affection gave me a lot of strength.
+la ternura:
+  meaning: tenderness
+  example: Treat the children with tenderness.
+la lealtad:
+  meaning: loyalty
+  example: Loyalty is important in friendship.
+la compañía:
+  meaning: company
+  example: I really enjoy your company.
+el grado:
+  meaning: degree
+  example: The temperature has dropped several degrees.
+la sequía:
+  meaning: drought
+  example: The drought affects the whole region.
+el granizo:
+  meaning: hail
+  example: The hail broke the windows.
+la helada:
+  meaning: frost
+  example: The frost burned the garden plants.
+el pronóstico:
+  meaning: forecast
+  example: The forecast calls for rain tomorrow.
+el relámpago:
+  meaning: lightning
+  example: A flash of lightning lit up the whole sky.
+el trueno:
+  meaning: thunder
+  example: The thunder woke me up at night.
+la brisa:
+  meaning: breeze
+  example: A cool breeze comes from the sea.
+el arcoíris:
+  meaning: rainbow
+  example: After the rain, the rainbow came out.
+el folio:
+  meaning: sheet of paper
+  example: Write your name on the sheet of paper.
+la grapa:
+  meaning: staple
+  example: The report is missing a staple.
+el remitente:
+  meaning: sender
+  example: Write the sender on the back of the envelope.
+el destinatario:
+  meaning: recipient
+  example: The recipient lives in Madrid.
+el adjunto:
+  meaning: attachment
+  example: Check the attachment in my email.
+la escayola:
+  meaning: plaster cast
+  example: He has a plaster cast on his leg.
+la acidez:
+  meaning: heartburn
+  example: I have heartburn after eating.
+el apósito:
+  meaning: dressing
+  example: Cover the wound with a dressing.
+la fisioterapia:
+  meaning: physiotherapy
+  example: I go to physiotherapy because of the pain.
+la parcela:
+  meaning: plot
+  example: The house has a large plot.
+la urbanización:
+  meaning: housing estate
+  example: We live in a quiet housing estate.
+el chalé:
+  meaning: detached house
+  example: They rented a detached house near the sea.
+la buhardilla:
+  meaning: attic room
+  example: The attic room has a lot of light.
+el recibidor:
+  meaning: entrance hall
+  example: Leave your shoes in the entrance hall.
+el lavadero:
+  meaning: utility room
+  example: The washing machine is in the utility room.
+la pechuga:
+  meaning: breast
+  example: The chicken breast is very tender.
+el filete:
+  meaning: steak
+  example: Order a rare steak.
+la merluza:
+  meaning: hake
+  example: The hake is fresh today.
+el salmón:
+  meaning: salmon
+  example: Salmon cooks very quickly.
+el langostino:
+  meaning: prawn
+  example: The prawns are on offer.
+la gamba:
+  meaning: prawn
+  example: The prawn comes from the sea.
+el calamar:
+  meaning: squid
+  example: We ordered grilled squid.
+el bacalao:
+  meaning: cod
+  example: The cod comes with a lot of garlic.
+el cerdo:
+  meaning: pork
+  example: I don't eat pork.
+la línea:
+  meaning: line
+  example: Take metro line two.
+la habilidad:
+  meaning: ability, skill
+  example: She has a knack for languages.
+la capacidad:
+  meaning: capacity, ability
+  example: She has the ability to solve problems.
+el pago:
+  meaning: payment
+  example: Payment is made by card.
+la excusa:
+  meaning: excuse
+  example: You always use the same excuse.
+la decepción:
+  meaning: disappointment
+  example: It was a great disappointment for everyone.
+el insulto:
+  meaning: insult
+  example: I don't accept insults in my house.
+la advertencia:
+  meaning: warning
+  example: He ignored the doctor's warning.
+la amenaza:
+  meaning: threat
+  example: The threat doesn't scare me.
+la tendencia:
+  meaning: trend
+  example: This trend is very fashionable.
+la industria:
+  meaning: industry
+  example: The textile industry gives work here.
+la agricultura:
+  meaning: agriculture
+  example: Agriculture depends on the climate.
+el convenio:
+  meaning: collective agreement
+  example: The collective agreement improves wages.
+la cifra:
+  meaning: figure, number
+  example: The unemployment figure has fallen.
+la libreta:
+  meaning: notebook
+  example: Write the address down in the notebook.
+la papelera:
+  meaning: wastepaper basket
+  example: Throw those papers in the wastepaper basket.
+el vidrio:
+  meaning: glass
+  example: Glass is recycled in the green bin.
+la madera:
+  meaning: wood
+  example: The table is made of light wood.
+el metal:
+  meaning: metal
+  example: The key is made of metal.
+la tela:
+  meaning: fabric
+  example: This fabric is very soft.
+el cuero:
+  meaning: leather
+  example: These boots are made of leather.
+el fondo:
+  meaning: bottom, back
+  example: The keys are at the bottom of the bag.
+el borde:
+  meaning: edge
+  example: Don't put the glass on the edge.
+la superficie:
+  meaning: surface
+  example: Clean the surface of the table.
+la posición:
+  meaning: position
+  example: Change the position of the chair.
+el hueco:
+  meaning: gap, space
+  example: There is a free space on the shelf.
+la fachada:
+  meaning: facade
+  example: The facade of the building is white.
+el taladro:
+  meaning: drill
+  example: I need a drill for the wall.
+el suavizante:
+  meaning: fabric softener
+  example: Put fabric softener in the washing machine.
+el cesto:
+  meaning: basket
+  example: Put the clothes in the basket.
+la tostadora:
+  meaning: toaster
+  example: The bread is in the toaster.
+el póster:
+  meaning: poster
+  example: I put a poster in my room.
+la infusión:
+  meaning: herbal tea
+  example: I prefer a herbal tea before sleeping.
+el caldo:
+  meaning: broth, stock
+  example: The chicken broth is hot.
+la salsa:
+  meaning: sauce
+  example: This sauce has tomato and garlic.
+el cordero:
+  meaning: lamb
+  example: The lamb is very tender.
+el pavo:
+  meaning: turkey
+  example: At Christmas we eat roast turkey.
+la sardina:
+  meaning: sardine
+  example: Grilled sardines are delicious.
+el mejillón:
+  meaning: mussel
+  example: Mussels are cheap today.
+la trucha:
+  meaning: trout
+  example: Trout is cooked in the oven.
+el maíz:
+  meaning: corn, maize
+  example: Add corn to the salad.
+la seta:
+  meaning: mushroom
+  example: Don't eat that mushroom; it may be toxic.
+el champiñón:
+  meaning: button mushroom
+  example: Wash the button mushrooms before cooking.
+el mango:
+  meaning: mango
+  example: The mango is sweet and ripe.
+el higo:
+  meaning: fig
+  example: In September we eat fresh figs.
+la picadura:
+  meaning: bite, sting
+  example: I have a mosquito bite.
+la encía:
+  meaning: gum
+  example: My gums bleed when I brush.
+el esguince:
+  meaning: sprain
+  example: I have sprained my ankle.
+el muslo:
+  meaning: thigh
+  example: My thigh hurts after running.
+la pantorrilla:
+  meaning: calf
+  example: My calf hurts when I walk.
+el envoltorio:
+  meaning: wrapper, packaging
+  example: Throw the wrapper in the yellow bin.
+fregar:
+  meaning: to wash up
+  example: Washing the dishes bores me.
+barrer:
+  meaning: to sweep
+  example: Sweep the kitchen floor.
+tender:
+  meaning: to hang laundry
+  example: I hang the laundry on the balcony.
+regar:
+  meaning: to water
+  example: Water the plants every morning.
+pegar:
+  meaning: to stick, glue
+  example: Stick the photo on the sheet.
+escanear:
+  meaning: to scan
+  example: Scan the document, please.
+vaciar:
+  meaning: to empty
+  example: Empty the bottle into the glass.
+atar:
+  meaning: to tie
+  example: Tie the package with a rope.
+perezoso:
+  meaning: lazy
+  example: My brother is very lazy.
+el empleado:
+  meaning: employee
+  example: The employee asked me for my ID.
+el ambulatorio:
+  meaning: health centre
+  example: The health centre is near my house.
+en efecto:
+  meaning: indeed
+  example: Indeed, the meeting is tomorrow.
+el empresario:
+  meaning: businessman
+  example: The businessman signed the contract.

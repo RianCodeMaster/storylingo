@@ -125,6 +125,18 @@ export async function loadDue(base: string, target: string): Promise<ReviewCard[
   });
 }
 
+/** The current state of items this learner has practised (to practise them again before they are due). */
+export async function loadStates(ids: string[]): Promise<Map<string, SrsRow>> {
+  if (!ids.length) return new Map();
+  const { data, error } = await supabase()
+    .from("user_lexeme_state")
+    .select(`lexeme_id, ${SRS_COLUMNS}`)
+    .in("lexeme_id", ids)
+    .returns<(SrsRow & { lexeme_id: string })[]>();
+  if (error) throw error;
+  return new Map(data.map(({ lexeme_id, ...row }) => [lexeme_id, row]));
+}
+
 /** Save an answer: the item's new state (lib/srs.ts, schedule) and a line in the review log. */
 export async function saveGrade(userId: string, lexemeId: string, grade: Grade, row: SrsRow) {
   const sb = supabase();

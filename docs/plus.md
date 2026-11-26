@@ -17,11 +17,10 @@ free:
   stories_per_day: 1       # waarvan 1 nieuw verhaal per dag; een verhaal opnieuw spelen mag altijd
   phrases_per_level: 10    # per niveau de eerste 10 zinnen
   phrases_per_topic: 5     # en per niveau de eerste 5 van elk onderwerp (dokter, werk, …: om te proeven)
-  phrases_per_day: 10      # waarvan 10 nieuwe per dag
   words_per_level: 50      # woordenschat: per niveau de eerste 50 woorden
   words_per_topic: 5       # en de eerste 5 van elk onderwerp
-  words_per_day: 10        # waarvan 10 nieuwe per dag
-  reviews_per_day: 20      # 20 woorden herhalen per dag
+  # Nieuwe zinnen en woorden en herhalen: geen daglimiet. Herhalen wordt nooit geblokkeerd (wat klaarstaat moet nu).
+  # Nieuwe zinnen en woorden: Wie meer wil leren, kan dat; de grens is per niveau (wat gratis is).
 ```
 
 Een getal aanpassen en daarna `storylingo.py sync` (en `sync <een verhaal> --cloud` voor online). Welke verhalen gratis

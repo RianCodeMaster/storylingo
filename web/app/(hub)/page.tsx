@@ -71,7 +71,7 @@ function landingEditions(): LandingEdition[] {
               }
             : null,
         free: plus?.free
-          ? { stories: plus.free.stories_per_level, phrases: plus.free.phrases_per_level, reviews: plus.free.reviews_per_day }
+          ? { stories: plus.free.stories_per_level, phrases: plus.free.phrases_per_level, words: plus.free.words_per_level }
           : null,
       };
     });

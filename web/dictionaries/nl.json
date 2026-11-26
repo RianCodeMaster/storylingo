@@ -222,10 +222,11 @@
     "wait": "Even wachten: dit kaartje komt over {time} terug.",
     "waitWhy": "Meteen herhalen test alleen wat je net zag. Na een korte pauze onthoud je het echt.",
     "stopNow": "Stoppen, later herhalen",
-    "first": "Eerst {n} woorden herhalen die vandaag klaarstaan",
+    "first": "Eerst herhalen: {n} klaar voor vandaag",
     "manyNew": "Je leerde vandaag al {n} nieuwe. Meer mag, maar elke nieuwe kaart komt de komende dagen terug in je herhaling.",
     "learnWords": "📚 Nieuwe woorden leren",
-    "learnPhrases": "💬 Nieuwe zinnen leren"
+    "learnPhrases": "💬 Nieuwe zinnen leren",
+    "practiseAgain": "Geleerde nog eens oefenen"
   },
   "nav": {
     "home": "Naar het begin",
@@ -289,11 +290,8 @@
     "replay": "Een verhaal dat je al kent, kun je altijd opnieuw spelen.",
     "locked": "Dit verhaal zit in Plus.",
     "lockedLevel": "De andere verhalen van dit niveau zitten in Plus.",
-    "phrasesToday": "Je {n} nieuwe zinnen van vandaag zitten erop. Morgen weer {n}, of onbeperkt met Plus.",
     "phrasesLevel": "De eerste {free} zinnen van dit niveau zijn gratis. Met Plus heb je alle {total}.",
-    "wordsToday": "Je {n} nieuwe woorden van vandaag zitten erop. Morgen weer {n}, of onbeperkt met Plus.",
     "wordsLevel": "De eerste {free} woorden van dit niveau zijn gratis. Met Plus heb je alle {total}.",
-    "reviewsToday": "Je hebt vandaag {n} woorden herhaald, het maximum zonder Plus. Morgen verder, of onbeperkt met Plus.",
     "afterStory": "Goed bezig! Met Plus heb je alle verhalen en geen daglimiet.",
     "perMonthOf": "{price} per maand",
     "yearly": "{price} per jaar · {monthly} per maand",
@@ -386,7 +384,7 @@
     "freePerks": [
       "{stories} verhalen per niveau",
       "{phrases} handige zinnen per niveau",
-      "Elke dag {reviews} woorden herhalen"
+      "{words} woorden per niveau, en onbeperkt herhalen"
     ],
     "plusLine": "Alles, zonder limiet",
     "plusBadge": "Je raakt nooit uitgeleerd",

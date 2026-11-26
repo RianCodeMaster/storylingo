@@ -222,10 +222,11 @@
     "wait": "A short wait: this card comes back in {time}.",
     "waitWhy": "Repeating right away only tests what you just saw. After a short pause, you really remember it.",
     "stopNow": "Stop, review later",
-    "first": "First review {n} words that are due today",
+    "first": "Review first: {n} due today",
     "manyNew": "You've already learned {n} new ones today. More is fine, but every new card comes back in your review over the next days.",
     "learnWords": "📚 Learn new words",
-    "learnPhrases": "💬 Learn new phrases"
+    "learnPhrases": "💬 Learn new phrases",
+    "practiseAgain": "Practise learned ones again"
   },
   "nav": {
     "home": "To the start",
@@ -289,11 +290,8 @@
     "replay": "You can always replay a story you already know.",
     "locked": "This story is in Plus.",
     "lockedLevel": "The other stories of this level are in Plus.",
-    "phrasesToday": "Today's {n} new phrases are done. Another {n} tomorrow, or unlimited with Plus.",
     "phrasesLevel": "The first {free} phrases of this level are free. With Plus you get all {total}.",
-    "wordsToday": "You've had your {n} new words for today. {n} more tomorrow, or unlimited with Plus.",
     "wordsLevel": "The first {free} words of this level are free. With Plus you get all {total}.",
-    "reviewsToday": "You reviewed {n} words today, the most without Plus. Carry on tomorrow, or unlimited with Plus.",
     "afterStory": "Well done! With Plus you get every story and no daily limit.",
     "perMonthOf": "{price} per month",
     "yearly": "{price} per year · {monthly} per month",
@@ -386,7 +384,7 @@
     "freePerks": [
       "{stories} stories per level",
       "{phrases} useful phrases per level",
-      "Review {reviews} words a day"
+      "{words} words per level, and unlimited review"
     ],
     "plusLine": "Everything, without limits",
     "plusBadge": "You never run out",

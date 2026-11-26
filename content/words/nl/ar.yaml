@@ -1500,3 +1500,5043 @@ de envelop:
 de printer:
   meaning: طابعة
   example: الطابعة في المكتب.
+het probleem:
+  meaning: مشكلة
+  example: لدينا مشكلة كبيرة.
+nodig:
+  meaning: ضروري، بحاجة
+  example: أحتاج دراجة جديدة.
+bijvoorbeeld:
+  meaning: على سبيل المثال
+  example: آكل الفاكهة، على سبيل المثال تفاحة.
+natuurlijk:
+  meaning: بالطبع
+  example: بالطبع سأساعدك غدًا.
+zeker:
+  meaning: متأكد، بالتأكيد
+  example: هل أنت متأكد من ذلك؟
+ongeveer:
+  meaning: حوالي، تقريبًا
+  example: يستغرق حوالي ساعة.
+meteen:
+  meaning: فورًا
+  example: سأنزل فورًا.
+binnenkort:
+  meaning: قريبًا
+  example: سأتصل بك قريبًا.
+straks:
+  meaning: بعد قليل، لاحقًا
+  example: سأراك بعد قليل عند الحافلة.
+toch:
+  meaning: رغم ذلك، أليس كذلك
+  example: ستأتي على أي حال، أليس كذلك؟
+behalve:
+  meaning: باستثناء، عدا
+  example: الجميع قادم، باستثناء أخي.
+welke:
+  meaning: أي
+  example: أي حافلة تذهب إلى المركز؟
+eigenlijk:
+  meaning: في الواقع، في الحقيقة
+  example: في الواقع، ليس لدي وقت.
+ver:
+  meaning: بعيد
+  example: المحطة ليست بعيدة.
+dichtbij:
+  meaning: قريب
+  example: السوبر ماركت قريب جدًا.
+duidelijk:
+  meaning: واضح
+  example: الشرح واضح جدًا.
+veilig:
+  meaning: آمن
+  example: هذا الشارع ليس آمنًا.
+gevaarlijk:
+  meaning: خطير
+  example: القيادة السريعة بالدراجة خطيرة.
+kapot:
+  meaning: معطل، مكسور
+  example: هاتفي معطل.
+kwijt:
+  meaning: مفقود، فقد
+  example: لقد فقدت مفتاحي.
+bezig:
+  meaning: مشغول
+  example: أنا مشغول الآن.
+vrij:
+  meaning: متفرغ، حر
+  example: هل أنت متفرغ غدًا؟
+stil:
+  meaning: هادئ، صامت
+  example: كن هادئًا من فضلك.
+hard:
+  meaning: عالٍ، قاسٍ
+  example: الموسيقى مرتفعة جدًا.
+zacht:
+  meaning: ناعم، خافت
+  example: تحدث بصوت أخفض قليلًا.
+hoog:
+  meaning: عالٍ، مرتفع
+  example: السعر مرتفع جدًا.
+laag:
+  meaning: منخفض
+  example: الطاولة منخفضة جدًا.
+zwaar:
+  meaning: ثقيل
+  example: هذه الحقيبة ثقيلة جدًا.
+interessant:
+  meaning: مثير للاهتمام
+  example: الكتاب مثير للاهتمام حقًا.
+vervelend:
+  meaning: مزعج
+  example: هذا مزعج جدًا.
+heerlijk:
+  meaning: لذيذ، رائع
+  example: الحساء لذيذ.
+vers:
+  meaning: طازج
+  example: الخبز لا يزال طازجًا.
+scherp:
+  meaning: حاد
+  example: السكين حاد جدًا.
+de hobby:
+  meaning: هواية
+  example: هوايتي هي الطبخ.
+de sport:
+  meaning: رياضة
+  example: أحب ممارسة الرياضة.
+het spel:
+  meaning: لعبة
+  example: نلعب لعبة مع أصدقاء.
+de ruzie:
+  meaning: شجار، خلاف
+  example: يتشاجرون كثيرًا.
+het gevoel:
+  meaning: شعور
+  example: لدي شعور جيد.
+het geluk:
+  meaning: سعادة، حظ
+  example: السعادة مهمة في الحياة.
+de pech:
+  meaning: سوء حظ
+  example: يا له من سوء حظ، ذهبت الحافلة.
+de fout:
+  meaning: خطأ
+  example: الجميع يرتكب خطأ أحيانًا.
+het idee:
+  meaning: فكرة
+  example: هذه فكرة جيدة.
+de mening:
+  meaning: رأي
+  example: ما هو رأيك؟
+het verhaal:
+  meaning: قصة
+  example: هي تحكي قصة جميلة.
+de oom:
+  meaning: عم، خال
+  example: عمي سيأتي غدًا لتناول الطعام.
+de tante:
+  meaning: عمة، خالة
+  example: خالتي تسكن بجوارنا.
+het avondeten:
+  meaning: عشاء
+  example: العشاء جاهز تقريبًا.
+de yoghurt:
+  meaning: زبادي
+  example: آكل الزبادي مع الفاكهة.
+de ham:
+  meaning: لحم خنزير مقدد
+  example: أريد لحم خنزير مقدد على الخبز.
+de olie:
+  meaning: زيت
+  example: ضع بعض الزيت في المقلاة.
+de peper:
+  meaning: فلفل
+  example: ضع بعض الفلفل على البيضة.
+het menu:
+  meaning: قائمة الطعام
+  example: هل يمكنني الحصول على قائمة الطعام؟
+de kraan:
+  meaning: صنبور
+  example: أغلق الصنبور.
+hopen:
+  meaning: يأمل
+  example: آمل في طقس جميل.
+zorgen:
+  meaning: يعتني، يهتم
+  example: أعتني بأمي.
+ruiken:
+  meaning: يشم، له رائحة
+  example: الرائحة هنا لطيفة.
+proeven:
+  meaning: يتذوق
+  example: تذوق الحساء.
+leggen:
+  meaning: يضع، يمدد
+  example: ضع الكتاب على الطاولة.
+zetten:
+  meaning: يضع، يثبت
+  example: ضع الحقيبة على الأرض.
+hangen:
+  meaning: يعلق
+  example: علق معطفك في الخزانة.
+precies:
+  meaning: بالضبط
+  example: إنها الثالثة تمامًا.
+opeens:
+  meaning: فجأة
+  example: فجأة بدأ المطر يهطل بغزارة.
+eindelijk:
+  meaning: أخيرًا
+  example: أخيرًا وصلت الحافلة.
+beide:
+  meaning: كلاهما
+  example: لدينا كلانا دراجة.
+anders:
+  meaning: آخر، وإلا
+  example: أريد شيئًا آخر.
+overal:
+  meaning: في كل مكان
+  example: هناك أوراق في كل مكان.
+nergens:
+  meaning: في أي مكان (نفي)
+  example: لا أستطيع العثور على مفتاحي في أي مكان.
+terwijl:
+  meaning: بينما
+  example: أقرأ بينما هو يطبخ.
+voordat:
+  meaning: قبل أن
+  example: اغسل يديك قبل أن تأكل.
+zodat:
+  meaning: حتى، لكي
+  example: أغلق الباب حتى يبقى الجو دافئًا.
+vanochtend:
+  meaning: هذا الصباح
+  example: كنت متعبًا جدًا هذا الصباح.
+vanavond:
+  meaning: هذا المساء
+  example: سنتعشى عند جدتي هذا المساء.
+de persoon:
+  meaning: الشخص
+  example: لا أعرف ذلك الشخص.
+de groep:
+  meaning: المجموعة
+  example: تبدأ المجموعة في الساعة التاسعة.
+de uitnodiging:
+  meaning: الدعوة
+  example: لقد تلقيت دعوتك.
+de verrassing:
+  meaning: المفاجأة
+  example: يا لها من مفاجأة لطيفة!
+de bruiloft:
+  meaning: الزفاف
+  example: حفل الزفاف الأسبوع القادم.
+het leven:
+  meaning: الحياة
+  example: الحياة صعبة أحيانًا.
+de plaats:
+  meaning: المكان
+  example: هذا المكان لا يزال متاحًا.
+het moment:
+  meaning: اللحظة
+  example: في هذه اللحظة أنا في المنزل.
+het gebouw:
+  meaning: المبنى
+  example: المبنى قديم جدًا.
+het nieuws:
+  meaning: الأخبار
+  example: أشاهد الأخبار كل يوم.
+de keuze:
+  meaning: الخيار
+  example: اختر بسرعة.
+het plan:
+  meaning: الخطة
+  example: لدينا خطة جيدة.
+het verschil:
+  meaning: الفرق
+  example: ما هو الفرق؟
+de regel:
+  meaning: القاعدة
+  example: هذه القاعدة مهمة جدًا.
+de pagina:
+  meaning: الصفحة
+  example: افتح كتابك على الصفحة العاشرة.
+de datum:
+  meaning: التاريخ
+  example: ما تاريخ اليوم؟
+de taak:
+  meaning: المهمة
+  example: مهمتي على وشك الانتهاء.
+de opdracht:
+  meaning: التكليف، المهمة
+  example: التكليف ليس صعبًا.
+de medewerker:
+  meaning: الموظف
+  example: الموظف يساعد العميل.
+het salaris:
+  meaning: الراتب
+  example: راتبي يصل غدًا.
+de directeur:
+  meaning: المدير
+  example: المدير في اجتماع.
+antwoorden:
+  meaning: يجيب
+  example: هل يمكنك الإجابة بسرعة؟
+de cursus:
+  meaning: الدورة
+  example: أتابع دورة في اللغة الهولندية.
+verdienen:
+  meaning: يكسب
+  example: يكسب ما يكفي لعائلته.
+duren:
+  meaning: يستغرق، يدوم
+  example: تستغرق الرحلة ساعتين.
+de zak:
+  meaning: الكيس
+  example: ضع التفاح في كيس.
+passen:
+  meaning: يناسب
+  example: هذا البنطال لا يناسبني جيدًا.
+de verkoper:
+  meaning: البائع
+  example: البائع لطيف جدًا.
+de bestelling:
+  meaning: الطلب
+  example: يصل الطلب غدًا.
+de maaltijd:
+  meaning: الوجبة
+  example: كانت الوجبة لذيذة.
+het gerecht:
+  meaning: الطبق
+  example: هذا الطبق لذيذ جدًا.
+de taart:
+  meaning: الكعكة
+  example: الكعكة من أجل عيد الميلاد.
+de ziekte:
+  meaning: المرض
+  example: المرض لا يستمر طويلًا.
+het verband:
+  meaning: الضمادة
+  example: ضع ضمادة على ذراعك.
+de huid:
+  meaning: الجلد
+  example: جلدي جاف جدًا.
+de ambulance:
+  meaning: سيارة الإسعاف
+  example: اتصل بسيارة إسعاف بسرعة!
+de honger:
+  meaning: الجوع
+  example: أنا جائع، هيا نأكل.
+de verdieping:
+  meaning: الطابق
+  example: الطابق هادئ جدًا.
+huren:
+  meaning: يستأجر
+  example: نستأجر منزلًا صغيرًا.
+de was:
+  meaning: الغسيل
+  example: الغسيل معلق في الخارج.
+het lawaai:
+  meaning: الضجيج
+  example: الضجيج يأتي من الجيران.
+verhuizen:
+  meaning: ينتقل
+  example: سننتقل إلى بيت جديد الشهر المقبل.
+de route:
+  meaning: المسار، الطريق
+  example: المسار ليس طويلًا.
+de vlucht:
+  meaning: الرحلة الجوية
+  example: تنطلق الرحلة الجوية في الساعة الثالثة.
+de richting:
+  meaning: الاتجاه
+  example: نسير في الاتجاه الخاطئ.
+de uitgang:
+  meaning: المخرج
+  example: المخرج على اليسار.
+de lijn:
+  meaning: الخط
+  example: خذ الخط الرابع إلى المحطة.
+opruimen:
+  meaning: يرتب
+  example: يجب أن أرتب غرفتي.
+de informatie:
+  meaning: معلومات
+  example: أريد المزيد من المعلومات.
+de oplossing:
+  meaning: الحل
+  example: نحن نبحث معًا عن حل.
+het advies:
+  meaning: النصيحة
+  example: الطبيب يعطي نصيحة جيدة.
+thuis:
+  meaning: في المنزل
+  example: أكون في المنزل مساء اليوم.
+terug:
+  meaning: عائدًا، رجوع
+  example: سأعود بعد قليل.
+via:
+  meaning: عبر
+  example: أذهب إلى المنزل عبر الجسر.
+net:
+  meaning: للتو
+  example: لقد وصلت للتو إلى المنزل.
+prima:
+  meaning: حسن، بخير
+  example: هذا حسن، شكرًا.
+sinds:
+  meaning: منذ
+  example: أسكن هنا منذ العام الماضي.
+tijdens:
+  meaning: خلال
+  example: أقرأ خلال الاستراحة.
+tegenover:
+  meaning: مقابل
+  example: البنك مقابل الباب.
+de waarheid:
+  meaning: الحقيقة
+  example: أخبرني بالحقيقة من فضلك.
+de leugen:
+  meaning: الكذب، كذبة
+  example: تلك القصة كذبة.
+het geheim:
+  meaning: السر
+  example: أحفظ سرك جيدًا.
+de grap:
+  meaning: النكتة
+  example: كانت النكتة لطيفة جدًا.
+de stress:
+  meaning: التوتر
+  example: لدي توتر كثير في العمل.
+de rust:
+  meaning: الهدوء، الراحة
+  example: أبحث عن الهدوء في المساء.
+de energie:
+  meaning: الطاقة
+  example: لدي طاقة قليلة اليوم.
+de conditie:
+  meaning: اللياقة
+  example: لياقتي تتحسن باستمرار.
+de verkoudheid:
+  meaning: الزكام
+  example: لدي زكام شديد.
+de hoest:
+  meaning: السعال
+  example: سعالي ما زال شديدًا.
+de wond:
+  meaning: الجرح
+  example: الجرح تحت ركبتي.
+de rugpijn:
+  meaning: ألم الظهر
+  example: لدي ألم في الظهر منذ أيام.
+het bloed:
+  meaning: الدم
+  example: هناك دم على يدي.
+de controle:
+  meaning: الفحص
+  example: غدًا لدي فحص عند طبيب الأسنان.
+de verzekering:
+  meaning: التأمين
+  example: تأميني يدفع للطبيب.
+de klacht:
+  meaning: شكوى
+  example: لدي شكوى بخصوص الخدمة.
+de temperatuur:
+  meaning: درجة الحرارة
+  example: درجة الحرارة عالية اليوم.
+de kou:
+  meaning: البرد
+  example: لا أحب البرد.
+de regen:
+  meaning: المطر
+  example: نمشي تحت المطر.
+de sneeuw:
+  meaning: الثلج
+  example: يلعب الأطفال في الثلج.
+de wind:
+  meaning: الرياح
+  example: الرياح قوية جدًا اليوم.
+de zomer:
+  meaning: الصيف
+  example: في الصيف نذهب للسباحة.
+de winter:
+  meaning: الشتاء
+  example: الشتاء بارد هذا العام.
+de afdeling:
+  meaning: القسم
+  example: أعمل في قسم المبيعات.
+het contract:
+  meaning: العقد
+  example: أوقع العقد اليوم.
+de handtekening:
+  meaning: التوقيع
+  example: ضع توقيعك على هذا النموذج.
+de kopie:
+  meaning: النسخة
+  example: اصنع نسخة من جواز السفر.
+de lijst:
+  meaning: القائمة
+  example: القائمة على الطاولة.
+de map:
+  meaning: الملف، المجلد
+  example: الأوراق موجودة في الملف.
+de oefening:
+  meaning: التمرين
+  example: هذا التمرين ليس صعبًا.
+de aanbieding:
+  meaning: العرض، التخفيض
+  example: التفاح في العرض.
+de kleding:
+  meaning: الملابس
+  example: الملابس رخيصة اليوم.
+de maat:
+  meaning: المقاس
+  example: أي مقاس تحتاج؟
+de doos:
+  meaning: الصندوق
+  example: الكتب في صندوق.
+de saus:
+  meaning: الصلصة
+  example: الصلصة لذيذة جدًا.
+de jam:
+  meaning: المربى
+  example: آكل خبزًا مع المربى.
+het bier:
+  meaning: البيرة
+  example: يشرب بيرة باردة.
+de afwas:
+  meaning: غسيل الأطباق
+  example: أغسل الأطباق بعد الطعام.
+de verwarming:
+  meaning: التدفئة
+  example: التدفئة عالية في الغرفة.
+de lift:
+  meaning: المصعد
+  example: المصعد معطل اليوم.
+de woning:
+  meaning: المسكن
+  example: مسكننا صغير لكنه جميل.
+de ingang:
+  meaning: المدخل
+  example: المدخل من الجانب.
+de file:
+  meaning: ازدحام المرور
+  example: هناك ازدحام على الطريق.
+de vertraging:
+  meaning: التأخير
+  example: القطار متأخر عشر دقائق.
+het perron:
+  meaning: الرصيف
+  example: القطار يصل إلى الرصيف الثاني.
+de bagage:
+  meaning: الأمتعة
+  example: أمتعتي في الفندق بالفعل.
+de koffer:
+  meaning: الحقيبة
+  example: حقيبتي ثقيلة جدًا.
+het museum:
+  meaning: المتحف
+  example: نزور متحفًا غدًا.
+de bioscoop:
+  meaning: السينما
+  example: نذهب إلى السينما مساء اليوم.
+de politie:
+  meaning: الشرطة
+  example: الشرطة تساعد في حادث.
+de wijk:
+  meaning: الحي
+  example: أسكن في حي هادئ.
+de kapper:
+  meaning: الحلاق، مصفف الشعر
+  example: سأذهب غدًا إلى الحلاق.
+de mobiel:
+  meaning: الهاتف المحمول
+  example: هاتفي المحمول في حقيبتي.
+de plant:
+  meaning: النبتة
+  example: النبتة عند النافذة.
+de kleur:
+  meaning: اللون
+  example: أي لون تجده جميلًا؟
+de kerk:
+  meaning: الكنيسة
+  example: الكنيسة مفتوحة اليوم.
+de winkelwagen:
+  meaning: عربة التسوق
+  example: خذ عربة تسوق عند المدخل.
+de patiënt:
+  meaning: المريض
+  example: المريض ينتظر الطبيب.
+de kantine:
+  meaning: مقصف الموظفين
+  example: نأكل اليوم في المقصف.
+de staking:
+  meaning: الإضراب
+  example: الحافلات لا تسير بسبب الإضراب.
+de beurt:
+  meaning: الدور
+  example: حان دوري للدفع.
+de beweging:
+  meaning: الحركة
+  example: الحركة مفيدة لصحتك.
+het dieet:
+  meaning: الحمية
+  example: أتبع حمية بدون سكر.
+de prik:
+  meaning: الحقنة
+  example: الحقنة لا تؤلم.
+de lucht:
+  meaning: السماء، الهواء
+  example: السماء زرقاء اليوم.
+de wolk:
+  meaning: السحابة
+  example: هناك سحابة داكنة فوق المدينة.
+de storm:
+  meaning: العاصفة
+  example: تسببت العاصفة بأضرار كثيرة.
+de bui:
+  meaning: زخة مطر
+  example: هناك زخة مطر قادمة.
+de lente:
+  meaning: الربيع
+  example: في الربيع تصبح الأيام أطول.
+de herfst:
+  meaning: الخريف
+  example: في الخريف تتساقط الأوراق.
+de handschoen:
+  meaning: القفاز
+  example: القفاز على الطاولة.
+de sjaal:
+  meaning: الوشاح
+  example: هذا الوشاح دافئ لطيف.
+de regenjas:
+  meaning: معطف المطر
+  example: خذ معطف المطر معك إلى الخارج.
+de laars:
+  meaning: الجزمة، الحذاء الطويل
+  example: الجزمة لا تناسب جيدًا.
+de spijkerbroek:
+  meaning: الجينز
+  example: بنطال الجينز هذا طويل جدًا.
+de smaak:
+  meaning: الطعم، الذوق
+  example: هذا الشاي له طعم لذيذ.
+de reclame:
+  meaning: الإعلان، الدعاية
+  example: هناك إعلانات كثيرة على التلفاز.
+de pincode:
+  meaning: رمز PIN
+  example: لا تنس إدخال رمز PIN.
+de creditcard:
+  meaning: بطاقة الائتمان
+  example: هل يمكنني الدفع ببطاقة الائتمان؟
+de conducteur:
+  meaning: مفتش القطار
+  example: مفتش القطار يفحص التذاكر.
+het fietspad:
+  meaning: مسار الدراجات
+  example: مسار الدراجات هنا ضيق نسبيًا.
+de motor:
+  meaning: الدراجة النارية
+  example: يقود دراجة نارية قديمة.
+de toerist:
+  meaning: السائح
+  example: السائح يسأل عن الطريق.
+de gids:
+  meaning: المرشد
+  example: المرشد يتحدث بوضوح.
+de kust:
+  meaning: الساحل
+  example: نتجول بالدراجة على طول الساحل.
+de camping:
+  meaning: المخيم
+  example: ننام أسبوعًا في المخيم.
+de tent:
+  meaning: الخيمة
+  example: الخيمة بجوار الماء.
+de rugzak:
+  meaning: حقيبة الظهر
+  example: حقيبة ظهري ثقيلة جدًا.
+de heuvel:
+  meaning: التلة
+  example: الطريق يمر فوق تلة.
+de tocht:
+  meaning: الرحلة
+  example: تستغرق الرحلة حوالي ساعتين.
+de overstap:
+  meaning: التحويل، التبديل
+  example: التحويل في المحطة التالية.
+de melding:
+  meaning: البلاغ
+  example: أقدم بلاغًا لدى البلدية.
+de identiteitskaart:
+  meaning: بطاقة الهوية
+  example: خذ بطاقة هويتك معك.
+de belasting:
+  meaning: الضريبة
+  example: أدفع الضرائب كل عام.
+de sollicitatie:
+  meaning: طلب توظيف، مقابلة عمل
+  example: لدي غدًا مقابلة عمل.
+het cv:
+  meaning: السيرة الذاتية
+  example: أرسل سيرتك الذاتية مع الرسالة.
+de sfeer:
+  meaning: الجو، الأجواء
+  example: الأجواء في الفريق جيدة.
+de aandacht:
+  meaning: الانتباه، الاهتمام
+  example: يعطيني المعلم اهتمامًا كبيرًا.
+de droom:
+  meaning: الحلم
+  example: حلمي هو منزل خاص.
+daarom:
+  meaning: لذلك
+  example: إنها تمطر، لذلك سأبقى في المنزل.
+daardoor:
+  meaning: بسبب ذلك
+  example: كنت مريضًا، بسبب ذلك غبت عن الدرس.
+zelfs:
+  meaning: حتى
+  example: حتى هو لم يعرف.
+waarschijnlijk:
+  meaning: على الأرجح
+  example: من المحتمل أن يأتي لاحقًا.
+verder:
+  meaning: علاوة على ذلك، أبعد
+  example: عدا ذلك، ليس لدي أسئلة.
+trouwens:
+  meaning: بالمناسبة
+  example: بالمناسبة، سأصل متأخرًا قليلًا.
+liever:
+  meaning: بالأحرى، أفضل
+  example: أفضل شرب الشاي.
+alsjeblieft:
+  meaning: من فضلك
+  example: هل يمكنك مساعدتي من فضلك؟
+dadelijk:
+  meaning: بعد قليل
+  example: سآتي إليك بعد قليل.
+plotseling:
+  meaning: فجأة
+  example: توقف القطار فجأة.
+afspreken:
+  meaning: يتفق، يواعد
+  example: سنتقابل غدًا في الساعة الثالثة.
+de gezondheid:
+  meaning: الصحة
+  example: صحتي مهمة جدًا.
+de aanvraag:
+  meaning: طلب
+  example: أقدّم طلبًا للحصول على جواز سفر.
+de opleiding:
+  meaning: تدريب، تعليم
+  example: تدرس تخصصًا في مجال الرعاية الصحية.
+de ervaring:
+  meaning: خبرة
+  example: لديه خبرة كبيرة مع العملاء.
+de functie:
+  meaning: وظيفة، منصب
+  example: أبحث عن وظيفة في مجال الرعاية الصحية.
+de werkgever:
+  meaning: صاحب العمل
+  example: صاحب العمل لدي لطيف جدًا.
+de werknemer:
+  meaning: موظف، عامل
+  example: الموظف يعمل بجد كل يوم.
+het interview:
+  meaning: مقابلة عمل
+  example: غدًا لدي مقابلة عمل من أجل وظيفة.
+de huur:
+  meaning: الإيجار
+  example: الإيجار مرتفع جدًا بالنسبة لي.
+de zolder:
+  meaning: العلية
+  example: الصناديق موضوعة في العلية.
+de kelder:
+  meaning: القبو
+  example: الدراجات في القبو.
+de gang:
+  meaning: الممر
+  example: معطفك معلق في الممر.
+het balkon:
+  meaning: الشرفة
+  example: نشرب القهوة على الشرفة.
+het dak:
+  meaning: السقف
+  example: السقف تضرر بعد العاصفة.
+de garage:
+  meaning: المرآب
+  example: السيارة في المرآب.
+de agent:
+  meaning: شرطي
+  example: الشرطي يساعد المرأة.
+de dief:
+  meaning: لص
+  example: الشرطة تبحث عن اللص.
+de partner:
+  meaning: شريك
+  example: شريكي يعمل في المستشفى.
+de oppas:
+  meaning: جليسة أطفال
+  example: تأتي جليسة الأطفال الليلة الساعة السابعة.
+het plezier:
+  meaning: متعة، مرح
+  example: نستمتع كثيرًا في المدرسة.
+het humeur:
+  meaning: مزاج
+  example: مزاجه سيئ اليوم.
+de interesse:
+  meaning: اهتمام
+  example: لديها اهتمام كبير بالموسيقى.
+het vertrouwen:
+  meaning: ثقة
+  example: الثقة مهمة في الصداقة.
+de hoop:
+  meaning: أمل
+  example: لدي أمل في طقس جميل.
+de wens:
+  meaning: أمنية، رغبة
+  example: أمنيتي أن أمتلك منزلاً خاصًا.
+de zorg:
+  meaning: رعاية، رعاية صحية
+  example: تعمل في مجال الرعاية الصحية.
+de allergie:
+  meaning: حساسية
+  example: لدي حساسية من المكسرات.
+de zalf:
+  meaning: مرهم
+  example: ضع بعض المرهم على الجرح.
+de spuit:
+  meaning: حقنة
+  example: الطبيب يعطيك حقنة.
+de operatie:
+  meaning: عملية جراحية
+  example: تستغرق العملية ساعتين.
+de specialist:
+  meaning: أخصائي
+  example: طبيب الأسرة يحولني إلى أخصائي.
+de wachtkamer:
+  meaning: غرفة الانتظار
+  example: ننتظر في غرفة الانتظار.
+de receptie:
+  meaning: الاستقبال
+  example: المفتاح موجود عند الاستقبال.
+de balie:
+  meaning: شباك، مكتب
+  example: يجب أن تذهب أولًا إلى الشباك.
+het loket:
+  meaning: شباك
+  example: يمكنك الدفع عند الشباك.
+de snelweg:
+  meaning: الطريق السريع
+  example: الطريق السريع مزدحم جدًا اليوم.
+de rotonde:
+  meaning: الدوار
+  example: خذ المخرج الثاني عند الدوار.
+het zebrapad:
+  meaning: ممر المشاة
+  example: اعبر عند ممر المشاة.
+de stoep:
+  meaning: الرصيف
+  example: لا تركب الدراجة على الرصيف.
+de tunnel:
+  meaning: النفق
+  example: النفق مغلق اليوم.
+de chauffeur:
+  meaning: سائق
+  example: يتوقف السائق عند المحطة.
+de bestuurder:
+  meaning: سائق
+  example: كان السائق يقود بسرعة كبيرة.
+de benzine:
+  meaning: بنزين
+  example: أصبح البنزين غاليًا.
+het rijbewijs:
+  meaning: رخصة قيادة
+  example: حصلت أخيرًا على رخصة القيادة.
+de helm:
+  meaning: خوذة
+  example: ارتدِ خوذة عند ركوب الدراجة.
+het kwartier:
+  meaning: ربع ساعة
+  example: تأتي الحافلة بعد ربع ساعة.
+het seizoen:
+  meaning: فصل
+  example: الصيف هو فصلي المفضل.
+de kalender:
+  meaning: تقويم
+  example: اكتب الموعد على التقويم.
+de toekomst:
+  meaning: المستقبل
+  example: في المستقبل أريد أن أسافر.
+de feestdag:
+  meaning: يوم عطلة رسمية
+  example: غدًا يوم عطلة.
+alsof:
+  meaning: كأن
+  example: يبدو كأنها ستمطر.
+daarvan:
+  meaning: من ذلك
+  example: هل تريد بعضًا من ذلك أيضًا؟
+ermee:
+  meaning: بذلك
+  example: أنا مشغول بذلك.
+de pasta:
+  meaning: معكرونة
+  example: نأكل الليلة معكرونة بالصلصة.
+de aardbei:
+  meaning: فراولة
+  example: الفراولة حمراء وحلوة.
+de citroen:
+  meaning: ليمون
+  example: ضع قليلًا من الليمون في الشاي.
+de champignon:
+  meaning: فطر
+  example: لا آكل الفطر على البيتزا.
+het toetje:
+  meaning: حلوى
+  example: سنتناول الآيس كريم كتحلية.
+de mayonaise:
+  meaning: مايونيز
+  example: آكل البطاطس المقلية مع المايونيز.
+de kleren:
+  meaning: الملابس
+  example: أرتدي ملابس نظيفة.
+het geluid:
+  meaning: الصوت
+  example: الصوت مرتفع جدًا.
+de hulp:
+  meaning: المساعدة
+  example: أحتاج إلى مساعدة.
+de slaap:
+  meaning: النوم
+  example: لم أنم إلا قليلًا.
+de dorst:
+  meaning: العطش
+  example: أشعر بعطش شديد.
+de nek:
+  meaning: الرقبة
+  example: رقبتي تؤلمني.
+de pols:
+  meaning: المعصم
+  example: تشعر بألم في معصمها.
+de enkel:
+  meaning: الكاحل
+  example: لقد التوى كاحلي.
+de elleboog:
+  meaning: المرفق
+  example: اصطدم مرفقه.
+de kies:
+  meaning: الضرس
+  example: ضرسي يؤلمني كثيرًا.
+de long:
+  meaning: الرئة
+  example: التدخين سيئ لرئتيك.
+het beroep:
+  meaning: المهنة
+  example: ما هي مهنتك؟
+de stage:
+  meaning: التدريب العملي
+  example: إنها تتدرب في شركة.
+de student:
+  meaning: الطالب
+  example: يدرس الطالب لامتحانه.
+de fabriek:
+  meaning: المصنع
+  example: يعمل في مصنع.
+het loon:
+  meaning: الأجر
+  example: الأجر ليس مرتفعًا.
+de dienst:
+  meaning: المناوبة
+  example: أعمل اليوم المناوبة المتأخرة.
+het rooster:
+  meaning: الجدول
+  example: الأسبوع القادم لدي جدول جديد.
+het bureau:
+  meaning: المكتب
+  example: حاسوبي المحمول على المكتب.
+het gemeentehuis:
+  meaning: البلدية
+  example: عليك الذهاب إلى البلدية.
+het postkantoor:
+  meaning: مكتب البريد
+  example: مكتب البريد مغلق اليوم.
+de bel:
+  meaning: الجرس
+  example: الجرس يرن مرة أخرى.
+de brievenbus:
+  meaning: صندوق البريد
+  example: الرسالة في صندوق البريد.
+de stofzuiger:
+  meaning: المكنسة الكهربائية
+  example: المكنسة الكهربائية في الخزانة.
+de emmer:
+  meaning: الدلو
+  example: ضع بعض الماء في الدلو.
+de grond:
+  meaning: الأرض
+  example: النبتة على الأرض.
+de wastafel:
+  meaning: المغسلة
+  example: المغسلة غير نظيفة.
+het kussen:
+  meaning: الوسادة
+  example: هذه الوسادة ناعمة ولطيفة.
+de deken:
+  meaning: البطانية
+  example: سآخذ بطانية دافئة.
+het laken:
+  meaning: الشرشف
+  example: يجب غسل الشرشف.
+het gordijn:
+  meaning: الستارة
+  example: أغلق الستارة.
+het tapijt:
+  meaning: السجادة
+  example: أصبحت السجادة مبللة.
+het appartement:
+  meaning: الشقة
+  example: تعيش في شقة صغيرة.
+de flat:
+  meaning: العمارة السكنية
+  example: نعيش في عمارة.
+de schuur:
+  meaning: السقيفة
+  example: الدراجة في السقيفة.
+de sla:
+  meaning: الخس
+  example: نأكل الخس مع العشاء.
+de komkommer:
+  meaning: الخيار
+  example: قطّع الخيار إلى شرائح.
+de paprika:
+  meaning: الفلفل الرومي
+  example: الفلفل الرومي أحمر وحلو.
+de broccoli:
+  meaning: البروكلي
+  example: البروكلي صحي لك.
+het gehakt:
+  meaning: اللحم المفروم
+  example: أحضّر اللحم المفروم للباستا.
+de vla:
+  meaning: الكاسترد
+  example: لدينا كاسترد كتحلية.
+de pudding:
+  meaning: البودينغ
+  example: البودينغ ما زال باردًا.
+het meer:
+  meaning: البحيرة
+  example: نسبح في البحيرة.
+de berg:
+  meaning: الجبل
+  example: الجبل مرتفع وجميل.
+de rivier:
+  meaning: النهر
+  example: يمر النهر عبر المدينة.
+het bos:
+  meaning: الغابة
+  example: نحب التنزه في الغابة.
+de natuur:
+  meaning: الطبيعة
+  example: أحب الطبيعة.
+het dier:
+  meaning: الحيوان
+  example: أي حيوان تحب؟
+de vogel:
+  meaning: الطائر
+  example: يغني الطائر في الحديقة.
+het paard:
+  meaning: الحصان
+  example: الحصان في المرج.
+de koe:
+  meaning: البقرة
+  example: البقرة تعطي حليبًا.
+de wandeling:
+  meaning: النزهة، المشي
+  example: نقوم بنزهة في الحديقة.
+de plattegrond:
+  meaning: الخريطة
+  example: انظر إلى الخريطة لمعرفة الطريق.
+het buitenland:
+  meaning: الخارج
+  example: تعيش في الخارج.
+het park:
+  meaning: الحديقة العامة
+  example: نجلس في الحديقة.
+de aankomst:
+  meaning: الوصول
+  example: الوصول متأخر.
+het vertrek:
+  meaning: المغادرة
+  example: المغادرة على الرصيف الثاني.
+het spoor:
+  meaning: السكة الحديدية
+  example: القطار على السكة.
+de haven:
+  meaning: الميناء
+  example: القارب في الميناء.
+de band:
+  meaning: الإطار
+  example: إطار دراجتي مثقوب.
+gratis:
+  meaning: مجاني
+  example: الدخول مجاني اليوم.
+helemaal:
+  meaning: تمامًا
+  example: لقد انتهيت تمامًا من العمل.
+echt:
+  meaning: حقًا
+  example: هذه حقًا فكرة جيدة.
+pas:
+  meaning: للتو
+  example: لقد وصلت للتو إلى المنزل.
+alvast:
+  meaning: مسبقًا
+  example: سأدفع الفاتورة مسبقًا.
+de beker:
+  meaning: الكوب
+  example: أشرب من الكوب.
+afrekenen:
+  meaning: يدفع الحساب
+  example: يمكننا الدفع عند الصندوق.
+invullen:
+  meaning: يملأ
+  example: املأ هذا النموذج من فضلك.
+naartoe:
+  meaning: إلى
+  example: إلى أين تذهب؟
+vanaf:
+  meaning: بدءًا من
+  example: المتجر مفتوح بدءًا من الساعة التاسعة.
+voorbij:
+  meaning: مضى
+  example: الحافلة مرّت بالفعل.
+rond:
+  meaning: حول
+  example: نتمشى حول البحيرة.
+langs:
+  meaning: على طول
+  example: يمر القطار على طول الساحل.
+per:
+  meaning: بواسطة
+  example: نسافر إلى المنزل بالقطار.
+inclusief:
+  meaning: شامل
+  example: السعر شامل الفطور.
+heen:
+  meaning: إلى
+  example: إلى أين تذهب؟
+zoiets:
+  meaning: شيء كهذا
+  example: أنا لا أفعل شيئًا كهذا.
+zulke:
+  meaning: مثل هذه
+  example: أحذية مثل هذه غالية جدًا.
+regelmatig:
+  meaning: بانتظام
+  example: أمارس الرياضة بانتظام في الحديقة.
+dagelijks:
+  meaning: يوميًا
+  example: أقرأ الصحيفة يوميًا.
+annuleren:
+  meaning: يلغي
+  example: يجب أن ألغي الموعد.
+reserveren:
+  meaning: يحجز
+  example: أريد حجز طاولة.
+boeken:
+  meaning: يحجز
+  example: سنحجز فندقًا لليلتين.
+aankomen:
+  meaning: يصل
+  example: يصل القطار بعد خمس دقائق.
+vertrekken:
+  meaning: يغادر
+  example: تغادر الحافلة في الساعة الثامنة.
+overstappen:
+  meaning: يغيّر الوسيلة
+  example: عليك أن تغيّر الوسيلة في المحطة التالية.
+lenen:
+  meaning: يستعير
+  example: هل يمكنني استعارة قلمك؟
+verliezen:
+  meaning: يفقد
+  example: لا أريد أن أفقد مفاتيحي.
+winnen:
+  meaning: يفوز
+  example: من يريد الفوز بالمباراة؟
+uitleggen:
+  meaning: يشرح
+  example: هل يمكنك شرح ذلك مرة أخرى؟
+herhalen:
+  meaning: يكرر
+  example: هل يمكنك تكرار ذلك من فضلك؟
+onthouden:
+  meaning: يتذكر
+  example: لا أستطيع تذكر ذلك الاسم.
+bedoelen:
+  meaning: يقصد
+  example: ماذا تقصد بالضبط؟
+betekenen:
+  meaning: يعني
+  example: ماذا تعني هذه الكلمة؟
+voorstellen:
+  meaning: يقدّم نفسه
+  example: هل يمكنني أن أقدّم نفسي؟
+kennismaken:
+  meaning: يتعرف
+  example: أود أن أتعرف عليك.
+groeten:
+  meaning: يسلّم على
+  example: أريد أن أسلّم على والديّ.
+oefenen:
+  meaning: يتدرب
+  example: ما زلنا بحاجة إلى الكثير من التدريب.
+mogelijk:
+  meaning: ممكن
+  example: هل ذلك ممكن غدًا؟
+geweldig:
+  meaning: رائع
+  example: تلك أخبار رائعة.
+voorzichtig:
+  meaning: حذر
+  example: قُد بحذر في المطر.
+misselijk:
+  meaning: مصاب بالغثيان
+  example: أشعر ببعض الغثيان.
+duizelig:
+  meaning: دائخ
+  example: بعد الرحلة أشعر بالدوار.
+pijnlijk:
+  meaning: مؤلم
+  example: ركبتي مؤلمة جدًا.
+trots:
+  meaning: فخور
+  example: أنا فخور بابني.
+nerveus:
+  meaning: متوتر
+  example: أنا متوتر للامتحان.
+eerlijk:
+  meaning: صادق
+  example: قل بصدق ما رأيك.
+gemeen:
+  meaning: لئيم
+  example: كان لئيمًا معي.
+de bloemkool:
+  meaning: القرنبيط
+  example: نأكل القرنبيط مع البطاطس.
+de munt:
+  meaning: عملة معدنية
+  example: ليس لدي عملة معدنية للقهوة.
+de rij:
+  meaning: الطابور
+  example: يوجد طابور طويل عند الصندوق.
+de sok:
+  meaning: الجورب
+  example: أصبح جوربي مبللًا.
+de paraplu:
+  meaning: المظلة
+  example: سآخذ المظلة معي.
+de afstand:
+  meaning: المسافة
+  example: المسافة إلى المدرسة قصيرة.
+de kachel:
+  meaning: المدفأة
+  example: المدفأة معطلة.
+de stroom:
+  meaning: الكهرباء
+  example: عادت الكهرباء مرة أخرى.
+de vlek:
+  meaning: البقعة
+  example: توجد بقعة على قميصي.
+de zonnebrand:
+  meaning: واقي الشمس
+  example: أستخدم واقي الشمس على الشاطئ.
+de diepvries:
+  meaning: المجمد
+  example: السمك في المجمد.
+de beslissing:
+  meaning: القرار
+  example: هذا قرار صعب.
+laten:
+  meaning: يترك، يدع
+  example: أترك معطفي في المنزل.
+meer:
+  meaning: أكثر
+  example: أريد المزيد من الماء.
+het cadeau:
+  meaning: هدية
+  example: هذه الهدية لأختي.
+de relatie:
+  meaning: علاقة
+  example: لديها علاقة جيدة.
+verliefd:
+  meaning: مغرم
+  example: هو مغرم بها.
+getrouwd:
+  meaning: متزوج
+  example: أخي متزوج بالفعل.
+jarig:
+  meaning: صاحب عيد ميلاد
+  example: أمي عيد ميلادها غدًا.
+trakteren:
+  meaning: يعزم، يقدم
+  example: أعزم على القهوة والكعك.
+feliciteren:
+  meaning: يهنئ
+  example: نهنئك بعيد ميلادك.
+de wekker:
+  meaning: منبه
+  example: منبهي يرن مبكرًا جدًا.
+de voordeur:
+  meaning: الباب الأمامي
+  example: الباب الأمامي مقفل.
+de achterdeur:
+  meaning: الباب الخلفي
+  example: أغلق الباب الخلفي.
+het huisnummer:
+  meaning: رقم المنزل
+  example: ما رقم منزلكم؟
+de boom:
+  meaning: شجرة
+  example: الشجرة في الحديقة.
+de maan:
+  meaning: القمر
+  example: القمر جميل جدًا الليلة.
+de knoflook:
+  meaning: ثوم
+  example: أضع الثوم في الصلصة.
+de pot:
+  meaning: برطمان، إناء
+  example: برطمان المربى في الخزانة.
+pinnen:
+  meaning: يدفع بالبطاقة
+  example: يمكنكم الدفع بالبطاقة هنا.
+contant:
+  meaning: نقدًا
+  example: أفضل الدفع نقدًا.
+het wisselgeld:
+  meaning: الباقي، الفكة
+  example: هذا هو الباقي لك.
+bewaren:
+  meaning: يحفظ، يحتفظ
+  example: احتفظ بالإيصال جيدًا.
+bezorgen:
+  meaning: يوصل، يسلّم
+  example: سيوصلون الطرد غدًا.
+openen:
+  meaning: يفتح
+  example: المتجر يفتح مبكرًا جدًا.
+gesloten:
+  meaning: مغلق
+  example: المتجر مغلق اليوم.
+bevestigen:
+  meaning: يؤكد
+  example: هل يمكنك تأكيد الموعد؟
+de administratie:
+  meaning: الإدارة، المحاسبة
+  example: تعمل في الإدارة.
+de secretaresse:
+  meaning: سكرتيرة
+  example: السكرتيرة تحدد موعدًا.
+de kans:
+  meaning: فرصة
+  example: لديك فرصة جيدة.
+de gewoonte:
+  meaning: عادة
+  example: إنها عادة سيئة.
+de reden:
+  meaning: سبب
+  example: ما السبب؟
+de moeite:
+  meaning: جهد، عناء
+  example: لا تكلف نفسك عناءً من أجلي.
+de zin:
+  meaning: رغبة، جملة
+  example: أرغب في القهوة.
+het begin:
+  meaning: بداية
+  example: بداية الفيلم مملة.
+het einde:
+  meaning: نهاية
+  example: النهاية مفاجئة جدًا.
+de seconde:
+  meaning: ثانية
+  example: انتظر ثانية واحدة.
+vorige:
+  meaning: السابق، الماضي
+  example: الأسبوع الماضي كنت مريضًا.
+volgende:
+  meaning: التالي، القادم
+  example: الشهر القادم سأنتقل.
+later:
+  meaning: لاحقًا
+  example: لاحقًا أريد العيش في الخارج.
+vroeger:
+  meaning: في الماضي، سابقًا
+  example: في الماضي كنت أعيش في المدينة.
+ooit:
+  meaning: يومًا ما، قط
+  example: هل سبق أن كنت في الخارج؟
+laatst:
+  meaning: مؤخرًا
+  example: رأيته مؤخرًا.
+nadat:
+  meaning: بعد أن
+  example: بعد أن آكل، سأتمشى.
+zoals:
+  meaning: مثل، كما
+  example: أعمل مثل والدي.
+hetzelfde:
+  meaning: نفس الشيء
+  example: لدينا نفس المشكلة.
+zo'n:
+  meaning: مثل هذا
+  example: دراجة كهذه غالية جدًا.
+volgens:
+  meaning: وفقًا لـ
+  example: في رأيي هذا صحيح.
+bijzonder:
+  meaning: خاص، مميز
+  example: هذه قصة مميزة.
+normaal:
+  meaning: عادي
+  example: هذا عادي جدًا هنا.
+raar:
+  meaning: غريب
+  example: أعتقد أن هذه فكرة غريبة.
+gek:
+  meaning: مجنون
+  example: هل جننت؟
+slim:
+  meaning: ذكي
+  example: هي ذكية جدًا.
+sterk:
+  meaning: قوي
+  example: هو قوي بما يكفي.
+zwak:
+  meaning: ضعيف
+  example: أشعر بالضعف اليوم.
+breed:
+  meaning: واسع، عريض
+  example: الشارع واسع هنا.
+dun:
+  meaning: رقيق، نحيف
+  example: الجليد لا يزال رقيقًا.
+dik:
+  meaning: سميك، بدين
+  example: هو بدين قليلًا.
+diep:
+  meaning: عميق
+  example: الماء عميق هنا.
+helder:
+  meaning: صافٍ، ساطع
+  example: السماء صافية اليوم.
+lelijk:
+  meaning: قبيح
+  example: ذلك المبنى قبيح حقًا.
+wakker:
+  meaning: مستيقظ
+  example: أنا مستيقظ مبكرًا بالفعل.
+de manier:
+  meaning: الطريقة، الأسلوب
+  example: بهذه الطريقة يعمل بشكل أفضل.
+het doel:
+  meaning: الهدف، الغاية
+  example: ما هدف هذه الدورة؟
+de mogelijkheid:
+  meaning: الإمكانية، الخيار
+  example: هناك إمكانية للتبديل.
+de situatie:
+  meaning: الوضع
+  example: الوضع الآن مزعج جدًا.
+veranderen:
+  meaning: يغيّر، يتغيّر
+  example: أريد تغيير وظيفتي.
+verwachten:
+  meaning: يتوقع
+  example: نتوقع يومًا مزدحمًا غدًا.
+het voorbeeld:
+  meaning: المثال
+  example: هل يمكنك إعطاء مثال؟
+de omgeving:
+  meaning: المحيط، البيئة
+  example: محيط منزلنا هادئ.
+regelen:
+  meaning: يرتّب، ينظّم
+  example: أرتّب الموعد اليوم.
+ontvangen:
+  meaning: يستقبل، يتلقى
+  example: هم يستقبلون زبائن كثيرين في المتجر.
+reageren:
+  meaning: يرد، يتفاعل
+  example: هل ترد بسرعة على ذلك البريد الإلكتروني؟
+de toestemming:
+  meaning: الإذن، الموافقة
+  example: لدي إذن من مديري.
+het onderzoek:
+  meaning: البحث، التحقيق
+  example: التحقيق في الشكاوى يستغرق وقتًا طويلًا.
+genieten:
+  meaning: يستمتع
+  example: نستمتع باليوم الحر.
+herinneren:
+  meaning: يتذكر
+  example: هل ما زلت تتذكر ذلك الموعد؟
+geloven:
+  meaning: يصدق، يعتقد
+  example: لا أصدق أن ذلك صحيح.
+beslissen:
+  meaning: يقرر
+  example: يجب أن نقرر بسرعة بشأن المنزل.
+controleren:
+  meaning: يتحقق، يفحص
+  example: هل تفحص الاستمارة جيدًا؟
+de waarde:
+  meaning: القيمة
+  example: قيمة المنزل ترتفع.
+het voordeel:
+  meaning: الميزة، الفائدة
+  example: إحدى المزايا هي الرحلة القصيرة.
+het nadeel:
+  meaning: العيب، الجانب السلبي
+  example: من العيوب السعر المرتفع.
+de verandering:
+  meaning: التغيير
+  example: التغيير في العمل كبير.
+de oorzaak:
+  meaning: السبب
+  example: ما سبب الألم؟
+het gevolg:
+  meaning: النتيجة، العاقبة
+  example: النتيجة أننا سنصل متأخرين.
+informeren:
+  meaning: يُعلم، يخبر
+  example: أُعلم العميل بالسعر.
+melden:
+  meaning: يبلّغ، يعلن
+  example: أبلغ عن الخطأ فورًا عند الاستقبال.
+klagen:
+  meaning: يشكو
+  example: هم يشكون كثيرًا من الضجيج.
+merken:
+  meaning: يلاحظ
+  example: ألاحظ أنك متعب.
+overleggen:
+  meaning: يتشاور
+  example: نتشاور أولًا مع المدير.
+verbeteren:
+  meaning: يحسّن، يصلح
+  example: أريد تحسين نطقي.
+vergelijken:
+  meaning: يقارن
+  example: قارن الأسعار قبل أن تشتري.
+verklaren:
+  meaning: يشرح، يوضح
+  example: هل يمكنك شرح ذلك مرة أخرى؟
+voorkomen:
+  meaning: يمنع
+  example: بهذه الطريقة تمنع مشاكل كثيرة في العمل.
+waarschuwen:
+  meaning: يحذّر
+  example: الطبيب يحذر من الإجهاد الكثير.
+weigeren:
+  meaning: يرفض
+  example: هو يرفض المهمة الجديدة.
+aanbieden:
+  meaning: يعرض، يقدم
+  example: هم يعرضون عليه وظيفة.
+accepteren:
+  meaning: يقبل
+  example: أقبل الدعوة بكل سرور.
+adviseren:
+  meaning: ينصح
+  example: طبيب الأسرة ينصح بالراحة وشرب الكثير من الماء.
+de voorwaarde:
+  meaning: الشرط
+  example: الشرط مذكور في العقد.
+de zekerheid:
+  meaning: اليقين، التأكد
+  example: أريد التأكد بشأن السعر.
+het gedrag:
+  meaning: السلوك
+  example: سلوكه يفاجئ المجموعة كلها.
+het onderwerp:
+  meaning: الموضوع
+  example: موضوع الدرس هو الصحة.
+actief:
+  meaning: نشيط، فعال
+  example: ابقَ نشيطًا من أجل صحة جيدة.
+beroemd:
+  meaning: مشهور
+  example: هذا المغني مشهور جدًا هنا.
+eenvoudig:
+  meaning: بسيط
+  example: الشرح بسيط وواضح.
+geschikt:
+  meaning: مناسب
+  example: هذه السترة مناسبة للطقس البارد.
+ingewikkeld:
+  meaning: معقد
+  example: الاستمارة معقدة جدًا بالنسبة لي.
+openbaar:
+  meaning: عام، عمومي
+  example: الطريق العام مزدحم جدًا هنا.
+persoonlijk:
+  meaning: شخصي
+  example: لدي سؤال شخصي.
+serieus:
+  meaning: جاد، جدي
+  example: خذ الشكوى على محمل الجد، من فضلك.
+verantwoordelijk:
+  meaning: مسؤول
+  example: من المسؤول عن هذه المهمة؟
+verplicht:
+  meaning: إلزامي
+  example: الدورة إلزامية للجميع.
+dankzij:
+  meaning: بفضل
+  example: بفضلك حصلت على الوظيفة.
+echter:
+  meaning: لكن، مع ذلك
+  example: كنت مع ذلك متأخرًا عن الدرس.
+helaas:
+  meaning: للأسف
+  example: للأسف ليس لدي وقت اليوم.
+hoewel:
+  meaning: رغم أن، على الرغم من أن
+  example: على الرغم من أن الجو يمطر، سنذهب في نزهة.
+inmiddels:
+  meaning: بحلول الآن، في هذه الأثناء
+  example: لقد انتهيت من العمل الآن.
+ondanks:
+  meaning: رغم، بالرغم من
+  example: رغم المطر، تستمر الرحلة.
+tenzij:
+  meaning: إلا إذا
+  example: سنذهب إلا إذا أمطرت بغزارة.
+zodra:
+  meaning: بمجرد أن
+  example: اتصل بي بمجرد أن تصل إلى المنزل.
+de invloed:
+  meaning: التأثير
+  example: وسائل التواصل الاجتماعي لها تأثير كبير على الشباب.
+de ontwikkeling:
+  meaning: التطور
+  example: التطور التقني يسير بسرعة كبيرة.
+de kwaliteit:
+  meaning: الجودة
+  example: جودة هذا المنتج جيدة.
+de techniek:
+  meaning: التقنية
+  example: بفضل التقنية نعمل بشكل أسرع.
+de samenleving:
+  meaning: المجتمع
+  example: في مجتمعنا يجب أن يشارك الجميع.
+de cultuur:
+  meaning: الثقافة
+  example: لكل ثقافة أعيادها وعاداتها الخاصة.
+de overheid:
+  meaning: الحكومة
+  example: تتخذ الحكومة إجراءات جديدة.
+de wet:
+  meaning: القانون
+  example: يمنع القانون استخدام الهاتف في السيارة.
+de veiligheid:
+  meaning: السلامة، الأمان
+  example: السلامة في الشارع مهمة.
+de discussie:
+  meaning: النقاش
+  example: أجرينا نقاشًا طويلًا حول الخطة.
+de organisatie:
+  meaning: المنظمة
+  example: تبحث المنظمة عن موظفين جدد.
+het evenement:
+  meaning: الحدث، الفعالية
+  example: يبدأ الحدث في الساعة الثامنة.
+de samenwerking:
+  meaning: التعاون
+  example: التعاون الجيد يجعل العمل أسهل.
+het overleg:
+  meaning: التشاور، الاجتماع
+  example: غدًا لدينا اجتماع مع المدير.
+de conclusie:
+  meaning: الاستنتاج
+  example: بعد البحث توصلنا إلى استنتاج.
+het bestand:
+  meaning: الملف
+  example: سأرسل الملف بالبريد الإلكتروني.
+de bijlage:
+  meaning: المرفق
+  example: يحتوي المرفق على قائمة الأسعار الجديدة.
+het verslag:
+  meaning: التقرير
+  example: سأكتب غدًا تقرير الاجتماع.
+de presentatie:
+  meaning: العرض التقديمي
+  example: ستقدم عرضًا تقديميًا عن المشروع.
+het project:
+  meaning: المشروع
+  example: يستمر المشروع ثلاثة أشهر أخرى.
+het personeel:
+  meaning: الموظفون، الطاقم
+  example: يحصل الموظفون على غرفة استراحة جديدة.
+de service:
+  meaning: الخدمة
+  example: الخدمة في هذا المطعم سيئة.
+de garantie:
+  meaning: الضمان
+  example: هذا الهاتف له ضمان سنتين.
+de reparatie:
+  meaning: الإصلاح
+  example: إصلاح دراجتي يكلف الكثير من المال.
+de korting:
+  meaning: الخصم
+  example: حصلت على خصم عشرة بالمئة.
+de ontspanning:
+  meaning: الاسترخاء
+  example: أبحث عن الاسترخاء في الحديقة.
+de behandeling:
+  meaning: العلاج
+  example: كان العلاج عند الطبيب مؤلمًا.
+de uitslag:
+  meaning: النتيجة
+  example: نتيجة فحص الدم جيدة.
+de verhuizing:
+  meaning: الانتقال
+  example: كان الانتقال إلى منزلنا الجديد مرهقًا.
+de makelaar:
+  meaning: الوسيط العقاري
+  example: يرينا الوسيط العقاري المنزل.
+het meubel:
+  meaning: قطعة أثاث
+  example: قطعة الأثاث هذه لا تناسب الغرفة.
+de rit:
+  meaning: الرحلة، المشوار
+  example: استغرقت الرحلة إلى الشاطئ ساعة.
+het abonnement:
+  meaning: الاشتراك
+  example: انتهى اشتراكي في القطار.
+de afrit:
+  meaning: المخرج
+  example: خذ المخرج عند القرية التالية.
+de voorrang:
+  meaning: حق الأولوية
+  example: في الدوار لا تملك حق الأولوية.
+de boete:
+  meaning: الغرامة
+  example: حصلت على غرامة بسبب القيادة بسرعة زائدة.
+het ongeluk:
+  meaning: الحادث
+  example: لم يصب أحد بجروح في الحادث.
+de passagier:
+  meaning: الراكب
+  example: على الراكب إظهار تذكرته.
+de grens:
+  meaning: الحدود
+  example: عبرنا الحدود عند الجمارك.
+de reservering:
+  meaning: الحجز
+  example: للأسف لا أستطيع إلغاء حجزي.
+de annulering:
+  meaning: الإلغاء
+  example: إلغاء الرحلة يكلف مالًا.
+het respect:
+  meaning: الاحترام
+  example: لدينا احترام كبير لبعضنا البعض.
+de vriendschap:
+  meaning: الصداقة
+  example: صداقتهم ما زالت قوية بعد سنوات.
+de indruk:
+  meaning: الانطباع
+  example: تركت انطباعًا جيدًا أثناء المقابلة.
+de kennis:
+  meaning: المعرفة
+  example: بهذه الدورة تزيد معرفتك.
+de angst:
+  meaning: الخوف
+  example: لديه خوف من الكلاب.
+bovendien:
+  meaning: علاوة على ذلك
+  example: هو مريض؛ علاوة على ذلك لديه حمى.
+namelijk:
+  meaning: أي، تحديدًا
+  example: سآتي لاحقًا، تحديدًا في الساعة الثالثة.
+vanwege:
+  meaning: بسبب
+  example: القطار متأخر بسبب الطقس.
+vervolgens:
+  meaning: ثم، بعد ذلك
+  example: نأكل أولًا؛ ثم نذهب في نزهة.
+uiteindelijk:
+  meaning: في النهاية
+  example: في النهاية وجدت مفتاحي.
+daarnaast:
+  meaning: بالإضافة إلى ذلك
+  example: بالإضافة إلى ذلك يجب أن تأخذ جواز سفرك أيضًا.
+hierdoor:
+  meaning: بسبب ذلك
+  example: إنها تمطر؛ بسبب ذلك سيصل القطار متأخرًا.
+waarmee:
+  meaning: الذي به، التي بها
+  example: هذا هو النموذج الذي تطلب به.
+waardoor:
+  meaning: بسبب ذلك، مما
+  example: كان مزدحمًا، مما جعلنا نتأخر.
+totdat:
+  meaning: حتى
+  example: انتظر هنا حتى يناديك الطبيب.
+zolang:
+  meaning: طالما
+  example: يمكنك البقاء طالما أردت.
+doordat:
+  meaning: لأن، بسبب
+  example: تأخرت الحافلة بسبب تساقط الثلوج.
+tegenwoordig:
+  meaning: في الوقت الحاضر
+  example: في الوقت الحاضر يطلب كثير من الناس عبر الإنترنت.
+onlangs:
+  meaning: مؤخرًا
+  example: مؤخرًا ذهبت إلى طبيب الأسنان.
+de behoefte:
+  meaning: حاجة
+  example: أحتاج إلى الهدوء.
+de gelegenheid:
+  meaning: فرصة
+  example: ليست لدي فرصة للحضور.
+de verantwoordelijkheid:
+  meaning: مسؤولية
+  example: هذه مسؤوليتي.
+de voorbereiding:
+  meaning: تحضير
+  example: يستغرق التحضير أسبوعًا آخر.
+de verbinding:
+  meaning: اتصال
+  example: الاتصال سيئ جدًا.
+de klantenservice:
+  meaning: خدمة العملاء
+  example: تساعدني خدمة العملاء بسرعة.
+de leiding:
+  meaning: إدارة
+  example: إدارة الشركة جديدة.
+aanpassen:
+  meaning: يعدّل، يتكيّف
+  example: عليّ تعديل خطتي.
+afhangen:
+  meaning: يعتمد على
+  example: هذا يعتمد على الطقس.
+afronden:
+  meaning: ينهي
+  example: علينا إنهاء المهمة اليوم.
+behandelen:
+  meaning: يعالج، يتعامل مع
+  example: يعالج الطبيب ركبتي.
+besteden:
+  meaning: يقضي، يخصص
+  example: أقضي وقتًا كثيرًا في العمل.
+bewegen:
+  meaning: يتحرك
+  example: عليك أن تتحرك كل يوم.
+bijhouden:
+  meaning: يتابع، يسجّل
+  example: أتابع مصاريفي جيدًا.
+combineren:
+  meaning: يجمع
+  example: أستطيع الجمع بين العمل والدراسة.
+doorbrengen:
+  meaning: يقضي
+  example: نقضي اليوم في المنزل.
+ervaren:
+  meaning: يختبر، يعاني
+  example: أعاني من ضغط كبير في العمل.
+functioneren:
+  meaning: يعمل
+  example: الجهاز لا يعمل جيدًا.
+herstellen:
+  meaning: يتعافى، يصلح
+  example: عليّ أن أتعافى جيدًا بعد العملية.
+inleveren:
+  meaning: يسلّم
+  example: سلّم استمارتك غدًا.
+inschrijven:
+  meaning: يسجّل
+  example: أريد أن أسجّل.
+installeren:
+  meaning: يثبّت، يركّب
+  example: نثبّت الطابعة الجديدة اليوم.
+leveren:
+  meaning: يسلّم، يوصل
+  example: المتجر يوصّل الطرد غدًا.
+ondertekenen:
+  meaning: يوقّع
+  example: عليك التوقيع على عقدك هنا.
+ontmoeten:
+  meaning: يلتقي
+  example: ألتقي أصدقائي الليلة.
+opbouwen:
+  meaning: يبني، يكوّن
+  example: نبني علاقة ببطء.
+opnemen:
+  meaning: يرد، يسجّل
+  example: أرد على الهاتف.
+opslaan:
+  meaning: يحفظ
+  example: احفظ الملف جيدًا.
+organiseren:
+  meaning: ينظّم
+  example: ننظّم حفلة من أجلها.
+overwegen:
+  meaning: يفكر في، ينظر في
+  example: أفكر في وظيفة جديدة.
+repareren:
+  meaning: يصلح
+  example: هل يمكنك إصلاح دراجتي؟
+schijnen:
+  meaning: يسطع، يبدو
+  example: الشمس ساطعة بقوة اليوم.
+solliciteren:
+  meaning: يتقدم لوظيفة
+  example: أتقدم لوظيفة جديدة.
+stemmen:
+  meaning: يصوّت
+  example: نصوّت اليوم لحزب.
+toevoegen:
+  meaning: يضيف
+  example: أضف بعض الملح إلى الحساء.
+uitspreken:
+  meaning: يلفظ
+  example: هل يمكنك لفظ تلك الكلمة؟
+verdwijnen:
+  meaning: يختفي
+  example: اختفت مفاتيحي فجأة.
+verhuren:
+  meaning: يؤجّر
+  example: نؤجّر غرفة لطلاب.
+vermijden:
+  meaning: يتجنب
+  example: أفضّل تجنب الزحام.
+veroorzaken:
+  meaning: يسبب
+  example: التدخين يمكن أن يسبب مشاكل صحية كثيرة.
+verrassen:
+  meaning: يفاجئ
+  example: نريد مفاجأتها بحفلة.
+verzoeken:
+  meaning: يطلب
+  example: أرجو منك بلطف أن تنتظر.
+voorbereiden:
+  meaning: يحضّر، يستعد
+  example: عليّ أن أستعد جيدًا.
+noodzakelijk:
+  meaning: ضروري
+  example: من الضروري الحجز.
+onmiddellijk:
+  meaning: فورًا
+  example: اتصل بالطبيب فورًا.
+prettig:
+  meaning: لطيف، ممتع
+  example: كان حديثًا لطيفًا.
+redelijk:
+  meaning: معقول
+  example: السعر معقول.
+tevreden:
+  meaning: راضٍ
+  example: أنا راضٍ عن عملي.
+voldoende:
+  meaning: كافٍ
+  example: لدينا وقت كافٍ للأكل.
+zelfstandig:
+  meaning: باستقلالية، مستقل
+  example: أحب العمل باستقلالية.
+zuinig:
+  meaning: اقتصادي، مقتصد
+  example: علينا التعامل مع الطاقة باقتصاد.
+algemeen:
+  meaning: عام
+  example: هذه مشكلة عامة.
+tijdelijk:
+  meaning: مؤقت
+  example: لدي وظيفة مؤقتة.
+volledig:
+  meaning: كامل، تمامًا
+  example: تم ملء الاستمارة بالكامل.
+onbekend:
+  meaning: غير معروف
+  example: السبب ما زال غير معروف.
+verrassend:
+  meaning: مفاجئ
+  example: كان الخبر جيدًا بشكل مفاجئ.
+de vergoeding:
+  meaning: تعويض
+  example: تم ترتيب تعويض السفر.
+de uitgave:
+  meaning: مصروف، نفقة
+  example: مصروف الحفلة مرتفع.
+het overzicht:
+  meaning: نظرة عامة، ملخص
+  example: هل يمكنك عمل ملخص؟
+de verplichting:
+  meaning: التزام، واجب
+  example: حضور دورة التزام.
+inderdaad:
+  meaning: بالفعل، حقًا
+  example: بالفعل، هذا صحيح.
+uiteraard:
+  meaning: بالطبع
+  example: بالطبع سأساعدك.
+wellicht:
+  meaning: ربما
+  example: ربما آتي لاحقًا.
+vanuit:
+  meaning: من، انطلاقًا من
+  example: ننطلق من الفندق.
+ondertussen:
+  meaning: في هذه الأثناء
+  example: في هذه الأثناء أطبخ الطعام.
+lijken:
+  meaning: يبدو
+  example: يبدو أنه فكرة جيدة.
+blijken:
+  meaning: يتبين، يتضح
+  example: يتبين أنه خطأ.
+noemen:
+  meaning: يسمي، يدعو
+  example: كيف تسمي ذلك بالهولندية؟
+tellen:
+  meaning: يعد
+  example: هل يمكنك العد إلى عشرة؟
+trekken:
+  meaning: يسحب، يجر
+  example: اسحب الباب للدخول.
+vullen:
+  meaning: يملأ
+  example: أملأ الزجاجة بالماء.
+wijzen:
+  meaning: يشير
+  example: هو يشير إلى الخريطة.
+zakken:
+  meaning: ينخفض، يسقط
+  example: تنخفض درجة الحرارة بسرعة هذا المساء.
+zenden:
+  meaning: يرسل
+  example: أرسل لك رسالة.
+deelnemen:
+  meaning: يشارك
+  example: أود المشاركة في الدورة.
+bespreken:
+  meaning: يناقش
+  example: يجب أن نناقش الخطة غدًا.
+bieden:
+  meaning: يقدم، يعرض
+  example: يقدم المساعدة لجاره.
+groeien:
+  meaning: ينمو
+  example: تنمو النباتات بسرعة في الربيع.
+ontwikkelen:
+  meaning: يطور
+  example: نطور تطبيقًا جديدًا.
+overleven:
+  meaning: ينجو
+  example: لقد نجا من الكارثة.
+aanwezig:
+  meaning: حاضر، موجود
+  example: كل الطلاب حاضرون اليوم.
+afwezig:
+  meaning: غائب
+  example: هو غائب اليوم بسبب المرض.
+bekend:
+  meaning: مشهور، معروف
+  example: هذا الفنان مشهور جدًا.
+bezorgd:
+  meaning: قلق
+  example: أنا قلق على أمي.
+dankbaar:
+  meaning: ممتن، شاكر
+  example: أنا ممتن لك جدًا.
+dapper:
+  meaning: شجاع
+  example: رجل الإطفاء شجاع جدًا.
+enthousiast:
+  meaning: متحمس
+  example: هي متحمسة للخطة.
+geduldig:
+  meaning: صبور
+  example: كن صبورًا، سيستغرق بعض الوقت.
+handig:
+  meaning: مفيد، عملي
+  example: الهاتف الذكي مفيد.
+herkenbaar:
+  meaning: يمكن التعرف عليه
+  example: صوته مميز جدًا.
+de factuur:
+  meaning: الفاتورة
+  example: يجب دفع الفاتورة قبل الجمعة.
+de overeenkomst:
+  meaning: الاتفاقية
+  example: وقعنا اتفاقية.
+de procedure:
+  meaning: الإجراء
+  example: يستغرق الإجراء أسبوعين.
+de toestand:
+  meaning: الحالة
+  example: حالة المريض مستقرة.
+de waarschuwing:
+  meaning: التحذير
+  example: تلقيت تحذيرًا من الشرطة.
+de voorkeur:
+  meaning: التفضيل
+  example: أفضل الشاي.
+de herinnering:
+  meaning: الذكرى
+  example: لدي ذكريات جميلة عن تلك الرحلة.
+de gedachte:
+  meaning: الفكرة
+  example: تلك الفكرة تجعلني سعيدًا.
+de generatie:
+  meaning: الجيل
+  example: جيلي يفكر بشكل مختلف في العمل.
+de inwoner:
+  meaning: الساكن، المقيم
+  example: سكان القرية يحتجون.
+de jeugd:
+  meaning: الشباب، الطفولة
+  example: في طفولتي كنت ألعب في الخارج.
+de boer:
+  meaning: المزارع
+  example: المزارع يعمل في الحقل.
+de brandweer:
+  meaning: الإطفاء، رجال الإطفاء
+  example: جاء رجال الإطفاء بسرعة إلى الحادث.
+de briefkaart:
+  meaning: البطاقة البريدية
+  example: أرسل بطاقة بريدية من إسبانيا.
+de douane:
+  meaning: الجمارك
+  example: اضطررنا للانتظار طويلاً عند الجمارك.
+de postbode:
+  meaning: ساعي البريد
+  example: ساعي البريد يجلب طردًا.
+de reiziger:
+  meaning: المسافر
+  example: المسافر ينتظر على الرصيف.
+de gordel:
+  meaning: حزام الأمان
+  example: اربط حزام الأمان قبل أن ننطلق.
+de schade:
+  meaning: الضرر
+  example: الضرر بالسيارة كبير.
+de spier:
+  meaning: العضلة
+  example: عضلتي تؤلمني بعد الرياضة.
+de heup:
+  meaning: الورك
+  example: وركي يؤلمني عندما أمشي.
+de lever:
+  meaning: الكبد
+  example: الكبد عضو مهم.
+de nier:
+  meaning: الكلية
+  example: كليتي لا تعمل جيدًا.
+de tolk:
+  meaning: المترجم الفوري
+  example: المترجم الفوري يترجم المحادثة.
+de deelnemer:
+  meaning: المشارك
+  example: كل مشارك يحصل على شهادة.
+de deskundige:
+  meaning: الخبير
+  example: الخبير يشرح المشكلة.
+de ondernemer:
+  meaning: رائد أعمال
+  example: رائد الأعمال يبدأ شركة جديدة.
+de cliënt:
+  meaning: العميل
+  example: العميل راضٍ عن الخدمة.
+de maatregel:
+  meaning: الإجراء، التدبير
+  example: تتخذ الحكومة إجراءات جديدة.
+de regering:
+  meaning: الحكومة
+  example: الحكومة تتخذ قرارًا مهمًا.
+de betaling:
+  meaning: الدفع
+  example: لم ينجح الدفع بعد.
+de boodschap:
+  meaning: رسالة، مشوار
+  example: سأنجز لك مشوارًا سريعًا.
+het huishouden:
+  meaning: الأعمال المنزلية
+  example: تستغرق الأعمال المنزلية وقتًا طويلاً.
+het afval:
+  meaning: النفايات، القمامة
+  example: يجب إخراج القمامة كل أسبوع.
+de uitkering:
+  meaning: إعانة اجتماعية
+  example: أتقدم بطلب للحصول على إعانة.
+de toeslag:
+  meaning: علاوة، بدل
+  example: تُدفع العلاوة كل شهر.
+de inkomsten:
+  meaning: الدخل
+  example: دخلي أقل هذا الشهر.
+de vaardigheid:
+  meaning: مهارة
+  example: التواصل الجيد مهارة مهمة.
+de huurder:
+  meaning: المستأجر
+  example: يجب على المستأجر أن يحافظ على نظافة المسكن.
+de verhuurder:
+  meaning: المؤجر
+  example: يحل المؤجر المشكلة بسرعة.
+de lekkage:
+  meaning: تسرب
+  example: التسرب قادم من السقف.
+de afvoer:
+  meaning: مصرف
+  example: مصرف الدش مسدود.
+de wachttijd:
+  meaning: وقت الانتظار
+  example: وقت الانتظار عند الطبيب طويل.
+de verwijzing:
+  meaning: إحالة
+  example: لدي إحالة من الطبيب العام.
+de bezorging:
+  meaning: التوصيل
+  example: يستغرق التوصيل عادة يومين.
+het pakket:
+  meaning: طرد
+  example: سيتم توصيل الطرد غدًا.
+de postzegel:
+  meaning: طابع بريد
+  example: ألصق طابع بريد على الظرف.
+de container:
+  meaning: حاوية، سلة قمامة
+  example: الحاوية ممتلئة، علينا الانتظار.
+de spits:
+  meaning: ساعة الذروة
+  example: خلال ساعة الذروة يكون الطريق مزدحمًا.
+de dienstregeling:
+  meaning: الجدول الزمني
+  example: يتغير الجدول الزمني اعتبارًا من الشهر القادم.
+de parkeergarage:
+  meaning: مرآب سيارات
+  example: غالبًا ما يكون مرآب السيارات مزدحمًا.
+de omleiding:
+  meaning: تحويلة، طريق بديل
+  example: توجد تحويلة بسبب أعمال الطريق.
+het verkeerslicht:
+  meaning: إشارة مرور
+  example: انتظر هنا حتى تصبح إشارة المرور خضراء.
+het tankstation:
+  meaning: محطة وقود
+  example: سنتوقف عند محطة الوقود التالية.
+de tussenstop:
+  meaning: توقف وسطي
+  example: لدينا توقف قصير.
+de heenreis:
+  meaning: رحلة الذهاب
+  example: استغرقت رحلة الذهاب حوالي ثلاث ساعات.
+de terugreis:
+  meaning: رحلة العودة
+  example: كانت رحلة العودة متعبة جدًا.
+de landing:
+  meaning: هبوط
+  example: كان الهبوط ناعمًا وهادئًا.
+de bijwerking:
+  meaning: تأثير جانبي
+  example: لهذا الدواء تأثير جانبي مزعج.
+de dosering:
+  meaning: جرعة
+  example: اتبع الجرعة الموضحة على العبوة.
+de therapie:
+  meaning: علاج
+  example: يستغرق العلاج حوالي ثلاثة أشهر.
+de spoed:
+  meaning: حالة طارئة
+  example: اتصل بالطبيب العام فورًا في الحالات الطارئة.
+de aandoening:
+  meaning: مرض، اضطراب
+  example: لديها مرض مزمن.
+de ontsteking:
+  meaning: التهاب، عدوى
+  example: اختفى الالتهاب الآن لحسن الحظ.
+de bloeddruk:
+  meaning: ضغط الدم
+  example: تقيس الممرضة ضغط دمي.
+de voeding:
+  meaning: تغذية
+  example: التغذية الجيدة مهمة لصحتك.
+de eetlust:
+  meaning: شهية
+  example: ليس لدي شهية كبيرة اليوم.
+de misselijkheid:
+  meaning: غثيان
+  example: يزداد الغثيان بعد الوجبة.
+de zwangerschap:
+  meaning: حمل
+  example: أثناء الحمل يجب أن ترتاح بما فيه الكفاية.
+de bevalling:
+  meaning: ولادة
+  example: مرت الولادة لحسن الحظ دون مشاكل.
+het litteken:
+  meaning: ندبة
+  example: تلاشت الندبة بعد سنة.
+de eigenschap:
+  meaning: صفة، خصلة
+  example: الصبر صفة جيدة.
+de opvoeding:
+  meaning: تربية
+  example: تربية الأطفال تستهلك الكثير من الطاقة.
+de eenzaamheid:
+  meaning: وحدة
+  example: يعاني الشباب أيضًا من الوحدة.
+de teleurstelling:
+  meaning: خيبة أمل
+  example: كانت النتيجة خيبة أمل كبيرة.
+de spanning:
+  meaning: توتر
+  example: أشعر بتوتر كبير قبل الامتحان.
+de twijfel:
+  meaning: شك
+  example: لا يزال هناك شك حول التاريخ.
+het compliment:
+  meaning: مجاملة
+  example: قال لي مجاملة لطيفة.
+de geboorte:
+  meaning: ولادة
+  example: كانت ولادة ابنتهما مميزة.
+de peuter:
+  meaning: طفل صغير
+  example: يحب الطفل الصغير اللعب بالمكعبات.
+de kleuter:
+  meaning: طفل ما قبل المدرسة
+  example: سيلتحق طفلنا في سن ما قبل المدرسة بالمدرسة العام القادم.
+de puber:
+  meaning: مراهق
+  example: يريد المراهق أن يقرر بنفسه أكثر فأكثر.
+de volwassene:
+  meaning: بالغ
+  example: كشخص بالغ يجب أن تتخذ قراراتك بنفسك.
+de alleenstaande:
+  meaning: شخص أعزب
+  example: كشخص أعزب أدفع إيجارًا أعلى.
+de polis:
+  meaning: بوليصة تأمين
+  example: احتفظ ببوليصة التأمين في مكان آمن.
+de premie:
+  meaning: قسط التأمين
+  example: يرتفع قسط التأمين العام القادم.
+de radiator:
+  meaning: مشعاع
+  example: لا تغلق المشعاع تمامًا.
+het stopcontact:
+  meaning: مقبس كهرباء
+  example: المقبس معطل وخطير.
+de schakelaar:
+  meaning: مفتاح كهرباء
+  example: المفتاح بجانب الباب.
+de meterkast:
+  meaning: خزانة العدادات
+  example: توجد خزانة العدادات في الممر.
+de uitleg:
+  meaning: الشرح
+  example: شرح المعلم كان واضحًا جدًا.
+de reactie:
+  meaning: رد الفعل
+  example: بدا رد فعله على الخبر مندهشًا.
+de verwachting:
+  meaning: التوقع
+  example: من المتوقع أن تمطر غدًا.
+het resultaat:
+  meaning: النتيجة
+  example: كانت نتيجة الاختبار جيدة.
+het apparaat:
+  meaning: الجهاز
+  example: هذا الجهاز لم يعد يعمل.
+het programma:
+  meaning: البرنامج
+  example: يبدأ البرنامج في الثامنة.
+het detail:
+  meaning: التفصيل
+  example: تذكرت كل تفصيل في القصة.
+de mededeling:
+  meaning: الإعلان
+  example: هناك إعلان مهم من المدير.
+de bevestiging:
+  meaning: التأكيد
+  example: ما زلت أنتظر تأكيد الموعد.
+de oproep:
+  meaning: المكالمة
+  example: فوّتت مكالمة من الطبيب.
+de verbetering:
+  meaning: التحسن
+  example: هناك تحسن بسيط في صحتك.
+de afslag:
+  meaning: المخرج
+  example: خذ المخرج التالي نحو الطريق السريع.
+de bestemming:
+  meaning: الوجهة
+  example: وصل القطار إلى وجهته.
+de automaat:
+  meaning: الآلة، الصراف الآلي
+  example: أبحث عن آلة لسحب النقود.
+de pinautomaat:
+  meaning: الصراف الآلي
+  example: الصراف الآلي خارج الخدمة.
+de bakkerij:
+  meaning: المخبز
+  example: المخبز في الزاوية يبيع خبزًا طازجًا.
+de bezorger:
+  meaning: عامل التوصيل
+  example: سيُحضر عامل التوصيل الطرد غدًا.
+de consument:
+  meaning: المستهلك
+  example: يختار المستهلك المنتجات العضوية أكثر فأكثر.
+de folder:
+  meaning: الكتيب، النشرة
+  example: في الكتيب عرض ترويجي للقهوة.
+de winkelier:
+  meaning: صاحب المتجر
+  example: صاحب المتجر لا يعيد المال.
+het product:
+  meaning: المنتج
+  example: هذا المنتج للأسف غير متوفر.
+het voedsel:
+  meaning: الطعام
+  example: كان الطعام في المطعم لذيذًا.
+het winkelcentrum:
+  meaning: مركز التسوق
+  example: مركز التسوق مفتوح يوم الأحد.
+de bewoner:
+  meaning: الساكن، المقيم
+  example: سكان الشقة يشتكون من الضجيج.
+de hal:
+  meaning: المدخل، الردهة
+  example: في الردهة مرآة كبيرة.
+de achtertuin:
+  meaning: الحديقة الخلفية
+  example: يلعب الأطفال في الحديقة الخلفية.
+de huurwoning:
+  meaning: مسكن مستأجر
+  example: نبحث عن مسكن مستأجر في المدينة.
+de kookplaat:
+  meaning: موقد الطبخ
+  example: موقد الطبخ متسخ، سأنظفه.
+de leuning:
+  meaning: الدرابزين
+  example: تمسك بدرابزين السلم.
+de oprit:
+  meaning: المدخل، الممر
+  example: السيارة واقفة في الممر.
+de schutting:
+  meaning: السور
+  example: السور بين حدائقنا مكسور.
+de stekker:
+  meaning: القابس
+  example: القابس لا يناسب المقبس.
+de tegel:
+  meaning: البلاطة
+  example: هناك شق في البلاطة.
+de verhuisdoos:
+  meaning: صندوق الانتقال
+  example: نحتاج عشرة صناديق انتقال أخرى.
+de waslijn:
+  meaning: حبل الغسيل
+  example: الغسيل معلق بالخارج على حبل الغسيل.
+het behang:
+  meaning: ورق الجدران
+  example: ورق الجدران في غرفة المعيشة قديم.
+het nachtkastje:
+  meaning: طاولة السرير
+  example: نظارتي على طاولة السرير.
+het terras:
+  meaning: الشرفة، التراس
+  example: نشرب القهوة على التراس.
+de bezem:
+  meaning: المكنسة
+  example: أكنس الأرض بالمكنسة.
+de deadline:
+  meaning: الموعد النهائي
+  example: الموعد النهائي للمشروع الأسبوع القادم.
+de notitie:
+  meaning: الملاحظة
+  example: أدون ملاحظة عن الاجتماع.
+de vergunning:
+  meaning: التصريح
+  example: تحتاج إلى تصريح لأعمال الترميم.
+de verklaring:
+  meaning: الإفادة، التصريح
+  example: طلبت الشرطة إفادة.
+de inschrijving:
+  meaning: التسجيل
+  example: يُغلق التسجيل في الدورة غدًا.
+de instructie:
+  meaning: التعليمات
+  example: اقرأ التعليمات جيدًا قبل أن تبدأ.
+de werkdag:
+  meaning: يوم العمل
+  example: يبدأ يوم عملي في الثامنة.
+de bekeuring:
+  meaning: الغرامة
+  example: حصلت على غرامة بسبب السرعة.
+het achterlicht:
+  meaning: الضوء الخلفي
+  example: الضوء الخلفي لدراجتك مكسور.
+het kanaal:
+  meaning: القناة
+  example: نبحر بالقارب عبر القناة.
+het kruispunt:
+  meaning: التقاطع
+  example: عند التقاطع يجب أن تنعطف يسارًا.
+het nummerbord:
+  meaning: لوحة الأرقام
+  example: لوحة أرقام السيارة مسروقة.
+het vervoer:
+  meaning: النقل
+  example: أصبح النقل العام مكلفًا.
+het parkeerterrein:
+  meaning: موقف السيارات
+  example: موقف السيارات ممتلئ، علينا الانتظار.
+de emotie:
+  meaning: العاطفة
+  example: يُظهر القليل من العاطفة أثناء المحادثة.
+de eerlijkheid:
+  meaning: الصدق
+  example: الصدق مهم في العلاقة.
+de irritatie:
+  meaning: الانزعاج
+  example: هناك انزعاج كبير بين الجيران.
+de dankbaarheid:
+  meaning: الامتنان
+  example: أشعر بامتنان كبير لمساعدتك.
+de ambitie:
+  meaning: الطموح
+  example: لديها طموح أن تصبح مديرة.
+de boosheid:
+  meaning: الغضب
+  example: زال غضبه بعد ساعة.
+de blijdschap:
+  meaning: الفرح
+  example: كان الفرح كبيرًا بعد الولادة.
+de leeftijd:
+  meaning: العمر
+  example: في أي عمر يُسمح لك بالتصويت؟
+de periode:
+  meaning: الفترة
+  example: هذه الفترة مزدحمة جدًا في عملي.
+de termijn:
+  meaning: المهلة، الأجل
+  example: المهلة للدفع قصيرة.
+de houding:
+  meaning: الموقف، الوضعية
+  example: موقفه تجاه الخطة يفاجئني.
+de opluchting:
+  meaning: الارتياح
+  example: بعد الأخبار الجيدة شعرت بالارتياح.
+het verleden:
+  meaning: الماضي
+  example: في الماضي كنت أعيش هناك.
+de bevolking:
+  meaning: السكان
+  example: سكان هذه المدينة يتزايدون بسرعة.
+de blessure:
+  meaning: الإصابة
+  example: لديه إصابة في ركبته.
+het gewicht:
+  meaning: الوزن
+  example: وزن حقيبتي مرتفع جدًا.
+de luchthaven:
+  meaning: المطار
+  example: نكون في المطار باكرًا.
+de inrichting:
+  meaning: الديكور، التجهيز
+  example: ديكور الغرفة عصري.
+het slot:
+  meaning: القفل
+  example: قفل الباب الأمامي معطل.
+het bestek:
+  meaning: أدوات المائدة
+  example: أدوات المائدة في الدرج.
+de salade:
+  meaning: السلطة
+  example: آخذ سلطة مع الغداء.
+de worst:
+  meaning: النقانق
+  example: النقانق اليوم عليها عرض.
+de mosterd:
+  meaning: الخردل
+  example: أحب أن أضع الخردل على خبزي.
+de azijn:
+  meaning: الخل
+  example: تجعل الصلصة حامضة بالخل.
+de noot:
+  meaning: المكسرات
+  example: لدي حساسية من كل المكسرات.
+de snack:
+  meaning: الوجبة الخفيفة
+  example: بعد العمل غالبًا آخذ وجبة خفيفة.
+het nagerecht:
+  meaning: الحلوى
+  example: كحلوى آخذ الآيس كريم.
+het voorgerecht:
+  meaning: المقبلات
+  example: المقبلات هي سلطة صغيرة.
+het hoofdgerecht:
+  meaning: الطبق الرئيسي
+  example: كطبق رئيسي أختار الدجاج.
+de serveerster:
+  meaning: النادلة
+  example: النادلة تحضر لنا قائمة الطعام.
+de magnetron:
+  meaning: الميكروويف
+  example: أسخن الحساء في الميكروويف.
+de waterkoker:
+  meaning: الغلاية الكهربائية
+  example: الغلاية بجانب سطح المطبخ.
+de deurbel:
+  meaning: جرس الباب
+  example: جرس الباب لا يعمل بعد الآن.
+het hek:
+  meaning: البوابة، السور
+  example: السور حول الحديقة جديد.
+de offerte:
+  meaning: عرض السعر
+  example: هل يمكنك إرسال عرض سعر لي؟
+de notulen:
+  meaning: محضر الاجتماع
+  example: محضر الاجتماع موجود على الإنترنت.
+de leidinggevende:
+  meaning: المدير، المشرف
+  example: مديري غير موجود اليوم.
+de directie:
+  meaning: الإدارة
+  example: الإدارة ستتخذ قرارًا غدًا.
+de carrière:
+  meaning: المسيرة المهنية
+  example: تريد أن تصنع مسيرة مهنية في مجال الرعاية الصحية.
+de promotie:
+  meaning: الترقية
+  example: يأمل أن يحصل على ترقية هذا العام.
+het ontslag:
+  meaning: الإقالة، الاستقالة
+  example: بعد الإقالة يبحث عن عمل آخر.
+de productie:
+  meaning: الإنتاج
+  example: الإنتاج في المصنع متوقف.
+de werkdruk:
+  meaning: ضغط العمل
+  example: ضغط العمل في المكتب مرتفع.
+de sollicitatiebrief:
+  meaning: خطاب التقديم
+  example: سأرسل خطاب التقديم اليوم.
+het kwartaal:
+  meaning: الربع السنوي
+  example: أرقام هذا الربع جيدة.
+de psycholoog:
+  meaning: الطبيب النفسي
+  example: الطبيب النفسي يساعدها على مواجهة خوفها.
+de fysiotherapeut:
+  meaning: أخصائي العلاج الطبيعي
+  example: أخصائي العلاج الطبيعي يعالج كتفي بتمارين.
+de hersenen:
+  meaning: الدماغ
+  example: يحتاج الدماغ إلى الأكسجين.
+de ademhaling:
+  meaning: التنفس
+  example: أصبح تنفسه طبيعيًا الآن.
+het bot:
+  meaning: العظم
+  example: انكسر العظم بعد السقوط.
+de handbagage:
+  meaning: الأمتعة المحمولة
+  example: أمتعتي المحمولة مسموح بها في الطائرة.
+het visum:
+  meaning: التأشيرة
+  example: لهذا البلد أحتاج إلى تأشيرة.
+de zitplaats:
+  meaning: المقعد
+  example: هل هذا المقعد شاغر؟
+het reisbureau:
+  meaning: مكتب السفر
+  example: أحجز رحلتي عبر مكتب السفر.
+de reisverzekering:
+  meaning: تأمين السفر
+  example: بدون تأمين السفر لن أسافر.
+de veerboot:
+  meaning: العبارة
+  example: العبارة تبحر كل ساعة إلى الضفة الأخرى.
+aangezien:
+  meaning: بما أن، لأن
+  example: بما أنه تمطر، نبقى في الداخل.
+vrijwel:
+  meaning: تقريبًا، يكاد
+  example: العمل تقريبًا منتهٍ.
+nauwelijks:
+  meaning: بالكاد
+  example: بالكاد لدي وقت للطعام.
+gedurende:
+  meaning: خلال
+  example: خلال العطلة يكون المتجر مغلقًا.
+daarentegen:
+  meaning: في المقابل
+  example: يحب السمك؛ هي في المقابل تأكل اللحم.
+desondanks:
+  meaning: رغم ذلك
+  example: كان مزدحمًا؛ رغم ذلك وصلنا في الوقت.
+kortom:
+  meaning: باختصار
+  example: باختصار، ما زال علينا فعل الكثير.
+tevens:
+  meaning: أيضًا، بالإضافة
+  example: هي معلمة وأيضًا كاتبة.
+eveneens:
+  meaning: كذلك
+  example: وصل متأخرًا وهي كذلك.
+waarvan:
+  meaning: الذي منه
+  example: التطبيق الذي أحبه مجاني.
+waarover:
+  meaning: عن الذي
+  example: الموضوع الذي نتحدث عنه صعب.
+afzeggen:
+  meaning: يلغي
+  example: للأسف يجب أن ألغي الموعد.
+besluiten:
+  meaning: يقرر
+  example: قررنا أن نغادر مبكرًا.
+ruilen:
+  meaning: يبدل، يستبدل
+  example: هل يمكنني استبدال هذه القطعة؟
+retourneren:
+  meaning: يعيد، يُرجع
+  example: يمكنكم إعادة الطرد خلال ثلاثة أيام.
+inpakken:
+  meaning: يغلّف، يحزم
+  example: هل يمكنك تغليف الهدية بشكل جميل؟
+afhalen:
+  meaning: يستلم، يأخذ
+  example: سنستلم الطعام الليلة من مطعم البيتزا.
+schoonmaken:
+  meaning: ينظف
+  example: لا يزال عليّ تنظيف المنزل.
+stofzuigen:
+  meaning: ينظف بالمكنسة الكهربائية
+  example: إنها تنظف غرفة المعيشة بالمكنسة الكهربائية كل سبت.
+ophangen:
+  meaning: يعلّق
+  example: أريد تعليق تلك الصورة في الغرفة.
+verven:
+  meaning: يدهن، يطلي
+  example: سنطلي الجدار غدًا.
+strijken:
+  meaning: يكوي
+  example: لا يزال عليه كي قميصه.
+schenken:
+  meaning: يصب، يسكب
+  example: هل تصب لي بعض القهوة؟
+serveren:
+  meaning: يقدّم
+  example: يقدّم المطعم طعامًا ساخنًا ابتداءً من الساعة السادسة.
+snijden:
+  meaning: يقطع
+  example: قطّع البصل إلى قطع صغيرة.
+lukken:
+  meaning: ينجح
+  example: لحسن الحظ نجحت في ذلك.
+herkennen:
+  meaning: يتعرف على
+  example: أتعرف على تلك الأغنية فورًا.
+beseffen:
+  meaning: يدرك
+  example: الآن فقط أدرك كم الساعة متأخرة.
+beloven:
+  meaning: يعد
+  example: يجب أن تعدني أنك ستأتي.
+bedanken:
+  meaning: يشكر
+  example: أريد أن أشكرك بلطف على المساعدة.
+missen:
+  meaning: يفتقد
+  example: أفتقد عائلتي كثيرًا.
+durven:
+  meaning: يجرؤ
+  example: هل تجرؤ على المشي وحدك في الظلام؟
+dromen:
+  meaning: يحلم
+  example: كثيرًا ما أحلم بمنزل على البحر.
+zojuist:
+  meaning: للتو
+  example: غادر الطبيب للتو.
+nogal:
+  meaning: نوعًا ما، إلى حد ما
+  example: الجو بارد إلى حد ما في الخارج اليوم.
+landen:
+  meaning: يهبط
+  example: ستهبط الطائرة بعد عشر دقائق.
+opstijgen:
+  meaning: يقلع
+  example: لا يُسمح لنا بالإقلاع قبل الساعة الثامنة.
+inchecken:
+  meaning: يسجّل الوصول
+  example: يجب أن نسجل الوصول قبل ساعتين من المغادرة.
+tanken:
+  meaning: يتزود بالوقود
+  example: يجب أن أتزود بالوقود في الطريق.
+de storing:
+  meaning: عطل
+  example: يوجد عطل في الشبكة.
+het netwerk:
+  meaning: الشبكة
+  example: الشبكة لا تعمل جيدًا اليوم.
+de bijeenkomst:
+  meaning: اجتماع
+  example: يبدأ الاجتماع في الساعة الثالثة.
+de vacature:
+  meaning: وظيفة شاغرة
+  example: رأيت وظيفة شاغرة مثيرة للاهتمام على الإنترنت.
+de proeftijd:
+  meaning: فترة تجريبية
+  example: تستمر الفترة التجريبية عادة شهرين.
+het diploma:
+  meaning: شهادة، دبلوم
+  example: حصل أخيرًا على شهادته.
+plaatsvinden:
+  meaning: يحدث، يُعقد
+  example: سيعقد الاجتماع غدًا.
+maandelijks:
+  meaning: شهريًا
+  example: تصل الفاتورة شهريًا بالبريد.
+jaarlijks:
+  meaning: سنويًا
+  example: الفحص مجاني سنويًا.
+de aanrijding:
+  meaning: اصطدام
+  example: وقع اصطدام على الطريق السريع.
+de rem:
+  meaning: الفرامل
+  example: فرامل دراجتي معطلة.
+het stuur:
+  meaning: المقود، عجلة القيادة
+  example: يضع يديه على المقود.
+de accu:
+  meaning: البطارية
+  example: بطارية السيارة فارغة.
+de boeking:
+  meaning: الحجز
+  example: لقد أكدت الحجز للتو.
+het symptoom:
+  meaning: عَرَض
+  example: قد يشير هذا العَرَض إلى التوتر.
+de vaccinatie:
+  meaning: تطعيم
+  example: التطعيم مجاني للأطفال.
+de bijsluiter:
+  meaning: نشرة المعلومات، النشرة الداخلية
+  example: اقرأ النشرة الداخلية جيدًا قبل الاستخدام.
+de verwijsbrief:
+  meaning: خطاب إحالة
+  example: أعطاني الطبيب خطاب إحالة.
+zwanger:
+  meaning: حامل
+  example: أختي حامل بطفلها الأول.
+de pijnstiller:
+  meaning: مسكن ألم
+  example: خُذ مسكنًا للصداع.
+opgelucht:
+  meaning: مرتاح، مطمئن
+  example: شعرت بالارتياح بعد الأخبار السارة.
+teleurgesteld:
+  meaning: محبط، خائب الأمل
+  example: كان محبطًا من النتيجة.
+zenuwachtig:
+  meaning: متوتر، قلق
+  example: تكون دائمًا متوترة قبل الامتحان.
+eenzaam:
+  meaning: وحيد
+  example: يشعر أحيانًا بالوحدة في المدينة.
+vrolijk:
+  meaning: مرح، مبتهج
+  example: الأطفال يلعبون وهم مبتهجون.
+grappig:
+  meaning: مضحك
+  example: كان ذلك الفيلم مضحكًا جدًا.
+het kleingeld:
+  meaning: فكة، نقود صغيرة
+  example: هل لديك فكة للآلة؟
+de kassabon:
+  meaning: إيصال
+  example: احتفظ بإيصال الشراء جيدًا للضمان.
+de hamer:
+  meaning: مطرقة
+  example: أعطني المطرقة قليلًا.
+de schroevendraaier:
+  meaning: مفك براغي
+  example: أحتاج مفك براغي لهذه الخزانة.
+het gereedschap:
+  meaning: أدوات
+  example: الأدوات في السقيفة.
+de klus:
+  meaning: مهمة، عمل
+  example: هذه المهمة صعبة جدًا بالنسبة لي.
+het contact:
+  meaning: تواصل
+  example: لدي تواصل جيد مع جيراني.
+de actie:
+  meaning: عرض ترويجي
+  example: هذا الأسبوع يوجد عرض على القهوة.
+het merk:
+  meaning: علامة تجارية
+  example: لا أعرف هذه العلامة التجارية.
+de verpakking:
+  meaning: تغليف
+  example: التغليف مفتوح بالفعل.
+de levering:
+  meaning: توصيل
+  example: سيصل التوصيل غدًا بين العاشرة والثانية عشرة.
+de voorraad:
+  meaning: مخزون
+  example: المخزون على وشك النفاد.
+de ontmoeting:
+  meaning: لقاء
+  example: كان اللقاء لطيفًا جدًا.
+de kennismaking:
+  meaning: تعارف
+  example: سار التعارف بشكل جيد جدًا.
+de vereniging:
+  meaning: جمعية
+  example: هي عضوة في جمعية.
+het lid:
+  meaning: عضو
+  example: أنا عضو في صالة الرياضة.
+de vrijwilliger:
+  meaning: متطوع
+  example: يساعد المتطوع كل أسبوع في مركز الحي.
+de stemming:
+  meaning: مزاج
+  example: المزاج في الفريق جيد.
+de bezorgdheid:
+  meaning: قلق
+  example: هناك قلق كبير على صحته.
+de schaamte:
+  meaning: خجل
+  example: شعر بالخجل بعد الخطأ.
+het verdriet:
+  meaning: حزن
+  example: لديها حزن كبير بعد الخسارة.
+de borst:
+  meaning: صدر
+  example: يشعر بألم في صدره.
+de tong:
+  meaning: لسان
+  example: لقد أحرقت لساني.
+het voorhoofd:
+  meaning: جبهة
+  example: لديها لاصقة على جبهتها.
+de wang:
+  meaning: خد
+  example: الخد متورم وأحمر.
+de darm:
+  meaning: مِعَى
+  example: الأمعاء ملتهبة.
+de verpleegkundige:
+  meaning: ممرض، ممرضة
+  example: ستأتي الممرضة إليك بعد قليل.
+het herstel:
+  meaning: تعافٍ
+  example: سيستغرق التعافي بضعة أسابيع.
+de leefstijl:
+  meaning: نمط حياة
+  example: نمط الحياة الصحي مهم.
+het bezwaar:
+  meaning: اعتراض
+  example: يعترض على القرار.
+de aangifte:
+  meaning: بلاغ
+  example: تقدم بلاغًا إلى الشرطة.
+het bewijs:
+  meaning: دليل، إثبات
+  example: هل لديك إثبات دفع؟
+het origineel:
+  meaning: أصل
+  example: الأصل موجود في الملف.
+de adreswijziging:
+  meaning: تغيير عنوان
+  example: أرسل تغيير العنوان إلى البلدية.
+de machtiging:
+  meaning: تفويض
+  example: التفويض لم يُوقّع بعد.
+de stempel:
+  meaning: ختم
+  example: الختم موجود على النموذج.
+de woonplaats:
+  meaning: مكان الإقامة
+  example: مكان إقامتي مكتوب على النموذج.
+de nationaliteit:
+  meaning: جنسية
+  example: ما جنسيتك؟
+de burger:
+  meaning: مواطن
+  example: للمواطن الحق في التوضيح.
+de overnachting:
+  meaning: مبيت
+  example: كان المبيت في الفندق مكلفًا.
+de geldautomaat:
+  meaning: صراف آلي
+  example: الصراف الآلي خارج الخدمة.
+de instapkaart:
+  meaning: بطاقة صعود
+  example: أظهر بطاقة صعودك عند البوابة.
+het wisselkantoor:
+  meaning: مكتب صرف
+  example: مكتب الصرف في القاعة.
+de autoverhuur:
+  meaning: تأجير سيارات
+  example: تأجير السيارات عند المخرج.
+de benzinepomp:
+  meaning: مضخة وقود
+  example: مضخة الوقود معطلة.
+de pechhulp:
+  meaning: مساعدة الطريق
+  example: نتصل بمساعدة الطريق.
+de rijstrook:
+  meaning: مسار
+  example: ابقَ في المسار الأيمن.
+het huurcontract:
+  meaning: عقد إيجار
+  example: اقرأ عقد الإيجار جيدًا.
+de borg:
+  meaning: وديعة
+  example: الوديعة تعادل إيجار شهر.
+de huismeester:
+  meaning: حارس المبنى
+  example: يصلح حارس المبنى الباب المعطل.
+de dweil:
+  meaning: ممسحة
+  example: الممسحة في الدلو.
+de wasmand:
+  meaning: سلة غسيل
+  example: الغسيل في سلة الغسيل.
+de schoonmaak:
+  meaning: تنظيف
+  example: التنظيف كل خميس.
+de loodgieter:
+  meaning: سباك
+  example: سيأتي السباك لإصلاح التسرب.
+de verf:
+  meaning: طلاء
+  example: الطلاء ما زال رطبًا.
+de planning:
+  meaning: جدول زمني
+  example: الجدول الزمني موجود في الأجندة.
+de prioriteit:
+  meaning: أولوية
+  example: هذه الآن أولويتنا القصوى.
+waarbij:
+  meaning: الذي فيه
+  example: المحادثة التي كنت فيها كانت قصيرة.
+waarin:
+  meaning: الذي فيه
+  example: المنزل الذي أسكن فيه قديم.
+waarop:
+  meaning: الذي عليه
+  example: الكرسي الذي أجلس عليه معطل.
+waarna:
+  meaning: بعد ذلك
+  example: نأكل أولًا، ثم نذهب في نزهة.
+blijkbaar:
+  meaning: على ما يبدو
+  example: يبدو أنه غادر بالفعل.
+immers:
+  meaning: بعد كل شيء
+  example: يجب أن تأتي، فقد وعدت بذلك.
+de paskamer:
+  meaning: غرفة القياس
+  example: غرفة القياس هناك على اليسار.
+de uitverkoop:
+  meaning: تخفيضات
+  example: في التخفيضات الأسعار أقل.
+de mand:
+  meaning: سلة
+  example: أخذ سلة عند المدخل.
+het internet:
+  meaning: الإنترنت
+  example: أبحث عن أوقات العمل على الإنترنت.
+de website:
+  meaning: الموقع الإلكتروني
+  example: تم تجديد الموقع الإلكتروني للبلدية.
+de inhoud:
+  meaning: المحتوى
+  example: محتوى الرسالة واضح.
+de wedstrijd:
+  meaning: المباراة
+  example: تبدأ المباراة في الساعة الثامنة.
+het team:
+  meaning: الفريق
+  example: فريقنا يتعاون جيدًا.
+de training:
+  meaning: التدريب
+  example: يستمر التدريب ساعتين.
+aanmelden:
+  meaning: يسجّل
+  example: أريد أن أسجّل في الدورة.
+bekijken:
+  meaning: يشاهد، ينظر إلى
+  example: سنشاهد الصور معًا.
+delen:
+  meaning: يشارك
+  example: هل يمكنك مشاركة المفتاح معي؟
+breken:
+  meaning: ينكسر، يكسر
+  example: احترس، قد ينكسر الزجاج.
+de vrijheid:
+  meaning: الحرية
+  example: أستمتع بحريتي في عطلة نهاية الأسبوع.
+de routine:
+  meaning: الروتين
+  example: روتيني هو نفسه كل يوم.
+het karakter:
+  meaning: الطبع، الشخصية
+  example: لديه شخصية لطيفة.
+de vermoeidheid:
+  meaning: الإرهاق، التعب
+  example: الإرهاق سببه قلة النوم.
+de inspanning:
+  meaning: الجهد
+  example: بجهد كبير سينجح الأمر.
+de onderneming:
+  meaning: الشركة، المشروع
+  example: تعمل في شركة صغيرة.
+de portie:
+  meaning: الحصة
+  example: هذه الحصة كبيرة جدًا بالنسبة لي.
+de fooi:
+  meaning: البقشيش
+  example: نترك بقشيشًا.
+de monteur:
+  meaning: الفني، الميكانيكي
+  example: سيأتي الفني غدًا لإصلاح الصنبور.
+de vaatwasser:
+  meaning: غسالة الأطباق
+  example: غسالة الأطباق ممتلئة بعد الأكل.
+het tijdschrift:
+  meaning: المجلة
+  example: أحب قراءة مجلة في القطار.
+de speler:
+  meaning: اللاعب
+  example: سجّل اللاعب في الدقيقة الأخيرة.
+het recht:
+  meaning: الحق
+  example: من حقك الحصول على موعد جديد.
+de plicht:
+  meaning: الواجب
+  example: من واجبي الإبلاغ عن ذلك.
+aanraden:
+  meaning: ينصح بـ
+  example: يمكنني أن أنصحك بهذا الطبيب.
+aantrekken:
+  meaning: يلبس
+  example: ارتدِ معطفًا دافئًا.
+afwassen:
+  meaning: يغسل الأطباق
+  example: من يريد غسل الأطباق بعد الأكل؟
+bakken:
+  meaning: يخبز
+  example: سأخبز الخبز مساء اليوم.
+bloeden:
+  meaning: ينزف
+  example: بدأ إصبعي ينزف.
+drogen:
+  meaning: يجفف، يجف
+  example: اترك الغسيل يجف على الحبل.
+drukken:
+  meaning: يضغط
+  example: اضغط على الزر للبدء.
+duwen:
+  meaning: يدفع
+  example: لا تدفع الباب بقوة هكذا.
+gedragen:
+  meaning: يتصرف
+  example: إنه لا يتصرف بشكل لائق.
+gooien:
+  meaning: يرمي
+  example: ارمِ النفايات في الحاوية الصحيحة.
+knippen:
+  meaning: يقص
+  example: ما زلت بحاجة إلى قص أظافري.
+laden:
+  meaning: يشحن، يحمّل
+  example: هل يمكنك شحن هاتفي قليلًا؟
+mengen:
+  meaning: يخلط
+  example: اخلط الحليب مع الطحين.
+meten:
+  meaning: يقيس
+  example: يقيس الطبيب ضغط دمي.
+scheiden:
+  meaning: ينفصل، يتطلق
+  example: لسوء الحظ سيتطلقان.
+schuiven:
+  meaning: يزحلق، يحرك
+  example: حرّك الكرسي قليلًا إلى اليسار.
+steken:
+  meaning: يضع، يدخل
+  example: لا تُدخل يدك في الجيب.
+tillen:
+  meaning: يرفع
+  example: هل يمكنك رفع ذلك الصندوق؟
+vangen:
+  meaning: يمسك، يصطاد
+  example: تحاول القطة اصطياد فأر.
+verbinden:
+  meaning: يضمد، يربط
+  example: تأتي الممرضة لتضمد الجرح.
+verplaatsen:
+  meaning: ينقل، يحرك
+  example: علينا نقل الخزانة معًا.
+verwonden:
+  meaning: يجرح
+  example: قد يجرح نفسه جرحًا سيئًا.
+beleefd:
+  meaning: مؤدب
+  example: كن مؤدبًا دائمًا مع النادل.
+digitaal:
+  meaning: رقمي
+  example: يمكنك ملء النموذج رقميًا.
+eerder:
+  meaning: أبكر، في وقت سابق
+  example: أكون في البيت أبكر من أمس.
+elektrisch:
+  meaning: كهربائي
+  example: دراجتي الآن كهربائية.
+eng:
+  meaning: مخيف
+  example: ذلك الفيلم مخيف حقًا.
+gemiddeld:
+  meaning: في المتوسط، متوسط
+  example: في المتوسط تنتظر هنا عشر دقائق.
+giftig:
+  meaning: سام
+  example: مواد التنظيف هذه سامة.
+kwaad:
+  meaning: غاضب
+  example: هل ما زلت غاضبًا مني؟
+medisch:
+  meaning: طبي
+  example: طلبت مساعدة طبية.
+nuttig:
+  meaning: مفيد
+  example: هذه النصائح مفيدة جدًا.
+officieel:
+  meaning: رسمي
+  example: هذه رسالة رسمية من البلدية.
+tenslotte:
+  meaning: أخيرًا
+  example: أخيرًا أريد أن أشكر الجميع.
+zeer:
+  meaning: جدًا
+  example: الجو حار جدًا اليوم.
+wekelijks:
+  meaning: أسبوعيًا
+  example: لدينا اجتماع فريق أسبوعيًا.
+de instantie:
+  meaning: هيئة، جهة رسمية
+  example: البلدية جهة رسمية مهمة.
+de hypotheek:
+  meaning: رهن عقاري، قرض عقاري
+  example: لدينا قرض عقاري لشراء المنزل.
+de huurtoeslag:
+  meaning: إعانة إيجار
+  example: أطلب إعانة الإيجار من البلدية.
+de zorgverzekering:
+  meaning: تأمين صحي
+  example: تأميني الصحي يغطي العلاج الطبيعي.
+de arbeidsmarkt:
+  meaning: سوق العمل
+  example: سوق العمل يتغير بسرعة.
+de werkplek:
+  meaning: مكان العمل
+  example: مكان عملي بجانب النافذة.
+de bezichtiging:
+  meaning: معاينة عقار
+  example: لدينا معاينة للعقار غدًا.
+de verbouwing:
+  meaning: تجديد، ترميم
+  example: التجديد سيستغرق ثلاثة أشهر أخرى.
+de aansluiting:
+  meaning: وصلة، توصيلة
+  example: أفوّت التوصيلة إلى الحافلة.
+de navigatie:
+  meaning: نظام ملاحة
+  example: نظام الملاحة يقول إن علينا التوجه يسارًا.
+de oplader:
+  meaning: شاحن
+  example: أين ذهب شاحني؟
+de batterij:
+  meaning: بطارية
+  example: بطارية هاتفي فارغة.
+de afstandsbediening:
+  meaning: جهاز تحكم عن بعد
+  example: أعطني جهاز التحكم من فضلك.
+de schaar:
+  meaning: مقص
+  example: أبحث عن مقص لأقص.
+het restje:
+  meaning: بقية، فضلة
+  example: لا تزال هناك بقية من الحساء.
+de kinderopvang:
+  meaning: رعاية أطفال
+  example: أصبحت رعاية الأطفال مكلفة.
+de basisschool:
+  meaning: مدرسة ابتدائية
+  example: ابنتي في المدرسة الابتدائية.
+de zorgverzekeraar:
+  meaning: شركة تأمين صحي
+  example: شركة تأميني الصحي تغطي العلاج.
+de huisartsenpost:
+  meaning: مركز طوارئ طبي
+  example: اتصل بمركز طوارئ الأطباء عند الحاجة العاجلة.
+de fysiotherapie:
+  meaning: علاج طبيعي
+  example: تتلقى علاجًا طبيعيًا لظهرها.
+de diëtist:
+  meaning: أخصائي تغذية
+  example: أخصائي التغذية يقدم نصائح حول الطعام.
+de infectie:
+  meaning: عدوى، التهاب
+  example: العدوى تزول من تلقاء نفسها لحسن الحظ.
+het gips:
+  meaning: جبس
+  example: لديها جبس حول ذراعها.
+de revalidatie:
+  meaning: إعادة تأهيل
+  example: بعد الجراحة تبدأ إعادة التأهيل.
+de bijbaan:
+  meaning: عمل جانبي
+  example: لديه عمل جانبي في المتجر.
+de overuren:
+  meaning: ساعات إضافية
+  example: أعمل ساعات إضافية كثيرة هذا الأسبوع.
+de loonstrook:
+  meaning: قسيمة راتب
+  example: تصلني قسيمة راتبي كل شهر.
+de beoordeling:
+  meaning: تقييم
+  example: كان تقييم عملي إيجابيًا.
+de vakbond:
+  meaning: نقابة عمالية
+  example: النقابة تساعد في مشاكل العمل.
+de arbeidsovereenkomst:
+  meaning: عقد عمل
+  example: وقّعت عقد عملي.
+de volmacht:
+  meaning: توكيل، تفويض
+  example: أعطتني توكيلًا.
+de uitschrijving:
+  meaning: إلغاء تسجيل
+  example: إلغاء التسجيل في البلدية يستغرق وقتًا.
+de geboorteakte:
+  meaning: شهادة ميلاد
+  example: أطلب شهادة ميلاد.
+de verlenging:
+  meaning: تمديد
+  example: أطلب تمديد تأشيرتي.
+de bijstand:
+  meaning: مساعدة اجتماعية
+  example: يحصل على مساعدة اجتماعية من البلدية.
+de schuld:
+  meaning: دين
+  example: لديها دين لدى البنك.
+de lening:
+  meaning: قرض
+  example: نطلب قرضًا.
+de rente:
+  meaning: فائدة
+  example: الفائدة على القرض مرتفعة.
+de belastingaangifte:
+  meaning: إقرار ضريبي
+  example: الإقرار الضريبي معقد.
+de servicekosten:
+  meaning: رسوم خدمة
+  example: رسوم الخدمة مشمولة في الإيجار.
+de energierekening:
+  meaning: فاتورة طاقة
+  example: فاتورة الطاقة مرتفعة هذا العام.
+het voorschot:
+  meaning: دفعة مقدمة
+  example: تدفع أولًا دفعة مقدمة.
+de woningcorporatie:
+  meaning: شركة إسكان
+  example: شركة الإسكان تصلح المطبخ.
+de slagerij:
+  meaning: محل جزارة
+  example: أشتري اللحم من محل الجزارة.
+de groenteboer:
+  meaning: بائع خضار
+  example: بائع الخضار يبيع خضروات طازجة.
+de houdbaarheidsdatum:
+  meaning: تاريخ انتهاء الصلاحية
+  example: انظر إلى تاريخ انتهاء الصلاحية على العبوة.
+de frisdrank:
+  meaning: مشروب غازي
+  example: أتريد مشروبًا غازيًا أم ماء؟
+de vegetariër:
+  meaning: نباتي
+  example: هي نباتية ولا تأكل اللحم.
+de zuivel:
+  meaning: منتجات ألبان
+  example: منتجات الألبان في الثلاجة.
+de zonnebril:
+  meaning: نظارة شمسية
+  example: أحتاج نظارتي الشمسية.
+de broodrooster:
+  meaning: محمصة خبز
+  example: الخبز في محمصة الخبز.
+het koffiezetapparaat:
+  meaning: آلة قهوة
+  example: آلة القهوة معطلة.
+daarbij:
+  meaning: بالإضافة إلى ذلك
+  example: بالإضافة إلى ذلك أحتاج مساعدة.
+hierbij:
+  meaning: طيه، بموجب هذا
+  example: طيه أرسل سيرتي الذاتية.
+hiervoor:
+  meaning: لهذا، مقابل هذا
+  example: يجب أن تدفع مقابل هذا.
+hierna:
+  meaning: بعد ذلك
+  example: بعد ذلك سنذهب إلى المنزل.
+tenminste:
+  meaning: على الأقل
+  example: يجب أن تنتظر عشر دقائق على الأقل.
+hooguit:
+  meaning: على الأكثر
+  example: يستغرق ساعة على الأكثر.
+afhankelijk:
+  meaning: اعتمادًا على، متوقف على
+  example: هذا يعتمد على الطقس.
+het geval:
+  meaning: حالة
+  example: في هذه الحالة اتصل بالطبيب.
+de buur:
+  meaning: الجار
+  example: جاري يساعدني في الحديقة.
+het geduld:
+  meaning: الصبر
+  example: لم يعد لدي صبر.
+de spijt:
+  meaning: الندم
+  example: هو يندم على اختياره.
+de moed:
+  meaning: الشجاعة
+  example: كانت لديها الشجاعة للذهاب.
+jaloers:
+  meaning: غيور، حسود
+  example: أشعر بالغيرة من نجاحها.
+nieuwsgierig:
+  meaning: فضولي
+  example: الطفل فضولي جدًا.
+verbaasd:
+  meaning: متفاجئ، مندهش
+  example: كنت مندهشًا من جوابه.
+ontevreden:
+  meaning: غير راضٍ
+  example: العميل غير راضٍ عن الخدمة.
+de onzekerheid:
+  meaning: عدم اليقين
+  example: عدم اليقين بشأن وظيفتي كبير.
+de aanwezigheid:
+  meaning: الحضور
+  example: حضورك في الاجتماع إلزامي.
+de afwezigheid:
+  meaning: الغياب
+  example: لاحظ الجميع غيابه.
+de praktijk:
+  meaning: عيادة طبية
+  example: العيادة مفتوحة في أيام العمل.
+de maagpijn:
+  meaning: ألم المعدة
+  example: أعاني كثيرًا من ألم المعدة.
+de oorpijn:
+  meaning: ألم الأذن
+  example: الطفل يعاني من ألم الأذن.
+de tandpijn:
+  meaning: ألم الأسنان
+  example: فجأة أشعر بألم شديد في الأسنان.
+de jeuk:
+  meaning: حكة
+  example: لدغة البعوض هذه تسبب حكة كثيرة.
+de eerste hulp:
+  meaning: الإسعافات الأولية
+  example: قسم الإسعافات الأولية مفتوح ليلًا ونهارًا.
+de kuur:
+  meaning: دورة علاج
+  example: تستمر دورة العلاج أسبوعين.
+de rolstoel:
+  meaning: كرسي متحرك
+  example: جدتي تستخدم كرسيًا متحركًا مؤقتًا.
+de verzorging:
+  meaning: الرعاية
+  example: رعاية والدي تستغرق وقتًا.
+de begeleiding:
+  meaning: الإرشاد
+  example: أتلقى إرشادًا في عملي.
+de werkervaring:
+  meaning: خبرة العمل
+  example: لديه خبرة عمل كثيرة في مجال الرعاية.
+het uitzendbureau:
+  meaning: مكتب توظيف مؤقت
+  example: أبحث عن عمل عبر مكتب توظيف مؤقت.
+de receptionist:
+  meaning: موظف الاستقبال
+  example: موظف الاستقبال يعطيني المفتاح.
+de prestatie:
+  meaning: الأداء
+  example: أداؤها في العمل جيد.
+het inkomen:
+  meaning: الدخل
+  example: دخلي هذا العام أقل.
+de achternaam:
+  meaning: اسم العائلة
+  example: أدخل اسم العائلة هنا.
+de voornaam:
+  meaning: الاسم الأول
+  example: من الصعب نطق اسمي الأول.
+de geboortedatum:
+  meaning: تاريخ الميلاد
+  example: ما تاريخ ميلادك؟
+het dossier:
+  meaning: الملف
+  example: الملف موجود لدى البلدية.
+de registratie:
+  meaning: التسجيل
+  example: يستغرق التسجيل يومي عمل.
+de ambtenaar:
+  meaning: موظف حكومي
+  example: موظف حكومي يطلب جواز سفري.
+de boodschappenlijst:
+  meaning: قائمة المشتريات
+  example: أعد أولًا قائمة مشتريات.
+de klantenkaart:
+  meaning: بطاقة ولاء
+  example: ببطاقة الولاء تحصل على خصم.
+de prei:
+  meaning: الكراث
+  example: أشتري كراثًا للحساء.
+de spinazie:
+  meaning: السبانخ
+  example: السبانخ صحي وسريع التحضير.
+de druif:
+  meaning: حبة عنب
+  example: العنب الآن في العرض.
+de boon:
+  meaning: الفاصولياء
+  example: أحب أكل الفاصولياء في الحساء.
+de berging:
+  meaning: غرفة التخزين
+  example: الدراجات موضوعة في غرفة التخزين.
+de huisregels:
+  meaning: قواعد السكن
+  example: قواعد السكن معلقة في المدخل.
+het rookverbod:
+  meaning: حظر التدخين
+  example: يسري حظر التدخين في المبنى.
+de huurprijs:
+  meaning: الإيجار
+  example: يرتفع الإيجار العام القادم.
+het rijtjeshuis:
+  meaning: بيت متلاصق
+  example: يسكنون في بيت متلاصق صغير.
+de vuilnisbak:
+  meaning: سلة القمامة
+  example: ضع سلة القمامة في الشارع.
+de lantaarnpaal:
+  meaning: عمود إنارة
+  example: عمود الإنارة معطل منذ أسابيع.
+het openbaar vervoer:
+  meaning: النقل العام
+  example: أحب السفر بالنقل العام.
+de vertrektijd:
+  meaning: وقت المغادرة
+  example: وقت المغادرة هو الثامنة والنصف.
+de aankomsttijd:
+  meaning: وقت الوصول
+  example: ما وقت وصول القطار؟
+de reisplanner:
+  meaning: مخطط الرحلات
+  example: سأنظر قليلًا في مخطط الرحلات.
+de incheckbalie:
+  meaning: مكتب تسجيل الوصول
+  example: اذهب إلى مكتب تسجيل الوصول عند المدخل.
+de bagageband:
+  meaning: حزام الأمتعة
+  example: حقيبتنا تصل على حزام الأمتعة رقم ثلاثة.
+de wagon:
+  meaning: عربة قطار
+  example: اصعد في العربة الثانية.
+de omweg:
+  meaning: طريق بديل
+  example: نسلك طريقًا بديلًا بسبب الزحام.
+de dierentuin:
+  meaning: حديقة الحيوان
+  example: سنذهب يوم الأحد إلى حديقة الحيوان.
+het zwembad:
+  meaning: المسبح
+  example: المسبح مغلق اليوم.
+de speeltuin:
+  meaning: ملعب أطفال
+  example: يلعب الأطفال في ملعب الأطفال.
+het theater:
+  meaning: المسرح
+  example: لدينا تذاكر للمسرح.
+de attractie:
+  meaning: معلم جذب
+  example: معلم الجذب يجذب سياحًا كثيرين.
+de verloofde:
+  meaning: الخطيب، الخطيبة
+  example: خطيبي لا يزال يسكن مع أهله.
+de getuige:
+  meaning: الشاهد
+  example: هي شاهدة في حفل الزفاف.
+beschrijven:
+  meaning: يصف
+  example: هل يمكنكم وصف المشكلة باختصار؟
+berekenen:
+  meaning: يحسب
+  example: أحسب تكلفة الرحلة.
+nadenken:
+  meaning: يفكر
+  example: عليّ أن أفكر جيدًا قليلًا.
+kloppen:
+  meaning: يكون صحيحًا
+  example: هل صحيح أنكم ستأتون غدًا؟
+vertrouwen:
+  meaning: يثق
+  example: أثق به تمامًا.
+sparen:
+  meaning: يدخر
+  example: أدخر لدراجة جديدة.
+uitgeven:
+  meaning: ينفق
+  example: هو ينفق الكثير من المال على الملابس.
+besparen:
+  meaning: يوفر
+  example: نوفر المال من خلال شراء أقل.
+uitrusten:
+  meaning: يستريح
+  example: يجب أن تستريح جيدًا بعد العمل.
+genezen:
+  meaning: يشفى
+  example: الجرح يشفى بسرعة.
+benieuwd:
+  meaning: فضولي، متشوق
+  example: أنا متشوق لمعرفة قصتك.
+bereid:
+  meaning: مستعد
+  example: هو مستعد للمساعدة.
+betrouwbaar:
+  meaning: موثوق
+  example: هو زميل موثوق.
+bewust:
+  meaning: واعٍ
+  example: هي واعية بالمخاطرة.
+boeiend:
+  meaning: مشوّق
+  example: الكتاب مشوق جدًا.
+compleet:
+  meaning: كامل
+  example: الطلب كامل.
+dringend:
+  meaning: عاجل
+  example: لدي سؤال عاجل.
+gewend:
+  meaning: معتاد
+  example: أنا معتاد على الاستيقاظ مبكرًا.
+heftig:
+  meaning: شديد
+  example: كان حدثًا شديدًا.
+lichamelijk:
+  meaning: جسدي
+  example: العمل الجسدي شاق.
+mentaal:
+  meaning: نفسي
+  example: الصحة النفسية مهمة.
+merkbaar:
+  meaning: ملحوظ
+  example: الفرق ملحوظ بوضوح.
+onafhankelijk:
+  meaning: مستقل
+  example: هي الآن مستقلة ماليًا.
+ongeduldig:
+  meaning: غير صبور
+  example: يصبح غير صبور من الانتظار.
+ongelukkig:
+  meaning: غير سعيد، تعيس
+  example: تشعر أنها غير سعيدة في عملها.
+schudden:
+  meaning: يهز، يرج
+  example: رجّ الزجاجة قبل الاستخدام.
+spoelen:
+  meaning: يشطف
+  example: اشطف فمك بعد تنظيف الأسنان.
+buigen:
+  meaning: ينحني، يثني
+  example: يجب أن تثني ركبتيك.
+beoordelen:
+  meaning: يقيّم
+  example: المدير يقيّم عملي.
+communiceren:
+  meaning: يتواصل
+  example: نتواصل عبر البريد الإلكتروني.
+vergaderen:
+  meaning: يجتمع
+  example: نجتمع كل صباح يوم الاثنين.
+wijzigen:
+  meaning: يغيّر، يعدل
+  example: يمكنك تعديل موعدك عبر الإنترنت.
+begeleiden:
+  meaning: يرشد، يرافق
+  example: المرشد يرشد السياح.
+botsen:
+  meaning: يصطدم
+  example: السيارات تصطدم عند التقاطع.
+boren:
+  meaning: يحفر، يثقب
+  example: يحفر ثقبًا في الحائط.
+stinken:
+  meaning: ينتن
+  example: رائحة سلة القمامة كريهة.
+weggooien:
+  meaning: يرمي
+  example: ارمِ الزجاجة الفارغة.
+erven:
+  meaning: يرث
+  example: هي ترث منزلًا من عمها.
+plakken:
+  meaning: يلصق
+  example: ألصق الصورة في الألبوم.
+opzoeken:
+  meaning: يبحث عن
+  example: ابحث عن الكلمة في القاموس.
+de werkloosheid:
+  meaning: البطالة
+  example: ارتفعت البطالة.
+de stagiair:
+  meaning: المتدرب
+  example: المتدرب يعمل في القسم.
+de boekhouder:
+  meaning: المحاسب
+  example: المحاسب يراجع الفواتير.
+de leverancier:
+  meaning: المورّد
+  example: المورّد يجلب البضائع غدًا.
+het magazijn:
+  meaning: المستودع
+  example: الصناديق موجودة في المستودع.
+de boekhouding:
+  meaning: المحاسبة
+  example: هي تتولى محاسبة الشركة.
+de inboedel:
+  meaning: محتويات المنزل
+  example: محتويات المنزل مؤمنة ضد الأضرار.
+de kneuzing:
+  meaning: كدمة
+  example: الكدمة تؤلم كثيرًا.
+de migraine:
+  meaning: الصداع النصفي
+  example: غالبًا ما تعاني من الصداع النصفي.
+de duizeligheid:
+  meaning: الدوار
+  example: قد ينتج الدوار عن الأدوية.
+de verveling:
+  meaning: الملل
+  example: بدافع الملل ذهب في جولة مشي.
+de jaloezie:
+  meaning: الغيرة
+  example: الغيرة يمكن أن تدمر علاقة.
+de trots:
+  meaning: الفخر
+  example: يشعر بالفخر بعد إنجازه.
+de opwinding:
+  meaning: الإثارة
+  example: كانت الإثارة كبيرة قبل الحفلة.
+de nervositeit:
+  meaning: التوتر
+  example: كان توتره ملحوظًا بوضوح.
+de traditie:
+  meaning: التقليد
+  example: من التقليد أن نأكل معًا.
+het geloof:
+  meaning: الإيمان
+  example: لديها إيمان قوي.
+de politiek:
+  meaning: السياسة
+  example: هو مهتم بالسياسة.
+de verkiezing:
+  meaning: الانتخابات
+  example: الانتخابات الشهر القادم.
+het pensioen:
+  meaning: التقاعد، المعاش
+  example: هو يتقاعد العام القادم.
+vooral:
+  meaning: بشكل خاص
+  example: أحب بشكل خاص المعكرونة والسمك.
+zelden:
+  meaning: نادراً
+  example: نادراً ما أذهب بالحافلة.
+eventueel:
+  meaning: ربما، إن أمكن
+  example: يمكننا أن نتفق لاحقاً إن أمكن.
+alsnog:
+  meaning: في النهاية، مع ذلك
+  example: جاء إلى الاجتماع في النهاية.
+sowieso:
+  meaning: على أي حال
+  example: سآتي إلى الحفلة على أي حال.
+onderweg:
+  meaning: في الطريق
+  example: سأتصل بك في الطريق إلى المنزل.
+juist:
+  meaning: بالضبط، تحديداً
+  example: تمطر بغزارة اليوم تحديداً.
+recent:
+  meaning: مؤخراً، حديثاً
+  example: وجدت مؤخراً عملاً جديداً.
+daarnet:
+  meaning: قبل قليل
+  example: اتصلت به قبل قليل.
+direct:
+  meaning: فوراً، مباشرة
+  example: سآتي إليك فوراً.
+behoren:
+  meaning: ينتمي إلى
+  example: ذلك الكتاب ينتمي إلى المقرر.
+wennen:
+  meaning: يعتاد على
+  example: يجب أن أعتاد على المنزل الجديد.
+vergissen:
+  meaning: يخطئ، يغلط
+  example: كثيراً ما أخطئ في تقدير الوقت.
+rekenen:
+  meaning: يحسب
+  example: هل تجيد الحساب بالمال؟
+opschieten:
+  meaning: يسرع
+  example: يجب أن نسرع، الحافلة ستأتي بعد قليل.
+meedoen:
+  meaning: يشارك
+  example: هل تشارك في المسابقة؟
+tegenkomen:
+  meaning: يلتقي صدفة
+  example: التقيته أمس في الشارع صدفة.
+liegen:
+  meaning: يكذب
+  example: هو لا يكذب أبداً على والديه.
+schrikken:
+  meaning: يفزع، يرتعب
+  example: أفزع من ذلك الصوت العالي.
+glimlachen:
+  meaning: يبتسم
+  example: هي تبتسم بحنان للطفل.
+ontspannen:
+  meaning: يسترخي
+  example: أحب أن أسترخي في البيت مع الموسيقى.
+opvallen:
+  meaning: يلفت الانتباه
+  example: يلفت انتباهي أنه صامت.
+storen:
+  meaning: يزعج
+  example: الضجيج يزعجني أثناء العمل.
+zwijgen:
+  meaning: يصمت
+  example: تصمت خلال الاجتماع كله.
+dwingen:
+  meaning: يجبر
+  example: المدير يجبره على البقاء.
+leiden:
+  meaning: يقود
+  example: هي تقود المشروع منذ سنتين.
+onderhandelen:
+  meaning: يتفاوض
+  example: نتفاوض على سعر السيارة.
+profiteren:
+  meaning: يستفيد من
+  example: نستفيد من الخصم هذا الأسبوع.
+schelen:
+  meaning: يحدث فرقاً، يوفر
+  example: هذا يوفر الكثير من المال في الفاتورة.
+smaken:
+  meaning: يكون طعمه
+  example: طعم الحساء كالثوم.
+tekenen:
+  meaning: يوقّع
+  example: عليك التوقيع هنا للاستلام.
+toestaan:
+  meaning: يسمح
+  example: المدير يسمح بفترات راحة قصيرة.
+terugbellen:
+  meaning: يعاود الاتصال
+  example: هل يمكنك أن تعاود الاتصال بي بعد الظهر؟
+uitkijken:
+  meaning: ينتبه، يحترس
+  example: انتبه للسيارة عند الزاوية.
+ophouden:
+  meaning: يتوقف
+  example: يتوقف المطر.
+opbellen:
+  meaning: يتصل بـ
+  example: سأتصل بك بعد قليل.
+uitlenen:
+  meaning: يعير
+  example: لا أريد أن أعير كتابي.
+trouwen:
+  meaning: يتزوج
+  example: سيتزوجان الشهر القادم في القرية.
+vluchten:
+  meaning: يهرب
+  example: يهربون من سوء الأحوال الجوية.
+werpen:
+  meaning: يرمي
+  example: هو يرمي الكرة إليّ.
+de apotheker:
+  meaning: الصيدلي
+  example: الصيدلي يشرح الدواء جيداً.
+de doktersassistent:
+  meaning: مساعد الطبيب
+  example: مساعد الطبيب يحدد لك موعداً.
+de verzorger:
+  meaning: مقدم الرعاية
+  example: مقدم الرعاية يساعد أبي كل صباح.
+de opname:
+  meaning: دخول المستشفى
+  example: استمرت الإقامة في المستشفى أسبوعاً.
+de dosis:
+  meaning: الجرعة
+  example: لا تأخذ أكثر من جرعة واحدة يومياً.
+het sollicitatiegesprek:
+  meaning: مقابلة العمل
+  example: مقابلة العمل ستكون الأسبوع القادم.
+de uitzendkracht:
+  meaning: عامل مؤقت
+  example: العامل المؤقت يعمل بشكل مؤقت في القسم.
+de arbeidsvoorwaarde:
+  meaning: شرط التوظيف
+  example: شرط التوظيف مذكور في العقد.
+de manager:
+  meaning: المدير
+  example: المدير يناقش الخطة مع الفريق.
+de klasgenoot:
+  meaning: زميل الصف
+  example: زميلي في الصف يساعدني في الواجب.
+de medestudent:
+  meaning: زميل الدراسة
+  example: زميلي في الدراسة يعيرني ملاحظاته.
+de teamgenoot:
+  meaning: زميل الفريق
+  example: زميلي في الفريق يتولى القيادة اليوم.
+de huisbaas:
+  meaning: صاحب البيت، المالك
+  example: صاحب البيت يصلح الصنبور المعطل اليوم.
+de woonruimte:
+  meaning: مساحة المعيشة، مكان السكن
+  example: مساحة المعيشة صغيرة لكنها مريحة جداً.
+de etage:
+  meaning: الطابق
+  example: نسكن في الطابق الثالث.
+de buurtbewoner:
+  meaning: ساكن الحي
+  example: ساكن الحي يشتكي من الضجيج.
+de huisgenoot:
+  meaning: رفيق السكن
+  example: رفيقي في السكن لا يغسل الأطباق أبداً.
+de voetganger:
+  meaning: الماشي، أحد المشاة
+  example: الماشي يعبر بحذر.
+de fietser:
+  meaning: راكب الدراجة
+  example: راكب الدراجة له الأولوية على ممر الدراجات.
+de automobilist:
+  meaning: سائق السيارة
+  example: سائق السيارة ينتظر الضوء الأحمر.
+alhoewel:
+  meaning: على الرغم من أن
+  example: على الرغم من أن الجو ممطر، سنتمشى على أي حال.
+indien:
+  meaning: إذا
+  example: إذا كانت لديك أسئلة، لا تتردد في الاتصال.
+hiermee:
+  meaning: بهذا
+  example: بهذا يمكنك إرسال النموذج.
+daarop:
+  meaning: بعد ذلك
+  example: بعد ذلك لم يجب.
+hierover:
+  meaning: عن هذا
+  example: أريد أن نتحدث عن هذا قليلاً.
+waarheen:
+  meaning: إلى أين
+  example: إلى أين يذهب هذا القطار؟
+overmorgen:
+  meaning: بعد غد
+  example: بعد غد لدي موعد.
+eergisteren:
+  meaning: أول أمس
+  example: أول أمس كان لا يزال مريضاً.
+vast:
+  meaning: على الأرجح
+  example: على الأرجح سيصل متأخراً.
+amper:
+  meaning: بالكاد
+  example: بالكاد لدي وقت اليوم.
+behoorlijk:
+  meaning: إلى حد ما
+  example: كان الجو بارداً إلى حد ما أمس.
+tamelijk:
+  meaning: إلى حد ما
+  example: كان القطار مزدحماً إلى حد ما.
+enorm:
+  meaning: هائل
+  example: اليوم مزدحم للغاية.
+oorspronkelijk:
+  meaning: في الأصل
+  example: في الأصل أنا من الشمال.
+de glimlach:
+  meaning: ابتسامة
+  example: لديها دائماً ابتسامة على وجهها.
+de begroeting:
+  meaning: تحية
+  example: يلقي علينا تحية ودودة.
+de heimwee:
+  meaning: حنين إلى الوطن
+  example: تشتاق إلى عائلتها.
+de hekel:
+  meaning: كراهية
+  example: أكره الكذب.
+de waardering:
+  meaning: تقدير
+  example: تحظى بتقدير كبير لعملها.
+de ergernis:
+  meaning: إزعاج
+  example: سلوكه مصدر إزعاج كبير.
+de wachtrij:
+  meaning: طابور
+  example: طابور الصندوق طويل.
+de openingstijd:
+  meaning: وقت الافتتاح
+  example: وقت الافتتاح حتى السادسة.
+de sluitingstijd:
+  meaning: وقت الإغلاق
+  example: وقت الإغلاق يوم الأحد مبكر.
+het aanrecht:
+  meaning: سطح المطبخ
+  example: ضع الأطباق على سطح المطبخ.
+de gootsteen:
+  meaning: حوض المطبخ
+  example: حوض المطبخ مسدود تماماً.
+het schoonmaakmiddel:
+  meaning: منظف
+  example: المنظف تحت حوض المطبخ.
+de wasdroger:
+  meaning: مجفف ملابس
+  example: مجفف الملابس معطل.
+de strijkbout:
+  meaning: مكواة
+  example: المكواة على الخزانة.
+het washok:
+  meaning: غرفة الغسيل
+  example: الغسالة في غرفة الغسيل.
+het trappenhuis:
+  meaning: بئر الدرج
+  example: بئر الدرج تفوح منه رائحة الطلاء.
+de galerij:
+  meaning: ممر خارجي
+  example: الباب الأمامي يفتح على ممر خارجي.
+de vloerbedekking:
+  meaning: سجاد
+  example: السجاد قديم جداً.
+het laminaat:
+  meaning: أرضية لامينات
+  example: نضع أرضية لامينات جديدة في الغرفة.
+de kwast:
+  meaning: فرشاة
+  example: أطلي الجدار بفرشاة.
+het verlengsnoer:
+  meaning: سلك تمديد
+  example: سلك التمديد بجانب الأريكة.
+de pakketdienst:
+  meaning: خدمة توصيل
+  example: خدمة توصيل الطرود ستمر بعد الظهر.
+de koerier:
+  meaning: ساعي
+  example: الساعي سيحضر الطرد غداً.
+het garantiebewijs:
+  meaning: شهادة ضمان
+  example: احتفظ بشهادة الضمان جيداً.
+de aanbetaling:
+  meaning: دفعة مقدمة
+  example: ندفع دفعة مقدمة للسيارة.
+het retourtje:
+  meaning: تذكرة ذهاب وعودة
+  example: أشتري تذكرة ذهاب وعودة إلى الساحل.
+het enkeltje:
+  meaning: تذكرة ذهاب فقط
+  example: آخذ تذكرة ذهاب فقط إلى المدينة.
+de overtocht:
+  meaning: عبور
+  example: العبور بالمركب يستغرق ساعة.
+de hoestdrank:
+  meaning: شراب السعال
+  example: تشتري شراب السعال من الصيدلية.
+de bloedtest:
+  meaning: تحليل دم
+  example: الطبيب سيجري تحليل دم غداً.
+het consult:
+  meaning: استشارة
+  example: استغرقت الاستشارة عشر دقائق فقط.
+de kruk:
+  meaning: عكاز
+  example: يمشي مؤقتاً بعكاز.
+de neusspray:
+  meaning: بخاخ أنف
+  example: استخدم بخاخ الأنف مرتين يومياً.
+de opzegging:
+  meaning: إلغاء
+  example: يجب أن يكون الإلغاء كتابياً.
+de sollicitatieprocedure:
+  meaning: إجراءات التقديم
+  example: تستغرق إجراءات التقديم حوالي ثلاثة أسابيع.
+thuiswerken:
+  meaning: العمل من المنزل
+  example: العمل من المنزل مفيد أحياناً.
+de scanner:
+  meaning: ماسح ضوئي
+  example: الماسح الضوئي لا يعمل جيداً اليوم.
+het kopieerapparaat:
+  meaning: آلة تصوير
+  example: آلة التصوير معطلة.
+de nietmachine:
+  meaning: دباسة
+  example: الدباسة في الدرج العلوي.
+de ordner:
+  meaning: ملف
+  example: ضع العقد في الملف.
+de balpen:
+  meaning: قلم جاف
+  example: هل يمكنني استعارة قلمك الجاف قليلاً؟
+het plakband:
+  meaning: شريط لاصق
+  example: خذ الشريط اللاصق من الدرج.
+de lijm:
+  meaning: غراء
+  example: الغراء جف تماماً.
+het werkoverleg:
+  meaning: اجتماع عمل
+  example: اجتماع العمل كل يوم اثنين.
+de teamleider:
+  meaning: قائد الفريق
+  example: قائد الفريق يناقش الخطة.
+de vergaderruimte:
+  meaning: غرفة الاجتماعات
+  example: غرفة الاجتماعات مشغولة اليوم.
+toen:
+  meaning: عندما، حينها
+  example: عندما وصلت إلى البيت، كان قد رحل بالفعل.
+verschillend:
+  meaning: مختلف
+  example: لدينا آراء مختلفة حول الخطة.
+de vergissing:
+  meaning: خطأ
+  example: كان ذلك خطأ مني.
+de bedoeling:
+  meaning: القصد، النية
+  example: ما هو المقصود من هذا الموعد؟
+de soort:
+  meaning: نوع
+  example: أي نوع من العمل تبحث عنه؟
+het bezoek:
+  meaning: زيارة، زوار
+  example: سيأتينا زوار من الأصدقاء هذا المساء.
+de belofte:
+  meaning: وعد
+  example: إنه يفي بوعده دائمًا.
+de steun:
+  meaning: دعم
+  example: أجد دعمًا كبيرًا في عائلتي.
+de werkvloer:
+  meaning: مكان العمل
+  example: مكان العمل مزدحم جدًا اليوم.
+de motivatie:
+  meaning: دافع، حافز
+  example: حافزي للعمل منخفض.
+het voorstel:
+  meaning: اقتراح
+  example: لدي اقتراح للفريق.
+de kritiek:
+  meaning: انتقاد
+  example: أتلقى انتقادات كثيرة على عملي.
+de caissière:
+  meaning: أمينة صندوق
+  example: أمينة الصندوق تمسح جميع المشتريات.
+het biljet:
+  meaning: ورقة نقدية
+  example: أدفع بورقة نقدية من فئة عشرة.
+de airco:
+  meaning: تكييف
+  example: المكيف يصدر ضجيجًا كثيرًا.
+het stof:
+  meaning: غبار
+  example: يوجد غبار كثير على الخزانة.
+de spons:
+  meaning: إسفنجة
+  example: أغسل السيارة بإسفنجة.
+de spijker:
+  meaning: مسمار
+  example: علّق الصورة بمسمار.
+de schroef:
+  meaning: برغي
+  example: أحكم ربط البرغي جيدًا.
+de zaag:
+  meaning: منشار
+  example: المنشار ليس حادًا بما يكفي.
+de ladder:
+  meaning: سلّم
+  example: ضع السلم مقابل الحائط.
+het gras:
+  meaning: عشب
+  example: يجب قص العشب.
+de heg:
+  meaning: سياج نباتي
+  example: أصبح السياج النباتي طويلًا جدًا.
+de neef:
+  meaning: ابن الأخ/الأخت، ابن العم
+  example: يسكن ابن عمي قريبًا مني.
+de nicht:
+  meaning: ابنة الأخ/الأخت، ابنة العم
+  example: ستأتي ابنة عمي لتنام عندنا هذا الأسبوع.
+de vreemde:
+  meaning: غريب
+  example: لا تتحدث مع غريب.
+de tiener:
+  meaning: مراهق
+  example: مراهقي لا يريد المجيء معنا.
+de oudere:
+  meaning: شخص مسن
+  example: المسن يحتاج إلى مساعدة.
+de deksel:
+  meaning: غطاء
+  example: ضع الغطاء على القدر.
+het blikje:
+  meaning: علبة معدنية
+  example: أشرب علبة كولا.
+het pak:
+  meaning: عبوة
+  example: أشتري عبوة حليب.
+het zakje:
+  meaning: كيس صغير
+  example: ضع التفاح في كيس صغير.
+de perforator:
+  meaning: خرامة ورق
+  example: الخرامة تصنع ثقوبًا في الورق.
+de piloot:
+  meaning: طيار
+  example: الطيار يرحب بالركاب.
+de stewardess:
+  meaning: مضيفة طيران
+  example: المضيفة الجوية تجلب لنا الشراب.
+de ansichtkaart:
+  meaning: بطاقة بريدية
+  example: أرسل بطاقة بريدية إلى المنزل.
+de reisgenoot:
+  meaning: رفيق سفر
+  example: رفيق سفري لطيف جدًا.
+het vakantiehuis:
+  meaning: منزل عطلات
+  example: نستأجر منزل عطلات على البحر.
+de mist:
+  meaning: ضباب
+  example: يوجد ضباب فوق الطريق.
+de zonsondergang:
+  meaning: غروب الشمس
+  example: غروب الشمس رائع.
+de frustratie:
+  meaning: إحباط
+  example: أشعر بالإحباط بسبب العمل.
+de schok:
+  meaning: صدمة
+  example: كان الخبر صدمة.
+de woede:
+  meaning: غضب
+  example: يتفاعل بغضب.
+het pakje:
+  meaning: طرد، رزمة صغيرة
+  example: يوجد طرد جاهز لك.
+de verjaardagskaart:
+  meaning: بطاقة عيد ميلاد
+  example: أرسل بطاقة عيد ميلاد إلى جدتي.
+de wenskaart:
+  meaning: بطاقة معايدة
+  example: أشتري بطاقة معايدة لها.
+de zorgverlener:
+  meaning: مقدم رعاية
+  example: مقدم الرعاية يأتي إلى منزل المريض.
+de verpleging:
+  meaning: تمريض
+  example: التمريض يساعد المريض كل يوم.
+de rib:
+  meaning: ضلع
+  example: لدي ألم في ضلعي.
+de duim:
+  meaning: إبهام
+  example: جرحت إبهامي.
+de adem:
+  meaning: نَفَس
+  example: أنقطعت أنفاسي بعد الجري.
+de spray:
+  meaning: بخاخ
+  example: استخدم البخاخ مرتين يوميًا.
+de druppel:
+  meaning: قطرة
+  example: خذ عشر قطرات بعد الطعام.
+de zakdoek:
+  meaning: منديل
+  example: أحتاج إلى منديل.
+de muts:
+  meaning: قبعة
+  example: الجو بارد، ضع قبعتك.
+de riem:
+  meaning: حزام
+  example: حزامي فضفاض جدًا.
+de knoop:
+  meaning: زر
+  example: ينقص زر في معطفي.
+de rits:
+  meaning: سحّاب
+  example: سحّاب حقيبتي معطوب.
+de zaklamp:
+  meaning: مصباح يدوي
+  example: خذ المصباح اليدوي، الجو مظلم.
+de kaars:
+  meaning: شمعة
+  example: أشعل شمعة هذا المساء.
+de uitdaging:
+  meaning: التحدي
+  example: هذه الوظيفة تمثل تحدياً حقيقياً لي.
+de regeling:
+  meaning: الترتيب، النظام
+  example: يسري النظام الجديد اعتباراً من الشهر المقبل.
+de eis:
+  meaning: المطلب، الشرط
+  example: مطلب المدير واضح.
+oplossen:
+  meaning: يحل
+  example: علينا حل هذه المشكلة بسرعة.
+aanpakken:
+  meaning: يتعامل مع، يعالج
+  example: علينا التعامل مع الأمر معاً.
+overtuigen:
+  meaning: يقنع
+  example: أحاول إقناعه.
+twijfelen:
+  meaning: يشك، يتردد
+  example: ما زلت أتردد بشأن اختياري.
+verbieden:
+  meaning: يحظر، يمنع
+  example: القانون يحظر التدخين في المطعم.
+erkennen:
+  meaning: يعترف، يتعرف
+  example: يعترف بأنه ارتكب خطأ.
+toegeven:
+  meaning: يعترف
+  example: اعترف إذن، كنت مخطئاً.
+samenwerken:
+  meaning: يتعاون
+  example: علينا أن نتعاون بشكل أفضل في المكتب.
+ondersteunen:
+  meaning: يدعم، يساند
+  example: زميلي يدعمني في المشروع.
+verzorgen:
+  meaning: يعتني بـ، يرعى
+  example: هي تعتني بوالدها المريض.
+onderzoeken:
+  meaning: يفحص، يبحث
+  example: يريد الطبيب أن يفحص دمي.
+de voorziening:
+  meaning: المرفق، التسهيل
+  example: هذا المرفق مجاني للطلاب.
+de vooruitgang:
+  meaning: التقدم
+  example: أنت تحرز تقدماً جيداً في الهولندية.
+de groei:
+  meaning: النمو
+  example: نمو الشركة واضح.
+de gebeurtenis:
+  meaning: الحدث
+  example: كانت الحفلة حدثاً مميزاً.
+de opvatting:
+  meaning: الرأي، وجهة النظر
+  example: رأيه حول العمل مختلف.
+de overtuiging:
+  meaning: القناعة، الاقتناع
+  example: تتحدث بقناعة كبيرة.
+de tevredenheid:
+  meaning: الرضا
+  example: أبدى العميل رضاه.
+de gemeenschap:
+  meaning: المجتمع
+  example: المجتمع يساعد بعضه في هذا الحي.
+de aanpak:
+  meaning: النهج، الأسلوب
+  example: نهج حل المشكلة ناجح.
+uitdagen:
+  meaning: يتحدى
+  example: هذا السؤال يتحداني.
+eisen:
+  meaning: يطالب
+  example: العملاء يطالبون بخدمة أفضل.
+ontkennen:
+  meaning: ينكر
+  example: تنكر كل ما يقوله.
+beweren:
+  meaning: يزعم
+  example: يزعم أنه كان مريضاً.
+wegen:
+  meaning: يزن
+  example: هل يمكنك وزن هذا الطرد؟
+draaien:
+  meaning: يدير، يلف
+  example: أدر المقبض إلى اليسار.
+verdelen:
+  meaning: يقسم، يوزع
+  example: نقسم العمل بيننا.
+kwijtraken:
+  meaning: يفقد
+  example: لقد فقدت مفاتيحي.
+stelen:
+  meaning: يسرق
+  example: سرق شخص ما دراجتي.
+gewond:
+  meaning: مصاب، جريح
+  example: أصيب في الحادث.
+gestrest:
+  meaning: متوتر
+  example: أشعر بالتوتر قبل الامتحان.
+energiek:
+  meaning: نشيط، مفعم بالطاقة
+  example: بعد ليلة نوم جيدة أكون نشيطاً.
+fit:
+  meaning: لائق، مناسب
+  example: أبقى لائقاً عبر ممارسة الرياضة.
+schadelijk:
+  meaning: ضار
+  example: الكثير من السكر ضار.
+ongeschikt:
+  meaning: غير مناسب
+  example: هذا الكرسي غير مناسب للأطفال.
+onmogelijk:
+  meaning: مستحيل
+  example: من المستحيل المجيء الآن.
+onduidelijk:
+  meaning: غير واضح
+  example: كان الشرح غير واضح إلى حد ما.
+onzeker:
+  meaning: غير واثق، غير مؤكد
+  example: هو غير واثق بشأن طلب وظيفته.
+modern:
+  meaning: حديث
+  example: يبدو المبنى حديثاً.
+traditioneel:
+  meaning: تقليدي
+  example: هذا طبق تقليدي.
+cultureel:
+  meaning: ثقافي
+  example: نزور حدثاً ثقافياً.
+vreemd:
+  meaning: غريب
+  example: طعم الطعام غريب قليلاً.
+speciaal:
+  meaning: خاص، مميز
+  example: أطبخ شيئاً مميزاً لك.
+verrast:
+  meaning: متفاجئ
+  example: فوجئت بالهدية.
+geschokt:
+  meaning: مصدوم
+  example: صُدمنا بالخبر.
+geïnteresseerd:
+  meaning: مهتم
+  example: هل أنت مهتم بهذه الدورة؟
+betrokken:
+  meaning: منخرط، معني
+  example: هي منخرطة جداً في الحي.
+professioneel:
+  meaning: مهني، احترافي
+  example: يتصرف باحترافية شديدة.
+werkelijk:
+  meaning: حقاً، فعلي
+  example: هل حدث ذلك حقاً؟
+absoluut:
+  meaning: بالتأكيد، على الإطلاق
+  example: أنا لست خبيراً على الإطلاق.
+beslist:
+  meaning: بالتأكيد، حتماً
+  example: سأذهب بالتأكيد إلى الاجتماع.
+het risico:
+  meaning: الخطر
+  example: هناك خطر التأخير.
+het besluit:
+  meaning: القرار
+  example: سيُتخذ القرار الأسبوع المقبل.
+de aanpassing:
+  meaning: التعديل، التكيف
+  example: التكيف مع القانون يستغرق وقتاً.
+de breuk:
+  meaning: كسر
+  example: لديه كسر في ذراعه.
+de omstandigheid:
+  meaning: الظرف، الظروف
+  example: هذا الظرف يجعل الأمر صعباً.
+het bestuur:
+  meaning: الإدارة، المجلس
+  example: يجتمع المجلس كل شهر.
+roken:
+  meaning: يدخّن
+  example: لا يُسمح بالتدخين هنا.
+studeren:
+  meaning: يدرس
+  example: أدرس الهولندية في المساء.
+ontdekken:
+  meaning: يكتشف
+  example: نكتشف مقهى جديدًا.
+spannend:
+  meaning: مثير
+  example: كان الفيلم مثيرًا جدًا.
+vriendelijk:
+  meaning: ودود
+  example: الجارة دائمًا ودودة.
+simpel:
+  meaning: بسيط
+  example: الشرح بسيط جدًا لحسن الحظ.
+sociaal:
+  meaning: اجتماعي
+  example: هو اجتماعي جدًا في الحفلات.
+kritisch:
+  meaning: انتقادي
+  example: مديري أحيانًا شديد الانتقاد.
+logisch:
+  meaning: منطقي
+  example: من المنطقي أنك متعب.
+kalm:
+  meaning: هادئ
+  example: ابقَ هادئًا وتنفّس بهدوء.
+knap:
+  meaning: جذاب، ذكي
+  example: هي جميلة ولطيفة أيضًا.
+lui:
+  meaning: كسول
+  example: هو ليس كسولًا، بل متعب.
+verlegen:
+  meaning: خجول
+  example: الطفل خجول قليلًا.
+verstandig:
+  meaning: عاقل
+  example: من الحكمة أن توفّر المال.
+verward:
+  meaning: مرتبك
+  example: بعد السقوط كان مرتبكًا قليلًا.
+verschrikkelijk:
+  meaning: فظيع
+  example: كان الطقس فظيعًا اليوم.
+relaxed:
+  meaning: مسترخٍ
+  example: بعد العطلة أشعر بالاسترخاء.
+opgewonden:
+  meaning: متحمس
+  example: الأطفال متحمسون للحفلة.
+onverwacht:
+  meaning: غير متوقع
+  example: جاء ضيوف غير متوقعين.
+praktisch:
+  meaning: عملي
+  example: الدورة عملية جدًا.
+romantisch:
+  meaning: رومانسي
+  example: كان لدينا عشاء رومانسي.
+succesvol:
+  meaning: ناجح
+  example: كان المشروع ناجحًا جدًا.
+sympathiek:
+  meaning: لطيف
+  example: زميلي الجديد لطيف.
+uitstekend:
+  meaning: ممتاز
+  example: أشعر أنني بحالة ممتازة اليوم.
+uniek:
+  meaning: فريد
+  example: كل حي فريد من نوعه بعض الشيء.
+typisch:
+  meaning: نموذجي
+  example: هذا طقس هولندي نموذجي.
+frustrerend:
+  meaning: محبط
+  example: الانتظار في البلدية محبط.
+irritant:
+  meaning: مزعج
+  example: ذلك الصوت مزعج حقًا.
+creatief:
+  meaning: مبدع
+  example: هي مبدعة جدًا بالورق.
+duurzaam:
+  meaning: مستدام
+  example: نشتري منتجات مستدامة.
+gelijk:
+  meaning: صحيح، متساوٍ
+  example: أنت محق بشأن ذلك السعر.
+tegelijk:
+  meaning: في آن واحد
+  example: لا يمكننا فعل كل شيء في آن واحد.
+intussen:
+  meaning: في هذه الأثناء
+  example: أطبخ المعكرونة في هذه الأثناء.
+vooraf:
+  meaning: مسبقًا
+  example: هل تدفع مسبقًا أم لاحقًا؟
+zometeen:
+  meaning: بعد قليل
+  example: سأعاود الاتصال بك بعد قليل.
+sindsdien:
+  meaning: منذ ذلك الحين
+  example: منذ ذلك الحين نسكن في أوترخت.
+ontbijten:
+  meaning: يتناول الفطور
+  example: نتناول الفطور معًا كل صباح.
+opeten:
+  meaning: ينهي الأكل
+  example: علينا أكل بقايا الطعام.
+opgeven:
+  meaning: يسجل، يستسلم
+  example: عليك التسجيل بسرعة في الدورة.
+redden:
+  meaning: يتدبر أمره
+  example: لا أستطيع تدبّر الأمر وحدي.
+schreeuwen:
+  meaning: يصرخ
+  example: الأطفال يصرخون في الحديقة.
+slagen:
+  meaning: ينجح
+  example: آمل أن تنجح في الامتحان.
+sterven:
+  meaning: يموت
+  example: جدتي ماتت العام الماضي.
+uitkomen:
+  meaning: يناسب
+  example: ذلك يناسبني غدًا.
+uitmaken:
+  meaning: يهم
+  example: ذلك لا يهمني حقًا.
+uitstellen:
+  meaning: يؤجل
+  example: يجب ألا نؤجل الاجتماع.
+uitzoeken:
+  meaning: يكتشف، يتحرى
+  example: سأتحرى الأمر غدًا.
+versturen:
+  meaning: يرسل
+  example: سأرسل الرسالة اليوم.
+vertalen:
+  meaning: يترجم
+  example: هل يمكنك ترجمة هذه الجملة لي؟
+wisselen:
+  meaning: يستبدل، يغيّر
+  example: أين يمكنني صرف النقود؟
+zweten:
+  meaning: يتعرق
+  example: أتعرق كثيرًا عندما يكون الجو حارًا.
+de kiespijn:
+  meaning: ألم الأسنان
+  example: لديّ ألم أسنان منذ يومين.
+de diarree:
+  meaning: إسهال
+  example: هو يعاني من الإسهال.
+de spierpijn:
+  meaning: ألم عضلي
+  example: أشعر بألم عضلي بعد التمرين.
+de kramp:
+  meaning: تشنج
+  example: أصابني تشنج في ساقي.
+de thermometer:
+  meaning: ميزان الحرارة
+  example: ميزان الحرارة يشير إلى 38 درجة.
+de brandwond:
+  meaning: حرق
+  example: لديها حرق في يدها.
+de reiskosten:
+  meaning: تكاليف السفر
+  example: يتم تعويض تكاليف السفر.
+de levertijd:
+  meaning: مدة التسليم
+  example: مدة التسليم حوالي أسبوع.
+de pannenkoek:
+  meaning: فطيرة
+  example: أخبز فطيرة.
+volgen:
+  meaning: يتبع، يحضر دورة
+  example: أتابع حالياً دورة.
+opzeggen:
+  meaning: يلغي، ينهي
+  example: أريد إلغاء اشتراكي الشهر القادم.
+vervangen:
+  meaning: يستبدل
+  example: يجب استبدال المصباح المعطوب بسرعة.
+overmaken:
+  meaning: يحوّل مالاً
+  example: هل يمكنك تحويل المبلغ اليوم؟
+het wachtwoord:
+  meaning: كلمة المرور
+  example: نسيت كلمة المرور الخاصة بالموقع.
+de handleiding:
+  meaning: دليل الاستخدام
+  example: اقرأ الدليل أولاً قبل أن تفعل شيئاً.
+het examen:
+  meaning: الامتحان
+  example: يبدأ الامتحان غداً الساعة التاسعة.
+de studie:
+  meaning: الدراسة، التخصص
+  example: تتابع دراسة في الجامعة.
+de bibliotheek:
+  meaning: المكتبة
+  example: أستعير كتباً من المكتبة كل أسبوع.
+de docent:
+  meaning: المدرّس، المحاضر
+  example: يشرح المدرّس التمرين بهدوء.
+het verlof:
+  meaning: الإجازة
+  example: سآخذ يومين إجازة الأسبوع القادم.
+declareren:
+  meaning: يقدّم مطالبة بالمصروفات
+  example: يمكنك تقديم مطالبة بمصاريف سفرك إلى مديرك.
+vergoeden:
+  meaning: يعوّض، يغطي
+  example: يعوّض صاحب العمل تكاليف السفر كاملة.
+de declaratie:
+  meaning: مطالبة مصروفات
+  example: املأ مطالبة المصروفات الخاصة بسفرك.
+de onkosten:
+  meaning: المصروفات، النفقات
+  example: تُعوّض المصروفات خلال أسبوع.
+de begroting:
+  meaning: الميزانية
+  example: لم تكتمل الميزانية بعد.
+de opdrachtgever:
+  meaning: العميل، صاحب الطلب
+  example: يريد العميل رؤية العمل غداً.
+de aanstelling:
+  meaning: التعيين، العقد
+  example: حصلت على تعيين دائم في الشركة.
+het dienstverband:
+  meaning: عقد العمل
+  example: عقد عملي يستمر حتى ديسمبر.
+de nachtdienst:
+  meaning: الوردية الليلية
+  example: تحب العمل في الوردية الليلية.
+de ziekmelding:
+  meaning: الإبلاغ عن المرض
+  example: بعد الإبلاغ عن مرضه بقي في المنزل.
+de vakantiedagen:
+  meaning: أيام الإجازة
+  example: كم يوماً من الإجازة يتبقى لديك؟
+flexibel:
+  meaning: مرن
+  example: ساعات عملي مرنة جداً لحسن الحظ.
+voltijds:
+  meaning: بدوام كامل
+  example: يعمل بدوام كامل في بنك كبير.
+momenteel:
+  meaning: حالياً
+  example: أعمل حالياً يومين من المنزل.
+grotendeels:
+  meaning: في الغالب، إلى حد كبير
+  example: العمل منجز في الغالب.
+de aanmelding:
+  meaning: التسجيل
+  example: فُتح التسجيل في الدورة اليوم.
+de wijziging:
+  meaning: التغيير، التعديل
+  example: بسبب تغيير سآتي لاحقاً.
+afmelden:
+  meaning: يبلغ بالغياب
+  example: للأسف يجب أن أبلغ عن غيابي عن الدرس.
+uitschrijven:
+  meaning: يلغي التسجيل
+  example: يجب أن تلغي تسجيلك لدى البلدية في الوقت المناسب.
+verlengen:
+  meaning: يمدّد، يجدّد
+  example: أريد تجديد اشتراكي.
+verzetten:
+  meaning: يعيد جدولة، يؤجل
+  example: هل يمكننا تأجيل الموعد إلى الغد؟
+doorgeven:
+  meaning: ينقل، يبلّغ
+  example: هل يمكنك إبلاغها بتلك الرسالة؟
+doorsturen:
+  meaning: يحوّل، يعيد إرسال
+  example: هل يمكنك تحويل ذلك البريد الإلكتروني إليّ؟
+terugsturen:
+  meaning: يعيد الإرسال
+  example: يجب أن أعيد إرسال الطرد اليوم.
+uitprinten:
+  meaning: يطبع
+  example: يجب أن أطبع النموذج بعد قليل.
+downloaden:
+  meaning: يحمّل
+  example: يمكنك تحميل التطبيق مجاناً.
+inloggen:
+  meaning: يسجّل الدخول
+  example: يجب أولاً تسجيل الدخول بكلمة المرور.
+uitloggen:
+  meaning: يسجّل الخروج
+  example: لا تنسَ تسجيل الخروج.
+vernieuwen:
+  meaning: يجدّد
+  example: سأجدد جواز سفري العام القادم.
+onderhouden:
+  meaning: يصون، يحافظ على
+  example: يجب على المالك صيانة المنزل جيداً.
+storten:
+  meaning: يودع
+  example: ما زال عليّ إيداع مال في حسابي.
+terugbetalen:
+  meaning: يسدّد، يعيد المال
+  example: ما زال عليّ أن أسدّد له مالاً.
+voorschieten:
+  meaning: يدفع مقدماً
+  example: لقد دفعت تكاليف العمل مقدماً.
+hoesten:
+  meaning: يسعل
+  example: إنه يسعل بقوة منذ ثلاثة أيام.
+niezen:
+  meaning: يعطس
+  example: أعطس باستمرار بسبب حبوب اللقاح.
+overgeven:
+  meaning: يتقيأ
+  example: اضطرت فجأة أن تتقيأ هذا الصباح.
+blesseren:
+  meaning: يصاب، يجرح
+  example: أصيب أثناء لعب كرة القدم.
+verbranden:
+  meaning: يحرق، يحترق
+  example: أحرقت يدي بالفرن.
+ademen:
+  meaning: يتنفس
+  example: حاول أن تتنفس بهدوء من أنفك.
+slikken:
+  meaning: يبلع
+  example: من الصعب بلع هذه الحبوب.
+rusten:
+  meaning: يرتاح
+  example: يجب أن ترتاح جيداً بعد العملية.
+sporten:
+  meaning: يمارس الرياضة
+  example: أحاول ممارسة الرياضة ثلاث مرات في الأسبوع.
+afvallen:
+  meaning: يفقد الوزن، ينحف
+  example: تريد أن تفقد بضعة كيلوغرامات.
+de diagnose:
+  meaning: التشخيص
+  example: وضع الطبيب التشخيص الصحيح بسرعة.
+het eigen risico:
+  meaning: المبلغ المقتطع، التحمل
+  example: أصبح المبلغ المقتطع هذا العام أعلى.
+de huisartspraktijk:
+  meaning: عيادة الطبيب العام
+  example: اتصل بعيادة الطبيب العام لتحديد موعد.
+het overgewicht:
+  meaning: الوزن الزائد
+  example: يمكن أن يسبب الوزن الزائد مشاكل صحية.
+de belangstelling:
+  meaning: الاهتمام، الإقبال
+  example: هناك إقبال كبير على الدورة.
+het conflict:
+  meaning: الخلاف، النزاع
+  example: حللنا الخلاف معاً.
+het weer:
+  meaning: الطقس
+  example: الطقس جميل اليوم.
+de app:
+  meaning: التطبيق
+  example: أستخدم تطبيقًا للطقس.
+de knop:
+  meaning: الزر
+  example: اضغط على الزر الأحمر.
+het liedje:
+  meaning: الأغنية
+  example: هذه الأغنية شائعة جدًا.
+de zender:
+  meaning: القناة
+  example: أي قناة تشاهد؟
+de sportschool:
+  meaning: صالة الرياضة
+  example: أذهب إلى صالة الرياضة.
+de scooter:
+  meaning: سكوتر
+  example: يذهب إلى عمله بالسكوتر.
+het bad:
+  meaning: حوض الاستحمام
+  example: آخذ حمامًا دافئًا.
+afdrogen:
+  meaning: يجفف
+  example: هل يمكنك تجفيف الأطباق؟
+de mens:
+  meaning: الإنسان
+  example: الإنسان كائن اجتماعي.
+het huwelijk:
+  meaning: الزواج
+  example: زواجهما سعيد جدًا.
+de scheiding:
+  meaning: الطلاق
+  example: بعد الطلاق انتقلت للسكن.
+de club:
+  meaning: النادي
+  example: هو عضو في نادي كرة قدم.
+de visite:
+  meaning: الزوار
+  example: لدينا زوار الليلة.
+de vreugde:
+  meaning: الفرح
+  example: كان الفرح كبيرًا بعد الفوز.
+ruziën:
+  meaning: يتشاجر
+  example: غالبًا ما يتشاجرون حول المال.
+zich ergeren:
+  meaning: ينزعج
+  example: أنزعج من الضجيج.
+zich schamen:
+  meaning: يخجل
+  example: يخجل من خطئه.
+zich vervelen:
+  meaning: يشعر بالملل
+  example: أشعر بالملل أثناء الدرس.
+verlangen:
+  meaning: يشتاق إلى
+  example: أشتاق إلى الصيف.
+de ster:
+  meaning: النجمة
+  example: ترى الكثير من النجوم الليلة.
+het concert:
+  meaning: الحفل الموسيقي
+  example: نذهب إلى حفل موسيقي.
+de voorstelling:
+  meaning: العرض
+  example: يبدأ العرض في الساعة الثامنة.
+de arts:
+  meaning: الطبيب
+  example: فحص الطبيب المريض.
+de bil:
+  meaning: الألية
+  example: أشعر بألم في أليتي.
+de binnenstad:
+  meaning: وسط المدينة
+  example: تجولنا في وسط المدينة.
+de bladzijde:
+  meaning: الصفحة
+  example: اقلب الصفحة.
+de boekhandel:
+  meaning: متجر كتب
+  example: أشتري الكتب من متجر الكتب.
+de bol:
+  meaning: بصلة المصباح
+  example: بصلة المصباح تالفة.
+de borrel:
+  meaning: مشروب كحولي
+  example: نشرب مشروبًا كحوليًا بعد العمل.
+de bouw:
+  meaning: البناء
+  example: يعمل في البناء.
+de brand:
+  meaning: الحريق
+  example: كان هناك حريق في المبنى.
+de brochure:
+  meaning: الكتيب
+  example: لدي كتيب عن الفندق.
+de buis:
+  meaning: الأنبوب
+  example: الأنبوب مسدود.
+de buitenkant:
+  meaning: الخارج
+  example: تم طلاء خارج المنزل.
+de camera:
+  meaning: الكاميرا
+  example: اشتريت كاميرا جديدة.
+het centrum:
+  meaning: المركز
+  example: نحن في مركز المدينة.
+de combinatie:
+  meaning: التركيبة
+  example: هذه تركيبة جيدة.
+de communicatie:
+  meaning: التواصل
+  example: سار التواصل مع العميل جيدًا.
+de deal:
+  meaning: الاتفاق
+  example: أبرمنا اتفاقًا.
+het rapport:
+  meaning: التقرير
+  example: يجب أن أسلّم التقرير غدًا.
+de aankoop:
+  meaning: الشراء
+  example: شراء سيارة جديدة مكلف.
+de verkoop:
+  meaning: البيع
+  example: بيع المنزل تم.
+het statiegeld:
+  meaning: وديعة الإرجاع
+  example: هذه الزجاجة عليها وديعة إرجاع.
+het schap:
+  meaning: الرف
+  example: الخبز موضوع على الرف.
+het lidmaatschap:
+  meaning: العضوية
+  example: عضويتي منتهية.
+schelden:
+  meaning: يسب
+  example: بدأ يسب.
+het certificaat:
+  meaning: الشهادة
+  example: لديه شهادة لدراسته.
+de categorie:
+  meaning: الفئة
+  example: في أي فئة يندرج هذا المنتج؟
+de kennisgeving:
+  meaning: الإشعار
+  example: تلقيت إشعارًا من البلدية.
+de aankondiging:
+  meaning: الإعلان
+  example: كان الإعلان في الصحيفة.
+flauwvallen:
+  meaning: يفقد الوعي
+  example: فقدت الوعي أثناء الدرس.
+de wegenwacht:
+  meaning: المساعدة على الطريق
+  example: جاءت المساعدة على الطريق لمساعدتنا.
+het binnenland:
+  meaning: الداخل
+  example: نسافر عبر الداخل.
+betreuren:
+  meaning: يأسف
+  example: أأسف على قراري.
+de ruil:
+  meaning: التبادل
+  example: كان التبادل اتفاقًا جيدًا.
+dweilen:
+  meaning: يمسح الأرض
+  example: يجب أن أمسح الأرضية.
+verbouwen:
+  meaning: يجدد
+  example: نريد تجديد المطبخ.
+behangen:
+  meaning: يلصق ورق الجدران
+  example: سنلصق ورق الجدران في غرفة المعيشة.
+de boor:
+  meaning: المثقاب
+  example: أحتاج مثقابًا للحائط.

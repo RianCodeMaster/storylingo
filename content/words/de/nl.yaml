@@ -1500,3 +1500,5220 @@ der Bahnsteig:
 die Verspätung:
   meaning: vertraging
   example: De trein heeft tien minuten vertraging.
+die Information:
+  meaning: informatie
+  example: Deze informatie is zeer belangrijk.
+die Idee:
+  meaning: idee
+  example: Dat is een goed idee.
+das Beispiel:
+  meaning: voorbeeld
+  example: Kun je een voorbeeld geven?
+die Karte:
+  meaning: kaart, plattegrond
+  example: Ik heb de kaart bij me.
+das Gespräch:
+  meaning: gesprek
+  example: Het gesprek was zeer nuttig.
+das Gefühl:
+  meaning: gevoel
+  example: Ik heb een goed gevoel.
+die Freizeit:
+  meaning: vrije tijd
+  example: In mijn vrije tijd lees ik boeken.
+das Hobby:
+  meaning: hobby
+  example: Mijn hobby is muziek luisteren.
+das Gesicht:
+  meaning: gezicht
+  example: Zijn gezicht is helemaal rood.
+die Haut:
+  meaning: huid
+  example: Mijn huid is erg droog.
+der Finger:
+  meaning: vinger
+  example: Mijn vinger doet erg pijn.
+die Erkältung:
+  meaning: verkoudheid
+  example: Ik heb een flinke verkoudheid.
+das Herz:
+  meaning: hart
+  example: Mijn hart klopt snel.
+die Hausaufgabe:
+  meaning: huiswerk
+  example: Ik maak mijn huiswerk 's avonds.
+die Bibliothek:
+  meaning: bibliotheek
+  example: De bibliotheek is vandaag gesloten.
+die Kamera:
+  meaning: camera
+  example: De camera is erg duur.
+die Anmeldung:
+  meaning: aanmelding, inschrijving
+  example: De inschrijving is op het kantoor.
+die Auskunft:
+  meaning: inlichtingen, informatie
+  example: Waar krijg ik inlichtingen?
+der Aufzug:
+  meaning: lift
+  example: De lift is helaas kapot.
+der Bleistift:
+  meaning: potlood
+  example: Ik heb een potlood nodig voor het examen.
+der Drucker:
+  meaning: printer
+  example: De printer werkt vandaag niet.
+das Heft:
+  meaning: schrift, notitieboek
+  example: Schrijf het antwoord in het schrift.
+der Kalender:
+  meaning: kalender, agenda
+  example: De afspraak staat in de agenda.
+der Eingang:
+  meaning: ingang
+  example: De ingang is rechts naast de garage.
+die Bäckerei:
+  meaning: bakkerij
+  example: De bakkerij opent om zeven uur.
+das Brötchen:
+  meaning: broodje
+  example: Ik koop twee broodjes bij de bakker.
+das Café:
+  meaning: café
+  example: We spreken af in het café.
+das Getränk:
+  meaning: drankje, drank
+  example: Wilt u een koud drankje?
+das Gericht:
+  meaning: gerecht, maaltijd
+  example: Dit gerecht smaakt erg goed.
+die Gurke:
+  meaning: komkommer
+  example: Ik snijd een komkommer voor de salade.
+das Huhn:
+  meaning: kip
+  example: We eten vandaag kip met rijst.
+die Jeans:
+  meaning: spijkerbroek
+  example: Deze spijkerbroek past me goed.
+die Kette:
+  meaning: ketting, keten
+  example: De ketting is van goud.
+der Friseur:
+  meaning: kapper
+  example: Ik ga morgen naar de kapper.
+das Badezimmer:
+  meaning: badkamer
+  example: De badkamer is klein maar schoon.
+die Dusche:
+  meaning: douche
+  example: De douche is in de badkamer.
+die Ecke:
+  meaning: hoek
+  example: De winkel is om de hoek.
+die Garage:
+  meaning: garage
+  example: De auto staat in de garage.
+das Gebäude:
+  meaning: gebouw
+  example: Het gebouw is erg oud.
+das Geschirr:
+  meaning: vaat, servies
+  example: De vaat is nog niet schoon.
+das Handtuch:
+  meaning: handdoek
+  example: De handdoek ligt in de badkamer.
+der Hof:
+  meaning: binnenplaats, erf
+  example: De kinderen spelen op de binnenplaats.
+das Holz:
+  meaning: hout
+  example: De tafel is van hout.
+der Keller:
+  meaning: kelder
+  example: De fietsen staan in de kelder.
+der Baum:
+  meaning: boom
+  example: De boom staat voor het huis.
+die Blume:
+  meaning: bloem
+  example: Deze bloem ruikt erg lekker.
+das Bild:
+  meaning: foto, schilderij
+  example: De foto hangt aan de muur.
+das Haar:
+  meaning: haar
+  example: Ze heeft lang zwart haar.
+das Ausland:
+  meaning: buitenland
+  example: Ze werkt een jaar in het buitenland.
+der Fahrplan:
+  meaning: dienstregeling, rooster
+  example: De dienstregeling hangt op het perron.
+der Führerschein:
+  meaning: rijbewijs
+  example: Ik heb mijn rijbewijs gehaald.
+das Gepäck:
+  meaning: bagage
+  example: Mijn bagage is nog op de luchthaven.
+das Gleis:
+  meaning: spoor, perron
+  example: De trein rijdt op spoor drie.
+der Hafen:
+  meaning: haven
+  example: Het schip is in de haven.
+die Ehefrau:
+  meaning: echtgenote
+  example: Zijn echtgenote werkt in het ziekenhuis.
+der Ehemann:
+  meaning: echtgenoot
+  example: Haar echtgenoot kookt erg goed.
+die Einladung:
+  meaning: uitnodiging
+  example: Bedankt voor de uitnodiging voor het eten.
+die Entschuldigung:
+  meaning: excuus, verontschuldiging
+  example: Pardon, waar is het station?
+der Gast:
+  meaning: gast
+  example: De gast wil de menukaart zien.
+der Gruß:
+  meaning: groet
+  example: Veel groeten aan je familie.
+die Gesundheit:
+  meaning: gezondheid
+  example: Gezondheid is belangrijker dan geld.
+die Bewerbung:
+  meaning: sollicitatie
+  example: Ik schrijf een sollicitatie voor de baan.
+die Stelle:
+  meaning: baan, functie
+  example: Ik zoek een nieuwe baan.
+der Vertrag:
+  meaning: contract
+  example: Het contract geldt voor twee jaar.
+die Ausbildung:
+  meaning: opleiding
+  example: De opleiding duurt drie jaar.
+das Konto:
+  meaning: rekening, bankrekening
+  example: Ik open een rekening bij de bank.
+die Überweisung:
+  meaning: overschrijving, overboeking
+  example: De overschrijving duurt twee dagen.
+der Antrag:
+  meaning: aanvraag, verzoek
+  example: Ik dien een aanvraag in bij de instantie.
+die Unterschrift:
+  meaning: handtekening
+  example: Hier ontbreekt nog uw handtekening.
+die Quittung:
+  meaning: bon, kwitantie
+  example: Geef mij alstublieft de bon.
+der Rabatt:
+  meaning: korting
+  example: Er is korting op de jurk.
+die Kreditkarte:
+  meaning: creditcard
+  example: Kan ik met creditcard betalen?
+das Kleingeld:
+  meaning: kleingeld, muntgeld
+  example: Ik heb geen kleingeld bij me.
+der Einkaufswagen:
+  meaning: winkelwagen
+  example: De winkelwagen is al vol.
+die Tüte:
+  meaning: zak, tasje
+  example: Wilt u een tasje?
+die Packung:
+  meaning: pak
+  example: Ik neem een pak boter.
+die Dose:
+  meaning: blikje, blik
+  example: Het blikje cola staat in het schap.
+der Becher:
+  meaning: beker, bakje
+  example: Een bakje yoghurt, alstublieft.
+das Sonderangebot:
+  meaning: aanbieding, speciale aanbieding
+  example: Melk is vandaag in de aanbieding.
+die Öffnungszeit:
+  meaning: openingstijd, openingstijden
+  example: De openingstijd is op zaterdag kort.
+der Umtausch:
+  meaning: omruiling, ruil
+  example: Omruilen is tot maandag mogelijk.
+die Garantie:
+  meaning: garantie
+  example: Op de telefoon zit garantie.
+der Mietvertrag:
+  meaning: huurcontract
+  example: Het huurcontract is al ondertekend.
+die Nebenkosten:
+  meaning: bijkomende kosten, servicekosten
+  example: De bijkomende kosten zijn in de prijs inbegrepen.
+die Kaution:
+  meaning: borg, waarborg
+  example: De borg bedraagt twee maandhuren.
+der Vermieter:
+  meaning: verhuurder
+  example: De verhuurder komt morgen langs.
+der Mieter:
+  meaning: huurder
+  example: De huurder betaalt de huur op tijd.
+das Erdgeschoss:
+  meaning: begane grond
+  example: Wij wonen op de begane grond.
+der Stock:
+  meaning: verdieping
+  example: Het appartement ligt op de derde verdieping.
+der Flur:
+  meaning: gang, hal
+  example: De schoenen staan in de gang.
+die Steckdose:
+  meaning: stopcontact
+  example: Het stopcontact zit achter de bank.
+der Briefkasten:
+  meaning: brievenbus
+  example: De post zit in de brievenbus.
+der Wasserhahn:
+  meaning: kraan
+  example: De kraan druppelt de hele nacht.
+das Waschbecken:
+  meaning: wastafel, wasbak
+  example: De wastafel is al schoon.
+die Reparatur:
+  meaning: reparatie
+  example: De reparatie kost helaas veel geld.
+die Reise:
+  meaning: reis
+  example: De reis was heel mooi.
+der Anschluss:
+  meaning: aansluiting
+  example: Ik heb de aansluiting gemist.
+das Abteil:
+  meaning: coupé
+  example: Wij zitten in de laatste coupé.
+der Sitzplatz:
+  meaning: zitplaats
+  example: Ik heb een zitplaats gereserveerd.
+die Grenze:
+  meaning: grens
+  example: De grens is nog ver weg.
+der Zoll:
+  meaning: douane
+  example: Wij moeten door de douane.
+die Fähre:
+  meaning: veerboot
+  example: De veerboot vaart elk uur.
+das Schiff:
+  meaning: schip, boot
+  example: Het schip komt vanavond aan.
+die Straßenbahn:
+  meaning: tram
+  example: De tram stopt direct hier.
+das Motorrad:
+  meaning: motor, motorfiets
+  example: Hij rijdt graag motor.
+der Stau:
+  meaning: file
+  example: Wij staan in de file.
+die Tankstelle:
+  meaning: tankstation, benzinestation
+  example: Het tankstation is om de hoek.
+das Benzin:
+  meaning: benzine
+  example: De benzine is weer duurder.
+der Parkplatz:
+  meaning: parkeerplaats
+  example: Ik zoek een parkeerplaats.
+die Autobahn:
+  meaning: snelweg, autosnelweg
+  example: De snelweg is vandaag druk.
+die Ampel:
+  meaning: verkeerslicht
+  example: Het verkeerslicht is rood.
+die Werkstatt:
+  meaning: garage, werkplaats
+  example: De auto is in de garage.
+die Laune:
+  meaning: humeur, stemming
+  example: Vandaag heb ik een goed humeur.
+die Überraschung:
+  meaning: verrassing
+  example: Het feest was een mooie verrassing.
+das Vertrauen:
+  meaning: vertrouwen
+  example: Vertrouwen is belangrijk in een vriendschap.
+der Streit:
+  meaning: ruzie
+  example: We hadden gisteren een kleine ruzie.
+deshalb:
+  meaning: daarom
+  example: Het regent, daarom blijven we thuis.
+trotzdem:
+  meaning: toch, desondanks
+  example: Ik ben moe, toch ga ik hardlopen.
+obwohl:
+  meaning: hoewel, alhoewel
+  example: Hoewel het regent, gaan we wandelen.
+während:
+  meaning: terwijl, tijdens
+  example: Terwijl ik kook, luistert hij naar muziek.
+die Nachricht:
+  meaning: bericht, nieuws
+  example: Ik heb goed nieuws voor je.
+das Paket:
+  meaning: pakket
+  example: Het pakket is vandaag aangekomen.
+der Pass:
+  meaning: paspoort
+  example: Mijn paspoort ligt in de tas.
+der Ausflug:
+  meaning: uitstapje, excursie
+  example: Het uitstapje is erg leuk.
+die Ankunft:
+  meaning: aankomst
+  example: De aankomst is voor morgen gepland.
+der Aufenthalt:
+  meaning: verblijf
+  example: Het verblijf in het hotel was kort.
+erzählen:
+  meaning: vertellen
+  example: Hij vertelt een grappig verhaal.
+fehlen:
+  meaning: ontbreken, missen
+  example: Ik mis nog een stuk taart.
+hoffen:
+  meaning: hopen
+  example: Ik hoop op goed weer.
+üben:
+  meaning: oefenen
+  example: Wij oefenen vandaag Duits.
+wiederholen:
+  meaning: herhalen
+  example: Kunt u de vraag herhalen?
+überweisen:
+  meaning: overmaken
+  example: Ik maak het geld morgen over.
+sparen:
+  meaning: sparen
+  example: Wij sparen voor een reis.
+stören:
+  meaning: storen
+  example: Stoor mij alstublieft niet.
+höflich:
+  meaning: beleefd
+  example: De verkoper is zeer beleefd.
+plötzlich:
+  meaning: plotseling, ineens
+  example: Plotseling begint het te regenen.
+ruhig:
+  meaning: rustig
+  example: De kamer is heel rustig.
+die Prüfung:
+  meaning: examen
+  example: Het examen is volgende week.
+der Unterricht:
+  meaning: les, onderwijs
+  example: De les begint zo.
+der Student:
+  meaning: student
+  example: De student woont in een kamer.
+die Universität:
+  meaning: universiteit
+  example: De universiteit is vandaag gesloten.
+der Schüler:
+  meaning: leerling, scholier
+  example: De leerling maakt zijn huiswerk.
+der Zahnarzt:
+  meaning: tandarts
+  example: Ik heb morgen een afspraak bij de tandarts.
+der Unfall:
+  meaning: ongeluk
+  example: Bij het ongeluk is niemand gewond geraakt.
+der Verkehr:
+  meaning: verkeer
+  example: Het verkeer is vandaag zeer druk.
+das Verkehrsmittel:
+  meaning: vervoermiddel
+  example: Welk vervoermiddel neem je?
+der Körper:
+  meaning: lichaam
+  example: Het lichaam heeft rust en water nodig.
+der Magen:
+  meaning: maag
+  example: Mijn maag doet pijn.
+die Schulter:
+  meaning: schouder
+  example: Mijn schouder doet sinds gisteren pijn.
+die Untersuchung:
+  meaning: onderzoek
+  example: Het onderzoek bij de arts was kort.
+der Schlaf:
+  meaning: slaap
+  example: Goede slaap is heel belangrijk.
+der Schnupfen:
+  meaning: verkoudheid
+  example: Ik heb een erge verkoudheid.
+die Möbel:
+  meaning: meubels
+  example: De meubels zijn nieuw en modern.
+der Raum:
+  meaning: kamer, ruimte
+  example: De kamer is licht en groot.
+das Rathaus:
+  meaning: stadhuis
+  example: Het stadhuis is in het centrum.
+der Schalter:
+  meaning: loket
+  example: Het loket gaat zo dicht.
+das Dokument:
+  meaning: document
+  example: Neem alstublieft het document mee.
+der Kunde:
+  meaning: klant
+  example: De klant wil een brood kopen.
+der Laden:
+  meaning: winkel
+  example: De winkel gaat zo open.
+der Imbiss:
+  meaning: snackbar, kraam
+  example: Bij de snackbar eten we een worst.
+der Kiosk:
+  meaning: kiosk
+  example: Bij de kiosk koop ik een krant.
+die Ware:
+  meaning: waar, goederen
+  example: De goederen zijn goed verpakt.
+das Produkt:
+  meaning: product
+  example: Dit product is zeer populair.
+der Pullover:
+  meaning: trui
+  example: De trui is te klein.
+die Seife:
+  meaning: zeep
+  example: De zeep ligt in de badkamer.
+der Herbst:
+  meaning: herfst
+  example: In de herfst regent het vaak.
+die Zeitschrift:
+  meaning: tijdschrift
+  example: Dit tijdschrift is zeer interessant.
+das Thema:
+  meaning: onderwerp, thema
+  example: Het thema is vandaag zeer belangrijk.
+der Tipp:
+  meaning: tip
+  example: Heb je een tip voor mij?
+der Traum:
+  meaning: droom
+  example: Mijn droom is een eigen woning.
+der Verein:
+  meaning: vereniging, club
+  example: De vereniging komt 's avonds bijeen.
+die Ruhe:
+  meaning: rust
+  example: Ik heb nu wat rust nodig.
+der Spaß:
+  meaning: plezier
+  example: Het uitstapje is erg leuk.
+die Situation:
+  meaning: situatie
+  example: De situatie is niet eenvoudig.
+die Sorge:
+  meaning: zorg
+  example: Ik heb een grote zorg.
+der Strand:
+  meaning: strand
+  example: Aan het strand is het vandaag warm.
+die Sehenswürdigkeit:
+  meaning: bezienswaardigheid
+  example: De bezienswaardigheid is heel oud.
+das Schloss:
+  meaning: kasteel, slot
+  example: Het kasteel staat op een berg.
+der Tourist:
+  meaning: toerist
+  example: De toerist vraagt naar de weg.
+erklären:
+  meaning: uitleggen, verklaren
+  example: Kun je me dat alstublieft uitleggen?
+entscheiden:
+  meaning: beslissen
+  example: We moeten vandaag beslissen.
+fühlen:
+  meaning: voelen
+  example: Ik voel me vandaag niet goed.
+anbieten:
+  meaning: aanbieden
+  example: Hij biedt mij hulp aan.
+empfehlen:
+  meaning: aanbevelen
+  example: Kun je een restaurant aanbevelen?
+vorbereiten:
+  meaning: voorbereiden
+  example: Ik bereid het eten voor.
+versuchen:
+  meaning: proberen
+  example: Ik probeer eerder te slapen.
+passieren:
+  meaning: gebeuren
+  example: Wat is er gisteren gebeurd?
+gehören:
+  meaning: toebehoren aan
+  example: Deze tas is van mijn zus.
+gefallen:
+  meaning: bevallen
+  example: De nieuwe bank bevalt me.
+passen:
+  meaning: passen
+  example: De jas past me goed.
+reden:
+  meaning: praten
+  example: We moeten over het plan praten.
+schauen:
+  meaning: kijken
+  example: Kijk eens uit het raam!
+sammeln:
+  meaning: verzamelen
+  example: De kinderen verzamelen kleurrijke stenen.
+studieren:
+  meaning: studeren
+  example: Ze wil medicijnen studeren.
+übernachten:
+  meaning: overnachten
+  example: We overnachten twee nachten in het hotel.
+umziehen:
+  meaning: verhuizen
+  example: We verhuizen volgende maand.
+verletzen:
+  meaning: verwonden, blesseren
+  example: Hij heeft zich tijdens het sporten geblesseerd.
+vermieten:
+  meaning: verhuren
+  example: Ze verhuren hun woning in de zomer.
+verpassen:
+  meaning: missen
+  example: Ik heb de bus gemist.
+vorschlagen:
+  meaning: voorstellen
+  example: Ik stel een café voor.
+vorstellen:
+  meaning: voorstellen
+  example: Mag ik me even voorstellen?
+wechseln:
+  meaning: wisselen, veranderen
+  example: Kan ik de afspraak wijzigen?
+ziehen:
+  meaning: trekken
+  example: We trekken de kast naar links.
+die Kleidung:
+  meaning: kleding
+  example: De kleding ligt in de kast.
+das Land:
+  meaning: land, platteland
+  example: We gaan naar het platteland.
+der Platz:
+  meaning: plaats, zitplaats
+  example: Is deze plaats nog vrij?
+die Post:
+  meaning: postkantoor, post
+  example: Het postkantoor is vandaag gesloten.
+die Zeitung:
+  meaning: krant
+  example: Ik lees 's ochtends de krant.
+das Kino:
+  meaning: bioscoop
+  example: We gaan vandaag naar de bioscoop.
+der Fluss:
+  meaning: rivier
+  example: De rivier is heel breed.
+der Himmel:
+  meaning: hemel
+  example: De hemel is vandaag blauw.
+die Kirche:
+  meaning: kerk
+  example: De kerk is in het centrum.
+das Dorf:
+  meaning: dorp
+  example: Mijn oma woont in een dorp.
+die Mode:
+  meaning: mode
+  example: De mode verandert snel.
+der Sport:
+  meaning: sport
+  example: Sport is goed voor de gezondheid.
+das Spiel:
+  meaning: spel, wedstrijd
+  example: De wedstrijd begint om acht uur.
+der Teil:
+  meaning: deel
+  example: Dit deel is heel belangrijk.
+der Weg:
+  meaning: weg, pad
+  example: De weg naar het station is kort.
+das Ziel:
+  meaning: doel, bestemming
+  example: De bestemming is nog ver.
+die Zukunft:
+  meaning: toekomst
+  example: In de toekomst wil ik reizen.
+der Winter:
+  meaning: winter
+  example: In de winter hebben we warme kleding nodig.
+der Frühling:
+  meaning: lente
+  example: In de lente bloeien veel bloemen.
+die Wolke:
+  meaning: wolk
+  example: Een donkere wolk komt dichterbij.
+das Salz:
+  meaning: zout
+  example: Doe wat zout in de soep.
+die Nudel:
+  meaning: noedel, pasta
+  example: Ik kook vandaag pasta met tomaten.
+der Topf:
+  meaning: pan, pot
+  example: De pan staat op het fornuis.
+der Sessel:
+  meaning: fauteuil
+  example: De fauteuil is heel comfortabel.
+besonders:
+  meaning: vooral, bijzonder
+  example: Vandaag is het bijzonder koud.
+eigentlich:
+  meaning: eigenlijk
+  example: Eigenlijk wilde ik thuisblijven.
+endlich:
+  meaning: eindelijk
+  example: Eindelijk is het weekend!
+draußen:
+  meaning: buiten
+  example: De kinderen spelen buiten in de tuin.
+drinnen:
+  meaning: binnen
+  example: Het is koud, we blijven binnen.
+oben:
+  meaning: boven
+  example: De woning is boven in het huis.
+unten:
+  meaning: beneden
+  example: De kelder is beneden in het huis.
+vorher:
+  meaning: vooraf, eerder
+  example: Bel me alsjeblieft vooraf.
+nachher:
+  meaning: later, daarna
+  example: Later gaan we boodschappen doen.
+überall:
+  meaning: overal
+  example: In de stad zijn overal cafés.
+wegen:
+  meaning: vanwege, wegens
+  example: Vanwege de regen blijven we hier.
+damit:
+  meaning: zodat
+  example: Ik kook, zodat we samen kunnen eten.
+bekommen:
+  meaning: krijgen
+  example: Ik krijg morgen een brief.
+lassen:
+  meaning: laten, achterlaten
+  example: Ik laat de auto thuis.
+tun:
+  meaning: doen
+  example: Wat kan ik voor je doen?
+benutzen:
+  meaning: gebruiken
+  example: Ik gebruik de computer elke dag.
+sich freuen:
+  meaning: zich verheugen, blij zijn
+  example: Ik verheug me op de vakantie.
+möglich:
+  meaning: mogelijk
+  example: Is dat morgen nog mogelijk?
+gerade:
+  meaning: net, juist
+  example: Ik kom net thuis.
+sonst:
+  meaning: verder, anders
+  example: Verder nog iets, alstublieft?
+informieren:
+  meaning: informeren, inlichten
+  example: Breng me morgen op de hoogte.
+interessieren:
+  meaning: interesseren
+  example: Dat onderwerp interesseert me zeer.
+ausfüllen:
+  meaning: invullen
+  example: Vul alstublieft het formulier in.
+anmelden:
+  meaning: zich aanmelden, inschrijven
+  example: Ik moet me bij de gemeente aanmelden.
+besprechen:
+  meaning: bespreken
+  example: Wij bespreken het probleem in het team.
+stattfinden:
+  meaning: plaatsvinden
+  example: Het feest vindt in het park plaats.
+teilnehmen:
+  meaning: deelnemen
+  example: Ik neem deel aan de cursus.
+prüfen:
+  meaning: controleren, nakijken
+  example: Controleer alstublieft de rekening.
+verschieben:
+  meaning: uitstellen, verplaatsen
+  example: We moeten de afspraak uitstellen.
+bestätigen:
+  meaning: bevestigen
+  example: Bevestig alstublieft de afspraak.
+abgeben:
+  meaning: inleveren, afgeven
+  example: Ik geef het pakket bij de balie af.
+deswegen:
+  meaning: daarom
+  example: Ik ben ziek, daarom kom ik niet.
+darum:
+  meaning: daarom
+  example: Ik heb geen tijd, daarom kom ik niet.
+meistens:
+  meaning: meestal
+  example: Ik ga meestal met de bus.
+zuletzt:
+  meaning: ten slotte, laatst
+  example: Ten slotte bezoeken we de markt.
+selten:
+  meaning: zelden
+  example: Hij drinkt zelden koffie.
+morgens:
+  meaning: '''s ochtends'
+  example: '''s Ochtends drink ik altijd koffie.'
+abends:
+  meaning: '''s avonds'
+  example: '''s Avonds kijk ik graag tv.'
+nachts:
+  meaning: '''s nachts'
+  example: '''s Nachts is de straat heel rustig.'
+sich ärgern:
+  meaning: zich ergeren
+  example: Ik erger me aan de file.
+sich entschuldigen:
+  meaning: zich verontschuldigen
+  example: Ik verontschuldig me voor de vertraging.
+sich ausruhen:
+  meaning: uitrusten
+  example: Ik rust in het weekend uit.
+sich beeilen:
+  meaning: zich haasten
+  example: Haast je alsjeblieft, we zijn laat.
+wütend:
+  meaning: boos, woedend
+  example: Ik ben boos op mijn broer.
+stolz:
+  meaning: trots
+  example: Ik ben trots op je.
+einsam:
+  meaning: eenzaam
+  example: Alleen leven is vaak eenzaam.
+verliebt:
+  meaning: verliefd
+  example: Ik ben verliefd op mijn buurvrouw.
+die Besprechung:
+  meaning: vergadering, bespreking
+  example: De vergadering begint in de ochtend.
+die Abteilung:
+  meaning: afdeling
+  example: Ik werk op de afdeling Inkoop.
+der Lebenslauf:
+  meaning: cv, levensloop
+  example: Stuur alstublieft het cv mee.
+das Praktikum:
+  meaning: stage
+  example: Ik loop stage op kantoor.
+der Einkauf:
+  meaning: boodschappen doen, inkoop
+  example: Het boodschappen doen duurt niet lang.
+der Nachtisch:
+  meaning: nagerecht
+  example: Wat wilt u als nagerecht?
+das Trinkgeld:
+  meaning: fooitje, fooi
+  example: We geven de ober fooi.
+tauschen:
+  meaning: ruilen, omruilen
+  example: Kan ik het hemd ruilen?
+vergleichen:
+  meaning: vergelijken
+  example: We vergelijken de prijzen in de supermarkt.
+die Torte:
+  meaning: taart
+  example: De taart is erg lekker.
+der Umzug:
+  meaning: verhuizing
+  example: De verhuizing is volgende week.
+die Klingel:
+  meaning: deurbel
+  example: De deurbel is alweer kapot.
+der Hausmeister:
+  meaning: conciërge, huismeester
+  example: De conciërge repareert de deur.
+die Glühbirne:
+  meaning: gloeilamp
+  example: De gloeilamp is kapot.
+der Vorhang:
+  meaning: gordijn
+  example: Het gordijn is nog nieuw.
+umsteigen:
+  meaning: overstappen
+  example: U moet op het hoofdstation overstappen.
+abfahren:
+  meaning: vertrekken
+  example: De trein vertrekt binnenkort.
+einchecken:
+  meaning: inchecken
+  example: We checken in bij het hotel.
+die Fahrt:
+  meaning: rit, reis
+  example: De rit duurt heel lang.
+der Schaffner:
+  meaning: conducteur, treinconducteur
+  example: De conducteur controleert de kaartjes.
+die Praxis:
+  meaning: praktijk, dokterspraktijk
+  example: Ik heb morgen een afspraak in de praktijk.
+das Rezept:
+  meaning: recept, doktersrecept
+  example: Ik heb een recept van de dokter.
+der Krankenwagen:
+  meaning: ambulance, ziekenwagen
+  example: De ambulance komt meteen.
+die Verletzung:
+  meaning: verwonding, blessure
+  example: De verwonding doet heel veel pijn.
+wählen:
+  meaning: kiezen, draaien
+  example: Draai alstublieft een nummer.
+der Anfang:
+  meaning: begin
+  example: In het begin was alles nieuw.
+das Ende:
+  meaning: het einde
+  example: Uiteindelijk was iedereen moe.
+die Person:
+  meaning: de persoon
+  example: Deze persoon ken ik niet.
+das Glück:
+  meaning: het geluk
+  example: Veel geluk bij het examen!
+die Luft:
+  meaning: de lucht
+  example: Ik heb frisse lucht nodig.
+der Strom:
+  meaning: de stroom, elektriciteit
+  example: De stroom is vandaag uitgevallen.
+die Brücke:
+  meaning: de brug
+  example: De brug is heel oud.
+die Kreuzung:
+  meaning: de kruising, het kruispunt
+  example: Bij de kruising linksaf slaan.
+der Stadtplan:
+  meaning: de stadsplattegrond
+  example: Ik heb een stadsplattegrond nodig.
+das Reisebüro:
+  meaning: het reisbureau
+  example: Wij boeken bij het reisbureau.
+der Kugelschreiber:
+  meaning: de balpen
+  example: De balpen schrijft niet meer.
+die Briefmarke:
+  meaning: de postzegel
+  example: Ik heb een postzegel nodig.
+der Zettel:
+  meaning: het briefje
+  example: Schrijf het op het briefje.
+die Liste:
+  meaning: de lijst
+  example: De lijst is nog niet klaar.
+die Kosten:
+  meaning: de kosten
+  example: De kosten zijn te hoog.
+der Vorschlag:
+  meaning: het voorstel
+  example: Jouw voorstel is heel goed.
+der Schmerz:
+  meaning: de pijn
+  example: Ik heb hevige pijn.
+das Medikament:
+  meaning: het medicijn
+  example: Neem het medicijn elke ochtend.
+der Durst:
+  meaning: de dorst
+  example: Na het sporten heb ik dorst.
+die Hitze:
+  meaning: de hitte
+  example: Bij deze hitte drink ik veel.
+der Wecker:
+  meaning: de wekker
+  example: De wekker gaat om zeven uur.
+der Rock:
+  meaning: de rok
+  example: De rok past me goed.
+das Kleid:
+  meaning: de jurk
+  example: De jurk is te duur.
+der Anzug:
+  meaning: het pak
+  example: Hij draagt een zwart pak.
+die Bluse:
+  meaning: de blouse
+  example: Ik vind de blouse heel mooi.
+der Joghurt:
+  meaning: de yoghurt
+  example: Ik eet yoghurt met fruit.
+das Eis:
+  meaning: het ijs
+  example: In de zomer eten we ijs.
+das Bier:
+  meaning: het bier
+  example: Hij drinkt een biertje.
+die Zwiebel:
+  meaning: de ui
+  example: De ui laat me huilen.
+die Mahlzeit:
+  meaning: de maaltijd
+  example: De maaltijd was heel lekker.
+der Koch:
+  meaning: de kok
+  example: De kok werkt in het restaurant.
+die Kollegin:
+  meaning: de collega
+  example: Mijn collega is vandaag ziek.
+die Lehrerin:
+  meaning: de lerares
+  example: De lerares legt de opdracht uit.
+der Verkäufer:
+  meaning: de verkoper
+  example: De verkoper helpt me.
+die Erfahrung:
+  meaning: de ervaring
+  example: Hij heeft veel ervaring in zijn beroep.
+das Zeugnis:
+  meaning: het getuigschrift, het certificaat
+  example: Ik heb mijn getuigschrift gekregen.
+der Feiertag:
+  meaning: de feestdag
+  example: De feestdag is volgende week.
+die Nachbarin:
+  meaning: de buurvrouw
+  example: Mijn buurvrouw is heel vriendelijk.
+die Liebe:
+  meaning: de liefde
+  example: Liefde is soms ingewikkeld.
+der Wunsch:
+  meaning: de wens
+  example: Heb je een wens?
+das Interesse:
+  meaning: de interesse
+  example: Ik heb interesse in muziek.
+die Gruppe:
+  meaning: de groep
+  example: De groep komt morgen bijeen.
+der Satz:
+  meaning: de zin
+  example: De zin is te lang.
+das Ding:
+  meaning: het ding
+  example: Het ding is kapot.
+die Hälfte:
+  meaning: de helft
+  example: De helft is genoeg.
+der Grund:
+  meaning: de reden
+  example: Noem me een goede reden.
+die Lösung:
+  meaning: de oplossing
+  example: De oplossing is heel eenvoudig.
+der Ort:
+  meaning: de plaats, de plek
+  example: De plek is heel mooi.
+das Theater:
+  meaning: het theater
+  example: Wij gaan naar het theater.
+die Polizei:
+  meaning: de politie
+  example: Bel snel de politie!
+abbiegen:
+  meaning: afslaan
+  example: Sla bij de hoek af.
+abnehmen:
+  meaning: afvallen
+  example: Ik wil drie kilo afvallen.
+anprobieren:
+  meaning: passen
+  example: Mag ik het jasje passen?
+aufräumen:
+  meaning: opruimen
+  example: Ik moet mijn kamer opruimen.
+ausziehen:
+  meaning: verhuizen
+  example: Wij verhuizen volgende maand.
+backen:
+  meaning: bakken
+  example: Ik bak een cake.
+beantworten:
+  meaning: beantwoorden
+  example: Beantwoord alstublieft mijn vraag.
+sich bedanken:
+  meaning: bedanken
+  example: Ik wil mij hartelijk bedanken.
+sich beschweren:
+  meaning: klagen, een klacht indienen
+  example: Ik wil een klacht indienen.
+besichtigen:
+  meaning: bezichtigen
+  example: Wij bezichtigen morgen de woning.
+die Geschichte:
+  meaning: het verhaal, de geschiedenis
+  example: Het verhaal is heel interessant.
+der Stress:
+  meaning: stress
+  example: Ik heb veel stress op het werk.
+die Hochzeit:
+  meaning: bruiloft
+  example: De bruiloft is in de zomer.
+das Museum:
+  meaning: museum
+  example: Het museum is vandaag gesloten.
+die Freundschaft:
+  meaning: vriendschap
+  example: Onze vriendschap is heel belangrijk.
+der Kontakt:
+  meaning: contact
+  example: Ik heb geen contact met hem.
+die Hoffnung:
+  meaning: hoop
+  example: Ik heb de hoop nog niet verloren.
+die Stimmung:
+  meaning: stemming, sfeer
+  example: De sfeer is vandaag heel goed.
+die Wäsche:
+  meaning: wasgoed, was
+  example: De was is nog nat.
+die Hausarbeit:
+  meaning: huishoudelijk werk
+  example: Vandaag doe ik het huishouden.
+das Konzert:
+  meaning: concert
+  example: We gaan vandaag naar het concert.
+die Ausstellung:
+  meaning: tentoonstelling
+  example: De tentoonstelling is heel interessant.
+die Sekunde:
+  meaning: seconde
+  example: Wacht alsjeblieft even een seconde.
+die Temperatur:
+  meaning: temperatuur
+  example: De temperatuur is vandaag erg hoog.
+das Gewitter:
+  meaning: onweer
+  example: Vanavond komt er onweer.
+der Nebel:
+  meaning: mist
+  example: Bij mist rijd ik langzaam.
+die Jahreszeit:
+  meaning: seizoen
+  example: De herfst is mijn favoriete seizoen.
+der Augenblick:
+  meaning: ogenblik, moment
+  example: Wacht alsjeblieft een ogenblik.
+die Geduld:
+  meaning: geduld
+  example: Ik heb geen geduld meer.
+die Wut:
+  meaning: woede
+  example: Zijn woede was snel voorbij.
+die Beziehung:
+  meaning: relatie, verhouding
+  example: Ze hebben een goede relatie.
+das Kompliment:
+  meaning: compliment
+  example: Dat is een aardig compliment.
+der Mülleimer:
+  meaning: prullenbak, vuilnisbak
+  example: De prullenbak is al vol.
+die Mülltonne:
+  meaning: vuilnisbak, afvalcontainer
+  example: De vuilnisbak staat voor het huis.
+der Handwerker:
+  meaning: ambachtsman, vakman
+  example: De vakman repareert de verwarming.
+die Spülmaschine:
+  meaning: vaatwasser
+  example: De vaatwasser draait al uren.
+der Staubsauger:
+  meaning: stofzuiger
+  example: De stofzuiger is heel lawaaierig.
+die Bettwäsche:
+  meaning: beddengoed, bedlinnen
+  example: Ik verschoon vandaag het beddengoed.
+der Kassenzettel:
+  meaning: kassabon
+  example: De kassabon zit in het zakje.
+die Metzgerei:
+  meaning: slagerij
+  example: Ik koop vlees bij de slagerij.
+die Bedienung:
+  meaning: bediening, ober
+  example: De ober brengt ons de menukaart.
+die Vorspeise:
+  meaning: voorgerecht
+  example: Als voorgerecht neem ik soep.
+das Hauptgericht:
+  meaning: hoofdgerecht
+  example: Het hoofdgerecht kost twaalf euro.
+die Portion:
+  meaning: portie
+  example: De portie is veel te groot.
+der Knoblauch:
+  meaning: knoflook
+  example: Ik kook met veel knoflook.
+das Kilo:
+  meaning: kilo
+  example: De kilo tomaten kost twee euro.
+die Abfahrt:
+  meaning: vertrek
+  example: Het vertrek is om acht uur.
+der Fahrgast:
+  meaning: passagier
+  example: De passagier wacht op de bus.
+die Reservierung:
+  meaning: reservering
+  example: Ik heb een reservering voor vanavond.
+der Reiseführer:
+  meaning: reisgids, gids
+  example: De gids laat ons de stad zien.
+der Reifen:
+  meaning: band
+  example: De band is helaas kapot.
+die Panne:
+  meaning: pech, panne
+  example: We hadden pech op de snelweg.
+das Gehalt:
+  meaning: salaris
+  example: Het salaris komt aan het einde van de maand.
+die Gebühr:
+  meaning: vergoeding, heffing
+  example: De heffing bedraagt tien euro.
+die Warteschlange:
+  meaning: wachtrij
+  example: De wachtrij is heel lang.
+das Passwort:
+  meaning: wachtwoord
+  example: Ik ben mijn wachtwoord vergeten.
+die Datei:
+  meaning: bestand
+  example: Het bestand staat op de computer.
+der Bildschirm:
+  meaning: scherm, beeldscherm
+  example: Het scherm is te helder.
+der Automat:
+  meaning: automaat
+  example: De automaat accepteert geen kaarten.
+die Krankenkasse:
+  meaning: zorgverzekeraar, ziekenfonds
+  example: Mijn zorgverzekeraar betaalt de medicijnen.
+der Husten:
+  meaning: hoest
+  example: Ik heb sinds gisteren last van hoesten.
+die Allergie:
+  meaning: allergie
+  example: Ik heb een allergie voor noten.
+die Impfung:
+  meaning: vaccinatie, inenting
+  example: De vaccinatie doet geen pijn.
+der Verband:
+  meaning: verband
+  example: De arts legt een verband aan.
+die Salbe:
+  meaning: zalf
+  example: De zalf helpt tegen pijn.
+die Sprechstunde:
+  meaning: spreekuur
+  example: Het spreekuur begint om negen uur.
+der Notarzt:
+  meaning: spoedarts, noodarts
+  example: We bellen meteen de spoedarts.
+übermorgen:
+  meaning: overmorgen
+  example: Overmorgen heb ik geen tijd.
+außerdem:
+  meaning: bovendien, ook
+  example: Bovendien heb ik nog melk nodig.
+ungefähr:
+  meaning: ongeveer
+  example: Ik kom ongeveer om acht uur.
+sogar:
+  meaning: zelfs
+  example: Hij spreekt zelfs een beetje Duits.
+kaum:
+  meaning: nauwelijks
+  example: Ik heb nauwelijks tijd voor sport.
+zwar:
+  meaning: weliswaar, wel
+  example: Ze is weliswaar moe, maar ze werkt door.
+entweder:
+  meaning: ofwel, hetzij
+  example: We gaan of vandaag of morgen.
+falls:
+  meaning: als, indien
+  example: Als het regent, blijven we thuis.
+nachdem:
+  meaning: nadat
+  example: Nadat ik gegeten heb, ga ik weg.
+seitdem:
+  meaning: sindsdien, sinds
+  example: Sinds hij hier woont, is hij gelukkig.
+übrigens:
+  meaning: trouwens
+  example: Trouwens, de cursus begint morgen eerder.
+die Verabredung:
+  meaning: afspraak
+  example: Ik heb vandaag een afspraak.
+der Vormittag:
+  meaning: ochtend, voormiddag
+  example: In de ochtend heb ik een afspraak.
+der Nachmittag:
+  meaning: middag, namiddag
+  example: In de middag gaan we naar de bioscoop.
+der Schreibtisch:
+  meaning: bureau
+  example: Mijn bureau staat bij het raam.
+die Telefonnummer:
+  meaning: telefoonnummer
+  example: Wat is jouw telefoonnummer?
+die Bestätigung:
+  meaning: bevestiging
+  example: Ik heb een bevestiging nodig voor de instantie.
+der Feierabend:
+  meaning: einde werkdag, vrije tijd
+  example: Om zes uur is mijn werkdag eindelijk voorbij.
+die Arbeitszeit:
+  meaning: werktijd, arbeidstijd
+  example: Mijn werktijd begint om acht uur.
+der Arbeitsplatz:
+  meaning: werkplek
+  example: Mijn werkplek is erg rustig.
+das Wörterbuch:
+  meaning: woordenboek
+  example: Ik gebruik vaak het woordenboek.
+die Postkarte:
+  meaning: ansichtkaart, kaart
+  example: Ik stuur je een ansichtkaart.
+das Radio:
+  meaning: radio
+  example: In de auto luister ik altijd naar de radio.
+die Geschwister:
+  meaning: broers en zussen
+  example: Heb je broers of zussen?
+die Entscheidung:
+  meaning: beslissing, besluit
+  example: Dat was een moeilijke beslissing.
+der Patient:
+  meaning: patiënt
+  example: De patiënt wacht al in de kamer.
+die Krankmeldung:
+  meaning: ziekmelding, ziekteattest
+  example: Ik stuur de ziekmelding naar het bedrijf.
+die Kantine:
+  meaning: kantine
+  example: We eten in de middag in de kantine.
+der Berg:
+  meaning: berg
+  example: We wandelen vandaag de berg op.
+der Wald:
+  meaning: bos
+  example: Achter het huis is een bos.
+der Ausgang:
+  meaning: uitgang
+  example: De uitgang is aan het einde van de gang.
+die Rolltreppe:
+  meaning: roltrap
+  example: Neem de roltrap naar de eerste verdieping.
+das Datum:
+  meaning: datum
+  example: Welke datum hebben we vandaag?
+der Zeitpunkt:
+  meaning: tijdstip, moment
+  example: Het tijdstip van de afspraak komt me goed uit.
+die Kälte:
+  meaning: kou
+  example: Bij deze kou blijf ik binnen.
+der Sturm:
+  meaning: storm
+  example: De storm heeft de tuin verwoest.
+der Wetterbericht:
+  meaning: weersverwachting, weerbericht
+  example: Het weerbericht meldt regen.
+frisch:
+  meaning: vers, fris
+  example: Het brood is vandaag heel vers.
+schlecht:
+  meaning: slecht, misselijk
+  example: Ik ben vandaag misselijk.
+jung:
+  meaning: jong
+  example: Ze is nog heel jong.
+nett:
+  meaning: aardig, leuk
+  example: Je buurman is echt aardig.
+einfach:
+  meaning: eenvoudig, gewoon
+  example: De opgave is heel eenvoudig.
+gefährlich:
+  meaning: gevaarlijk
+  example: Deze straat is erg gevaarlijk.
+bequem:
+  meaning: comfortabel, gemakkelijk
+  example: Deze stoel is erg comfortabel.
+berühmt:
+  meaning: beroemd
+  example: De kok is erg beroemd.
+froh:
+  meaning: blij
+  example: Ik ben blij met je hulp.
+hübsch:
+  meaning: mooi, knap
+  example: Je woning is echt mooi.
+klar:
+  meaning: duidelijk, helder
+  example: Het antwoord is me duidelijk.
+komisch:
+  meaning: grappig, vreemd
+  example: De film was echt grappig.
+normal:
+  meaning: normaal
+  example: Dat is heel normaal.
+ordentlich:
+  meaning: netjes, ordelijk
+  example: Houd je kamer alsjeblieft netjes.
+praktisch:
+  meaning: praktisch
+  example: Deze tas is erg praktisch.
+schwach:
+  meaning: zwak
+  example: Ik voel me vandaag zwak.
+stark:
+  meaning: sterk
+  example: De koffie is erg sterk.
+toll:
+  meaning: geweldig, leuk
+  example: Het concert was echt geweldig.
+weit:
+  meaning: ver
+  example: De weg is te ver.
+ehrlich:
+  meaning: eerlijk
+  example: Wees alsjeblieft eerlijk tegen mij.
+fleißig:
+  meaning: ijverig, vlijtig
+  example: Ze werkt heel ijverig.
+gemütlich:
+  meaning: gezellig, behaaglijk
+  example: De woonkamer is erg gezellig.
+die Badewanne:
+  meaning: badkuip
+  example: De badkuip is vol water.
+die Pfanne:
+  meaning: pan, koekenpan
+  example: De pan staat op het fornuis.
+der Backofen:
+  meaning: oven
+  example: De oven is nog heet.
+die Mikrowelle:
+  meaning: magnetron
+  example: Ik warm de soep op in de magnetron.
+kennen:
+  meaning: kennen
+  example: Ken je de nieuwe buurman?
+halten:
+  meaning: vasthouden, stoppen
+  example: De trein stopt in Keulen.
+stellen:
+  meaning: zetten, plaatsen
+  example: Zet de fles op de tafel.
+reisen:
+  meaning: reizen
+  example: We reizen in de zomer naar Italië.
+rauchen:
+  meaning: roken
+  example: Hier mag men niet roken.
+rufen:
+  meaning: roepen
+  example: De leraar roept mijn naam.
+parken:
+  meaning: parkeren
+  example: Hier mag men niet parkeren.
+planen:
+  meaning: plannen
+  example: We plannen de vakantie samen.
+verdienen:
+  meaning: verdienen
+  example: Ze verdient goed in haar beroep.
+verbieten:
+  meaning: verbieden
+  example: Mijn ouders verbieden het me.
+scheinen:
+  meaning: schijnen
+  example: De zon schijnt vandaag fel.
+schaffen:
+  meaning: redden, klaarspelen
+  example: Ik krijg dat voor morgen voor elkaar.
+zählen:
+  meaning: tellen
+  example: Tel alstublieft het geld.
+wahr:
+  meaning: waar
+  example: Dat is echt waar.
+kaputt:
+  meaning: kapot
+  example: Mijn telefoon is alweer kapot.
+letzte:
+  meaning: laatste
+  example: Dat is de laatste bus.
+gemeinsam:
+  meaning: samen
+  example: We koken vandaag samen.
+geradeaus:
+  meaning: rechtdoor
+  example: Gaat u steeds rechtdoor.
+hoffentlich:
+  meaning: hopelijk
+  example: Hopelijk komt de trein op tijd.
+recht:
+  meaning: gelijk, juist
+  example: Je hebt met je idee gelijk.
+die Sache:
+  meaning: ding, zaak
+  example: Deze zaak is heel belangrijk.
+die Welt:
+  meaning: wereld
+  example: Ik wil de wereld zien.
+der Kurs:
+  meaning: cursus
+  example: De cursus begint op maandag.
+der Plan:
+  meaning: plan
+  example: We hebben een goed plan.
+die Seite:
+  meaning: pagina, kant
+  example: Open het boek op pagina tien.
+die Bestellung:
+  meaning: bestelling
+  example: Mijn bestelling komt morgen.
+der Besuch:
+  meaning: bezoek
+  example: We hebben vandaag bezoek.
+der Appetit:
+  meaning: eetlust
+  example: Ik heb geen eetlust.
+das Alter:
+  meaning: leeftijd
+  example: Hij kent haar leeftijd niet.
+der Bäcker:
+  meaning: bakker
+  example: De bakker opent om zes uur.
+bauen:
+  meaning: bouwen
+  example: Ze bouwen een nieuw huis.
+bedeuten:
+  meaning: betekenen
+  example: Wat betekent dit woord?
+bekannt:
+  meaning: bekend
+  example: Deze stad is heel bekend.
+buchen:
+  meaning: boeken
+  example: We boeken een hotel voor twee nachten.
+danken:
+  meaning: bedanken, danken
+  example: Ik bedank je voor de hulp.
+decken:
+  meaning: dekken
+  example: We dekken nu de tafel.
+drücken:
+  meaning: drukken
+  example: Drukt u alstublieft op de knop.
+einpacken:
+  meaning: inpakken
+  example: Ik pak het cadeau in.
+eintragen:
+  meaning: invullen, inschrijven
+  example: Vult u alstublieft uw naam in.
+die Feier:
+  meaning: feest, viering
+  example: Het feest begint om acht uur.
+das Feuer:
+  meaning: vuur
+  example: Het vuur in de kachel brandt.
+der Fleck:
+  meaning: vlek
+  example: Er is een vlek op het hemd.
+fremd:
+  meaning: vreemd, onbekend
+  example: Ik ben hier niet bekend.
+die Frucht:
+  meaning: vrucht, fruit
+  example: Deze vrucht smaakt heel zoet.
+die Gegend:
+  meaning: streek, omgeving
+  example: De omgeving is heel rustig.
+das Gerät:
+  meaning: apparaat
+  example: Het apparaat werkt niet meer.
+das Gewicht:
+  meaning: gewicht
+  example: Het gewicht is normaal.
+gießen:
+  meaning: gieten, water geven
+  example: Ik geef de bloemen elke ochtend water.
+der Glückwunsch:
+  meaning: gelukwens, gefeliciteerd
+  example: Hartelijk gefeliciteerd met je verjaardag!
+gratulieren:
+  meaning: feliciteren
+  example: Ik feliciteer je met je verjaardag.
+gucken:
+  meaning: kijken
+  example: Kijk eens, de bus komt.
+der Haushalt:
+  meaning: huishouden
+  example: Ik doe vandaag het huishouden.
+heizen:
+  meaning: verwarmen, stoken
+  example: We stoken in de winter met gas.
+die Insel:
+  meaning: eiland
+  example: We gaan op vakantie op een eiland.
+joggen:
+  meaning: joggen, hardlopen
+  example: Ik jog elke ochtend in het park.
+die Klasse:
+  meaning: klas
+  example: Mijn klas is heel groot.
+der Knopf:
+  meaning: knoop
+  example: De knoop is eraf gevallen.
+die Kopie:
+  meaning: kopie
+  example: Maakt u alstublieft een kopie.
+kopieren:
+  meaning: kopiëren
+  example: Kopieer alstublieft het document.
+die Kraft:
+  meaning: kracht
+  example: Ik heb geen kracht meer.
+die Möglichkeit:
+  meaning: mogelijkheid
+  example: Er is geen andere mogelijkheid.
+der Unterschied:
+  meaning: verschil
+  example: Het verschil is niet erg groot.
+die Bedeutung:
+  meaning: betekenis, belang
+  example: De betekenis van dit woord is onduidelijk.
+die Gelegenheit:
+  meaning: gelegenheid
+  example: Ik had geen gelegenheid om te vragen.
+die Sicherheit:
+  meaning: veiligheid, zekerheid
+  example: Veiligheid is belangrijk voor ons in huis.
+der Erfolg:
+  meaning: succes
+  example: Het succes hangt af van de voorbereiding.
+die Gesellschaft:
+  meaning: samenleving, maatschappij
+  example: De samenleving verandert snel.
+die Umwelt:
+  meaning: milieu
+  example: We moeten het milieu beter beschermen.
+die Verantwortung:
+  meaning: verantwoordelijkheid
+  example: Hij draagt de verantwoordelijkheid voor het project.
+die Unterstützung:
+  meaning: steun, ondersteuning
+  example: Bedankt voor je steun!
+die Erklärung:
+  meaning: uitleg, verklaring
+  example: Zijn uitleg was kort en duidelijk.
+der Vorteil:
+  meaning: voordeel
+  example: Het voordeel is de korte route.
+der Nachteil:
+  meaning: nadeel
+  example: Elk voordeel heeft ook een nadeel.
+die Absicht:
+  meaning: bedoeling
+  example: Dat was niet mijn bedoeling.
+der Eindruck:
+  meaning: indruk
+  example: Je maakt een zeer goede indruk.
+die Erinnerung:
+  meaning: herinnering
+  example: Ik heb een mooie herinnering daaraan.
+die Enttäuschung:
+  meaning: teleurstelling
+  example: De teleurstelling was duidelijk te zien.
+die Einstellung:
+  meaning: houding, instelling
+  example: Zijn houding tegenover werk is positief.
+die Gewohnheit:
+  meaning: gewoonte
+  example: Roken is een slechte gewoonte.
+die Fähigkeit:
+  meaning: vaardigheid, vermogen
+  example: Ze heeft het vermogen om snel te leren.
+die Ernährung:
+  meaning: voeding
+  example: Gezonde voeding is belangrijk voor het lichaam.
+die Bewegung:
+  meaning: beweging
+  example: Beweging helpt tegen rugpijn.
+die Behandlung:
+  meaning: behandeling
+  example: De behandeling duurt ongeveer twee weken.
+die Operation:
+  meaning: operatie
+  example: De operatie was succesvol.
+die Entspannung:
+  meaning: ontspanning
+  example: Na het werk heb ik ontspanning nodig.
+das Angebot:
+  meaning: aanbod, aanbieding
+  example: Het aanbod geldt alleen deze week.
+die Qualität:
+  meaning: kwaliteit
+  example: De kwaliteit van de waar is goed.
+die Auswahl:
+  meaning: keuze, selectie
+  example: De keuze in de winkel is groot.
+der Geschmack:
+  meaning: smaak
+  example: De smaak is iets te zout.
+die Zutat:
+  meaning: ingrediënt
+  example: Dit ingrediënt ontbreekt in de soep.
+die Frist:
+  meaning: termijn, deadline
+  example: De termijn eindigt volgende week.
+die Kündigung:
+  meaning: opzegging, ontslag
+  example: De opzegging moet schriftelijk gebeuren.
+die Versicherung:
+  meaning: verzekering
+  example: De verzekering betaalt de schade.
+der Betrag:
+  meaning: bedrag
+  example: Het bedrag staat op de rekening.
+die Fortbildung:
+  meaning: bijscholing, training
+  example: De bijscholing vindt volgende week plaats.
+der Auftrag:
+  meaning: opdracht, bestelling
+  example: De opdracht is bijna klaar.
+die Unterkunft:
+  meaning: accommodatie, onderkomen
+  example: We zoeken een betaalbare accommodatie.
+die Buchung:
+  meaning: boeking
+  example: De boeking werd onmiddellijk bevestigd.
+die Ermäßigung:
+  meaning: korting
+  example: Is er korting voor studenten?
+die Umleitung:
+  meaning: omleiding
+  example: De omleiding loopt door het dorp.
+die Baustelle:
+  meaning: bouwplaats
+  example: De bouwplaats blokkeert de straat.
+der Schaden:
+  meaning: schade
+  example: De schade aan de auto is klein.
+der Lärm:
+  meaning: lawaai, herrie
+  example: Het lawaai van de straat stoort.
+die Nachbarschaft:
+  meaning: buurt, nabuurschap
+  example: De buurt helpt elkaar vaak.
+die Hausordnung:
+  meaning: huisregels
+  example: De huisregels hangen in de gang.
+die Besichtigung:
+  meaning: bezichtiging
+  example: De bezichtiging van het appartement is morgen.
+die Verpackung:
+  meaning: verpakking
+  example: De verpakking kan worden gerecycled.
+die Mühe:
+  meaning: moeite
+  example: Het was de moeite waard.
+die Regel:
+  meaning: regel
+  example: Deze regel geldt voor iedereen.
+die Pflicht:
+  meaning: plicht
+  example: Het is mijn plicht om te helpen.
+die Richtung:
+  meaning: richting
+  example: We rijden in de verkeerde richting.
+die Umgebung:
+  meaning: omgeving
+  example: De omgeving van het appartement is rustig.
+schließlich:
+  meaning: uiteindelijk, ten slotte
+  example: Uiteindelijk hebben we een woning gevonden.
+allerdings:
+  meaning: echter, wel
+  example: De prijs is goed, maar er is geen garantie.
+trotz:
+  meaning: ondanks
+  example: Ondanks de regen gaan we wandelen.
+außer:
+  meaning: behalve, naast
+  example: Behalve mij komt niemand naar het feest.
+sodass:
+  meaning: zodat
+  example: Het regent, zodat we thuis blijven.
+sowohl:
+  meaning: zowel
+  example: Zowel de baas als ik zijn ziek.
+weder:
+  meaning: noch
+  example: Noch de bus noch de trein rijdt.
+zunächst:
+  meaning: eerst, aanvankelijk
+  example: Eerst moet ik het formulier invullen.
+sich bewerben:
+  meaning: solliciteren
+  example: Ik solliciteer naar een nieuwe baan.
+der Arbeitgeber:
+  meaning: werkgever
+  example: Mijn werkgever betaalt het salaris op tijd.
+das Vorstellungsgespräch:
+  meaning: sollicitatiegesprek
+  example: Het sollicitatiegesprek is maandag om tien uur.
+verantwortlich:
+  meaning: verantwoordelijk
+  example: Wie is verantwoordelijk voor de bestelling?
+zuverlässig:
+  meaning: betrouwbaar
+  example: Zij is een betrouwbare collega.
+die Probezeit:
+  meaning: proeftijd
+  example: De proeftijd duurt zes maanden.
+die Überstunden:
+  meaning: overuren
+  example: Ik heb deze week veel overuren gemaakt.
+die Schicht:
+  meaning: dienst, ploeg
+  example: Mijn dienst begint vandaag om zes uur.
+der Lohn:
+  meaning: loon
+  example: Het loon wordt aan het einde van de maand uitbetaald.
+stressig:
+  meaning: stressvol
+  example: Het werk is op dit moment stressvol.
+die Behörde:
+  meaning: instantie, autoriteit
+  example: De instantie stuurt mij een brief.
+der Beamte:
+  meaning: ambtenaar
+  example: De ambtenaar controleert mijn aanvraag.
+die Unterlage:
+  meaning: document, bewijsstuk
+  example: Dit document moet ik kopiëren.
+der Nachweis:
+  meaning: bewijs
+  example: Neem alstublieft een bewijs mee.
+die Bescheinigung:
+  meaning: verklaring, certificaat
+  example: De verklaring moet ondertekend zijn.
+die Abmeldung:
+  meaning: afmelding, uitschrijving
+  example: De uitschrijving moet voor vrijdag gebeuren.
+die Ummeldung:
+  meaning: adreswijziging, herinschrijving
+  example: Na de verhuizing heb ik een adreswijziging nodig.
+die Wartezeit:
+  meaning: wachttijd
+  example: De wachttijd bij de instantie is lang.
+die Reklamation:
+  meaning: klacht, reclamatie
+  example: Ik heb een klacht over de printer.
+die Lieferung:
+  meaning: levering
+  example: De levering komt morgenmiddag.
+die Beratung:
+  meaning: advies, consultatie
+  example: Het advies in de winkel was heel goed.
+das Lebensmittel:
+  meaning: levensmiddel, voedingsmiddel
+  example: We kopen levensmiddelen voor de hele week.
+vegetarisch:
+  meaning: vegetarisch
+  example: Dit gerecht is vegetarisch en lekker.
+das Gewürz:
+  meaning: kruid, specerij
+  example: Dit kruid past goed bij de rijst.
+haltbar:
+  meaning: houdbaar
+  example: De melk is nog twee dagen houdbaar.
+die Werbung:
+  meaning: reclame, advertentie
+  example: De reclame op internet irriteert me.
+sich erholen:
+  meaning: herstellen, uitrusten
+  example: In de vakantie kan ik goed uitrusten.
+sich erkälten:
+  meaning: verkouden worden
+  example: Bij dit weer word ik snel verkouden.
+allergisch:
+  meaning: allergisch
+  example: Ik ben allergisch voor noten.
+anstrengend:
+  meaning: inspannend, vermoeiend
+  example: De sport is vandaag erg inspannend.
+erschöpft:
+  meaning: uitgeput
+  example: Na het werk ben ik helemaal uitgeput.
+ungesund:
+  meaning: ongezond
+  example: Te veel suiker is ongezond.
+fit:
+  meaning: fit
+  example: Na de sport voel ik me fit.
+das Symptom:
+  meaning: symptoom
+  example: Koorts is een typisch symptoom.
+die Ursache:
+  meaning: oorzaak
+  example: De oorzaak van de pijn is onduidelijk.
+die Folge:
+  meaning: gevolg
+  example: De gevolgen van de ziekte zijn ernstig.
+die Renovierung:
+  meaning: renovatie, verbouwing
+  example: De renovatie van de keuken duurt lang.
+die Wohngemeinschaft:
+  meaning: woongroep, gedeelde woning
+  example: Wij wonen in een woongroep.
+die Einrichtung:
+  meaning: inrichting, meubilair
+  example: De inrichting van de woning is modern.
+die Lage:
+  meaning: ligging, locatie
+  example: De ligging van de woning is rustig.
+unordentlich:
+  meaning: slordig, rommelig
+  example: Zijn kamer is vaak rommelig.
+der Flug:
+  meaning: vlucht
+  example: De vlucht duurt maar een uur.
+der Fahrschein:
+  meaning: kaartje, ticket
+  example: Ik koop een kaartje bij de automaat.
+die Jugendherberge:
+  meaning: jeugdherberg
+  example: We overnachten in een jeugdherberg.
+das Doppelzimmer:
+  meaning: tweepersoonskamer
+  example: Ik heb een tweepersoonskamer gereserveerd.
+die Rückfahrt:
+  meaning: terugreis, terugrit
+  example: De terugreis is voor zondag gepland.
+sich unterhalten:
+  meaning: praten, zich vermaken
+  example: We praten over de film.
+sich verabreden:
+  meaning: afspreken
+  example: We spreken morgenavond af.
+sich streiten:
+  meaning: ruziën, twisten
+  example: De kinderen ruziën vaak.
+sich kümmern:
+  meaning: zorgen voor, zich bekommeren om
+  example: Zij zorgt voor haar zieke moeder.
+sich erinnern:
+  meaning: zich herinneren
+  example: Ik herinner me die dag.
+sich verabschieden:
+  meaning: afscheid nemen
+  example: We nemen afscheid op het station.
+der Erwachsene:
+  meaning: volwassene
+  example: Volwassenen moeten de kinderen helpen.
+der Jugendliche:
+  meaning: jongere
+  example: Jongeren hebben ruimte en regels nodig.
+sobald:
+  meaning: zodra
+  example: Zodra ik klaar ben, bel ik.
+solange:
+  meaning: zolang
+  example: Zolang je hier bent, help ik je.
+statt:
+  meaning: in plaats van
+  example: We nemen thee in plaats van koffie.
+wahrscheinlich:
+  meaning: waarschijnlijk
+  example: Waarschijnlijk komt hij wat later.
+persönlich:
+  meaning: persoonlijk
+  example: Ik wil hem persoonlijk spreken.
+öffentlich:
+  meaning: openbaar, publiek
+  example: Het gebouw is openbaar toegankelijk.
+bevor:
+  meaning: voordat
+  example: Was je handen voordat je eet.
+nämlich:
+  meaning: namelijk
+  example: Ik kom later, ik heb namelijk nog werk.
+daher:
+  meaning: daarom, dus
+  example: Het regent, daarom blijven we thuis.
+inzwischen:
+  meaning: intussen, ondertussen
+  example: Intussen woon ik alleen.
+der Partner:
+  meaning: partner
+  example: Mijn partner kookt beter dan ik.
+das Paar:
+  meaning: stel, paar
+  example: Het stel woont op de derde verdieping.
+die Ehe:
+  meaning: huwelijk
+  example: Het huwelijk is niet altijd makkelijk.
+der Respekt:
+  meaning: respect
+  example: Ik heb groot respect voor haar.
+das Verhalten:
+  meaning: gedrag
+  example: Zijn gedrag is mij onduidelijk.
+der Mut:
+  meaning: moed
+  example: Ze heeft de moed om alleen te reizen.
+der Zweifel:
+  meaning: twijfel
+  example: Ik heb geen twijfels.
+die Rücksicht:
+  meaning: rekening, consideratie
+  example: Houd rekening met de buren.
+die Eigenschaft:
+  meaning: eigenschap
+  example: Geduld is een goede eigenschap.
+der Charakter:
+  meaning: karakter
+  example: Hij heeft een rustig karakter.
+die Scheidung:
+  meaning: scheiding
+  example: Na de scheiding verhuisde ze.
+die Trennung:
+  meaning: scheiding, breuk
+  example: De scheiding was heel zwaar.
+der Arbeitnehmer:
+  meaning: werknemer
+  example: De werknemer heeft veel rechten.
+der Druck:
+  meaning: druk
+  example: Ik sta op mijn werk onder druk.
+die Stellenanzeige:
+  meaning: vacature, personeelsadvertentie
+  example: Ik heb een vacature gevonden.
+die Absage:
+  meaning: afwijzing, annulering
+  example: Helaas kwam er een afwijzing per e-mail.
+die Zusage:
+  meaning: toezegging, bevestiging
+  example: Eindelijk heb ik de toezegging gekregen.
+die Belastung:
+  meaning: last, belasting
+  example: De baan is een grote last.
+die Steuer:
+  meaning: belasting
+  example: De belasting moet binnenkort betaald worden.
+der Kontoauszug:
+  meaning: bankafschrift, rekeningoverzicht
+  example: Het bankafschrift ligt op tafel.
+der Ordner:
+  meaning: map, ordner
+  example: Leg het contract in de map.
+die Tastatur:
+  meaning: toetsenbord
+  example: Het toetsenbord is vandaag erg vies.
+die Maus:
+  meaning: muis
+  example: De muis ligt naast het scherm.
+der Anhang:
+  meaning: bijlage
+  example: Het bestand zit in de bijlage.
+der Stempel:
+  meaning: stempel
+  example: De ambtenaar zet een stempel.
+die Bedingung:
+  meaning: voorwaarde
+  example: De voorwaarde staat in het contract.
+die Genehmigung:
+  meaning: vergunning, toestemming
+  example: Voor de verbouwing hebben we een vergunning nodig.
+der Wohnsitz:
+  meaning: woonplaats, verblijfplaats
+  example: Meld alstublieft uw woonplaats aan.
+die Aufenthaltserlaubnis:
+  meaning: verblijfsvergunning
+  example: Mijn verblijfsvergunning is nog twee jaar geldig.
+die Staatsangehörigkeit:
+  meaning: nationaliteit
+  example: Vul alstublieft de nationaliteit in.
+die Wunde:
+  meaning: wond
+  example: De wond moet schoon blijven.
+die Spritze:
+  meaning: injectie, spuitje
+  example: De arts geeft me een injectie.
+die Übelkeit:
+  meaning: misselijkheid
+  example: Ik heb last van misselijkheid en koorts.
+der Schwindel:
+  meaning: duizeligheid
+  example: De duizeligheid komt plotseling.
+der Durchfall:
+  meaning: diarree
+  example: Diarree en koorts houden me in bed.
+die Wirkung:
+  meaning: werking, effect
+  example: De tabletten hebben een snelle werking.
+die Diagnose:
+  meaning: diagnose
+  example: De diagnose was gelukkig goed.
+die Notaufnahme:
+  meaning: spoedafdeling
+  example: We gaan meteen naar de spoedafdeling.
+scharf:
+  meaning: pittig, scherp
+  example: De soep is me te pittig.
+bitter:
+  meaning: bitter
+  example: De koffie smaakt vandaag bitter.
+roh:
+  meaning: rauw
+  example: Groenten moet je vaak rauw eten.
+der Inhalt:
+  meaning: inhoud
+  example: De inhoud van de fles is rood.
+die Mülltrennung:
+  meaning: afvalscheiding
+  example: Bij ons is afvalscheiding heel belangrijk.
+die Sicherung:
+  meaning: zekering
+  example: De stroom is weg, controleer de zekering.
+die Anzeige:
+  meaning: advertentie, aangifte
+  example: We hebben een advertentie voor de woning.
+die Verbindung:
+  meaning: verbinding
+  example: De verbinding is vandaag helaas slecht.
+der Umstieg:
+  meaning: overstap
+  example: De overstap is op het volgende station.
+die Hinfahrt:
+  meaning: heenreis
+  example: De heenreis duurt drie uur.
+der Reisebus:
+  meaning: touringcar, reisbus
+  example: We gaan met de touringcar naar zee.
+die Pension:
+  meaning: pension, gastenverblijf
+  example: We overnachten in een klein pension.
+der Prospekt:
+  meaning: brochure, folder
+  example: In de brochure staan veel aanbiedingen.
+die Bordkarte:
+  meaning: instapkaart, boardingpass
+  example: Laat alstublieft uw instapkaart zien.
+andererseits:
+  meaning: anderzijds
+  example: Anderzijds is de woning te duur.
+jedenfalls:
+  meaning: in ieder geval, toch
+  example: In ieder geval kom ik morgen.
+die Art:
+  meaning: soort, aard
+  example: Dit soort muziek vind ik leuk.
+die Weise:
+  meaning: manier, wijze
+  example: Op deze manier besparen we tijd.
+der Alltag:
+  meaning: dagelijks leven
+  example: In het dagelijks leven heb ik weinig tijd.
+der Mitarbeiter:
+  meaning: medewerker
+  example: De nieuwe medewerker is erg vriendelijk.
+der Betrieb:
+  meaning: bedrijf
+  example: Het bedrijf zoekt nieuwe medewerkers.
+die Diskussion:
+  meaning: discussie
+  example: De discussie was lang en interessant.
+gewinnen:
+  meaning: winnen
+  example: Ik wil het spel winnen.
+die Natur:
+  meaning: natuur
+  example: We genieten in het weekend van de natuur.
+das Pflaster:
+  meaning: pleister
+  example: Ik heb een pleister nodig voor de wond.
+der Fahrer:
+  meaning: chauffeur, bestuurder
+  example: De chauffeur wacht voor het hotel.
+die Rückgabe:
+  meaning: retour, inlevering
+  example: Retour is alleen met bon mogelijk.
+der Gutschein:
+  meaning: cadeaubon, tegoedbon
+  example: Ik heb een cadeaubon voor het restaurant.
+die Beschwerde:
+  meaning: klacht
+  example: Ik schrijf een klacht over de service.
+der Apotheker:
+  meaning: apotheker
+  example: De apotheker legt me de tabletten uit.
+die Krankschreibung:
+  meaning: doktersbriefje, ziekteattest
+  example: Ik heb een doktersbriefje van de dokter.
+der Hausarzt:
+  meaning: huisarts
+  example: Ik ga morgen naar de huisarts.
+die Therapie:
+  meaning: therapie
+  example: De therapie duurt meerdere weken.
+das Visum:
+  meaning: visum
+  example: Ik heb een visum nodig voor de reis.
+die Botschaft:
+  meaning: ambassade
+  example: Ik ga morgen naar de ambassade.
+die Mitteilung:
+  meaning: bericht, mededeling
+  example: Ik heb een belangrijk bericht voor je.
+die Erlaubnis:
+  meaning: toestemming
+  example: Ik heb de toestemming van mijn ouders nodig.
+erlauben:
+  meaning: toestaan, toelaten
+  example: Mijn ouders staan me de reis toe.
+der Artikel:
+  meaning: artikel
+  example: Ik lees een interessant artikel.
+die Notiz:
+  meaning: notitie
+  example: Ik maak een notitie voor morgen.
+die Veranstaltung:
+  meaning: evenement, bijeenkomst
+  example: Het evenement vindt plaats in het park.
+die Eintrittskarte:
+  meaning: toegangskaart, entreekaartje
+  example: Ik koop een toegangskaart voor het museum.
+die Landschaft:
+  meaning: landschap
+  example: Het landschap is echt prachtig.
+die Aussicht:
+  meaning: uitzicht
+  example: Vanaf hier heb je een mooi uitzicht.
+die Übernachtung:
+  meaning: overnachting
+  example: De overnachting in het hotel was duur.
+die Anreise:
+  meaning: heenreis
+  example: De heenreis met de trein duurt lang.
+die Abreise:
+  meaning: vertrek
+  example: Het vertrek is voor zondag gepland.
+der Fernbus:
+  meaning: langeafstandsbus
+  example: De langeafstandsbus is goedkoper dan de trein.
+das Kennzeichen:
+  meaning: kenteken
+  example: Ik noteer het kenteken van de auto.
+der Strafzettel:
+  meaning: bekeuring, parkeerbon
+  example: Ik heb een bekeuring gekregen.
+die Küste:
+  meaning: kust
+  example: We gaan in het weekend naar de kust.
+der Mietpreis:
+  meaning: huurprijs
+  example: De huurprijs is te hoog.
+die Wohnungsbesichtigung:
+  meaning: woningbezichtiging
+  example: Morgen heb ik een woningbezichtiging.
+die Hausverwaltung:
+  meaning: woningbeheer, beheerder
+  example: De beheerder repareert de lift.
+der Einzug:
+  meaning: intrek
+  example: De intrek was erg stressvol.
+der Auszug:
+  meaning: vertrek uit woning
+  example: Het vertrek uit de woning was stressvol.
+der Dachboden:
+  meaning: zolder
+  example: De koffers staan op zolder.
+die Terrasse:
+  meaning: terras
+  example: We ontbijten op het terras.
+die Routine:
+  meaning: routine
+  example: Mijn ochtendroutine is belangrijk.
+der Humor:
+  meaning: humor
+  example: Hij heeft een goed gevoel voor humor.
+das Lob:
+  meaning: lof, compliment
+  example: Het compliment deed me veel plezier.
+die Kritik:
+  meaning: kritiek
+  example: Ik kan goed met kritiek omgaan.
+der Konflikt:
+  meaning: conflict
+  example: We moeten het conflict oplossen.
+das Argument:
+  meaning: argument
+  example: Jouw argument overtuigt me.
+der Verwandte:
+  meaning: familielid, verwant
+  example: Een familielid bezoekt ons morgen.
+die Erziehung:
+  meaning: opvoeding
+  example: De opvoeding van de kinderen is vermoeiend.
+die Freiheit:
+  meaning: vrijheid
+  example: Vrijheid is erg belangrijk voor mij.
+der Frieden:
+  meaning: vrede
+  example: We willen in vrede leven.
+die Stimme:
+  meaning: stem
+  example: Ze heeft een rustige stem.
+das Lied:
+  meaning: lied, liedje
+  example: Ik vind het lied erg mooi.
+die Mannschaft:
+  meaning: team, ploeg
+  example: Ons team heeft de wedstrijd gewonnen.
+das Ergebnis:
+  meaning: resultaat, uitslag
+  example: Het resultaat was beter dan verwacht.
+die Chance:
+  meaning: kans
+  example: Dat is een goede kans voor jou.
+das Pech:
+  meaning: pech, ongeluk
+  example: Ik had pech met het weer.
+der Zufall:
+  meaning: toeval
+  example: Het was alleen maar toeval.
+die Gefahr:
+  meaning: gevaar
+  example: Het gevaar is gelukkig voorbij.
+der Umweltschutz:
+  meaning: milieubescherming
+  example: Milieubescherming is belangrijk voor iedereen.
+das Klima:
+  meaning: klimaat
+  example: Het klimaat verandert snel.
+bereits:
+  meaning: al, reeds
+  example: Ik heb al gegeten.
+dennoch:
+  meaning: toch, desondanks
+  example: Het regent, toch ga ik wandelen.
+jedoch:
+  meaning: echter, maar
+  example: Ik wilde komen, maar ik had geen tijd.
+einerseits:
+  meaning: enerzijds
+  example: Enerzijds is het duur, anderzijds heel goed.
+teilweise:
+  meaning: gedeeltelijk, deels
+  example: Het antwoord is gedeeltelijk juist.
+ziemlich:
+  meaning: nogal, tamelijk
+  example: Het boek is nogal interessant.
+völlig:
+  meaning: volledig, helemaal
+  example: Ik ben helemaal moe.
+unbedingt:
+  meaning: absoluut, beslist
+  example: Je moet absoluut naar de dokter gaan.
+eventuell:
+  meaning: misschien, eventueel
+  example: Misschien kom ik later.
+möglicherweise:
+  meaning: mogelijk, misschien
+  example: Mogelijk regent het morgen.
+weshalb:
+  meaning: waarom
+  example: Waarom heb je niet gebeld?
+wieso:
+  meaning: waarom, hoezo
+  example: Waarom ben je zo verdrietig?
+nirgendwo:
+  meaning: nergens
+  example: Ik vind mijn sleutel nergens.
+irgendwo:
+  meaning: ergens
+  example: Ik heb mijn telefoon ergens verloren.
+irgendwann:
+  meaning: ooit, eens
+  example: Ooit kom ik bij je op bezoek.
+irgendwie:
+  meaning: op enigerlei wijze
+  example: Op een of andere manier heb ik het gevoel dat je liegt.
+sowieso:
+  meaning: hoe dan ook, toch al
+  example: Ik kom sowieso te laat.
+ebenfalls:
+  meaning: eveneens, ook
+  example: Ik houd van koffie, mijn broer ook.
+zusätzlich:
+  meaning: extra, bovendien
+  example: Daarnaast heb ik nog melk nodig.
+ansonsten:
+  meaning: anders, verder
+  example: Schiet op, anders missen we de trein.
+häufig:
+  meaning: vaak
+  example: Ik ga vaak naar de bioscoop.
+gelegentlich:
+  meaning: af en toe, soms
+  example: Af en toe drink ik een glas wijn.
+rechtzeitig:
+  meaning: op tijd
+  example: Kom alsjeblieft op tijd voor de afspraak.
+meist:
+  meaning: meestal
+  example: Meestal ga ik met de fiets.
+bestimmt:
+  meaning: zeker, bepaald
+  example: Hij komt zeker te laat.
+mehrere:
+  meaning: meerdere, verscheidene
+  example: Ik heb meerdere vragen.
+das Blut:
+  meaning: bloed
+  example: De dokter neemt bloed bij me af.
+der Blutdruck:
+  meaning: bloeddruk
+  example: Mijn bloeddruk is vandaag te hoog.
+die Lunge:
+  meaning: long
+  example: Roken is slecht voor de longen.
+der Darm:
+  meaning: darm
+  example: De darm is een belangrijk orgaan.
+die Niere:
+  meaning: nier
+  example: De nier filtert het bloed.
+die Leber:
+  meaning: lever
+  example: Alcohol schaadt de lever.
+das Gehirn:
+  meaning: hersenen, brein
+  example: De hersenen hebben veel zuurstof nodig.
+der Knochen:
+  meaning: bot, been
+  example: Het bot is gebroken.
+der Muskel:
+  meaning: spier
+  example: Na het sporten doet de spier pijn.
+das Gelenk:
+  meaning: gewricht
+  example: Het gewricht is opgezwollen.
+die Vorsorge:
+  meaning: preventie, voorzorg
+  example: Voorkomen is beter dan genezen.
+die Klinik:
+  meaning: kliniek
+  example: Hij ligt in de kliniek.
+die Währung:
+  meaning: valuta, munteenheid
+  example: Ik moet geld in een andere valuta wisselen.
+der Wechselkurs:
+  meaning: wisselkoers
+  example: De wisselkoers is vandaag slecht.
+das Einzelzimmer:
+  meaning: eenpersoonskamer
+  example: Ik wil een eenpersoonskamer boeken.
+die Rezeption:
+  meaning: receptie
+  example: De receptie is dag en nacht bezet.
+das Bargeld:
+  meaning: contant geld, cash
+  example: Ik betaal liever met contant geld.
+die EC-Karte:
+  meaning: pinpas, debetkaart
+  example: Kan ik met pinpas betalen?
+der Geldautomat:
+  meaning: geldautomaat, pinautomaat
+  example: Ik moet naar de geldautomaat gaan.
+die Rente:
+  meaning: pensioen
+  example: Hij krijgt binnenkort zijn pensioen.
+die Sendung:
+  meaning: zending, uitzending
+  example: De zending is nog niet aangekomen.
+die Akte:
+  meaning: dossier, akte
+  example: Het dossier ligt op het bureau.
+der Widerspruch:
+  meaning: bezwaar, tegenspraak
+  example: Ik maak bezwaar tegen de beschikking.
+die Vollmacht:
+  meaning: volmacht
+  example: U hebt een volmacht nodig voor de handtekening.
+die Beglaubigung:
+  meaning: legalisatie, certificering
+  example: Ik heb een legalisatie van mijn handtekening nodig.
+heiraten:
+  meaning: trouwen
+  example: Ze willen in de zomer trouwen.
+sich trennen:
+  meaning: uit elkaar gaan, scheiden
+  example: Ze willen helaas uit elkaar gaan.
+ängstlich:
+  meaning: bang, angstig
+  example: Het kind is bang bij onweer.
+sich sorgen:
+  meaning: zich zorgen maken
+  example: Ik maak me zorgen om mijn moeder.
+geduldig:
+  meaning: geduldig
+  example: Wees alsjeblieft geduldig met de kinderen.
+mutig:
+  meaning: moedig, dapper
+  example: Het was moedig van je om dat te zeggen.
+sympathisch:
+  meaning: sympathiek, aardig
+  example: Je nieuwe collega is heel sympathiek.
+vertrauen:
+  meaning: vertrouwen
+  example: Ik vertrouw je volledig.
+respektieren:
+  meaning: respecteren
+  example: We moeten de mening van anderen respecteren.
+ändern:
+  meaning: veranderen, wijzigen
+  example: Ik moet mijn afspraak wijzigen.
+aufhören:
+  meaning: stoppen, ophouden
+  example: Stop alsjeblieft met roken.
+aufpassen:
+  meaning: opletten, oppassen
+  example: Let op de kinderen!
+aussehen:
+  meaning: eruitzien
+  example: Je ziet er vandaag moe uit.
+beenden:
+  meaning: beëindigen, afmaken
+  example: Ik wil het werk beëindigen.
+beschreiben:
+  meaning: beschrijven
+  example: Kun je het probleem beschrijven?
+besitzen:
+  meaning: bezitten, hebben
+  example: Hij bezit een groot huis.
+diskutieren:
+  meaning: discussiëren, bespreken
+  example: We discussiëren over het onderwerp.
+erledigen:
+  meaning: afhandelen, voltooien
+  example: Ik moet nog een taak afhandelen.
+erreichen:
+  meaning: bereiken, halen
+  example: Wanneer bereiken we het station?
+funktionieren:
+  meaning: werken, functioneren
+  example: De lift werkt niet.
+kennenlernen:
+  meaning: leren kennen
+  example: Ik wil nieuwe mensen leren kennen.
+kontrollieren:
+  meaning: controleren, checken
+  example: Controleer alstublieft de rekening.
+lösen:
+  meaning: oplossen
+  example: We moeten het probleem oplossen.
+mitnehmen:
+  meaning: meenemen
+  example: Neem een paraplu mee.
+nennen:
+  meaning: noemen, opnoemen
+  example: Kun je een voorbeeld noemen?
+sondern:
+  meaning: maar, veeleer
+  example: Ik drink geen koffie, maar thee.
+je:
+  meaning: ooit, per, hoe
+  example: Hoe meer, des te beter.
+desto:
+  meaning: des te
+  example: Hoe eerder, des te beter.
+etwa:
+  meaning: ongeveer, circa
+  example: Het duurt ongeveer tien minuten.
+beinahe:
+  meaning: bijna
+  example: Ik ben bijna te laat gekomen.
+berichten:
+  meaning: berichten, melden
+  example: De krant bericht over het ongeluk.
+beruhigen:
+  meaning: kalmeren, geruststellen
+  example: Kalmeer alsjeblieft!
+beschäftigen:
+  meaning: tewerkstellen, bezighouden
+  example: Het bedrijf heeft 50 medewerkers in dienst.
+beschließen:
+  meaning: besluiten
+  example: We besluiten te gaan.
+betreuen:
+  meaning: begeleiden, verzorgen
+  example: Zij zorgt voor de kinderen.
+einnehmen:
+  meaning: innemen
+  example: Neem de tabletten in.
+einschlafen:
+  meaning: in slaap vallen
+  example: Ik kan niet in slaap vallen.
+entdecken:
+  meaning: ontdekken
+  example: We ontdekken nieuwe plekken.
+entwickeln:
+  meaning: ontwikkelen
+  example: We ontwikkelen een nieuw product.
+der Anruf:
+  meaning: telefoontje, oproep
+  example: Ik heb een telefoontje gekregen.
+der Bericht:
+  meaning: bericht, verslag
+  example: Ik lees het bericht.
+die Daten:
+  meaning: gegevens, data
+  example: De gegevens zijn opgeslagen.
+die Entfernung:
+  meaning: afstand
+  example: De afstand is groot.
+die Änderung:
+  meaning: verandering, wijziging
+  example: De wijziging is belangrijk.
+der Bürger:
+  meaning: burger, inwoner
+  example: De burgers protesteren.
+die Ahnung:
+  meaning: idee, vermoeden
+  example: Ik heb geen idee.
+der Arbeiter:
+  meaning: arbeider, werknemer
+  example: De arbeider repareert het dak.
+die Ausnahme:
+  meaning: uitzondering
+  example: Dat is een uitzondering.
+der Ausdruck:
+  meaning: uitdrukking, term
+  example: De uitdrukking is verkeerd.
+der Bankautomat:
+  meaning: geldautomaat, pinautomaat
+  example: Ik ga naar de geldautomaat.
+die Einnahme:
+  meaning: inname (medicijn)
+  example: Het innemen van de medicatie is belangrijk.
+die Erfindung:
+  meaning: uitvinding
+  example: De uitvinding is geniaal.
+die Fabrik:
+  meaning: fabriek
+  example: De fabriek produceert auto's.
+der Fortschritt:
+  meaning: vooruitgang, voortgang
+  example: We maken vooruitgang.
+aktiv:
+  meaning: actief
+  example: Ik ben sportief actief.
+allgemein:
+  meaning: algemeen
+  example: Dat is algemeen bekend.
+angenehm:
+  meaning: aangenaam, prettig
+  example: Het weer is aangenaam.
+ärgerlich:
+  meaning: ergerlijk, vervelend
+  example: Dat is echt vervelend.
+ausgezeichnet:
+  meaning: uitstekend, voortreffelijk
+  example: Het eten was uitstekend.
+ausreichend:
+  meaning: voldoende, toereikend
+  example: Het geld is voldoende.
+bereit:
+  meaning: bereid, klaar
+  example: Ik ben klaar om te gaan.
+beschäftigt:
+  meaning: bezig, druk
+  example: Ik ben vandaag heel druk.
+besorgt:
+  meaning: bezorgd, ongerust
+  example: Zij is bezorgd om hem.
+bewusst:
+  meaning: bewust
+  example: Dat is mij bewust.
+anstatt:
+  meaning: in plaats van
+  example: In plaats van te leren, speelt hij.
+innerhalb:
+  meaning: binnen
+  example: Het project is binnen een week klaar.
+außerhalb:
+  meaning: buiten
+  example: We wonen buiten de stad.
+aufgrund:
+  meaning: vanwege, wegens
+  example: Vanwege de regen blijven we.
+dank:
+  meaning: dankzij
+  example: Dankzij jou is het me gelukt.
+bitten:
+  meaning: vragen, verzoeken
+  example: Ik wil je om hulp vragen.
+merken:
+  meaning: onthouden, noteren
+  example: Ik onthoud je telefoonnummer.
+stimmen:
+  meaning: kloppen, juist zijn
+  example: Dat klopt, je hebt volledig gelijk.
+organisieren:
+  meaning: organiseren
+  example: Ik organiseer de reis voor ons.
+vereinbaren:
+  meaning: afspreken, overeenkomen
+  example: We maken een afspraak voor maandag.
+begrüßen:
+  meaning: begroeten, verwelkomen
+  example: De chef begroet de nieuwe collega's.
+erwarten:
+  meaning: verwachten
+  example: Ik verwacht je antwoord voor morgen.
+konzentrieren:
+  meaning: concentreren
+  example: Ik kan me hier niet concentreren.
+ausmachen:
+  meaning: uitschakelen, uitdoen
+  example: Doe alsjeblieft het licht in de gang uit.
+hängen:
+  meaning: hangen
+  example: Het schilderij hangt boven de bank.
+stecken:
+  meaning: vastzitten, steken
+  example: De sleutel zit nog in het slot.
+legen:
+  meaning: leggen
+  example: Leg de tas op tafel.
+fallen:
+  meaning: vallen
+  example: Voorzichtig, anders val je op de trap.
+steigen:
+  meaning: stijgen
+  example: De prijzen stijgen helaas elke maand.
+sinken:
+  meaning: dalen, zakken
+  example: De temperatuur daalt vannacht sterk.
+wachsen:
+  meaning: groeien
+  example: De kinderen groeien heel snel.
+brechen:
+  meaning: breken
+  example: Hij heeft zijn been gebroken.
+bluten:
+  meaning: bloeden
+  example: De wond bloedt nog een beetje.
+atmen:
+  meaning: ademen
+  example: Na het hardlopen kan ik nauwelijks ademen.
+niesen:
+  meaning: niezen
+  example: Ze niest door de allergie.
+untersuchen:
+  meaning: onderzoeken
+  example: De arts onderzoekt vandaag mijn rug.
+behandeln:
+  meaning: behandelen
+  example: De arts behandelt de wond met zalf.
+operieren:
+  meaning: opereren
+  example: Ze moeten de knie morgen opereren.
+messen:
+  meaning: meten
+  example: De verpleegster meet mijn bloeddruk.
+impfen:
+  meaning: inenten, vaccineren
+  example: De arts vaccineert de kinderen tegen griep.
+verschreiben:
+  meaning: voorschrijven
+  example: De arts schrijft me een nieuw medicijn voor.
+schwanger:
+  meaning: zwanger
+  example: Mijn collega is sinds april zwanger.
+überrascht:
+  meaning: verrast
+  example: Ze was heel verrast door het nieuws.
+enttäuscht:
+  meaning: teleurgesteld
+  example: Ik ben teleurgesteld over het resultaat.
+verheiratet:
+  meaning: getrouwd
+  example: Mijn zus is sinds mei getrouwd.
+geschieden:
+  meaning: gescheiden
+  example: Hij is sinds een jaar gescheiden.
+ledig:
+  meaning: ongehuwd, alleenstaand
+  example: Ze is nog ongehuwd en woont alleen.
+eifersüchtig:
+  meaning: jaloers
+  example: Hij is vaak jaloers op haar.
+peinlich:
+  meaning: gênant, pijnlijk
+  example: De fout was voor mij heel gênant.
+ernst:
+  meaning: ernstig, serieus
+  example: Dat is een ernstige situatie voor ons.
+selbstständig:
+  meaning: zelfstandig, freelance
+  example: Ze werkt zelfstandig vanuit huis.
+täglich:
+  meaning: dagelijks
+  example: Ik ga dagelijks met de bus.
+wöchentlich:
+  meaning: wekelijks
+  example: We hebben wekelijks een korte bespreking.
+monatlich:
+  meaning: maandelijks
+  example: De huur betaal ik maandelijks.
+jährlich:
+  meaning: jaarlijks
+  example: Het examen vindt jaarlijks in mei plaats.
+mindestens:
+  meaning: minstens, ten minste
+  example: De cursus duurt minstens zes weken.
+höchstens:
+  meaning: hoogstens, maximaal
+  example: We hebben hoogstens tien minuten nodig.
+spätestens:
+  meaning: uiterlijk
+  example: Kom alsjeblieft uiterlijk om acht uur.
+überhaupt:
+  meaning: helemaal, überhaupt
+  example: Ik heb vandaag helemaal geen tijd.
+tatsächlich:
+  meaning: inderdaad, werkelijk
+  example: Hij heeft inderdaad de laatste trein gemist.
+indem:
+  meaning: door, terwijl
+  example: Je leert Duits door veel te oefenen.
+der Absender:
+  meaning: afzender
+  example: De afzender staat boven op de brief.
+der Empfänger:
+  meaning: ontvanger
+  example: De ontvanger woont in een andere stad.
+die Postleitzahl:
+  meaning: postcode
+  example: Schrijf de postcode alsjeblieft duidelijk.
+der Betreff:
+  meaning: onderwerp, onderwerpregel
+  example: Schrijf het onderwerp in de eerste regel.
+der Beleg:
+  meaning: bon, bewijs
+  example: Bewaar de bon alsjeblieft goed.
+der Kassenbon:
+  meaning: kassabon
+  example: Ik heb de kassabon nodig voor de klacht.
+die Matratze:
+  meaning: matras
+  example: De nieuwe matras is heel comfortabel.
+die Kommode:
+  meaning: commode, ladekast
+  example: De commode staat naast het bed.
+der Wasserkocher:
+  meaning: waterkoker
+  example: De waterkoker is alweer kapot.
+die Kaffeemaschine:
+  meaning: koffiemachine, koffiezetapparaat
+  example: De koffiemachine staat in de keuken.
+die Vergangenheit:
+  meaning: verleden
+  example: In het verleden was alles anders.
+sich erkundigen:
+  meaning: informeren, navragen
+  example: Ik informeer me naar de dienstregeling.
+sich gewöhnen:
+  meaning: wennen
+  example: Ik wen aan het weer.
+sich befinden:
+  meaning: zich bevinden
+  example: Het kantoor bevindt zich op de begane grond.
+der Fall:
+  meaning: geval
+  example: In dit geval bellen we de arts.
+der Blick:
+  meaning: blik, kijkje
+  example: Een blik op de klok is genoeg.
+die Rolle:
+  meaning: rol
+  example: Zij speelt een belangrijke rol in het team.
+der Schritt:
+  meaning: stap
+  example: De eerste stap is vaak de moeilijkste.
+das Programm:
+  meaning: programma
+  example: Het programma draait op de computer.
+der Wert:
+  meaning: waarde
+  example: De waarde van het huis is gestegen.
+die Wahl:
+  meaning: keuze, verkiezing
+  example: De verkiezing vindt volgende week plaats.
+der Rat:
+  meaning: advies
+  example: Een goed advies kan veel helpen.
+die Ordnung:
+  meaning: orde, netheid
+  example: Orde op de werkplek bespaart tijd.
+die Menge:
+  meaning: hoeveelheid
+  example: We hebben een grote hoeveelheid water nodig.
+die Reihe:
+  meaning: rij, reeks
+  example: Wij zitten in de eerste rij.
+das Gegenteil:
+  meaning: tegenovergestelde
+  example: Het tegenovergestelde van heet is koud.
+der Typ:
+  meaning: type, kerel
+  example: Hij is een rustig type.
+die Nähe:
+  meaning: nabijheid, buurt
+  example: De woning ligt in de buurt van het station.
+der Bereich:
+  meaning: gebied, terrein
+  example: Dat is een belangrijk gebied binnen het bedrijf.
+die Funktion:
+  meaning: functie
+  example: Deze functie in het programma is nieuw.
+der Prozess:
+  meaning: proces
+  example: Het proces duurt meerdere weken.
+das System:
+  meaning: systeem
+  example: Het systeem werkt sinds gisteren niet.
+die Struktur:
+  meaning: structuur
+  example: De structuur van het rapport is duidelijk.
+der Dienst:
+  meaning: dienst, plicht
+  example: De dienst begint om acht uur.
+die Leistung:
+  meaning: prestatie
+  example: Zijn prestatie in de cursus is verbeterd.
+die Tätigkeit:
+  meaning: werkzaamheid, activiteit
+  example: Mijn werk op kantoor is afwisselend.
+die Vorbereitung:
+  meaning: voorbereiding
+  example: De voorbereiding op het examen kost tijd.
+die Maßnahme:
+  meaning: maatregel
+  example: De maatregel helpt tegen het lawaai.
+die Zustimmung:
+  meaning: instemming, toestemming
+  example: We hebben de toestemming van de baas nodig.
+die Übersicht:
+  meaning: overzicht
+  example: Het overzicht toont alle afspraken.
+das Verfahren:
+  meaning: procedure, proces
+  example: De procedure duurt meerdere maanden.
+das Gesetz:
+  meaning: wet
+  example: De nieuwe wet geldt vanaf januari.
+die Grundlage:
+  meaning: basis, grondslag
+  example: Vertrouwen is de basis van de samenwerking.
+die Kenntnis:
+  meaning: kennis
+  example: Zij heeft goede kennis van wiskunde.
+die Nachfrage:
+  meaning: vraag
+  example: De vraag naar woningen is hoog.
+der Handel:
+  meaning: handel
+  example: De handel in levensmiddelen groeit.
+die Erwartung:
+  meaning: verwachting
+  example: De verwachtingen van de klanten zijn hoog.
+der Einfluss:
+  meaning: invloed
+  example: Zij heeft grote invloed op het team.
+das Verhältnis:
+  meaning: verhouding, relatie
+  example: De verhouding met de collega's is goed.
+das Verständnis:
+  meaning: begrip
+  example: Bedankt voor uw begrip.
+die Reaktion:
+  meaning: reactie
+  example: Zijn reactie was volkomen verrassend.
+die Lüge:
+  meaning: leugen
+  example: Een leugen verwoest vaak het vertrouwen.
+die Schuld:
+  meaning: schuld, fout
+  example: Hij geeft mij de schuld van de fout.
+die Überlegung:
+  meaning: overweging
+  example: Na korte overweging zei ze ja.
+der Versuch:
+  meaning: poging
+  example: De poging was helaas niet succesvol.
+der Zusammenhang:
+  meaning: verband, samenhang
+  example: Tussen stress en ziekte bestaat een verband.
+der Zweck:
+  meaning: doel
+  example: Het doel van deze reis is zakelijk.
+die Förderung:
+  meaning: steun, financiering
+  example: De instantie biedt steun voor cursussen aan.
+die Weiterbildung:
+  meaning: bijscholing
+  example: Het bedrijf betaalt een bijscholing.
+die Führung:
+  meaning: rondleiding, leiding
+  example: De rondleiding door het museum begint zo.
+beantragen:
+  meaning: aanvragen
+  example: Ik wil een nieuw paspoort aanvragen.
+die Politik:
+  meaning: politiek
+  example: Over politiek discussiëren we vaak 's avonds.
+das Prinzip:
+  meaning: principe
+  example: Het principe is eenvoudig en duidelijk.
+das Erlebnis:
+  meaning: ervaring, belevenis
+  example: De reis was een mooie ervaring.
+das Benehmen:
+  meaning: gedrag, manieren
+  example: Zijn gedrag was zeer beleefd.
+die Debatte:
+  meaning: debat
+  example: Het debat op televisie was interessant.
+der Bescheid:
+  meaning: bericht, mededeling
+  example: Ik laat het u morgen weten.
+die Aussprache:
+  meaning: uitspraak
+  example: De uitspraak van het woord is moeilijk.
+der Ausländer:
+  meaning: buitenlander
+  example: De buitenlander leert snel Duits.
+benötigen:
+  meaning: nodig hebben, vereisen
+  example: Wij hebben nog enkele documenten nodig.
+erhalten:
+  meaning: ontvangen
+  example: U ontvangt het antwoord per post.
+annehmen:
+  meaning: aannemen, accepteren
+  example: Wij nemen uw voorstel graag aan.
+bestehen:
+  meaning: bestaan uit, slagen
+  example: Het examen bestaat uit twee delen.
+gelten:
+  meaning: gelden, geldig zijn
+  example: Deze regel geldt voor iedereen.
+das Recht:
+  meaning: recht, wet
+  example: Iedereen heeft recht op hulp.
+die Wahrheit:
+  meaning: waarheid
+  example: De waarheid is niet eenvoudig.
+der Sinn:
+  meaning: zin, betekenis
+  example: Dat heeft geen zin.
+die Entwicklung:
+  meaning: ontwikkeling
+  example: De ontwikkeling van de stad is positief.
+der Beitrag:
+  meaning: bijdrage, contributie
+  example: De contributie kost tien euro.
+der Abschluss:
+  meaning: diploma, afronding
+  example: Ze heeft haar diploma gehaald.
+die Übung:
+  meaning: oefening, praktijk
+  example: Deze oefening helpt tegen rugpijn.
+die Meldung:
+  meaning: bericht, melding
+  example: Het bericht kwam vanmorgen.
+der Austausch:
+  meaning: uitwisseling
+  example: De uitwisseling met collega's helpt.
+die Sicht:
+  meaning: zicht, mening
+  example: Vanuit mijn perspectief is dat fout.
+die Planung:
+  meaning: planning
+  example: De planning duurt nog twee weken.
+die Organisation:
+  meaning: organisatie
+  example: De organisatie van het feest was moeilijk.
+die Sitzung:
+  meaning: vergadering, zitting
+  example: De vergadering begint om negen.
+die Vorstellung:
+  meaning: voorstelling, idee
+  example: De voorstelling was echt goed.
+der Anlass:
+  meaning: gelegenheid, reden
+  example: De gelegenheid is een verjaardag.
+die Absprache:
+  meaning: afspraak, overleg
+  example: We hebben een afspraak gemaakt.
+die Veränderung:
+  meaning: verandering
+  example: De verandering bevalt me niet.
+die Teilnahme:
+  meaning: deelname
+  example: De deelname aan de cursus is vrijwillig.
+die Anleitung:
+  meaning: handleiding, instructie
+  example: De handleiding is makkelijk te begrijpen.
+der Bewohner:
+  meaning: bewoner
+  example: De bewoner klaagt over lawaai.
+die Höhe:
+  meaning: hoogte, bedrag
+  example: De hoogte van de huur is belangrijk.
+die Mitte:
+  meaning: midden, centrum
+  example: De tafel staat in het midden.
+die Zahlung:
+  meaning: betaling
+  example: De betaling gebeurt per kaart.
+der Verkauf:
+  meaning: verkoop
+  example: De verkoop begint vroeg.
+der Eintritt:
+  meaning: entree, toegang
+  example: De toegang tot het museum kost geld.
+der Transport:
+  meaning: transport, vervoer
+  example: Het transport van de meubels was duur.
+die Warnung:
+  meaning: waarschuwing
+  example: De waarschuwing kwam op tijd.
+das Verbot:
+  meaning: verbod
+  example: Het verbod geldt vanaf morgen.
+der Verbrauch:
+  meaning: verbruik, consumptie
+  example: Het stroomverbruik is hoog.
+der Verlust:
+  meaning: verlies
+  example: Het verlies doet hem veel pijn.
+der Wechsel:
+  meaning: wisseling, verandering
+  example: De verandering van baan was juist.
+die Beförderung:
+  meaning: promotie, vervoer
+  example: Hij is blij met de promotie.
+der Wettbewerb:
+  meaning: concurrentie, wedstrijd
+  example: De concurrentie is heel hard.
+die Forderung:
+  meaning: eis
+  example: De eis is niet ingewilligd.
+die Begründung:
+  meaning: onderbouwing, reden
+  example: De onderbouwing ontbreekt in de aanvraag.
+der Anspruch:
+  meaning: aanspraak, recht
+  example: Ze hebben recht op vakantie.
+die Anstrengung:
+  meaning: inspanning
+  example: De inspanning was te groot.
+die Aufmerksamkeit:
+  meaning: aandacht
+  example: Ze heeft veel aandacht nodig.
+die Drohung:
+  meaning: dreiging, bedreiging
+  example: De bedreiging heeft hem bang gemaakt.
+der Dank:
+  meaning: dank
+  example: De dank van de buren was groot.
+die Ersparnis:
+  meaning: besparing
+  example: De besparing is helaas heel klein.
+die Handlung:
+  meaning: handeling, plot
+  example: De plot in de film is spannend.
+die Rede:
+  meaning: toespraak, rede
+  example: Zijn toespraak was kort en duidelijk.
+die Sammlung:
+  meaning: verzameling, collectie
+  example: De verzameling ligt in de kast.
+die Spannung:
+  meaning: spanning
+  example: De spanning in de kamer was duidelijk.
+der Stand:
+  meaning: stand, status
+  example: De stand van zaken is goed.
+die Stellung:
+  meaning: positie, baan
+  example: Ze heeft een goede baan.
+die Wiederholung:
+  meaning: herhaling
+  example: De herhaling helpt bij het leren.
+das Wissen:
+  meaning: kennis
+  example: Zijn kennis is indrukwekkend.
+das Zeichen:
+  meaning: teken, signaal
+  example: Geef me een signaal.
+das Zentrum:
+  meaning: centrum
+  example: Het centrum is goed bereikbaar.
+abhängen:
+  meaning: afhangen
+  example: Dat hangt van het weer af.
+abschließen:
+  meaning: afsluiten, voltooien
+  example: Sluit u alstublieft de deur af.
+anpassen:
+  meaning: aanpassen
+  example: We moeten het plan aanpassen.
+ausleihen:
+  meaning: lenen, uitlenen
+  example: Kan ik het boek lenen?
+beachten:
+  meaning: opvolgen, letten op
+  example: Let u alstublieft op de regels.
+bedienen:
+  meaning: bedienen, gebruiken
+  example: De ober bedient de gasten.
+beeinflussen:
+  meaning: beïnvloeden
+  example: Het weer beïnvloedt de stemming.
+bemerken:
+  meaning: opmerken, merken
+  example: Ik heb de fout opgemerkt.
+bestimmen:
+  meaning: bepalen
+  example: De baas bepaalt de regels.
+beraten:
+  meaning: adviseren
+  example: De verkoper adviseert de klanten vriendelijk.
+ausgeben:
+  meaning: uitgeven, besteden
+  example: Ik geef te veel geld uit.
+kündigen:
+  meaning: opzeggen, ontslag nemen
+  example: Zij zegt haar contract op per eind van de maand.
+verlängern:
+  meaning: verlengen
+  example: Ik wil mijn contract verlengen.
+einstellen:
+  meaning: aannemen, inhuren
+  example: Het bedrijf neemt nieuwe medewerkers aan.
+entlassen:
+  meaning: ontslaan
+  example: Het bedrijf ontslaat tien medewerkers.
+leiten:
+  meaning: leiden, beheren
+  example: Zij leidt de afdeling al lang.
+übernehmen:
+  meaning: overnemen
+  example: Hij neemt de nieuwe taak over.
+vertreten:
+  meaning: vervangen, vertegenwoordigen
+  example: Ik vervang vandaag mijn collega.
+absagen:
+  meaning: afzeggen
+  example: Ik moet de afspraak helaas afzeggen.
+zustimmen:
+  meaning: instemmen, beamen
+  example: De chef stemt met het plan in.
+ablehnen:
+  meaning: afwijzen, weigeren
+  example: De instantie wijst de aanvraag af.
+bearbeiten:
+  meaning: verwerken, behandelen
+  example: Ik verwerk de aanvraag vandaag.
+ausstellen:
+  meaning: uitgeven, afgeven
+  example: De instantie geeft het paspoort uit.
+ummelden:
+  meaning: zich opnieuw inschrijven
+  example: Ik moet me na de verhuizing opnieuw inschrijven.
+abmelden:
+  meaning: afmelden, uitschrijven
+  example: Ik moet me bij de instantie uitschrijven.
+stempeln:
+  meaning: stempelen
+  example: De ambtenaar stempelt het formulier.
+sortieren:
+  meaning: sorteren, ordenen
+  example: Ik sorteer de papieren op datum.
+ablegen:
+  meaning: opbergen, archiveren
+  example: Berg het dossier alstublieft op.
+heften:
+  meaning: nieten, vasthechten
+  example: Maak de bladen alstublieft aan elkaar vast met een nietje.
+drucken:
+  meaning: printen, drukken
+  example: Print het formulier alstublieft uit.
+scannen:
+  meaning: scannen
+  example: Scan de identiteitskaart alstublieft in.
+speichern:
+  meaning: opslaan
+  example: Sla het bestand op voordat u het sluit.
+löschen:
+  meaning: verwijderen, wissen
+  example: Ik verwijder de oude bestanden.
+notieren:
+  meaning: noteren, opschrijven
+  example: Ik noteer de afspraak in de agenda.
+weiterleiten:
+  meaning: doorsturen
+  example: Stuur de e-mail alstublieft door.
+umtauschen:
+  meaning: omruilen
+  example: Ik wil deze broek omruilen.
+reklamieren:
+  meaning: reclameren, klacht indienen
+  example: Wij dienen een klacht in over de kapotte koelkast.
+liefern:
+  meaning: leveren, bezorgen
+  example: De supermarkt bezorgt vanaf tien euro.
+stornieren:
+  meaning: annuleren, afzeggen
+  example: Ik moet het hotel helaas annuleren.
+sich verspäten:
+  meaning: vertraging hebben
+  example: De trein heeft tien minuten vertraging.
+tanken:
+  meaning: tanken
+  example: Ik moet nog benzine tanken.
+landen:
+  meaning: landen
+  example: Het vliegtuig landt op tijd.
+starten:
+  meaning: starten, beginnen
+  example: De trein vertrekt over vijf minuten.
+anhalten:
+  meaning: stoppen, aanhouden
+  example: De bus stopt bij de volgende hoek.
+losfahren:
+  meaning: wegrijden, vertrekken
+  example: Wij vertrekken morgen vroeg.
+abfliegen:
+  meaning: opstijgen, vertrekken
+  example: Ons vliegtuig vertrekt morgen vroeg.
+bremsen:
+  meaning: remmen
+  example: Hij remt voor de kruising.
+mitfahren:
+  meaning: meerijden
+  example: Mag ik met de auto meerijden?
+auschecken:
+  meaning: uitchecken
+  example: Wij checken morgen vroeg uit.
+spülen:
+  meaning: afwassen, spoelen
+  example: Ik was het servies na het eten af.
+staubsaugen:
+  meaning: stofzuigen
+  example: Ik moet vandaag nog stofzuigen.
+bügeln:
+  meaning: strijken
+  example: Hij strijkt zijn hemden op zondag.
+das Waschmittel:
+  meaning: wasmiddel
+  example: Wij hebben nog wasmiddel nodig voor de was.
+die Klimaanlage:
+  meaning: airconditioning
+  example: De airconditioning werkt niet.
+der Puls:
+  meaning: pols, polsslag
+  example: De arts meet de polsslag.
+der Notausgang:
+  meaning: nooduitgang
+  example: De nooduitgang is links naast de trap.
+der Pfeffer:
+  meaning: peper
+  example: De peper staat naast het zout.
+das Öl:
+  meaning: olie
+  example: Wij hebben nog olie nodig voor de salade.
+das Mehl:
+  meaning: meel, bloem
+  example: Voor de cake hebben we bloem nodig.
+die Soße:
+  meaning: saus
+  example: De saus smaakt heel lekker.
+die Schüssel:
+  meaning: kom, schaal
+  example: De kom staat in de keukenkast.
+die Drogerie:
+  meaning: drogisterij
+  example: Ik koop shampoo in de drogisterij.
+der Korb:
+  meaning: mand
+  example: De mand staat naast de kassa.
+der Gürtel:
+  meaning: riem, gordel
+  example: De riem past niet bij de broek.
+der Mantel:
+  meaning: jas, mantel
+  example: In de winter draag ik een warme jas.
+die Müdigkeit:
+  meaning: vermoeidheid
+  example: De vermoeidheid komt door te weinig slaap.
+der Schlafmangel:
+  meaning: slaaptekort
+  example: Slaaptekort maakt me vaak ziek.
+die Sucht:
+  meaning: verslaving
+  example: Roken kan een verslaving worden.
+der Sonnenbrand:
+  meaning: zonnebrand
+  example: Op het strand krijg je snel zonnebrand.
+der Mittag:
+  meaning: middag, middaguur
+  example: Rond het middaguur eet ik in de kantine.
+der Fußgänger:
+  meaning: de voetganger
+  example: Voetgangers hebben hier voorrang.
+der Fahrstuhl:
+  meaning: de lift
+  example: De lift is helaas buiten werking.
+die Serviette:
+  meaning: het servet
+  example: Geef me alstublieft een servet.
+der Essig:
+  meaning: de azijn
+  example: De salade heeft nog wat azijn nodig.
+die Krankenschwester:
+  meaning: de verpleegster
+  example: De verpleegster meet de bloeddruk.
+der Pfleger:
+  meaning: de verzorger, verpleger
+  example: De verzorger helpt de oude man.
+der Personalausweis:
+  meaning: de identiteitskaart
+  example: Laat alstublieft uw identiteitskaart zien.
+der Arbeitsvertrag:
+  meaning: de arbeidsovereenkomst
+  example: Ik heb de arbeidsovereenkomst ondertekend.
+die Anstellung:
+  meaning: de baan, aanstelling
+  example: Ze heeft een nieuwe baan gevonden.
+der Ärger:
+  meaning: de ergernis, boosheid
+  example: Door het lawaai is er ergernis.
+soweit:
+  meaning: voor zover
+  example: Voor zover ik weet, is de winkel dicht.
+zumindest:
+  meaning: ten minste
+  example: Ten minste in het weekend heb ik tijd.
+gegenüber:
+  meaning: tegenover
+  example: De apotheek ligt tegenover het station.
+der Kreisverkehr:
+  meaning: de rotonde
+  example: Op de rotonde moet u langzaam rijden.
+die Fahrprüfung:
+  meaning: het rijexamen
+  example: Ze is geslaagd voor haar rijexamen.
+die Hauptstraße:
+  meaning: de hoofdstraat
+  example: De winkel ligt aan de hoofdstraat.
+der Werktag:
+  meaning: de werkdag
+  example: Op een werkdag staat ze vroeg op.
+die Gegenwart:
+  meaning: het heden
+  example: In het heden leven we snel.
+sich verhalten:
+  meaning: zich gedragen
+  example: Hij heeft zich verkeerd gedragen.
+verzichten:
+  meaning: afzien van
+  example: Ik wil afzien van suiker.
+hilfsbereit:
+  meaning: behulpzaam
+  example: Mijn buurvrouw is erg behulpzaam.
+neugierig:
+  meaning: nieuwsgierig
+  example: Kinderen zijn vaak erg nieuwsgierig.
+schüchtern:
+  meaning: verlegen
+  example: Hij is een verlegen jongen.
+selbstbewusst:
+  meaning: zelfverzekerd
+  example: Ze is erg zelfverzekerd.
+flexibel:
+  meaning: flexibel
+  example: We hebben flexibele werktijden nodig.
+kreativ:
+  meaning: creatief
+  example: Voor deze taak moet je creatief zijn.
+ehrgeizig:
+  meaning: ambitieus
+  example: Hij is erg ambitieus.
+weich:
+  meaning: zacht
+  example: Het bed is te zacht.
+hart:
+  meaning: hard
+  example: Het brood is oud en hard.
+eng:
+  meaning: nauw, strak
+  example: De broek is me te nauw.
+locker:
+  meaning: los, ruim
+  example: Het hemd zit erg los.
+sich verlieben:
+  meaning: verliefd worden
+  example: Ze is op hem verliefd geworden.
+sich versöhnen:
+  meaning: zich verzoenen
+  example: Na de ruzie verzoenden ze zich.
+sich weigern:
+  meaning: weigeren
+  example: Hij weigert te helpen.
+sich schämen:
+  meaning: zich schamen
+  example: Je hoeft je niet te schamen.
+sich fürchten:
+  meaning: bang zijn, vrezen
+  example: Het kind is bang in het donker.
+sich wundern:
+  meaning: zich verbazen
+  example: Ik verbaas me over zijn gedrag.
+sich langweilen:
+  meaning: zich vervelen
+  example: In de vakantie verveel ik me nooit.
+rücksichtsvoll:
+  meaning: attent
+  example: Hij is altijd attent.
+egoistisch:
+  meaning: egoïstisch
+  example: Zijn gedrag was behoorlijk egoïstisch.
+gelassen:
+  meaning: kalm
+  example: Ze blijft ook onder stress kalm.
+unhöflich:
+  meaning: onbeleefd
+  example: Dat was een onbeleefd antwoord.
+die Eifersucht:
+  meaning: de jaloezie
+  example: Jaloezie kan een relatie kapotmaken.
+die Trauer:
+  meaning: het verdriet, rouw
+  example: Na het verlies voelde hij groot verdriet.
+der Neid:
+  meaning: de afgunst, jaloezie
+  example: Afgunst is geen goed gevoel.
+die Zufriedenheit:
+  meaning: de tevredenheid
+  example: Tevredenheid is belangrijker dan veel geld.
+die Einsamkeit:
+  meaning: de eenzaamheid
+  example: Veel oude mensen lijden onder eenzaamheid.
+die Nervosität:
+  meaning: de zenuwachtigheid
+  example: Voor het examen voel ik zenuwachtigheid.
+die Meldebescheinigung:
+  meaning: het inschrijvingsbewijs
+  example: Voor de aanvraag hebt u een inschrijvingsbewijs nodig.
+die Geburtsurkunde:
+  meaning: de geboorteakte
+  example: Laat alstublieft de geboorteakte zien.
+die Steuererklärung:
+  meaning: de belastingaangifte
+  example: De belastingaangifte moet vóór mei worden ingediend.
+die Aufenthaltsgenehmigung:
+  meaning: de verblijfsvergunning
+  example: Hij vraagt een nieuwe verblijfsvergunning aan.
+die Fahrgemeinschaft:
+  meaning: de carpool
+  example: We gaan als carpool naar het werk.
+sich verloben:
+  meaning: zich verloven
+  example: Ze hebben zich op vakantie verloofd.
+sich benehmen:
+  meaning: zich gedragen
+  example: De kinderen hebben zich goed gedragen.
+sich verändern:
+  meaning: veranderen
+  example: De stad is sterk veranderd.
+handeln:
+  meaning: gaan om
+  example: Het gaat om een probleem.
+die Pflege:
+  meaning: de zorg, verzorging
+  example: Ze werkt in de zorg.
+die Teilzeit:
+  meaning: deeltijd
+  example: Ze werkt alleen in deeltijd.
+der Notfall:
+  meaning: het noodgeval
+  example: Bel in een noodgeval onmiddellijk.
+die Kontrolle:
+  meaning: controle
+  example: De politie houdt een controle.
+das Mittagessen:
+  meaning: lunch
+  example: Na de lunch nemen we pauze.
+das Abendessen:
+  meaning: avondeten, diner
+  example: Als avondeten is er vandaag soep.
+die Zahnbürste:
+  meaning: tandenborstel
+  example: Ik koop een nieuwe tandenborstel.
+die Zahnpasta:
+  meaning: tandpasta
+  example: De tandpasta is bijna op.
+die Schublade:
+  meaning: la
+  example: De la klemt alweer.
+das Bügeleisen:
+  meaning: strijkijzer
+  example: Het strijkijzer is nog heet.
+der Mitbewohner:
+  meaning: huisgenoot
+  example: Mijn huisgenoot kookt vanavond.
+der Honig:
+  meaning: honing
+  example: Ik doe honing in de thee.
+die Marmelade:
+  meaning: jam
+  example: Er is jam bij het ontbijt.
+die Karotte:
+  meaning: wortel
+  example: Ik koop wortels voor de soep.
+der Pilz:
+  meaning: paddenstoel
+  example: De paddenstoelen smaken fris en lekker.
+der Schinken:
+  meaning: ham
+  example: Ik wil ham bij het ontbijt.
+der Quark:
+  meaning: kwark
+  example: Kwark is gezond en lekker.
+die Sahne:
+  meaning: room, slagroom
+  example: De room hoort in de cake.
+das Müsli:
+  meaning: muesli
+  example: Muesli met melk is mijn ontbijt.
+der Keks:
+  meaning: koekje, biscuit
+  example: De kinderen willen een koekje.
+der Zimt:
+  meaning: kaneel
+  example: Kaneel past goed bij appeltaart.
+die Buchhandlung:
+  meaning: boekhandel
+  example: Ik koop het boek in de boekhandel.
+das Shampoo:
+  meaning: shampoo
+  example: De shampoo ruikt heel lekker.
+die Creme:
+  meaning: crème
+  example: Deze crème helpt tegen een droge huid.
+das Taschentuch:
+  meaning: zakdoek
+  example: Ik heb een zakdoek in mijn tas.
+der Kamm:
+  meaning: kam
+  example: De kam ligt in de badkamer.
+die Bürste:
+  meaning: borstel
+  example: De borstel is in de kast.
+der Rasierer:
+  meaning: scheerapparaat, scheermes
+  example: Het scheerapparaat heeft nieuwe batterijen nodig.
+die Kerze:
+  meaning: kaars
+  example: De kaars brandt op tafel.
+die Dekoration:
+  meaning: decoratie
+  example: De decoratie voor het feest is klaar.
+der Snack:
+  meaning: snack, hapje
+  example: Ik eet een kleine snack.
+der Mietwagen:
+  meaning: huurauto
+  example: We nemen een huurauto voor de reis.
+das Navi:
+  meaning: navigatie
+  example: De navigatie wijst ons de juiste weg.
+die Vorfahrt:
+  meaning: voorrang
+  example: Op de kruising geldt de voorrang.
+die Geschwindigkeit:
+  meaning: snelheid
+  example: De snelheid was veel te hoog.
+der Rettungsdienst:
+  meaning: ambulancedienst
+  example: De ambulancedienst kwam heel snel.
+der Arztbesuch:
+  meaning: doktersbezoek
+  example: Het doktersbezoek was gisteren behoorlijk stressvol.
+die Gesundheitskarte:
+  meaning: zorgpas
+  example: Laat alstublieft uw zorgpas zien.
+das Attest:
+  meaning: attest, doktersverklaring
+  example: De dokter schrijft een attest voor mij.
+der Verdienst:
+  meaning: verdienste, inkomen
+  example: Zijn inkomen is genoeg voor de huur.
+der Nebenjob:
+  meaning: bijbaan
+  example: Hij heeft een bijbaan in het weekend.
+die Arbeitslosigkeit:
+  meaning: werkloosheid
+  example: De werkloosheid is hoog in de regio.
+der Arbeitsunfall:
+  meaning: arbeidsongeval
+  example: Het arbeidsongeval werd meteen gemeld.
+die Bedienungsanleitung:
+  meaning: gebruiksaanwijzing, handleiding
+  example: De gebruiksaanwijzing ligt in de doos.
+die Bekanntschaft:
+  meaning: kennismaking, kennis
+  example: Onze kennismaking begon op vakantie.
+die Begegnung:
+  meaning: ontmoeting
+  example: De ontmoeting met haar was mooi.
+die Begeisterung:
+  meaning: enthousiasme
+  example: Ze toont veel enthousiasme voor muziek.
+das Mitleid:
+  meaning: medelijden
+  example: Ik heb medelijden met hem.
+die Sympathie:
+  meaning: sympathie
+  example: De sympathie tussen ons was er meteen.
+die Dankbarkeit:
+  meaning: dankbaarheid
+  example: Hij toonde zijn dankbaarheid met bloemen.
+die Fantasie:
+  meaning: fantasie, verbeelding
+  example: Kinderen hebben veel fantasie.
+das Missverständnis:
+  meaning: misverstand
+  example: Er was een klein misverstand.
+der Kompromiss:
+  meaning: compromis
+  example: We hebben een goed compromis gevonden.
+die Toleranz:
+  meaning: tolerantie
+  example: Tolerantie is belangrijk in een groep.
+die Höflichkeit:
+  meaning: beleefdheid, hoffelijkheid
+  example: Beleefdheid kost niets.
+die Pünktlichkeit:
+  meaning: stiptheid, punctualiteit
+  example: Stiptheid is belangrijk op het werk.
+die Zuverlässigkeit:
+  meaning: betrouwbaarheid
+  example: Betrouwbaarheid is heel belangrijk voor mij.
+die Freundlichkeit:
+  meaning: vriendelijkheid
+  example: Vriendelijkheid helpt op het werk.
+die Ehrlichkeit:
+  meaning: eerlijkheid
+  example: Eerlijkheid is de beste basis.
+die Industrie:
+  meaning: industrie
+  example: De industrie heeft nieuwe vakmensen nodig.
+die Karriere:
+  meaning: carrière
+  example: Ze maakt carrière in het bedrijf.
+die Konkurrenz:
+  meaning: concurrentie
+  example: De concurrentie is heel sterk.
+mitteilen:
+  meaning: meedelen, informeren
+  example: Laat u mij alstublieft de wijziging weten.
+versprechen:
+  meaning: beloven
+  example: Ik beloof je dat ik kom.
+behalten:
+  meaning: houden, bewaren
+  example: Je kunt het boek gerust houden.
+zuhören:
+  meaning: luisteren (naar)
+  example: Luister alsjeblieft nu even naar me.
+nachdenken:
+  meaning: nadenken (over)
+  example: Ik moet over je voorstel nadenken.
+schwierig:
+  meaning: moeilijk
+  example: Het examen was echt heel moeilijk.
+kompliziert:
+  meaning: ingewikkeld, gecompliceerd
+  example: Het formulier is te ingewikkeld voor mij.
+deutlich:
+  meaning: duidelijk
+  example: Spreek alstublieft duidelijk en langzaam.
+nötig:
+  meaning: nodig
+  example: Is het nodig om de aanvraag te ondertekenen?
+unmöglich:
+  meaning: onmogelijk
+  example: Zonder kaartje is de reis onmogelijk.
+zurückgeben:
+  meaning: teruggeven
+  example: Geef me alsjeblieft de sleutel terug.
+mitbringen:
+  meaning: meebrengen
+  example: Kun je alsjeblieft brood meebrengen?
+mitkommen:
+  meaning: meekomen
+  example: Wil je mee naar de markt komen?
+mitmachen:
+  meaning: meedoen
+  example: Ik wil aan de cursus meedoen.
+nachfragen:
+  meaning: navragen, informeren
+  example: Vraag het alsjeblieft na bij de verhuurder.
+ausprobieren:
+  meaning: uitproberen
+  example: Probeer het nieuwe apparaat uit.
+aufschreiben:
+  meaning: opschrijven
+  example: Schrijf het adres alsjeblieft op.
+wegwerfen:
+  meaning: weggooien
+  example: Gooi het afval in de bak.
+zurückkommen:
+  meaning: terugkomen
+  example: Ik kom later terug.
+sich entspannen:
+  meaning: ontspannen
+  example: In het weekend wil ik me ontspannen.
+herunterladen:
+  meaning: downloaden
+  example: Download het bestand alstublieft.
+klicken:
+  meaning: klikken
+  example: Klik alstublieft op de link.
+abheben:
+  meaning: opnemen (geld)
+  example: Ik wil geld opnemen bij de automaat.
+einzahlen:
+  meaning: storten, inbetalen
+  example: Stort het bedrag alstublieft.
+auspacken:
+  meaning: uitpakken
+  example: Pak de spullen alsjeblieft uit.
+früher:
+  meaning: vroeger
+  example: Vroeger woonde ik in Berlijn.
+damals:
+  meaning: toen, destijds
+  example: Toen was alles heel anders.
+demnächst:
+  meaning: binnenkort
+  example: Binnenkort verhuizen we naar een nieuwe woning.
+bisher:
+  meaning: tot nu toe
+  example: Tot nu toe heb ik geen antwoord gekregen.
+neulich:
+  meaning: onlangs, pas geleden
+  example: Onlangs heb ik een vriend ontmoet.
+direkt:
+  meaning: direct, rechtstreeks
+  example: De trein rijdt direct naar het hoofdstation.
+privat:
+  meaning: privé
+  example: Dit is een privégesprek.
+spannend:
+  meaning: spannend
+  example: De film was echt spannend.
+die Vereinbarung:
+  meaning: afspraak, overeenkomst
+  example: We hebben een duidelijke overeenkomst gesloten.
+die Unterhaltung:
+  meaning: gesprek, conversatie
+  example: Het gesprek met haar was heel aardig.
+das Mitglied:
+  meaning: lid
+  example: Hij is lid van onze sportvereniging.
+der Teilnehmer:
+  meaning: deelnemer
+  example: Elke deelnemer krijgt een certificaat.
+die Gemeinschaft:
+  meaning: gemeenschap
+  example: De gemeenschap helpt elkaar.
+die Zusammenarbeit:
+  meaning: samenwerking
+  example: De samenwerking in het team werkt goed.
+die Rückkehr:
+  meaning: terugkeer
+  example: Na de terugkeer moeten we ons adres wijzigen.
+der Abschied:
+  meaning: afscheid
+  example: Afscheid nemen van vrienden is moeilijk.
+die Begrüßung:
+  meaning: begroeting, verwelkoming
+  example: De begroeting was hartelijk en vriendelijk.
+die Beschreibung:
+  meaning: beschrijving
+  example: De beschrijving van de weg was fout.
+die Erzählung:
+  meaning: verhaal, vertelling
+  example: Haar verhaal over de reis was interessant.
+die Erholung:
+  meaning: ontspanning, herstel
+  example: Na de vakantie heb ik ontspanning nodig.
+die Betreuung:
+  meaning: zorg, begeleiding
+  example: De zorg voor de kinderen is goed georganiseerd.
+die Verbesserung:
+  meaning: verbetering
+  example: De verbetering van de situatie duurt nog.
+die Konzentration:
+  meaning: concentratie
+  example: Lawaai stoort mijn concentratie tijdens het werk.
+die Sauberkeit:
+  meaning: netheid, hygiëne
+  example: In de keuken is netheid belangrijk.
+die Ablehnung:
+  meaning: afwijzing, weigering
+  example: De afwijzing van de aanvraag kwam per post.
+die Annahme:
+  meaning: acceptatie, aanname
+  example: De acceptatie van het pakket is bevestigd.
+die Voraussetzung:
+  meaning: voorwaarde
+  example: Goede kennis van het Duits is een voorwaarde.
+die Zusammenfassung:
+  meaning: samenvatting
+  example: Schrijf alstublieft een korte samenvatting.
+unsicher:
+  meaning: onzeker
+  example: Ik ben nog onzeker over de beslissing.
+unnötig:
+  meaning: onnodig
+  example: Deze discussie is volledig onnodig.
+unzufrieden:
+  meaning: ontevreden
+  example: De klant is ontevreden over de service.
+unglücklich:
+  meaning: ongelukkig
+  example: Ze is ongelukkig vanwege de afwijzing.
+unfreundlich:
+  meaning: onvriendelijk
+  example: De verkoper was vandaag erg onvriendelijk.
+unpünktlich:
+  meaning: laat, niet punctueel
+  example: De bus is vandaag weer te laat.
+unzuverlässig:
+  meaning: onbetrouwbaar
+  example: Zijn antwoorden zijn vaak onbetrouwbaar.
+dagegen:
+  meaning: daartegen, tegen
+  example: Ik heb er niets op tegen.
+beziehungsweise:
+  meaning: respectievelijk, ofwel
+  example: Maandag of dinsdag past me goed.
+sowie:
+  meaning: evenals, en ook
+  example: Ik heb melk en brood nodig.
+zudem:
+  meaning: bovendien
+  example: Hij is moe en bovendien ziek.
+ebenso:
+  meaning: evenzo, net zo
+  example: Met mij gaat het net zo.
+entlang:
+  meaning: langs
+  example: Loopt u de straat langs.
+ständig:
+  meaning: voortdurend, constant
+  example: Hij klaagt voortdurend.
+hauptsächlich:
+  meaning: voornamelijk, vooral
+  example: Ik drink voornamelijk water.
+allmählich:
+  meaning: geleidelijk, langzamerhand
+  example: Het wordt geleidelijk donker.
+somit:
+  meaning: dus, derhalve
+  example: Daarmee is de vraag opgehelderd.
+der Bürgersteig:
+  meaning: stoep, trottoir
+  example: Blijf alstublieft op de stoep.
+die Fußgängerzone:
+  meaning: voetgangerszone
+  example: In de voetgangerszone is autorijden verboden.
+der Zebrastreifen:
+  meaning: zebrapad
+  example: Steek de straat over bij het zebrapad.
+die Einbahnstraße:
+  meaning: eenrichtingsstraat
+  example: Deze straat is een eenrichtingsstraat.
+das Parkhaus:
+  meaning: parkeergarage
+  example: Ik parkeer de auto in de parkeergarage.
+der Fensterplatz:
+  meaning: raamplaats
+  example: Ik wil graag een raamplaats.
+die Fahrkartenkontrolle:
+  meaning: kaartcontrole, ticketcontrole
+  example: Bij de ticketcontrole laat ik mijn vervoersbewijs zien.
+der Reisepass:
+  meaning: paspoort
+  example: Mijn paspoort is nog geldig.
+der Aushang:
+  meaning: mededeling, aanplakbiljet
+  example: Het bericht hangt op de begane grond.
+die Aushilfe:
+  meaning: hulpkracht, tijdelijke kracht
+  example: Zij werken als hulpkracht in de winkel.
+das Bewerbungsschreiben:
+  meaning: sollicitatiebrief
+  example: Ik stuur de sollicitatiebrief per e-mail.
+die Arbeitserlaubnis:
+  meaning: werkvergunning
+  example: Voor de baan heb ik een werkvergunning nodig.
+die Krankenversicherung:
+  meaning: zorgverzekering, ziektekostenverzekering
+  example: De zorgverzekering betaalt de behandeling.
+die Zulassung:
+  meaning: toelating, goedkeuring
+  example: De toelating voor de studie is binnen.
+die Heiratsurkunde:
+  meaning: huwelijksakte
+  example: Voor de inschrijving hebben we de huwelijksakte nodig.
+die Grundschule:
+  meaning: basisschool
+  example: Mijn zoon gaat naar de basisschool.
+das Gymnasium:
+  meaning: middelbare school, gymnasium
+  example: Ze zit op het gymnasium.
+die Note:
+  meaning: cijfer, beoordeling
+  example: Voor wiskunde heeft ze een goed cijfer.
+die Kopfschmerzen:
+  meaning: hoofdpijn
+  example: Ik heb vandaag erge hoofdpijn.
+die Halsschmerzen:
+  meaning: keelpijn
+  example: Bij keelpijn helpt warme thee.
+die Bauchschmerzen:
+  meaning: buikpijn
+  example: De buikpijn komt en gaat.
+die Zahnschmerzen:
+  meaning: tandpijn
+  example: Tandpijn is echt heel vervelend.
+der Schal:
+  meaning: sjaal
+  example: In de winter draag ik een sjaal.
+die Socke:
+  meaning: sok
+  example: Er ligt een sok onder het bed.
+der Handschuh:
+  meaning: handschoen
+  example: Ik ben een handschoen verloren.
+die Mütze:
+  meaning: muts, pet
+  example: Zet een muts op!
+die Gardine:
+  meaning: gordijn, vitrage
+  example: Het gordijn in de woonkamer is nieuw.
+wach:
+  meaning: wakker
+  example: Na de koffie ben ik eindelijk wakker.
+verletzt:
+  meaning: gewond
+  example: De bestuurder is gelukkig alleen lichtgewond.
+ansteckend:
+  meaning: besmettelijk
+  example: De ziekte is niet besmettelijk.
+schmerzhaft:
+  meaning: pijnlijk
+  example: De behandeling was nogal pijnlijk.
+gestresst:
+  meaning: gestrest
+  example: Na het werk ben ik vaak gestrest.
+entspannt:
+  meaning: ontspannen
+  example: In het weekend ben ik helemaal ontspannen.
+aufgeregt:
+  meaning: zenuwachtig, opgewonden
+  example: Voor het examen ben ik erg zenuwachtig.
+beliebt:
+  meaning: populair, geliefd
+  example: Dit café is populair bij studenten.
+erfolgreich:
+  meaning: succesvol
+  example: Ze heeft het examen met succes gehaald.
+dankbar:
+  meaning: dankbaar
+  example: Ik ben je zeer dankbaar.
+humorvoll:
+  meaning: humoristisch, geestig
+  example: Mijn collega is erg humoristisch.
+unruhig:
+  meaning: onrustig
+  example: Het kind slaapt onrustig.
+sich auskennen:
+  meaning: de weg kennen, bekend zijn
+  example: Ik ben niet bekend in de stad.
+sich anstrengen:
+  meaning: zich inspannen
+  example: Je moet je meer inspannen.
+sich einigen:
+  meaning: het eens worden
+  example: We zijn het over een prijs eens geworden.
+sich umdrehen:
+  meaning: zich omdraaien
+  example: Draait u zich alstublieft eens om.
+sich umsehen:
+  meaning: rondkijken, zich omzien
+  example: Ik wil alleen even rondkijken in de winkel.
+besorgen:
+  meaning: halen, kopen
+  example: Ik moet nog melk halen.
+zusagen:
+  meaning: toezeggen, bevestigen
+  example: Hij heeft voor morgen toegezegd.
+ausladen:
+  meaning: afzeggen, uitnodiging intrekken
+  example: We moeten de gasten helaas afzeggen.
+zurückrufen:
+  meaning: terugbellen
+  example: Ik bel u later terug.
+weitergeben:
+  meaning: doorgeven
+  example: Geeft u de informatie alstublieft door.
+weggehen:
+  meaning: uitgaan, weggaan
+  example: In het weekend gaan we vaak uit.
+meinen:
+  meaning: menen, bedoelen
+  example: Ik denk dat dat klopt.
+führen:
+  meaning: leiden, brengen
+  example: De weg leidt naar het station.
+verlassen:
+  meaning: verlaten
+  example: Hij verlaat het kantoor om zes uur.
+verbessern:
+  meaning: verbeteren
+  example: Ik wil mijn Duits verbeteren.
+verbinden:
+  meaning: verbinden
+  example: Verbind me alstublieft met de dokter.
+teilen:
+  meaning: delen
+  example: Wij delen de rekening.
+sterben:
+  meaning: sterven, doodgaan
+  example: Mijn plant sterft zonder water.
+retten:
+  meaning: redden
+  example: De brandweer redt de hond.
+schützen:
+  meaning: beschermen
+  example: Zonnebrandcrème beschermt de huid.
+überlegen:
+  meaning: overwegen, nadenken
+  example: Ik overweeg nog of ik kom.
+erkennen:
+  meaning: herkennen
+  example: Ik herken hem op de foto.
+genießen:
+  meaning: genieten van
+  example: Wij genieten van de rustige avond.
+ausgehen:
+  meaning: uitgaan
+  example: Wij gaan vanavond uit.
+ausschalten:
+  meaning: uitschakelen, uitzetten
+  example: Zet het licht alsjeblieft uit.
+einschalten:
+  meaning: inschakelen, aanzetten
+  example: Zet de televisie alsjeblieft aan.
+auswählen:
+  meaning: uitkiezen, selecteren
+  example: Kies alstublieft een passend cadeau uit.
+aufnehmen:
+  meaning: aannemen, opnemen
+  example: Het bedrijf neemt nieuwe medewerkers aan.
+begleiten:
+  meaning: begeleiden, meegaan met
+  example: Ik begeleid je naar de dokter.
+bieten:
+  meaning: bieden, aanbieden
+  example: Het hotel biedt rustige kamers aan.
+brennen:
+  meaning: branden
+  example: Het vuur brandt in de haard.
+einfallen:
+  meaning: te binnen schieten, invallen
+  example: Het wachtwoord schiet me niet te binnen.
+eintreten:
+  meaning: binnenkomen, binnentreden
+  example: Kom alstublieft zachtjes binnen.
+entstehen:
+  meaning: ontstaan
+  example: Door de regen ontstaat er schade.
+erfinden:
+  meaning: uitvinden
+  example: Hij vindt een nieuwe machine uit.
+feststellen:
+  meaning: vaststellen, constateren
+  example: De arts stelt een allergie vast.
+füllen:
+  meaning: vullen
+  example: Vul water in de fles.
+gelingen:
+  meaning: lukken, slagen
+  example: De cake is me goed gelukt.
+greifen:
+  meaning: grijpen, pakken
+  example: Pak alstublieft het zout.
+klappen:
+  meaning: lukken, werken
+  example: Met jouw hulp lukt het.
+klingen:
+  meaning: klinken
+  example: Dat klinkt als een goed idee.
+leiden:
+  meaning: lijden
+  example: Zij lijdt aan hevige hoofdpijn.
+leihen:
+  meaning: lenen, uitlenen
+  example: Kun je mij je fiets lenen?
+mischen:
+  meaning: mengen, mixen
+  example: Meng de bloem en de suiker.
+pflegen:
+  meaning: verzorgen, onderhouden
+  example: Zij verzorgt haar zieke moeder.
+raten:
+  meaning: adviseren, aanraden
+  example: Ik raad je aan vroeg te slapen.
+rechnen:
+  meaning: rekenen, berekenen
+  example: Wij rekenen op hoge kosten.
+reichen:
+  meaning: voldoende zijn, genoeg zijn
+  example: Het geld is niet genoeg voor de vakantie.
+reinigen:
+  meaning: schoonmaken, reinigen
+  example: Ik maak de keuken grondig schoon.
+schieben:
+  meaning: duwen, schuiven
+  example: Hij schuift de tafel naar de muur.
+senden:
+  meaning: sturen, zenden
+  example: Zij stuurt mij een pakket.
+stoßen:
+  meaning: stoten, botsen
+  example: Ik stoot me aan de tafel.
+träumen:
+  meaning: dromen
+  example: Ik droom van een reis.
+treiben:
+  meaning: doen, drijven
+  example: Wij doen graag aan sport.
+trennen:
+  meaning: scheiden, splitsen
+  example: Scheid alstublieft het afval.
+übersetzen:
+  meaning: vertalen
+  example: Kun je de brief vertalen?
+übertreiben:
+  meaning: overdrijven
+  example: Je overdrijft met je angst.
+vermeiden:
+  meaning: vermijden
+  example: Je moet stress vermijden.
+vermissen:
+  meaning: missen
+  example: Ik mis mijn familie.
+verschwinden:
+  meaning: verdwijnen
+  example: Mijn sleutel is verdwenen.
+versorgen:
+  meaning: verzorgen, voorzien
+  example: Zij verzorgt haar zieke moeder.
+verstecken:
+  meaning: verstoppen, verbergen
+  example: De kat verstopt zich onder de bank.
+verteilen:
+  meaning: verdelen, uitdelen
+  example: De baas verdeelt de taken.
+verwenden:
+  meaning: gebruiken
+  example: Ik gebruik weinig zout bij het koken.
+warnen:
+  meaning: waarschuwen
+  example: De arts waarschuwt voor te veel stress.
+wiegen:
+  meaning: wegen
+  example: Hoeveel weegt dit pakket?
+zunehmen:
+  meaning: aankomen, toenemen
+  example: In de winter kom ik vaak aan.
+der Hinweis:
+  meaning: aanwijzing, tip
+  example: De aanwijzing op het bord helpt.
+der Überblick:
+  meaning: overzicht
+  example: De tabel geeft een goed overzicht.
+der Empfang:
+  meaning: receptie, ontvangst
+  example: De receptie is op de begane grond.
+der Rest:
+  meaning: rest, overige
+  example: De rest breng ik later mee.
+dabei:
+  meaning: daarbij, terwijl
+  example: Hij leest en luistert daarbij naar muziek.
+dafür:
+  meaning: daarvoor
+  example: Daarvoor interesseer ik me heel erg.
+davon:
+  meaning: daarvan
+  example: Daarvan wist ik niets.
+dazu:
+  meaning: daarvoor, daarbij
+  example: Daarvoor heb ik meer tijd nodig.
+daran:
+  meaning: eraan, daaraan
+  example: Ik denk er vaak aan.
+darauf:
+  meaning: daarop, erop
+  example: Daar verheug ik me enorm op.
+stattdessen:
+  meaning: in plaats daarvan
+  example: In plaats daarvan neem ik liever thee.
+zufällig:
+  meaning: toevallig
+  example: Ik heb hem toevallig ontmoet.
+absichtlich:
+  meaning: opzettelijk, expres
+  example: Hij heeft dat opzettelijk gedaan.
+mittlerweile:
+  meaning: inmiddels, ondertussen
+  example: Inmiddels woon ik alleen.
+der Vergleich:
+  meaning: de vergelijking
+  example: De vergelijking toont grote verschillen.
+das Geheimnis:
+  meaning: het geheim
+  example: Zij heeft een geheim.
+der Vorgesetzte:
+  meaning: de leidinggevende, de chef
+  example: Mijn leidinggevende is er vandaag niet.
+die Personalabteilung:
+  meaning: de personeelsafdeling, HR
+  example: De personeelsafdeling controleert mijn documenten.
+die Vollzeit:
+  meaning: fulltime, voltijd
+  example: Zij werkt nu fulltime.
+die Kündigungsfrist:
+  meaning: de opzegtermijn
+  example: De opzegtermijn bedraagt drie maanden.
+der Dauerauftrag:
+  meaning: de doorlopende opdracht
+  example: Ik betaal de huur via een doorlopende opdracht.
+der Kredit:
+  meaning: de lening, het krediet
+  example: De bank geeft hem een lening.
+die Urkunde:
+  meaning: de akte, het certificaat
+  example: De akte ligt in de map.
+der Kassierer:
+  meaning: de kassier
+  example: De kassier geeft me het wisselgeld.
+das Wechselgeld:
+  meaning: het wisselgeld
+  example: Ik heb het wisselgeld niet gekregen.
+der Einkaufszettel:
+  meaning: het boodschappenlijstje
+  example: Ik schrijf een boodschappenlijstje.
+die Einkaufstasche:
+  meaning: de boodschappentas
+  example: Neem een boodschappentas mee.
+das Etikett:
+  meaning: het etiket, het label
+  example: Het etiket toont de prijs.
+das Haltbarkeitsdatum:
+  meaning: de houdbaarheidsdatum
+  example: Controleer de houdbaarheidsdatum op de verpakking.
+der Behälter:
+  meaning: de container, het vat
+  example: De container is nog leeg.
+der Deckel:
+  meaning: het deksel
+  example: Het deksel past niet op de pan.
+das Pfand:
+  meaning: het statiegeld, de borg
+  example: Voor de fles betaal je statiegeld.
+der Eimer:
+  meaning: de emmer
+  example: De emmer staat in de keuken.
+der Schwamm:
+  meaning: de spons
+  example: Neem een spons om te poetsen.
+der Kleiderbügel:
+  meaning: de klerenhanger
+  example: Hang de jas op de klerenhanger.
+die Unterwäsche:
+  meaning: het ondergoed
+  example: Ondergoed vind je op de tweede verdieping.
+der Motor:
+  meaning: de motor
+  example: De motor maakt een hard geluid.
+die Bremse:
+  meaning: de rem
+  example: De rem werkt niet goed.
+der Kofferraum:
+  meaning: de kofferbak
+  example: De koffer past in de kofferbak.
+der Abflug:
+  meaning: het vertrek
+  example: Het vertrek is om acht uur.
+die Landung:
+  meaning: de landing
+  example: De landing was heel op tijd.
+die Sicherheitskontrolle:
+  meaning: de veiligheidscontrole
+  example: De veiligheidscontrole duurt lang.
+der Wagen:
+  meaning: de auto, de wagon
+  example: De auto heeft vier deuren.
+das Handgepäck:
+  meaning: de handbagage
+  example: Mijn handbagage is te zwaar.
+die Einreise:
+  meaning: de inreis, de binnenkomst
+  example: De inreis was probleemloos.
+die Route:
+  meaning: de route
+  example: Deze route is korter.
+das Zelt:
+  meaning: de tent
+  example: We slapen in de tent.
+der Campingplatz:
+  meaning: de camping
+  example: We overnachten op de camping.
+das Knie:
+  meaning: de knie
+  example: Mijn knie doet pijn na het lopen.
+der Ellenbogen:
+  meaning: de elleboog
+  example: Hij heeft zich aan zijn elleboog bezeerd.
+der Zeh:
+  meaning: de teen
+  example: De teen is rood en gezwollen.
+die Hüfte:
+  meaning: de heup
+  example: Zij heeft pijn in haar heup.
+die Verlobung:
+  meaning: de verloving
+  example: We vieren onze verloving in de zomer.
+der Stolz:
+  meaning: de trots
+  example: Zijn trots was gekwetst.
+der Kummer:
+  meaning: het verdriet, de zorgen
+  example: Zij heeft groot verdriet.
+die Hilfsbereitschaft:
+  meaning: de behulpzaamheid
+  example: Zijn behulpzaamheid is indrukwekkend.
+die Neugier:
+  meaning: de nieuwsgierigheid
+  example: Zijn nieuwsgierigheid was sterker.
+die Reihenfolge:
+  meaning: de volgorde
+  example: Houd alstublieft de volgorde aan.
+die Ähnlichkeit:
+  meaning: de gelijkenis
+  example: De gelijkenis is nauwelijks te geloven.
+der Gangplatz:
+  meaning: de gangplaats
+  example: Ik wil graag een gangplaats.
+die Gepäckausgabe:
+  meaning: de bagageband, de bagageafgifte
+  example: We wachten bij de bagageband.
+die Wanderung:
+  meaning: de wandeling, de tocht
+  example: De wandeling duurt drie uur.
+der Besen:
+  meaning: de bezem
+  example: De bezem staat in de hoek.
+die Fliese:
+  meaning: de tegel
+  example: De tegel in de badkamer is kapot.
+aufwachen:
+  meaning: wakker worden
+  example: Ik word elke ochtend om zes uur wakker.
+angeben:
+  meaning: opgeven, aangeven
+  example: Gelieve uw naam aan de balie op te geven.
+ankreuzen:
+  meaning: aankruisen
+  example: Kruis het juiste antwoord aan.
+ausdrucken:
+  meaning: afdrukken, printen
+  example: Ik moet de aanvraag nog afdrukken.
+hochladen:
+  meaning: uploaden
+  example: Upload de foto alstublieft hier.
+anklicken:
+  meaning: aanklikken
+  example: Klik alstublieft op de groene knop.
+sich einloggen:
+  meaning: inloggen
+  example: Ik log in met het wachtwoord.
+sich ausloggen:
+  meaning: uitloggen
+  example: Log aan het eind alstublieft uit.
+einwerfen:
+  meaning: inwerpen, deponeren
+  example: Doe de brief in de brievenbus.
+zustellen:
+  meaning: bezorgen
+  example: Het pakket wordt morgen bezorgd.
+vorlegen:
+  meaning: overleggen, tonen
+  example: Laat uw identiteitsbewijs bij de ingang zien.
+einreichen:
+  meaning: indienen
+  example: Dien de documenten vóór vrijdag in.
+genehmigen:
+  meaning: goedkeuren
+  example: De baas moet de vakantie nog goedkeuren.
+einhalten:
+  meaning: naleven, zich houden aan
+  example: Wij moeten de regels op het werk naleven.
+verhandeln:
+  meaning: onderhandelen
+  example: Het bedrijf onderhandelt met de leverancier.
+braten:
+  meaning: bakken, braden
+  example: Ik bak het vlees in de pan.
+schälen:
+  meaning: schillen
+  example: Schil alstublieft de aardappelen voor het eten.
+würzen:
+  meaning: kruiden
+  example: Je moet de soep beter kruiden.
+abwaschen:
+  meaning: afwassen
+  example: Na het koken moet ik afwassen.
+husten:
+  meaning: hoesten
+  example: Het kind hoest sinds gisteren heel erg.
+trösten:
+  meaning: troosten
+  example: Zij troost haar vriendin na de ruzie.
+verreisen:
+  meaning: op reis gaan, weggaan
+  example: Wij gaan volgende week drie dagen op reis.
+aufmerksam:
+  meaning: aandachtig, oplettend
+  example: Hij luistert altijd heel aandachtig.
+ungeduldig:
+  meaning: ongeduldig
+  example: Wacht even, ik ben zo ongeduldig.
+neidisch:
+  meaning: jaloers, afgunstig
+  example: Zij is jaloers op zijn succes.
+großzügig:
+  meaning: gul, vrijgevig
+  example: Mijn buurman is heel vrijgevig.
+sparsam:
+  meaning: zuinig, spaarzaam
+  example: Zij leeft zuinig en koopt zelden iets nieuws.
+ähnlich:
+  meaning: gelijkend, vergelijkbaar
+  example: De twee kamers lijken sterk op elkaar.
+unterschiedlich:
+  meaning: verschillend, uiteenlopend
+  example: De meningen van de collega's zijn verschillend.
+die Aufregung:
+  meaning: opwinding, onrust
+  example: Voor het examen is de opwinding groot.
+die Kindheit:
+  meaning: kindertijd
+  example: Mijn kindertijd was heel gelukkig.
+die Jugend:
+  meaning: jeugd
+  example: In zijn jeugd speelde hij voetbal.
+die Diele:
+  meaning: hal, gang
+  example: Zet de schoenen alstublieft in de hal.
+die Ärztin:
+  meaning: vrouwelijke arts
+  example: De arts onderzoekt vandaag mijn rug.
+der Notar:
+  meaning: notaris
+  example: De notaris legaliseert onze handtekeningen.
+die Anlage:
+  meaning: bijlage
+  example: De bijlage bij de sollicitatie ontbreekt nog.
+der Zugang:
+  meaning: toegang
+  example: De toegang tot het gebouw is geblokkeerd.
+der Ausblick:
+  meaning: uitzicht
+  example: Vanaf het balkon hebben we een mooi uitzicht.
+die Rundfahrt:
+  meaning: rondrit, sightseeingtour
+  example: De rondrit door de stad duurt twee uur.
+die Durchsage:
+  meaning: omroepbericht, aankondiging
+  example: De omroep op het station was nauwelijks te verstaan.
+das Schicksal:
+  meaning: lot, noodlot
+  example: Niemand kent zijn lot.
+die Grippe:
+  meaning: griep
+  example: Ik heb de griep en blijf in bed.
+die Infektion:
+  meaning: infectie
+  example: De infectie moet snel behandeld worden.
+der Virus:
+  meaning: virus
+  example: Het virus verspreidt zich heel snel.
+die Narbe:
+  meaning: litteken
+  example: Na de operatie blijft een klein litteken over.
+der Gips:
+  meaning: gips, gipsverband
+  example: De arts heeft mijn arm in het gips gelegd.
+die Krücke:
+  meaning: kruk
+  example: Hij loopt na het ongeluk met krukken.
+der Rollstuhl:
+  meaning: rolstoel
+  example: Mijn grootmoeder heeft nu een rolstoel nodig.
+schwindelig:
+  meaning: duizelig
+  example: Ik ben duizelig, ik ga zitten.
+übel:
+  meaning: misselijk
+  example: Na het eten was ik misselijk.
+erkältet:
+  meaning: verkouden
+  example: Ik ben verkouden en blijf vandaag thuis.
+heiser:
+  meaning: hees
+  example: Na het concert was ik helemaal hees.
+die Stärke:
+  meaning: kracht, sterkte
+  example: Geduld is een belangrijke kracht in het werk.
+die Schwäche:
+  meaning: zwakte
+  example: Ieder mens heeft een kleine zwakte.
+die Qualifikation:
+  meaning: kwalificatie
+  example: Voor deze functie mis ik de kwalificatie.
+die Umschulung:
+  meaning: omscholing
+  example: Hij begint in het najaar een nieuwe omscholing.
+die Bereitschaft:
+  meaning: bereidheid
+  example: Haar bereidheid om te helpen is groot.
+die Einigung:
+  meaning: overeenstemming, akkoord
+  example: Na lang ruziën kwam er eindelijk overeenstemming.
+die Versöhnung:
+  meaning: verzoening
+  example: De verzoening met hem was niet makkelijk.
+die Verwandtschaft:
+  meaning: familie, verwanten
+  example: Voor de bruiloft komt de hele familie.
+die Uhrzeit:
+  meaning: tijdstip, uur
+  example: Ken je de exacte tijd?
+das Besteck:
+  meaning: bestek
+  example: Het bestek ligt naast het bord.
+die Energie:
+  meaning: energie
+  example: We moeten energie besparen.
+die Batterie:
+  meaning: batterij
+  example: De batterij van de mobiel is leeg.
+der Laptop:
+  meaning: laptop
+  example: Mijn laptop is vandaag erg langzaam.
+die Schere:
+  meaning: schaar
+  example: De schaar ligt in de la.
+der Hammer:
+  meaning: hamer
+  example: De hamer ligt in de kelder.
+der Nagel:
+  meaning: spijker, nagel
+  example: Ik heb een spijker nodig voor het schilderij.
+die Leiter:
+  meaning: ladder
+  example: De ladder staat in de garage.
+der Stecker:
+  meaning: stekker
+  example: De stekker past niet in het stopcontact.
+die Spüle:
+  meaning: gootsteen, spoelbak
+  example: Het glas staat naast de gootsteen.
+der Ofen:
+  meaning: oven
+  example: De cake zit al in de oven.
+die Waage:
+  meaning: weegschaal
+  example: De weegschaal staat in de badkamer.
+der Umschlag:
+  meaning: envelop
+  example: De brief zit nog in de envelop.
+das Blatt:
+  meaning: vel papier, blad
+  example: Pak alsjeblieft een nieuw vel papier.
+die Landkarte:
+  meaning: landkaart, kaart
+  example: Op de landkaart vind je het meer.
+die Landstraße:
+  meaning: landweg
+  example: We rijden over de landweg naar het dorp.
+die Ausfahrt:
+  meaning: afrit, uitgang
+  example: Neem de volgende afrit.
+der Stiefel:
+  meaning: laars
+  example: In de winter draag ik warme laarzen.
+der Reißverschluss:
+  meaning: rits, ritssluiting
+  example: De rits van mijn jas is kapot.
+die Umkleidekabine:
+  meaning: pashokje, kleedkamer
+  example: Het pashokje is helaas bezet.
+die Zitrone:
+  meaning: citroen
+  example: Ik heb een citroen nodig voor de salade.
+die Birne:
+  meaning: peer
+  example: De peer is rijp en zoet.
+der Senf:
+  meaning: mosterd
+  example: Bij de worst eet ik graag mosterd.
+der Spinat:
+  meaning: spinazie
+  example: Spinazie is gezond en erg lekker.
+der Lachs:
+  meaning: zalm
+  example: Ik koop vandaag verse zalm.
+die Haferflocken:
+  meaning: havervlokken
+  example: Bij het ontbijt eet ik havervlokken met melk.
+das Mineralwasser:
+  meaning: mineraalwater
+  example: Ik wil graag een mineraalwater, alstublieft.
+die Migräne:
+  meaning: migraine
+  example: Bij migraine helpt soms alleen rust.
+die Zahnseide:
+  meaning: tandzijde, flosdraad
+  example: Ik gebruik elke avond tandzijde.
+das Deo:
+  meaning: deodorant
+  example: De deodorant staat in de badkamer.
+der Berater:
+  meaning: adviseur, consulent
+  example: De adviseur helpt me bij de aanvraag.
+das Bürgerbüro:
+  meaning: burgerloket, gemeenteloket
+  example: Het burgerloket is vandaag gesloten.
+das Anschreiben:
+  meaning: begeleidende brief, sollicitatiebrief
+  example: De begeleidende brief is helaas te lang.
+die Bewerbungsfrist:
+  meaning: sollicitatietermijn
+  example: De sollicitatietermijn eindigt op vrijdag.
+die Rate:
+  meaning: termijn, aflossing
+  example: We betalen de auto in termijnen.
+die Zinsen:
+  meaning: rente
+  example: De rente voor de lening is hoog.
+die Schwierigkeit:
+  meaning: moeilijkheid, probleem
+  example: Ik heb moeite met het formulier.
+der Gewinn:
+  meaning: winst, opbrengst
+  example: De winst komt de school ten goede.
+die Form:
+  meaning: vorm
+  example: De cake heeft een ronde vorm.
+der Geruch:
+  meaning: geur, lucht
+  example: De geur uit de keuken is lekker.
+der Toaster:
+  meaning: toaster
+  example: De toaster is helaas kapot.
+das Tablett:
+  meaning: dienblad
+  example: De ober brengt ons het dienblad.
+der Dosenöffner:
+  meaning: blikopener
+  example: De blikopener ligt in de la.
+der Korkenzieher:
+  meaning: kurkentrekker
+  example: Heb je een kurkentrekker voor de wijn?
+das Schneidebrett:
+  meaning: snijplank
+  example: De snijplank ligt naast het fornuis.
+das Backblech:
+  meaning: bakplaat
+  example: De bakplaat zit al in de oven.
+der Mixer:
+  meaning: blender, mixer
+  example: De blender maakt het sap fijn.
+das Sieb:
+  meaning: zeef
+  example: Ik heb een zeef nodig voor de thee.
+die Kultur:
+  meaning: cultuur
+  example: Ik interesseer me voor andere culturen.
+die Religion:
+  meaning: religie, godsdienst
+  example: Religie speelt voor hem geen rol.
+der Glaube:
+  meaning: geloof
+  example: Het geloof geeft haar kracht.
+die Wirtschaft:
+  meaning: economie
+  example: De economie heeft goed opgeleide vakmensen nodig.
+die Wissenschaft:
+  meaning: wetenschap
+  example: De wetenschap zoekt naar een oplossing.
+die Forschung:
+  meaning: onderzoek
+  example: Het onderzoek helpt de geneeskunde.
+die Technik:
+  meaning: techniek, technologie
+  example: De techniek maakt het leven makkelijker.
+das Publikum:
+  meaning: publiek
+  example: Het publiek klapte lang en luid.
+die Aufführung:
+  meaning: voorstelling, uitvoering
+  example: De voorstelling begint om acht uur.
+die Sehnsucht:
+  meaning: verlangen
+  example: Ze verlangt naar haar familie.
+die Zuneigung:
+  meaning: genegenheid, affectie
+  example: Kleine gebaren tonen vaak genegenheid.
+das Team:
+  meaning: team
+  example: Het team werkt goed samen.
+der Angestellte:
+  meaning: de werknemer, employé
+  example: De werknemer werkt op kantoor.
+die Rückmeldung:
+  meaning: feedback, reactie
+  example: Ik wacht nog op uw reactie.
+die Anweisung:
+  meaning: instructie, aanwijzing
+  example: Volg de instructies van de baas.
+der Praktikant:
+  meaning: de stagiair
+  example: De stagiair leert in het bedrijf.
+die Motivation:
+  meaning: motivatie
+  example: De motivatie van de medewerkers is gedaald.
+die Flexibilität:
+  meaning: flexibiliteit
+  example: Flexibiliteit wordt op het werk verwacht.
+der Zeitdruck:
+  meaning: tijdsdruk
+  example: Onder tijdsdruk maak ik fouten.
+die Gehaltsverhandlung:
+  meaning: salarisonderhandeling
+  example: De salarisonderhandeling was succesvol.
+die Arbeitsagentur:
+  meaning: arbeidsbureau
+  example: Het arbeidsbureau helpt bij het zoeken naar werk.
+die Rücksprache:
+  meaning: overleg, afstemming
+  example: Overleg dit alstublieft van tevoren.
+die Teamfähigkeit:
+  meaning: teamvaardigheid
+  example: Teamvaardigheid is belangrijk in het werk.
+der Lieferant:
+  meaning: leverancier
+  example: De leverancier brengt de goederen vandaag.
+der Liefertermin:
+  meaning: leverdatum
+  example: De leverdatum is uitgesteld.
+die Entlassung:
+  meaning: ontslag
+  example: Het ontslag kwam voor hem onverwacht.
+die Selbstständigkeit:
+  meaning: zelfstandig ondernemerschap
+  example: Ze droomt van een eigen bedrijf.
+die Mahnung:
+  meaning: betalingsherinnering, aanmaning
+  example: De aanmaning kwam per post.
+der Vorgang:
+  meaning: zaak, proces
+  example: De zaak wordt nog behandeld.
+die Bearbeitung:
+  meaning: verwerking, behandeling
+  example: De verwerking duurt enkele dagen.
+die Erstattung:
+  meaning: terugbetaling, vergoeding
+  example: De terugbetaling gaat naar uw rekening.
+der Einspruch:
+  meaning: bezwaar
+  example: Hij maakte bezwaar tegen de beschikking.
+das Porto:
+  meaning: portokosten, port
+  example: De portokosten voor de brief zijn gestegen.
+die Mappe:
+  meaning: map
+  example: De documenten zitten in de map.
+der Kopierer:
+  meaning: kopieerapparaat
+  example: Het kopieerapparaat werkt vandaag niet.
+der Scanner:
+  meaning: scanner
+  example: De scanner herkent de tekst niet.
+das Fax:
+  meaning: fax
+  example: Ik stuur het formulier per fax.
+der Tacker:
+  meaning: nietmachine
+  example: De nietmachine ligt in het bureau.
+der USB-Stick:
+  meaning: USB-stick
+  example: Sla het bestand op de USB-stick op.
+die Bestellnummer:
+  meaning: bestelnummer
+  example: Het bestelnummer staat op de factuur.
+die Lieferadresse:
+  meaning: leveradres
+  example: Geef alstublieft het leveradres op.
+der Kundendienst:
+  meaning: klantenservice
+  example: De klantenservice helpt bij problemen.
+der Sonderpreis:
+  meaning: actieprijs, speciale prijs
+  example: Vandaag is er een actieprijs.
+der Ausverkauf:
+  meaning: uitverkoop, opruiming
+  example: In de uitverkoop is alles goedkoper.
+der Ladenschluss:
+  meaning: sluitingstijd
+  example: Kort voor sluitingstijd is het rustig.
+die Kundenkarte:
+  meaning: klantenkaart
+  example: Met de klantenkaart krijgt u korting.
+der Pfandautomat:
+  meaning: statiegeldautomaat
+  example: De statiegeldautomaat neemt geen flessen aan.
+der Vorrat:
+  meaning: voorraad
+  example: We hebben een voorraad pasta.
+der Strohhalm:
+  meaning: rietje
+  example: Het kind drinkt met een rietje.
+der Ketchup:
+  meaning: ketchup
+  example: Hij eet patat met ketchup.
+die Mayonnaise:
+  meaning: mayonaise
+  example: Ik houd niet van mayonaise op de salade.
+der Trockner:
+  meaning: droger
+  example: De was zit nog in de droger.
+die Reinigung:
+  meaning: stomerij, reiniging
+  example: Ik breng de jas naar de stomerij.
+die Wäscherei:
+  meaning: wasserij
+  example: De wasserij is vandaag gesloten.
+das Wartezimmer:
+  meaning: wachtkamer
+  example: In de wachtkamer zitten veel patiënten.
+die Nebenwirkung:
+  meaning: bijwerking
+  example: Het medicijn heeft geen bijwerkingen.
+der Befund:
+  meaning: uitslag, onderzoeksresultaat
+  example: De arts bespreekt de uitslag met mij.
+die Zahnspange:
+  meaning: beugel
+  example: Ze draagt al een jaar een beugel.
+der Anschlusszug:
+  meaning: aansluitende trein
+  example: De aansluitende trein vertrekt over tien minuten.
+der Fahrkartenautomat:
+  meaning: kaartjesautomaat
+  example: Bij de kaartjesautomaat kocht ze een ticket.
+die Endstation:
+  meaning: eindstation
+  example: We stappen uit bij het eindstation.
+der Umweg:
+  meaning: omweg
+  example: Door de bouwwerkzaamheden maakten we een omweg.
+die Strecke:
+  meaning: route, afstand
+  example: De route naar Berlijn is lang.
+der Passagier:
+  meaning: passagier
+  example: De passagiers wachten bij de gate.
+der Parkautomat:
+  meaning: parkeerautomaat
+  example: De parkeerautomaat neemt alleen munten.
+die Ferien:
+  meaning: vakantie
+  example: In de vakantie gaan we naar de zee.
+die Wettervorhersage:
+  meaning: weersvoorspelling
+  example: De weersvoorspelling meldt regen.
+der Grad:
+  meaning: graad
+  example: Vandaag is het tien graden.
+die Bevölkerung:
+  meaning: bevolking
+  example: De bevolking van de stad groeit.
+die Öffentlichkeit:
+  meaning: openbaarheid, publiek
+  example: Het evenement is voor het publiek.
+die Anerkennung:
+  meaning: erkenning, waardering
+  example: Ze kreeg veel erkenning voor haar werk.
+vorsichtig:
+  meaning: voorzichtig
+  example: Wees voorzichtig op de natte trap.
+ansehen:
+  meaning: kijken naar, bekijken
+  example: We kijken vandaag een film.
+beide:
+  meaning: beide
+  example: Beide kinderen gaan al naar school.
+unterwegs:
+  meaning: onderweg
+  example: Ik ben vandaag de hele dag onderweg.
+zuständig:
+  meaning: verantwoordelijk, bevoegd
+  example: Wie is verantwoordelijk voor de aanvraag?
+klären:
+  meaning: ophelderen, verduidelijken
+  example: We moeten de vraag nog ophelderen.
+melden:
+  meaning: melden, zich melden
+  example: Meld u alstublieft bij de receptie.
+abschicken:
+  meaning: versturen, opsturen
+  example: Ik stuur het pakket morgen op.
+erwähnen:
+  meaning: vermelden, noemen
+  example: Hij heeft het probleem niet genoemd.
+hinweisen:
+  meaning: wijzen op
+  example: Hij wijst op de deadline.
+überzeugen:
+  meaning: overtuigen
+  example: Zijn argumenten hebben mij overtuigd.
+verursachen:
+  meaning: veroorzaken
+  example: Het lawaai veroorzaakt bij mij stress.
+schätzen:
+  meaning: waarderen, schatten
+  example: Ik waardeer je hulp zeer.
+lächeln:
+  meaning: glimlachen
+  example: Ze glimlacht altijd vriendelijk.
+nachschauen:
+  meaning: nakijken, opzoeken
+  example: Kijk even in de agenda.
+vorbeikommen:
+  meaning: langskomen, langsgaan
+  example: Kom morgen gerust bij ons langs.
+zusammenfassen:
+  meaning: samenvatten
+  example: Vat de tekst kort samen.
+durchführen:
+  meaning: uitvoeren
+  example: We nemen morgen het examen af.
+bevorzugen:
+  meaning: verkiezen, voorkeur geven aan
+  example: Ik geef de voorkeur aan de trein.
+entsorgen:
+  meaning: weggooien, afvoeren
+  example: Gooi het afval alstublieft op de juiste manier weg.
+erfahren:
+  meaning: te weten komen, ervaren
+  example: Ik heb van het ongeluk gehoord.
+beibringen:
+  meaning: bijbrengen, leren
+  example: Hij leert mij Duits.
+wenden:
+  meaning: zich wenden tot, draaien
+  example: Neem contact op met het kantoor.
+ansprechen:
+  meaning: aanspreken
+  example: Spreek de baas direct aan.
+technisch:
+  meaning: technisch
+  example: Het probleem is technisch.
+digital:
+  meaning: digitaal
+  example: Veel aanvragen zijn nu digitaal.
+jederzeit:
+  meaning: op elk moment, altijd
+  example: U kunt op elk moment bellen.
+zurzeit:
+  meaning: momenteel, op dit moment
+  example: Momenteel zoek ik een nieuw huis.
+irgendein:
+  meaning: een of ander
+  example: Een of andere medewerker heeft gebeld.
+solch:
+  meaning: zulk, dergelijk
+  example: Zulke problemen hebben we vaak.
+dauernd:
+  meaning: voortdurend, constant
+  example: Hij is voortdurend ziek.
+süchtig:
+  meaning: verslaafd
+  example: Hij is verslaafd aan koffie.
+die Bildung:
+  meaning: onderwijs, vorming
+  example: Onderwijs is belangrijk voor de toekomst.
+die Kommunikation:
+  meaning: communicatie
+  example: Goede communicatie is belangrijk in het team.
+der Arbeitsmarkt:
+  meaning: arbeidsmarkt
+  example: De arbeidsmarkt is momenteel moeilijk.
+die Verwaltung:
+  meaning: administratie, beheer
+  example: De administratie is op de eerste verdieping.
+der Staat:
+  meaning: staat
+  example: De staat betaalt veel scholen.
+die Regierung:
+  meaning: regering
+  example: De regering heeft een nieuwe regel aangenomen.
+die Vorschrift:
+  meaning: voorschrift, regel
+  example: Dit voorschrift geldt voor iedereen.
+die Gemeinde:
+  meaning: gemeente
+  example: De gemeente bouwt een nieuw zwembad.
+die Generation:
+  meaning: generatie
+  example: Mijn generatie denkt anders over technologie.
+die Persönlichkeit:
+  meaning: persoonlijkheid
+  example: Ze heeft een sterke persoonlijkheid.
+die Leidenschaft:
+  meaning: passie
+  example: Ze kookt met grote passie.
+die Kreativität:
+  meaning: creativiteit
+  example: Voor dit werk heb je creativiteit nodig.
+die Armut:
+  meaning: armoede
+  example: Armoede is een groot probleem.
+der Reichtum:
+  meaning: rijkdom
+  example: Rijkdom maakt niet altijd gelukkig.
+der Klimawandel:
+  meaning: klimaatverandering
+  example: De klimaatverandering treft alle landen.
+der Service:
+  meaning: service, bediening
+  example: De service in het hotel was goed.
+die Beilage:
+  meaning: bijgerecht
+  example: Als bijgerecht eet ik een salade.
+der Vegetarier:
+  meaning: vegetariër
+  example: Mijn broer is vegetariër.
+der Wochenmarkt:
+  meaning: weekmarkt
+  example: Op zaterdag ga ik naar de weekmarkt.
+der Metzger:
+  meaning: slager
+  example: De slager heeft vers vlees.
+die Traube:
+  meaning: druif
+  example: De druiven zijn erg zoet.
+die Zunge:
+  meaning: tong
+  example: Ik heb op mijn tong gebeten.
+die Lippe:
+  meaning: lip
+  example: Mijn lippen zijn helemaal droog.
+die Stirn:
+  meaning: voorhoofd
+  example: Hij heeft pijn aan zijn voorhoofd.
+heilen:
+  meaning: genezen
+  example: De wond geneest heel snel.
+die Mitfahrgelegenheit:
+  meaning: meerijgelegenheid, lift
+  example: Ik zoek een meerijgelegenheid naar Berlijn.
+der Mitfahrer:
+  meaning: medepassagier, meerijder
+  example: De medepassagier was te laat.
+die Heimreise:
+  meaning: thuisreis, terugreis
+  example: De terugreis was erg vermoeiend.
